@@ -9,5 +9,5 @@ api has many useful features to make data management easier
 api gets the data from file loaded in vps. vps stores data in csv after being created by python.
 
 ## todo
-- use arelle
+- parse xbrl
 - fix form 6-k (foreign companies ex. TSM)

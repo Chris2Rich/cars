@@ -1,5 +1,7 @@
 import requests
 import json
+import time
+from lxml import etree
 
 file = open("data\\ticker_to_cik.json", "r")
 ticker_to_cik = json.load(file)
@@ -22,15 +24,21 @@ def search_cik(ticker: str) -> list:
 
     res = list(filter(lambda x: None if x["link"][-1] == "/" else x, res))
     for i in range(len(res)):
+        time.sleep(0.2)
         response = requests.get(res[i]["link"], headers=headers)
         if response.status_code == 200:
-            data = response.text
-            res[i].update({"data": data})
-            print("Success at reading file:", i)
+            try:
+                res[i].update({"xbrl": list(filter(None, [(el.tag, el.text, el.attrib) if "html" not in el.tag else None for el in etree.fromstring(response.content).iter()]))})
+                print("Success at downloading file:", i)
+            except Exception as e:
+                print("Failure at parsing xbrl", res[i])
         else:
-            print("Failure at reading file:", i)
+            print("Failure at downloading file:", i)
     return res
 
-res = search_cik("intc")
-print(res[0]["data"])
+res = search_cik("aapl")
 print("Done")
+
+# targ = res[0]["xbrl"]
+# for i in targ:
+#     print(i)
