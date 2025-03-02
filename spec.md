@@ -10,3 +10,4 @@ api gets the data from file loaded in vps. vps stores data in csv after being cr
 
 no xbrl - inline vs not inline is irritating. easier to pass html as RAG
 ## todo
+- gather analyst reports over time + options chain the week before each filing
