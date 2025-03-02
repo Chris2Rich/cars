@@ -8,6 +8,5 @@ shows and displays data in browser - hosted on vercel, gets data from api on req
 api has many useful features to make data management easier
 api gets the data from file loaded in vps. vps stores data in csv after being created by python.
 
+no xbrl - inline vs not inline is irritating. easier to pass html as RAG
 ## todo
-- parse xbrl
-- fix form 6-k (foreign companies ex. TSM)
