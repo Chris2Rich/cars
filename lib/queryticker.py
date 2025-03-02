@@ -1,6 +1,7 @@
 import requests
 import json
 import time
+import re
 from lxml import etree
 import sys
 
@@ -26,11 +27,11 @@ def search_cik(ticker: str) -> list:
         res += [{"link": f"https://www.sec.gov/Archives/edgar/data/{cik}/{data.get('accessionNumber', {})[i].replace('-', '')}/{data.get('primaryDocument', {})[i]}", "date": data.get("reportDate", {})[i], "type": data.get("primaryDocDescription", {})[i]} for i, x in enumerate(data.get("primaryDocDescription", {})) if "10-K" in x or "10-Q" in x]
 
     res = list(filter(lambda x: None if x["link"][-1] == "/" else x, res))
-    for i in range(len(res)):
+    for i in range(1):#len(res)):
         time.sleep(0.2)
         response = requests.get(res[i]["link"], headers=headers)
         if response.status_code == 200:
-            res[i].update({"data": response.content.decode("utf-8")})
+            res[i].update({"data": re.sub(r" style=\".*?\"", "", response.content.decode("utf-8"), 0, re.MULTILINE)})
             print("Success at downloading file:", i)
         else:
             print("Failure at downloading file:", i)
