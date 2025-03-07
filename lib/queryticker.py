@@ -2,7 +2,6 @@ import requests
 import json
 import time
 import re
-from lxml import etree
 import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
