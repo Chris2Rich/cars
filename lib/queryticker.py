@@ -39,4 +39,7 @@ def search_cik(ticker: str) -> list:
 res = search_cik("aapl")
 print("Done")
 
-print(res[0])
+for i in res:
+    if i["type"] == "10-K":
+        print(i)
+        break
