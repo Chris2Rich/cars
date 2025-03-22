@@ -31,15 +31,6 @@ def search_cik(ticker: str) -> list:
         response = requests.get(res[i]["link"], headers=headers)
         if response.status_code == 200:
             res[i].update({"data": re.sub(r" style=\".*?\"", "", response.content.decode("utf-8"), 0, re.MULTILINE)})
-            print("Success at downloading file:", i)
         else:
             print("Failure at downloading file:", i)
     return res
-
-res = search_cik("aapl")
-print("Done")
-
-for i in res:
-    if i["type"] == "10-K":
-        print(i)
-        break
