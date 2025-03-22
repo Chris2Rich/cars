@@ -48,7 +48,7 @@ Provide the computed values clearly labeled for each metric."""
 
 def queryllm_extract10k(query: str):
   response = client.models.generate_content(
-    model="gemini-2.0-flash",
+    model="gemini-2.0-flash-lite",
     contents=query,
     config=types.GenerateContentConfig(
       temperature=0,
