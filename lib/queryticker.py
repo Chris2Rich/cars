@@ -6,10 +6,6 @@ import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-file = open("data\\ticker_to_cik.json", "r")
-ticker_to_cik = json.load(file)
-file.close()
-
 def search_cik(ticker: str) -> list:
     cik = "0" * (10 - len(str(ticker_to_cik[ticker.upper()]["cik"]))) + str(ticker_to_cik[ticker.upper()]["cik"])
     headers = {"User-Agent": "CZ (cz07business@gmail.com)"}
