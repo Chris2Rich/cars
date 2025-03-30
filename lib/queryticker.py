@@ -26,7 +26,7 @@ def search_cik(ticker: str) -> list:
         res += [{"link": f"https://www.sec.gov/Archives/edgar/data/{cik}/{data.get('accessionNumber', {})[i].replace('-', '')}/{data.get('primaryDocument', {})[i]}", "date": data.get("reportDate", {})[i], "type": data.get("primaryDocDescription", {})[i]} for i, x in enumerate(data.get("primaryDocDescription", {})) if "10-K" in x or "10-Q" in x]
 
     res = list(filter(lambda x: None if x["link"][-1] == "/" else x, res))
-    for i in range(len(res)):
+    for i in range(3):
         time.sleep(0.2)
         response = requests.get(res[i]["link"], headers=headers)
         if response.status_code == 200:
