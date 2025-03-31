@@ -39,12 +39,18 @@ def scrape_models(make):
     time.sleep(1)
 
     selector = Select(driver.find_element(By.ID, "model"))
-    for i in range(len(selector.options)):
+    for i in range(0,len(selector.options)):
         time.sleep(1)
         selector.select_by_index(i)
-        data[make].append((selector.options[i].text, driver.find_elements(By.XPATH, "//*[@id='aggregated_trim']/*")))
+        time.sleep(2)
+        trim_container = driver.find_element(By.ID, "aggregated_trim")
+        trims = []
+        if trim_container.is_enabled():
+            trim_selector = Select(trim_container).options
+            for j in trim_selector:
+                trims.append(j.get_attribute("value"))
+        data[make].append({selector.options[i].get_attribute("value") : trims})
         
-    time.sleep(5)
     driver.quit()
 
 headers = {"User-Agent": "CZ (cz07business@gmail.com)"}
@@ -52,5 +58,6 @@ headers = {"User-Agent": "CZ (cz07business@gmail.com)"}
 for i in brands:
     time.sleep(2)
     scrape_models(i)
-    print(f"scraped {i},\n{data[i]}")
-    break
+file = open(f"data/car_models.json", "w")
+file.writelines(json.dumps(data))
+file.close()
