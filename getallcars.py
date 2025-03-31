@@ -53,8 +53,6 @@ def scrape_models(make):
         
     driver.quit()
 
-headers = {"User-Agent": "CZ (cz07business@gmail.com)"}
-
 for i in brands:
     time.sleep(2)
     scrape_models(i)
