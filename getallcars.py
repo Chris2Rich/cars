@@ -1,18 +1,15 @@
-import requests
 import json
-import re
 import time
-import re
-import sys
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 
-brands = ["Abarth", "AC", "AK", "Alfa Romeo", "Alpine", "Alvis", "Ariel", "Aston Martin", "Audi", "Austin", "BAC", "Beauford", "Bentley", "BMW", "Bramwith", "Bristol", "Bugatti", "Buick", "BYD", "Cadillac", "Caterham", "Chesil", "Chevrolet", "Chrysler", "Citroen", "Corbin", "Corvette", "CUPRA", "Dacia", "Daewoo", "Daihatsu", "Daimler", "Datsun", "Dax", "DFSK", "Dodge", "DS AUTOMOBILES", "E-COBRA", "Ferrari", "Fiat", "Fisker", "Ford", "Gardner Douglas", "Garia", "Genesis", "GMC", "Great Wall", "GWM", "Hillman", "Honda", "Hummer", "Hyundai", "INEOS", "Infiniti", "ISO", "Isuzu", "Iveco", "JAECOO", "Jaguar", "JBA", "Jeep", "Jensen", "KGM", "Kia", "Koenigsegg", "Lada", "Lamborghini", "Lancia", "Land Rover", "Leapmotor", "LEVC", "Lexus", "Leyland", "Lincoln", "Lister", "London Taxis International", "Lotus", "Mahindra", "Marcos", "Maserati", "MAXUS", "Maybach", "Mazda", "McLaren", "Mercedes-Benz", "Mercury", "MG", "Micro", "Microcar", "MINI", "Mitsubishi", "Mitsuoka", "MK", "MOKE", "Morgan", "Morris", "Nardini", "NG", "Nissan", "Noble", "Omoda", "Opel", "Panther", "Perodua", "Peugeot", "Pilgrim", "Plymouth", "Polestar", "Pontiac", "Porsche", "Proton", "Radical", "Ram", "Reliant", "Renault", "Riley", "Robin Hood", "Rolls-Royce", "Rover", "Saab", "SEAT", "Secma", "Shelby", "Skoda", "Skywell", "Smart", "SsangYong", "Studebaker", "Subaru", "Suzuki", "Tesla", "Toyota", "Triumph", "TVR", "Ultima", "Vauxhall", "Volkswagen", "Volvo", "Westfield", "Yamaha", "Zenos"]
+brands = ["Abarth", "AC", "AK", "Alfa%20Romeo", "Alpine", "Alvis", "Ariel", "Aston%20Martin", "Audi", "Austin", "BAC", "Beauford", "Bentley", "BMW", "Bramwith", "Bristol", "Bugatti", "Buick", "BYD", "Cadillac", "Caterham", "Chesil", "Chevrolet", "Chrysler", "Citroen", "Corbin", "Corvette", "CUPRA", "Dacia", "Daewoo", "Daihatsu", "Daimler", "Datsun", "Dax", "DFSK", "Dodge", "DS%20AUTOMOBILES", "E-COBRA", "Ferrari", "Fiat", "Fisker", "Ford", "Gardner%20Douglas", "Garia", "Genesis", "GMC", "Great%20Wall", "GWM", "Hillman", "Honda", "Hummer", "Hyundai", "INEOS", "Infiniti", "ISO", "Isuzu", "Iveco", "JAECOO", "Jaguar", "JBA", "Jeep", "Jensen", "KGM", "Kia", "Koenigsegg", "Lada", "Lamborghini", "Lancia", "Land%20Rover", "Leapmotor", "LEVC", "Lexus", "Leyland", "Lincoln", "Lister", "London%20Taxis%20International", "Lotus", "Mahindra", "Marcos", "Maserati", "MAXUS", "Maybach", "Mazda", "McLaren", "Mercedes-Benz", "Mercury", "MG", "Micro", "Microcar", "MINI", "Mitsubishi", "Mitsuoka", "MK", "MOKE", "Morgan", "Morris", "Nardini", "NG", "Nissan", "Noble", "Omoda", "Opel", "Panther", "Perodua", "Peugeot", "Pilgrim", "Plymouth", "Polestar", "Pontiac", "Porsche", "Proton", "Radical", "Ram", "Reliant", "Renault", "Riley", "Robin%20Hood", "Rolls-Royce", "Rover", "Saab", "SEAT", "Secma", "Shelby", "Skoda", "Skywell", "Smart", "SsangYong", "Studebaker", "Subaru", "Suzuki", "Tesla", "Toyota", "Triumph", "TVR", "Ultima", "Vauxhall", "Volkswagen", "Volvo", "Westfield", "Yamaha", "Zenos"]
 
-data = {i:[] for i in brands}
+models = {i:[] for i in brands}
+reviews = {i:[] for i in brands}
 
 def scrape_models(make):
     url = f"https://www.autotrader.co.uk/car-search?make={make}&postcode=NG15GA"
@@ -28,7 +25,7 @@ def scrape_models(make):
     time.sleep(2)
 
     driver.switch_to.default_content()
-    button = driver.find_element(By.XPATH, "//button[text()='Filter and sort']")
+    button = driver.find_element(By.XPATH, "//button[text()='Filter%20and%20sort']")
     button.click()
 
     time.sleep(2)
@@ -49,7 +46,18 @@ def scrape_models(make):
             trim_selector = Select(trim_container).options
             for j in trim_selector:
                 trims.append(j.get_attribute("value"))
-        data[make].append({selector.options[i].get_attribute("value") : trims})
+        models[make].append({selector.options[i].get_attribute("value") : trims})
+        
+    driver.quit()
+
+def scrape_reviews(make):
+    url = f"https://www.autotrader.co.uk/content/car-reviews?make={make}&refresh=true"
+    driver = webdriver.Chrome()  # Ensure you have chromedriver installed
+    driver.get(url)
+    time.sleep(2)  # Allow the page to load
+
+    articles = [i for i in driver.find_elements(By.TAG_NAME, "a") if "/content/car-reviews" in i.get_attribute("href")]
+    reviews[make].append(articles)
         
     driver.quit()
 
@@ -57,5 +65,5 @@ for i in brands:
     time.sleep(2)
     scrape_models(i)
 file = open(f"data/car_models.json", "w")
-file.writelines(json.dumps(data))
+file.writelines(json.dumps(models))
 file.close()
