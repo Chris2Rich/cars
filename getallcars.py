@@ -68,7 +68,7 @@ def scrape_reviews(make):
         driver.quit()
         return
 
-    articles = [requests.get(i.get_attribute("href"), headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" }).text for i in driver.find_elements(By.TAG_NAME, "a") if "car-reviews" in i.get_attribute("href")]
+    articles = [requests.get(i.get_attribute("href"), headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"}).text for i in driver.find_elements(By.TAG_NAME, "a") if "car-reviews" in i.get_attribute("href")]
     reviews[make] = (articles)
         
     driver.quit()
