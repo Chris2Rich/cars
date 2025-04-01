@@ -7,6 +7,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
 sys.stdout.reconfigure(encoding='utf-8')
 
@@ -17,7 +19,12 @@ reviews = {i:[] for i in brands}
 
 def scrape_models(make):
     url = f"https://www.autotrader.co.uk/car-search?make={make}&postcode=NG15GA"
-    driver = webdriver.Chrome()
+
+    options = webdriver.ChromeOptions()
+    options.add_argument("--disable-gpu")
+    options.add_argument("--no-sandbox")
+
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.get(url)
     time.sleep(2)
 
@@ -59,9 +66,14 @@ def scrape_models(make):
 
 def scrape_reviews(make):
     url = f"https://www.autotrader.co.uk/content/car-reviews?make={make}&refresh=true"
-    driver = webdriver.Chrome()  # Ensure you have chromedriver installed
+
+    options = webdriver.ChromeOptions()
+    options.add_argument("--disable-gpu")
+    options.add_argument("--no-sandbox")
+
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.get(url)
-    time.sleep(2)  # Allow the page to load
+    time.sleep(2)
 
     if make not in driver.current_url:
         reviews[make] = []
