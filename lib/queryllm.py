@@ -67,8 +67,7 @@ class car_variables(BaseModel):
     electric_range_mi: float 
     charge_speed_kw: float 
 
-system_prompt_car_rate = """"
-"""
+system_prompt_car_rate = """"You are a car sales assistant designed to evaluate car models based on the parameters given to you. You are very experienced in analysing modern, classic, sporty, luxury, economy, infact, ANY car. You are evaluating based on your own acquired taste as well as the general consensus of consumers. Your job is to use the provided material to make the customer happy. Be considerate as you could see HUGE bonuses of everything goes to plan."""
 
 def queryllm_evaluate_model():
   response = client.models.generate_content(
