@@ -15,7 +15,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 brands = ["Abarth", "AC", "Alfa Romeo", "Alpine", "Ariel", "Aston Martin", "Audi", "Austin", "Bentley", "BMW", "Bugatti", "Buick", "BYD", "Cadillac", "Caterham", "Chevrolet", "Chrysler", "Citroen", "CUPRA", "Dacia", "Daimler", "Dodge", "DS AUTOMOBILES", "Ferrari", "Fiat", "Fisker", "Ford", "Gardner Douglas", "Genesis", "GWM", "Honda", "Hummer", "Hyundai", "INEOS", "Infiniti", "Isuzu", "JAECOO", "Jaguar",  "Jeep", "KGM", "Kia", "Koenigsegg", "Lamborghini", "Lancia", "Land Rover", "Leapmotor", "LEVC", "Lexus", "Lincoln", "London Taxis International", "Lotus", "Maserati", "MAXUS", "Maybach", "Mazda", "McLaren", "Mercedes-Benz", "MG", "Micro", "MINI", "Mitsubishi", "Morgan", "Morris", "Nissan", "Noble", "Omoda", "Peugeot", "Pilgrim", "Plymouth", "Polestar", "Pontiac", "Porsche", "Renault", "Rolls-Royce", "Saab", "SEAT", "Shelby", "Skoda", "Skywell", "Smart", "SsangYong", "Subaru", "Suzuki", "Tesla", "Toyota", "Triumph", "TVR", "Ultima", "Vauxhall", "Volkswagen", "Volvo"]
 
-def queryyt(model: list):
+topics = ["comfortable", "useability", "sport", "reliability"]
+
+def queryyt(model: list, topic: str):
     ydl_opts = {
         "quiet": True,
         "extract_flat": False,
@@ -24,22 +26,23 @@ def queryyt(model: list):
             {
             "key": "FFmpegExtractAudio",
             "preferredcodec": "mp3",
-            "preferredquality": "128",
+            "preferredquality": "64",
             }
     ],
-        "outtmpl": f"data/car_videos/{'_'.join(model)[::-1]}.mp3",
+        "outtmpl": f"data/car_videos/{'/'.join(model[:-1])+'/'+topic}/%(autonumber)02d",
     }
 
     try:
         ydl = yt_dlp.YoutubeDL(ydl_opts)
-        ydl.extract_info("ytsearch5:" + " ".join(model), download=True)
-        print(f"Scraped videos {model}")
+        ydl.extract_info(f"ytsearch8: {''.join(model)} {topic} review", download=True)
+        print(f"Scraped audio {model}")
     except Exception as e:
-        print(f"Failed images {model}")
+        print(f"Failed audio {model} {e}")
     return
 
 def queryimages(model: list):
-    def queryimages_worker(model: list):
+    [os.makedirs(os.path.dirname(f"data/car_pictures/{'/'.join(model)}/{i}/"), exist_ok=True) for i in ["front", "side", "rear", "interior"]]
+    def queryimages_worker_search(model: list):
         url = "https://www.bing.com/images/search?q=" + "+".join(model)
         options = webdriver.ChromeOptions()
         options.add_argument("--disable-gpu")
@@ -55,33 +58,47 @@ def queryimages(model: list):
         driver.quit()
         return images
     
-    executor = concurrent.futures.ThreadPoolExecutor(max_workers=3)
-    futures = {executor.submit(queryimages_worker, (model + [i, "&qft=+filterui:imagesize-custom_1080_1920"])): i for i in ["front", "side", "rear", "interior"]}
-    
-    try:
-        for i in futures:
-            res[futures[i]] = i.result()
-            
-            for j in range(len(res[futures[i]])):
-                link = (res[futures[i]][j])
-                if link == None:
-                    continue
-                if link.startswith("data:image"):
-                    continue
-                data = requests.get(link, stream=True)
-                file_path = f"data/car_pictures/{'/'.join(model)}/{j}.{data.headers['Content-Type'].split('/')[-1]}"
-                os.makedirs(os.path.dirname(file_path), exist_ok=True)
-                file = open(file_path, "wb")
-                for block in data.iter_content(1024):
-                    if not block:
-                        break
-                    file.write(block)
-                file.close()
+    executor_search = concurrent.futures.ThreadPoolExecutor(max_workers=4)
+    futures_search = {executor_search.submit(queryimages_worker_search, (model + [i, "&qft=+filterui:imagesize-custom_1080_1920"])): i for i in ["front", "side", "rear", "interior"]}
+    search_results = {}
+
+    for i in concurrent.futures.as_completed(futures_search):
+        search_results.update({futures_search[i]: i.result()})
+
+    def queryimages_worker_dl(i):
+        for j in range(len(search_results[i])):
+            link = search_results[i][j]
+            if link == None:
+                continue
+            if link.startswith("data:image"):
+                continue
+            data = requests.get(link, stream=True)
+            file_path = f"data/car_pictures/{'/'.join(model)}/{i}/{j}.{data.headers['Content-Type'].split('/')[-1]}"
+            file = open(file_path, "wb")
+            for block in data.iter_content(1024):
+                if not block:
+                    break
+                file.write(block)
+            file.close()
+
+    executor_dl = concurrent.futures.ThreadPoolExecutor(max_workers=4)
+    futures_dl = [executor_dl.submit(queryimages_worker_dl, i) for i in search_results]
+
+    try:        
+        for i in concurrent.futures.as_completed(futures_dl):
+            i.result()
         print(f"Scraped images {model}")
     except Exception as e:
         print(f"Failed images {model} {e}")
     return    
 
-# queryyt(["bmw", "m4", "competition", "2025", "review"])
+for i in brands:
+    file = open(f"data/car_models/{i}.json", "r")
+    data = json.loads(file.readline())
 
-queryimages(["bmw", "m4", "competition", "2025"])
+    for brand, models in data.items():
+        for model in models:
+            for model_name, versions in model.items():
+                for version in versions:
+                    [queryyt([i, model_name, version], j) for j in topics]
+                    queryimages([i, model_name, version])

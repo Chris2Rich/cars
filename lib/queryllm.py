@@ -74,8 +74,8 @@ def queryllm_evaluate_model(trim:  list):
   response = client.models.generate_content(
     model="gemini-2.0-flash",
     contents=[]
-    + [client.files.upload(file=glob.glob(f"data/car_videos/{"/".join(trim)}/*"))]
-    + [client.files.upload(file=glob.glob(f"data/car_images/{"/".join(trim)}/*"))],
+    + [client.files.upload(file=glob.glob(f"data/car_videos/{'/'.join(trim)}/*"))]
+    + [client.files.upload(file=glob.glob(f"data/car_images/{'/''.join(trim)}/*"))],
     config=types.GenerateContentConfig(
       temperature=0,
       system_instruction=(system_prompt_car_rate),
