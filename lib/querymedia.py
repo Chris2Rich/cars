@@ -1,12 +1,12 @@
 import time
+import base64
 import concurrent.futures
+import mimetypes
 
 import yt_dlp
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
@@ -24,12 +24,16 @@ def queryyt(model: list):
             "preferredquality": "128",
             }
     ],
-        "outtmpl": "data/car_videos/" + "_".join(model)[::-1] + ".mp3",
+        "outtmpl": f"data/car_videos/{"_".join(model)[::-1]}.mp3",
     }
 
-    ydl = yt_dlp.YoutubeDL(ydl_opts)
-    info = ydl.extract_info("ytsearch5:" + " ".join(model), download=True)
-    return [entry["url"] for entry in info["entries"] if "url" in entry]
+    try:
+        ydl = yt_dlp.YoutubeDL(ydl_opts)
+        ydl.extract_info("ytsearch5:" + " ".join(model), download=True)
+        print(f"Scraped videos {model}")
+    except Exception as e:
+        print(f"Failed images {model}")
+    return
 
 def queryimages(model: list):
     def queryimages_worker(model: list):
@@ -41,6 +45,8 @@ def queryimages(model: list):
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         driver.get(url)
         
+        time.sleep(1)
+
         reject = driver.find_element(By.XPATH, "/html/body/div[2]/div[3]/span/div/div/div/div[3]/div[1]/button[1]/div")
         reject.click()
 
@@ -49,6 +55,8 @@ def queryimages(model: list):
         images = [i.get_attribute("src") for i in driver.find_elements(By.CLASS_NAME, "YQ4gaf")]
 
         driver.quit()
+
+        
 
         return images
     
@@ -59,12 +67,17 @@ def queryimages(model: list):
     try:
         for i in futures:
             res[futures[i]] = i.result()
-        print("Scraped", model)
+            
+            for j in range(len(res[futures[i]])):
+                data = base64.b64decode(res[futures[i]][j]).decode("utf-8")
+                file = open(f"data/car_videos/{"/".join(model)}/{res[futures[i]]}/{j}.{mimetypes.guess_extension(data)}", "w")
+                file.write(data)
+                file.close()
+        print(f"Scraped images {model}")
     except Exception as e:
-        print("Failed", model, e)
-    return res
-    
+        print(f"Failed images {model}")
+    return    
 
-# print(queryyt(["bmw", "m4", "competition", "2025", "review"]))
+# queryyt(["bmw", "m4", "competition", "2025", "review"])
 
-print(queryimages(["bmw", "m4", "competition", "2025"]))
+queryimages(["bmw", "m4", "competition", "2025"])

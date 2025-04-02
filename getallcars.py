@@ -5,7 +5,6 @@ import sys
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
@@ -90,9 +89,9 @@ for i in brands:
     try:
         scrape_models(i)
         scrape_reviews(i)
-        print(f"Scraped {i}")
+        print(f"Scraped models {i}")
     except Exception as e:
-        print(f"Failed {i}")
+        print(f"Failed models {i}")
     finally:
         if {"": []} in models[i]:
             models[i].remove({"": []})
