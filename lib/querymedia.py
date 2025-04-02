@@ -1,7 +1,8 @@
 import time
 import base64
 import concurrent.futures
-import mimetypes
+import re
+import os
 
 import yt_dlp
 
@@ -24,7 +25,7 @@ def queryyt(model: list):
             "preferredquality": "128",
             }
     ],
-        "outtmpl": f"data/car_videos/{"_".join(model)[::-1]}.mp3",
+        "outtmpl": f"data/car_videos/{'_'.join(model)[::-1]}.mp3",
     }
 
     try:
@@ -69,13 +70,19 @@ def queryimages(model: list):
             res[futures[i]] = i.result()
             
             for j in range(len(res[futures[i]])):
-                data = base64.b64decode(res[futures[i]][j]).decode("utf-8")
-                file = open(f"data/car_videos/{"/".join(model)}/{res[futures[i]]}/{j}.{mimetypes.guess_extension(data)}", "w")
-                file.write(data)
+                data = (res[futures[i]][j])
+                extension_regex = r"(?<=data:image\/)[^;]*"
+                if re.match(r"https", data):
+                    continue
+
+                file_path = f"data/car_pictures/{'/'.join(model)}/{j}.{re.search(extension_regex, data, re.MULTILINE).group()}"
+                os.makedirs(os.path.dirname(file_path), exist_ok=True)
+                file = open(file_path, "w")
+                file.write(data.split(",")[1])
                 file.close()
         print(f"Scraped images {model}")
     except Exception as e:
-        print(f"Failed images {model}")
+        print(f"Failed images {model} {e}")
     return    
 
 # queryyt(["bmw", "m4", "competition", "2025", "review"])
