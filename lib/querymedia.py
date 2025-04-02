@@ -29,7 +29,7 @@ def queryyt(model: list, topic: str):
             "preferredquality": "64",
             }
     ],
-        "outtmpl": f"data/car_videos/{'/'.join(model[:-1])+'/'+topic}/%(autonumber)02d",
+        "outtmpl": f"data/car_videos/{(('/'.join(model)) if model[-1] != '' else ('/'.join(model)) + 'base_model')+'/'+topic}/%(autonumber)02d",
     }
 
     try:
@@ -47,6 +47,7 @@ def queryimages(model: list):
         options = webdriver.ChromeOptions()
         options.add_argument("--disable-gpu")
         options.add_argument("--no-sandbox")
+        options.add_argument("--headless")
 
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         driver.get(url)
@@ -62,6 +63,8 @@ def queryimages(model: list):
     futures_search = {executor_search.submit(queryimages_worker_search, (model + [i, "&qft=+filterui:imagesize-custom_1080_1920"])): i for i in ["front", "side", "rear", "interior"]}
     search_results = {}
 
+    concurrent.futures.wait(futures_search.keys())
+
     for i in concurrent.futures.as_completed(futures_search):
         search_results.update({futures_search[i]: i.result()})
 
@@ -72,8 +75,8 @@ def queryimages(model: list):
                 continue
             if link.startswith("data:image"):
                 continue
-            data = requests.get(link, stream=True)
-            file_path = f"data/car_pictures/{'/'.join(model)}/{i}/{j}.{data.headers['Content-Type'].split('/')[-1]}"
+            data = requests.get(link, stream=True, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"})
+            file_path = f"data/car_pictures/{(('/'.join(model)) if model[-1] != '' else ('/'.join(model)) + 'base_model')}/{i}/{j}.{data.headers['Content-Type'].split('/')[-1]}"
             file = open(file_path, "wb")
             for block in data.iter_content(1024):
                 if not block:
@@ -83,6 +86,8 @@ def queryimages(model: list):
 
     executor_dl = concurrent.futures.ThreadPoolExecutor(max_workers=4)
     futures_dl = [executor_dl.submit(queryimages_worker_dl, i) for i in search_results]
+
+    concurrent.futures.wait(futures_dl)
 
     try:        
         for i in concurrent.futures.as_completed(futures_dl):
@@ -100,5 +105,8 @@ for i in brands:
         for model in models:
             for model_name, versions in model.items():
                 for version in versions:
-                    [queryyt([i, model_name, version], j) for j in topics]
+                    executor_yt = concurrent.futures.ThreadPoolExecutor(max_workers=4)
+                    futures_yt = [executor_yt.submit(queryyt, [i, model_name, version], j) for j in topics]
+                    for j in concurrent.futures.as_completed(futures_yt):
+                        j.result()
                     queryimages([i, model_name, version])
