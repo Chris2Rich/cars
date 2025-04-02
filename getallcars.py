@@ -2,6 +2,7 @@ import json
 import time
 import requests
 import sys
+import concurrent.futures
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -12,9 +13,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 sys.stdout.reconfigure(encoding='utf-8')
 
 brands = ["Abarth", "AC", "Alfa Romeo", "Alpine", "Ariel", "Aston Martin", "Audi", "Austin", "Bentley", "BMW", "Bugatti", "Buick", "BYD", "Cadillac", "Caterham", "Chevrolet", "Chrysler", "Citroen", "CUPRA", "Dacia", "Daimler", "Dodge", "DS AUTOMOBILES", "Ferrari", "Fiat", "Fisker", "Ford", "Gardner Douglas", "Genesis", "GWM", "Honda", "Hummer", "Hyundai", "INEOS", "Infiniti", "Isuzu", "JAECOO", "Jaguar",  "Jeep", "KGM", "Kia", "Koenigsegg", "Lamborghini", "Lancia", "Land Rover", "Leapmotor", "LEVC", "Lexus", "Lincoln", "London Taxis International", "Lotus", "Maserati", "MAXUS", "Maybach", "Mazda", "McLaren", "Mercedes-Benz", "MG", "Micro", "MINI", "Mitsubishi", "Morgan", "Morris", "Nissan", "Noble", "Omoda", "Peugeot", "Pilgrim", "Plymouth", "Polestar", "Pontiac", "Porsche", "Renault", "Rolls-Royce", "Saab", "SEAT", "Shelby", "Skoda", "Skywell", "Smart", "SsangYong", "Subaru", "Suzuki", "Tesla", "Toyota", "Triumph", "TVR", "Ultima", "Vauxhall", "Volkswagen", "Volvo"]
-
-models = {i:[] for i in brands}
-reviews = {i:[] for i in brands}
 
 def scrape_models(make):
     url = f"https://www.autotrader.co.uk/car-search?make={make}&postcode=NG15GA"
@@ -84,25 +82,31 @@ def scrape_reviews(make):
         
     driver.quit()
 
-for i in brands:
-    time.sleep(2)
+def scrape_brand(brand):
+    models = {i:[] for i in brands}
+    reviews = {i:[] for i in brands}
     try:
-        scrape_models(i)
-        scrape_reviews(i)
-        print(f"Scraped models {i}")
+        scrape_models(brand)
+        scrape_reviews(brand)
+        print(f"Scraped models {brand}")
     except Exception as e:
-        print(f"Failed models {i}")
+        print(f"Failed models {brand}")
     finally:
-        if {"": []} in models[i]:
-            models[i].remove({"": []})
+        if {"": []} in models[brand]:
+            models[brand].remove({"": []})
 
-        if {"": []} in reviews[i]:
-            reviews[i].remove({"": []})
+        if {"": []} in reviews[brand]:
+            reviews[brand].remove({"": []})
 
-        file = open(f"data/car_models/{i}.json", "w")
-        file.writelines(json.dumps({i: models[i]}))
+        file = open(f"data/car_models/{brand}.json", "w")
+        file.writelines(json.dumps({brand: models[brand]}))
         file.close()
 
-        file = open(f"data/car_reviews/{i}.json", "w")
-        file.writelines(json.dumps({i: reviews[i]}))
+        file = open(f"data/car_reviews/{brand}.json", "w")
+        file.writelines(json.dumps({brand: reviews[brand]}))
         file.close()
+
+executor = concurrent.futures.ThreadPoolExecutor(max_workers=10)
+futures = {executor.submit(scrape_brand, i): i for i in brands}
+for i in futures:
+    i.result()
