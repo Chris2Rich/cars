@@ -41,7 +41,7 @@ def queryyt(model: list, topic: str):
     return
 
 def queryimages(model: list):
-    [os.makedirs(os.path.dirname(f"data/car_pictures/{'/'.join(model)}/{i}/"), exist_ok=True) for i in ["front", "side", "rear", "interior"]]
+    [os.makedirs(os.path.dirname(f"data/car_pictures/{(('/'.join(model)) if model[-1] != '' else ('/'.join(model)) + 'base_model')}/{i}/"), exist_ok=True) for i in ["front", "side", "rear", "interior"]]
     def queryimages_worker_search(model: list):
         url = "https://www.bing.com/images/search?q=" + "+".join(model)
         options = webdriver.ChromeOptions()
