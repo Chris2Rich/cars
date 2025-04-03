@@ -97,7 +97,7 @@ def queryimages(model: list):
         print(f"Failed images {model} {e}")
     return    
 
-for i in brands:
+def query_media(i):
     file = open(f"data/car_models/{i}.json", "r")
     data = json.loads(file.readline())
 

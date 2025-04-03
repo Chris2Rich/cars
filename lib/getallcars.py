@@ -61,33 +61,10 @@ def scrape_models(make):
         
     driver.quit()
 
-def scrape_reviews(make):
-    url = f"https://www.autotrader.co.uk/content/car-reviews?make={make}&refresh=true"
-
-    options = webdriver.ChromeOptions()
-    options.add_argument("--disable-gpu")
-    options.add_argument("--no-sandbox")
-
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    driver.get(url)
-    time.sleep(2)
-
-    if make not in driver.current_url:
-        reviews[make] = []
-        driver.quit()
-        return
-
-    articles = [requests.get(i.get_attribute("href"), headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"}).text for i in driver.find_elements(By.TAG_NAME, "a") if "car-reviews" in i.get_attribute("href")]
-    reviews[make] = (articles)
-        
-    driver.quit()
-
 def scrape_brand(brand):
     models = {i:[] for i in brands}
-    reviews = {i:[] for i in brands}
     try:
         scrape_models(brand)
-        scrape_reviews(brand)
         print(f"Scraped models {brand}")
     except Exception as e:
         print(f"Failed models {brand}")
@@ -100,10 +77,6 @@ def scrape_brand(brand):
 
         file = open(f"data/car_models/{brand}.json", "w")
         file.writelines(json.dumps({brand: models[brand]}))
-        file.close()
-
-        file = open(f"data/car_reviews/{brand}.json", "w")
-        file.writelines(json.dumps({brand: reviews[brand]}))
         file.close()
 
 executor = concurrent.futures.ThreadPoolExecutor(max_workers=10)
