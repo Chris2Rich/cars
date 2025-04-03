@@ -104,9 +104,8 @@ for i in brands:
     for brand, models in data.items():
         for model in models:
             for model_name, versions in model.items():
-                for version in versions:
-                    executor_yt = concurrent.futures.ThreadPoolExecutor(max_workers=4)
-                    futures_yt = [executor_yt.submit(queryyt, [i, model_name, version], j) for j in topics]
-                    for j in concurrent.futures.as_completed(futures_yt):
-                        j.result()
-                    queryimages([i, model_name, version])
+                executor_yt = concurrent.futures.ThreadPoolExecutor(max_workers=4)
+                futures_yt = [executor_yt.submit(queryyt, [i, model_name], j) for j in topics]
+                for j in concurrent.futures.as_completed(futures_yt):
+                    j.result()
+                queryimages([i, model_name])
