@@ -26,7 +26,7 @@ def queryyt(model: list, topic: str):
             {
             "key": "FFmpegExtractAudio",
             "preferredcodec": "mp3",
-            "preferredquality": "64",
+            "preferredquality": "32",
             }
     ],
         "outtmpl": f"data/car_videos/{(('/'.join(model)) if model[-1] != '' else ('/'.join(model)) + 'base_model')+'/'+topic}/%(autonumber)02d",
