@@ -3,13 +3,13 @@ from tensorflow import keras
 from tensorflow.keras import layers
 import numpy as np
 
-latent_dim = 6  # Size of latent space
+latent_dim = 8  # Size of latent space
 
 # Encoder
-inputs = keras.Input(shape=(54,))
-x = layers.Dense(108, activation="tanh")(inputs)
+inputs = keras.Input(shape=(43,))
+x = layers.Dense(86, activation="tanh")(inputs)
 x = layers.Dropout(0.12)(x)
-x = layers.Dense(216, activation="tanh")(x)
+x = layers.Dense(172, activation="tanh")(x)
 x = layers.Dropout(0.25)(x)
 x = layers.Dense(60, activation="relu")(x)
 x = layers.Dense(30, activation="relu")(x)
@@ -33,11 +33,11 @@ encoder = keras.Model(inputs, [z_mean, z_log_var, z], name="encoder")
 latent_inputs = keras.Input(shape=(latent_dim,))
 x = layers.Dense(30, activation="relu")(latent_inputs)
 x = layers.Dense(60, activation="relu")(x)
-x = layers.Dense(216, activation="tanh")(x)
+x = layers.Dense(172, activation="tanh")(x)
 x = layers.Dropout(0.25)(x)
-x = layers.Dense(108, activation="tanh")(x)
+x = layers.Dense(86, activation="tanh")(x)
 x = layers.Dropout(0.12)(x)
-outputs = layers.Dense(54, activation="sigmoid")(x)
+outputs = layers.Dense(43, activation="sigmoid")(x)
 
 decoder = keras.Model(latent_inputs, outputs, name="decoder")
 

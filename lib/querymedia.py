@@ -100,6 +100,7 @@ def queryimages(model: list):
 def query_media(i):
     file = open(f"data/car_models/{i}.json", "r")
     data = json.loads(file.readline())
+    data[i] = data[i][-10:]
 
     for brand, models in data.items():
         for model in models:

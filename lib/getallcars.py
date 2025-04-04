@@ -79,7 +79,7 @@ def scrape_brand(brand):
         file.writelines(json.dumps({brand: models[brand]}))
         file.close()
 
-executor = concurrent.futures.ThreadPoolExecutor(max_workers=10)
+executor = concurrent.futures.ThreadPoolExecutor(max_workers=4)
 futures = {executor.submit(scrape_brand, i): i for i in brands}
 for i in futures:
     i.result()
