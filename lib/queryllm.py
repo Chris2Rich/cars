@@ -67,7 +67,7 @@ You will be provided with a `car_variables` object. Your job is to assign a scor
 - `+1.0000` = **superb**, best-in-class for its category
 - `-1.0000` = **poor**, clearly below expectations or outdated
 
-### ⚠️ Do NOT score the following purely numerical values:
+### ⚠️ The following values should not be rated on this scale and must be given as the raw numbers:
 - price_usd
 - total_cost_estimate_5yr_usd
 - mpg
@@ -262,27 +262,24 @@ def get_files(model: list):
       return None
   
   executor_img = concurrent.futures.ThreadPoolExecutor(max_workers=8)
-  res_img = list(executor_img.map(get_file, paths_img))
+  res_img = list(filter(None, list(executor_img.map(get_file, paths_img))))
 
   executor_aud = concurrent.futures.ThreadPoolExecutor(max_workers=1)
-  res_aud = list(executor_aud.map(get_file, paths_aud))
-
-  concurrent.futures.wait(res_img)
-  concurrent.futures.wait(res_aud)
+  res_aud = list(filter(None, list(executor_aud.map(get_file, paths_aud))))
 
   res_wiki = []
 
   try:
     res_wiki = [(client.files.upload(file=f"data/car_wiki/{model[0]}/{model[1]}.html"))]
   except Exception as e:
-      pass
+      print(f"Failed wiki for {model}", e)
   print(f"Uploaded files for {model}")
-  return res_img + res_aud + res_wiki
+  return [{"file_data": {"file_uri": i.uri}} for i in res_img + res_aud + res_wiki]
 
 def queryllm_evaluate_model(model:  list):
   response = client.models.generate_content(
     model="gemini-2.0-flash",
-    contents=get_files(model),
+    contents=["Evaluate the model and explain your reasoning for each rating"] + get_files(model),
     config=types.GenerateContentConfig(
       temperature=0.75,
       system_instruction=(system_prompt_car_rate),
@@ -300,5 +297,3 @@ try:
   file.close()
 except Exception as e:
   print(e)
-while(True):
-  pass
