@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers, backend as K
@@ -8,8 +9,9 @@ from sklearn.manifold import TSNE
 import numpy as np
 import ast
 import traceback
+import json
 
-latent_dim = 12
+latent_dim = 8
 
 @tf.keras.utils.register_keras_serializable(package="Custom")
 class VAELossLayer(layers.Layer):
@@ -22,7 +24,7 @@ class VAELossLayer(layers.Layer):
 
         # KL divergence
         kl = -0.5 * K.sum(1 + z_log_var - K.square(z_mean) - K.exp(z_log_var), axis=1)
-        beta = 0.7
+        beta = 2
         kl_loss = beta * K.mean(kl)
 
         self.add_loss(recon_loss + kl_loss)
@@ -41,22 +43,17 @@ class Sampling(layers.Layer):
         return input_shape[0]
 
 def encoder_architecture(inputs):
-    x = layers.Dense(80)(inputs)
+    x = layers.Dense(40)(inputs)
+    x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
+    x = layers.Activation("gelu")(x)
+    x = layers.GaussianDropout(0.2)(x)
+
+    x = layers.Dense(80)(x)
     x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
     x = layers.Activation("gelu")(x)
     x = layers.GaussianDropout(0.2)(x)
 
     x = layers.Dense(120)(x)
-    x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
-    x = layers.Activation("gelu")(x)
-    x = layers.GaussianDropout(0.2)(x)
-
-    x = layers.Dense(160)(x)
-    x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
-    x = layers.Activation("gelu")(x)
-    x = layers.GaussianDropout(0.2)(x)
-
-    x = layers.Dense(200)(x)
     x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
     x = layers.Activation("gelu")(x)
     x = layers.GaussianDropout(0.2)(x)
@@ -75,32 +72,25 @@ def encoder_architecture(inputs):
 
 def decoder_architecture():
     latent_inputs = keras.Input(shape=(latent_dim,))
-    x = layers.Dense(24)(latent_inputs)
+    x = layers.Dense(40)(latent_inputs)
     x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
     x = layers.Activation("gelu")(x)
     x = layers.GaussianDropout(0.2)(x)
 
-    x = layers.Dense(48)(x)
+    x = layers.Dense(40)(x)
     x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
     x = layers.Activation("gelu")(x)
     x = layers.GaussianDropout(0.2)(x)
 
-    x = layers.Dense(96)(x)
+    x = layers.Dense(80)(x)
     x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
     x = layers.Activation("gelu")(x)
     x = layers.GaussianDropout(0.2)(x)
 
-    x = layers.Dense(192)(x)
-    x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
-    x = layers.Activation("gelu")(x)
-    x = layers.GaussianDropout(0.2)(x)
-
-    x = layers.Dense(96)(x)
-    x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
-    x = layers.Activation("gelu")(x)
-    x = layers.GaussianDropout(0.2)(x)
-
-    outputs = layers.Dense(40, activation="softsign")(x)
+    x = layers.Dense(40)(x)
+    x = layers.Activation("softsign")(x)
+    
+    outputs = x
 
     decoder = keras.Model(latent_inputs, outputs, name="decoder")
     return decoder
@@ -157,31 +147,37 @@ def load_vae():
     vae.load_weights("models/vae.weights.h5")
     return vae
 
-def visualize_latent_space(encoder, data, method="tsne"):
+def visualize_latent_space(encoder, data, labels, fig, method="tsne"):
     z_mean, _, _ = encoder.predict(data, batch_size=64)
+    labels = labels[:len(data)]
 
+    reducer = PCA(n_components=3)
+    z_3d_pca = reducer.fit_transform(z_mean)
 
-    reducer = PCA(n_components=2)
-    z_2d_pca = reducer.fit_transform(z_mean)
+    reducer = TSNE(n_components=3, init='pca', random_state=42, perplexity=30)
+    z_3d_tsne = reducer.fit_transform(z_mean)
 
-    reducer = TSNE(n_components=2, init='pca', random_state=42, perplexity=30)
-    z_2d_tsne = reducer.fit_transform(z_mean)
+    ax = fig.add_subplot(221, projection="3d")
+    ax.scatter(z_3d_pca[:, 0], z_3d_pca[:, 1], z_3d_pca[:, 2], s=5, alpha=0.6)
+    for i, label in enumerate(labels):
+        if i % 25 == 0:
+            ax.text(z_3d_pca[i, 0], z_3d_pca[i, 1], z_3d_pca[i, 2], str(label), fontsize=6, alpha=0.7)
+    ax.set_title(f"Latent Space Visualization (PCA)")
+    ax.set_xlabel("Component 1")
+    ax.set_ylabel("Component 2")
+    ax.set_zlabel("Component 3")
 
-    plt.subplot(2,2,1)
-    plt.scatter(z_2d_pca[:, 0], z_2d_pca[:, 1], s=3, alpha=0.6)
-    plt.title(f"Latent Space Visualization (PCA)")
-    plt.xlabel("Component 1")
-    plt.ylabel("Component 2")
-    plt.grid(True)
+    ax = fig.add_subplot(222, projection="3d")
+    ax.scatter(z_3d_tsne[:, 0], z_3d_tsne[:, 1], z_3d_tsne[:, 2], s=5, alpha=0.6)
+    for i, label in enumerate(labels):
+        if i % 25 == 0:
+            ax.text(z_3d_tsne[i, 0], z_3d_tsne[i, 1], z_3d_tsne[i, 2], str(label), fontsize=6, alpha=0.7)
+    ax.set_title(f"Latent Space Visualization (TSNE)")
+    ax.set_xlabel("Component 1")
+    ax.set_ylabel("Component 2")
+    ax.set_zlabel("Component 3")
 
-    plt.subplot(2,2,2)
-    plt.scatter(z_2d_tsne[:, 0], z_2d_tsne[:, 1], s=3, alpha=0.6)
-    plt.title(f"Latent Space Visualization (TSNE)")
-    plt.xlabel("Component 1")
-    plt.ylabel("Component 2")
-    plt.grid(True)
-
-def analyze_latent_dimensions(encoder, data):
+def analyze_latent_dimensions(encoder, data, fig):
     z_mean, _, _ = encoder.predict(data, batch_size=64)
     
     pca = PCA(n_components=z_mean.shape[1])
@@ -189,14 +185,12 @@ def analyze_latent_dimensions(encoder, data):
     
     explained_variance = pca.explained_variance_ratio_
     
-    plt.subplot(2, 2, 3)
-    plt.bar(range(1, len(explained_variance) + 1), explained_variance)
-    plt.plot(range(1, len(explained_variance) + 1), np.cumsum(explained_variance), 'r-o')
-    plt.xlabel('Principal Component')
-    plt.ylabel('Explained Variance Ratio')
-    plt.title('Explained Variance by Principal Component')
-    plt.xticks(range(1, len(explained_variance) + 1))
-    plt.grid(True)
+    ax = fig.add_subplot(223)
+    ax.bar(range(1, len(explained_variance) + 1), explained_variance)
+    ax.plot(range(1, len(explained_variance) + 1), np.cumsum(explained_variance), 'r-o')
+    ax.set_title('Explained Variance by Principal Component')
+    ax.set_xlabel('Principal Component')
+    ax.set_ylabel('Explained Variance Ratio')
     
     ax2 = plt.gca().twinx()
     ax2.set_ylabel('Cumulative Explained Variance')
@@ -214,14 +208,27 @@ def analyze_latent_dimensions(encoder, data):
 def load_model():
     return load_vae(), load_encoder(), load_decoder()
 
+def get_trims():
+    res = []
+    for i in ["data/car_models/Mercedes-Benz.json"]: #glob.glob("data/car_models/**.json", recursive=True):
+        with open(i, "r") as file:
+            for brand, models in json.load(file).items():
+                for model in models:
+                    for model_name, versions in model.items():
+                        for version in versions:
+                            res.append(" ".join([model_name, version]))
+    return res
+
 try:
     train_model()
 
     vae, encoder, decoder = load_model()
     raw_data = np.array(ast.literal_eval(open("data/training_data.txt").readline()))
     
-    visualize_latent_space(encoder, raw_data)
-    analyze_latent_dimensions(encoder, raw_data)
+    fig = plt.figure(figsize=(6,6))
+
+    visualize_latent_space(encoder, raw_data, get_trims(), fig)
+    analyze_latent_dimensions(encoder, raw_data, fig)
 
     plt.tight_layout()
     plt.show()
