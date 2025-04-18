@@ -1,102 +1,231 @@
+import matplotlib.pyplot as plt
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers, backend as K
 from sklearn.model_selection import train_test_split
+from sklearn.decomposition import PCA
+from sklearn.manifold import TSNE
 import numpy as np
 import ast
+import traceback
+
+latent_dim = 12
+
+@tf.keras.utils.register_keras_serializable(package="Custom")
+class VAELossLayer(layers.Layer):
+    def call(self, inputs):
+        x, x_decoded, z_mean, z_log_var = inputs
+
+        # reconstruction loss
+        recon = tf.reduce_mean(tf.square(x - x_decoded))
+        recon_loss = K.mean(recon)
+
+        # KL divergence
+        kl = -0.5 * K.sum(1 + z_log_var - K.square(z_mean) - K.exp(z_log_var), axis=1)
+        beta = 0.7
+        kl_loss = beta * K.mean(kl)
+
+        self.add_loss(recon_loss + kl_loss)
+        return x_decoded
+
+@tf.keras.utils.register_keras_serializable(package="Custom")
+class Sampling(layers.Layer):
+    def call(self, inputs):
+        z_mean, z_log_var = inputs
+        batch = K.shape(z_mean)[0]
+        dim = K.int_shape(z_mean)[1]
+        epsilon = tf.random.normal(shape=(batch, dim))
+        return z_mean + tf.exp(0.5 * z_log_var) * epsilon
+
+    def compute_output_shape(self, input_shape):
+        return input_shape[0]
+
+def encoder_architecture(inputs):
+    x = layers.Dense(80)(inputs)
+    x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
+    x = layers.Activation("gelu")(x)
+    x = layers.GaussianDropout(0.2)(x)
+
+    x = layers.Dense(120)(x)
+    x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
+    x = layers.Activation("gelu")(x)
+    x = layers.GaussianDropout(0.2)(x)
+
+    x = layers.Dense(160)(x)
+    x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
+    x = layers.Activation("gelu")(x)
+    x = layers.GaussianDropout(0.2)(x)
+
+    x = layers.Dense(200)(x)
+    x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
+    x = layers.Activation("gelu")(x)
+    x = layers.GaussianDropout(0.2)(x)
+
+    x = layers.Dense(120)(x)
+    x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
+    x = layers.Activation("gelu")(x)
+    x = layers.GaussianDropout(0.2)(x)
+
+    z_mean = layers.Dense(latent_dim, name="z_mean")(x)
+    z_log_var = layers.Dense(latent_dim, name="z_log_var")(x)
+    z = Sampling()([z_mean, z_log_var])
+
+    encoder = keras.Model(inputs, [z_mean, z_log_var, z], name="encoder")
+    return encoder, z_mean, z_log_var
+
+def decoder_architecture():
+    latent_inputs = keras.Input(shape=(latent_dim,))
+    x = layers.Dense(24)(latent_inputs)
+    x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
+    x = layers.Activation("gelu")(x)
+    x = layers.GaussianDropout(0.2)(x)
+
+    x = layers.Dense(48)(x)
+    x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
+    x = layers.Activation("gelu")(x)
+    x = layers.GaussianDropout(0.2)(x)
+
+    x = layers.Dense(96)(x)
+    x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
+    x = layers.Activation("gelu")(x)
+    x = layers.GaussianDropout(0.2)(x)
+
+    x = layers.Dense(192)(x)
+    x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
+    x = layers.Activation("gelu")(x)
+    x = layers.GaussianDropout(0.2)(x)
+
+    x = layers.Dense(96)(x)
+    x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
+    x = layers.Activation("gelu")(x)
+    x = layers.GaussianDropout(0.2)(x)
+
+    outputs = layers.Dense(40, activation="softsign")(x)
+
+    decoder = keras.Model(latent_inputs, outputs, name="decoder")
+    return decoder
 
 def train_model():
-    try:
-        tf.config.list_physical_devices("GPU")
+    tf.config.list_physical_devices("GPU")
 
-        raw_data = np.zeros((0))
-        with open("data/training_data.txt") as file:
-            raw_data = np.array(ast.literal_eval(file.readline())) 
-        train_data, val_data = train_test_split(raw_data, test_size=0.125)
+    raw_data = np.zeros((0))
+    with open("data/training_data.txt") as file:
+        raw_data = np.array(ast.literal_eval(file.readline())) 
+    train_data, val_data = train_test_split(raw_data, test_size=0.2)
+
+    inputs = keras.Input(shape=(40,))
+    encoder, z_mean, z_log_var = encoder_architecture(inputs)
+    decoder = decoder_architecture()
+
+    # VAE Model
+    decoded = decoder(encoder(inputs)[2])
+    outputs = VAELossLayer()([inputs, decoded, z_mean, z_log_var])
+
+    vae = keras.Model(inputs, outputs, name="vae")
+    vae.compile(optimizer=keras.optimizers.Adam(learning_rate=0.01))
+
+    vae.fit(train_data, epochs=50, batch_size=64, shuffle=True, validation_data=(val_data, val_data))
+
+    encoder.save_weights("models/encoder.weights.h5", overwrite=True)
+    decoder.save_weights("models/decoder.weights.h5", overwrite=True)
+    vae.save_weights("models/vae.weights.h5", overwrite=True)
+
+    vae.summary()
+
+def load_encoder():
+    # Encoder
+    encoder, _, _ = encoder_architecture(keras.Input(shape=(40,)))
+    encoder.load_weights("models/encoder.weights.h5")
+    return encoder
+
+def load_decoder():
+    # Decoder
+    decoder = decoder_architecture()
+    decoder.load_weights("models/decoder.weights.h5")
+    return decoder
+
+def load_vae():
+    inputs = keras.Input(shape=(40,))
+    encoder, z_mean, z_log_var = encoder_architecture(inputs)
+    decoder = decoder_architecture()
+
+    # VAE Model
+    decoded = decoder(encoder(inputs)[2])
+    outputs = VAELossLayer()([inputs, decoded, z_mean, z_log_var])
+
+    vae = keras.Model(inputs, outputs, name="vae")
+    vae.load_weights("models/vae.weights.h5")
+    return vae
+
+def visualize_latent_space(encoder, data, method="tsne"):
+    z_mean, _, _ = encoder.predict(data, batch_size=64)
 
 
-        latent_dim = 12  # Size of latent space
+    reducer = PCA(n_components=2)
+    z_2d_pca = reducer.fit_transform(z_mean)
 
-        # Encoder
-        inputs = keras.Input(shape=(40,))
-        x = layers.Dense(80, activation="tanh")(inputs)
-        x = layers.GaussianDropout(0.2)(x)
-        x = layers.Dense(80, activation="tanh")(x)
-        x = layers.GaussianDropout(0.2)(x)
-        x = layers.Dense(160, activation="tanh")(x)
-        x = layers.GaussianDropout(0.2)(x)
-        x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
-        x = layers.Dense(160, activation="tanh")(x)
-        x = layers.GaussianDropout(0.2)(x)
+    reducer = TSNE(n_components=2, init='pca', random_state=42, perplexity=30)
+    z_2d_tsne = reducer.fit_transform(z_mean)
 
-        z_mean = layers.Dense(latent_dim, name="z_mean")(x)
-        z_log_var = layers.Dense(latent_dim, name="z_log_var")(x)
+    plt.subplot(2,2,1)
+    plt.scatter(z_2d_pca[:, 0], z_2d_pca[:, 1], s=3, alpha=0.6)
+    plt.title(f"Latent Space Visualization (PCA)")
+    plt.xlabel("Component 1")
+    plt.ylabel("Component 2")
+    plt.grid(True)
 
-        # Reparameterization trick
-        def sampling(args):
-            z_mean, z_log_var = args
-            batch = tf.shape(z_mean)[0]
-            dim = tf.shape(z_mean)[1]
-            epsilon = tf.keras.backend.random_normal(shape=(batch, dim))
-            return z_mean + tf.exp(0.5 * z_log_var) * epsilon
+    plt.subplot(2,2,2)
+    plt.scatter(z_2d_tsne[:, 0], z_2d_tsne[:, 1], s=3, alpha=0.6)
+    plt.title(f"Latent Space Visualization (TSNE)")
+    plt.xlabel("Component 1")
+    plt.ylabel("Component 2")
+    plt.grid(True)
 
-        z = layers.Lambda(sampling, output_shape=(latent_dim,))([z_mean, z_log_var])
-
-        encoder = keras.Model(inputs, [z_mean, z_log_var, z], name="encoder")
-
-        # Decoder
-        latent_inputs = keras.Input(shape=(latent_dim,))
-        x = layers.Dense(20, activation="gelu")(latent_inputs)
-        x = layers.GaussianDropout(0.1)(x)
-        x = layers.Dense(40, activation="gelu")(x)
-        x = layers.GaussianDropout(0.2)(x)
-        x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
-        x = layers.Dense(80, activation="gelu")(x)
-        x = layers.GaussianDropout(0.3)(x)
-        x = layers.Dense(160, activation="tanh")(x)
-        outputs = layers.Dense(40, activation="sigmoid")(x)
-
-        decoder = keras.Model(latent_inputs, outputs, name="decoder")
-
-        class VAELossLayer(layers.Layer):
-            def call(self, inputs):
-                x, x_decoded, z_mean, z_log_var = inputs
-
-                # reconstruction loss
-                recon = tf.reduce_mean(tf.square(x - x_decoded))
-                recon_loss = K.mean(recon)
-
-                # KL divergence
-                kl = -0.5 * K.sum(1 + z_log_var - K.square(z_mean) - K.exp(z_log_var), axis=1)
-                beta = 0.7
-                kl_loss = beta * K.mean(kl)
-
-                self.add_loss(recon_loss + kl_loss)
-                return x_decoded
-
-            def get_config(self):
-                config = super(VAELossLayer, self).get_config()
-                return config
-
-        # VAE Model
-        decoded = decoder(encoder(inputs)[2])
-        outputs = VAELossLayer()([inputs, decoded, z_mean, z_log_var])
-
-        vae = keras.Model(inputs, outputs, name="vae")
-        vae.compile(optimizer=keras.optimizers.Adam(learning_rate=0.005))
-
-        vae.fit(train_data, epochs=250, batch_size=64, shuffle=True, validation_data=(val_data, val_data))
-        vae.save("models/VAE.keras")
-        encoder.save("models/encoder.keras")
-        decoder.save("models/decoder.keras")
-        vae.summary()
-    except Exception as e:
-        print(e)
+def analyze_latent_dimensions(encoder, data):
+    z_mean, _, _ = encoder.predict(data, batch_size=64)
+    
+    pca = PCA(n_components=z_mean.shape[1])
+    pca.fit(z_mean)
+    
+    explained_variance = pca.explained_variance_ratio_
+    
+    plt.subplot(2, 2, 3)
+    plt.bar(range(1, len(explained_variance) + 1), explained_variance)
+    plt.plot(range(1, len(explained_variance) + 1), np.cumsum(explained_variance), 'r-o')
+    plt.xlabel('Principal Component')
+    plt.ylabel('Explained Variance Ratio')
+    plt.title('Explained Variance by Principal Component')
+    plt.xticks(range(1, len(explained_variance) + 1))
+    plt.grid(True)
+    
+    ax2 = plt.gca().twinx()
+    ax2.set_ylabel('Cumulative Explained Variance')
+    ax2.set_ylim([0, 1.05])
+    
+    for i, var in enumerate(explained_variance):
+        print(f"Dimension {i+1}: {var:.4f} ({var*100:.2f}% variance)")
+    
+    cumulative = np.cumsum(explained_variance)
+    for i, cum_var in enumerate(cumulative):
+        print(f"Dimensions 1-{i+1}: {cum_var:.4f} ({cum_var*100:.2f}% cumulative variance)")
+        
+    return explained_variance, cumulative
 
 def load_model():
-    return keras.models.load_model("models/VAE.keras"), keras.models.load_model("models/encoder.keras"), keras.models.load_model("models/decoder.keras")
+    return load_vae(), load_encoder(), load_decoder()
 
-train_model()
-print("TRAINED and SAVED")
-while True:
-    pass
+try:
+    train_model()
+
+    vae, encoder, decoder = load_model()
+    raw_data = np.array(ast.literal_eval(open("data/training_data.txt").readline()))
+    
+    visualize_latent_space(encoder, raw_data)
+    analyze_latent_dimensions(encoder, raw_data)
+
+    plt.tight_layout()
+    plt.show()
+except Exception:
+    print(traceback.format_exc())
+    while True:
+        pass
