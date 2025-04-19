@@ -1,46 +1,71 @@
+**Reasoning:**
+
+The designation 'E300dh' is not an official model identifier used by Mercedes-Benz for the E-Class. Let's break down the likely components based on standard Mercedes naming conventions:
+
+*   **E300:** Refers to the engine/performance level, typically positioned above the E200/E220 models.
+*   **d:** Clearly indicates a diesel engine.
+*   **h:** This suffix is not officially used by Mercedes. It often signifies 'hybrid' in other brands' nomenclature. Mercedes uses 'e' for petrol Plug-in Hybrids (PHEVs) and **'de'** for diesel PHEVs.
+
+In the *most recent* E-Class generation (W214, model year 2024 onwards), there is no standard (non-hybrid or mild-hybrid) model called 'E300d'. However, there *is* a diesel **Plug-in Hybrid** model officially designated as the **E 300 de**. This model combines the 2.0-liter diesel engine with an electric motor and battery pack.
+
+Given the user's input 'E300dh', the most logical interpretation for the *most recent version* is the existing **Mercedes-Benz E 300 de (W214)**, as it is the diesel hybrid model in the '300' range. The 'h' is likely an assumed suffix for 'hybrid'.
+
+Therefore, the evaluation provided below is for the **Mercedes-Benz E 300 de (W214)**, identical to the previous evaluation for 'E300de'.
+
+**Evaluation based on the 2024 Mercedes-Benz E 300 de (W214):**
+
 ```json
-[
-  {
-    "price_usd": -0.75,
-    "total_cost_estimate_5yr_usd": -0.80,
-    "insurance_usd_yr": -0.70,
-    "maint_usd_yr": -1.00,
-    "repair_risk_score": -0.30,
-    "hp": 0.50,
-    "torque": 0.80,
-    "accel_0_60_sec": 0.20,
-    "braking_dist_ft": 0.00,
-    "seats": 0.00,
-    "cargo_space": -0.15,
-    "rear_space": 0.40,
-    "ground_clearance_in": -0.20,
-    "turn_radius_ft": -0.10,
-    "mpg": 0.80,
-    "co2_g_km": 0.95,
-    "electric_range_mi": 0.75,
-    "charge_speed_kw": 0.25,
-    "style_sleek_vs_boxy": 0.60,
-    "style_aggression_rating": 0.00,
-    "style_modernity_rating": 0.80,
-    "handling_rating": 0.30,
-    "ride_comfort_rating": 0.85,
-    "cabin_noise_rating": 0.80,
-    "shift_smooth_rating": 0.70,
-    "steering_feel_rating": -0.10,
-    "adas_score": 0.85,
-    "visibility_rating": 0.00,
-    "headlight_rating": 0.80,
-    "security_rating": 0.70,
-    "screen_in": 0.85,
-    "infotainment_ux_rating": 0.70,
-    "smartphone_connect_rating": 0.80,
-    "audio_rating": 0.75,
-    "usb_ports": 0.70,
-    "comfort_feature_score": 0.80,
-    "convenience_feature_score": 0.70,
-    "interior_luxury_rating": 0.75,
-    "interior_tech_focus_rating": 0.85,
-    "brand_prestige_rating": 0.80
-  }
-]
+{
+  "price_usd": -0.88,
+  "total_cost_estimate_5yr_usd": -0.75,
+  "insurance_usd_yr": -0.85,
+  "maint_usd_yr": -0.75,
+  "repair_risk_score": -0.35,
+  "hp": 0.40,
+  "torque": 0.90,
+  "cylinder_count": -0.40,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": 0.35,
+  "top_speed": 0.00,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.35,
+  "size": 0.45,
+  "wheelbase": 0.55,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": -0.15,
+  "rear_space": 0.70,
+  "ground_clearance_in": -0.80,
+  "turn_radius_ft": -0.15,
+  "mpg": 0.95,
+  "co2_g_km": 0.95,
+  "electric_range_mi": 0.80,
+  "charge_speed_kw": 0.15,
+  "style_sleek_vs_boxy": 0.80,
+  "style_aggression_rating": 0.10,
+  "style_modernity_rating": 0.95,
+  "handling_rating": 0.15,
+  "ride_comfort_rating": 0.95,
+  "cabin_noise_rating": 0.95,
+  "shift_smooth_rating": 0.95,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.90,
+  "visibility_rating": 0.10,
+  "headlight_rating": 0.90,
+  "security_rating": 0.75,
+  "screen_in": 0.90,
+  "infotainment_ux_rating": 0.85,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.75,
+  "usb_ports": 0.70,
+  "comfort_feature_score": 0.85,
+  "convenience_feature_score": 0.85,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -0.25,
+  "interior_luxury_rating": 0.85,
+  "interior_tech_focus_rating": 0.95
+}
 ```

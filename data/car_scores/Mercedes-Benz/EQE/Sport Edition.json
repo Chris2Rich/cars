@@ -1,44 +1,68 @@
+Okay, the search results confirm the "Sport Edition" is a specific trim level for the EQE Sedan, often positioned as the entry-level or a value-focused option, particularly in the UK market. It seems primarily paired with the EQE 300 (180kW/241hp RWD) or EQE 350+ (215kW/288hp RWD) powertrains.
+
+Let's evaluate based on the **EQE 300 Sport Edition** as the likely base model configuration:
+
+*   **Powertrain**: EQE 300 - Rear-wheel drive, single motor, 180 kW (241 hp), 550 Nm (406 lb-ft) torque.
+*   **Performance**: 0-60 mph around 7.1-7.3 seconds. Top speed limited to ~130 mph.
+*   **Battery/Range**: 89 kWh (usable) battery. WLTP range up to 384 miles (618 km), potentially higher (429 miles mentioned for 19" wheels). Real-world likely closer to 300 miles.
+*   **Charging**: Up to 170 kW DC fast charging (10-80% in ~32 mins).
+*   **Features**: Standard features include 19-inch alloy wheels, LED headlights, 12.3-inch driver display, 12.8-inch central OLED touchscreen with MBUX, heated comfort seats (Artico leatherette), ambient lighting, basic ADAS (AEB, lane keep, blind spot, traffic sign assist), reversing camera, wireless Apple CarPlay/Android Auto. It misses out on features like air suspension, keyless entry, panoramic roof, fully electric seats, adaptive cruise control, 360 camera, premium audio, and Digital Light found on higher trims.
+*   **Price**: Starts around £69,000 in the UK. This translates to roughly $87,000 USD.
+
+Here's the evaluation for the Mercedes-Benz EQE 300 Sport Edition:
+
 ```json
 {
-  "price_usd": -0.70,
-  "total_cost_estimate_5yr_usd": -0.80,
-  "insurance_usd_yr": -1.00,
-  "maint_usd_yr": 0.20,
-  "repair_risk_score": -0.20,
-  "hp": 0.30,
-  "torque": 0.60,
-  "accel_0_60_sec": 0.40,
-  "braking_dist_ft": 0.00,
+  "price_usd": -0.90,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -0.90,
+  "maint_usd_yr": 0.50,
+  "repair_risk_score": -0.30,
+  "hp": 0.10,
+  "torque": 0.55,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.10,
+  "top_speed": -0.40,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.30,
+  "size": 0.45,
+  "wheelbase": 0.80,
+  "body_style": 0.00,
   "seats": 0.00,
   "cargo_space": 0.00,
-  "rear_space": 0.40,
-  "ground_clearance_in": -0.30,
-  "turn_radius_ft": -0.10,
-  "mpg": 0.80,
+  "rear_space": 0.50,
+  "ground_clearance_in": -0.70,
+  "turn_radius_ft": -0.30,
+  "mpg": 1.00,
   "co2_g_km": 1.00,
-  "electric_range_mi": 0.50,
-  "charge_speed_kw": 0.60,
-  "style_sleek_vs_boxy": 0.80,
-  "style_aggression_rating": -0.20,
+  "electric_range_mi": 0.60,
+  "charge_speed_kw": 0.50,
+  "style_sleek_vs_boxy": 0.90,
+  "style_aggression_rating": -0.50,
   "style_modernity_rating": 0.80,
-  "handling_rating": 0.20,
+  "handling_rating": 0.10,
   "ride_comfort_rating": 0.80,
-  "cabin_noise_rating": 0.80,
-  "shift_smooth_rating": 0.90,
-  "steering_feel_rating": -0.20,
+  "cabin_noise_rating": 0.90,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": -0.40,
   "adas_score": 0.70,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.60,
-  "security_rating": 0.50,
+  "visibility_rating": -0.40,
+  "headlight_rating": 0.70,
+  "security_rating": 0.60,
   "screen_in": 0.70,
-  "infotainment_ux_rating": 0.50,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.70,
-  "usb_ports": 0.50,
-  "comfort_feature_score": 0.80,
-  "convenience_feature_score": 0.80,
-  "interior_luxury_rating": 0.80,
-  "interior_tech_focus_rating": 0.80,
-  "brand_prestige_rating": 0.80
+  "infotainment_ux_rating": 0.60,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.30,
+  "usb_ports": 0.60,
+  "comfort_feature_score": 0.60,
+  "convenience_feature_score": 0.40,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": -0.30,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": 0.80
 }
 ```

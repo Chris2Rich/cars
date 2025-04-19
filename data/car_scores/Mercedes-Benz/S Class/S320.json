@@ -1,44 +1,71 @@
+Okay, evaluating the most recent Mercedes-Benz S-Class (W223 generation, 2021-present) designated as 'S320'.
+
+**Analysis:**
+
+A search for an "S320" model within the *most recent* Mercedes-Benz S-Class generation (W223, 2021 onwards) reveals that this designation is **not used** for the current lineup.
+
+*   The "S320" badge was used on several previous generations of the S-Class (like the W140, W220, and W221) and typically represented a mid-range 6-cylinder engine variant, either petrol or diesel (e.g., S 320 CDI in the W221).
+*   For the current W223 generation, the engine lineup has shifted. The 6-cylinder models are now designated S 350 d, S 400 d, S 450 d (diesel, market-dependent), S 450, S 500 (petrol MHEV), and S 580 e (petrol PHEV).
+*   There is no official S320 model offered by Mercedes-Benz for the W223 S-Class in any major market.
+
+**Conclusion:**
+
+Since the "S320" designation does not exist for the *most recent* version of the Mercedes-Benz S-Class, the request is based on an invalid model designation for the current generation. Therefore, the data is ambiguous/non-existent in the context of the latest S-Class.
+
+Following the instruction "If data is ambiguous or unclear, default to `0.00`", I will return default values.
+
 ```json
 {
-  "price_usd": -1.00,
-  "total_cost_estimate_5yr_usd": -1.00,
-  "insurance_usd_yr": -1.00,
-  "maint_usd_yr": -1.00,
-  "repair_risk_score": -0.25,
-  "hp": 0.40,
-  "torque": 0.70,
-  "accel_0_60_sec": 0.40,
-  "braking_dist_ft": 0.10,
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.00,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.00,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 0.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.00,
+  "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.20,
-  "rear_space": 0.90,
-  "ground_clearance_in": -0.30,
-  "turn_radius_ft": -0.50,
-  "mpg": 0.60,
-  "co2_g_km": -0.05,
-  "electric_range_mi": -0.80,
-  "charge_speed_kw": -0.80,
-  "style_sleek_vs_boxy": 0.80,
-  "style_aggression_rating": -0.30,
-  "style_modernity_rating": 0.90,
-  "handling_rating": 0.30,
-  "ride_comfort_rating": 1.00,
-  "cabin_noise_rating": 1.00,
-  "shift_smooth_rating": 0.90,
-  "steering_feel_rating": -0.30,
-  "adas_score": 0.90,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.00,
+  "co2_g_km": 0.00,
+  "electric_range_mi": 0.00,
+  "charge_speed_kw": 0.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.00,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.90,
-  "security_rating": 0.90,
-  "screen_in": 0.80,
-  "infotainment_ux_rating": 0.70,
-  "smartphone_connect_rating": 0.90,
-  "audio_rating": 0.70,
-  "usb_ports": 0.80,
-  "comfort_feature_score": 0.95,
-  "convenience_feature_score": 0.90,
-  "interior_luxury_rating": 1.00,
-  "interior_tech_focus_rating": 0.90,
-  "brand_prestige_rating": 0.95
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": 0.00
 }
 ```

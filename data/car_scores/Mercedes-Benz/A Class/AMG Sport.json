@@ -1,44 +1,67 @@
+Okay, evaluating the **Mercedes-Benz A-Class AMG Sport**.
+
+First, let's clarify the 'AMG Sport' designation in the context of the *most recent* A-Class (W177 generation):
+
+*   Mercedes-Benz does not currently use 'AMG Sport' as an official, distinct trim line for the A-Class.
+*   In the past (around the mid-2010s, primarily with the previous W176 generation or other model lines), 'AMG Sport' was sometimes used as a trim level or branding that sat below the full Mercedes-AMG models (like A35/A45) but offered sportier styling and potentially minor suspension tweaks compared to standard trims.
+*   The **current equivalent** and the trim that provides this sporty aesthetic on standard engine models is the **'AMG Line'**.
+
+Therefore, the most logical interpretation for the "most recent version" of an 'AMG Sport' A-Class is to evaluate it as the **current 'AMG Line' trim**.
+
+I will base this evaluation on the **most recent A200 petrol model (W177 facelift with mild-hybrid) equipped with the AMG Line trim**, as this is a common configuration representing the 'AMG Sport' concept in the current lineup. This evaluation will be identical to the one previously provided for 'AMG Line'.
+
 ```json
 {
-  "price_usd": -0.25,
-  "total_cost_estimate_5yr_usd": -0.50,
-  "insurance_usd_yr": -0.30,
-  "maint_usd_yr": -0.50,
+  "price_usd": -0.30,
+  "total_cost_estimate_5yr_usd": -0.45,
+  "insurance_usd_yr": -0.35,
+  "maint_usd_yr": -0.30,
   "repair_risk_score": -0.20,
-  "hp": -0.20,
-  "torque": 0.05,
-  "accel_0_60_sec": -0.15,
-  "braking_dist_ft": 0.10,
+  "hp": -0.40,
+  "torque": -0.20,
+  "cylinder_count": -0.60,
+  "engine_displacement": -0.85,
+  "accel_0_60_sec": -0.45,
+  "top_speed": -0.20,
+  "drive_type": -1.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.05,
+  "size": -0.20,
+  "wheelbase": 0.00,
+  "body_style": 0.25,
   "seats": 0.00,
-  "cargo_space": -0.15,
-  "rear_space": -0.10,
-  "ground_clearance_in": -0.60,
+  "cargo_space": -0.25,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.75,
   "turn_radius_ft": 0.00,
-  "mpg": 0.40,
-  "co2_g_km": 0.45,
+  "mpg": 0.65,
+  "co2_g_km": 0.40,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.60,
-  "style_aggression_rating": 0.40,
-  "style_modernity_rating": 0.70,
-  "handling_rating": 0.50,
-  "ride_comfort_rating": -0.10,
+  "style_sleek_vs_boxy": 0.65,
+  "style_aggression_rating": 0.60,
+  "style_modernity_rating": 0.80,
+  "handling_rating": 0.15,
+  "ride_comfort_rating": -0.55,
   "cabin_noise_rating": 0.40,
-  "shift_smooth_rating": 0.20,
-  "steering_feel_rating": 0.30,
-  "adas_score": 0.00,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.30,
   "visibility_rating": 0.00,
   "headlight_rating": 0.30,
-  "security_rating": 0.30,
-  "screen_in": 0.60,
-  "infotainment_ux_rating": 0.70,
-  "smartphone_connect_rating": 0.20,
+  "security_rating": 0.45,
+  "screen_in": 0.70,
+  "infotainment_ux_rating": 0.80,
+  "smartphone_connect_rating": 0.50,
   "audio_rating": 0.10,
-  "usb_ports": 0.10,
-  "comfort_feature_score": 0.30,
-  "convenience_feature_score": 0.20,
-  "interior_luxury_rating": 0.60,
-  "interior_tech_focus_rating": 0.80,
-  "brand_prestige_rating": 0.70
+  "usb_ports": 0.20,
+  "comfort_feature_score": 0.35,
+  "convenience_feature_score": 0.45,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 1.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.55,
+  "interior_tech_focus_rating": 0.85
 }
 ```

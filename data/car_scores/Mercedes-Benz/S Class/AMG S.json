@@ -4,41 +4,108 @@
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
   "maint_usd_yr": -1.00,
-  "repair_risk_score": -0.50,
+  "repair_risk_score": -0.40,
   "hp": 1.00,
   "torque": 1.00,
-  "accel_0_60_sec": 0.85,
-  "braking_dist_ft": 0.75,
+  "cylinder_count": 0.50,
+  "engine_displacement": 0.70,
+  "accel_0_60_sec": 0.98,
+  "top_speed": 0.50,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.85,
+  "size": 1.00,
+  "wheelbase": 1.00,
+  "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.50,
+  "cargo_space": -0.61,
   "rear_space": 1.00,
-  "ground_clearance_in": -0.75,
-  "turn_radius_ft": 0.00,
-  "mpg": -0.50,
-  "co2_g_km": 0.50,
-  "electric_range_mi": -0.25,
-  "charge_speed_kw": -0.50,
-  "style_sleek_vs_boxy": 0.60,
+  "ground_clearance_in": -0.80,
+  "turn_radius_ft": -0.50,
+  "mpg": -0.73,
+  "co2_g_km": 0.42,
+  "electric_range_mi": -0.65,
+  "charge_speed_kw": -0.70,
+  "style_sleek_vs_boxy": 0.85,
   "style_aggression_rating": 0.75,
-  "style_modernity_rating": 0.80,
-  "handling_rating": 0.60,
+  "style_modernity_rating": 0.90,
+  "handling_rating": 0.70,
   "ride_comfort_rating": 0.90,
-  "cabin_noise_rating": 0.90,
-  "shift_smooth_rating": 0.75,
-  "steering_feel_rating": 0.25,
-  "adas_score": 0.90,
-  "visibility_rating": 0.25,
-  "headlight_rating": 0.90,
-  "security_rating": 0.75,
-  "screen_in": 0.75,
-  "infotainment_ux_rating": 0.80,
-  "smartphone_connect_rating": 0.75,
-  "audio_rating": 0.90,
-  "usb_ports": 0.75,
+  "cabin_noise_rating": 1.00,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.10,
+  "adas_score": 0.95,
+  "visibility_rating": 0.40,
+  "headlight_rating": 1.00,
+  "security_rating": 0.90,
+  "screen_in": 0.90,
+  "infotainment_ux_rating": 0.85,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.95,
+  "usb_ports": 0.80,
   "comfort_feature_score": 1.00,
-  "convenience_feature_score": 0.90,
-  "interior_luxury_rating": 0.95,
-  "interior_tech_focus_rating": 0.85,
-  "brand_prestige_rating": 0.90
+  "convenience_feature_score": 1.00,
+  "brand_prestige_rating": 0.90,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 1.00,
+  "interior_tech_focus_rating": 0.95
 }
 ```
+
+**Reasoning:**
+
+The query "Mercedes-Benz S Class AMG S" is interpreted as the latest, highest-performance AMG version of the S-Class sedan (W223 generation), which is the **Mercedes-AMG S 63 E PERFORMANCE**.
+
+*   **price_usd:** Starts around $200,000 USD / £186,000 UK. Far exceeds the $100k benchmark. Score: -1.00.
+*   **total_cost_estimate_5yr_usd:** Extremely high due to purchase price, depreciation, insurance (Group 50 UK), fuel (despite PHEV capability), and complex AMG/hybrid maintenance/repairs. Well over $60k. Score: -1.00.
+*   **insurance_usd_yr:** Top insurance group (50 UK), very high performance and cost. Exceeds $2,500/year. Score: -1.00.
+*   **maint_usd_yr:** Complex V8 hybrid powertrain, AMG components. Maintenance will be very expensive, exceeding $1,200/year. Score: -1.00.
+*   **repair_risk_score:** High complexity with V8, electric motor, battery, and advanced systems increases potential repair costs and likelihood compared to simpler vehicles. Score: -0.40.
+*   **hp:** 791 hp (802 PS) combined system output. Elite performance level. Score: +1.00.
+*   **torque:** 1055 lb-ft (1430 Nm) combined system output. Massive torque. Score: +1.00.
+*   **cylinder_count:** 8 (V8 engine). Score: +0.50.
+*   **engine_displacement:** 4.0L (3982cc) V8. Score: +0.70.
+*   **accel_0_60_sec:** Claimed 3.2 seconds. Extremely fast. Score: +0.98.
+*   **top_speed:** 180 mph (290 km/h) with optional AMG Driver's Package. Very high. Score: +0.50.
+*   **drive_type:** AMG Performance 4MATIC+ (AWD). Score: 0.00.
+*   **transmission_type:** AMG SPEEDSHIFT MCT 9G (9-speed Automatic with wet clutch). Score: +1.00.
+*   **offroad_ability:** Very low ground clearance, performance tires, AMG suspension. Completely unsuitable for off-road. Score: +1.00 (Poor).
+*   **braking_dist_ft:** Large AMG composite brakes provide excellent stopping power for the heavy vehicle. Score: +0.85.
+*   **size:** Based on the Long Wheelbase S-Class (5336 mm / 210.1 in). Very large. Score: +1.00.
+*   **wheelbase:** Long Wheelbase (3216 mm / 126.6 in). Very long. Score: +1.00.
+*   **body_style:** 4-Door Sedan. Score: 0.00.
+*   **seats:** Standard 5, often optioned with 4 (Executive Rear). Score: 0.00.
+*   **cargo_space:** Significantly reduced by the hybrid battery pack to 305 Litres (~10.8 cu ft). Well below average. Score: -0.61.
+*   **rear_space:** Excellent legroom due to the long wheelbase. Score: +1.00.
+*   **ground_clearance_in:** Low due to AMG suspension. Likely around 5 inches or less. Score: -0.80.
+*   **turn_radius_ft:** Standard rear-axle steering (up to 2.5 degrees) helps maneuverability, but it's still a very long car. Effective radius likely around 38-40 ft. Score: -0.50.
+*   **mpg:** Official WLTP figure (53.5 mpg UK) is high due to PHEV test cycle. Real-world combined MPG will be much lower, especially on longer trips or once the battery is depleted. Poor for a PHEV, poor overall compared to average cars. Score: -0.73.
+*   **co2_g_km:** 100 g/km (WLTP). Artificially low due to PHEV test cycle. Score: +0.42.
+*   **electric_range_mi:** ~20.5 miles (33 km) WLTP from a 13.1 kWh battery. Low for a modern PHEV. Score: -0.65.
+*   **charge_speed_kw:** Standard 3.7 kW AC charging. Slow for a PHEV. Score: -0.70.
+*   **style_sleek_vs_boxy:** Sleek W223 S-Class profile. Score: +0.85.
+*   **style_aggression_rating:** AMG specific styling (Panamericana grille, bumpers, wheels, quad exhausts) makes it significantly more aggressive than standard S-Class. Score: +0.75.
+*   **style_modernity_rating:** Latest S-Class generation with cutting-edge design elements. Score: +0.90.
+*   **handling_rating:** Advanced AMG Active Ride Control suspension and rear-axle steering provide impressive handling for a large, very heavy (over 5700 lbs) sedan. Score: +0.70.
+*   **ride_comfort_rating:** Despite performance focus and large wheels, adaptive air suspension ensures excellent comfort, though potentially slightly firmer than non-AMG S-Class. Score: +0.90.
+*   **cabin_noise_rating:** Exceptional noise insulation expected of an S-Class. Score: +1.00.
+*   **shift_smooth_rating:** AMG MCT 9G offers smooth shifts in comfort modes but can be very quick and direct in sport modes. Score: +0.80.
+*   **steering_feel_rating:** Precise but likely prioritizes stability and isolation over feedback. Score: +0.10.
+*   **adas_score:** Features Mercedes' most advanced driver assistance package. Score: +0.95.
+*   **visibility_rating:** Good for its size, aided by comprehensive camera systems. Score: +0.40.
+*   **headlight_rating:** Digital Light technology standard. Score: +1.00.
+*   **security_rating:** Top-tier Mercedes security systems. Score: +0.90.
+*   **screen_in:** Large 12.8-inch central OLED and 12.3-inch driver display. Score: +0.90.
+*   **infotainment_ux_rating:** Latest MBUX with AMG-specific themes and performance data. Score: +0.85.
+*   **smartphone_connect_rating:** Wireless Apple CarPlay/Android Auto standard. Score: +1.00.
+*   **audio_rating:** High-end Burmester 3D surround sound standard, 4D optional. Score: +0.95.
+*   **usb_ports:** Numerous USB-C ports throughout the cabin. Score: +0.80.
+*   **comfort_feature_score:** Fully loaded with luxury and comfort amenities. Score: +1.00.
+*   **convenience_feature_score:** Packed with high-tech convenience features. Score: +1.00.
+*   **brand_prestige_rating:** Mercedes-AMG is a top-tier performance luxury brand. Score: +0.90.
+*   **model_prestige_rating:** S-Class is the flagship sedan. Score: -1.00 (per guide).
+*   **trim_prestige_rating:** S 63 E Performance is the pinnacle performance trim of the S-Class sedan line. Score: -1.00.
+*   **interior_luxury_rating:** Highest level of AMG luxury appointments, materials, and craftsmanship. Score: +1.00.
+*   **interior_tech_focus_rating:** Very screen-heavy, high-tech MBUX interface. Score: +0.95.

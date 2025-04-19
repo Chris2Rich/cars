@@ -1,44 +1,69 @@
+**Reasoning:**
+
+This evaluation focuses on the **Mercedes-Benz E-Class E300d**, specifically the most recent generation (W214, model year 2024 onwards).
+
+In the *most recent* W214 lineup, there isn't a standard, non-hybrid model designated purely as 'E300d'. However, Mercedes-Benz *does* offer a diesel **Plug-in Hybrid (PHEV)** variant called the **E 300 de**. This model combines the 2.0-liter four-cylinder diesel engine (from the E 220 d) with an electric motor and a battery pack, offering significant electric range alongside diesel efficiency for longer journeys. Given the 'd' suffix in the request, the E 300 de is the closest and most relevant existing model in the current W214 generation.
+
+*   **Performance:** The E 300 de boasts strong combined performance (~313 hp, ~516 lb-ft torque) due to the diesel engine and electric motor working together. Acceleration is brisk (0-60 mph ~6.6s), rated well above average (+0.35). HP is good (+0.40), and Torque is outstanding (+0.90).
+*   **Efficiency & Electrification:** This is a primary focus. It offers a substantial electric-only range (similar to the E 300 e, around 60-70 miles WLTP, rated +0.80), leading to extremely low official CO2 emissions (+0.95) and potentially very high MPG (+0.95) when utilized correctly (regular charging). Supports AC and optional DC charging (+0.15).
+*   **Practicality & Comfort:** Retains the W214's luxurious and spacious cabin (Rear Space +0.70). The PHEV battery slightly compromises boot space compared to non-hybrid versions (-0.15). Ride comfort (+0.95) and cabin quietness (+0.95) are exceptional, especially in electric mode.
+*   **Technology & Luxury:** Equipped with the latest MBUX system (+0.85 UX), large screens (+0.90), premium materials (+0.85 Luxury), extensive ADAS (+0.90), and full connectivity (+1.00 Smartphone). High interior tech focus (+0.95).
+*   **Cost & Prestige:** The E 300 de carries a significant price premium due to the complex diesel PHEV powertrain (-0.88). Overall costs (-0.75), insurance (-0.85), and maintenance (-0.75) are expected to be high. Repair risk is slightly elevated (-0.35). Brand (+0.80) and model (0.00) prestige are high. The E 300 de trim signifies advanced, efficient technology, positioning it in the upper-mid range (-0.25 Trim Prestige).
+
+**Evaluation based on the 2024 Mercedes-Benz E 300 de (W214):**
+
 ```json
 {
-  "price_usd": -0.75,
-  "total_cost_estimate_5yr_usd": -0.60,
-  "insurance_usd_yr": -0.65,
-  "maint_usd_yr": -0.70,
-  "repair_risk_score": 0.10,
-  "hp": 0.30,
-  "torque": 0.65,
-  "accel_0_60_sec": 0.30,
-  "braking_dist_ft": 0.25,
+  "price_usd": -0.88,
+  "total_cost_estimate_5yr_usd": -0.75,
+  "insurance_usd_yr": -0.85,
+  "maint_usd_yr": -0.75,
+  "repair_risk_score": -0.35,
+  "hp": 0.40,
+  "torque": 0.90,
+  "cylinder_count": -0.40,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": 0.35,
+  "top_speed": 0.00,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.35,
+  "size": 0.45,
+  "wheelbase": 0.55,
+  "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.25,
-  "rear_space": 0.40,
-  "ground_clearance_in": -0.75,
-  "turn_radius_ft": 0.10,
-  "mpg": 0.55,
-  "co2_g_km": 0.35,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.50,
+  "cargo_space": -0.15,
+  "rear_space": 0.70,
+  "ground_clearance_in": -0.80,
+  "turn_radius_ft": -0.15,
+  "mpg": 0.95,
+  "co2_g_km": 0.95,
+  "electric_range_mi": 0.80,
+  "charge_speed_kw": 0.15,
+  "style_sleek_vs_boxy": 0.80,
   "style_aggression_rating": 0.10,
-  "style_modernity_rating": 0.75,
-  "handling_rating": 0.30,
-  "ride_comfort_rating": 0.80,
-  "cabin_noise_rating": 0.85,
-  "shift_smooth_rating": 0.80,
-  "steering_feel_rating": 0.20,
-  "adas_score": 0.70,
-  "visibility_rating": 0.30,
-  "headlight_rating": 0.80,
-  "security_rating": 0.60,
-  "screen_in": 0.70,
-  "infotainment_ux_rating": 0.80,
-  "smartphone_connect_rating": 0.75,
-  "audio_rating": 0.50,
-  "usb_ports": 0.50,
-  "comfort_feature_score": 0.75,
-  "convenience_feature_score": 0.70,
-  "interior_luxury_rating": 0.75,
-  "interior_tech_focus_rating": 0.85,
-  "brand_prestige_rating": 0.85
+  "style_modernity_rating": 0.95,
+  "handling_rating": 0.15,
+  "ride_comfort_rating": 0.95,
+  "cabin_noise_rating": 0.95,
+  "shift_smooth_rating": 0.95,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.90,
+  "visibility_rating": 0.10,
+  "headlight_rating": 0.90,
+  "security_rating": 0.75,
+  "screen_in": 0.90,
+  "infotainment_ux_rating": 0.85,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.75,
+  "usb_ports": 0.70,
+  "comfort_feature_score": 0.85,
+  "convenience_feature_score": 0.85,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -0.25,
+  "interior_luxury_rating": 0.85,
+  "interior_tech_focus_rating": 0.95
 }
 ```

@@ -5,64 +5,17 @@ import concurrent.futures
 import sys
 import time
 import random
+import traceback
+from colorama import Fore, Style, init
 
 from google import genai
 from google.genai import types
-from pydantic import BaseModel
 
 sys.stdout.reconfigure(encoding='utf-8')
+init(autoreset=True)
 client = genai.Client(api_key="AIzaSyACgWOTtISnfldQRSe6uKkeMQXCoYl19e0")
 
-class data(BaseModel):
-    price_usd: float
-    total_cost_estimate_5yr_usd: float
-    insurance_usd_yr: float
-    maint_usd_yr: float
-    repair_risk_score: float
-
-    hp: float
-    torque: float 
-    accel_0_60_sec: float
-    braking_dist_ft: float
-    seats: float 
-    cargo_space: float
-    rear_space: float
-    ground_clearance_in: float
-    turn_radius_ft: float
-
-    mpg: float
-    co2_g_km: float
-    electric_range_mi: float 
-    charge_speed_kw: float
-
-    style_sleek_vs_boxy: float 
-    style_aggression_rating: float 
-    style_modernity_rating: float
-
-    handling_rating: float 
-    ride_comfort_rating: float 
-    cabin_noise_rating: float 
-    shift_smooth_rating: float 
-    steering_feel_rating: float 
-
-    adas_score: float 
-    visibility_rating: float 
-    headlight_rating: float 
-    security_rating: float 
-
-    screen_in: float
-    infotainment_ux_rating: float 
-    smartphone_connect_rating: float 
-    audio_rating: float 
-    usb_ports: float 
-    comfort_feature_score: float 
-    convenience_feature_score: float 
-
-    interior_luxury_rating: float 
-    interior_tech_focus_rating: float 
-    brand_prestige_rating: float 
-
-system_prompt_spec_score = """"You are an expert car evaluator and spec normalizer. You analyze raw automotive performance and utility data and convert them into **standardized, normalized scores** to help consumers and analysts easily compare vehicles. Focus strictly on the provided variables — never guess or extrapolate, when in doubt, use the Google Search tool to help you find correct answers for each attribute. Do not hallucinate, do not estimate or guess. Ensure that the JSON you return is properly formed, it is ok to take extra time and care. Reply with ONLY JSON in the format of the provided datastructure:
+system_prompt_spec_score = """"You are an expert car evaluator and spec normalizer. You analyze raw automotive performance and utility data and convert them into **standardized, normalized scores** to help consumers and analysts easily compare vehicles. Focus strictly on the provided variables — never guess or extrapolate, when in doubt, use the Google Search tool to help you find correct answers for each attribute. Do not hallucinate, do not estimate or guess. Ensure that the JSON you return is properly formed, it is ok to take extra time and care. Do not fail, you must return the correct answer as this is critical. Reply with ONLY JSON in the format of the provided datastructure:
     
 class data(BaseModel):
     price_usd: float
@@ -70,37 +23,40 @@ class data(BaseModel):
     insurance_usd_yr: float
     maint_usd_yr: float
     repair_risk_score: float
-
     hp: float
     torque: float 
+    cylinder_count: float
+    engine_displacement: float
     accel_0_60_sec: float
+    top_speed: float
+    drive_type: float
+    transmission_type: float
+    offroad_ability: float
     braking_dist_ft: float
+    size: float
+    wheelbase: float
+    body_style: float
     seats: float 
     cargo_space: float
     rear_space: float
     ground_clearance_in: float
     turn_radius_ft: float
-
     mpg: float
     co2_g_km: float
     electric_range_mi: float 
     charge_speed_kw: float
-
     style_sleek_vs_boxy: float 
     style_aggression_rating: float 
     style_modernity_rating: float
-
     handling_rating: float 
     ride_comfort_rating: float 
     cabin_noise_rating: float 
     shift_smooth_rating: float 
     steering_feel_rating: float 
-
     adas_score: float 
     visibility_rating: float 
     headlight_rating: float 
     security_rating: float 
-
     screen_in: float
     infotainment_ux_rating: float 
     smartphone_connect_rating: float 
@@ -108,10 +64,11 @@ class data(BaseModel):
     usb_ports: float 
     comfort_feature_score: float 
     convenience_feature_score: float 
-
-    interior_luxury_rating: float 
-    interior_tech_focus_rating: float 
     brand_prestige_rating: float
+    model_prestige_rating: float
+    trim_prestige_rating: float
+    interior_luxury_rating: float 
+    interior_tech_focus_rating: float
 
 You will assign a score between **-1.00 and +1.00** to every metric based on how it compares to today's vehicle market. Use these principles:
 
@@ -161,20 +118,64 @@ All outputs must be **scored** on the -1.00 to +1.00 scale, using 2 decimal plac
       0.00: Honda Accord (~190 lb-ft)  
       +1.00: Tesla Model S Plaid (>1,000 lb-ft instant)  
 
+  cylinder_count  
+      -1.00: Toyota Yaris (3)
+      0.00: BMW M4 (6) 
+      +1.00: Ferrari 812 (12)
+
+  engine_displacement  
+      -1.00: Peugot 2008 (1.2L)
+      0.00: Audi S6 (3.0L)
+      +1.00: Mercedes-Maybach S650 (6.0L)
+
   accel_0_60_sec  
       -1.00: Mitsubishi Mirage (>10 sec)  
       0.00: Mazda3 (~7.5 sec)  
       +1.00: Porsche Taycan Turbo S (<2.5 sec)  
-      *(Lower = better)*
+
+  top_speed  
+      -1.00: Renaulty Twizy (50mph)
+      0.00: Mercedes-Benz C200 (150mph)
+      +1.00: Aston Martin DB12 (202mph)
+
+  drive_type  
+      -1.00: FWD
+      0.00: AWD
+      +1.00: RWD
+
+  transmission_type  
+      -1.00: Manual / Sequential Transmission
+      0.00: Dual-Clutch Transmission
+      +1.00: Automatic Transmission
+
+  offroad_ability  
+      -1.00: Mercedes G-Class (High ride height, 3 manual differentials, 4x4)
+      0.00: Ford Explorer (Average)
+      +1.00: Mclaren 540c (Low to ground, RWD, harsh suspension)
 
   braking_dist_ft  
       -1.00: Jeep Gladiator (>150 ft)  
       0.00: Toyota Corolla (~125 ft)  
       +1.00: Porsche 911 GT3 (<105 ft)  
-      *(Lower = better)*
 
-👥 SPACE & PRACTICALITY  
-  seats  
+👥 SPACE & PRACTICALITY 
+
+  size  
+      -1.00: Fiat 500/ Peugot 207 (~3600mm)
+      0.00: Honda Civic (~4600mm)
+      +1.00: Hummer EV/Cadillac Escalade (>5100mm)
+
+  wheelbase
+      -1.00: Mazda Miata (~2300mm)
+      0.00: Skoda Octavia (~2700mm)
+      +1.00: Mercedes-Benz S-Class/ Rolls Royce Phantom (>3200)
+
+  body_style
+      -1.00: 2-Door Coupe
+      0.00: 4-Door Sedan/Coupe
+      +1.00: 5-Door Van
+
+  seats
       -1.00: Smart Fortwo (2 seats)  
       0.00: Toyota RAV4 (5 seats)  
       +1.00: Chevrolet Suburban / Kia Carnival (7-8 seats)  
@@ -198,7 +199,6 @@ All outputs must be **scored** on the -1.00 to +1.00 scale, using 2 decimal plac
       -1.00: Ford F-250 (>45 ft)  
       0.00: Toyota Camry (~36 ft)  
       +1.00: Smart Fortwo (~22 ft)  
-      *(Lower = better)*
 
 ⚡ EFFICIENCY & ELECTRIFICATION  
   mpg  
@@ -210,16 +210,15 @@ All outputs must be **scored** on the -1.00 to +1.00 scale, using 2 decimal plac
       -1.00: Dodge Charger V8 (>300 g/km)  
       0.00: Toyota RAV4 (~175 g/km)  
       +1.00: Tesla Model 3 / EVs (0 g/km)  
-      *(Lower = better)*
 
   electric_range_mi  
-      -1.00: Mazda MX-30 (~100 mi)  
-      0.00: Nissan Leaf Plus / VW ID.4 (~225 mi)  
+      -1.00: IF NOT ELECTRIC 
+      0.00: Mazda MX-30 (~100 mi) 
       +1.00: Lucid Air / Tesla Model S LR (>375 mi)  
 
   charge_speed_kw  
-      -1.00: Level 1 charging (~3-6 kW)  
-      0.00: Typical home & public L2 (~11-50 kW)  
+      -1.00: IF NOT ELECTRIC 
+      0.00: Typical home & public (~11-50 kW)  
       +1.00: High-speed DC Fast (~250-350+ kW)  
 
 🔧 RIDE & DYNAMICS  
@@ -322,6 +321,16 @@ All outputs must be **scored** on the -1.00 to +1.00 scale, using 2 decimal plac
       0.00: Honda  
       +1.00: Porsche / Mercedes-AMG / Bentley
 
+  model_prestige_rating  
+      -1.00: Mercedes S class / Audi R8 / Porsche 911 (Top of brand/ halo cars) 
+      0.00: Audi A5 / Toyota Camry (Middle of range)
+      +1.00: Chevrolet Spark / Audi A1 (Entry Level Models)
+
+  trim_prestige_rating  
+      -1.00: Amg 63 / BMW M / Audi RS (Top Trims)
+      0.00: Amg Line / M lite / S Line (Good Trim)
+      +1.00: Base Models
+
   style_sleek_vs_boxy  
       -1.00: Mercedes G-Class / Suzuki Jimny (ultra-boxy)  
       0.00: Subaru Legacy / Toyota Highlander  
@@ -339,31 +348,27 @@ All outputs must be **scored** on the -1.00 to +1.00 scale, using 2 decimal plac
 """
 
 def queryllm_evaluate_model(model: list):
-  response = client.models.generate_content(
-    model="gemini-2.5-pro-preview-03-25",
-    contents=[f"Evaluate the model and explain your reasoning for each rating. If unsure, be sure to search for that exact data. The model is the most recent version of this: {model}"],
-    config=types.GenerateContentConfig(
-      temperature=0,
-      system_instruction=(system_prompt_spec_score),
-      tools=[types.Tool(google_search=types.GoogleSearch())],
-    #   response_mime_type="application/json",
-    #   response_schema=list[data]
+    gemini = client.chats.create(
+        model="gemini-2.5-pro-preview-03-25",
+        config=types.GenerateContentConfig(
+            temperature=0,
+            system_instruction=(system_prompt_spec_score),
+            tools=[types.Tool(google_search=types.GoogleSearch())]
+        )
     )
-  )
-  return response
 
-def worker(trim: list):
-    try:
-        time.sleep(random.random() * 2)
-        print(f"Picked up {trim}")
-        os.makedirs(os.path.dirname(f"data/car_scores/{'/'.join(trim)}.json"), exist_ok=True)
-        file = open(f"data/car_scores/{'/'.join(trim)}.json", "w", encoding="utf-8")
-        file.write(queryllm_evaluate_model(trim).candidates[0].content.parts[0].text)
-        file.close()
-        print(f"Finished {trim}")
-    except Exception as e:
-        print(e)
 
+    for i in model[-1]:
+        try:
+            time.sleep(random.random() * 2)
+            print(f"{Fore.YELLOW}[PICKED]{Style.RESET_ALL} Picked up {model[:-1] + [i]}")
+            os.makedirs(os.path.dirname(f"data/car_scores/{'/'.join(model[:-1] + [i])}"), exist_ok=True)
+            with open(f"data/car_scores/{'/'.join(model[:-1] + [i])}.json", "w", encoding="utf-8") as file:
+                file.write(gemini.send_message([f"Evaluate the model and explain your reasoning for each rating. If unsure, be sure to search for that exact data. The model is the most recent version of this: {model[:-1] + [i]}"]).text)
+            print(f"{Fore.GREEN}[FINISHED]{Style.RESET_ALL} Finished {model[:-1] + [i]}")
+        except Exception:
+            print(f"{Fore.RED}[FAILED]{Style.RESET_ALL} Failed on: {model[:-1] + [i]}\n", traceback.format_exc())
+        
 with concurrent.futures.ThreadPoolExecutor(max_workers=16) as executor:
     futures = []
 
@@ -372,13 +377,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=16) as executor:
             for brand, models in json.load(file).items():
                 for model in models:
                     for model_name, versions in model.items():
-                        for version in versions:
-                           futures.append(executor.submit(worker, [brand, model_name, version]))
+                        futures.append(executor.submit(queryllm_evaluate_model, [brand, model_name, versions if versions != [] else [""]]))
                         
     for i in concurrent.futures.as_completed(futures):
         i.result()
-        
-while True:
-    pass
-
-#Up to SLK

@@ -1,0 +1,67 @@
+**Reasoning:**
+
+This evaluation focuses on the **Mercedes-Benz E-Class E300**, specifically the most recent generation (W214, model year 2024 onwards). In the current W214 lineup, the 'E300' designation primarily refers to the **Plug-in Hybrid (PHEV)** models. The most common variant globally is the petrol-based **E 300 e**. This model combines a 2.0-liter turbocharged four-cylinder petrol engine with an electric motor and a significant battery pack, offering substantial electric-only range and strong combined performance.
+
+*   **Performance:** The E 300 e delivers strong performance thanks to the combined output of the petrol engine and electric motor (~313 hp, ~406 lb-ft torque). Acceleration is brisk (0-60 mph ~6.4s), rated well above average (+0.40). HP (+0.40) and especially Torque (+0.60) are impressive for a non-AMG E-Class.
+*   **Efficiency & Electrification:** This is the E 300 e's main strength. It offers a substantial electric-only range (around 60-70 miles WLTP, rated +0.80), leading to potentially very high MPG (+0.90) and extremely low CO2 emissions (+0.90) when charged regularly. It supports both AC and optional DC charging (+0.15).
+*   **Practicality & Comfort:** Shares the W214's spacious and luxurious cabin (Rear Space +0.70). However, the PHEV battery pack slightly reduces cargo space compared to non-hybrid models (-0.10). Ride comfort (+0.95) and cabin quietness (+0.95) are exceptional, enhanced by silent electric driving.
+*   **Technology & Luxury:** Features the latest MBUX infotainment system (+0.85 UX) on large screens (+0.90), high-quality materials (+0.85 Luxury), comprehensive ADAS (+0.90), and excellent connectivity (+1.00 Smartphone). Interior tech focus is very high (+0.95).
+*   **Cost & Prestige:** The E 300 e has a higher purchase price (-0.85) due to the complex PHEV technology. Long-term costs (-0.70) depend heavily on charging habits but insurance (-0.80) and maintenance (-0.70) are likely higher than base models. Repair risk is slightly increased (-0.30). Brand (+0.80) and model (0.00) prestige are high. The E 300 e trim signifies advanced technology and efficiency, positioning it as a mid-to-upper range choice (-0.20 Trim Prestige).
+
+**Evaluation based on the 2024 Mercedes-Benz E 300 e (W214):**
+
+```json
+{
+  "price_usd": -0.85,
+  "total_cost_estimate_5yr_usd": -0.70,
+  "insurance_usd_yr": -0.80,
+  "maint_usd_yr": -0.70,
+  "repair_risk_score": -0.30,
+  "hp": 0.40,
+  "torque": 0.60,
+  "cylinder_count": -0.40,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": 0.40,
+  "top_speed": 0.00,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.30,
+  "size": 0.45,
+  "wheelbase": 0.55,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": -0.10,
+  "rear_space": 0.70,
+  "ground_clearance_in": -0.80,
+  "turn_radius_ft": -0.15,
+  "mpg": 0.90,
+  "co2_g_km": 0.90,
+  "electric_range_mi": 0.80,
+  "charge_speed_kw": 0.15,
+  "style_sleek_vs_boxy": 0.80,
+  "style_aggression_rating": 0.10,
+  "style_modernity_rating": 0.95,
+  "handling_rating": 0.20,
+  "ride_comfort_rating": 0.95,
+  "cabin_noise_rating": 0.95,
+  "shift_smooth_rating": 0.95,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.90,
+  "visibility_rating": 0.10,
+  "headlight_rating": 0.90,
+  "security_rating": 0.75,
+  "screen_in": 0.90,
+  "infotainment_ux_rating": 0.85,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.75,
+  "usb_ports": 0.70,
+  "comfort_feature_score": 0.85,
+  "convenience_feature_score": 0.85,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -0.20,
+  "interior_luxury_rating": 0.85,
+  "interior_tech_focus_rating": 0.95
+}
+```
