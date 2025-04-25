@@ -14,8 +14,14 @@ import ast
 import traceback
 import json
 
-latent_dim = 8
-epochs = 500
+latent_dim = 16
+epochs = 50
+free_bits = 0.5
+max_beta = 0.2
+learning_rate = 1e-3
+
+dataset = "data/training_data2.txt"
+version = 1
 
 class KLAnnealingCallback(keras.callbacks.Callback):
     def __init__(self, vae_loss_layer, target_beta, total_epochs, start_epoch=0, warmup_epochs=50):
@@ -66,8 +72,9 @@ class VAELossLayer(layers.Layer):
         recon_loss = tf.reduce_mean(tf.square(x - x_decoded))
 
         # KL divergence
-        kl = -0.5 * K.sum(1 + z_log_var - K.square(z_mean) - K.exp(z_log_var), axis=1)
-        kl_loss = K.mean(kl)
+        kl_per_dim = -0.5 * K.sum(1 + z_log_var - K.square(z_mean) - K.exp(z_log_var), axis=1)
+        kl_per_dim = tf.maximum(kl_per_dim, free_bits)
+        kl_loss = K.mean(kl_per_dim)
 
         self.total_loss_tracker.update_state(recon_loss + (self.beta * kl_loss))
         self.recon_loss_tracker.update_state(recon_loss)
@@ -146,7 +153,7 @@ def train_model():
     tf.config.list_physical_devices("GPU")
 
     raw_data = np.zeros((0))
-    with open("data/training_data.txt") as file:
+    with open(dataset) as file:
         raw_data = np.array(ast.literal_eval(file.readline())) 
     train_data, val_data = train_test_split(raw_data, test_size=0.2, random_state=42)
 
@@ -160,9 +167,9 @@ def train_model():
     outputs = vae_loss_layer([inputs, decoded, z_mean, z_log_var])
 
     vae = keras.Model(inputs, outputs, name="vae")
-    vae.compile(optimizer=keras.optimizers.Adam(learning_rate=1e-3))
+    vae.compile(optimizer=keras.optimizers.Adam(learning_rate=learning_rate))
 
-    kl_annealing_callback = KLAnnealingCallback(vae_loss_layer, target_beta=0.35, total_epochs=epochs, warmup_epochs=(round(epochs * 0.5)))
+    kl_annealing_callback = KLAnnealingCallback(vae_loss_layer, target_beta=max_beta, total_epochs=epochs, warmup_epochs=(round(epochs * 0.85)))
 
     early_stopper = EarlyStopping(
         monitor="val_loss",
@@ -181,22 +188,22 @@ def train_model():
 
     vae.fit(train_data, epochs=epochs, batch_size=64, shuffle=True, validation_data=(val_data, val_data), callbacks=[kl_annealing_callback, early_stopper, lr_scheduler])
 
-    encoder.save_weights("models/encoder.weights.h5", overwrite=True)
-    decoder.save_weights("models/decoder.weights.h5", overwrite=True)
-    vae.save_weights("models/vae.weights.h5", overwrite=True)
+    encoder.save_weights(f"models/{version}/encoder.weights.h5", overwrite=True)
+    decoder.save_weights(f"models/{version}/decoder.weights.h5", overwrite=True)
+    vae.save_weights(f"models/{version}/vae.weights.h5", overwrite=True)
 
     vae.summary()
 
 def load_encoder():
     # Encoder
     encoder, _, _ = encoder_architecture(keras.Input(shape=(51,)))
-    encoder.load_weights("models/encoder.weights.h5")
+    encoder.load_weights(f"models/{version}/encoder.weights.h5")
     return encoder
 
 def load_decoder():
     # Decoder
     decoder = decoder_architecture()
-    decoder.load_weights("models/decoder.weights.h5")
+    decoder.load_weights(f"models/{version}/decoder.weights.h5")
     return decoder
 
 def load_vae():
@@ -209,7 +216,7 @@ def load_vae():
     outputs = VAELossLayer()([inputs, decoded, z_mean, z_log_var])
 
     vae = keras.Model(inputs, outputs, name="vae")
-    vae.load_weights("models/vae.weights.h5")
+    vae.load_weights(f"models/{version}/vae.weights.h5")
     return vae
 
 def visualize_latent_space(encoder, data, labels, fig):
@@ -282,21 +289,23 @@ def load_model():
     return load_vae(), load_encoder(), load_decoder()
 
 def get_trims():
+    avoid = [i.strip() for i in open("data/logs/empty_cars.txt").readlines()]
     res = []
-    for i in ["data/car_models/Mercedes-Benz.json"]: #glob.glob("data/car_models/**.json", recursive=True):
+    for i in ["data/car_models/Mercedes-Benz.json", "data/car_models/BMW.json", "data/car_models/Audi.json", "data/car_models/Volkswagen.json", "data/car_models/Porsche.json", "data/car_models/Vauxhall.json"]: #glob.glob("data/car_models/**.json", recursive=True):
         with open(i, "r") as file:
             for brand, models in json.load(file).items():
                 for model in models:
                     for model_name, versions in model.items():
                         for version in versions:
-                            res.append(" ".join([model_name, version]))
+                            if str([brand, model_name, version]) not in avoid:
+                                res.append(" ".join([model_name, version]))
     return res
 
 try:
-    train_model()
+    # train_model()
 
     vae, encoder, decoder = load_model()
-    raw_data = np.array(ast.literal_eval(open("data/training_data.txt").readline()))
+    raw_data = np.array(ast.literal_eval(open(dataset).readline()))
     
     fig = plt.figure(figsize=(8,8))
 

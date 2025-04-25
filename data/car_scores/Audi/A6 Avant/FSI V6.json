@@ -1,127 +1,55 @@
-Based on the search results, the "most recent version of this: ['Audi', 'A6 Avant', 'FSI V6']" most likely refers to a C7 generation (2011-2018) Audi A6 Avant with a 3.0 FSI V6 engine. The 3.0 TFSI (supercharged FSI) is more common in the C7, but a naturally aspirated 3.0 FSI V6 did exist in some markets/years, often with lower power than the TFSI. However, the search results primarily show data for the 3.0 TFSI V6 (300-333 hp) and 2.8 FSI V6 (204 hp) in the C7 Avant. There is also mention of a 3.0 TDI V6. Given the prompt specifically says "FSI V6" and not "TFSI V6", I will assume it refers to the naturally aspirated FSI V6 if data is available, or the lower output 3.0 TFSI if not, as it's closer to a non-turbo FSI character. The 2.8 FSI is also a possibility, but 3.0 FSI is explicitly mentioned. Let's look for 3.0 FSI V6 data specifically for the C7 Avant.
-
-Search results mention a 3.0 TFSI V6 with 300-310 hp and 324 lb-ft torque (Entries 2, 4, 5, 6, 9, 10, 11, 13, 18). There's also a 2.8 FSI V6 with 204 hp and 206 lb-ft (Entries 17, 23, 40). The prompt just says "FSI V6", not specifying displacement or aspiration (turbo/supercharged). The 3.0 TFSI is technically an FSI engine with a supercharger. The 2.8 FSI is naturally aspirated. Without further clarification, I will interpret "FSI V6" in the context of the C7 A6 Avant as the engine most commonly associated with a V6 petrol engine that isn't the higher-performance S6/RS6 engine, which is the 3.0 TFSI. It's the most likely candidate for a standard "FSI V6" offering in that generation. I will use the 3.0 TFSI (300-310hp) data as the basis, as it's the most prominent V6 petrol in the C7 Avant search results.
-
-Refined data points based on search results for C7 A6 Avant 3.0 TFSI Quattro (around 2011-2014):
-*   `price_usd`: ~$60k-$70k new. Score: -0.50.
-*   `total_cost_estimate_5yr_usd`: Luxury car costs. Score: -0.25.
-*   `insurance_usd_yr`: Insurance group 30+. Score: -0.50.
-*   `maint_usd_yr`: German luxury car maintenance. Score: -0.25.
-*   `repair_risk_score`: Generally good reliability for C7, but some known issues (mechatronics on some transmissions, although Tiptronic is generally robust, screen issues, timing chain tensioners on high mileage). Score: 0.10 (slightly better than average, but not top tier). (Entries 19, 32, 33, 35, 36)
-*   `hp`: ~300-310 hp. Score: 0.50. (Entries 2, 4, 5, 6, 9, 10, 11, 13, 18)
-*   `torque`: ~324 lb-ft. Score: 0.50. (Entries 2, 4, 5, 6, 9, 10, 11, 13, 18)
-*   `cylinder_count`: 6. Score: 0.00.
-*   `engine_displacement`: 3.0L. Score: 0.00. (Entries 2, 4, 5, 6, 9, 10, 11, 13, 18)
-*   `accel_0_60_sec`: ~5.2-5.3 sec. Score: 0.75. (Entries 2, 4, 6, 9, 10, 11, 13)
-*   `top_speed`: 155 mph (limited). Score: 0.00. (Entries 2, 4, 5, 6, 9, 10, 13)
-*   `drive_type`: Quattro (AWD). Score: 0.00. (Entries 2, 4, 5, 6, 7, 9, 10, 11, 13, 18, 24, 25, 39, 40, 43)
-*   `transmission_type`: Often 7-speed S tronic (dual-clutch) or 8-speed Tiptronic (automatic). Search results show both for 3.0 TFSI Quattro. S tronic is 0.00, Tiptronic is 1.00. Let's assume S tronic is common for this era/engine, rate as 0.00. (Entries 2, 4, 5, 6, 9, 10, 11, 13, 18, 25, 39, 40, 43)
-*   `offroad_ability`: Very low. Score: -1.00.
-*   `braking_dist_ft`: Estimate ~115-120 ft. Score: 0.25. (Entry 19 mentions good braking reliability)
-*   `size`: ~4926-4943 mm (193.9-194.6 in). Large. Score: 0.75. (Entries 3, 8, 9, 10, 12, 20, 22, 26, 27, 28, 29, 30, 39, 40)
-*   `wheelbase`: ~2912 mm (114.6 in). Long. Score: 0.50. (Entries 2, 3, 4, 8, 9, 10, 11, 12, 20, 25, 26, 28, 39, 40)
-*   `body_style`: 5-Door Wagon. Score: 0.50. (Entries 9, 10, 12, 15, 17, 20, 22, 23, 24, 25, 27, 28, 29, 30, 34, 39, 43)
-*   `seats`: 5. Score: 0.00. (Entries 11, 15, 24, 39)
-*   `cargo_space`: 565-1680 liters (19.95-59.33 cu ft). Score: 0.75 (seats down), 0.25 (seats up). Use average/max for score: 0.75. (Entries 3, 4, 8, 9, 10, 12, 14, 15, 20, 25, 28, 29, 30, 34, 39, 40)
-*   `rear_space`: ~37 inches (estimated based on wheelbase/segment). Score: 0.25.
-*   `ground_clearance_in`: ~117 mm (4.6 in) to 12.6 cm (5 in), potentially 145mm (5.7 in) with air suspension lift mode. Base is low. Score: -0.50. (Entries 3, 10, 12, 28, 37)
-*   `turn_radius_ft`: ~11.9 m (39.04 ft). Score: -0.25. (Entries 4, 8, 10, 20, 24, 25, 30, 40)
-*   `mpg`: ~22-29 US mpg combined. Score: 0.00. (Entries 2, 4, 5, 6, 9, 10, 11, 13, 18, 24, 30, 39)
-*   `co2_g_km`: ~180-190 g/km. Score: 0.00. (Entries 2, 4, 5, 6, 7, 11, 18, 39)
-*   `electric_range_mi`: Not electric. Score: -1.00.
-*   `charge_speed_kw`: Not electric. Score: -1.00.
-*   `style_sleek_vs_boxy`: Relatively sleek wagon. Score: 0.50.
-*   `style_aggression_rating`: Moderate. Score: 0.00.
-*   `style_modernity_rating`: C7 design is somewhat dated now. Score: -0.25.
-*   `handling_rating`: Competent, secure, AWD grip. Not a sports car. Score: 0.00. (Entry 19)
-*   `ride_comfort_rating`: Very comfortable. Score: 0.75. (Entry 19)
-*   `cabin_noise_rating`: Excellent cabin isolation. Score: 0.75.
-*   `shift_smooth_rating`: S tronic can be jerky at low speeds (Entry 32), Tiptronic is smooth. Rate based on S tronic being common: 0.00.
-*   `steering_feel_rating`: Often criticized as numb. Score: -0.50. (Entry 32)
-*   `adas_score`: Decent for its time (lane keep assist mentioned in Entry 32), but not cutting edge now. Score: 0.25.
-*   `visibility_rating`: Good for a wagon. Score: 0.50.
-*   `headlight_rating`: Good Xenon/LED options available. Score: 0.50.
-*   `security_rating`: Good for a premium car. Score: 0.50.
-*   `screen_in`: 6.5" or 8". Score: 0.00. (Entry 18)
-*   `infotainment_ux_rating`: MMI was good but not touch screen initially, can be fiddly. Score: 0.00. (Entry 41)
-*   `smartphone_connect_rating`: Bluetooth standard (Entry 31, 41), later models might have MMI Navigation Plus with smartphone interface (Apple CarPlay/Android Auto) (Entry 21), but not guaranteed or wireless like modern cars. Rate based on standard Bluetooth: 0.00.
-*   `audio_rating`: Optional premium systems available. Score: 0.50.
-*   `usb_ports`: Likely 1-2 ports. Below average now. Score: -0.25.
-*   `comfort_feature_score`: Available premium features. Score: 0.50.
-*   `convenience_feature_score`: Available features. Score: 0.50.
-*   `brand_prestige_rating`: Audi is a high-prestige brand. Score: 0.75.
-*   `model_prestige_rating`: A6 is a core, mid-range model. Score: 0.00.
-*   `trim_prestige_rating`: 3.0 TFSI is a strong engine option, but not top-tier performance like S6/RS6. Rate as mid-range. Score: 0.00.
-*   `interior_luxury_rating`: High quality materials, premium feel for its time. Score: 0.75.
-*   `interior_tech_focus_rating`: Good tech for its era, but not screen-dominated. Score: 0.25.
-
-Final review of scores based on the C7 3.0 TFSI Avant data. Adjusting some scores slightly for better differentiation based on the guide.
-*   `accel_0_60_sec`: 5.2-5.3s is quite quick, maybe 0.75 is appropriate.
-*   `transmission_type`: S tronic is dual-clutch, which is 0.00 on the guide. Tiptronic is automatic, 1.00. Since both were available, and S tronic is mentioned for 3.0 TFSI, stick with 0.00.
-*   `cargo_space`: 565L (20 cu ft) seats up is average (0.00), 1680L (59 cu ft) seats down is excellent (1.00). Average them or consider the versatility? Let's rate based on the maximum utility for a wagon: 0.75.
-*   `ground_clearance_in`: 4.6-5 inches is definitely below average 6.5 inches. -0.50 seems right.
-*   `mpg`: 22-29 mpg for a powerful AWD wagon is average. 0.00.
-*   `co2_g_km`: 180-190 g/km is average. 0.00.
-*   `style_modernity_rating`: C7 is visibly older than current cars. -0.25 is fair.
-*   `shift_smooth_rating`: S tronic jerkiness mentioned. 0.00 is appropriate.
-*   `adas_score`: Basic ADAS for its time. 0.25 is fair.
-*   `screen_in`: 6.5-8 inches is average for its time, below average now. 0.00.
-*   `smartphone_connect_rating`: Basic Bluetooth standard. 0.00.
-*   `usb_ports`: Likely few. -0.25.
-*   `interior_tech_focus_rating`: Not screen-heavy. 0.25.
-
-Looks reasonable. Proceed with JSON generation.```json
+```json
 {
-  "price_usd": -0.50,
-  "total_cost_estimate_5yr_usd": -0.25,
-  "insurance_usd_yr": -0.50,
-  "maint_usd_yr": -0.25,
-  "repair_risk_score": 0.10,
-  "hp": 0.50,
-  "torque": 0.50,
+  "price_usd": 0.80,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.10,
+  "repair_risk_score": -0.10,
+  "hp": 0.10,
+  "torque": 0.10,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.75,
+  "accel_0_60_sec": 0.10,
   "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 0.00,
-  "offroad_ability": -1.00,
-  "braking_dist_ft": 0.25,
-  "size": 0.75,
-  "wheelbase": 0.50,
-  "body_style": 0.50,
+  "offroad_ability": -0.80,
+  "braking_dist_ft": 0.00,
+  "size": 0.30,
+  "wheelbase": 0.30,
+  "body_style": 0.10,
   "seats": 0.00,
-  "cargo_space": 0.75,
-  "rear_space": 0.25,
+  "cargo_space": 0.20,
+  "rear_space": 0.30,
   "ground_clearance_in": -0.50,
-  "turn_radius_ft": -0.25,
-  "mpg": 0.00,
-  "co2_g_km": 0.00,
+  "turn_radius_ft": -0.10,
+  "mpg": -0.10,
+  "co2_g_km": -0.20,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.50,
+  "style_sleek_vs_boxy": 0.20,
   "style_aggression_rating": 0.00,
-  "style_modernity_rating": -0.25,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 0.75,
-  "cabin_noise_rating": 0.75,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": -0.50,
-  "adas_score": 0.25,
-  "visibility_rating": 0.50,
-  "headlight_rating": 0.50,
-  "security_rating": 0.50,
-  "screen_in": 0.00,
+  "style_modernity_rating": -0.40,
+  "handling_rating": 0.10,
+  "ride_comfort_rating": 0.40,
+  "cabin_noise_rating": 0.30,
+  "shift_smooth_rating": 0.10,
+  "steering_feel_rating": 0.10,
+  "adas_score": -0.30,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.10,
+  "security_rating": 0.00,
+  "screen_in": -0.30,
   "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.00,
-  "audio_rating": 0.50,
-  "usb_ports": -0.25,
-  "comfort_feature_score": 0.50,
-  "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.75,
+  "smartphone_connect_rating": -0.50,
+  "audio_rating": 0.30,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.30,
+  "convenience_feature_score": 0.20,
+  "brand_prestige_rating": 0.60,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.75,
-  "interior_tech_focus_rating": 0.25
+  "interior_luxury_rating": 0.40,
+  "interior_tech_focus_rating": 0.00
 }
 ```

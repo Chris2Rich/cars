@@ -1,109 +1,55 @@
-Based on the search results for the 2024 Audi A4 Avant Executive S line (and similar S line Avant trims where Executive S line specific data wasn't found, assuming similar specs for core attributes like dimensions, engine options, and tech):
-
-*   **price_usd**: UK prices for S line Avant start around £46,405 (Source 27). Using a rough conversion (£1 = $1.25), this is around $58,000. This is above the $35,000 average but well below $100,000. Score: **-0.25**.
-*   **total_cost_estimate_5yr_usd**: No specific 5-year cost found for this exact trim/year. Audi maintenance can be higher than average (Source 16, 17, 22, 37). Default to average. Score: **0.00**.
-*   **insurance_usd_yr**: Insurance group data wasn't found for this specific trim, but Audi A4s can range (Source 22). Assume slightly above average due to premium brand and S line trim. Score: **-0.10**.
-*   **maint_usd_yr**: RepairPal estimates average annual repair/maintenance at $739 for A4 (Source 17), which is around the $750 average. Audi servicing costs can vary but are generally not the cheapest (Source 22, 30, 37, 39). Score: **0.00**.
-*   **repair_risk_score**: J.D. Power and Consumer Reports give the A4 above-average reliability (3.5/5 or 83/100) (Source 13, 16, 17). Score: **0.20**.
-*   **hp**: The 40 TFSI engine is 201-204 hp (Source 2, 8, 9, 18, 20, 29), the 45 TFSI is 261 hp (Source 5, 10, 18, 19). Executive S line is often associated with higher power options. Let's assume the 45 TFSI (261 hp) is available or common for this trim. This is above the 200hp average. Score: **0.05**.
-*   **torque**: 40 TFSI has 236 lb-ft (Source 8, 9), 45 TFSI has 273 lb-ft (Source 5, 10, 18). Using 273 lb-ft, this is above the 190 lb-ft average. Score: **0.15**.
-*   **cylinder_count**: 4-cylinder engine (Source 2, 5, 8, 9, 10, 18, 19, 23, 38). Score: **-0.20**.
-*   **engine_displacement**: 2.0L (1984 cm³) (Source 2, 5, 8, 9, 18, 19, 23, 38). Score: **-0.20**.
-*   **accel_0_60_sec**: 40 TFSI is 6.9-7.3 sec (Source 2, 8, 11, 28, 29, 35), 45 TFSI is 4.8-6.0 sec (Source 4, 5, 33, 34). Assuming 45 TFSI (around 5.6-6.0s for Avant), this is faster than the 7.5s average. Score: **0.05**.
-*   **top_speed**: 40 TFSI is 146 mph (Source 2, 11), 45 TFSI is 155 mph (250 km/h) (Source 33). Score: **-0.05**.
-*   **drive_type**: Quattro (AWD) is standard on 45 TFSI (Source 4, 5, 9, 10, 18, 19, 33). Score: **0.00**.
-*   **transmission_type**: 7-speed dual-clutch automatic (S tronic) (Source 4, 5, 8, 9, 10, 18, 19, 23, 28, 29, 33, 35, 38). Score: **0.00**.
-*   **offroad_ability**: Low ground clearance, road-focused wagon. Score: **1.00**.
-*   **braking_dist_ft**: No specific data found. Default to average. Score: **0.00**.
-*   **size**: Length is 4762 mm (187.5 in) (Source 5, 6, 7, 8, 10, 14, 15, 18, 19, 23, 24, 28, 31, 38). This is larger than the 4600mm average. Score: **0.10**.
-*   **wheelbase**: 2820 mm (111.0 in) (Source 7, 10, 18, 19, 27, 31). This is larger than the 2700mm average. Score: **0.10**.
-*   **body_style**: 5-door wagon (Avant) (Source 5, 8, 14, 19, 29, 33, 35, 38). Score: **0.20**.
-*   **seats**: 5 seats (Source 3, 14, 15, 20, 27, 28, 29, 31). Score: **0.00**.
-*   **cargo_space**: 495 litres (17.5 cu ft) with seats up (Source 14, 27, 29, 33, 35, 40). Some sources say 12 cu ft for sedan (Source 3, 4, 7, 20), and one says 13.5 cu ft (Source 26). Using the Avant specific 495L (approx 17.5 cu ft). This is above the 15 cu ft average. Score: **0.10**.
-*   **rear_space**: Rear legroom 35.7 inches (Source 3, 4, 7, 20). This is around the 35" average. Score: **0.05**.
-*   **ground_clearance_in**: 138mm (5.4 inches) (Source 19). Some sources say 5.2 inches for sedan (Source 7). This is below the 6.5" average for crossovers, but average for a sedan/wagon. Score: **-0.20**.
-*   **turn_radius_ft**: 11.6 m (38.1 ft) (Source 3, 7, 27, 31). This is around the 36 ft average. Score: **-0.05**.
-*   **mpg**: 40 TFSI is 39.8-44.8 mpg UK (Source 2, 11, 23, 28, 40), 45 TFSI is 7.3L/100km (32.2 mpg US) (Source 19). Using 40 TFSI data (more common base engine for S line), 39.8 UK MPG is approx 33.1 US MPG. This is above the 30 mpg average. Score: **0.30**.
-*   **co2_g_km**: 40 TFSI is 160 g/km (Source 2, 11, 29), 45 TFSI is 167 g/km (Source 19). Using 160 g/km. This is below the 175 g/km average. Score: **0.20**.
-*   **electric_range_mi**: Not electric. Score: **-1.00**.
-*   **charge_speed_kw**: Not electric. Score: **-1.00**.
-*   **style_sleek_vs_boxy**: Wagon shape is balanced. Score: **0.00**.
-*   **style_aggression_rating**: S line adds sporty elements, slightly more aggressive than base. Score: **0.10**.
-*   **style_modernity_rating**: Established design, not avant-garde. Score: **-0.10**.
-*   **handling_rating**: Precise and competent, but not the most engaging (Source 4, 28, 32). Score: **0.10**.
-*   **ride_comfort_rating**: Generally comfortable, even with S line suspension (Source 4, 18, 28, 32, 40). Score: **0.20**.
-*   **cabin_noise_rating**: Known for being quiet (Source 23, 33). Score: **0.30**.
-*   **shift_smooth_rating**: S tronic is generally smooth (Source 4, 33). Score: **0.20**.
-*   **steering_feel_rating**: Precise but light/lacking feel (Source 4, 28, 32). Score: **0.00**.
-*   **adas_score**: Good range of standard and available ADAS features (Source 3, 20, 32, 40). Score: **0.20**.
-*   **visibility_rating**: Wagon body style generally good visibility (Source 32). Score: **0.10**.
-*   **headlight_rating**: LED headlights standard, high beam assist available (Source 20, 27, 33). Audi lighting is generally good. Score: **0.30**.
-*   **security_rating**: Premium brand, likely good security features. Score: **0.00**.
-*   **screen_in**: 10.1-inch touchscreen standard (Source 18, 20, 32, 40). Score: **0.20**.
-*   **infotainment_ux_rating**: MMI system is well-regarded and easy to use (Source 18, 20, 32, 40). Score: **0.30**.
-*   **smartphone_connect_rating**: Wireless Apple CarPlay/Android Auto standard (Source 18, 20, 33, 40). Score: **0.30**.
-*   **audio_rating**: 10 speakers standard (Source 9), Bang & Olufsen available (Source 18, 20). Score: **0.20**.
-*   **usb_ports**: 2 USB ports (Source 9, 18, 40). Score: **-0.10**.
-*   **comfort_feature_score**: Heated leather seats, tri-zone climate control, power seats standard on S line/similar trims (Source 18, 20, 23, 40). Score: **0.20**.
-*   **convenience_feature_score**: Rear-view camera, parking sensors, electric tailgate standard (Source 28, 40). Score: **0.20**.
-*   **brand_prestige_rating**: Audi is a premium brand. Score: **0.50**.
-*   **model_prestige_rating**: A4 is a core model, not entry or halo. Score: **0.00**.
-*   **trim_prestige_rating**: S line is a higher trim. Score: **0.00** (using the guide's "Good Trim" benchmark).
-*   **interior_luxury_rating**: High-quality materials, upscale cabin (Source 4, 18, 21, 23, 33, 40). Score: **0.40**.
-*   **interior_tech_focus_rating**: Modern, tech-focused interior with large screen and digital cockpit (Source 4, 18, 20, 32, 40). Score: **0.30**.
-
-Construct the JSON output.```json
+```json
 {
-  "price_usd": -0.25,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": -0.10,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.20,
-  "hp": 0.05,
-  "torque": 0.15,
+  "price_usd": -0.10,
+  "total_cost_estimate_5yr_usd": -0.20,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.10,
+  "repair_risk_score": 0.10,
+  "hp": 0.00,
+  "torque": 0.20,
   "cylinder_count": -0.20,
   "engine_displacement": -0.20,
-  "accel_0_60_sec": 0.05,
-  "top_speed": -0.05,
+  "accel_0_60_sec": 0.10,
+  "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 0.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.10,
   "size": 0.10,
   "wheelbase": 0.10,
-  "body_style": 0.20,
+  "body_style": 0.50,
   "seats": 0.00,
   "cargo_space": 0.10,
-  "rear_space": 0.05,
-  "ground_clearance_in": -0.20,
-  "turn_radius_ft": -0.05,
-  "mpg": 0.30,
-  "co2_g_km": 0.20,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.10,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.10,
+  "co2_g_km": 0.10,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.10,
-  "style_modernity_rating": -0.10,
-  "handling_rating": 0.10,
-  "ride_comfort_rating": 0.20,
-  "cabin_noise_rating": 0.30,
-  "shift_smooth_rating": 0.20,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.20,
-  "visibility_rating": 0.10,
-  "headlight_rating": 0.30,
+  "style_aggression_rating": 0.20,
+  "style_modernity_rating": 0.10,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": -0.20,
+  "adas_score": 0.50,
+  "visibility_rating": 0.20,
+  "headlight_rating": 0.50,
   "security_rating": 0.00,
   "screen_in": 0.20,
-  "infotainment_ux_rating": 0.30,
-  "smartphone_connect_rating": 0.30,
-  "audio_rating": 0.20,
-  "usb_ports": -0.10,
-  "comfort_feature_score": 0.20,
-  "convenience_feature_score": 0.20,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.50,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.50,
   "brand_prestige_rating": 0.50,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.40,
-  "interior_tech_focus_rating": 0.30
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.50
 }
 ```

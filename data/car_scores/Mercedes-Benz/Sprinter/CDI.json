@@ -1,111 +1,55 @@
-Based on the search results for the latest Mercedes-Benz Sprinter CDI:
-
-*   **Price:** Prices vary significantly by configuration, but range from around £39k+VAT (Source 23) to over $64k USD (Source 22) and even higher for passenger versions or specific trims (Source 3, 9, 24, 26). This is well above the average car price. Score: **-0.60** (leaning towards higher end of negative due to typical configurations).
-*   **Total Cost Estimate 5yr:** Mercedes maintenance is higher than average (Source 1). Combined with purchase price and insurance, 5-year cost will be high. Score: **-0.50**.
-*   **Insurance USD/yr:** UK insurance groups are 17-28 (Source 7) or 27-48 (Source 27) on a 21-50 scale, which is mid to high. Annual premiums can range from £700 to £3000+ (Source 27). This is likely above the national average for a car. Score: **-0.20**.
-*   **Maint USD/yr:** Mercedes maintenance is generally more expensive than average (Source 1). Score: **-0.30**.
-*   **Repair Risk Score:** Repeatedly comes top in reliability surveys (Source 1, 2). Rated 4/5 or higher by some sources (Source 4, 15). Excellent reliability rating of 896/999 by VehicleScore (Source 2). Some reports of issues in recent years but overall reputation is strong (Source 4, 13). Score: **0.80**.
-*   **HP:** CDI engines range from 143hp to 190hp (Source 1, 3, 10, 17, 20, 22). This is below the average car HP. Score: **-0.70** (using the lower end of the range as typical CDI).
-*   **Torque:** Torque ranges from 330Nm to 440Nm (Source 1, 3, 17, 20, 22), which is 243 lb-ft to 325 lb-ft. This is above the average car torque, especially at low RPMs, which is good for a van. Score: **0.50**.
-*   **Cylinder Count:** Primarily 4-cylinder diesel (Source 3, 6, 10, 17, 20, 22), with a V6 option available (Source 1, 26). 4-cylinder is below the average for many modern cars (which might be 4 or 6). Score: **-0.70** (focusing on the common 4-cylinder).
-*   **Engine Displacement:** Primarily 2.0L (Source 3, 6, 10, 17, 20, 22), with a 3.0L V6 option (Source 1). 2.0L is around average for cars, but for a large van, it's relatively small displacement per cylinder count. Score: **-0.20** (adjusting from initial thought, 2.0L is common).
-*   **Accel 0-60 sec:** Not designed for speed, large and heavy. Will be very slow. Score: **-1.00**.
-*   **Top Speed:** Limited for a large van. Score: **-1.00**.
-*   **Drive Type:** Available in FWD, RWD, and AWD (Source 1, 6, 17). RWD is common for vans, AWD is available. Score: **0.00** (average across options).
-*   **Transmission Type:** Primarily 9G-TRONIC automatic (Source 6, 10, 17, 20, 22), 7G-TRONIC also mentioned (Source 11), 6-speed manual available (Source 10). Automatic is the preferred modern transmission for most buyers and for a van's purpose. Score: **1.00**.
-*   **Offroad Ability:** Not designed for off-road, despite AWD option. Low ground clearance compared to off-road vehicles. Score: **1.00** (based on the inverted scale).
-*   **Braking Dist ft:** Large, heavy vehicle will have long braking distances. Score: **-0.50**.
-*   **Size:** Very large van (Source 5, 8, 12, 14, 16, 17). Score: **1.00**.
-*   **Wheelbase:** Long wheelbases available (144", 170", extended) (Source 5, 8, 14, 16, 17). Score: **1.00**.
-*   **Body Style:** 5-door van (Source 17). Score: **1.00**.
-*   **Seats:** Cargo/Crew versions have 2-5 seats (Source 5, 16, 17, 20, 26). Passenger versions up to 15 (Source 5, 6, 26). Focusing on typical CDI cargo/crew: low seat count. Score: **-0.80**.
-*   **Cargo Space:** Excellent cargo volume, up to 533 cubic feet (Source 5, 6, 8, 12, 14, 16). Score: **1.00**.
-*   **Rear Space:** Minimal to none in cargo/crew versions (rear is cargo area). Score: **-1.00**.
-*   **Ground Clearance in:** Around 176mm (6.9 inches) (Source 17). This is around average for a crossover, slightly above average for a car, but not high for off-road. Score: **0.00**.
-*   **Turn Radius ft:** Large turning diameter (40.7 ft to 52 ft depending on wheelbase) (Source 8, 14, 16). Score: **-1.00**.
-*   **MPG:** Estimated around 15-21 mpg (Source 28, 32, 33, 34). Some older info mentions 44.4 mpg (Source 29), but this seems optimistic or based on older test cycles/engines. 15-21 mpg is poor compared to average cars. Score: **-0.90**.
-*   **CO2 g/km:** Diesel engines have higher CO2 than petrol or hybrid, much higher than EVs. Score: **-1.00**.
-*   **Electric Range mi:** Not electric. Score: **-1.00**.
-*   **Charge Speed kw:** Not electric. Score: **-1.00**.
-*   **Style Sleek vs Boxy:** Very boxy. Score: **-1.00**.
-*   **Style Aggression Rating:** Not aggressive. Score: **-1.00**.
-*   **Style Modernity Rating:** Modern for a commercial van, but not cutting-edge passenger car design. Score: **0.00**.
-*   **Handling Rating:** Large van handling is not agile. Score: **-0.80**.
-*   **Ride Comfort Rating:** Reviews mention comfortable (Source 1, 13). Score: **0.50**.
-*   **Cabin Noise Rating:** Vans are generally louder than passenger cars. Score: **-0.40**.
-*   **Shift Smooth Rating:** 9G-TRONIC automatic is generally smooth. Score: **0.80**.
-*   **Steering Feel Rating:** Likely numb, typical for a large commercial vehicle. Score: **-0.80**.
-*   **ADAS Score:** Excellent safety features available (Active Brake Assist, Lane Keeping Assist, Blind Spot Assist, Attention Assist, 360 camera) (Source 1, 7, 10, 11, 19, 21, 25). Score: **0.80**.
-*   **Visibility Rating:** Excellent due to large windows and driving position (Source 1, 19). Score: **0.80**.
-*   **Headlight Rating:** LED options available (Source 11). Likely average to good. Score: **0.50**.
-*   **Security Rating:** Features like alarm, immobilizer mentioned (Source 3, 17). Average to good for a commercial vehicle. Score: **0.50**.
-*   **Screen in:** MBUX with 10.25-inch touch display available (Source 10, 19, 21, 25). This is a good size. Score: **0.50**.
-*   **Infotainment UX Rating:** MBUX is a modern and generally well-regarded system (Source 1, 10, 19, 21, 25). Score: **0.80**.
-*   **Smartphone Connect Rating:** Smartphone integration mentioned (Source 25), MBUX supports connectivity. Score: **0.80**.
-*   **Audio Rating:** Basic audio system standard, options may exist (Source 17 mentions 4 speakers). Score: **-0.20**.
-*   **USB Ports:** Multiple USB-C ports mentioned (Source 20, 21). Score: **0.50**.
-*   **Comfort Feature Score:** Heated seats, adjustable steering, AC available (Source 6, 17, 21, 23). Decent for a van, but not luxury car level. Score: **0.40**.
-*   **Convenience Feature Score:** Parking package with camera/sensors, keyless start, power mirrors, cruise control (Source 17, 20, 21, 23). Good convenience features for a van. Score: **0.60**.
-*   **Brand Prestige Rating:** Mercedes-Benz is a high-prestige brand. Score: **1.00**.
-*   **Model Prestige Rating:** Sprinter is a highly respected and market-leading van (Source 1, 29). Score: **1.00** (in the context of vans).
-*   **Trim Prestige Rating:** CDI is a standard engine designation, not a high-performance or luxury trim. Score: **0.00**.
-*   **Interior Luxury Rating:** Interior is functional and durable, not luxurious (Source 1, 17). Score: **-0.80**.
-*   **Interior Tech Focus Rating:** Good tech for a commercial vehicle (MBUX, ADAS), but not as tech-focused as some modern passenger cars. Score: **0.50**.
-
-Final check of scores against the guide and search results. Adjusting some scores slightly based on the specific data found. For example, ground clearance is slightly above average car, so 0.00 is appropriate. Engine displacement is around average car size, so -0.20 is reasonable for a van. Reliability is consistently rated high, so 0.80 is justified. Insurance groups are mid-to-high, so -0.20 is fair.
-
-The JSON structure requires float values with two decimal places.```json
+```json
 {
-  "price_usd": -0.60,
-  "total_cost_estimate_5yr_usd": -0.50,
-  "insurance_usd_yr": -0.20,
-  "maint_usd_yr": -0.30,
-  "repair_risk_score": 0.80,
-  "hp": -0.70,
-  "torque": 0.50,
-  "cylinder_count": -0.70,
-  "engine_displacement": -0.20,
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": -0.30,
+  "insurance_usd_yr": -0.70,
+  "maint_usd_yr": -0.40,
+  "repair_risk_score": -0.10,
+  "hp": -0.40,
+  "torque": 0.40,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.40,
   "accel_0_60_sec": -1.00,
-  "top_speed": -1.00,
-  "drive_type": 0.00,
+  "top_speed": -0.70,
+  "drive_type": 0.50,
   "transmission_type": 1.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": -0.50,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": -0.30,
   "size": 1.00,
   "wheelbase": 1.00,
   "body_style": 1.00,
-  "seats": -0.80,
+  "seats": 1.00,
   "cargo_space": 1.00,
-  "rear_space": -1.00,
+  "rear_space": 0.80,
   "ground_clearance_in": 0.00,
-  "turn_radius_ft": -1.00,
-  "mpg": -0.90,
-  "co2_g_km": -1.00,
+  "turn_radius_ft": -0.80,
+  "mpg": 0.30,
+  "co2_g_km": -0.30,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": -1.00,
-  "style_aggression_rating": -1.00,
-  "style_modernity_rating": 0.00,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": 0.20,
   "handling_rating": -0.80,
-  "ride_comfort_rating": 0.50,
-  "cabin_noise_rating": -0.40,
+  "ride_comfort_rating": -0.30,
+  "cabin_noise_rating": -0.30,
   "shift_smooth_rating": 0.80,
   "steering_feel_rating": -0.80,
-  "adas_score": 0.80,
-  "visibility_rating": 0.80,
+  "adas_score": 0.70,
+  "visibility_rating": 0.50,
   "headlight_rating": 0.50,
-  "security_rating": 0.50,
-  "screen_in": 0.50,
-  "infotainment_ux_rating": 0.80,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": -0.20,
-  "usb_ports": 0.50,
-  "comfort_feature_score": 0.40,
+  "security_rating": 0.10,
+  "screen_in": 0.40,
+  "infotainment_ux_rating": 0.70,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": -0.50,
+  "usb_ports": 0.30,
+  "comfort_feature_score": 0.50,
   "convenience_feature_score": 0.60,
-  "brand_prestige_rating": 1.00,
-  "model_prestige_rating": 1.00,
-  "trim_prestige_rating": 0.00,
+  "brand_prestige_rating": 0.90,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.50,
   "interior_luxury_rating": -0.80,
-  "interior_tech_focus_rating": 0.50
+  "interior_tech_focus_rating": 0.60
 }
 ```

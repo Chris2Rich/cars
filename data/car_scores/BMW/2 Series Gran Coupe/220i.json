@@ -1,212 +1,55 @@
-Based on the search results, here's the data and scoring for the BMW 2 Series Gran Coupe 220i:
-
-*   **price_usd**: Search results show prices around Rs. 41.49 - 43.49 Lakh in India (Source 6, 25). Converting Lakh INR to USD (approx 1 Lakh INR = 1200 USD), this is roughly $50,000 - $52,000 USD. This is above the market average ($35,000) but not in the >$100,000 range. Score: -0.20 (Slightly above average).
-*   **total_cost_estimate_5yr_usd**: No specific 5-year cost data found. Default to 0.00.
-*   **insurance_usd_yr**: Insurance group 23E, 28E, 31E mentioned (Source 2). This is a mid-range to slightly higher insurance group. Score: 0.00 (Average).
-*   **maint_usd_yr**: No specific annual maintenance cost found. BMW maintenance can be higher than average. Score: -0.10 (Slightly below average).
-*   **repair_risk_score**: No specific reliability rating found. BMW is generally considered average for reliability. Score: 0.00 (Average).
-*   **hp**: 178 hp (Source 8, 11, 21, 29). The 2025 model might have 241 hp (Source 4), but the 220i specifically is listed with 178 hp in multiple sources for recent models (F44). 178 hp is below the 200 hp average benchmark. Score: -0.20.
-*   **torque**: 280 Nm (Source 6, 8, 11, 21, 25). 280 Nm is approximately 206 lb-ft. This is slightly above the 190 lb-ft average benchmark. Score: 0.10.
-*   **cylinder_count**: 4 cylinders (Source 6, 11, 21, 25). Average is 4 or 6. Score: 0.00.
-*   **engine_displacement**: 1998 cc / 2.0L (Source 6, 11, 21, 25). This is around the 3.0L average benchmark for the +1.00 score, but the -1.00 is 1.2L. 2.0L is closer to the middle. Score: 0.00.
-*   **accel_0_60_sec**: 0-100 km/h in 7.1 seconds (Source 6, 8, 11, 21, 25). 0-60 mph is estimated around 6.7-7.4 seconds (Source 11, 15). This is around the 7.5 sec average benchmark. Score: 0.00.
-*   **top_speed**: 238 km/h (148 mph) (Source 8, 11, 21). This is around the 150 mph average benchmark. Score: 0.00.
-*   **drive_type**: FWD (Source 6, 8, 11, 21, 25, 32). Score: -1.00.
-*   **transmission_type**: 7-speed automatic (DCT or TC) (Source 6, 8, 11, 21, 25). Some sources mention 8-speed automatic for xDrive models (Source 16, 29). The 220i FWD uses a 7-speed DCT/TC. DCT is 0.00, Automatic is +1.00. Let's average them or lean towards the specific type. The guide lists DCT as 0.00 and Automatic as +1.00. The 7-speed is often referred to as Steptronic automatic or DCT depending on source. Let's use 0.50 as a compromise between DCT and traditional automatic feel, or default to 0.00 for DCT. Let's use 0.00 for DCT.
-*   **offroad_ability**: Low-slung sedan. Score: +1.00 (based on inverse scale).
-*   **braking_dist_ft**: No specific braking distance found. Default to 0.00.
-*   **size**: Length 4526 mm (Source 3, 6, 8, 11, 21, 24). 2025 model is 4546 mm (Source 14, 19). This is around the 4600mm average benchmark. Score: 0.00.
-*   **wheelbase**: 2670 mm (Source 3, 6, 8, 11, 21, 24). This is around the 2700mm average benchmark. Score: 0.00.
-*   **body_style**: 4-door sedan/coupe. Score: 0.00.
-*   **seats**: 5 seats (Source 3, 11, 16). Score: 0.00.
-*   **cargo_space**: 430 liters (Source 8, 11, 21, 24), which is about 15.2 cu ft. Some sources mention 360-430 liters (Source 2, 14, 19). 15 cu ft is the average benchmark. Score: 0.00.
-*   **rear_space**: Mentioned as "tight in the rear seats" (Source 2). Score: -0.30.
-*   **ground_clearance_in**: 152 mm (Source 6, 11), which is about 6 inches. This is around the 6.5" average benchmark. Score: 0.00.
-*   **turn_radius_ft**: 11.4 - 11.7 m (Source 5), which is about 37.4 - 38.4 ft. 5.7 meters mentioned (Source 31) which is about 18.7 ft - this seems too small, likely a typo or different measurement. Using the 37.4-38.4 ft range, this is around the 36 ft average. Score: 0.00.
-*   **mpg**: Official tests up to 54 mpg (UK) (Source 5), 14.8 kmpl (India) (Source 6, 25), 6.7-5.9 l/100 km (WLTP) (Source 21), 5.7-5.2 l/100km (2025 model) (Source 22). Converting 5.9-6.7 l/100km to mpg (US): 39.9-35.1 mpg. Converting 14.8 kmpl to mpg (US): 34.8 mpg. Converting 54 mpg (UK) to mpg (US): 45 mpg. Real-world MPG around 46-47 mpg (UK) (Source 27), 8.36 kmpl combined (India) (Source 25) which is 19.7 mpg US. EPA combined 26-28 mpg (Source 16, 28). There's a wide range depending on test cycle and region. Let's use a blend, leaning towards the official WLTP/UK figures which are often higher than EPA/real-world US. 35-40 mpg US seems reasonable for scoring. This is above the 30 mpg average. Score: 0.30.
-*   **co2_g_km**: 136-153 g/km (WLTP) (Source 21), 120-170 g/km (Source 2), 148 g/km (Source 23), 129-119 g/km (2025 model) (Source 22). This is below the 175 g/km average. Score: 0.50.
-*   **electric_range_mi**: Not electric. Score: -1.00.
-*   **charge_speed_kw**: Not electric. Score: -1.00.
-*   **handling_rating**: BMWs are known for handling, though FWD platform might temper expectations compared to RWD models (Source 16). Still likely above average. Score: 0.30.
-*   **ride_comfort_rating**: Can be firm, especially M Sport (Source 16). Score likely around 0.00 or slightly positive. Score: 0.00.
-*   **cabin_noise_rating**: BMWs are generally well-insulated. Score: 0.30.
-*   **shift_smooth_rating**: BMW automatics are usually smooth (Source 25 mentions refined). Score: 0.40.
-*   **steering_feel_rating**: BMW steering is often praised (Source 25 mentions quick steering in Sport mode). Score: 0.30.
-*   **adas_score**: Offers a range of features including parking assist, reversing assistant, cruise control with braking, speed limit info (Source 5, 18, 22). Score: 0.40.
-*   **visibility_rating**: Coupe-like roofline might impact rear visibility. Score: 0.00.
-*   **headlight_rating**: LED headlights (Source 9, 18). Score: 0.30.
-*   **security_rating**: Standard security features. No specific high-end features mentioned. Score: 0.00.
-*   **screen_in**: 10.25-inch infotainment and 10.25-inch instrument display (Source 9, 10, 18). 10.3-inch mentioned (Source 4). This is larger than the 8" average. Score: 0.50.
-*   **infotainment_ux_rating**: iDrive system, generally well-regarded (Source 4, 18). Score: 0.40.
-*   **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto standard (Source 4). Score: 1.00.
-*   **audio_rating**: 6+ speakers mentioned (Source 6). Harman/Kardon available (Source 4). Base system is likely average or slightly above. Score: 0.10.
-*   **usb_ports**: 2x USB Type C ports mentioned (Source 5). Score: 0.00.
-*   **comfort_feature_score**: Offers sport seats, dual-zone climate control (Source 5, 9, 18). Score: 0.30.
-*   **convenience_feature_score**: Parking assist, reversing assistant, wireless charging available (Source 4, 5, 18). Score: 0.30.
-*   **brand_prestige_rating**: BMW is a high-prestige brand. Score: 0.80.
-*   **model_prestige_rating**: 2 Series Gran Coupe is an entry-level BMW sedan/coupe. Based on the inverse scale (-1.00 is top, +1.00 is entry), this scores positively. Score: 1.00.
-*   **trim_prestige_rating**: 220i is a mid-range engine trim (above 218i, below M235i). Based on the inverse scale (-1.00 is top, +1.00 is base), this scores in the middle. Score: 0.00.
-*   **interior_luxury_rating**: Premium interior materials, illuminated trim (Source 9, 18). Score: 0.40.
-*   **interior_tech_focus_rating**: Large screens, digital cockpit, iDrive (Source 9, 10, 18). Score: 0.60.
-*   **style_sleek_vs_boxy**: Coupe-like silhouette, sloping roofline (Source 2, 9, 18). Score: 0.50.
-*   **style_aggression_rating**: Sporty, aggressive design elements (Source 9, 18). Score: 0.30.
-*   **style_modernity_rating**: Modern BMW design language (Source 4, 9). Score: 0.40.
-
-Reviewing the 2025 updates (Source 4, 12, 14, 17, 19, 22): The 2025 220i Gran Coupe seems to be a 1.5L 3-cylinder mild-hybrid with 170 hp (Source 12, 20), while the 228i gets 241 hp (Source 4). The 2.0L 178/189 hp engine seems to be the previous generation (F44) 220i (Source 6, 8, 11, 21, 25). The user asked for the *most recent version*. The F74 is the second generation (2025 onwards). The F44 is the first generation (2020-2024). The 220i trim exists in both generations but with different engines/specs. The search results show data for both F44 (178/189hp 2.0L 4-cyl) and F74 (170hp 1.5L 3-cyl mild-hybrid). I should use the F74 data for the "most recent version".
-
-Let's re-evaluate based on F74 220i data (1.5L 3-cyl, 170hp, 280Nm, 7.9s 0-100km/h, 230km/h top speed, FWD, 7-speed auto, 4546mm length, 1445mm height, 1800mm width, 2670mm wheelbase, 360-430L boot, 126-120 g/km CO2, 5.5-5.3 l/100km fuel consumption, 10.25" screens, wireless CarPlay/AA).
-
-*   **price_usd**: Still likely in the $50k range. Score: -0.20.
-*   **total_cost_estimate_5yr_usd**: Default 0.00.
-*   **insurance_usd_yr**: Likely similar to previous gen. Score: 0.00.
-*   **maint_usd_yr**: Likely similar. Score: -0.10.
-*   **repair_risk_score**: Likely similar. Score: 0.00.
-*   **hp**: 170 hp (Source 12, 20, 22). Below 200 hp average. Score: -0.30.
-*   **torque**: 280 Nm (Source 12, 20, 22). Approx 207 lb-ft. Slightly above 190 lb-ft average. Score: 0.10.
-*   **cylinder_count**: 3 cylinders (Source 12, 20). Below average. Score: -0.50.
-*   **engine_displacement**: 1499 cm3 / 1.5L (Source 12). Below average. Score: -0.50.
-*   **accel_0_60_sec**: 0-100 km/h in 7.9 seconds (Source 12, 22). Approx 0-60 mph in 7.5-7.6 seconds. Around the 7.5 sec average. Score: 0.00.
-*   **top_speed**: 230 km/h (143 mph) (Source 12, 20, 22). Below 150 mph average. Score: -0.10.
-*   **drive_type**: FWD (Source 12). Score: -1.00.
-*   **transmission_type**: 7-speed automatic (Source 12, 22). Score: 0.00 (DCT).
-*   **offroad_ability**: Score: +1.00.
-*   **braking_dist_ft**: Default 0.00.
-*   **size**: Length 4546 mm (Source 12, 14, 19). Around 4600mm average. Score: 0.00.
-*   **wheelbase**: 2670 mm (Source 12, 19). Around 2700mm average. Score: 0.00.
-*   **body_style**: 4-door coupe/sedan. Score: 0.00.
-*   **seats**: 5 seats. Score: 0.00.
-*   **cargo_space**: 360-430 liters (Source 14, 19). Approx 12.7 - 15.2 cu ft. Around 15 cu ft average. Score: 0.00.
-*   **rear_space**: Still likely tight. Score: -0.30.
-*   **ground_clearance_in**: Height 1445mm (Source 12, 14, 19). Previous gen was 1420mm (Source 6, 8, 11, 21, 24). Ground clearance likely similar, around 6 inches. Score: 0.00.
-*   **turn_radius_ft**: Likely similar. Score: 0.00.
-*   **mpg**: 5.5-5.3 l/100km (WLTP) (Source 12, 22). Approx 42.8-44.4 mpg US. Above 30 mpg average. Score: 0.50.
-*   **co2_g_km**: 126-120 g/km (WLTP) (Source 12, 22). Below 175 g/km average. Score: 0.60.
-*   **electric_range_mi**: Mild-hybrid, no significant electric range. Score: -1.00.
-*   **charge_speed_kw**: Not a plug-in. Score: -1.00.
-*   **handling_rating**: Revised suspension/chassis for 2025 (Source 4). Still FWD platform. Score: 0.30.
-*   **ride_comfort_rating**: Score: 0.00.
-*   **cabin_noise_rating**: Score: 0.30.
-*   **shift_smooth_rating**: 7-speed automatic. Score: 0.40.
-*   **steering_feel_rating**: Score: 0.30.
-*   **adas_score**: New standard features for 2025 (Source 4). Score: 0.50.
-*   **visibility_rating**: Score: 0.00.
-*   **headlight_rating**: LED headlights. Score: 0.30.
-*   **security_rating**: Score: 0.00.
-*   **screen_in**: 10.25" + 10.7" curved display (Source 4). Score: 0.60.
-*   **infotainment_ux_rating**: iDrive 9 (Source 20). Score: 0.50.
-*   **smartphone_connect_rating**: Wireless CarPlay/AA standard (Source 4). Score: 1.00.
-*   **audio_rating**: Harman/Kardon available. Base likely average. Score: 0.10.
-*   **usb_ports**: Likely multiple. Score: 0.00.
-*   **comfort_feature_score**: Heated sport seats standard for 2025 (Source 4). Score: 0.40.
-*   **convenience_feature_score**: Parking assist, reversing assist, wireless charging. Score: 0.40.
-*   **brand_prestige_rating**: Score: 0.80.
-*   **model_prestige_rating**: Entry-level. Score: 1.00.
-*   **trim_prestige_rating**: Mid-range engine for the F74 (above 218, below M235). Score: 0.00.
-*   **interior_luxury_rating**: Premium. Score: 0.40.
-*   **interior_tech_focus_rating**: Screen-focused, modern. Score: 0.70.
-*   **style_sleek_vs_boxy**: Score: 0.50.
-*   **style_aggression_rating**: Score: 0.30.
-*   **style_modernity_rating**: Refreshed design for 2025 (Source 4). Score: 0.50.
-
-Let's finalize the scores based on the F74 220i data.
-
-Price: ~$50k -> -0.20
-HP: 170 -> -0.30
-Torque: 207 lb-ft -> 0.10
-Cylinders: 3 -> -0.50
-Displacement: 1.5L -> -0.50
-0-60: ~7.5s -> 0.00
-Top Speed: 143 mph -> -0.10
-Drive Type: FWD -> -1.00
-Transmission: 7-speed auto (DCT) -> 0.00
-Offroad: Low sedan -> 1.00
-Size: 4546mm -> 0.00
-Wheelbase: 2670mm -> 0.00
-Cargo: ~15 cu ft -> 0.00
-Rear Space: Tight -> -0.30
-Ground Clearance: ~6 in -> 0.00
-Turn Radius: ~37-38 ft -> 0.00
-MPG: ~43 mpg US -> 0.50
-CO2: ~120-126 g/km -> 0.60
-Electric Range: -1.00
-Charge Speed: -1.00
-Handling: Good but FWD -> 0.30
-Ride Comfort: Average -> 0.00
-Cabin Noise: Good -> 0.30
-Shift Smoothness: Good auto -> 0.40
-Steering Feel: Good -> 0.30
-ADAS: Good features -> 0.50
-Visibility: Average -> 0.00
-Headlights: LED -> 0.30
-Security: Average -> 0.00
-Screen: Large curved -> 0.60
-Infotainment UX: iDrive 9 -> 0.50
-Smartphone Connect: Wireless -> 1.00
-Audio: Average base -> 0.10
-USB Ports: 2 -> 0.00
-Comfort Features: Heated seats, etc. -> 0.40
-Convenience Features: Parking assist, etc. -> 0.40
-Brand Prestige: BMW -> 0.80
-Model Prestige: Entry-level -> 1.00
-Trim Prestige: Mid-range -> 0.00
-Interior Luxury: Premium -> 0.40
-Interior Tech Focus: High tech -> 0.70
-Style Sleek/Boxy: Sleek -> 0.50
-Style Aggression: Sporty -> 0.30
-Style Modernity: Modern/Refreshed -> 0.50
-
-Looks good. I will now format this into the final JSON output.```json
+```json
 {
-  "price_usd": -0.20,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": -0.10,
-  "repair_risk_score": 0.00,
+  "price_usd": 0.20,
+  "total_cost_estimate_5yr_usd": -0.30,
+  "insurance_usd_yr": -0.20,
+  "maint_usd_yr": -0.30,
+  "repair_risk_score": -0.20,
   "hp": -0.30,
   "torque": 0.10,
   "cylinder_count": -0.50,
   "engine_displacement": -0.50,
-  "accel_0_60_sec": 0.00,
+  "accel_0_60_sec": -0.10,
   "top_speed": -0.10,
   "drive_type": -1.00,
   "transmission_type": 0.00,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.00,
+  "size": -0.10,
+  "wheelbase": -0.10,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.00,
-  "rear_space": -0.30,
+  "cargo_space": 0.10,
+  "rear_space": -0.10,
   "ground_clearance_in": 0.00,
-  "turn_radius_ft": 0.00,
+  "turn_radius_ft": -0.10,
   "mpg": 0.50,
   "co2_g_km": 0.60,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.50,
-  "style_aggression_rating": 0.30,
-  "style_modernity_rating": 0.50,
-  "handling_rating": 0.30,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": 0.30,
-  "shift_smooth_rating": 0.40,
-  "steering_feel_rating": 0.30,
-  "adas_score": 0.50,
+  "style_sleek_vs_boxy": 0.80,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.80,
+  "handling_rating": 0.40,
+  "ride_comfort_rating": -0.40,
+  "cabin_noise_rating": 0.20,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": -0.30,
+  "adas_score": 0.60,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.30,
-  "security_rating": 0.00,
-  "screen_in": 0.60,
-  "infotainment_ux_rating": 0.50,
+  "headlight_rating": 0.60,
+  "security_rating": 0.20,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.70,
   "smartphone_connect_rating": 1.00,
-  "audio_rating": 0.10,
+  "audio_rating": 0.50,
   "usb_ports": 0.00,
-  "comfort_feature_score": 0.40,
-  "convenience_feature_score": 0.40,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.60,
   "brand_prestige_rating": 0.80,
   "model_prestige_rating": 1.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.40,
-  "interior_tech_focus_rating": 0.70
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.80
 }
 ```

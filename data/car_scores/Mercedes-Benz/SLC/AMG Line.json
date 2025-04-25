@@ -1,55 +1,161 @@
-```json
+Based on the search results, I can populate the JSON.
+
+-   **price_usd**: Starting MSRP for 2020 SLC 300 was around $49,950 - $50,945 [3, 7, 13]. Used prices are lower [4, 20, 21]. The AMG Line is an option package [1, 5, 13], adding to the base price. Let's estimate a typical price for an AMG Line model when new around $53,000 - $55,000. This is close to the market average ($52k), so score is around 0.00 to 0.05. Let's use 0.05.
+-   **total_cost_estimate_5yr_usd**: Mercedes ownership costs are generally higher than average. Depreciation is significant [11]. Estimate around $40k-$50k over 5 years. Score around 0.00.
+-   **insurance_usd_yr**: Mercedes, sports car. Likely above average. Score around 0.00. (Could search UK insurance group if needed, but guide suggests general market).
+-   **maint_usd_yr**: Mercedes maintenance is above average. Score around 0.00.
+-   **repair_risk_score**: Mercedes reliability is generally good, maybe slightly above average. KBB owner reviews give 4.9/5 for reliability [8]. Score 0.75.
+-   **hp**: SLC 300 has 241 hp [1, 3, 6, 11, 14, 22]. This is above the 200 hp average. Score 0.25.
+-   **torque**: SLC 300 has 273 lb-ft [1, 3, 11, 14]. This is above the 190 lb-ft average. Score 0.35.
+-   **cylinder_count**: 4-cylinder [1, 3, 6, 11, 14]. Below the 6-cylinder average. Score -0.50.
+-   **engine_displacement**: 2.0L [1, 3, 6, 11, 14]. Below the 3.0L average. Score -0.50.
+-   **accel_0_60_sec**: 5.8 seconds [3, 6, 11, 14, 22]. This is faster than the 7.5 sec average. Score 0.60.
+-   **top_speed**: Not explicitly stated for SLC 300, but likely electronically limited. SLC 300 (Europe spec) listed at 210 km/h (130 mph) [12]. Score 0.00.
+-   **drive_type**: RWD [3, 4, 6, 11, 18]. Score 1.00.
+-   **transmission_type**: 9-speed automatic (9G-TRONIC) [2, 3, 6, 11, 14, 18, 22, 25]. This is a modern automatic. Score 1.00.
+-   **offroad_ability**: Low ground clearance, RWD sports car. Score -1.00.
+-   **braking_dist_ft**: Not found explicitly. AMG Line includes larger brakes [13]. Assume average or slightly better. Default to 0.00.
+-   **size**: Length 162.8 in (4133 mm) [1, 2, 17, 18]. This is small. Score -0.75.
+-   **wheelbase**: 95.7 in (2430 mm) [1, 17, 18]. This is short. Score -0.50.
+-   **body_style**: 2-seat convertible/roadster with retractable hardtop [2, 3, 12, 14, 23]. Score -1.00.
+-   **seats**: 2 seats [2, 3, 4, 6, 12, 23]. Score -1.00.
+-   **cargo_space**: 6.5 cu ft (top down) / 10.1 cu ft (top up) [1, 4, 6, 11, 18]. Small. Score -1.00.
+-   **rear_space**: N/A (2-seater). Score -1.00.
+-   **ground_clearance_in**: 4.4 inches (max load) [18]. Low. Score -1.00.
+-   **turn_radius_ft**: 34.5 ft [18]. This is good, below the 36 ft average. Score 0.25.
+-   **mpg**: 27 combined MPG [3, 4, 6, 11, 14, 23]. This is around the 30 mpg average, maybe slightly below for a 4-cyl. Score 0.00.
+-   **co2_g_km**: 146 g/km (Europe spec) [12]. This is below the 175 g/km average. Score 0.25.
+-   **electric_range_mi**: Not electric. Score -1.00.
+-   **charge_speed_kw**: Not electric. Score -1.00.
+-   **style_sleek_vs_boxy**: Sleek roadster design. Score 0.75.
+-   **style_aggression_rating**: AMG Line adds sportier styling [1, 5, 6, 13]. Score 0.50.
+-   **style_modernity_rating**: Design is dated by 2020 [3, 10, 14]. Score -0.50.
+-   **handling_rating**: Praised for handling, especially with AMG Line sport suspension [3, 10, 14, 22, 25]. Score 0.50.
+-   **ride_comfort_rating**: Can be firm with sport suspension, but reviews mention it soaks up bumps [3]. Score 0.00.
+-   **cabin_noise_rating**: Retractable hardtop helps with noise compared to soft tops [10]. Score 0.50.
+-   **shift_smooth_rating**: 9G-TRONIC is generally smooth [3, 6, 11, 14, 22, 25]. Score 0.75.
+-   **steering_feel_rating**: Precise and well-weighted [3, 22]. Score 0.25.
+-   **adas_score**: Includes standard Blind Spot Assist, Active Brake Assist, Attention Assist. Available Lane Keeping Assist, Adaptive Cruise Control [3, 5, 7, 10, 13, 15, 23]. Good for its age/class. Score 0.50.
+-   **visibility_rating**: Roadster visibility is often compromised, especially rear with top up. Score 0.00.
+-   **headlight_rating**: Available LED headlamps with adaptive high beam assist [5, 7, 13]. Score 0.50.
+-   **security_rating**: Mercedes standard security, available anti-theft package [12]. Score 0.50.
+-   **screen_in**: 7-inch display [2, 7, 9, 11, 19]. Below the 8-inch average. Score -0.25.
+-   **infotainment_ux_rating**: Older COMAND/Audio 20 system, described as antiquated [10, 14]. Score -0.50.
+-   **smartphone_connect_rating**: Apple CarPlay and Android Auto available [1, 5, 6, 11, 13, 14, 15]. Score 0.00.
+-   **audio_rating**: 8-speaker standard, optional Harman Kardon [2, 5, 7, 11, 13]. Score 0.00 (standard) to 0.50 (optional). Let's use 0.00 for standard.
+-   **usb_ports**: Two USB ports [9, 11]. Score -0.25.
+-   **comfort_feature_score**: Heated seats, Airscarf, dual-zone climate control available [1, 5, 7, 11, 13, 14]. Power seats with memory standard [7, 11, 22]. Score 0.75.
+-   **convenience_feature_score**: Rearview camera standard, parking assist available [7, 10, 13]. Keyless-GO available [5, 11, 13, 15]. Score 0.50.
+-   **brand_prestige_rating**: Mercedes-Benz. Score 0.75.
+-   **model_prestige_rating**: SLC is a mid-range roadster, not a halo car. Score 0.50.
+-   **trim_prestige_rating**: AMG Line is a sporty trim, but not the top AMG model. Score 0.00.
+-   **interior_luxury_rating**: Nice materials (leatherette standard, leather optional), but design is dated [3, 10, 14, 22]. Score 0.25.
+-   **interior_tech_focus_rating**: Dated infotainment, not screen-heavy [3, 10, 14]. Score -0.75.
+
+Reviewing the scores based on the guide and search results. Adjusting where needed.
+- Price: $50k-$55k new -> 0.05 seems reasonable.
+- 5yr cost: Higher than average -> 0.00 seems reasonable, maybe -0.10. Let's stick with 0.00 as specific data is hard to find.
+- Insurance/Maint: Higher than average -> 0.00 seems reasonable.
+- Repair Risk: KBB 4.9/5 -> 0.75 is appropriate.
+- HP: 241 -> 0.25 is appropriate.
+- Torque: 273 -> 0.35 is appropriate.
+- Cylinders: 4 -> -0.50 is appropriate.
+- Displacement: 2.0L -> -0.50 is appropriate.
+- 0-60: 5.8s -> 0.60 is appropriate.
+- Top Speed: 130 mph -> 0.00 is appropriate.
+- Drive Type: RWD -> 1.00 is appropriate.
+- Transmission: 9AT -> 1.00 is appropriate.
+- Offroad: -1.00 is appropriate.
+- Braking: Default 0.00.
+- Size: Small -> -0.75 is appropriate.
+- Wheelbase: Short -> -0.50 is appropriate.
+- Body Style: 2-door convertible -> -1.00 is appropriate.
+- Seats: 2 -> -1.00 is appropriate.
+- Cargo: Small -> -1.00 is appropriate.
+- Rear Space: N/A -> -1.00 is appropriate.
+- Ground Clearance: Low (4.4") -> -1.00 is appropriate.
+- Turn Radius: 34.5 ft -> 0.25 is appropriate.
+- MPG: 27 combined -> 0.00 is appropriate.
+- CO2: 146 g/km -> 0.25 is appropriate.
+- Electric: N/A -> -1.00 is appropriate.
+- Charge Speed: N/A -> -1.00 is appropriate.
+- Style Sleek/Boxy: 0.75 is appropriate.
+- Style Aggression: AMG Line -> 0.50 is appropriate.
+- Style Modernity: Dated -> -0.50 is appropriate.
+- Handling: Praised -> 0.50 is appropriate.
+- Ride Comfort: Can be firm -> 0.00 is appropriate.
+- Cabin Noise: Hardtop helps -> 0.50 is appropriate.
+- Shift Smoothness: Smooth AT -> 0.75 is appropriate.
+- Steering Feel: Precise -> 0.25 is appropriate.
+- ADAS: Good for age -> 0.50 is appropriate.
+- Visibility: Typical roadster -> 0.00 is appropriate.
+- Headlights: Available LED -> 0.50 is appropriate.
+- Security: Mercedes standard -> 0.50 is appropriate.
+- Screen: 7" -> -0.25 is appropriate.
+- Infotainment UX: Dated -> -0.50 is appropriate.
+- Smartphone Connect: Available -> 0.00 is appropriate.
+- Audio: Standard 8-speaker -> 0.00 is appropriate.
+- USB Ports: 2 -> -0.25 is appropriate.
+- Comfort Features: Good options available -> 0.75 is appropriate.
+- Convenience Features: Good options available -> 0.50 is appropriate.
+- Brand Prestige: Mercedes -> 0.75 is appropriate.
+- Model Prestige: Mid-range -> 0.50 is appropriate.
+- Trim Prestige: AMG Line (not full AMG) -> 0.00 is appropriate.
+- Interior Luxury: Nice materials, dated design -> 0.25 is appropriate.
+- Interior Tech Focus: Dated tech -> -0.75 is appropriate.
+
+Looks consistent with the data found and the scoring guide. Ready to generate JSON.```json
 {
-  "price_usd": -0.40,
-  "total_cost_estimate_5yr_usd": -0.20,
-  "insurance_usd_yr": -0.20,
-  "maint_usd_yr": -0.50,
-  "repair_risk_score": -0.20,
-  "hp": 0.20,
-  "torque": 0.30,
+  "price_usd": 0.05,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.75,
+  "hp": 0.25,
+  "torque": 0.35,
   "cylinder_count": -0.50,
   "engine_displacement": -0.50,
-  "accel_0_60_sec": 0.40,
+  "accel_0_60_sec": 0.60,
   "top_speed": 0.00,
   "drive_type": 1.00,
   "transmission_type": 1.00,
-  "offroad_ability": 1.00,
+  "offroad_ability": -1.00,
   "braking_dist_ft": 0.00,
-  "size": -0.50,
+  "size": -0.75,
   "wheelbase": -0.50,
   "body_style": -1.00,
   "seats": -1.00,
-  "cargo_space": -0.80,
+  "cargo_space": -1.00,
   "rear_space": -1.00,
   "ground_clearance_in": -1.00,
-  "turn_radius_ft": 0.20,
-  "mpg": -0.10,
-  "co2_g_km": 0.10,
+  "turn_radius_ft": 0.25,
+  "mpg": 0.00,
+  "co2_g_km": 0.25,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.50,
-  "style_aggression_rating": 0.30,
+  "style_sleek_vs_boxy": 0.75,
+  "style_aggression_rating": 0.50,
   "style_modernity_rating": -0.50,
   "handling_rating": 0.50,
-  "ride_comfort_rating": 0.20,
-  "cabin_noise_rating": 0.20,
-  "shift_smooth_rating": 0.50,
-  "steering_feel_rating": 0.50,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.75,
+  "steering_feel_rating": 0.25,
   "adas_score": 0.50,
   "visibility_rating": 0.00,
   "headlight_rating": 0.50,
   "security_rating": 0.50,
-  "screen_in": -0.20,
+  "screen_in": -0.25,
   "infotainment_ux_rating": -0.50,
   "smartphone_connect_rating": 0.00,
-  "audio_rating": 0.50,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.70,
+  "audio_rating": 0.00,
+  "usb_ports": -0.25,
+  "comfort_feature_score": 0.75,
   "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.80,
-  "model_prestige_rating": 0.00,
+  "brand_prestige_rating": 0.75,
+  "model_prestige_rating": 0.50,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.50,
-  "interior_tech_focus_rating": -0.50
+  "interior_luxury_rating": 0.25,
+  "interior_tech_focus_rating": -0.75
 }
 ```

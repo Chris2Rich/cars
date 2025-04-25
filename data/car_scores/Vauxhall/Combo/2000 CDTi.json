@@ -1,108 +1,55 @@
 ```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.20,
-  "maint_usd_yr": 0.00,
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.50,
+  "insurance_usd_yr": -0.10,
+  "maint_usd_yr": -0.30,
   "repair_risk_score": 0.70,
-  "hp": -0.50,
+  "hp": -0.70,
   "torque": 0.00,
   "cylinder_count": 0.00,
-  "engine_displacement": -0.30,
-  "accel_0_60_sec": -0.60,
-  "top_speed": -0.80,
+  "engine_displacement": 0.10,
+  "accel_0_60_sec": -0.80,
+  "top_speed": -0.60,
   "drive_type": -1.00,
-  "transmission_type": 1.00,
-  "offroad_ability": -0.50,
+  "transmission_type": -1.00,
+  "offroad_ability": -1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.20,
-  "wheelbase": 0.30,
+  "size": 0.00,
+  "wheelbase": 0.00,
   "body_style": 1.00,
-  "seats": 0.30,
-  "cargo_space": 0.80,
-  "rear_space": 0.40,
-  "ground_clearance_in": -0.20,
-  "turn_radius_ft": 0.10,
-  "mpg": 0.50,
-  "co2_g_km": 0.00,
+  "seats": 0.50,
+  "cargo_space": 1.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.30,
+  "co2_g_km": -0.20,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": -1.00,
   "style_aggression_rating": -0.50,
-  "style_modernity_rating": 0.30,
-  "handling_rating": -0.40,
-  "ride_comfort_rating": 0.70,
-  "cabin_noise_rating": 0.40,
-  "shift_smooth_rating": 1.00,
-  "steering_feel_rating": -0.20,
-  "adas_score": 0.60,
-  "visibility_rating": 0.60,
-  "headlight_rating": 0.60,
+  "style_modernity_rating": -0.70,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": -0.50,
+  "steering_feel_rating": 0.00,
+  "adas_score": -0.80,
+  "visibility_rating": 0.50,
+  "headlight_rating": -0.50,
   "security_rating": 0.00,
-  "screen_in": 0.30,
-  "infotainment_ux_rating": 0.40,
-  "smartphone_connect_rating": 0.70,
-  "audio_rating": 0.00,
-  "usb_ports": 0.30,
-  "comfort_feature_score": 0.40,
-  "convenience_feature_score": 0.60,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 1.00,
-  "trim_prestige_rating": 0.50,
+  "screen_in": -0.50,
+  "infotainment_ux_rating": -0.50,
+  "smartphone_connect_rating": -0.50,
+  "audio_rating": -0.50,
+  "usb_ports": -0.50,
+  "comfort_feature_score": -0.50,
+  "convenience_feature_score": -0.50,
+  "brand_prestige_rating": -0.20,
+  "model_prestige_rating": -0.50,
+  "trim_prestige_rating": 0.00,
   "interior_luxury_rating": -0.80,
-  "interior_tech_focus_rating": 0.30
+  "interior_tech_focus_rating": -0.70
 }
 ```
-**Explanation of Ratings:**
-
-*   **price_usd (0.00):** Based on search results, the price for a new diesel Vauxhall Combo is around £25,000, which converts to approximately $31,250 USD. This is very close to the market average benchmark of $35,000.
-*   **total_cost_estimate_5yr_usd (0.00):** No specific 5-year cost data was found. While reliability is rated well, it's a commercial vehicle which can have varying ownership costs depending on usage. Defaulted to average.
-*   **insurance_usd_yr (0.20):** A 2022 Combo Life is listed in insurance group 10, which is significantly lower than the average group (around 25), suggesting lower insurance costs.
-*   **maint_usd_yr (0.00):** No specific annual maintenance cost was found. Vauxhall parts are widely available, and reliability is good, suggesting average maintenance costs for a diesel vehicle.
-*   **repair_risk_score (0.70):** The Vauxhall Combo has a "very good" reliability rating (713/999) and is described as having an "enviable reputation for reliability," placing it well above average.
-*   **hp (-0.50):** The diesel engines offer up to 130PS (around 128 hp), which is considerably lower than the market average benchmark of 200 hp.
-*   **torque (0.00):** The 100PS diesel has 250Nm (approx. 184 lb-ft), which is close to the average benchmark of 190 lb-ft.
-*   **cylinder_count (0.00):** The diesel engines are 4-cylinder units, which is a common configuration and aligns with the average benchmark.
-*   **engine_displacement (-0.30):** The primary diesel engine is 1.5 litres, which is below the 3.0L average benchmark.
-*   **accel_0_60_sec (-0.60):** The 100PS diesel takes around 12.3 seconds to reach 60 mph, which is significantly slower than the average benchmark of 7.5 seconds.
-*   **top_speed (-0.80):** Top speeds for the diesel variants are around 105-115 mph, well below the 150 mph average benchmark.
-*   **drive_type (-1.00):** The standard Vauxhall Combo is front-wheel drive (FWD).
-*   **transmission_type (1.00):** An 8-speed automatic transmission is available, which is considered superb compared to manual or sequential transmissions.
-*   **offroad_ability (-0.50):** Primarily designed as a road-going van/MPV with FWD. While a 4x4 version exists, the standard model has limited off-road capability.
-*   **braking_dist_ft (0.00):** No specific braking distance data was found. Defaulted to average.
-*   **size (0.20):** Available in two lengths, the standard (L1) is slightly smaller than an average sedan, while the longer (L2) is larger. As a van/MPV, its overall footprint is leaning slightly larger than an average passenger car.
-*   **wheelbase (0.30):** The L1 wheelbase is slightly longer than average, and the L2 is significantly longer, contributing to interior space.
-*   **body_style (1.00):** The van body style offers excellent utility and practicality, aligning with the 5-door van benchmark.
-*   **seats (0.30):** Available with up to 7 seats in the Combo Life version, which is above the 5-seat average.
-*   **cargo_space (0.80):** The van versions offer a large cargo volume (up to 4.4 m³), significantly exceeding the cargo space of an average passenger car.
-*   **rear_space (0.40):** The Combo Life is noted for having ample rear legroom, placing it above an average sedan.
-*   **ground_clearance_in (-0.20):** No specific ground clearance figure was found, but as a road-focused van/MPV, it's likely lower than an average crossover/SUV.
-*   **turn_radius_ft (0.10):** The turning circle for the standard length model is slightly better than the average benchmark.
-*   **mpg (0.50):** Combined WLTP fuel economy for the diesel is between 42-52 mpg, which is notably better than the 30 mpg average benchmark, though not in the top tier of fuel efficiency.
-*   **co2_g_km (0.00):** Combined WLTP CO2 emissions are between 140-176 g/km, which is around the average benchmark of 175 g/km.
-*   **electric_range_mi (-1.00):** This is a diesel model, so it has no electric range.
-*   **charge_speed_kw (-1.00):** This is a diesel model, so it has no charging capability.
-*   **style_sleek_vs_boxy (-1.00):** The van/MPV body style is inherently boxy for maximum interior space and utility.
-*   **style_aggression_rating (-0.50):** The design is functional and not aggressive, typical of a utility vehicle.
-*   **style_modernity_rating (0.30):** The most recent version features Vauxhall's updated Vizor front end, giving it a reasonably modern appearance compared to older vans, but not cutting-edge.
-*   **handling_rating (-0.40):** Described as composed and car-like for a van, but with noticeable body roll, placing its handling below that of an average passenger car.
-*   **ride_comfort_rating (0.70):** The ride is described as comfortable and capable of soaking up bumps well, rating highly for comfort, especially for a van-based vehicle.
-*   **cabin_noise_rating (0.40):** Cabin noise is reported as fairly well suppressed, allowing for conversation at speed, which is above average for this type of vehicle.
-*   **shift_smooth_rating (1.00):** The availability of a smooth 8-speed automatic transmission rates highly.
-*   **steering_feel_rating (-0.20):** Steering is light at low speeds and weights up, but some reviews describe it as lacking feel, placing it slightly below average for engagement.
-*   **adas_score (0.60):** A good suite of up to 18 ADAS features is available, including advanced safety systems and optional features like adaptive cruise control and surround view cameras, rating well above average.
-*   **visibility_rating (0.60):** The driving position provides a good view out, and large mirrors contribute to good all-round visibility, rating above average.
-*   **headlight_rating (0.60):** Automatic headlights are available, and Matrix LED headlights are offered on higher trims, providing good illumination.
-*   **security_rating (0.00):** Standard security features like remote central locking and an alarm are available, which is typical for the segment. Defaulted to average.
-*   **screen_in (0.30):** Available screen sizes range from a basic small display to 8-inch and 10-inch touchscreens, placing it around or slightly above the 8-inch average benchmark depending on trim.
-*   **infotainment_ux_rating (0.40):** The infotainment system, while functional and including smartphone connectivity, has some reported usability issues on older versions (small buttons, slow sat-nav). Newer versions with the 10-inch screen and new platform are likely better, placing it slightly above average overall.
-*   **smartphone_connect_rating (0.70):** Apple CarPlay and Android Auto are available, including wireless connectivity on newer models/trims, which is a strong point.
-*   **audio_rating (0.00):** Basic audio systems with a limited number of speakers are mentioned. Defaulted to average.
-*   **usb_ports (0.30):** At least two USB ports are mentioned, which is above the minimum but not exceptional.
-*   **comfort_feature_score (0.40):** Available comfort features like air conditioning, heated seats/steering wheel (on higher trims), and adjustable seats provide a decent level of comfort features above a basic vehicle.
-*   **convenience_feature_score (0.60):** Features like parking sensors, reversing cameras, and sliding side doors contribute significantly to convenience, rating well above basic parking aids.
-*   **brand_prestige_rating (0.00):** Vauxhall is a mainstream automotive brand.
-*   **model_prestige_rating (1.00):** The Combo is positioned as a practical, entry-level utility vehicle within the brand's lineup.
-*   **trim_prestige_rating (0.50):** Evaluating a diesel variant which is typically not the highest performance or luxury trim, placing it in the good/mid-range trim category.
-*   **interior_luxury_rating (-0.80):** The interior is described as using durable, hard plastics and feeling utilitarian, lacking luxury materials.
-*   **interior_tech_focus_rating (0.30):** While newer models have larger screens and a digital cluster, the overall interior design and focus are not as heavily centered around integrated technology as in some modern passenger cars.

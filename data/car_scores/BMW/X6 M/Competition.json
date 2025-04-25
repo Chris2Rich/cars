@@ -1,103 +1,49 @@
-Based on the search results for the 2024 BMW X6 M Competition:
-
-*   **price\_usd**: Starts around $128,195 MSRP (Source 2, 16, 19). Well over $100k. Score: -1.00.
-*   **total\_cost\_estimate\_5yr\_usd**: Around $154,000+ (Source 8, 16, 18). Well over $60k. Score: -1.00.
-*   **insurance\_usd\_yr**: Estimated $21,060 over 5 years, so ~$4,212/year (Source 8, 18). Well over $2,500. Score: -1.00.
-*   **maint\_usd\_yr**: Estimated $4,244 over 5 years (Source 8, 18), or $6,635 over 5 years (Source 29). CarEdge estimates $1,327/year on average for the first 5 years (Source 37). This is above $1,200. Score: -1.00.
-*   **repair\_risk\_score**: CarEdge estimates a 56.41% chance of a major repair in the first 10 years, which is worse than average (Source 36). BMW reliability is generally average, but M cars can be more complex/costly. Let's adjust slightly negative. Score: -0.50.
-*   **hp**: 617 hp (Source 2, 3, 6, 7, 12, 13, 16, 21, 22, 33, 34). High positive. Score: 0.90.
-*   **torque**: 553 lb-ft (Source 2, 3, 6, 7, 13, 16, 22, 33). High positive. Score: 0.80.
-*   **cylinder\_count**: V8 (Source 2, 3, 6, 12, 13, 16, 19, 20, 22, 33, 35). Score: 0.50.
-*   **engine\_displacement**: 4.4L (Source 2, 3, 6, 12, 13, 16, 17, 19, 20, 22, 33, 34, 35). Score: 0.50.
-*   **accel\_0\_60\_sec**: 3.7 seconds (Source 2, 3, 12, 13, 16, 21, 33). Very fast. Score: 0.90.
-*   **top\_speed**: 155 mph (limited), 177 mph with M Driver's Package (Source 2, 11, 13, 21). High. Score: 0.80.
-*   **drive\_type**: AWD (xDrive) (Source 2, 6, 12, 13, 16, 17, 27, 33). Score: 0.00.
-*   **transmission\_type**: 8-speed Automatic (Source 2, 3, 6, 7, 12, 16, 17, 21, 22, 27, 33, 34). Score: 1.00.
-*   **offroad\_ability**: Performance SUV, low ground clearance for the class, performance tires. Poor off-road. Score: 1.00 (inverted scale).
-*   **braking\_dist\_ft**: No specific ft number found, but M Compound brakes are high-performance (Source 13, 25, 26). Expect good braking for its size. Score: 0.80.
-*   **size**: Length ~195 inches / 4948 mm (Source 2, 9, 10, 16, 20, 26, 42). Large. Score: 0.50.
-*   **wheelbase**: ~117 inches / 2972 mm (Source 2, 9, 10, 16, 20, 26, 41, 42). Long. Score: 0.50.
-*   **body\_style**: SUV Coupe (Source 2, 7, 10, 12, 16, 19, 26, 33). Score: 0.00.
-*   **seats**: 5 seats (Source 2, 6, 16, 21, 37). Score: 0.00.
-*   **cargo\_space**: 27.4 cu ft with seats up, 59.6 cu ft with seats down (Source 3, 16, 21, 25, 26, 39). Decent for a coupe-SUV, but less than a standard SUV. Score: 0.20.
-*   **rear\_space**: Rear legroom ~35.7 inches (Source 3). Headroom is restricted by the roofline (Source 3). Score: 0.00 (legroom is average, headroom is negative, averages out).
-*   **ground\_clearance\_in**: ~8.1-8.4 inches / 212-213 mm (Source 9, 10, 16, 20, 26, 41, 42). Higher than a car, but lower than many SUVs. Score: 0.50.
-*   **turn\_radius\_ft**: ~42.0 ft / 12.8 m (Source 8, 10, 20, 25, 26, 42). Large for a vehicle. Score: -0.50.
-*   **mpg**: 13 city / 18 highway / 15 combined (Source 2, 4, 6, 8, 11, 14, 16, 17, 22, 37, 39). Very low. Score: -1.00.
-*   **co2\_g\_km**: 285-292 g/km (Source 5, 10, 27, 28, 34, 35, 41). Very high. Score: -1.00.
-*   **electric\_range\_mi**: Not electric (mild hybrid only). Score: -1.00.
-*   **charge\_speed\_kw**: Not electric. Score: -1.00.
-*   **style\_sleek\_vs\_boxy**: Coupe-like roofline. Score: 0.50.
-*   **style\_aggression\_rating**: Aggressive M styling. Score: 0.80.
-*   **style\_modernity\_rating**: Recent facelift, modern design. Score: 0.70.
-*   **handling\_rating**: Praised for handling despite size (Source 2, 3, 12, 16, 33). High performance tuning. Score: 0.90.
-*   **ride\_comfort\_rating**: Described as firm, stiff, or jittery (Source 2, 3, 11, 12). Score: -0.80.
-*   **cabin\_noise\_rating**: M Sport exhaust allows V8 roar (Source 13, 22). Good insulation otherwise. Score: 0.00.
-*   **shift\_smooth\_rating**: 8-speed automatic is smooth (Source 11, 21, 22, 33). Score: 0.80.
-*   **steering\_feel\_rating**: M Servotronic steering (Source 5). BMW M steering is generally good. Score: 0.50.
-*   **adas\_score**: More standard safety tech for 2024, Driving Assistance Professional Package available (Source 2, 3, 16, 17). Comprehensive suite. Score: 0.70.
-*   **visibility\_rating**: Sloping roofline cuts into sight lines (Source 3). Score: -0.50.
-*   **headlight\_rating**: Adaptive LED headlights standard (Source 27). Score: 0.80.
-*   **security\_rating**: Alarm system standard (Source 16, 27). Luxury vehicle security is typically good. Score: 0.50.
-*   **screen\_in**: 12.3" digital cluster + 14.9" central display (Source 3, 21, 33). Large screens. Score: 0.80.
-*   **infotainment\_ux\_rating**: iDrive 8/8.5, M-specific version (Source 3, 7, 13, 33). Generally well-regarded but can be complex. Score: 0.00.
-*   **smartphone\_connect\_rating**: Apple CarPlay & Android Auto compatibility, wireless charging (Source 3, 6, 7, 17, 27). Wireless CarPlay/AA. Score: 1.00.
-*   **audio\_rating**: Harman Kardon standard, Bowers & Wilkins optional (Source 2, 3, 11, 21, 27). Premium options. Score: 0.80.
-*   **usb\_ports**: Dual USB ports standard (Source 3). Multiple ports expected. Score: 0.50.
-*   **comfort\_feature\_score**: Heated/power front seats standard, ventilated/massaging/heated rear seats optional (Source 3, 11, 16, 17, 21, 27, 33). High level of features. Score: 0.80.
-*   **convenience\_feature\_score**: Comfort access, remote start, parking assistant professional, drive recorder, 360 camera available (Source 3, 5, 16, 17, 27). High level of features. Score: 0.80.
-*   **brand\_prestige\_rating**: BMW M is high prestige. Score: 0.80.
-*   **model\_prestige\_rating**: X6 M is a top-tier performance model. Score: -1.00 (inverted scale).
-*   **trim\_prestige\_rating**: Competition is the top performance trim. Score: -1.00 (inverted scale).
-*   **interior\_luxury\_rating**: High-quality materials, leather options (Source 2, 12, 21, 27, 33). Luxurious interior. Score: 0.80.
-*   **interior\_tech\_focus\_rating**: Curved display, digital cluster, advanced infotainment (Source 2, 3, 13, 21, 33). Very tech-focused. Score: 0.80.
-
-All data points have been considered and scored based on the provided guide and search results. The JSON structure is complete.```json
+```json
 {
   "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
-  "maint_usd_yr": -1.00,
-  "repair_risk_score": -0.50,
-  "hp": 0.90,
-  "torque": 0.80,
-  "cylinder_count": 0.50,
-  "engine_displacement": 0.50,
-  "accel_0_60_sec": 0.90,
-  "top_speed": 0.80,
+  "maint_usd_yr": 0.20,
+  "repair_risk_score": 0.50,
+  "hp": 0.80,
+  "torque": 0.60,
+  "cylinder_count": 0.30,
+  "engine_displacement": 0.40,
+  "accel_0_60_sec": 0.80,
+  "top_speed": 0.30,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "offroad_ability": 1.00,
+  "offroad_ability": -1.00,
   "braking_dist_ft": 0.80,
   "size": 0.50,
   "wheelbase": 0.50,
-  "body_style": 0.00,
+  "body_style": -0.20,
   "seats": 0.00,
-  "cargo_space": 0.20,
+  "cargo_space": -0.50,
   "rear_space": 0.00,
-  "ground_clearance_in": 0.50,
-  "turn_radius_ft": -0.50,
-  "mpg": -1.00,
-  "co2_g_km": -1.00,
+  "ground_clearance_in": 0.20,
+  "turn_radius_ft": -0.30,
+  "mpg": -0.80,
+  "co2_g_km": -0.80,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.50,
   "style_aggression_rating": 0.80,
-  "style_modernity_rating": 0.70,
-  "handling_rating": 0.90,
-  "ride_comfort_rating": -0.80,
-  "cabin_noise_rating": 0.00,
+  "style_modernity_rating": 0.80,
+  "handling_rating": 0.80,
+  "ride_comfort_rating": -0.50,
+  "cabin_noise_rating": 0.20,
   "shift_smooth_rating": 0.80,
   "steering_feel_rating": 0.50,
-  "adas_score": 0.70,
+  "adas_score": 0.50,
   "visibility_rating": -0.50,
-  "headlight_rating": 0.80,
+  "headlight_rating": 0.50,
   "security_rating": 0.50,
   "screen_in": 0.80,
-  "infotainment_ux_rating": 0.00,
+  "infotainment_ux_rating": 1.00,
   "smartphone_connect_rating": 1.00,
   "audio_rating": 0.80,
-  "usb_ports": 0.50,
+  "usb_ports": 0.00,
   "comfort_feature_score": 0.80,
   "convenience_feature_score": 0.80,
   "brand_prestige_rating": 0.80,

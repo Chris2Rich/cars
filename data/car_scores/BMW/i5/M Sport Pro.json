@@ -1,53 +1,55 @@
-**Explanation of Ratings for BMW i5 eDrive40 M Sport Pro:**
-
-*   **price\_usd (-0.75):** The M Sport Pro trim is a higher-tier package, increasing the price significantly above the market average for a new car. Search results indicate prices around £76,200 RRP, which translates to well over the $35,000 average. (Source [2], [3], [7], [14]).
-*   **total\_cost\_estimate\_5yr\_usd (0.00):** Specific 5-year cost data for this exact trim is not readily available. While EVs have lower maintenance, the higher initial price and potential depreciation keep this at an average score without concrete data.
-*   **insurance\_usd\_yr (-0.90):** The M Sport Pro trim, being a higher specification and potentially more desirable, falls into high UK insurance groups (e.g., 44E, 43-49) (Source [5], [10], [11]). This indicates significantly higher insurance costs than the market average.
-*   **maint\_usd\_yr (+0.60):** As an electric vehicle, the i5 benefits from lower routine maintenance compared to ICE vehicles. The M Sport Pro trim doesn't change this fundamental advantage.
-*   **repair\_risk\_score (0.00):** Long-term reliability data for this specific model and trim is not yet established. BMW's general reliability is considered average, leading to a default score.
-*   **hp (+0.50):** The i5 eDrive40 M Sport Pro uses the same 340 hp (335 bhp) electric motor as the standard eDrive40 (Source [6], [8], [10], [12], [15], [18]). This is considerably more power than the average market vehicle.
-*   **torque (+0.40):** The torque output is 400 Nm (around 295 lb-ft), which is strong and above the average vehicle's torque (Source [6], [8], [10], [16]).
-*   **cylinder\_count (0.00):** Not applicable for an electric vehicle.
-*   **engine\_displacement (0.00):** Not applicable for an electric vehicle.
-*   **accel\_0\_60\_sec (+0.60):** The 0-60 mph time is consistently reported around 6.0-6.1 seconds (Source [2], [6], [8], [10], [12], [13], [16]). This is significantly quicker than the market average.
-*   **top\_speed (-0.30):** The electronically limited top speed is 120 mph (Source [2], [6], [8], [10], [12], [13]). This is below the average benchmark of 150 mph.
-*   **drive\_type (+1.00):** The eDrive40 M Sport Pro is Rear-Wheel Drive (RWD) (Source [2], [15], [16]), scoring +1.00 according to the guide.
-*   **transmission\_type (0.00):** Not applicable for an electric vehicle (uses a single-speed transmission).
-*   **offroad\_ability (+1.00):** As a low-slung luxury sedan with M Sport suspension, it has minimal offroad capability, scoring +1.00 on the inverted scale.
-*   **braking\_dist\_ft (+0.60):** M Sport Pro models often include upgraded M Sport Brakes with red calipers (Source [5], [7], [21]). Reviews mention the i5's brakes are smooth and powerful (Source [18], [24]), suggesting better-than-average braking performance.
-*   **size (+0.90):** The length is 5060 mm (Source [2], [5], [8], [12], [13], [19]), placing it firmly in the large sedan category, close to the largest vehicles benchmark.
-*   **wheelbase (+0.70):** The wheelbase is 2995 mm (Source [12], [13], [19]), contributing to a spacious interior and comfortable ride, well above average.
-*   **body\_style (0.00):** A standard 4-door sedan body style is considered average.
-*   **seats (0.00):** Offers the standard 5-seat configuration (Source [5], [12], [13], [19], [25]).
-*   **cargo\_space (+0.10):** The boot capacity is 490 liters (around 17.3 cu ft) for the saloon (Source [2], [3], [6], [16], [18]). This is slightly above the average sedan trunk size. (Note: Touring model has more space, but the prompt specifies the sedan).
-*   **rear\_space (+0.30):** Reviews mention good rear legroom (Source [2], [3], [16], [19]), better than the average vehicle.
-*   **ground\_clearance\_in (-0.30):** While a specific figure isn't readily available, the i5 sits low, especially with M Sport suspension (Source [2]). This places it below the average ground clearance of compact crossovers.
-*   **turn\_radius\_ft (-0.30):** The turning circle is reported as 11.7 - 12.3 meters (around 38.4 - 40.4 ft) (Source [7], [12], [13], [23], [29]). This is wider than the average sedan's turn radius.
-*   **mpg (0.00):** Not applicable for an electric vehicle.
-*   **co2\_g\_km (+1.00):** As a zero-emission electric vehicle, it scores the maximum for CO2 emissions (Source [2], [8], [10], [12]).
-*   **electric\_range\_mi (+0.70):** The WLTP range is reported between 312-356 miles (Source [2], [6], [8], [10], [11], [13], [18]). This is significantly above the average EV range benchmark.
-*   **charge\_speed\_kw (+0.70):** Supports DC fast charging up to 205 kW (Source [2], [6], [18]), which is a high speed. Optional 22kW AC charging is also mentioned (Source [9]).
-*   **style\_sleek\_vs\_boxy (+0.10):** The i5 has a modern sedan profile, enhanced by the M Sport Pro styling, but it's not as dramatically sleek as some coupe-like EVs.
-*   **style\_aggression\_rating (+0.50):** The M Sport Pro package adds more aggressive styling elements (bumpers, spoiler, illuminated grille, black accents) (Source [7], [8], [10]), increasing its visual aggression compared to lower trims.
-*   **style\_modernity\_rating (+0.70):** As a new model with distinctive lighting (Iconic Glow) and modern design cues, it scores highly for modernity (Source [2], [4], [8], [10]).
-*   **handling\_rating (+0.70):** Reviews praise the i5's handling, especially with M Sport suspension, noting it's well-sorted and precise despite the car's weight (Source [2], [3], [6], [16], [24]). It offers a rewarding driving experience for a large EV.
-*   **ride\_comfort\_rating (+0.70):** Despite the sporty M Sport Pro setup and large wheels, reviews highlight impressive ride comfort, particularly on motorways (Source [2], [3], [16], [18]). While firmer than standard, it remains very comfortable for the segment.
-*   **cabin\_noise\_rating (+0.90):** EVs are quiet, and the i5 is noted for its high levels of refinement and low noise levels, even at speed (Source [2], [18]).
-*   **shift\_smooth\_rating (0.00):** Not applicable for an electric vehicle.
-*   **steering\_feel\_rating (+0.60):** Reviews describe the steering as precise and well-weighted (Source [3], [16], [24]), offering good feel for an electric system, enhanced by the M Sport tuning.
-*   **adas\_score (+0.80):** The i5 is equipped with a comprehensive suite of advanced driver-assistance systems, including features like Driving Assistant and Parking Assistant Plus (Source [5], [8]). Optional packs like Technology Plus add further advanced features (Source [3], [4], [8], [9], [10]).
-*   **visibility\_rating (0.00):** Visibility is typical for a modern large sedan; not exceptionally good or bad.
-*   **headlight\_rating (+0.70):** Features advanced LED headlights, with M Shadow Line lights on the Pro trim (Source [7], [8]). Adaptive LED headlights are also mentioned (Source [5]).
-*   **security\_rating (+0.50):** Includes standard security features like an alarm system (Source [5], [7], [8]) and advanced options like the Anti-theft Recorder (Source [4]).
-*   **screen\_in (+0.80):** Features the large, curved display combining a 12.3-inch driver display and a 14.9-inch infotainment screen (Source [3], [6], [16], [19]). This is significantly larger than average.
-*   **infotainment\_ux\_rating (+0.70):** Uses the latest iDrive 8.5 system, which is generally praised for its functionality and responsiveness, though some find the menus complex (Source [6], [16], [18]). The Interaction Bar adds a unique touch (Source [3], [4], [19]).
-*   **smartphone\_connect\_rating (+0.90):** Offers seamless wireless Apple CarPlay/Android Auto and wireless charging (Source [6], [16], [19]).
-*   **audio\_rating (+0.90):** The optional Bowers & Wilkins Surround Sound System is frequently mentioned and highly praised in reviews (Source [3], [4], [5], [6], [19]). While optional, its availability and quality contribute to a high potential score.
-*   **usb\_ports (+0.50):** Provides multiple USB-C charging ports, including for rear passengers (Source [3], [19]).
-*   **comfort\_feature\_score (+0.90):** Includes a wide range of comfort features, with options like Comfort Seats, heated front seats standard, and heated steering wheel/rear seats available in packs (Source [3], [5], [8], [10], [19]).
-*   **convenience\_feature\_score (+0.80):** Equipped with numerous convenience features like Comfort Access, electric bootlid, and Parking Assistant Plus (Source [3], [5], [6], [8]). Remote Control Parking is available with specific packs (Source [4]).
-*   **brand\_prestige\_rating (+0.70):** BMW is a well-established high-prestige brand.
-*   **model\_prestige\_rating (0.00):** The i5 is part of the 5 Series range, a core executive model, placing it in the middle tier of BMW's model hierarchy.
-*   **trim\_prestige\_rating (+0.50):** M Sport Pro is a high-level trim, adding desirable features and styling over the standard M Sport, but it sits below the top-performance M60 model. It's a good trim, but not the absolute top.
-*   **interior\_luxury\_rating (+0.80):** The cabin is described as high quality with excellent materials and finish, living up to its luxury segment positioning (Source [3], [16], [19]).
-*   **interior\_tech\_focus\_rating (+0.90):** The interior design is dominated by the large curved display and features like the Interaction Bar, making it highly tech-focused (Source [3], [4], [6], [16], [19]).
+```json
+{
+  "price_usd": -0.50,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -0.60,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.70,
+  "torque": 0.70,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.75,
+  "top_speed": -0.10,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.80,
+  "wheelbase": 0.80,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.10,
+  "rear_space": 0.10,
+  "ground_clearance_in": -0.20,
+  "turn_radius_ft": -0.40,
+  "mpg": 1.00,
+  "co2_g_km": 1.00,
+  "electric_range_mi": 0.70,
+  "charge_speed_kw": 0.70,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.30,
+  "style_modernity_rating": 0.70,
+  "handling_rating": 0.80,
+  "ride_comfort_rating": 0.80,
+  "cabin_noise_rating": 0.90,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.70,
+  "adas_score": 0.80,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.00,
+  "security_rating": 0.30,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.60,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.80,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.80,
+  "convenience_feature_score": 0.80,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.90,
+  "interior_tech_focus_rating": 0.90
+}
+```

@@ -15,6 +15,10 @@ sys.stdout.reconfigure(encoding='utf-8')
 init(autoreset=True)
 client = genai.Client(api_key="AIzaSyACgWOTtISnfldQRSe6uKkeMQXCoYl19e0")
 
+#Metrics to add:
+# Electrification: -1 = Petrol/Diesel, 0 = PHEV, 1 = EV
+# Driving_Track_vs_GT: -1 = Track, 0= Daily, 1 = Grand Touring
+
 system_prompt_spec_score = """"You are an expert car evaluator and spec normalizer. You analyze raw automotive performance and utility data and convert them into **standardized, normalized scores** to help consumers and analysts easily compare vehicles. Focus strictly on the provided variables — never guess or extrapolate, when in doubt, use the Google Search tool to help you find correct answers for each attribute. Do not hallucinate, do not estimate or guess. Ensure that the JSON you return is properly formed, it is ok to take extra time and care. Do not fail, you must return the correct answer as this is critical. Reply with ONLY JSON in the format of the provided datastructure:
     
 class data(BaseModel):
@@ -367,7 +371,7 @@ def queryllm_evaluate_model(model: list, fail_log):
                 file.write(gemini.send_message([f"Evaluate the model being considerate about your reasoning for each rating. If unsure, be sure to search for that exact data. The model is the most recent version of this (when applicable): {model[:-1] + [i]}. Ensure that you only respond with JSON and keep your reasoning to yourself."]).text)
             print(f"{Fore.GREEN}[FINISHED]{Style.RESET_ALL} Finished {model[:-1] + [i]}")
         except Exception:
-            fail_log.write(f"{model[:-1] + [i]}\n{traceback.format_exc()}\n")
+            fail_log.write(f"{model[:-1] + [i]}\n")
             print(f"{Fore.RED}[FAILED]{Style.RESET_ALL} Failed on: {model[:-1] + [i]}\n{traceback.format_exc()}")
 
 with open("data/logs/failed_queryllm.txt", "w") as fail_log:

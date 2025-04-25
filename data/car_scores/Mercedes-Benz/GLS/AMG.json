@@ -1,126 +1,55 @@
-Based on the search results for the 2024 Mercedes-AMG GLS 63:
-
-*   **Cost & Risk:**
-    *   `price_usd`: MSRP is around $145,850 - $149,500 (Source 3, 8, 16). Well over $100k. Score: -1.00.
-    *   `total_cost_estimate_5yr_usd`: Around $152,224 (Source 2). Well over $60k. Score: -1.00.
-    *   `insurance_usd_yr`: Estimated at $12,420 over 5 years (Source 2), which is ~$2,484/year. UK Insurance Group 50E (Source 27) is the highest group, indicating high cost. Score: -1.00.
-    *   `maint_usd_yr`: Estimated at $10,469 over 5 years (Source 2), which is ~$2,094/year. Australian data shows ~$1333-$1517/year (Source 20, 21). Well over $1200/year. Score: -1.00.
-    *   `repair_risk_score`: Mercedes-Benz is generally average to slightly below average. AMG complexity increases risk. Score: -0.50.
-
-*   **Power & Performance:**
-    *   `hp`: 603 hp (Source 2, 3, 7, 11, 13, 16, 17, 22). High. Score: +0.75 (benchmark is >700 for +1.00).
-    *   `torque`: 627 lb-ft (Source 3, 11, 13, 14, 16, 17, 22). High. Score: +0.75 (benchmark is >1000 for +1.00).
-    *   `cylinder_count`: V8 (Source 2, 3, 7, 11, 14, 17, 24). Score: 0.25.
-    *   `engine_displacement`: 4.0L (Source 2, 3, 7, 10, 11, 12, 13, 14, 15, 17, 24, 25). Score: 0.25.
-    *   `accel_0_60_sec`: Mercedes claims 4.1 sec (Source 3, 5, 12, 16, 22), Car and Driver tested 3.6 sec (Source 4, 5). Very fast for an SUV. Score: +0.75.
-    *   `top_speed`: 174 mph (unlimited) or 155 mph (limited) (Source 13, 27). Above average. Score: 0.25.
-    *   `drive_type`: AWD (4MATIC+) (Source 2, 3, 5, 7, 10, 12, 15, 22, 25). Score: 0.00.
-    *   `transmission_type`: 9-speed Automatic (AMG SPEEDSHIFT TCT) (Source 2, 3, 5, 7, 10, 12, 17, 19, 22, 25). Score: +1.00.
-    *   `offroad_ability`: Large luxury performance SUV, not designed for serious off-roading. Score: +0.50.
-    *   `braking_dist_ft`: No specific ft data found, but reviews mention strong brakes (Source 11). Assume better than average for its size. Score: 0.50.
-
-*   **Space & Practicality:**
-    *   `size`: Length ~206.4 inches (5243mm) (Source 3, 15, 27). Large SUV. Score: +1.00.
-    *   `wheelbase`: 123.4 inches (3135mm) (Source 3, 4, 6, 15, 18). Long. Score: +1.00.
-    *   `body_style`: 4-door SUV/Wagon (Source 4, 10, 15, 27). Score: 0.00.
-    *   `seats`: 7 (6 optional) (Source 2, 3, 7, 11, 12, 18, 19, 22, 27). Score: +0.50.
-    *   `cargo_space`: 17.4 cu ft (all seats up), 84.7 cu ft (seats down) (Source 2, 3, 5, 6, 8, 12, 18, 19, 27). Good for an SUV, but 3rd row space is limited. Score: +0.50.
-    *   `rear_space`: 2nd row legroom ~41.9" (Source 3, 6, 9, 18), 3rd row legroom ~34.6" (Source 3, 5, 9, 18). 2nd row is excellent, 3rd row is average/tight. Score: +0.50.
-    *   `ground_clearance_in`: ~72.3 inches height (Source 15, 34), but ground clearance is listed as 203mm (8 inches) (Source 15). Higher than average car/crossover. Score: 0.50.
-    *   `turn_radius_ft`: 43.0 ft (Source 3), 39.4 ft (Source 23), 13.1m (~43 ft) (Source 12), 6.0m (~19.7 ft) (Source 18 - seems incorrect for this size vehicle). Using the more consistent ~43 ft. Large. Score: -0.25.
-
-*   **Efficiency & Electrification:**
-    *   `mpg`: EPA combined 16 mpg (Source 2, 4, 7, 11, 13, 19). Poor. Score: -1.00.
-    *   `co2_g_km`: 306 g/km (Source 10, 15, 25), 303 g/km (Source 27), 357 g/km (Source 24). High. Score: -1.00.
-    *   `electric_range_mi`: Mild hybrid, no significant electric range. Score: -1.00.
-    *   `charge_speed_kw`: Not an EV. Score: -1.00.
-
-*   **Ride & Dynamics:**
-    *   `handling_rating`: Good for its size, but not sports car level (Source 4, 9, 22, 27). Score: +0.50.
-    *   `ride_comfort_rating`: Very comfortable, even with large wheels (Source 4, 9, 18, 19, 27). Score: +0.75.
-    *   `cabin_noise_rating`: Quiet cabin (Source 9, 19). Score: +0.75.
-    *   `shift_smooth_rating`: Snappy/smooth 9-speed (Source 19). Score: +0.75.
-    *   `steering_feel_rating`: Precise/superb steering for its class (Source 9, 27), but some reviews note it's not as athletic as smaller AMGs (Source 4). Score: 0.25.
-
-*   **Safety & Visibility:**
-    *   `adas_score`: Comprehensive suite of active safety features standard (Source 3, 5, 21). Score: +0.75.
-    *   `visibility_rating`: Large SUV, generally good, but rear might be limited. No specific rating found. Default: 0.00.
-    *   `headlight_rating`: LED Intelligent Light System, Adaptive Highbeam Assist (Source 3, 21). Excellent. Score: +0.75.
-    *   `security_rating`: Luxury vehicle, high security features expected. Score: +0.50.
-
-*   **Infotainment & Connectivity:**
-    *   `screen_in`: Dual 12.3-inch screens (Source 5, 18, 19). Large. Score: +0.75.
-    *   `infotainment_ux_rating`: MBUX system, generally good but can have a learning curve (Source 19, 22). Score: +0.50.
-    *   `smartphone_connect_rating`: Wireless Apple CarPlay and Android Auto standard (Source 5, 19). Score: +1.00.
-    *   `audio_rating`: Burmester surround sound system standard (Source 5). High-end. Score: +1.00.
-    *   `usb_ports`: Multiple USB-C ports expected (Source 19 mentions 2 in rear). Score: +0.75.
-
-*   **Comfort & Convenience:**
-    *   `comfort_feature_score`: Heated, ventilated, massaging front seats, heated rear seats, multi-zone climate, soft-close doors standard/available (Source 5, 8, 19). High-end features. Score: +1.00.
-    *   `convenience_feature_score`: Power-folding seats, power liftgate, remote start, parking assist, 360 camera, soft-close doors standard/available (Source 5, 8, 19, 21). High-end features. Score: +1.00.
-
-*   **Style, Brand & Interior Character:**
-    *   `interior_luxury_rating`: High-quality materials, leather, wood trim options (Source 5, 19). Score: +1.00.
-    *   `interior_tech_focus_rating`: Dual large screens, advanced features (Source 5, 18, 19). Screen-forward. Score: +1.00.
-    *   `brand_prestige_rating`: Mercedes-Benz is a high-prestige brand. Score: +0.75.
-    *   `model_prestige_rating`: GLS is a flagship SUV model. Score: -1.00.
-    *   `trim_prestige_rating`: AMG 63 is a top performance trim. Score: -1.00.
-    *   `style_sleek_vs_boxy`: Large SUV, more boxy than a coupe, but less so than a G-Class. Score: -0.25.
-    *   `style_aggression_rating`: AMG styling adds aggression (Source 19). Score: +0.50.
-    *   `style_modernity_rating`: Modern Mercedes design. Score: +0.25.
-
-Final check of scores against benchmarks and examples. Adjusting some scores slightly based on the specific data found (e.g., HP/Torque not quite at the absolute peak, 0-60 is very fast but not sub-2.5s).```json
+```json
 {
   "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
-  "insurance_usd_yr": -1.00,
-  "maint_usd_yr": -1.00,
-  "repair_risk_score": -0.50,
-  "hp": 0.75,
-  "torque": 0.75,
-  "cylinder_count": 0.25,
-  "engine_displacement": 0.25,
-  "accel_0_60_sec": 0.75,
-  "top_speed": 0.25,
+  "insurance_usd_yr": -0.80,
+  "maint_usd_yr": -0.30,
+  "repair_risk_score": -0.20,
+  "hp": 0.80,
+  "torque": 0.70,
+  "cylinder_count": 0.50,
+  "engine_displacement": 0.50,
+  "accel_0_60_sec": 0.90,
+  "top_speed": 0.30,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "offroad_ability": 0.50,
+  "offroad_ability": -0.50,
   "braking_dist_ft": 0.50,
   "size": 1.00,
-  "wheelbase": 1.00,
-  "body_style": 0.00,
-  "seats": 0.50,
-  "cargo_space": 0.50,
-  "rear_space": 0.50,
-  "ground_clearance_in": 0.50,
-  "turn_radius_ft": -0.25,
-  "mpg": -1.00,
-  "co2_g_km": -1.00,
+  "wheelbase": 0.90,
+  "body_style": 0.10,
+  "seats": 0.90,
+  "cargo_space": 1.00,
+  "rear_space": 0.70,
+  "ground_clearance_in": 0.20,
+  "turn_radius_ft": -0.80,
+  "mpg": -0.80,
+  "co2_g_km": -0.80,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": -0.25,
-  "style_aggression_rating": 0.50,
-  "style_modernity_rating": 0.25,
-  "handling_rating": 0.50,
-  "ride_comfort_rating": 0.75,
-  "cabin_noise_rating": 0.75,
-  "shift_smooth_rating": 0.75,
-  "steering_feel_rating": 0.25,
-  "adas_score": 0.75,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.75,
-  "security_rating": 0.50,
-  "screen_in": 0.75,
-  "infotainment_ux_rating": 0.50,
-  "smartphone_connect_rating": 1.00,
-  "audio_rating": 1.00,
-  "usb_ports": 0.75,
+  "style_sleek_vs_boxy": -0.30,
+  "style_aggression_rating": 0.80,
+  "style_modernity_rating": 0.70,
+  "handling_rating": 0.30,
+  "ride_comfort_rating": -0.20,
+  "cabin_noise_rating": 0.90,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": -0.20,
+  "adas_score": 0.90,
+  "visibility_rating": 0.70,
+  "headlight_rating": 0.80,
+  "security_rating": 0.70,
+  "screen_in": 0.90,
+  "infotainment_ux_rating": 0.90,
+  "smartphone_connect_rating": 0.90,
+  "audio_rating": 0.90,
+  "usb_ports": 0.70,
   "comfort_feature_score": 1.00,
   "convenience_feature_score": 1.00,
-  "brand_prestige_rating": 0.75,
+  "brand_prestige_rating": 0.80,
   "model_prestige_rating": -1.00,
   "trim_prestige_rating": -1.00,
-  "interior_luxury_rating": 1.00,
+  "interior_luxury_rating": 0.90,
   "interior_tech_focus_rating": 1.00
 }
 ```

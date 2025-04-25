@@ -1,161 +1,54 @@
-The Vauxhall Astra Van ecoFLEX is based on the Astra H platform, produced until around 2012. The ecoFLEX models were specifically designed for improved fuel efficiency and lower emissions, typically featuring smaller diesel engines, aerodynamic enhancements, and low rolling resistance tyres.
-
-Here's an evaluation based on the available information and the provided scoring guide:
-
-*   **price_usd**: Used prices for a Vauxhall Astra Van ecoFLEX from the 2006-2012 era are very low in the UK market (Sources [1, 2, 12, 13, 16]). This falls well below the $15,000 threshold for a +1.00 score.
-    *   *Score:* `1.00`
-*   **total_cost_estimate_5yr_usd**: The low purchase price and excellent fuel economy contribute to low running costs. While maintenance and potential repairs on an older vehicle are factors, the overall 5-year cost is significantly lower than the market average for a new car.
-    *   *Score:* `0.75`
-*   **insurance_usd_yr**: ecoFLEX models often fall into lower insurance groups due to their focus on efficiency and lower performance (Source [19, 24, 26]). The van body style also contributes to lower insurance costs compared to passenger cars.
-    *   *Score:* `0.75`
-*   **maint_usd_yr**: Maintenance intervals were relatively long for the era (20,000 miles/1 year) (Sources [2, 4, 5, 8]). However, as an older vehicle, unexpected repairs are possible. Average for an older car.
-    *   *Score:* `0.00`
-*   **repair_risk_score**: The Astra H platform is generally considered reliable, but like any older vehicle, it can have common issues (Sources [10, 28]). Reliability is average compared to the full market range.
-    *   *Score:* `0.00`
-*   **hp**: ecoFLEX models typically came with the 1.3 CDTi (90hp) or 1.7 CDTi (110hp) engines (Sources [2, 3, 4, 5, 8, 12]). 90-110hp is significantly below the average for modern passenger cars.
-    *   *Score:* `-0.75`
-*   **torque**: The diesel engines provide decent torque for their size (e.g., 1.7 CDTi 110hp has good torque) (Sources [1, 5]). This helps with drivability despite the lower HP, bringing it closer to average.
-    *   *Score:* `-0.25`
-*   **cylinder_count**: All relevant engines are 4-cylinder (Source [27]).
-    *   *Score:* `0.00`
-*   **engine_displacement**: Engines are 1.3L or 1.7L (Sources [3, 4, 5, 8, 12]). These are small displacements compared to the market average.
-    *   *Score:* `-0.75`
-*   **accel_0_60_sec**: 0-60 mph times are slow due to the focus on efficiency and lower power. The 1.3 CDTi (95hp) is around 13.8 seconds (Source [3]), and the 1.7 CDTi (110hp) is also slow (Source [1]). Well below average.
-    *   *Score:* `-0.75`
-*   **top_speed**: Top speeds are modest, around 109 mph for the 1.3 CDTi (Source [3]). Below the modern average.
-    *   *Score:* `-0.50`
-*   **drive_type**: Front-wheel drive (FWD) (Sources [12, 13, 18]).
-    *   *Score:* `-1.00`
-*   **transmission_type**: Primarily manual (5 or 6-speed) (Sources [1, 2, 4, 5, 8, 12, 13, 14, 16, 27]). Manual transmission scores -1.00.
-    *   *Score:* `-1.00`
-*   **offroad_ability**: Low ground clearance (potentially lowered further on ecoFLEX models) and FWD. Not designed for off-road.
-    *   *Score:* `1.00`
-*   **braking_dist_ft**: Equipped with ABS and EBA (Sources [2, 4]). Braking performance was likely average for its era.
-    *   *Score:* `0.00`
-*   **size**: Based on the compact Astra H platform (Sources [10, 11, 13, 18, 20, 21]). Similar in size to a modern compact car/estate.
-    *   *Score:* `0.00`
-*   **wheelbase**: Based on the Astra H platform. Average for its size.
-    *   *Score:* `0.00`
-*   **body_style**: 3-door car-derived van (Sources [10, 11, 12]).
-    *   *Score:* `0.00`
-*   **seats**: 2 seats (Source [12]).
-    *   *Score:* `-1.00`
-*   **cargo_space**: Excellent cargo space for its external size (1.58 cubic metres / 55.8 cu ft standard, up to 2.68m load length with Flex bulkhead) (Sources [2, 4, 5, 10, 11, 29]). This is a major strength.
-    *   *Score:* `1.00`
-*   **rear_space**: No rear seats.
-    *   *Score:* `-1.00`
-*   **ground_clearance_in**: Astra H ground clearance is around 160mm (6.3 inches) (Source [18]). ecoFLEX models often had lowered suspension (Source [5]). Slightly below average.
-    *   *Score:* `-0.25`
-*   **turn_radius_ft**: Likely average for a compact car/van.
-    *   *Score:* `0.00`
-*   **mpg**: Excellent fuel economy for a non-hybrid/EV, with official figures around 60-68 mpg (Sources [3, 5, 6, 7, 8]). Real-world figures are lower but still very good (Sources [1, 3, 7]).
-    *   *Score:* `0.75`
-*   **co2_g_km**: Low CO2 emissions for a non-EV, around 109-132 g/km (Sources [3, 4, 5, 8]). Very good compared to the average car.
-    *   *Score:* `0.75`
-*   **electric_range_mi**: Not electric.
-    *   *Score:* `-1.00`
-*   **charge_speed_kw**: Not electric.
-    *   *Score:* `-1.00`
-*   **style_sleek_vs_boxy**: Based on the Astra H, which had relatively modern styling for its time, but the van body adds some boxiness.
-    *   *Score:* `0.25`
-*   **style_aggression_rating**: Efficiency focus means less aggressive styling.
-    *   *Score:* `-0.50`
-*   **style_modernity_rating**: The Astra H design is clearly dated compared to current vehicles.
-    *   *Score:* `-1.00`
-*   **handling_rating**: The Astra H platform handles well, described as car-like and composed (Sources [1, 2, 4, 5, 10, 11]). Efficiency tyres might slightly impact ultimate grip, but still good for a van.
-    *   *Score:* `0.50`
-*   **ride_comfort_rating**: Generally considered comfortable, though ride quality can suffer slightly with larger wheels (Source [1]). Good for a van (Sources [2, 5]).
-    *   *Score:* `0.50`
-*   **cabin_noise_rating**: Noise from the rear load area and engine can be noticeable (Source [3]). Average or slightly below average.
-    *   *Score:* `-0.25`
-*   **shift_smooth_rating**: Manual gearbox, likely average for a commercial vehicle.
-    *   *Score:* `0.00`
-*   **steering_feel_rating**: Steering is generally well-weighted and responsive (Sources [1, 5]).
-    *   *Score:* `0.50`
-*   **adas_score**: Minimal ADAS features. ABS and ESP were available (Sources [2, 4]). No modern driver aids.
-    *   *Score:* `-1.00`
-*   **visibility_rating**: Good forward visibility, poor rear/side visibility due to van body.
-    *   *Score:* `-0.50`
-*   **headlight_rating**: Basic headlights for its era.
-    *   *Score:* `0.00`
-*   **security_rating**: Standard security features for its time. Vauxhall vans were noted for security (Source [2]).
-    *   *Score:* `0.25`
-*   **screen_in**: Small, basic display for radio/trip computer. Not a modern infotainment screen.
-    *   *Score:* `-1.00`
-*   **infotainment_ux_rating**: Basic, dated system.
-    *   *Score:* `-1.00`
-*   **smartphone_connect_rating**: No factory smartphone connectivity.
-    *   *Score:* `-1.00`
-*   **audio_rating**: Basic audio system.
-    *   *Score:* `0.00`
-*   **usb_ports**: Likely none or one basic port.
-    *   *Score:* `-1.00`
-*   **comfort_feature_score**: Basic comfort features. AC was optional on lower trims (Source [4]).
-    *   *Score:* `-0.50`
-*   **convenience_feature_score**: Basic convenience features. Optional rear parking sensors (Source [4]).
-    *   *Score:* `-0.75`
-*   **brand_prestige_rating**: Vauxhall is a mainstream brand.
-    *   *Score:* `0.00`
-*   **model_prestige_rating**: The Astra is a mainstream model.
-    *   *Score:* `0.00`
-*   **trim_prestige_rating**: ecoFLEX is an efficiency variant, not a high-prestige trim. Often based on lower trims.
-    *   *Score:* `0.00`
-*   **interior_luxury_rating**: Basic, durable interior materials typical of a commercial vehicle, though car-like for its segment (Source [11]).
-    *   *Score:* `-1.00`
-*   **interior_tech_focus_rating**: Minimal tech focus in the interior design.
-    *   *Score:* `-1.00`
-
 ```json
 {
   "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": 0.75,
-  "insurance_usd_yr": 0.75,
+  "total_cost_estimate_5yr_usd": 0.50,
+  "insurance_usd_yr": 0.50,
   "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": -0.75,
-  "torque": -0.25,
+  "repair_risk_score": -0.20,
+  "hp": -0.60,
+  "torque": -0.40,
   "cylinder_count": 0.00,
-  "engine_displacement": -0.75,
-  "accel_0_60_sec": -0.75,
-  "top_speed": -0.50,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": -1.00,
+  "top_speed": -0.80,
   "drive_type": -1.00,
   "transmission_type": -1.00,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
   "size": 0.00,
   "wheelbase": 0.00,
-  "body_style": 0.00,
+  "body_style": 1.00,
   "seats": -1.00,
   "cargo_space": 1.00,
   "rear_space": -1.00,
-  "ground_clearance_in": -0.25,
+  "ground_clearance_in": -0.80,
   "turn_radius_ft": 0.00,
-  "mpg": 0.75,
-  "co2_g_km": 0.75,
+  "mpg": 0.50,
+  "co2_g_km": 0.50,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.25,
+  "style_sleek_vs_boxy": 0.20,
   "style_aggression_rating": -0.50,
   "style_modernity_rating": -1.00,
-  "handling_rating": 0.50,
-  "ride_comfort_rating": 0.50,
-  "cabin_noise_rating": -0.25,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": -0.50,
   "shift_smooth_rating": 0.00,
-  "steering_feel_rating": 0.50,
+  "steering_feel_rating": 0.00,
   "adas_score": -1.00,
-  "visibility_rating": -0.50,
-  "headlight_rating": 0.00,
-  "security_rating": 0.25,
+  "visibility_rating": 0.00,
+  "headlight_rating": -1.00,
+  "security_rating": 0.00,
   "screen_in": -1.00,
   "infotainment_ux_rating": -1.00,
   "smartphone_connect_rating": -1.00,
-  "audio_rating": 0.00,
+  "audio_rating": -0.80,
   "usb_ports": -1.00,
-  "comfort_feature_score": -0.50,
-  "convenience_feature_score": -0.75,
+  "comfort_feature_score": -1.00,
+  "convenience_feature_score": -1.00,
   "brand_prestige_rating": 0.00,
   "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.00,
+  "trim_prestige_rating": 1.00,
   "interior_luxury_rating": -1.00,
   "interior_tech_focus_rating": -1.00
 }

@@ -1,5 +1,3 @@
-Here is the evaluation of the Mercedes-Benz Maybach S Class MHEV based on the provided data and scoring guide:
-
 ```json
 {
   "price_usd": -1.00,
@@ -7,42 +5,42 @@ Here is the evaluation of the Mercedes-Benz Maybach S Class MHEV based on the pr
   "insurance_usd_yr": -1.00,
   "maint_usd_yr": -1.00,
   "repair_risk_score": 0.00,
-  "hp": 1.00,
-  "torque": 1.00,
-  "cylinder_count": 1.00,
-  "engine_displacement": 1.00,
-  "accel_0_60_sec": 1.00,
+  "hp": 0.75,
+  "torque": 0.75,
+  "cylinder_count": 0.75,
+  "engine_displacement": 0.75,
+  "accel_0_60_sec": 0.75,
   "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "offroad_ability": -1.00,
-  "braking_dist_ft": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.50,
   "size": 1.00,
   "wheelbase": 1.00,
   "body_style": 0.00,
-  "seats": 0.00,
-  "cargo_space": -0.25,
+  "seats": -0.50,
+  "cargo_space": -0.50,
   "rear_space": 1.00,
-  "ground_clearance_in": -0.75,
+  "ground_clearance_in": -0.50,
   "turn_radius_ft": -0.75,
   "mpg": -1.00,
   "co2_g_km": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.75,
-  "style_aggression_rating": -0.25,
-  "style_modernity_rating": 0.75,
-  "handling_rating": 0.75,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": -1.00,
+  "style_modernity_rating": 1.00,
+  "handling_rating": 0.00,
   "ride_comfort_rating": 1.00,
   "cabin_noise_rating": 1.00,
   "shift_smooth_rating": 1.00,
-  "steering_feel_rating": 0.50,
+  "steering_feel_rating": -1.00,
   "adas_score": 1.00,
-  "visibility_rating": 0.25,
+  "visibility_rating": 0.00,
   "headlight_rating": 1.00,
   "security_rating": 1.00,
   "screen_in": 1.00,
-  "infotainment_ux_rating": 0.90,
+  "infotainment_ux_rating": 0.75,
   "smartphone_connect_rating": 1.00,
   "audio_rating": 1.00,
   "usb_ports": 1.00,
@@ -55,57 +53,3 @@ Here is the evaluation of the Mercedes-Benz Maybach S Class MHEV based on the pr
   "interior_tech_focus_rating": 1.00
 }
 ```
-
-**Reasoning for each rating:**
-
-*   **price_usd:** -1.00 - The starting price for the Maybach S 580 is well over $200,000 (Source [2, 3, 15, 20, 27, 35]), significantly exceeding the >$100,000 benchmark for -1.00.
-*   **total_cost_estimate_5yr_usd:** -1.00 - While specific Maybach data is limited, the standard S-Class 5-year cost is estimated around $144,327 (Source [9]), and the Maybach version will be considerably higher due to price, depreciation, and potentially higher maintenance/insurance. This easily exceeds the >$60,000 benchmark for -1.00.
-*   **insurance_usd_yr:** -1.00 - Insurance costs for a high-value, high-performance luxury vehicle like the Maybach S-Class are very high. S-Class insurance is estimated around $4,956/year (Source [9]), and the Maybach will be higher, well exceeding the >$2,500 benchmark for -1.00.
-*   **maint_usd_yr:** -1.00 - Maintenance costs for Mercedes-Benz, especially the S-Class, are higher than average (Source [9, 36, 41, 43]). While the 5-year estimate for a standard S-Class is around $4,266 (Source [9]), the annual cost is still high, and the Maybach's complexity and parts cost push it well over the >$1,200 benchmark for -1.00.
-*   **repair_risk_score:** 0.00 - Mercedes-Benz generally has an average reliability reputation. Not as poor as some brands, but not top-tier like Toyota/Lexus. The S-Class has complex systems, which can increase potential repair costs, but it's not known for catastrophic, frequent failures like the -1.00 examples.
-*   **hp:** 1.00 - The S 580 MHEV has 496-503 hp (Source [2, 8, 10, 12, 15, 22, 25, 28, 31]), and the S 680 has 612-621 hp (Source [2, 3, 8, 12, 15, 25, 32]). Both are far above the market average and approach or exceed the >700 hp benchmark for +1.00, warranting a 1.00 score in the context of overall market performance.
-*   **torque:** 1.00 - The S 580 has 516 lb-ft (Source [2, 10, 12, 15, 22, 25]), and the S 680 has 664-900 Nm (664 lb-ft) (Source [2, 8, 12, 15, 25, 32]). These figures are significantly higher than the market average and represent superb performance, warranting a 1.00 score.
-*   **cylinder_count:** 1.00 - Available with a V8 or V12 engine (Source [2, 3, 4, 6, 10, 12, 15, 32]), far exceeding the average cylinder count and reaching the highest tier.
-*   **engine_displacement:** 1.00 - Available with 4.0L V8 or 6.0L V12 engines (Source [4, 6, 10, 12, 15, 28, 32]), both are large displacements well above the market average and reaching the highest tier.
-*   **accel_0_60_sec:** 1.00 - The S 580 does 0-60 mph in 4.1-4.8 seconds (Source [2, 8, 10, 15, 22, 24, 25, 28]), and the S 680 in 3.7-4.5 seconds (Source [2, 3, 8, 15, 25]). These times are significantly faster than the market average and approach the <2.5 sec benchmark for +1.00, warranting a 1.00 score for exceptional acceleration.
-*   **top_speed:** 0.00 - Electronically limited to 155 mph (Source [8, 10]), which is around the average for performance-oriented cars but not top-tier supercar speeds.
-*   **drive_type:** 0.00 - Comes standard with 4MATIC (AWD) (Source [2, 3, 4, 10, 15, 25, 26, 27, 32]), which is considered average in the scoring guide.
-*   **transmission_type:** 1.00 - Uses a 9-speed automatic transmission (Source [3, 8, 10, 15, 24, 25, 28, 32]), which is the benchmark for +1.00.
-*   **offroad_ability:** -1.00 - This is a low-slung luxury sedan designed for pavement. It has minimal ground clearance and no off-road features. It is poor in this regard.
-*   **braking_dist_ft:** 0.00 - Braking distance for the S 580 is around 185 ft from 70 mph (Source [29]), which translates to roughly 120-130 ft from 60 mph, placing it around the average benchmark.
-*   **size:** 1.00 - With a length of around 5469mm (Source [6, 10, 19, 33, 34]), it is significantly longer than the >5100mm benchmark for +1.00.
-*   **wheelbase:** 1.00 - The wheelbase is 133.7 inches or 3396mm (Source [2, 3, 10, 13, 19, 29, 32, 33, 34]), well exceeding the >3200mm benchmark for +1.00.
-*   **body_style:** 0.00 - It is a 4-door sedan, which is the benchmark for 0.00.
-*   **seats:** 0.00 - Typically configured with 4 or 5 seats (Source [2, 3, 10, 19, 20, 28, 32]), which is the market average.
-*   **cargo_space:** -0.25 - Trunk space is around 12-13 cu ft (Source [2, 3, 5, 11, 19, 32, 33, 34]), which is below the 15 cu ft average benchmark.
-*   **rear_space:** 1.00 - The extended wheelbase provides exceptional rear legroom (49.1 inches) (Source [3, 32]), far exceeding the >40" benchmark for +1.00.
-*   **ground_clearance_in:** -0.75 - Ground clearance is around 130-150mm (5.1-5.9 inches) (Source [10, 19, 33, 34, 40]), which is low for the market, closer to sports coupes than average crossovers.
-*   **turn_radius_ft:** -0.75 - The turning radius is around 36.7-40 feet with rear-wheel steering (Source [13, 26]), which is larger than the average sedan due to its size, but the rear steering helps mitigate this somewhat. Still worse than average.
-*   **mpg:** -1.00 - Combined EPA estimates are 15-23 MPG depending on engine/test cycle (Source [2, 8, 10, 12, 20, 21, 29, 31, 32]), significantly lower than the 30 mpg average benchmark.
-*   **co2_g_km:** -1.00 - CO2 emissions are high, ranging from 233-325 g/km (Source [4, 8, 10, 17, 23, 28]), well above the 175 g/km average benchmark.
-*   **electric_range_mi:** -1.00 - This is a Mild Hybrid (MHEV), not a Plug-in Hybrid (PHEV) or full EV. It has no significant electric-only range. (Note: There is a Maybach S 580e PHEV with ~62 miles range (Source [14, 18]), but the prompt specified MHEV).
-*   **charge_speed_kw:** -1.00 - Not a plug-in vehicle, so charging speed is not applicable in the positive sense.
-*   **style_sleek_vs_boxy:** 0.75 - It's a large, elegant sedan with flowing lines, leaning towards sleek but still substantial, not ultra-sleek like a coupe.
-*   **style_aggression_rating:** -0.25 - The design is stately and luxurious, not aggressive or sporty.
-*   **style_modernity_rating:** 0.75 - Features modern design cues, lighting, and overall aesthetic, though still a traditional sedan shape.
-*   **handling_rating:** 0.75 - While not a sports car, reviews praise its composed handling for a large luxury sedan, especially with features like rear-wheel steering and active suspension (Source [26, 29]). It's well above average for its class.
-*   **ride_comfort_rating:** 1.00 - Renowned for its exceptionally smooth and comfortable ride, a key selling point (Source [2, 29]). Best-in-class.
-*   **cabin_noise_rating:** 1.00 - Extremely quiet cabin, designed for ultimate refinement (Source [2, 29]). Best-in-class.
-*   **shift_smooth_rating:** 1.00 - The 9-speed automatic transmission is known for smooth, imperceptible shifts, especially in comfort-focused modes (Source [26]).
-*   **steering_feel_rating:** 0.50 - Steering is likely light and precise for easy maneuvering, but not designed for engaging feedback like a sports car. Good for its purpose.
-*   **adas_score:** 1.00 - Equipped with Mercedes-Benz's most advanced suite of driver-assistance systems, including features like advanced adaptive cruise control, lane keeping, and potentially Level 2/3 capabilities in some markets (Source [25, 28]). Top-tier.
-*   **visibility_rating:** 0.25 - Visibility is generally good for a large sedan, but large pillars or the sheer size might slightly impede it compared to vehicles known for exceptional visibility.
-*   **headlight_rating:** 1.00 - Features advanced LED headlights, including DIGITAL LIGHT technology with high resolution (Source [8, 23, 26]), representing top-tier performance.
-*   **security_rating:** 1.00 - As a high-value luxury vehicle, it comes with comprehensive security features, likely including advanced alarms, immobilizers, and tracking systems.
-*   **screen_in:** 1.00 - Features large, high-resolution screens, including a 12.8-inch OLED center display and 12.3-inch digital instrument cluster (Source [16, 18, 26]). Exceeds the 8" average and approaches the largest screens available.
-*   **infotainment_ux_rating:** 0.90 - Uses the latest generation of Mercedes-Benz MBUX, which is generally highly rated for its features, responsiveness, and voice control, though some complex menus exist. Near best-in-class.
-*   **smartphone_connect_rating:** 1.00 - Includes standard Apple CarPlay and Android Auto (Source [23, 37]), likely with wireless capability and deep integration. Top-tier connectivity.
-*   **audio_rating:** 1.00 - Offers a high-end Burmester sound system, including a 4D system option (Source [8, 15, 23]), representing best-in-class audio quality.
-*   **usb_ports:** 1.00 - Luxury vehicles typically offer numerous USB ports throughout the cabin, including for rear passengers. Likely exceeds the 3-port average.
-*   **comfort_feature_score:** 1.00 - Packed with every conceivable comfort feature, including heated/ventilated/massaging seats, multi-zone climate control, power adjustments everywhere, etc. (Source [3, 8, 13, 18, 23, 32]). Best-in-class.
-*   **convenience_feature_score:** 1.00 - Includes extensive convenience features like soft-close doors, power rear doors, advanced parking aids, 360 cameras, etc. (Source [15, 23, 28, 37]). Best-in-class.
-*   **brand_prestige_rating:** 1.00 - Mercedes-Benz is a high-prestige brand, and Maybach is its ultra-luxury sub-brand, representing the pinnacle of the brand's offerings.
-*   **model_prestige_rating:** -1.00 - The S-Class is the flagship model, the top of the Mercedes-Benz range. According to the guide, "Top of brand/ halo cars" are -1.00.
-*   **trim_prestige_rating:** -1.00 - Maybach is the highest, most luxurious trim level of the S-Class. According to the guide, "Top Trims" are -1.00.
-*   **interior_luxury_rating:** 1.00 - Features the finest materials, craftsmanship, and design, representing the highest level of interior luxury. Best-in-class.
-*   **interior_tech_focus_rating:** 1.00 - The interior is dominated by large screens and advanced digital interfaces, with a strong emphasis on technology integration. High tech focus.

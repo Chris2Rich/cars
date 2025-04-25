@@ -1,0 +1,109 @@
+Based on the search results:
+*   **Model:** Vauxhall Combo Life Electric Prime (passenger version seems more appropriate for the metrics).
+*   **Price:** Around £29,610 - £32,510 (Source 3). Used price around £19,995 (Source 14). New price is around $37,000 - $41,000 USD (using ~1.25 GBP to USD). This is around the market average for a new car ($52k), maybe slightly below. Score 0.50.
+*   **Total Cost:** EVs have lower running costs (Source 7), but depreciation can be a factor. The lease price is competitive with diesel (Source 7). Likely average to slightly below average 5-year cost. Score 0.20.
+*   **Insurance:** Not explicitly stated, but MPVs are generally average. EVs can sometimes be higher. Default to 0.00.
+*   **Maintenance:** EVs have lower maintenance costs (Source 8). Score 0.50.
+*   **Repair Risk:** Vauxhall/Stellantis reliability is generally average. Score 0.00.
+*   **HP:** 136 PS (100kW) (Source 9). This is around 134 hp. Below average. Score -0.70.
+*   **Torque:** 270 Nm (Source 9). This is around 199 lb-ft. Average. Score 0.00.
+*   **Cylinder Count:** 0 (EV). Score -1.00.
+*   **Engine Displacement:** 0 (EV). Score -1.00.
+*   **Accel 0-60:** 0-62 mph in 11.7 seconds (Source 2). Below average. Score -0.60.
+*   **Top Speed:** 82 mph (electronically limited) (Source 2). Well below average. Score -0.70.
+*   **Drive Type:** FWD (Source 2). Score -1.00.
+*   **Transmission Type:** Automatic (single speed for EV) (Source 4). Score 0.50.
+*   **Offroad Ability:** None. Score -1.00.
+*   **Braking Dist:** Not specified. Default 0.00.
+*   **Size:** Available in standard and XL lengths (Source 4, 9). Standard is around 4.4m, XL 4.75m (Source 4). Standard is around average car length, XL is above. Let's average to slightly above average. Score 0.10.
+*   **Wheelbase:** Not specified, but likely proportional to length. Slightly above average. Score 0.10.
+*   **Body Style:** MPV/Van. Score 1.00.
+*   **Seats:** 5 or 7 seats (Source 2, 3, 6, 11). 7 seats is above average. Score 1.00.
+*   **Cargo Space:** 597 litres boot, up to 2126 litres with seats folded (Source 6, 11). Excellent. Score 1.00.
+*   **Rear Space:** Generous space (Source 11). Likely above average. Score 0.50.
+*   **Ground Clearance:** Not specified. Likely average for MPV. Score 0.00.
+*   **Turn Radius:** Not specified. Likely average for size. Score 0.00.
+*   **MPG:** N/A (EV). Score -1.00.
+*   **CO2 g/km:** 0 g/km (EV). Score 1.00.
+*   **Electric Range:** Up to 205 miles WLTP (2024 update) (Source 2), 174 miles (Source 3, 8), 213 miles (Source 9), 180-220 miles (Source 10). Let's use the updated 205-213 miles figure. This is around average for current EVs. Score 0.00.
+*   **Charge Speed kW:** Up to 100kW DC rapid charging (Source 2, 6, 9). Standard AC is 7.4kW, optional 11kW (Source 2, 6, 9). 100kW DC is average for rapid charging. Score 0.00.
+*   **Style Sleek vs Boxy:** Very boxy. Score -1.00.
+*   **Style Aggression:** Not aggressive. Score -0.50.
+*   **Style Modernity:** Updated Vizor front (Source 5, 9, 10), refreshed cockpit (Source 10). Looks modern but functional. Score 0.00.
+*   **Handling:** Not specified as sporty. Likely average for MPV. Score 0.00.
+*   **Ride Comfort:** Designed for comfort (Source 3, 8). Likely above average. Score 0.50.
+*   **Cabin Noise:** EVs are quiet (Source 2, 8). Score 0.50.
+*   **Shift Smoothness:** Single speed EV is very smooth. Score 1.00.
+*   **Steering Feel:** Not specified as engaging. Likely average. Score 0.00.
+*   **ADAS Score:** Includes AEB, Lane Keep Assist, Speed Sign Recognition, Forward Collision Alert, Rear Parking Sensors (Source 3, 8, 11, 12). Good set for the class/trim. Score 0.40.
+*   **Visibility:** Commanding view, large windows (Source 8, 11). Excellent. Score 1.00.
+*   **Headlight Rating:** Automatic headlights, LED DRLs (Source 5, 8, 12). Likely average LED performance. Score 0.00.
+*   **Security Rating:** Not specified beyond standard features. Default 0.00.
+*   **Screen In:** 8-inch colour touchscreen (Source 8, 11), 10-inch digital instrument cluster (Source 8). 8-inch touchscreen is average. Score 0.00.
+*   **Infotainment UX:** Stellantis system, generally average. Score 0.00.
+*   **Smartphone Connect:** Apple CarPlay and Android Auto standard (Source 2, 8). Score 0.50.
+*   **Audio Rating:** Not specified beyond DAB radio. Likely basic. Score -0.50.
+*   **USB Ports:** USB audio connection (Source 8, 11), USB charging points front and rear (Source 11). Likely 2-3 ports. Score 0.00.
+*   **Comfort Feature Score:** Heated steering wheel (Source 8), Electronic Climate Control (Source 8), comfortable seats (Source 4). Some good features for the trim. Score 0.20.
+*   **Convenience Feature Score:** Rear parking sensors (Source 2, 5, 8, 12), 180 parking camera (Source 8), sliding doors (Source 8, 11). Good convenience features. Score 0.40.
+*   **Brand Prestige:** Vauxhall is mainstream. Score -0.20.
+*   **Model Prestige:** Combo is a utility/family model. Score 0.50.
+*   **Trim Prestige:** Prime is a mid-range trim. Score 0.00.
+*   **Interior Luxury:** Functional, not luxurious (Source 4, 8, 11). Score -0.80.
+*   **Interior Tech Focus:** Refreshed cockpit, touchscreen, digital cluster (Source 8, 10). Average tech focus. Score 0.00.
+
+Final check on scores and rounding to 2 decimal places.```json
+{
+  "price_usd": 0.50,
+  "total_cost_estimate_5yr_usd": 0.20,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.50,
+  "repair_risk_score": 0.00,
+  "hp": -0.70,
+  "torque": 0.00,
+  "cylinder_count": -1.00,
+  "engine_displacement": -1.00,
+  "accel_0_60_sec": -0.60,
+  "top_speed": -0.70,
+  "drive_type": -1.00,
+  "transmission_type": 0.50,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.10,
+  "wheelbase": 0.10,
+  "body_style": 1.00,
+  "seats": 1.00,
+  "cargo_space": 1.00,
+  "rear_space": 0.50,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": -1.00,
+  "co2_g_km": 1.00,
+  "electric_range_mi": 0.00,
+  "charge_speed_kw": 0.00,
+  "style_sleek_vs_boxy": -1.00,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.40,
+  "visibility_rating": 1.00,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": -0.50,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.20,
+  "convenience_feature_score": 0.40,
+  "brand_prestige_rating": -0.20,
+  "model_prestige_rating": 0.50,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": -0.80,
+  "interior_tech_focus_rating": 0.00
+}
+```

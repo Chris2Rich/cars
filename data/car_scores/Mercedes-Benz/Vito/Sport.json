@@ -1,7 +1,88 @@
-```json
+The Mercedes-Benz Vito SPORT is a higher trim level of the W447 generation Vito, focusing on enhanced styling and features. It sits above the Pure, Progressive, and Premium trims (Result 6, 9). This evaluation is based on the characteristics of the Vito SPORT in the current market, referencing data from recent model years (2019 onwards, as the SPORT trim was reintroduced then, Result 6, 9).
+
+*   **price_usd**: New Vito SPORT Crew Vans start around £37,475 ex VAT (Result 6, 9), which is roughly $47,500 USD. Tourer SPORT models start higher, around £40,570 ex VAT (Result 6, 9). This is above the market average for a new car ($35k). Score: **-0.10**.
+*   **total_cost_estimate_5yr_usd**: Mercedes maintenance is higher than average (Result 26, 28, 42). Reliability is generally decent for the W447 (Result 18, 26, 28). Fuel economy is reasonable for a van, though Sport trims might have slightly thirstier engines (Result 2, 5, 6, 11, 23, 31). Insurance costs are high (Result 2, 10, 27, 41). Overall 5-year cost is likely above average for a passenger car, but potentially around average for a commercial vehicle with enhanced features. Defaulting to **0.00**.
+*   **insurance_usd_yr**: Vans, especially commercial vehicles and higher specs like Sport, have high insurance costs (Result 2, 10, 27, 41). Insurance groups for W447 Vito range from 27-44 (Result 27). The Sport trim can be particularly expensive to insure (Result 41). Score: **-1.00**.
+*   **maint_usd_yr**: Mercedes maintenance is generally more expensive than average (Result 26, 28, 42). Score: **-0.20**.
+*   **repair_risk_score**: The W447 Vito is generally considered reliable, backed by a good warranty (Result 18, 26, 28). Score: **0.50**.
+*   **hp**: SPORT trim is available with the 116 CDI (163 hp) and 119 CDI (190 hp) engines (Result 6, 9, 11). Compared to a 200 hp average car, the 116 is below, and the 119 is close. Score: **0.00**.
+*   **torque**: Torque figures are good for these diesel engines (116 CDI: 380 Nm/280 lb-ft, 119 CDI: 440 Nm/325 lb-ft) (Result 2, 5, 11, 14, 25). This is above the average passenger car. Score: **0.50**.
+*   **cylinder_count**: 4 cylinders (Result 2, 5, 11, 14, 25). Score: **0.00**.
+*   **engine_displacement**: Typically 2.0L or 2.1L (Result 2, 5, 11, 14, 25). Around average displacement. Score: **0.00**.
+*   **accel_0_60_sec**: Vans are not built for speed. 116 CDI Sport quoted at 11.5 seconds (Result 2, 6). Score: **-0.50**.
+*   **top_speed**: 116 CDI quoted at 135 mph (Result 2). 119 CDI quoted at 137 mph (Result 19, 20). Below the 150 mph average. Score: **-0.50**.
+*   **drive_type**: Primarily Rear-Wheel Drive (RWD) for these engines (Result 2, 11, 14, 25). Score: **1.00**.
+*   **transmission_type**: Often comes with the 7-speed or 9-speed automatic (Result 2, 6, 11, 14, 25, 31). Score: **0.80**.
+*   **offroad_ability**: Very poor. Low ground clearance, not designed for off-road. Score: **-1.00**.
+*   **braking_dist_ft**: No specific data found. Defaulting to **0.00**.
+*   **size**: Available in L1 and L2 lengths (4.89m to 5.14m) (Result 6, 7, 8, 9, 19). Large vehicles. Score: **0.80**.
+*   **wheelbase**: L1 and L2 share the 3200mm (126") wheelbase (Result 2, 7, 19). Long wheelbase. Score: **0.80**.
+*   **body_style**: 5-door van (Crew Van or Tourer) (Result 6, 9). Score: **1.00**.
+*   **seats**: Typically 5 seats in Crew Van, 8 seats in Tourer (Result 2, 6, 8, 9, 10, 11, 28). Score: **0.80** (averaging 5 and 8 seats).
+*   **cargo_space**: Excellent cargo space, even with rear seats (Result 7, 10, 19). Score: **1.00**.
+*   **rear_space**: Good rear space for passengers in Crew Van/Tourer (Result 5, 10, 15). Score: **0.50**.
+*   **ground_clearance_in**: Lowered sports suspension (10mm lower, Result 6, 9, 11). Around 146mm (5.7 inches) for standard, so lower for Sport. Score: **-0.80**.
+*   **turn_radius_ft**: Poor for maneuverability (38.7 ft to 41 ft) (Result 7, 15, 18). Score: **-0.50**.
+*   **mpg**: Varies by engine. 116 CDI around 41.5 mpg (Result 2). 119 CDI around 47.1 mpg (Result 25, 31). Very good for a van, above average for the overall market. Score: **0.50**.
+*   **co2_g_km**: Varies by engine. 116 CDI around 180 g/km (Result 2). 119 CDI around 178 g/km (Result 25). Higher than modern petrol/hybrid/EV. Score: **-0.50**.
+*   **electric_range_mi**: Not electric. Score: **-1.00**.
+*   **charge_speed_kw**: Not electric. Score: **-1.00**.
+*   **style_sleek_vs_boxy**: Vans are very boxy. Score: **-1.00**.
+*   **style_aggression_rating**: Sport trim adds styling elements (side skirts, graphics, alloys, Result 6, 9, 11, 12, 34), but not aggression. Score: **-0.20**.
+*   **style_modernity_rating**: W447 facelift updated the look, Sport adds styling elements. Score: **0.20**.
+*   **handling_rating**: Praised for car-like handling for a van, sports suspension enhances this (Result 2, 4, 5, 6, 9, 12, 14, 15, 31, 33, 34, 38). Score: **0.80**.
+*   **ride_comfort_rating**: Comfortable ride for a van (Result 2, 4, 5, 10, 14, 15, 31, 33, 34), though sports suspension is firmer (Result 6, 9, 11, 38). Score: **0.50**.
+*   **cabin_noise_rating**: Improved insulation in W447 (Result 14, 31), but still a van, can be noisy (Result 10, 34). Score: **-0.20**.
+*   **shift_smooth_rating**: Automatic gearbox is smooth (Result 2, 6, 11, 14, 25, 31). Score: **0.80**.
+*   **steering_feel_rating**: Functional, can be light but accurate (Result 14, 33, 38). Score: **0.00**.
+*   **adas_score**: Sport includes Active Brake Assist, Attention Assist, Reversing Camera with Parking Package, Active Parking Assist, Cruise Control (Result 2, 6, 11, 13, 20, 28). Good standard ADAS for a commercial vehicle. Score: **0.70**.
+*   **visibility_rating**: Good forward visibility, but rear/side can be limited in van body style (Result 14, 15, 17). Score: **0.00**.
+*   **headlight_rating**: LED head and tail lamps standard on Sport (Result 6, 9, 11). Score: **0.10**.
+*   **security_rating**: Anti-theft protection package with double lock is standard on Sport (Result 6, 9, 13, 28). Score: **0.50**.
+*   **screen_in**: Audio 40 infotainment system with 7" colour touchscreen and sat nav standard on Sport (Result 6, 9, 11). Newer models might get MBUX (Result 13, 18, 20, 21). Assuming the 7" screen is common for Sport. Score: **0.00**.
+*   **infotainment_ux_rating**: Audio 40 system is functional, MBUX is better. Score: **0.00** (averaging).
+*   **smartphone_connect_rating**: Audio 40 includes DAB and sat nav (Result 6, 9, 11). Bluetooth is standard (Result 10, 15). Apple CarPlay/Android Auto is standard on newer models/MBUX (Result 13, 18, 20, 21). Assuming recent Sport models have CarPlay/AA. Score: **1.00**.
+*   **audio_rating**: Standard audio is likely basic (Result 12, 21). Score: **-0.50**.
+*   **usb_ports**: Includes USB ports (Result 10, 13, 28). Number not specified, assuming at least one or two. Score: **0.00**.
+*   **comfort_feature_score**: Sport includes heated front seats, comfort driver seat with lumbar support, air conditioning, leather steering wheel (Result 2, 5, 6, 9, 10, 12, 13, 28, 34). Better than base, but still utilitarian compared to passenger cars. Score: **0.20**.
+*   **convenience_feature_score**: Sport includes cruise control, reversing camera, parking package, multifunction steering wheel, heated windscreen washers (Result 2, 6, 9, 10, 11, 12, 13, 28). Good convenience features for a van. Score: **0.50**.
+*   **brand_prestige_rating**: Mercedes-Benz is high prestige. Score: **0.70**.
+*   **model_prestige_rating**: Vito is a commercial van, lower prestige than passenger cars. Score: **0.10**.
+*   **trim_prestige_rating**: Sport is a high trim level. Score: **-0.20**.
+*   **interior_luxury_rating**: Interior is well-built but utilitarian (Result 16, 29). Sport adds leatherette upholstery, chrome interior details, velour floor mats (Result 6, 9, 10, 12, 34). Improved over base, but not luxury car level. Score: **-0.50**.
+*   **interior_tech_focus_rating**: Sport adds a decent screen, sat nav, and standard connectivity on recent models. Score: **0.50**.
+
+Refining scores based on the SPORT trim specifics and W447 generation:
+*   `price_usd`: New price is above average. Score **-0.10**.
+*   `hp`: Averaging around 163-190 hp. Score **0.00**.
+*   `accel_0_60_sec`: Faster than base Vito, but still not quick compared to cars. Score **-0.50**.
+*   `top_speed`: Below average. Score **-0.50**.
+*   `drive_type`: RWD is common on Sport. Score **1.00**.
+*   `transmission_type`: Automatic is common/standard on Sport. Score **0.80**.
+*   `seats`: Typically 5 or 8. Score **0.80**.
+*   `ground_clearance_in`: Lowered sports suspension. Score **-0.80**.
+*   `mpg`: Very good for a van, above average overall. Score **0.50**.
+*   `co2_g_km`: Higher than modern cars. Score **-0.50**.
+*   `handling_rating`: Enhanced by sports suspension. Score **0.80**.
+*   `ride_comfort_rating`: Comfortable for a van, but sports suspension is firmer. Score **0.50**.
+*   `cabin_noise_rating`: Can be noisy. Score **-0.20**.
+*   `shift_smooth_rating`: Automatic is smooth. Score **0.80**.
+*   `adas_score`: Good standard ADAS. Score **0.70**.
+*   `headlight_rating`: LED headlights standard. Score **0.10**.
+*   `security_rating`: Enhanced security package standard. Score **0.50**.
+*   `screen_in`: 7" or 10.25" screen depending on year/spec. Averaging. Score **0.30**.
+*   `infotainment_ux_rating`: Audio 40 or MBUX. Averaging. Score **0.30**.
+*   `smartphone_connect_rating`: CarPlay/AA standard on recent models. Score **1.00**.
+*   `comfort_feature_score`: Includes heated seats, comfort seat, AC. Score **0.20**.
+*   `convenience_feature_score`: Includes cruise, camera, parking aids. Score **0.50**.
+*   `trim_prestige_rating`: High trim. Score **-0.20**.
+*   `interior_luxury_rating`: Improved over base, but not luxury car level. Score **-0.50**.
+*   `interior_tech_focus_rating`: Good screen and connectivity on recent models. Score **0.50**.
+
+All other scores seem consistent.```json
 {
   "price_usd": -0.10,
-  "total_cost_estimate_5yr_usd": -0.20,
+  "total_cost_estimate_5yr_usd": 0.00,
   "insurance_usd_yr": -1.00,
   "maint_usd_yr": -0.20,
   "repair_risk_score": 0.50,

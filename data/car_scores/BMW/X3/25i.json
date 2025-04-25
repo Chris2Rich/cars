@@ -1,55 +1,152 @@
-```json
+Based on the search results, the most recent relevant information for a BMW X3 25i (or similar 2.0L petrol engine variants like 20i or 30i in some markets, as the 25i designation isn't consistently used globally for the G01 LCI) points to the G01 generation, specifically the facelifted version (LCI) from 2021 onwards. The 25i seems less common than the 20i or 30i in recent years, but the specs for the 2.0L turbo-four are similar across these designations depending on the market and tune. I will primarily use data for the 20i and 30i (2.0L) from the G01 LCI where 25i data is scarce, noting that the 25i would likely fall between these in terms of performance.
+
+Let's consolidate the data found:
+- **Model Year:** G01 LCI (facelift 2021 onwards)
+- **Engine:** 2.0L Turbo Inline-4 (B48)
+- **HP:** 184 HP (20i) to 248 HP (30i). A 25i would likely be in this range. Let's assume around 200-220 HP for a typical 25i tune if available. Using 248hp from the 30i as a proxy for a higher tune 2.0L.
+- **Torque:** 214 lb-ft (20i) to 258 lb-ft (30i). Using 258 lb-ft from the 30i as a proxy.
+- **0-60 mph:** 6.0-6.2 seconds (30i). A 25i would be slightly slower, maybe 6.5-7.0s. Let's use 6.5s as an estimate.
+- **Top Speed:** 130-155 mph (depending on options/engine). Let's use 130 mph as a conservative estimate for a non-M Sport 2.0L.
+- **Drive Type:** Available in sDrive (RWD) and xDrive (AWD). AWD is common. Score 0.00 for AWD.
+- **Transmission:** 8-speed Automatic (Steptronic). Score 1.00.
+- **Size (Length):** ~185.4 - 185.9 inches (470.8 - 471 cm). Score 0.10.
+- **Wheelbase:** ~112.8 inches (286.4 cm). Score 0.20.
+- **Body Style:** SUV/SAV. Score 0.00 (compared to the guide's scale).
+- **Seats:** 5. Score 0.00.
+- **Cargo Space:** 28.7 cu ft (seats up), 62.7 cu ft (seats down). Score 0.60 (using the higher number as per guide examples).
+- **Rear Space (Legroom):** ~36.4 inches. Score 0.00 to 0.10. Let's use 0.10.
+- **Ground Clearance:** ~7.2 - 8.0 inches (20.4 cm). Score 0.30 to 0.40. Let's use 0.40.
+- **Turn Radius:** ~39.4 feet (12.0 m) or 19.7 feet (radius). Radius is 19.7 ft, Diameter is 39.4 ft. The guide uses Turn Radius (diameter). Score -0.10.
+- **MPG:** EPA Combined 23-25 mpg (30i). A 25i might be similar or slightly better. Score 0.00.
+- **CO2 g/km:** ~163-180 g/km (20i/30i). Score 0.00.
+- **Electric Range/Charge Speed:** N/A (Combustion engine). Score -1.00 for both.
+- **Reliability:** J.D. Power 82/100 (2023 X3 Quality & Reliability), Warrantywise 71% (average). Score around -0.20 to -0.30. Let's use -0.20 as J.D. Power is decent.
+- **Screen Size:** Standard 10.25 inches, Optional 12.3 inches. Score 0.70 to 0.90. Let's use 0.90 for the larger available screen.
+- **ADAS:** Standard Active Driving Assistant, optional Driving Assistant Professional. Score 0.60.
+- **Interior/Tech/Brand/Model/Trim/Style:** Based on general BMW X3 characteristics and the scoring guide.
+
+Refining scores based on consolidated data and guide:
+- price_usd: ~$47,895 (2024 sDrive30i base) -> Score 0.00
+- total_cost_estimate_5yr_usd: Higher than average. Score -0.30.
+- insurance_usd_yr: BMWs are higher. Score -0.40.
+- maint_usd_yr: BMW maintenance is higher. Score -0.10.
+- repair_risk_score: Average to slightly below average reliability. Score -0.20.
+- hp: Using 248hp (30i) as a proxy for a higher 2.0L tune. Score 0.40.
+- torque: Using 258 lb-ft (30i) as a proxy. Score 0.40.
+- cylinder_count: 4. Score -0.30.
+- engine_displacement: 2.0L. Score -0.30.
+- accel_0_60_sec: ~6.2s (30i). Score 0.40.
+- top_speed: ~130 mph. Score -0.30.
+- drive_type: Assuming xDrive (AWD). Score 0.00.
+- transmission_type: Automatic. Score 1.00.
+- offroad_ability: Moderate for an SUV. Score 0.20.
+- braking_dist_ft: Estimate good braking for segment. Score 0.30.
+- size: ~4.7m. Score 0.10.
+- wheelbase: ~2.86m. Score 0.20.
+- body_style: SUV. Score 0.00.
+- seats: 5. Score 0.00.
+- cargo_space: 28.7 cu ft (seats up). Score 0.60.
+- rear_space: 36.4 inches. Score 0.10.
+- ground_clearance_in: 7.2-8.0 inches. Score 0.40.
+- turn_radius_ft: ~39.4 ft. Score -0.10.
+- mpg: ~23-25 mpg combined. Score 0.00.
+- co2_g_km: ~163-180 g/km. Score 0.00.
+- electric_range_mi: -1.00.
+- charge_speed_kw: -1.00.
+- style_sleek_vs_boxy: SUV shape, not particularly sleek or boxy. Score -0.10.
+- style_aggression_rating: Moderate aggression. Score 0.30.
+- style_modernity_rating: Modern design. Score 0.40.
+- handling_rating: Known for good handling for an SUV. Score 0.50.
+- ride_comfort_rating: Balanced ride. Score 0.40.
+- cabin_noise_rating: Good cabin noise isolation. Score 0.40.
+- shift_smooth_rating: Excellent automatic transmission. Score 1.00.
+- steering_feel_rating: Good steering feel for segment. Score 0.30.
+- adas_score: Good suite of ADAS. Score 0.60.
+- visibility_rating: Good for an SUV. Score 0.10.
+- headlight_rating: Good LED headlights. Score 0.40.
+- security_rating: Standard for luxury brand. Score 0.00.
+- screen_in: Up to 12.3 inches. Score 0.90.
+- infotainment_ux_rating: iDrive is well-regarded. Score 0.40.
+- smartphone_connect_rating: Standard wireless CarPlay/Android Auto. Score 0.50.
+- audio_rating: Base is average, options are better. Score 0.10.
+- usb_ports: Likely average number. Score 0.00.
+- comfort_feature_score: Good comfort features for luxury SUV. Score 0.50.
+- convenience_feature_score: Good convenience features for luxury SUV. Score 0.50.
+- brand_prestige_rating: BMW is high prestige. Score 0.70.
+- model_prestige_rating: X3 is mid-range for BMW. Score 0.00.
+- trim_prestige_rating: 25i/30i is mid-range trim. Score 0.00.
+- interior_luxury_rating: Good quality interior materials. Score 0.60.
+- interior_tech_focus_rating: Modern tech integration. Score 0.60.
+
+Double-checking values and scale mapping. The 25i designation is less common for the G01 LCI, with 20i and 30i being the primary 2.0L petrol options. The 30i specs (248hp, 258lb-ft, 6.2s 0-60) seem more appropriate for a "25i" designation in some markets than the 20i (184hp, 214lb-ft, 8.3s 0-60). I will use the 30i specs as a proxy for a mid-range 2.0L petrol X3.
+
+Final check on scores:
+- Price: $47k is close to the $52k average, maybe slightly below average score is better? Let's use 0.00 as it's close.
+- Total Cost/Insurance/Maint/Repair: BMW is generally higher cost/risk than average. Scores -0.30, -0.40, -0.10, -0.20 seem reasonable.
+- Performance (HP, Torque, 0-60): 248hp/258lb-ft/6.2s is well above average for the general market. Scores 0.40, 0.40, 0.40 seem appropriate.
+- Size/Space: Mid-size SUV, good cargo, average rear space. Scores 0.10, 0.20, 0.00, 0.60, 0.10 seem fine.
+- Ground Clearance: Good for an SUV. Score 0.40.
+- Turn Radius: Slightly larger than average car. Score -0.10.
+- Efficiency: Average for an SUV. Scores 0.00, 0.00.
+- Dynamics: BMW strengths. Scores 0.50, 0.40, 0.40, 1.00, 0.30 seem fair.
+- Safety/Visibility: Good ADAS, decent visibility, good headlights. Scores 0.60, 0.10, 0.40, 0.00 seem reasonable.
+- Infotainment/Tech: Large screen, good UX, standard connectivity. Scores 0.90, 0.40, 0.50, 0.10, 0.00 seem appropriate.
+- Features: Good comfort/convenience features. Scores 0.50, 0.50.
+- Prestige/Interior: High brand prestige, mid-model/trim, good luxury/tech interior. Scores 0.70, 0.00, 0.00, 0.60, 0.60 seem correct.
+- Style: Modern SUV. Scores -0.10, 0.30, 0.40 seem fine.
+
+The scores seem consistent with the data found and the scoring guide. Ready to generate JSON.```json
 {
-  "price_usd": +0.80,
-  "total_cost_estimate_5yr_usd": +0.20,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": -0.20,
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": -0.30,
+  "insurance_usd_yr": -0.40,
+  "maint_usd_yr": -0.10,
   "repair_risk_score": -0.20,
-  "hp": +0.10,
-  "torque": +0.30,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": +0.10,
-  "top_speed": -0.10,
+  "hp": 0.40,
+  "torque": 0.40,
+  "cylinder_count": -0.30,
+  "engine_displacement": -0.30,
+  "accel_0_60_sec": 0.40,
+  "top_speed": -0.30,
   "drive_type": 0.00,
-  "transmission_type": +1.00,
-  "offroad_ability": -0.80,
-  "braking_dist_ft": +0.10,
-  "size": 0.00,
-  "wheelbase": +0.10,
-  "body_style": +0.50,
+  "transmission_type": 1.00,
+  "offroad_ability": 0.20,
+  "braking_dist_ft": 0.30,
+  "size": 0.10,
+  "wheelbase": 0.20,
+  "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": +0.70,
-  "rear_space": +0.10,
-  "ground_clearance_in": +0.30,
-  "turn_radius_ft": 0.00,
+  "cargo_space": 0.60,
+  "rear_space": 0.10,
+  "ground_clearance_in": 0.40,
+  "turn_radius_ft": -0.10,
   "mpg": 0.00,
-  "co2_g_km": +0.10,
+  "co2_g_km": 0.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": +0.20,
-  "style_modernity_rating": -0.50,
-  "handling_rating": +0.50,
-  "ride_comfort_rating": +0.50,
-  "cabin_noise_rating": +0.50,
-  "shift_smooth_rating": +0.80,
-  "steering_feel_rating": +0.30,
-  "adas_score": -0.50,
-  "visibility_rating": +0.60,
-  "headlight_rating": 0.00,
+  "style_sleek_vs_boxy": -0.10,
+  "style_aggression_rating": 0.30,
+  "style_modernity_rating": 0.40,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 0.40,
+  "cabin_noise_rating": 0.40,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.30,
+  "adas_score": 0.60,
+  "visibility_rating": 0.10,
+  "headlight_rating": 0.40,
   "security_rating": 0.00,
-  "screen_in": -0.20,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": -0.80,
-  "audio_rating": 0.00,
-  "usb_ports": -0.20,
-  "comfort_feature_score": 0.00,
-  "convenience_feature_score": 0.00,
-  "brand_prestige_rating": +0.80,
+  "screen_in": 0.90,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.10,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 0.70,
   "model_prestige_rating": 0.00,
-  "trim_prestige_rating": +0.20,
-  "interior_luxury_rating": +0.20,
-  "interior_tech_focus_rating": -0.50
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.60
 }
 ```

@@ -1,108 +1,55 @@
 ```json
 {
-  "price_usd": -0.80,
+  "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
-  "maint_usd_yr": -1.00,
-  "repair_risk_score": -0.20,
+  "maint_usd_yr": -0.90,
+  "repair_risk_score": -0.60,
   "hp": 0.80,
-  "torque": 0.70,
+  "torque": 0.90,
   "cylinder_count": 0.30,
   "engine_displacement": 0.30,
-  "accel_0_60_sec": 0.80,
-  "top_speed": 0.10,
+  "accel_0_60_sec": 0.95,
+  "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "offroad_ability": 0.00,
-  "braking_dist_ft": 0.80,
-  "size": 0.80,
+  "offroad_ability": 0.20,
+  "braking_dist_ft": 1.00,
+  "size": 0.90,
   "wheelbase": 0.80,
-  "body_style": 0.50,
-  "seats": 0.80,
+  "body_style": 0.30,
+  "seats": 1.00,
   "cargo_space": 1.00,
   "rear_space": 0.70,
-  "ground_clearance_in": 0.30,
-  "turn_radius_ft": -0.30,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
   "mpg": -0.80,
   "co2_g_km": -0.80,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": -0.30,
-  "style_aggression_rating": 0.60,
-  "style_modernity_rating": 0.10,
+  "style_sleek_vs_boxy": -0.50,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.00,
   "handling_rating": 0.80,
   "ride_comfort_rating": 0.90,
-  "cabin_noise_rating": 0.90,
-  "shift_smooth_rating": 0.80,
-  "steering_feel_rating": 0.70,
+  "cabin_noise_rating": 0.80,
+  "shift_smooth_rating": 0.90,
+  "steering_feel_rating": 0.80,
   "adas_score": 0.90,
-  "visibility_rating": 0.60,
-  "headlight_rating": 1.00,
-  "security_rating": 0.60,
-  "screen_in": 0.70,
-  "infotainment_ux_rating": 0.30,
+  "visibility_rating": 0.70,
+  "headlight_rating": 0.90,
+  "security_rating": 0.30,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": -0.20,
   "smartphone_connect_rating": 0.90,
   "audio_rating": 1.00,
-  "usb_ports": 0.30,
-  "comfort_feature_score": 1.00,
-  "convenience_feature_score": 1.00,
-  "brand_prestige_rating": 0.80,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.90,
+  "convenience_feature_score": 0.90,
+  "brand_prestige_rating": 0.70,
   "model_prestige_rating": -0.50,
-  "trim_prestige_rating": -0.80,
+  "trim_prestige_rating": -1.00,
   "interior_luxury_rating": 0.90,
-  "interior_tech_focus_rating": 0.70
+  "interior_tech_focus_rating": 0.90
 }
 ```
-**Reasoning for each rating:**
-
-*   **price\_usd**: -0.80 - The Vorsprung trim is a top-tier, high-performance luxury SUV with a price point well above the market average, often exceeding £100k in the UK (Source 1) and starting around $90k+ in the US (Source 3, 5, 31), placing it firmly in the expensive category but not quite at the extreme high end (> $100k threshold for -1.00).
-*   **total\_cost\_estimate\_5yr\_usd**: -1.00 - Given the high purchase price, poor fuel economy (17 mpg combined, Source 2, 3, 5, 7, 12, 21, 30), high insurance group, and expected maintenance costs for a performance V8 luxury vehicle, the total cost of ownership over 5 years will significantly exceed the $60,000 threshold for a -1.00 rating.
-*   **insurance\_usd\_yr**: -1.00 - As a high-performance, high-value luxury SUV, the SQ7 Vorsprung will fall into the highest insurance groups, resulting in very high annual insurance costs.
-*   **maint\_usd\_yr**: -1.00 - Maintenance for a complex, high-performance V8 Audi is considerably more expensive than the market average, easily exceeding the $1,200/year benchmark for a -1.00 rating.
-*   **repair\_risk\_score**: -0.20 - Audi's general reliability is considered average to slightly below average compared to top-tier reliable brands like Toyota or Lexus.
-*   **hp**: 0.80 - The 4.0L twin-turbo V8 produces 500-507 HP (Source 2, 3, 6, 7, 8, 9, 11, 13, 19, 21, 29), which is significantly above the average car's horsepower and places it firmly in the performance SUV category, though not at the extreme (>700 hp) level.
-*   **torque**: 0.70 - The engine delivers 568-770 Nm (568 lb-ft) of torque (Source 2, 3, 6, 8, 9, 11, 13, 19, 29), providing strong acceleration and pulling power, well above the market average.
-*   **cylinder\_count**: 0.30 - Features a V8 engine (Source 2, 3, 6, 9, 10, 11, 12, 13, 18, 19, 21, 22, 29), which is above the common 4 or 6 cylinders found in most vehicles, but not the highest count (V12).
-*   **engine\_displacement**: 0.30 - The 4.0L displacement (Source 2, 3, 6, 7, 9, 10, 11, 12, 13, 18, 19, 21, 29) is larger than the average engine size, contributing to its power but also lower efficiency.
-*   **accel\_0\_60\_sec**: 0.80 - With a tested 0-60 mph time of 3.8-4.1 seconds (Source 2, 3, 7, 8, 9, 10, 11, 14, 20, 22, 26, 27), it is exceptionally quick for an SUV of its size, rivaling many sports cars.
-*   **top\_speed**: 0.10 - Electronically limited to 155 mph (Source 3, 7, 9, 10, 26, 28), which is slightly above the 150 mph average benchmark but not indicative of a true top-speed focused performance vehicle.
-*   **drive\_type**: 0.00 - Features Audi's standard Quattro All-Wheel Drive system (Source 2, 3, 5, 6, 8, 10, 11, 20, 26, 27, 31), which is the market average for many SUVs and performance vehicles.
-*   **transmission\_type**: 1.00 - Equipped with an 8-speed Tiptronic automatic transmission (Source 3, 5, 6, 9, 10, 11, 18, 26, 28), which aligns with the benchmark for a smooth, modern automatic.
-*   **offroad\_ability**: 0.00 - While it has AWD and adjustable air suspension (Source 2, 6, 8, 10, 11, 12, 13, 20, 24, 27, 30, 33), it is primarily a road-focused performance SUV with limited ground clearance in its standard setting and road-biased tires, placing it at the market average for SUV off-road capability.
-*   **braking\_dist\_ft**: 0.80 - No specific data found, but equipped with large, performance-oriented brakes (Source 3, 27) and noted for braking instantly (Source 10), suggesting excellent stopping power for its class.
-*   **size**: 0.80 - With a length around 5067-5072mm (Source 2, 4, 26, 28), it is a large SUV, approaching the size of the largest vehicles on the market.
-*   **wheelbase**: 0.80 - The wheelbase of around 2996-3005mm (Source 3, 4, 26, 28) is long, contributing to ride comfort and interior space, nearing the benchmark for very large vehicles.
-*   **body\_style**: 0.50 - A 4-door SUV (Source 3, 9, 10, 11, 18, 29, 31, 32, 33) falls between a 4-door sedan/coupe (0.00) and a 5-door van (+1.00) in terms of practicality and form factor.
-*   **seats**: 0.80 - Offers 7 seats (Source 2, 3, 5, 8, 10, 11, 12, 15, 16, 18, 22, 23, 24, 25, 26, 27, 30, 31, 32), which is above the standard 5 seats found in most vehicles.
-*   **cargo\_space**: 1.00 - Provides substantial cargo space, ranging from 704-793 litres (25-28 cu ft) with the third row folded and up to 1921-2050 litres (68-72 cu ft) with the second row folded (Source 2, 10, 11, 19, 23, 27), placing it among the best in class for cargo volume.
-*   **rear\_space**: 0.70 - The second row offers ample space, though the third row is noted as being tight for adults (Source 2, 5, 10, 14, 16, 23, 24, 25, 30). Overall, good space for a 7-seater SUV.
-*   **ground\_clearance\_in**: 0.30 - Standard ground clearance is around 6 inches (Source 20, 24, 25, 26, 27), which is average for a crossover, but the adjustable air suspension can raise it, offering some flexibility.
-*   **turn\_radius\_ft**: -0.30 - The turning circle is around 12.4-12.5m (40.7-41.0 ft) (Source 26, 28), which is larger than the average sedan, although all-wheel steering improves maneuverability (Source 2, 5, 8, 10, 14, 20, 21, 24, 33).
-*   **mpg**: -0.80 - EPA combined rating is 17 mpg (Source 3, 5, 8, 21, 30), with real-world often lower (11-17 mpg, Source 2, 7, 12, 21). This is significantly below the market average of 30 mpg.
-*   **co2\_g\_km**: -0.80 - CO2 emissions are high, ranging from 270-290 g/km (Source 2, 4, 6, 7, 9, 13, 17, 23, 26, 28), well above the average vehicle.
-*   **electric\_range\_mi**: -1.00 - This is a petrol-powered vehicle and has no electric range.
-*   **charge\_speed\_kw**: -1.00 - This is a petrol-powered vehicle and has no charging capability.
-*   **style\_sleek\_vs\_boxy**: -0.30 - As a large SUV, it has a more upright and less sleek profile than a coupe or fastback, but is not as overtly boxy as some dedicated off-roaders.
-*   **style\_aggression\_rating**: 0.60 - Features S-specific styling elements, including a bold grille, revised bumpers, and quad exhaust tips (Source 3, 8, 10, 20, 27), giving it a sporty and aggressive appearance for an SUV.
-*   **style\_modernity\_rating**: 0.10 - Received a recent facelift (Source 3, 4, 8, 10, 16, 17, 21), incorporating modern lighting and design cues, but the underlying platform and shape are older (Source 2, 4, 8, 24), making it look modern but not avant-garde.
-*   **handling\_rating**: 0.80 - Despite its size, the SQ7 is praised for its impressive handling and agility, especially with features like all-wheel steering, sport differential, and active roll stabilization (Source 2, 3, 5, 10, 11, 13, 14, 20, 24, 27, 30, 33).
-*   **ride\_comfort\_rating**: 0.90 - The standard adaptive air suspension provides an exceptionally comfortable and luxurious ride, soaking up bumps effectively (Source 2, 5, 7, 8, 10, 12, 13, 14, 20, 24, 25, 30).
-*   **cabin\_noise\_rating**: 0.90 - The cabin is well-insulated, with road and wind noise effectively suppressed, especially with the available acoustic glass (Source 4, 10, 12, 21, 25, 30, 32), contributing to a quiet ride.
-*   **shift\_smooth\_rating**: 0.80 - The 8-speed Tiptronic automatic transmission is generally smooth and refined (Source 8, 15).
-*   **steering\_feel\_rating**: 0.70 - The steering is described as light, direct, precise, and well-weighted (Source 2, 5, 10, 14, 20, 21, 24), with all-wheel steering enhancing low-speed maneuverability and high-speed stability (Source 2, 5, 8, 14, 20, 21, 24, 33).
-*   **adas\_score**: 0.90 - The Vorsprung trim includes a comprehensive suite of advanced driver-assistance systems as standard or available, such as adaptive cruise assist with lane guidance, intersection assist, remote park assist plus, 360-degree cameras, and more (Source 2, 8, 10, 13, 14, 21, 25, 27, 32, 33). This is a very high level of tech.
-*   **visibility\_rating**: 0.60 - The SUV ride height provides a commanding view, and the greenhouse is relatively open (Source 2, 14, 20, 25), though large pillars might create some blind spots. Generally good visibility for its class.
-*   **headlight\_rating**: 1.00 - Features advanced HD Matrix LED headlights with Audi laser light and selectable digital daytime running light signatures (Source 6, 10, 17, 20, 21, 32, 33), offering superb illumination and advanced functionality.
-*   **security\_rating**: 0.60 - As a luxury vehicle, it comes with standard security features like an alarm (Source 27) and likely advanced immobilizers, placing it above basic vehicles.
-*   **screen\_in**: 0.70 - Features a multi-screen setup including a 10.1-inch upper infotainment screen, an 8.6-inch lower control screen, and a 12.3-inch Audi Virtual Cockpit (Source 5, 8, 10, 16, 17, 21, 33). These are large, high-resolution displays.
-*   **infotainment\_ux\_rating**: 0.30 - The MMI touch response system with dual screens and haptic feedback is visually impressive but can be distracting and less intuitive to use while driving compared to systems with more physical controls (Source 5, 10, 20, 21).
-*   **smartphone\_connect\_rating**: 0.90 - Includes wireless Apple CarPlay and Android Auto (Source 16, 17), offering seamless smartphone integration.
-*   **audio\_rating**: 1.00 - An available high-end Bang & Olufsen Advanced sound system with 3D sound and numerous speakers (Source 8, 10) provides exceptional audio quality.
-*   **usb\_ports**: 0.30 - Equipped with multiple USB-C ports (Source 24, 32, 33), which is standard for modern vehicles but not exceptionally numerous compared to vehicles designed with many rear-seat ports.
-*   **comfort\_feature\_score**: 1.00 - The Vorsprung trim includes a wealth of high-end comfort features such as heated, ventilated, and massaging front seats, heated rear seats, power-adjustable seats with memory, multi-zone climate control, and extended leather (Source 5, 8, 10, 12, 16, 17, 21, 24, 25, 30, 32, 33), placing it at the top tier for comfort.
-*   **convenience\_feature\_score**: 1.00 - The Vorsprung trim bundles numerous convenience features like a power tailgate with gesture control, soft-close doors, panoramic sunroof, 360-degree camera system, remote park assist plus, and rear sunshades (Source 6, 8, 10, 13, 14, 17, 19, 20, 21, 25, 27, 32, 33), offering a very high level of convenience.
-*   **brand\_prestige\_rating**: 0.80 - Audi is a well-established and highly regarded German luxury automotive brand.
-*   **model\_prestige\_rating**: -0.50 - The Q7 is a core large luxury SUV model for Audi. The SQ7 is the performance variant, sitting above the standard Q7 but not considered a low-volume, ultra-high-end halo model like an R8 or RS Q8.
-*   **trim\_prestige\_rating**: -0.80 - Vorsprung is the top-tier trim level for the SQ7 in the UK/EU market (Source 2, 6, 29), representing the highest specification and most expensive version, aligning with the benchmark for top trims.
-*   **interior\_luxury\_rating**: 0.90 - The interior features high-quality materials like Valcona leather with diamond stitching, aluminum and carbon fiber trim, and excellent build quality (Source 2, 5, 6, 10, 12, 16, 17, 20, 24, 25, 30, 32, 33), creating a very luxurious cabin environment.
-*   **interior\_tech\_focus\_rating**: 0.70 - The cabin is dominated by multiple large screens (Virtual Cockpit, dual MMI displays) and features advanced digital interfaces (Source 5, 8, 10, 16, 17, 21, 33), indicating a strong focus on technology within the interior design.

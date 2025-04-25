@@ -1,128 +1,55 @@
-Based on the search results, the 'Active Plus' trim was part of the Vauxhall Astra K generation (2015-2021), not the most recent Astra L (2021-present). The current trims are Design, GS, Ultimate, Griffin, and GSe (Source 2, 6, 11, 22, 24, 25, 26, 32).
-
-Therefore, I will evaluate the Vauxhall Astra K 'Active Plus' based on the information found, likely focusing on a model from around 2017-2019, which seems to be when this trim was available (Source 7, 18, 40). I will use specs for common engines in this trim, such as the 1.4i or 1.6 CDTi (Source 7, 15, 16, 18).
-
-Here's the evaluation based on the gathered data for the Astra K Active Plus and the scoring guide:
-
-*   **price\_usd**: Used prices for a 2017-2019 Astra K Active Plus are significantly below the $35,000 average for a *new* car. Examples found around £7,000 - £10,000 (~$9,000 - $12,500 USD) (Source 7, 18, 40). This is in the +1.00 range. Score: `1.00`.
-*   **total\_cost\_estimate\_5yr\_usd**: Lower purchase price is a major factor. Maintenance and repair risk are average. Insurance is low. Likely well below the $40,000 average. Score: `0.50`.
-*   **insurance\_usd\_yr**: Astra K insurance groups are generally low (Group 13 mentioned for 1.6i Active Plus) (Source 18, 19). This is below the average. Score: `0.30`.
-*   **maint\_usd\_yr**: Maintenance costs are generally average for a Vauxhall Astra (Source 13). Score: `0.00`.
-*   **repair\_risk\_score**: Reliability is considered average for the Astra K, with some common issues but not consistently poor (Source 9, 31, 35). Score: `0.00`.
-*   **hp**: Common engines like the 1.4i (100hp) or 1.6i (113hp) are well below the 200 hp average (Source 15, 18). Using 113 hp as a representative figure. Score: `-0.90`.
-*   **torque**: 1.6i 113hp is around 114 lb-ft (Source 18). Well below the 190 lb-ft average. Score: `-0.80`.
-*   **cylinder\_count**: Most engines are 4-cylinder. Score: `0.00`.
-*   **engine\_displacement**: 1.4L or 1.6L. Below the 3.0L average. Score: `-0.50`.
-*   **accel\_0\_60\_sec**: 1.6i 113hp is around 10.9 seconds (Source 15, 18). Slower than the 7.5 sec average. Score: `-0.80`.
-*   **top\_speed**: 1.6i 113hp is around 118-119 mph (Source 15, 18). Below the 150 mph average. Score: `-0.40`.
-*   **drive\_type**: FWD. Score: `-1.00`.
-*   **transmission\_type**: Available with Manual or Automatic. Assuming Manual is common for this trim/era (Source 7, 15, 18). Manual is -1.00. Score: `-1.00`.
-*   **offroad\_ability**: Standard hatchback, poor offroad. Score: `1.00`.
-*   **braking\_dist\_ft**: Average for its class and era. Score: `0.00`.
-*   **size**: Length around 4370mm. Slightly below the 4600mm average. Score: `-0.10`.
-*   **wheelbase**: Around 2662mm. Close to the 2700mm average. Score: `0.00`.
-*   **body\_style**: 5-door Hatchback. Close to the 4-door sedan average. Score: `0.10`.
-*   **seats**: 5 seats. Score: `0.00`.
-*   **cargo\_space**: Around 370 litres (~13 cu ft) (Source 9, 13, 35). Slightly below the 15 cu ft average. Score: `-0.10`.
-*   **rear\_space**: Improved in Astra K compared to previous generation, noted as good for the class (Source 13). Score: `0.30`.
-*   **ground\_clearance\_in**: Typical hatchback clearance, around 5-6 inches. Below the 6.5" average for crossovers. Score: `-0.20`.
-*   **turn\_radius\_ft**: Average for its size (~36 ft). Score: `0.00`.
-*   **mpg**: 1.6i 113hp is around 44.8 mpg combined (Source 15). Above the 30 mpg average. Score: `0.40`.
-*   **co2\_g\_km**: 1.6i 113hp is around 155 g/km (Source 18). Below the 175 g/km average. Score: `0.10`.
-*   **electric\_range\_mi**: Not electric. Score: `-1.00`.
-*   **charge\_speed\_kw**: Not electric. Score: `-1.00`.
-*   **style\_sleek\_vs\_boxy**: Standard hatchback shape. Score: `0.00`.
-*   **style\_aggression\_rating**: Standard design, not aggressive. Score: `0.00`.
-*   **style\_modernity\_rating**: Design from 2015-2021, looks slightly dated compared to the newest models. Score: `-0.20`.
-*   **handling\_rating**: Competent but not class-leading or particularly engaging (Source 9, 13, 35). Score: `0.00`.
-*   **ride\_comfort\_rating**: Generally considered comfortable for the class (Source 13, 20, 35). Score: `0.30`.
-*   **cabin\_noise\_rating**: Generally well-suppressed for the class (Source 20, 35). Score: `0.30`.
-*   **shift\_smooth\_rating**: Manual gearbox feel is typically average, sometimes described as notchy. Score: `0.00`.
-*   **steering\_feel\_rating**: Generally light and numb (Source 13). Score: `-0.20`.
-*   **adas\_score**: Active Plus likely had basic features like cruise control (Source 15). More advanced ADAS were optional or on higher trims (Source 8, 12, 17, 24). Below average for today's market. Score: `-0.30`.
-*   **visibility\_rating**: Rear visibility is noted as poor due to thick pillars (Source 13). Score: `-0.30`.
-*   **headlight\_rating**: Likely halogen or basic LED daytime running lights (Source 15, 8, 12). Below average compared to modern matrix LEDs. Score: `-0.30`.
-*   **security\_rating**: Standard security features for the era, including immobiliser and remote central locking (Source 15, 38). Score: `0.00`.
-*   **screen\_in**: Likely a 7-inch touchscreen with IntelliLink (Source 3, 4, 38). Close to the 8" average. Score: `0.00`.
-*   **infotainment\_ux\_rating**: Functional but not class-leading compared to modern systems (Source 20). Score: `-0.10`.
-*   **smartphone\_connect\_rating**: Had Apple CarPlay/Android Auto as standard on K generation IntelliLink (Source 3, 4, 8, 12, 38). Score: `0.00`.
-*   **audio\_rating**: Standard speaker system (4 or 6 speakers) (Source 4, 38). Score: `0.00`.
-*   **usb\_ports**: Likely 1 or 2 in the front (Source 15). Score: `0.00`.
-*   **comfort\_feature\_score**: Mid-range trim, likely basic power seats, manual or single-zone climate. Heated seats were on higher trims like Elite or Griffin (Source 4, 8, 11, 12, 24, 38). Below average compared to luxury features. Score: `-0.20`.
-*   **convenience\_feature\_score**: Parking sensors/camera often optional (Source 4, 20). Average for the era/trim. Score: `0.00`.
-*   **brand\_prestige\_rating**: Vauxhall is a mainstream brand. Below average prestige. Score: `-0.50`.
-*   **model\_prestige\_rating**: Astra is a common, mass-market model. Average prestige within the brand/segment. Score: `0.00`.
-*   **trim\_prestige\_rating**: "Active Plus" was a mid-range trim, above base but below SRi/Elite. Score: `0.00`.
-*   **interior\_luxury\_rating**: Interior materials decent for class but not luxurious (Source 35). Score: `-0.30`.
-*   **interior\_tech\_focus\_rating**: Had a touchscreen but not screen-dominated. Score: `0.00`.
-
-Refining scores based on specific data points found for Active Plus or similar K models:
-*   Price: Used price is very low compared to a *new* car average. Score: `1.00`.
-*   HP/Torque/Accel/Top Speed: Using 1.6i 113hp/114lb-ft/10.9s/118mph. HP: -0.90, Torque: -0.80, Accel: -0.80, Top Speed: -0.40.
-*   MPG/CO2: Using 1.6i 44.8 mpg / 155 g/km. MPG: `0.40`, CO2: `0.10`.
-*   Rear Space: Noted as good for the class in K generation. Score: `0.30`.
-*   ADAS: Basic cruise control likely standard. Score: `-0.30`.
-*   Visibility: Poor rear visibility noted. Score: `-0.30`.
-*   Headlights: Likely basic. Score: `-0.30`.
-*   Screen: 7-inch. Score: `0.00`.
-*   Smartphone Connect: Standard. Score: `0.00`.
-*   Comfort Features: Likely basic. Score: `-0.20`.
-*   Convenience Features: Likely basic/optional. Score: `0.00`.
-
-All scores are between -1.00 and +1.00 with 2 decimal places. Non-applicable EV metrics are -1.00.
-
 ```json
 {
-  "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": 0.50,
+  "price_usd": 0.85,
+  "total_cost_estimate_5yr_usd": 0.00,
   "insurance_usd_yr": 0.30,
-  "maint_usd_yr": 0.00,
+  "maint_usd_yr": -0.10,
   "repair_risk_score": 0.00,
-  "hp": -0.90,
-  "torque": -0.80,
+  "hp": -0.80,
+  "torque": -0.70,
   "cylinder_count": 0.00,
-  "engine_displacement": -0.50,
-  "accel_0_60_sec": -0.80,
+  "engine_displacement": -0.60,
+  "accel_0_60_sec": -0.70,
   "top_speed": -0.40,
   "drive_type": -1.00,
   "transmission_type": -1.00,
-  "offroad_ability": 1.00,
+  "offroad_ability": -1.00,
   "braking_dist_ft": 0.00,
-  "size": -0.10,
-  "wheelbase": 0.00,
-  "body_style": 0.10,
+  "size": -0.30,
+  "wheelbase": -0.20,
+  "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.10,
-  "rear_space": 0.30,
-  "ground_clearance_in": -0.20,
+  "cargo_space": 0.00,
+  "rear_space": -0.20,
+  "ground_clearance_in": 0.00,
   "turn_radius_ft": 0.00,
-  "mpg": 0.40,
+  "mpg": 0.30,
   "co2_g_km": 0.10,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
   "style_aggression_rating": 0.00,
-  "style_modernity_rating": -0.20,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 0.30,
-  "cabin_noise_rating": 0.30,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": -0.20,
-  "adas_score": -0.30,
+  "style_modernity_rating": -0.70,
+  "handling_rating": 0.10,
+  "ride_comfort_rating": 0.20,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": -0.10,
+  "steering_feel_rating": -0.30,
+  "adas_score": -0.80,
   "visibility_rating": -0.30,
-  "headlight_rating": -0.30,
+  "headlight_rating": -0.50,
   "security_rating": 0.00,
-  "screen_in": 0.00,
-  "infotainment_ux_rating": -0.10,
-  "smartphone_connect_rating": 0.00,
+  "screen_in": -0.80,
+  "infotainment_ux_rating": -0.70,
+  "smartphone_connect_rating": -0.80,
   "audio_rating": 0.00,
-  "usb_ports": 0.00,
-  "comfort_feature_score": -0.20,
-  "convenience_feature_score": 0.00,
-  "brand_prestige_rating": -0.50,
+  "usb_ports": -0.70,
+  "comfort_feature_score": -0.50,
+  "convenience_feature_score": -0.50,
+  "brand_prestige_rating": 0.00,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": -0.30,
-  "interior_tech_focus_rating": 0.00
+  "interior_luxury_rating": -0.40,
+  "interior_tech_focus_rating": -0.70
 }
 ```

@@ -1,113 +1,55 @@
-The Vauxhall Calibra i V6 was a specific engine variant of the Vauxhall Calibra, produced from 1993 to 1997. As the Calibra ceased production in 1997, there is no "most recent version" in the context of a new car available today. This evaluation is based on the specifications of a late-model Calibra i V6 (circa 1997) compared against benchmarks for vehicles available in today's market (2025). The 'i V6' model featured a 2.5-liter V6 engine, offering more performance than the standard 4-cylinder models but sitting below the turbocharged variant.
-
-Here is the evaluation based on available data and comparison to modern vehicles:
-
 ```json
 {
   "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": 0.50,
+  "total_cost_estimate_5yr_usd": 1.00,
   "insurance_usd_yr": 0.50,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.50,
   "hp": -0.50,
-  "torque": -0.50,
+  "torque": -0.70,
   "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": -0.25,
-  "top_speed": -0.25,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": 0.00,
+  "top_speed": -0.20,
   "drive_type": -1.00,
-  "transmission_type": -1.00,
+  "transmission_type": 0.00,
   "offroad_ability": 1.00,
-  "braking_dist_ft": -0.75,
-  "size": -0.25,
-  "wheelbase": -0.25,
+  "braking_dist_ft": -0.20,
+  "size": -0.10,
+  "wheelbase": -0.10,
   "body_style": -1.00,
   "seats": -0.50,
-  "cargo_space": -0.75,
-  "rear_space": -0.50,
+  "cargo_space": 0.50,
+  "rear_space": -0.70,
   "ground_clearance_in": -0.50,
-  "turn_radius_ft": 0.25,
-  "mpg": 0.00,
-  "co2_g_km": -0.75,
+  "turn_radius_ft": -0.10,
+  "mpg": -0.20,
+  "co2_g_km": -0.50,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.75,
+  "style_sleek_vs_boxy": 0.70,
   "style_aggression_rating": -0.50,
-  "style_modernity_rating": -0.50,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": -0.25,
-  "shift_smooth_rating": -0.50,
-  "steering_feel_rating": 0.00,
+  "style_modernity_rating": -0.70,
+  "handling_rating": -0.70,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.20,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": -0.50,
   "adas_score": -1.00,
-  "visibility_rating": -0.25,
-  "headlight_rating": -0.75,
-  "security_rating": -0.75,
+  "visibility_rating": -0.50,
+  "headlight_rating": -0.50,
+  "security_rating": -0.50,
   "screen_in": -1.00,
   "infotainment_ux_rating": -1.00,
   "smartphone_connect_rating": -1.00,
   "audio_rating": -0.50,
   "usb_ports": -1.00,
-  "comfort_feature_score": -0.75,
-  "convenience_feature_score": -0.75,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": -0.70,
   "brand_prestige_rating": 0.00,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": -0.75,
-  "interior_tech_focus_rating": -1.00
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": -0.70
 }
 ```
-
-**Evaluation Reasoning:**
-
-*   **price\_usd (1.00):** As a classic used car, the purchase price is significantly lower than the average new car price today. (Source: Autotrader UK shows Calibra V6 models for sale well below $15,000).
-*   **total\_cost\_estimate\_5yr\_usd (0.50):** While the purchase price is low, potential maintenance and repair costs for an older vehicle, especially one with a V6 engine, can be higher than a basic car. Still likely below the 5-year cost of a new average car.
-*   **insurance\_usd\_yr (0.50):** The V6 engine places it in a slightly higher insurance group than the base models, but still likely lower than many modern performance or luxury vehicles. (Source: UK insurance group information suggests V6 models are in moderate groups).
-*   **maint\_usd\_yr (0.00):** Maintenance for a V6 engine from this era is more complex than a 4-cylinder but less so than modern high-performance engines. Rated as average.
-*   **repair\_risk\_score (0.00):** While older cars can have age-related issues, the V6 engine was generally considered reasonably reliable for its time. Rated as average risk.
-*   **hp (-0.50):** The 2.5L V6 produced around 168-170 hp. This is below the average horsepower of new cars today (~200 hp), but better than the 4-cylinder Calibras.
-*   **torque (-0.50):** The V6 produced around 167 lb-ft of torque. This is also below the modern average (~190 lb-ft), but better than the 4-cylinder models.
-*   **cylinder\_count (0.00):** A V6 engine is a common configuration, neither extremely low nor high compared to the full market range.
-*   **engine\_displacement (0.00):** The 2.5L displacement is around the average seen in today's market.
-*   **accel\_0\_60\_sec (-0.25):** 0-60 mph times for the V6 were around 7.3-8.3 seconds. This is close to the modern average of 7.5 seconds, making it slightly below average but not poor. (Source: encyCARpedia, Parkers, Cars-Data).
-*   **top\_speed (-0.25):** Top speeds were around 145-147 mph. This is just below the modern average benchmark of 150 mph. (Source: encyCARpedia, Parkers, Cars-Data).
-*   **drive\_type (-1.00):** Primarily Front-Wheel Drive (FWD), scoring the lowest.
-*   **transmission\_type (-1.00):** Offered with a 5-speed manual or older 4-speed automatic, scoring low compared to modern transmissions.
-*   **offroad\_ability (1.00):** No off-road capability, scoring the highest as the inverse of a capable off-roader.
-*   **braking\_dist\_ft (-0.75):** Braking technology from the 1990s is less effective than modern systems.
-*   **size (-0.25):** Its dimensions are slightly below the average size of cars today.
-*   **wheelbase (-0.25):** The wheelbase is also slightly shorter than the modern average.
-*   **body\_style (-1.00):** A 2-door coupe scores the lowest for practicality.
-*   **seats (-0.50):** Typically a 2+2 seater, offering less seating capacity than the average 5-seater.
-*   **cargo\_space (-0.75):** Limited cargo volume compared to modern vehicles.
-*   **rear\_space (-0.50):** Limited rear legroom, typical for a coupe.
-*   **ground\_clearance\_in (-0.50):** Low ground clearance for a coupe.
-*   **turn\_radius\_ft (0.25):** Slightly better turning radius than the modern average due to its size. (Source: Parkers, Cars-Data list turning circle around 10-11.5m, which is ~33-38 ft).
-*   **mpg (0.00):** Fuel economy (around 23-32 mpg depending on source/transmission) is around the average for non-hybrid gasoline cars today. (Source: encyCARpedia, Parkers, Cars-Data).
-*   **co2\_g\_km (-0.75):** CO2 emissions (around 241-265 g/km) are higher than modern vehicles. (Source: Parkers, Cars-Data).
-*   **electric\_range\_mi (-1.00):** Not an electric vehicle.
-*   **charge\_speed\_kw (-1.00):** Not an electric vehicle.
-*   **style\_sleek\_vs\_boxy (0.75):** Known for its very aerodynamic and sleek design.
-*   **style\_aggression\_rating (-0.50):** Styling is smooth rather than aggressive.
-*   **style\_modernity\_rating (-0.50):** Design is dated compared to current trends.
-*   **handling\_rating (0.00):** Handling was considered competent but not outstanding, rated as average.
-*   **ride\_comfort\_rating (0.00):** Ride comfort was generally acceptable, rated as average.
-*   **cabin\_noise\_rating (-0.25):** Likely higher cabin noise than the average modern car.
-*   **shift\_smooth\_rating (-0.50):** Manual or older automatic transmissions are less smooth than modern equivalents.
-*   **steering\_feel\_rating (0.00):** Steering feel was adequate, rated as average.
-*   **adas\_score (-1.00):** Lacks modern ADAS.
-*   **visibility\_rating (-0.25):** Coupe body style often compromises rear visibility.
-*   **headlight\_rating (-0.75):** Uses older halogen technology.
-*   **security\_rating (-0.75):** Basic security features compared to modern standards.
-*   **screen\_in (-1.00):** No central infotainment screen.
-*   **infotainment\_ux\_rating (-1.00):** No modern infotainment system.
-*   **smartphone\_connect\_rating (-1.00):** No smartphone connectivity.
-*   **audio\_rating (-0.50):** Basic audio system compared to modern premium options.
-*   **usb\_ports (-1.00):** No USB ports.
-*   **comfort\_feature\_score (-0.75):** Limited comfort features compared to modern vehicles.
-*   **convenience\_feature\_score (-0.75):** Lacks modern convenience features.
-*   **brand\_prestige\_rating (0.00):** Vauxhall is a mainstream brand.
-*   **model\_prestige\_rating (0.00):** The Calibra was a popular model but not a high-end halo car.
-*   **trim\_prestige\_rating (0.00):** The V6 was a higher engine option but not the absolute top-tier performance model (like the Turbo), placing it in the "Good Trim" category.
-*   **interior\_luxury\_rating (-0.75):** Interior materials and finish were typical of a mainstream 90s car, far below modern luxury.
-*   **interior\_tech\_focus\_rating (-1.00):** Interior design has no focus on integrated technology.

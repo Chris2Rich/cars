@@ -1,55 +1,162 @@
-```json
+Refining scores based on search results:
+
+*   **price_usd:** Search [11] shows new prices starting around £117,672, which is well over $120k USD. Score: -1.00.
+*   **total_cost_estimate_5yr_usd:** Search [17] estimates $124,670 over 5 years. Score: -1.00.
+*   **insurance_usd_yr:** Search [10] and [11] confirm UK insurance group 50E, which is the highest. Search [17] estimates $5,036/year on average in the US. Score: -1.00.
+*   **maint_usd_yr:** Search [17] estimates $6,586 over 5 years, which is ~$1300/year on average, but Search [8] suggests $2k/year out of warranty. Search [20] says $19,514 over 10 years for a standard X5, which is ~$1950/year, and notes it's more than average luxury SUVs. Given the M performance variant, maintenance is likely higher. Score: -1.00 (>$3500/year seems plausible for a performance M car, though the average might be lower, the potential for high cost is there). Let's stick with -1.00 based on the performance nature and general BMW M costs.
+*   **repair_risk_score:** Search [20] indicates a 56.41% chance of a major repair in the first 10 years for a standard X5, worse than average. The M version might be more complex. Score: -0.50 (Slightly below average).
+*   **hp:** Search [3] and [14] confirm 617 hp. Score: 1.00.
+*   **torque:** Search [3] and [14] confirm 750 Nm (553 lb-ft). Score: 0.80.
+*   **cylinder_count:** V8. Score: 0.50.
+*   **engine_displacement:** 4.4L. Score: 0.00.
+*   **accel_0_60_sec:** Search [5] and [11] confirm 3.8 seconds. Search [14] shows 3.5 seconds for the X6 M Competition (very similar vehicle). Let's use 3.8s. Score: 1.00.
+*   **top_speed:** Limited, typically 155 mph or higher with M Driver's Package. Score: 0.50.
+*   **drive_type:** AWD (xDrive). Score: 0.00.
+*   **transmission_type:** 8-speed Automatic (Steptronic). Score: 1.00.
+*   **offroad_ability:** Search [13] mentions ground clearance helps with snow/curbs, but it's not an off-roader. Score: -1.00.
+*   **braking_dist_ft:** Search [14] shows 109 feet from 60 mph for the X6 M Competition. Search [4] shows 96 feet for an X6 xDrive40i (lighter). Search [21] shows 157 feet from 70 mph for X5 M60i. 109 feet from 60 mph is excellent. Score: 1.00.
+*   **size:** Search [2] and [3] show length around 194.8 inches (~4948mm). Score: 0.50.
+*   **wheelbase:** Search [2] and [3] show 117.0 inches (~2972mm). Score: 0.50.
+*   **body_style:** 4-door SUV/Wagon. Score: 0.50.
+*   **seats:** 5 seats. Score: 0.00.
+*   **cargo_space:** Search [13] shows 33.9 cu ft behind rear seats. Score: 1.00 (Guide says >35 cu ft is +1, but 33.9 is very good for this segment). Let's adjust to 0.80.
+*   **rear_space:** Search [2] shows NA, but reviews generally indicate good rear space for adults. Score: 0.50.
+*   **ground_clearance_in:** Search [6], [9], [13] show 8.4 inches or 212mm (8.35 inches). This is higher than typical crossovers (6.5") but not off-road spec (>10"). Score: 0.50.
+*   **turn_radius_ft:** Search [2], [6], [12], [15], [18] show 42.0 feet. This is a wide turning circle. Score: -1.00 (Guide says >45 ft is -1, but 42 ft is significantly worse than the 36 ft average). Let's use -0.50 as it's not the absolute worst.
+*   **mpg:** Search [11] shows 21.9-22.1 mpg (UK, likely imperial gallons, so lower US MPG). Search [12] shows 13 city/18 hwy (US EPA). Score: -1.00.
+*   **co2_g_km:** Search [3] and [11] show 286-294 g/km. Score: -1.00.
+*   **electric_range_mi:** N/A. Score: -1.00.
+*   **charge_speed_kw:** N/A. Score: -1.00.
+*   **style_sleek_vs_boxy:** SUV shape, aggressive M styling. Score: -0.50.
+*   **style_aggression_rating:** Very aggressive. Score: 0.80.
+*   **style_modernity_rating:** Modern BMW design. Score: 0.80.
+*   **handling_rating:** Praised for handling despite size. Score: 0.90.
+*   **ride_comfort_rating:** Consistently reviewed as stiff and uncomfortable due to performance tuning. Score: -1.00.
+*   **cabin_noise_rating:** Performance exhaust can be loud, but luxury insulation helps. Score: 0.00 (defaulting).
+*   **shift_smooth_rating:** 8-speed auto is generally smooth and quick. Score: 0.80.
+*   **steering_feel_rating:** Reviews are mixed, some find it numb, others adequate for the type of vehicle. Score: 0.00 (defaulting).
+*   **adas_score:** High level of available ADAS. Score: 0.70.
+*   **visibility_rating:** Standard SUV visibility. Score: 0.00.
+*   **headlight_rating:** High-quality LED/Laser options. Score: 0.70.
+*   **security_rating:** Luxury vehicle, likely good security. Score: 0.00 (defaulting).
+*   **screen_in:** Search [21] mentions a 14.9-inch central screen combined with a 12.3-inch cluster. Score: 0.90.
+*   **infotainment_ux_rating:** iDrive is generally well-regarded. Score: 0.70.
+*   **smartphone_connect_rating:** Wireless CarPlay/Android Auto. Score: 1.00.
+*   **audio_rating:** Premium options available (Harman Kardon, B&W). Score: 0.80.
+*   **usb_ports:** Likely multiple ports. Score: 0.00 (defaulting).
+*   **comfort_feature_score:** High level of luxury comfort features. Score: 0.90.
+*   **convenience_feature_score:** High level of convenience features. Score: 0.90.
+*   **brand_prestige_rating:** BMW is high prestige. Score: 0.80.
+*   **model_prestige_rating:** X5 M is a top-tier performance model. Score: -1.00.
+*   **trim_prestige_rating:** Competition is the top performance trim. Score: -1.00.
+*   **interior_luxury_rating:** High-quality luxury interior. Score: 0.80.
+*   **interior_tech_focus_rating:** Modern interior with large screens. Score: 0.90.
+
+Reviewing the scores and guide:
+*   price_usd: >$120k -> -1.00 (Correct)
+*   total_cost_estimate_5yr_usd: >$80k -> -1.00 (Correct based on search)
+*   insurance_usd_yr: >$3500 -> -1.00 (Correct based on search)
+*   maint_usd_yr: >$3500 -> -1.00 (Plausible for M car, keeping -1.00)
+*   repair_risk_score: Slightly worse than average -> -0.50 (Refined based on search)
+*   hp: >700 -> +1.00, ~200 -> 0.00, ~120 -> -1.00. 617hp is high performance, close to top tier. Score: 0.80 seems reasonable.
+*   torque: >1000 -> +1.00, ~190 -> 0.00, ~100 -> -1.00. 553 lb-ft is high. Score: 0.80 seems reasonable.
+*   cylinder_count: >12 -> +1.00, 6 -> 0.00, <3 -> -1.00. V8 is 8. Score: 0.50 seems reasonable.
+*   engine_displacement: >6.0L -> +1.00, 3.0L -> 0.00, <1.2L -> -1.00. 4.4L is above average. Score: 0.50 seems reasonable.
+*   accel_0_60_sec: <2.5 -> +1.00, ~7.5 -> 0.00, >10 -> -1.00. 3.8s is very fast. Score: 1.00 seems appropriate.
+*   top_speed: >222mph -> +1.00, 150mph -> 0.00, <50mph -> -1.00. Limited to 155mph or 177mph. Score: 0.50 seems reasonable.
+*   drive_type: RWD -> +1.00, AWD -> 0.00, FWD -> -1.00. AWD. Score: 0.00 (Correct).
+*   transmission_type: Automatic -> +1.00, DCT -> 0.00, Manual/Sequential -> -1.00. Automatic. Score: 1.00 (Correct).
+*   offroad_ability: High -> -1.00, Average -> 0.00, Low -> +1.00. Low. Score: 1.00. (Correction: Guide has examples reversed. High ability is -1.00, Low ability is +1.00). Score: 1.00.
+*   braking_dist_ft: <105 -> +1.00, ~125 -> 0.00, >150 -> -1.00. 109 ft is excellent. Score: 1.00.
+*   size: >5100mm -> +1.00, ~4600mm -> 0.00, ~3600mm -> -1.00. 4948mm is large. Score: 0.50 seems reasonable.
+*   wheelbase: >3200mm -> +1.00, ~2700mm -> 0.00, ~2300mm -> -1.00. 2972mm is long. Score: 0.50 seems reasonable.
+*   body_style: 5-Door Van -> +1.00, 4-Door Sedan/Coupe -> 0.00, 2-Door Coupe -> -1.00. 4-door SUV. Score: 0.50 seems reasonable.
+*   seats: 7-8 -> +1.00, 5 -> 0.00, 2 -> -1.00. 5 seats. Score: 0.00 (Correct).
+*   cargo_space: >35 cu ft -> +1.00, ~15 cu ft -> 0.00, ~5 cu ft -> -1.00. 33.9 cu ft. Score: 0.80 seems reasonable.
+*   rear_space: >40" -> +1.00, ~35" -> 0.00, <30" -> -1.00. Good but not S-Class level. Score: 0.50 seems reasonable.
+*   ground_clearance_in: >10" -> +1.00, ~6.5" -> 0.00, <4" -> -1.00. 8.4 inches. Score: 0.50 seems reasonable.
+*   turn_radius_ft: <22 -> +1.00, ~36 -> 0.00, >45 -> -1.00. 42 ft. Score: -0.50 seems reasonable.
+*   mpg: >55 -> +1.00, ~30 -> 0.00, ~12 -> -1.00. 13-18 mpg. Score: -1.00 (Correct).
+*   co2_g_km: 0 -> +1.00, ~175 -> 0.00, >300 -> -1.00. 286-294 g/km. Score: -1.00 (Correct).
+*   electric_range_mi: N/A -> -1.00 (Correct).
+*   charge_speed_kw: N/A -> -1.00 (Correct).
+*   handling_rating: Porsche Cayman -> +1.00, Honda Accord -> 0.00, Toyota Sienna -> -1.00. Excellent for an SUV. Score: 0.90 seems reasonable.
+*   ride_comfort_rating: Mercedes S-Class -> +1.00, Toyota Camry -> 0.00, Jeep Wrangler -> -1.00. Stiff ride. Score: -1.00 (Correct).
+*   cabin_noise_rating: Lexus ES -> +1.00, Subaru Outback -> 0.00, Ford Bronco -> -1.00. Defaulting to 0.00.
+*   shift_smooth_rating: BMW 5 Series -> +1.00, Toyota Corolla -> 0.00, Mitsubishi Mirage -> -1.00. Excellent automatic. Score: 0.80 seems reasonable.
+*   steering_feel_rating: Mazda MX-5 -> +1.00, Hyundai Elantra -> 0.00, Nissan Rogue -> -1.00. Defaulting to 0.00.
+*   adas_score: Tesla Model Y -> +1.00, Toyota Corolla -> 0.00, Dodge Challenger -> -1.00. High level of tech. Score: 0.70 seems reasonable.
+*   visibility_rating: Volvo XC90 -> +1.00, Honda Civic -> 0.00, Chevrolet Camaro -> -1.00. Defaulting to 0.00.
+*   headlight_rating: Audi Q8 -> +1.00, Subaru Legacy -> 0.00, Nissan Frontier -> -1.00. High quality LEDs. Score: 0.70 seems reasonable.
+*   security_rating: Range Rover -> +1.00, Hyundai Sonata -> 0.00, Fiat 500 -> -1.00. Defaulting to 0.00.
+*   screen_in: Tesla Model S -> +1.00, Toyota Camry -> 0.00, Honda Fit -> -1.00. Large screens. Score: 0.90 seems reasonable.
+*   infotainment_ux_rating: Tesla UI/BMW iDrive 8 -> +1.00, Ford Escape -> 0.00, Lexus NX -> -1.00. iDrive is good. Score: 0.70 seems reasonable.
+*   smartphone_connect_rating: Kia EV6 -> +1.00, Hyundai Sonata -> 0.00, Mitsubishi Mirage -> -1.00. Wireless CarPlay/AA. Score: 1.00 (Correct).
+*   audio_rating: Mercedes S-Class -> +1.00, Honda Civic -> 0.00, Nissan Versa -> -1.00. Premium options. Score: 0.80 seems reasonable.
+*   usb_ports: Kia Telluride -> +1.00, Toyota RAV4 -> 0.00, Chevrolet Spark -> -1.00. Defaulting to 0.00.
+*   comfort_feature_score: Genesis G90 -> +1.00, Honda Accord -> 0.00, Toyota Yaris -> -1.00. High level of features. Score: 0.90 seems reasonable.
+*   convenience_feature_score: BMW X7 -> +1.00, Mazda CX-5 -> 0.00, Fiat 500 -> -1.00. High level of features. Score: 0.90 seems reasonable.
+*   interior_luxury_rating: Mercedes-Maybach -> +1.00, Toyota Highlander -> 0.00, Nissan Versa -> -1.00. High quality interior. Score: 0.80 seems reasonable.
+*   interior_tech_focus_rating: Tesla Model 3/BMW i7 -> +1.00, Kia Sorento -> 0.00, Jeep Wrangler -> -1.00. Modern tech focus. Score: 0.90 seems reasonable.
+*   brand_prestige_rating: Porsche/Mercedes-AMG/Bentley -> +1.00, Honda -> 0.00, Mitsubishi -> -1.00. BMW is high. Score: 0.80 seems reasonable.
+*   model_prestige_rating: Mercedes S class/Audi R8/Porsche 911 -> -1.00, Audi A5/Toyota Camry -> 0.00, Chevrolet Spark/Audi A1 -> +1.00. X5 M is a top performance model. Score: -1.00 (Correct based on guide).
+*   trim_prestige_rating: Amg 63/BMW M/Audi RS -> -1.00, Amg Line/M lite/S Line -> 0.00, Base Models -> +1.00. Competition is a top trim. Score: -1.00 (Correct based on guide).
+*   style_sleek_vs_boxy: Audi A7/Hyundai Ioniq 6 -> +1.00, Subaru Legacy/Toyota Highlander -> 0.00, Mercedes G-Class/Suzuki Jimny -> -1.00. SUV shape, not sleek. Score: -0.50 seems reasonable.
+*   style_aggression_rating: Lamborghini Aventador/Dodge Charger Hellcat -> +1.00, Toyota Camry SE/Ford Escape ST-Line -> 0.00, Nissan Leaf -> -1.00. Very aggressive. Score: 0.80 seems reasonable.
+*   style_modernity_rating: Lucid Air/Hyundai Ioniq 6/Tesla Cybertruck -> +1.00, Honda Accord/Ford Edge -> 0.00, Chevy Express Van/Lada Niva -> -1.00. Modern design. Score: 0.80 seems reasonable.
+
+All scores seem justified based on the guide and search results. Ready to format as JSON.```json
 {
   "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
   "maint_usd_yr": -1.00,
-  "repair_risk_score": -0.25,
-  "hp": 0.95,
-  "torque": 0.75,
+  "repair_risk_score": -0.50,
+  "hp": 1.00,
+  "torque": 0.80,
   "cylinder_count": 0.50,
   "engine_displacement": 0.50,
-  "accel_0_60_sec": 0.90,
-  "top_speed": 0.90,
+  "accel_0_60_sec": 1.00,
+  "top_speed": 0.50,
   "drive_type": 0.00,
   "transmission_type": 1.00,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.95,
-  "size": 0.75,
-  "wheelbase": 0.75,
-  "body_style": 0.25,
+  "braking_dist_ft": 1.00,
+  "size": 0.50,
+  "wheelbase": 0.50,
+  "body_style": 0.50,
   "seats": 0.00,
-  "cargo_space": 0.90,
-  "rear_space": -0.25,
-  "ground_clearance_in": 0.25,
+  "cargo_space": 0.80,
+  "rear_space": 0.50,
+  "ground_clearance_in": 0.50,
   "turn_radius_ft": -0.50,
-  "mpg": -0.90,
+  "mpg": -1.00,
   "co2_g_km": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 1.00,
-  "style_modernity_rating": 0.75,
-  "handling_rating": 1.00,
-  "ride_comfort_rating": -0.75,
+  "style_sleek_vs_boxy": -0.50,
+  "style_aggression_rating": 0.80,
+  "style_modernity_rating": 0.80,
+  "handling_rating": 0.90,
+  "ride_comfort_rating": -1.00,
   "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": 0.75,
-  "steering_feel_rating": 0.25,
-  "adas_score": 0.75,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.70,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.75,
+  "headlight_rating": 0.70,
   "security_rating": 0.00,
   "screen_in": 0.90,
-  "infotainment_ux_rating": 0.75,
+  "infotainment_ux_rating": 0.70,
   "smartphone_connect_rating": 1.00,
-  "audio_rating": 0.90,
-  "usb_ports": 0.50,
-  "comfort_feature_score": 1.00,
-  "convenience_feature_score": 1.00,
-  "brand_prestige_rating": 0.50,
-  "model_prestige_rating": -0.75,
+  "audio_rating": 0.80,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.90,
+  "convenience_feature_score": 0.90,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": -1.00,
   "trim_prestige_rating": -1.00,
-  "interior_luxury_rating": 0.90,
-  "interior_tech_focus_rating": 1.00
+  "interior_luxury_rating": 0.80,
+  "interior_tech_focus_rating": 0.90
 }
 ```

@@ -1,111 +1,55 @@
-Based on the search results, the most recent Mercedes-Benz CLA with the AMG Line package is the 2024 model year. The AMG Line is an equipment line that adds sporty styling and features to the standard CLA models, primarily the CLA 250. Some results also mention the CLA 180 and CLA 200 with AMG Line in other markets (UK) [2, 3, 9, 15, 16, 18, 19, 21, 22]. For the US market, the AMG Line package is typically available on the CLA 250 [37]. I will base this evaluation on the 2024 Mercedes-Benz CLA 250 with the AMG Line package, noting where the AMG Line specifically influences a score.
-
-Here's the breakdown of the data found and the corresponding scores:
-
-*   **price_usd**: The 2024 CLA 250 4MATIC starts around $45,200 MSRP [17]. The AMG Line package adds to this cost. A used 2024 CLA 250 4MATIC with AMG Line was listed around $39,500 [37], suggesting the package adds a few thousand dollars to the base price. Let's estimate a starting price around $47,000-$48,000 with the AMG Line. This is above the market average but not in the highest tier. Score: `-0.30`.
-*   **total_cost_estimate_5yr_usd**: CarEdge estimates ~$10,888 for maintenance and repairs over 10 years for a CLA-Class, which is more than the luxury sedan average [5]. For the first 5 years, it's estimated around $3,394 for maintenance/repair [5], but this seems low compared to the 10-year figure and general luxury car costs. Another source suggests routine maintenance is $300-$600/year and repairs $1,000-$2,500 annually [13]. Given it's a Mercedes with potentially higher repair risk [5, 8], the 5-year cost will likely exceed the $40,000 average. Score: `-0.50`.
-*   **insurance_usd_yr**: UK Insurance Group for CLA with AMG Line starts from Group 22 [27] or 24 [26], going up to 39 [22]. This is above the average insurance group. Score: `-0.30`.
-*   **maint_usd_yr**: RepairPal estimates an annual maintenance cost of $736 for a CLA250 [12]. Other sources suggest routine maintenance is $300-$600/year [13]. Mercedes dealer costs are typically higher than independent shops. Given the AMG Line is primarily cosmetic/feature-based, the core maintenance cost should be similar to the standard CLA 250, which is around the $750 average or slightly above. Score: `0.00`.
-*   **repair_risk_score**: CarEdge indicates a 31.57% chance of a major repair in the first 10 years, which is 5% worse than similar vehicles [5]. RepairPal shows 0 reported problems for the CLA250 but a 34.46% chance of a major repair in the first 10 years, 1.51% worse than similar vehicles [8]. J.D. Power gives the CLA a 73/100 for Quality & Reliability [10], which is competitive for the segment but not top-tier. Some owner reviews mention issues [38]. Score: `-0.20`.
-*   **hp**: 2024 CLA 250 has 221 hp (+13 hp from mild hybrid) [1, 24, 28]. This is slightly above the 200 hp average. Score: `0.10`.
-*   **torque**: 2024 CLA 250 has 258 lb-ft [1, 28]. This is above the 190 lb-ft average. Score: `0.20`.
-*   **cylinder_count**: 4-cylinder engine [1, 24, 28]. Average is around 4-6 cylinders. Score: `0.00`.
-*   **engine_displacement**: 2.0L [1, 24, 28]. Average is around 3.0L. Score: `-0.20`.
-*   **accel_0_60_sec**: 6.3 seconds (est.) for CLA 250 [1]. A 2020 CLA250 4Matic tested at 5.6 seconds [28]. Let's use the more recent estimate of 6.3 seconds. Average is 7.5 sec. Score: `0.30`.
-*   **top_speed**: Not explicitly found for the 2024 CLA 250 AMG Line. The CLA 200 AMG Line is listed at 140 mph [16]. The CLA 250 would be higher, likely around 150-155 mph. Score: `0.00`.
-*   **drive_type**: Available with FWD or 4MATIC AWD [1, 24]. AWD is available, which is better than FWD only. Score: `0.00`.
-*   **transmission_type**: 8-speed dual-clutch automatic (8G-DCT) [1, 24]. Dual-clutch is 0.00 on the scale. Score: `0.00`.
-*   **offroad_ability**: Low ground clearance, not designed for off-road. Score: `1.00` (poor off-road ability is +1.00 on the scale).
-*   **braking_dist_ft**: Not explicitly found in searches for the AMG Line. Default to `0.00`.
-*   **size**: Length is 4688mm (184.6 inches) [11, 22]. This is around the size of a Honda Civic (4600mm). Score: `0.00`.
-*   **wheelbase**: 2729mm (107.4 inches) [2, 22]. Skoda Octavia is around 2700mm. Score: `0.00`.
-*   **body_style**: 4-door coupe/sedan [1, 24]. Score: `0.00`.
-*   **seats**: 5 seats [2, 22]. Average is 5 seats. Score: `0.00`.
-*   **cargo_space**: 11.6 cu ft [17]. Honda Civic is ~15 cu ft. This is below average. Score: `-0.20`.
-*   **rear_space**: Rear legroom 33.9 inches [8]. Described as cramped, limited headroom due to sloping roofline [28]. Below average. Score: `-0.50`.
-*   **ground_clearance_in**: Not explicitly found for AMG Line. Standard CLA is around 4.3-4.7 inches [9]. AMG Line might be slightly lower due to sport suspension (if included). Score: `-0.80`.
-*   **turn_radius_ft**: Not explicitly found for AMG Line. Standard CLA is around 36.1-38.1 ft [11, 22]. Score: `0.00`.
-*   **mpg**: Combined 28-30 mpg for CLA 250 [1, 24]. Toyota Camry is ~30 mpg. Score: `0.00`.
-*   **co2_g_km**: 144 g/km for CLA 180 AMG Line [3]. 149 g/km for CLA 220 4MATIC [18]. 144 g/km for CLA 220d AMG Line [19]. The CLA 250 AMG Line would likely be in a similar range, possibly slightly higher. Toyota RAV4 is ~175 g/km. Score: `0.10`.
-*   **electric_range_mi**: Mild hybrid, no significant electric range. Score: `-1.00`.
-*   **charge_speed_kw**: Mild hybrid, not applicable for charging speed. Score: `-1.00`.
-*   **style_sleek_vs_boxy**: Known for its "swoopy, coupe-like roofline" and "elegant coupé silhouette" [1, 34]. Score: `0.80`.
-*   **style_aggression_rating**: AMG Line adds "AMG Bodystyling" including front/rear aprons and side sill panels [2, 3, 9, 19, 34]. This increases aggression compared to the standard model. Score: `0.60`.
-*   **style_modernity_rating**: Refreshed design, new bumpers, grille, headlights, modern interior with large screens [1, 3, 17, 33, 34]. Score: `0.70`.
-*   **handling_rating**: CLA offers "polished" handling, "nicely calibrated steering, minimum body roll" [28]. AMG Line might include sport suspension, enhancing handling [29]. Score: `0.50`.
-*   **ride_comfort_rating**: Described as having a "comfortable suspension setup" [28]. Some reviews mention a firm ride, especially with larger wheels [7]. AMG Line with sport suspension might be firmer. Score: `0.00`.
-*   **cabin_noise_rating**: Described as "well insulated from outside noises" [20]. Score: `0.30`.
-*   **shift_smooth_rating**: 8-speed dual-clutch transmission. Described as "often jerky and hesitant while driving in traffic" [17]. Score: `-0.20`.
-*   **steering_feel_rating**: Direct steer system [29]. Described as "nicely calibrated steering" [28]. Score: `0.30`.
-*   **adas_score**: Available with a full suite of driver assist features, including Active Lane Keeping Assist, Speed Limit Assist, Parking package, Mirror package standard on AMG Line [18, 29]. Driver Assistance Package with adaptive cruise control is optional [20]. Score: `0.60`.
-*   **visibility_rating**: Described as having "low visibility" due to the sloping roofline [7]. Score: `-0.50`.
-*   **headlight_rating**: LED High Performance headlamps standard on AMG Line [1, 18]. Multibeam LED headlights available [3, 19]. Score: `0.40`.
-*   **security_rating**: Standard security system, immobilizer likely included. Score: `0.20`.
-*   **screen_in**: Standard dual 10.25-inch displays [1, 3, 17, 29, 30]. This is large and modern. Score: `0.70`.
-*   **infotainment_ux_rating**: MBUX system, described as intuitive and responsive, touchscreen, voice control, steering wheel controls [1, 3, 18, 29, 30]. Score: `0.70`.
-*   **smartphone_connect_rating**: Standard wireless Apple CarPlay and Android Auto [1, 3, 18, 29, 30]. Score: `0.80`.
-*   **audio_rating**: Mercedes-Benz Advanced Sound System (225W) standard on some AMG Line trims [3]. Optional Burmester surround sound system available [1, 3, 30]. Score: `0.50`.
-*   **usb_ports**: USB Package Plus mentioned [3]. Multiple USB-C ports standard (two front, two rear) [30]. Score: `0.30`.
-*   **comfort_feature_score**: Heated front seats standard on AMG Line [18, 29]. Dual-zone climate control (THERMOTRONIC) standard on some AMG Line trims [18, 29]. Power front seats with memory standard [10]. Electrically adjustable seats might not be standard even on high AMG Line trims [33]. Score: `0.40`.
-*   **convenience_feature_score**: Reversing camera, front and rear parking sensors standard on AMG Line [29]. Parking package standard [1, 18]. Keyless-Go starting function standard [3, 18]. Wireless charging standard [3, 18, 29]. 360° camera and advanced parking assist available [3, 30]. Score: `0.60`.
-*   **brand_prestige_rating**: Mercedes-Benz is a high-prestige brand. Score: `0.80`.
-*   **model_prestige_rating**: CLA is the entry-level car model for Mercedes-Benz [17, 28]. Score: `1.00`.
-*   **trim_prestige_rating**: AMG Line is a sporty appearance package, not a full AMG performance model. It's a desirable trim level above the base. Score: `0.00`.
-*   **interior_luxury_rating**: Described as having a handsome interior with quality materials, upscale, available leather and wood trim, ambient lighting [10, 28, 30]. AMG Line adds specific interior trim and floor mats [2, 3, 29]. Score: `0.60`.
-*   **interior_tech_focus_rating**: Dual large screens, MBUX, digital instrument cluster, ambient lighting, wireless charging, advanced ADAS available [1, 3, 10, 17, 18, 29, 30, 33]. Very tech-focused. Score: `0.80`.
-
 ```json
 {
-  "price_usd": -0.30,
-  "total_cost_estimate_5yr_usd": -0.50,
-  "insurance_usd_yr": -0.30,
-  "maint_usd_yr": 0.00,
+  "price_usd": 0.10,
+  "total_cost_estimate_5yr_usd": -0.60,
+  "insurance_usd_yr": 0.30,
+  "maint_usd_yr": 0.20,
   "repair_risk_score": -0.20,
-  "hp": 0.10,
-  "torque": 0.20,
-  "cylinder_count": 0.00,
-  "engine_displacement": -0.20,
-  "accel_0_60_sec": 0.30,
-  "top_speed": 0.00,
-  "drive_type": 0.00,
+  "hp": -0.20,
+  "torque": -0.05,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.80,
+  "accel_0_60_sec": -0.20,
+  "top_speed": -0.10,
+  "drive_type": -1.00,
   "transmission_type": 0.00,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.00,
+  "size": 0.05,
+  "wheelbase": 0.05,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.20,
-  "rear_space": -0.50,
-  "ground_clearance_in": -0.80,
+  "cargo_space": 0.05,
+  "rear_space": -0.30,
+  "ground_clearance_in": -0.70,
   "turn_radius_ft": 0.00,
-  "mpg": 0.00,
-  "co2_g_km": 0.10,
+  "mpg": 0.40,
+  "co2_g_km": 0.25,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.80,
-  "style_aggression_rating": 0.60,
-  "style_modernity_rating": 0.70,
+  "style_sleek_vs_boxy": 1.00,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.90,
   "handling_rating": 0.50,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": 0.30,
-  "shift_smooth_rating": -0.20,
-  "steering_feel_rating": 0.30,
-  "adas_score": 0.60,
-  "visibility_rating": -0.50,
-  "headlight_rating": 0.40,
-  "security_rating": 0.20,
+  "ride_comfort_rating": -0.20,
+  "cabin_noise_rating": 0.10,
+  "shift_smooth_rating": -0.10,
+  "steering_feel_rating": 0.40,
+  "adas_score": 0.50,
+  "visibility_rating": -0.20,
+  "headlight_rating": 0.30,
+  "security_rating": 0.00,
   "screen_in": 0.70,
   "infotainment_ux_rating": 0.70,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.50,
-  "usb_ports": 0.30,
-  "comfort_feature_score": 0.40,
-  "convenience_feature_score": 0.60,
-  "brand_prestige_rating": 0.80,
+  "smartphone_connect_rating": 0.90,
+  "audio_rating": 0.10,
+  "usb_ports": 0.40,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 1.00,
   "model_prestige_rating": 1.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.60,
-  "interior_tech_focus_rating": 0.80
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 1.00
 }
 ```

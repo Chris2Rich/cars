@@ -1,53 +1,55 @@
-The most recent version of the Vauxhall Carlton 'i' refers to the Mk3 (1986-1994) with a fuel-injected engine. A common and representative example is the 2.0i. Based on the search results for the Vauxhall Carlton Mk3 2.0i, here is the evaluation:
-
-*   **price_usd**: 0.00 - As a classic car, its current market price is highly variable and not comparable to the price of a new car today. Defaulting to average.
-*   **total_cost_estimate_5yr_usd**: 0.00 - Similar to price, estimating 5-year costs for a classic is difficult and not comparable to a new car. Defaulting to average.
-*   **insurance_usd_yr**: 0.00 - Insurance costs for classic cars vary greatly. Defaulting to average.
-*   **maint_usd_yr**: -0.50 - While some maintenance is DIY-friendly, finding parts can be difficult and specific repairs may require specialist knowledge, potentially increasing costs compared to a modern average car.
-*   **repair_risk_score**: -0.20 - Search results indicate some common issues like rust, oil use, and electrical problems, placing it slightly below average reliability compared to today's vehicles.
-*   **hp**: -1.00 - The 2.0i engine produces around 115-122 hp, which is significantly below the average horsepower of cars in today's market (~200 hp).
-*   **torque**: -0.80 - Torque figures are around 125-135 lb-ft, also well below today's average (~190 lb-ft). It's closer to the -1.00 benchmark than the 0.00.
-*   **cylinder_count**: -0.50 - The 2.0i is a 4-cylinder engine. While common, the scoring guide places 6-cylinders as average (0.00) and 3-cylinders as -1.00. A 4-cylinder falls between these.
-*   **engine_displacement**: -0.50 - A 2.0L engine is below the 3.0L average in the scoring guide, but not as small as the 1.2L benchmark for -1.00.
-*   **accel_0_60_sec**: -1.00 - 0-60 mph times are typically in the 10-12 second range, which is slower than the >10 sec benchmark for -1.00.
-*   **top_speed**: -0.50 - Top speeds are around 115-125 mph, below the 150 mph average benchmark.
-*   **drive_type**: 1.00 - The Carlton Mk3 is rear-wheel drive (RWD), which scores +1.00 according to the guide.
-*   **transmission_type**: 0.00 - Available with both manual and automatic transmissions. Assuming automatic for scoring, which is the average (0.00).
-*   **offroad_ability**: 1.00 - As a standard RWD sedan with typical ground clearance, its offroad ability is poor, scoring +1.00 based on the inverse scale provided in the guide.
-*   **braking_dist_ft**: -0.50 - Lacking modern braking technology like advanced ABS systems (some models had basic ABS, but not standard on all 'i' trims) and tire compounds, braking distances would likely be longer than today's average.
-*   **size**: 0.10 - With a length of around 4768mm, it's slightly longer than the Honda Civic benchmark (4600mm) but not as large as the +1.00 benchmark (>5100mm).
-*   **wheelbase**: 0.00 - The wheelbase is around 2730mm, which is close to the Skoda Octavia benchmark (2700mm) for average.
-*   **body_style**: 0.00 - The most common body style was the 4-door sedan, which is the average (0.00).
-*   **seats**: 0.00 - It has 5 seats, which is the market average.
-*   **cargo_space**: 0.00 - Sedan trunk space is around 18 cu ft, which is close to the Honda Civic benchmark (15 cu ft) for average.
-*   **rear_space**: 0.00 - Assume average rear legroom for a sedan of its size and era.
-*   **ground_clearance_in**: -0.20 - Typical sedan ground clearance is likely slightly below the compact crossover average (6.5").
-*   **turn_radius_ft**: 0.00 - Assume average turn radius for a sedan of its size.
-*   **mpg**: 0.00 - Fuel economy is generally reported in the 25-35 mpg range, which is close to the 30 mpg average benchmark.
-*   **co2_g_km**: -0.50 - Older engines typically have higher CO2 emissions than modern ones. While no exact figure was found, it's likely above the 175 g/km average.
-*   **electric_range_mi**: -1.00 - Not an electric vehicle.
-*   **charge_speed_kw**: -1.00 - Not an electric vehicle.
-*   **style_sleek_vs_boxy**: 0.00 - Features a typical sedan shape from the late 80s/early 90s, neither particularly sleek nor overtly boxy.
-*   **style_aggression_rating**: -0.50 - The standard 'i' models had a relatively unassuming design, not aggressive.
-*   **style_modernity_rating**: -1.00 - The design is clearly dated compared to today's automotive styling.
-*   **handling_rating**: 0.00 - Generally considered competent but not particularly sporty. Average for a family sedan of its time.
-*   **ride_comfort_rating**: 0.00 - Known for a comfortable ride, average compared to today's range which includes very stiff and very soft setups.
-*   **cabin_noise_rating**: 0.00 - Average cabin noise for a mainstream sedan of the era.
-*   **shift_smooth_rating**: 0.00 - Assuming automatic transmission, smoothness was average for 90s automatics.
-*   **steering_feel_rating**: 0.00 - Power steering was standard, providing average feel for the time.
-*   **adas_score**: -1.00 - Lacks modern Advanced Driver-Assistance Systems.
-*   **visibility_rating**: 0.50 - Sedans from this era generally had good visibility due to thinner pillars and larger windows compared to many modern cars.
-*   **headlight_rating**: -1.00 - Equipped with basic halogen headlights, well below the performance of modern LED or Matrix LED systems.
-*   **security_rating**: -0.50 - Basic security features compared to modern standards.
-*   **screen_in**: -1.00 - No central infotainment screen.
-*   **infotainment_ux_rating**: -1.00 - Basic radio/cassette player with simple controls, not comparable to modern infotainment systems.
-*   **smartphone_connect_rating**: -1.00 - No smartphone connectivity features.
-*   **audio_rating**: -1.00 - Basic audio system with limited speakers.
-*   **usb_ports**: -1.00 - No USB ports.
-*   **comfort_feature_score**: -0.50 - Basic comfort features like manual or simple power seats and basic climate control. Lacks modern amenities like heated/ventilated seats, multi-zone climate.
-*   **convenience_feature_score**: -0.50 - Basic convenience features. Lacks modern items like keyless entry/start, parking sensors/cameras, power liftgates, etc.
-*   **brand_prestige_rating**: 0.00 - Vauxhall (Opel) is a mainstream brand, scoring average.
-*   **model_prestige_rating**: 0.00 - The Carlton was a mid-size/executive car in the range, scoring average.
-*   **trim_prestige_rating**: 1.00 - The 'i' designation simply indicates fuel injection, which became standard. It represents a base or standard engine variant, fitting the criteria for a base model trim (+1.00).
-*   **interior_luxury_rating**: -0.50 - Interior materials and design were typical for a mainstream car of the era, not luxurious by modern standards.
-*   **interior_tech_focus_rating**: -1.00 - The interior design is focused on traditional gauges and controls, with minimal technology compared to modern vehicles.
+```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -1.00,
+  "hp": -1.00,
+  "torque": -1.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -1.00,
+  "top_speed": -1.00,
+  "drive_type": 1.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -1.00,
+  "size": 0.00,
+  "wheelbase": 0.00,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": -1.00,
+  "co2_g_km": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": -1.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": -1.00,
+  "visibility_rating": 0.50,
+  "headlight_rating": -1.00,
+  "security_rating": -1.00,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": -1.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": -1.00
+}
+```

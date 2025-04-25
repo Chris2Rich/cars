@@ -1,142 +1,55 @@
-Based on the search results, here's the refined scoring for the Audi Q2 Black Edition:
-
-*   **price_usd**: New prices range from ~£32k to £38k+ depending on engine/options (Source 2, 26, 29, 31). This is roughly $40k-$48k USD. This is above the market average of $35k, but not luxury car territory. Score: **-0.10**.
-*   **total_cost_estimate_5yr_usd**: Premium brand, likely average to slightly above average ownership costs. Score: **0.00**.
-*   **insurance_usd_yr**: Insurance groups range from 16 to 38 (Source 5, 6, 10, 25). Group 16 is low, 38 is high. Black Edition trims are often in the middle to higher end of the Q2 range (e.g., Group 27 for 40 TFSI, Group 20E for 30 TFSI, Group 38 for SQ2 Black Edition). Let's average this out to slightly above the general market average. Score: **-0.10**.
-*   **maint_usd_yr**: Audi maintenance is typically average to slightly above average. Score: **0.00**.
-*   **repair_risk_score**: Audi reliability is generally considered average. Score: **0.00**.
-*   **hp**: Engines range from 110 hp (1.0 TFSI) to 150 hp (1.5 TFSI) for standard Q2 Black Edition (Source 2, 8, 13, 18, 21, 23, 27). SQ2 is 300 hp, but that's a different model. 110-150 hp is below the 200 hp market average. Score: **-0.20**.
-*   **torque**: 1.0 TFSI has 148 lb-ft, 1.5 TFSI has 184 lb-ft (Source 8, 21, 27). This is around the 190 lb-ft market average. Score: **0.00**.
-*   **cylinder_count**: 3 or 4 cylinders (Source 8, 21). Score: **-0.10**.
-*   **engine_displacement**: 1.0L or 1.5L (Source 8, 21, 23). This is below the 3.0L average benchmark. Score: **-0.30**.
-*   **accel_0_60_sec**: 10.5s (1.0 TFSI) or 8.6s (1.5 TFSI) (Source 2, 8, 13, 18, 29, 30). This is slower than the 7.5s average benchmark. Score: **-0.20**.
-*   **top_speed**: 122 mph (1.0 TFSI) or 135 mph (1.5 TFSI) (Source 2, 14, 29). This is below the 150 mph average benchmark. Score: **-0.20**.
-*   **drive_type**: Primarily FWD (Source 2, 4, 8, 21, 35). Score: **-1.00**.
-*   **transmission_type**: Manual or S tronic (Dual-Clutch) (Source 2, 4, 8, 23, 27, 28, 29, 35). S tronic is common. Score: **0.00**.
-*   **offroad_ability**: Compact crossover, not designed for serious off-roading. Has ~144-200mm (5.7-7.9 inches) ground clearance (Source 2, 7, 9, 13, 22), which is slightly above average for a car but not high for an off-roader. Has off-road mode for ESC (Source 9, 13). Score: **-0.50**.
-*   **braking_dist_ft**: No specific data found, assume average for its class. Score: **0.00**.
-*   **size**: Length ~4208mm (165.7 inches) (Source 2, 4, 8, 9, 16, 22). This is smaller than the 4600mm average benchmark. Score: **-0.50**.
-*   **wheelbase**: ~2601mm (102.4 inches) (Source 15, 16, 17, 22, 33). This is below the 2700mm average benchmark. Score: **-0.20**.
-*   **body_style**: 5-door SUV/Crossover (Source 4, 8, 23, 33). Closer to 4-door sedan/coupe than van. Score: **0.00**.
-*   **seats**: 5 seats (Source 2, 4, 8, 22, 25). Average. Score: **0.00**.
-*   **cargo_space**: 355-405L (12.5-14.3 cu ft) with seats up, 1000-1050L (35.3-37.1 cu ft) with seats down (Source 2, 15, 17, 22, 31). 405L is around the 15 cu ft average benchmark. Score: **0.00**.
-*   **rear_space**: Compromised rear space for adults (Source 3, 30, 34). Below average. Score: **-0.20**.
-*   **ground_clearance_in**: ~5.7-7.9 inches (Source 2, 7, 9, 13, 22). Slightly above the 6.5" average. Score: **0.10**.
-*   **turn_radius_ft**: ~11m (36 ft) (Source 16, 22). Around the 36 ft average. Score: **0.00**.
-*   **mpg**: 44-49 mpg (Source 2, 13, 16, 18, 19, 23, 27, 29, 30). This is above the 30 mpg average benchmark. Score: **0.30**.
-*   **co2_g_km**: 131-144 g/km (Source 2, 7, 13, 18, 23). This is below the 175 g/km average benchmark. Score: **0.20**.
-*   **electric_range_mi**: Not electric. Score: **-1.00**.
-*   **charge_speed_kw**: Not electric. Score: **-1.00**.
-*   **handling_rating**: Described as agile, good handling for its class, well-controlled body roll (Source 9, 13, 30, 34, 36, 37). Above average. Score: **0.50**.
-*   **ride_comfort_rating**: Can be firm, especially with 19-inch wheels and sport suspension on Black Edition, but comfortable at higher speeds (Source 3, 30, 34, 36, 37). Average overall, maybe slightly below average due to Black Edition trim. Score: **-0.10**.
-*   **cabin_noise_rating**: Interior is quiet, well-insulated (Source 3, 30, 34, 36, 37). Above average. Score: **0.30**.
-*   **shift_smooth_rating**: S tronic is generally smooth, though some reviews mention jerkiness (Source 34, 37). Manual is also available. Score: **0.00**.
-*   **steering_feel_rating**: Progressive steering, stable on motorway, easy in town (Source 3, 24, 30). Precise but maybe not the most engaging (Source 6). Average to slightly above average. Score: **0.10**.
-*   **adas_score**: Standard ADAS includes pre sense front, lane departure warning, rear parking sensors, traffic sign recognition. Optional adaptive cruise control, park assist, side assist (Source 9, 12, 21, 24, 32, 35, 38). Good range of features, above average. Score: **0.30**.
-*   **visibility_rating**: Raised driving position helps front/side visibility, rear visibility is good with sensors/camera (Source 30). Score: **0.10**.
-*   **headlight_rating**: LED headlights standard (Source 21, 24, 35). Good, above average. Score: **0.20**.
-*   **security_rating**: Anti theft alarm, remote central locking, anti theft wheel bolts, child locks (Source 2). Standard features, assume average. Score: **0.00**.
-*   **screen_in**: 8.3-inch or 8.8-inch infotainment touchscreen (Source 2, 3, 9, 11, 12, 20, 37). 12.3-inch virtual cockpit (Source 2, 3, 9, 11, 12, 20, 21). 8.8-inch is around the 8" average, virtual cockpit is a plus. Score: **0.10**.
-*   **infotainment_ux_rating**: MMI system is intuitive, easy to use, but screen graphics are starting to look dated (Source 3, 11, 12, 21, 34, 36, 37). Physical controls are a plus for some (Source 3). Average. Score: **0.00**.
-*   **smartphone_connect_rating**: Audi Smartphone Interface (Apple CarPlay/Android Auto) standard (Source 21, 35). Assume wired unless specified wireless. Average to slightly above average. Score: **0.10**.
-*   **audio_rating**: Standard audio is average, optional Sonos system is good (Source 2, 9, 34). Score based on standard. Score: **0.00**.
-*   **usb_ports**: Two USB-C ports added with update (Source 12). Average is 3. Score: **0.00**.
-*   **comfort_feature_score**: Sport seats, electric lumbar support, heated seats optional, dual climate control likely available (Source 3, 21, 24, 34). Good features for the class, above average. Score: **0.30**.
-*   **convenience_feature_score**: Rear parking sensors standard, power tailgate standard on Black Edition, camera based traffic sign recognition, lane departure warning, rear park assist standard (Source 2, 3, 9, 12, 20, 21, 24, 32, 35). Park assist, adaptive cruise control optional (Source 21, 32). Good convenience features, above average. Score: **0.30**.
-*   **brand_prestige_rating**: Audi is a premium brand. Score: **0.70**.
-*   **model_prestige_rating**: Q2 is an entry-level Audi SUV (Source 3, 10, 30, 33). Score: **0.50**.
-*   **trim_prestige_rating**: Black Edition is a desirable, higher-spec trim, but not the top performance SQ2. Score: **0.00**.
-*   **interior_luxury_rating**: High-quality materials, solid and plush-feeling interior for the class (Source 3, 21, 34, 37). Premium feel, above average. Score: **0.50**.
-*   **interior_tech_focus_rating**: Has digital cockpit and touchscreen, but retains physical controls and screen size/graphics are aging (Source 3, 11, 12, 21, 34, 36, 37). Not as screen-focused as newer models. Average. Score: **0.00**.
-*   **style_sleek_vs_boxy**: Described as a compact SUV with corners and edges, but also sporty and elongated lines (Source 9). Not ultra-boxy or ultra-sleek. Score: **0.00**.
-*   **style_aggression_rating**: Black Edition adds sporty styling elements (Source 2, 3, 26). Design is confident but not overly aggressive. Score: **0.10**.
-*   **style_modernity_rating**: Design is older, based on previous A3 generation, starting to look dated compared to rivals (Source 3, 34, 36, 37). Below average. Score: **-0.50**.
-
-Final review of scores based on the guide and search results. Adjusting some scores slightly for better differentiation.
-
-*   price_usd: £32k-£38k is definitely above $35k average. Closer to -0.10 or -0.20. Let's go with -0.10.
-*   insurance_usd_yr: Group 16-38, Black Edition likely mid-high. -0.10 seems fair.
-*   hp: 110-150hp is clearly below 200hp average. -0.20 seems more appropriate than -0.10.
-*   engine_displacement: 1.0-1.5L is significantly below 3.0L. -0.30 seems better than -0.20.
-*   accel_0_60_sec: 8.6-10.5s is slower than 7.5s. -0.20 seems fair.
-*   top_speed: 122-135mph is below 150mph. -0.20 seems fair.
-*   drive_type: FWD is -1.00.
-*   offroad_ability: Has some ground clearance and off-road mode, but not a true off-roader. -0.50 seems right.
-*   size: Smaller than average. -0.50 seems right.
-*   wheelbase: Below average. -0.20 seems right.
-*   body_style: 5-door SUV/Crossover is pretty standard now. 0.00 seems right.
-*   cargo_space: Around average. 0.00 seems right.
-*   rear_space: Compromised. -0.20 seems right.
-*   ground_clearance_in: Slightly above average car, below average SUV. 0.10 seems fair.
-*   mpg: Above average. 0.30 seems fair.
-*   co2_g_km: Below average (good). 0.20 seems fair.
-*   handling_rating: Praised for handling. 0.50 seems fair.
-*   ride_comfort_rating: Can be firm on Black Edition. -0.10 seems fair.
-*   cabin_noise_rating: Praised for quietness. 0.30 seems fair.
-*   adas_score: Good range of features, but not top-tier autonomous. 0.30 seems fair.
-*   headlight_rating: LED standard, good. 0.20 seems fair.
-*   screen_in: 8.8" is average, virtual cockpit is a plus. 0.10 seems fair.
-*   infotainment_ux_rating: Intuitive but aging graphics. 0.00 seems fair.
-*   comfort_feature_score: Good for class, but not ultra-luxury. 0.30 seems fair.
-*   convenience_feature_score: Good features standard on Black Edition. 0.30 seems fair.
-*   brand_prestige_rating: Audi is high prestige. 0.70 seems fair.
-*   model_prestige_rating: Entry-level Audi. 0.50 seems fair.
-*   trim_prestige_rating: Desirable but not top performance. 0.00 seems fair.
-*   interior_luxury_rating: Premium materials for class. 0.50 seems fair.
-*   style_modernity_rating: Aging design. -0.50 seems fair.
-
-Looks good. Ready to format as JSON.```json
+```json
 {
   "price_usd": -0.10,
   "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": -0.10,
+  "insurance_usd_yr": 0.00,
   "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": -0.20,
-  "torque": 0.00,
-  "cylinder_count": -0.10,
-  "engine_displacement": -0.30,
+  "repair_risk_score": 0.20,
+  "hp": -0.25,
+  "torque": -0.15,
+  "cylinder_count": 0.00,
+  "engine_displacement": -0.20,
   "accel_0_60_sec": -0.20,
-  "top_speed": -0.20,
+  "top_speed": -0.10,
   "drive_type": -1.00,
-  "transmission_type": 0.00,
-  "offroad_ability": -0.50,
+  "transmission_type": 0.80,
+  "offroad_ability": -0.20,
   "braking_dist_ft": 0.00,
-  "size": -0.50,
+  "size": -0.30,
   "wheelbase": -0.20,
-  "body_style": 0.00,
+  "body_style": 0.20,
   "seats": 0.00,
-  "cargo_space": 0.00,
-  "rear_space": -0.20,
-  "ground_clearance_in": 0.10,
-  "turn_radius_ft": 0.00,
+  "cargo_space": -0.05,
+  "rear_space": -0.30,
+  "ground_clearance_in": 0.20,
+  "turn_radius_ft": -0.05,
   "mpg": 0.30,
-  "co2_g_km": 0.20,
+  "co2_g_km": 0.30,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.10,
-  "style_modernity_rating": -0.50,
-  "handling_rating": 0.50,
-  "ride_comfort_rating": -0.10,
+  "style_sleek_vs_boxy": -0.10,
+  "style_aggression_rating": 0.20,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.20,
+  "ride_comfort_rating": 0.00,
   "cabin_noise_rating": 0.30,
-  "shift_smooth_rating": 0.00,
+  "shift_smooth_rating": 0.50,
   "steering_feel_rating": 0.10,
   "adas_score": 0.30,
-  "visibility_rating": 0.10,
+  "visibility_rating": -0.10,
   "headlight_rating": 0.20,
   "security_rating": 0.00,
   "screen_in": 0.10,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.10,
-  "audio_rating": 0.00,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.30,
-  "convenience_feature_score": 0.30,
+  "infotainment_ux_rating": 0.30,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.10,
+  "usb_ports": -0.10,
+  "comfort_feature_score": 0.10,
+  "convenience_feature_score": 0.20,
   "brand_prestige_rating": 0.70,
   "model_prestige_rating": 0.50,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.50,
-  "interior_tech_focus_rating": 0.00
+  "interior_luxury_rating": 0.30,
+  "interior_tech_focus_rating": 0.50
 }
 ```

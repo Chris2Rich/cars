@@ -1,128 +1,51 @@
-The Volkswagen Tayron is transitioning from a China-only model to a global one, effectively replacing the Tiguan Allspace in many markets. The "most recent version" refers to this new global model, which started pre-sales in Europe in late 2024 and is expected for wider release in 2025. The "Life" trim is confirmed as the entry-level trim for the global market.
-
-Here's a breakdown of the data found and the scoring:
-
-*   **Price:** UK pricing starts from £40,130 for the Life 1.5 eTSI (April 2025). This converts to roughly $50,000+ USD (exchange rates vary). This is above the market average of $35,000, but not in the luxury tier. Score: **-0.20**.
-*   **Total Cost Estimate 5yr:** No specific 5-year cost estimate found. VW is generally average for maintenance/repair, but a higher purchase price and potential depreciation on a new model might push it slightly above average. Default to **0.00**.
-*   **Insurance USD/yr:** No specific insurance group or cost found. VW is typically average. Default to **0.00**.
-*   **Maint USD/yr:** No specific annual maintenance cost found. VW is generally average. Default to **0.00**.
-*   **Repair Risk Score:** VW's general reliability is considered average. Score: **0.00**. (Previous score of -0.20 was likely based on older VW perceptions or specific models; defaulting to average based on general brand perception and lack of specific Tayron data).
-*   **HP:** The Life trim is available with a 1.5 eTSI (150 PS/148 hp), 2.0 TDI (150 PS/148 hp or 193 PS/190 hp), 2.0 TSI (204 PS/201 hp or 265 PS/261 hp), and PHEV (204 PS/201 hp or 272 PS/268 hp). The entry-level 1.5 eTSI and 2.0 TDI 150 PS are around 150 hp, which is below the 200 hp average benchmark. Score: **-0.20**. (Previous score of 0.00 was likely based on a different engine or assumption).
-*   **Torque:** 1.5 eTSI (250 Nm / 184 lb-ft), 2.0 TDI 150 PS (360 Nm / 265 lb-ft), 2.0 TDI 193 PS (400 Nm / 295 lb-ft), 2.0 TSI 204 PS (320 Nm / 236 lb-ft), 2.0 TSI 265 PS (400 Nm / 295 lb-ft). The lower end is around 184 lb-ft, close to the 190 lb-ft average. Higher trims offer significantly more. For the Life trim, the 1.5 eTSI is likely common. Score: **0.00**. (Previous score of 0.20 was likely based on higher engine options).
-*   **Cylinder Count:** Primarily 4-cylinder engines (1.5L and 2.0L). Score: **0.00**.
-*   **Engine Displacement:** 1.5L and 2.0L options. 1.5L is below the 3.0L average benchmark. Score: **-0.20**.
-*   **Accel 0-60 sec:** 0-100 km/h for 1.5 eTSI is 9.4s. This is slower than the 7.5s average benchmark. Score: **-0.30**. (Previous score of -0.10 was slightly too optimistic).
-*   **Top Speed:** 1.5 eTSI is 204 km/h (127 mph). 2.0 TDI 150 PS is 207 km/h (129 mph). 2.0 TDI 193 PS is 221 km/h (137 mph). 2.0 TSI 204 PS is 224 km/h (139 mph). 2.0 TSI 265 PS is 240 km/h (149 mph). The lower end is below the 150 mph average benchmark. Score: **-0.20**.
-*   **Drive Type:** Available in FWD and AWD (4MOTION). Score: **0.00**.
-*   **Transmission Type:** Always a 7-speed DSG (Dual-Clutch Transmission) or 6-speed eDSG for PHEV. Score: **0.00**.
-*   **Offroad Ability:** It's an SUV with optional AWD, but not designed for serious off-roading. Average for an SUV. Score: **0.00**.
-*   **Braking Dist ft:** No specific data found. Assume average for its class. Score: **0.00**.
-*   **Size:** Length is 4792 mm (188.7 inches). This is larger than the 4600mm average benchmark. Score: **0.20**.
-*   **Wheelbase:** 2788-2791 mm (109.8-109.9 inches). This is larger than the 2700mm average benchmark. Score: **0.20**.
-*   **Body Style:** 5-door SUV, available with 5 or 7 seats. Score: **0.00**. (Previous score of 0.50 for Elegance was incorrect for body style).
-*   **Seats:** Available with 5 or 7 seats. 7 seats is above average. Score: **0.50**.
-*   **Cargo Space:** 5-seater: 885 litres (31.2 cu ft) behind 2nd row, up to 2090 litres (73.8 cu ft) behind 1st row. 7-seater: 345 litres (12.2 cu ft) behind 3rd row, 850 litres (30 cu ft) behind 2nd row, up to 1905 litres (67.3 cu ft) behind 1st row. PHEV 5-seater: 705 litres (24.9 cu ft) behind 2nd row, up to 1915 litres (67.6 cu ft) behind 1st row. These figures are well above the 15 cu ft average benchmark. Score: **0.50**.
-*   **Rear Space:** Described as having "huge legroom" in the rear. Score: **0.40**. (Previous score of 0.10 was too low based on reviews).
-*   **Ground Clearance in:** No specific data found. Assume average for a crossover SUV. Score: **0.00**.
-*   **Turn Radius ft:** 12.1m (39.7 ft). Close to the 36 ft average benchmark, slightly larger due to size. Score: **0.00**.
-*   **MPG:** 1.5 eTSI WLTP combined 6.2-6.9 L/100km (34-38 mpg US). 2.0 TDI 150 PS WLTP combined 5.4-6.0 L/100km (39-44 mpg US). These are around or above the 30 mpg average benchmark. Score: **0.30**.
-*   **CO2 g/km:** 1.5 eTSI WLTP combined 142-157 g/km. 2.0 TDI 150 PS WLTP combined 141-158 g/km. These are below the 175 g/km average benchmark. Score: **0.30**.
-*   **Electric Range mi:** ICE/MHEV/Diesel models have 0 electric range. PHEV models have over 100 km (62+ miles). Since the Life trim is available with ICE/MHEV/Diesel, the score should reflect that these are not primarily electric vehicles. Score: **-1.00**. (Previous score of -0.10 and 0.50 were incorrect; it's either 0 or >62 miles depending on powertrain, but the base Life is available without significant electric range).
-*   **Charge Speed kW:** Not applicable for ICE/MHEV/Diesel. PHEV supports up to 50 kW DC charging. Since the Life trim is available without PHEV, score: **-1.00**. (Previous score of 0.00 was incorrect).
-*   **Style Sleek vs Boxy:** SUV shape, described as "robust yet harmonious styling". Not particularly sleek or ultra-boxy. Score: **-0.10**.
-*   **Style Aggression Rating:** Toned-down compared to R-Line. Average aggression for an SUV. Score: **0.00**.
-*   **Style Modernity Rating:** New global model with modern VW design cues, illuminated logos. Score: **0.30**.
-*   **Handling Rating:** Based on MQB Evo platform, expected to be competent but not sporty. Reviews mention it's comfortable. Score: **0.00**.
-*   **Ride Comfort Rating:** Reviews mention "high driving and operating comfort" and "best-in-class comfort features". Score: **0.50**.
-*   **Cabin Noise Rating:** No specific data found, but VW generally has decent cabin insulation. Assume slightly above average based on comfort focus. Score: **0.20**. (Previous score of 0.40 might be too high without specific data).
-*   **Shift Smooth Rating:** Uses DSG, generally smooth but can be hesitant at low speeds. Score: **0.00**.
-*   **Steering Feel Rating:** VW steering is typically light and precise, but not particularly engaging. Score: **0.00**.
-*   **ADAS Score:** Life trim comes standard with extensive ADAS: ACC, Front Assist (pedestrian/cyclist detection), Exit Warning, Lane Assist, Side Assist, Park Assist Plus, Rear View Camera, Dynamic Road Sign Display. This is a comprehensive standard suite. Score: **0.50**. (Previous score of 0.30 was too low given the standard features).
-*   **Visibility Rating:** SUV body style generally offers good visibility. No specific issues mentioned. Score: **0.00**.
-*   **Headlight Rating:** Life trim gets LED headlights with automatic main beam (Light Assist). Higher trims get IQ.LIGHT HD matrix. Standard LEDs are average to good. Score: **0.20**. (Previous score of 0.40 was likely for higher trims).
-*   **Security Rating:** Standard VW security features. No specific high-end features mentioned for Life trim. Score: **0.00**.
-*   **Screen in:** Infotainment screen is 32 cm diagonal (12.6 inches). Digital instruments are 10.25 inches. 12.6 inches is larger than the 8" average. Score: **0.40**.
-*   **Infotainment UX Rating:** Uses latest VW MIB4 interface, described as a "connected cockpit landscape". Reviews of similar VW systems are mixed (some like the screen, some dislike lack of physical buttons). Score: **0.20**. (Previous score of 0.30 might be slightly optimistic).
-*   **Smartphone Connect Rating:** App-Connect Wireless (Apple CarPlay and Android Auto) is standard. Score: **0.30**.
-*   **Audio Rating:** No specific audio system mentioned as standard for Life. Assume basic system. Score: **0.00**.
-*   **USB Ports:** No specific number mentioned. Assume at least 2-3 standard. Score: **0.00**. (Previous score of 0.20 was an assumption).
-*   **Comfort Feature Score:** Life trim includes 3-zone climate control, 10-colour ambient lighting, sun blinds in rear doors, pneumatically adjustable lumbar support. Higher trims add massage/ventilation. Good standard features. Score: **0.40**.
-*   **Convenience Feature Score:** Standard features include Park Assist Plus, rear view camera, power boot lid, Keyless Access. Good standard convenience. Score: **0.30**.
-*   **Brand Prestige Rating:** Volkswagen is a mainstream brand, above budget brands but below luxury. Score: **0.00**.
-*   **Model Prestige Rating:** Tayron is a new global model replacing Tiguan Allspace, positioned between Tiguan and Touareg. Not an entry-level or halo car. Score: **0.00**.
-*   **Trim Prestige Rating:** Life is the entry-level trim. Score: **1.00**.
-*   **Interior Luxury Rating:** Uses soft leatherette, contrast stitching. Higher trims get wood/microfibre. Life is above basic but not luxury. Score: **0.20**. (Previous score of 0.30 was likely for higher trims).
-*   **Interior Tech Focus Rating:** Digital cockpit, large touchscreen, wireless smartphone connect, extensive ADAS. Strong tech focus. Score: **0.40**.
-
-Reviewing the scores and reasoning based on the search results for the *global* Tayron Life. Adjusting some scores based on more precise data found for the global model and the Life trim specifically.
-
-*   Repair Risk: Sticking with 0.00 (average VW).
-*   HP: 150 PS is below average. -0.20.
-*   Torque: 184 lb-ft is average. 0.00.
-*   Engine Displacement: 1.5L is below average. -0.20.
-*   Accel 0-60: 9.4s is slow. -0.30.
-*   Top Speed: 127 mph is below average. -0.20.
-*   Body Style: 5-door SUV. 0.00. (Correcting previous 0.50).
-*   Seats: Available 7-seater. 0.50.
-*   Cargo Space: Very large. 0.50.
-*   Rear Space: Described as huge. 0.40.
-*   Electric Range: Not standard on Life. -1.00.
-*   Charge Speed: Not standard on Life. -1.00.
-*   Cabin Noise: No specific data, keeping 0.00 (average). (Correcting previous 0.20/0.40 assumptions).
-*   Headlight Rating: Standard LED with auto high beam. 0.20.
-*   Infotainment UX: New system, mixed reviews possible. 0.20.
-*   USB Ports: No specific number found. 0.00.
-*   Interior Luxury: Life trim is decent but not luxury. 0.20.
-*   ADAS: Extensive standard suite. 0.50.
-
-Final check of all values and benchmarks. Looks reasonable based on the available data for the global Tayron Life.```json
+```json
 {
-  "price_usd": -0.20,
+  "price_usd": 0.00,
   "total_cost_estimate_5yr_usd": 0.00,
   "insurance_usd_yr": 0.00,
   "maint_usd_yr": 0.00,
   "repair_risk_score": 0.00,
-  "hp": -0.20,
-  "torque": 0.00,
-  "cylinder_count": 0.00,
+  "hp": -0.10,
+  "torque": 0.20,
+  "cylinder_count": -0.20,
   "engine_displacement": -0.20,
   "accel_0_60_sec": -0.30,
-  "top_speed": -0.20,
-  "drive_type": 0.00,
-  "transmission_type": 0.00,
+  "top_speed": -0.30,
+  "drive_type": -0.20,
+  "transmission_type": 1.00,
   "offroad_ability": 0.00,
   "braking_dist_ft": 0.00,
   "size": 0.20,
   "wheelbase": 0.20,
   "body_style": 0.00,
-  "seats": 0.50,
+  "seats": 0.20,
   "cargo_space": 0.50,
-  "rear_space": 0.40,
+  "rear_space": 0.00,
   "ground_clearance_in": 0.00,
-  "turn_radius_ft": 0.00,
-  "mpg": 0.30,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.50,
   "co2_g_km": 0.30,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": -0.10,
-  "style_aggression_rating": 0.00,
+  "electric_range_mi": 0.50,
+  "charge_speed_kw": 0.20,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.10,
   "style_modernity_rating": 0.30,
-  "handling_rating": 0.00,
+  "handling_rating": 0.10,
   "ride_comfort_rating": 0.50,
-  "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": 0.00,
+  "cabin_noise_rating": 0.30,
+  "shift_smooth_rating": 0.50,
   "steering_feel_rating": 0.00,
   "adas_score": 0.50,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.20,
+  "headlight_rating": 0.10,
   "security_rating": 0.00,
-  "screen_in": 0.40,
+  "screen_in": 0.50,
   "infotainment_ux_rating": 0.20,
-  "smartphone_connect_rating": 0.30,
-  "audio_rating": 0.00,
-  "usb_ports": 0.00,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.10,
+  "usb_ports": 0.30,
   "comfort_feature_score": 0.40,
-  "convenience_feature_score": 0.30,
+  "convenience_feature_score": 0.40,
   "brand_prestige_rating": 0.00,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 1.00,

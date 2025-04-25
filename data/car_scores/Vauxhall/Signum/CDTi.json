@@ -1,109 +1,55 @@
 ```json
 {
-    "price_usd": 1.00,
-    "total_cost_estimate_5yr_usd": 0.00,
-    "insurance_usd_yr": 0.50,
-    "maint_usd_yr": 0.00,
-    "repair_risk_score": -0.20,
-    "hp": -0.50,
-    "torque": 0.00,
-    "cylinder_count": 0.00,
-    "engine_displacement": 0.00,
-    "accel_0_60_sec": -0.50,
-    "top_speed": -0.20,
-    "drive_type": -1.00,
-    "transmission_type": 0.00,
-    "offroad_ability": 1.00,
-    "braking_dist_ft": 0.00,
-    "size": 0.00,
-    "wheelbase": 0.20,
-    "body_style": 0.20,
-    "seats": -0.50,
-    "cargo_space": -0.20,
-    "rear_space": 0.50,
-    "ground_clearance_in": -0.50,
-    "turn_radius_ft": 0.00,
-    "mpg": 0.50,
-    "co2_g_km": -0.10,
-    "electric_range_mi": -1.00,
-    "charge_speed_kw": -1.00,
-    "style_sleek_vs_boxy": 0.00,
-    "style_aggression_rating": 0.00,
-    "style_modernity_rating": -0.80,
-    "handling_rating": -0.50,
-    "ride_comfort_rating": 0.50,
-    "cabin_noise_rating": 0.50,
-    "shift_smooth_rating": 0.00,
-    "steering_feel_rating": 0.00,
-    "adas_score": -0.80,
-    "visibility_rating": -0.10,
-    "headlight_rating": 0.20,
-    "security_rating": -0.50,
-    "screen_in": -0.80,
-    "infotainment_ux_rating": -0.50,
-    "smartphone_connect_rating": -1.00,
-    "audio_rating": 0.00,
-    "usb_ports": -1.00,
-    "comfort_feature_score": 0.20,
-    "convenience_feature_score": -0.50,
-    "brand_prestige_rating": -0.50,
-    "model_prestige_rating": 0.00,
-    "trim_prestige_rating": 0.00,
-    "interior_luxury_rating": -0.50,
-    "interior_tech_focus_rating": -0.80
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.40,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.30,
+  "repair_risk_score": -0.40,
+  "hp": -0.30,
+  "torque": 0.20,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": -0.50,
+  "top_speed": -0.30,
+  "drive_type": -1.00,
+  "transmission_type": -1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.30,
+  "body_style": 0.20,
+  "seats": 0.00,
+  "cargo_space": -0.20,
+  "rear_space": 0.50,
+  "ground_clearance_in": -0.30,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.50,
+  "co2_g_km": -0.30,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -0.30,
+  "style_modernity_rating": -0.80,
+  "handling_rating": -0.40,
+  "ride_comfort_rating": 0.40,
+  "cabin_noise_rating": 0.40,
+  "shift_smooth_rating": -0.20,
+  "steering_feel_rating": -0.60,
+  "adas_score": -0.80,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.20,
+  "security_rating": 0.00,
+  "screen_in": -0.80,
+  "infotainment_ux_rating": -0.70,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": 0.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": 0.20,
+  "convenience_feature_score": -0.30,
+  "brand_prestige_rating": -0.40,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": -0.50,
+  "interior_tech_focus_rating": -0.60
 }
 ```
-
-**Explanation of Ratings:**
-
-*   **price\_usd:** Rated 1.00 because as a discontinued model from 2003-2008, its used price is extremely low (£1k-£3k) compared to the average new car price today ($35k).
-*   **total\_cost\_estimate\_5yr\_usd:** Rated 0.00. While the purchase price is low, estimating the total 5-year cost against today's market is complex due to potential age-related maintenance and repair costs. Defaulting to average.
-*   **insurance\_usd\_yr:** Rated 0.50. The 1.9 CDTi typically falls into UK Insurance Group 21-23, which is below the average insurance group for many new vehicles today, suggesting lower relative costs.
-*   **maint\_usd\_yr:** Rated 0.00. No specific data found for average annual maintenance costs compared to today's market. While parts are generally affordable, age can increase frequency of repairs. Defaulting to average.
-*   **repair\_risk\_score:** Rated -0.20. The Signum, particularly with the 1.9 CDTi engine, has some known potential issues (e.g., swirl flaps, EGR, DPF, gearbox) which slightly increases its risk compared to the most reliable modern cars, but it's not notoriously unreliable.
-*   **hp:** Rated -0.50. The 1.9 CDTi 150PS engine produces around 148 bhp, which is significantly below the average horsepower of new cars available today (~200 hp).
-*   **torque:** Rated 0.00. The 1.9 CDTi 150PS produces 320 Nm (~236 lb-ft), which is around the average torque figure for non-performance engines in today's market, especially considering modern diesels or turbocharged petrols.
-*   **cylinder\_count:** Rated 0.00. A 4-cylinder engine is very common and represents the market average.
-*   **engine\_displacement:** Rated 0.00. A 1.9L engine is around the average displacement for non-performance engines today.
-*   **accel\_0\_60\_sec:** Rated -0.50. A 0-60 mph time of around 9.8-10.5 seconds is slow compared to the average new car today (~7.5 seconds).
-*   **top\_speed:** Rated -0.20. A top speed of approximately 127-130 mph is below the average top speed of new cars today (~150 mph).
-*   **drive\_type:** Rated -1.00. Front-wheel drive is the least performance-oriented and capable drive type compared to RWD or AWD.
-*   **transmission\_type:** Rated 0.00. While manual was common, a 6-speed automatic transmission was available, placing it at the market average according to the guide's scale.
-*   **offroad\_ability:** Rated 1.00. As a low-riding FWD vehicle, it has extremely poor off-road ability, aligning with the guide's +1.00 example (McLaren 540c).
-*   **braking\_dist\_ft:** Rated 0.00. No specific data found for braking distance, defaulting to average.
-*   **size:** Rated 0.00. Its length (~4.65m) is close to the guide's average example (Honda Civic ~4.6m).
-*   **wheelbase:** Rated 0.20. At 2.83m, its wheelbase is longer than the guide's average (Skoda Octavia ~2.7m), contributing to good interior space.
-*   **body\_style:** Rated 0.20. A 5-door hatchback/estate-like body offers more practicality than a 4-door sedan (0.00) but less than a van (+1.00).
-*   **seats:** Rated -0.50. While having 5 seatbelts, the rear seating is optimized for two with a less comfortable middle seat, making it less versatile than a standard 5-seater (0.00).
-*   **cargo\_space:** Rated -0.20. The boot space of around 365 liters (seats up) is below the average for a modern car of its size and body style.
-*   **rear\_space:** Rated 0.50. Reviews consistently highlight the generous rear legroom due to the long wheelbase, rating it above average.
-*   **ground\_clearance\_in:** Rated -0.50. At approximately 5.1-5.9 inches, it's below the guide's average for compact crossovers (~6.5 inches).
-*   **turn\_radius\_ft:** Rated 0.00. At around 37-39 ft, it's close to the guide's average (Toyota Camry ~36 ft).
-*   **mpg:** Rated 0.50. Combined MPG figures around 40-47 mpg (UK) are good compared to the guide's 30 mpg average for petrol cars.
-*   **co2\_g\_km:** Rated -0.10. CO2 emissions around 159-194 g/km are around or slightly above the guide's average (175 g/km).
-*   **electric\_range\_mi:** Rated -1.00. This is a diesel vehicle, not electric.
-*   **charge\_speed\_kw:** Rated -1.00. This is a diesel vehicle, not electric.
-*   **style\_sleek\_vs\_boxy:** Rated 0.00. It has a distinctive but not extreme profile, neither particularly sleek nor boxy, placing it near the average.
-*   **style\_aggression\_rating:** Rated 0.00. The design is not aggressive or sporty.
-*   **style\_modernity\_rating:** Rated -0.80. Designed in the early 2000s, its styling is clearly dated compared to modern vehicles.
-*   **handling\_rating:** Rated -0.50. Reviews indicate handling is safe and predictable but not engaging, with some body roll, placing it below average compared to cars known for good handling.
-*   **ride\_comfort\_rating:** Rated 0.50. Reviews often praise its comfortable ride, especially on motorways, rating it above average.
-*   **cabin\_noise\_rating:** Rated 0.50. Reviews note good suppression of wind, road, and engine noise for its class and era, rating it above average for quietness compared to many modern mainstream cars.
-*   **shift\_smooth\_rating:** Rated 0.00. No specific strong praise or criticism for the automatic transmission's smoothness was found, defaulting to average.
-*   **steering\_feel\_rating:** Rated 0.00. Reviews did not highlight steering feel positively or negatively, defaulting to average.
-*   **adas\_score:** Rated -0.80. Features are limited to basic electronic aids (ABS, TC) and lack modern ADAS like adaptive cruise control, lane keeping assist, or blind-spot monitoring, placing it well below average.
-*   **visibility\_rating:** Rated -0.10. Forward visibility is generally good, but rear visibility is noted as less so due to the design, placing it slightly below average.
-*   **headlight\_rating:** Rated 0.20. Adaptive xenon headlights were available on higher trims and were considered good for their time, rating slightly above average compared to basic modern halogen or projector LED headlights.
-*   **security\_rating:** Rated -0.50. Basic alarm, immobiliser, and central locking were standard but it lacks the advanced security features common on many modern cars (e.g., advanced tracking, multi-layer immobilisation).
-*   **screen\_in:** Rated -0.80. The available screen for infotainment/sat-nav was small by today's standards, well below average.
-*   **infotainment\_ux\_rating:** Rated -0.50. While functional for its time, the system is dated and less intuitive or responsive than modern interfaces, placing it below average.
-*   **smartphone\_connect\_rating:** Rated -1.00. No smartphone integration like Apple CarPlay or Android Auto was available.
-*   **audio\_rating:** Rated 0.00. A 7-speaker system was available and reviewed positively for its time, placing it around the average for basic modern systems.
-*   **usb\_ports:** Rated -1.00. USB ports were not standard features in cars of this era.
-*   **comfort\_feature\_score:** Rated 0.20. Features like heated seats, climate control, and highly adjustable/reclining rear seats were good for its time and still offer decent comfort compared to basic modern cars.
-*   **convenience\_feature\_score:** Rated -0.50. Features like cruise control and parking sensors were available but it lacks the range of convenience tech common today (e.g., 360° cameras, keyless entry/start on all trims, auto-parking).
-*   **brand\_prestige\_rating:** Rated -0.50. Vauxhall is a mainstream, non-premium brand.
-*   **model\_prestige\_rating:** Rated 0.00. Positioned in the upper-mainstream segment, it was not an entry-level model but also not a halo or top-tier executive car, placing it around the market average in terms of model hierarchy.
-*   **trim\_prestige\_rating:** Rated 0.00. "CDTi" refers to the engine type, not a specific trim level. Without a specified trim (like Elite or Design), defaulting to average is appropriate.
-*   **interior\_luxury\_rating:** Rated -0.50. While materials were considered good for its time and class, the interior does not compare to the luxury levels of modern premium or luxury vehicles.
-*   **interior\_tech\_focus\_rating:** Rated -0.80. The interior design is traditional with physical buttons and smaller screens, lacking the screen-dominated, minimalist approach of modern tech-focused interiors.

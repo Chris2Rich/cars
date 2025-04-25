@@ -1,0 +1,122 @@
+Based on the search results and the scoring guide relative to today's market:
+
+- price_usd: Original price was high (~$105k in 1995, ~$175k in today's money). Current market value for good examples is also high. Relative to today's average new car (~$52k), it's significantly higher. Score: -0.80.
+- total_cost_estimate_5yr_usd: Maintenance is very high. Repair risk is high. Insurance likely high. Definitely >$80k over 5 years. Score: -1.00.
+- insurance_usd_yr: Likely high for a performance classic. Score: -0.80.
+- maint_usd_yr: Very high for a V12 classic BMW. Score: -1.00.
+- repair_risk_score: BMWs of that era, especially V12s, are complex and costly to repair. Score: -1.00.
+- hp: 375 hp. Above average (200 hp), below superb (>700 hp). Score: 0.40.
+- torque: 406 lb-ft. Above average (190 lb-ft), below superb (>1000 lb-ft). Score: 0.50.
+- cylinder_count: 12. Very high. Score: +1.00.
+- engine_displacement: 5.6L. Very large. Score: +1.00.
+- accel_0_60_sec: ~5.5-6.0 sec. Faster than average (7.5 sec), slower than superb (<2.5 sec). Score: 0.50.
+- top_speed: 155 mph (limited). Around average (150 mph). Score: 0.00.
+- drive_type: RWD. Score: +1.00.
+- transmission_type: 6-speed Manual. Score: -1.00.
+- offroad_ability: None. Score: -1.00.
+- braking_dist_ft: No specific data found, but older tech likely means longer than modern average (125 ft). Estimate: -0.50.
+- size: Length ~188 in. Width ~73 in. Large coupe. Score: 0.20.
+- wheelbase: ~105.7 in. Long for a coupe. Score: 0.20.
+- body_style: 2-door coupe. Score: -1.00.
+- seats: 4 (2+2). Score: -0.50.
+- cargo_space: ~9.5-11.3 cu ft. Below average (15 cu ft). Score: -0.50.
+- rear_space: ~26.0 in legroom. Very limited (<30"). Score: -1.00.
+- ground_clearance_in: Low profile coupe. Likely <4". Score: -1.00.
+- turn_radius_ft: No specific data found. Large coupe, likely >36 ft. Estimate: -0.50.
+- mpg: ~13-18 combined. Poor (~12 mpg = -1.00, 30 mpg = 0.00). Score: -0.80.
+- co2_g_km: High for a V12. Likely >300 g/km. Score: -1.00.
+- electric_range_mi: N/A (ICE). Score: -1.00.
+- charge_speed_kw: N/A (ICE). Score: -1.00.
+- style_sleek_vs_boxy: Very sleek coupe design. Score: +1.00.
+- style_aggression_rating: Moderately aggressive for its time. Score: 0.20.
+- style_modernity_rating: Dated compared to modern designs. Score: -1.00.
+- handling_rating: Good for its era, but modern cars have advanced significantly. Described as a "big cruiser". Score: 0.00.
+- ride_comfort_rating: Shockingly comfortable for its time. Score relative to today's average: 0.50.
+- cabin_noise_rating: No specific data, but V12 engine noise is present. Likely not as quiet as modern luxury cars. Score: -0.20.
+- shift_smooth_rating: Manual transmission. Score: -1.00.
+- steering_feel_rating: Known for good feel. Score: 0.70.
+- adas_score: Minimal to none. Score: -1.00.
+- visibility_rating: Coupe design might limit rear visibility. Score: -0.80.
+- headlight_rating: Older technology. Score: -1.00.
+- security_rating: Older technology. Score: -1.00.
+- screen_in: None. Score: -1.00.
+- infotainment_ux_rating: None. Score: -1.00.
+- smartphone_connect_rating: None. Score: -1.00.
+- audio_rating: Dated technology. Score: -0.80.
+- usb_ports: None. Score: -1.00.
+- comfort_feature_score: Lacks modern features. Score: -1.00.
+- convenience_feature_score: Lacks modern features. Score: -1.00.
+- brand_prestige_rating: BMW is high. Score: 0.80.
+- model_prestige_rating: 8 Series (E31) CSi is a top-tier, halo model for BMW. Guide says Top of brand/halo cars = -1.00. Score: -1.00.
+- trim_prestige_rating: CSi is the top performance trim. Guide says Top Trims = -1.00. Score: -1.00.
+- interior_luxury_rating: High for its time, but dated materials/design compared to modern luxury. Score: -0.50.
+- interior_tech_focus_rating: Minimal tech focus compared to modern cars. Score: -1.00.
+
+Reviewing scores and adjusting slightly based on benchmarks and search results.
+- Price: Original high, current high for good examples. -0.80 seems appropriate.
+- Total Cost/Maint/Repair Risk/Insurance: Search results confirm very high costs and risk. -1.00 for all seems accurate relative to today's market.
+- Performance (HP, Torque, Accel, Top Speed): Good for its time, but not top-tier today. Scores around 0.40-0.50 seem right. Top speed is average today.
+- Efficiency (MPG, CO2): Very poor. -0.80 to -1.00 is appropriate.
+- Space/Practicality: 2-door coupe, small rear seats, limited cargo. Scores are negative as expected.
+- Ride/Dynamics: Good handling/ride/steering for its era, but modern cars excel. Steering feel is a positive point. Handling/Ride/Noise are likely average or slightly below average compared to modern cars.
+- Safety/Visibility/Headlights/Security: Lacks modern features. Strongly negative scores.
+- Infotainment/Tech/Connectivity: None by modern standards. Strongly negative scores.
+- Comfort/Convenience Features: Lacks modern features. Strongly negative scores.
+- Prestige: Brand is high. Model/Trim are top-tier, which per the guide's examples, results in a -1.00 score.
+- Style: Sleek design is a positive. Modernity is a negative. Aggression is moderate.
+
+Looks consistent with evaluating a 90s classic against modern benchmarks.```json
+{
+  "price_usd": -0.80,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -0.80,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -1.00,
+  "hp": 0.40,
+  "torque": 0.50,
+  "cylinder_count": 1.00,
+  "engine_displacement": 1.00,
+  "accel_0_60_sec": 0.50,
+  "top_speed": 0.00,
+  "drive_type": 1.00,
+  "transmission_type": -1.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": -0.50,
+  "size": 0.20,
+  "wheelbase": 0.20,
+  "body_style": -1.00,
+  "seats": -0.50,
+  "cargo_space": -0.50,
+  "rear_space": -1.00,
+  "ground_clearance_in": -1.00,
+  "turn_radius_ft": -0.50,
+  "mpg": -0.80,
+  "co2_g_km": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 1.00,
+  "style_aggression_rating": 0.20,
+  "style_modernity_rating": -1.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": -0.20,
+  "shift_smooth_rating": -1.00,
+  "steering_feel_rating": 0.70,
+  "adas_score": -1.00,
+  "visibility_rating": -0.80,
+  "headlight_rating": -1.00,
+  "security_rating": -1.00,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": -0.80,
+  "usb_ports": -1.00,
+  "comfort_feature_score": -1.00,
+  "convenience_feature_score": -1.00,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": -0.50,
+  "interior_tech_focus_rating": -1.00
+}
+```

@@ -1,109 +1,55 @@
-**Reasoning:**
-
-*   **price\_usd**: Search results show used Volkswagen CC Moda models (primarily 2012-2016) in the UK selling for prices ranging from around £4,490 to £10,999 (Source 6, 17, 28, 30, 32, 38). Converting this to USD (using an approximate 1.25 USD/GBP) gives a range of roughly $5,600 to $13,750. This is significantly below the market average of $35,000 for a *new* car. When evaluating a used model against the *new* car market average, this price is exceptionally low. Score of +1.00.
-*   **total\_cost\_estimate\_5yr\_usd**: RepairPal rates the Volkswagen CC's reliability as below average (2.5/5) with higher than average annual repair costs ($880) (Source 3, 4, 5). This suggests higher than average ownership costs over 5 years compared to the general market average of $40,000. Score of -0.50.
-*   **insurance\_usd\_yr**: UK insurance groups for the CC Moda vary, with some sources indicating group 4 or 5 (Source 10, 13, 19, 20, 22, 23, 24, 28, 31). These are very low insurance groups in the UK system (typically 1-50). While the UK system doesn't directly translate to USD costs, a low group suggests lower-than-average insurance costs. Score of +0.50.
-*   **maint\_usd\_yr**: RepairPal states the average annual repair and maintenance cost for a Volkswagen CC is $880, which is higher than the average for midsize cars ($526) and all vehicle models ($652) (Source 3). This indicates higher than average maintenance costs. Score of -0.50.
-*   **repair\_risk\_score**: The Volkswagen CC has a RepairPal reliability rating of 2.5 out of 5.0, ranking it last among 24 midsize cars (Source 3, 4). It has higher than average repair costs and more frequent unscheduled repairs (1.4 times/year vs 0.3 for midsize cars) (Source 3). Common issues include timing chain tensioner failure and engine problems (Source 4, 18). This indicates a high repair risk. Score of -1.00.
-*   **hp**: The Moda trim is often associated with the 1.8 TSI (160 PS / 157 bhp) or 2.0 TDI (150 PS / 148 hp) engines, and in some Polo applications, 1.2L engines (60-70 PS) (Source 1, 6, 7, 8, 9, 10, 13, 15, 16, 19, 20, 24, 27, 28, 31, 33, 34). Focusing on the CC Moda, the 1.8 TSI (157 bhp) and 2.0 TDI (148 bhp) are below the 200 hp average for the general market. Score of -0.50.
-*   **torque**: The 1.8 TSI engine produces 240 Nm (177 lb-ft) (Source 1, 9). The 2.0 TDI produces around 340-380 Nm (250-280 lb-ft). The average is around 190 lb-ft. The TSI is close to average, while the TDI is well above average. Given both engines were available, the torque is generally around or above average. Score of 0.25.
-*   **cylinder\_count**: The 1.8 TSI and 2.0 TDI engines are 4-cylinder (Source 9, 14). The average is 4-6 cylinders. 4 cylinders is average. Score of 0.00. (Note: Some search results referred to Polo Moda with 3-cylinder engines, but the request is for the CC Moda).
-*   **engine\_displacement**: The engines are 1.8L or 2.0L (Source 1, 9, 14). The average is 3.0L. These displacements are below average. Score of -0.50.
-*   **accel\_0\_60\_sec**: The 1.8 TSI Moda takes around 8.2-8.5 seconds to 60 mph (Source 1, 9). The average is 7.5 seconds. This is slightly slower than average. Score of -0.25.
-*   **top\_speed**: Top speed for the 1.8 TSI Moda is around 138 mph (Source 1, 9). The average is 150 mph. This is slightly below average. Score of -0.25.
-*   **drive\_type**: The Volkswagen CC Moda is primarily Front-Wheel Drive (FWD) (Source 9, 29). FWD is rated at -1.00.
-*   **transmission\_type**: Available with manual or DSG automatic transmission (Source 1, 9, 17, 29, 30). The DSG is a Dual-Clutch Transmission. The guide rates DCT as 0.00 and Automatic as +1.00. Since DSG is common and available, 0.00 is appropriate.
-*   **offroad\_ability**: The CC is a low-slung sedan/coupe with FWD and low ground clearance. It has no off-road capability. Score of 1.00 (poor off-road ability is good for this metric).
-*   **braking\_dist\_ft**: No specific data found. Default to 0.00.
-*   **size**: Length is around 4802mm (Source 9, 21). The average is 4600mm. This is slightly larger than average. Score of 0.25.
-*   **wheelbase**: Wheelbase is 2710mm (Source 9). The average is 2700mm. This is average. Score of 0.00.
-*   **body\_style**: 4-door saloon/coupe (Source 9, 29). This is a common body style, close to the 4-door sedan average. Score of 0.00.
-*   **seats**: The CC Moda typically has 5 seats (Source 9). 5 seats is average. Score of 0.00.
-*   **cargo\_space**: Boot capacity is around 452-532 liters (16-18.8 cu ft) (Source 9, 37 mentions 532L, but also 452L). The average is 15 cu ft. This is around average or slightly above. Score of 0.00.
-*   **rear\_space**: Rear headroom is limited due to the sloping roofline (similar to other CC trims). Rear legroom is likely average. Limited headroom makes rear space below average overall. Score of -0.50.
-*   **ground\_clearance\_in**: No specific data found for Moda, but the CC generally has low ground clearance (around 4.9 inches for some models). Score of -0.75 based on the general CC body style.
-*   **turn\_radius\_ft**: Turning circle is 11.4m (37.4 ft) (Source 9). The average is 36 ft. This is average. Score of 0.00.
-*   **mpg**: The 1.8 TSI Moda is rated around 45 mpg (UK) combined (Source 1). The 2.0 TDI Moda is rated around 60 mpg (UK) combined (Source 29). Converting UK mpg to US mpg (UK mpg / 1.2) gives around 37.5 US mpg for the TSI and 50 US mpg for the TDI. The average is 30 mpg. Both engines offer above-average fuel economy, especially the TDI. Score of 0.50.
-*   **co2\_g\_km**: CO2 emissions are around 128 g/km for the 1.8 TSI and 2.0 TDI (Source 1, 9, 13, 15, 19, 20, 22, 23, 24, 28, 31). The average is 175 g/km. 128 g/km is well below average. Score of 0.50.
-*   **electric\_range\_mi**: Not an electric vehicle. Score of -1.00.
-*   **charge\_speed\_kw**: Not an electric vehicle. Score of -1.00.
-*   **style\_sleek\_vs\_boxy**: The CC is known for its sleek, coupe-like profile (Source 25). Score of 0.75.
-*   **style\_aggression\_rating**: The Moda trim is not the sportiest (like GT or R-Line). The styling is elegant rather than aggressive. Score of 0.00.
-*   **style\_modernity\_rating**: The design dates back to the 2012 facelift. While still looking decent, it's not cutting-edge modern. Score of 0.00.
-*   **handling\_rating**: Reviews generally describe the CC's handling as competent and comfortable rather than sporty (Source 25). Average handling. Score of 0.00.
-*   **ride\_comfort\_rating**: Reviews mention a comfortable ride (Source 25). Score of 0.25.
-*   **cabin\_noise\_rating**: The CC is generally considered refined and quiet inside. Score of 0.50.
-*   **shift\_smooth\_rating**: Available with manual or DSG. DSG is generally smooth. Score of 0.50.
-*   **steering\_feel\_rating**: VW steering is typically well-weighted but not exceptionally communicative. Average feel. Score of 0.00.
-*   **adas\_score**: The Moda trim is not the highest. Features like parking sensors, basic cruise control, and likely standard safety features were available (Source 10, 31). Higher trims had more advanced ADAS. Score of 0.25.
-*   **visibility\_rating**: The sloping roofline and thick pillars compromise rear visibility (similar to other CC trims). Below average visibility. Score of -0.75.
-*   **headlight\_rating**: Likely had projector headlights, possibly halogens or optional xenons depending on year/package. Assuming standard is better than basic halogens. Score of 0.25.
-*   **security\_rating**: Standard VW security features. No specific data on advanced security. Default to 0.00.
-*   **screen\_in**: The RCD 310 or RCD 510 radio system was common, with optional navigation (Source 27, 33). Screen size is likely smaller than the current average (e.g., 5-6.5 inches). Score of -0.50.
-*   **infotainment\_ux\_rating**: VW's infotainment systems from this era were functional but not class-leading. Score of 0.00.
-*   **smartphone\_connect\_rating**: Includes AUX-in, USB/iPod connectivity via MDI, Bluetooth (Source 11, 27, 31, 33). Apple CarPlay/Android Auto might be available on later models but wasn't standard early on. Score of 0.25.
-*   **audio\_rating**: RCD 310/510 with 6 speakers (Source 27, 33). Standard audio is likely average. Score of 0.00.
-*   **usb\_ports**: MDI with USB cable available (Source 27). Likely 1 or 2 ports. Score of 0.00.
-*   **comfort\_feature\_score**: Includes features like manual or height-adjustable seats, split-folding rear seats, optional AC/Climate Control (Source 10, 31). Not as many luxury features as higher trims. Score of 0.25.
-*   **convenience\_feature\_score**: Includes features like electric mirrors, front electric windows, remote central locking, optional parking sensors (Source 10, 16, 31). Average convenience features. Score of 0.00.
-*   **brand\_prestige\_rating**: Volkswagen is a mainstream brand. Score of 0.00.
-*   **model\_prestige\_rating**: The CC was positioned above the Passat but below true luxury cars. Score of -0.25.
-*   **trim\_prestige\_rating**: Moda was typically a mid-range trim level, not base or top-tier. Score of 0.00.
-*   **interior\_luxury\_rating**: Interior uses decent materials for a mainstream car, but not luxury levels (Source 25 mentions high-quality materials, but compared to luxury cars, it's not the same). Score of 0.25.
-*   **interior\_tech\_focus\_rating**: Has a central screen and some tech features, but the interior design isn't dominated by screens or minimalist like modern tech-focused cars. Score of 0.00.
-
 ```json
 {
   "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": -0.50,
-  "insurance_usd_yr": 0.50,
-  "maint_usd_yr": -0.50,
-  "repair_risk_score": -1.00,
-  "hp": -0.50,
-  "torque": 0.25,
+  "total_cost_estimate_5yr_usd": 0.10,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.10,
+  "repair_risk_score": 0.00,
+  "hp": -0.30,
+  "torque": 0.00,
   "cylinder_count": 0.00,
-  "engine_displacement": -0.50,
-  "accel_0_60_sec": -0.25,
-  "top_speed": -0.25,
+  "engine_displacement": -0.30,
+  "accel_0_60_sec": -0.40,
+  "top_speed": -0.20,
   "drive_type": -1.00,
   "transmission_type": 0.00,
-  "offroad_ability": 1.00,
+  "offroad_ability": -1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.25,
+  "size": 0.10,
   "wheelbase": 0.00,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.00,
-  "rear_space": -0.50,
-  "ground_clearance_in": -0.75,
+  "cargo_space": 0.10,
+  "rear_space": -0.30,
+  "ground_clearance_in": -0.70,
   "turn_radius_ft": 0.00,
-  "mpg": 0.50,
-  "co2_g_km": 0.50,
+  "mpg": 0.60,
+  "co2_g_km": 0.60,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.75,
-  "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.00,
+  "style_sleek_vs_boxy": 0.80,
+  "style_aggression_rating": 0.20,
+  "style_modernity_rating": -0.20,
   "handling_rating": 0.00,
-  "ride_comfort_rating": 0.25,
-  "cabin_noise_rating": 0.50,
-  "shift_smooth_rating": 0.50,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.40,
+  "shift_smooth_rating": 0.00,
   "steering_feel_rating": 0.00,
-  "adas_score": 0.25,
-  "visibility_rating": -0.75,
-  "headlight_rating": 0.25,
+  "adas_score": -0.30,
+  "visibility_rating": -0.60,
+  "headlight_rating": 0.40,
   "security_rating": 0.00,
-  "screen_in": -0.50,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.25,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 0.60,
   "audio_rating": 0.00,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.25,
-  "convenience_feature_score": 0.00,
+  "usb_ports": -0.30,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.50,
   "brand_prestige_rating": 0.00,
-  "model_prestige_rating": -0.25,
+  "model_prestige_rating": 0.30,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.25,
+  "interior_luxury_rating": 0.60,
   "interior_tech_focus_rating": 0.00
 }
 ```

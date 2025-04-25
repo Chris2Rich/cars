@@ -1,108 +1,55 @@
 ```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.20,
+  "price_usd": 0.25,
+  "total_cost_estimate_5yr_usd": 0.25,
+  "insurance_usd_yr": 0.25,
   "maint_usd_yr": 0.50,
   "repair_risk_score": 0.00,
-  "hp": -0.40,
+  "hp": -0.50,
   "torque": 0.00,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": -0.20,
-  "top_speed": -0.70,
+  "cylinder_count": -1.00,
+  "engine_displacement": -1.00,
+  "accel_0_60_sec": -0.25,
+  "top_speed": -0.75,
   "drive_type": -1.00,
   "transmission_type": 1.00,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
   "size": -0.50,
-  "wheelbase": -0.30,
-  "body_style": 0.20,
+  "wheelbase": -0.25,
+  "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.60,
-  "rear_space": -0.50,
-  "ground_clearance_in": 0.00,
-  "turn_radius_ft": 0.30,
-  "mpg": 0.00,
+  "cargo_space": -0.75,
+  "rear_space": -0.25,
+  "ground_clearance_in": -0.25,
+  "turn_radius_ft": 0.00,
+  "mpg": -1.00,
   "co2_g_km": 1.00,
-  "electric_range_mi": 0.60,
+  "electric_range_mi": 0.50,
   "charge_speed_kw": 0.50,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.30,
+  "style_aggression_rating": -0.25,
+  "style_modernity_rating": 0.25,
   "handling_rating": 0.00,
-  "ride_comfort_rating": 0.30,
+  "ride_comfort_rating": 0.25,
   "cabin_noise_rating": 0.50,
   "shift_smooth_rating": 1.00,
-  "steering_feel_rating": -0.30,
-  "adas_score": 0.40,
-  "visibility_rating": -0.20,
-  "headlight_rating": 0.40,
+  "steering_feel_rating": -0.50,
+  "adas_score": 0.50,
+  "visibility_rating": -0.25,
+  "headlight_rating": 0.00,
   "security_rating": 0.00,
-  "screen_in": 0.30,
-  "infotainment_ux_rating": 0.30,
-  "smartphone_connect_rating": 0.00,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.50,
   "audio_rating": 0.00,
-  "usb_ports": -0.30,
+  "usb_ports": 0.00,
   "comfort_feature_score": 0.00,
-  "convenience_feature_score": 0.30,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.50,
-  "trim_prestige_rating": 1.00,
-  "interior_luxury_rating": 0.00,
-  "interior_tech_focus_rating": 0.40
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": -0.50,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": -0.25,
+  "interior_tech_focus_rating": 0.00
 }
 ```
-**Explanation of Scores:**
-
-*   **price_usd (0.00):** The Design trim is the entry point for the Corsa-e range. Recent pricing places it around £26,000 - £32,500 (~$33,000 - $41,000 USD), which centers around the market average for a new car ($35,000).
-*   **total_cost_estimate_5yr_usd (0.00):** No specific 5-year cost data for the Design trim was found. While EVs generally have lower running costs, the initial price is around average, leading to a default average score for total ownership cost without specific data.
-*   **insurance_usd_yr (0.20):** The Corsa-e is reported to have relatively low insurance costs for an EV, only slightly higher than the petrol Corsa, placing it below the national average.
-*   **maint_usd_yr (0.50):** As an electric vehicle, the Corsa-e benefits from lower maintenance requirements compared to the average internal combustion engine vehicle.
-*   **repair_risk_score (0.00):** No specific data indicating high or low repair risk for the Corsa-e or the Design trim was found. Vauxhall is generally considered an average brand for reliability.
-*   **hp (-0.40):** The standard 136hp motor in the Corsa-e Design is below the average horsepower benchmark of 200 hp, but well above the -1.00 benchmark of 120 hp.
-*   **torque (0.00):** The torque output of 260Nm (192 lb-ft) is very close to the average benchmark of 190 lb-ft.
-*   **cylinder_count (0.00):** As an electric vehicle, it has no cylinders. The benchmark is for ICE vehicles, so it defaults to average.
-*   **engine_displacement (0.00):** As an electric vehicle, it has no engine displacement in the traditional sense. The benchmark is for ICE vehicles, so it defaults to average.
-*   **accel_0_60_sec (-0.20):** The 0-60 mph time of 8.1-8.2 seconds is slightly slower than the average benchmark of 7.5 seconds.
-*   **top_speed (-0.70):** A top speed of 93 mph is significantly lower than the average benchmark of 150 mph, placing it closer to the -1.00 benchmark of 50 mph.
-*   **drive_type (-1.00):** The Corsa-e is front-wheel drive (FWD), which scores -1.00 according to the guide.
-*   **transmission_type (1.00):** It uses a single-speed automatic electric transmission, which provides inherently smooth operation, scoring +1.00.
-*   **offroad_ability (1.00):** As a small FWD hatchback with standard ground clearance, it has very poor offroad ability, scoring +1.00 according to the inverted benchmark scale.
-*   **braking_dist_ft (0.00):** No specific braking distance data was found for the Corsa-e or Design trim, so it defaults to average.
-*   **size (-0.50):** With a length of 4060 mm, it is significantly smaller than the average benchmark of 4600 mm, placing it closer to the -1.00 benchmark for small cars.
-*   **wheelbase (-0.30):** The wheelbase of 2538-2540 mm is smaller than the average benchmark of 2700 mm, but well above the -1.00 benchmark of 2300 mm.
-*   **body_style (0.20):** A 5-door hatchback offers more practicality than a 2-door coupe (-1.00) or 4-door sedan (0.00) but less than a 5-door van (+1.00), placing it slightly above average.
-*   **seats (0.00):** It has 5 seats, which is the benchmark average.
-*   **cargo_space (-0.60):** The boot space of 267 litres (approx 9.4 cu ft) is below the average benchmark of 15 cu ft, placing it closer to the -1.00 benchmark of 5 cu ft.
-*   **rear_space (-0.50):** Reviews indicate rear space, particularly kneeroom, is limited for adults, placing it below the average benchmark of 35".
-*   **ground_clearance_in (0.00):** The ground clearance of approximately 6.5 inches (164 mm) is right around the average benchmark of 6.5 inches.
-*   **turn_radius_ft (0.30):** The turning circle of 10-10.4 m (approx 32.8-34.1 ft) is better than the average benchmark of 36 ft, placing it closer to the +1.00 benchmark for small turning circles.
-*   **mpg (0.00):** As an electric vehicle, MPG is not applicable in the traditional sense. It defaults to average.
-*   **co2_g_km (1.00):** As a zero-emission electric vehicle, it scores the maximum +1.00.
-*   **electric_range_mi (0.60):** The WLTP range of 209 miles (with real-world estimates around 160-200 miles) is well above the average benchmark of 100 miles, but not in the best-in-class category (>375 miles).
-*   **charge_speed_kw (0.50):** The maximum DC rapid charge speed of 100 kW is above the average benchmark (11-50 kW), though not in the highest tier (250-350+ kW). The standard 7.4kW AC charging is typical for home charging.
-*   **style_sleek_vs_boxy (0.00):** It has a standard hatchback profile, neither notably sleek nor boxy.
-*   **style_aggression_rating (0.00):** While having some modern design elements like the Vizor front, its overall styling is subtle rather than aggressive.
-*   **style_modernity_rating (0.30):** The updated design incorporates modern Vauxhall styling cues, making it look current, but it's not considered avant-garde or revolutionary.
-*   **handling_rating (0.00):** Reviews suggest handling is competent, safe, and predictable, but lacks the sharpness or engagement of sportier cars, placing it around average.
-*   **ride_comfort_rating (0.30):** The ride is generally described as comfortable due to soft suspension tuning, placing it slightly above average.
-*   **cabin_noise_rating (0.50):** As an EV, it is inherently quieter than most internal combustion engine cars, resulting in a better-than-average cabin noise level, though some wind/road noise is present at speed.
-*   **shift_smooth_rating (1.00):** The single-speed electric transmission provides inherently smooth acceleration without gear shifts, scoring +1.00.
-*   **steering_feel_rating (-0.30):** Reviews note the steering is light and easy for city driving but lacks feedback and feel, placing it below average for driver engagement.
-*   **adas_score (0.40):** The Design trim comes standard with a good set of ADAS features including automatic emergency braking, lane departure warning with lane keep assist, speed sign recognition, driver drowsiness alert, cruise control with intelligent speed limiter, and rear parking sensors. This is a solid offering for an entry-level trim, placing it above average, though it lacks the full suite of higher-end systems.
-*   **visibility_rating (-0.20):** Visibility is generally decent but can be hampered by thick pillars and a relatively small rear window, placing it slightly below average.
-*   **headlight_rating (0.40):** LED headlights with high beam assist are standard on the Design trim. These are better than older halogen types (-1.00) and typical projector LEDs (0.00), but not the top-tier adaptive matrix LEDs (+1.00) found on higher trims.
-*   **security_rating (0.00):** Standard security features like remote central locking, engine immobiliser, and alarm system are typical for the segment, resulting in an average score.
-*   **screen_in (0.30):** Recent versions of the Corsa-e Design trim are equipped with a 10-inch colour touchscreen infotainment system, which is larger than the 8-inch average benchmark.
-*   **infotainment_ux_rating (0.30):** The infotainment system, particularly the newer 10-inch version, is praised for improved graphics and a logical layout. The retention of physical climate controls is a plus. While some reviews mention occasional lag, the overall usability is above average.
-*   **smartphone_connect_rating (0.00):** The Design trim includes standard Apple CarPlay and Android Auto integration, but typically requires a wired connection, which is the benchmark average. Wireless connectivity is usually reserved for higher trims.
-*   **audio_rating (0.00):** The standard six-speaker audio system is described as competent but not exceptional, typical for a base/mid-range system in this class, scoring average.
-*   **usb_ports (-0.30):** The Design trim typically includes one or two USB ports (often one USB-C). This is fewer than the average number found in many modern vehicles, placing it below average.
-*   **comfort_feature_score (0.00):** The Design trim includes electronic climate control and comfort seats but lacks features like heated seats, heated steering wheel, or power adjustments found on higher trims. This places its comfort features around the market average.
-*   **convenience_feature_score (0.30):** Features like rear parking sensors, cruise control, automatic lights and wipers, an auto-dimming rear-view mirror, and keyless start provide a good level of convenience for an entry-level trim, placing it above average.
-*   **brand_prestige_rating (0.00):** Vauxhall is a mainstream, non-luxury brand, scoring average prestige.
-*   **model_prestige_rating (0.50):** The Corsa is a popular, high-volume model, representing the entry/mid-level of the brand's lineup, scoring +0.50 on the inverted prestige scale (where +1.00 is entry-level).
-*   **trim_prestige_rating (1.00):** Design is the entry-level trim in the Corsa-e lineup, scoring +1.00 on the inverted prestige scale (where +1.00 is base model).
-*   **interior_luxury_rating (0.00):** The interior uses decent materials and is well-built for the segment, but it is not described as luxurious and includes some harder plastics, placing it at the average benchmark.
-*   **interior_tech_focus_rating (0.40):** The inclusion of a digital instrument cluster and a large central touchscreen gives the interior a modern, tech-focused feel, although the presence of physical controls means it's not as minimalist as some highly tech-focused interiors. It's above average for tech focus in its segment.

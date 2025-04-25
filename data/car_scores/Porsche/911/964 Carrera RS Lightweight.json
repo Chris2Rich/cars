@@ -1,0 +1,111 @@
+Based on the search results for the Porsche 911 964 Carrera RS Lightweight:
+
+- **price_usd**: Prices are very high for this model, often well over $250,000 (£250,000 estimate in 2015, likely higher now). This is significantly above the -1.00 benchmark of >$120,000. Score: -1.00.
+- **total_cost_estimate_5yr_usd**: High purchase price combined with classic Porsche maintenance and potential for expensive parts (thinner glass, aluminum panels, magnesium wheels). Score: -1.00.
+- **insurance_usd_yr**: Likely high due to value and performance, but classic status might influence it. No specific UK group found. Defaulting to average. Score: 0.00.
+- **maint_usd_yr**: High for a classic Porsche, especially a specialized RS model. Score: -1.00.
+- **repair_risk_score**: Older car, more prone to issues than new, but generally robust. Some specific RS parts are rare and expensive. Score: -0.50.
+- **hp**: 260 HP (256-264 bhp). Standard 964 Carrera 2 was 250 HP. Modern average is ~200 HP. This is above average. Score: 0.30.
+- **torque**: 229-240 lb-ft. Standard 964 Carrera 2 was 228-229 lb-ft. Modern average is ~190 lb-ft. Above average. Score: 0.30.
+- **cylinder_count**: Flat 6. Score: 0.00.
+- **engine_displacement**: 3.6L (3600cc). Score: 0.00.
+- **accel_0_60_sec**: 4.9-5.4 seconds (0-60 mph or 0-62 mph). Standard 964 Carrera 2 was 5.5 seconds. Modern average is ~7.5 seconds. Significantly faster. Score: 0.80.
+- **top_speed**: 161-162 mph. Standard 964 Carrera 2 was 162 mph. Modern average is ~150 mph. Above average. Score: 0.30.
+- **drive_type**: RWD. Score: 1.00. (Note: Carrera 4 Lightweight was AWD, but the prompt specifies 'Carrera RS Lightweight', which is RWD).
+- **transmission_type**: 5-speed Manual (G50/10). Score: -1.00.
+- **offroad_ability**: Very low ground clearance (40mm lower than standard). Score: -1.00.
+- **braking_dist_ft**: Uprated brakes from 964 Turbo and Carrera Cup car. Expected to be better than standard 964. Score: 0.80 (Better than average, approaching best-in-class for its era).
+- **size**: Same dimensions as standard 964 (~168 inches length). Smaller than modern average. Score: -0.70.
+- **wheelbase**: Same as standard 964 (~89.4 inches). Shorter than modern average. Score: -0.80.
+- **body_style**: 2-door coupe. Score: -1.00.
+- **seats**: 2 seats (rear seats deleted). Score: -1.00.
+- **cargo_space**: Front trunk, similar to standard 964. Limited. Score: -0.90.
+- **rear_space**: No rear seats. Score: -1.00.
+- **ground_clearance_in**: Lowered by 40mm (1.6 inches) from standard 4.7 inches. Approx 3.1 inches. Score: -1.00 (Below 4 inches).
+- **turn_radius_ft**: No power steering on most models (UK RHD had it). Manual steering can increase effort but doesn't necessarily change the physical turning circle significantly from standard 964 (~39.2 ft). Score: -0.20.
+- **mpg**: N/A in many sources. Standard 964 Carrera 2 was ~17-20 mpg. RS is lighter but performance-oriented. Likely similar or slightly worse. Score: -0.50.
+- **co2_g_km**: N/A in many sources. Standard 964 Carrera 2 was ~274 g/km. Likely similar or slightly worse. Score: -0.80.
+- **electric_range_mi**: Not electric. Score: -1.00.
+- **charge_speed_kw**: Not electric. Score: -1.00.
+- **handling_rating**: Exceptional, track-focused suspension, lighter weight, praised for handling. Score: 1.00.
+- **ride_comfort_rating**: Very stiff suspension, described as harsh and uncomfortable on the road. Score: -1.00.
+- **cabin_noise_rating**: Lack of sound deadening makes it very loud. Score: -1.00.
+- **shift_smooth_rating**: G50 manual is good, but not as smooth as modern automatics. Closer ratios. Score: 0.50.
+- **steering_feel_rating**: Manual steering (on most) provides excellent feel. Score: 1.00.
+- **adas_score**: Minimal (ABS, airbags deleted on some). Score: -1.00.
+- **visibility_rating**: Thinner glass might slightly improve visibility, but overall shape is similar to standard 964. Score: 0.20.
+- **headlight_rating**: Older technology. Score: -0.50.
+- **security_rating**: Alarm often deleted. Score: -1.00.
+- **screen_in**: No screen. Score: -1.00.
+- **infotainment_ux_rating**: No infotainment. Score: -1.00.
+- **smartphone_connect_rating**: No connectivity. Score: -1.00.
+- **audio_rating**: Stereo often deleted. Score: -1.00.
+- **usb_ports**: None. Score: -1.00.
+- **comfort_feature_score**: Stripped out interior, no AC, power windows, etc.. Score: -1.00.
+- **convenience_feature_score**: Stripped out, no central locking, etc.. Score: -1.00.
+- **brand_prestige_rating**: Porsche is high prestige. Score: 0.90.
+- **model_prestige_rating**: 911 is a halo car. Score: -1.00.
+- **trim_prestige_rating**: RS Lightweight is a top-tier, limited edition performance trim. Score: -1.00.
+- **interior_luxury_rating**: Stripped out, minimal materials, focus on function over luxury. Score: -1.00.
+- **interior_tech_focus_rating**: Minimal tech, focus on driving mechanics. Score: -1.00.
+- **style_sleek_vs_boxy**: Classic 964 shape. Score: 0.00.
+- **style_aggression_rating**: RS elements add some aggression (wing, stance). Score: 0.50.
+- **style_modernity_rating**: Classic design, clearly dated. Score: -1.00.
+
+Confidence Score: 5/5 - Data is consistent across multiple sources for key RS Lightweight characteristics.
+
+Strategizing complete. I will now generate the JSON response based on these scores.```json
+{
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -0.50,
+  "hp": 0.30,
+  "torque": 0.30,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.80,
+  "top_speed": 0.30,
+  "drive_type": 1.00,
+  "transmission_type": -1.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.80,
+  "size": -0.70,
+  "wheelbase": -0.80,
+  "body_style": -1.00,
+  "seats": -1.00,
+  "cargo_space": -0.90,
+  "rear_space": -1.00,
+  "ground_clearance_in": -1.00,
+  "turn_radius_ft": -0.20,
+  "mpg": -0.50,
+  "co2_g_km": -0.80,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": -1.00,
+  "handling_rating": 1.00,
+  "ride_comfort_rating": -1.00,
+  "cabin_noise_rating": -1.00,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 1.00,
+  "adas_score": -1.00,
+  "visibility_rating": 0.20,
+  "headlight_rating": -0.50,
+  "security_rating": -1.00,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": -1.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": -1.00,
+  "convenience_feature_score": -1.00,
+  "brand_prestige_rating": 0.90,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": -1.00,
+  "interior_tech_focus_rating": -1.00
+}
+```

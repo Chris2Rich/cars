@@ -1,109 +1,55 @@
 ```json
 {
-    "price_usd": 1.00,
-    "total_cost_estimate_5yr_usd": 0.00,
-    "insurance_usd_yr": 0.50,
-    "maint_usd_yr": 0.00,
-    "repair_risk_score": -0.20,
-    "hp": -0.50,
-    "torque": 0.00,
-    "cylinder_count": 0.00,
-    "engine_displacement": 0.00,
-    "accel_0_60_sec": -0.50,
-    "top_speed": -0.20,
-    "drive_type": -1.00,
-    "transmission_type": 0.00,
-    "offroad_ability": 1.00,
-    "braking_dist_ft": 0.00,
-    "size": 0.00,
-    "wheelbase": 0.20,
-    "body_style": 0.20,
-    "seats": -0.50,
-    "cargo_space": -0.20,
-    "rear_space": 0.50,
-    "ground_clearance_in": -0.50,
-    "turn_radius_ft": 0.00,
-    "mpg": 0.50,
-    "co2_g_km": -0.10,
-    "electric_range_mi": -1.00,
-    "charge_speed_kw": -1.00,
-    "style_sleek_vs_boxy": 0.00,
-    "style_aggression_rating": 0.00,
-    "style_modernity_rating": -0.80,
-    "handling_rating": -0.50,
-    "ride_comfort_rating": 0.50,
-    "cabin_noise_rating": 0.50,
-    "shift_smooth_rating": 0.00,
-    "steering_feel_rating": 0.00,
-    "adas_score": -0.80,
-    "visibility_rating": -0.10,
-    "headlight_rating": 0.20,
-    "security_rating": -0.50,
-    "screen_in": -0.80,
-    "infotainment_ux_rating": -0.50,
-    "smartphone_connect_rating": -1.00,
-    "audio_rating": 0.00,
-    "usb_ports": -1.00,
-    "comfort_feature_score": 0.20,
-    "convenience_feature_score": -0.50,
-    "brand_prestige_rating": -0.50,
-    "model_prestige_rating": 0.00,
-    "trim_prestige_rating": 0.20,
-    "interior_luxury_rating": -0.50,
-    "interior_tech_focus_rating": -0.80
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.50,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": -0.30,
+  "hp": -0.10,
+  "torque": 0.30,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.10,
+  "top_speed": -0.20,
+  "drive_type": -1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.30,
+  "body_style": 0.20,
+  "seats": 0.00,
+  "cargo_space": -0.20,
+  "rear_space": 0.50,
+  "ground_clearance_in": -0.30,
+  "turn_radius_ft": -0.20,
+  "mpg": 0.30,
+  "co2_g_km": -0.50,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -0.30,
+  "style_modernity_rating": -0.80,
+  "handling_rating": -0.70,
+  "ride_comfort_rating": 0.70,
+  "cabin_noise_rating": 0.60,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": -0.60,
+  "adas_score": -0.80,
+  "visibility_rating": -0.20,
+  "headlight_rating": 0.40,
+  "security_rating": -0.40,
+  "screen_in": -0.80,
+  "infotainment_ux_rating": -0.70,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": 0.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": 0.40,
+  "convenience_feature_score": -0.30,
+  "brand_prestige_rating": -0.40,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": -0.50,
+  "interior_tech_focus_rating": -0.60
 }
 ```
-
-**Explanation of Ratings:**
-
-*   **price\_usd:** Rated 1.00. Used Vauxhall Signum Design models are available for around £2,000 - £2,600 (Source 11, 12, 28, 38), which is extremely low compared to the average new car price of $35,000.
-*   **total\_cost\_estimate\_5yr\_usd:** Rated 0.00. Estimating the total 5-year cost for a discontinued model from 2003-2008 against today's market is difficult. While the purchase price is low, potential age-related maintenance and repairs could increase costs. Defaulting to average.
-*   **insurance\_usd\_yr:** Rated 0.50. The Vauxhall Signum Design typically falls into UK Insurance Groups 21-25 (Source 6, 12), which is below the average insurance group for many new vehicles today, suggesting lower relative insurance costs.
-*   **maint\_usd\_yr:** Rated 0.00. No specific data found for average annual maintenance costs compared to today's market. While parts are generally affordable, age can increase frequency of repairs. Defaulting to average.
-*   **repair\_risk\_score:** Rated -0.20. The Signum has some known potential issues, particularly with certain engines (like swirl flaps on some diesels) and general age-related wear (Source 5). While not notoriously unreliable, it's not considered as bulletproof as the most reliable modern cars.
-*   **hp:** Rated -0.50. Common engines in the Design trim include the 1.9 CDTi 150PS (148 bhp) and 2.2 Direct (155PS) (Source 4, 35, 39). Using 148-155 bhp as representative, this is significantly below the average horsepower of new cars available today (~200 hp).
-*   **torque:** Rated 0.00. The 1.9 CDTi 150PS produces 320 Nm (~236 lb-ft) and the 2.2 Direct produces 220 Nm (~162 lb-ft) (Source 4, 20, 35). Averaging these or considering the higher diesel torque, it's around the average torque figure for non-performance engines in today's market.
-*   **cylinder\_count:** Rated 0.00. Common engines are 4-cylinder (Source 4, 35), which is very common and represents the market average.
-*   **engine\_displacement:** Rated 0.00. Common engines are 1.9L and 2.2L (Source 4, 35), which are around the average displacement for non-performance engines today.
-*   **accel\_0\_60\_sec:** Rated -0.50. 0-60 mph times for common engines are around 9.5-10.8 seconds (Source 4, 17, 20, 35), which is slow compared to the average new car today (~7.5 seconds).
-*   **top\_speed:** Rated -0.20. Top speeds are around 125-130 mph (Source 4, 17, 20, 35), which is below the average top speed of new cars today (~150 mph).
-*   **drive\_type:** Rated -1.00. Front-wheel drive is the least performance-oriented and capable drive type compared to RWD or AWD.
-*   **transmission\_type:** Rated 0.00. Both manual (6-speed) and automatic (6-speed auto available on some engines) transmissions were offered (Source 4, 17, 39), placing it at the market average according to the guide's scale.
-*   **offroad\_ability:** Rated 1.00. As a low-riding FWD vehicle, it has extremely poor off-road ability, aligning with the guide's +1.00 example (McLaren 540c).
-*   **braking\_dist\_ft:** Rated 0.00. No specific data found for braking distance, defaulting to average.
-*   **size:** Rated 0.00. Its length of 4651mm (Source 4, 35) is close to the guide's average example (Honda Civic ~4.6m).
-*   **wheelbase:** Rated 0.20. At 2830mm (Source 4, 9, 13, 35), its wheelbase is longer than the guide's average (Skoda Octavia ~2.7m), contributing to good interior space.
-*   **body\_style:** Rated 0.20. A 5-door hatchback/estate-like body (Source 4, 9, 35) offers more practicality than a 4-door sedan (0.00) but less than a van (+1.00).
-*   **seats:** Rated -0.50. While having 5 seatbelts, the rear seating is optimized for two with a less comfortable middle seat, making it less versatile than a standard 5-seater (0.00) (Source 7, 8, 10, 13, 40).
-*   **cargo\_space:** Rated -0.20. The boot space of 365 liters (Source 4, 10, 14, 17, 26, 34, 41) is below the average for a modern car of its size and body style (~15 cu ft = ~425 liters).
-*   **rear\_space:** Rated 0.50. Reviews consistently highlight the generous rear legroom due to the long wheelbase (Source 4, 7, 8, 13, 27, 36, 39), rating it above average.
-*   **ground\_clearance\_in:** Rated -0.50. At approximately 150mm (~5.9 inches) (Source 4), it's below the guide's average for compact crossovers (~6.5 inches).
-*   **turn\_radius\_ft:** Rated 0.00. No specific data found for turning radius, defaulting to average.
-*   **mpg:** Rated 0.50. Combined MPG figures for common engines are around 31-47 mpg (UK) (Source 4, 6, 17, 21, 22, 35), which is good compared to the guide's 30 mpg average for petrol cars.
-*   **co2\_g\_km:** Rated -0.10. CO2 emissions for common engines are around 159-199 g/km (Source 4, 21, 23, 30, 35), which is around or slightly above the guide's average (175 g/km).
-*   **electric\_range\_mi:** Rated -1.00. This is a petrol/diesel vehicle, not electric.
-*   **charge\_speed\_kw:** Rated -1.00. This is a petrol/diesel vehicle, not electric.
-*   **style\_sleek\_vs\_boxy:** Rated 0.00. It has a distinctive but not extreme profile, neither particularly sleek nor boxy, placing it near the average.
-*   **style\_aggression\_rating:** Rated 0.00. The design is not aggressive or sporty.
-*   **style\_modernity\_rating:** Rated -0.80. Designed in the early 2000s and facelifted in 2005, its styling is clearly dated compared to modern vehicles.
-*   **handling\_rating:** Rated -0.50. Reviews indicate handling is safe and predictable but not engaging, with some body roll, placing it below average compared to cars known for good handling (Source 5, 8, 15, 31).
-*   **ride\_comfort\_rating:** Rated 0.50. Reviews often praise its comfortable ride, especially on motorways (Source 5, 7, 8, 15, 31), rating it above average.
-*   **cabin\_noise\_rating:** Rated 0.50. Reviews note good suppression of wind, road, and engine noise for its class and era (Source 7, 8), rating it above average for quietness compared to many modern mainstream cars.
-*   **shift\_smooth\_rating:** Rated 0.00. No specific strong praise or criticism for the automatic transmission's smoothness was found, defaulting to average.
-*   **steering\_feel\_rating:** Rated 0.00. Reviews did not highlight steering feel positively or negatively, defaulting to average.
-*   **adas\_score:** Rated -0.80. Features are limited to basic electronic aids (ABS, TC, ESP on Design/Elite) (Source 8, 10, 31) and lack modern ADAS like adaptive cruise control, lane keeping assist, or blind-spot monitoring, placing it well below average.
-*   **visibility\_rating:** Rated -0.10. Forward visibility is generally good, but rear visibility is noted as less so due to the design (Source 7), placing it slightly below average.
-*   **headlight\_rating:** Rated 0.20. Adaptive xenon headlights were available on higher trims like Design (Source 5, 16, 39) and were considered good for their time, rating slightly above average compared to basic modern halogen or projector LED headlights.
-*   **security\_rating:** Rated -0.50. Basic alarm, immobiliser, and remote central locking were standard (Source 8, 10, 39) but it lacks the advanced security features common on many modern cars.
-*   **screen\_in:** Rated -0.80. The available screen for infotainment/sat-nav was a 5-inch monochromatic display as standard, with an optional colour screen (Source 3, 25, 39). Both are small by today's standards, well below average (modern average ~8", guide example 17"). Aftermarket 7" Android units exist (Source 19, 37), but the factory option was smaller.
-*   **infotainment\_ux\_rating:** Rated -0.50. While functional for its time, the system is dated and less intuitive or responsive than modern interfaces (Source 5, 39), placing it below average.
-*   **smartphone\_connect\_rating:** Rated -1.00. No smartphone integration like Apple CarPlay or Android Auto was available from the factory.
-*   **audio\_rating:** Rated 0.00. A 7-speaker or 9-speaker system was available (Source 25) and reviewed positively for its time, placing it around the average for basic modern systems.
-*   **usb\_ports:** Rated -1.00. USB ports were not standard features in cars of this era.
-*   **comfort\_feature\_score:** Rated 0.20. Features like dual-zone climate control (ECC), heated seats, and highly adjustable/reclining rear seats were available on Design/Elite trims (Source 3, 10, 16, 40) and were good for its time, offering decent comfort compared to basic modern cars.
-*   **convenience\_feature\_score:** Rated -0.50. Features like cruise control and parking sensors were available (Source 3, 10, 24, 39) but it lacks the range of convenience tech common today (e.g., 360° cameras, keyless entry/start on all trims, auto-parking). The optional 'Travel Assistant' added some unique convenience features for rear passengers (Source 16, 40).
-*   **brand\_prestige\_rating:** Rated -0.50. Vauxhall is a mainstream, non-premium brand.
-*   **model\_prestige\_rating:** Rated 0.00. Positioned in the upper-mainstream segment, it was not an entry-level model but also not a halo or top-tier executive car, placing it around the market average in terms of model hierarchy (Source 9, 13).
-*   **trim\_prestige\_rating:** Rated 0.20. 'Design' was a mid-to-high trim level in the Signum range, above Elegance/Exclusiv but below Elite (Source 3, 10, 39), placing it above base models.
-*   **interior\_luxury\_rating:** Rated -0.50. While materials were considered good for its time and class (Source 39), the interior does not compare to the luxury levels of modern premium or luxury vehicles.
-*   **interior\_tech\_focus\_rating:** Rated -0.80. The interior design is traditional with physical buttons and smaller screens, lacking the screen-dominated, minimalist approach of modern tech-focused interiors (Source 7, 39).

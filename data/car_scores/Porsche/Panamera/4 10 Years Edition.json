@@ -1,55 +1,219 @@
-```json
+Based on the search results for the 2020 Porsche Panamera 4 10 Years Edition:
+
+*   **Price:** Starting MSRP is around $107,500 - $108,850 USD (Source [7], [16], [32], [34]). This is well above the market average of $52,000, scoring low.
+*   **Total Cost Estimate 5yr:** Porsche maintenance and insurance are high (Source [10], [17], [18], [19]). While specific 5-year cost isn't found, it will be significantly above average.
+*   **Insurance USD/yr:** Porsche insurance is noted as high (Source [10]). Specific UK group or USD cost not found, but expected to be high.
+*   **Maint USD/yr:** Porsche maintenance is expensive, potentially $1000-$2000+ per year for routine, with higher costs for major services and tires (Source [10], [17], [18], [19]). This is above the $1000 average.
+*   **Repair Risk Score:** Panamera 971 generation is generally considered reliable for a Porsche, but still a complex luxury car (Source [19]). KBB consumer rating is high (4.9/5) (Source [13]). Better than average, but not Toyota/Lexus level.
+*   **HP:** 330 hp (Source [2], [7], [9], [11], [13], [27], [32], [34]). This is well above the 200 hp average.
+*   **Torque:** 330 lb-ft (Source [7], [23]). Some sources say 450 Nm (332 lb-ft) (Source [8], [20], [11]). Using ~330 lb-ft. This is well above the 190 lb-ft average.
+*   **Cylinder Count:** V6 (6 cylinders) (Source [2], [7], [8], [11], [13], [23], [27], [32], [34]). This is average.
+*   **Engine Displacement:** 2.9L or 3.0L V6 twin-turbo (Source [5], [7], [8], [11], [13], [23], [27], [32], [34]). Around 3.0L is average.
+*   **Accel 0-60 sec:** 5.3 - 5.4 seconds (Source [7], [9], [27]). This is significantly faster than the 7.5 sec average.
+*   **Top Speed:** 164 mph (Source [7], [9]). This is well above the 150 mph average.
+*   **Drive Type:** AWD (Panamera 4) (Source [5], [8], [9], [21]). This is average.
+*   **Transmission Type:** 8-speed PDK (Dual-Clutch) (Source [8], [11], [20], [24]). This is better than manual/sequential but arguably less smooth than a traditional automatic for comfort, though excellent for performance. Scoring slightly below +1.00.
+*   **Offroad Ability:** Low ground clearance (128-133mm / ~5 inches) (Source [5], [8], [20], [25], [31]), low-slung body. Poor off-road ability.
+*   **Braking Dist ft:** Not explicitly found, but Porsche performance brakes are expected to be excellent. Scoring high based on brand reputation and performance focus.
+*   **Size:** Length ~198.8 inches (5049mm) (Source [2], [5], [8], [20], [25], [31]), Width ~76.3 inches (1937mm) (Source [2], [5], [8], [20], [25], [31]). This is larger than a Civic (~4600mm) but not Hummer EV large. Above average.
+*   **Wheelbase:** 116.1 inches (2950mm) (Source [2], [5], [8], [20], [31]). This is longer than an Octavia (~2700mm) but not S-Class long. Above average.
+*   **Body Style:** 4-door Coupe/Hatchback/Sport Saloon (Source [5], [20], [21], [24], [28]). More practical than a 2-door coupe, less practical than a van. Slightly above average.
+*   **Seats:** 4 seats standard (Source [8], [13]), though some Panameras offer 4+1 seating (Source [28]). The 10 Years Edition often highlights the 4-seat configuration. Scoring slightly below average for seating capacity.
+*   **Cargo Space:** 17.6 cu ft (500 litres) (Source [3], [8], [13], [20]). This is good for a sedan/coupe body style, above the Civic average.
+*   **Rear Space:** Generous rear-seat space noted (Source [3]). Likely above average for a non-Executive model.
+*   **Ground Clearance in:** 128-133mm (~5 inches) (Source [5], [8], [20], [25], [31]). This is below the compact crossover average.
+*   **Turn Radius ft:** Not explicitly found, but larger size and performance tuning suggest not exceptionally tight. Likely average or slightly below.
+*   **MPG:** 19 City / 27 Highway / 22 Combined (Source [7], [13], [23], [27]). Some sources show 11.9 kmpl (~28 mpg) (Source [8]), 7.6L/100km (~31 mpg) (Source [20]), or 24.6-26.9 mpg (Source [6]). Using the 22 mpg combined figure, this is below the 30 mpg average.
+*   **CO2 g/km:** 173-201 g/km (Source [6], [20], [22], [21]). This is around or slightly above the 175 g/km average.
+*   **Electric Range mi:** Not an EV or standard PHEV (though a 4 E-Hybrid 10 Years Edition exists, the user specified '4', not '4 E-Hybrid'). This model is gasoline only. Score -1.00.
+*   **Charge Speed kw:** Not applicable (Gasoline). Score -1.00.
+*   **Style Sleek vs Boxy:** Panamera has a sleek, coupe-like profile. High score.
+*   **Style Aggression Rating:** Porsche design is sporty and aggressive. High score.
+*   **Style Modernity Rating:** Modern Porsche design language. High score.
+*   **Handling Rating:** Porsche is renowned for handling. Adaptive air suspension and PASM standard on 10 Years Edition (Source [6], [24], [26], [32]). Excellent handling.
+*   **Ride Comfort Rating:** Adaptive air suspension standard (Source [6], [24], [26], [32]), noted for balancing sportiness and comfort (Source [3], [26]). Above average comfort for a sporty car.
+*   **Cabin Noise Rating:** Luxury sedan with focus on comfort, but also a sports car. Likely quieter than average, but not Lexus ES silent. Above average.
+*   **Shift Smooth Rating:** 8-speed PDK is excellent for performance, generally smooth but can be slightly less so than a torque converter auto at low speeds. High score, but maybe not perfect +1.00.
+*   **Steering Feel Rating:** Porsche steering is typically highly rated for feel and precision. High score.
+*   **ADAS Score:** Includes Lane Change Assist, Lane Keep Assist, ParkAssist with Surround View, LED Matrix headlights with PDLS Plus as standard on 10 Years Edition (Source [9], [16], [32]). Good suite of features, above average.
+*   **Visibility Rating:** Coupe-like roofline can impact rear visibility. Likely average.
+*   **Headlight Rating:** LED Matrix headlights with PDLS Plus standard (Source [9], [16], [24], [32]). Excellent headlights.
+*   **Security Rating:** Luxury car with expected security features. Likely above average.
+*   **Screen in:** Features a digitized cockpit and PCM (Source [6]). Likely large central screen, similar to other Panameras of this generation. Around 12.3 inches is typical. Above average.
+*   **Infotainment UX Rating:** Digitized cockpit and operating concept (Source [6]). Car and Driver notes the touch-sensitive controls can be fussy but you get used to them (Source [3]). Good overall, but maybe not perfect. Above average.
+*   **Smartphone Connect Rating:** Bluetooth, iPod connector, Hands free phone, Internet Access, Mobile hotspot mentioned (Source [13], [23]). Expected to have Apple CarPlay/Android Auto. High score.
+*   **Audio Rating:** BOSE Surround Sound System standard (Source [2], [9], [16], [29], [32], [33]). High-quality system. High score.
+*   **USB Ports:** Not explicitly detailed, but expected to have multiple ports in a modern luxury car. Assuming average or slightly above.
+*   **Comfort Feature Score:** 14-way power heated front seats with memory standard, heated rear seats, ventilated front seats, heated steering wheel, dual-zone climate control (Source [2], [9], [13], [16], [29], [32], [33]). Excellent comfort features. High score.
+*   **Convenience Feature Score:** Comfort Access (keyless entry), Soft Close Doors, ParkAssist with Surround View, Lane Change Assist, Lane Keep Assist standard (Source [2], [9], [16], [24], [29], [32], [33]). Excellent convenience features. High score.
+*   **Brand Prestige Rating:** Porsche is a high-prestige brand. High score.
+*   **Model Prestige Rating:** Panamera is a high-end model within the Porsche lineup, but not the halo 911 or hypercar. Mid-to-high prestige.
+*   **Trim Prestige Rating:** "10 Years Edition" is a special edition, adding features and exclusivity, but not a top performance trim like GTS or Turbo. Mid-range prestige.
+*   **Interior Luxury Rating:** Black partial leather with decorative stitching in White Gold, high-tech center console, quality materials expected (Source [3], [16]). High luxury.
+*   **Interior Tech Focus Rating:** Digitized cockpit, large screen, touch controls, advanced ADAS (Source [3], [6], [9], [16], [32]). High tech focus.
+
+Refining scores based on findings:
+*   Price: ~$108k is significantly >$52k, but not >$120k. Score -0.80 seems appropriate.
+*   Total Cost: High maintenance/insurance/depreciation expected. >$80k over 5 years is likely. Score -0.80.
+*   Insurance: High risk/cost. Score -0.70.
+*   Maintenance: $1000-$2000+ annual routine + tires/major. >$1000 average. Score -0.70.
+*   Repair Risk: KBB 4.9/5 reliability (Source [13]), generally solid 971 generation (Source [19]). Better than average (0.00), but not perfect (+1.00). Score 0.50.
+*   HP: 330 hp is well above 200 hp, but not 700+. Score 0.70.
+*   Torque: ~330 lb-ft is well above 190 lb-ft, but not 1000+. Score 0.70.
+*   Cylinder Count: 6 is average. Score 0.00.
+*   Engine Displacement: ~3.0L is average. Score 0.00.
+*   0-60: 5.3-5.4s is much faster than 7.5s, but not <2.5s. Score 0.80.
+*   Top Speed: 164 mph is above 150 mph, but not >222mph. Score 0.70.
+*   Drive Type: AWD is average. Score 0.00.
+*   Transmission: PDK is excellent performance DCT. Score 0.50 (balancing performance benefit vs potential low-speed smoothness vs traditional auto).
+*   Offroad: ~5 inches clearance is low. Score -0.80.
+*   Braking: High performance expected. Score 0.80.
+*   Size: ~199 inches length is large. Score 0.50.
+*   Wheelbase: ~116 inches is long. Score 0.60.
+*   Body Style: 4-door hatchback/coupe. More practical than 2-door, less than van. Score 0.10.
+*   Seats: 4 seats standard. Below 5-seat average. Score -0.20.
+*   Cargo: 17.6 cu ft is good for the class. Above 15 cu ft average. Score 0.30.
+*   Rear Space: Noted as generous. Above 35" average. Score 0.40.
+*   Ground Clearance: ~5 inches is low. Score -0.80.
+*   Turn Radius: Not found, but large car. Assume average or slightly below. Score -0.10.
+*   MPG: ~22 mpg combined is below 30 mpg average. Score -0.30.
+*   CO2: ~173-201 g/km is around 175 g/km average. Score 0.00.
+*   Electric Range: Gasoline only. Score -1.00.
+*   Charge Speed: N/A. Score -1.00.
+*   Style Sleek/Boxy: Very sleek. Score 0.80.
+*   Style Aggression: Sporty Porsche design. Score 0.70.
+*   Style Modernity: Modern design. Score 0.70.
+*   Handling: Porsche excellence, adaptive suspension. Score 0.90.
+*   Ride Comfort: Adaptive suspension, noted comfort. Score 0.60.
+*   Cabin Noise: Luxury car, likely quiet. Score 0.50.
+*   Shift Smoothness: PDK is smooth for a DCT. Score 0.70.
+*   Steering Feel: Porsche excellence. Score 0.90.
+*   ADAS: Good standard suite for the trim. Score 0.60.
+*   Visibility: Coupe shape likely impacts rear. Score 0.00.
+*   Headlights: LED Matrix w/PDLS Plus. Score 0.80.
+*   Security: Luxury car features. Score 0.50.
+*   Screen: Large central screen. Score 0.70.
+*   Infotainment UX: Advanced but touch controls can be fussy. Score 0.60.
+*   Smartphone Connect: Expected full suite. Score 0.80.
+*   Audio: BOSE standard. Score 0.70.
+*   USB Ports: Not specified, assume average. Score 0.00.
+*   Comfort Features: Excellent standard features for the trim. Score 0.80.
+*   Convenience Features: Excellent standard features for the trim. Score 0.80.
+*   Brand Prestige: Porsche. Score 0.90.
+*   Model Prestige: Panamera is high-end but not 911. Score -0.50 (using the guide's inverse scale for model prestige).
+*   Trim Prestige: Special edition, adds features, but not top performance. Score 0.00 (using the guide's inverse scale for trim prestige).
+*   Interior Luxury: High quality materials, special stitching. Score 0.80.
+*   Interior Tech Focus: Digitized cockpit, large screen, ADAS. Score 0.80.
+
+Let's double check the Model Prestige and Trim Prestige scoring guide.
+Model Prestige: -1.00 (Top of brand/halo), 0.00 (Middle), +1.00 (Entry Level). Panamera is high-end, but not the 911 halo. It's above entry-level Macan/Cayenne/718. It sits below 911/Taycan Turbo S/Cayenne Turbo GT. It's arguably upper-middle/high. So, closer to -1.00 than 0.00. Let's say -0.50.
+Trim Prestige: -1.00 (Top Trims), 0.00 (Good Trim), +1.00 (Base Models). The 10 Years Edition is based on the Panamera 4, which is above the base RWD Panamera but below the 4S, GTS, Turbo trims. It adds features making it a "Good Trim" or slightly better than base 4. Score 0.00 seems appropriate.
+
+Final review of scores based on the guide and search results. Adjusting a few slightly based on the specific data found for the 10 Years Edition.
+*   Price: $107k+ is definitely closer to the >$120k (-1.00) than $52k (0.00). -0.80 seems right.
+*   Total Cost: High end luxury car, high costs expected. -0.80.
+*   Insurance: High. -0.70.
+*   Maintenance: High. -0.70.
+*   Repair Risk: Good for a Porsche, KBB high rating. 0.50.
+*   HP: 330 is strong. 0.70.
+*   Torque: 330-332 is strong. 0.70.
+*   Cylinders: 6 is average. 0.00.
+*   Displacement: ~3.0L is average. 0.00.
+*   0-60: 5.3-5.4s is fast. 0.80.
+*   Top Speed: 164 mph is good. 0.70.
+*   Drive Type: AWD is average. 0.00.
+*   Transmission: 8-speed PDK. 0.50.
+*   Offroad: Low clearance. -0.80.
+*   Braking: High performance. 0.80.
+*   Size: Large. 0.50.
+*   Wheelbase: Long. 0.60.
+*   Body Style: 4-door hatchback. 0.10.
+*   Seats: 4 standard. -0.20.
+*   Cargo: 17.6 cu ft. 0.30.
+*   Rear Space: Generous. 0.40.
+*   Ground Clearance: Low. -0.80.
+*   Turn Radius: Assume average/slightly below for size. -0.10.
+*   MPG: Below average. -0.30.
+*   CO2: Around average. 0.00.
+*   Electric Range: N/A. -1.00.
+*   Charge Speed: N/A. -1.00.
+*   Style Sleek/Boxy: Very sleek. 0.80.
+*   Style Aggression: Sporty. 0.70.
+*   Style Modernity: Modern. 0.70.
+*   Handling: Excellent. 0.90.
+*   Ride Comfort: Good for a sporty car. 0.60.
+*   Cabin Noise: Good. 0.50.
+*   Shift Smoothness: Good. 0.70.
+*   Steering Feel: Excellent. 0.90.
+*   ADAS: Good standard suite. 0.60.
+*   Visibility: Average. 0.00.
+*   Headlights: Excellent. 0.80.
+*   Security: Good. 0.50.
+*   Screen: Large. 0.70.
+*   Infotainment UX: Good but fussy controls noted. 0.60.
+*   Smartphone Connect: Expected full suite. 0.80.
+*   Audio: BOSE standard. 0.70.
+*   USB Ports: Assume average. 0.00.
+*   Comfort Features: Excellent standard features. 0.80.
+*   Convenience Features: Excellent standard features. 0.80.
+*   Brand Prestige: Porsche. 0.90.
+*   Model Prestige: Upper-middle/high. -0.50.
+*   Trim Prestige: Special edition based on Panamera 4, adds features. 0.00.
+*   Interior Luxury: High quality. 0.80.
+*   Interior Tech Focus: High tech. 0.80.
+
+Looks consistent with the data found and the scoring guide.```json
 {
-  "price_usd": -1.00,
-  "total_cost_estimate_5yr_usd": -1.00,
-  "insurance_usd_yr": -1.00,
-  "maint_usd_yr": -1.00,
-  "repair_risk_score": 0.00,
-  "hp": 0.50,
-  "torque": 0.50,
+  "price_usd": -0.80,
+  "total_cost_estimate_5yr_usd": -0.80,
+  "insurance_usd_yr": -0.70,
+  "maint_usd_yr": -0.70,
+  "repair_risk_score": 0.50,
+  "hp": 0.70,
+  "torque": 0.70,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.75,
-  "top_speed": 0.50,
+  "accel_0_60_sec": 0.80,
+  "top_speed": 0.70,
   "drive_type": 0.00,
-  "transmission_type": 0.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
+  "transmission_type": 0.50,
+  "offroad_ability": -0.80,
+  "braking_dist_ft": 0.80,
   "size": 0.50,
-  "wheelbase": 0.50,
-  "body_style": 0.00,
-  "seats": -0.25,
-  "cargo_space": 0.25,
-  "rear_space": 0.50,
-  "ground_clearance_in": -0.50,
-  "turn_radius_ft": -0.25,
-  "mpg": -0.50,
-  "co2_g_km": -0.25,
+  "wheelbase": 0.60,
+  "body_style": 0.10,
+  "seats": -0.20,
+  "cargo_space": 0.30,
+  "rear_space": 0.40,
+  "ground_clearance_in": -0.80,
+  "turn_radius_ft": -0.10,
+  "mpg": -0.30,
+  "co2_g_km": 0.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.75,
-  "style_aggression_rating": 0.75,
-  "style_modernity_rating": 0.75,
-  "handling_rating": 1.00,
-  "ride_comfort_rating": 0.75,
-  "cabin_noise_rating": 0.75,
-  "shift_smooth_rating": 0.75,
-  "steering_feel_rating": 1.00,
-  "adas_score": 0.75,
+  "style_sleek_vs_boxy": 0.80,
+  "style_aggression_rating": 0.70,
+  "style_modernity_rating": 0.70,
+  "handling_rating": 0.90,
+  "ride_comfort_rating": 0.60,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.70,
+  "steering_feel_rating": 0.90,
+  "adas_score": 0.60,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.75,
-  "security_rating": 0.00,
-  "screen_in": 0.75,
-  "infotainment_ux_rating": 0.75,
-  "smartphone_connect_rating": 1.00,
-  "audio_rating": 0.75,
+  "headlight_rating": 0.80,
+  "security_rating": 0.50,
+  "screen_in": 0.70,
+  "infotainment_ux_rating": 0.60,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.70,
   "usb_ports": 0.00,
-  "comfort_feature_score": 0.75,
-  "convenience_feature_score": 0.75,
-  "brand_prestige_rating": 1.00,
-  "model_prestige_rating": -0.75,
-  "trim_prestige_rating": 0.25,
-  "interior_luxury_rating": 0.75,
-  "interior_tech_focus_rating": 0.75
+  "comfort_feature_score": 0.80,
+  "convenience_feature_score": 0.80,
+  "brand_prestige_rating": 0.90,
+  "model_prestige_rating": -0.50,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.80,
+  "interior_tech_focus_rating": 0.80
 }
 ```

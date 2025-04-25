@@ -1,108 +1,55 @@
 ```json
 {
   "price_usd": -0.80,
-  "total_cost_estimate_5yr_usd": -0.60,
-  "insurance_usd_yr": -0.50,
+  "total_cost_estimate_5yr_usd": -0.50,
+  "insurance_usd_yr": -0.70,
   "maint_usd_yr": -0.60,
-  "repair_risk_score": 0.20,
-  "hp": 0.60,
-  "torque": 0.50,
-  "cylinder_count": 0.40,
-  "engine_displacement": 0.40,
-  "accel_0_60_sec": 0.60,
-  "top_speed": 0.50,
-  "drive_type": 1.00,
-  "transmission_type": 1.00,
+  "repair_risk_score": -0.20,
+  "hp": 0.30,
+  "torque": 0.40,
+  "cylinder_count": 0.30,
+  "engine_displacement": 0.10,
+  "accel_0_60_sec": 0.50,
+  "top_speed": 0.10,
+  "drive_type": 0.20,
+  "transmission_type": 0.80,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
+  "braking_dist_ft": 0.30,
   "size": 0.60,
-  "wheelbase": 0.60,
-  "body_style": 0.00,
+  "wheelbase": 0.40,
+  "body_style": -0.50,
   "seats": 0.00,
-  "cargo_space": -0.40,
-  "rear_space": 0.00,
-  "ground_clearance_in": -0.60,
-  "turn_radius_ft": -0.30,
-  "mpg": -0.40,
+  "cargo_space": 0.10,
+  "rear_space": -0.20,
+  "ground_clearance_in": -0.30,
+  "turn_radius_ft": -0.10,
+  "mpg": -0.30,
   "co2_g_km": -0.40,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.70,
-  "style_aggression_rating": 0.50,
-  "style_modernity_rating": 0.30,
-  "handling_rating": 0.40,
-  "ride_comfort_rating": 0.70,
+  "style_aggression_rating": 0.40,
+  "style_modernity_rating": 0.20,
+  "handling_rating": 0.60,
+  "ride_comfort_rating": 0.40,
   "cabin_noise_rating": 0.70,
   "shift_smooth_rating": 0.80,
-  "steering_feel_rating": 0.30,
-  "adas_score": 0.00,
+  "steering_feel_rating": -0.30,
+  "adas_score": 0.40,
   "visibility_rating": -0.30,
-  "headlight_rating": 0.40,
-  "security_rating": 0.50,
-  "screen_in": 0.20,
-  "infotainment_ux_rating": 0.40,
-  "smartphone_connect_rating": 0.00,
+  "headlight_rating": 0.50,
+  "security_rating": 0.20,
+  "screen_in": 0.40,
+  "infotainment_ux_rating": 0.70,
+  "smartphone_connect_rating": 0.30,
   "audio_rating": 0.60,
   "usb_ports": 0.00,
   "comfort_feature_score": 0.70,
   "convenience_feature_score": 0.60,
-  "brand_prestige_rating": 0.80,
-  "model_prestige_rating": -0.60,
+  "brand_prestige_rating": 0.70,
+  "model_prestige_rating": -0.20,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.80,
-  "interior_tech_focus_rating": 0.10
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": 0.30
 }
 ```
-**Evaluation Reasoning:**
-
-*   `price_usd`: The 2018 BMW 640i Gran Coupe had an MSRP starting around $80,000, with the 650i significantly higher. This is well above the market average of $35,000, placing it firmly in the negative range according to the scoring guide.
-*   `total_cost_estimate_5yr_usd`: As a luxury BMW, the 6 Series Gran Coupe has high initial cost, likely above-average depreciation, maintenance, and insurance costs, pushing its 5-year ownership cost well above the $40,000 average.
-*   `insurance_usd_yr`: Luxury vehicles, especially those with higher performance and repair costs like a BMW 6 Series, typically fall into higher insurance groups, resulting in costs above the $1,500 average.
-*   `maint_usd_yr`: BMWs are known for having higher maintenance costs than average mainstream vehicles. While not the absolute highest, they are well above the $750 benchmark.
-*   `repair_risk_score`: BMW's reliability is generally considered average to slightly above average, not reaching the top tier of brands like Toyota or Lexus, but also not as problematic as brands scoring -1.00. KBB owner ratings show a 4.6/5 for reliability, suggesting above average.
-*   `hp`: The base 640i offers 315 hp, and the 650i offers 445 hp. Both are significantly above the 200 hp market average.
-*   `torque`: The 640i provides 330 lb-ft and the 650i 480 lb-ft. These figures are well above the 190 lb-ft average.
-*   `cylinder_count`: The 640i has a 6-cylinder engine, and the 650i has an 8-cylinder. Both are above the common 4-cylinder average.
-*   `engine_displacement`: The 640i has a 3.0L engine, and the 650i has a 4.4L. Both are larger than the typical market average displacement.
-*   `accel_0_60_sec`: The 640i achieves 0-60 mph in around 5.4 seconds, and the 650i is around 4.5 seconds. Both are considerably faster than the 7.5-second average.
-*   `top_speed`: While likely electronically limited, the top speed is well above the 150 mph average for standard cars, fitting into the positive range.
-*   `drive_type`: Rear-wheel drive was standard on the 640i and 650i, which scores +1.00 according to the guide. AWD (xDrive) was optional.
-*   `transmission_type`: The 8-speed automatic transmission is smooth and modern, scoring +1.00.
-*   `offroad_ability`: This vehicle has low ground clearance and is not designed for off-road use, scoring +1.00 as per the inverted scale for poor ability.
-*   `braking_dist_ft`: No specific braking distance figures were readily available in the search results. Defaulting to 0.00.
-*   `size`: With a length of around 197 inches (5009mm), it is a large vehicle, exceeding the 4600mm average.
-*   `wheelbase`: The wheelbase is around 117 inches (2969mm), longer than the 2700mm average.
-*   `body_style`: It is a 4-door coupe/sedan, which aligns with the 0.00 benchmark.
-*   `seats`: It is listed as having 5 seats, which is the market average.
-*   `cargo_space`: The trunk space is 13.0 cu ft, which is below the 15 cu ft average for a Honda Civic and significantly less than larger vehicles.
-*   `rear_space`: Rear legroom is around 35.3 inches, which is close to the 35-inch average. However, rear headroom is limited due to the roofline. Using the legroom number for the score.
-*   `ground_clearance_in`: Ground clearance is around 5 inches, which is lower than the 6.5-inch average for compact crossovers, but not as low as a dedicated sports car.
-*   `turn_radius_ft`: The turning radius is around 39.2 ft, which is larger than the 36 ft average for a midsize sedan.
-*   `mpg`: The combined MPG is 23 mpg for the 640i RWD and 20 mpg for the 650i RWD, both below the 30 mpg market average.
-*   `co2_g_km`: With below-average MPG and a gasoline engine, CO2 emissions will be higher than average.
-*   `electric_range_mi`: This is a gasoline-powered vehicle, so it has no electric range.
-*   `charge_speed_kw`: This is a gasoline-powered vehicle, so this metric is not applicable.
-*   `style_sleek_vs_boxy`: The Gran Coupe body style is explicitly designed to be sleek and coupe-like, scoring high on this scale.
-*   `style_aggression_rating`: The design features aggressive elements like a prominent grille and sleek lines, giving it an above-average aggression rating.
-*   `style_modernity_rating`: For a 2018 model, the design was modern and stylish, though not as avant-garde as some of the latest EV designs.
-*   `handling_rating`: Reviews indicate good handling for a large GT car, stable at speed with controlled body roll, but not the sharpest sports car handling.
-*   `ride_comfort_rating`: Reviews consistently praise the comfortable ride quality, suitable for grand touring.
-*   `cabin_noise_rating`: The cabin is noted as being quiet and well-insulated, contributing to its grand touring nature.
-*   `shift_smooth_rating`: The 8-speed automatic transmission is widely praised for its smooth and seamless shifts.
-*   `steering_feel_rating`: Steering is described as responsive, though perhaps heavier than some modern electric systems, providing decent feel for a luxury car.
-*   `adas_score`: The 2018 model offered several ADAS features (adaptive cruise, blind-spot, lane departure) but lacked the full suite and advanced capabilities of the top systems available today.
-*   `visibility_rating`: Rear visibility is noted as being somewhat restricted due to the sloping roofline.
-*   `headlight_rating`: Standard adaptive Xenon or available LED headlights provided good illumination for the time.
-*   `security_rating`: As a luxury vehicle, it comes equipped with standard security features like alarms and immobilizers, likely above basic levels.
-*   `screen_in`: The standard 10.2-inch infotainment screen was large and high-resolution for a 2018 vehicle, though average compared to today's largest screens.
-*   `infotainment_ux_rating`: BMW's iDrive system (version 6.0) in 2018 was generally well-regarded for its usability, though some found it complex initially. It was better than systems scoring -1.00.
-*   `smartphone_connect_rating`: Apple CarPlay was available (often optional), but Android Auto was not supported, and wireless connectivity wasn't standard across the board compared to today's market.
-*   `audio_rating`: A good standard audio system was included, with excellent premium options (Harman Kardon, Bang & Olufsen) available.
-*   `usb_ports`: At least one USB port was standard, but the total number might be average compared to modern vehicles with multiple ports in each row.
-*   `comfort_feature_score`: Standard features included heated power seats, dual-zone climate, and leather. Optional features like ventilated, massaging, and multi-way adjustable seats, heated rear seats, and steering wheel provided a high level of comfort.
-*   `convenience_feature_score`: Features like navigation, rearview camera, parking sensors, keyless entry, power trunk, available soft-close doors, HUD, wireless charging, and Wi-Fi hotspot provided a high level of convenience features for 2018.
-*   `brand_prestige_rating`: BMW is a well-established, high-prestige luxury brand.
-*   `model_prestige_rating`: The 6 Series was positioned above the 5 Series, representing a higher tier within BMW's lineup, but not the absolute flagship like the 7 Series or 8 Series (which replaced the 6). Compared to the guide's examples, it fits somewhere in the middle/upper-middle of the brand's range. The guide's scale is inverted for this metric (-1.00 is top, +1.00 is entry), so a higher model line scores negatively.
-*   `trim_prestige_rating`: This rating varies significantly by trim (base 640i vs. 650i vs. Alpina B6). Without specifying a trim, a neutral 0.00 is appropriate.
-*   `interior_luxury_rating`: The interior used high-quality materials like leather and wood/carbon fiber trim, with excellent fit and finish, providing a luxurious environment.
-*   `interior_tech_focus_rating`: While featuring a large screen and iDrive, the interior design was less dominated by screens and digital interfaces compared to the most modern luxury vehicles, balancing traditional luxury with technology.

@@ -1,109 +1,55 @@
-Based on the search results, here's the data and scoring:
-
-*   **price_usd**: New price was around £36,420 - £39,370 in 2006 (Source 2, 7). Carsales lists a new price of $80,835 AUD in 2008 (Source 8), which is significantly higher due to market/taxes. Using the UK price as a base and converting/considering it's a luxury vehicle, it was well above the average new car price of $35,000 USD. Score: -1.00.
-*   **total_cost_estimate_5yr_usd**: Mercedes-Benz, especially older diesel models, are known for high maintenance and potential repair costs. Combined with likely higher insurance and depreciation compared to average, the 5-year cost would be high. Score: -1.00.
-*   **insurance_usd_yr**: Insurance group 44A (Source 7, 17). This is a very high insurance group, indicating high cost. Score: -1.00.
-*   **maint_usd_yr**: Mercedes maintenance is generally expensive. Score: -1.00.
-*   **repair_risk_score**: Mercedes-Benz has an average to slightly below-average reliability reputation compared to top performers like Toyota/Lexus. Diesel engines can have specific issues as they age. Score: -0.50.
-*   **hp**: 188-190 HP (Source 2, 5, 6, 10, 17, 18, 21, 26). This is around the market average for a modern car (200 hp). Score: 0.00.
-*   **torque**: 324-325 lb-ft (440 Nm) (Source 2, 5, 6, 10, 15, 18, 21, 32). This is above average, especially for a diesel from that era. Score: 0.50.
-*   **cylinder_count**: V6 (Source 2, 5, 6, 10, 15, 17, 18, 32). 6 cylinders is above the modern average (mostly 4). Score: 0.50.
-*   **engine_displacement**: 3.0L (2987 cc) (Source 3, 5, 6, 10, 15, 16, 17, 18). 3.0L is above the modern average displacement. Score: 0.50.
-*   **accel_0_60_sec**: 9.2 - 9.8 seconds (Source 2, 3, 6, 10, 13, 15, 17, 18, 26). This is slower than the modern average of 7.5 seconds. Score: -0.50.
-*   **top_speed**: 130-131 mph (Source 2, 3, 5, 6, 15, 17, 21, 26). This is around the modern average top speed. Score: 0.00.
-*   **drive_type**: R280 CDI was available in RWD and 4MATIC (AWD) (Source 7, 8, 10, 12, 13, 20). Since both were offered, and AWD is common for this type of vehicle, score 0.00 (average).
-*   **transmission_type**: 7-speed Automatic (7G-Tronic) (Source 2, 3, 5, 6, 8, 10, 11, 12, 13, 15, 17, 20, 26). This was advanced for its time and generally smooth. Score: 1.00.
-*   **offroad_ability**: Based on the platform shared with M-Class/GL-Class and available AWD/air suspension (Source 11, 14), it has some capability beyond a standard car, but it's not a dedicated off-roader like a G-Class or Wrangler. Score: 0.00.
-*   **braking_dist_ft**: No specific data found. Default: 0.00.
-*   **size**: Length around 4922mm (SWB) or 5157mm (LWB) (Source 2, 5, 6, 9, 13, 15, 16, 30, 31). The R280 CDI was often SWB (Source 2, 7). Even SWB is large, LWB is very large. Score: 1.00.
-*   **wheelbase**: 2980mm (SWB) or 3215mm (LWB) (Source 4, 5, 6, 9, 13, 14, 15, 16, 20, 30, 31). SWB is above average, LWB is very long. Score: 1.00.
-*   **body_style**: Described as MPV, crossover, estate, wagon, or sports tourer (Source 2, 4, 6, 8, 11, 12, 13, 14, 15, 20, 26, 29). It's a blend, leaning towards MPV/wagon practicality. Score: 0.50.
-*   **seats**: Available with 5, 6, or 7 seats (Source 4, 7, 8, 9, 12, 14, 15, 20, 29). Offering 6 or 7 seats is above average. Score: 1.00.
-*   **cargo_space**: 550L (19.42 cu ft) min, 1950L (68.86 cu ft) max (Source 6, 15). 19.42 cu ft is above the average sedan (15 cu ft), and the max is very large. Score: 0.50 (average between sedan and large SUV/wagon).
-*   **rear_space**: Rear legroom is mentioned as "less generous than the R's still-hefty footprint would suggest" in SWB (Source 7), but LWB has significant rear space. Given the availability of LWB and the overall size, rear space is likely good, but maybe not S-Class level. Score: 0.50.
-*   **ground_clearance_in**: No specific data found. Based on it being a crossover/MPV on an SUV platform, likely average. Default: 0.00.
-*   **turn_radius_ft**: 11.7m - 12.4m (38.4 - 40.7 ft) (Source 6, 13, 15, 20). This is larger than the average sedan (36 ft). Score: -0.50.
-*   **mpg**: Official combined 30.4-31.7 UK mpg (25-26 US mpg) (Source 2, 5, 6, 15, 17, 26). Real MPG average around 27.7 UK mpg (Source 19). Some sources list higher (40.6 MPG UK, 183 g/km CO2 - Source 22, 23, but this seems optimistic or for a specific variant/test). Compared to a modern 30 mpg average, this is around average, but for a diesel, it might be slightly below what modern diesels achieve. Given the weight, it's not great. Score: -0.50.
-*   **co2_g_km**: 235-246 g/km (Source 2, 3, 5, 6, 15, 17, 21). This is significantly higher than the modern average (around 175 g/km) and far from EVs (0). Score: -1.00.
-*   **electric_range_mi**: Not electric. Score: -1.00.
-*   **charge_speed_kw**: Not electric. Score: -1.00.
-*   **style_sleek_vs_boxy**: Unique, rounded, wagon/MPV shape. Not particularly sleek or boxy. Score: 0.00.
-*   **style_aggression_rating**: Passive design. Score: -1.00.
-*   **style_modernity_rating**: Design is from the mid-2000s, looks dated now. Score: -1.00.
-*   **handling_rating**: Described as a "great wallowing beast" (Source 7), focused on comfort over handling. Score: -0.50.
-*   **ride_comfort_rating**: Mercedes is known for comfort, described as "beautifully damped and compliant" (Source 2). Score: 1.00.
-*   **cabin_noise_rating**: Engine is "exceptionally refined" and cabin is "well-insulated" (Source 2). Score: 1.00.
-*   **shift_smooth_rating**: 7-speed automatic described as "quick and smooth" (Source 2). Score: 0.50.
-*   **steering_feel_rating**: Steering is described as "direct" (Source 2), but often light in luxury vehicles. Given the size and comfort focus, likely not engaging. Score: -0.50.
-*   **adas_score**: Mid-2000s vehicle. Had basic electronic safety controls (ABS, ESP) (Source 2), cruise control, parking radar (Source 8, 20), but not modern ADAS suites. Score: -1.00.
-*   **visibility_rating**: Large vehicle, likely decent visibility. Score: 0.00.
-*   **headlight_rating**: Mid-2000s tech. Likely standard for the era. Score: 0.00.
-*   **security_rating**: Mercedes vehicles typically have good security for their time. Score: 0.00.
-*   **screen_in**: Infotainment screen was 6.5" (Source 11). Small by modern standards. Score: -1.00.
-*   **infotainment_ux_rating**: Mid-2000s COMAND system, functional but dated interface. Score: -1.00.
-*   **smartphone_connect_rating**: No modern smartphone connectivity. Score: -1.00.
-*   **audio_rating**: Mercedes offered decent audio systems. Score: 0.50.
-*   **usb_ports**: USB ports were not common in mid-2000s cars. Likely minimal or none. Score: -1.00.
-*   **comfort_feature_score**: Offered features like climate control, power seats, heated seats (Source 2, 8). Good for the era. Score: 0.50.
-*   **convenience_feature_score**: Offered cruise control, parking radar, power tailgate (Source 2, 8, 20). Average for a luxury vehicle of that time. Score: 0.00.
-*   **brand_prestige_rating**: Mercedes-Benz is a high-prestige brand. Score: 1.00.
-*   **model_prestige_rating**: The R-Class was not a halo car but was a luxury model. Score: 0.00.
-*   **trim_prestige_rating**: R280 CDI was an entry-level diesel trim for the R-Class (Source 2). Score: 1.00.
-*   **interior_luxury_rating**: Mercedes interiors are generally luxurious for their time, with leather options (Source 8). Score: 0.50.
-*   **interior_tech_focus_rating**: Interior tech was minimal compared to modern cars. Score: -1.00.
-
-Construct the JSON.```json
+```json
 {
-  "price_usd": -1.00,
-  "total_cost_estimate_5yr_usd": -1.00,
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": -0.50,
   "insurance_usd_yr": -1.00,
-  "maint_usd_yr": -1.00,
-  "repair_risk_score": -0.50,
-  "hp": 0.00,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.20,
+  "hp": -0.10,
   "torque": 0.50,
-  "cylinder_count": 0.50,
-  "engine_displacement": 0.50,
-  "accel_0_60_sec": -0.50,
-  "top_speed": 0.00,
+  "cylinder_count": 0.20,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.40,
+  "top_speed": -0.30,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "offroad_ability": 0.00,
+  "offroad_ability": -1.00,
   "braking_dist_ft": 0.00,
-  "size": 1.00,
-  "wheelbase": 1.00,
+  "size": 0.80,
+  "wheelbase": 0.50,
   "body_style": 0.50,
   "seats": 1.00,
-  "cargo_space": 0.50,
-  "rear_space": 0.50,
-  "ground_clearance_in": 0.00,
-  "turn_radius_ft": -0.50,
-  "mpg": -0.50,
-  "co2_g_km": -1.00,
+  "cargo_space": 1.00,
+  "rear_space": -0.30,
+  "ground_clearance_in": -0.30,
+  "turn_radius_ft": -0.20,
+  "mpg": 0.00,
+  "co2_g_km": -0.50,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": -1.00,
-  "style_modernity_rating": -1.00,
-  "handling_rating": -0.50,
-  "ride_comfort_rating": 1.00,
-  "cabin_noise_rating": 1.00,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": -0.80,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.80,
+  "cabin_noise_rating": 0.80,
   "shift_smooth_rating": 0.50,
-  "steering_feel_rating": -0.50,
-  "adas_score": -1.00,
-  "visibility_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": -0.70,
+  "visibility_rating": 0.80,
   "headlight_rating": 0.00,
   "security_rating": 0.00,
-  "screen_in": -1.00,
-  "infotainment_ux_rating": -1.00,
+  "screen_in": -0.70,
+  "infotainment_ux_rating": -0.70,
   "smartphone_connect_rating": -1.00,
-  "audio_rating": 0.50,
-  "usb_ports": -1.00,
-  "comfort_feature_score": 0.50,
-  "convenience_feature_score": 0.00,
-  "brand_prestige_rating": 1.00,
-  "model_prestige_rating": 0.00,
+  "audio_rating": 0.00,
+  "usb_ports": -0.80,
+  "comfort_feature_score": 0.30,
+  "convenience_feature_score": 0.20,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": -0.50,
   "trim_prestige_rating": 1.00,
-  "interior_luxury_rating": 0.50,
-  "interior_tech_focus_rating": -1.00
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": -0.80
 }
 ```

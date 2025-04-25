@@ -1,127 +1,55 @@
-The user is asking for an evaluation of the Mercedes-Benz W123 230 CE, the coupe version of the W123 series. I need to find the specifications for the 230 CE, focusing on the later fuel-injected 230CE (136 hp) as it's the "most recent" within the W123 range (1980-1985). I will then score each attribute based on the provided guide, comparing it to today's market.
-
-Based on the search results (Sources [2, 4, 5, 7, 8, 10, 17, 20, 27, 32]):
-- Engine: 2.3L Inline 4 (M102 E23)
-- Power: 136 hp (100 kW) @ 5100 rpm
-- Torque: 151 lb-ft (205 Nm) @ 3500 rpm
-- 0-60 mph: Around 10.1 - 11.7 seconds (varies slightly by source and transmission)
-- Top Speed: Around 109 - 112 mph (175-180 km/h)
-- Drive Type: Rear Wheel Drive (RWD)
-- Transmission: Available with 4-speed manual, 5-speed manual, or 4-speed automatic. I will use the automatic for the evaluation as it was a common option.
-- Dimensions: Length 4640 mm (182.7 in), Width 1786 mm (70.3 in), Height 1395 mm (54.9 in), Wheelbase 2710 mm (106.7 in)
-- Body Style: 2-door Coupe
-- Seats: 4
-- Cargo Space: 500 L (17.7 cu ft)
-- Fuel Consumption (Combined): Around 22.8 - 27.4 mpg (varies by source and transmission)
-- CO2 Emissions: Not readily available in g/km for this era, but expected to be high for a petrol engine of this age.
-- Price (Used): Prices vary significantly based on condition, from project cars around £3,500 to exceptional examples over £26,000 or even £40,000+ (Sources [16, 18, 21, 22, 24, 28, 29]). I will use a mid-range estimate for a good, usable example, perhaps around £10,000 - £15,000, which is roughly $12,000 - $18,000 USD. This falls into the <$15,000 range in the guide for some examples, but is closer to the $35,000 average for a *new* car. Given it's a classic, the price comparison is tricky. I will score based on the guide's price ranges, acknowledging the context. A price around $15,000 is low compared to the average new car price.
-- Reliability: W123s are known for legendary durability for their era (Sources [13, 19, 23, 25]). However, they are old cars and require maintenance. Compared to modern cars, the *risk* of needing repairs due to age is present, though major mechanical failures might be less common than some complex modern vehicles. Default to 0.00 as per the guide's examples.
-- Other features: Lacks modern ADAS, infotainment, connectivity, and many comfort/convenience features. Basic headlights, security. Visibility is generally good due to thinner pillars than many modern cars. Ride comfort was good for its time. Handling is not sporty.
-
-Now, I will score each attribute:
-
-*   **price_usd:** Using a mid-range estimate of $15,000 USD. This is <$15,000 in the guide. Score +1.00.
-*   **total_cost_estimate_5yr_usd:** Difficult to estimate for a classic. Maintenance can be high, but depreciation might be low or even appreciation. Default to 0.00.
-*   **insurance_usd_yr:** Classic car insurance is often cheaper. UK insurance groups are low. Default to 0.00 due to context mismatch with the guide's new car focus.
-*   **maint_usd_yr:** Can be higher than average for a 40+ year old car. Default to 0.00.
-*   **repair_risk_score:** Known for reliability for its era, but age is a factor. Default to 0.00.
-*   **hp:** 136 hp is well below the modern average. -1.00.
-*   **torque:** 151 lb-ft is well below the modern average. -1.00.
-*   **cylinder_count:** 4 cylinders is common. 0.00.
-*   **engine_displacement:** 2.3L for a 4-cylinder is around average. 0.00.
-*   **accel_0_60_sec:** Around 10.1 - 11.7 seconds. Well above the modern average. -1.00.
-*   **top_speed:** Around 109-112 mph. Below the modern average (150mph). -0.50.
-*   **drive_type:** RWD. +1.00.
-*   **transmission_type:** 4-speed automatic. According to the guide, Automatic is +1.00.
-*   **offroad_ability:** Low ground clearance, RWD, not designed for offroad. Guide is inverted. +1.00.
-*   **braking_dist_ft:** Older braking technology (discs, no standard ABS). Likely >150 ft. -1.00.
-*   **size:** Length ~4640mm. Around average for a sedan/coupe today. 0.00.
-*   **wheelbase:** ~2710mm. Around average. 0.00.
-*   **body_style:** 2-Door Coupe. -1.00.
-*   **seats:** 4 seats. -0.50 (less than average 5).
-*   **cargo_space:** 17.7 cu ft. Above average for a coupe, around average for a sedan. +0.50.
-*   **rear_space:** Coupe rear space is typically limited. Likely <30". -1.00.
-*   **ground_clearance_in:** Around 5.5 inches (139.5mm). Average for a car, below average for all vehicles including SUVs. 0.00.
-*   **turn_radius_ft:** Not explicitly found, but W123s generally had a decent turning circle for their size. Estimate around 36-38 ft. 0.00.
-*   **mpg:** Around 22.8 - 27.4 mpg. Well below modern average. -1.00.
-*   **co2_g_km:** High emissions for a petrol engine of that era. Likely >200 g/km. -1.00.
-*   **electric_range_mi:** Not electric. -1.00.
-*   **charge_speed_kw:** Not electric. -1.00.
-*   **handling_rating:** Comfortable but not sporty handling. -0.50.
-*   **ride_comfort_rating:** Known for comfortable ride for its era. Compared to modern luxury, maybe average to good. +0.50.
-*   **cabin_noise_rating:** Less sound deadening than modern cars. Higher cabin noise. -1.00.
-*   **shift_smooth_rating:** 4-speed automatic was smooth for its time, but less refined than modern transmissions. 0.00.
-*   **steering_feel_rating:** Power steering available, but less direct feel than modern systems. 0.00.
-*   **adas_score:** No ADAS features. -1.00.
-*   **visibility_rating:** Large windows, thin pillars (pillarless coupe design). Excellent visibility. +1.00.
-*   **headlight_rating:** Basic halogen headlights. Poor by modern standards. -1.00.
-*   **security_rating:** Basic security. Poor by modern standards. -1.00.
-*   **screen_in:** No screen. -1.00.
-*   **infotainment_ux_rating:** Basic radio, no complex interface. -1.00.
-*   **smartphone_connect_rating:** No smartphone connectivity. -1.00.
-*   **audio_rating:** Basic audio system. Poor by modern standards. -1.00.
-*   **usb_ports:** No USB ports. -1.00.
-*   **comfort_feature_score:** Basic features. -1.00.
-*   **convenience_feature_score:** No modern convenience features. -1.00.
-*   **brand_prestige_rating:** Mercedes-Benz has high brand prestige. +1.00.
-*   **model_prestige_rating:** W123 Coupe is a desirable classic model, but not the absolute top-tier halo car. Using the corrected interpretation (0.00 for mid-range). 0.00.
-*   **trim_prestige_rating:** 230CE was a standard engine option for the coupe, not a top performance or luxury trim. Using the corrected interpretation (0.00 for mid-range). 0.00.
-*   **interior_luxury_rating:** Durable materials, but not luxurious by modern standards. -0.50.
-*   **interior_tech_focus_rating:** Minimal technology in the cabin. -1.00.
-*   **style_sleek_vs_boxy:** Classic, somewhat boxy coupe shape. -0.50.
-*   **style_aggression_rating:** Not aggressive design. -1.00.
-*   **style_modernity_rating:** Clearly dated design compared to today. -1.00.```json
+```json
 {
   "price_usd": 1.00,
   "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": -1.00,
-  "torque": -1.00,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": -1.00,
-  "top_speed": -0.50,
+  "insurance_usd_yr": 0.25,
+  "maint_usd_yr": -0.25,
+  "repair_risk_score": -0.25,
+  "hp": -0.50,
+  "torque": -0.50,
+  "cylinder_count": -0.25,
+  "engine_displacement": -0.25,
+  "accel_0_60_sec": -0.50,
+  "top_speed": -0.25,
   "drive_type": 1.00,
   "transmission_type": 1.00,
   "offroad_ability": 1.00,
-  "braking_dist_ft": -1.00,
+  "braking_dist_ft": -0.25,
   "size": 0.00,
   "wheelbase": 0.00,
   "body_style": -1.00,
-  "seats": -0.50,
-  "cargo_space": 0.50,
-  "rear_space": -1.00,
-  "ground_clearance_in": 0.00,
+  "seats": -0.25,
+  "cargo_space": 0.00,
+  "rear_space": -0.50,
+  "ground_clearance_in": -0.75,
   "turn_radius_ft": 0.00,
-  "mpg": -1.00,
-  "co2_g_km": -1.00,
+  "mpg": -0.25,
+  "co2_g_km": -0.25,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": -0.50,
-  "style_aggression_rating": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -0.50,
   "style_modernity_rating": -1.00,
-  "handling_rating": -0.50,
+  "handling_rating": 0.25,
   "ride_comfort_rating": 0.50,
-  "cabin_noise_rating": -1.00,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": 0.00,
+  "cabin_noise_rating": 0.10,
+  "shift_smooth_rating": 0.25,
+  "steering_feel_rating": 0.25,
   "adas_score": -1.00,
-  "visibility_rating": 1.00,
-  "headlight_rating": -1.00,
-  "security_rating": -1.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": -0.75,
+  "security_rating": -0.75,
   "screen_in": -1.00,
   "infotainment_ux_rating": -1.00,
   "smartphone_connect_rating": -1.00,
-  "audio_rating": -1.00,
+  "audio_rating": -0.50,
   "usb_ports": -1.00,
-  "comfort_feature_score": -1.00,
-  "convenience_feature_score": -1.00,
-  "brand_prestige_rating": 1.00,
+  "comfort_feature_score": -0.25,
+  "convenience_feature_score": -0.75,
+  "brand_prestige_rating": 0.75,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": -0.50,
+  "interior_luxury_rating": 0.25,
   "interior_tech_focus_rating": -1.00
 }
 ```

@@ -1,108 +1,55 @@
 ```json
 {
-  "price_usd": -0.75,
+  "price_usd": -0.50,
   "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": -0.90,
-  "maint_usd_yr": +0.60,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
   "repair_risk_score": 0.00,
-  "hp": +0.50,
-  "torque": +0.40,
+  "hp": 0.70,
+  "torque": 0.70,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": +0.60,
-  "top_speed": -0.30,
-  "drive_type": +1.00,
-  "transmission_type": 0.00,
-  "offroad_ability": +1.00,
-  "braking_dist_ft": +0.60,
-  "size": +0.90,
-  "wheelbase": +0.70,
+  "accel_0_60_sec": 0.75,
+  "top_speed": -0.10,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.50,
+  "size": 0.80,
+  "wheelbase": 0.80,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": +0.10,
-  "rear_space": +0.30,
-  "ground_clearance_in": -0.30,
-  "turn_radius_ft": -0.30,
-  "mpg": 0.00,
-  "co2_g_km": +1.00,
-  "electric_range_mi": +0.70,
-  "charge_speed_kw": +0.70,
-  "style_sleek_vs_boxy": +0.10,
-  "style_aggression_rating": +0.50,
-  "style_modernity_rating": +0.70,
-  "handling_rating": +0.70,
-  "ride_comfort_rating": +0.70,
-  "cabin_noise_rating": +0.90,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": +0.60,
-  "adas_score": +0.80,
+  "cargo_space": 0.10,
+  "rear_space": 0.10,
+  "ground_clearance_in": -0.20,
+  "turn_radius_ft": -0.40,
+  "mpg": 1.00,
+  "co2_g_km": 1.00,
+  "electric_range_mi": 0.70,
+  "charge_speed_kw": 0.70,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.70,
+  "handling_rating": 0.80,
+  "ride_comfort_rating": 0.80,
+  "cabin_noise_rating": 0.90,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.70,
+  "adas_score": 0.80,
   "visibility_rating": 0.00,
-  "headlight_rating": +0.70,
-  "security_rating": +0.50,
-  "screen_in": +0.80,
-  "infotainment_ux_rating": +0.70,
-  "smartphone_connect_rating": +0.90,
-  "audio_rating": +0.80,
-  "usb_ports": +0.50,
-  "comfort_feature_score": +0.90,
-  "convenience_feature_score": +0.80,
-  "brand_prestige_rating": +0.70,
+  "headlight_rating": 0.00,
+  "security_rating": 0.30,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.60,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.80,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.80,
+  "convenience_feature_score": 0.80,
+  "brand_prestige_rating": 0.80,
   "model_prestige_rating": 0.00,
-  "trim_prestige_rating": +0.50,
-  "interior_luxury_rating": +0.80,
-  "interior_tech_focus_rating": +0.90
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.90,
+  "interior_tech_focus_rating": 0.90
 }
 ```
-**Explanation of Ratings for BMW i5 eDrive40 M Sport:**
-
-*   **price\_usd (-0.75):** The M Sport trim adds to the base price of the i5 eDrive40, placing it even further above the market average and deeper into the premium/luxury price bracket. (Search results indicate prices around £76,200 for M Sport Pro, suggesting a higher price than the base).
-*   **total\_cost\_estimate\_5yr\_usd (0.00):** Similar to the base i5, specific 5-year cost data for the M Sport trim is not widely available. The higher initial price might slightly increase this, but without concrete data, it remains at the default average.
-*   **insurance\_usd\_yr (-0.90):** The M Sport trim, often associated with higher performance or desirability, typically falls into higher insurance groups than the base model. Search results confirm high insurance groups (e.g., 43E) for i5 M Sport variants.
-*   **maint\_usd\_yr (+0.60):** As an EV, maintenance is lower than ICE cars. The M Sport package doesn't significantly alter this, maintaining a good score.
-*   **repair\_risk\_score (0.00):** No specific reliability data for the M Sport trim is available, defaulting to the average score for the i5 model line.
-*   **hp (+0.50):** The i5 eDrive40 M Sport has the same 335 hp motor as the base eDrive40, which is well above the market average.
-*   **torque (+0.40):** The torque output is also the same as the base eDrive40 (400 Nm / 295-317 lb-ft), providing strong acceleration.
-*   **cylinder\_count (0.00):** Not applicable for an electric vehicle.
-*   **engine\_displacement (0.00):** Not applicable for an electric vehicle.
-*   **accel\_0\_60\_sec (+0.60):** The 0-60 mph time remains around 6.0 seconds, significantly quicker than the average car.
-*   **top\_speed (-0.30):** The electronically limited top speed of 120 mph is below the average benchmark.
-*   **drive\_type (+1.00):** The eDrive40 M Sport is Rear-Wheel Drive (RWD), scoring +1.00.
-*   **transmission\_type (0.00):** Not applicable for an electric vehicle.
-*   **offroad\_ability (+1.00):** The M Sport suspension might slightly reduce ground clearance, further cementing its lack of offroad capability, scoring +1.00 on the inverted scale.
-*   **braking\_dist\_ft (+0.60):** M Sport models often feature upgraded brakes (M Sport Brakes are mentioned in search results). This likely results in better-than-average braking performance, slightly improved over the base.
-*   **size (+0.90):** The M Sport package does not change the overall dimensions of the car, which remains a large sedan.
-*   **wheelbase (+0.70):** The wheelbase is unchanged from the base i5, providing ample interior space.
-*   **body\_style (0.00):** Remains a standard 4-door sedan.
-*   **seats (0.00):** Standard 5-seat configuration.
-*   **cargo\_space (+0.10):** Cargo space is the same as the base i5 sedan (490 liters / ~17.3 cu ft).
-*   **rear\_space (+0.30):** Rear legroom is unchanged from the base i5.
-*   **ground\_clearance\_in (-0.30):** M Sport suspension typically lowers the ride height slightly compared to the standard suspension, keeping it below average clearance.
-*   **turn\_radius\_ft (-0.30):** The turn radius is largely dictated by the car's size and wheelbase, remaining wider than average.
-*   **mpg (0.00):** Not applicable for an electric vehicle.
-*   **co2\_g\_km (+1.00):** As a zero-emission electric vehicle, it scores the maximum.
-*   **electric\_range\_mi (+0.70):** The WLTP range is similar to the base eDrive40 (312-356 miles), depending on wheel size. This is well above the average EV range.
-*   **charge\_speed\_kw (+0.70):** Supports the same 205 kW DC fast charging as the base model, which is a high speed. Optional 22kW AC charging is also available or standard on some M Sport variants (Search result [7]).
-*   **style\_sleek\_vs\_boxy (+0.10):** The M Sport package adds sportier body kit elements but doesn't fundamentally change the sedan's overall sleekness.
-*   **style\_aggression\_rating (+0.50):** The M Sport exterior styling (more aggressive bumpers, side skirts, larger wheels) increases the visual aggression compared to the standard car.
-*   **style\_modernity\_rating (+0.70):** The M Sport package enhances the modern design with sporty cues, maintaining a high modernity score.
-*   **handling\_rating (+0.70):** The M Sport suspension and potentially larger wheels improve handling dynamics and body control compared to the standard suspension, offering a sportier feel praised in reviews.
-*   **ride\_comfort\_rating (+0.70):** While M Sport suspension is firmer, reviews still highlight impressive ride comfort for a sporty setup, especially on the motorway, keeping it well above average for comfort despite the sport focus.
-*   **cabin\_noise\_rating (+0.90):** The excellent cabin insulation and quiet EV powertrain are not significantly impacted by the M Sport package, resulting in a very quiet interior.
-*   **shift\_smooth\_rating (0.00):** Not applicable for an electric vehicle.
-*   **steering\_feel\_rating (+0.60):** M Sport models often have slightly retuned steering for a sportier feel. Reviews mention precise steering, though some note it can still feel a bit artificial compared to older BMWs. It's better than average.
-*   **adas\_score (+0.80):** The M Sport trim includes or is available with the same comprehensive suite of advanced driver-assistance systems as other high-trim i5 models.
-*   **visibility\_rating (0.00):** Visibility is not altered by the M Sport package.
-*   **headlight\_rating (+0.70):** Features the same high-quality LED headlights.
-*   **security\_rating (+0.50):** Includes advanced security features typical of a premium vehicle.
-*   **screen\_in (+0.80):** Features the same large BMW Curved Display.
-*   **infotainment\_ux\_rating (+0.70):** Uses the same iDrive 8.5 system.
-*   **smartphone\_connect\_rating (+0.90):** Offers the same excellent smartphone integration.
-*   **audio\_rating (+0.80):** Comes standard with a good audio system, with the option for the premium Bowers & Wilkins system (mentioned in search results [4], [14], [21], [25]).
-*   **usb\_ports (+0.50):** Provides multiple USB ports.
-*   **comfort\_feature\_score (+0.90):** The M Sport trim retains the high level of comfort features available in the i5 range, including options like heated/ventilated/massage seats.
-*   **convenience\_feature\_score (+0.80):** Includes the same extensive convenience features.
-*   **brand\_prestige\_rating (+0.70):** BMW is a high-prestige brand.
-*   **model\_prestige\_rating (0.00):** The i5 is a core model in the 5 Series range, placing it in the middle tier.
-*   **trim\_prestige\_rating (+0.50):** M Sport is a desirable, mid-to-high level trim that enhances the vehicle's sportiness and features, placing it above base trims but below the top-tier M Performance (M60) or full M models.
-*   **interior\_luxury\_rating (+0.80):** The M Sport interior maintains the high level of luxury materials and finish found in the i5.
-*   **interior\_tech\_focus\_rating (+0.90):** The interior remains highly focused on technology with the large screens and digital features.

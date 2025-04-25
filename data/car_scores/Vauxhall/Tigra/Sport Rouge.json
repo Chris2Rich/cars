@@ -1,111 +1,55 @@
-The most recent version of the Vauxhall Tigra is the Tigra TwinTop, produced from 2004 to 2009. The 'Sport Rouge' was a specific trim level available on this model, notably featuring a red fabric-covered retractable hardtop [4, 8, 20]. I will evaluate the characteristics of the Tigra TwinTop Sport Rouge based on the provided scoring guide and search results.
-
 ```json
 {
   "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": 1.00,
-  "insurance_usd_yr": 0.50,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": -0.50,
+  "total_cost_estimate_5yr_usd": 0.50,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": -0.30,
   "hp": -1.00,
   "torque": -1.00,
   "cylinder_count": 0.00,
-  "engine_displacement": -1.00,
-  "accel_0_60_sec": -1.00,
-  "top_speed": -1.00,
+  "engine_displacement": -0.80,
+  "accel_0_60_sec": -0.80,
+  "top_speed": -0.50,
   "drive_type": -1.00,
-  "transmission_type": 0.00,
+  "transmission_type": -0.50,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.00,
+  "size": -1.00,
+  "wheelbase": -0.80,
   "body_style": -1.00,
   "seats": -1.00,
-  "cargo_space": -1.00,
+  "cargo_space": 0.00,
   "rear_space": -1.00,
-  "ground_clearance_in": -0.50,
-  "turn_radius_ft": 0.00,
+  "ground_clearance_in": -0.80,
+  "turn_radius_ft": 0.20,
   "mpg": 0.50,
-  "co2_g_km": 0.50,
+  "co2_g_km": 0.20,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.50,
-  "style_aggression_rating": -0.50,
+  "style_aggression_rating": -0.20,
   "style_modernity_rating": -1.00,
-  "handling_rating": 0.00,
+  "handling_rating": 0.50,
   "ride_comfort_rating": 0.00,
   "cabin_noise_rating": -0.50,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": 0.00,
+  "shift_smooth_rating": -0.20,
+  "steering_feel_rating": 0.50,
   "adas_score": -1.00,
   "visibility_rating": 0.00,
   "headlight_rating": -0.50,
-  "security_rating": -0.50,
+  "security_rating": 0.00,
   "screen_in": -1.00,
   "infotainment_ux_rating": -1.00,
   "smartphone_connect_rating": -1.00,
   "audio_rating": -0.50,
   "usb_ports": -1.00,
   "comfort_feature_score": -0.50,
-  "convenience_feature_score": -0.50,
-  "brand_prestige_rating": 0.00,
+  "convenience_feature_score": -0.20,
+  "brand_prestige_rating": -0.20,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": -1.00,
+  "interior_luxury_rating": -0.80,
   "interior_tech_focus_rating": -1.00
 }
 ```
-
-**Reasoning for each rating:**
-
-*   `price_usd`: **1.00** - As a used vehicle from 2004-2009, current market prices are significantly below the $15,000 threshold for a +1.00 score (search results show prices typically under £2,000) [3, 9, 14, 16, 18].
-*   `total_cost_estimate_5yr_usd`: **1.00** - The very low purchase price results in a low overall 5-year cost of ownership, likely well under the $25,000 benchmark, despite potential maintenance on an older car.
-*   `insurance_usd_yr`: **0.50** - UK insurance groups for the Tigra TwinTop Sport Rouge range from 19 to 26 (on the 50-group scale) depending on the engine [15, 7]. This is in the lower to mid-range, better than average but not the absolute cheapest.
-*   `maint_usd_yr`: **0.00** - Maintenance costs for a Vauxhall of this age are considered average. Parts are generally affordable, but the vehicle's age can lead to more frequent maintenance needs.
-*   `repair_risk_score`: **-0.50** - While the folding hardtop is noted as relatively reliable for its type, the Tigra TwinTop, based on the Corsa C platform, can be susceptible to age-related issues, including potential water leaks and engine concerns [10]. This places its reliability slightly below the market average.
-*   `hp`: **-1.00** - The available engines (1.4L 90hp, 1.8L 125hp, 1.3L diesel 70hp) are all significantly less powerful than the current market average of around 200 hp [1, 10, 13].
-*   `torque`: **-1.00** - Correspondingly, the torque figures (125 Nm / 92 lb-ft for 1.4L, 165 Nm / 122 lb-ft for 1.8L) are well below the 190 lb-ft market average [1, 13].
-*   `cylinder_count`: **0.00** - All engine options are 4-cylinder, which is an average cylinder count in the general market.
-*   `engine_displacement`: **-1.00** - Engine displacements (1.3L, 1.4L, 1.8L) are considerably smaller than the 3.0L average [1, 10, 13].
-*   `accel_0_60_sec`: **-1.00** - 0-60 mph times range from 9.1 seconds (1.8L) to 12.4 seconds (1.4L) and around 15.5 seconds (1.3L diesel) [1, 10, 13]. All are slower than the 7.5-second average, with the 1.4L and diesel falling into the >10 second range.
-*   `top_speed`: **-1.00** - Top speeds range from 104 mph (diesel) to 127 mph (1.8L) [1, 10, 13]. These are below the 150 mph average.
-*   `drive_type`: **-1.00** - The Tigra TwinTop is front-wheel drive (FWD) [13].
-*   `transmission_type`: **0.00** - Available transmissions were primarily a 5-speed manual and a 5-speed Easytronic automated manual [13]. While a traditional automatic was less common, the availability of both manual and automated manual places it around average compared to the guide's scale.
-*   `offroad_ability`: **1.00** - This is a low-slung 2-seater convertible designed for road use, with no off-road capability. Based on the inverse scoring scale for this metric, it scores +1.00.
-*   `braking_dist_ft`: **0.00** - No specific braking distance data was found, but performance is expected to be average for a small car of its era equipped with ABS [7].
-*   `size`: **0.00** - With a length of 3921mm, it's smaller than the 4600mm average but not among the smallest city cars [2, 10, 12, 13].
-*   `wheelbase`: **0.00** - The wheelbase of 2491mm is closer to the 2700mm average than the extreme short or long examples [2, 10, 12, 13].
-*   `body_style`: **-1.00** - 2-door convertible, which scores -1.00 according to the guide.
-*   `seats`: **-1.00** - It is a 2-seater vehicle [2, 12].
-*   `cargo_space`: **-1.00** - Cargo space is limited, especially with the roof down (159-250 litres / ~5.6-8.8 cu ft). Even with the roof up (320-440 litres / ~11.3-15.5 cu ft), it's only around the 15 cu ft average [10, 12, 13]. The limited space with the roof down is a significant factor for a convertible.
-*   `rear_space`: **-1.00** - As a 2-seater, there is no rear passenger space.
-*   `ground_clearance_in`: **-0.50** - While not as low as a dedicated sports car, as a small convertible, its ground clearance is likely below the average for compact crossovers (~6.5").
-*   `turn_radius_ft`: **0.00** - The turning circle is around 10.7 meters (~35 ft), which is average for a small car [12].
-*   `mpg`: **0.50** - Combined MPG figures range from approximately 38-46 mpg (petrol) to over 60 mpg (diesel) [1, 10, 13]. These figures are better than the 30 mpg market average.
-*   `co2_g_km`: **0.50** - CO2 emissions range from 122-124 g/km (diesel) to 146-179 g/km (petrol) [1, 10, 12, 13, 17]. These are generally below the 175 g/km average, particularly the diesel model.
-*   `electric_range_mi`: **-1.00** - This is not an electric vehicle.
-*   `charge_speed_kw`: **-1.00** - This is not an electric vehicle.
-*   `style_sleek_vs_boxy`: **0.50** - The Tigra TwinTop has a relatively sleek profile for a small coupe-convertible, not particularly boxy.
-*   `style_aggression_rating`: **-0.50** - The styling is generally considered soft and not aggressive, despite the "Sport Rouge" name [20].
-*   `style_modernity_rating`: **-1.00** - The design is from the mid-2000s and appears significantly dated compared to modern vehicle styling [20].
-*   `handling_rating`: **0.00** - Based on the Corsa platform, handling is described as competent and well-balanced but not particularly sporty or engaging [10, 5]. Average for its class and era.
-*   `ride_comfort_rating`: **0.00** - Ride comfort is reported as reasonably refined for a small convertible [10, 5]. Average.
-*   `cabin_noise_rating`: **-0.50** - Convertibles, especially older ones with retractable hardtops, typically have higher cabin noise levels than equivalent hardtop cars.
-*   `shift_smooth_rating`: **0.00** - The manual transmission is standard, while the Easytronic automated manual can be jerky. Overall, the experience is average depending on the transmission choice.
-*   `steering_feel_rating`: **0.00** - Steering feel is reported as good and power-assisted [5]. While positive for its time, it's likely not as engaging as the best modern or sports car steering systems. Average overall.
-*   `adas_score`: **-1.00** - Advanced driver-assistance systems were not available on vehicles in this class and era.
-*   `visibility_rating`: **0.00** - Visibility is likely average for a convertible, with potential blind spots when the roof is up typical of the body style.
-*   `headlight_rating`: **-0.50** - Likely equipped with halogen or basic projector headlights, which are less effective than modern LED or matrix LED systems. Front fog lights were standard on Sport Rouge [7].
-*   `security_rating`: **-0.50** - The Sport Rouge trim included a remote control ultrasonic alarm system and engine immobiliser [7]. This was standard for its era but less advanced than modern security features.
-*   `screen_in`: **-1.00** - Features a basic display for the CD30 MP3 audio unit [7], not a modern infotainment touchscreen. An optional CD 70 system added satellite navigation with a monochromatic display [7].
-*   `infotainment_ux_rating`: **-1.00** - The interface for the basic audio system lacks the features and usability of modern infotainment systems. The optional navigation was also basic by modern standards.
-*   `smartphone_connect_rating`: **-1.00** - The CD30 MP3 unit had an auxiliary-in connection [7], but no support for modern smartphone integration like Apple CarPlay or Android Auto.
-*   `audio_rating`: **-0.50** - Equipped with a basic audio system (CD30 MP3) [7]. Below the quality of premium audio systems.
-*   `usb_ports`: **-1.00** - Unlikely to have USB ports for charging or data in this era.
-*   `comfort_feature_score`: **-0.50** - The Sport Rouge came with sports seats [7]. Leather heated seats were optional as part of a Leather Pack [7]. Air conditioning was optional [7]. It lacks advanced comfort features found in modern vehicles.
-*   `convenience_feature_score`: **-0.50** - Includes electric roof/windows/mirrors, remote central deadlocking, and steering wheel audio controls [7]. Optional rear parking sensors were available [8]. Lacks many modern convenience features.
-*   `brand_prestige_rating`: **0.00** - Vauxhall is a mainstream automotive brand with average prestige.
-*   `model_prestige_rating`: **0.00** - The Tigra TwinTop was a lifestyle-oriented model within Vauxhall's lineup, not positioned as a top-tier halo car or a basic entry-level model.
-*   `trim_prestige_rating`: **0.00** - The Sport Rouge was a specific trim level positioned above the base 'Air' model, adding features like 16-inch alloys, front fog lights, and unique interior/exterior styling [7]. It was not the top 'Exclusiv' trim (which offered standard leather/heated seats and 17-inch alloys) [7], nor was it a high-performance variant. It represents a mid-to-high trim level.
-*   `interior_luxury_rating`: **-1.00** - While the Sport Rouge had unique trim details and optional leather [7], the overall interior design and materials are based on the Corsa C and are considered basic and dated compared to modern standards [21, 5].
-*   `interior_tech_focus_rating`: **-1.00** - The interior design and features reflect the technology levels of the mid-2000s, with minimal focus on integrated digital displays or advanced tech features compared to contemporary vehicles.

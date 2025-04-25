@@ -1,111 +1,55 @@
-Based on the search results, the most recent Volkswagen Tiguan Allspace Life is primarily the 2023 model year, with some references to 2024 models which seem to carry over similar specifications (Source 2, 3, 5, 6, 7, 8, 10, 12, 14, 16, 19, 20, 24, 26, 28, 29, 30, 31, 32, 33, 34, 35). The 'Life' trim is typically the entry-level or a lower-mid-range trim.
-
-Here's the evaluation based on the findings for the Tiguan Allspace Life:
-
-*   **price\_usd**: UK prices for a new 2023/2024 Life trim start around £29,498 - £36,955 (Source 11, 13, 18, 19, 29, 30, 33, 35). Used 2023 models are listed from around £24,488 (Source 35). Converting the new price range to USD (~1.25 USD/GBP) gives approximately $36,872 - $46,194. This range starts close to the $35,000 market average and goes above it. Score: `0.00`.
-*   **total\_cost\_estimate\_5yr\_usd**: Servicing costs are mentioned as averaging around £650/year (Source 6). Reliability is generally considered average for VW (Source 31). While specific 5-year cost estimates in USD for the Life trim weren't found, based on the purchase price and average running costs, it's likely around the market average. Score: `0.00`.
-*   **insurance\_usd\_yr**: The Life trim is listed in UK insurance groups, with one source mentioning Group 19E (Source 29). Insurance groups for the Tiguan Allspace range from around 19 to 31 (Source 25). Group 19 is below the middle of the 1-50 scale, suggesting lower-than-average insurance costs. Score: `0.20`.
-*   **maint\_usd\_yr**: Servicing costs average around £650/year (Source 6), which is slightly above the $750 benchmark (~$810/year). Score: `-0.10`.
-*   **repair\_risk\_score**: VW reliability is generally considered average (Source 31). Score: `0.00`.
-*   **hp**: The Life trim is available with the 1.4 TSI (110kW/147 hp) and 2.0 TSI (132kW/177 hp) engines (Source 3, 5, 10, 12, 26). The 147 hp is below the 200 hp average, while the 177 hp is closer but still below. Score: `-0.20`.
-*   **torque**: The 1.4 TSI offers 250 Nm (184 lb-ft) and the 2.0 TSI offers 320 Nm (236 lb-ft) (Source 3, 8, 10, 12, 26). Average is 190 lb-ft. The 1.4 TSI is slightly below, the 2.0 TSI is well above. Score: `0.10` (Offers an option significantly above average).
-*   **cylinder\_count**: Engines are 4-cylinder (Source 3, 8, 12, 17, 26). Below the 6-cylinder benchmark. Score: `-0.20`.
-*   **engine\_displacement**: Engines are 1.4L/1.5L and 2.0L (Source 3, 8, 10, 12, 17, 19, 22, 26). Significantly smaller than the 3.0L benchmark. Score: `-0.30`.
-*   **accel\_0\_60\_sec**: 0-100 km/h (0-62 mph) is 9.5-9.6 seconds for the 1.4/1.5 TSI (Source 3, 10, 16, 22, 29) and 8.2 seconds for the 132TSI (Source 10). 0-60 mph would be slightly faster. 9.5-9.6s is well above the 7.5s average. 8.2s is also above average. Score: `-0.20` (Acceleration is below average).
-*   **top\_speed**: 1.5 TSI is 124 mph (Source 22, 29). Higher for the 2.0 TSI, likely around 130 mph. Average benchmark is 150 mph. Score: `-0.20` (Below the average benchmark).
-*   **drive\_type**: Available in FWD (1.4/1.5 TSI) and AWD (4Motion) with the 2.0 TSI (Source 3, 5, 10, 12, 14, 15, 20, 26, 32). Offers both FWD (-1.00) and AWD (0.00). Score: `0.00`.
-*   **transmission\_type**: Available with 6-speed manual (on some FWD 1.5 TSI) and 6-speed or 7-speed DSG (dual-clutch automatic) (Source 3, 10, 12, 19, 22, 26). Primarily uses DSG. Score: `0.00`.
-*   **offroad\_ability**: An SUV with available AWD, but not a dedicated off-roader. Score: `0.00`.
-*   **braking\_dist\_ft**: No specific data found. Assume average. Score: `0.00`.
-*   **size**: Length is around 4734 mm (186.4 inches) (Source 3, 7, 8, 12, 17, 28, 31). Larger than average sedan/compact SUV. Score: `0.20`.
-*   **wheelbase**: Wheelbase is around 2791 mm (109.9 inches) (Source 7, 8, 12, 17, 26, 28). Slightly longer than average. Score: `0.10`.
-*   **body\_style**: 4-door SUV/Wagon (Source 7, 8, 12, 17, 32). More practical than a sedan. Score: `0.10`.
-*   **seats**: Standard 7 seats (Source 7, 8, 12, 14, 16, 19, 20, 24, 31, 32). Score: `0.50`.
-*   **cargo\_space**: 230L (8.1 cu ft) with 7 seats up, 700-760L (24.7-26.8 cu ft) with 3rd row folded, up to 1775-1775L (62.7-62.7 cu ft) with all rear seats folded (Source 2, 3, 4, 12, 14, 16, 31, 32). Excellent cargo space with seats folded. Score: `0.50`.
-*   **rear\_space**: Second row is roomy, third row is tight (Source 2, 3, 4, 14, 16, 24, 31, 32). Score reflects the good second-row space. Score: `0.50`.
-*   **ground\_clearance\_in**: 186mm (7.3 inches) (Source 7, 8, 12, 17). Above the compact crossover average. Score: `0.20`.
-*   **turn\_radius\_ft**: Turning circle is 11.90m (39 ft) (Source 8). Slightly above the 36 ft average. Score: `-0.10`.
-*   **mpg**: Varies by engine. 1.4/1.5 TSI FWD is around 7.3-7.7 L/100km (30.6-32.2 mpg) (Source 3, 6, 10, 12, 22, 29). 2.0 TSI AWD is around 8.9 L/100km (26.4 mpg) (Source 8, 10). Average benchmark is 30 mpg. The 1.4/1.5 TSI is around or slightly above average, the 2.0 TSI is below. Score: `0.00`.
-*   **co2\_g\_km**: Varies by engine. 1.4/1.5 TSI is around 153-175 g/km (Source 12, 29). 2.0 TSI is 201 g/km (Source 7, 8, 10). Average benchmark is 175 g/km. Scores range from below to above average. Score: `0.00`.
-*   **electric\_range\_mi**: Not an electric vehicle. Score: `-1.00`.
-*   **charge\_speed\_kw**: Not an electric vehicle. Score: `-1.00`.
-*   **style\_sleek\_vs\_boxy**: SUV body style. Score: `-0.20`.
-*   **style\_aggression\_rating**: Design is mature and not aggressive (Source 3, 32). Score: `-0.30`.
-*   **style\_modernity\_rating**: Updated design but interior is showing age in places (Source 14). Score: `0.00`.
-*   **handling\_rating**: Described as having an "engaging chassis" (Source 3), "supple but direct steering" (Source 6), "crisp nature and taut chassis control" (Source 3), "well-judged suspension setup" (Source 14). Generally good handling for an SUV, though some body roll in corners (Source 6). Score: `0.30`.
-*   **ride\_comfort\_rating**: Described as having "Nice ride quality" (Source 3), "very smooth drive and the suspension is forgiving" (Source 24), "settled refinement" (Source 3), "impressively resilient to noise" (Source 3). Ride quality is a highlight, especially on 18-inch wheels (Source 14). Score: `0.50`.
-*   **cabin\_noise\_rating**: "Good allround refinement" (Source 3), "impressively resilient to noise" (Source 3). Generally good. Score: `0.40`.
-*   **shift\_smooth\_rating**: DSG gearbox is generally smooth (Source 22), but can have hesitation (Source 16, 17 in previous search). Score: `0.10`.
-*   **steering\_feel\_rating**: Described as "supple but direct" (Source 6), "wonderful and quite buttery soft" (Source 24), "precise if a bit light" (Source 14). Generally positive, but lighter than sporty cars. Score: `0.10`.
-*   **adas\_score**: Life includes IQ.Drive suite with Adaptive Cruise Control, Travel Assist, Lane Keep Assist, Front Assist (AEB with pedestrian detection), parking sensors (front/rear), manoeuvre braking, driver fatigue monitoring, rear cross-traffic alert, blind-spot monitoring (though some were temporarily unavailable on some MY23) (Source 2, 3, 6, 15, 18, 31, 32). Offers a comprehensive suite. Score: `0.70`.
-*   **visibility\_rating**: "excellent outward visibility" (Source 3, 14, 32). Score: `0.40`.
-*   **headlight\_rating**: Features LED headlights (reflector type) and High Beam Assist (Source 3, 5, 30). Not the Matrix LEDs of higher trims. Score: `0.20`.
-*   **security\_rating**: Standard VW security features. Assume average. Score: `0.00`.
-*   **screen\_in**: Features 8.0-inch Discover Media touchscreen and 10.25-inch Digital Cockpit Pro (Source 3, 5, 14, 20). Larger than the 8" average for the main screen, and includes a large digital driver display. Score: `0.30`.
-*   **infotainment\_ux\_rating**: 8.0-inch Discover Media system with satnav, DAB+, wireless Apple CarPlay and wired Android Auto (Source 3, 5, 14, 20). Described as easy to connect phone (Source 3). Touch controls can be tricky (Source 16 in previous search). Score: `0.10`.
-*   **smartphone\_connect\_rating**: Wired and Wireless Apple CarPlay and Android Auto (Source 3, 5, 14). Excellent connectivity. Score: `0.80`.
-*   **audio\_rating**: Standard audio system. No mention of premium audio like Fender. Assume average. Score: `0.00`.
-*   **usb\_ports**: Dual front and a single rear USB-C ports mentioned (Source 3, 4, 24). Around the average of 3. Score: `0.00`.
-*   **comfort\_feature\_score**: Includes tri-zone climate control, manually adjustable cloth seats with lumbar support (Source 3, 5, 6, 14). Optional Luxury package adds leather, heated/ventilated/electric front seats (Source 3, 5, 6, 21). Standard features are average, but options improve it. Score: `0.10` (Based on standard features).
-*   **convenience\_feature\_score**: Includes auto headlights/wipers, heated/power-folding mirrors, reversing camera, front/rear parking sensors, Park Assist, power tailgate (optional/standard depending on market/year) (Source 3, 5, 6, 14, 18, 20, 24). Offers many modern convenience features. Score: `0.50`.
-*   **brand\_prestige\_rating**: Volkswagen is a mainstream brand. Score: `0.00`.
-*   **model\_prestige\_rating**: Tiguan Allspace is a core, high-volume model. Score: `0.00`.
-*   **trim\_prestige\_rating**: Life is the entry-level or lower-mid trim. Score: `0.50`.
-*   **interior\_luxury\_rating**: Cloth trim standard, some hard plastics (Source 3, 6, 14). Material quality is good in places but not luxury (Source 14). Score: `-0.10`.
-*   **interior\_tech\_focus\_rating**: Features Digital Cockpit Pro, 8.0-inch touchscreen, modern infotainment (Source 3, 5, 14, 20). Good tech integration for a base/mid trim. Score: `0.40`.
-
-Final JSON structure based on these scores.```json
+```json
 {
-  "price_usd": 0.00,
+  "price_usd": 0.25,
   "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.20,
-  "maint_usd_yr": -0.10,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
   "repair_risk_score": 0.00,
-  "hp": -0.20,
-  "torque": 0.10,
-  "cylinder_count": -0.20,
-  "engine_displacement": -0.30,
-  "accel_0_60_sec": -0.20,
-  "top_speed": -0.20,
-  "drive_type": 0.00,
+  "hp": 0.00,
+  "torque": 0.25,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": 0.00,
+  "top_speed": -0.25,
+  "drive_type": -1.00,
   "transmission_type": 0.00,
   "offroad_ability": 0.00,
   "braking_dist_ft": 0.00,
-  "size": 0.20,
-  "wheelbase": 0.10,
-  "body_style": 0.10,
-  "seats": 0.50,
+  "size": 0.25,
+  "wheelbase": 0.25,
+  "body_style": 0.00,
+  "seats": 0.75,
   "cargo_space": 0.50,
-  "rear_space": 0.50,
-  "ground_clearance_in": 0.20,
-  "turn_radius_ft": -0.10,
-  "mpg": 0.00,
+  "rear_space": 0.75,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": -0.25,
+  "mpg": 0.25,
   "co2_g_km": 0.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": -0.20,
-  "style_aggression_rating": -0.30,
-  "style_modernity_rating": 0.00,
-  "handling_rating": 0.30,
-  "ride_comfort_rating": 0.50,
-  "cabin_noise_rating": 0.40,
-  "shift_smooth_rating": 0.10,
-  "steering_feel_rating": 0.10,
-  "adas_score": 0.70,
-  "visibility_rating": 0.40,
-  "headlight_rating": 0.20,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.75,
+  "cabin_noise_rating": 0.75,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.75,
+  "visibility_rating": 0.75,
+  "headlight_rating": 0.50,
   "security_rating": 0.00,
-  "screen_in": 0.30,
-  "infotainment_ux_rating": 0.10,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.00,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.10,
-  "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.00,
+  "screen_in": 0.50,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.75,
+  "audio_rating": 0.25,
+  "usb_ports": 0.50,
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 0.25,
   "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.50,
-  "interior_luxury_rating": -0.10,
-  "interior_tech_focus_rating": 0.40
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.75
 }
 ```

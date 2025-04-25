@@ -1,108 +1,55 @@
 ```json
 {
-  "price_usd": -0.10,
+  "price_usd": 0.10,
   "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": 0.00,
-  "torque": 0.00,
-  "cylinder_count": 0.00,
-  "engine_displacement": -0.50,
-  "accel_0_60_sec": 0.00,
+  "insurance_usd_yr": -0.20,
+  "maint_usd_yr": -0.30,
+  "repair_risk_score": 0.20,
+  "hp": 0.10,
+  "torque": 0.30,
+  "cylinder_count": -0.30,
+  "engine_displacement": -0.40,
+  "accel_0_60_sec": 0.40,
   "top_speed": 0.00,
-  "drive_type": -0.50,
+  "drive_type": 0.00,
   "transmission_type": 0.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
-  "size": 0.00,
+  "offroad_ability": -0.80,
+  "braking_dist_ft": 0.10,
+  "size": -0.10,
   "wheelbase": 0.00,
   "body_style": 0.00,
   "seats": 0.00,
   "cargo_space": -0.20,
-  "rear_space": -0.50,
-  "ground_clearance_in": -0.50,
-  "turn_radius_ft": 0.80,
-  "mpg": 0.50,
-  "co2_g_km": 0.50,
-  "electric_range_mi": 0.00,
-  "charge_speed_kw": 0.00,
-  "style_sleek_vs_boxy": 0.50,
+  "rear_space": -0.20,
+  "ground_clearance_in": -0.40,
+  "turn_radius_ft": 0.10,
+  "mpg": 0.00,
+  "co2_g_km": 0.30,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.40,
   "style_aggression_rating": 0.50,
   "style_modernity_rating": 0.50,
-  "handling_rating": -0.30,
-  "ride_comfort_rating": 0.00,
+  "handling_rating": 0.30,
+  "ride_comfort_rating": 0.40,
   "cabin_noise_rating": 0.30,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": -0.30,
-  "adas_score": 0.50,
+  "shift_smooth_rating": 0.40,
+  "steering_feel_rating": 0.10,
+  "adas_score": 0.70,
   "visibility_rating": -0.20,
-  "headlight_rating": 0.30,
-  "security_rating": 0.00,
-  "screen_in": 0.50,
-  "infotainment_ux_rating": 0.50,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.00,
-  "usb_ports": 0.30,
-  "comfort_feature_score": 0.30,
-  "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.80,
-  "model_prestige_rating": 1.00,
-  "trim_prestige_rating": 0.50,
-  "interior_luxury_rating": 0.30,
+  "headlight_rating": 0.50,
+  "security_rating": 0.40,
+  "screen_in": 0.70,
+  "infotainment_ux_rating": 0.80,
+  "smartphone_connect_rating": 0.70,
+  "audio_rating": 0.50,
+  "usb_ports": 0.50,
+  "comfort_feature_score": 0.60,
+  "convenience_feature_score": 0.60,
+  "brand_prestige_rating": 0.90,
+  "model_prestige_rating": 0.20,
+  "trim_prestige_rating": 0.30,
+  "interior_luxury_rating": 0.60,
   "interior_tech_focus_rating": 0.80
 }
 ```
-**Reasoning for each rating:**
-
-*   **price\_usd (-0.10):** Based on UK pricing starting around £31k and going up to £45k for non-AMG models [2, 4]. This is slightly above the market average of $35,000 (~£28k).
-*   **total\_cost\_estimate\_5yr\_usd (0.00):** No specific data found for 5-year cost. Defaulted to average.
-*   **insurance\_usd\_yr (0.00):** UK insurance group mentioned but no specific group number for the latest model found. Defaulted to average.
-*   **maint\_usd\_yr (0.00):** Servicing intervals mentioned but no annual cost estimate found. Defaulted to average.
-*   **repair\_risk\_score (0.00):** Mercedes generally has a good reputation, but some reviews note interior quality issues compared to rivals [2, 4]. Reliability is considered average for the segment.
-*   **hp (0.00):** Engine options range from 136hp to 224hp for mainstream models [2, 9, 15, 24]. This range straddles the market average of ~200hp.
-*   **torque (0.00):** Torque figures range from 200Nm to 400Nm for mainstream models [2, 9, 15, 24]. This range is around the market average of ~190 lb-ft (258 Nm).
-*   **cylinder\_count (0.00):** Primarily uses 4-cylinder engines [9, 10, 15, 24], which is common in the market.
-*   **engine\_displacement (-0.50):** Uses smaller 1.3L and 2.0L engines [9, 10, 15, 24] compared to the market average of ~3.0L.
-*   **accel\_0\_60\_sec (0.00):** 0-60 mph times for mainstream models range from 6.1s to 9.2s [2, 3, 8, 9, 15, 31], which is around the market average of ~7.5s.
-*   **top\_speed (0.00):** Top speeds for mainstream models are around 132-155 mph [3, 31], which is around the market average of ~150 mph.
-*   **drive\_type (-0.50):** Primarily Front-Wheel Drive, with All-Wheel Drive (4Matic) available on some higher trims [7, 9, 10, 24]. FWD is below average, AWD is average.
-*   **transmission\_type (0.00):** Uses 7-speed or 8-speed DCT automatic transmissions [2, 9, 10, 15, 24], which are common and perform well (rated as 0.00 for DCT).
-*   **offroad\_ability (1.00):** As a compact hatchback/sedan with low ground clearance [12, 17], it has poor off-road ability, which scores highly on this inverted scale.
-*   **braking\_dist\_ft (0.00):** No specific braking distance data found. Defaulted to average.
-*   **size (0.00):** Length is around 4.4-4.5m [2, 10, 16, 27], slightly smaller than the market average of ~4.6m, but close enough to be considered average.
-*   **wheelbase (0.00):** Wheelbase is around 2729mm [10, 16, 17], which is close to the market average of ~2700mm.
-*   **body\_style (0.00):** Available as a 5-door hatchback or 4-door sedan [7, 10], both common body styles (rated as 0.00).
-*   **seats (0.00):** Has 5 seats [2, 8, 12, 27], which is the market average.
-*   **cargo\_space (-0.20):** Hatchback boot space is 350-370 litres (12.4-13.1 cu ft) [2, 5, 21, 25, 27], slightly below the market average of ~15 cu ft. Saloon is closer to average [17].
-*   **rear\_space (-0.50):** Rear legroom is noted as being tight for taller adults [4, 8, 11, 18, 35].
-*   **ground\_clearance\_in (-0.50):** Ground clearance is around 5-6.3 inches [12, 17], lower than typical compact crossovers (~6.5") and well below off-road vehicles.
-*   **turn\_radius\_ft (0.80):** Noted for having a good/tight turning circle [2, 3], with one source giving a figure (17.4 ft) [27] significantly better than the market average (~36 ft).
-*   **mpg (0.50):** Fuel economy figures are generally good, especially for diesel and PHEV models [2, 15, 19, 22, 26, 27], above the market average of ~30 mpg.
-*   **co2\_g\_km (0.50):** CO2 emissions are generally lower than the market average of ~175 g/km, particularly for diesel and PHEV models [2, 15, 19, 23, 28, 32, 33].
-*   **electric\_range\_mi (0.00):** A PHEV variant is available with a useful electric range (~51 miles) [2, 9, 19], bringing the score up from -1.00 for non-EVs.
-*   **charge\_speed\_kw (0.00):** The PHEV offers up to 22kW DC charging [9], which is within the typical range for public charging (11-50 kW).
-*   **style\_sleek\_vs\_boxy (0.50):** Described as having a sleek, coupe-like profile [6, 14].
-*   **style\_aggression\_rating (0.50):** Features an aggressive front end [3] and AMG Line adds sporty styling [35].
-*   **style\_modernity\_rating (0.50):** Has a modern design that still looks fresh [3, 4, 18].
-*   **handling\_rating (-0.30):** Easy to drive in town but less engaging or settled than rivals on twisty roads [2, 4, 5, 14].
-*   **ride\_comfort\_rating (0.00):** Generally comfortable on most roads, but can be unsettled on bumps, especially with larger wheels or AMG Line suspension [2, 5, 15]. Rated as average.
-*   **cabin\_noise\_rating (0.30):** Noted as being quiet at speed with low road and wind noise [3, 4, 20, 31].
-*   **shift\_smooth\_rating (0.00):** The automatic transmission shifts smoothly [2, 3, 29], although some reviews mention occasional hesitation [2, 30]. Rated as average.
-*   **steering\_feel\_rating (-0.30):** Steering is light and accurate but lacks feedback or feel compared to more driver-focused cars [30, 34].
-*   **adas\_score (0.50):** Comes with a good level of standard ADAS features and offers advanced options, including some autonomous driving capability from higher-end models [2, 11, 14, 18, 31].
-*   **visibility\_rating (-0.20):** Forward visibility is decent, but rear quarter blind spots and a small rear window are noted issues [2, 5, 11, 14].
-*   **headlight\_rating (0.30):** LED headlights are standard on higher trims, and advanced adaptive/multibeam options are available [11, 15].
-*   **security\_rating (0.00):** No specific data found. Defaulted to average.
-*   **screen\_in (0.50):** Features large, standard dual 10.25-inch screens from the facelift [2, 11, 14, 20], which is above average size.
-*   **infotainment\_ux\_rating (0.50):** The MBUX system is praised for its intuitive menus and clear displays [2, 3, 14, 18, 20], although the touch-sensitive steering wheel controls can be frustrating [2, 11, 18].
-*   **smartphone\_connect\_rating (0.80):** Wireless Apple CarPlay and Android Auto are standard [2, 14, 18], which is better than average.
-*   **audio\_rating (0.00):** No specific data on audio system quality or speaker count found. Defaulted to average.
-*   **usb\_ports (0.30):** Updated models have increased USB charging power and multiple ports [15, 21], suggesting a good number.
-*   **comfort\_feature\_score (0.30):** Includes features like heated seats and dual climate control on higher trims [2], but seat comfort could be better for some [11, 20].
-*   **convenience\_feature\_score (0.50):** Standard features include reversing camera and parking sensors [2, 11, 14], with advanced parking aids and cameras available [14].
-*   **brand\_prestige\_rating (0.80):** Mercedes-Benz is a highly prestigious brand [2, 4, 8, 34].
-*   **model\_prestige\_rating (1.00):** The A-Class is positioned as the entry-level model in the Mercedes range [2, 3, 8, 18], scoring highly on this inverted scale.
-*   **trim\_prestige\_rating (0.50):** Assuming a high-spec non-AMG trim, this is above the base model but not the top-tier AMG variants.
-*   **interior\_luxury\_rating (0.30):** The interior design is modern and visually appealing with some premium materials, but the presence of some cheaper plastics prevents a higher score [2, 4, 20].
-*   **interior\_tech\_focus\_rating (0.80):** The interior is heavily focused on technology, particularly the large screens and MBUX system [3, 4, 14, 18, 20, 31].

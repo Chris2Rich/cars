@@ -1,68 +1,55 @@
 ```json
 {
-  "price_usd": 0.50,
-  "total_cost_estimate_5yr_usd": -0.75,
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.70,
   "insurance_usd_yr": 0.50,
-  "maint_usd_yr": -0.75,
-  "repair_risk_score": -1.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": -0.50,
   "hp": -1.00,
   "torque": -1.00,
-  "cylinder_count": 0.00,
+  "cylinder_count": -0.50,
   "engine_displacement": -0.50,
   "accel_0_60_sec": -1.00,
   "top_speed": -1.00,
   "drive_type": -1.00,
-  "transmission_type": 1.00,
+  "transmission_type": -0.50,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.00,
+  "size": -0.50,
   "wheelbase": 0.50,
-  "body_style": 1.00,
-  "seats": 1.00,
-  "cargo_space": 1.00,
-  "rear_space": 0.50,
+  "body_style": 0.50,
+  "seats": 0.50,
+  "cargo_space": 0.70,
+  "rear_space": 0.30,
   "ground_clearance_in": 0.00,
   "turn_radius_ft": 0.00,
-  "mpg": 0.50,
-  "co2_g_km": -0.50,
+  "mpg": 0.30,
+  "co2_g_km": 0.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": -1.00,
   "style_aggression_rating": -1.00,
   "style_modernity_rating": -1.00,
-  "handling_rating": -0.75,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": -0.75,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": -0.50,
+  "handling_rating": -0.50,
+  "ride_comfort_rating": -0.30,
+  "cabin_noise_rating": -0.70,
+  "shift_smooth_rating": -0.50,
+  "steering_feel_rating": 0.00,
   "adas_score": -1.00,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.00,
-  "security_rating": 0.00,
+  "visibility_rating": 0.70,
+  "headlight_rating": -1.00,
+  "security_rating": -0.30,
   "screen_in": -1.00,
-  "infotainment_ux_rating": -0.75,
+  "infotainment_ux_rating": -1.00,
   "smartphone_connect_rating": -1.00,
   "audio_rating": -0.50,
   "usb_ports": -1.00,
-  "comfort_feature_score": -0.75,
-  "convenience_feature_score": 0.00,
-  "brand_prestige_rating": 1.00,
-  "model_prestige_rating": 1.00,
-  "trim_prestige_rating": 0.00,
+  "comfort_feature_score": -0.70,
+  "convenience_feature_score": -0.50,
+  "brand_prestige_rating": 0.70,
+  "model_prestige_rating": 0.50,
+  "trim_prestige_rating": 0.50,
   "interior_luxury_rating": -1.00,
   "interior_tech_focus_rating": -1.00
 }
 ```
-**Explanation of Ratings for the 2005 Mercedes-Benz Vaneo CDI:**
-
-This evaluation is based on the specifications and characteristics of the 2005 Mercedes-Benz Vaneo CDI, scored relative to the current automotive market benchmarks as requested. As a vehicle discontinued in 2005, it naturally scores negatively in many areas when compared to modern cars. The CDI variant specifically refers to the diesel engine options available.
-
-*   **Cost & Risk:** The original price was relatively low compared to today's average new car price (`price_usd` 0.50). However, the Vaneo is known for poor reliability and expensive maintenance, often requiring engine removal for common repairs [22]. This leads to negative scores for `total_cost_estimate_5yr_usd` (-0.75), `maint_usd_yr` (-0.75), and `repair_risk_score` (-1.00). UK insurance groups for the 1.7 CDI were relatively low (e.g., Group 7 or 14 depending on year/trim) [3, 23], which is low compared to today's average, resulting in a positive score (`insurance_usd_yr` 0.50).
-*   **Power & Performance:** The 1.7 CDI engine typically produced 90-91 HP and 133 lb-ft of torque [4, 6, 8, 10, 11, 15, 18, 20, 24]. These figures are significantly below modern averages, resulting in negative scores for `hp` (-1.00) and `torque` (-1.00). The 0-60 mph acceleration was slow (13.3-16 seconds) [4, 8, 10, 11, 13, 20], and the top speed was low (around 98-101 mph) [4, 7, 8, 10, 11, 13, 18, 20], leading to -1.00 scores for `accel_0_60_sec` and `top_speed`. Cylinder count (4) is average (0.00), and engine displacement (1.7L) is smaller than today's average (-0.50). It is front-wheel drive (`drive_type` -1.00) [2, 5, 8, 10, 15, 24]. It was available with a traditional automatic transmission (`transmission_type` 1.00) [2, 10, 24]. Its low ground clearance and FWD layout give it poor off-road ability, which scores positively on the inverse scale (`offroad_ability` 1.00). Braking distance data was not specifically found (0.00).
-*   **Space & Practicality:** As an MPV, the Vaneo excels in practicality. It offered 5 or optional 7 seats (`seats` 1.00) [2, 13, 18]. Cargo space is excellent for its size, up to 3000 liters (106 cu ft) with rear seats removed [2, 5, 8, 9, 10, 12, 19, 28], resulting in a high score (`cargo_space` 1.00). Rear space is good due to its height and wheelbase (`rear_space` 0.50) [12, 19]. The 5-door MPV body style is highly practical (`body_style` 1.00) [2, 5, 7, 8, 10, 13, 14, 15]. Its length is around 4190-4192mm [5, 7, 8, 9, 10, 11, 14, 15, 16, 18], which is slightly shorter than today's average car (0.00). The wheelbase is 2900mm [2, 5, 7, 8, 10, 15, 16, 18], relatively long for its length (0.50). Ground clearance and turn radius data were not found (0.00).
-*   **Efficiency & Electrification:** The 1.7 CDI offered good fuel economy for its era (around 40-48 mpg UK combined) [3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 17, 18, 20, 28], scoring positively against today's average non-EV (`mpg` 0.50). CO2 emissions were around 157-174 g/km [3, 4, 18, 20], which is average compared to non-EVs but high compared to the market including EVs (`co2_g_km` -0.50). As a 2005 vehicle, it is not electric, resulting in negative scores for `electric_range_mi` (-1.00) and `charge_speed_kw` (-1.00).
-*   **Ride & Dynamics:** Handling was described as ungainly and van-like (-0.75) [2, 17]. Ride comfort is mixed, being firm (-0.75) [2]. Cabin noise, particularly from the diesel engine, is high (-0.75) [3, 17]. Shift smoothness for the automatic was likely average, though reliability was a concern (0.00) [22, 29]. Steering feel is likely numb (-0.50).
-*   **Safety & Visibility:** Based on the A-Class platform, it had standard safety features for the time. However, it lacks modern Advanced Driver-Assistance Systems (`adas_score` -1.00). Visibility is mixed, good forward/side but potentially poor rear (0.00) [26]. Headlight performance is assumed average for the era (0.00). Standard alarm/immobiliser provides average security for today's market (0.00).
-*   **Infotainment & Connectivity:** Interior technology is minimal compared to modern cars. It likely had a small or no infotainment screen (`screen_in` -1.00) [3], a basic interface (`infotainment_ux_rating` -0.75), no smartphone connectivity (`smartphone_connect_rating` -1.00), a basic audio system (`audio_rating` -0.50) [3], and minimal USB ports (`usb_ports` -1.00).
-*   **Comfort & Convenience:** Comfort features are basic, lacking modern amenities like advanced seat adjustments or climate control zones (`comfort_feature_score` -0.75) [3]. Convenience features like sliding doors are practical (`convenience_feature_score` 0.00) [2, 26, 30], but it lacks modern aids like parking sensors/cameras as standard.
-*   **Style, Brand & Interior Character:** The Mercedes-Benz brand carries high prestige (`brand_prestige_rating` 1.00). However, the Vaneo model itself was unsuccessful and poorly regarded due to its styling and reliability issues [2, 28], giving it low model prestige, which scores positively on the inverse scale (`model_prestige_rating` 1.00). Trim prestige for the CDI engine variant is defaulted (0.00). The design is widely described as ungainly, tall, and boxy (-1.00) [2, 26, 28], not aggressive (-1.00), and clearly dated (-1.00) [28]. The interior uses cheaper materials than other Mercedes models and is prone to rattles [3, 17], resulting in a low interior luxury score (`interior_luxury_rating` -1.00). The focus is on utility rather than technology (`interior_tech_focus_rating` -1.00).

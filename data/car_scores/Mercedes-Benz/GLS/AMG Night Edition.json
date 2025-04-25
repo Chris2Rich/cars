@@ -1,55 +1,109 @@
-```json
+Based on the search results, I can populate the JSON.
+
+-   **price_usd**: RRP £156,350. US MSRP starts around $147,000 - $150,650. This is well over $120,000. Score: -1.00.
+-   **total_cost_estimate_5yr_usd**: Very high purchase price, high insurance, likely high maintenance. Will be well over $80,000 over 5 years. Score: -1.00.
+-   **insurance_usd_yr**: Insurance group 50E in the UK. Group 50 is the most expensive. Average cost is listed as £2,537, which is over $3,500 USD. Score: -1.00.
+-   **maint_usd_yr**: Mercedes-AMG maintenance is expensive. Likely well over $1000/year, possibly closer to $2000-$3000+. Score: -0.70 (Estimate based on luxury performance).
+-   **repair_risk_score**: Mercedes is generally average reliability. Score: 0.00.
+-   **hp**: 603 hp. This is very high. Score: 0.80 (relative to >700hp being 1.00).
+-   **torque**: 627 lb-ft. Very high. Score: 0.70 (relative to >1000 lb-ft being 1.00).
+-   **cylinder_count**: V8. Score: 0.50.
+-   **engine_displacement**: 4.0L (3982 cm³). Score: 0.00 (relative to 3.0L average, >6.0L is 1.00).
+-   **accel_0_60_sec**: 3.6 - 4.2 seconds. Very fast. Score: 0.90 (relative to <2.5 sec being 1.00).
+-   **top_speed**: 174 mph (electronically limited). Score: 0.30 (relative to 150mph average, >222mph is 1.00).
+-   **drive_type**: AWD (4MATIC+). Score: 0.00.
+-   **transmission_type**: 9-speed automatic (AMG SPEEDSHIFT TCT). Score: 1.00.
+-   **offroad_ability**: Has AWD and air suspension, but is a large, heavy luxury SUV with performance-oriented tuning and large wheels (up to 23"). Has some off-road modes. Score: 0.00 (Average, not poor like a sports car, but not good like a dedicated off-roader).
+-   **braking_dist_ft**: AMG high-performance braking system. Likely good for its size, but it's very heavy (6019 lbs / 2730 kg). Score: 0.30 (Better than average sedan, but weight is a factor).
+-   **size**: Very large SUV. Length ~5233-5243mm. Score: 1.00.
+-   **wheelbase**: Long wheelbase ~123.4 inches / 3135mm. Score: 1.00.
+-   **body_style**: 5-door SUV. Score: 0.00 (using 4-door sedan/coupe as 0.00, 5-door van as 1.00, 2-door coupe as -1.00. SUV is closer to sedan/coupe than van). Let's adjust to 0.10 as it's a large 5-door.
+-   **seats**: 7 seats standard (6 optional). Score: 1.00.
+-   **cargo_space**: 17.4 cu ft behind 3rd row, up to 84.7 cu ft behind 1st row. 355L (12.5 cu ft) behind 3rd row, 890L (31.4 cu ft) with 3rd row folded. Up to 2400L (84.7 cu ft). Score: 1.00 (Excellent max cargo).
+-   **rear_space**: Excellent legroom in 2nd row (41.9"). 3rd row is tighter (34.6"). Score: 0.80 (Excellent 2nd row, average 3rd row).
+-   **ground_clearance_in**: Not explicitly stated in inches, but it's a large SUV with air suspension. Likely average for an SUV, maybe slightly less than non-AMG due to tuning. Score: 0.30 (Estimate).
+-   **turn_radius_ft**: Large vehicle, large turning circle 13.1m (~43 ft). Score: -0.80 (relative to >45ft being -1.00).
+-   **mpg**: EPA 14 city / 18 highway / 16 combined. Real-world ~21.1-22.1 mpg reported. Still very low compared to market average. Score: -0.80 (closer to RAM TRX than Camry).
+-   **co2_g_km**: 303 g/km. Very high. Score: -0.80 (closer to Dodge Charger V8 than RAV4).
+-   **electric_range_mi**: Not electric. Score: -1.00.
+-   **charge_speed_kw**: Not electric. Score: -1.00.
+-   **style_sleek_vs_boxy**: Large SUV, more boxy than sleek. Score: -0.30.
+-   **style_aggression_rating**: AMG adds aggressive styling. Score: 0.80.
+-   **style_modernity_rating**: Modern design. Score: 0.70.
+-   **handling_rating**: Good for its size and weight due to AMG tuning and active suspension, but not a sports car. Score: 0.30.
+-   **ride_comfort_rating**: Excellent ride comfort, even with AMG tuning, though can be firm on large wheels. Score: 0.80 (Slightly less than S-Class perfect, but still very good).
+-   **cabin_noise_rating**: Very quiet cabin, especially with Acoustic Comfort package. Score: 1.00.
+-   **shift_smooth_rating**: Excellent 9-speed automatic. Score: 1.00.
+-   **steering_feel_rating**: Good, but large SUV limits feel compared to smaller cars. Score: 0.20.
+-   **adas_score**: Comprehensive suite of standard and available ADAS features. Score: 0.90.
+-   **visibility_rating**: Good visibility for an SUV, high seating position. Score: 0.70.
+-   **headlight_rating**: LED Intelligent Light System, Adaptive Highbeam Assist. Excellent. Score: 0.80.
+-   **security_rating**: High-end luxury vehicle, likely good security features. Score: 0.70 (Estimate).
+-   **screen_in**: Dual 12.3-inch screens. Score: 0.90 (relative to 17" being 1.00).
+-   **infotainment_ux_rating**: MBUX system is generally well-regarded. Score: 0.90.
+-   **smartphone_connect_rating**: Apple CarPlay and Android Auto standard. Score: 1.00 (Assuming wireless/good integration).
+-   **audio_rating**: Burmester surround sound system available/standard. Excellent. Score: 1.00.
+-   **usb_ports**: 9 USB ports mentioned. Score: 1.00.
+-   **comfort_feature_score**: Heated/ventilated/massaging front seats, heated rear seats, climate control, etc.. Score: 1.00.
+-   **convenience_feature_score**: Surround View System, Active Parking Assist, Trailer Maneuvering Assist, power tailgate, etc.. Score: 1.00.
+-   **brand_prestige_rating**: Mercedes-Benz is high prestige. Score: 0.80.
+-   **model_prestige_rating**: GLS is the top SUV model. Score: -1.00 (Top of brand).
+-   **trim_prestige_rating**: AMG is the top performance trim, Night Edition is a specific package on top. Score: -1.00 (Top trim).
+-   **interior_luxury_rating**: High-end materials, Nappa leather, carbon fiber trim options. Score: 0.90.
+-   **interior_tech_focus_rating**: Dual large screens, MBUX, advanced features. Score: 1.00.
+
+Looks good. I have data or reasonable estimates based on the AMG GLS 63 for most metrics. I will format this into the required JSON.```json
 {
   "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
-  "maint_usd_yr": -1.00,
-  "repair_risk_score": -0.50,
-  "hp": 0.75,
-  "torque": 0.75,
-  "cylinder_count": 0.25,
-  "engine_displacement": 0.25,
-  "accel_0_60_sec": 0.75,
-  "top_speed": 0.25,
+  "maint_usd_yr": -0.70,
+  "repair_risk_score": 0.00,
+  "hp": 0.80,
+  "torque": 0.70,
+  "cylinder_count": 0.50,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.90,
+  "top_speed": 0.30,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "offroad_ability": 0.50,
-  "braking_dist_ft": 0.50,
+  "offroad_ability": 0.00,
+  "braking_dist_ft": 0.30,
   "size": 1.00,
   "wheelbase": 1.00,
-  "body_style": 0.00,
-  "seats": 0.50,
-  "cargo_space": 0.50,
-  "rear_space": 0.50,
-  "ground_clearance_in": 0.50,
-  "turn_radius_ft": -0.25,
-  "mpg": -1.00,
-  "co2_g_km": -1.00,
+  "body_style": 0.10,
+  "seats": 1.00,
+  "cargo_space": 1.00,
+  "rear_space": 0.80,
+  "ground_clearance_in": 0.30,
+  "turn_radius_ft": -0.80,
+  "mpg": -0.80,
+  "co2_g_km": -0.80,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": -0.25,
-  "style_aggression_rating": 0.75,
-  "style_modernity_rating": 0.25,
-  "handling_rating": 0.50,
-  "ride_comfort_rating": 0.75,
-  "cabin_noise_rating": 0.75,
-  "shift_smooth_rating": 0.75,
-  "steering_feel_rating": 0.25,
-  "adas_score": 0.75,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.75,
-  "security_rating": 0.50,
-  "screen_in": 0.75,
-  "infotainment_ux_rating": 0.50,
+  "style_sleek_vs_boxy": -0.30,
+  "style_aggression_rating": 0.80,
+  "style_modernity_rating": 0.70,
+  "handling_rating": 0.30,
+  "ride_comfort_rating": 0.80,
+  "cabin_noise_rating": 1.00,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.20,
+  "adas_score": 0.90,
+  "visibility_rating": 0.70,
+  "headlight_rating": 0.80,
+  "security_rating": 0.70,
+  "screen_in": 0.90,
+  "infotainment_ux_rating": 0.90,
   "smartphone_connect_rating": 1.00,
   "audio_rating": 1.00,
-  "usb_ports": 0.75,
+  "usb_ports": 1.00,
   "comfort_feature_score": 1.00,
   "convenience_feature_score": 1.00,
-  "brand_prestige_rating": 0.75,
+  "brand_prestige_rating": 0.80,
   "model_prestige_rating": -1.00,
   "trim_prestige_rating": -1.00,
-  "interior_luxury_rating": 1.00,
+  "interior_luxury_rating": 0.90,
   "interior_tech_focus_rating": 1.00
 }
 ```

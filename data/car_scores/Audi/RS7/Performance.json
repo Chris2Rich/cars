@@ -1,54 +1,106 @@
-```json
+Based on the search results for the 2024/2025 Audi RS7 Performance:
+-   **Price:** Starts around $130k, can go up to $165k+. Definitely >$120k. Score: -1.00.
+-   **Total Cost:** KBB estimates 5-year cost at $153,631, with depreciation of $80,095 and out-of-pocket expenses of $73,536. This is well over $80,000. Score: -1.00.
+-   **Insurance:** High-performance Audi, likely high insurance group. Score: -1.00.
+-   **Maintenance:** High-performance German car maintenance is expensive. Score: -1.00.
+-   **Repair Risk:** KBB owners rate reliability as above average (4.7/5), but Consumer Reports doesn't have enough data and platform mates are middle-of-the-road. Let's stick with average for now. Score: 0.00.
+-   **HP:** 621 hp. Score: 1.00.
+-   **Torque:** 627 lb-ft. Score: 0.95 (close to 1000+ but not quite).
+-   **Cylinder Count:** V8 (8). Score: 0.50.
+-   **Engine Displacement:** 4.0L. Score: 0.50.
+-   **0-60:** Tested at 2.9-3.3 seconds. Score: 1.00.
+-   **Top Speed:** Up to 190 mph with options. Score: 0.90.
+-   **Drive Type:** AWD (Quattro). Score: 0.00.
+-   **Transmission Type:** 8-speed Automatic (Tiptronic). Score: 1.00.
+-   **Offroad Ability:** Very low ground clearance, performance focus. Score: -1.00.
+-   **Braking Dist:** 143 ft from 70 mph (Source [1]). This is around 100-105 ft from 60 mph based on typical ratios. Score: 0.80 (better than average, approaching superb).
+-   **Size:** Length 197.2 in (5009mm), Width 76.8 in (1951mm). Large. Score: 0.80.
+-   **Wheelbase:** 115.3 in (2929mm). Long. Score: 0.80.
+-   **Body Style:** 4-door hatchback/Sportback. Score: 0.20.
+-   **Seats:** 5 (or optional 4). Score: 0.00.
+-   **Cargo Space:** 24.6 cu ft. Score: 0.80 (Excellent for a car, approaching SUV levels).
+-   **Rear Space:** Rear legroom 37.0 in, Rear headroom 37.1 in. Average legroom, potentially slightly less headroom due to coupe roofline. Score: 0.00.
+-   **Ground Clearance:** Not explicitly stated, but visually very low. Score: -1.00.
+-   **Turn Radius:** 40 ft (curb-to-curb). Score: -0.30.
+-   **MPG:** 14 City / 22 Highway / 17 Combined. Very poor. Score: -0.90.
+-   **CO2:** 282 g/km (Source [3]), EPA Greenhouse Gas Score 3.0 (Source [25]). Very high. Score: -0.90.
+-   **Electric Range/Charge Speed:** Not electric. Score: -1.00.
+-   **Handling:** Praised for agility despite size, rear-wheel steering, sport differential, sticky tires. Score: 0.90.
+-   **Ride Comfort:** Air suspension, but can be firm, especially on 22s. Less sound deadening than standard RS7. Score: 0.40.
+-   **Cabin Noise:** Less sound deadening than standard RS7 to enhance engine sound. Score: 0.50.
+-   **Shift Smoothness:** Excellent 8-speed Tiptronic. Score: 0.90.
+-   **Steering Feel:** Praised for feel, closer to sports car than performance sedan. Score: 0.80.
+-   **ADAS:** Comprehensive suite available (adaptive cruise, blind spot, lane keep, 360 cam, etc.). Score: 0.90.
+-   **Visibility:** Coupe shape can impact rear visibility. Score: 0.00.
+-   **Headlights:** HD Matrix LED with laser light. Score: 1.00.
+-   **Security:** Standard features, likely good but not explicitly highlighted as best-in-class. Score: 0.00.
+-   **Screen Size:** 10.1" top, 8.6" bottom, 12.3" Virtual Cockpit. Multiple large screens. Score: 0.90.
+-   **Infotainment UX:** Touchscreen heavy, can be distracting, but responsive. Score: 0.40.
+-   **Smartphone Connect:** Wireless Apple CarPlay/Android Auto. Score: 1.00.
+-   **Audio:** Standard B&O, optional upgraded B&O. Score: 0.90.
+-   **USB Ports:** Not specified, assume average. Score: 0.00.
+-   **Comfort Features:** Heated/ventilated front seats, heated rear seats, power seats, quad-zone climate. Score: 1.00.
+-   **Convenience Features:** Power liftgate, soft-close doors, head-up display, 360 cam, park assist. Score: 1.00.
+-   **Brand Prestige:** Audi is high prestige. Score: 0.80.
+-   **Model Prestige:** RS7 is a high-performance halo model. Score: -0.80.
+-   **Trim Prestige:** Performance is the top trim. Score: -0.80.
+-   **Interior Luxury:** High quality materials, leather, Alcantara options. Score: 0.90.
+-   **Interior Tech Focus:** Multiple screens, digital cockpit, head-up display. Score: 0.90.
+-   **Style Sleek vs Boxy:** Very sleek Sportback profile. Score: 0.80.
+-   **Style Aggression:** Aggressive RS styling. Score: 0.90.
+-   **Style Modernity:** Modern design. Score: 0.70.
+
+Looks good. Ready to format as JSON.```json
 {
   "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
   "maint_usd_yr": -1.00,
-  "repair_risk_score": -0.80,
+  "repair_risk_score": 0.00,
   "hp": 1.00,
-  "torque": 1.00,
+  "torque": 0.95,
   "cylinder_count": 0.50,
-  "engine_displacement": 0.70,
+  "engine_displacement": 0.50,
   "accel_0_60_sec": 1.00,
-  "top_speed": 1.00,
+  "top_speed": 0.90,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.90,
-  "size": 0.90,
-  "wheelbase": 0.20,
-  "body_style": 0.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.80,
+  "size": 0.80,
+  "wheelbase": 0.80,
+  "body_style": 0.20,
   "seats": 0.00,
-  "cargo_space": 0.50,
+  "cargo_space": 0.80,
   "rear_space": 0.00,
-  "ground_clearance_in": -0.50,
-  "turn_radius_ft": -0.20,
-  "mpg": -0.80,
-  "co2_g_km": -0.80,
+  "ground_clearance_in": -1.00,
+  "turn_radius_ft": -0.30,
+  "mpg": -0.90,
+  "co2_g_km": -0.90,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 1.00,
-  "style_aggression_rating": 1.00,
-  "style_modernity_rating": 0.80,
+  "style_sleek_vs_boxy": 0.80,
+  "style_aggression_rating": 0.90,
+  "style_modernity_rating": 0.70,
   "handling_rating": 0.90,
-  "ride_comfort_rating": 0.60,
-  "cabin_noise_rating": -0.20,
-  "shift_smooth_rating": 0.70,
-  "steering_feel_rating": 0.70,
-  "adas_score": 0.80,
-  "visibility_rating": -0.20,
+  "ride_comfort_rating": 0.40,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.90,
+  "steering_feel_rating": 0.80,
+  "adas_score": 0.90,
+  "visibility_rating": 0.00,
   "headlight_rating": 1.00,
-  "security_rating": 0.70,
-  "screen_in": 0.60,
-  "infotainment_ux_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": 0.90,
+  "infotainment_ux_rating": 0.40,
   "smartphone_connect_rating": 1.00,
-  "audio_rating": 1.00,
+  "audio_rating": 0.90,
   "usb_ports": 0.00,
-  "comfort_feature_score": 0.90,
-  "convenience_feature_score": 0.80,
-  "brand_prestige_rating": 0.90,
-  "model_prestige_rating": -1.00,
-  "trim_prestige_rating": -1.00,
+  "comfort_feature_score": 1.00,
+  "convenience_feature_score": 1.00,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": -0.80,
+  "trim_prestige_rating": -0.80,
   "interior_luxury_rating": 0.90,
   "interior_tech_focus_rating": 0.90
 }

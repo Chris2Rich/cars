@@ -1,109 +1,55 @@
 ```json
 {
-  "price_usd": -0.60,
+  "price_usd": -0.15,
   "total_cost_estimate_5yr_usd": 0.00,
   "insurance_usd_yr": -0.30,
   "maint_usd_yr": 0.00,
-  "repair_risk_score": -0.25,
-  "hp": -0.10,
-  "torque": +0.40,
-  "cylinder_count": -0.50,
-  "engine_displacement": -0.60,
-  "accel_0_60_sec": -0.70,
-  "top_speed": -0.40,
+  "repair_risk_score": 0.00,
+  "hp": 0.10,
+  "torque": 0.20,
+  "cylinder_count": -0.25,
+  "engine_displacement": -0.30,
+  "accel_0_60_sec": -0.60,
+  "top_speed": -0.30,
   "drive_type": -1.00,
-  "transmission_type": 0.00,
+  "transmission_type": 1.00,
   "offroad_ability": -1.00,
   "braking_dist_ft": 0.00,
-  "size": +0.70,
-  "wheelbase": +0.80,
-  "body_style": +1.00,
-  "seats": +1.00,
-  "cargo_space": +0.80,
-  "rear_space": +0.70,
-  "ground_clearance_in": -0.20,
-  "turn_radius_ft": -0.10,
-  "mpg": +0.40,
-  "co2_g_km": +0.30,
-  "electric_range_mi": +0.10,
-  "charge_speed_kw": -0.50,
-  "style_sleek_vs_boxy": -0.70,
+  "size": 0.50,
+  "wheelbase": 0.60,
+  "body_style": 1.00,
+  "seats": 0.50,
+  "cargo_space": 0.70,
+  "rear_space": 0.80,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": -0.20,
+  "mpg": 0.40,
+  "co2_g_km": 0.50,
+  "electric_range_mi": 0.20,
+  "charge_speed_kw": -0.70,
+  "style_sleek_vs_boxy": -0.80,
   "style_aggression_rating": -0.50,
-  "style_modernity_rating": +0.50,
-  "handling_rating": +0.20,
-  "ride_comfort_rating": +0.30,
-  "cabin_noise_rating": +0.40,
-  "shift_smooth_rating": +0.50,
-  "steering_feel_rating": +0.10,
-  "adas_score": +0.80,
-  "visibility_rating": +0.80,
-  "headlight_rating": +0.80,
-  "security_rating": +0.60,
-  "screen_in": +0.30,
-  "infotainment_ux_rating": -0.80,
-  "smartphone_connect_rating": +0.80,
-  "audio_rating": +0.10,
-  "usb_ports": +1.00,
-  "comfort_feature_score": +0.70,
-  "convenience_feature_score": +0.80,
-  "brand_prestige_rating": +0.20,
-  "model_prestige_rating": +0.20,
-  "trim_prestige_rating": +0.20,
-  "interior_luxury_rating": +0.60,
-  "interior_tech_focus_rating": +0.70
+  "style_modernity_rating": 0.60,
+  "handling_rating": 0.30,
+  "ride_comfort_rating": 0.40,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.70,
+  "steering_feel_rating": 0.30,
+  "adas_score": 0.80,
+  "visibility_rating": 0.40,
+  "headlight_rating": 0.60,
+  "security_rating": 0.50,
+  "screen_in": 0.10,
+  "infotainment_ux_rating": -0.40,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.50,
+  "usb_ports": 0.80,
+  "comfort_feature_score": 0.70,
+  "convenience_feature_score": 0.80,
+  "brand_prestige_rating": 0.10,
+  "model_prestige_rating": 0.10,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.70
 }
 ```
-
-**Reasoning for each rating:**
-
-*   **price_usd (-0.60):** UK pricing for the Style trim starts around £48k-£61k+ (Source 2, 4, 6, 13, 29), which translates to roughly $60k-$75k+ USD. This is significantly above the market average of $35k but below the $100k threshold for -1.00. It's a higher trim than Life, hence slightly more negative.
-*   **total_cost_estimate_5yr_usd (0.00):** Specific 5-year cost data is not readily available for this trim. Defaulting to the market average score.
-*   **insurance_usd_yr (-0.30):** UK insurance groups for the Multivan Style are in the 30s (Source 30), which is above the national average (typically groups 16-20).
-*   **maint_usd_yr (0.00):** Specific maintenance cost data for the Style trim is not readily available. VW maintenance is generally average, but PHEV adds complexity. Defaulting to the market average score.
-*   **repair_risk_score (-0.25):** Volkswagen generally has average reliability, but the complexity of a PHEV system (if applicable to the specific Style variant) or just modern vehicle systems introduces a slightly higher potential risk compared to a simple ICE vehicle.
-*   **hp (-0.10):** The Style trim is available with various engines, including the 1.5 TSI (136 PS / 134 hp), 2.0 TDI (150 PS / 148 hp), 2.0 TSI (204 PS / 201 hp), and the 1.4 eHybrid (218 PS / 215 hp) (Source 2, 3, 4, 5, 6, 12, 16, 22, 24). The range of power outputs centers around the 200 hp market average, with some options below and some slightly above. Averaging this places it near 0.00, slightly negative due to the lower base engine options.
-*   **torque (+0.40):** Torque figures vary by engine: 1.5 TSI (220 Nm / 160 lb-ft), 2.0 TDI (360 Nm / 265 lb-ft), 2.0 TSI (320 Nm / 236 lb-ft), 1.4 eHybrid (350 Nm / 258 lb-ft) (Source 3, 6, 12). The diesel and eHybrid options offer significantly more torque than the 190 lb-ft market average.
-*   **cylinder_count (-0.50):** All available engines are 4-cylinder (Source 3, 6, 12, 22). A 4-cylinder is below the 6-cylinder average benchmark.
-*   **engine_displacement (-0.60):** Engine displacements are 1.5L, 2.0L, or 1.4L for the eHybrid (Source 3, 6, 12, 22). These are significantly below the 3.0L average benchmark.
-*   **accel_0_60_sec (-0.70):** 0-60 mph times range from around 9 seconds (2.0 TSI, eHybrid) to 11.6 seconds (2.0 TDI) (Source 2, 4, 6, 12, 16, 22, 27). This is slower than the 7.5-second market average.
-*   **top_speed (-0.40):** Top speeds range from around 118 mph (2.0 TDI, eHybrid) to 124 mph (2.0 TSI) (Source 2, 4, 6, 12, 16, 22, 27). This is below the 150 mph market average.
-*   **drive_type (-1.00):** The Multivan T7 is primarily Front-Wheel Drive (FWD) (Source 3, 4, 6, 8). Following the guide's scoring for FWD.
-*   **transmission_type (0.00):** Equipped with a DSG (Dual-Clutch Gearbox) as standard (6-speed for eHybrid, 7-speed for others) (Source 2, 3, 4, 5, 6, 8, 12, 16, 22, 28). Following the guide's scoring for DCT.
-*   **offroad_ability (-1.00):** As a large MPV/van based on a car platform (MQB) (Source 3, 6, 8, 20, 24), it has low ground clearance and is not designed for off-road use. Following the guide's intent based on examples (McLaren = -1.00 for low ability).
-*   **braking_dist_ft (0.00):** Specific braking distance data is not readily available for this trim. Defaulting to the market average score.
-*   **size (+0.70):** Standard length is around 4973mm, long wheelbase is 5173mm (Source 3, 4, 8, 24). This is significantly larger than the 4600mm average, approaching the >5100mm benchmark.
-*   **wheelbase (+0.80):** Wheelbase is 3124mm for both lengths (Source 3, 4, 6, 8, 12, 21, 22, 24). This is well above the 2700mm average, approaching the >3200mm benchmark.
-*   **body_style (+1.00):** It is a 5-door van/minivan/people carrier (Source 2, 4, 7, 8, 16). Following the guide's scoring for 5-Door Van.
-*   **seats (+1.00):** Offers seating for up to 7 people (Source 2, 3, 5, 7, 8, 13, 15, 20). Following the guide's scoring for 7-8 seats.
-*   **cargo_space (+0.80):** Offers substantial cargo space, ranging from 469L (16.6 cu ft) with all seats up to over 3600L (127 cu ft) with seats removed (Source 2, 3, 7, 8, 11, 13). This is well above the >35 cu ft benchmark.
-*   **rear_space (+0.70):** Excellent rear space due to the van body style and flexible/removable seating (Source 5, 7, 13). Well above average sedan/SUV rear legroom.
-*   **ground_clearance_in (-0.20):** Ground clearance is around 152mm (6 inches) (Source 21). This is slightly below the 6.5" average for compact crossovers.
-*   **turn_radius_ft (-0.10):** Turning circle is 12.1m (39.7 ft) (Source 4, 21). This is slightly larger than the 36 ft average.
-*   **mpg (+0.40):** Varies significantly by engine. The diesel gets around 40-44 mpg (Source 4, 13, 27), petrol less (around 31 mpg) (Source 22), and the PHEV has very high official figures (148-156 mpg UK) (Source 6, 23, 25, 29) but lower real-world when the battery is depleted (around 30 mpg) (Source 29). Averaging across the range, and considering the PHEV's potential, it's better than average for a vehicle of its size.
-*   **co2_g_km (+0.30):** Varies by engine. Diesel is around 172 g/km (Source 4, 13), petrol higher (203 g/km) (Source 22), and PHEV is very low (41 g/km) (Source 6, 23, 25). The availability of the low-emission PHEV option pulls the average score up significantly from a pure ICE van.
-*   **electric_range_mi (+0.10):** The eHybrid option offers an electric range of around 29-31 miles (WLTP) or up to 57 miles (VW UK site, possibly NEDC or optimistic WLTP) (Source 2, 3, 6, 8, 23, 25, 29). This is a usable range for a PHEV, better than a non-electric car (-1.00), but far below the range of a dedicated EV.
-*   **charge_speed_kw (-0.50):** AC charging is limited to 3.6 kW, with no DC fast charging (Source 2, 3, 8, 23, 25). This is slow compared to most modern EVs and even some PHEVs.
-*   **style_sleek_vs_boxy (-0.70):** It retains a fundamentally boxy van shape, despite modern styling cues.
-*   **style_aggression_rating (-0.50):** The design is modern and clean but not aggressive; it prioritizes practicality.
-*   **style_modernity_rating (+0.50):** Features modern VW design elements and lighting (Source 3, 11, 24), giving it a contemporary look compared to older vans.
-*   **handling_rating (+0.20):** Based on the MQB car platform (Source 3, 6, 8, 20, 24), reviews suggest it handles well for a vehicle of its size, feeling more car-like than previous generations (Source 6, 16, 24). Better than a typical minivan, but not sporty.
-*   **ride_comfort_rating (+0.30):** Generally reviewed as comfortable, especially when loaded (Source 7, 13, 16). Designed for passenger comfort.
-*   **cabin_noise_rating (+0.40):** Reviews mention it's quiet, especially in electric mode (Source 16, 23). Good insulation for a van.
-*   **shift_smooth_rating (+0.50):** The DSG transmission is generally smooth (Source 6, 16, 28).
-*   **steering_feel_rating (+0.10):** Steering is accurate and well-weighted for a vehicle of this type, but not particularly engaging (Source 6, 16).
-*   **adas_score (+0.80):** Style trim includes IQ. DRIVE Travel Assist (semi-automated driving), Park Assist, Side Assist (blind spot), Rear Traffic Alert, Front Assist with City Emergency Braking, Adaptive Cruise Control, and more (Source 3, 5, 8, 13, 15). This is a comprehensive suite of ADAS features.
-*   **visibility_rating (+0.80):** Excellent visibility due to large windows and upright driving position, typical of a van/MPV (Source 7).
-*   **headlight_rating (+0.80):** Style trim includes IQ. Light LED Matrix headlights with Dynamic Light Assist (Source 5, 8, 13). These are advanced and perform very well.
-*   **security_rating (+0.60):** Includes standard modern security features like anti-theft alarm system with interior monitoring (Source 3).
-*   **screen_in (+0.30):** Features a 10-inch infotainment touchscreen and 10.25-inch Digital Cockpit as standard (Source 5, 7, 9, 14, 15, 17, 24). Above the 8-inch average.
-*   **infotainment_ux_rating (-0.80):** While featuring large screens, VW's recent infotainment systems have been criticized for usability issues, touch-sensitive climate controls, and bugs (Source 6, 9, 14, 24).
-*   **smartphone_connect_rating (+0.80):** Includes Wireless Apple CarPlay and Android Auto as standard (Source 14, 15, 31), offering excellent smartphone integration.
-*   **audio_rating (+0.10):** Comes standard with an eight-speaker stereo (Source 14). The Energetic trim offers a premium Harmon Kardon system (Source 8). Standard audio is average, but the availability of a premium option slightly elevates the potential.
-*   **usb_ports (+1.00):** Features multiple USB-C ports, including two in the front and four in the rear as standard (Source 3, 7, 11, 13). This is well above average.
-*   **comfort_feature_score (+0.70):** Style trim includes heated front seats, three-zone climate control, 'ArtVelours' microfleece upholstery, and ambient interior lighting (Source 5). Optional panoramic sunroof (Source 5). High level of comfort features.
-*   **convenience_feature_score (+0.80):** Includes features like electric sliding side doors, electric tailgate with Easy Open, keyless entry/start, Park Assist, and the flexible/removable seating system with a multi-function table (Source 3, 5, 7, 11, 13, 15, 20). High level of convenience features.
-*   **brand_prestige_rating (+0.20):** Volkswagen is a mainstream brand, generally perceived slightly above average.
-*   **model_prestige_rating (+0.20):** The Multivan is a well-regarded, practical people carrier, positioned in the middle of VW's passenger vehicle range (replacing Sharan/Touran/Caravelle) (Source 8, 11, 16, 24).
-*   **trim_prestige_rating (+0.20):** 'Style' is a mid-range to high trim level (above Life, below Energetic/launch trims) (Source 3, 8, 14). It's a good trim but not the absolute top-tier performance or luxury variant.
-*   **interior_luxury_rating (+0.60):** The interior uses quality materials like 'ArtVelours' microfleece and leather-look bolsters, has a modern design, and includes ambient lighting (Source 5, 7, 9, 13). Aims for a premium feel for a people mover. Above average, approaching luxury levels for its segment.
-*   **interior_tech_focus_rating (+0.70):** Features a digital cockpit, large central touchscreen, and numerous tech features (ADAS, connectivity, digital climate controls) (Source 3, 5, 7, 9, 14, 15, 17, 24), indicating a strong focus on technology.

@@ -1,111 +1,55 @@
 ```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
+  "price_usd": 0.75,
+  "total_cost_estimate_5yr_usd": -0.25,
   "insurance_usd_yr": 0.00,
-  "maint_usd_yr": -0.70,
-  "repair_risk_score": -0.80,
-  "hp": -0.30,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.50,
+  "hp": -0.10,
   "torque": -0.10,
-  "cylinder_count": -0.50,
+  "cylinder_count": -0.25,
   "engine_displacement": -0.50,
   "accel_0_60_sec": -0.10,
-  "top_speed": 0.00,
+  "top_speed": -0.10,
   "drive_type": -1.00,
   "transmission_type": -1.00,
-  "offroad_ability": 1.00,
+  "offroad_ability": -1.00,
   "braking_dist_ft": 0.00,
   "size": -0.50,
   "wheelbase": -0.50,
   "body_style": -1.00,
   "seats": -0.50,
-  "cargo_space": -0.50,
-  "rear_space": -0.50,
-  "ground_clearance_in": -0.50,
-  "turn_radius_ft": 0.10,
+  "cargo_space": 0.00,
+  "rear_space": -0.75,
+  "ground_clearance_in": -0.75,
+  "turn_radius_ft": 0.25,
   "mpg": -0.50,
-  "co2_g_km": -0.70,
+  "co2_g_km": -0.50,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.10,
-  "style_aggression_rating": 0.00,
-  "style_modernity_rating": -0.70,
-  "handling_rating": 0.50,
-  "ride_comfort_rating": -0.50,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.25,
+  "style_modernity_rating": -0.75,
+  "handling_rating": 0.75,
+  "ride_comfort_rating": -0.25,
   "cabin_noise_rating": -0.50,
   "shift_smooth_rating": 0.00,
-  "steering_feel_rating": 0.50,
+  "steering_feel_rating": 0.25,
   "adas_score": -1.00,
   "visibility_rating": 0.00,
-  "headlight_rating": -0.50,
-  "security_rating": -0.50,
+  "headlight_rating": -0.75,
+  "security_rating": -0.75,
   "screen_in": -1.00,
   "infotainment_ux_rating": -1.00,
   "smartphone_connect_rating": -1.00,
   "audio_rating": -0.50,
   "usb_ports": -1.00,
   "comfort_feature_score": -0.50,
-  "convenience_feature_score": -0.50,
+  "convenience_feature_score": -0.75,
   "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": -0.50,
-  "interior_luxury_rating": 0.00,
+  "model_prestige_rating": 0.50,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": -0.25,
   "interior_tech_focus_rating": -1.00
 }
 ```
-
-**Explanation of Ratings for 1993 Volkswagen Corrado G60:**
-
-Evaluating the Volkswagen Corrado G60, particularly the later models before the VR6 fully took over as the top trim, requires comparing its characteristics from the early 1990s to today's automotive landscape. Many scores reflect the significant advancements in technology, safety, and features over the past three decades.
-
-*   **price\_usd**: 0.00 - The benchmark is for new car pricing. The Corrado G60 is a classic, and its market value varies greatly based on condition, often exceeding its original price but still far below the threshold for a -1.00 score based on *new* car prices. Applying this benchmark is ambiguous, so defaulting to 0.00 is appropriate. Original price was around $20,000 [1].
-*   **total\_cost\_estimate\_5yr\_usd**: 0.00 - Estimating 5-year ownership costs for a 30+ year old classic car is not feasible with standard data sources. Defaulting to 0.00.
-*   **insurance\_usd\_yr**: 0.00 - Insurance costs for classics vary significantly based on policy type and vehicle value. Standard insurance group data is not relevant for a car of this age. Defaulting to 0.00.
-*   **maint\_usd\_yr**: -0.70 - Maintenance costs for a 30+ year old car with a relatively complex supercharger system are generally higher than average, requiring specialized knowledge and potentially harder-to-find parts [3, 16, 23, 24].
-*   **repair\_risk\_score**: -0.80 - The G60 is known for reliability issues, particularly with the G-Lader supercharger requiring periodic rebuilds or being prone to failure if not properly maintained [3, 7, 16, 23, 24, 31]. Electrical issues are also noted [16]. This places its repair risk well below average compared to modern vehicles.
-*   **hp**: -0.30 - The 158-160 hp output [1, 2, 5, 6, 8, 11, 17, 20, 22] is notably below the average horsepower of new cars today (~200 hp).
-*   **torque**: -0.10 - The 166 lb-ft (225 Nm) of torque [1, 2, 5, 6, 8, 11, 20, 22] is slightly below the average torque of new cars today (~190 lb-ft).
-*   **cylinder\_count**: -0.50 - A 4-cylinder engine [1, 6, 8, 11, 13, 31] is common, but the average modern car might lean towards slightly more cylinders or more advanced 4-cylinder technology. Compared to the VR6, it's a step down in cylinder count.
-*   **engine\_displacement**: -0.50 - The 1.8L displacement [1, 2, 4, 5, 6, 8, 11, 13, 15, 17, 20, 31] is smaller than the average modern engine size.
-*   **accel\_0\_60\_sec**: -0.10 - Published 0-60 mph times range from 7.8 to 8.1 seconds [1, 8, 15], which is slightly slower than the average modern car (~7.5 seconds).
-*   **top\_speed**: 0.00 - A top speed of 140 mph (225 km/h) [1, 2, 5, 8, 15, 31] is around the average top speed for many non-performance modern vehicles (~150 mph).
-*   **drive\_type**: -1.00 - The Corrado G60 is Front-Wheel Drive (FWD) [1, 2, 5, 8, 15, 31], which scores -1.00 according to the guide.
-*   **transmission\_type**: -1.00 - The most common transmission was a 5-speed manual [1, 2, 5, 6, 8, 17, 18, 31, 32], which scores -1.00 according to the guide. A 4-speed automatic was optional [6, 22, 31], also scoring -1.00.
-*   **offroad\_ability**: 1.00 - As a low-slung sports coupe, it has no off-road capability, scoring +1.00 as per the guide's inverse scale for this metric.
-*   **braking\_dist\_ft**: 0.00 - While it had disc brakes and optional ABS [4, 6, 10, 14, 22], specific braking distance data for the G60 was not consistently found. Defaulting to 0.00.
-*   **size**: -0.50 - With a length of ~4050mm [6, 8, 18, 20, 21, 32], it is smaller than the average modern compact car (~4600mm).
-*   **wheelbase**: -0.50 - The wheelbase of ~2470mm [1, 2, 8, 18, 19, 20, 21, 32] is shorter than the average modern car (~2700mm).
-*   **body\_style**: -1.00 - It is a 3-door 2+2 coupe/hatchback [2, 6, 8, 21, 32], scoring -1.00 as per the guide for a 2-door coupe.
-*   **seats**: -0.50 - It has a 2+2 seating layout (4 seats) [2, 3, 6, 10, 18, 21, 22, 32], which is less than the average 5-seat capacity.
-*   **cargo\_space**: -0.50 - Minimum cargo space is 8.3 cu ft (235L) [6, 8], which is below the average modern car (~15 cu ft). It could expand to 28.6 cu ft (810L) with rear seats folded [8, 21, 22], which is better, but the base figure is low.
-*   **rear\_space**: -0.50 - Rear space is noted as cramped [3], scoring below the average modern car's rear legroom.
-*   **ground\_clearance\_in**: -0.50 - Ground clearance is listed as 5.1 inches (130mm) [6] or 150mm [18], which is below the average for modern vehicles (~6.5 inches).
-*   **turn\_radius\_ft**: 0.10 - The turning circle is listed as 10.5m (34.45 ft) [8], which is slightly better than the average modern car (~36 ft).
-*   **mpg**: -0.50 - Fuel economy is listed around 20-27 UK mpg or 23 US mpg combined [1, 8, 17, 31], which is below the average modern car (~30 mpg).
-*   **co2\_g\_km**: -0.70 - A supercharged 1.8L engine from the 1990s would have significantly higher CO2 emissions than the average modern car, especially EVs (0 g/km). Specific data was not found, but a negative score is warranted.
-*   **electric\_range\_mi**: -1.00 - Not an electric vehicle.
-*   **charge\_speed\_kw**: -1.00 - Not an electric vehicle.
-*   **style\_sleek\_vs\_boxy**: 0.10 - The Corrado has a coupe profile, which is relatively sleek, but not as extreme as modern aerodynamic designs [10, 14].
-*   **style\_aggression\_rating**: 0.00 - The design is sporty and distinctive [7, 9, 14, 28] but not overtly aggressive by modern standards.
-*   **style\_modernity\_rating**: -0.70 - The design is clearly from the late 80s/early 90s and appears dated compared to modern vehicle styling [7].
-*   **handling\_rating**: 0.50 - The Corrado G60 was praised for its handling and balance [6, 10, 14, 16, 31]. While modern cars have advanced, its fundamental chassis and steering feel still provide above-average handling characteristics compared to a typical modern vehicle.
-*   **ride\_comfort\_rating**: -0.50 - While described as comfortable for a sports car in its time [3, 10], older suspension technology and potentially aftermarket modifications on current examples would likely result in a ride less comfortable than the average modern car.
-*   **cabin\_noise\_rating**: -0.50 - The supercharged engine was noted as being a little noisy [6], and older cars generally have less sound insulation than modern vehicles, likely resulting in higher cabin noise.
-*   **shift\_smooth\_rating**: 0.00 - The 5-speed manual transmission was described as somewhat disappointing with a cable shifter scoring only passing marks in one review [1]. Compared to the variety of modern transmissions, it sits around average.
-*   **steering\_feel\_rating**: 0.50 - The power-assisted rack and pinion steering was noted for being precise [6, 10, 14], providing better feel than many modern cars with numb electric power steering.
-*   **adas\_score**: -1.00 - The Corrado predates modern Advanced Driver-Assistance Systems. It had basic ABS available [4, 6, 10, 14, 22], but this is not considered ADAS by modern standards.
-*   **visibility\_rating**: 0.00 - No specific data or common complaints/praise found regarding visibility. Defaulting to 0.00. The active rear spoiler retracts at low speeds to improve visibility [2, 10], which is a positive, but doesn't necessarily make overall visibility superb.
-*   **headlight\_rating**: -0.50 - Headlight technology from the 1990s (likely halogen or basic projector) is significantly less advanced than modern LED or Matrix LED systems [9, 30].
-*   **security\_rating**: -0.50 - Security features were basic for the era (central locking with anti-theft, immobilizer) [4, 22], lacking modern tracking or advanced anti-theft systems.
-*   **screen\_in**: -1.00 - The original car had a basic radio, not a modern infotainment screen [9, 22].
-*   **infotainment\_ux\_rating**: -1.00 - The basic radio system lacks the functionality and user experience of modern infotainment systems.
-*   **smartphone\_connect\_rating**: -1.00 - No smartphone connectivity features like Apple CarPlay or Android Auto.
-*   **audio\_rating**: -0.50 - The original audio system (e.g., Blaupunkt 6-speaker) [1] would be basic compared to modern multi-speaker, high-fidelity options.
-*   **usb\_ports**: -1.00 - USB ports were not a feature in cars of this era.
-*   **comfort\_feature\_score**: -0.50 - Features like air conditioning, power windows/locks/mirrors, cruise control, tilt steering, and heated seats were available [3, 6, 10, 22, 28], but it lacks the wide array of comfort features found in average modern cars (e.g., multi-zone climate control, ventilated seats, power seat adjustments beyond basic).
-*   **convenience\_feature\_score**: -0.50 - Features were limited to basics like power windows/locks/mirrors, cruise control, and a multi-function computer [3, 10, 22, 28], lacking modern convenience items like parking sensors, cameras, keyless entry/start, etc. The automatic window closing feature upon locking is a minor positive [22].
-*   **brand\_prestige\_rating**: 0.00 - Volkswagen is generally considered an average, mainstream brand.
-*   **model\_prestige\_rating**: 0.00 - The Corrado was a niche, respected model within VW's lineup, considered a "modern classic" [12, 24, 26], placing it around the middle in terms of model prestige relative to VW's range (not entry-level like an A1, not a halo car like an R8).
-*   **trim\_prestige\_rating**: -0.50 - The G60 was initially the top performance trim [12], but was later superseded by the VR6 [3, 7, 13]. It represents a good, but not the ultimate, performance version, placing it below the top trims (-1.00) but above base models (+1.00).
-*   **interior\_luxury\_rating**: 0.00 - Interior quality was considered good for its time [14], with options like leather [3, 6, 10, 28], but it does not meet the standards of modern luxury interiors. It sits around average compared to today's market.
-*   **interior\_tech\_focus\_rating**: -1.00 - The interior design is focused on driving and ergonomics with analog gauges and minimal technology displays or features [6, 9, 22].

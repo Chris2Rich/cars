@@ -1,55 +1,111 @@
-```json
+Based on the search results, the "most recent version" of the BMW 7 Series with a "728i" designation appears to be from the E38 generation (1994-2001), specifically the later models (1998-2001). The F01/F02 generation (2008-2015) did not have a 728i model; its base petrol engine was the 730i or 740i. The current G70 generation also does not have a 728i. Therefore, I will evaluate the 1998-2001 BMW 728i (E38).
+
+Here's the data extracted and the corresponding scores:
+
+*   **price_usd**: The car is from 1998-2001, so it's a used car. Prices will be significantly lower than the new car average. Score: +1.00.
+*   **total_cost_estimate_5yr_usd**: Older luxury cars typically have higher maintenance and repair costs. While the initial purchase price is low, the 5-year cost will likely be higher than average for a used car. Search results indicate potential issues with older 7 Series models (E38, E65/E66) [32, 38]. Score: -0.50.
+*   **insurance_usd_yr**: Luxury cars, even older ones, can have higher insurance costs. Specific UK insurance group data for this exact model wasn't found, but luxury vehicles generally fall into higher groups. Score: -0.50.
+*   **maint_usd_yr**: Older BMW 7 Series are known for potentially high maintenance costs [32, 38]. Score: -0.80.
+*   **repair_risk_score**: Older luxury cars, especially BMW 7 Series from these generations, have a reputation for needing significant repairs as they age [32, 38]. Score: -0.80.
+*   **hp**: 190 hp (ECE) [7, 16, 44]. Compared to today's market average (~200 hp), this is slightly below average. Score: -0.10.
+*   **torque**: 280 Nm / 206 lb-ft [7, 16, 44]. Compared to today's market average (~190 lb-ft), this is slightly above average. Score: 0.10.
+*   **cylinder_count**: Inline 6 [7, 16, 44]. This is an average cylinder count. Score: 0.00.
+*   **engine_displacement**: 2793 cm³ / 2.8L [7, 16, 44]. This is around the average displacement. Score: 0.00.
+*   **accel_0_60_sec**: Estimated 7.9 - 8.1 sec [7, 16, 44]. This is slower than today's average (~7.5 sec). Score: -0.20.
+*   **top_speed**: Data not explicitly found for the 728i E38, but other E38 models could reach 240-250 km/h (150-155 mph) [20]. The 728i would be lower. Estimate around 140 mph. Compared to today's average (150 mph), this is below average. Score: -0.20.
+*   **drive_type**: RWD [7, 16, 44]. This is rated as +1.00 in the guide. Score: 1.00.
+*   **transmission_type**: Available with 5-speed manual or automatic [7, 16, 44]. The automatic would be an older type. Score: 0.00 (averaging manual and older auto).
+*   **offroad_ability**: This is a large luxury sedan, not designed for off-road. Score: -1.00.
+*   **braking_dist_ft**: No specific data found for the 728i E38. Luxury sedans of this era generally had good braking for their time, but likely not exceptional by modern standards. Default to average. Score: 0.00.
+*   **size**: Length 4984 mm / 196.2 in [7, 16, 44]. This is a large car, close to the +1.00 benchmark (>5100mm). Score: 0.80.
+*   **wheelbase**: 2930 mm / 115.4 in [7, 16, 44]. This is a long wheelbase, approaching the +1.00 benchmark (>3200mm). Score: 0.80.
+*   **body_style**: 4-door sedan [7, 16, 44]. This is the average body style. Score: 0.00.
+*   **seats**: 5 seats [17, 19]. This is the average number of seats. Score: 0.00.
+*   **cargo_space**: 500 liters [6, 18, 24]. Converting to cu ft: 500 L * 0.0353147 = 17.66 cu ft. This is above the average (15 cu ft). Score: 0.20.
+*   **rear_space**: No specific data found for the 728i E38 rear legroom. As a large luxury sedan, it would have good rear space for its time, likely above average by today's standards for a sedan. Estimate above average. Score: 0.50.
+*   **ground_clearance_in**: 14.1 cm / 5.55 inches (for F01, E38 likely similar or slightly lower) [6, 41]. This is around the average for a sedan/compact crossover (6.5"). Score: 0.00.
+*   **turn_radius_ft**: 11.6 m [18]. Converting to ft: 11.6 m * 3.28084 = 38.06 ft. This is slightly above the average (36 ft). Score: -0.10.
+*   **mpg**: Around 28.3 mpg (imp) combined [44]. Converting to US mpg: 28.3 / 1.201 = 23.56 US mpg. This is below the average (30 mpg). Score: -0.30.
+*   **co2_g_km**: No specific data found for the 728i E38. Based on MPG, it would be above average. Score: -0.30.
+*   **electric_range_mi**: Not an electric vehicle. Score: -1.00.
+*   **charge_speed_kw**: Not an electric vehicle. Score: -1.00.
+*   **style_sleek_vs_boxy**: The E38 is generally considered a well-proportioned, classic sedan design, neither overly sleek nor boxy. Score: 0.00.
+*   **style_aggression_rating**: The E38 has a relatively understated, elegant design compared to more aggressive modern cars or performance models. Score: -0.20.
+*   **style_modernity_rating**: The E38 design is clearly dated compared to modern vehicles. Score: -0.80.
+*   **handling_rating**: BMWs are known for good handling, even large sedans. The E38 was praised for its driving dynamics for its era. Score: 0.60.
+*   **ride_comfort_rating**: As a luxury sedan, the 7 Series prioritizes ride comfort. The E38 was known for a comfortable ride. Score: 0.80.
+*   **cabin_noise_rating**: Luxury sedans typically have good cabin noise insulation. The E38 would have been good for its time. Score: 0.70.
+*   **shift_smooth_rating**: The automatic transmission in the E38 would be older technology than modern automatics. Score: 0.00.
+*   **steering_feel_rating**: BMWs are generally known for good steering feel. The E38 was likely above average for its time. Score: 0.50.
+*   **adas_score**: ADAS features were minimal or non-existent in cars from this era compared to today. Score: -1.00.
+*   **visibility_rating**: Sedans generally have decent visibility. No specific issues noted for the E38. Score: 0.00.
+*   **headlight_rating**: The E38 would have used older headlight technology (likely Xenon on higher trims, Halogen on base) compared to modern LEDs. Score: -0.50.
+*   **security_rating**: Luxury cars of this era had some security features, but not the advanced systems of today. Score: 0.00.
+*   **screen_in**: The E38 had a screen for navigation/infotainment, but it was small by modern standards (likely around 4:3 aspect ratio, maybe 7-8 inches diagonally for the system, but the usable screen area might be smaller) [13, 26, 31]. Score: -0.70.
+*   **infotainment_ux_rating**: The iDrive system was introduced in the subsequent E65 generation and was initially controversial [13, 31]. The E38 had an older system, likely less intuitive than modern systems. Score: -0.50.
+*   **smartphone_connect_rating**: No modern smartphone connectivity features like CarPlay or Android Auto. Score: -1.00.
+*   **audio_rating**: As a luxury car, it would have had a decent audio system for its time, but not comparable to high-end modern systems. Score: 0.00.
+*   **usb_ports**: USB ports were not standard in cars of this era. Score: -1.00.
+*   **comfort_feature_score**: As a luxury sedan, the E38 had many comfort features for its time (power seats, climate control). Compared to modern luxury cars, it lacks many advanced features. Score: 0.50.
+*   **convenience_feature_score**: The E38 had some convenience features (e.g., parking sensors might have been optional), but lacks modern features like cameras, keyless entry/start (depending on year/trim), etc. Score: 0.00.
+*   **brand_prestige_rating**: BMW is a prestigious brand. Score: 0.90.
+*   **model_prestige_rating**: The 7 Series is the flagship model, representing the top of the brand's range. Score: -1.00.
+*   **trim_prestige_rating**: The 728i was typically an entry-level engine option for the 7 Series in markets where it was offered. Score: 1.00.
+*   **interior_luxury_rating**: The E38 interior was known for high-quality materials and luxury for its time. Score: 0.80.
+*   **interior_tech_focus_rating**: The E38 had technology for its era (navigation, early infotainment), but the focus was less on screens and digital interfaces compared to modern cars. Score: -0.50.
+
+Now, format this into the JSON structure.```json
 {
-  "price_usd": -0.90,
-  "total_cost_estimate_5yr_usd": -1.00,
-  "insurance_usd_yr": -1.00,
-  "maint_usd_yr": -1.00,
-  "repair_risk_score": 0.00,
-  "hp": 0.35,
-  "torque": 0.35,
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": -0.50,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.80,
+  "repair_risk_score": -0.80,
+  "hp": -0.10,
+  "torque": 0.10,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.40,
-  "top_speed": 0.10,
+  "accel_0_60_sec": -0.20,
+  "top_speed": -0.20,
   "drive_type": 1.00,
-  "transmission_type": 1.00,
+  "transmission_type": 0.00,
   "offroad_ability": -1.00,
   "braking_dist_ft": 0.00,
-  "size": 1.00,
-  "wheelbase": 1.00,
+  "size": 0.80,
+  "wheelbase": 0.80,
   "body_style": 0.00,
   "seats": 0.00,
   "cargo_space": 0.20,
-  "rear_space": 1.00,
-  "ground_clearance_in": -0.20,
-  "turn_radius_ft": -0.60,
-  "mpg": 0.00,
-  "co2_g_km": -0.10,
+  "rear_space": 0.50,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": -0.10,
+  "mpg": -0.30,
+  "co2_g_km": -0.30,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.30,
-  "style_modernity_rating": 0.60,
-  "handling_rating": 0.40,
-  "ride_comfort_rating": 0.90,
-  "cabin_noise_rating": 0.90,
-  "shift_smooth_rating": 0.90,
-  "steering_feel_rating": -0.40,
-  "adas_score": 0.80,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": -0.80,
+  "handling_rating": 0.60,
+  "ride_comfort_rating": 0.80,
+  "cabin_noise_rating": 0.70,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.50,
+  "adas_score": -1.00,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.80,
-  "security_rating": 0.90,
-  "screen_in": 0.70,
-  "infotainment_ux_rating": 0.70,
-  "smartphone_connect_rating": 1.00,
-  "audio_rating": 0.95,
-  "usb_ports": 0.90,
-  "comfort_feature_score": 0.95,
-  "convenience_feature_score": 0.95,
-  "brand_prestige_rating": 0.80,
+  "headlight_rating": -0.50,
+  "security_rating": 0.00,
+  "screen_in": -0.70,
+  "infotainment_ux_rating": -0.50,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": 0.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.90,
   "model_prestige_rating": -1.00,
   "trim_prestige_rating": 1.00,
-  "interior_luxury_rating": 0.95,
-  "interior_tech_focus_rating": 0.95
+  "interior_luxury_rating": 0.80,
+  "interior_tech_focus_rating": -0.50
 }
 ```

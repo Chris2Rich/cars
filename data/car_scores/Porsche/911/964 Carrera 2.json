@@ -1,55 +1,145 @@
-```json
+Based on the search results, here's the data for the Porsche 964 Carrera 2 (manual transmission unless Tiptronic is specified):
+
+- **price_usd**: Average price is around $103,230 (Source 12). This is well above the $52,000 average for a new car, placing it firmly in the negative range. Score: -1.00 (>$120k is -1.00, this is close enough for a classic).
+- **total_cost_estimate_5yr_usd**: Classic Porsche maintenance and potential repairs are high. Depreciation might be low or even appreciate, but running costs are significant. Score: -1.00 (>$80k over 5 years is -1.00, likely applies).
+- **insurance_usd_yr**: Classic sports car insurance can vary, but likely higher than average. UK insurance group wasn't found, but given the value and performance, it's unlikely to be cheap. Defaulting to average or slightly below average seems reasonable without specific data. Let's lean towards slightly below average due to classic status potentially offsetting some performance risk compared to a modern equivalent. Score: 0.00 (Default).
+- **maint_usd_yr**: High for a classic Porsche (Source 1, mentions £7000 for cylinder head rebuild). Score: -1.00 (>$3500/year is -1.00).
+- **repair_risk_score**: Older car, more prone to issues than a new car, but Porsche build quality is generally good. Some known issues like dual-mass flywheel (Source 1). Score: -0.50 (Below average).
+- **hp**: 247-250 HP (Source 3, 6, 7, 14, 15, 16, 18, 21). Modern average is ~200 HP. This is above average. Score: 0.30 (Above average).
+- **torque**: 228-229 lb-ft (Source 3, 6, 7, 15, 16, 18, 21). Modern average is ~190 lb-ft. This is above average. Score: 0.30 (Above average).
+- **cylinder_count**: Flat 6 (Source 3, 7, 13, 15, 16, 18, 25). Score: 0.00 (Matches guide example).
+- **engine_displacement**: 3.6L (3600 cm³) (Source 3, 6, 7, 8, 13, 15, 16, 18, 21, 25). Score: 0.00 (Matches guide example).
+- **accel_0_60_sec**: 5.4-5.7 seconds for manual (Source 3, 6, 7, 14, 15, 21, 22). Modern average is ~7.5 seconds. This is significantly faster. Score: 0.80 (Much faster than average).
+- **top_speed**: 162 mph (Source 1, 2, 3, 5, 7, 8, 14, 15, 20, 21, 25). Modern average is ~150 mph. This is above average. Score: 0.30 (Above average).
+- **drive_type**: RWD (Source 3, 5, 6, 7, 8, 13, 14, 19, 20, 21, 25). Score: 1.00 (Matches guide).
+- **transmission_type**: Manual (Source 3, 6, 7, 8, 12, 14, 15, 17, 18, 19, 21, 25). Score: -1.00 (Matches guide).
+- **offroad_ability**: Very low ground clearance (4.72 inches / 120mm) (Source 3, 13, 16). Score: -1.00 (Matches guide example).
+- **braking_dist_ft**: One source mentions ~37m (121 ft) from 60-0 mph for a modified car (Source 30). Another mentions 35.6m (116.8 ft) from 100 km/h (62 mph) for a Turbo (Source 31). Modern average is ~125 ft. These figures suggest good braking for its era, likely better than the average modern car. Score: 0.70 (Better than average).
+- **size**: Length ~167-168 inches (4250-4275mm) (Source 3, 6, 7, 8, 13, 16, 21, 23). Modern Civic is ~4600mm. Smaller than average. Score: -0.70 (Smaller than average).
+- **wheelbase**: ~89.4-89.5 inches (2270-2272mm) (Source 2, 3, 6, 7, 8, 13, 16, 21, 23). Modern Octavia is ~2700mm. Shorter than average. Score: -0.80 (Shorter than average).
+- **body_style**: 2-door coupe (Source 2, 7, 8, 21). Score: -1.00 (Matches guide).
+- **seats**: 4 seats (2+2) (Source 7, 8, 9), but rear seats are very small (Source 5, 9). Effectively 2 usable seats. Score: -0.50 (Matches guide example).
+- **cargo_space**: 90L / 3.18 cu ft (Source 3, 8, 19). Another source says 7.1 cu ft / 200L (Source 7). Let's use the lower, more consistent figure. Modern Civic is ~15 cu ft. Very limited. Score: -0.90 (Much less than average).
+- **rear_space**: Very small rear seats (Source 5, 9). Score: -1.00 (Much less than average).
+- **ground_clearance_in**: 4.72 inches / 120mm (Source 3, 13, 16). Score: -0.80 (Matches guide example range).
+- **turn_radius_ft**: ~39.2 ft (11.95m) (Source 3, 6, 8, 10, 20). Modern Camry is ~36 ft. Slightly larger than average. Score: -0.20 (Slightly larger than average).
+- **mpg**: Combined 17-20 MPG US (Source 5, 7, 15, 17, 21). Average is ~30 mpg. Below average. Score: -0.50 (Below average).
+- **co2_g_km**: 273.7 g/km (Source 5, 9). Modern RAV4 is ~175 g/km. Much higher. Score: -0.80 (Much higher than average).
+- **electric_range_mi**: Not electric. Score: -1.00.
+- **charge_speed_kw**: Not electric. Score: -1.00.
+- **handling_rating**: Known for excellent handling (Source 1, 5, 25). Score: 0.90 (Superb).
+- **ride_comfort_rating**: Sports car, coil springs improved over torsion bars (Source 2, 5), but RS version was noted as harsh (Source 25). Carrera 2 is less extreme than RS, but still a sports car. Score: -0.50 (Below average).
+- **cabin_noise_rating**: Air-cooled engine is inherently noisy. Score: -0.70 (Very loud compared to modern cars).
+- **shift_smooth_rating**: Manual G50 gearbox is generally well-regarded, but older tech than modern automatics. Tiptronic was new but dulled performance (Source 1). Score based on manual: 0.20 (Above average for a manual, but manual is -1.00 transmission type). Let's score the *smoothness* of the shift itself, which is good for a manual. Score: 0.50 (Good for a manual).
+- **steering_feel_rating**: Hydraulic power steering (Source 8, 10, 20), known for excellent feel. Score: 0.90 (Engaging).
+- **adas_score**: Minimal to none (ABS and airbags mentioned Source 1, 2, 5, 8, 10). Score: -1.00 (Minimal tech).
+- **visibility_rating**: Classic 911 shape generally offers good forward visibility. Score: 0.20 (Slightly above average).
+- **headlight_rating**: Older technology headlights. Score: -0.50 (Below average).
+- **security_rating**: Older car, less modern security features. Score: -0.50 (Below average).
+- **screen_in**: No screen originally. Score: -1.00.
+- **infotainment_ux_rating**: No infotainment originally. Score: -1.00.
+- **smartphone_connect_rating**: No connectivity. Score: -1.00.
+- **audio_rating**: Basic original system (Source 9 mentions stereo). Score: -0.50 (Below average).
+- **usb_ports**: None originally. Score: -1.00.
+- **comfort_feature_score**: Minimal features compared to modern cars (AC, power steering, ABS mentioned Source 1, 5, 24). Score: -1.00 (Minimal features).
+- **convenience_feature_score**: Minimal features compared to modern cars. Score: -1.00 (Minimal features).
+- **brand_prestige_rating**: Porsche is high prestige. Score: 0.90 (High).
+- **model_prestige_rating**: 911 is a halo car. Score: -1.00 (Top of brand/halo cars).
+- **trim_prestige_rating**: Carrera 2 is a standard trim, not top-tier like Turbo or RS (Source 1, 25). Score: 0.00 (Middle of range).
+- **interior_luxury_rating**: Quality materials for its time (leather seats mentioned Source 9), but not modern luxury. Score: -0.70 (Below average).
+- **interior_tech_focus_rating**: Minimal tech focus. Score: -1.00 (Analog gauges, minimal screens).
+- **style_sleek_vs_boxy**: Classic 911 shape, not particularly sleek or boxy by modern standards. Score: 0.00 (Average).
+- **style_aggression_rating**: Classic design, not overly aggressive compared to modern sports cars. Score: 0.00 (Average).
+- **style_modernity_rating**: Classic design, clearly not modern. Score: -1.00 (Clearly dated).
+
+Reviewing the scores and guide:
+- Price, Total Cost, Maint: High for a classic, -1.00 seems appropriate. Insurance is less clear, keeping at 0.00. Repair risk slightly below average.
+- Performance: HP/Torque above average, 0-60 is very good, Top Speed above average. Cylinder count/displacement are average per guide. RWD is +1.00. Manual transmission is -1.00. Offroad is -1.00. Braking is good, 0.70 seems fair.
+- Space: Size, wheelbase, cargo, rear space are all significantly smaller than modern average. 2-door coupe and 2+2 seats are low scores per guide. Ground clearance is low. Turn radius is slightly larger than average.
+- Efficiency: MPG and CO2 are worse than modern average. Not electric is -1.00.
+- Dynamics: Handling and Steering feel are excellent, high scores. Ride comfort and Cabin noise are poor for modern standards. Shift smoothness is good for a manual.
+- Safety/Visibility: ADAS, Headlights, Security are poor due to age. Visibility is average.
+- Infotainment/Connectivity: All -1.00 as it's an old car with no modern systems.
+- Comfort/Convenience: All -1.00 due to lack of modern features.
+- Style/Brand/Interior: Brand/Model prestige are high/halo. Trim is standard. Interior luxury is below modern standards. Interior tech focus is minimal. Style is classic, not modern, average aggression/sleekness.
+
+Looks consistent with evaluating a classic sports car against modern benchmarks.
+
+Final check on values and scoring:
+- price_usd: ~$103k is closer to $120k (-1.00) than $52k (0.00). -1.00 is appropriate.
+- total_cost_estimate_5yr_usd: High maintenance/repair/potential classic car costs. -1.00 is appropriate.
+- maint_usd_yr: High for classic Porsche. -1.00 is appropriate.
+- repair_risk_score: Older car, but Porsche. -0.50 seems fair.
+- hp: 250 vs 200 avg. Above average. 0.30 seems reasonable.
+- torque: 228 vs 190 avg. Above average. 0.30 seems reasonable.
+- accel_0_60_sec: 5.5s vs 7.5s avg. Much faster. 0.80 seems reasonable.
+- braking_dist_ft: ~120ft vs 125ft avg. Better. 0.70 seems reasonable.
+- size/wheelbase: Significantly smaller. -0.70/-0.80 seems reasonable.
+- cargo/rear_space: Very limited. -0.90/-1.00 seems reasonable.
+- ground_clearance_in: 4.72 vs 6.5 avg. Lower. -0.80 seems reasonable.
+- turn_radius_ft: 39.2 vs 36 avg. Slightly larger. -0.20 seems reasonable.
+- mpg: ~18-20 vs 30 avg. Worse. -0.50 seems reasonable.
+- co2_g_km: ~274 vs 175 avg. Much worse. -0.80 seems reasonable.
+- handling/steering: Excellent. 0.90 seems reasonable.
+- ride_comfort/cabin_noise: Poor for modern standards. -0.50/-0.70 seems reasonable.
+- shift_smooth: Good for a manual. 0.50 seems reasonable.
+- tech/features: Minimal/None. -1.00 seems appropriate for most. Screen size, Infotainment, Smartphone, USB, Comfort, Convenience, Interior Tech all -1.00. ADAS -1.00. Headlights/Security -0.50. Audio -0.50. Visibility 0.20.
+- Prestige: Brand high (0.90), Model halo (-1.00), Trim standard (0.00). Matches guide.
+- Interior Luxury: Good for its time, not modern luxury. -0.70 seems reasonable.
+- Style: Classic, not modern. Average aggression/sleekness. -1.00 modernity, 0.00 for others seems reasonable.
+
+The scores seem consistent with the data and the scoring guide, reflecting that it's a high-performance classic sports car with minimal modern features and practicality, evaluated against today's market.```json
 {
   "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
-  "insurance_usd_yr": -1.00,
+  "insurance_usd_yr": 0.00,
   "maint_usd_yr": -1.00,
   "repair_risk_score": -0.50,
-  "hp": 0.25,
-  "torque": 0.25,
+  "hp": 0.30,
+  "torque": 0.30,
   "cylinder_count": 0.00,
-  "engine_displacement": 0.25,
-  "accel_0_60_sec": 0.75,
-  "top_speed": 0.25,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.80,
+  "top_speed": 0.30,
   "drive_type": 1.00,
-  "transmission_type": -0.75,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
-  "size": -0.50,
-  "wheelbase": -0.75,
+  "transmission_type": -1.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.70,
+  "size": -0.70,
+  "wheelbase": -0.80,
   "body_style": -1.00,
-  "seats": -0.75,
-  "cargo_space": -1.00,
+  "seats": -0.50,
+  "cargo_space": -0.90,
   "rear_space": -1.00,
-  "ground_clearance_in": -0.75,
-  "turn_radius_ft": -0.25,
+  "ground_clearance_in": -0.80,
+  "turn_radius_ft": -0.20,
   "mpg": -0.50,
-  "co2_g_km": -0.50,
+  "co2_g_km": -0.80,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.75,
-  "style_aggression_rating": 0.50,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.00,
   "style_modernity_rating": -1.00,
-  "handling_rating": 1.00,
+  "handling_rating": 0.90,
   "ride_comfort_rating": -0.50,
-  "cabin_noise_rating": -0.75,
-  "shift_smooth_rating": -0.75,
-  "steering_feel_rating": 1.00,
+  "cabin_noise_rating": -0.70,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.90,
   "adas_score": -1.00,
-  "visibility_rating": 0.00,
-  "headlight_rating": -1.00,
-  "security_rating": -1.00,
+  "visibility_rating": 0.20,
+  "headlight_rating": -0.50,
+  "security_rating": -0.50,
   "screen_in": -1.00,
   "infotainment_ux_rating": -1.00,
   "smartphone_connect_rating": -1.00,
-  "audio_rating": -0.75,
+  "audio_rating": -0.50,
   "usb_ports": -1.00,
   "comfort_feature_score": -1.00,
   "convenience_feature_score": -1.00,
-  "brand_prestige_rating": 1.00,
+  "brand_prestige_rating": 0.90,
   "model_prestige_rating": -1.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": -0.50,
+  "interior_luxury_rating": -0.70,
   "interior_tech_focus_rating": -1.00
 }
 ```

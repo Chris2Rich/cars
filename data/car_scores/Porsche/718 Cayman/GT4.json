@@ -1,109 +1,55 @@
 ```json
 {
-  "price_usd": -1.00,
+  "price_usd": -0.55,
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
   "maint_usd_yr": -1.00,
-  "repair_risk_score": 0.00,
-  "hp": 0.75,
-  "torque": 0.50,
+  "repair_risk_score": 1.00,
+  "hp": 0.70,
+  "torque": 0.40,
   "cylinder_count": 0.00,
-  "engine_displacement": 0.25,
-  "accel_0_60_sec": 0.75,
-  "top_speed": 0.75,
+  "engine_displacement": 0.30,
+  "accel_0_60_sec": 0.80,
+  "top_speed": 0.50,
   "drive_type": 1.00,
   "transmission_type": 0.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 1.00,
-  "size": -0.25,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.30,
+  "size": -0.10,
   "wheelbase": -0.50,
   "body_style": -1.00,
   "seats": -1.00,
   "cargo_space": 0.00,
   "rear_space": -1.00,
-  "ground_clearance_in": -0.75,
-  "turn_radius_ft": 0.00,
-  "mpg": -0.75,
-  "co2_g_km": -0.75,
+  "ground_clearance_in": -1.00,
+  "turn_radius_ft": -0.10,
+  "mpg": -0.50,
+  "co2_g_km": -0.50,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.75,
-  "style_aggression_rating": 0.75,
+  "style_sleek_vs_boxy": 1.00,
+  "style_aggression_rating": 0.80,
   "style_modernity_rating": 0.50,
   "handling_rating": 1.00,
-  "ride_comfort_rating": -0.75,
-  "cabin_noise_rating": -0.75,
-  "shift_smooth_rating": 0.75,
+  "ride_comfort_rating": -0.50,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": 0.80,
   "steering_feel_rating": 1.00,
-  "adas_score": -0.25,
-  "visibility_rating": -0.50,
-  "headlight_rating": 0.00,
+  "adas_score": 0.20,
+  "visibility_rating": 0.50,
+  "headlight_rating": 0.20,
   "security_rating": 0.50,
   "screen_in": 0.00,
   "infotainment_ux_rating": 0.00,
   "smartphone_connect_rating": 0.00,
-  "audio_rating": 0.00,
-  "usb_ports": -0.25,
-  "comfort_feature_score": 0.25,
-  "convenience_feature_score": 0.25,
+  "audio_rating": 0.30,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.30,
+  "convenience_feature_score": 0.20,
   "brand_prestige_rating": 1.00,
-  "model_prestige_rating": -0.50,
+  "model_prestige_rating": 0.00,
   "trim_prestige_rating": -1.00,
-  "interior_luxury_rating": 0.50,
-  "interior_tech_focus_rating": -0.25
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": -0.50
 }
 ```
-
-**Reasoning for each rating:**
-
-*   `price_usd`: -1.00 - The 2024 Porsche 718 Cayman GT4 RS starts around $160,700, which is well above the $100,000 benchmark for -1.00.
-*   `total_cost_estimate_5yr_usd`: -1.00 - While specific data for the GT4/GT4 RS wasn't found, Porsche ownership costs, especially for high-performance variants, are significantly higher than the average, easily exceeding the >$60,000 benchmark.
-*   `insurance_usd_yr`: -1.00 - High-performance Porsche models like the GT4/GT4 RS fall into the highest insurance groups, resulting in annual costs well above the $2,500 benchmark.
-*   `maint_usd_yr`: -1.00 - Maintenance for Porsche GT cars is specialized and expensive, far exceeding the >$1,200 benchmark.
-*   `repair_risk_score`: 0.00 - Reliability reports for the 718 Cayman line are somewhat mixed, leading to an average score.
-*   `hp`: 0.75 - The GT4 RS's 493 hp is significantly above the market average (200 hp) and well on its way towards the best-in-class (>700 hp).
-*   `torque`: 0.50 - The GT4 RS's 331 lb-ft of torque is notably above the market average (190 lb-ft).
-*   `cylinder_count`: 0.00 - The 4.0L flat-six engine has 6 cylinders, which is the average benchmark.
-*   `engine_displacement`: 0.25 - The 4.0L displacement is above the average 3.0L but not in the largest engine category.
-*   `accel_0_60_sec`: 0.75 - The GT4 RS's 0-60 mph time of 3.2 seconds is exceptionally fast, approaching the best-in-class (<2.5 sec).
-*   `top_speed`: 0.75 - A top speed of 196 mph is very high, close to the +1.00 benchmark of 202 mph.
-*   `drive_type`: 1.00 - The 718 Cayman GT4 is Rear-Wheel Drive (RWD), scoring +1.00.
-*   `transmission_type`: 0.00 - The GT4 RS is primarily equipped with the 7-speed PDK, a Dual-Clutch Transmission, scoring 0.00.
-*   `offroad_ability`: 1.00 - As a low-slung, track-focused sports car, its offroad ability is extremely poor, scoring +1.00 based on the guide's examples.
-*   `braking_dist_ft`: 1.00 - The braking performance is consistently described as phenomenal with large discs, indicating a stopping distance likely well under the <105 ft benchmark.
-*   `size`: -0.25 - The length of around 4456mm is slightly smaller than the average 4600mm.
-*   `wheelbase`: -0.50 - The wheelbase of around 2484mm is shorter than the average 2700mm.
-*   `body_style`: -1.00 - The 718 Cayman GT4 is a 2-Door Coupe, scoring -1.00.
-*   `seats`: -1.00 - It has 2 seats, scoring -1.00.
-*   `cargo_space`: 0.00 - The combined front and rear cargo space is around 14.7 cu ft, close to the average 15 cu ft benchmark, although usability varies.
-*   `rear_space`: -1.00 - As a 2-seater, there is no rear space, scoring -1.00.
-*   `ground_clearance_in`: -0.75 - With a ground clearance of around 4 inches or less, it is very low, close to the -1.00 benchmark.
-*   `turn_radius_ft`: 0.00 - The turning radius of around 37.4 ft is very close to the average 36 ft.
-*   `mpg`: -0.75 - The GT4 RS's combined 16 MPG is significantly below the average 30 mpg and closer to the -1.00 benchmark.
-*   `co2_g_km`: -0.75 - The GT4 RS's CO2 emissions of around 299 g/km are high, close to the -1.00 benchmark.
-*   `electric_range_mi`: -1.00 - The vehicle is not electric.
-*   `charge_speed_kw`: -1.00 - The vehicle is not electric.
-*   `style_sleek_vs_boxy`: 0.75 - It has a sleek, aerodynamic sports car profile.
-*   `style_aggression_rating`: 0.75 - The GT4 RS features aggressive styling elements like a large wing, intakes, and diffuser.
-*   `style_modernity_rating`: 0.50 - The design is modern Porsche, enhanced with aggressive, functional aero, but based on an existing platform.
-*   `handling_rating`: 1.00 - The GT4/GT4 RS is universally praised for its exceptional, track-focused handling, scoring +1.00.
-*   `ride_comfort_rating`: -0.75 - The stiff, track-tuned suspension results in a firm ride, well below average comfort.
-*   `cabin_noise_rating`: -0.75 - As a performance-focused car with less sound deadening, cabin noise is expected to be high.
-*   `shift_smooth_rating`: 0.75 - Both the available manual and the PDK transmissions are known for excellent, precise shifts.
-*   `steering_feel_rating`: 1.00 - Porsche's steering feel, especially in GT models, is considered best-in-class, scoring +1.00.
-*   `adas_score`: -0.25 - Standard ADAS features are limited (camera, sensors), with some options available, placing it below the market average for comprehensive suites.
-*   `visibility_rating`: -0.50 - The sports coupe body style and large rear wing likely impede visibility compared to average vehicles.
-*   `headlight_rating`: 0.00 - Standard Bi-Xenon headlights are average, with optional adaptive LEDs available.
-*   `security_rating`: 0.50 - Porsche vehicles typically have good security features, above the basic average.
-*   `screen_in`: 0.00 - The infotainment screen size is likely around 7-8 inches, which is average.
-*   `infotainment_ux_rating`: 0.00 - Porsche's PCM system is functional but not the most modern or intuitive compared to top systems, scoring average.
-*   `smartphone_connect_rating`: 0.00 - Apple CarPlay is standard, but the lack of Android Auto keeps it at an average score.
-*   `audio_rating`: 0.00 - The standard audio system is average, with premium options available.
-*   `usb_ports`: -0.25 - Likely 1-2 standard USB ports, slightly below the average benchmark.
-*   `comfort_feature_score`: 0.25 - Includes standard comfort features like heated seats and dual-zone climate, with optional advanced seats, providing above-average comfort for a sports car.
-*   `convenience_feature_score`: 0.25 - Offers basic convenience features like camera and sensors, but lacks the full suite of advanced convenience tech found in top models, scoring above average for basic features.
-*   `brand_prestige_rating`: 1.00 - Porsche is a top-tier prestige brand, scoring +1.00.
-*   `model_prestige_rating`: -0.50 - The 718 Cayman is mid-range for Porsche, but the GT4/GT4 RS is a highly prestigious, performance-focused variant, placing it below the absolute halo cars but well above entry-level models.
-*   `trim_prestige_rating`: -1.00 - The GT4/GT4 RS is the top performance trim of the 718 line, scoring -1.00.
-*   `interior_luxury_rating`: 0.50 - The interior uses premium materials and has a high-quality feel, but the focus is on sportiness rather than outright luxury, placing it above average.
-*   `interior_tech_focus_rating`: -0.25 - The interior is driver-focused with a mix of physical controls and screens, less dominated by large digital displays than vehicles with a high tech focus.

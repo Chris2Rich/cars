@@ -1,111 +1,55 @@
 ```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
+  "price_usd": 0.80,
+  "total_cost_estimate_5yr_usd": -0.50,
+  "insurance_usd_yr": -0.25,
   "maint_usd_yr": -0.50,
-  "repair_risk_score": -0.70,
+  "repair_risk_score": -0.50,
   "hp": -0.10,
   "torque": -0.10,
-  "cylinder_count": 0.50,
-  "engine_displacement": 0.50,
-  "accel_0_60_sec": 0.10,
-  "top_speed": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.25,
+  "top_speed": -0.10,
   "drive_type": -1.00,
   "transmission_type": -1.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.50,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.25,
   "size": -0.50,
   "wheelbase": -0.50,
   "body_style": -1.00,
   "seats": -0.50,
   "cargo_space": -0.50,
-  "rear_space": -0.50,
-  "ground_clearance_in": -0.50,
+  "rear_space": -0.75,
+  "ground_clearance_in": -0.75,
   "turn_radius_ft": 0.00,
   "mpg": -0.50,
-  "co2_g_km": -0.70,
+  "co2_g_km": -0.50,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.10,
-  "style_aggression_rating": 0.00,
-  "style_modernity_rating": -0.70,
-  "handling_rating": 0.50,
-  "ride_comfort_rating": -0.50,
-  "cabin_noise_rating": -0.50,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": 0.50,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.25,
+  "style_modernity_rating": -0.75,
+  "handling_rating": 0.75,
+  "ride_comfort_rating": -0.25,
+  "cabin_noise_rating": -0.25,
+  "shift_smooth_rating": 0.25,
+  "steering_feel_rating": 0.75,
   "adas_score": -1.00,
   "visibility_rating": 0.00,
-  "headlight_rating": -0.50,
-  "security_rating": -0.50,
+  "headlight_rating": -0.75,
+  "security_rating": -0.75,
   "screen_in": -1.00,
   "infotainment_ux_rating": -1.00,
   "smartphone_connect_rating": -1.00,
   "audio_rating": -0.50,
   "usb_ports": -1.00,
   "comfort_feature_score": -0.50,
-  "convenience_feature_score": -0.50,
+  "convenience_feature_score": -0.75,
   "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.00,
+  "model_prestige_rating": 0.50,
   "trim_prestige_rating": -1.00,
-  "interior_luxury_rating": 0.00,
+  "interior_luxury_rating": -0.25,
   "interior_tech_focus_rating": -1.00
 }
 ```
-
-**Explanation of Ratings for 1995 Volkswagen Corrado VR6 Storm:**
-
-The Volkswagen Corrado Storm was a limited-edition run-out model based on the VR6, produced in 1995 exclusively for the UK market [1, 2, 3, 4, 5, 6, 8, 9, 11, 12, 14, 16, 18, 19]. Evaluating it against modern benchmarks highlights the significant evolution of automotive technology and standards over the past three decades. Many scores reflect its age, while others acknowledge its strengths from its era.
-
-*   **price\_usd**: 0.00 - The benchmark is for new car pricing. As a classic, its market value varies, making the new car benchmark inapplicable. Defaulting to 0.00.
-*   **total\_cost\_estimate\_5yr\_usd**: 0.00 - Estimating 5-year ownership costs for a 30-year-old classic is not feasible with standard data. Defaulting to 0.00.
-*   **insurance\_usd\_yr**: 0.00 - Insurance costs for classics vary significantly. Standard data is not relevant. Defaulting to 0.00.
-*   **maint\_usd\_yr**: -0.50 - Maintenance costs for a 30-year-old performance car are generally higher than average due to age, potential wear, and specialized parts/labor for the VR6 engine [1, 7, 8, 16, 25, 26].
-*   **repair\_risk\_score**: -0.70 - The Corrado VR6 has known common issues (e.g., cooling system, head gasket, electrics) [1, 7, 8, 16, 25, 26]. While the Storm trim doesn't change the core mechanicals, parts availability for any Corrado can be a factor, leading to a higher repair risk compared to the average modern car.
-*   **hp**: -0.10 - The 188-190 hp output [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 22, 23] is slightly below the average horsepower of new cars today (~200 hp).
-*   **torque**: -0.10 - The 181 lb-ft of torque [10, 12] is slightly below the average torque of new cars today (~190 lb-ft).
-*   **cylinder\_count**: 0.50 - A 6-cylinder engine [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 22, 23] is more than the average modern car, which often uses 4 cylinders.
-*   **engine\_displacement**: 0.50 - The 2.9L displacement [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 22, 23] is larger than the average modern engine size.
-*   **accel\_0\_60\_sec**: 0.10 - A 0-60 mph time of 6.7-6.9 seconds [2, 4, 5, 9, 11] is slightly quicker than the average modern car (~7.5 seconds).
-*   **top\_speed**: 0.00 - A top speed of 145-146 mph [2, 5, 11] is around the average top speed for many non-performance modern vehicles (~150 mph).
-*   **drive\_type**: -1.00 - The Corrado Storm is Front-Wheel Drive (FWD) [1, 2, 3, 5, 9, 10, 11, 12, 13, 17, 18, 23], which scores -1.00 according to the guide.
-*   **transmission\_type**: -1.00 - The most common transmission was a 5-speed Manual [1, 2, 3, 5, 9, 10, 11, 12, 13, 17, 18, 23], which scores -1.00 according to the guide.
-*   **offroad\_ability**: 1.00 - As a low-slung sports coupe, it has no off-road capability, scoring +1.00 as per the guide's inverse scale for this metric.
-*   **braking\_dist\_ft**: 0.50 - A tested braking distance of 108 ft from 60 mph for the VR6 [16] is better than the average modern car (~125 ft). Assuming similar performance for the Storm.
-*   **size**: -0.50 - With a length of ~4050mm [12], it is smaller than the average modern compact car (~4600mm).
-*   **wheelbase**: -0.50 - The wheelbase of ~2470mm [12] is shorter than the average modern car (~2700mm).
-*   **body\_style**: -1.00 - It is a 3-door 2+2 coupe/liftback [12], scoring -1.00 as per the guide for a 2-door coupe.
-*   **seats**: -0.50 - It has a 2+2 seating layout (4 seats) [12], which is less than the average 5-seat capacity.
-*   **cargo\_space**: -0.50 - Minimum cargo space is 8.3 cu ft (235L) [12], which is below the average modern car (~15 cu ft).
-*   **rear\_space**: -0.50 - Rear space is limited in the 2+2 layout, scoring below the average modern car's rear legroom.
-*   **ground\_clearance\_in**: -0.50 - Ground clearance is low for a sports coupe (~5-6 inches), below the average for modern vehicles (~6.5 inches).
-*   **turn\_radius\_ft**: 0.00 - Data for turn radius was not readily available for the Storm specifically. Defaulting to 0.00.
-*   **mpg**: -0.50 - Real-world MPG for the VR6 is around 22-25 mpg, which is below the average modern car (~30 mpg). Assuming similar for the Storm.
-*   **co2\_g\_km**: -0.70 - A 2.9L V6 from the 1990s would have significantly higher CO2 emissions than the average modern car. Specific data was not found, but a negative score is warranted.
-*   **electric\_range\_mi**: -1.00 - Not an electric vehicle.
-*   **charge\_speed\_kw**: -1.00 - Not an electric vehicle.
-*   **style\_sleek\_vs\_boxy**: 0.10 - The Corrado has a coupe profile, which is relatively sleek, but not as extreme as modern aerodynamic designs.
-*   **style\_aggression\_rating**: 0.00 - The design is sporty but not overtly aggressive by modern standards.
-*   **style\_modernity\_rating**: -0.70 - The design is clearly from the late 80s/early 90s and appears dated compared to modern vehicle styling.
-*   **handling\_rating**: 0.50 - The Corrado VR6 was highly praised for its handling [2, 7]. While modern cars have advanced, its fundamental chassis and tuning provide above-average handling compared to a typical modern vehicle.
-*   **ride\_comfort\_rating**: -0.50 - Reviews indicate the ride can be firm, scoring below the average modern car's comfort level.
-*   **cabin\_noise\_rating**: -0.50 - Older cars generally have less sound insulation than modern vehicles, likely resulting in higher cabin noise.
-*   **shift\_smooth\_rating**: 0.00 - The manual shift feel was generally positive but not universally praised as silky smooth. Compared to the variety of modern transmissions, it sits around average.
-*   **steering\_feel\_rating**: 0.50 - The steering was noted for being communicative [2], providing better feel than many modern cars with electric power steering.
-*   **adas\_score**: -1.00 - The Corrado predates modern Advanced Driver-Assistance Systems.
-*   **visibility\_rating**: 0.00 - No specific data or common complaints/praise found regarding visibility. Defaulting to 0.00.
-*   **headlight\_rating**: -0.50 - Headlight technology from the 1990s is significantly less advanced than modern LED or Matrix LED systems.
-*   **security\_rating**: -0.50 - Security features were basic for the era (alarm, immobilizer) [3], lacking modern tracking or advanced anti-theft systems.
-*   **screen\_in**: -1.00 - The original car had a basic radio, not a modern infotainment screen [2, 3, 11].
-*   **infotainment\_ux\_rating**: -1.00 - The basic radio system lacks the functionality and user experience of modern infotainment systems.
-*   **smartphone\_connect\_rating**: -1.00 - No smartphone connectivity features like Apple CarPlay or Android Auto.
-*   **audio\_rating**: -0.50 - The original audio system (e.g., Sony CD player standard on Storm [2, 3, 11]) would be basic compared to modern multi-speaker, high-fidelity options.
-*   **usb\_ports**: -1.00 - USB ports were not a feature in cars of this era.
-*   **comfort\_feature\_score**: -0.50 - Features like leather upholstery and heated front seats were standard on the Storm [2, 3, 4, 8, 11, 12]. While premium for its time, this is less comprehensive than the comfort features found in the average modern car (e.g., multi-zone climate control, ventilated seats, extensive power adjustments).
-*   **convenience\_feature\_score**: -0.50 - Features were limited to basics like power windows/sunroof [3], lacking modern convenience items like parking sensors, cameras, keyless entry/start, etc.
-*   **brand\_prestige\_rating**: 0.00 - Volkswagen is generally considered an average, mainstream brand.
-*   **model\_prestige\_rating**: 0.00 - The Corrado was a niche, respected model within VW's lineup, considered a "modern classic" [1, 22], placing it around the middle in terms of model prestige relative to VW's range.
-*   **trim\_prestige\_rating**: -1.00 - The Storm was a limited-edition, top-tier run-out model [1, 2, 3, 4, 5, 6, 8, 9, 11, 12, 14, 16, 18, 19], scoring -1.00 as per the guide for top trims.
-*   **interior\_luxury\_rating**: 0.00 - The standard leather interior [2, 3, 4, 8, 11, 12] was a premium feature for its time, but the overall interior quality and materials are average compared to modern luxury standards.
-*   **interior\_tech\_focus\_rating**: -1.00 - The interior design is focused on driving with analog gauges and minimal technology displays or features.

@@ -1,162 +1,96 @@
-The search results confirm that the Mercedes-Benz 230 SL (W113) was produced from 1963 to 1967. There is no "most recent version" in the modern sense. The search results provide specifications for the classic car.
+Here's the data gathered and the scoring based on the provided guide, comparing the 1963-1967 Mercedes-Benz 230 SL (W113) to today's market average:
 
-Applying a modern scoring rubric to a 1960s car's specs will yield scores that are almost universally negative, as technology and performance have vastly improved. For example, 150 hp and a 0-60 time of 9.7 seconds were decent for 1963 but are far below average today. Safety features, infotainment, ADAS, etc., simply didn't exist.
+*   **price_usd:** Classic car prices vary wildly. Hagerty shows values from ~$33k to over $200k, with an average around $54k for a 1965 model in good condition. Beverly Hills Car Club lists one for $42,500. Car and Classic shows listings from £50k to £119k+ (~$63k to $150k+). An average of these is well above the modern average of $52k. Let's use a representative value like $80,000 (mid-range for a decent example). This is >$52,000, but not >$120,000. Closer to the -1.00 end. Score: -0.50.
+*   **total_cost_estimate_5yr_usd:** Classic car maintenance and repair can be very high. Depreciation might be low or even appreciate, but running costs offset this. Hard to estimate precisely, but likely high compared to a modern car. Score: -0.75.
+*   **insurance_usd_yr:** Classic car insurance can be cheaper than standard insurance for a car of its value, but the guide uses UK insurance groups and benchmarks against standard policies. Without a UK insurance group, I'll default to average, but acknowledge it's likely different in reality. Default: 0.00.
+*   **maint_usd_yr:** Maintenance is specialized and potentially expensive. Likely >$1000/year. Score: -0.75.
+*   **repair_risk_score:** While well-built for its era, it's a 60-year-old car with mechanical fuel injection and older systems. Reliability depends heavily on maintenance. Compared to modern cars, the risk of needing repairs is higher, though major failures might be less common than on some notoriously unreliable modern cars. Score: -0.50.
+*   **hp:** 148-150 hp. Modern average is ~200 hp. Score: -0.50.
+*   **torque:** 196 Nm (145 lb-ft). Modern average is ~190 lb-ft. Score: 0.00.
+*   **cylinder_count:** Inline 6. Modern average is 4 or 6. Score: 0.00.
+*   **engine_displacement:** 2.3 L (2306 cc). Modern average is around 2.0-3.0L. Score: 0.00.
+*   **accel_0_60_sec:** ~10.5 sec (4-speed manual), ~9.2-9.7 sec (5-speed manual/auto). Modern average is ~7.5 sec. Score: -0.75 (using the slower manual time as representative).
+*   **top_speed:** 200 km/h (124 mph). Modern average is ~150 mph. Score: -0.50.
+*   **drive_type:** RWD. Score: +1.00.
+*   **transmission_type:** Offered with 4-speed manual, 5-speed manual, or 4-speed automatic. Manual transmissions score -1.00, early automatics are not modern automatics (+1.00). Score: -0.50 (representing the mix, leaning manual/early auto).
+*   **offroad_ability:** Low ground clearance (4.9-5.5 inches), RWD, not designed for off-road. Score: +1.00 (poor off-road ability scores +1.00 according to the guide).
+*   **braking_dist_ft:** Front disc, rear drum brakes on 230 SL. Braking technology is far less advanced than modern systems. Likely >150 ft. Score: -1.00.
+*   **size:** Length 4285 mm (168.7 in), Width 1760 mm (69.3 in). This is smaller than a modern Honda Civic (~4600mm). Score: -0.50.
+*   **wheelbase:** 2400 mm (94.5 in). Shorter than a modern Skoda Octavia (~2700mm). Score: -0.50.
+*   **body_style:** 2-door roadster/coupe. Score: -1.00.
+*   **seats:** 2 seats (optional rear "Kinder Seat" was rare). Score: -1.00.
+*   **cargo_space:** 340 L (12.01 cu ft). Modern Civic is ~15 cu ft. Score: -0.50.
+*   **rear_space:** N/A (2-seater). Score: -1.00.
+*   **ground_clearance_in:** 125-140 mm (4.9-5.5 inches). Score: -1.00.
+*   **turn_radius_ft:** 10-10.4 m (32.8-34.12 ft). Modern Camry is ~36 ft. Score: +0.50.
+*   **mpg:** 10.2 L/100km (23 US mpg, 27 UK mpg). Real-world is often lower, around 16-18 mpg US. Modern average is ~30 mpg. Score: -0.75.
+*   **co2_g_km:** Not directly available, but based on low MPG and 1960s emissions standards, it will be very high compared to modern cars. Score: -1.00.
+*   **electric_range_mi:** Not electric. Score: -1.00.
+*   **charge_speed_kw:** Not electric. Score: -1.00.
+*   **handling_rating:** Described as having excellent suspension and being sporting enough, but more of a cruiser. Power steering was optional and light. Compared to modern sports cars, handling is less precise. Score: 0.00.
+*   **ride_comfort_rating:** Designed with a high degree of traveling comfort. Suspension is on the soft side. Score: +0.50.
+*   **cabin_noise_rating:** It's a 1960s roadster. Likely high noise levels compared to modern cars. Score: -1.00.
+*   **shift_smooth_rating:** Manual transmissions are -1.00. Early automatics were "very responsive fluid coupled" but not as smooth as modern autos. Score: -0.75.
+*   **steering_feel_rating:** Recirculating ball steering, optional power steering. Power steering is light. Likely less feel than modern systems. Score: -0.50.
+*   **adas_score:** None. Score: -1.00.
+*   **visibility_rating:** Roadster with large windows (when soft top is down or with hardtop). Likely good forward and side visibility. Score: +0.50.
+*   **headlight_rating:** Used sealed-beam headlights in the US. Technology is far behind modern LEDs. Score: -1.00.
+*   **security_rating:** Basic for the era. No modern immobilizers, trackers, etc. Score: -1.00.
+*   **screen_in:** None. Score: -1.00.
+*   **infotainment_ux_rating:** None. Score: -1.00.
+*   **smartphone_connect_rating:** None. Score: -1.00.
+*   **audio_rating:** Basic radio if equipped. Score: -1.00.
+*   **usb_ports:** None. Score: -1.00.
+*   **comfort_feature_score:** Minimal features by modern standards (manual windows, basic heating, optional AC). Score: -1.00.
+*   **convenience_feature_score:** Minimal features (no cameras, sensors, etc.). Score: -1.00.
+*   **brand_prestige_rating:** Mercedes-Benz is a high-prestige brand. Score: +1.00.
+*   **model_prestige_rating:** The W113 'Pagoda' is an iconic, highly desirable classic model. Score: -1.00 (Top of brand/halo car equivalent in classic context).
+*   **trim_prestige_rating:** The 230 SL was the initial model, followed by 250 SL and 280 SL with larger engines. It could be considered the entry point to the W113 range. Score: +1.00 (Base Model).
+*   **interior_luxury_rating:** High quality for its era with wood trim, but materials and features are basic compared to modern luxury cars. Score: -0.50.
+*   **interior_tech_focus_rating:** Minimal tech focus. Analog gauges. Score: -1.00.
+*   **style_sleek_vs_boxy:** Iconic, elegant design, not particularly sleek or boxy compared to the extremes. Score: 0.00.
+*   **style_aggression_rating:** Elegant and classic, not aggressive. Score: -1.00.
+*   **style_modernity_rating:** Iconic design from the 1960s. Clearly dated compared to modern cars. Score: -1.00.
 
-Given the strict instruction to return ONLY JSON and the inability to find data for a *modern* 230 SL, I cannot accurately populate the JSON structure based on the user's likely intent (comparing to modern cars). However, I *can* populate it based on the *classic* 230 SL's specs, scored against modern benchmarks. This will result in many -1.00 or near-0.00 scores, which might seem unhelpful but strictly follows the instructions.
-
-Let's try to populate the JSON using the classic 230 SL data found, scoring it against modern benchmarks as requested by the scoring guide.
-
-Data found for 1963-1967 Mercedes-Benz 230 SL (W113):
-- HP: 150 hp [1, 3, 4, 6, 8]
-- Torque: 196 Nm / 144.6 lb-ft [1, 3, 4, 6]
-- Cylinder Count: Inline 6 [3, 4, 5, 6, 12]
-- Engine Displacement: 2.3L / 2308 cm³ / 140.7 cu in [3, 4, 5, 6]
-- Accel 0-60 mph: ~9.7 seconds (0-100 km/h) [5, 6]
-- Top Speed: 200 km/h / 124 mph (manual) [3, 4, 5, 6]
-- Drive Type: Rear-wheel drive (RWD) [4, 6]
-- Transmission Type: 4-speed manual or 4-speed automatic (fluid coupled) [4, 5, 6, 12] (Let's assume the most common, which was automatic in the US, or just score based on the type itself). The guide scores Manual/Sequential as -1, DCT as 0, Automatic as +1. A 1960s automatic is very different from a modern one, but the *type* is automatic. Let's score based on the type name.
-- Braking Dist ft: Not found. Default to 0.00.
-- Size (Length): 4285 mm / 168.7 in [4, 5] (Convert to score based on length)
-- Wheelbase: 2400 mm / 94.5 in [4, 5, 6] (Convert to score based on wheelbase)
-- Body Style: 2-door roadster/coupe [2, 6] (Score based on 2-door coupe)
-- Seats: 2 (optional rear transverse seat mentioned, but primarily a 2-seater) [1, 2, 6] (Score based on 2 seats)
-- Cargo Space: 340 L / 12.01 cu ft (Hardtop coupe) [4] (Score based on cu ft)
-- Rear Space: Not applicable (2-seater). Default to 0.00 or maybe -1.00 for no rear space. The guide uses legroom for rear space, so N/A or 0.00 seems appropriate. Let's use 0.00 as per default rule.
-- Ground Clearance: 125 mm / 4.92 in [4] (Convert to inches and score)
-- Turn Radius: 10.4 m / 34.12 ft [4, 5] (Convert to ft and score)
-- MPG: Not explicitly found in search results, but expected to be low by modern standards. Default to 0.00 or estimate based on era/engine size? The guide has examples, let's assume it's poor by modern standards. A 2.3L I6 from the 60s likely gets well under 20 mpg. Let's score it low. Maybe -0.75 to -1.00. Let's default to 0.00 as per instructions if unsure, but I can make an educated guess based on the era and engine size relative to modern cars. Let's try to find MPG specifically. Search for "Mercedes 230 SL W113 fuel economy".
-MPG found: ~18.8 mpg (US) [2], ~20.9 mpg (US) [3], ~15.7 mpg (US) [4], ~23.06 mpg (US) [1]. Let's take an average or a representative figure, say 18-20 mpg. This is well below the modern average of 30 mpg. Score will be negative.
-
-- CO2 g/km: Not found. Default to 0.00.
-- Electric Range mi: IF NOT ELECTRIC. Score -1.00.
-- Charge Speed kw: IF NOT ELECTRIC. Score -1.00.
-- Style ratings: These are subjective but can be inferred from descriptions like "Sleek, continental styling... motordom's thoroughbred look" [5], "universally beloved" design [8], "tasteful restraint and magnificent detailing" [9]. It's iconic and well-regarded.
-    - Style_sleek_vs_boxy: It's a roadster, generally sleek for its era, but not as extreme as modern aero designs. Maybe slightly sleek? 0.25?
-    - Style_aggression_rating: Not aggressive. Soft, classic lines. -0.50?
-    - Style_modernity_rating: Iconic, but clearly from the 60s. Not modern. -1.00.
-- Handling, Ride Comfort, Cabin Noise, Shift Smoothness, Steering Feel: Descriptions mention "sporty drive" [8], "taut suspension, but for a sports car almost atypically comfortable" [6], "loves to breeze through city streets" [8], "tight little four speed" [8], "recirculating ball steering" [6]. Compared to modern cars, handling and ride comfort will be significantly worse, cabin noise higher, shift smoothness (especially the old automatic) less refined, and steering feel less precise.
-    - Handling: Sporty for its era, but not by modern standards. -0.50?
-    - Ride Comfort: Comfortable for its era, but not by modern standards. -0.50?
-    - Cabin Noise: Likely high compared to modern cars. -0.75?
-    - Shift Smoothness: The automatic was "very responsive fluid coupled (no torque converter)" [6], the manual was a 4-speed [4, 5, 6]. Compared to modern automatics/DCTs, it will be less smooth. -0.75?
-    - Steering Feel: Recirculating ball steering is less precise than modern rack and pinion. -0.75?
-- ADAS Score: None. -1.00.
-- Visibility Rating: "huge glass area was of use" [9]. Likely good forward/side visibility, but rear visibility might be limited with the soft top up. Let's assume average or slightly above average for its type. 0.25?
-- Headlight Rating: Likely sealed beam or basic halogens. Poor by modern standards. -1.00.
-- Security Rating: Basic for the era. Poor by modern standards. -1.00.
-- Screen in: None. -1.00.
-- Infotainment UX Rating: None. -1.00.
-- Smartphone Connect Rating: None. -1.00.
-- Audio Rating: Basic radio [12]. Poor by modern standards. -1.00.
-- USB Ports: None. -1.00.
-- Comfort Feature Score: Manual windows, basic heating/ventilation, manual seats [12]. Poor by modern standards. -1.00.
-- Convenience Feature Score: Basic features for the era. No sensors, cameras, etc. [12]. Poor by modern standards. -1.00.
-- Brand Prestige Rating: Mercedes-Benz is high prestige. +0.75?
-- Model Prestige Rating: The SL is an iconic, high-end model line for Mercedes. The W113 'Pagoda' is particularly famous and desirable. This is tricky with the scoring guide's examples (-1.00 for top of brand/halo, +1.00 for entry level). The 230 SL was the *entry* into the W113 line, but the W113 line itself was a successor to the very prestigious 300 SL. Let's interpret "model prestige" within the brand's lineup *at the time*. It was a step below the legendary 300 SL but still a premium sports car. Compared to the *entire* modern Mercedes lineup, it's not an entry-level car. Let's score it based on its historical position and modern classic status. It's a highly desirable classic. Maybe score based on its *current* market position as a classic? The guide seems geared towards *new* cars. Let's stick to the guide's interpretation: -1.00 for top/halo, +1.00 for entry. The 230 SL was the entry point to the W113 SL line. So, +1.00 based on the guide's definition? This feels wrong when considering its classic status. Let's re-read: "model_prestige_rating: -1.00: Mercedes S class / Audi R8 / Porsche 911 (Top of brand/ halo cars) 0.00: Audi A5 / Toyota Camry (Middle of range) +1.00: Chevrolet Spark / Audi A1 (Entry Level Models)". Okay, this is clearly benchmarking against *modern* model hierarchies. The 230 SL doesn't fit neatly. It was the entry *engine* in a premium model line. Let's default to 0.00 as it's ambiguous in this context.
-- Trim Prestige Rating: The 230 SL was the base engine/trim for the W113. The guide scores base models as +1.00. So, +1.00.
-- Interior Luxury Rating: Wood trim, leather, well-finished for its era [5]. Luxurious for the 1960s, but not by modern standards. -0.50?
-- Interior Tech Focus Rating: Minimal tech. Analog gauges [5]. -1.00.
-
-Now, let's assemble the JSON. I must return ONLY JSON. I will use the data found for the classic 230 SL and score it against the modern benchmarks, defaulting to 0.00 where data is missing or ambiguous *and* a reasonable inference cannot be made based on the era.
-
-Price: Classic car prices vary wildly based on condition. Average sale price is ~$64,456 [11], but can go much higher [11]. This is above the $35k average for a *new* car. Score will be negative. Let's use the average sale price. $64,456 > $35,000. Closer to the >$100k range for -1.00. Maybe -0.50?
-Total Cost Estimate 5yr: Impossible to estimate for a classic. Maintenance and repair costs can be very high. Insurance varies. Depreciation might be low or even appreciation. Default to 0.00.
-Insurance USD/yr: UK insurance group not found. Classic car insurance is different. Default to 0.00.
-Maint USD/yr: Classic car maintenance is highly variable and often expensive. Default to 0.00.
-Repair Risk Score: Classic cars are generally less reliable than modern cars and parts can be hard to find/expensive. Score should be negative. -0.75?
-
-Let's refine the scoring based on the classic nature:
-- Price: $64,456 is > $35k, but not > $100k. Let's say -0.50.
-- Total Cost 5yr: Default 0.00.
-- Insurance: Default 0.00.
-- Maint: Default 0.00.
-- Repair Risk: Classic cars are higher risk than average modern cars. -0.75.
-- HP: 150 hp is well below modern average (200 hp). -0.75? (Closer to 120hp example for -1.00). Let's say -0.80.
-- Torque: 145 lb-ft is well below modern average (190 lb-ft). -0.80? (Closer to 100 lb-ft example for -1.00). Let's say -0.80.
-- Cylinder Count: 6 cylinders is average (0.00).
-- Engine Displacement: 2.3L is below average (3.0L). -0.25?
-- Accel 0-60: ~9.7-10.5 sec is well above modern average (7.5 sec) and close to >10 sec for -1.00. -0.90.
-- Top Speed: 124 mph is below modern average (150 mph). -0.50? (Closer to 50mph for -1.00). Let's say -0.60.
-- Drive Type: RWD is +1.00.
-- Transmission Type: Automatic is +1.00 according to the guide. (Ignoring the quality difference from modern automatics).
-- Offroad Ability: Low ground clearance, RWD, not designed for offroad. -1.00.
-- Braking Dist: Not found. Default 0.00.
-- Size (Length 168.7 in / 4285 mm): Smaller than modern average (4600mm). -0.50? (Closer to 3600mm for -1.00). Let's say -0.40.
-- Wheelbase (94.5 in / 2400 mm): Smaller than modern average (2700mm). -0.50? (Closer to 2300mm for -1.00). Let's say -0.40.
-- Body Style: 2-door Coupe is -1.00.
-- Seats: 2 seats is -1.00.
-- Cargo Space (12 cu ft): Below modern average (15 cu ft). -0.25? (Closer to 5 cu ft for -1.00). Let's say -0.20.
-- Rear Space: 0.00 (N/A).
-- Ground Clearance (4.92 in): Below modern average (6.5 in) and close to <4" for -1.00. -0.80.
-- Turn Radius (34.12 ft): Better than modern average (36 ft). +0.25? (Closer to 22ft for +1.00). Let's say +0.10.
-- MPG (~18-20 mpg): Well below modern average (30 mpg) and closer to ~12 mpg for -1.00. -0.80.
-- CO2 g/km: Not found. Default 0.00.
-- Electric Range: -1.00 (Not electric).
-- Charge Speed: -1.00 (Not electric).
-- Style Sleek vs Boxy: Slightly sleek. 0.25.
-- Style Aggression: Not aggressive. -0.50.
-- Style Modernity: Not modern. -1.00.
-- Handling: Sporty for its era, poor by modern. -0.75.
-- Ride Comfort: Comfortable for its era, poor by modern. -0.75.
-- Cabin Noise: Loud by modern standards. -0.75.
-- Shift Smooth: Less smooth than modern. -0.75.
-- Steering Feel: Less precise than modern. -0.75.
-- ADAS: None. -1.00.
-- Visibility: Good for its type. 0.25.
-- Headlight: Poor by modern. -1.00.
-- Security: Poor by modern. -1.00.
-- Screen in: None. -1.00.
-- Infotainment UX: None. -1.00.
-- Smartphone Connect: None. -1.00.
-- Audio: Poor by modern. -1.00.
-- USB Ports: None. -1.00.
-- Comfort Feature: Poor by modern. -1.00.
-- Convenience Feature: Poor by modern. -1.00.
-- Brand Prestige: Mercedes-Benz is high. +0.75.
-- Model Prestige: Ambiguous based on guide. Default 0.00.
-- Trim Prestige: Base model. +1.00.
-- Interior Luxury: Luxurious for its era, poor by modern. -0.50.
-- Interior Tech Focus: Minimal tech. -1.00.
-
-Okay, I have scores for all metrics based on the classic 230 SL data and the modern scoring rubric. I will now format this as JSON. I must ensure it is *only* JSON.```json
+Now, format this into the required JSON structure.```json
 {
   "price_usd": -0.50,
-  "total_cost_estimate_5yr_usd": 0.00,
+  "total_cost_estimate_5yr_usd": -0.75,
   "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": -0.75,
-  "hp": -0.80,
-  "torque": -0.80,
+  "maint_usd_yr": -0.75,
+  "repair_risk_score": -0.50,
+  "hp": -0.50,
+  "torque": 0.00,
   "cylinder_count": 0.00,
-  "engine_displacement": -0.25,
-  "accel_0_60_sec": -0.90,
-  "top_speed": -0.60,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.75,
+  "top_speed": -0.50,
   "drive_type": 1.00,
-  "transmission_type": 1.00,
-  "offroad_ability": -1.00,
-  "braking_dist_ft": 0.00,
-  "size": -0.40,
-  "wheelbase": -0.40,
+  "transmission_type": -0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -1.00,
+  "size": -0.50,
+  "wheelbase": -0.50,
   "body_style": -1.00,
   "seats": -1.00,
-  "cargo_space": -0.20,
-  "rear_space": 0.00,
-  "ground_clearance_in": -0.80,
-  "turn_radius_ft": 0.10,
-  "mpg": -0.80,
-  "co2_g_km": 0.00,
+  "cargo_space": -0.50,
+  "rear_space": -1.00,
+  "ground_clearance_in": -1.00,
+  "turn_radius_ft": 0.50,
+  "mpg": -0.75,
+  "co2_g_km": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.25,
-  "style_aggression_rating": -0.50,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -1.00,
   "style_modernity_rating": -1.00,
-  "handling_rating": -0.75,
-  "ride_comfort_rating": -0.75,
-  "cabin_noise_rating": -0.75,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": -1.00,
   "shift_smooth_rating": -0.75,
-  "steering_feel_rating": -0.75,
+  "steering_feel_rating": -0.50,
   "adas_score": -1.00,
-  "visibility_rating": 0.25,
+  "visibility_rating": 0.50,
   "headlight_rating": -1.00,
   "security_rating": -1.00,
   "screen_in": -1.00,
@@ -166,8 +100,8 @@ Okay, I have scores for all metrics based on the classic 230 SL data and the mod
   "usb_ports": -1.00,
   "comfort_feature_score": -1.00,
   "convenience_feature_score": -1.00,
-  "brand_prestige_rating": 0.75,
-  "model_prestige_rating": 0.00,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": -1.00,
   "trim_prestige_rating": 1.00,
   "interior_luxury_rating": -0.50,
   "interior_tech_focus_rating": -1.00

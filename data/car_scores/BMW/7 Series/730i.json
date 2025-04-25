@@ -1,0 +1,111 @@
+The most recent version of the BMW 7 Series with a "730i" designation is from the G11/G12 generation (2015-2022), specifically the facelifted G11 LCI model (2019-2022) in some markets. It was also available in the pre-facelift G11/G12 (2015-2019). The engine is typically a 2.0L 4-cylinder turbo. I will evaluate the 2019-2022 BMW 730i (G11 LCI).
+
+Here's the data extracted and the corresponding scores:
+
+*   **price_usd**: As a used luxury car from the G11 generation, the price will be significantly lower than its original MSRP (which was high). Used prices for G11 models can be found under $40,000 in the U.S.. This is below the new car average. Score: 0.60.
+*   **total_cost_estimate_5yr_usd**: Luxury cars, especially German ones, tend to have higher maintenance and repair costs. While the initial purchase price is lower as a used car, the 5-year cost is likely above average. Score: -0.50.
+*   **insurance_usd_yr**: High-end luxury sedans typically fall into high insurance groups. Score: -0.90.
+*   **maint_usd_yr**: Maintenance costs for a BMW 7 Series are generally high. Score: -0.70.
+*   **repair_risk_score**: While the 4-cylinder B48 engine is generally considered reliable, complex luxury cars have more systems that can potentially fail. Some owners reported glitches with bodywork and interior trim. Score: -0.30.
+*   **hp**: 249 HP or 258 HP. This is well above the market average of 200 hp. Score: 0.30 (using 249-258 HP range).
+*   **torque**: 400 Nm / 295 lb-ft. This is significantly above the market average of 190 lb-ft. Score: 0.60.
+*   **cylinder_count**: 4 cylinders. This is below the average cylinder count. Score: -0.50.
+*   **engine_displacement**: 2.0L / 1998 cm³. This is below the average displacement. Score: -0.50.
+*   **accel_0_60_sec**: Around 6.2 seconds (0-100 km/h). Converting 0-100 km/h to 0-60 mph is slightly faster, around 5.9 seconds. This is significantly faster than the market average of 7.5 seconds. Score: 0.70.
+*   **top_speed**: 250 km/h (155 mph). This is around the average for performance-oriented cars, above the general market average. Score: 0.10.
+*   **drive_type**: RWD. This is rated as +1.00 in the guide. Score: 1.00.
+*   **transmission_type**: 8-speed automatic. This is a modern, smooth automatic. Score: 1.00.
+*   **offroad_ability**: This is a large luxury sedan, not designed for off-road use. Score: -1.00.
+*   **braking_dist_ft**: No specific data found. Luxury sedans of this caliber typically have excellent braking performance. Estimate above average. Score: 0.60.
+*   **size**: Length 5120 mm (G11) or 5260 mm (G12 Li). This is well over the +1.00 benchmark (>5100mm). Score: 1.00.
+*   **wheelbase**: 3070 mm (G11) or 3210 mm (G12 Li). The long wheelbase is at the +1.00 benchmark (>3200mm). Score: 0.90 (averaging standard and long wheelbase).
+*   **body_style**: 4-door sedan. This is the average body style. Score: 0.00.
+*   **seats**: 5 seats (4-seat layout optional on Li). Average is 5 seats. Score: 0.00.
+*   **cargo_space**: 515 liters / 18.19 cu ft (G11/G12). Some sources say 420 liters / 14.83 cu ft (G11). Using the higher figure as it's common across multiple sources. This is above the average (15 cu ft). Score: 0.30.
+*   **rear_space**: The "Li" (long wheelbase) version offers exceptional rear legroom. The standard wheelbase (G11) would still have good rear space for a sedan. Score: 0.80 (averaging standard and long wheelbase).
+*   **ground_clearance_in**: 13.5 cm / 5.31 inches (G11). Some sources for G11/G12 range from 1467 mm to 1479 mm height, but ground clearance is a separate spec. This is below the average for compact crossovers (6.5") and closer to sports coupes (<4"). Score: -0.50.
+*   **turn_radius_ft**: 12.3 meters / 40.35 ft (G11). This is larger than the average (36 ft). Score: -0.40.
+*   **mpg**: Combined ~7.0-7.1 L/100km. Converting 7.0 L/100km to US MPG: (100 km / 7.0 L) * (1 L / 0.264172 US gal) * (0.621371 miles / 1 km) = ~33.6 US MPG. This is above the average (30 mpg). Score: 0.20.
+*   **co2_g_km**: Around 163 g/km. This is below the average (175 g/km). Score: 0.10.
+*   **electric_range_mi**: Not a pure electric or significant PHEV. Score: -1.00.
+*   **charge_speed_kw**: Not applicable. Score: -1.00.
+*   **style_sleek_vs_boxy**: The G11/G12 is a traditional luxury sedan shape. Score: 0.00.
+*   **style_aggression_rating**: Elegant and imposing, not overtly aggressive. Score: 0.20.
+*   **style_modernity_rating**: The G11/G12 LCI design (2019-2022) is modern but has been superseded by the G70. Score: 0.00.
+*   **handling_rating**: Praised for good handling for a large luxury car, balancing comfort and dynamics. Above average. Score: 0.60.
+*   **ride_comfort_rating**: Excellent ride comfort, a key strength of the 7 Series. Score: 1.00.
+*   **cabin_noise_rating**: Excellent cabin noise insulation. Score: 1.00.
+*   **shift_smooth_rating**: The 8-speed automatic is known for smooth shifts. Score: 1.00.
+*   **steering_feel_rating**: Good steering feel for a luxury car. Above average. Score: 0.50.
+*   **adas_score**: The G11/G12 LCI had a comprehensive suite of ADAS features for its time, though some advanced autonomous features were noted as lacking compared to rivals at launch. Score: 0.70.
+*   **visibility_rating**: Good visibility for a sedan of its size. Score: 0.50.
+*   **headlight_rating**: Available with advanced LED or Laser headlights. Excellent. Score: 0.90.
+*   **security_rating**: High-end luxury car with advanced security features. Score: 0.90.
+*   **screen_in**: Large infotainment screen for its generation (e.g., 10.25 inches). Above average. Score: 0.70.
+*   **infotainment_ux_rating**: iDrive system in this generation was well-regarded. Above average. Score: 0.70.
+*   **smartphone_connect_rating**: Had Apple CarPlay (initially subscription-based). Good for its time. Score: 0.50.
+*   **audio_rating**: Available with high-end audio systems. Excellent. Score: 1.00.
+*   **usb_ports**: Multiple USB ports available. Above average. Score: 0.50.
+*   **comfort_feature_score**: Extensive comfort features available (heated/ventilated/massage seats, advanced climate control). Excellent. Score: 1.00.
+*   **convenience_feature_score**: Extensive convenience features available (soft-close doors, power trunk, parking assist, gesture control). Excellent. Score: 1.00.
+*   **brand_prestige_rating**: BMW is a prestigious brand. Score: 0.90.
+*   **model_prestige_rating**: The 7 Series is the flagship model. Score: -1.00.
+*   **trim_prestige_rating**: The 730i is an entry-level engine option for the 7 Series. Score: 1.00.
+*   **interior_luxury_rating**: High-quality materials, excellent finish, luxurious cabin. Score: 1.00.
+*   **interior_tech_focus_rating**: Significant tech features integrated into the cabin. Score: 0.80.
+
+```json
+{
+  "price_usd": 0.60,
+  "total_cost_estimate_5yr_usd": -0.50,
+  "insurance_usd_yr": -0.90,
+  "maint_usd_yr": -0.70,
+  "repair_risk_score": -0.30,
+  "hp": 0.30,
+  "torque": 0.60,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": 0.70,
+  "top_speed": 0.10,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.60,
+  "size": 1.00,
+  "wheelbase": 0.90,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.30,
+  "rear_space": 0.80,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": -0.40,
+  "mpg": 0.20,
+  "co2_g_km": 0.10,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.20,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.60,
+  "ride_comfort_rating": 1.00,
+  "cabin_noise_rating": 1.00,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.50,
+  "adas_score": 0.70,
+  "visibility_rating": 0.50,
+  "headlight_rating": 0.90,
+  "security_rating": 0.90,
+  "screen_in": 0.70,
+  "infotainment_ux_rating": 0.70,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 1.00,
+  "usb_ports": 0.50,
+  "comfort_feature_score": 1.00,
+  "convenience_feature_score": 1.00,
+  "brand_prestige_rating": 0.90,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": 1.00,
+  "interior_tech_focus_rating": 0.80
+}
+```

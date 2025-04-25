@@ -1,155 +1,47 @@
-**Evaluation based on Search Results (Vauxhall Antara Exclusiv, ~2015):**
-
-*   **Price:** New price was around £21,400 - £23,820 in 2015 [3]. Used prices today are much lower, around £3,795 - £7,999 [8, 20, 32, 34]. The prompt asks to compare to today's *new* car market average (~$35,000 / ~£28,000). The Antara is discontinued. Scoring its *used* price against a *new* average isn't appropriate per the guide. Defaulting to 0.00 for price_usd.
-*   **Total Cost Estimate 5yr:** Reviews mention high running costs [7] and reliability problems [2, 7, 29, 33] (DPF issues, electrical faults, oil leaks, dual mass flywheel). This suggests higher than average repair costs. Maintenance costs seem average for the brand [25, 26, 36]. Depreciation on a discontinued model is high. Overall 5-year cost is likely below average compared to typical used cars, and significantly below average compared to new cars. Score: -0.50.
-*   **Insurance USD/yr:** Insurance groups for Antara range from 19-29 [15, 38, 40]. The 2.2 CDTi 163 Exclusiv is listed as group 25 [40]. Group 28 is slightly above average [31]. Group 25 is slightly below that. Average insurance is ~$1500/year. Group 25 is likely around or slightly below average. Score: -0.10 (leaning slightly better than average group).
-*   **Maint USD/yr:** Maintenance costs seem average for a car of its age and segment [25, 26, 36]. Score: 0.00.
-*   **Repair Risk Score:** Multiple sources cite reliability issues, including DPF problems, electrical faults, oil leaks, and dual mass flywheel issues [2, 7, 29, 33]. This indicates a higher than average repair risk. Score: -0.70.
-*   **HP:** 2.2 CDTi 163PS engine is common for Exclusiv [3, 6, 13, 23, 28]. 163 HP [23, 28]. Compared to today's average (~200 hp), this is below average. Score: -0.30.
-*   **Torque:** 350 Nm (258 lb-ft) for the 163PS diesel [23, 28]. Compared to today's average (~190 lb-ft), this is above average, especially for a diesel. Score: 0.30.
-*   **Cylinder Count:** 4 cylinders [9, 16, 23, 28]. Average. Score: 0.00.
-*   **Engine Displacement:** 2.2L (2231 cm³) [16, 23, 28]. Average for an SUV engine. Score: 0.00.
-*   **Accel 0-60 sec:** Around 9.9 - 11.4 seconds depending on source/engine/transmission [13, 16, 23, 28]. Compared to today's average (~7.5 sec), this is slow. Score: -0.50.
-*   **Top Speed:** Around 117-118 mph [13, 16, 23, 24]. Compared to today's average (~150 mph), this is below average. Score: -0.40.
-*   **Drive Type:** Available in FWD and AWD [2, 3, 13, 16, 28]. AWD is average. Score: 0.00.
-*   **Transmission Type:** Available with 6-speed manual or 6-speed automatic [3, 18, 24]. Automatic is common today. Reviews mention the automatic can be slow [27]. Conventional automatic is average. Score: 0.00.
-*   **Offroad Ability:** Has AWD, Hill Start Assist, Descent Control [2, 3, 21, 22]. Ground clearance is 176mm (6.9 inches) [2, 16, 28, 30]. Not a serious off-roader, but more capable than a standard car. Average for a soft-roader SUV. Score: 0.00.
-*   **Braking Dist ft:** No specific data found. Default: 0.00.
-*   **Size:** Length ~4.6m (4596mm) [16, 28, 30]. Width ~1.85m (1850mm) [16, 28, 30]. Height ~1.75m [16, 28, 30]. Mid-size SUV, average size. Score: 0.00.
-*   **Wheelbase:** 2707mm (106.57 inches) [16, 24, 28, 30]. Average for its size. Score: 0.00.
-*   **Body Style:** 5-door SUV [9, 16, 23, 28]. Average. Score: 0.00.
-*   **Seats:** 5 seats [9, 11, 16, 17, 23, 24, 28]. Average. Score: 0.00.
-*   **Cargo Space:** 420 litres (14.8 cu ft) with seats up, 1420 litres (50.15 cu ft) with seats folded [2, 7, 9, 11, 16, 23, 24]. 420L is average for a hatchback, but slightly below average for a mid-size SUV compared to rivals [7, 19]. Score: -0.10.
-*   **Rear Space:** Reviews mention generous legroom and headroom in the rear [10, 17, 27]. Score: 0.20.
-*   **Ground Clearance in:** 176mm (6.9 inches) [2, 16, 28, 30]. Average for a compact/mid-size crossover. Score: 0.00.
-*   **Turn Radius ft:** 11.87m (38.9ft) [3, 4, 18]. Also listed as 12.25m (40.19 ft) [16, 30]. Around 39-40 ft. Slightly larger than average (~36 ft). Score: -0.10.
-*   **MPG:** Combined ~36-44 mpg (UK) depending on engine/drive [13, 14, 16, 20, 23, 35]. Compared to today's average (~30 mpg US / ~36 mpg UK), this is average to slightly above average for a non-hybrid SUV. Score: 0.10.
-*   **CO2 g/km:** Around 167-177 g/km for diesel [3, 13, 23, 24, 30]. Compared to today's average (~175 g/km), this is average. Score: 0.00.
-*   **Electric Range mi:** Not electric. Score: -1.00.
-*   **Charge Speed kw:** Not electric. Score: -1.00.
-*   **Style Sleek vs Boxy:** Generic SUV styling of the era. Neither particularly sleek nor ultra-boxy. Score: 0.00.
-*   **Style Aggression Rating:** Not aggressive. Generic design. Score: 0.00.
-*   **Style Modernity Rating:** Design is from the 2011-2015 era, looks dated compared to today's vehicles. Score: -0.50.
-*   **Handling Rating:** Reviews mention wallowy suspension, body roll, not as good as rivals like Kuga or RAV4 [5, 7, 13]. Some mention precise steering and relatively good body control on gentle surfaces [5]. Overall, below average. Score: -0.50.
-*   **Ride Comfort Rating:** Reviews are mixed, some say firm but comfortable [14], others say poor on all roads and bouncy due to soft suspension [7, 27]. Leaning towards slightly below average. Score: -0.10.
-*   **Cabin Noise Rating:** One review says very quiet [14], another says diesel engine is rough and noisy at higher speeds [27]. Mixed, leaning slightly noisy. Score: -0.10.
-*   **Shift Smooth Rating:** Manual gearbox described as awkward/clumsy, automatic takes too long to switch gears [27]. Below average. Score: -0.30.
-*   **Steering Feel Rating:** Reviews mention precise steering but very little feel or minimal communication [5, 10, 27]. Score: -0.10.
-*   **ADAS Score:** Standard safety includes ABS, ESP, Hill Start Assist, Descent Control, airbags, Tyre Pressure Monitoring [3, 6, 8, 19, 21, 22]. Rear parking sensors were optional on Exclusiv [6, 8]. Lacks modern ADAS like adaptive cruise control, lane keeping assist, blind spot monitoring common today. Well below average. Score: -0.70.
-*   **Visibility Rating:** High driving position gives good view [5, 10, 14]. Large mirrors help with reversing [14]. Score: 0.30.
-*   **Headlight Rating:** Exclusiv likely had standard halogen or projector headlights, Xenon was on SE Nav [17]. Average for its time, below average compared to modern LEDs/Matrix. Score: -0.10.
-*   **Security Rating:** Standard alarm, remote central locking, immobiliser [3, 6, 19, 21, 22]. Average for its time and segment. Score: 0.00.
-*   **Screen in:** Infotainment system was basic, multi-function display [3]. SE Nav had a colour touch-screen [3]. Exclusiv likely had the basic display or a smaller screen. Reviews mention fiddly buttons [10]. Likely small screen size compared to today. Score: -0.50.
-*   **Infotainment UX Rating:** Reviews mention too many fiddly buttons [10] and a basic display [3]. SE Nav had a touch screen, but overall system was dated compared to rivals [5]. Below average. Score: -0.60.
-*   **Smartphone Connect Rating:** Bluetooth was available [4, 17, 22]. No Apple CarPlay or Android Auto (not common in 2015). Below average compared to today. Score: -0.40.
-*   **Audio Rating:** 7 speakers mentioned [21, 22]. Standard audio system. Average. Score: 0.00.
-*   **USB Ports:** USB connection mentioned [21, 22]. Likely one or two ports. Below average compared to today's cars with multiple ports. Score: -0.20.
-*   **Comfort Feature Score:** Exclusiv includes air conditioning, heated front seats, driver seat height adjust, front armrest [6, 8, 13, 21, 22]. Partial leather seats [6]. Decent features for its time, but lacks modern luxury features. Average compared to today. Score: 0.00.
-*   **Convenience Feature Score:** Includes remote central locking, electric windows, electric parking brake, cruise control (optional on early Exclusiv, standard later), rear parking sensors (optional on early Exclusiv, standard later) [3, 6, 8, 13, 21, 22]. Lacks modern convenience like keyless entry/start, power tailgate, 360 cameras, etc. Average compared to today. Score: 0.00.
-*   **Brand Prestige Rating:** Vauxhall is a mainstream brand. Score: 0.00.
-*   **Model Prestige Rating:** Antara was a mainstream SUV, not a halo model. Score: 0.00.
-*   **Trim Prestige Rating:** Exclusiv was a mid-to-high trim level. Score: 0.00.
-*   **Interior Luxury Rating:** Reviews mention decent materials but too much hard plastic compared to rivals [5]. Not luxurious. Score: -0.10.
-*   **Interior Tech Focus Rating:** Interior design and tech were considered dated even in its time [5]. Minimal screens compared to modern cars. Score: -0.50.
-
-Refining scores based on the guide and search results. Adjusting some scores slightly based on multiple sources confirming points (e.g., reliability, handling).
-
-*   price_usd: 0.00 (Discontinued, cannot score against new market price)
-*   total_cost_estimate_5yr_usd: -0.50 (Reliability issues, depreciation)
-*   insurance_usd_yr: -0.10 (Group 25 is slightly below average group 28)
-*   maint_usd_yr: 0.00 (Seems average)
-*   repair_risk_score: -0.70 (Cited reliability problems)
-*   hp: -0.30 (163 HP is below today's average)
-*   torque: 0.30 (258 lb-ft is above today's average for non-performance)
-*   cylinder_count: 0.00 (4 cylinders is average)
-*   engine_displacement: 0.00 (2.2L is average for SUV)
-*   accel_0_60_sec: -0.50 (Around 10-11 seconds is slow)
-*   top_speed: -0.40 (Around 118 mph is below average)
-*   drive_type: 0.00 (Available AWD is average)
-*   transmission_type: 0.00 (Conventional auto is average, manual is -1.00, but average availability is 0.00) - *Correction*: The guide lists Automatic as +1.00, DCT as 0.00, Manual/Sequential as -1.00. A conventional automatic is closer to DCT/Manual in performance/smoothness than a modern ZF8 or similar. Let's score conventional auto as 0.00, as it's the most common type historically, but not the best performing.
-*   offroad_ability: 0.00 (Soft-roader capabilities are average for an SUV)
-*   braking_dist_ft: 0.00 (No specific data)
-*   size: 0.00 (Mid-size SUV is average)
-*   wheelbase: 0.00 (Average for size)
-*   body_style: 0.00 (5-door SUV is average)
-*   seats: 0.00 (5 seats is average)
-*   cargo_space: -0.10 (Slightly below average for segment)
-*   rear_space: 0.20 (Reported as generous)
-*   ground_clearance_in: 0.00 (6.9 inches is average for crossover)
-*   turn_radius_ft: -0.10 (Slightly larger than average)
-*   mpg: 0.10 (Slightly above average for non-hybrid SUV)
-*   co2_g_km: 0.00 (Around average)
-*   electric_range_mi: -1.00 (Not electric)
-*   charge_speed_kw: -1.00 (Not electric)
-*   style_sleek_vs_boxy: 0.00 (Generic SUV)
-*   style_aggression_rating: 0.00 (Not aggressive)
-*   style_modernity_rating: -0.50 (Dated design)
-*   handling_rating: -0.50 (Poor reviews)
-*   ride_comfort_rating: -0.10 (Mixed reviews, leaning firm/bouncy)
-*   cabin_noise_rating: -0.10 (Mixed reviews, leaning noisy diesel)
-*   shift_smooth_rating: -0.30 (Clumsy manual, slow auto)
-*   steering_feel_rating: -0.10 (Little feel)
-*   adas_score: -0.70 (Minimal features compared to today)
-*   visibility_rating: 0.30 (Good view from high position)
-*   headlight_rating: -0.10 (Likely basic projectors/halogens)
-*   security_rating: 0.00 (Standard features)
-*   screen_in: -0.50 (Likely small/basic screen)
-*   infotainment_ux_rating: -0.60 (Dated system, fiddly controls)
-*   smartphone_connect_rating: -0.40 (Bluetooth only)
-*   audio_rating: 0.00 (Standard system)
-*   usb_ports: -0.20 (Likely 1-2 ports)
-*   comfort_feature_score: 0.00 (Average features for today)
-*   convenience_feature_score: 0.00 (Average features for today)
-*   brand_prestige_rating: 0.00 (Mainstream)
-*   model_prestige_rating: 0.00 (Mainstream)
-*   trim_prestige_rating: 0.00 (Mid-high, but not top-tier luxury)
-*   interior_luxury_rating: -0.10 (Some hard plastics)
-*   interior_tech_focus_rating: -0.50 (Dated design, minimal screens)
-
-Looks consistent with the search results and scoring guide. Ready to output JSON.```json
+```json
 {
-  "price_usd": 0.00,
+  "price_usd": 1.00,
   "total_cost_estimate_5yr_usd": -0.50,
-  "insurance_usd_yr": -0.10,
+  "insurance_usd_yr": 0.70,
   "maint_usd_yr": 0.00,
-  "repair_risk_score": -0.70,
-  "hp": -0.30,
+  "repair_risk_score": -0.50,
+  "hp": -0.20,
   "torque": 0.30,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": -0.50,
-  "top_speed": -0.40,
+  "cylinder_count": -0.30,
+  "engine_displacement": -0.30,
+  "accel_0_60_sec": -0.40,
+  "top_speed": -0.30,
   "drive_type": 0.00,
-  "transmission_type": 0.00,
-  "offroad_ability": 0.00,
+  "transmission_type": 0.50,
+  "offroad_ability": -0.30,
   "braking_dist_ft": 0.00,
   "size": 0.00,
   "wheelbase": 0.00,
-  "body_style": 0.00,
+  "body_style": 0.20,
   "seats": 0.00,
   "cargo_space": -0.10,
-  "rear_space": 0.20,
-  "ground_clearance_in": 0.00,
-  "turn_radius_ft": -0.10,
-  "mpg": 0.10,
+  "rear_space": 0.30,
+  "ground_clearance_in": 0.10,
+  "turn_radius_ft": -0.40,
+  "mpg": 0.00,
   "co2_g_km": 0.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
   "style_aggression_rating": 0.00,
   "style_modernity_rating": -0.50,
-  "handling_rating": -0.50,
+  "handling_rating": -0.40,
   "ride_comfort_rating": -0.10,
-  "cabin_noise_rating": -0.10,
-  "shift_smooth_rating": -0.30,
-  "steering_feel_rating": -0.10,
+  "cabin_noise_rating": -0.20,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
   "adas_score": -0.70,
-  "visibility_rating": 0.30,
-  "headlight_rating": -0.10,
-  "security_rating": 0.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": -0.20,
+  "security_rating": 0.10,
   "screen_in": -0.50,
-  "infotainment_ux_rating": -0.60,
-  "smartphone_connect_rating": -0.40,
+  "infotainment_ux_rating": -0.70,
+  "smartphone_connect_rating": -0.50,
   "audio_rating": 0.00,
   "usb_ports": -0.20,
   "comfort_feature_score": 0.00,
@@ -158,6 +50,6 @@ Looks consistent with the search results and scoring guide. Ready to output JSON
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
   "interior_luxury_rating": -0.10,
-  "interior_tech_focus_rating": -0.50
+  "interior_tech_focus_rating": -0.70
 }
 ```
