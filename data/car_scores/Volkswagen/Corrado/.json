@@ -1,0 +1,113 @@
+```json
+{
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.70,
+  "hp": -0.10,
+  "torque": -0.10,
+  "cylinder_count": 0.50,
+  "engine_displacement": 0.50,
+  "accel_0_60_sec": 0.10,
+  "top_speed": 0.00,
+  "drive_type": -1.00,
+  "transmission_type": -1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.50,
+  "size": -0.50,
+  "wheelbase": -0.50,
+  "body_style": -1.00,
+  "seats": -0.50,
+  "cargo_space": -0.50,
+  "rear_space": -0.50,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.50,
+  "co2_g_km": -0.70,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.10,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": -0.70,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": -0.50,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.50,
+  "adas_score": -1.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": -0.50,
+  "security_rating": -0.50,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": -0.50,
+  "usb_ports": -1.00,
+  "comfort_feature_score": -0.50,
+  "convenience_feature_score": -0.50,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": -1.00
+}
+```
+
+**Explanation of Ratings for 1995 Volkswagen Corrado VR6:**
+
+Evaluating a classic car like the 1995 Volkswagen Corrado VR6 against benchmarks for today's vehicle market presents unique challenges, as many modern features and performance standards did not exist or were vastly different in the 1990s. Scores are assigned based on how the Corrado's characteristics compare to the *average* modern car, defaulting to 0.00 when data is unavailable or the comparison is not directly applicable.
+
+*   **price\_usd**: 0.00 - The benchmark is for new car pricing. The Corrado is a classic, and its market value varies greatly based on condition, often exceeding its original price but still far below the threshold for a -1.00 score based on *new* car prices. Applying this benchmark is ambiguous, so defaulting to 0.00 is appropriate.
+*   **total\_cost\_estimate\_5yr\_usd**: 0.00 - Estimating 5-year ownership costs for a 30-year-old classic car is not feasible with standard data sources. Defaulting to 0.00.
+*   **insurance\_usd\_yr**: 0.00 - Insurance costs for classics vary significantly based on policy type and vehicle value. Standard insurance group data is not relevant for a car of this age. Defaulting to 0.00.
+*   **maint\_usd\_yr**: -0.50 - Maintenance costs for a 30-year-old performance car are generally higher than average due to age, potential wear, and specialized parts/labor.
+*   **repair\_risk\_score**: -0.70 - The Corrado VR6 has known common issues (e.g., cooling system, head gasket, electrics, sunroof) [8, 10, 15, 21, 31], and parts availability can be a factor, leading to a higher repair risk compared to the average modern car.
+*   **hp**: -0.10 - The 190 hp output [1, 2, 5] is slightly below the average horsepower of new cars today (~200 hp).
+*   **torque**: -0.10 - The 181 lb-ft of torque [1, 2, 5] is slightly below the average torque of new cars today (~190 lb-ft).
+*   **cylinder\_count**: 0.50 - A 6-cylinder engine [1, 2, 5] is more than the average modern car, which often uses 4 cylinders.
+*   **engine\_displacement**: 0.50 - The 2.9L displacement [1, 2, 5] is larger than the average modern engine size.
+*   **accel\_0\_60\_sec**: 0.10 - A 0-60 mph time of 6.7-6.9 seconds [3, 4, 6, 11, 17, 28] is slightly quicker than the average modern car (~7.5 seconds).
+*   **top\_speed**: 0.00 - A top speed of 145-146 mph [1, 2, 4, 5, 11, 17] is around the average top speed for many non-performance modern vehicles (~150 mph).
+*   **drive\_type**: -1.00 - The Corrado VR6 is Front-Wheel Drive (FWD) [1, 2, 5, 9, 17], which scores -1.00 according to the guide.
+*   **transmission\_type**: -1.00 - Assuming the common 5-speed Manual transmission [1, 2, 5, 9, 12, 13, 17, 23], which scores -1.00 according to the guide.
+*   **offroad\_ability**: 1.00 - As a low-slung sports coupe [11], it has no off-road capability, scoring +1.00 as per the guide's inverse scale for this metric.
+*   **braking\_dist\_ft**: 0.50 - A tested braking distance of 108 ft from 60 mph [16] is better than the average modern car (~125 ft).
+*   **size**: -0.50 - With a length of ~4050mm [2, 9, 14, 17, 32], it is smaller than the average modern compact car (~4600mm).
+*   **wheelbase**: -0.50 - The wheelbase of ~2470mm [2, 9, 14, 17, 32] is shorter than the average modern car (~2700mm).
+*   **body\_style**: -1.00 - It is a 2-door coupe [2, 9, 17], scoring -1.00 as per the guide.
+*   **seats**: -0.50 - It has a 2+2 seating layout (4 seats) [2, 9, 17, 32], which is less than the average 5-seat capacity.
+*   **cargo\_space**: -0.50 - Minimum cargo space is 8.3 cu ft (235L) [9, 17, 20], which is below the average modern car (~15 cu ft).
+*   **rear\_space**: -0.50 - Rear space is known to be limited in the 2+2 layout [3, 11, 32], scoring below the average modern car.
+*   **ground\_clearance\_in**: -0.50 - As a sports coupe, ground clearance is low (estimated ~5 inches), below the average for modern vehicles (~6.5 inches).
+*   **turn\_radius\_ft**: 0.00 - Data for turn radius was not readily available. Defaulting to 0.00.
+*   **mpg**: -0.50 - Real-world MPG is around 22-25 mpg [1, 5, 15, 18, 22], which is below the average modern car (~30 mpg).
+*   **co2\_g\_km**: -0.70 - A 2.9L V6 from the 1990s would have significantly higher CO2 emissions than the average modern car, especially EVs (0 g/km). Specific data was not found, but a negative score is warranted.
+*   **electric\_range\_mi**: -1.00 - Not an electric vehicle.
+*   **charge\_speed\_kw**: -1.00 - Not an electric vehicle.
+*   **style\_sleek\_vs\_boxy**: 0.10 - The Corrado has a coupe profile, which is relatively sleek, but not as extreme as modern aerodynamic designs.
+*   **style\_aggression\_rating**: 0.00 - The design is sporty but not overtly aggressive by modern standards.
+*   **style\_modernity\_rating**: -0.70 - The design is clearly from the late 80s/early 90s and appears dated compared to modern vehicle styling.
+*   **handling\_rating**: 0.50 - The Corrado VR6 was highly praised for its handling in its era [3, 16, 24]. While modern cars have advanced, its fundamental chassis and steering feel still provide above-average handling characteristics compared to a typical modern vehicle.
+*   **ride\_comfort\_rating**: -0.50 - Reviews indicate the ride can be firm or bouncy [11, 24], scoring below the average modern car's comfort level.
+*   **cabin\_noise\_rating**: -0.50 - Older cars generally have less sound insulation than modern vehicles, likely resulting in higher cabin noise.
+*   **shift\_smooth\_rating**: 0.00 - The manual shift was described as slick [3], but also rugged in one review [11]. Compared to the variety of modern transmissions (including smooth automatics and CVTs), it sits around average.
+*   **steering\_feel\_rating**: 0.50 - The steering was noted for being nicely weighted and communicative [3, 16], providing better feel than many modern cars with electric power steering.
+*   **adas\_score**: -1.00 - The Corrado predates modern Advanced Driver-Assistance Systems.
+*   **visibility\_rating**: 0.00 - No specific data or common complaints/praise found regarding visibility. Defaulting to 0.00.
+*   **headlight\_rating**: -0.50 - Headlight technology from the 1990s is significantly less advanced than modern LED or Matrix LED systems.
+*   **security\_rating**: -0.50 - Security features were basic for the era (alarm, immobilizer) [23], lacking modern tracking or advanced anti-theft systems.
+*   **screen\_in**: -1.00 - The original car had a basic radio, not a modern infotainment screen [23].
+*   **infotainment\_ux\_rating**: -1.00 - The basic radio system lacks the functionality and user experience of modern infotainment systems.
+*   **smartphone\_connect\_rating**: -1.00 - No smartphone connectivity features like Apple CarPlay or Android Auto.
+*   **audio\_rating**: -0.50 - The original audio system would be basic compared to modern multi-speaker, high-fidelity options.
+*   **usb\_ports**: -1.00 - USB ports were not a feature in cars of this era.
+*   **comfort\_feature\_score**: -0.50 - Features like heated seats and electric windows were available [15, 23], but it lacks the wide array of comfort features found in average modern cars (e.g., multi-zone climate control, ventilated seats).
+*   **convenience\_feature\_score**: -0.50 - Features were limited to basics like electric windows/sunroof [12, 23], lacking modern convenience items like parking sensors, cameras, keyless entry/start, etc.
+*   **brand\_prestige\_rating**: 0.00 - Volkswagen is generally considered an average, mainstream brand.
+*   **model\_prestige\_rating**: 0.00 - The Corrado was a niche, respected model within VW's lineup, considered a "modern classic" [12, 24, 26], placing it around the middle in terms of model prestige relative to VW's range (not entry-level like an A1, not a halo car like an R8).
+*   **trim\_prestige\_rating**: -1.00 - The VR6/Storm was the top-tier performance trim [7, 26], scoring -1.00 as per the guide.
+*   **interior\_luxury\_rating**: 0.00 - Interior quality was considered good for its time [4, 24], with options like leather [4, 15, 23, 26], but it does not meet the standards of modern luxury interiors. It sits around average compared to today's market.
+*   **interior\_tech\_focus\_rating**: -1.00 - The interior design is focused on driving and ergonomics with minimal technology displays or features [16, 36].
+
+```

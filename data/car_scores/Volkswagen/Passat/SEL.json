@@ -1,0 +1,186 @@
+The most recent Volkswagen Passat SEL trim available in the US market was the 2021 model year. For 2022, the Passat trim levels were SE, R-Line, and Limited Edition (Source 1, 3, 7, 22). The Limited Edition trim for 2022 essentially combined features from previous top trims, including some features previously found on the SEL (Source 1, 15, 22). Therefore, I will evaluate based on the 2021 Passat SEL where specific data is available, and supplement with 2022 Passat data for general characteristics of the platform where the SEL would be comparable (engine, dimensions, safety, infotainment base, etc.).
+
+Here's the evaluation of the most recent relevant Passat SEL (2021) and comparable 2022 Passat data:
+
+*   **price_usd**: The 2022 Passat Limited Edition (which replaced the SEL as the top trim) started at $31,570 or $31,290 (Source 1, 15, 22). The 2021 SEL would have been in a similar range, slightly above the $35,000 average for a new car. Score: -0.10.
+*   **total_cost_estimate_5yr_usd**: Edmunds provides 5-year ownership costs for the 2022 Passat SE, with total estimated costs around $20,000-$25,000 (summing insurance, maintenance, repairs, taxes/fees, depreciation, fuel) (Source 8). This is below the $40,000 average. The SEL/Limited Edition would likely be slightly higher due to initial price and potentially higher insurance/taxes, but still likely below average. Score: 0.20.
+*   **insurance_usd_yr**: Average annual insurance for a 2022 Passat is around $1,382 for full coverage (Source 17). Other sources show averages around $937-$2,373 depending on factors (Source 18, 24, 25). The average is around $1,500. The Passat is slightly below or around average. Score: 0.00.
+*   **maint_usd_yr**: Edmunds estimates 5-year maintenance for a 2022 Passat SE at around $5,028 (Source 8), which averages to about $1,000/year. This is slightly above the $750 average. Score: -0.10.
+*   **repair_risk_score**: The Passat generally has average reliability ratings (Source 4, 12, 28, 33, 34). Score: 0.00.
+*   **hp**: The 2022 Passat (all trims, including the Limited Edition which replaced SEL) has a 174 hp engine (Source 1, 2, 5, 6, 7, 9, 13, 15, 16, 19, 20, 28, 29, 34). This is below the 200 hp average. Score: -0.20.
+*   **torque**: The 2022 Passat engine produces 206 lb-ft of torque (Source 1, 2, 6, 9, 13, 15, 16, 20, 29, 34). This is slightly above the 190 lb-ft average. Score: 0.10.
+*   **cylinder_count**: The 2022 Passat has a 4-cylinder engine (Source 1, 6, 11, 13, 15, 16, 19, 20, 28, 34). Average is 4-6. Score: 0.00.
+*   **engine_displacement**: The 2022 Passat engine is 2.0L (Source 1, 6, 13, 15, 16, 19, 20, 28, 34). This is below the 3.0L average. Score: -0.30.
+*   **accel_0_60_sec**: The 2022 Passat 0-60 mph is around 8.3-9.5 seconds (Source 1, 29). This is slower than the 7.5 sec average. Score: -0.30.
+*   **top_speed**: No specific top speed found for the 2022 Passat. Default to 0.00.
+*   **drive_type**: The 2022 Passat is Front-Wheel Drive (FWD) (Source 1, 3, 5, 9, 11, 13, 15, 20). Score: -1.00.
+*   **transmission_type**: The 2022 Passat has a 6-speed automatic transmission (Source 1, 3, 5, 6, 7, 9, 11, 13, 15, 16, 19, 29, 34). Automatic is +1.00.
+*   **offroad_ability**: Low sedan, FWD. Poor off-road. Based on the *examples* in the guide (Mclaren +1.00), poor off-road gets a positive score. Score +1.00.
+*   **braking_dist_ft**: No specific braking distance found for the 2022 Passat. Default to 0.00.
+*   **size**: 2022 Passat length is 193.6 in (4917 mm) (Source 1, 13, 15). This is larger than the 4600mm average. Score: 0.30.
+*   **wheelbase**: 2022 Passat wheelbase is 110.4 in (2803 mm) (Source 1, 6, 13, 15). This is slightly above the 2700mm average. Score: 0.10.
+*   **body_style**: 4-door sedan (Source 1, 3, 7, 13, 15). Score: 0.00.
+*   **seats**: 5 seats (Source 1, 3, 7, 13, 20). Score: 0.00.
+*   **cargo_space**: 2022 Passat sedan has 15.9 cu ft (Source 3, 4, 13, 16, 20, 22, 32). This is around the 15 cu ft average. Score: 0.00.
+*   **rear_space**: 2022 Passat has a huge back seat, generous legroom (39.1 inches) (Source 1, 4, 10, 13, 15, 16, 22). This is well above average. Score: 0.70.
+*   **ground_clearance_in**: No specific ground clearance found for the 2022 Passat sedan. Default to 0.00.
+*   **turn_radius_ft**: 2022 Passat turning circle is 36.4 ft (Source 13). This is around the 36 ft average. Score: 0.00.
+*   **mpg**: 2022 Passat EPA is 24 city / 36 highway / 28 combined (Source 1, 2, 7, 9, 11, 15, 16, 20, 21, 22, 28). This is slightly below the 30 mpg average. Score: -0.10.
+*   **co2_g_km**: Lower MPG means slightly higher CO2. Score: -0.20.
+*   **electric_range_mi**: Not electric. Score: -1.00.
+*   **charge_speed_kw**: Not electric. Score: -1.00.
+*   **style_sleek_vs_boxy**: Passat is a traditional sedan shape, not particularly sleek or boxy. Score: 0.00.
+*   **style_aggression_rating**: Styling is described as bland, unassuming, handsome but not showy (Source 1, 4, 16). Not aggressive. Score: -0.50.
+*   **style_modernity_rating**: 2020 update brought refreshed styling, but based on an older platform (Source 1, 4, 22). Design is described as a bit dated (Source 22). Score: 0.00.
+*   **handling_rating**: Handling is described as predictable, composed, not particularly sporty (Source 1, 15, 16, 22, 34). Score: 0.00.
+*   **ride_comfort_rating**: Reviews praise the comfortable ride, smooth on highway, soft (Source 1, 4, 7, 15, 16, 22, 23, 26). Positive score. Score: 0.70.
+*   **cabin_noise_rating**: Described as a plush, quiet space (Source 9, 26). Positive score. Score: 0.50.
+*   **shift_smooth_rating**: 6-speed automatic is mostly smooth, but can stumble at low speeds (Source 1, 15, 16). Score: 0.00.
+*   **steering_feel_rating**: Steering is described as accurate and well-weighted but lacking feedback, light (Source 1, 15, 34). Score: 0.00.
+*   **adas_score**: 2022 Passat has standard AEB, blind-spot monitoring, rear cross-traffic alert, adaptive cruise control, and lane-keeping assist (Source 1, 5, 15, 20, 23, 34). This is a very good suite of standard features. Positive score. Score: 0.80.
+*   **visibility_rating**: Excellent outward visibility (Source 1, 4, 15). Positive score. Score: 0.80.
+*   **headlight_rating**: 2022 Passat has standard LED headlights (Source 5, 10, 15). Positive score. Score: 0.50.
+*   **security_rating**: Standard anti-theft alarm with immobilizer (Source 10). Average features. Score: 0.00.
+*   **screen_in**: 2022 Passat has a standard 6.3-inch touchscreen, optional 8.0-inch (Source 1, 5, 10, 22). 6.3 is below average, 8.0 is average. Leaning negative as the standard is small and described as tiny/dated compared to rivals (Source 4, 22). Score: -0.20.
+*   **infotainment_ux_rating**: System is intuitive and straightforward, easy to use controls, but screen is small/dated (Source 4, 10, 16, 22, 23). Score: 0.00.
+*   **smartphone_connect_rating**: Standard Apple CarPlay and Android Auto (Source 1, 5, 10, 15, 16, 22). Positive score. Score: 0.50.
+*   **audio_rating**: Standard 6-speaker system, optional Fender premium system (Source 1, 2, 15, 16, 22). Average to good depending on trim. Score: 0.00.
+*   **usb_ports**: Front and rear USB ports (Source 5, 10). Number not specified clearly, assume average. Score: 0.00.
+*   **comfort_feature_score**: Heated front seats standard, power adjustability, available leather, dual-zone climate control, available heated rear seats, driver seat memory (Source 5, 9, 10, 15, 23). Good features available, especially on SEL/Limited Edition. Positive score. Score: 0.70.
+*   **convenience_feature_score**: Standard backup camera, keyless entry/start, remote start, adaptive cruise control, lane-keeping assist, available park assist, parking sensors (Source 5, 10, 11, 15, 20, 21, 23, 34). Good convenience features available. Positive score. Score: 0.70.
+*   **brand_prestige_rating**: Volkswagen is a mainstream brand, generally perceived as slightly more upscale than some Japanese competitors but below true luxury. Score: 0.00.
+*   **model_prestige_rating**: Passat is a mid-size sedan, a core model but not a halo car. Score: 0.00.
+*   **trim_prestige_rating**: SEL was the top trim level before being replaced by the Limited Edition in 2022 (Source 22). Top trims get a negative score according to the guide. Score: -0.50.
+*   **interior_luxury_rating**: Interior materials improved for 2020, soft-touch on upper parts, available leather (Source 4, 9, 15, 16). Described as handsome but lacking true inspiration, comparable cars have higher-end interiors (Source 4, 15, 22). Decent but not luxury class. Score: 0.00.
+*   **interior_tech_focus_rating**: Updated infotainment but screen is small/dated, no digital cockpit (Source 4, 16, 22). Mix of physical controls and touchscreen (Source 23). Average tech focus. Score: 0.00.
+
+Refining scores based on benchmarks and relative positioning:
+
+*   **price_usd**: ~$31k is slightly below $35k average. Score: 0.10.
+*   **total_cost_estimate_5yr_usd**: ~$20k-$25k is well below $40k average. Score: 0.50.
+*   **hp**: 174 hp is below 200 hp. Score: -0.20.
+*   **torque**: 206 lb-ft is slightly above 190 lb-ft. Score: 0.10.
+*   **accel_0_60_sec**: 8.3-9.5 sec is slower than 7.5 sec. Score: -0.40.
+*   **size**: 193.6 in is noticeably larger than 4600mm (~181 in). Score: 0.30.
+*   **rear_space**: Praised as huge/generous (39.1"). Score: 0.70.
+*   **mpg**: 28 combined is slightly below 30 mpg. Score: -0.10.
+*   **co2_g_km**: Correlates with MPG. Score: -0.10.
+*   **ride_comfort_rating**: Praised as comfortable/smooth. Score: 0.70.
+*   **cabin_noise_rating**: Described as quiet/plush. Score: 0.50.
+*   **adas_score**: Very good standard suite. Score: 0.80.
+*   **visibility_rating**: Excellent. Score: 0.80.
+*   **headlight_rating**: Standard LED. Score: 0.50.
+*   **screen_in**: Standard 6.3" is small/dated. Optional 8". Leaning negative. Score: -0.20.
+*   **comfort_feature_score**: Good features available on top trims. Score: 0.70.
+*   **convenience_feature_score**: Good features available. Score: 0.70.
+*   **trim_prestige_rating**: Top trim. Score: -0.50.
+
+Final scores:
+
+price_usd: 0.10
+total_cost_estimate_5yr_usd: 0.50
+insurance_usd_yr: 0.00
+maint_usd_yr: -0.10
+repair_risk_score: 0.00
+hp: -0.20
+torque: 0.10
+cylinder_count: 0.00
+engine_displacement: -0.30
+accel_0_60_sec: -0.40
+top_speed: 0.00
+drive_type: -1.00
+transmission_type: 1.00
+offroad_ability: 1.00
+braking_dist_ft: 0.00
+size: 0.30
+wheelbase: 0.10
+body_style: 0.00
+seats: 0.00
+cargo_space: 0.00
+rear_space: 0.70
+ground_clearance_in: 0.00
+turn_radius_ft: 0.00
+mpg: -0.10
+co2_g_km: -0.10
+electric_range_mi: -1.00
+charge_speed_kw: -1.00
+style_sleek_vs_boxy: 0.00
+style_aggression_rating: -0.50
+style_modernity_rating: 0.00
+handling_rating: 0.00
+ride_comfort_rating: 0.70
+cabin_noise_rating: 0.50
+shift_smooth_rating: 0.00
+steering_feel_rating: 0.00
+adas_score: 0.80
+visibility_rating: 0.80
+headlight_rating: 0.50
+security_rating: 0.00
+screen_in: -0.20
+infotainment_ux_rating: 0.00
+smartphone_connect_rating: 0.50
+audio_rating: 0.00
+usb_ports: 0.00
+comfort_feature_score: 0.70
+convenience_feature_score: 0.70
+brand_prestige_rating: 0.00
+model_prestige_rating: 0.00
+trim_prestige_rating: -0.50
+interior_luxury_rating: 0.00
+interior_tech_focus_rating: 0.00
+
+All scores are within the -1.00 to +1.00 range and have two decimal places. The JSON structure is correct.```json
+{
+  "price_usd": 0.10,
+  "total_cost_estimate_5yr_usd": 0.50,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.10,
+  "repair_risk_score": 0.00,
+  "hp": -0.20,
+  "torque": 0.10,
+  "cylinder_count": 0.00,
+  "engine_displacement": -0.30,
+  "accel_0_60_sec": -0.40,
+  "top_speed": 0.00,
+  "drive_type": -1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.30,
+  "wheelbase": 0.10,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.70,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.10,
+  "co2_g_km": -0.10,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.70,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.80,
+  "visibility_rating": 0.80,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": -0.20,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.70,
+  "convenience_feature_score": 0.70,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -0.50,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": 0.00
+}
+```

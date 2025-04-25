@@ -1,0 +1,109 @@
+```json
+{
+  "price_usd": -0.55,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -0.25,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": -0.30,
+  "hp": -0.20,
+  "torque": +0.40,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.60,
+  "accel_0_60_sec": -0.70,
+  "top_speed": -0.40,
+  "drive_type": -1.00,
+  "transmission_type": 0.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.00,
+  "size": +0.70,
+  "wheelbase": +0.80,
+  "body_style": +1.00,
+  "seats": +1.00,
+  "cargo_space": +0.80,
+  "rear_space": +0.70,
+  "ground_clearance_in": -0.20,
+  "turn_radius_ft": -0.10,
+  "mpg": +0.50,
+  "co2_g_km": +0.20,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": -0.70,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": +0.50,
+  "handling_rating": +0.20,
+  "ride_comfort_rating": +0.30,
+  "cabin_noise_rating": +0.20,
+  "shift_smooth_rating": +0.50,
+  "steering_feel_rating": +0.10,
+  "adas_score": +0.70,
+  "visibility_rating": +0.80,
+  "headlight_rating": +0.60,
+  "security_rating": +0.60,
+  "screen_in": +0.30,
+  "infotainment_ux_rating": -0.80,
+  "smartphone_connect_rating": +0.80,
+  "audio_rating": -0.20,
+  "usb_ports": +1.00,
+  "comfort_feature_score": +0.50,
+  "convenience_feature_score": +0.70,
+  "brand_prestige_rating": +0.20,
+  "model_prestige_rating": +0.20,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": +0.40,
+  "interior_tech_focus_rating": +0.70
+}
+```
+
+**Reasoning for each rating:**
+
+*   **price_usd (-0.55):** UK pricing for the TDI engine starts around £43k-£45k for Life trim and £48k-£50k for Style trim (Source 5, 19, 20, 21). This averages to around £46k-£48k, which translates to roughly $57k-$60k+ USD. This is significantly above the market average of $35k but below the $100k threshold for -1.00.
+*   **total_cost_estimate_5yr_usd (0.00):** Specific 5-year cost data for the TDI is not readily available. Defaulting to the market average score.
+*   **insurance_usd_yr (-0.25):** UK insurance groups for the Multivan TDI are around 26E-30E (Source 20, 25, 28). This is above the national average (typically groups 16-20).
+*   **maint_usd_yr (0.00):** Specific maintenance cost data for the TDI is not readily available. Diesel maintenance can sometimes be slightly higher than petrol, but VW maintenance is generally average. Defaulting to the market average score.
+*   **repair_risk_score (-0.30):** Volkswagen generally has average reliability. While the 2.0 TDI is a widely used engine, diesel-specific components (like the DPF and AdBlue system) and some reported issues with the T7's gearbox and electronics (Source 17, 23) introduce a slightly higher potential risk compared to a simple, highly reliable petrol engine.
+*   **hp (-0.20):** The primary TDI engine is the 150 PS (148 hp) 2.0L unit (Source 1, 2, 3, 4, 5, 8, 12, 13, 22, 29). This is below the 200 hp market average.
+*   **torque (+0.40):** The 2.0 TDI produces 360 Nm (265 lb-ft) of torque (Source 1, 2, 3, 4, 5, 8, 12, 29). This is notably above the 190 lb-ft market average.
+*   **cylinder_count (-0.50):** The engine is a 4-cylinder (Source 2, 3, 4, 8, 12). A 4-cylinder is below the 6-cylinder average benchmark.
+*   **engine_displacement (-0.60):** The engine displacement is 2.0L (Source 2, 3, 4, 8, 12). This is significantly below the 3.0L average benchmark.
+*   **accel_0_60_sec (-0.70):** 0-60 mph is around 11-11.6 seconds (Source 1, 2, 3, 4, 7, 12, 20, 22). This is slower than the 7.5-second market average.
+*   **top_speed (-0.40):** Top speed is around 118 mph (Source 1, 3, 4, 7, 12). This is below the 150 mph market average.
+*   **drive_type (-1.00):** The Multivan T7 TDI is Front-Wheel Drive (FWD) (Source 2, 3, 4, 8). Following the guide's scoring for FWD.
+*   **transmission_type (0.00):** Equipped with a 7-speed DSG (Dual-Clutch Gearbox) (Source 1, 2, 3, 4, 5, 8, 12, 13, 21). Following the guide's scoring for DCT.
+*   **offroad_ability (-1.00):** As a large MPV/van based on a car platform (MQB Evo) (Source 2, 6, 18, 20, 26), it has low ground clearance and is not designed for off-road use. Following the guide's intent based on examples (McLaren = -1.00 for low ability).
+*   **braking_dist_ft (0.00):** Specific braking distance data is not readily available for the TDI. Defaulting to the market average score.
+*   **size (+0.70):** Standard length is around 4973mm, long wheelbase is 5173mm (Source 3, 4). This is significantly larger than the 4600mm average, approaching the >5100mm benchmark.
+*   **wheelbase (+0.80):** Wheelbase is 3124mm for both lengths (Source 2, 3, 4, 6, 12). This is well above the 2700mm average, approaching the >3200mm benchmark.
+*   **body_style (+1.00):** It is a 5-door van/minivan/people carrier (Source 7, 20). Following the guide's scoring for 5-Door Van.
+*   **seats (+1.00):** Offers seating for up to 7 people (Source 5, 7, 18, 20). Following the guide's scoring for 7-8 seats.
+*   **cargo_space (+0.80):** Offers substantial cargo space, ranging from 469L (16.6 cu ft) with all seats up to over 3600L (127 cu ft) with seats removed (Source 3, 4, 7, 19, 20). This is well above the >35 cu ft benchmark.
+*   **rear_space (+0.70):** Excellent rear space due to the van body style and flexible/removable seating (Source 2, 6, 20). Well above average sedan/SUV rear legroom.
+*   **ground_clearance_in (-0.20):** Ground clearance is around 152mm (6 inches) (Source 3, 7). This is slightly below the 6.5" average for compact crossovers.
+*   **turn_radius_ft (-0.10):** Turning circle is 12.1m (39.7 ft) (Source 3, 4, 7, 26). This is slightly larger than the 36 ft average.
+*   **mpg (+0.50):** Fuel economy is around 40-44 mpg UK (Source 3, 4, 5, 8, 9, 12, 29). This is significantly better than the 30 mpg market average, especially for a vehicle of this size.
+*   **co2_g_km (+0.20):** CO2 emissions are around 160-172 g/km (Source 5, 8, 12, 26). This is slightly better than the 175 g/km average for ICE vehicles, benefiting from the diesel's efficiency.
+*   **electric_range_mi (-1.00):** This is a diesel-only model. Following the guide's scoring for non-electric vehicles.
+*   **charge_speed_kw (-1.00):** This is a diesel-only model. Following the guide's scoring for non-electric vehicles.
+*   **style_sleek_vs_boxy (-0.70):** It retains a fundamentally boxy van shape, despite modern styling cues.
+*   **style_aggression_rating (-0.50):** The design is modern and clean but not aggressive; it prioritizes practicality.
+*   **style_modernity_rating (+0.50):** Features modern VW design elements and lighting (Source 18), giving it a contemporary look compared to older vans.
+*   **handling_rating (+0.20):** Based on the MQB Evo car platform (Source 2, 6, 18, 20, 26), reviews suggest it handles well for a vehicle of its size, feeling more car-like than previous generations (Source 2, 6, 26). Better than a typical minivan, but not sporty.
+*   **ride_comfort_rating (+0.30):** Generally reviewed as comfortable, though some reviews mention it can feel a little firm or jiggly when lightly loaded (Source 2, 20). Designed for passenger comfort, better when loaded.
+*   **cabin_noise_rating (+0.20):** Reviews mention the diesel engine is impressively subdued for a diesel (Source 2, 6, 26), and cabin insulation is improved (Source 6). However, diesel is inherently louder than petrol or electric, and some road noise is still present (Source 2, 24). Better than a commercial van, but not as quiet as a luxury car or PHEV in electric mode.
+*   **shift_smooth_rating (+0.50):** The DSG transmission is generally smooth (Source 1, 2, 6, 28), though some early reports mentioned potential jerkiness (Source 17).
+*   **steering_feel_rating (+0.10):** Steering is low effort and easy to place (Source 9, 26), accurate and well-weighted (Source 6), but not particularly engaging.
+*   **adas_score (+0.70):** Includes a good range of standard and optional driver assistance systems like Adaptive Cruise Control, Lane Assist, AEB, Park Assist, High Beam Assist, etc. (Source 18, 21, 31). Achieved a 5-star ANCAP rating (Source 18).
+*   **visibility_rating (+0.80):** Excellent visibility due to large windows and upright driving position, typical of a van/MPV (Source 20).
+*   **headlight_rating (+0.60):** Comes standard with LED headlights (Source 18, 21). IQ.LIGHT matrix LEDs are available on higher trims (Source 21). Standard LEDs are good, but not best-in-class matrix.
+*   **security_rating (+0.60):** Includes standard modern security features like alarm and immobiliser (Source 21).
+*   **screen_in (+0.30):** Features a 10-inch infotainment touchscreen and 10.25-inch Digital Cockpit as standard (Source 6, 18, 21). Above the 8-inch average.
+*   **infotainment_ux_rating (-0.80):** While featuring large screens, VW's recent infotainment systems have been criticized for usability issues, touch-sensitive climate controls, and bugs (Source 16, 23, 24).
+*   **smartphone_connect_rating (+0.80):** Includes Wireless Apple CarPlay and Android Auto as standard (Source 6, 18, 21), offering excellent smartphone integration.
+*   **audio_rating (-0.20):** Comes standard with an eight-speaker stereo (Source 6, 18). This is average. Premium audio is available on higher trims.
+*   **usb_ports (+1.00):** Features multiple USB-C ports, including two in the front and four in the rear as standard (Source 6, 18, 21). This is well above average.
+*   **comfort_feature_score (+0.50):** Available on Life and Style trims. Life includes heated front seats (manual), tri-zone climate (Source 18, 21). Style adds better upholstery and more standard features (Source 21). Represents a good level of comfort features, especially on Style.
+*   **convenience_feature_score (+0.70):** Includes features like power sliding side doors, power tailgate, keyless entry/start, Park Assist, and the flexible/removable seating system with a multi-function table (Source 6, 18, 21). High level of convenience features, though some top-tier items might be optional on Life.
+*   **brand_prestige_rating (+0.20):** Volkswagen is a mainstream brand, generally perceived slightly above average.
+*   **model_prestige_rating (+0.20):** The Multivan is a well-regarded, practical people carrier, positioned in the middle of VW's passenger vehicle range (replacing Caravelle/Sharan/Touran) (Source 5, 20, 31).
+*   **trim_prestige_rating (0.00):** 'TDI' refers to the engine type, not a specific trim level. It's available across mainstream trims like Life and Style. It doesn't inherently add or detract from prestige compared to other engine types in the range (like TSI). Scoring it as average for trim prestige seems appropriate as it's not a base engine or a high-performance/luxury engine variant.
+*   **interior_luxury_rating (+0.40):** The interior uses decent materials and has a modern design, aiming for a practical but pleasant feel (Source 6, 22). Above average for a van, but not luxury car levels. Upholstery varies by trim (cloth on Life, ArtVelours/leather-look on Style) (Source 6, 21).
+*   **interior_tech_focus_rating (+0.70):** Features a digital cockpit, large central touchscreen, and numerous tech features (ADAS, connectivity, digital climate controls) as standard (Source 6, 18, 21), indicating a strong focus on technology even with the diesel engine.

@@ -1,0 +1,111 @@
+The search results confirm that the Volkswagen Golf GTI Clubsport 40 is a specific limited edition model based on the Mk7 Golf GTI, released in 2016 to celebrate the 40th anniversary. While the Mk8 Golf has a Clubsport variant, the "Clubsport 40" specifically refers to the Mk7 version. Therefore, I will evaluate the Mk7 Golf GTI Clubsport 40 based on the available data relative to today's market.
+
+Here is the evaluation based on the gathered data:
+
+*   **price_usd**: New price was around £30,995 - £35,885 in 2016 (Sources [1], [4], [5], [6], [8]). This converts to roughly $40k - $46k USD at the time. While it's a used car now, its original price point was around the market average for a new car today. Score: 0.00.
+*   **total_cost_estimate_5yr_usd**: No specific 5-year cost data found. Performance cars can have higher running costs. Default to 0.00.
+*   **insurance_usd_yr**: UK Insurance Group is 33E (Sources [5], [13], [22]). This is above the average group 16-20. Score: -0.50.
+*   **maint_usd_yr**: No specific data found. VW maintenance is generally average, but performance models can be higher. Default to 0.00.
+*   **repair_risk_score**: VW generally has average reliability. Score: 0.00.
+*   **hp**: 265 PS (261 hp) with 10-second overboost to 290 PS (286 hp) (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21], [23], [25]). Using the overboost figure as it's a key performance aspect. 286 hp is above the 200 hp average. Score: 0.50.
+*   **torque**: 350 Nm (258 lb-ft) with overboost to 380 Nm (280 lb-ft) (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [23], [25]). Using the overboost figure. 280 lb-ft is well above the 190 lb-ft average. Score: 0.50.
+*   **cylinder_count**: 4-cylinder (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21]). Score: -0.25.
+*   **engine_displacement**: 2.0L TSI (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21]). Below the 3.0L average. Score: -0.25.
+*   **accel_0_60_sec**: Around 5.9 - 6.3 seconds (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21], [23], [25]). Faster than 7.5 sec average. Score: 0.50.
+*   **top_speed**: 155 mph (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [23], [25]). Close to 150 mph average. Score: 0.00.
+*   **drive_type**: Front-wheel drive (FWD) (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21], [25]). Score: -1.00.
+*   **transmission_type**: Available with 6-speed manual or 6-speed DSG (Dual-Clutch Transmission) (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21], [23], [25]). DSG is 0.00. Manual is -1.00. Using 0.00 for DSG as it was a popular option and aligns with the benchmark.
+*   **offroad_ability**: Low ground clearance, FWD, performance-focused. Score: 1.00.
+*   **braking_dist_ft**: Performance brakes were fitted and praised (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [23]). Likely better than average. Score: 0.25.
+*   **size**: Length is around 4268 mm (Sources [2], [5], [8], [13]). Shorter than 4600mm average. Score: -0.25.
+*   **wheelbase**: Around 2631 - 2637 mm (Sources [2], [12], [13], [30]). Shorter than 2700mm average. Score: -0.25.
+*   **body_style**: 3-door and 5-door hatchback available (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21], [27]). Hatchback is 0.00.
+*   **seats**: 5 seats (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21]). Score: 0.00.
+*   **cargo_space**: Around 380 litres (13.4 cu ft) (Sources [13], [30]). Slightly below 15 cu ft average. Score: -0.25.
+*   **rear_space**: Mk7 Golf rear space is generally decent for its size (Source [30]). Score: 0.00.
+*   **ground_clearance_in**: Lowered sports chassis (15mm lower) (Sources [15], [16], [25]). Likely below 6.5". Score: -0.25.
+*   **turn_radius_ft**: Around 10.9 m (35.8 ft) (Source [13]). Close to 36 ft average. Score: 0.00.
+*   **mpg**: Around 40.3 - 42.1 mpg combined (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [23], [25]). Above 30 mpg average. Score: 0.25.
+*   **co2_g_km**: Around 155 - 162 g/km (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [22], [25]). Below 175 g/km average. Score: 0.25.
+*   **electric_range_mi**: Not applicable (ICE vehicle). Score: -1.00.
+*   **charge_speed_kw**: Not applicable (ICE vehicle). Score: -1.00.
+*   **style_sleek_vs_boxy**: Hatchback shape, not particularly sleek or boxy. Score: 0.00.
+*   **style_aggression_rating**: Sporty GTI styling with unique aero elements, more aggressive than standard Golf (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21], [23], [24]). Score: 0.50.
+*   **style_modernity_rating**: Mk7 styling is modern for its time (2016), but not cutting-edge by today's standards compared to Mk8. Score: 0.00.
+*   **handling_rating**: Highly praised for sharp handling, agility, and track capability, improved over standard GTI (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21], [23], [24], [25]). Score: 0.75.
+*   **ride_comfort_rating**: Stiffer suspension than standard GTI, less comfortable but still usable daily (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [23], [24]). Score: 0.00.
+*   **cabin_noise_rating**: More road/engine noise than standard Golf due to performance focus (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [23]). Score: 0.00.
+*   **shift_smooth_rating**: DSG is generally smooth (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21], [23], [25]). Score: 0.50.
+*   **steering_feel_rating**: Sharp, precise, and direct steering (Sources [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [23], [24], [25]). Score: 0.75.
+*   **adas_score**: Mk7 had some ADAS available, including Adaptive Cruise Control and City Emergency Braking (Source [10]). Not as comprehensive as modern cars. Score: 0.25.
+*   **visibility_rating**: Standard Golf visibility, generally good. Score: 0.50.
+*   **headlight_rating**: Bi-Xenon headlights with static cornering function and LED daytime running lights were available (Sources [7], [18]). Better than halogens. Score: 0.50.
+*   **security_rating**: Standard VW security. Score: 0.00.
+*   **screen_in**: Mk7 Golf had screen sizes up to 8 inches (Source [28]). Score: 0.00.
+*   **infotainment_ux_rating**: Mk7 infotainment was generally well-regarded for its time, physical buttons alongside touchscreen (Sources [11], [18], [28]). Average compared to today's systems. Score: 0.00.
+*   **smartphone_connect_rating**: Apple CarPlay/Android Auto were available as an option (Source [18]). Score: 0.50.
+*   **audio_rating**: Standard audio is average. Optional Dynaudio system was available (Source [28]). Score: 0.00 (based on standard).
+*   **usb_ports**: Likely 1-2 USB ports (Source [18]). Score: -0.25.
+*   **comfort_feature_score**: Sport seats (optional bucket seats), dual-zone climate control likely available (Sources [4], [7], [11], [16], [19], [24]). Score: 0.25.
+*   **convenience_feature_score**: Parking sensors, camera likely available (Sources [4], [10]). Score: 0.25.
+*   **brand_prestige_rating**: Volkswagen is a mainstream brand. Score: 0.00.
+*   **model_prestige_rating**: Golf is an iconic model, not a halo car or entry-level. Score: 0.00.
+*   **trim_prestige_rating**: Clubsport 40 was a high-performance, limited edition trim, above standard GTI. Score: -0.25.
+*   **interior_luxury_rating**: Interior quality is good for a hot hatch, but not luxury level (Source [8]). Score: 0.00.
+*   **interior_tech_focus_rating**: Mk7 interior was less screen-focused than Mk8, balanced approach (Sources [11], [18], [19], [28]). Score: 0.00.
+
+```json
+{
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.50,
+  "torque": 0.50,
+  "cylinder_count": -0.25,
+  "engine_displacement": -0.25,
+  "accel_0_60_sec": 0.50,
+  "top_speed": 0.00,
+  "drive_type": -1.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.25,
+  "size": -0.25,
+  "wheelbase": -0.25,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": -0.25,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.25,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.25,
+  "co2_g_km": 0.25,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.75,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.75,
+  "adas_score": 0.25,
+  "visibility_rating": 0.50,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.00,
+  "usb_ports": -0.25,
+  "comfort_feature_score": 0.25,
+  "convenience_feature_score": 0.25,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -0.25,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": 0.00
+}
+```

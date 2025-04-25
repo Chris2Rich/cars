@@ -1,0 +1,166 @@
+The search results indicate that "Edition M Sport" was a specific special edition trim available on the F30 generation (2011-2019), introduced around 2017 [9]. It was based on the standard M Sport package but added exclusive equipment and styling features [9]. The most recent version would be from the later years of the F30 production, up to 2019.
+
+The current G20 generation (2019-present) offers "M Sport" and "M Sport Pro" trims, but not explicitly "Edition M Sport" as a standard offering, although special editions based on M Sport trims might exist [2, 5, 6, 7, 8, 12, 14]. One search result mentions a "BMW 3 Series M Sport Plus Edition" launched in the UK in 2019 for the G20 [5]. This seems to be the closest equivalent in the most recent generation.
+
+Given the ambiguity and the specific naming "Edition M Sport" pointing strongly to the F30 special edition [9], I will evaluate the F30 "Edition M Sport Shadow" as the most recent version explicitly named "Edition M Sport". This trim included features like M Sport suspension, M aerodynamics package, 18-inch M light alloy wheels (19-inch optional), M leather steering wheel, sport seats, and specific exterior styling elements (black headlamp units, dark taillight inserts, black kidney grille, etc.) [9].
+
+I will use data for a representative F30 3 Series with the M Sport package, likely a 320i or 330i, as the "Edition M Sport Shadow" was available across various engine options [9]. I will prioritize data for the 330i M Sport where available, as it represents a higher performance variant likely chosen with this trim.
+
+Here is the evaluation of the F30 BMW 3 Series Edition M Sport Shadow (based on 330i M Sport where possible):
+
+-   **price_usd**: The F30 Edition M Sport Shadow is a used car today. Its original price was above a standard M Sport due to the added features. Used prices would be higher than base F30s but still well below the average new car price of $35,000.
+    *   *Reasoning:* Used price is significantly lower than the average new car price, but higher than base F30 trims.
+-   **total_cost_estimate_5yr_usd**: Higher than average maintenance and potential repair costs for an older BMW, especially a sportier trim. Depreciation from current value. Likely above average for a new car.
+    *   *Reasoning:* Costs associated with maintaining an older premium performance vehicle are above average.
+-   **insurance_usd_yr**: M Sport trims generally have higher insurance costs due to performance and repair costs. The "Edition" status might slightly influence this. Scores negatively.
+    *   *Reasoning:* Sporty trim of a premium brand typically has higher insurance costs.
+-   **maint_usd_yr**: BMW maintenance costs are generally higher than average [Search results for general BMW maintenance]. Scores negatively.
+    *   *Reasoning:* BMWs are known for higher maintenance expenses.
+-   **repair_risk_score**: Based on the F30 platform, generally decent reliability, but with some known potential issues [Search results for F30 reliability]. Scores slightly negatively.
+    *   *Reasoning:* Reliability is generally decent but not best-in-class.
+-   **hp**: Depends on the engine. Using 330i (248-252 hp) [Search results for F30 330i specs]. This is above the market average of 200 hp. Scores positively.
+    *   *Reasoning:* Power output is above the average for today's market.
+-   **torque**: Depends on the engine. Using 330i (350 Nm / 258 lb-ft) [Search results for F30 330i specs]. This is above the market average of 190 lb-ft. Scores positively.
+    *   *Reasoning:* Torque output is above the average for today's market.
+-   **cylinder_count**: Depends on the engine (e.g., 330i is 4-cylinder) [Search results for F30 330i specs]. 4-cylinder is around average. Scores around average.
+    *   *Reasoning:* Cylinder count is typical for many modern cars.
+-   **engine_displacement**: Depends on the engine (e.g., 330i is 2.0L) [Search results for F30 330i specs]. Around average. Scores around average.
+    *   *Reasoning:* Displacement is typical for a modern turbocharged engine.
+-   **accel_0_60_sec**: Depends on the engine. Using 330i (around 5.5-5.8 seconds) [Search results for F30 330i 0-60]. Significantly faster than the market average of 7.5 seconds. Scores positively.
+    *   *Reasoning:* Acceleration is significantly quicker than the market average.
+-   **top_speed**: Depends on the engine. Using 330i (155 mph limited) [Search results for F30 330i top speed]. Around the market average of 150 mph. Scores around average.
+    *   *Reasoning:* Top speed is limited to a common performance benchmark.
+-   **drive_type**: Available in both Rear-Wheel Drive (RWD) and All-Wheel Drive (xDrive) [Search results for F30 330i drive type]. Scores slightly positively.
+    *   *Reasoning:* Availability of RWD and AWD places it slightly above the average.
+-   **transmission_type**: Available with both manual and 8-speed automatic transmissions [Search results for F30 330i transmission]. Scores positively.
+    *   *Reasoning:* Availability of a good automatic transmission scores highly.
+-   **offroad_ability**: Sedan/Touring, not designed for off-road use. Scores poorly.
+    *   *Reasoning:* Low ground clearance and road-focused design.
+-   **braking_dist_ft**: M Sport brakes were often included or optional [Search results for F30 M Sport brakes]. Expected to be better than average. Scores positively.
+    *   *Reasoning:* Performance brakes likely result in better than average stopping distance.
+-   **size**: Based on F30 sedan dimensions (~4620-4630 mm length) [Search results for F30 dimensions]. Around the market average. Scores around average.
+    *   *Reasoning:* Length is very close to the market average for a sedan.
+-   **wheelbase**: Same as F30 sedan (~2810 mm) [Search results for F30 dimensions]. Slightly above average. Scores slightly positively.
+    *   *Reasoning:* Wheelbase is slightly longer than the average.
+-   **body_style**: 4-door Sedan (Saloon) or 5-door Touring (Estate) [Search results for F30 body styles]. Sedan is average. Scores around average.
+    *   *Reasoning:* Sedan body style is the market average.
+-   **seats**: 5 seats [Search results for F30 seats]. Scores around average.
+    *   *Reasoning:* Standard seating capacity is the market average.
+-   **cargo_space**: Same as F30 sedan (~17 cu ft) [Search results for F30 cargo space]. Slightly above average. Scores slightly positively.
+    *   *Reasoning:* Cargo space is slightly above the market average for a sedan.
+-   **rear_space**: Same as F30 sedan. Adequate for the class. Scores around average.
+    *   *Reasoning:* Rear space is adequate, around the market average for a compact executive sedan.
+-   **ground_clearance_in**: M Sport suspension lowers the car [9]. Below average. Scores negatively.
+    *   *Reasoning:* Lowered suspension results in below-average ground clearance.
+-   **turn_radius_ft**: Same as F30 sedan (~37 ft) [Search results for F30 turn radius]. Around average. Scores around average.
+    *   *Reasoning:* Turn radius is close to the market average.
+-   **mpg**: Depends on the engine. Using 330i (around 20-28 US mpg combined) [Search results for F30 330i mpg]. Below average. Scores negatively.
+    *   *Reasoning:* Fuel economy is below the market average.
+-   **co2_g_km**: Depends on the engine. Using 330i (around 130-150 g/km) [Search results for F30 330i CO2]. Below average for a non-hybrid gasoline car. Scores positively.
+    *   *Reasoning:* CO2 emissions are below the average for a non-hybrid gasoline car.
+-   **electric_range_mi/charge_speed_kw**: Not electric. Scores -1.00.
+    *   *Reasoning:* Not an EV.
+-   **style_sleek_vs_boxy**: F30 sedan shape. Scores around average.
+    *   *Reasoning:* Standard sedan profile is around average.
+-   **style_aggression_rating**: M Sport package adds aggressive styling elements [9]. Scores positively.
+    *   *Reasoning:* M Sport styling enhances aggression.
+-   **style_modernity_rating**: F30 design is dated. Scores negatively.
+    *   *Reasoning:* Design is from a previous era.
+-   **handling_rating**: F30 handling is good, M Sport suspension enhances it [9]. Scores positively.
+    *   *Reasoning:* Handling is good, improved by M Sport suspension.
+-   **ride_comfort_rating**: M Sport suspension is firmer than standard [9]. Scores slightly negatively.
+    *   *Reasoning:* Firmer suspension compromises ride comfort.
+-   **cabin_noise_rating**: Generally well-controlled. Scores above average.
+    *   *Reasoning:* Cabin is relatively quiet.
+-   **shift_smooth_rating**: 8-speed automatic is excellent. Scores highly positively.
+    *   *Reasoning:* Highly praised for its smooth and quick shifts.
+-   **steering_feel_rating**: F30 steering is good, but less feel than older models. Scores positively.
+    *   *Reasoning:* Steering is good, providing positive feedback.
+-   **adas_score**: F30 offered some ADAS, but less than modern cars. Scores negatively.
+    *   *Reasoning:* Offered some ADAS, but significantly less than current top models.
+-   **visibility_rating**: Generally good visibility. Scores around average.
+    *   *Reasoning:* Standard sedan visibility is typically average.
+-   **headlight_rating**: Available with Halogen, Xenon, or LED. Scores around average or below. Scores negatively.
+    *   *Reasoning:* Available headlights range from poor to average by today's standards.
+-   **security_rating**: Standard security features for its era. Scores around average.
+    *   *Reasoning:* Standard security features are decent.
+-   **screen_in**: Available iDrive screen sizes varied, up to 8.8 inches. Scores around average. Scores around average.
+    *   *Reasoning:* Screen size is around the average for modern cars.
+-   **infotainment_ux_rating**: F30 iDrive was good for its time. Scores around average. Scores around average.
+    *   *Reasoning:* Infotainment system was good for its time, around average compared to today.
+-   **smartphone_connect_rating**: Bluetooth standard, optional CarPlay later. Scores negatively.
+    *   *Reasoning:* Offers basic connectivity, lacking the full modern suite.
+-   **audio_rating**: Standard audio likely average, premium options available. Scores around average. Scores around average.
+    *   *Reasoning:* Standard audio is likely average.
+-   **usb_ports**: Likely 1 or 2 ports. Scores negatively.
+    *   *Reasoning:* Fewer USB ports than many modern cars.
+-   **comfort_feature_score**: Offers good comfort features (sport seats, climate control, heated seats optional). Scores positively.
+    *   *Reasoning:* Offers a good level of comfort features.
+-   **convenience_feature_score**: Offers good convenience features (parking sensors, keyless ignition). Scores positively.
+    *   *Reasoning:* Offers a good level of convenience features.
+-   **brand_prestige_rating**: BMW is a premium brand. Scores highly positively.
+    *   *Reasoning:* Widely recognized as a prestigious automotive brand.
+-   **model_prestige_rating**: The 3 Series is a core, well-regarded model. Scores around average for the brand.
+    *   *Reasoning:* A benchmark model in the compact executive segment.
+-   **trim_prestige_rating**: A special edition based on the M Sport trim [9]. Scores negatively as a top trim.
+    *   *Reasoning:* Positioned as a high-level, sporty trim.
+-   **interior_luxury_rating**: Interior quality and materials are high for its time, with M Sport specific trims [9]. Scores positively.
+    *   *Reasoning:* Interior quality and materials are above average.
+-   **interior_tech_focus_rating**: F30 interior balances physical controls and screen. Scores negatively.
+    *   *Reasoning:* Interior design balances physical controls and screen, less tech-focused than the latest models.
+
+```json
+{
+  "price_usd": 0.70,
+  "total_cost_estimate_5yr_usd": -0.40,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.10,
+  "hp": 0.30,
+  "torque": 0.40,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.50,
+  "top_speed": 0.00,
+  "drive_type": 0.50,
+  "transmission_type": 1.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.30,
+  "size": 0.00,
+  "wheelbase": 0.10,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.10,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.30,
+  "co2_g_km": 0.10,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.30,
+  "style_modernity_rating": -0.50,
+  "handling_rating": 0.60,
+  "ride_comfort_rating": -0.10,
+  "cabin_noise_rating": 0.30,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.50,
+  "adas_score": -0.30,
+  "visibility_rating": 0.00,
+  "headlight_rating": -0.30,
+  "security_rating": 0.00,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": -0.50,
+  "audio_rating": 0.00,
+  "usb_ports": -0.50,
+  "comfort_feature_score": 0.20,
+  "convenience_feature_score": 0.10,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -0.50,
+  "interior_luxury_rating": 0.20,
+  "interior_tech_focus_rating": -0.30
+}
+```

@@ -1,0 +1,108 @@
+```json
+{
+  "price_usd": -0.25,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.10,
+  "repair_risk_score": 0.10,
+  "hp": 0.00,
+  "torque": 0.20,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": 0.00,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 0.70,
+  "braking_dist_ft": 0.00,
+  "size": 0.20,
+  "wheelbase": 0.20,
+  "body_style": 0.50,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": -0.10,
+  "ground_clearance_in": -0.70,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.40,
+  "co2_g_km": 0.30,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.60,
+  "style_aggression_rating": 0.20,
+  "style_modernity_rating": 0.70,
+  "handling_rating": 0.10,
+  "ride_comfort_rating": 0.60,
+  "cabin_noise_rating": 0.40,
+  "shift_smooth_rating": 0.40,
+  "steering_feel_rating": 0.10,
+  "adas_score": 0.60,
+  "visibility_rating": 0.10,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": 0.70,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.00,
+  "usb_ports": 0.30,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.60,
+  "brand_prestige_rating": 0.60,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": 0.40,
+  "interior_tech_focus_rating": 0.70
+}
+```
+**Reasoning for Ratings:**
+
+*   **price_usd**: Based on UK RRP starting around £43,850 (approx. $54,800 USD) for the entry-level Sport trim which is available with a TFSI engine (Sources 5, 6, 16, 23). This is above the market average of $35,000 but well below the threshold for the lowest score.
+*   **total_cost_estimate_5yr_usd**: No specific data found for the 5-year cost estimate for the TFSI variants. Defaulted to the average score.
+*   **insurance_usd_yr**: Insurance Group 24 is mentioned for a 150 PS model (Source 8), which is a mid-range group, suggesting average insurance costs. Defaulted to the average score.
+*   **maint_usd_yr**: Audi maintenance costs are generally slightly above the market average, leading to a slightly negative score.
+*   **repair_risk_score**: J.D. Power and Consumer Reports ratings for the Audi A5 range indicate above-average reliability (Sources 10, 16, 25), resulting in a positive score.
+*   **hp**: Using the 204 PS (201 hp) figure common for the 40 TFSI engine (Sources 3, 17, 26), which is very close to the 200 hp market average. The 150 PS (148 hp) is also available but the 204 PS is a common TFSI variant.
+*   **torque**: The 40 TFSI engine's 340 Nm (251 lb-ft) of torque (Sources 3, 17, 26) is above the 190 lb-ft market average.
+*   **cylinder_count**: The TFSI engines are 2.0L Inline 4-cylinders (Sources 3, 7, 11, 17, 26, 32), which is below the 6-cylinder benchmark for average.
+*   **engine_displacement**: The common 2.0L engine displacement (Sources 7, 11, 17, 26, 30) is below the 3.0L benchmark for average.
+*   **accel_0_60_sec**: The 0-60 mph time is around 7.8 seconds for the 204 PS TFSI FWD (Source 3) or 9.8 seconds for the 150 PS TFSI FWD (Source 3, 11, 22). Using the 7.8s figure for the more powerful TFSI, which is very close to the 7.5-second market average.
+*   **top_speed**: Top speed is around 152 mph for the 204 PS TFSI (Source 3, 17) or 132 mph for the 150 PS TFSI (Source 11, 22). Using the 152 mph figure, which is very close to the 150 mph market average.
+*   **drive_type**: Available in FWD and Quattro (AWD) with TFSI engines (Sources 3, 17, 25, 26). AWD is the benchmark for average.
+*   **transmission_type**: Equipped with a 7-speed S tronic dual-clutch automatic transmission (Sources 3, 4, 11, 17, 22, 26, 32, 33), which is the benchmark for the average score.
+*   **offroad_ability**: As a low-riding estate car, it has very poor off-road capability (low ground clearance), scoring positively according to the inverse scale for this metric.
+*   **braking_dist_ft**: No specific data found for braking distance. Defaulted to the average score.
+*   **size**: With a length of around 4.83 meters (Sources 4, 10, 13, 15, 18, 21, 33), it is larger than the average sedan/hatchback, resulting in a positive score.
+*   **wheelbase**: A wheelbase of around 2.89-2.90 meters (Sources 15, 18, 21, 25, 33) is longer than the average, contributing to a positive score.
+*   **body_style**: The 5-door Estate (Avant) body style offers more practicality than a sedan but less than a van, resulting in a positive score.
+*   **seats**: Offers 5 seats (Sources 2, 4, 13, 15, 25, 33), which is the market average.
+*   **cargo_space**: Cargo space is 476 litres (16.8 cu ft) with seats up for petrol models (Sources 2, 3, 4, 13, 15, 18, 21, 23, 25), which is around the 15 cu ft market average for a sedan/hatchback, but average for an estate.
+*   **rear_space**: Reviews mention rear space can feel cramped for taller adults (Source 12, 23), leading to a slightly negative score.
+*   **ground_clearance_in**: Ground clearance is low, especially with sports suspension (Source 31, 39), significantly below the 6.5" average. Resulting in a negative score.
+*   **turn_radius_ft**: Turning circle is 12.1-12.2 meters (39.7-40.0 ft) (Sources 9, 33, 41), slightly larger than the 36 ft average, resulting in a negative score.
+*   **mpg**: Fuel economy figures around 37.2-41.5 mpg (WLTP) for the 204 PS TFSI (Source 3) or 37.7-41.5 mpg for the 150 PS TFSI (Source 3, 11, 22) are above the 30 mpg market average.
+*   **co2_g_km**: CO2 emissions around 155-174 g/km (WLTP) for TFSI models (Source 3, 11, 22) are below the 175 g/km market average.
+*   **electric_range_mi**: This is not a battery electric vehicle. The mild-hybrid system does not provide significant electric-only range, resulting in the lowest possible score.
+*   **charge_speed_kw**: This is not a battery electric vehicle, resulting in the lowest possible score.
+*   **style_sleek_vs_boxy**: The Avant body style features a sloping roofline, giving it a sleek appearance for an estate.
+*   **style_aggression_rating**: The design incorporates some sporty elements, particularly with S line styling available with TFSI engines, but is generally sophisticated rather than overtly aggressive.
+*   **style_modernity_rating**: The new generation features updated styling and modern design cues, including flush door handles and OLED lights (Sources 2, 12, 17).
+*   **handling_rating**: Reviews suggest competent and well-balanced handling, improved over the previous generation, though not class-leading in sportiness (Sources 12, 23, 36).
+*   **ride_comfort_rating**: The A5 Avant is noted for offering a comfortable and refined ride, with standard adaptive dampers on all models (Sources 2, 4, 14, 23, 35, 36).
+*   **cabin_noise_rating**: The cabin is generally quiet (Source 2, 12, 35).
+*   **shift_smooth_rating**: The S tronic dual-clutch transmission is typically praised for smooth shifts (Source 4, 10, 24, 35).
+*   **steering_feel_rating**: Steering is described as direct and precise, but perhaps lacking the ultimate engagement of some rivals, prioritizing comfort (Sources 12, 14, 23, 24, 36).
+*   **adas_score**: Comes with a comprehensive suite of standard and available advanced driver-assistance systems, including adaptive cruise control, lane departure warning, park assist plus, and more (Sources 2, 3, 8, 22, 37).
+*   **visibility_rating**: The estate body style generally offers decent visibility compared to other body types like coupes.
+*   **headlight_rating**: Standard LED headlights, with Matrix LED headlights available as an option (Sources 2, 3, 8, 25, 37), providing excellent illumination.
+*   **security_rating**: Standard security features are present (Sources 8), but no data on advanced tracking or immobilizer systems was found to warrant a higher score. Defaulted to the average score.
+*   **screen_in**: Features an 11.9-inch digital cockpit and a 14.5-inch MMI display standard (Sources 2, 8, 19, 20, 22, 24), which are larger than the average screen size.
+*   **infotainment_ux_rating**: Audi's MMI infotainment system with the new Android Automotive OS is generally considered user-friendly and well-designed (Sources 15, 19, 23, 24).
+*   **smartphone_connect_rating**: Offers standard Apple CarPlay and Android Auto, with wireless charging available (Sources 22, 25, 37).
+*   **audio_rating**: Comes with a standard Audi sound system, with an optional premium Bang & Olufsen system available (Sources 6, 16, 37). The score reflects the standard system being average.
+*   **usb_ports**: Features multiple USB-C ports, including increased charging capacity in the rear with optional packs (Sources 8, 37).
+*   **comfort_feature_score**: Standard features like heated front seats, 3-zone climate control, and electric lumbar support are available on TFSI models depending on trim (Sources 3, 22). Optional features like ventilation and massage further enhance comfort (Source 6).
+*   **convenience_feature_score**: Features like a power tailgate, rear-view camera, park assist plus, and adaptive cruise control are standard or available on TFSI models depending on trim (Sources 3, 8, 22).
+*   **brand_prestige_rating**: Audi is a well-established premium German automotive brand.
+*   **model_prestige_rating**: The A5 is positioned as a core model in Audi's upper mid-size lineup, replacing the A4 (Sources 2, 4, 5, 43). This places it in the middle of the brand's range.
+*   **trim_prestige_rating**: "TFSI" is an engine designation available across multiple trims, including the entry-level Sport trim (Sources 5, 6, 16, 23). According to the guide's inverse scale, base models score +1.00.
+*   **interior_luxury_rating**: The interior features premium materials and a high level of finish, especially in higher trims available with TFSI engines (Sources 12, 18, 23).
+*   **interior_tech_focus_rating**: The interior design is modern and screen-focused with the large curved displays and digital cockpit, highlighting technological integration (Sources 5, 8, 12, 15, 17, 22, 24).

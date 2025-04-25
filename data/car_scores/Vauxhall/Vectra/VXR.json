@@ -1,0 +1,111 @@
+The Vauxhall Vectra VXR was the high-performance version of the Vectra C, produced from 2005 to 2008 [2, 5, 11]. It was powered by a turbocharged 2.8-litre V6 engine [2, 5, 7, 8, 12, 17, 20, 30, 36], initially producing 255 bhp and later upgraded to 280 bhp [5, 9, 20, 30, 33]. It was available as a 5-door hatchback or estate [2, 8, 24]. Evaluating this model against today's market standards means comparing a performance car from the mid-2000s to modern vehicles, including high-performance models and EVs. This results in significantly lower scores across many metrics, particularly technology, safety, and efficiency, while its low current market value results in a high score for price.
+
+Here's the evaluation based on typical specs for a Vauxhall Vectra C VXR (2005-2008), referencing the provided search results:
+
+*   **price_usd**: +1.00 - As a discontinued model from over 15 years ago, a used Vauxhall Vectra VXR would be significantly below the $15,000 threshold for a new car in today's market. Used prices are typically under £5,000 [8].
+*   **total_cost_estimate_5yr_usd**: -0.50 - While the purchase price is low, a performance V6 engine leads to high fuel costs [4, 6, 12, 19]. Insurance is high [10, 11, 17, 19, 26, 31], and maintenance/potential repair costs for an older performance car can be significant [9, 16, 29, 34]. This pushes the 5-year cost above average.
+*   **insurance_usd_yr**: -0.50 - The Vectra VXR falls into high insurance groups (e.g., Group 36 on the 50 group scale) [10, 11, 17]. This is well above the national average for a new car today.
+*   **maint_usd_yr**: -0.50 - Older performance vehicles typically require more frequent and potentially more expensive maintenance than average modern cars. Some sources mention potential issues like cam chains [34].
+*   **repair_risk_score**: -0.50 - While some reports suggest decent reliability [6], others mention glitches, recalls (handbrake, wiper motor, header tank), and potential issues like clutch judder or oil sensor problems [9, 16, 29]. An older performance car generally carries a higher repair risk than the most reliable modern vehicles.
+*   **hp**: 0.00 - The VXR had 255-280 bhp [2, 5, 8, 9, 11, 12, 17, 20, 30, 33, 36]. While high for its time, this is around the average horsepower seen across the wide range of modern vehicles today, including powerful SUVs and base models of some performance cars.
+*   **torque**: 0.00 - Torque figures were around 262 lb-ft (355 Nm) [1, 2, 5, 7, 8, 12, 17, 20, 30, 36]. This is around the average torque in modern vehicles, including many turbocharged 4-cylinders and base model EVs.
+*   **cylinder_count**: 0.50 - Equipped with a V6 engine [2, 5, 8, 9, 12, 17, 20, 30, 35, 36]. V6 engines are less common than 4-cylinders in today's market, scoring positively on this scale.
+*   **engine_displacement**: 0.00 - The 2.8L V6 engine [2, 5, 8, 12, 17, 20, 30, 35, 36] is around the average displacement seen in a wide range of modern vehicles.
+*   **accel_0_60_sec**: 0.00 - 0-60 mph times were around 6.1-6.5 seconds [1, 2, 5, 8, 12, 15, 17, 25, 36]. This is around the average acceleration for modern cars, which includes many quick EVs and performance variants.
+*   **top_speed**: 0.50 - Top speeds were around 155-161 mph [1, 2, 5, 8, 12, 17, 36]. This is above the average top speed for non-performance modern cars, scoring positively.
+*   **drive_type**: -1.00 - Front-wheel drive (FWD) was standard [2, 8, 17, 36], scoring -1.00. Reviews noted torque steer issues [19].
+*   **transmission_type**: -0.50 - Available with a 6-speed manual or 6-speed automatic transmission [2, 7, 17, 21]. The manual was noted as notchy [7]. These transmissions are less advanced than modern dual-clutch or smooth automatics.
+*   **offroad_ability**: 1.00 - A standard FWD performance car has no offroad capability, scoring +1.00 on this inverse scale.
+*   **braking_dist_ft**: 0.00 - Equipped with large ventilated discs [4, 12], but no specific braking distance data found. Default to average.
+*   **size**: 0.00 - Lengths around 4.6-4.8 meters [1, 17, 24, 36] and wheelbases around 2.7-2.8 meters [17, 18, 36] place it in the mid-size category, comparable to average modern sedans/hatchbacks/estates.
+*   **wheelbase**: 0.00 - Wheelbase around 2.7-2.8 meters [17, 18, 36] is average for a modern mid-size car.
+*   **body_style**: 0.00 - Available as a 5-door hatchback or estate [2, 8, 24, 36], which are common body styles.
+*   **seats**: 0.00 - Standard 5-seater configuration [17, 36], which is the market average. Features Recaro sports seats [2, 4, 13, 14, 20, 24].
+*   **cargo_space**: 0.00 - Luggage capacity around 500-530 liters (approx 17.7-18.7 cu ft) for hatchback and up to 1850 liters (approx 65 cu ft) with seats folded for the estate [17, 18, 24, 36]. The hatchback is average, while the estate is large, averaging out to a 0.00.
+*   **rear_space**: -0.50 - Some reviews mention limited rear legroom in the standard Vectra C [3], and the VXR's sporty seats might impact this further. Compared to modern large sedans, it's likely below average.
+*   **ground_clearance_in**: -0.50 - Features lowered sports suspension [13, 20], indicating lower ground clearance than average.
+*   **turn_radius_ft**: 0.00 - No specific data found, default to average for its size.
+*   **mpg**: -1.00 - Combined MPG figures are low, around 25-27 mpg [1, 3, 4, 6, 8, 11, 12, 17, 19, 32, 36]. This is significantly below the average for modern cars.
+*   **co2_g_km**: -1.00 - CO2 emissions are high, around 247-252 g/km [1, 3, 4, 6, 8, 12, 17, 19, 36]. This is well above the average modern car and far from EVs (0 g/km).
+*   **electric_range_mi**: -1.00 - Not an electric vehicle.
+*   **charge_speed_kw**: -1.00 - Not an electric vehicle.
+*   **style_sleek_vs_boxy**: 0.00 - The VXR had a sportier body kit [4, 8, 12, 13, 20], but the underlying shape is a standard sedan/hatchback/estate, neither particularly sleek nor boxy by today's diverse standards.
+*   **style_aggression_rating**: 0.50 - The VXR styling with larger wheels, spoilers, and twin exhausts [4, 8, 12, 13, 20] gave it a noticeably more aggressive look than standard Vectras, scoring positively.
+*   **style_modernity_rating**: -1.00 - The design is clearly dated compared to modern automotive styling trends.
+*   **handling_rating**: -0.50 - While improved over standard Vectras and featuring sophisticated suspension (IDS2-Plus with CDC) [2, 7, 12, 13, 20], reviews noted it wasn't as sharp as rivals like the Mondeo ST220 [12, 19] and suffered from torque steer [19]. Compared to modern performance cars, handling is likely below average.
+*   **ride_comfort_rating**: -0.50 - The ride is described as firm due to the sports suspension [7, 22], which can be unforgiving over bumps [7]. While comfortable for a performance car of its era [22], it's likely below average compared to the wider market of modern cars.
+*   **cabin_noise_rating**: -0.50 - While wind noise was absent at legal speeds and engine noise subdued for its performance [22], tyre roar was noticeable with the larger wheels [22], and some reviews mention an annoying exhaust boom at certain RPMs [27]. Likely below average compared to modern cars.
+*   **shift_smooth_rating**: -0.50 - The 6-speed manual gearbox was noted as notchy [7]. Older automatic transmissions are also generally less smooth than modern ones.
+*   **steering_feel_rating**: -0.50 - Steering feel was sometimes described as over-light or lacking feedback compared to rivals [19, 21, 27].
+*   **adas_score**: -1.00 - Minimal to no advanced driver-assistance systems were available. Standard safety kit included airbags, ABS, and ESP [12, 14, 20, 24].
+*   **visibility_rating**: 0.00 - No specific issues noted. Likely average for its body style.
+*   **headlight_rating**: -0.50 - Featured Xenon headlights [4], which were good for their time but are outperformed by modern LED or Matrix LED systems.
+*   **security_rating**: -0.50 - Standard features likely included central locking and an immobiliser. Lacks the advanced tracking and security systems of high-security modern cars.
+*   **screen_in**: -1.00 - Featured a small display, not a modern infotainment touchscreen [14, 20]. Optional navigation had a graphic display [14].
+*   **infotainment_ux_rating**: -1.00 - Basic audio system with CD player and optional CD multichanger/MP3 compatibility [4, 13, 14, 20]. The interface was basic compared to modern infotainment systems.
+*   **smartphone_connect_rating**: -1.00 - No smartphone connectivity features like Apple CarPlay or Android Auto. An auxiliary-in socket was available [14, 20]. Optional Bluetooth phone connectivity was available [4].
+*   **audio_rating**: -0.75 - Standard audio system was basic [14, 20]. Optional DAB radio and CD multichanger were available [4, 13], but not comparable to premium modern audio systems.
+*   **usb_ports**: -1.00 - No USB ports for charging or data.
+*   **comfort_feature_score**: -0.50 - Featured Recaro sports seats, adjustable steering, cruise control, and air conditioning [4, 13, 14, 20, 22, 24]. Lacked many comfort features common today (e.g., heated/ventilated seats, multi-zone climate control).
+*   **convenience_feature_score**: -1.00 - Lacked modern convenience features like parking sensors (optional [4]), backup cameras, keyless entry/start (standard on some other VXR models but not Vectra VXR [20]), power tailgate (optional on estate [24]).
+*   **brand_prestige_rating**: 0.00 - Vauxhall is a mainstream brand.
+*   **model_prestige_rating**: 0.00 - The Vectra was a mass-market family car, not a halo model, although the VXR was the top performance variant.
+*   **trim_prestige_rating**: -1.00 - VXR was the top-performance trim level [14, 20], scoring -1.00.
+*   **interior_luxury_rating**: -0.75 - The interior featured sportier touches like Recaro seats, VXR detailing, and some leather trim [2, 4, 13, 14, 20], but materials were generally not considered luxurious compared to premium brands [27].
+*   **interior_tech_focus_rating**: -1.00 - The interior design and features had minimal focus on integrated technology compared to modern vehicles.
+
+```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": -0.50,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.50,
+  "hp": 0.00,
+  "torque": 0.00,
+  "cylinder_count": 0.50,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.00,
+  "top_speed": 0.50,
+  "drive_type": -1.00,
+  "transmission_type": -0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.00,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": -0.50,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": -1.00,
+  "co2_g_km": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": -1.00,
+  "handling_rating": -0.50,
+  "ride_comfort_rating": -0.50,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": -0.50,
+  "steering_feel_rating": -0.50,
+  "adas_score": -1.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": -0.50,
+  "security_rating": -0.50,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": -0.75,
+  "usb_ports": -1.00,
+  "comfort_feature_score": -0.50,
+  "convenience_feature_score": -1.00,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": -0.75,
+  "interior_tech_focus_rating": -1.00
+}
+```

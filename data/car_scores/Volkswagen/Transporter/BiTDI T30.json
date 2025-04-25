@@ -1,0 +1,108 @@
+```json
+{
+  "price_usd": -0.10,
+  "total_cost_estimate_5yr_usd": -0.10,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.50,
+  "hp": 0.00,
+  "torque": 0.50,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.40,
+  "top_speed": -0.50,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 0.80,
+  "braking_dist_ft": 0.00,
+  "size": 0.30,
+  "wheelbase": 0.40,
+  "body_style": 1.00,
+  "seats": 0.00,
+  "cargo_space": 1.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.20,
+  "turn_radius_ft": -0.30,
+  "mpg": 0.00,
+  "co2_g_km": 0.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": -0.80,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.40,
+  "ride_comfort_rating": 0.40,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.40,
+  "steering_feel_rating": 0.50,
+  "adas_score": 0.60,
+  "visibility_rating": 0.40,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": 0.10,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": -0.20,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.30,
+  "convenience_feature_score": 0.40,
+  "brand_prestige_rating": 0.20,
+  "model_prestige_rating": 0.80,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": -0.20,
+  "interior_tech_focus_rating": 0.60
+}
+```
+**Reasoning for Scores:**
+
+*   **price\_usd**: Rated -0.10. The BiTDI engine and T30 payload capacity typically place this variant in the mid-to-higher price range for a Transporter, often associated with better-equipped trims. This is slightly above the $35,000 market average.
+*   **total\_cost\_estimate\_5yr\_usd**: Rated -0.10. Higher initial purchase price and standard running costs for a powerful diesel van likely result in a 5-year cost slightly above the market average.
+*   **insurance\_usd\_yr**: Rated 0.00. Insurance groups for the T6.1 Transporter vary widely (5-47). While the BiTDI engine might push it towards higher groups, its classification as a van and diverse usage keeps it from being consistently in the highest-risk categories, averaging out to the benchmark.
+*   **maint\_usd\_yr**: Rated 0.00. Volkswagen maintenance costs are generally considered average compared to the overall market.
+*   **repair\_risk\_score**: Rated 0.50. The Transporter has a strong reputation for reliability, particularly in commercial use, placing it above average compared to some less reliable brands.
+*   **hp**: Rated 0.00. The BiTDI engine produces 204 PS (201 hp), which aligns perfectly with the 200 hp average car benchmark.
+*   **torque**: Rated 0.50. The BiTDI produces 450 Nm (approx 332 lb-ft), significantly above the 190 lb-ft average car benchmark, providing strong pulling power.
+*   **cylinder\_count**: Rated 0.00. The 2.0L engine is a 4-cylinder, which is average for most vehicles today.
+*   **engine\_displacement**: Rated 0.00. The 2.0L engine displacement is average for many vehicles.
+*   **accel\_0\_60\_sec**: Rated -0.40. 0-60 mph times for the BiTDI are typically around 9 seconds, slower than the 7.5-second average car benchmark, but quick for a van.
+*   **top\_speed**: Rated -0.50. Top speeds are around 124-126 mph, below the 150 mph average car benchmark.
+*   **drive\_type**: Rated 0.00. FWD is standard, but 4MOTION AWD is a common option with the BiTDI, placing it in the average category.
+*   **transmission\_type**: Rated 0.00. The BiTDI is typically paired with the 7-speed DSG automatic transmission, which is a Dual-Clutch Transmission (0.00).
+*   **offroad\_ability**: Rated 0.80. The Transporter has limited offroad capability compared to dedicated vehicles, placing it towards the higher end of this scale as per the guide's examples.
+*   **braking\_dist\_ft**: Rated 0.00, assuming braking performance is around the average for a vehicle of its size and type.
+*   **size**: Rated 0.30. It is a large van, significantly longer than average cars but not as massive as the largest SUVs/trucks.
+*   **wheelbase**: Rated 0.40. Available in short (3000mm) and long (3400mm) wheelbases, exceeding the average car wheelbase.
+*   **body\_style**: Rated 1.00. It is available as a panel van, Kombi, Shuttle, etc., with 5 doors being a common configuration for passenger/crew versions. The guide scores 5-door vans at +1.00.
+*   **seats**: Rated 0.00. While panel vans have 2-3 seats, Kombi/Shuttle versions commonly offer 5 or more seats, making 5 seats (the average benchmark) a common configuration.
+*   **cargo\_space**: Rated 1.00. Offers substantial cargo volume, far exceeding typical cars and SUVs.
+*   **rear\_space**: Rated 0.00. Rear legroom varies significantly by configuration, averaging out to the benchmark.
+*   **ground\_clearance\_in**: Rated 0.20. Its ground clearance is higher than most cars but lower than dedicated SUVs or off-roaders, placing it slightly above the compact crossover average.
+*   **turn\_radius\_ft**: Rated -0.30. Larger vehicles typically have a wider turning radius than average cars.
+*   **mpg**: Rated 0.00. Official combined MPG for the BiTDI is around 35-40 mpg, which is around the 30 mpg average car benchmark for a vehicle of this size and power.
+*   **co2\_g\_km**: Rated 0.00. CO2 emissions are around 190-220 g/km, which is around the average for non-electric vehicles.
+*   **electric\_range\_mi**: Rated -1.00. The BiTDI is an internal combustion engine vehicle.
+*   **charge\_speed\_kw**: Rated -1.00. The BiTDI is an internal combustion engine vehicle.
+*   **style\_sleek\_vs\_boxy**: Rated -0.80. The van body style is inherently boxy.
+*   **style\_aggression\_rating**: Rated -0.50. The design is functional and not aggressive.
+*   **style\_modernity\_rating**: Rated 0.00. The T6.1 is a modern design but not avant-garde.
+*   **handling\_rating**: Rated 0.40. Reviews praise the T6.1's car-like handling, making it agile for a van, especially with the more powerful engine.
+*   **ride\_comfort\_rating**: Rated 0.40. The ride is generally comfortable for a van.
+*   **cabin\_noise\_rating**: Rated 0.50. The T6.1 is noted for having good cabin refinement for a van.
+*   **shift\_smooth\_rating**: Rated 0.40. The 7-speed DSG transmission is generally smooth.
+*   **steering\_feel\_rating**: Rated 0.50. The electro-mechanical steering provides good feel and precision for a van.
+*   **adas\_score**: Rated 0.60. The T6.1 offers a comprehensive suite of standard and optional ADAS features, placing it well above vehicles with minimal tech.
+*   **visibility\_rating**: Rated 0.40. High driving position and large windows (in passenger variants) offer good visibility.
+*   **headlight\_rating**: Rated 0.00. Modern LED options are available, placing it in line with average modern vehicle headlights.
+*   **security\_rating**: Rated 0.00. Comes with standard modern vehicle security features.
+*   **screen\_in**: Rated 0.10. Available infotainment screens go up to 9.2 inches, slightly larger than the 8-inch average benchmark.
+*   **infotainment\_ux\_rating**: Rated 0.40. Volkswagen's infotainment system is generally considered user-friendly.
+*   **smartphone\_connect\_rating**: Rated 0.50. Apple CarPlay and Android Auto are standard features, providing good smartphone integration.
+*   **audio\_rating**: Rated -0.20. The standard audio system is typically basic in commercial vehicles, though upgrades may be available.
+*   **usb\_ports**: Rated 0.00, assuming an average number of USB ports.
+*   **comfort\_feature\_score**: Rated 0.30. While base models are utilitarian, the BiTDI T30 is often in higher trims offering more comfort features like heated seats and climate control.
+*   **convenience\_feature\_score**: Rated 0.40. Features like parking sensors, cameras, and adaptive cruise control are available, offering good convenience features for a van.
+*   **brand\_prestige\_rating**: Rated 0.20. Volkswagen is a mainstream brand with a slightly elevated perception.
+*   **model\_prestige\_rating**: Rated 0.80. The Transporter is a workhorse model within the VW range, highly regarded for its utility but not a high-prestige passenger vehicle.
+*   **trim\_prestige\_rating**: Rated -1.00. The BiTDI engine is the top-power variant, and the T30 payload is a common configuration for higher trim levels (like Highline or Sportline). According to the guide, "Top Trims" score -1.00.
+*   **interior\_luxury\_rating**: Rated -0.20. The interior is primarily focused on durability and functionality rather than luxury materials and finish, even in higher trims.
+*   **interior\_tech\_focus\_rating**: Rated 0.60. The T6.1 incorporates modern digital displays (optional Digital Cockpit), advanced infotainment, and a comprehensive ADAS suite, showing a strong focus on technology integration for a commercial vehicle.

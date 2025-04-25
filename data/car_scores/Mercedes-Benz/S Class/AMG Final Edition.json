@@ -1,113 +1,55 @@
-Okay, evaluating the 'Mercedes-Benz S Class AMG Final Edition'. This specific model refers to the **Mercedes-AMG S 65 Final Edition**, which was produced for the 2019/2020 model year as a send-off for the V12 engine in the S-Class sedan (W222 generation). It was limited to just 130 units worldwide.
-
-Here's the evaluation based on the S 65 AMG Final Edition (W222):
-
 ```json
 {
   "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
   "maint_usd_yr": -1.00,
-  "repair_risk_score": -0.40,
-  "hp": 0.95,
+  "repair_risk_score": 0.00,
+  "hp": 1.00,
   "torque": 1.00,
-  "cylinder_count": 1.00,
-  "engine_displacement": 1.00,
-  "accel_0_60_sec": 0.82,
-  "top_speed": 0.60,
-  "drive_type": 1.00,
+  "cylinder_count": 0.25,
+  "engine_displacement": 0.25,
+  "accel_0_60_sec": 1.00,
+  "top_speed": 0.50,
+  "drive_type": 0.00,
   "transmission_type": 1.00,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.80,
+  "braking_dist_ft": 0.00,
   "size": 1.00,
   "wheelbase": 1.00,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.10,
+  "cargo_space": -0.25,
   "rear_space": 1.00,
-  "ground_clearance_in": -1.00,
-  "turn_radius_ft": -0.80,
-  "mpg": -0.90,
-  "co2_g_km": -1.00,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.70,
-  "style_aggression_rating": 0.60,
-  "style_modernity_rating": 0.40,
-  "handling_rating": 0.60,
+  "ground_clearance_in": -0.25,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.75,
+  "co2_g_km": 0.00,
+  "electric_range_mi": 0.25,
+  "charge_speed_kw": 0.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.25,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.50,
   "ride_comfort_rating": 1.00,
   "cabin_noise_rating": 1.00,
-  "shift_smooth_rating": 0.90,
-  "steering_feel_rating": 0.10,
-  "adas_score": 0.70,
-  "visibility_rating": 0.30,
-  "headlight_rating": 0.90,
-  "security_rating": 0.80,
-  "screen_in": 0.70,
-  "infotainment_ux_rating": 0.40,
-  "smartphone_connect_rating": 0.50,
-  "audio_rating": 0.95,
-  "usb_ports": 0.50,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 1.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": 1.00,
+  "security_rating": 0.50,
+  "screen_in": 0.75,
+  "infotainment_ux_rating": 0.25,
+  "smartphone_connect_rating": 0.75,
+  "audio_rating": 1.00,
+  "usb_ports": 0.00,
   "comfort_feature_score": 1.00,
   "convenience_feature_score": 1.00,
-  "brand_prestige_rating": 0.90,
+  "brand_prestige_rating": 1.00,
   "model_prestige_rating": -1.00,
   "trim_prestige_rating": -1.00,
   "interior_luxury_rating": 1.00,
-  "interior_tech_focus_rating": 0.60
+  "interior_tech_focus_rating": 1.00
 }
 ```
-
-**Reasoning:**
-
-*   **price_usd:** Original price was likely around $240,000+ USD, well above the $100k benchmark. Score: -1.00.
-*   **total_cost_estimate_5yr_usd:** Extremely high due to depreciation (though less than standard S65 due to rarity), fuel (V12), insurance (Group 50), and maintenance. Well over $60k. Score: -1.00.
-*   **insurance_usd_yr:** As a high-performance, very expensive luxury car, it falls into the highest insurance group (likely Group 50 in the UK, like other high-end AMGs). Costs will exceed $2,500/year. Score: -1.00.
-*   **maint_usd_yr:** V12 engine, AMG parts, and complex systems lead to very high maintenance costs, exceeding $1,200/year. Score: -1.00.
-*   **repair_risk_score:** While the W222 generation is considered more reliable than the W220/W221, the complexity of the V12 and AMG-specific components still presents a higher-than-average repair risk and cost. Score: -0.40.
-*   **hp:** 621 hp (630 PS). Extremely high, approaching supercar levels. Score: +0.95.
-*   **torque:** 738 lb-ft (1000 Nm). Massive torque figure, among the highest for production sedans. Score: +1.00.
-*   **cylinder_count:** 12. The maximum commonly available. Score: +1.00.
-*   **engine_displacement:** 6.0L (5980cc). Very large displacement. Score: +1.00.
-*   **accel_0_60_sec:** Reported between 3.9s and 4.2/4.3s. Extremely quick for a large luxury sedan. Using ~4.1s average. Score: +0.82.
-*   **top_speed:** 186 mph (300 km/h) with the standard AMG Driver's Package for the Final Edition. High. Score: +0.60.
-*   **drive_type:** Rear-Wheel Drive (RWD). Score: +1.00 (per guide).
-*   **transmission_type:** 7-speed Automatic (AMG SPEEDSHIFT PLUS 7G-TRONIC). Smooth and capable automatic. Score: +1.00.
-*   **offroad_ability:** Very low ground clearance, RWD, performance tires, luxury focus. Completely unsuitable for off-road. Score: +1.00 (worst).
-*   **braking_dist_ft:** Large AMG brakes, but very heavy car (over 5000 lbs). Expect good performance, likely around 110-115 ft. Score: +0.80.
-*   **size:** Based on the W222 S-Class Long Wheelbase (Length: 206.5 in / 5245 mm). Very large. Score: +1.00.
-*   **wheelbase:** W222 Long Wheelbase (124.6 in / 3165 mm). Very long. Score: +1.00.
-*   **body_style:** 4-Door Sedan/Saloon. Score: 0.00.
-*   **seats:** Typically 5, but often configured with the First Class rear suite (2 individual rear seats) for the Final Edition. Rating based on the standard 5-seat potential. Score: 0.00.
-*   **cargo_space:** W222 S-Class trunk is around 16.3 cu ft (though the optional fridge compartment reduces this). Slightly above average sedan. Score: -0.10 (adjusting slightly down for potential fridge).
-*   **rear_space:** Excellent legroom due to the long wheelbase and available executive seating packages. Score: +1.00.
-*   **ground_clearance_in:** Very low due to AMG suspension and body kit. Likely <4". Score: -1.00.
-*   **turn_radius_ft:** Large car, long wheelbase. Expect a large turning circle, likely >40 ft. Score: -0.80.
-*   **mpg:** EPA rated at 13 city / 22 highway / 16 combined for the standard S 65. Very poor fuel economy. Score: -0.90.
-*   **co2_g_km:** 325 g/km (NEDC). Extremely high emissions. Score: -1.00.
-*   **electric_range_mi:** Not an EV or PHEV. Score: -1.00.
-*   **charge_speed_kw:** Not an EV or PHEV. Score: -1.00.
-*   **style_sleek_vs_boxy:** The W222 S-Class has a relatively sleek, flowing design for a large sedan. Score: +0.70.
-*   **style_aggression_rating:** AMG body kit, large wheels, V12 presence, but still maintains S-Class elegance. Aggressive but refined. Score: +0.60.
-*   **style_modernity_rating:** Based on the previous generation S-Class (W222). Still looks good, but not the latest design language. Score: +0.40.
-*   **handling_rating:** AMG tuning (Magic Body Control) provides good handling for its size and weight, but prioritizes comfort over ultimate agility. Score: +0.60.
-*   **ride_comfort_rating:** Exceptional ride comfort, a hallmark of the S-Class, enhanced by advanced suspension. Score: +1.00.
-*   **cabin_noise_rating:** Extremely well-insulated and quiet cabin. Score: +1.00.
-*   **shift_smooth_rating:** The 7G-Tronic transmission is known for smooth shifts, especially in comfort modes. Score: +0.90.
-*   **steering_feel_rating:** Precise but likely prioritizes isolation and ease over raw feedback. Score: +0.10.
-*   **adas_score:** Had advanced driver assistance systems for its era (W222 facelift), including Distronic Plus. Score: +0.70.
-*   **visibility_rating:** Good visibility for a large sedan, aided by cameras. Score: +0.30.
-*   **headlight_rating:** Advanced Multibeam LED headlights. Score: +0.90.
-*   **security_rating:** High-end Mercedes security features expected. Score: +0.80.
-*   **screen_in:** Dual 12.3-inch screens (W222 COMAND system). Large for its time. Score: +0.70.
-*   **infotainment_ux_rating:** COMAND system was good but less intuitive than the current MBUX. Score: +0.40.
-*   **smartphone_connect_rating:** Apple CarPlay / Android Auto available. Likely wired. Score: +0.50.
-*   **audio_rating:** High-end Burmester 3D surround sound system often standard or included. Excellent. Score: +0.95.
-*   **usb_ports:** Multiple USB ports available, including in the rear. Score: +0.50.
-*   **comfort_feature_score:** Fully loaded with features like Magic Sky Control, First Class rear suite, heated/ventilated/massaging seats, etc. Score: +1.00.
-*   **convenience_feature_score:** Packed with features like 360 camera, soft-close doors, power everything, advanced parking aids. Score: +1.00.
-*   **brand_prestige_rating:** Mercedes-AMG is a highly prestigious performance luxury brand. Score: +0.90.
-*   **model_prestige_rating:** The S-Class is Mercedes' flagship sedan, top of the range. Score: -1.00 (per guide).
-*   **trim_prestige_rating:** The S 65 AMG Final Edition is the ultimate, limited-run V12 send-off trim, extremely exclusive. Score: -1.00.
-*   **interior_luxury_rating:** Highest level of Mercedes luxury, with exclusive Final Edition Nappa leather, copper stitching, and carbon fiber trim. Score: +1.00.
-*   **interior_tech_focus_rating:** High-tech for its generation (W222) with large dual screens, but less screen-dominant than the newest models. Score: +0.60.

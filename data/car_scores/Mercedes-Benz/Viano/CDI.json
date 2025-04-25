@@ -1,55 +1,138 @@
-```json
+Here's the evaluation of the most recent Mercedes-Benz Viano CDI (W639 facelift, 2010-2014), based on the search results and the provided scoring guide:
+
+*   **price_usd**: Used prices vary significantly based on age, mileage, and condition. UK prices for 2010-2014 models seem to range from around £5,000 to £15,000+ (Source 10). Converting this to USD (~$6,000 - $18,000) puts it well below the $35,000 average for a *new* car, scoring positively. Let's estimate an average used price around $12,000-$15,000 for a decent example, which is significantly cheaper than the average new car. Score: +0.80.
+*   **total_cost_estimate_5yr_usd**: No specific data found for 5-year cost for this older model. Default to 0.00.
+*   **insurance_usd_yr**: Insurance groups are listed as 23-38 (Source 10). This is a wide range, but group 23 is around average, while 38 is quite high. Given it's a Mercedes van, insurance is likely higher than a typical sedan. Score: -0.30 (leaning towards higher end of average).
+*   **maint_usd_yr**: Servicing at Mercedes dealers is expensive, but being van-based makes it generally cheaper than passenger cars (Source 30). No specific annual cost found. Default to 0.00.
+*   **repair_risk_score**: Benefits from Mercedes-Benz vans' reputation for mechanical strength (Source 30). Reliability seems generally decent for a van, though older vehicles will have age-related issues. Default to 0.00.
+*   **hp**: The 2.2 CDI facelift model has 163 hp (Source 12, 15). The 3.0 CDI has 224 hp (Source 19). 163 hp is below the 200 hp average, while 224 hp is above. Let's take the more common 2.2 CDI as representative. 163 hp is slightly below average. Score: -0.20.
+*   **torque**: The 2.2 CDI has 360 Nm (265.52 lb-ft) (Source 12, 15). The 3.0 CDI has 440 Nm (324.53 lb-ft) (Source 19). 265 lb-ft is well above the 190 lb-ft average. Score: +0.50.
+*   **cylinder_count**: 2.2 CDI is Inline 4 (Source 15). 3.0 CDI is V6 (Source 20). 4 cylinders is below the 6-cylinder average in the guide. Score: -0.50.
+*   **engine_displacement**: 2.2 CDI is 2.1-2.2L (Source 15). 3.0 CDI is 3.0L (Source 19). 2.1-2.2L is below the 3.0L average in the guide. Score: -0.30.
+*   **accel_0_60_sec**: 2.2 CDI (163 hp) is around 11.5-12.4 seconds (Source 12, 11). 3.0 CDI (224 hp) is around 8.6-9.1 seconds (Source 19). Taking the 2.2 CDI, >10 seconds is -1.00 in the guide. 11.5-12.4 is quite slow compared to a modern average car (~7.5 sec). Score: -0.80.
+*   **top_speed**: 2.2 CDI (163 hp) is around 108-117 mph (Source 5, 12). 3.0 CDI (224 hp) is around 125 mph (Source 19). 108-117 mph is well below the 150 mph average. Score: -0.80.
+*   **drive_type**: Primarily Rear Wheel Drive (RWD), with AWD (4Matic) available (Source 2, 4, 12). RWD scores +1.00 in the guide.
+*   **transmission_type**: Available with 6-speed manual or 5-speed automatic (Source 4, 6). Automatic was standard on more powerful models (Source 2). The guide scores Automatic as +1.00.
+*   **offroad_ability**: It's a van, not designed for off-road. Score -1.00.
+*   **braking_dist_ft**: No specific data found. Default to 0.00.
+*   **size**: Length varies from 4748mm (Compact) to 5223mm (Extra-Long) (Source 4). The Long version is 5008mm (Source 12). This is larger than a typical sedan (~4600mm) and approaches the size of large SUVs/vans (>5100mm). Score: +0.80.
+*   **wheelbase**: Varies from 3200mm (Compact/Long) to 3430mm (Extra-Long) (Source 4, 8). 3200mm is significantly longer than the 2700mm average. Score: +0.80.
+*   **body_style**: Minivan/People Carrier (Source 7, 9, 15). Guide scores 5-Door Van as +1.00.
+*   **seats**: Can carry up to 9 passengers (Source 2, 4). Standard seating is often 7 or 8 (Source 3, 6). 7-8 seats scores +1.00.
+*   **cargo_space**: Minimum trunk capacity is 430L (15.2 cu ft), but can expand significantly (up to 3000L / 105.94 cu ft) by removing/rearranging seats (Source 5, 7, 13). 15 cu ft is average, but the maximum potential is huge. Score: +1.00.
+*   **rear_space**: Vans/MPVs are known for generous interior space, including rear legroom (Source 29). Score: +0.80.
+*   **ground_clearance_in**: Around 149mm (5.9 inches) (Source 24). This is slightly below the 6.5" average for compact crossovers. Score: -0.20.
+*   **turn_radius_ft**: 11.8m (39 ft) for Compact/Long, 12.5m (41 ft) for Extra-Long (Source 2, 13, 27). 36 ft is average. 39-41 ft is larger than average. Score: -0.30.
+*   **mpg**: 2.2 CDI combined is around 32-39 UK mpg (27-33 US mpg) (Source 5, 12, 21, 30, 31). 3.0 CDI combined is around 31-33 UK mpg (26-28 US mpg) (Source 20, 34). 30 mpg US is average. 27-33 US mpg is around average or slightly above for a vehicle this size/era. Score: +0.20.
+*   **co2_g_km**: 2.2 CDI is around 190-234 g/km (Source 5, 12, 23, 26). 3.0 CDI is around 224-244 g/km (Source 19, 20). 175 g/km is average. These figures are higher than average. Score: -0.30.
+*   **electric_range_mi**: Not electric. Score -1.00.
+*   **charge_speed_kw**: Not electric. Score -1.00.
+*   **style_sleek_vs_boxy**: It's a van, inherently boxy. Score -1.00.
+*   **style_aggression_rating**: Not aggressive styling. Score -0.20.
+*   **style_modernity_rating**: Design is from the 2000s/early 2010s. Facelift updated it, but it's not avant-garde by modern standards. Score: 0.00.
+*   **handling_rating**: It's a large van, handling is not a strong point compared to cars (Source 3). Score: -0.50.
+*   **ride_comfort_rating**: Mercedes vans are generally comfortable, especially with available rear air suspension (Source 3, 28). Score: +0.50.
+*   **cabin_noise_rating**: Diesel engines can be noisy, and vans typically have more cabin noise than sedans. Score: -0.30.
+*   **shift_smooth_rating**: Mercedes automatic transmissions are generally smooth (Source 3, 28). Score: +0.80.
+*   **steering_feel_rating**: Vans typically have less engaging steering feel. Score: -0.50.
+*   **adas_score**: Older vehicle, minimal ADAS compared to modern cars. Likely includes basic ABS, EBD, ESP, Traction Control, front airbags, side airbags (Source 6). Score: -0.50.
+*   **visibility_rating**: Large windows in a van provide excellent visibility. Score: +1.00.
+*   **headlight_rating**: Facelift models could have Bi-xenon headlights with LED running lights (Source 6, 28). This was good for its era but not top-tier modern matrix LEDs. Score: +0.50.
+*   **security_rating**: Standard security for its era. Default to 0.00.
+*   **screen_in**: Facelift models could have the COMAND system with navigation (Source 6). Screen size is likely small by modern standards. Search "Mercedes Viano W639 COMAND screen size". Found references to Audio 20 (basic) and COMAND (with nav) (Source 6, 28). Screen size for COMAND in this era was typically around 6.5-7 inches. Score: -0.30.
+*   **infotainment_ux_rating**: Older Mercedes infotainment systems were functional but not as intuitive or feature-rich as modern ones. Score: -0.50.
+*   **smartphone_connect_rating**: Bluetooth was available (Source 6), but not modern smartphone integration like CarPlay/Android Auto. Score: -1.00.
+*   **audio_rating**: Standard models had an 8-speaker system (Source 6). Higher trims likely had better audio. Score: 0.00 (average).
+*   **usb_ports**: Unlikely to have multiple USB ports like modern cars. Maybe one or two auxiliary inputs/charging points. Score: -0.80.
+*   **comfort_feature_score**: Higher trims (like Ambiente) had leather, climate control, power windows, heated seats (likely optional), rear air suspension (Source 3, 28, 29). Can be well-equipped for comfort. Score: +0.80.
+*   **convenience_feature_score**: Features like power sliding doors, parking sensors, automatic headlights, rain-sensing wipers were available (Source 6). Score: +0.80.
+*   **brand_prestige_rating**: Mercedes-Benz is a high-prestige brand. Score: +1.00.
+*   **model_prestige_rating**: Viano is a premium van/MPV, but not a high-performance or luxury sedan/SUV halo model within the brand. It's a practical, upscale vehicle. Score: +0.50.
+*   **trim_prestige_rating**: CDI refers to the engine type, not a specific trim level like Ambiente or Trend. It's a common engine option across different trims. Score: 0.00.
+*   **interior_luxury_rating**: Higher trims (Ambiente) had leather and wood trim options (Source 3, 28, 29). Interior quality is good for a van but not S-Class level luxury. Score: +0.70.
+*   **interior_tech_focus_rating**: Not a tech-focused vehicle compared to modern cars. Infotainment is dated. Score: -0.50.
+
+Refining some scores based on the 2.2 CDI being the most common CDI variant.
+
+*   HP: -0.20 (163 hp)
+*   Accel 0-60: -0.80 (11.5-12.4 sec)
+*   Top Speed: -0.80 (108-117 mph)
+*   CO2: -0.30 (190-234 g/km)
+
+Let's re-evaluate the price score. Used prices are low compared to *new* cars, which is a positive for affordability. The guide benchmarks against the *average car in today's general market*. A used Viano is significantly cheaper than the average new car price of $35k. $12k-$15k is very affordable by comparison. Score +0.80 seems appropriate.
+
+Insurance group 23-38. Average is around group 20-25. 23 is average, 38 is high. Let's average it out or consider the range. It's likely higher than average for a typical family car. Score -0.30 seems reasonable.
+
+Braking distance: No specific data. Default 0.00.
+
+Ground clearance: 5.9 inches is slightly below the 6.5" average. Score -0.20.
+
+Turn radius: 39-41 ft is larger than the 36 ft average. Score -0.30.
+
+Infotainment screen size: Around 6.5-7 inches for COMAND. Average is 8". Score -0.30.
+
+USB ports: Likely few or none. Score -0.80.
+
+Interior Luxury: Good for a van, but not top-tier luxury car. +0.70 seems fair.
+
+Interior Tech Focus: Not tech-focused. -0.50 seems fair.
+
+Model Prestige: Premium van, but not a core prestige model like S-Class or AMG. +0.50 seems fair.
+
+Trim Prestige: CDI is an engine type, not a trim level. 0.00.
+
+Final check of all scores against the guide and search results. Looks reasonable.```json
 {
-    "price_usd": 0.80,
-    "total_cost_estimate_5yr_usd": -0.30,
-    "insurance_usd_yr": -0.15,
-    "maint_usd_yr": -0.35,
-    "repair_risk_score": -0.30,
-    "hp": -0.20,
-    "torque": 0.35,
-    "cylinder_count": -0.50,
-    "engine_displacement": -0.45,
-    "accel_0_60_sec": -0.80,
-    "top_speed": -0.60,
-    "drive_type": 1.00,
-    "transmission_type": 1.00,
-    "offroad_ability": 0.90,
-    "braking_dist_ft": -0.40,
-    "size": 0.70,
-    "wheelbase": 1.00,
-    "body_style": 1.00,
-    "seats": 0.80,
-    "cargo_space": 0.90,
-    "rear_space": 1.00,
-    "ground_clearance_in": -0.15,
-    "turn_radius_ft": -0.40,
-    "mpg": 0.00,
-    "co2_g_km": -0.25,
-    "electric_range_mi": -1.00,
-    "charge_speed_kw": -1.00,
-    "style_sleek_vs_boxy": -0.90,
-    "style_aggression_rating": -0.80,
-    "style_modernity_rating": -0.70,
-    "handling_rating": -0.70,
-    "ride_comfort_rating": -0.10,
-    "cabin_noise_rating": -0.40,
-    "shift_smooth_rating": 0.30,
-    "steering_feel_rating": -0.60,
-    "adas_score": -0.90,
-    "visibility_rating": 0.60,
-    "headlight_rating": -0.30,
-    "security_rating": 0.00,
-    "screen_in": -0.70,
-    "infotainment_ux_rating": -0.80,
-    "smartphone_connect_rating": -0.90,
-    "audio_rating": -0.40,
-    "usb_ports": -0.90,
-    "comfort_feature_score": -0.20,
-    "convenience_feature_score": -0.60,
-    "brand_prestige_rating": 0.80,
-    "model_prestige_rating": 0.00,
-    "trim_prestige_rating": 0.00,
-    "interior_luxury_rating": -0.20,
-    "interior_tech_focus_rating": -0.80
+  "price_usd": 0.80,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -0.30,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -0.20,
+  "torque": 0.50,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.30,
+  "accel_0_60_sec": -0.80,
+  "top_speed": -0.80,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.80,
+  "wheelbase": 0.80,
+  "body_style": 1.00,
+  "seats": 1.00,
+  "cargo_space": 1.00,
+  "rear_space": 0.80,
+  "ground_clearance_in": -0.20,
+  "turn_radius_ft": -0.30,
+  "mpg": 0.20,
+  "co2_g_km": -0.30,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": -1.00,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": 0.00,
+  "handling_rating": -0.50,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": -0.30,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": -0.50,
+  "adas_score": -0.50,
+  "visibility_rating": 1.00,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": -0.30,
+  "infotainment_ux_rating": -0.50,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": 0.00,
+  "usb_ports": -0.80,
+  "comfort_feature_score": 0.80,
+  "convenience_feature_score": 0.80,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": 0.50,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": -0.50
 }
 ```

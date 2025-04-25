@@ -1,0 +1,108 @@
+```json
+{
+  "price_usd": 0.10,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.50,
+  "hp": -0.20,
+  "torque": 0.20,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.70,
+  "top_speed": -0.80,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 0.80,
+  "braking_dist_ft": 0.00,
+  "size": 0.30,
+  "wheelbase": 0.40,
+  "body_style": 1.00,
+  "seats": 0.00,
+  "cargo_space": 1.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.20,
+  "turn_radius_ft": -0.30,
+  "mpg": 0.20,
+  "co2_g_km": 0.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": -0.80,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.30,
+  "ride_comfort_rating": 0.40,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.40,
+  "steering_feel_rating": 0.50,
+  "adas_score": 0.60,
+  "visibility_rating": 0.40,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": 0.10,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": -0.20,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.20,
+  "convenience_feature_score": 0.40,
+  "brand_prestige_rating": 0.20,
+  "model_prestige_rating": 0.80,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": -0.20,
+  "interior_tech_focus_rating": 0.60
+}
+```
+**Reasoning for Scores:**
+
+*   **price\_usd**: Rated 0.10 as the starting price for a T6.1 Transporter panel van in the UK is around £25,000-£30,000 + VAT, which is close to the $35,000 market average benchmark.
+*   **total\_cost\_estimate\_5yr\_usd**: Rated 0.00 as typical 5-year ownership costs for a commercial vehicle like the Transporter are likely around the general market average when considering depreciation, maintenance, etc., though specific use cases can vary.
+*   **insurance\_usd\_yr**: Rated 0.00 as insurance costs for a Transporter are generally in line with the national average for vehicles, not typically falling into the high-risk categories.
+*   **maint\_usd\_yr**: Rated 0.00 as Volkswagen maintenance costs are generally considered average compared to the overall market.
+*   **repair\_risk\_score**: Rated 0.50 as the Transporter has a reputation for being reasonably reliable, placing it above average compared to some less reliable brands, though not in the top tier of reliability.
+*   **hp**: Rated -0.20 based on common engine options like the 150 PS (approx 148 hp) 2.0 TDI, which is below the 200 hp average car benchmark.
+*   **torque**: Rated 0.20 based on common engine options like the 150 PS 2.0 TDI, which produces around 340 Nm (approx 250 lb-ft), above the 190 lb-ft average car benchmark.
+*   **cylinder\_count**: Rated 0.00 as the standard 4-cylinder engine is average for most vehicles today.
+*   **engine\_displacement**: Rated 0.00 as the 2.0L engine displacement is average for many vehicles.
+*   **accel\_0\_60\_sec**: Rated -0.70 as 0-60 mph times for common Transporter variants are typically 11-12+ seconds, significantly slower than the 7.5-second average car benchmark.
+*   **top\_speed**: Rated -0.80 as top speeds are generally around 110-120 mph, well below the 150 mph average car benchmark.
+*   **drive\_type**: Rated 0.00 as while FWD is standard, 4MOTION AWD is a widely available option, placing it in the average category.
+*   **transmission\_type**: Rated 0.00 as both manual (-1.00) and DSG automatic (0.00) transmissions are available, averaging out to the benchmark.
+*   **offroad\_ability**: Rated 0.80 based on the provided scoring guide's examples where low offroad ability scores higher. The Transporter has limited offroad capability compared to dedicated vehicles, placing it towards the higher end of this scale.
+*   **braking\_dist\_ft**: Rated 0.00, assuming braking performance is around the average for a vehicle of its size and type.
+*   **size**: Rated 0.30 as it is a large van, significantly longer than average cars but not as massive as the largest SUVs/trucks.
+*   **wheelbase**: Rated 0.40 due to its long wheelbase options (3000mm / 3400mm), providing stability and interior space, exceeding the average car wheelbase.
+*   **body\_style**: Rated 1.00 as it is a 5-door van, which scores +1.00 according to the provided guide.
+*   **seats**: Rated 0.00 as while panel vans have 2 seats, Kombi/Shuttle versions commonly offer 5 or more seats, making 5 seats (the average benchmark) a common configuration.
+*   **cargo\_space**: Rated 1.00 due to the exceptionally large cargo volume offered by a van compared to typical cars and SUVs.
+*   **rear\_space**: Rated 0.00 as rear legroom varies significantly by configuration (panel van has none, passenger versions have decent space), averaging out to the benchmark.
+*   **ground\_clearance\_in**: Rated 0.20 as its ground clearance is higher than most cars but lower than dedicated SUVs or off-roaders, placing it slightly above the compact crossover average.
+*   **turn\_radius\_ft**: Rated -0.30 as larger vehicles typically have a wider turning radius than average cars.
+*   **mpg**: Rated 0.20 as the diesel engines offer decent fuel economy for a vehicle of its size (around 35-40 mpg), better than many larger vehicles but not as high as dedicated hybrids or small cars.
+*   **co2\_g\_km**: Rated 0.00 as diesel emissions are around the average for non-electric vehicles (approx 180-200 g/km).
+*   **electric\_range\_mi**: Rated -1.00 as the standard T6.1 is an internal combustion engine vehicle.
+*   **charge\_speed\_kw**: Rated -1.00 as the standard T6.1 is an internal combustion engine vehicle.
+*   **style\_sleek\_vs\_boxy**: Rated -0.80 as the van body style is inherently boxy, far from a sleek profile.
+*   **style\_aggression\_rating**: Rated -0.50 as the design is functional and not aggressive.
+*   **style\_modernity\_rating**: Rated 0.00 as the T6.1 is a modern design but not avant-garde or revolutionary.
+*   **handling\_rating**: Rated 0.30 as reviews indicate competent and car-like handling for a van, better than a typical large, soft vehicle but not sporty.
+*   **ride\_comfort\_rating**: Rated 0.40 as the ride is generally comfortable for a van, exceeding the harshness of some vehicles but not reaching luxury car levels.
+*   **cabin\_noise\_rating**: Rated 0.50 as the T6.1 is noted for having good cabin refinement for a van, quieter than many commercial vehicles and potentially better than some noisier cars.
+*   **shift\_smooth\_rating**: Rated 0.40 as the availability and performance of the DSG automatic transmission provide smooth shifts, improving the overall rating.
+*   **steering\_feel\_rating**: Rated 0.50 as the electro-mechanical steering is described as competent and reasonably responsive, better than numb systems but lacking the engagement of sporty cars.
+*   **adas\_score**: Rated 0.60 as the T6.1 offers a comprehensive suite of modern ADAS features, including adaptive cruise control, lane assist, and crosswind assist, placing it well above vehicles with minimal tech.
+*   **visibility\_rating**: Rated 0.40 due to the high driving position and large windows (in passenger variants), offering good visibility.
+*   **headlight\_rating**: Rated 0.00 as modern LED options are available, placing it in line with average modern vehicle headlights.
+*   **security\_rating**: Rated 0.00 as it comes with standard modern vehicle security features. Enhanced security systems are often aftermarket additions for vans.
+*   **screen\_in**: Rated 0.10 as available infotainment screens go up to 9.2 inches, slightly larger than the 8-inch average benchmark.
+*   **infotainment\_ux\_rating**: Rated 0.40 as Volkswagen's infotainment system is generally considered user-friendly and intuitive.
+*   **smartphone\_connect\_rating**: Rated 0.50 as Apple CarPlay and Android Auto are standard features, providing good smartphone integration.
+*   **audio\_rating**: Rated -0.20 as the standard audio system is typically basic in commercial vehicles, though upgrades may be available.
+*   **usb\_ports**: Rated 0.00, assuming an average number of USB ports for charging and connectivity.
+*   **comfort\_feature\_score**: Rated 0.20 as while base models are utilitarian, higher trims offer comfort features like heated seats and climate control, placing it above basic vehicles but below luxury ones.
+*   **convenience\_feature\_score**: Rated 0.40 as features like parking sensors, cameras, and power sliding doors are available, offering good convenience features for a van.
+*   **brand\_prestige\_rating**: Rated 0.20 as Volkswagen is a mainstream brand with a slightly elevated perception compared to budget brands.
+*   **model\_prestige\_rating**: Rated 0.80 based on the guide's examples where utilitarian/entry-level models score higher. The Transporter is a workhorse model within the VW range, not a high-prestige vehicle like an S-Class.
+*   **trim\_prestige\_rating**: Rated 1.00 as the "1200" likely refers to a payload variant associated with base or workhorse trims, which score +1.00 according to the guide.
+*   **interior\_luxury\_rating**: Rated -0.20 as the interior is primarily focused on durability and functionality rather than luxury materials and finish.
+*   **interior\_tech\_focus\_rating**: Rated 0.60 as the T6.1 incorporates modern digital displays, infotainment, and ADAS, showing a good focus on technology integration for a commercial vehicle.

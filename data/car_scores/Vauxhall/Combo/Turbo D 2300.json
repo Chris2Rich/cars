@@ -1,0 +1,108 @@
+```json
+{
+  "price_usd": 0.10,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.40,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.70,
+  "hp": -0.60,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": -0.40,
+  "accel_0_60_sec": -0.70,
+  "top_speed": -0.80,
+  "drive_type": -1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.10,
+  "wheelbase": 0.20,
+  "body_style": 1.00,
+  "seats": -0.80,
+  "cargo_space": 0.90,
+  "rear_space": -1.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.10,
+  "mpg": 0.40,
+  "co2_g_km": 0.30,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": -1.00,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": 0.30,
+  "handling_rating": -0.40,
+  "ride_comfort_rating": 0.70,
+  "cabin_noise_rating": 0.40,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": -0.50,
+  "adas_score": 0.60,
+  "visibility_rating": 0.80,
+  "headlight_rating": 0.60,
+  "security_rating": 0.00,
+  "screen_in": 0.30,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 0.70,
+  "audio_rating": 0.00,
+  "usb_ports": 0.30,
+  "comfort_feature_score": 0.40,
+  "convenience_feature_score": 0.70,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": -0.20,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": -0.80,
+  "interior_tech_focus_rating": 0.30
+}
+```
+**Explanation of Ratings:**
+
+*   **price_usd (0.10):** Search results for the latest Vauxhall Combo Cargo diesel with 2300 GVW (Prime/Pro trims) show prices around £20,000 - £23,000 excluding VAT in the UK [3, 27, 40]. Converting a mid-range price like £21,500 to USD (~$26,875) places it below the average new car price of $35,000, resulting in a slightly positive score.
+*   **total_cost_estimate_5yr_usd (0.00):** No specific 5-year cost data was found for this exact variant. As a reliable commercial vehicle, costs can vary based on usage. Defaulted to average.
+*   **insurance_usd_yr (0.40):** While specific insurance groups for the latest 2300 GVW diesel weren't found, Combo vans generally fall into lower insurance groups (around 10-20) compared to the average passenger car (around 25) [17, 42], suggesting lower insurance costs.
+*   **maint_usd_yr (0.00):** No specific annual maintenance cost was found. The 1.5L diesel engine is widely used, and the platform is known for reliability, suggesting average maintenance costs for a diesel commercial vehicle. Defaulted to average.
+*   **repair_risk_score (0.70):** The Vauxhall Combo platform has a strong reputation for reliability, described as having an "enviable reputation for reliability" [33] and scoring "very good" (713/999) [19]. This places it well above average.
+*   **hp (-0.60):** The 2300 GVW diesel models typically use the 1.5L Turbo D engine with 100PS (99 hp) or 130PS (128 hp) [8, 35, 42]. These power outputs are significantly below the average passenger car benchmark of 200 hp.
+*   **torque (0.00):** The 100PS diesel produces 250Nm (approx 184 lb-ft) and the 130PS produces 300Nm (approx 221 lb-ft) [8, 35, 42]. These figures are around or slightly above the average benchmark of 190 lb-ft.
+*   **cylinder_count (0.00):** The 1.5L diesel engine is a 4-cylinder unit, a common configuration and aligns with the average benchmark.
+*   **engine_displacement (-0.40):** The 1.5L engine displacement is below the 3.0L average benchmark.
+*   **accel_0_60_sec (-0.70):** 0-60 mph times for the diesel models are typically in the 10.9-13.0 second range [17, 25], which is significantly slower than the average benchmark of 7.5 seconds.
+*   **top_speed (-0.80):** Top speeds are around 105-115 mph [17], well below the 150 mph average benchmark.
+*   **drive_type (-1.00):** The standard Vauxhall Combo Cargo is front-wheel drive (FWD) [35, 42].
+*   **transmission_type (1.00):** An 8-speed automatic transmission is available with the 130PS diesel engine [2], which is considered superb compared to manual or sequential transmissions.
+*   **offroad_ability (-1.00):** The standard panel van is designed for road use with FWD and standard ground clearance. It has minimal off-road capability. (Ignoring the specialist 4x4 conversion [14, 23]).
+*   **braking_dist_ft (0.00):** No specific braking distance data was found. Defaulted to average.
+*   **size (0.10):** Available in L1 (4.4m) and L2 (4.75m) lengths [12, 26]. The L1 is similar in length to a large sedan, while the L2 is longer. As a van, its height and width contribute to a larger overall size than an average passenger car.
+*   **wheelbase (0.20):** The L1 wheelbase (2.78m) is slightly longer than average, and the L2 (2.97m) is significantly longer [12, 35, 42], contributing to interior space and stability.
+*   **body_style (1.00):** The panel van body style offers excellent utility and cargo capacity, aligning with the 5-door van benchmark for practicality.
+*   **seats (-0.80):** The standard panel van typically has 2 or 3 seats (with the FlexCargo bench seat option) [35, 42, 16], which is significantly fewer than the 5-seat average.
+*   **cargo_space (0.90):** Offers a large cargo volume (3.3m³ for L1, 3.9m³ for L2, up to 4.4m³ with FlexCargo) [5, 6, 20, 22, 26, 39] and high payload (up to 1000kg for 2300 GVW models) [3, 4, 20, 39], far exceeding the cargo space of an average passenger car.
+*   **rear_space (-1.00):** The panel van version has no rear passenger space.
+*   **ground_clearance_in (0.00):** Standard ground clearance is around 150-180mm (approx 6-7 inches) [6, 12], which is around the average for compact crossovers.
+*   **turn_radius_ft (0.10):** Turning circles (10.8m/35.4 ft L1, 11.4m/37.4 ft L2) [2, 9] are reasonable for a vehicle of this size, slightly better than the average sedan benchmark.
+*   **mpg (0.40):** Official WLTP combined fuel economy for diesel models is up to 54.4 mpg [8, 34, 42]. Real-world figures are lower but still better than the 30 mpg average benchmark.
+*   **co2_g_km (0.30):** Official WLTP CO2 emissions are around 108-176 g/km [8, 34, 42]. This is around or slightly below the average benchmark of 175 g/km for ICE vehicles.
+*   **electric_range_mi (-1.00):** This is a diesel model, so it has no electric range.
+*   **charge_speed_kw (-1.00):** This is a diesel model, so it has no charging capability.
+*   **style_sleek_vs_boxy (-1.00):** The van body style is designed for maximum interior space and utility, resulting in a very boxy shape.
+*   **style_aggression_rating (-0.50):** The design is functional and utilitarian, not aggressive.
+*   **style_modernity_rating (0.30):** The recent facelift with the Vizor grille gives it a modern look for a van [2, 16, 20], but it's not avant-garde compared to passenger cars.
+*   **handling_rating (-0.40):** Described as composed and car-like for a van, but with noticeable body roll [4, 9]. Below average compared to passenger cars.
+*   **ride_comfort_rating (0.70):** The ride is generally praised for being comfortable and soaking up bumps well [9, 26], rating highly for comfort, especially for a van-based vehicle.
+*   **cabin_noise_rating (0.40):** Cabin noise is reported as reasonably well suppressed for a van [9], placing it above average for its segment, though likely louder than an average passenger car.
+*   **shift_smooth_rating (1.00):** The available 8-speed automatic transmission is described as smooth [2], rating highly.
+*   **steering_feel_rating (-0.50):** Steering is light and easy for maneuvering but lacks feedback and engagement compared to passenger cars [9, 20].
+*   **adas_score (0.60):** The Combo offers a good range of ADAS features (up to 18) [2, 16, 22], including AEB, Lane Keep Assist, optional ACC, and features like Dynamic Surround Vision on Pro trims [16, 28], rating well above average.
+*   **visibility_rating (0.80):** High seating position provides excellent forward and side visibility. Optional camera systems significantly improve rear and blind-spot visibility [9, 18, 20], rating very highly, especially for a panel van.
+*   **headlight_rating (0.60):** Automatic lighting control is standard, and LED headlights (including Matrix LED on some variants/options) are available [9, 16, 41], providing good illumination.
+*   **security_rating (0.00):** Remote control security alarm system is standard on some trims [9, 15]. Standard security features for a commercial vehicle. Defaulted to average.
+*   **screen_in (0.30):** Available screen sizes range from a basic 5-inch display to 8-inch and 10-inch touchscreens on higher trims [4, 9, 15, 41, 43]. Average is 8-inch. Score based on availability of larger screens.
+*   **infotainment_ux_rating (0.40):** The infotainment system is functional and includes smartphone connectivity. Newer 10-inch system is improved [2, 41, 43]. Generally considered decent, placing it slightly above average.
+*   **smartphone_connect_rating (0.70):** Apple CarPlay and Android Auto are available, including wireless connectivity on newer models/trims [2, 9, 41], which is a strong point.
+*   **audio_rating (0.00):** Standard audio systems are basic with a limited number of speakers [15]. Defaulted to average.
+*   **usb_ports (0.30):** USB connection points are included [4, 9, 15, 41], providing connectivity above a single port.
+*   **comfort_feature_score (0.40):** Features like air conditioning, height-adjustable driver's seat are standard/available [9, 15, 26]. Optional heated seats/steering wheel [39, 41] provide a decent level of comfort features above a basic vehicle.
+*   **convenience_feature_score (0.70):** Rear parking sensors, cruise control, and the FlexCargo load-through system are standard/available [9, 15, 26, 39]. Optional features like camera systems [16, 28] significantly enhance convenience, rating well above average.
+*   **brand_prestige_rating (0.00):** Vauxhall is a mainstream automotive brand.
+*   **model_prestige_rating (-0.20):** The Combo is a utility/commercial vehicle model, generally less prestigious than passenger car models within the brand.
+*   **trim_prestige_rating (0.00):** "Turbo D 2300" refers to engine/GVW, not a specific luxury/sport trim. Prime/Pro are commercial trims. Rated as a "Good Trim" in the benchmark for its feature set relative to a base model.
+*   **interior_luxury_rating (-0.80):** The interior is designed for durability and utility, featuring hard plastics and a functional layout rather than luxury materials [4, 8, 26].
+*   **interior_tech_focus_rating (0.30):** While featuring screens and digital instruments on some versions, the interior design prioritizes practicality over a cutting-edge, screen-dominated tech focus [4, 9, 26].

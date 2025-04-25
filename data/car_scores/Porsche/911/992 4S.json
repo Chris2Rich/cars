@@ -1,0 +1,109 @@
+Based on the search results and the scoring guide:
+
+*   **price\_usd**: Starts around $121,950 (Source 6). This is well over $100,000. Score: -1.00.
+*   **total\_cost\_estimate\_5yr\_usd**: No direct figure found, but high purchase price, insurance, and maintenance suggest high 5-year cost. Likely >$60,000. Score: -1.00.
+*   **insurance\_usd\_yr**: High-performance Porsche, likely high insurance group. Score: -1.00.
+*   **maint\_usd\_yr**: Porsche maintenance is expensive. Likely >$1,200/year. Score: -1.00.
+*   **repair\_risk\_score**: Porsche has good reliability ratings (Source 5 mentions reliability). Score: 0.50.
+*   **hp**: 443-450 hp (Sources 3, 6, 15, 16, 18, 20, 22, 23, 31, 38). Well above 200, below 700+. Score: 0.80.
+*   **torque**: 390-391 lb-ft (Sources 3, 6, 15, 18, 23, 31). Well above 190, below 1000+. Score: 0.70.
+*   **cylinder\_count**: H6 (Flat-6) (Sources 3, 5, 12, 18, 25, 29). Score: 0.00.
+*   **engine\_displacement**: 3.0L (2981 cm³) (Sources 3, 5, 7, 12, 18, 23, 25, 29). Score: 0.00.
+*   **accel\_0\_60\_sec**: 3.4-3.6 seconds (Sources 3, 4, 5, 8, 12, 15, 17, 18, 20, 25, 31, 38). With Sport Chrono, it's 3.2-3.4s (Source 5, 15, 38). Very fast, close to best-in-class. Score: 0.95.
+*   **top\_speed**: 190-191 mph (306-307 km/h) (Sources 3, 5, 7, 8, 18, 19, 20, 25, 29, 31). Very high, close to best. Score: 0.95.
+*   **drive\_type**: All-Wheel Drive (AWD) (Sources 2, 3, 5, 6, 12, 13, 14, 15, 18, 21, 29, 31, 34). Score: 0.00.
+*   **transmission\_type**: 8-speed PDK (Dual-Clutch) (Sources 2, 3, 5, 6, 8, 12, 13, 15, 17, 18, 20, 21, 25, 27, 28, 29, 31, 34). Score: 0.00.
+*   **offroad\_ability**: Very low ground clearance, sports car. Score: 1.00.
+*   **braking\_dist\_ft**: Excellent brakes (Sources 3, 7 mention large discs). Score: 1.00.
+*   **size**: Length ~4519mm (Sources 2, 3, 5, 7, 9, 12, 15, 18, 25, 29, 33). Closer to Civic (4600mm) than Escalade (>5100mm) or Fiat 500 (~3600mm). Score: 0.00.
+*   **wheelbase**: ~2450mm (Sources 2, 3, 5, 7, 9, 12, 15, 18, 25, 29, 33, 34). Shorter than Octavia (~2700mm). Score: -0.75.
+*   **body\_style**: 2-door coupe (Sources 2, 3, 6, 13, 15, 18, 25, 29, 30, 34). Score: -1.00.
+*   **seats**: 4 (2+2) (Sources 7, 14, 25, 29, 30, 34). Rear seats are minimal. Score: -0.75.
+*   **cargo\_space**: 4.6-4.7 cu ft (132-133 L) (Sources 3, 5, 7, 12, 13, 14, 18, 25, 29, 33). Very limited. Score: -1.00.
+*   **rear\_space**: No specific inches found, but described as 2+2 with minimal rear space. Score: -1.00.
+*   **ground\_clearance\_in**: ~4.5 inches (116mm) (Source 29, 33). Low. Score: -0.75.
+*   **turn\_radius\_ft**: 36.7 ft (11.2 m) (Sources 7, 13, 18). Close to Camry (~36 ft). Score: 0.00.
+*   **mpg**: Combined EPA 20-21 mpg (Sources 6, 7, 10, 14, 18, 20, 25, 29, 30, 34, 38). Below average (30 mpg). Score: -0.50.
+*   **co2\_g\_km**: 206-241 g/km (Sources 7, 12, 18, 20, 25, 29, 38). Well above average (175 g/km), not EV. Score: -0.75.
+*   **electric\_range\_mi**: Not electric. Score: -1.00.
+*   **charge\_speed\_kw**: Not electric. Score: -1.00.
+*   **style\_sleek\_vs\_boxy**: Very sleek. Score: 0.75.
+*   **style\_aggression\_rating**: Sporty, wider rear (Source 8), but not extreme GT/Turbo. Score: 0.75.
+*   **style\_modernity\_rating**: Modern evolution of classic design. Score: 0.50.
+*   **handling\_rating**: Renowned for superb handling. Score: 1.00.
+*   **ride\_comfort\_rating**: Good for a sports car, but firm. Score: 0.00.
+*   **cabin\_noise\_rating**: Sports car, some noise expected. Score: -0.50.
+*   **shift\_smooth\_rating**: 8-speed PDK is excellent, seamless (Source 8). Score: 0.75.
+*   **steering\_feel\_rating**: Porsche steering is highly praised. Score: 1.00.
+*   **adas\_score**: Available features like adaptive cruise, lane keep assist, night vision (Sources 3, 11, 13, 16, 21, 27, 28, 38). Good but not top-tier autonomous driving. Score: 0.75.
+*   **visibility\_rating**: Sports car, likely average visibility. Score: 0.00.
+*   **headlight\_rating**: Standard LED, optional Matrix-LED (Sources 3, 11, 28, 38). Good. Score: 0.75.
+*   **security\_rating**: High value car, likely good security (Source 21 mentions tracking system). Score: 0.75.
+*   **screen\_in**: 10.9 inches (Sources 3, 13, 16, 21). Above average (8"). Score: 0.50.
+*   **infotainment\_ux\_rating**: PCM system is generally well-regarded (Sources 3, 13, 21). Score: 0.75.
+*   **smartphone\_connect\_rating**: Apple CarPlay standard, Android Auto added for 2024 (Sources 3, 11, 13, 28, 36). Score: 0.75.
+*   **audio\_rating**: Standard Sound Package Plus, optional Bose/Burmester (Sources 3, 11, 17, 21, 26, 27, 28, 38). Good options available. Score: 0.75.
+*   **usb\_ports**: Two USB ports in center console (Source 21). Average (3 ports). Score: 0.00.
+*   **comfort\_feature\_score**: Heated/ventilated seats, power seats, heated steering wheel available (Sources 11, 17, 21, 26, 27, 28, 38). Good features available. Score: 0.75.
+*   **convenience\_feature\_score**: ParkAssist, reversing camera, Surround View, power folding mirrors, keyless go, HomeLink available (Sources 11, 17, 21, 26, 28, 38). Good features available. Score: 0.75.
+*   **brand\_prestige\_rating**: Porsche. Score: 1.00.
+*   **model\_prestige\_rating**: 911 (Halo model). Score: -1.00.
+*   **trim\_prestige\_rating**: 4S is a high-performance, AWD variant, above base Carrera/Carrera 4, below GTS/Turbo/GT. Score: 0.00.
+*   **interior\_luxury\_rating**: Premium materials, leather options, sporty focus (Sources 11, 17, 21, 26, 28). High quality. Score: 0.75.
+*   **interior\_tech\_focus\_rating**: 10.9" screen, digital gauges, but retains physical controls (Sources 13, 21). Balanced approach. Score: 0.50.
+
+Final check of scores against benchmarks and examples. Looks consistent.```json
+{
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": 0.50,
+  "hp": 0.80,
+  "torque": 0.70,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.95,
+  "top_speed": 0.95,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 1.00,
+  "size": 0.00,
+  "wheelbase": -0.75,
+  "body_style": -1.00,
+  "seats": -0.75,
+  "cargo_space": -1.00,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.75,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.50,
+  "co2_g_km": -0.75,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.75,
+  "style_aggression_rating": 0.75,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 1.00,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": 0.75,
+  "steering_feel_rating": 1.00,
+  "adas_score": 0.75,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.75,
+  "security_rating": 0.75,
+  "screen_in": 0.50,
+  "infotainment_ux_rating": 0.75,
+  "smartphone_connect_rating": 0.75,
+  "audio_rating": 0.75,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": 0.50
+}
+```

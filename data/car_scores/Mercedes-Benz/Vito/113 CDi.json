@@ -1,51 +1,136 @@
-```json
+Based on the search results for the Mercedes-Benz Vito 113 CDi (focusing on the W447 generation, 2014-present, as the "most recent version", but also referencing W639 data where W447 113 CDi specifics are less clear, noting the 113 CDi engine was available in both):
+
+*   **price_usd**: Prices vary by configuration (panel van, crew van, tourer) and market. UK prices for a new Vito Tourer start around £38,965 (Result 3), which is roughly $49,000 USD. Panel van versions would be less. This is above the $35k average but well below $100k. Score: **0.20**.
+*   **total_cost_estimate_5yr_usd**: Mercedes maintenance is higher than average (Result 3). Vans are work vehicles, so depreciation might be moderate depending on usage. Overall cost is likely around average for a commercial vehicle, perhaps slightly higher due to the brand. Defaulting to **0.00**.
+*   **insurance_usd_yr**: Insurance groups for vans can be high, especially for commercial use. While specific 113 CDi insurance groups weren't found, commercial vehicle insurance is generally higher than passenger cars. Score: **-0.50**.
+*   **maint_usd_yr**: Mercedes maintenance is known to be more expensive than average (Result 3). Score: **-0.20**.
+*   **repair_risk_score**: Mercedes-Benz generally has average reliability, though some sources suggest commercial vehicles might be more robust (Result 4, 27). The OM651 engine has had some reported issues in earlier versions but can last long with maintenance (Result 27). Scoring slightly above average for a work vehicle. Score: **0.50**.
+*   **hp**: The 113 CDi typically has 100 kW (134 hp) (Result 4, 9, 10, 11, 12, 13, 16, 24, 27, 28, 35, 36, 38, 39). This is significantly below the 200 hp average for passenger cars. Score: **-1.00**.
+*   **torque**: The 113 CDi has 310 Nm (229 lb-ft) (Result 4, 9, 10, 11, 12, 13, 16, 24, 27, 35, 36, 38, 39). This is decent torque for a diesel engine, especially for a van, better than the average passenger car. Score: **0.30**.
+*   **cylinder_count**: 4 cylinders (Result 4, 9, 10, 11, 12, 13, 16, 27, 35, 36, 38). Average is often 4 or 6. Score: **0.00**.
+*   **engine_displacement**: 2.1L or 2143cc (Result 4, 9, 10, 11, 12, 13, 16, 17, 24, 27, 28, 35, 36, 38). This is around the average for many vehicles. Score: **0.00**.
+*   **accel_0_60_sec**: No specific 0-60 time found for the 113 CDi. Vans are slow. Score: **-1.00**.
+*   **top_speed**: Around 172-176 km/h (107-109 mph) (Result 27, 36). Well below the 150 mph average. Score: **-1.00**.
+*   **drive_type**: Primarily Rear-Wheel Drive (RWD) (Result 4, 9, 11, 12, 13, 16, 27, 38), though AWD was available (Result 15). RWD is rated +1.00 in the guide, but for a van, AWD might be considered more versatile (0.00). Given RWD is common, let's score it based on the guide. Score: **1.00**.
+*   **transmission_type**: Available with 6-speed manual or 5-speed automatic (Result 2, 9, 10, 11, 12, 13, 16, 24, 27, 35, 36, 38, 41). Manual is -1.00, older 5-speed auto is not superb. Score: **-0.50** (leaning towards manual being common on this trim).
+*   **offroad_ability**: Very poor. Low ground clearance, not designed for off-road. Score: **-1.00**.
+*   **braking_dist_ft**: No specific data found. Vans are heavy, likely average or slightly worse braking. Defaulting to **0.00**.
+*   **size**: Available in multiple lengths (4.7m to 5.37m) (Result 2, 8, 9, 11, 12, 13, 16, 20, 21, 22, 29, 30, 32, 33, 42). These are large vehicles. Score: **0.80**.
+*   **wheelbase**: Available in 3200mm (126") and 3430mm (135") (Result 2, 8, 9, 11, 12, 13, 16, 21, 22, 29, 30, 32, 33, 36). Long wheelbases. Score: **0.80**.
+*   **body_style**: Van (5-door van). Score: **1.00**.
+*   **seats**: Varies greatly (2 to 9) depending on configuration (panel van, crew cab, tourer) (Result 2, 4, 12, 13, 28, 34, 35, 36). A common configuration for 113 CDi might be panel van (2-3 seats) or crew cab (5-6 seats). Let's assume a common configuration like a crew van with 5-6 seats. Score: **0.50**.
+*   **cargo_space**: Vans excel here (Result 2, 10, 20, 22, 29, 30). Score: **1.00**.
+*   **rear_space**: For passenger versions (Tourer/Crew Cab), rear space can be good (Result 2). For panel vans, irrelevant. Assuming a crew/tourer configuration for this rating. Score: **0.50**.
+*   **ground_clearance_in**: Around 110-149mm (4.3-5.9 inches) (Result 3, 4, 9, 11, 16, 20, 21, 22, 33). Below average for many vehicles, especially compared to crossovers/SUVs. Score: **-0.50**.
+*   **turn_radius_ft**: Around 11.8m (38.7 ft) to 12.5m (41 ft) (Result 2, 4, 6, 15, 20, 22). Poor for maneuverability compared to cars. Score: **-0.50**.
+*   **mpg**: Combined MPG around 31-38 mpg (7.4-8.2 L/100km) (Result 4, 9, 11, 12, 13, 16, 17, 21, 27, 33, 35). This is decent for a large vehicle, around average or slightly above compared to the overall market. Score: **0.30**.
+*   **co2_g_km**: Around 166-233 g/km (Result 4, 9, 11, 12, 13, 16, 17, 21, 24, 27, 33, 35, 40). Diesel emissions are higher than modern petrol or hybrid, much higher than EV. Score: **-0.30**.
+*   **electric_range_mi**: Not electric. Score: **-1.00**.
+*   **charge_speed_kw**: Not electric. Score: **-1.00**.
+*   **style_sleek_vs_boxy**: Vans are very boxy. Score: **-1.00**.
+*   **style_aggression_rating**: Vans are not aggressive. Score: **-0.80**.
+*   **style_modernity_rating**: Functional design, not avant-garde. Score: **0.00**.
+*   **handling_rating**: Vans have functional handling, not sporty. Score: **-0.20**.
+*   **ride_comfort_rating**: Can be bouncy, especially when empty (Result 10). Score: **-0.50**.
+*   **cabin_noise_rating**: Diesel engine noise and lack of cargo area insulation mean it's noisy (Result 10). Score: **-0.50**.
+*   **shift_smooth_rating**: Manual can be clunky, older 5-speed auto is not the smoothest (Result 10, 41). Score: **-0.50**.
+*   **steering_feel_rating**: Steering is functional, likely numb. Score: **-0.50**.
+*   **adas_score**: Base models have minimal ADAS, higher trims/options add more (Result 12, 13, 37). Score: **0.20** (assuming base/mid-trim level for 113 CDi).
+*   **visibility_rating**: Good forward visibility, but rear/side can be poor in panel vans. Score: **0.00**.
+*   **headlight_rating**: Likely halogen or basic LED on base trims (Result 12, 13). Score: **-0.20**.
+*   **security_rating**: Standard van security. Score: **0.00**.
+*   **screen_in**: Base models might have small or no screen, aftermarket/higher trims offer larger (9-12.3 inches) (Result 5, 7, 14, 18, 23, 37). Assuming a base/mid-trim screen size. Score: **-0.50**.
+*   **infotainment_ux_rating**: Base systems are basic, MBUX is available on newer models/higher trims (Result 14, 37). Score: **-0.50** (assuming base/mid-trim).
+*   **smartphone_connect_rating**: Apple CarPlay/Android Auto available, but might be optional or on higher trims (Result 5, 7, 14, 18, 23). Score: **-0.50** (assuming not standard on base 113 CDi).
+*   **audio_rating**: Base audio is likely poor. Score: **-0.80**.
+*   **usb_ports**: Likely minimal on base trims (Result 7). Score: **-0.50**.
+*   **comfort_feature_score**: Base vans are utilitarian (Result 10, 12, 13, 37). Score: **-1.00**.
+*   **convenience_feature_score**: Base vans have minimal convenience features (Result 12, 13). Score: **-1.00**.
+*   **brand_prestige_rating**: Mercedes-Benz is high prestige. Score: **0.70**.
+*   **model_prestige_rating**: Vito is a commercial van, lower prestige than passenger cars. Score: **0.10**.
+*   **trim_prestige_rating**: 113 CDi is a lower-mid range engine/trim. Score: **0.80**.
+*   **interior_luxury_rating**: Base vans are utilitarian (Result 10, 37). Score: **-1.00**.
+*   **interior_tech_focus_rating**: Base vans are not tech-focused (Result 10, 37). Score: **-1.00**.
+
+Refining some scores based on multiple sources and the specific trim:
+*   `drive_type`: While RWD is common and scores +1.00 by the guide, for a van, AWD is also relevant and scores 0.00. Given RWD is standard on many 113 CDi variants (Result 4, 9, 11, 12, 13, 16, 27, 38), sticking with **1.00**.
+*   `transmission_type`: Manual is standard on some 113 CDi (Result 11, 16, 21, 41), 5-speed auto on others (Result 4, 9, 10, 12, 13, 24, 27, 35, 36, 38). Manual is -1.00, 5-speed auto is dated (-0.50). Averaging these or considering the base is often manual: **-0.80**.
+*   `seats`: The 113 CDi is commonly found as a panel van (2-3 seats) or crew cab (5-6 seats). The guide rates 2 seats as -1.00 and 5 seats as 0.00. Let's assume a panel van is a common configuration for this engine, scoring **-1.00**.
+*   `adas_score`: Some ADAS features like ESP, ABS are standard (Result 4, 10, 12, 13). More advanced features are optional (Result 12, 13, 37). Score **0.20** seems appropriate for standard features being present but advanced ones being optional.
+*   `visibility_rating`: Good forward, poor rear/side in panel van. Score **0.00** is a fair average.
+*   `screen_in`, `infotainment_ux_rating`, `smartphone_connect_rating`, `audio_rating`, `usb_ports`, `comfort_feature_score`, `convenience_feature_score`, `interior_luxury_rating`, `interior_tech_focus_rating`: Base van trims are basic. Scores of **-0.50** to **-1.00** are appropriate depending on the specific feature and how basic the standard offering is. Based on descriptions of the interior being "Spartan" (Result 10) and utilitarian (Result 14, 37), lower scores are justified for standard equipment.
+
+Let's finalize the scores based on the most common configurations and the provided data.
+
+*   `price_usd`: £28k-£30k for older models (Result 40), £38k+ for newer Tourer (Result 3). Panel vans are cheaper. Let's assume a mid-range price for a panel/crew van. Score: **0.00**.
+*   `drive_type`: RWD is common. Score: **1.00**.
+*   `transmission_type`: Manual is common. Score: **-1.00**.
+*   `seats`: Panel van (2-3 seats) is common for this engine. Score: **-1.00**.
+*   `adas_score`: Basic safety tech standard, advanced optional. Score: **0.20**.
+*   `visibility_rating`: Good forward, poor rear/side in panel van. Score: **0.00**.
+*   `screen_in`: Base screen is small or non-touch. Score: **-0.50**.
+*   `infotainment_ux_rating`: Base system is basic. Score: **-0.50**.
+*   `smartphone_connect_rating`: Optional or on higher trims. Score: **-0.50**.
+*   `audio_rating`: Basic audio. Score: **-0.80**.
+*   `usb_ports`: Likely minimal. Score: **-0.50**.
+*   `comfort_feature_score`: Basic. Score: **-1.00**.
+*   `convenience_feature_score`: Basic. Score: **-1.00**.
+*   `interior_luxury_rating`: Utilitarian. Score: **-1.00**.
+*   `interior_tech_focus_rating`: Not tech-focused. Score: **-1.00**.
+*   `trim_prestige_rating`: 113 CDi is a lower-mid engine/trim. Score: **0.80**.
+
+All other scores seem reasonable based on the initial assessment and search results.```json
 {
-  "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": 0.25,
-  "insurance_usd_yr": -0.30,
-  "maint_usd_yr": -0.50,
-  "repair_risk_score": -0.40,
-  "hp": -0.65,
-  "torque": 0.20,
-  "cylinder_count": -0.50,
-  "engine_displacement": -0.45,
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": 0.50,
+  "hp": -1.00,
+  "torque": 0.30,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
   "accel_0_60_sec": -1.00,
-  "braking_dist_ft": -0.50,
-  "size": 0.40,
-  "wheelbase": 1.00,
+  "top_speed": -1.00,
+  "drive_type": 1.00,
+  "transmission_type": -1.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.80,
+  "wheelbase": 0.80,
   "body_style": 1.00,
-  "seats": -0.50,
+  "seats": -1.00,
   "cargo_space": 1.00,
-  "rear_space": 0.00,
-  "ground_clearance_in": -0.20,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.50,
   "turn_radius_ft": -0.50,
-  "mpg": 0.35,
-  "co2_g_km": -0.20,
+  "mpg": 0.30,
+  "co2_g_km": -0.30,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": -0.90,
-  "style_aggression_rating": -0.75,
-  "style_modernity_rating": -0.75,
-  "handling_rating": -0.70,
+  "style_sleek_vs_boxy": -1.00,
+  "style_aggression_rating": -0.80,
+  "style_modernity_rating": 0.00,
+  "handling_rating": -0.20,
   "ride_comfort_rating": -0.50,
-  "cabin_noise_rating": -0.60,
-  "shift_smooth_rating": -0.20,
-  "steering_feel_rating": -0.40,
-  "adas_score": -0.90,
-  "visibility_rating": -0.25,
-  "headlight_rating": -1.00,
-  "security_rating": -0.25,
-  "screen_in": -1.00,
-  "infotainment_ux_rating": -0.75,
-  "smartphone_connect_rating": -1.00,
-  "audio_rating": -0.90,
-  "usb_ports": -0.90,
-  "comfort_feature_score": -0.90,
-  "convenience_feature_score": -0.90,
-  "brand_prestige_rating": 0.75,
-  "model_prestige_rating": 0.25,
-  "trim_prestige_rating": 0.50,
-  "interior_luxury_rating": -0.90,
-  "interior_tech_focus_rating": -0.90
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": -0.50,
+  "steering_feel_rating": -0.50,
+  "adas_score": 0.20,
+  "visibility_rating": 0.00,
+  "headlight_rating": -0.20,
+  "security_rating": 0.00,
+  "screen_in": -0.50,
+  "infotainment_ux_rating": -0.50,
+  "smartphone_connect_rating": -0.50,
+  "audio_rating": -0.80,
+  "usb_ports": -0.50,
+  "comfort_feature_score": -1.00,
+  "convenience_feature_score": -1.00,
+  "brand_prestige_rating": 0.70,
+  "model_prestige_rating": 0.10,
+  "trim_prestige_rating": 0.80,
+  "interior_luxury_rating": -1.00,
+  "interior_tech_focus_rating": -1.00
 }
 ```

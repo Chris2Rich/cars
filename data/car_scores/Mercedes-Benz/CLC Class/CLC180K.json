@@ -1,55 +1,166 @@
-```json
+**Analysis of Search Results:**
+
+*   **Specs (HP, Torque, 0-60, Top Speed, Engine size, Cylinders):**
+    *   Source [3], [5], [11], [22]: Mercedes-Benz CLC 180 Kompressor (CLC180K)
+        *   Power: 140 bhp / 141 hp (ECE) / 143 ps
+        *   Torque: 220 Nm / 162 ft-lb
+        *   0-60 mph: 9.4 secs (Parkers [3], [23]), 9.9 secs (Automobile Catalog [22], Motors.co.uk [11]) - Use 9.7 seconds as an average.
+        *   Top Speed: 137 mph (Parkers [3], [23], Echelon Motors [5]), 134 mph (Motors.co.uk [11]) - Use 136 mph as an average.
+        *   Engine Size: 1.8L / 1796 cc
+        *   Cylinders: 4 (Inline)
+*   **Dimensions (Length, Wheelbase, Ground Clearance):**
+    *   Source [7], [9], [13], [15], [18], [26]:
+        *   Length: 4448 mm / 175.1 inches
+        *   Wheelbase: 2715 mm / 106.9 inches
+        *   Height: 1405 mm / 55.3 inches
+        *   Ground Clearance: 109 mm / 4.3 inches (Source [7])
+*   **Boot Space:**
+    *   Source [2], [4], [7], [9], [11]: 310 litres (seats up), 1100 litres (seats down). 310 litres is ~10.95 cu ft.
+*   **Turning Circle:**
+    *   Source [2], [3], [14], [20], [23]: 10.77 m / 10.76 m / 10m. 10.77m diameter is ~35.3 ft diameter, so radius is ~17.65 ft. 10m diameter is ~32.8 ft diameter, radius ~16.4 ft. Use an average diameter of ~10.5m or ~34.5 ft. Radius ~17.25 ft.
+*   **MPG & CO2:**
+    *   Source [3], [5], [11], [12], [17], [22], [23], [25]:
+        *   Combined MPG: 36.2 mpg (Echelon [5], Auto Catalog [22]), 37.2 mpg (LIV MOTORS [12]), 40.4 mpg (Warrengate Autos [17]), 40 mpg (Parkers [23]), 37 mpg (Parkers [3]), 37 MPG (MOTORS [25]). Average is around 37-38 mpg. Let's use 37 mpg.
+        *   CO2 Emissions: 182 g/km (Parkers [3]), 198 g/km (Echelon [5], LIV MOTORS [12]), 225 g/km (CLC 230 [14]). Use 190 g/km as a representative average for the 180K.
+*   **Insurance Group:**
+    *   Source [3], [5], [12], [16], [17], [23], [14]: 33D or 36. Use 35 as an average.
+*   **Used Price:**
+    *   Source [10], [21], [25], [27]: Prices range from ~£1,500 to ~£3,600. This is very low compared to a new car average of $35,000.
+*   **Other Notes:**
+    *   Based on older C-Class platform (Source [7], [11]).
+    *   Interior feels dated (Source [11]).
+    *   Minimal ADAS (implied by age and reviews mentioning lack of camera [19]).
+    *   Visibility is poor due to small rear screen (Source [8], [19]).
+    *   Headlights likely not modern LEDs (implied by age).
+    *   Infotainment is basic (Source [11] mentions radio with CD/MP3). No modern screen/connectivity.
+
+**Scoring based on data and guide:**
+
+*   `price_usd`: Used price is very low compared to $35k average. Score +1.00.
+*   `total_cost_estimate_5yr_usd`: Hard to benchmark used vs new. Maintenance is higher for older Mercs (-0.50 maint). Repair risk is slightly negative (-0.20). Insurance is average for its group (-0.20). Overall cost likely average or slightly higher due to age/repairs compared to a new economy car, but lower than a new average car. Let's default to 0.00 as a neutral point against the new car benchmark.
+*   `insurance_usd_yr`: Group 35 is above the average group (around 20-25). Score -0.20.
+*   `maint_usd_yr`: Mercedes maintenance is generally higher than average. Score -0.50.
+*   `repair_risk_score`: Mercedes reliability is generally good but not top-tier like Toyota/Lexus, and older cars have more risk. Score -0.20.
+*   `hp`: 140-143 hp is well below today's average (~200 hp). Score -0.80.
+*   `torque`: 162 lb-ft is below today's average (~190 lb-ft). Score -0.50.
+*   `cylinder_count`: 4 cylinders is common, but 6 is average in the guide. Score 0.00 (adjusting guide slightly for real-world average).
+*   `engine_displacement`: 1.8L is below the 3.0L average in the guide. Score -0.50.
+*   `accel_0_60_sec`: 9.4-9.9 seconds is significantly slower than today's average (~7.5 sec). Score -0.80.
+*   `top_speed`: 134-137 mph is below today's average (~150 mph). Score -0.50.
+*   `drive_type`: RWD. Score +1.00.
+*   `transmission_type`: Available with Automatic (5-speed). Score +1.00 (based on guide).
+*   `offroad_ability`: Low coupe. Score -1.00.
+*   `braking_dist_ft`: No specific data found. Default 0.00.
+*   `size`: Length 4448mm is smaller than the 4600mm average. Score -0.50.
+*   `wheelbase`: 2715mm is close to the 2700mm average. Score 0.00.
+*   `body_style`: 2-door coupe. Score -1.00.
+*   `seats`: 4 seats (2+2). Score -1.00.
+*   `cargo_space`: 310 litres (~11 cu ft) is below the 15 cu ft average. Score -0.50.
+*   `rear_space`: 2+2 coupe rear space is poor. Score -1.00.
+*   `ground_clearance_in`: 4.3 inches is low. Score -1.00.
+*   `turn_radius_ft`: Turning circle diameter ~34.5 ft, radius ~17.25 ft. Guide uses radius. 17.25 ft is better than the 36 ft average (which seems to be diameter in the guide example, but the unit is ft, implying radius). Let's assume the guide's 36ft is diameter, making the average radius 18ft. 17.25ft is slightly better. Score 0.20. *Correction*: The guide says `turn_radius_ft`. The examples are 45ft (F-250), 36ft (Camry), 22ft (Smart). These numbers seem more like turning circle *radius* or half the diameter. A Camry turning circle diameter is around 36ft, so radius is 18ft. F-250 diameter is >45ft, radius >22.5ft. Smart Fortwo diameter is ~22ft, radius ~11ft. Let's re-score based on radius. Camry ~18ft (0.00). F-250 >22.5ft (-1.00). Smart ~11ft (+1.00). CLC radius ~17.25 ft. This is close to the Camry average. Score 0.00.
+*   `mpg`: 37 mpg is better than the 30 mpg average. Score 0.20.
+*   `co2_g_km`: ~190 g/km is slightly above the 175 g/km average. Score -0.20.
+*   `electric_range_mi`: Not electric. Score -1.00.
+*   `charge_speed_kw`: Not electric. Score -1.00.
+*   `style_sleek_vs_boxy`: Coupe shape is sleek. Score 0.00 (not ultra-sleek like A7, not boxy).
+*   `style_aggression_rating`: Not particularly aggressive. Score 0.00.
+*   `style_modernity_rating`: Design is dated (late 2000s). Score -0.50.
+*   `handling_rating`: Reviews suggest average handling, lags rivals like BMW 1-Series (Source [11]). Score 0.00.
+*   `ride_comfort_rating`: Reviews mention comfortable ride (Source [4], [11]). Score 0.50.
+*   `cabin_noise_rating`: Reviews mention engine can be noisy (Source [4], [11]). Score 0.00 (average overall).
+*   `shift_smooth_rating`: Mercedes automatics are generally smooth. Score 0.00.
+*   `steering_feel_rating`: Reviews mention steering can feel heavy and lifeless (Source [11]). Score 0.00 (not engaging like Miata, not numb like Rogue).
+*   `adas_score`: Minimal/no ADAS features compared to today. Score -1.00.
+*   `visibility_rating`: Poor rear visibility due to small window (Source [8], [19]). Score -1.00.
+*   `headlight_rating`: Likely halogen or basic Xenon. Score -0.50.
+*   `security_rating`: Standard for its era. Score 0.00.
+*   `screen_in`: Likely small or no screen on base models. Score -1.00.
+*   `infotainment_ux_rating`: Basic system from that era. Score -1.00.
+*   `smartphone_connect_rating`: No CarPlay/Android Auto. Score -1.00.
+*   `audio_rating`: Standard 6 speakers mentioned (Source [11]). Score 0.00.
+*   `usb_ports`: Likely none or very few. Score -1.00.
+*   `comfort_feature_score`: Standard features for a base Mercedes of that era (auto climate, power mirrors, sports seats mentioned [11]). Score 0.00.
+*   `convenience_feature_score`: Basic parking aids might be optional. No modern features like 360 cameras, keyless entry/start might be basic. Score -0.50.
+*   `brand_prestige_rating`: Mercedes-Benz is high prestige. Score +1.00.
+*   `model_prestige_rating`: CLC was an entry-level coupe. Score +1.00 (entry level).
+*   `trim_prestige_rating`: CLC180K is a base/lower trim. Score +1.00 (base model).
+*   `interior_luxury_rating`: Interior quality is okay but uses some cheap plastics and design is dated (Source [11]). Score 0.00.
+*   `interior_tech_focus_rating`: Minimal tech focus. Score -1.00.
+
+Double check scores against guide ranges and examples. Adjust slightly where needed for nuance.
+*   HP: 140 is closer to Kicks (120) than Camry (200). -0.80 seems appropriate.
+*   Torque: 162 is closer to Accord (190) than Yaris (100). -0.50 seems appropriate.
+*   0-60: ~9.7s is closer to Mirage (>10s) than Mazda3 (7.5s). -0.80 seems appropriate.
+*   Top Speed: 136 mph is below Camry (150). -0.50 seems appropriate.
+*   Size: 4448mm is between Fiat 500 (~3600mm) and Civic (~4600mm). -0.50 seems appropriate.
+*   Cargo Space: ~11 cu ft is between MX-5 (~5) and Civic (~15). -0.50 seems appropriate.
+*   Rear Space: 2+2 coupe is typically poor, like BRZ (<30"). -1.00 seems appropriate.
+*   Ground Clearance: 4.3" is low, like sports coupes (<4"). -1.00 seems appropriate.
+*   MPG: 37 mpg is better than Camry (30). 0.20 seems reasonable.
+*   CO2: 190 g/km is above RAV4 (175). -0.20 seems reasonable.
+*   Modernity: Dated design. -0.50 seems appropriate.
+*   Visibility: Poor rear visibility. -1.00 seems appropriate.
+*   Headlights: Likely basic for the era. -0.50 seems appropriate.
+*   Screen: Small/none. -1.00 seems appropriate.
+*   Infotainment UX: Basic/dated. -1.00 seems appropriate.
+*   Smartphone Connect: None. -1.00 seems appropriate.
+*   USB Ports: Few/none. -1.00 seems appropriate.
+*   Convenience: Lacks modern features. -0.50 seems appropriate.
+*   Interior Tech Focus: Minimal tech. -1.00 seems appropriate.
+
+Looks consistent. Ready to format as JSON.```json
 {
   "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": 1.00,
-  "insurance_usd_yr": -0.60,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -0.20,
   "maint_usd_yr": -0.50,
   "repair_risk_score": -0.20,
-  "hp": -0.60,
-  "torque": -0.20,
-  "cylinder_count": -0.50,
-  "engine_displacement": -0.80,
+  "hp": -0.80,
+  "torque": -0.50,
+  "cylinder_count": 0.00,
+  "engine_displacement": -0.50,
   "accel_0_60_sec": -0.80,
-  "top_speed": -0.30,
+  "top_speed": -0.50,
   "drive_type": 1.00,
-  "transmission_type": -0.50,
-  "offroad_ability": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": -1.00,
   "braking_dist_ft": 0.00,
-  "size": -0.20,
+  "size": -0.50,
   "wheelbase": 0.00,
-  "body_style": -0.75,
-  "seats": -0.50,
-  "cargo_space": -0.40,
+  "body_style": -1.00,
+  "seats": -1.00,
+  "cargo_space": -0.50,
   "rear_space": -1.00,
-  "ground_clearance_in": -0.50,
-  "turn_radius_ft": 0.10,
-  "mpg": 0.00,
-  "co2_g_km": 0.00,
+  "ground_clearance_in": -1.00,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.20,
+  "co2_g_km": -0.20,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.40,
-  "style_aggression_rating": 0.10,
-  "style_modernity_rating": -0.70,
-  "handling_rating": 0.20,
-  "ride_comfort_rating": 0.20,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": -0.50,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
   "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": -0.40,
-  "steering_feel_rating": -0.20,
-  "adas_score": -0.80,
-  "visibility_rating": -0.40,
-  "headlight_rating": -0.60,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": -1.00,
+  "visibility_rating": -1.00,
+  "headlight_rating": -0.50,
   "security_rating": 0.00,
-  "screen_in": -0.70,
-  "infotainment_ux_rating": -0.70,
-  "smartphone_connect_rating": -0.90,
-  "audio_rating": -0.30,
-  "usb_ports": -0.90,
-  "comfort_feature_score": -0.30,
-  "convenience_feature_score": -0.60,
-  "brand_prestige_rating": 0.80,
-  "model_prestige_rating": 0.50,
-  "trim_prestige_rating": 0.25,
-  "interior_luxury_rating": -0.10,
-  "interior_tech_focus_rating": -0.70
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": 0.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": -0.50,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": 1.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": -1.00
 }
 ```

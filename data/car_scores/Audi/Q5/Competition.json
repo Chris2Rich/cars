@@ -1,0 +1,200 @@
+Based on the search results, the "latest Audi Q5 Competition" is most likely referring to the 2024 or 2025 Audi SQ5, as "Competition" is often a performance-oriented trim or package, and the SQ5 is the performance variant of the Q5. I will use data for the 2024/2025 Audi SQ5.
+
+Here's the breakdown of the scoring based on the gathered data and the provided guide:
+
+*   **price\_usd**: The 2024 Audi SQ5 starts around $57,700 MSRP (Source [3]). This is significantly above the $35,000 average, but not in the >$100,000 range. Score: -0.40.
+*   **total\_cost\_estimate\_5yr\_usd**: While a specific 5-year cost wasn't found, a higher purchase price, premium fuel requirement, and potential for higher maintenance on a performance model suggest costs above the $40,000 average. Score: -0.20 (defaulting slightly negative due to lack of exact data but understanding the vehicle type). *Correction*: Re-evaluating based on the price and performance nature, it's likely to be well above average. Let's adjust to -0.40.
+*   **insurance\_usd\_yr**: No specific annual cost found, but as a performance-oriented luxury SUV, it's likely to have higher insurance costs than average. UK insurance group data wasn't readily available in USD. Defaulting to 0.00 due to lack of specific data.
+*   **maint\_usd\_yr**: No specific annual cost found. Audi maintenance is generally considered average to slightly above average for a luxury brand. Defaulting to 0.00.
+*   **repair\_risk\_score**: Audi's reliability is often rated as average or slightly below average compared to top performers like Toyota/Lexus (Source [4]). Score: -0.10.
+*   **hp**: The 2024 SQ5 has 349 hp (Source [6]). This is well above the 200 hp average. Score: 0.40.
+*   **torque**: The 2024 SQ5 has 369 lb-ft of torque (Source [6]). This is well above the 190 lb-ft average. Score: 0.40.
+*   **cylinder\_count**: It has a V6 engine (6 cylinders) (Source [6]). The average is around 4-6 cylinders. Score: 0.00.
+*   **engine\_displacement**: It has a 3.0L engine (Source [6]). This is around the 3.0L average. Score: 0.00.
+*   **accel\_0\_60\_sec**: 4.7 seconds (Source [9]). This is significantly faster than the 7.5 seconds average. Score: 0.60.
+*   **top\_speed**: 155 mph (limited) (Source [9]). This is around the 150 mph average. Score: 0.00.
+*   **drive\_type**: All-wheel drive (Quattro) is standard (Source [5]). AWD is the benchmark average. Score: 0.00.
+*   **transmission\_type**: 8-speed automatic (Tiptronic) (Source [5]). Automatic is the benchmark for +1.00. Score: 1.00.
+*   **offroad\_ability**: It has AWD and an available adaptive air suspension with adjustable ride height and an off-road mode, but reviews suggest it's best for light trails, not serious off-roading (Source [13], [25]). Score: 0.10.
+*   **braking\_dist\_ft**: Edmunds measured 119 feet from 60 mph (Source [13]). This is better than the 125 ft average. Score: 0.20.
+*   **size**: It's a compact luxury SUV. Length is around 184.3-184.6 inches (Source [9], [15]). This is slightly larger than a Honda Civic (~182 inches) but smaller than large SUVs. Score: 0.10.
+*   **wheelbase**: 111 inches (Source [9]). This is longer than a Skoda Octavia (~105 inches) but shorter than an S-Class. Score: 0.20.
+*   **body\_style**: SUV/Sportback SUV (Source [14], [13]). The guide lists 4-door sedan/coupe as 0.00 and 5-door van as +1.00. An SUV is closer to a 5-door configuration with utility. Score: 0.30.
+*   **seats**: 5 seats (Source [7]). This is the market average. Score: 0.00.
+*   **cargo\_space**: 25.6-25.9 cu ft behind the rear seats (Source [7], [8]). This is significantly more than a Civic (15 cu ft) and approaches the >35 cu ft benchmark for +1.00. Score: 0.60.
+*   **rear\_space**: Reviews mention decent space, comfortable for a six-footer, but maybe a little tight compared to some rivals (Source [25]). No specific legroom number found. Defaulting to 0.00, but leaning slightly positive based on reviews. Let's go with 0.10.
+*   **ground\_clearance\_in**: Not explicitly stated in inches, but the design and off-road mode suggest it's higher than a sports coupe but not a dedicated off-roader. Reviews mention impressive ground clearance visually (Source [21]). Score: 0.20.
+*   **turn\_radius\_ft**: 38.7 ft (Source [14]). This is slightly larger than the Camry average (36 ft). Score: -0.10.
+*   **mpg**: 21 mpg combined (Source [7]). This is below the 30 mpg average. Score: -0.30.
+*   **co2\_g\_km**: 266 g/km (for Sportback, likely similar for standard) (Source [15]). This is significantly higher than the 175 g/km average. Score: -0.40.
+*   **electric\_range\_mi**: Not an EV. Score: -1.00.
+*   **charge\_speed\_kw**: Not an EV. Score: -1.00.
+*   **style\_sleek\_vs\_boxy**: It has a standard SUV shape, with the Sportback being sleeker. The standard SQ5 is not particularly sleek or boxy. Score: 0.00.
+*   **style\_aggression\_rating**: Has sporty S elements, unique grille, and quad exhaust finishers (Source [29]). More aggressive than a standard Q5. Score: 0.30.
+*   **style\_modernity\_rating**: The design is modern Audi, but the interior design is noted as starting to show its age compared to newer rivals (Source [4]). Score: 0.10.
+*   **handling\_rating**: Reviews praise its capable handling and balance, though some rivals like the Macan are sharper (Source [4], [13]). Score: 0.40.
+*   **ride\_comfort\_rating**: Highly praised for its comfortable and quiet ride, even for a sporty model, especially with the optional air suspension (Source [3], [4], [11], [13], [25]). Score: 0.60.
+*   **cabin\_noise\_rating**: Reviews consistently mention a quiet cabin with minimal wind, tire, or road noise (Source [3], [4], [11], [28]). Score: 0.60.
+*   **shift\_smooth\_rating**: The 8-speed automatic is described as smooth, though some reviews note occasional hesitation or slowness in deciding on a gear (Source [11], [13], [18]). Score: 0.30.
+*   **steering\_feel\_rating**: Described as direct but light and somewhat numb compared to rivals (Source [11], [13]). Score: -0.20.
+*   **adas\_score**: Comes standard with adaptive cruise control for 2024, available with a suite of features including blind-spot monitoring, lane-keeping assist, and parking cameras (Source [17], [13], [24]). Score: 0.40.
+*   **visibility\_rating**: Generally good visibility, with large windows and slim pillars, though the Sportback roofline slightly impacts rear visibility (Source [4], [13], [23]). Score: 0.30.
+*   **headlight\_rating**: Features matrix-style LED headlights (Source [16], [24]). Audi is known for excellent lighting. Score: 0.50.
+*   **security\_rating**: Audi Connect offers security features (Source [22]). No specific details on advanced security like trackers found. Defaulting to average, but leaning slightly positive for a luxury brand. Score: 0.10.
+*   **screen\_in**: Standard 10.1-inch touchscreen (Source [4], [13]). This is larger than the 8" average. Score: 0.40.
+*   **infotainment\_ux\_rating**: High-resolution, responsive touchscreen, but some find it distracting to use due to placement and lack of physical controller (Source [4], [13]). Audi Virtual Cockpit is praised (Source [4]). Score: 0.20.
+*   **smartphone\_connect\_rating**: Standard Apple CarPlay and Android Auto, wireless CarPlay available (Source [9], [13], [16], [17], [22]). Wired connection noted as more consistent (Source [13]). Score: 0.40.
+*   **audio\_rating**: Available Bang & Olufsen system with 3D sound (Source [2], [10], [18], [22]). Score: 0.60.
+*   **usb\_ports**: Standard two USB ports, three 12-volt outlets (Source [9], [16]). Score: 0.00.
+*   **comfort\_feature\_score**: Heated front sport seats standard, ventilated seats available, three-zone climate control, comfortable and supportive seats (Source [13], [16], [17], [29]). Available heated/cooled cupholder (Source [29]). Score: 0.50.
+*   **convenience\_feature\_score**: Adaptive cruise control standard for 2024, available 360-degree camera system, wireless charging, parking aids (Source [2], [13], [16], [17], [18]). Score: 0.50.
+*   **brand\_prestige\_rating**: Audi is a well-regarded luxury brand. Score: 0.40.
+*   **model\_prestige\_rating**: The Q5 is a popular mid-range model for Audi. Score: 0.00.
+*   **trim\_prestige\_rating**: The SQ5 is a higher-performance, higher-spec trim above the standard Q5. Score: -0.40.
+*   **interior\_luxury\_rating**: High-quality materials, fine Nappa leather with diamond stitching, carbon fiber trim available, well-built cabin (Source [3], [4], [11], [17], [28], [29]). Score: 0.60.
+*   **interior\_tech\_focus\_rating**: Features a large central screen and the Virtual Cockpit digital instrument panel, but retains some physical controls (Source [4], [13], [16], [17]). Score: 0.40.
+
+Let's refine some scores based on the guide ranges and comparisons.
+
+*   **price\_usd**: $57,700 is closer to the -$1.00 range (> $100k) than the +1.00 range (< $15k). $35k is 0.00. $57.7k is roughly halfway between $35k and $100k, but the scale is not strictly linear. Let's keep it at -0.40.
+*   **total\_cost\_estimate\_5yr\_usd**: Given the price, premium fuel, and luxury/performance nature, it's likely to be well above the $40k average. $60k is -1.00. It's probably closer to $50k-$60k. Let's score it -0.60.
+*   **insurance\_usd\_yr**: Performance luxury SUV will be higher than average. Let's estimate it's closer to the -$1.00 range ($2500+) than the +1.00 range ($800-). Let's score it -0.30.
+*   **maint\_usd\_yr**: Luxury German brand maintenance is typically higher than average. Closer to the -$1.00 range ($1200+) than +1.00 ($400-). Let's score it -0.30.
+*   **repair\_risk\_score**: Audi is average to slightly below average reliability. -0.10 seems appropriate.
+*   **hp**: 349 hp is significantly above 200 hp (0.00) and well below 700+ hp (+1.00). It's roughly halfway between 200 and 700. Score 0.40 seems reasonable.
+*   **torque**: 369 lb-ft is significantly above 190 lb-ft (0.00) and well below 1000+ lb-ft (+1.00). Score 0.40 seems reasonable.
+*   **accel\_0\_60\_sec**: 4.7 sec is much faster than 7.5 sec (0.00) and approaches 2.5 sec (+1.00). It's roughly halfway between 7.5 and 2.5. Score 0.60 seems appropriate.
+*   **top\_speed**: 155 mph is right at the 150 mph average. Score 0.00.
+*   **cargo\_space**: 25.6-25.9 cu ft is well above 15 cu ft (0.00) and approaching 35+ cu ft (+1.00). Score 0.60 seems appropriate.
+*   **co2\_g\_km**: 266 g/km is significantly above 175 g/km (0.00) and far from 0 g/km (+1.00). It's closer to the >300 g/km (-1.00). Score -0.60.
+*   **handling\_rating**: Praised but not best-in-class like a Porsche. Score 0.40.
+*   **ride\_comfort\_rating**: Highly praised, near best-in-class for a sporty SUV. Score 0.70.
+*   **cabin\_noise\_rating**: Highly praised, near best-in-class. Score 0.70.
+*   **shift\_smooth\_rating**: Generally smooth, but some hesitation noted. Score 0.20.
+*   **steering\_feel\_rating**: Noted as light and numb. Score -0.40.
+*   **adas\_score**: Good suite of available features, adaptive cruise standard. Score 0.50.
+*   **visibility\_rating**: Generally good. Score 0.30.
+*   **headlight\_rating**: Matrix LEDs, Audi known for good lights. Score 0.60.
+*   **screen\_in**: 10.1 inches is significantly larger than 8 inches (0.00) but not in the massive Tesla range (+1.00). Score 0.40 seems right.
+*   **infotainment\_ux\_rating**: Good features, but touchscreen placement and lack of controller are drawbacks. Score 0.20.
+*   **smartphone\_connect\_rating**: Standard wireless CarPlay/AA. Score 0.60.
+*   **audio\_rating**: Available B&O 3D system is high-end. Score 0.70.
+*   **comfort\_feature\_score**: Many luxury features available. Score 0.60.
+*   **convenience\_feature\_score**: Many convenience features available. Score 0.60.
+*   **brand\_prestige\_rating**: Audi is a strong luxury brand. Score 0.40.
+*   **model\_prestige\_rating**: Q5 is a core, popular model, not entry-level or halo. Score 0.00.
+*   **trim\_prestige\_rating**: SQ5 is a performance trim, higher than base, but not the absolute top RS model. Score -0.40.
+*   **interior\_luxury\_rating**: High-quality materials, luxury feel. Score 0.60.
+*   **interior\_tech\_focus\_rating**: Good tech integration with screens, but not as minimalist/screen-focused as some newer rivals. Score 0.40.
+
+Let's finalize the scores based on these refined values.
+
+```json
+{
+  "price_usd": -0.40,
+  "total_cost_estimate_5yr_usd": -0.60,
+  "insurance_usd_yr": -0.30,
+  "maint_usd_yr": -0.30,
+  "repair_risk_score": -0.10,
+  "hp": 0.40,
+  "torque": 0.40,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.60,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 0.10,
+  "braking_dist_ft": 0.20,
+  "size": 0.10,
+  "wheelbase": 0.20,
+  "body_style": 0.30,
+  "seats": 0.00,
+  "cargo_space": 0.60,
+  "rear_space": 0.10,
+  "ground_clearance_in": 0.20,
+  "turn_radius_ft": -0.10,
+  "mpg": -0.30,
+  "co2_g_km": -0.60,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.30,
+  "style_modernity_rating": 0.10,
+  "handling_rating": 0.40,
+  "ride_comfort_rating": 0.70,
+  "cabin_noise_rating": 0.70,
+  "shift_smooth_rating": 0.20,
+  "steering_feel_rating": -0.40,
+  "adas_score": 0.50,
+  "visibility_rating": 0.30,
+  "headlight_rating": 0.60,
+  "security_rating": 0.10,
+  "screen_in": 0.40,
+  "infotainment_ux_rating": 0.20,
+  "smartphone_connect_rating": 0.60,
+  "audio_rating": 0.70,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.60,
+  "convenience_feature_score": 0.60,
+  "brand_prestige_rating": 0.40,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -0.40,
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.40
+}
+``````json
+{
+  "price_usd": -0.40,
+  "total_cost_estimate_5yr_usd": -0.60,
+  "insurance_usd_yr": -0.30,
+  "maint_usd_yr": -0.30,
+  "repair_risk_score": -0.10,
+  "hp": 0.40,
+  "torque": 0.40,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.60,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 0.10,
+  "braking_dist_ft": 0.20,
+  "size": 0.10,
+  "wheelbase": 0.20,
+  "body_style": 0.30,
+  "seats": 0.00,
+  "cargo_space": 0.60,
+  "rear_space": 0.10,
+  "ground_clearance_in": 0.20,
+  "turn_radius_ft": -0.10,
+  "mpg": -0.30,
+  "co2_g_km": -0.60,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.30,
+  "style_modernity_rating": 0.10,
+  "handling_rating": 0.40,
+  "ride_comfort_rating": 0.70,
+  "cabin_noise_rating": 0.70,
+  "shift_smooth_rating": 0.20,
+  "steering_feel_rating": -0.40,
+  "adas_score": 0.50,
+  "visibility_rating": 0.30,
+  "headlight_rating": 0.60,
+  "security_rating": 0.10,
+  "screen_in": 0.40,
+  "infotainment_ux_rating": 0.20,
+  "smartphone_connect_rating": 0.60,
+  "audio_rating": 0.70,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.60,
+  "convenience_feature_score": 0.60,
+  "brand_prestige_rating": 0.40,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -0.40,
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.40
+}
+```

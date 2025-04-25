@@ -1,71 +1,63 @@
-**Reasoning:**
+The search results indicate that the 'E300h' designation was used for a mild-hybrid diesel variant in the previous generation (W212) (Source [20]). For the most recent generation (W214, 2024+), the hybrid E-Class models are primarily the E300e and E400e (petrol plug-in hybrids) and mild-hybrid petrol (E350, E450) and diesel (E220d, E450d) variants (Source [1, 2, 4, 5]). While some sources mention an 'E300' mild-hybrid petrol in certain markets (like Australia) (Source [7, 19, 25]), the 'h' suffix typically denotes a hybrid, and the primary hybrid offerings in the current generation are the PHEVs (E300e/E400e).
 
-The designation 'E300h' is not an official model identifier used by Mercedes-Benz for the E-Class in its *most recent* generation (W214, model year 2024 onwards).
+One search result [6, 9, 10, 13] specifically mentions a "Mercedes-Benz E-Class E300h MHEV" from 2021 and 2022, which falls under the previous W213 generation facelift. This was a mild-hybrid petrol model.
 
-*   **E300:** Indicates the performance level.
-*   **h:** While often used by other manufacturers to denote 'hybrid', Mercedes-Benz uses specific suffixes for its electrified E-Class models:
-    *   **e:** Denotes a petrol Plug-in Hybrid (PHEV), like the **E 300 e**.
-    *   **de:** Denotes a diesel Plug-in Hybrid (PHEV), like the **E 300 de**.
-    *   Mild-hybrid (MHEV) models, like the standard E 200 or E 450, typically do not carry a specific hybrid suffix on the main badge.
+Since the user is asking for the "most recent version" and the 'E300h' designation is not consistently applied to a specific variant in the current W214 generation across all major markets, and the most prominent recent use of 'E300h' in search results points to the previous generation's mild-hybrid petrol, I cannot definitively evaluate a "most recent E Class E300h".
 
-Given the user's input 'E300h', the most logical interpretation for the *most recent version* is the existing petrol Plug-in Hybrid model, the **Mercedes-Benz E 300 e (W214)**. This is the primary hybrid offering at the '300' level in the current lineup. The 'h' is likely an assumed suffix for 'hybrid'.
-
-Therefore, the evaluation provided below is for the **Mercedes-Benz E 300 e (W214)**, identical to the previous evaluation for 'E300e'.
-
-**Evaluation based on the 2024 Mercedes-Benz E 300 e (W214):**
+As per the instructions, when data is ambiguous or unclear (in this case, the requested configuration doesn't clearly map to a specific, consistently available variant in the most recent generation), I must default to returning a JSON with all values set to `0.00`.
 
 ```json
 {
-  "price_usd": -0.85,
-  "total_cost_estimate_5yr_usd": -0.70,
-  "insurance_usd_yr": -0.80,
-  "maint_usd_yr": -0.70,
-  "repair_risk_score": -0.30,
-  "hp": 0.40,
-  "torque": 0.60,
-  "cylinder_count": -0.40,
-  "engine_displacement": -0.50,
-  "accel_0_60_sec": 0.40,
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.00,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.00,
   "top_speed": 0.00,
-  "drive_type": 1.00,
-  "transmission_type": 1.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.30,
-  "size": 0.45,
-  "wheelbase": 0.55,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 0.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.00,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.10,
-  "rear_space": 0.70,
-  "ground_clearance_in": -0.80,
-  "turn_radius_ft": -0.15,
-  "mpg": 0.90,
-  "co2_g_km": 0.90,
-  "electric_range_mi": 0.80,
-  "charge_speed_kw": 0.15,
-  "style_sleek_vs_boxy": 0.80,
-  "style_aggression_rating": 0.10,
-  "style_modernity_rating": 0.95,
-  "handling_rating": 0.20,
-  "ride_comfort_rating": 0.95,
-  "cabin_noise_rating": 0.95,
-  "shift_smooth_rating": 0.95,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.00,
+  "co2_g_km": 0.00,
+  "electric_range_mi": 0.00,
+  "charge_speed_kw": 0.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.00,
   "steering_feel_rating": 0.00,
-  "adas_score": 0.90,
-  "visibility_rating": 0.10,
-  "headlight_rating": 0.90,
-  "security_rating": 0.75,
-  "screen_in": 0.90,
-  "infotainment_ux_rating": 0.85,
-  "smartphone_connect_rating": 1.00,
-  "audio_rating": 0.75,
-  "usb_ports": 0.70,
-  "comfort_feature_score": 0.85,
-  "convenience_feature_score": 0.85,
-  "brand_prestige_rating": 0.80,
+  "adas_score": 0.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.00,
   "model_prestige_rating": 0.00,
-  "trim_prestige_rating": -0.20,
-  "interior_luxury_rating": 0.85,
-  "interior_tech_focus_rating": 0.95
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": 0.00
 }
 ```

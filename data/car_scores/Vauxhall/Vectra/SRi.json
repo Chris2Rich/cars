@@ -1,0 +1,111 @@
+The Vauxhall Vectra SRi was part of the Vectra C generation, produced from 2002 to 2008 [39]. The SRi trim was positioned as a sportier option with various engine choices [9]. Evaluating this model against today's market standards means comparing a car from the early to mid-2000s to vehicles available in 2025. This results in significantly lower scores across most metrics, particularly technology, safety, and efficiency, while its low current market value results in a high score for price.
+
+Here's the evaluation based on typical specs for a Vauxhall Vectra C SRi, considering various engine options and the provided search results:
+
+*   **price_usd**: +1.00 - As a discontinued model from over 15 years ago, a used Vauxhall Vectra SRi would be significantly below the $15,000 threshold for a new car in today's market. Used prices are typically under £2,000 [13, 15, 17].
+*   **total_cost_estimate_5yr_usd**: 0.00 - While the purchase price is low, older cars typically incur higher maintenance and potential repair costs, balancing out the low initial cost compared to the average 5-year cost of a new vehicle. Some sources mention affordable servicing but also potential issues like clutch judder or fuel pump problems on certain engines [11, 22].
+*   **insurance_usd_yr**: 0.50 - Insurance groups for the Vectra C SRi varied depending on the engine, generally falling into lower to mid-range groups (e.g., 10-12 on the old 20 group scale, translating to 19-25 on the new 50 group scale) [9, 26, 31]. This is below the national average for a new car today.
+*   **maint_usd_yr**: -0.50 - Older vehicles generally require more frequent and potentially more expensive maintenance than modern cars. While some parts might be reasonably priced [10], potential issues exist [11, 22].
+*   **repair_risk_score**: -0.50 - While some reports suggest decent reliability for certain engines like the 1.8 or 2.0T [22, 36], others mention potential issues like clutch judder or fuel pump problems [11, 22]. Overall, an older mass-market car has a higher repair risk than the most reliable modern vehicles.
+*   **hp**: -0.50 - SRi models came with various engines, ranging from around 123 bhp (1.8L) to 173 bhp (2.0T) or 148 bhp (1.9 CDTi) [3, 5, 7, 12, 16, 20]. The 3.0 CDTi V6 had 174 bhp [10]. These figures are below the average horsepower of cars sold today (~200 hp), but the higher output engines prevent a -1.00 score.
+*   **torque**: -0.50 - Torque figures varied by engine, e.g., 125 lb-ft (1.8L), 195 lb-ft (2.0T), 232 lb-ft (1.9 CDTi 150ps) [1, 3, 5, 12, 16, 20]. While the diesel torque figures were decent for their time, they are only around average compared to the wide range of modern powertrains, including EVs.
+*   **cylinder_count**: 0.00 - Primarily equipped with 4-cylinder engines, with a V6 option available [3, 5, 6, 7, 9, 10, 12, 16, 20, 22, 23, 25, 28, 37]. 4-cylinders are common today, and the V6 option is less common but not rare enough for a high score.
+*   **engine_displacement**: 0.00 - Engine sizes ranged from 1.8L to 3.0L [3, 5, 6, 7, 9, 10, 12, 16, 20, 22, 23, 25, 28, 37]. This range is around the average displacement seen in a wide range of modern vehicles.
+*   **accel_0_60_sec**: -0.50 - 0-60 mph times varied from around 8.1 seconds (2.0T) to over 10 seconds (1.8L) [1, 3, 5, 6, 7, 12, 16, 20, 24]. The faster variants are closer to the modern average (~7.5 seconds), but the slower ones pull the score down.
+*   **top_speed**: 0.00 - Top speeds ranged from around 129 mph to 143 mph [3, 5, 6, 7, 12, 16, 20, 23]. This is around the average top speed for non-performance modern cars.
+*   **drive_type**: -1.00 - Front-wheel drive (FWD) was standard [3, 7], scoring -1.00.
+*   **transmission_type**: -0.50 - Available with 5 or 6-speed manual or older automatic transmissions [3, 5, 6, 7, 9, 16, 24, 37]. The 6-speed manual was considered an improvement [1], but these transmissions are less advanced than modern dual-clutch or smooth automatics.
+*   **offroad_ability**: 1.00 - A standard FWD sedan/hatchback has no offroad capability, scoring +1.00 on this inverse scale.
+*   **braking_dist_ft**: 0.00 - No specific data found, default to average.
+*   **size**: 0.00 - Lengths around 4.6-4.8 meters [3, 8, 9, 10, 16, 19, 23, 24, 25, 28, 30, 34, 37] place it in the mid-size category, comparable to average modern sedans/hatchbacks.
+*   **wheelbase**: 0.00 - Wheelbase around 2.7-2.8 meters [9, 10, 19, 23, 25, 30, 34, 37] is average for a modern mid-size car.
+*   **body_style**: 0.00 - Available as a 4-door saloon, 5-door hatchback, or estate [9, 10, 19, 38, 39], which are common body styles.
+*   **seats**: 0.00 - Standard 5-seater configuration [3, 5, 6, 9, 16, 23, 25, 37], which is the market average.
+*   **cargo_space**: 0.00 - Luggage capacity around 500-530 liters (approx 17.7-18.7 cu ft) for hatchback/saloon and up to 1850 liters (approx 65 cu ft) with seats folded for the estate [9, 19, 21, 23, 25, 30, 34, 37]. The hatchback/saloon is average, while the estate is large, averaging out to a 0.00.
+*   **rear_space**: -0.50 - Some reviews mention limited rear legroom despite the large boot [19]. Compared to modern cars, it's likely below average.
+*   **ground_clearance_in**: 0.00 - Standard sedan/hatchback ground clearance. One source mentions 132mm (approx 5.2 inches) [37], which is below the average for compact crossovers but not extremely low. Default to 0.00.
+*   **turn_radius_ft**: 0.00 - No specific data found, default to average for its size.
+*   **mpg**: -0.50 - Combined MPG figures varied significantly by engine, from around 25 mpg (2.8T V6) to nearly 50 mpg (1.9 CDTi) [1, 3, 5, 6, 8, 9, 11, 16, 18, 19, 20, 24, 28, 29, 32, 35]. Petrol engines were often less economical [11, 17, 32]. The range averages out to below the most efficient modern cars.
+*   **co2_g_km**: -0.50 - CO2 emissions ranged from around 154 g/km (1.9 CDTi) to over 260 g/km (2.8T V6) [1, 3, 5, 6, 8, 9, 16, 18, 19, 20, 23, 28, 32, 35]. These figures are generally higher than the average modern car, especially considering the prevalence of EVs.
+*   **electric_range_mi**: -1.00 - Not an electric vehicle.
+*   **charge_speed_kw**: -1.00 - Not an electric vehicle.
+*   **style_sleek_vs_boxy**: 0.00 - The facelifted Vectra C had a more rakish front [10], but the overall shape is a standard sedan/hatchback/estate, neither particularly sleek nor boxy by today's diverse standards.
+*   **style_aggression_rating**: 0.00 - The SRi trim had a sportier appearance with spoilers and different wheels [1, 9, 10], giving it a bit more presence than lower trims, but not truly aggressive by modern standards.
+*   **style_modernity_rating**: -1.00 - The design is clearly dated compared to modern automotive styling trends.
+*   **handling_rating**: -0.50 - While the facelift improved handling and steering feel [10], reviews from its era often noted it wasn't as sharp to drive as rivals like the Ford Mondeo [10, 19, 27]. Compared to modern cars, handling is likely below average.
+*   **ride_comfort_rating**: 0.00 - Often described as comfortable and refined for its time [2, 10, 19, 27], likely around average compared to the wide range of modern vehicles.
+*   **cabin_noise_rating**: 0.00 - Described as having a whisper-quiet cabin for its time [10], likely around average compared to modern cars, though some engine noise was noted [1, 14].
+*   **shift_smooth_rating**: -0.50 - Older manual and automatic transmissions are generally less smooth than modern counterparts. The 6-speed manual was an improvement [1], but still not as refined as modern transmissions.
+*   **steering_feel_rating**: -0.50 - While improved in the facelift [10], steering feel was sometimes described as rubbery or lacking feel compared to rivals [27].
+*   **adas_score**: -1.00 - Minimal to no advanced driver-assistance systems were available. Standard safety kit included airbags and ABS [9, 14, 19].
+*   **visibility_rating**: 0.00 - No specific issues noted, though one review mentioned the roof feeling low in the estate [8]. Likely average for its body style.
+*   **headlight_rating**: -1.00 - Likely equipped with halogen headlights, possibly projector halogens or basic Xenons on higher specs, but not modern high-performance LED or Matrix LED systems [9].
+*   **security_rating**: -0.50 - Standard features included central deadlocking and an engine immobiliser [9, 19]. Lacks the advanced tracking and security systems of high-security modern cars.
+*   **screen_in**: -1.00 - Featured a small monochromatic multi-function display [9], not a modern infotainment touchscreen. Optional satellite navigation was available with a graphic display [9].
+*   **infotainment_ux_rating**: -1.00 - Basic audio systems were standard [9]. Optional CD autochanger and MP3 compatibility were available [9], but the interface was basic compared to modern infotainment systems.
+*   **smartphone_connect_rating**: -1.00 - No smartphone connectivity features like Apple CarPlay or Android Auto. An auxiliary-in socket was available on some systems [9].
+*   **audio_rating**: -1.00 - Basic audio system was standard [9]. Optional upgrades were available, but not comparable to premium modern audio systems.
+*   **usb_ports**: -1.00 - No USB ports for charging or data.
+*   **comfort_feature_score**: -0.50 - SRi models had features like sports seats, adjustable steering column, and electric windows [9, 14, 21]. Climate control was often an optional extra [1]. Lacked many comfort features common today (e.g., heated/ventilated seats, multi-zone climate control).
+*   **convenience_feature_score**: -1.00 - Lacked modern convenience features like parking sensors (optional [8]), backup cameras, keyless entry/start, etc. Cruise control was standard [9].
+*   **brand_prestige_rating**: 0.00 - Vauxhall is a mainstream brand.
+*   **model_prestige_rating**: 0.00 - The Vectra was a mass-market family car, not a halo model.
+*   **trim_prestige_rating**: 0.00 - SRi was a mid-to-high sportier trim level [9], placing it in the middle of the range.
+*   **interior_luxury_rating**: -0.75 - The interior was functional with some sportier touches like aluminium-look inserts and sports seats [1, 9], but materials were generally not considered luxurious compared to premium brands [27].
+*   **interior_tech_focus_rating**: -1.00 - The interior design and features had minimal focus on integrated technology compared to modern vehicles.
+
+```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.50,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.50,
+  "hp": -0.50,
+  "torque": -0.50,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.50,
+  "top_speed": 0.00,
+  "drive_type": -1.00,
+  "transmission_type": -0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.00,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": -0.50,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.50,
+  "co2_g_km": -0.50,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": -1.00,
+  "handling_rating": -0.50,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": -0.50,
+  "steering_feel_rating": -0.50,
+  "adas_score": -1.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": -1.00,
+  "security_rating": -0.50,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": -1.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": -0.50,
+  "convenience_feature_score": -1.00,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": -0.75,
+  "interior_tech_focus_rating": -1.00
+}
+```

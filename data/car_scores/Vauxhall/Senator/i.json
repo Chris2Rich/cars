@@ -1,0 +1,67 @@
+The Vauxhall Senator 'i' refers to the fuel-injected versions of the Senator B, produced from 1987 to 1993. Evaluating a car from this era against modern benchmarks results in many low scores for features that did not exist or were significantly less advanced compared to today's vehicles. Based on the available information and applying the provided scoring guide relative to the *current* automotive market:
+
+*   **Cost & Risk:** The original price was high for its time but would be low compared to modern luxury cars (0.00 as it's not easily comparable). 5-year cost, maintenance, and repair risk are high due to age and potential parts scarcity (-1.00). Insurance group is difficult to determine precisely but likely not exceptionally low or high by modern standards (0.00).
+*   **Power & Performance:** Engines ranged from 2.5L to 3.0L inline-6, with power outputs from 140 to 204 hp and torque around 150-200 lb-ft. This is around the average for today's market (0.00). Cylinder count (6) and displacement (3.0L) are also near the modern average (0.00). 0-60 mph times were typically in the 7-10 second range, which is average to slightly below average today (0.00). Top speed was around 130-140 mph, average for today (0.00). It was RWD (+1.00). Transmission options included automatic (+1.00) and manual (-1.00); assuming the 'i' trim often came with the automatic or it was a popular option, scoring towards automatic is reasonable. Offroad ability was poor (+1.00). Braking distances were likely longer than modern cars (-1.00).
+*   **Space & Practicality:** It was a large sedan for its time (Length ~4845mm, Wheelbase ~2730mm), placing it slightly above average in size and wheelbase today (0.20, 0.10). Body style is a 4-door sedan (0.00). Seats are 5 (0.00). Cargo space was around 18.7 cu ft, which is good for a sedan, slightly above average (0.20). Rear space was likely good (0.00). Ground clearance was typical for a sedan (~5.5 inches), below average compared to modern crossovers (-0.50). Turning radius was around 33-36 ft, average (0.00).
+*   **Efficiency & Electrification:** MPG was typically in the low to mid-20s (UK mpg often cited higher), which is below average today (-0.20). CO2 emissions were high compared to modern standards (-1.00). It is not electric (-1.00 for EV metrics).
+*   **Ride & Dynamics:** Reviews from the era praised its comfortable ride and capable handling for a large sedan. Compared to modern cars, these aspects would likely be average (0.00). Cabin noise was noted as refined for its time, but modern cars are quieter (0.00). Shift smoothness (for the automatic) and steering feel (power steering was standard, some had Servotronic) were likely good for the era, placing them around average today (0.00).
+*   **Safety & Visibility:** ADAS features were non-existent (-1.00). Visibility was likely good due to thinner pillars compared to modern cars (0.00). Headlights were likely halogen or early projector, poor compared to modern LEDs (-1.00). Security features were basic (central locking, maybe an early alarm), poor by modern standards (-1.00). ABS was available on later models, which is a positive for its time but standard now (0.00).
+*   **Infotainment & Connectivity:** No modern screen, infotainment system, smartphone connectivity, or USB ports (-1.00 for all). Audio was a basic stereo with 4-6 speakers (-0.50).
+*   **Comfort & Convenience:** Features included power windows, central locking, potentially AC, power seats, heated seats on higher trims. Good for its time, but lacking many modern comfort/convenience features (-0.50).
+*   **Style, Brand & Interior Character:** Style was a typical sedan of the late 80s/early 90s (0.00 sleek/boxy), not aggressive (-1.00), and clearly dated (-1.00). Brand prestige (Vauxhall) is average (0.00). Model prestige (Senator was the flagship) was high for the brand (-1.00). Trim prestige ('i' or higher trims like CDi/24v) was high for the model (-1.00). Interior luxury (velour/leather, wood trim on higher trims) was good for its time but below modern luxury standards (-0.50). Interior tech focus was minimal (-1.00).
+
+```json
+{
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -1.00,
+  "hp": 0.00,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.00,
+  "top_speed": 0.00,
+  "drive_type": 1.00,
+  "transmission_type": 0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -1.00,
+  "size": 0.20,
+  "wheelbase": 0.10,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.20,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.20,
+  "co2_g_km": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -1.00,
+  "style_modernity_rating": -1.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": -1.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": -1.00,
+  "security_rating": -1.00,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": -0.50,
+  "usb_ports": -1.00,
+  "comfort_feature_score": -0.50,
+  "convenience_feature_score": -0.50,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": -0.50,
+  "interior_tech_focus_rating": -1.00
+}
+```

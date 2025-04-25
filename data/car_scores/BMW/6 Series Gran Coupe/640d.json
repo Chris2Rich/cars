@@ -1,0 +1,108 @@
+```json
+{
+  "price_usd": -0.80,
+  "total_cost_estimate_5yr_usd": -0.60,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.60,
+  "repair_risk_score": 0.10,
+  "hp": 0.60,
+  "torque": 0.70,
+  "cylinder_count": 0.40,
+  "engine_displacement": 0.40,
+  "accel_0_60_sec": 0.60,
+  "top_speed": 0.10,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.60,
+  "wheelbase": 0.60,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": -0.40,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.60,
+  "turn_radius_ft": -0.30,
+  "mpg": 0.10,
+  "co2_g_km": 0.20,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.70,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.30,
+  "handling_rating": 0.40,
+  "ride_comfort_rating": 0.70,
+  "cabin_noise_rating": 0.70,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.30,
+  "adas_score": 0.00,
+  "visibility_rating": -0.30,
+  "headlight_rating": 0.40,
+  "security_rating": 0.50,
+  "screen_in": 0.20,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": 0.60,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.70,
+  "convenience_feature_score": 0.60,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": -0.60,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.80,
+  "interior_tech_focus_rating": 0.10
+}
+```
+**Evaluation Reasoning:**
+
+*   `price_usd`: The 2018 BMW 640d Gran Coupe had a new price in the UK around £64,000 - £69,000 depending on trim (Source [13], [33]). Converting this to USD (using ~1.25 USD/GBP) gives a range of approximately $80,000 - $86,250. This is significantly higher than the $35,000 market average, placing it firmly in the negative range.
+*   `total_cost_estimate_5yr_usd`: As a luxury BMW, the 640d Gran Coupe has a high initial cost and is expected to have above-average depreciation, maintenance, and insurance costs. This pushes the estimated 5-year ownership cost well above the $40,000 average.
+*   `insurance_usd_yr`: The BMW 640d is in high UK insurance groups (Group 47-50) (Source [16], [30], [35]), indicating high insurance costs, likely exceeding the $2,500/year benchmark for -1.00, but not extremely high compared to some sports cars.
+*   `maint_usd_yr`: BMWs, especially diesel variants, can have higher maintenance costs than average mainstream vehicles. While not the absolute highest, they are above the $750 benchmark. Some sources mention potential issues like timing chains and bearings if not maintained properly (Source [31]).
+*   `repair_risk_score`: While BMW generally has average to slightly above-average reliability, the N57 diesel engine in the 640d has some reported potential issues like crankshaft/main bearings if oil changes are neglected (Source [31]). This slightly lowers the score from a perfect average. KBB owner reviews for the 6 Series Gran Coupe overall are positive (4.6/5) (Source [29]).
+*   `hp`: The 640d produces 313 hp (Source [3], [5], [14], [20], [24]), which is significantly above the 200 hp market average.
+*   `torque`: The 640d produces 630 Nm (465 lb-ft) of torque (Source [3], [5], [14], [24]), which is substantially higher than the 190 lb-ft average, especially for a diesel.
+*   `cylinder_count`: It has a 6-cylinder engine (Source [3], [14], [24]), which is above the common 4-cylinder average.
+*   `engine_displacement`: The engine displacement is 3.0L (Source [3], [5], [14], [24]), larger than the typical market average.
+*   `accel_0_60_sec`: 0-60 mph is estimated around 5.1-5.4 seconds (Source [3], [7], [14], [19], [24]), which is considerably faster than the 7.5-second average.
+*   `top_speed`: The top speed is electronically limited to 155 mph (250 km/h) (Source [5], [7], [14], [24]), slightly above the 150 mph average.
+*   `drive_type`: The 640d was available with both Rear-Wheel Drive (RWD) and xDrive All-Wheel Drive (AWD) (Source [7], [14], [24]). Since both were offered, scoring 0.00 for AWD as the average is appropriate, or acknowledging both possibilities. Given the prevalence of AWD in the segment and its availability, 0.00 seems reasonable.
+*   `transmission_type`: It uses an 8-speed automatic transmission (Source [3], [4], [7], [14], [18], [24], [26]), which is smooth and modern, scoring +1.00.
+*   `offroad_ability`: This vehicle has low ground clearance (around 5 inches) (Source [4], [7]) and is not designed for off-road use, scoring +1.00 as per the inverted scale for poor ability.
+*   `braking_dist_ft`: No specific braking distance figures were readily available in the search results. Defaulting to 0.00.
+*   `size`: With a length of around 5007-5009mm (197.1 inches) (Source [4], [7], [17], [25], [37], [39]), it is a large vehicle, exceeding the 4600mm average.
+*   `wheelbase`: The wheelbase is around 2968-2969mm (116.9 inches) (Source [4], [7], [17], [37], [39]), longer than the 2700mm average.
+*   `body_style`: It is a 4-door coupe/sedan (Source [3], [4], [7], [13], [26], [37]), which aligns with the 0.00 benchmark.
+*   `seats`: It is listed as having 5 seats, although the middle rear seat is small and best for occasional use (4+1 seating) (Source [18], [37]). This aligns with the 5-seat market average.
+*   `cargo_space`: The trunk space is 460 liters (16.2 cu ft) (Source [7], [17], [25], [28], [37], [39]), which is slightly above the 15 cu ft average, but less than larger SUVs or wagons. However, some sources list 13.0 cu ft (Source [12], [29]). Using the more common 460L/16.2 cu ft figure, it's slightly above average. Let's adjust to 0.00. *Correction*: Multiple sources list 13.0 cu ft (Source [12], [29]), which is below the 15 cu ft average. Score -0.40.
+*   `rear_space`: Rear legroom is around 35.3 inches (Source [28]), which is close to the 35-inch average. Rear headroom is limited due to the sloping roofline (Source [2], [18], [37]). Using the legroom number for the score.
+*   `ground_clearance_in`: Ground clearance is around 126mm (5 inches) (Source [4], [7]), which is lower than the 6.5-inch average for compact crossovers, but not as low as a dedicated sports car.
+*   `turn_radius_ft`: The turning circle is around 11.95m (39.21 ft) (Source [7]), which is larger than the 36 ft average for a midsize sedan.
+*   `mpg`: Combined fuel consumption is stated as 5.4-5.6 L/100km (42-51 UK MPG or 39-42 US MPG equivalent) (Source [5], [7], [14], [24], [26]). User reviews suggest real-world MPG is lower, around 8.7 L/100km (27 US MPG equivalent) (Source [14], [24]). Compared to the 30 mpg average, the real-world figure is slightly below, while the official figure is above. Let's average this to around the 30 mpg mark, maybe slightly above due to the diesel efficiency potential. Score 0.10.
+*   `co2_g_km`: CO2 emissions are listed around 146-153 g/km (Source [5], [14], [23]). This is below the 175 g/km average for a RAV4. Score 0.20.
+*   `electric_range_mi`: This is a gasoline-powered vehicle, so it has no electric range.
+*   `charge_speed_kw`: This is a gasoline-powered vehicle, so this metric is not applicable.
+*   `style_sleek_vs_boxy`: The Gran Coupe body style is designed to be sleek and coupe-like (Source [2], [8], [21], [25]), scoring high on this scale.
+*   `style_aggression_rating`: The design features aggressive elements like a prominent grille and sleek lines, giving it an above-average aggression rating (Source [18]).
+*   `style_modernity_rating`: For a 2018 model, the design was modern and stylish, though not as avant-garde as some of the latest EV designs (Source [18]).
+*   `handling_rating`: Reviews indicate good handling for a large GT car, feeling nimble in fast corners and tight turns, but not an out-and-out sportscar (Source [2], [10], [18], [25], [36]). Score 0.40.
+*   `ride_comfort_rating`: Reviews consistently praise the comfortable ride quality, especially in Comfort+ mode, suitable for grand touring (Source [2], [10], [18], [25], [32]). Score 0.70.
+*   `cabin_noise_rating`: The cabin is noted as being quiet and well-insulated, contributing to its grand touring nature (Source [18]). Score 0.70.
+*   `shift_smooth_rating`: The 8-speed automatic transmission is widely praised for its smooth and seamless shifts (Source [10], [18], [24]). Score 0.80.
+*   `steering_feel_rating`: Steering is described as responsive and feelsome, though perhaps heavy compared to modern electric racks (Source [2], [10], [18]). Score 0.30.
+*   `adas_score`: The 2018 model offered several ADAS features (Adaptive Cruise Control with Stop & Go, Blind Spot Detection, Lane Departure Warning, Surround View Camera, Head-Up Display) (Source [8], [9], [16], [27]) but lacked the full suite and advanced capabilities of the top systems available today. Score 0.00.
+*   `visibility_rating`: Rear visibility is noted as being somewhat restricted due to the sloping roofline and shallow windows (Source [2], [18]). Score -0.30.
+*   `headlight_rating`: Standard adaptive Xenon or available Adaptive LED headlights provided good illumination for the time (Source [8], [9], [16], [27]). Score 0.40.
+*   `security_rating`: As a luxury vehicle, it comes equipped with standard security features like alarms and immobilizers, likely above basic levels. Some sources mention theft of interiors (Source [35]). Score 0.50.
+*   `screen_in`: The standard 10.2-inch infotainment screen (Source [9], [40]) was large and high-resolution for a 2018 vehicle, though average compared to today's largest screens. Score 0.20.
+*   `infotainment_ux_rating`: BMW's iDrive system (version 6.0) in 2018 was generally well-regarded for its usability and intuitive nature, despite some finding it complex initially (Source [8], [10], [18], [32]). It was better than systems scoring -1.00. Score 0.40.
+*   `smartphone_connect_rating`: Apple CarPlay was available (often optional) (Source [8]), but Android Auto was not supported (Source [10]), and wireless connectivity wasn't standard across the board compared to today's market. Score 0.00.
+*   `audio_rating`: A good standard audio system was included, with excellent premium options (Harman Kardon, Bang & Olufsen) available (Source [6], [9], [16], [40]). Score 0.60.
+*   `usb_ports`: At least one USB port was standard (Source [9]), but the total number might be average compared to modern vehicles with multiple ports in each row. Defaulting to 0.00.
+*   `comfort_feature_score`: Standard features included heated power seats, dual-zone climate, and leather (Source [8], [9], [21], [40]). Optional features like ventilated, massaging, multi-contour, and multi-way adjustable seats, heated rear seats, and steering wheel provided a high level of comfort (Source [2], [6], [9], [16], [21]). Score 0.70.
+*   `convenience_feature_score`: Features like navigation, rearview camera, parking sensors, keyless entry, power trunk, available soft-close doors, HUD, wireless charging, and Wi-Fi hotspot provided a high level of convenience features for 2018 (Source [6], [8], [9], [16], [21], [40]). Score 0.60.
+*   `brand_prestige_rating`: BMW is a well-established, high-prestige luxury brand. Score 0.80.
+*   `model_prestige_rating`: The 6 Series was positioned above the 5 Series, representing a higher tier within BMW's lineup, but not the absolute flagship like the 7 Series or 8 Series (which replaced the 6). Compared to the guide's examples, it fits somewhere in the middle/upper-middle of the brand's range. The guide's scale is inverted for this metric (-1.00 is top, +1.00 is entry), so a higher model line scores negatively. Score -0.60.
+*   `trim_prestige_rating`: The 640d is a mid-range engine trim within the 6 Series Gran Coupe lineup (below the 650i and M6/Alpina B6). Scoring 0.00 is appropriate.
+*   `interior_luxury_rating`: The interior used high-quality materials like leather and wood/carbon fiber trim, with excellent fit and finish, providing a luxurious environment (Source [2], [8], [9], [21], [25]). Score 0.80.
+*   `interior_tech_focus_rating`: While featuring a large screen and iDrive, the interior design was less dominated by screens and digital interfaces compared to the most modern luxury vehicles, balancing traditional luxury with technology (Source [18]). Score 0.10.

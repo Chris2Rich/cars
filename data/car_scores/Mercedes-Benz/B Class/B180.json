@@ -1,55 +1,109 @@
 ```json
 {
-  "price_usd": -0.25,
-  "total_cost_estimate_5yr_usd": -0.25,
-  "insurance_usd_yr": -0.20,
-  "maint_usd_yr": -0.20,
-  "repair_risk_score": -0.10,
-  "hp": -0.35,
-  "torque": -0.10,
-  "cylinder_count": -0.50,
-  "engine_displacement": -0.80,
-  "accel_0_60_sec": -0.40,
-  "top_speed": -0.10,
-  "drive_type": -1.00,
+  "price_usd": -0.10,
+  "total_cost_estimate_5yr_usd": -0.20,
+  "insurance_usd_yr": -0.10,
+  "maint_usd_yr": -0.30,
+  "repair_risk_score": 0.10,
+  "hp": -0.10,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.10,
+  "top_speed": 0.00,
+  "drive_type": -0.50,
   "transmission_type": 0.00,
-  "offroad_ability": 0.90,
+  "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": -0.20,
-  "wheelbase": 0.01,
-  "body_style": 0.50,
+  "size": 0.10,
+  "wheelbase": 0.10,
+  "body_style": 0.10,
   "seats": 0.00,
-  "cargo_space": 0.10,
-  "rear_space": 0.20,
-  "ground_clearance_in": -0.50,
+  "cargo_space": 0.30,
+  "rear_space": 0.40,
+  "ground_clearance_in": -0.10,
   "turn_radius_ft": 0.00,
-  "mpg": 0.40,
-  "co2_g_km": 0.25,
+  "mpg": 0.30,
+  "co2_g_km": 0.30,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": -0.40,
-  "style_modernity_rating": 0.50,
-  "handling_rating": -0.30,
-  "ride_comfort_rating": 0.40,
-  "cabin_noise_rating": 0.40,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": -0.30,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": 0.30,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.30,
+  "cabin_noise_rating": 0.30,
+  "shift_smooth_rating": 0.20,
+  "steering_feel_rating": 0.00,
   "adas_score": 0.40,
-  "visibility_rating": 0.30,
-  "headlight_rating": 0.40,
-  "security_rating": 0.20,
-  "screen_in": 0.70,
-  "infotainment_ux_rating": 0.80,
-  "smartphone_connect_rating": 0.70,
+  "visibility_rating": 0.50,
+  "headlight_rating": 0.20,
+  "security_rating": 0.30,
+  "screen_in": 0.50,
+  "infotainment_ux_rating": 0.30,
+  "smartphone_connect_rating": 0.50,
   "audio_rating": 0.20,
-  "usb_ports": 0.20,
+  "usb_ports": 0.10,
   "comfort_feature_score": 0.40,
   "convenience_feature_score": 0.40,
   "brand_prestige_rating": 0.70,
-  "model_prestige_rating": 0.50,
-  "trim_prestige_rating": 1.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.50,
   "interior_luxury_rating": 0.40,
-  "interior_tech_focus_rating": 0.80
+  "interior_tech_focus_rating": 0.50
 }
 ```
+
+**Reasoning for each rating (Mercedes-Benz B Class B180, W247 Facelift):**
+
+*   **price\_usd:** UK pricing for the B180 starts around £35,435 (Sport Executive trim), which is very close to the market average of $35,000 USD.
+*   **total\_cost\_estimate\_5yr\_usd:** While the purchase price is near average, Mercedes-Benz vehicles typically have higher maintenance and insurance costs than average mass-market cars, placing the total ownership cost slightly above average.
+*   **insurance\_usd\_yr:** The B180 falls into insurance groups starting around 19, which is around or slightly above the national average.
+*   **maint\_usd\_yr:** Mercedes-Benz maintenance costs are consistently reported as higher than average compared to non-premium brands.
+*   **repair\_risk\_score:** The B-Class, sharing components with the A-Class, is generally considered dependable for a premium car, scoring around average to slightly above average for reliability.
+*   **hp:** The B180 petrol engine produces 136 HP (with a 14 HP mild-hybrid boost). This is below the average horsepower for a modern compact car (around 200 hp).
+*   **torque:** The B180 petrol engine produces 200 Nm (147 lb-ft) of torque, which is around the market average.
+*   **cylinder\_count:** The B180 engine is a 4-cylinder, which is the market average.
+*   **engine\_displacement:** The B180 petrol engine is 1.3L, which is within the average range for modern turbocharged compact cars.
+*   **accel\_0\_60\_sec:** The 0-60 mph time for the B180 petrol is around 8.6-9.0 seconds, which is slower than the market average of 7.5 seconds.
+*   **top\_speed:** The top speed of 132 mph is around the market average.
+*   **drive\_type:** The B180 is primarily Front-Wheel Drive (FWD), which scores -1.00 as per the guide, making it below average.
+*   **transmission\_type:** The B180 petrol uses a 7-speed dual-clutch automatic transmission, which is rated as average (0.00).
+*   **offroad\_ability:** The B-Class is a road-focused vehicle with low ground clearance (approx 4.1 inches), offering poor off-road ability, scoring +1.00.
+*   **braking\_dist\_ft:** No specific data indicates poor braking performance; it is expected to be competent and around average for its class.
+*   **size:** With a length of 4419mm, it is slightly larger than a typical compact hatchback, placing it slightly above average.
+*   **wheelbase:** The 2729mm wheelbase is slightly longer than average for a compact car, contributing to interior space.
+*   **body\_style:** A 5-door hatchback/small MPV is a practical body style, close to the 4-door sedan/coupe average.
+*   **seats:** Standard 5 seats, which is the market average.
+*   **cargo\_space:** Offers good standard cargo space (445-455 litres) and excellent maximum space with seats folded (1530-1540 litres), placing it above average.
+*   **rear\_space:** Reviews consistently note generous rear legroom, better than many cars its size.
+*   **ground\_clearance\_in:** At around 4.1 inches, the ground clearance is below the average for compact crossovers and closer to a standard car.
+*   **turn\_radius\_ft:** The turning radius of approximately 36 ft is right around the market average.
+*   **mpg:** Fuel economy for the B180 petrol (42-46 UK mpg) is above average for a non-hybrid petrol car.
+*   **co2\_g\_km:** CO2 emissions for the B180 petrol (123-142 g/km) are relatively low for an internal combustion engine, scoring below the average ICE car.
+*   **electric\_range\_mi:** The B180 is a mild-hybrid petrol, not a full electric vehicle. Scores -1.00 as per the guide for non-electric.
+*   **charge\_speed\_kw:** Not applicable to standard petrol models. Scores -1.00 as per the guide for non-electric.
+*   **style\_sleek\_vs\_boxy:** Its tall hatchback shape is not sleek like a coupe, but the styling is smooth, placing it around the average.
+*   **style\_aggression\_rating:** The standard B180 styling is not particularly aggressive.
+*   **style\_modernity\_rating:** The facelifted design looks modern and contemporary.
+*   **handling\_rating:** Handling is described as safe and competent but not particularly engaging or sporty, placing it around average.
+*   **ride\_comfort\_rating:** Reviews highlight a comfortable ride, described as nicely absorbent, placing it above average for its segment.
+*   **cabin\_noise\_rating:** The cabin is generally well-insulated, providing a quiet ride, which is above average for the segment.
+*   **shift\_smooth\_rating:** The dual-clutch transmission is generally described as smooth in operation.
+*   **steering\_feel\_rating:** Steering is light and accurate for easy maneuvering but lacks significant feedback, placing it around average.
+*   **adas\_score:** Offers a good suite of standard ADAS features (like AEB, Lane Keeping Assist, reversing camera) and comprehensive optional packages, scoring above average.
+*   **visibility\_rating:** The raised driving position and large windows provide excellent all-around visibility.
+*   **headlight\_rating:** Features standard LED headlights, with optional advanced LED systems available, placing it above average.
+*   **security\_rating:** As a Mercedes-Benz, it comes with a good level of standard security features.
+*   **screen\_in:** Standard dual 10.25-inch screens are large and contribute significantly to the interior's tech focus, well above average.
+*   **infotainment\_ux\_rating:** The MBUX system is visually impressive and feature-rich, though some controls can be complex. It's a modern and capable system, above average.
+*   **smartphone\_connect\_rating:** Includes standard Apple CarPlay and Android Auto, with wireless connectivity available, which is excellent.
+*   **audio\_rating:** The standard audio system is likely average, but premium sound system options are available.
+*   **usb\_ports:** Includes multiple USB-C ports, which is around average to slightly above.
+*   **comfort\_feature\_score:** Offers good standard comfort features like heated front seats and dual-zone climate control, with more advanced options available.
+*   **convenience\_feature\_score:** Includes standard features like a reversing camera and parking assist, with advanced options like a 360-degree camera available.
+*   **brand\_prestige\_rating:** Mercedes-Benz is a highly prestigious premium brand.
+*   **model\_prestige\_rating:** The B-Class is positioned in the middle of the Mercedes-Benz model range.
+*   **trim\_prestige\_rating:** The B180 engine is available on lower to mid-range trims (Sport Executive, AMG Line). This places its trim prestige rating between base and good trim.
+*   **interior\_luxury\_rating:** The interior features quality materials and design, providing a luxurious feel for the segment, above average but not top-tier luxury.
+*   **interior\_tech\_focus\_rating:** The interior design is heavily focused on the large screens and digital interfaces of the MBUX system, indicating a high tech focus.

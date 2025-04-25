@@ -1,0 +1,111 @@
+The search results confirm that 'Turbo' is not a trim level for the most recent Vauxhall Corsa (facelifted Corsa F, 2023 onwards). Instead, it refers to the turbocharged 1.2-litre petrol engine, available in 100PS and 130PS variants, across various current trims like Design, GS, and Ultimate (Sources [1], [4], [7], [12], [15], [28], [33], [34]). I will evaluate the Corsa equipped with these turbocharged engines, averaging where appropriate.
+
+Here is the evaluation based on the gathered data for the 1.2 Turbo 100PS and 130PS engines in the current Corsa:
+
+*   **price_usd**: Prices for the Corsa 1.2 Turbo start around £17,262 to £23,003 in the UK (Sources [4], [5], [30]). This translates to roughly $22,000 - $29,000 USD, which is below the market average of $35,000. Score: 0.60.
+*   **total_cost_estimate_5yr_usd**: Corsa generally has reasonable running costs. Likely around the market average. Score: 0.00.
+*   **insurance_usd_yr**: Insurance groups for the 1.2 Turbo models range from around 10 to 26 (Sources [2], [11], [19], [38], [39]). This is generally below the national average of $1,500/year. Score: 0.40.
+*   **maint_usd_yr**: Vauxhall maintenance costs are typically average. Score: 0.00.
+*   **repair_risk_score**: Vauxhall/Opel reliability is generally considered average. Score: 0.00.
+*   **hp**: 100PS (~99hp) and 130PS (~128hp) (Sources [1], [3], [4], [6], [7], [12], [23], [24], [25], [27], [28], [32], [33], [34], [35], [40]). These figures are well below the market average of 200 hp. Score: -0.80.
+*   **torque**: 100PS has 205 Nm (~151 lb-ft), 130PS has 230 Nm (~170 lb-ft) (Sources [1], [6], [9], [23], [24], [27]). These are below the average of 190 lb-ft. Score: -0.50.
+*   **cylinder_count**: 3 cylinders (Sources [1], [3], [4], [7], [12], [28], [34], [35], [39]). Below average. Score: -0.50.
+*   **engine_displacement**: 1.2L (Sources [1], [2], [3], [4], [7], [12], [23], [24], [25], [27], [28], [31], [32], [33], [34], [35], [39], [40]). Well below average. Score: -0.80.
+*   **accel_0_60_sec**: 100PS is around 9.9-10.8 seconds, 130PS is around 8.4-8.7 seconds (Sources [3], [4], [6], [12], [23], [24], [25], [28], [35]). Average is 7.5 sec. Performance is below average. Score: -0.40.
+*   **top_speed**: 100PS is around 119-121 mph, 130PS is around 129-130 mph (Sources [3], [6], [12], [25]). Average is 150 mph. Below average. Score: -0.50.
+*   **drive_type**: FWD (Sources [3], [12]). Poor. Score: -1.00.
+*   **transmission_type**: Available with 6-speed manual or 8-speed automatic (Sources [1], [3], [4], [8], [12], [28], [34], [35]). Automatic is +1.00, Manual is -1.00. Average is 0.00. Score: 0.00.
+*   **offroad_ability**: Not designed for off-road use. Poor. Score: 1.00.
+*   **braking_dist_ft**: No specific data found for Turbo models. Assume average for the segment. Score: 0.00.
+*   **size**: Length around 4060mm (Sources [2], [3], [9], [12], [26], [31]). Well below the average of 4600mm. Score: -0.70.
+*   **wheelbase**: Around 2538mm (Sources [2], [3], [9], [12]). Below the average of 2700mm. Score: -0.30.
+*   **body_style**: 5-door hatchback. Average. Score: 0.10.
+*   **seats**: 5 seats (Sources [2], [3], [9], [12], [17], [26]). Average. Score: 0.00.
+*   **cargo_space**: Around 309 litres (10.9 cu ft) (Sources [2], [9], [12], [18], [31], [37]). Below the average of 15 cu ft. Score: -0.50.
+*   **rear_space**: Limited rear legroom typical for a supermini (Source [18]). Below average. Score: -0.50.
+*   **ground_clearance_in**: No specific data found for Turbo models. Assume typical for a small hatchback, around 5-6 inches. Below average compared to the benchmark average of 6.5". Score: -0.30.
+*   **turn_radius_ft**: No specific data found for Turbo models. Small size suggests good turn radius. Score: 0.30.
+*   **mpg**: 100PS is around 50.4-55.4 mpg UK, 130PS is around 50.4-51.4 mpg UK (Sources [1], [3], [4], [10], [23], [24], [25], [28], [32], [35]). This is well above the average of 30 mpg. Score: 0.70.
+*   **co2_g_km**: 100PS is around 114-128 g/km, 130PS is around 124-139 g/km (Sources [3], [4], [12], [25], [31], [32]). Well below the average of 175 g/km. Score: 0.60.
+*   **electric_range_mi**: Not an EV or PHEV. Score: -1.00.
+*   **charge_speed_kw**: Not applicable. Score: -1.00.
+*   **style_sleek_vs_boxy**: Modern supermini design, reasonably sleek with the Vizor front (Sources [1], [28], [33], [34]). Score: 0.20.
+*   **style_aggression_rating**: Standard modern hatchback styling, GS trim adds some sporty cues (Sources [17], [33]). Score: 0.10.
+*   **style_modernity_rating**: Facelifted model looks modern with updated styling and tech (Sources [1], [7], [15], [21], [28], [33], [34], [35]). Score: 0.50.
+*   **handling_rating**: Generally competent and agile for a supermini, but not the most engaging (Sources [1], [35]). Average. Score: 0.00.
+*   **ride_comfort_rating**: Decent for the class, can be a bit firm on larger wheels (Source [35]). Average. Score: 0.00.
+*   **cabin_noise_rating**: 3-cylinder engine can be thrummy, especially when pushed (Source [35]). Average to slightly below average. Score: -0.10.
+*   **shift_smooth_rating**: Manual gearbox is slick, automatic is generally smooth but can be occasionally hesitant (Sources [1], [35]). Average. Score: 0.00.
+*   **steering_feel_rating**: Light and easy for city driving, lacks feedback (Sources [1], [35]). Below average for engagement. Score: -0.30.
+*   **adas_score**: Good range of ADAS features available depending on trim, including AEB, Lane Keep Assist, Speed Sign Recognition, Adaptive Cruise Control, Panoramic Rear View Camera, etc. (Sources [1], [3], [4], [7], [8], [13], [14], [15], [17], [21], [22], [29], [31], [33], [34]). Above average for the segment. Score: 0.50.
+*   **visibility_rating**: Good forward visibility, rear visibility can be slightly restricted. Average. Score: 0.00.
+*   **headlight_rating**: LED headlights standard, Matrix LEDs on top trims (Sources [3], [7], [8], [13], [14], [15], [17], [21], [22], [30], [33]). Above average. Score: 0.50.
+*   **security_rating**: Standard security features for the class (Sources [13], [17]). Average. Score: 0.00.
+*   **screen_in**: Touchscreen sizes up to 10 inches available (Sources [3], [4], [8], [14], [15], [18], [21], [22], [33], [34], [35]). Above average compared to the 8" benchmark. Score: 0.30.
+*   **infotainment_ux_rating**: Generally user-friendly, updated system with Qualcomm Snapdragon platform on higher trims (Sources [1], [7], [15], [18], [21], [35]). Can be fiddly (Source [4]). Average to slightly above average. Score: 0.10.
+*   **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto available (Sources [2], [3], [7], [15], [18], [21]). Good connectivity. Score: 0.70.
+*   **audio_rating**: Standard audio system is average (Source [31]). Score: 0.00.
+*   **usb_ports**: USB-C ports available (Source [2]). Assume average number of ports. Score: 0.00.
+*   **comfort_feature_score**: Features like heated seats/steering wheel available on higher trims (Sources [4], [7], [8], [15], [18], [22], [29]). Average for the engine across trims. Score: 0.00.
+*   **convenience_feature_score**: Parking sensors, camera, keyless entry, wireless charging available on higher trims (Sources [4], [7], [8], [13], [14], [15], [17], [18], [21], [22], [29], [31], [33]). Average for the engine across trims. Score: 0.00.
+*   **brand_prestige_rating**: Vauxhall is a mainstream brand. Below average. Score: -0.50.
+*   **model_prestige_rating**: Corsa is a popular, mass-market supermini. Middle of the range. Score: 0.00.
+*   **trim_prestige_rating**: 'Turbo' refers to the engine, not a specific trim. Score: 0.00.
+*   **interior_luxury_rating**: Interior uses a mix of materials, sturdy but not luxurious (Source [35]). Below average. Score: -0.50.
+*   **interior_tech_focus_rating**: Modern digital instrument cluster and central screen available, updated infotainment (Sources [4], [7], [18], [21], [22], [35]). Good tech focus for the segment. Above average. Score: 0.50.
+
+```json
+{
+  "price_usd": 0.60,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.40,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -0.80,
+  "torque": -0.50,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.80,
+  "accel_0_60_sec": -0.40,
+  "top_speed": -0.50,
+  "drive_type": -1.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": -0.70,
+  "wheelbase": -0.30,
+  "body_style": 0.10,
+  "seats": 0.00,
+  "cargo_space": -0.50,
+  "rear_space": -0.50,
+  "ground_clearance_in": -0.30,
+  "turn_radius_ft": 0.30,
+  "mpg": 0.70,
+  "co2_g_km": 0.60,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.20,
+  "style_aggression_rating": 0.10,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": -0.10,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": -0.30,
+  "adas_score": 0.50,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": 0.30,
+  "infotainment_ux_rating": 0.10,
+  "smartphone_connect_rating": 0.70,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": -0.50,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": -0.50,
+  "interior_tech_focus_rating": 0.50
+}
+```

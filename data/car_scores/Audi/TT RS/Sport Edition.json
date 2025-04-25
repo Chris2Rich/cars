@@ -1,0 +1,109 @@
+Based on the search results and the scoring guide:
+
+*   **price_usd**: Search [1] shows a base price of $65,875 for the 2022 TT RS, and a tested price of $80,200. This is well above the $35,000 average and over the $100,000 threshold for -1.00. Score: -1.00.
+*   **total_cost_estimate_5yr_usd**: No specific 5-year cost found, but reviews mention high running costs [9]. Default to 0.00.
+*   **insurance_usd_yr**: Performance car, likely high insurance group. Score: -1.00.
+*   **maint_usd_yr**: Audi servicing isn't cheap, especially for RS models [9]. Score: -0.50.
+*   **repair_risk_score**: Reliability rating is average to slightly below average according to some sources [9, 25], but engine repairs aren't excessively expensive [9]. Default to 0.00.
+*   **hp**: 394-400 hp [1, 4, 5, 8, 17, 33]. Score: 0.75.
+*   **torque**: 354 lb-ft (480 Nm) [1, 4, 5, 8, 17, 33]. Score: 0.75.
+*   **cylinder_count**: 5-cylinder [1, 4, 5, 8, 10, 12, 17, 33]. Score: -0.25.
+*   **engine_displacement**: 2.5L (2480 cc) [1, 4, 5, 8, 10, 12, 17, 33]. Score: -0.25.
+*   **accel_0_60_sec**: 3.4-3.7 seconds [1, 4, 5, 30, 33]. Score: 0.90.
+*   **top_speed**: 155 mph (governed) or 174 mph (optional) [4, 5, 26, 30, 33]. Score: 0.60.
+*   **drive_type**: Quattro AWD [1, 4, 5, 10, 12, 21, 29, 30, 33]. Score: 0.00.
+*   **transmission_type**: 7-speed dual-clutch automatic (S tronic) [1, 4, 5, 10, 12, 18, 29, 30, 33]. Score: 0.00.
+*   **offroad_ability**: Low-slung sports car. Score: 1.00.
+*   **braking_dist_ft**: Standard brakes are sufficient [21]. No specific distance found. Default 0.00. Let's re-evaluate based on performance car expectations. Performance cars usually have good braking. Score: 0.50.
+*   **size**: Length ~4191-4201 mm [1, 13, 19, 31, 36]. Score: -0.50.
+*   **wheelbase**: ~2502-2505 mm (98.6 inches) [1, 13, 19, 31]. Score: -0.50.
+*   **body_style**: 2-door coupe [1, 6, 21]. Score: -1.00.
+*   **seats**: 4 (2+2), but rear seats are unusable [1, 6, 7, 11, 13, 14, 37]. Score: -1.00.
+*   **cargo_space**: 12 cu ft (305 litres) [5, 6, 11, 13, 19, 37]. Score: -0.25.
+*   **rear_space**: 28.9 inches legroom [7, 13, 14]. Score: -1.00.
+*   **ground_clearance_in**: Around 4.5-4.7 inches (107-115 mm) [31, 41]. Score: -0.75.
+*   **turn_radius_ft**: 36 ft [14]. Score: 0.00.
+*   **mpg**: 22-23 mpg combined (US) [1, 2, 8, 14, 28, 35]. Score: -0.50.
+*   **co2_g_km**: 181-214 g/km [10, 22, 32, 34, 35]. Score: -0.25.
+*   **electric_range_mi**: Not electric. Score: -1.00.
+*   **charge_speed_kw**: Not electric. Score: -1.00.
+*   **style_sleek_vs_boxy**: Coupe, sleek. Score: 0.50.
+*   **style_aggression_rating**: RS model, aggressive styling [6]. Score: 0.75.
+*   **style_modernity_rating**: Design is a bit older but still modern [4]. Score: 0.00.
+*   **handling_rating**: Sharp and competent, but rivals are better [2, 9, 17, 30, 37]. Score: 0.50.
+*   **ride_comfort_rating**: Stiff ride, jostles over bumps [2, 9, 11, 39]. Score: -0.75.
+*   **cabin_noise_rating**: Loud inside [39]. Score: -0.75.
+*   **shift_smooth_rating**: S tronic is quick, but can be hesitant on downshifts [29], less smooth than torque converter auto [30]. Score: 0.50.
+*   **steering_feel_rating**: Quick and accurate, heavy feel, not the most chatty [26, 39]. Score: 0.25.
+*   **adas_score**: Lacking in advanced safety tech [11, 21]. Score: -0.75.
+*   **visibility_rating**: Coupe design, small rear window. Some sources say good visibility for a sports car [4]. Score: 0.00.
+*   **headlight_rating**: LED headlights [6, 30]. Score: 0.50.
+*   **security_rating**: Default 0.00.
+*   **screen_in**: 12.3-inch Virtual Cockpit [15, 16, 20, 23, 24, 29]. Score: 0.75.
+*   **infotainment_ux_rating**: Virtual Cockpit is high-tech and well-regarded [1, 4, 11, 20, 23, 24, 29]. Score: 0.75.
+*   **smartphone_connect_rating**: Has Apple CarPlay/Android Auto [15, 32]. Score: 0.50.
+*   **audio_rating**: Optional B&O system available [4, 16, 21]. Score: 0.75.
+*   **usb_ports**: At least one USB port mentioned [11]. Default 0.00.
+*   **comfort_feature_score**: Heated sports seats standard [30], power seats [14]. Not full luxury features. Score: 0.25.
+*   **convenience_feature_score**: Parking sensors standard [4, 14], reversing camera available [4]. Not advanced features like 360 cam. Score: 0.25.
+*   **brand_prestige_rating**: Audi is a premium brand. Score: 0.50.
+*   **model_prestige_rating**: TT RS is the pinnacle of the TT line [27], a performance icon. Score: -1.00.
+*   **trim_prestige_rating**: RS is the top performance trim [6, 30]. Sport Edition is a specific version of the top trim [4, 29]. Score: -1.00.
+*   **interior_luxury_rating**: High-quality materials, upmarket interior [1, 9, 30]. Score: 0.75.
+*   **interior_tech_focus_rating**: Virtual Cockpit is a major tech feature, driver-focused interior [1, 4, 11, 20, 23, 24, 37]. Score: 0.75.
+
+All scores determined based on search results and guide. Ready to output JSON.```json
+{
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": 0.00,
+  "hp": 0.75,
+  "torque": 0.75,
+  "cylinder_count": -0.25,
+  "engine_displacement": -0.25,
+  "accel_0_60_sec": 0.90,
+  "top_speed": 0.60,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.50,
+  "size": -0.50,
+  "wheelbase": -0.50,
+  "body_style": -1.00,
+  "seats": -1.00,
+  "cargo_space": -0.25,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.75,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.50,
+  "co2_g_km": -0.25,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.75,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": -0.75,
+  "cabin_noise_rating": -0.75,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.25,
+  "adas_score": -0.75,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": 0.75,
+  "infotainment_ux_rating": 0.75,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.75,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.25,
+  "convenience_feature_score": 0.25,
+  "brand_prestige_rating": 0.50,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": 0.75
+}
+```

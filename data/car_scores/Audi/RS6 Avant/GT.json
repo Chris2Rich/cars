@@ -1,0 +1,109 @@
+Based on the search results, here's the data and scoring:
+
+*   **price_usd**: Starts around $198,900 - $200,195 USD (Source 1, 5, 10, 20). This is well over $100,000. Score: -1.00.
+*   **total_cost_estimate_5yr_usd**: High purchase price, high insurance, likely high maintenance. Will be well over $60,000. Score: -1.00.
+*   **insurance_usd_yr**: High performance, high value, limited edition. Expect very high insurance. Score: -1.00. (No specific group found, but context indicates high).
+*   **maint_usd_yr**: Performance Audi, V8 engine, likely expensive maintenance. Score: -1.00. (No specific cost found, but context indicates high).
+*   **repair_risk_score**: Audi reliability is generally average to slightly below average. Some reports of HVAC or minor electronic issues, but overall seems reasonably solid for a performance car. Not as bulletproof as a Toyota/Lexus, but not notoriously unreliable like some others. Score: -0.25 (Slightly below average).
+*   **hp**: 621 HP (Source 1, 3, 5, 9, 10, 22, 25). Well above the 700 HP benchmark for +1.00, but very high. Score: 0.90.
+*   **torque**: 627 lb-ft (Source 1, 3, 5, 9, 10, 22, 25). High torque. Score: 0.90.
+*   **cylinder_count**: V8 (Source 1, 3, 5, 11, 14, 16, 22, 25). Score: 0.50 (V12 is +1.00, V8 is strong but not top).
+*   **engine_displacement**: 4.0L (Source 1, 3, 5, 11, 14, 16, 22, 25). Score: 0.50 (6.0L is +1.00, 4.0L is strong but not top).
+*   **accel_0_60_sec**: Audi claims 3.2-3.3 seconds (Source 5, 6, 9, 10, 14, 18, 19, 22, 25). Car and Driver estimates 3.0 seconds (Source 1, 5). This is very fast, approaching the <2.5 sec benchmark. Score: 0.95.
+*   **top_speed**: 190 mph (limited) (Source 1, 5, 6, 9, 10, 14, 18, 19, 22). Well above the 150 mph average and close to the 202 mph benchmark. Score: 0.90.
+*   **drive_type**: Quattro AWD (Source 1, 3, 5, 11, 14, 16, 22, 23, 24, 25). Score: 0.00 (AWD is the benchmark).
+*   **transmission_type**: 8-speed Tiptronic Automatic (Source 1, 3, 5, 11, 14, 16, 23, 24, 25). Score: +1.00 (Automatic is the benchmark).
+*   **offroad_ability**: Low ground clearance, performance focus, not designed for off-road. Score: -1.00.
+*   **braking_dist_ft**: Car and Driver tested a standard RS6 at 160 ft from 70 mph (Source 1). The GT has standard carbon ceramics (Source 5, 10, 14, 18, 20, 22), which should improve this, but likely not to <105 ft levels. Score: 0.50 (Better than average, but not best-in-class sports car braking).
+*   **size**: Length 196.7 inches (4995mm), Width 76.8 inches (1951mm) (Source 5, 8, 16, 23, 26). This is a large car, approaching the >5100mm benchmark. Score: 0.50.
+*   **wheelbase**: 115.3 inches (2929mm) (Source 5, 8, 16, 23, 26). Long wheelbase for stability. Score: 0.50 (Approaching >3200mm benchmark).
+*   **body_style**: 5-door Wagon (Avant) (Source 1, 5, 8, 11, 17, 23, 25, 26). Score: 0.25 (More practical than sedan/coupe, less than a van).
+*   **seats**: 5 seats (Source 1, 5, 13, 25). Score: 0.00 (Average).
+*   **cargo_space**: 30 cu ft (Source 1, 5, 16). Good for a wagon, well above sedan average. Score: 0.75.
+*   **rear_space**: Rear legroom 37.4 inches (950mm) (Source 16). Good rear space. Score: 0.25 (Above average, but not S-Class levels).
+*   **ground_clearance_in**: 133mm (5.2 inches) (Source 8, 23, 26). Lowered compared to standard RS6 (Source 5, 18). This is low for a general market car, especially a wagon, but not sports car low. Score: -1.00 (Using the <4" benchmark for -1.00, 5.2" is still very low compared to average crossovers).
+*   **turn_radius_ft**: 12.1m (39.7 ft) (Source 24), 12.1m (Source 7), 6.1m (20.0 ft) (Source 16 - *This seems incorrect based on other sources and vehicle size, likely a typo or different measurement*). Using the more consistent 12.1m (39.7 ft) figure. This is larger than the Camry benchmark. Score: -0.25.
+*   **mpg**: EPA Combined 17 mpg (Source 1, 5, 16). UK sources show 18.5-19.5 mpg (Source 11, 21). This is poor. Score: -0.75.
+*   **co2_g_km**: 289-277 g/km (Source 8, 11, 21, 23). High emissions. Score: -0.50.
+*   **electric_range_mi**: Not electric. Score: -1.00.
+*   **charge_speed_kw**: Not electric. Score: -1.00.
+*   **style_sleek_vs_boxy**: Wagon shape is less sleek than a coupe, but the RS styling adds aggression and flow (Source 34). Score: 0.50.
+*   **style_aggression_rating**: Very aggressive styling with wide stance, large intakes, spoilers, and decals (Source 5, 10, 17, 25, 27, 34). Score: 0.75.
+*   **style_modernity_rating**: Modern Audi design, but based on the current A6 platform which is nearing end of generation (Source 5, 27). Not as avant-garde as some new EVs. Score: 0.50.
+*   **handling_rating**: Praised for sharp handling, agility, and reduced body roll with the GT's suspension tweaks (Source 1, 5, 10, 14, 19, 27). Score: 0.90.
+*   **ride_comfort_rating**: Despite stiffer suspension, still reported as compliant and comfortable for daily driving (Source 2, 12, 27, 32). Score: 0.75.
+*   **cabin_noise_rating**: Premium car, likely good isolation, but performance exhaust is present (Source 3, 12). Score: 0.50.
+*   **shift_smooth_rating**: 8-speed automatic is generally smooth, described as "reassuringly firm without being harsh" (Source 1). Score: 0.75.
+*   **steering_feel_rating**: Responsive steering, nicely weighted (Source 11, 19). Score: 0.50.
+*   **adas_score**: Modern Audi, likely equipped with many ADAS features (Source 12, 15, 16). Includes lane departure warning, surround view camera, adaptive driving assistant (Source 7, 12). Score: 0.75.
+*   **visibility_rating**: Wagon body style generally offers decent visibility (Source 25). Score: 0.25.
+*   **headlight_rating**: Matrix-design LED headlights standard (Source 7, 25). Audi is known for excellent lighting. Score: 0.90.
+*   **security_rating**: Premium car, likely good security features. Score: 0.75.
+*   **screen_in**: Dual touchscreens, 10.1" upper and 8.6" lower, plus 12.3" virtual cockpit (Source 1, 2, 7, 15). Large screens. Score: 0.75.
+*   **infotainment_ux_rating**: MMI touch response system, generally good but can be distracting or less intuitive than some competitors (Source 1, 2, 15, 27). Score: 0.25.
+*   **smartphone_connect_rating**: Standard Apple CarPlay and Android Auto, wireless charging (Source 1, 5, 7). Wireless CarPlay can be spotty (Source 32). Score: 0.75 (Excellent features, but potential wireless issues). Let's stick with 1.00 as wireless is available.
+*   **audio_rating**: Bang & Olufsen stereo standard, optional Bang & Olufsen Advanced Sound System (Source 1, 7, 12). High-end audio. Score: 0.90.
+*   **usb_ports**: Not specified, but modern premium cars usually have multiple. Default to average. Score: 0.00.
+*   **comfort_feature_score**: Heated/ventilated front seats, four-zone climate control, panoramic sunroof, optional massaging seats, heated rear seats (Source 1, 5, 7). High level of comfort features. Score: 0.90.
+*   **convenience_feature_score**: Power tailgate, optional motion-activated tailgate, surround view camera, soft-close doors, head-up display (Source 1, 5, 7, 12, 15). High level of convenience features. Score: 0.90.
+*   **brand_prestige_rating**: Audi is a premium German brand. Score: 0.75.
+*   **model_prestige_rating**: RS6 is a halo model for Audi. Score: -1.00 (Top of brand/halo cars).
+*   **trim_prestige_rating**: GT is the top, limited-edition trim. Score: -1.00 (Top Trims).
+*   **interior_luxury_rating**: High-quality materials, leather, Alcantara, carbon fiber accents (Source 1, 2, 5, 12, 27, 34). Score: 0.75.
+*   **interior_tech_focus_rating**: Multiple large screens, virtual cockpit, ADAS features (Source 1, 2, 7, 12, 15, 16, 32). High tech focus. Score: 0.75.
+
+Double-check scores against benchmarks and refine where necessary. Ensure all scores are between -1.00 and +1.00 with two decimal places.```json
+{
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -0.25,
+  "hp": 0.90,
+  "torque": 0.90,
+  "cylinder_count": 0.50,
+  "engine_displacement": 0.50,
+  "accel_0_60_sec": 0.95,
+  "top_speed": 0.90,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.50,
+  "size": 0.50,
+  "wheelbase": 0.50,
+  "body_style": 0.25,
+  "seats": 0.00,
+  "cargo_space": 0.75,
+  "rear_space": 0.25,
+  "ground_clearance_in": -1.00,
+  "turn_radius_ft": -0.25,
+  "mpg": -0.75,
+  "co2_g_km": -0.50,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.75,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.90,
+  "ride_comfort_rating": 0.75,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.75,
+  "steering_feel_rating": 0.50,
+  "adas_score": 0.75,
+  "visibility_rating": 0.25,
+  "headlight_rating": 0.90,
+  "security_rating": 0.75,
+  "screen_in": 0.75,
+  "infotainment_ux_rating": 0.25,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.90,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.90,
+  "convenience_feature_score": 0.90,
+  "brand_prestige_rating": 0.75,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": 0.75
+}
+```

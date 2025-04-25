@@ -1,0 +1,155 @@
+Based on the search results for the latest Vauxhall Insignia GS Line (primarily focusing on the 2020-2022 model years):
+
+*   **Price:** OTR prices for GS Line in 2022 were around £33,985 - £40,085 (Source 2). This is roughly $42,000 - $50,000 USD (using a rough £1 = $1.25 conversion). The market average is ~$35,000. This is slightly above average. Score: 0.00 to -0.10. Let's use 0.00 as it's close to the average for a well-equipped large family car.
+*   **Total Cost Estimate 5yr:** Likely average for the segment. Score: 0.00.
+*   **Insurance USD/yr:** Insurance groups for Insignia range from 13-30 (Source 37). GS Line is listed in group 18 (Source 2, 13). Group 18 is below the average group 28 (Source 21). This suggests below-average insurance costs. Score: 0.20 to 0.50. Let's use 0.20.
+*   **Maint USD/yr:** Vauxhall is generally average for maintenance. Score: 0.00.
+*   **Repair Risk Score:** Reviews suggest average to slightly better than average reliability, though some specific engine/gearbox issues are mentioned for older models (Source 17, 24, 35). The latest models seem reasonably reliable. Score: 0.00.
+*   **HP:** Engines range from 1.5L 122PS diesel to 2.0L 200PS petrol (Source 2, 14). 122PS is ~120hp (-1.00), 200PS is ~197hp (0.00). The GS Line had various options. Let's take the 174PS (172hp) diesel or 200PS petrol as representative higher options for GS Line (Source 6, 14). This is around the market average. Score: 0.00.
+*   **Torque:** 1.5L diesel has 285Nm (~210 lb-ft) (Source 9, 11). 2.0L diesel has 400Nm (~295 lb-ft) (based on 174PS engine, Source 14 mentions 480Nm for 210PS GSi). 210 lb-ft is above the 190 lb-ft average. Score: 0.10.
+*   **Cylinder Count:** Primarily 3-cylinder (1.5L diesel) or 4-cylinder (2.0L petrol/diesel) (Source 11, 14). 3-cylinder is -1.00, 4-cylinder is below the 6-cylinder average (0.00). Score: -0.20 (leaning towards 4-cyl being common).
+*   **Engine Displacement:** 1.5L or 2.0L (Source 11, 14). 1.2L is -1.00, 3.0L is 0.00. These are below average displacement. Score: -0.20.
+*   **Accel 0-60 sec:** 1.5L diesel auto is 11.5s (Source 9, 11). 2.0L diesel auto is 8.4s (Source 3, 14). 2.0L petrol auto is 7.2s (Source 14). Average is 7.5s. The 1.5L is slow (-0.50), the 2.0L diesel is average (0.00), the 2.0L petrol is slightly above average (0.10). Given the range, let's average it out or consider the more common engines. The 1.5L diesel auto is listed specifically for GS Line (Source 9, 11). Score: -0.20 (leaning towards the slower options being available).
+*   **Top Speed:** 1.5L diesel auto is 124 mph (Source 9, 11). 2.0L diesel auto is 140 mph (Source 14). 2.0L petrol auto is 146 mph (Source 14). Average is 150 mph. All are below average. Score: -0.20.
+*   **Drive Type:** Primarily FWD (Source 11). Score: -1.00.
+*   **Transmission Type:** Available with 6-speed manual or 8-speed automatic (Source 6, 14). Automatic is common and preferred by many. Score: 1.00.
+*   **Offroad Ability:** Low-slung road car. Score: 1.00 (poor off-road ability).
+*   **Braking Dist ft:** No specific data found, assume average for the class. Score: 0.00.
+*   **Size:** Length is 4906mm (Source 10, 11, 12). 4600mm is 0.00, >5100mm is +1.00. 4906mm is significantly above average. Score: 0.50.
+*   **Wheelbase:** 2829mm (Source 10, 11, 12). 2700mm is 0.00, >3200mm is +1.00. 2829mm is above average. Score: 0.20.
+*   **Body Style:** 5-door hatchback/liftback (Grand Sport) or estate (Sports Tourer) (Source 10, 11, 12, 17). 4-door sedan/coupe is 0.00, 5-door van is +1.00. Hatchback is more practical than a sedan. Score: 0.10.
+*   **Seats:** 5 seats (Source 10, 11, 12). Score: 0.00.
+*   **Cargo Space:** 490 litres (17.3 cu ft) for Grand Sport, 560 litres (19.8 cu ft) for Sports Tourer (Source 10, 11, 12, 16, 22, 27). Folded is 1450 litres (51.1 cu ft) for Grand Sport, 1665 litres (58.8 cu ft) for Sports Tourer (Source 16, 22). 15 cu ft is 0.00, >35 cu ft is +1.00. 17.3-19.8 cu ft is slightly above average for a sedan/hatchback, but the estate is much better. Let's consider the hatchback as the primary GS Line body style mentioned in specs. Score: 0.10.
+*   **Rear Space:** Good legroom, but headroom can be tight for taller passengers due to the sloping roofline (Source 8, 22, 29). Legroom is good (0.20), headroom is slightly compromised (-0.10). Let's average to 0.00 or slightly positive for overall space. Score: 0.10.
+*   **Ground Clearance in:** Not explicitly stated, but it's a standard road car, likely low. Score: -0.50.
+*   **Turn Radius ft:** Turning circle 11.15m (~36.6 ft) (Source 11). 36 ft is 0.00. Score: 0.00.
+*   **MPG:** 1.5L diesel auto is 56.5 mpg (WLTP) (Source 13). Real-world is often lower (Source 3, 6, 31). Petrol engines are lower (Source 6, 14). 30 mpg is 0.00, >55 mpg is +1.00. Diesel is very good. Score: 0.50.
+*   **CO2 g/km:** 1.5L diesel auto is 134 g/km (WLTP) (Source 13). 2.0L diesel is 121 g/km (Source 14). 2.0L petrol is 171-181 g/km (Source 14). 175 g/km is 0.00, 0 g/km is +1.00. Diesel is good, petrol is average. Score: 0.20 (leaning towards the more efficient diesel options).
+*   **Electric Range mi:** Not electric. Score: -1.00.
+*   **Charge Speed kw:** Not electric. Score: -1.00.
+*   **Style Sleek vs Boxy:** Sleek liftback design (Source 17, 29). Score: 0.50.
+*   **Style Aggression Rating:** GS Line has sporty bumpers and wheels (Source 2, 14), but not overly aggressive. Score: 0.00.
+*   **Style Modernity Rating:** Design is from 2017 facelifted in 2021. Looks a bit dated compared to the newest cars (Source 3). Score: 0.00.
+*   **Handling Rating:** Competent but not sporty, especially compared to rivals (Source 3, 8, 19, 20). Score: 0.00.
+*   **Ride Comfort Rating:** Generally praised as comfortable and supple (Source 3, 5, 8, 15, 19). Score: 0.50.
+*   **Cabin Noise Rating:** Quiet at speed (Source 3, 8). Score: 0.20.
+*   **Shift Smooth Rating:** Automatic transmission is generally smooth (Source 3, 19, 29). Score: 0.50.
+*   **Steering Feel Rating:** Often described as lacking feel (Source 8, 20). Score: -0.20.
+*   **ADAS Score:** Standard features include AEB, Lane Keep Assist, Speed Sign Recognition, Front/Rear Parking Sensors (on Design/GS Line) (Source 2, 4, 17, 29, 30). IntelliLux adaptive LED pixel headlights available (Source 2, 7, 16, 19). Decent for its time. Score: 0.20.
+*   **Visibility Rating:** Sloping roofline can impact rear visibility (Source 29). Score: -0.20.
+*   **Headlight Rating:** IntelliLux adaptive LED pixel headlights are available (Source 2, 7, 16, 19), which are good. Standard LED headlights are also good (Source 2). Score: 0.50.
+*   **Security Rating:** Remote control security alarm system standard (Source 2). Assume average. Score: 0.00.
+*   **Screen in:** 8-inch colour touchscreen (Source 2, 3, 7, 16, 30, 31). 8-inch is average. Score: 0.00.
+*   **Infotainment UX Rating:** Functional but not class-leading, screen position awkward (Source 3, 8, 19). Score: -0.20.
+*   **Smartphone Connect Rating:** Apple CarPlay/Android Auto standard (Source 2, 3, 4, 7, 16, 19, 31). Wireless charging available on GS Line (Source 2). Score: 0.50.
+*   **Audio Rating:** Seven speakers standard (Source 2, 4). Assume average. Score: 0.00.
+*   **USB Ports:** Twin front USB sockets, aux in, memory card slot (Source 2, 4, 7, 30). Twin rear USB sockets on GS Line (Source 2). Above average number of ports. Score: 0.20.
+*   **Comfort Feature Score:** Dual-zone climate control, heated steering wheel, ergonomic active sports front seats (AGR-approved), heated front seats (on some specs, but not GS Line MY22B) (Source 2, 8, 16, 19, 20, 30). Good features, but heated front seats not standard on the latest GS Line (Source 2). Score: 0.20.
+*   **Convenience Feature Score:** Front/rear parking sensors (on Design/GS Line), keyless entry/start (on GS Line), auto lights/wipers, auto-dimming mirror (Source 2, 3, 4, 30). Decent level of convenience features. Score: 0.20.
+*   **Brand Prestige Rating:** Vauxhall is a mainstream brand. Score: -0.50.
+*   **Model Prestige Rating:** Insignia was a large family car, not a halo model. Middle of the range for Vauxhall. Score: 0.00.
+*   **Trim Prestige Rating:** GS Line is a sportier, higher-spec trim than base models, but not the absolute top performance trim (GSI) (Source 6, 15). Score: 0.00.
+*   **Interior Luxury Rating:** Interior quality is decent but not premium compared to rivals like Skoda Superb or German brands (Source 3, 8, 19, 20). Score: 0.00.
+*   **Interior Tech Focus Rating:** Had digital instrument cluster and touchscreen, but button-heavy design and not as screen-focused as some modern cars (Source 3, 7, 8, 16). Score: 0.00.
+
+Refining scores based on findings:
+*   Price: £33k-£40k -> ~$42k-$50k. Average new car is ~$35k. This is slightly above average. Score: 0.00.
+*   Insurance: Group 18 vs average 28. Score: 0.20.
+*   HP: Around 120-200hp. Average is 200hp. Score: 0.00.
+*   Torque: 210-295 lb-ft. Average is 190 lb-ft. Score: 0.10.
+*   Cylinder Count: 3 or 4. Score: -0.20.
+*   Engine Displacement: 1.5L or 2.0L. Score: -0.20.
+*   Accel 0-60: 7.2s to 11.5s. Average 7.5s. Score: -0.20 (reflecting the slower options).
+*   Top Speed: 124-146 mph. Average 150 mph. Score: -0.20.
+*   Drive Type: FWD. Score: -1.00.
+*   Transmission: Automatic common. Score: 1.00.
+*   Offroad: Poor. Score: 1.00.
+*   Size: 4.9m. Above average. Score: 0.50.
+*   Wheelbase: 2.83m. Above average. Score: 0.20.
+*   Body Style: Hatchback/Estate. Score: 0.10.
+*   Cargo Space: 490L (hatch). 17.3 cu ft. Average 15 cu ft. Score: 0.10.
+*   Rear Space: Good legroom, tight headroom. Score: 0.10.
+*   Ground Clearance: Low. Score: -0.50.
+*   Turn Radius: Average. Score: 0.00.
+*   MPG: Up to 56.5 (diesel). Good. Score: 0.50.
+*   CO2: 121-181 g/km. Average 175 g/km. Diesel is good. Score: 0.20.
+*   Electric: No. Score: -1.00.
+*   Charge Speed: No. Score: -1.00.
+*   Style Sleek: Sleek. Score: 0.50.
+*   Style Aggression: Average. Score: 0.00.
+*   Style Modernity: Average/slightly dated. Score: 0.00.
+*   Handling: Average. Score: 0.00.
+*   Ride Comfort: Good. Score: 0.50.
+*   Cabin Noise: Good. Score: 0.20.
+*   Shift Smooth: Good (Auto). Score: 0.50.
+*   Steering Feel: Numb. Score: -0.20.
+*   ADAS: Decent for its time. Score: 0.20.
+*   Visibility: Slightly hampered. Score: -0.20.
+*   Headlight: Good available lights. Score: 0.50.
+*   Security: Average. Score: 0.00.
+*   Screen: 8-inch. Average. Score: 0.00.
+*   Infotainment UX: Below average. Score: -0.20.
+*   Smartphone Connect: Good (CarPlay/AA, wireless charging). Score: 0.50.
+*   Audio: Average. Score: 0.00.
+*   USB Ports: Above average (front + rear). Score: 0.20.
+*   Comfort Features: Decent, but missing heated front seats on latest GS Line. Score: 0.00.
+*   Convenience Features: Decent. Score: 0.20.
+*   Brand Prestige: Low. Score: -0.50.
+*   Model Prestige: Average. Score: 0.00.
+*   Trim Prestige: Above base, below top performance. Score: 0.00.
+*   Interior Luxury: Average. Score: 0.00.
+*   Interior Tech Focus: Average. Score: 0.00.```json
+{
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.20,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.00,
+  "torque": 0.10,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": -0.20,
+  "top_speed": -0.20,
+  "drive_type": -1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.50,
+  "wheelbase": 0.20,
+  "body_style": 0.10,
+  "seats": 0.00,
+  "cargo_space": 0.10,
+  "rear_space": 0.10,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.50,
+  "co2_g_km": 0.20,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.20,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": -0.20,
+  "adas_score": 0.20,
+  "visibility_rating": -0.20,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": -0.20,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.00,
+  "usb_ports": 0.20,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.20,
+  "brand_prestige_rating": -0.50,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": 0.00
+}
+```

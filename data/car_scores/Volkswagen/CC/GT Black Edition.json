@@ -1,0 +1,107 @@
+**Reasoning:**
+
+*   **price\_usd**: Search results show used 2016/2017 CC GT Black Edition models in the UK selling for around £9,000 - £14,000 (Source 6, 38, 41, 44). Converting this to USD (approx 1.25 USD/GBP) gives a range of $11,250 - $17,500. This is well below the market average of $35,000 for a *new* car, placing it firmly in the +1.00 range for price *as a used vehicle*. However, the prompt asks to benchmark against today's *general market* which implies new cars. The original price when new was around £29,490 - £33,025 (Source 27, 31), which is around $36,862 - $41,281. This is close to the $35,000 average for a new car, so a score of 0.00 is appropriate when considering its original price relative to the new car market average.
+*   **total\_cost\_estimate\_5yr\_usd**: RepairPal rates the CC's reliability as below average (2.5/5) with higher than average repair costs ($880/year) (Source 10, 14). While maintenance costs might be average for a VW, the higher repair risk pushes the total cost up. Compared to the $40,000 average 5-year cost, the CC is likely slightly above average, warranting a slightly negative score. Defaulting to 0.00 due to lack of specific 5-year cost data for this exact trim.
+*   **insurance\_usd\_yr**: The GT Black Edition is in UK insurance group 26 or 30 (Source 36, 42). The average UK insurance group is around 20. Group 26/30 is moderately higher than average, suggesting higher insurance costs. This warrants a slightly negative score. Defaulting to 0.00 due to lack of specific USD cost data.
+*   **maint\_usd\_yr**: VW maintenance costs are generally considered average compared to other mainstream brands, but higher than some Japanese brands (Source 20). The RepairPal data suggests higher *repair* costs, but maintenance itself might be closer to average. Defaulting to 0.00.
+*   **repair\_risk\_score**: RepairPal gives the CC a 2.5/5 reliability rating, ranking it last among 24 midsize cars, with common issues like timing chain failure and engine problems (Source 10, 14). This indicates a higher than average repair risk. Score of -0.75.
+*   **hp**: The 2.0 TDI engine in the GT Black Edition is typically 150 PS (148 hp) or 184 PS (181 hp) (Source 26, 33, 39). The 150 PS version is below the 200 hp average, while the 184 PS is closer. Averaging these or considering the common 150 PS engine, the horsepower is slightly below average. Score of -0.25.
+*   **torque**: The 2.0 TDI engine produces around 340-380 Nm of torque (Source 46 mentions 250-360 Nm for the range, specific TDI data needed). 340 Nm is approximately 250 lb-ft, and 380 Nm is approximately 280 lb-ft. The average is around 190 lb-ft. This torque is above average, especially for a diesel. Score of 0.50.
+*   **cylinder\_count**: The 2.0 TDI engine is a 4-cylinder (Source 46 implies 4-cylinder for 1798cc, and TDI engines are typically 4-cylinder). The average cylinder count is around 4-6. A 4-cylinder is average. Score of 0.00.
+*   **engine\_displacement**: The engine is 2.0L (Source 38, 44). The average displacement is around 3.0L. 2.0L is below average. Score of -0.50.
+*   **accel\_0\_60\_sec**: The 150 PS 2.0 TDI takes around 8.5-9 seconds to 60 mph, the 184 PS is faster, around 7.5-8 seconds. The average is 7.5 seconds. The 150 PS is slower than average, the 184 PS is average. Given the prevalence of the 150 PS, slightly below average acceleration. Score of -0.25.
+*   **top\_speed**: Top speed for the 150 PS is around 134 mph (Scirocco with similar engine, Source 40) or the CC range is 210-240 km/h (130-150 mph) (Source 46). The average is 150 mph. The 150 PS is slightly below average. Score of -0.25.
+*   **drive\_type**: The CC is primarily Front-Wheel Drive (FWD) (Source 17, 23). FWD is rated at -1.00.
+*   **transmission\_type**: Available with manual or DSG automatic (Source 26, 38, 44). The DSG is a Dual-Clutch Transmission. The guide rates DCT as 0.00 and Automatic as +1.00. Since DSG is common and often preferred for performance/efficiency over traditional automatics, but not as smooth as the best automatics, 0.00 is appropriate for the available transmissions.
+*   **offroad\_ability**: The CC is a low-slung sedan/coupe with FWD or optional AWD (V6 model, not GT Black Edition) and low ground clearance. It has no off-road capability. Score of 1.00 (poor off-road ability is good for this metric).
+*   **braking\_dist\_ft**: No specific data found. Default to 0.00.
+*   **size**: Length is around 4.8m (Source 11, 24, 32, 46, 47). The average is 4.6m. This is slightly larger than average. Score of 0.25.
+*   **wheelbase**: Wheelbase is 2710-2711mm (Source 11, 24). The average is 2700mm. This is average. Score of 0.00.
+*   **body\_style**: 4-door coupe/saloon (Source 11, 39). This is a common body style, close to the 4-door sedan average. Score of 0.00.
+*   **seats**: Typically 5 seats, though early models were 4-seat (Source 17, 39, 46). 5 seats is average. Score of 0.00.
+*   **cargo\_space**: Boot space is around 455-532 liters (13.2 - 18.8 cu ft) (Source 11, 15, 17, 32, 46). The average is 15 cu ft. This is around average or slightly above depending on the source. Score of 0.00.
+*   **rear\_space**: Rear headroom is limited due to the sloping roofline (Source 3, 4, 13). Rear legroom is average (Source 4, 13, 23). Limited headroom makes rear space below average overall. Score of -0.50.
+*   **ground\_clearance\_in**: Ground clearance is around 10.4 cm or 4.9 inches (Source 11, 24, 25, 47). The average for compact crossovers is 6.5 inches. 4.9 inches is low. Score of -0.75.
+*   **turn\_radius\_ft**: Minimum turning radius is 5.7m (18.7 ft) (Source 46). The average is 36 ft. 18.7 ft is excellent (small turning circle). Score of 1.00.
+*   **mpg**: The 2.0 TDI BlueMotion Tech is rated around 58.9 - 62 mpg (UK) combined (Source 20, 27, 30). Converting UK mpg to US mpg (UK mpg / 1.2) gives around 49-52 US mpg. The average is 30 mpg. This is significantly above average. Score of 0.75.
+*   **co2\_g\_km**: CO2 emissions are around 127 g/km (Source 28, 30). The average is 175 g/km. 127 g/km is well below average. Score of 0.50.
+*   **electric\_range\_mi**: Not an electric vehicle. Score of -1.00.
+*   **charge\_speed\_kw**: Not an electric vehicle. Score of -1.00.
+*   **style\_sleek\_vs\_boxy**: The CC is known for its sleek, coupe-like profile (Source 3, 4, 39). Score of 0.75.
+*   **style\_aggression\_rating**: The GT Black Edition has some sporty styling cues (black trim, specific wheels) (Source 5, 35, 39), but the overall design is more elegant than aggressive. Slightly above average aggression. Score of 0.25.
+*   **style\_modernity\_rating**: The design dates back to 2012 (facelift) (Source 3, 39). While stylish, it's not avant-garde by today's standards. Score of 0.00.
+*   **handling\_rating**: Reviews mention competent but not particularly sporty handling, balancing comfort and sport (Source 7, 13, 21). Average handling. Score of 0.00.
+*   **ride\_comfort\_rating**: Reviews mention comfortable seating and good ride quality, built for cruising (Source 2, 7, 13, 15, 21). The GT trim has adaptive chassis control (DCC) (Source 33, 35). Above average ride comfort. Score of 0.50.
+*   **cabin\_noise\_rating**: Reviews mention impressive refinement (Source 7). Likely quieter than average. Score of 0.50.
+*   **shift\_smooth\_rating**: The DSG transmission is generally smooth (Source 13 mentions "buttery-smooth shifter" for manual, DSG is also typically smooth). Score of 0.50.
+*   **steering\_feel\_rating**: Reviews mention direct but slightly over-boosted steering (Source 13). Average feel. Score of 0.00.
+*   **adas\_score**: Features available include adaptive cruise control, lane assist, blind spot monitor, driver alert system, parking sensors, rearview camera (Source 17, 33, 34, 38). This is a good set of features for its era, above average for the time and still reasonable today. Score of 0.50.
+*   **visibility\_rating**: The sloping roofline and thick pillars compromise rear visibility (Source 4). Below average visibility. Score of -0.75.
+*   **headlight\_rating**: Bi-xenon headlights with LED daytime running lights and adaptive front lighting were available/standard (Source 13, 33, 34, 39). This was good for its time, above average compared to basic halogens. Score of 0.50.
+*   **security\_rating**: Standard security features are likely average for a VW. No specific data found on advanced security like trackers. Default to 0.00.
+*   **screen\_in**: The Discover Navigation system has a 6.3-inch or 6.5-inch touchscreen (Source 4, 33, 38). This is below the current average of around 8 inches or larger. Score of -0.25.
+*   **infotainment\_ux\_rating**: Reviews mention the VW media system was okay but some preferred aftermarket (Source 2). The Discover Navigation system with touch screen is generally user-friendly for its time. Score of 0.25.
+*   **smartphone\_connect\_rating**: Features include Bluetooth, iPod connectivity, DAB radio, and later models had Apple CarPlay and Android Auto (Source 17, 33, 34, 38, 43). CarPlay/Android Auto makes it above average. Score of 0.50.
+*   **audio\_rating**: Standard audio is likely average. Some reviews mention a "BEST sound system" (Source 21), but this might be subjective or refer to an optional upgrade. Assuming standard system is average or slightly above for the trim. Score of 0.25.
+*   **usb\_ports**: MDI (Multi Device Interface) and Aux-In were available (Source 34, 38). Number of USB ports isn't explicitly stated but likely limited compared to modern cars. Default to 0.00.
+*   **comfort\_feature\_score**: GT Black Edition includes heated Nappa leather seats, electric driver's seat adjustment, dual-zone climate control, optional climate/massage seats (Source 5, 15, 26, 33, 34, 35, 38, 43). This is a good level of comfort features, above average. Score of 0.75.
+*   **convenience\_feature\_score**: Features include front/rear parking sensors, cruise control, auto lights/wipers, auto-dimming mirror, electronic parking brake with auto hold, keyless entry/start on some trims (Source 4, 33, 34, 38). Optional rearview camera and adaptive cruise control. Above average convenience features for its time. Score of 0.50.
+*   **brand\_prestige\_rating**: Volkswagen is a mainstream brand, generally considered average prestige. Score of 0.00.
+*   **model\_prestige\_rating**: The CC was positioned as a more stylish, upscale model than the standard Passat, aiming for a niche between mainstream and luxury. It won design awards (Source 39). It's above entry-level but not a halo car. Score of -0.25 (closer to middle/upper-middle).
+*   **trim\_prestige\_rating**: GT Black Edition is a higher, sportier trim level (Source 33, 39). This is not a base model. Score of -0.50 (closer to top trims).
+*   **interior\_luxury\_rating**: Features Nappa leather, carbon effect trim, panoramic roof (Source 5, 34, 35, 38). Reviews mention upscale look and feel for the price (Source 4, 13, 21). Above average interior luxury for a mainstream brand. Score of 0.75.
+*   **interior\_tech\_focus\_rating**: Has a touchscreen nav system and some ADAS, but the overall design is not as screen-dominated or minimalist as modern tech-focused interiors (Source 4, 13, 33). Average tech focus. Score of 0.00.```json
+{
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": -0.75,
+  "hp": -0.25,
+  "torque": 0.50,
+  "cylinder_count": 0.00,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": -0.25,
+  "top_speed": -0.25,
+  "drive_type": -1.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.25,
+  "wheelbase": 0.00,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": -0.50,
+  "ground_clearance_in": -0.75,
+  "turn_radius_ft": 1.00,
+  "mpg": 0.75,
+  "co2_g_km": 0.50,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.75,
+  "style_aggression_rating": 0.25,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.50,
+  "visibility_rating": -0.75,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": -0.25,
+  "infotainment_ux_rating": 0.25,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.25,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": -0.25,
+  "trim_prestige_rating": -0.50,
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": 0.00
+}
+```

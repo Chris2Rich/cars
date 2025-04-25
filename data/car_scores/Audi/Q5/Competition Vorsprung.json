@@ -1,0 +1,175 @@
+The "Competition Vorsprung" trim is a high-spec, performance-oriented plug-in hybrid variant of the Audi Q5, primarily found in the UK market. The most recent data points refer to the 2020-2022 model years, often the "55 TFSI e" powertrain. I will use data from these sources, focusing on the 55 TFSI e Competition Vorsprung.
+
+Here's the evaluation and scoring:
+
+*   **price\_usd**: UK prices for the Q5 55 TFSI e Vorsprung Competition were around £65,685 in 2019/2020 (Source [23]) and £73,210 in 2022 (Source [7]). Converting £65k-£73k to USD (using a rough £1 = $1.25) gives $81k-$91k. This is significantly above the $35,000 average and approaching the >$100,000 range. Score: -0.80.
+*   **total\_cost\_estimate\_5yr\_usd**: High purchase price, luxury brand maintenance, and potential for higher insurance on a performance PHEV suggest high ownership costs, likely well over the $60,000 mark over 5 years. Score: -1.00.
+*   **insurance\_usd\_yr**: UK insurance group is high, Group 43 or 45 (Source [16], [20], [21]). This indicates high insurance costs, likely well above the $2,500/year benchmark for -1.00. Score: -1.00.
+*   **maint\_usd\_yr**: Audi maintenance is generally above average, and a complex PHEV system could add costs. Likely above the $1,200/year benchmark for -1.00. Score: -1.00.
+*   **repair\_risk\_score**: Audi's reliability is rated as average to slightly below average (Source [4], [27]). Score: -0.10.
+*   **hp**: System output is 367 PS (362 hp) (Source [7], [8], [17], [18]). This is well above the 200 hp average. Score: 0.40.
+*   **torque**: System torque is 500 Nm (369 lb-ft) (Source [3], [9], [17]). This is well above the 190 lb-ft average. Score: 0.40.
+*   **cylinder\_count**: Uses a 2.0L 4-cylinder engine as part of the PHEV system (Source [7], [17]). 4 cylinders are below the 6-cylinder average for performance models, but common for base Q5. Score: -0.40.
+*   **engine\_displacement**: 2.0L (Source [7], [18]). This is below the 3.0L average. Score: -0.40.
+*   **accel\_0\_60\_sec**: 0-62 mph in 5.1-5.3 seconds (Source [3], [9], [17]). This is significantly faster than the 7.5 seconds average. Score: 0.60.
+*   **top\_speed**: 148 mph (Source [3], [7], [9], [17], [18]). This is around the 150 mph average. Score: 0.00.
+*   **drive\_type**: Quattro all-wheel drive is standard (Source [2], [3], [4], [6], [7], [8], [9], [10], [11], [13], [14], [15], [17], [18], [22], [24], [25], [26], [27], [28]). AWD is the benchmark average. Score: 0.00.
+*   **transmission\_type**: 7-speed S tronic (dual-clutch) (Source [3], [4], [7], [9], [10], [11], [13], [14], [15], [17], [18], [22], [24], [25], [26], [28]). Dual-Clutch is 0.00 on the guide. Score: 0.00.
+*   **offroad\_ability**: Has Quattro AWD and adaptive air suspension available (Source [18]), but reviews suggest it's for light off-road use (Source [13]). Score: 0.10.
+*   **braking\_dist\_ft**: No specific data found. Default: 0.00.
+*   **size**: Standard Q5 dimensions, around 4663mm length (Source [3]). Slightly larger than a Civic, but not a large SUV. Score: 0.10.
+*   **wheelbase**: 2819mm (Source [3]). Longer than an Octavia, shorter than an S-Class. Score: 0.20.
+*   **body\_style**: SUV (Source [3], [7], [8], [10], [13], [14], [15], [18], [20], [24], [25]). Score: 0.30.
+*   **seats**: 5 seats (Source [2], [7], [18], [29]). Market average. Score: 0.00.
+*   **cargo\_space**: 450 litres (15.9 cu ft) for the PHEV due to battery location (Source [23]). This is around the Civic average. Score: 0.00.
+*   **rear\_space**: No specific data found, but generally considered decent for the class. Default: 0.00.
+*   **ground\_clearance\_in**: No specific data found. Adaptive air suspension can adjust height (Source [18]), suggesting some capability. Default: 0.00.
+*   **turn\_radius\_ft**: 11m (36.1 ft) (Source [3]). Around the Camry average. Score: 0.00.
+*   **mpg**: Official WLTP combined is very high (108.6 - 156.9 mpg) due to PHEV nature (Source [2], [7], [17], [18], [23], [26]). Real-world varies greatly depending on electric use, but the potential for high efficiency exists. Score: 0.80 (reflecting the PHEV potential).
+*   **co2\_g\_km**: Official WLTP is low (41-60 g/km) (Source [7], [17], [18], [23]). This is significantly better than the 175 g/km average and approaches 0 g/km. Score: 0.80.
+*   **electric\_range\_mi**: WLTP electric range is 26-38 miles (Source [17], [23], [24], [26], [27]). This is below the 100-mile benchmark for 0.00. Score: -0.20.
+*   **charge\_speed\_kw**: Integrated charger is 7.4 kW (Source [17]). This is within the 11-50 kW range for 0.00, but on the lower end. Score: -0.10.
+*   **style\_sleek\_vs\_boxy**: Standard SUV shape, not particularly sleek or boxy. Score: 0.00.
+*   **style\_aggression\_rating**: Has S line and Competition styling elements, black pack (Source [2], [6], [11]). More aggressive than base Q5. Score: 0.30.
+*   **style\_modernity\_rating**: Modern Audi design, but the interior is noted as aging (Source [4]). Score: 0.10.
+*   **handling\_rating**: Generally good handling, but not the sharpest in the class (Source [4]). Score: 0.20.
+*   **ride\_comfort\_rating**: Praised for comfort, especially with adaptive air suspension (Source [12], [18]). Score: 0.60.
+*   **cabin\_noise\_rating**: Generally refined and quiet (Source [17]). Score: 0.50.
+*   **shift\_smooth\_rating**: 7-speed S tronic is generally smooth but can hesitate (Source [17]). Score: 0.20.
+*   **steering\_feel\_rating**: Described as light and detached (Source [4]). Score: -0.40.
+*   **adas\_score**: Vorsprung trim is very well-equipped with driver assistance systems, including adaptive cruise control, lane assist, park assist, head-up display, 360 camera (Source [2], [6], [8], [13], [15], [24]). Score: 0.70.
+*   **visibility\_rating**: Generally good visibility (Source [4]). Score: 0.30.
+*   **headlight\_rating**: Features Matrix LED headlights (Source [2], [8], [15], [23]). Score: 0.60.
+*   **security\_rating**: Comes with anti-theft alarm (Source [24]). Luxury brand, likely has good security features. Score: 0.30.
+*   **screen\_in**: Features Audi Virtual Cockpit and MMI Navigation (Source [2], [6], [8], [12], [15], [24]). Screen size is typically 10.1 inches. Score: 0.40.
+*   **infotainment\_ux\_rating**: High-resolution screen, Virtual Cockpit is excellent, but touchscreen interface can be distracting (Source [4], [6], [8], [12], [15], [24]). Score: 0.30.
+*   **smartphone\_connect\_rating**: Audi Smartphone Interface, Apple CarPlay and Android Auto via Bluetooth (Source [2], [6], [15]). Score: 0.60.
+*   **audio\_rating**: Features Bang & Olufsen sound system (Source [2], [8], [15], [23], [24]). Score: 0.70.
+*   **usb\_ports**: USBC ports mentioned (Source [15]). Likely multiple ports. Score: 0.20.
+*   **comfort\_feature\_score**: Vorsprung Competition adds massaging front seats, heated front and rear seats, panoramic sunroof, heated/cooled cupholder (Source [2], [6], [8], [15], [18], [23]). Score: 0.80.
+*   **convenience\_feature\_score**: Features like head-up display, 360 camera, park assist, automatic tailgate (Source [2], [6], [8], [15], [24]). Score: 0.70.
+*   **brand\_prestige\_rating**: Audi is a well-regarded luxury brand. Score: 0.40.
+*   **model\_prestige\_rating**: Q5 is a popular mid-range model. Score: 0.00.
+*   **trim\_prestige\_rating**: Vorsprung Competition is the top-tier, most expensive trim. Score: -1.00.
+*   **interior\_luxury\_rating**: High-quality materials, fine Nappa leather, piano black inlays, well-built (Source [2], [6], [8], [15]). Score: 0.60.
+*   **interior\_tech\_focus\_rating**: Features Virtual Cockpit and large central screen, head-up display (Source [2], [6], [8], [12], [15], [24]). Score: 0.60.
+
+Refining scores based on benchmarks:
+*   Price: $81k-$91k is closer to -$1.00 (> $100k) than $35k (0.00). -0.80 seems appropriate.
+*   Total Cost: High price, insurance, maintenance, and potential PHEV complexity push this towards -1.00.
+*   Insurance/Maintenance: Group 43/45 and luxury German brand PHEV maintenance are firmly in the -1.00 territory based on the guide's examples.
+*   Electric Range: 26-38 miles is below 100 miles (0.00). -0.20 is reasonable.
+*   Charge Speed: 7.4 kW is below 11 kW (0.00). -0.10 is reasonable.
+*   Trim Prestige: It is explicitly the "range-topping Vorsprung Competition" (Source [24]). This fits the -1.00 description for "Top Trims".
+
+Final JSON structure based on refined scores.
+
+```json
+{
+  "price_usd": -0.80,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -0.10,
+  "hp": 0.40,
+  "torque": 0.40,
+  "cylinder_count": -0.40,
+  "engine_displacement": -0.40,
+  "accel_0_60_sec": 0.60,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 0.10,
+  "braking_dist_ft": 0.00,
+  "size": 0.10,
+  "wheelbase": 0.20,
+  "body_style": 0.30,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.80,
+  "co2_g_km": 0.80,
+  "electric_range_mi": -0.20,
+  "charge_speed_kw": -0.10,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.30,
+  "style_modernity_rating": 0.10,
+  "handling_rating": 0.20,
+  "ride_comfort_rating": 0.60,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.20,
+  "steering_feel_rating": -0.40,
+  "adas_score": 0.70,
+  "visibility_rating": 0.30,
+  "headlight_rating": 0.60,
+  "security_rating": 0.30,
+  "screen_in": 0.40,
+  "infotainment_ux_rating": 0.30,
+  "smartphone_connect_rating": 0.60,
+  "audio_rating": 0.70,
+  "usb_ports": 0.20,
+  "comfort_feature_score": 0.80,
+  "convenience_feature_score": 0.70,
+  "brand_prestige_rating": 0.40,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.60
+}
+``````json
+{
+  "price_usd": -0.80,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -0.10,
+  "hp": 0.40,
+  "torque": 0.40,
+  "cylinder_count": -0.40,
+  "engine_displacement": -0.40,
+  "accel_0_60_sec": 0.60,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 0.10,
+  "braking_dist_ft": 0.00,
+  "size": 0.10,
+  "wheelbase": 0.20,
+  "body_style": 0.30,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.80,
+  "co2_g_km": 0.80,
+  "electric_range_mi": -0.20,
+  "charge_speed_kw": -0.10,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.30,
+  "style_modernity_rating": 0.10,
+  "handling_rating": 0.20,
+  "ride_comfort_rating": 0.60,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.20,
+  "steering_feel_rating": -0.40,
+  "adas_score": 0.70,
+  "visibility_rating": 0.30,
+  "headlight_rating": 0.60,
+  "security_rating": 0.30,
+  "screen_in": 0.40,
+  "infotainment_ux_rating": 0.30,
+  "smartphone_connect_rating": 0.60,
+  "audio_rating": 0.70,
+  "usb_ports": 0.20,
+  "comfort_feature_score": 0.80,
+  "convenience_feature_score": 0.70,
+  "brand_prestige_rating": 0.40,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.60
+}
+```

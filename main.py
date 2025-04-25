@@ -1,10 +1,11 @@
 import json
 import ast
+import re 
 
 res = []
 
 try:
-    for i in ["data/car_models/Mercedes-Benz.json"]:
+    for i in ["data/car_models/Mercedes-Benz.json", "data/car_models/BMW.json", "data/car_models/Audi.json", "data/car_models/Volkswagen.json", "data/car_models/Porsche.json", "data/car_models/Vauxhall.json"]:
         with open(i, "r") as file:
                 for brand, models in json.load(file).items():
                     for model in models:
@@ -14,7 +15,8 @@ try:
                             for version in versions:
                                 try:
                                     fi = open(f"data/car_scores/{'/'.join([brand, model_name, version])}.json", "r", encoding="utf-8")
-                                    data = "".join(fi.readlines()[1:-1])
+                                    data = "".join(fi.readlines())
+                                    data = re.match(r"json\`\`\`.*\`\`\`")
                                     if data == "":
                                         continue
                                     if data[0] == "[":

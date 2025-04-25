@@ -1,0 +1,113 @@
+The Vauxhall Calibra SE was a special edition trim level of the Vauxhall Calibra, which was produced from 1989 to 1997. As there is no "most recent version" in the context of today's new car market, this evaluation is based on the specifications of a late model Calibra SE (circa 1997), compared against benchmarks for vehicles available in today's market (2025). The SE trims often included cosmetic enhancements and additional features over the base models, but the core mechanicals and technology remained consistent with the Calibra of that era.
+
+Here is the evaluation based on available data and comparison to modern vehicles:
+
+```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.50,
+  "insurance_usd_yr": 0.75,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -0.75,
+  "torque": -0.75,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.75,
+  "top_speed": -0.25,
+  "drive_type": -1.00,
+  "transmission_type": -1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -0.75,
+  "size": -0.25,
+  "wheelbase": -0.25,
+  "body_style": -1.00,
+  "seats": -0.50,
+  "cargo_space": -0.75,
+  "rear_space": -0.50,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.25,
+  "mpg": 0.00,
+  "co2_g_km": -0.75,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.75,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": -0.50,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": -0.25,
+  "shift_smooth_rating": -0.50,
+  "steering_feel_rating": 0.00,
+  "adas_score": -1.00,
+  "visibility_rating": -0.25,
+  "headlight_rating": -0.75,
+  "security_rating": -0.75,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": -0.50,
+  "usb_ports": -1.00,
+  "comfort_feature_score": -0.75,
+  "convenience_feature_score": -0.75,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": -0.75,
+  "interior_tech_focus_rating": -1.00
+}
+```
+
+**Evaluation Reasoning:**
+
+*   **price\_usd (1.00):** As a classic used car, the purchase price is significantly lower than the average new car price today.
+*   **total\_cost\_estimate\_5yr\_usd (0.50):** While the purchase price is low, potential maintenance and repair costs for an older vehicle balance this, resulting in a score slightly above average compared to the total cost of owning a new car for 5 years.
+*   **insurance\_usd\_yr (0.75):** Based on UK insurance groups, older, less powerful cars like the Calibra typically fall into lower insurance groups compared to many modern vehicles, leading to lower premiums.
+*   **maint\_usd\_yr (0.00):** Maintenance costs can vary depending on the car's condition, but parts and labor for a car of this age are generally not as high as for complex modern luxury or performance vehicles. Rated as average compared to the full spectrum of modern cars.
+*   **repair\_risk\_score (0.00):** While older cars can have age-related issues, the Calibra's mechanicals are relatively simple compared to modern cars. Rated as average risk.
+*   **hp (-0.75):** The common engines in the Calibra SE (like the 2.0i 8v or 16v) produced significantly less horsepower than the average new car today.
+*   **torque (-0.75):** Similarly, torque figures are well below the modern average.
+*   **cylinder\_count (0.00):** Typically 4-cylinder engines, which is common but not at the extremes of modern offerings.
+*   **engine\_displacement (0.00):** The 2.0L or 2.5L engines are around the average displacement seen in today's market, which ranges from small turbos to larger V6s/V8s.
+*   **accel\_0\_60\_sec (-0.75):** Acceleration times (around 8-10 seconds depending on engine/transmission) are considerably slower than the average modern car.
+*   **top\_speed (-0.25):** Top speeds (around 120-140 mph) are below the average for modern vehicles.
+*   **drive\_type (-1.00):** Primarily Front-Wheel Drive (FWD), which scores the lowest according to the guide. Some models had AWD, but FWD was common for SE trims.
+*   **transmission\_type (-1.00):** Offered with manual or older 4-speed automatic transmissions, both scoring low compared to modern automatics and dual-clutches.
+*   **offroad\_ability (1.00):** As a low-slung coupe, it has no off-road capability, scoring the highest as the inverse of a capable off-roader.
+*   **braking\_dist\_ft (-0.75):** Braking technology from the 1990s is less effective than modern systems, likely resulting in longer braking distances.
+*   **size (-0.25):** Its length and width are slightly below the average size of cars on the road today (which includes many larger SUVs and sedans).
+*   **wheelbase (-0.25):** The wheelbase is also slightly shorter than the modern average.
+*   **body\_style (-1.00):** A 2-door coupe scores the lowest for practicality according to the guide.
+*   **seats (-0.50):** Typically a 2+2 seater, offering less seating capacity than the average 5-seater vehicle.
+*   **cargo\_space (-0.75):** While the hatchback design offered decent access, the overall cargo volume is limited compared to modern hatchbacks, wagons, and SUVs.
+*   **rear\_space (-0.50):** Rear legroom is limited, typical for a coupe, scoring below the average sedan or SUV.
+*   **ground\_clearance\_in (-0.50):** Low ground clearance is typical for a coupe, scoring below the average crossover/sedan.
+*   **turn\_radius\_ft (0.25):** Its relatively compact size compared to larger modern vehicles gives it a slightly better turning radius than average.
+*   **mpg (0.00):** Fuel economy is around the average for non-hybrid gasoline cars today.
+*   **co2\_g\_km (-0.75):** Emissions are higher than modern vehicles, especially hybrids and EVs.
+*   **electric\_range\_mi (-1.00):** Not an electric vehicle.
+*   **charge\_speed\_kw (-1.00):** Not an electric vehicle.
+*   **style\_sleek\_vs\_boxy (0.75):** The Calibra was known for its very aerodynamic and sleek design.
+*   **style\_aggression\_rating (-0.50):** The styling is smooth and aerodynamic rather than aggressive.
+*   **style\_modernity\_rating (-0.50):** While stylish in its time, the design cues are now clearly dated compared to current automotive trends.
+*   **handling\_rating (0.00):** Based on the Vauxhall Cavalier platform, its handling was considered competent but not outstanding for its era, rated as average against the wide range of modern cars.
+*   **ride\_comfort\_rating (0.00):** Ride comfort was generally considered acceptable for a coupe, rated as average.
+*   **cabin\_noise\_rating (-0.25):** Cabin noise levels are likely higher than the average modern car due to less sound deadening and older engine/road noise isolation technology.
+*   **shift\_smooth\_rating (-0.50):** Manual transmissions or older automatic transmissions are typically less smooth than modern automatic or CVT transmissions.
+*   **steering\_feel\_rating (0.00):** Steering feel was generally considered adequate but not particularly engaging, rated as average.
+*   **adas\_score (-1.00):** Lacks modern Advanced Driver-Assistance Systems.
+*   **visibility\_rating (-0.25):** Coupe body styles often have compromised rear visibility compared to sedans or hatchbacks.
+*   **headlight\_rating (-0.75):** Uses older halogen headlight technology, significantly less effective than modern LED or Matrix LED systems.
+*   **security\_rating (-0.75):** Security features were basic compared to modern alarms, immobilizers, and tracking systems.
+*   **screen\_in (-1.00):** No central infotainment screen.
+*   **infotainment\_ux\_rating (-1.00):** No modern infotainment system.
+*   **smartphone\_connect\_rating (-1.00):** No smartphone connectivity features like Apple CarPlay or Android Auto.
+*   **audio\_rating (-0.50):** The standard audio system was basic compared to modern multi-speaker premium systems.
+*   **usb\_ports (-1.00):** No USB ports for charging or data.
+*   **comfort\_feature\_score (-0.75):** While SE trims might have included features like heated seats or air conditioning, they lack the wide array of comfort features found in modern vehicles (e.g., ventilated seats, multi-zone climate control).
+*   **convenience\_feature\_score (-0.75):** Lacks modern convenience features like parking sensors, backup cameras, keyless entry/start (by modern standards), etc.
+*   **brand\_prestige\_rating (0.00):** Vauxhall is a mainstream brand.
+*   **model\_prestige\_rating (0.00):** The Calibra was a popular and stylish model in its time but not a high-end or halo car for the brand.
+*   **trim\_prestige\_rating (0.00):** SE trims were typically mid-range special editions, not the absolute base or top-performance trims.
+*   **interior\_luxury\_rating (-0.75):** The interior materials and finish were typical of a mainstream car from the 1990s, far below modern luxury standards.
+*   **interior\_tech\_focus\_rating (-1.00):** The interior design has no focus on integrated technology compared to modern vehicles.

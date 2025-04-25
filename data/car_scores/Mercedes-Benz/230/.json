@@ -1,55 +1,111 @@
-```json
+The search results confirm that the "most recent" Mercedes-Benz 230 is part of the W123 series, produced from 1976 to 1985. There are different engine variants (230 and 230E) with slightly different power outputs and fuel systems (carburetor vs. fuel injection). I will use the specs for the 230E (136 hp, 151 lb-ft, 2.3L) as it's a later, slightly more powerful version within the series, and the specs are readily available.
+
+Here's the evaluation based on the W123 230E specifications and benchmarking against today's market:
+
+*   **price_usd:** Used classic car prices vary. A mid-range estimate from search results is around $10,000 - $15,000 USD. This falls into the <$15,000 range in the guide, scoring +1.00.
+*   **total_cost_estimate_5yr_usd:** Difficult to estimate for a classic. Maintenance can be high, but depreciation might be low or even negative (appreciation). Default to 0.00.
+*   **insurance_usd_yr:** Classic car insurance is often cheaper than modern car insurance. UK insurance groups for W123 are low. Compared to the average modern car insurance cost, this would likely be lower. However, the guide is for new cars. Default to 0.00 due to context mismatch and variability.
+*   **maint_usd_yr:** Maintenance can be higher than average for a 40+ year old car, even if simple. Parts can be expensive or hard to find. Default to 0.00.
+*   **repair_risk_score:** W123 is renowned for reliability for its era, but it's still an old car susceptible to age-related issues like rust. Compared to modern cars, the risk of *some* repair is higher, though major mechanical failure might be less likely than some complex modern cars. The guide examples suggest extreme ends. It's more reliable than an Alfa Romeo Giulia but less hassle-free than a new Toyota Corolla. Default to 0.00.
+*   **hp:** 136 hp is well below the modern average. -1.00.
+*   **torque:** 151 lb-ft is well below the modern average. -1.00.
+*   **cylinder_count:** 4 cylinders is common. 0.00.
+*   **engine_displacement:** 2.3L for a 4-cylinder is around average. 0.00.
+*   **accel_0_60_sec:** Around 10.9 - 11.5 seconds. Well above the modern average. -1.00.
+*   **top_speed:** Around 106 - 115 mph. Below the modern average (150mph). -0.50.
+*   **drive_type:** RWD. +1.00.
+*   **transmission_type:** Typically 4-speed automatic or manual. Using automatic as a common option. 4-speed automatic is less sophisticated than modern automatics or DCTs. Score between 0.00 and +1.00. Let's say +0.50 for being an automatic, but not a modern one. *Correction*: The guide explicitly scores Automatic as +1.00, DCT as 0.00, Manual/Sequential as -1.00. I must follow the guide. +1.00.
+*   **offroad_ability:** Low ground clearance, RWD, not designed for offroad. Guide is inverted. +1.00.
+*   **braking_dist_ft:** Older braking technology (discs, but no ABS standard). Likely >150 ft. -1.00.
+*   **size:** Length ~4725mm. Slightly above average for a sedan today. +0.50.
+*   **wheelbase:** ~2795mm. Average. 0.00.
+*   **body_style:** 4-door sedan. 0.00.
+*   **seats:** 5 seats. 0.00.
+*   **cargo_space:** Around 17.7 cu ft (500L). Above average for a sedan. +0.50.
+*   **rear_space:** Decent for its time, likely around 33-35". Average. 0.00.
+*   **ground_clearance_in:** Around 6 inches (123-165mm depending on source/variant). Average for a sedan/low crossover. 0.00.
+*   **turn_radius_ft:** Around 36.9 ft (11.25m). Average. 0.00.
+*   **mpg:** Around 20-27 mpg combined. Well below modern average. -1.00.
+*   **co2_g_km:** High emissions for a petrol engine of that era. Likely >200 g/km. -1.00.
+*   **electric_range_mi:** Not electric. -1.00.
+*   **charge_speed_kw:** Not electric. -1.00.
+*   **handling_rating:** Soft suspension, body roll compared to modern cars. -0.50.
+*   **ride_comfort_rating:** Known for comfortable ride for its era. Compared to modern luxury, maybe average to good. +0.50.
+*   **cabin_noise_rating:** Less sound deadening than modern cars. Higher cabin noise. -1.00.
+*   **shift_smooth_rating:** 4-speed automatic was smooth for its time, but not as refined as modern multi-speed automatics or CVTs. 0.00.
+*   **steering_feel_rating:** Power steering was available, but feel is less direct than modern systems. 0.00.
+*   **adas_score:** No ADAS features. -1.00.
+*   **visibility_rating:** Large windows, thin pillars. Excellent visibility. +1.00.
+*   **headlight_rating:** Basic halogen headlights. Poor by modern standards. -1.00.
+*   **security_rating:** Basic security (locks, maybe simple alarm). Poor by modern standards. -1.00.
+*   **screen_in:** No screen. -1.00.
+*   **infotainment_ux_rating:** Basic radio, no complex interface. -1.00.
+*   **smartphone_connect_rating:** No smartphone connectivity. -1.00.
+*   **audio_rating:** Basic audio system (likely 2-4 speakers). Poor by modern standards. -1.00.
+*   **usb_ports:** No USB ports. -1.00.
+*   **comfort_feature_score:** Basic features (manual/basic power seats, no climate zones). -1.00.
+*   **convenience_feature_score:** No modern convenience features (sensors, cameras, keyless entry). -1.00.
+*   **brand_prestige_rating:** Mercedes-Benz has high brand prestige. +1.00.
+*   **model_prestige_rating:** W123 is a well-regarded classic, but not a halo car like an S-Class or SL. Using the *corrected* interpretation of the guide (0.00 for mid-range). 0.00.
+*   **trim_prestige_rating:** 230/230E was a standard engine option, not a top performance or luxury trim. Using the *corrected* interpretation of the guide (0.00 for mid-range). 0.00.
+*   **interior_luxury_rating:** Durable materials, but not luxurious by modern standards. -0.50.
+*   **interior_tech_focus_rating:** Minimal technology in the cabin. -1.00.
+*   **style_sleek_vs_boxy:** Classic, somewhat boxy sedan shape. -0.50.
+*   **style_aggression_rating:** Not aggressive design. -1.00.
+*   **style_modernity_rating:** Clearly dated design compared to today. -1.00.
+
+Final check of values and formatting. Ensure all are floats with 2 decimal places.```json
 {
   "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": -0.30,
-  "insurance_usd_yr": -0.40,
-  "maint_usd_yr": -0.40,
-  "repair_risk_score": -0.50,
-  "hp": -0.03,
-  "torque": 0.10,
-  "cylinder_count": -0.50,
-  "engine_displacement": -0.35,
-  "accel_0_60_sec": 0.10,
-  "top_speed": 0.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -1.00,
+  "torque": -1.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -1.00,
+  "top_speed": -0.50,
   "drive_type": 1.00,
-  "transmission_type": 0.00,
+  "transmission_type": 1.00,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
-  "size": -0.30,
-  "wheelbase": -0.75,
-  "body_style": -1.00,
-  "seats": -1.00,
-  "cargo_space": -0.15,
-  "rear_space": -1.00,
-  "ground_clearance_in": -0.30,
-  "turn_radius_ft": 0.05,
-  "mpg": -0.15,
-  "co2_g_km": -0.30,
+  "braking_dist_ft": -1.00,
+  "size": 0.50,
+  "wheelbase": 0.00,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.50,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": -1.00,
+  "co2_g_km": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.40,
-  "style_aggression_rating": 0.10,
-  "style_modernity_rating": -0.70,
-  "handling_rating": 0.30,
-  "ride_comfort_rating": -0.40,
-  "cabin_noise_rating": -0.60,
+  "style_sleek_vs_boxy": -0.50,
+  "style_aggression_rating": -1.00,
+  "style_modernity_rating": -1.00,
+  "handling_rating": -0.50,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": -1.00,
   "shift_smooth_rating": 0.00,
-  "steering_feel_rating": 0.20,
-  "adas_score": -0.90,
-  "visibility_rating": -0.30,
-  "headlight_rating": -0.50,
-  "security_rating": -0.20,
+  "steering_feel_rating": 0.00,
+  "adas_score": -1.00,
+  "visibility_rating": 1.00,
+  "headlight_rating": -1.00,
+  "security_rating": -1.00,
   "screen_in": -1.00,
-  "infotainment_ux_rating": -0.90,
+  "infotainment_ux_rating": -1.00,
   "smartphone_connect_rating": -1.00,
-  "audio_rating": -0.30,
+  "audio_rating": -1.00,
   "usb_ports": -1.00,
-  "comfort_feature_score": -0.60,
-  "convenience_feature_score": -0.70,
-  "brand_prestige_rating": 0.80,
-  "model_prestige_rating": 0.50,
-  "trim_prestige_rating": 0.50,
-  "interior_luxury_rating": -0.40,
-  "interior_tech_focus_rating": -0.80
+  "comfort_feature_score": -1.00,
+  "convenience_feature_score": -1.00,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": -0.50,
+  "interior_tech_focus_rating": -1.00
 }
 ```

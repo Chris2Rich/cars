@@ -1,0 +1,111 @@
+Based on the search results, the most recent Porsche Panamera with a V8 engine is the 2024 Porsche Panamera Turbo E-Hybrid. I will use its specifications for the evaluation.
+
+Here's the evaluation based on the gathered data and the scoring guide:
+
+*   **price\_usd**: The 2025 Porsche Panamera Turbo E-Hybrid starts around $192,995 (Source [2]). This is well above the $100,000 threshold for -1.00. Score: -1.00.
+*   **total\_cost\_estimate\_5yr\_usd**: No specific 5-year cost found, but given the high purchase price, insurance, and maintenance costs for a Porsche, especially a high-performance hybrid, it will be well over $60,000. Score: -1.00.
+*   **insurance\_usd\_yr**: High-performance, high-value luxury hybrid. Likely in a very high insurance group. Score: -1.00.
+*   **maint\_usd\_yr**: Porsche maintenance is expensive, and hybrid systems can add complexity. Score: -1.00.
+*   **repair\_risk\_score**: Porsche generally has average reliability (Source [1] mentions "exceptionally well-built car a solid value" for the Panamera line). Score: 0.00.
+*   **hp**: Combined output of 670 hp (Source [2], [7], [9], [15], [19]) or 671 bhp (Source [3], [18]) or 680 PS (Source [4], [6], [14]). This is very close to the >700 hp threshold for +1.00. Score: 0.90.
+*   **torque**: Combined output of 685 lb-ft (Source [2], [7], [9], [15]) or 686 lb-ft (Source [3], [4], [5], [18]) or 930 Nm (Source [4], [6], [14], [15], [19]). This is significantly above the 190 lb-ft average, and a good portion of the way to 1000+ lb-ft. Score: 0.90.
+*   **cylinder\_count**: V8 (Source [2], [3], [5], [6], [7], [9], [14], [15], [19]). Score: 0.50 (above 6, below 12).
+*   **engine\_displacement**: 4.0L (Source [2], [3], [5], [6], [7], [9], [14], [15], [19]). Score: 0.50 (above 3.0L, below 6.0L).
+*   **accel\_0\_60\_sec**: Porsche claims 3.0 seconds (Source [2], [9], [21]), C/D estimates 2.8 seconds (Source [2]), 0-62 mph in 3.2 seconds (Source [3], [4], [14], [15], [18]). These are all well below the 7.5s average and close to the <2.5s threshold. Score: 0.90.
+*   **top\_speed**: 196 mph (Source [3], [4], [9], [14], [21]) or 315 km/h (196 mph) (Source [14]). Well above 150 mph and close to 202+ mph. Score: 0.90.
+*   **drive\_type**: AWD (Source [2], [3], [5], [6], [14], [19]). Score: 0.00.
+*   **transmission\_type**: 8-speed dual-clutch automatic (PDK) (Source [2], [3], [5], [6], [7], [15], [19]). Dual-Clutch. Score: 0.00.
+*   **offroad\_ability**: Low-slung performance luxury hybrid. Score: 1.00 (poor off-road ability).
+*   **braking\_dist\_ft**: No specific braking distance found for the Turbo E-Hybrid. The standard Panamera has excellent braking (Source [4] mentions confidence under braking). Default to 0.00.
+*   **size**: Length around 198.9-199.0 inches / 5052-5054 mm (Source [2], [3], [15], [23]). Larger than 4600mm. Score: 0.50.
+*   **wheelbase**: Around 116.1-116.2 inches / 2950 mm (Source [2], [3], [12], [23]). Larger than 2700mm. Score: 0.50.
+*   **body\_style**: 4-door Hatchback Sedan (Source [2], [15]). Score: 0.00.
+*   **seats**: 4 seats standard, optional 5th seat (Source [1], [2]). Standard is 4. Score: -0.25.
+*   **cargo\_space**: No specific cargo space found for the Turbo E-Hybrid, but hybrid components can reduce space (Source [2] mentions a hatchback). The previous E-Hybrid had slightly less cargo space than the non-hybrid. Score: 0.00.
+*   **rear\_space**: Rear legroom not explicitly stated in inches for the Turbo E-Hybrid, but the Panamera generally has decent rear space for a sedan of its type (Source [4] mentions "Space in the back is good"). Score: 0.25.
+*   **ground\_clearance\_in**: Around 55.9 inches height (Source [15], [23]). Ground clearance not explicitly stated, but it's a low-slung sedan. Score: -0.50.
+*   **turn\_radius\_ft**: No specific turn radius found for the Turbo E-Hybrid. The standard Panamera is around 39 ft. Score: -0.25.
+*   **mpg**: EPA estimated 22 combined (Source [2]), 134.5 mpg (WLTP) (Source [4]), 166 mpg (WLTP) (Source [5]). The combined MPG is below the 30 mpg average for gasoline cars, but as a PHEV, its efficiency is rated differently. Score: 0.00 (average for a PHEV).
+*   **co2\_g\_km**: 48 g/km (WLTP) (Source [4]), 38 g/km (WLTP) (Source [5]), 99 – 81 g/km (WLTP) (Source [6]). These are very low CO2 emissions due to the hybrid system. Score: 0.75 (closer to 0 than 175).
+*   **electric\_range\_mi**: Claimed 50+ miles (Source [11]), 56 miles (WLTP) (Source [5], [10]), 91 km (56 miles) WLTP (Source [7], [10]), estimated 35 miles real-world (Source [3]), estimated 49 miles (WLTP) (Source [4]). This is a good electric range for a PHEV. Score: 0.00 (around the 50-mile mark).
+*   **charge\_speed\_kw**: 11 kW AC onboard charger (Source [3], [10], [19], [27]). Charges in around 2.5 hours (Source [3], [10], [19], [27]). This is a good AC charging speed for a PHEV. Score: 0.00 (typical for public AC charging).
+*   **style\_sleek\_vs\_boxy**: Sleek, coupe-like profile (Source [5]). Score: 0.75.
+*   **style\_aggression\_rating**: Sporty and aggressive styling cues, especially in Turbo trim. Score: 0.75.
+*   **style\_modernity\_rating**: New generation, modern design (Source [1], [4], [5]). Score: 0.75.
+*   **handling\_rating**: Excellent handling, sporty dynamics, "incredibly impressive handling", "stunning agility for its size" (Source [4], [18]). Porsche Active Ride system enhances handling (Source [3], [4], [5], [7], [18], [25]). Score: 1.00.
+*   **ride\_comfort\_rating**: Adaptive air suspension standard, optional Porsche Active Ride system provides exceptional comfort and body control (Source [1], [4], [5], [7], [18], [25]). Score: 0.90 (closer to S-Class than Camry).
+*   **cabin\_noise\_rating**: Generally quiet luxury cabin, though tire noise can be present on some surfaces (Source [4], [18], [25]). Score: 0.50.
+*   **shift\_smooth\_rating**: 8-speed PDK is excellent, "slick and responsive" (Source [4]). Score: 0.75.
+*   **steering\_feel\_rating**: Excellent, communicative steering, "razor-sharp steering system" (Source [3], [18]). Score: 1.00.
+*   **adas\_score**: Standard and optional ADAS features available, including adaptive cruise control, lane keeping assist, traffic sign recognition, optional InnoDrive, remote parking assist, surround view (Source [1], [11], [13], [17], [22], [24]). Score: 0.90 (high level of tech).
+*   **visibility\_rating**: Rear visibility can be limited by the sloping roofline (Source [5]). Score: 0.00.
+*   **headlight\_rating**: Standard Matrix Design LED Headlights, advanced HD Matrix Design LED Headlights available (Source [28]). Score: 1.00.
+*   **security\_rating**: Luxury car, likely good security features. Default to 0.00.
+*   **screen\_in**: 12.6-inch digital instrument cluster, 10.9-inch central touchscreen, optional 10.9-inch passenger screen (Source [1], [2], [5], [11], [17], [28]). Large screens. Score: 1.00.
+*   **infotainment\_ux\_rating**: New infotainment system (PCM), generally well-regarded but can be complex (Source [1], [2], [4], [5], [11], [17]). Score: 0.75.
+*   **smartphone\_connect\_rating**: Wireless Apple CarPlay and Android Auto standard (Source [1], [2], [11], [17]). Score: 1.00.
+*   **audio\_rating**: 14-speaker Bose stereo standard, 21-speaker Burmester optional (Source [2], [24]). Score: 0.75.
+*   **usb\_ports**: Multiple USB-C ports (Source [1]). Score: 0.50.
+*   **comfort\_feature\_score**: Heated front seats standard, optional heated/ventilated/massaging seats, heated steering wheel, quad-zone climate (Source [1], [4], [25]). Score: 0.75.
+*   **convenience\_feature\_score**: Parking sensors, backup camera, keyless entry/start, power liftgate, optional surround view, remote park assist (Source [1], [11], [22], [24], [25]). Score: 0.75.
+*   **brand\_prestige\_rating**: Porsche is a high-prestige brand. Score: 1.00.
+*   **model\_prestige\_rating**: Panamera is a high-end model within Porsche. Score: -0.75.
+*   **trim\_prestige\_rating**: Turbo E-Hybrid is a high-performance, high-cost trim, near the top of the range (below Turbo S E-Hybrid). Score: -0.75.
+*   **interior\_luxury\_rating**: High-quality materials, luxurious cabin, exclusive Turbonite trim available (Source [1], [4], [5], [17]). Score: 0.90 (very luxurious).
+*   **interior\_tech\_focus\_rating**: Screen-heavy interior, digital cockpit, optional passenger screen (Source [1], [2], [5], [11], [17], [28]). Score: 1.00.
+
+```json
+{
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.90,
+  "torque": 0.90,
+  "cylinder_count": 0.50,
+  "engine_displacement": 0.50,
+  "accel_0_60_sec": 0.90,
+  "top_speed": 0.90,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.50,
+  "wheelbase": 0.50,
+  "body_style": 0.00,
+  "seats": -0.25,
+  "cargo_space": 0.00,
+  "rear_space": 0.25,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": -0.25,
+  "mpg": 0.00,
+  "co2_g_km": 0.75,
+  "electric_range_mi": 0.00,
+  "charge_speed_kw": 0.00,
+  "style_sleek_vs_boxy": 0.75,
+  "style_aggression_rating": 0.75,
+  "style_modernity_rating": 0.75,
+  "handling_rating": 1.00,
+  "ride_comfort_rating": 0.90,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.75,
+  "steering_feel_rating": 1.00,
+  "adas_score": 0.90,
+  "visibility_rating": 0.00,
+  "headlight_rating": 1.00,
+  "security_rating": 0.00,
+  "screen_in": 1.00,
+  "infotainment_ux_rating": 0.75,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.75,
+  "usb_ports": 0.50,
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": -0.75,
+  "trim_prestige_rating": -0.75,
+  "interior_luxury_rating": 0.90,
+  "interior_tech_focus_rating": 1.00
+}
+```

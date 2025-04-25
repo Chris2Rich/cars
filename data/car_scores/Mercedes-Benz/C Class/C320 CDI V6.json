@@ -1,51 +1,109 @@
+The Mercedes-Benz C-Class C320 CDI V6 refers to the W204 generation, produced from 2007 to 2011 in some markets (Source [14]). This evaluation is based on the W204 C320 CDI V6 relative to the current automotive market.
+
+*   **price\_usd**: As a used car from the late 2000s/early 2010s, the price is significantly lower than a new car today. Used prices are well below the $35,000 average for a new car, ranging from around €4,000 to €13,990 (approx $4,300 - $15,000 USD) (Source [16, 35, 40, 43]) or $6,400 - $7,400 AUD (approx $4,200 - $4,800 USD) (Source [2]). Score: 0.80.
+*   **total\_cost\_estimate\_5yr\_usd**: While the purchase price is low, an older luxury car will have higher maintenance and potential repair costs than a new economy car (Source [16, 36]). Score: -0.20.
+*   **insurance\_usd\_yr**: Insurance groups for the W204 C-Class C320 CDI were moderate to high for its time (Group 37-38 in the UK) (Source [6, 20, 46, 47, 48]). Relative to modern cars, this is likely around average or slightly above. Score: -0.10.
+*   **maint\_usd\_yr**: Maintenance costs for a Mercedes-Benz are generally higher than average (Source [16, 36, 40, 45]). Older cars often require more frequent or extensive maintenance. RepairPal estimates an annual maintenance cost of $888 for a C320 (Source [11]). Score: -0.50.
+*   **repair\_risk\_score**: The W204 generation is generally considered reliable for a Mercedes of its era (Source [11, 20, 35]). However, the OM642 V6 diesel engine had known issues with oil cooler leaks (Source [15, 21, 23, 26]). Other potential issues include steering lock failure and suspension wear (Source [17, 21, 35]). Risk is higher than a top-tier reliable brand but better than some other luxury makes. CarEdge rates the C-Class as worse than average for major repair probability over 10 years (Source [26, 38]). Score: -0.40.
+*   **hp**: The C320 CDI V6 had 224 hp (Source [2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 16, 18, 19, 27, 35, 36, 43]). This is above the 200 hp average. Score: 0.20.
+*   **torque**: The C320 CDI V6 had 510 Nm (376 lb-ft) (Source [2, 3, 5, 7, 8, 9, 10, 11, 13, 18, 19, 26, 28, 36, 42, 43]). This is significantly above the 190 lb-ft average. Score: 0.90.
+*   **cylinder\_count**: V6 (6 cylinders) (Source [2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 18, 19]). Above the common 4 cylinders, but common for this class/era. Score: 0.00.
+*   **engine\_displacement**: 3.0L (2987 cc) (Source [2, 3, 5, 7, 8, 9, 10, 11, 13, 18, 19]). Around the average for a V6. Score: 0.00.
+*   **accel\_0\_60\_sec**: Around 6.2-7.3 seconds (0-100 km/h in 6.5-7.7s) (Source [3, 5, 6, 7, 8, 10, 11, 12, 13, 18, 19, 27]). This is faster than the 7.5s average. Score: 0.40.
+*   **top\_speed**: Around 150-155 mph (235-250 km/h) (Source [3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 16, 19, 27]). Around the 150 mph average. Score: 0.00.
+*   **drive\_type**: RWD is standard, AWD (4Matic) was available (Source [3, 6, 7, 8, 10, 11, 13, 16, 40, 43]). RWD scores +1.00 according to the guide. Score: 1.00.
+*   **transmission\_type**: Typically 7-speed automatic (7G-TRONIC) (Source [2, 3, 5, 6, 8, 10, 11, 13, 14, 16, 18, 43]). A modern automatic for its time. Score: 1.00.
+*   **offroad\_ability**: Sedan/Estate body style, low ground clearance (around 11.2 cm or 4.4 inches for W204 sedan) (Source [5]), not designed for off-road. Score: 1.00 (based on guide examples).
+*   **braking\_dist\_ft**: Around 131 ft from 60 mph for a W203 C320 (Source [14]). Expected to be good for its class and era, around the 125 ft average. Score: 0.00.
+*   **size**: Length around 4.58-4.59m (180-181 inches) (Source [1, 3, 5, 6, 7, 8, 10, 11, 12, 13, 18, 25, 32]). Around the 4.6m average. Score: 0.00.
+*   **wheelbase**: 2760 mm (108.7 inches) (Source [1, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 18, 25, 32]). Around the 2700mm average. Score: 0.00.
+*   **body\_style**: Available as Sedan or Estate (Source [1, 2, 6, 7, 8, 10, 11, 12, 13, 14, 17, 18, 25, 36, 43, 44]). Score: 0.00.
+*   **seats**: 5 seats (Source [2, 5, 7, 8, 9, 12, 13, 18]). Score: 0.00.
+*   **cargo\_space**: Sedan boot space around 475 liters (16.77 cu ft) (Source [3, 5, 9, 10, 12, 13, 18, 25]). Around the 15 cu ft average. Score: 0.00.
+*   **rear\_space**: Reasonable room for its time, but headroom can be tight for taller passengers (Source [27]). Score: 0.00.
+*   **ground\_clearance\_in**: Around 11.2 cm (4.4 inches) for W204 sedan (Source [5]). Low for a sedan by modern standards. Score: -0.20.
+*   **turn\_radius\_ft**: Around 10.84m (35.56 ft) (Source [3, 5, 7, 10, 11, 12, 13, 18, 25]). Around the 36 ft average. Score: 0.00.
+*   **mpg**: Combined MPG around 32.67-40.94 UK mpg (Source [3, 5, 7, 13, 19]). Real-world MPG is often lower (around 30-44 mpg reported) (Source [19, 26, 42]). This is generally above the 30 mpg mark. Score: 0.20.
+*   **co2\_g\_km**: Around 182-208 g/km (Source [5, 6, 7, 13, 19, 20, 27]). This is around or above the 175 g/km average. Score: -0.20.
+*   **electric\_range\_mi**: Not electric. Score: -1.00.
+*   **charge\_speed\_kw**: Not applicable. Score: -1.00.
+*   **style\_sleek\_vs\_boxy**: W204 design is a classic sedan shape, neither particularly sleek nor boxy (Source [10, 28, 33]). Score: 0.00.
+*   **style\_aggression\_rating**: Standard C-Class styling, not particularly aggressive (Source [10, 28, 33]). Sport trim adds some aggression (Source [10, 33]). Score: 0.00.
+*   **style\_modernity\_rating**: Design is from the late 2000s. Looks dated compared to current designs (Source [10, 28, 33]). Score: -0.60.
+*   **handling\_rating**: Generally competent handling, described as sharp and sure-footed (Source [6, 18]), but reviews suggest it's not at BMW levels of driver involvement (Source [6, 18]). Score: 0.00.
+*   **ride\_comfort\_rating**: Generally praised for a very comfortable ride (Source [6, 15, 28, 42]). Score: 0.60.
+*   **cabin\_noise\_rating**: Very little engine noise comes into the cabin once on the move (Source [6, 42]). Score: 0.50.
+*   **shift\_smooth\_rating**: The 7-speed automatic is generally smooth (Source [2, 6, 8, 10, 18]). Score: 0.50.
+*   **steering\_feel\_rating**: Reviews mention light but precise steering (Source [33]), but also a lack of feel (Source [33]). Score: -0.50.
+*   **adas\_score**: Offered some early ADAS like ABS, ESP, Brake Assist, and Pre-Safe (Source [4, 12, 18, 30]). Lacks the comprehensive suites of modern cars. Score: -1.00.
+*   **visibility\_rating**: Standard sedan visibility. Score: 0.00.
+*   **headlight\_rating**: Available with Active Bi-Xenon headlights (Source [18, 30]). Good for their time, but not modern adaptive LEDs. Score: 0.20.
+*   **security\_rating**: Standard for a luxury car of its time, with alarm and immobiliser (Source [18]). Score: 0.00.
+*   **screen\_in**: Pre-facelift W204 had a small pop-up screen or integrated screen, typically around 5-7 inches with COMAND (Source [10, 18, 22, 25]). Small by modern standards. Score: -0.80.
+*   **infotainment\_ux\_rating**: COMAND system was advanced for its time (Source [10, 18, 25]), but the interface is dated compared to modern systems. Score: -0.50.
+*   **smartphone\_connect\_rating**: Bluetooth connectivity available (Source [10, 22, 25]). No modern smartphone integration like CarPlay/Android Auto standard (though aftermarket units exist) (Source [25]). Score: -1.00.
+*   **audio\_rating**: Optional Harman/Kardon sound system available (Source [18]). Standard system is likely average. Score: 0.00.
+*   **usb\_ports**: Likely one or two ports, possibly an iPod connection kit (Source [18, 25]). Score: -0.50.
+*   **comfort\_feature\_score**: Offered features like power seats with memory, dual-zone climate control, heated seats (optional), leather upholstery (Source [10, 18, 22, 25]). Good level of comfort features for its era. Score: 0.40.
+*   **convenience\_feature\_score**: Parking sensors (Parktronic), cruise control available (Source [10, 18]). Rearview camera was not standard. Lacks modern convenience tech. Score: -0.20.
+*   **brand\_prestige\_rating**: Mercedes-Benz is a high-prestige brand. Score: 0.80.
+*   **model\_prestige\_rating**: C-Class is a core, mid-range model for Mercedes-Benz. Score: 0.00.
+*   **trim\_prestige\_rating**: C320 CDI was a higher-end engine variant for the standard C-Class, often available with higher trims like Avantgarde or Sport (Source [1, 2, 4, 12, 18, 22, 25]). Score: 0.00.
+*   **interior\_luxury\_rating**: W204 interior was a significant improvement in quality for Mercedes (Source [10, 18, 28]), and higher trims added nicer materials like leather and wood/aluminum trim (Source [10, 18, 25]). Materials and design are dated compared to modern luxury interiors. Score: 0.30.
+*   **interior\_tech\_focus\_rating**: Featured an integrated screen and COMAND, but overall tech integration is minimal compared to modern screen-focused interiors (Source [10, 18]). Score: -0.70.
+
 ```json
 {
-  "price_usd": 0.90,
-  "total_cost_estimate_5yr_usd": -0.25,
-  "insurance_usd_yr": -0.50,
+  "price_usd": 0.80,
+  "total_cost_estimate_5yr_usd": -0.20,
+  "insurance_usd_yr": -0.10,
   "maint_usd_yr": -0.50,
-  "repair_risk_score": -0.20,
-  "hp": 0.10,
-  "torque": 0.60,
+  "repair_risk_score": -0.40,
+  "hp": 0.20,
+  "torque": 0.90,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.15,
-  "braking_dist_ft": 0.25,
+  "accel_0_60_sec": 0.40,
+  "top_speed": 0.00,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
   "size": 0.00,
-  "wheelbase": 0.05,
+  "wheelbase": 0.00,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.10,
-  "rear_space": -0.25,
-  "ground_clearance_in": -0.45,
-  "turn_radius_ft": 0.05,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.20,
+  "turn_radius_ft": 0.00,
   "mpg": 0.20,
-  "co2_g_km": -0.10,
+  "co2_g_km": -0.20,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": -0.15,
-  "style_aggression_rating": -0.30,
-  "style_modernity_rating": -0.50,
-  "handling_rating": 0.10,
-  "ride_comfort_rating": 0.40,
-  "cabin_noise_rating": 0.30,
-  "shift_smooth_rating": 0.20,
-  "steering_feel_rating": -0.10,
-  "adas_score": -0.40,
-  "visibility_rating": 0.10,
-  "headlight_rating": -0.10,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": -0.60,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.60,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": -0.50,
+  "adas_score": -1.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.20,
   "security_rating": 0.00,
-  "screen_in": -0.40,
+  "screen_in": -0.80,
   "infotainment_ux_rating": -0.50,
-  "smartphone_connect_rating": -0.60,
+  "smartphone_connect_rating": -1.00,
   "audio_rating": 0.00,
   "usb_ports": -0.50,
-  "comfort_feature_score": 0.00,
-  "convenience_feature_score": -0.10,
+  "comfort_feature_score": 0.40,
+  "convenience_feature_score": -0.20,
   "brand_prestige_rating": 0.80,
-  "model_prestige_rating": 0.50,
-  "trim_prestige_rating": -0.25,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
   "interior_luxury_rating": 0.30,
-  "interior_tech_focus_rating": -0.40
+  "interior_tech_focus_rating": -0.70
 }
 ```

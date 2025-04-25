@@ -1,0 +1,108 @@
+```json
+{
+  "price_usd": -0.80,
+  "total_cost_estimate_5yr_usd": -0.60,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.60,
+  "repair_risk_score": 0.20,
+  "hp": 0.60,
+  "torque": 0.50,
+  "cylinder_count": 0.40,
+  "engine_displacement": 0.40,
+  "accel_0_60_sec": 0.60,
+  "top_speed": 0.20,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.60,
+  "wheelbase": 0.60,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": -0.40,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.60,
+  "turn_radius_ft": -0.30,
+  "mpg": -0.40,
+  "co2_g_km": -0.40,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.80,
+  "style_aggression_rating": 0.70,
+  "style_modernity_rating": 0.40,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.70,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.30,
+  "adas_score": 0.00,
+  "visibility_rating": -0.30,
+  "headlight_rating": 0.40,
+  "security_rating": 0.50,
+  "screen_in": 0.20,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": 0.60,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.70,
+  "convenience_feature_score": 0.60,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": -0.60,
+  "trim_prestige_rating": -0.20,
+  "interior_luxury_rating": 0.90,
+  "interior_tech_focus_rating": 0.10
+}
+```
+**Evaluation Reasoning:**
+
+*   `price_usd`: The M Sport package adds to the cost of the base 6 Series Gran Coupe. The 2018 640i Gran Coupe M Sport would have an MSRP starting above the standard model's ~$81,400 (Source [7], [30]), placing it well above the $35,000 market average.
+*   `total_cost_estimate_5yr_usd`: The higher initial price, combined with typical BMW luxury car ownership costs (depreciation, maintenance, insurance), results in a high 5-year estimate, exceeding the $40,000 average.
+*   `insurance_usd_yr`: M Sport trims can sometimes incur slightly higher insurance costs due to their sportier nature and higher value. Combined with the base 6 Series' already high insurance group, this remains well above average.
+*   `maint_usd_yr`: Standard BMW maintenance costs are above average. M Sport specific parts like larger wheels/tires can also contribute to higher costs.
+*   `repair_risk_score`: The M Sport package is primarily cosmetic and feature-based and does not significantly alter the underlying mechanical reliability of the 6 Series Gran Coupe, which is generally considered average to slightly above average (Source [29]).
+*   `hp`: The M Sport package does not change the engine's horsepower. Using the 640i's 315-320 hp (Source [2], [7], [9], [10], [19], [20], [25]).
+*   `torque`: The M Sport package does not change the engine's torque. Using the 640i's 330 lb-ft (Source [9], [10], [20], [30]).
+*   `cylinder_count`: The M Sport package does not change the engine's cylinder count (6 for the 640i).
+*   `engine_displacement`: The M Sport package does not change the engine's displacement (3.0L for the 640i).
+*   `accel_0_60_sec`: The M Sport package does not significantly change acceleration. Using the 640i's ~5.4 seconds (Source [7], [16], [19], [23]).
+*   `top_speed`: The M Sport Edition package could include an increased top speed limiter (Source [10]). While the standard is 155 mph, the potential for a higher limit pushes this slightly further into the positive range.
+*   `drive_type`: The M Sport package was available on both RWD and xDrive (AWD) models (Source [10], [16], [26], [30]). Scoring based on the standard RWD.
+*   `transmission_type`: Uses the same 8-speed automatic transmission (Source [2], [4], [7], [10], [16], [17], [23], [24], [26], [30]).
+*   `offroad_ability`: The M Sport package does not add off-road capability. Remains poor.
+*   `braking_dist_ft`: The M Sport package includes black-painted brake calipers (Source [3]), suggesting potentially upgraded brakes, but no specific performance data was found. Defaulting to 0.00.
+*   `size`: The M Sport package does not change the vehicle's external dimensions (Source [2], [4], [6], [7], [8], [17], [25], [26], [37], [39]).
+*   `wheelbase`: The M Sport package does not change the wheelbase (Source [2], [4], [7], [8], [17], [37], [39]).
+*   `body_style`: Remains a 4-door coupe/sedan.
+*   `seats`: Remains a 4+1 seating configuration.
+*   `cargo_space`: The M Sport package does not change the trunk space (13.0 cu ft) (Source [11], [27], [29], [30]).
+*   `rear_space`: The M Sport package does not change rear passenger space (Source [11], [26]).
+*   `ground_clearance_in`: While M Sport suspension might imply lower clearance, sources suggest adaptive dampers were common/standard, and the M Sport package didn't necessarily include a unique fixed sport suspension (Source [12], [19]). Assume similar clearance to the base model.
+*   `turn_radius_ft`: The M Sport package does not change the turning radius (Source [26]).
+*   `mpg`: The M Sport package does not change the engine's fuel efficiency (23 mpg combined for 640i RWD) (Source [11], [26]).
+*   `co2_g_km`: The M Sport package does not change the engine's CO2 emissions.
+*   `electric_range_mi`: Not an electric vehicle.
+*   `charge_speed_kw`: Not an electric vehicle.
+*   `style_sleek_vs_boxy`: The M Sport aerodynamic kit enhances the sleek lines of the Gran Coupe (Source [3], [7]).
+*   `style_aggression_rating`: The M Sport package adds a more aggressive front end, side skirts, and rear apron (Source [3], [7]).
+*   `style_modernity_rating`: M Sport styling elements, wheels, and trim contribute to a more modern appearance (Source [7], [13]).
+*   `handling_rating`: While M Sport might suggest improved handling, reviews and forum discussions indicate that the standard adaptive suspension (Dynamic Damper Control) was the primary factor in handling, and the M Sport package didn't always include a separate, firmer suspension tune (Source [12], [19]). Larger optional M Sport wheels (20-inch) can affect handling feel. A slight increase from the base score is warranted due to potential tuning nuances or wheel options.
+*   `ride_comfort_rating`: The ride comfort is generally good, but reviews note it can be firm, especially with larger optional M Sport wheels (19-inch standard, 20-inch optional) and run-flat tires (Source [8], [14]). This slightly detracts from ultimate comfort compared to models focused purely on ride.
+*   `cabin_noise_rating`: The cabin is well-insulated (Source [3], [16]), and the M Sport package doesn't significantly change this, although larger tires might slightly increase road noise.
+*   `shift_smooth_rating`: Uses the same smooth 8-speed automatic transmission (Source [2], [3], [10], [16], [24]).
+*   `steering_feel_rating`: The M Sport package includes an M Sport steering wheel (Source [2], [4], [7], [10]), but the fundamental steering feel is determined by the system itself. Reviews are mixed but generally positive for a luxury car (Source [2], [9], [10], [20], [24], [32]).
+*   `adas_score`: ADAS features are part of separate packages (e.g., Driver Assistance Plus) (Source [4], [10], [16], [26], [27], [30]), not included as part of the M Sport package itself.
+*   `visibility_rating`: Not affected by the M Sport package. Rear visibility remains somewhat limited (Source [3], [4], [12], [14], [16]).
+*   `headlight_rating`: M Sport includes LED foglights (Source [3]), but the main headlights are separate. Score remains based on the available headlight technology.
+*   `security_rating`: Not affected by the M Sport package.
+*   `screen_in`: Uses the same 10.2-inch infotainment screen (Source [9], [10], [21], [27], [31], [40]).
+*   `infotainment_ux_rating`: Uses the same iDrive 6.0 system (Source [3], [8], [10], [14], [16], [18], [23], [32]).
+*   `smartphone_connect_rating`: Same connectivity options (Apple CarPlay available, Android Auto not) (Source [8], [10], [23]).
+*   `audio_rating`: Audio system options are separate from the M Sport package (Source [2], [6], [9], [13], [16], [22], [23], [27], [32], [40]).
+*   `usb_ports`: Not affected by the M Sport package.
+*   `comfort_feature_score`: M Sport includes sports seats (Source [2]), which are supportive. Other comfort features like ventilation, heating, etc., are part of separate packages or standard equipment (Source [2], [6], [9], [16], [21], [26], [30], [32]). The overall high level of available comfort features keeps this score high.
+*   `convenience_feature_score`: Convenience features are part of separate packages or standard equipment (Source [6], [8], [9], [16], [21], [26], [27], [32], [40]), not the M Sport package itself.
+*   `brand_prestige_rating`: BMW is a high-prestige brand.
+*   `model_prestige_rating`: The 6 Series Gran Coupe is an upper-mid-range model within BMW's lineup. The inverted scale means higher models score negatively.
+*   `trim_prestige_rating`: M Sport is a desirable, higher trim level compared to the base/SE, but not the top-performance M6 or Alpina models. This places it in the negative range according to the guide's inverted scale for top trims.
+*   `interior_luxury_rating`: The M Sport package enhances the interior with an Alcantara headliner, M-specific trim, and optional carbon fiber (Source [2], [13]), adding to the already luxurious materials and finish.
+*   `interior_tech_focus_rating`: The M Sport package does not change the layout or focus of the interior technology.

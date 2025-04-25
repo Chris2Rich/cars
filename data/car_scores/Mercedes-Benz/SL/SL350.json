@@ -1,59 +1,109 @@
-The specific model designation 'SL350' was used in previous generations of the Mercedes-Benz SL (like the R230 and R231), but it is **not** part of the current, most recent generation (R232, 2022-present). The current SL lineup consists of the SL 43, SL 55, SL 63, and SL 63 S E Performance models.
+The most recent Mercedes-Benz SL with the 'SL350' designation is the R231 generation (2012-2016 for the SL350 variant) [1, 2, 3, 10]. It was powered by a 3.5L V6 engine [1, 4, 5, 6, 7, 8, 9, 10].
 
-Since the requested model ['Mercedes-Benz', 'SL', 'SL350'] does not exist in the most recent version, I cannot provide specific ratings based on current market data and specifications. As per the instructions for ambiguous or unclear data, I will default all scores to `0.00`.
+Here is the evaluation based on the 2012-2016 Mercedes-Benz R231 SL350, compared to today's market average:
 
-```json
+*   **price_usd:** The R231 SL350 was a luxury car with a new price around £72,495 [3], which translates to well over $100,000 USD at the time. Current used prices are significantly lower [3, 24, 27, 28], but the scoring is based on its original market positioning. Score: -1.00.
+*   **total_cost_estimate_5yr_usd:** As a luxury convertible, it has high depreciation, insurance, and maintenance costs [27]. Score: -1.00.
+*   **insurance_usd_yr:** While a specific UK insurance group for the SL350 R231 wasn't found, other high-performance R231 models have high groups [2, 15]. Luxury convertibles generally have high insurance costs. Score: -1.00.
+*   **maint_usd_yr:** Mercedes-Benz luxury car maintenance is expensive [27]. While the M276 engine is generally reliable, issues like tensioner problems on early models existed [3]. Score: -0.80.
+*   **repair_risk_score:** The R231 is generally considered reliable for a complex luxury car, but potential issues with the retractable roof hydraulics and earlier engine tensioners exist [3, 21, 22, 24]. Score: -0.20.
+*   **hp:** 302-306 hp [1, 4, 5, 6, 7, 9, 10, 16, 17]. Today's average is ~200 hp. Score: 0.50.
+*   **torque:** 273 lb-ft (370 Nm) [4, 6, 7, 9, 16, 17]. Today's average is ~190 lb-ft. Score: 0.50.
+*   **cylinder_count:** V6 [1, 4, 5, 6, 7, 8, 9, 10]. Today's average is 4 or 6. Score: 0.00.
+*   **engine_displacement:** 3.5L (3498 cc) [5, 6, 7, 8, 9, 10, 16]. Today's average is around 2.0-3.0L. Score: 0.00.
+*   **accel_0_60_sec:** ~5.2-5.6 seconds [4, 6, 7, 12, 15, 17]. Today's average is ~7.5 sec. Score: 0.80.
+*   **top_speed:** 155 mph (electronically limited) [6, 7, 8, 12, 15]. Today's average is ~120-130 mph. Score: 0.60.
+*   **drive_type:** RWD [2, 3, 4, 8, 10, 14, 15, 18, 19, 20, 23]. Score: +1.00.
+*   **transmission_type:** 7-speed Automatic (7G-Tronic Plus) [2, 4, 6, 7, 8, 16, 20, 22]. Score: +1.00 (following guide).
+*   **offroad_ability:** Very poor. Score: +1.00 (following guide).
+*   **braking_dist_ft:** Equipped with good brakes and modern systems like ABS [8, 14]. Likely excellent for its time, comparable to good modern cars. Score: 0.80.
+*   **size:** Length ~4617 mm (181.8 in) [2, 4, 5, 6, 7, 8, 10, 13, 19, 20, 23, 25]. Today's average sedan/crossover is ~4600mm. Score: 0.00.
+*   **wheelbase:** ~2585 mm (101.8 in) [2, 4, 6, 7, 8, 10, 11, 14, 19, 20, 23]. Today's average is ~2700mm. Score: -0.20.
+*   **body_style:** 2-door retractable hardtop convertible [2, 4, 5, 7, 8, 10, 13, 16, 19, 20]. Score: -1.00.
+*   **seats:** 2 seats [5, 6, 8, 10]. Score: -1.00.
+*   **cargo_space:** 241 L (8.5 cu ft) with roof down, 381-504 L (13.45-17.8 cu ft) with roof up [1, 6, 8, 11, 13, 14, 15, 19, 21, 23]. Using the roof-down figure as the most restrictive. Score: -0.80.
+*   **rear_space:** N/A (2-seater). Score: -1.00.
+*   **ground_clearance_in:** 130 mm (5.1 in) [5]. Low for a general market car. Score: -0.80.
+*   **turn_radius_ft:** 11.04 m (36.22 ft) [6, 8, 11, 14, 19, 26]. Today's average ~36 ft. Score: 0.00.
+*   **mpg:** Official combined ~34.6-41.5 mpg (US/UK) [4, 6, 9, 12, 15, 16, 20]. Real-world likely lower, around 25-30 mpg [29, 30]. Today's average ~30 mpg. Score: 0.00.
+*   **co2_g_km:** 159-176 g/km [6, 8, 9, 12, 15, 20]. Today's average ~175 g/km. Score: 0.00.
+*   **electric_range_mi:** Not electric. Score: -1.00.
+*   **charge_speed_kw:** Not electric. Score: -1.00.
+*   **style_sleek_vs_boxy:** Sleek roadster design [4, 17]. Score: 0.80.
+*   **style_aggression_rating:** Mix of elegance and sportiness [17]. Score: 0.50.
+*   **style_modernity_rating:** Modern for its era (2012-2016), but design is now a bit dated compared to the latest vehicles [4]. Score: 0.00.
+*   **handling_rating:** More of a comfortable cruiser than a sharp sports car, but capable [17]. Score: 0.50.
+*   **ride_comfort_rating:** Known for excellent ride comfort [4, 17]. Score: 0.80.
+*   **cabin_noise_rating:** Convertible, but with a retractable hardtop and good insulation for its time [4]. Likely quieter than soft-tops, but maybe not as silent as a modern luxury coupe. Score: 0.40.
+*   **shift_smooth_rating:** Mercedes 7G-Tronic is generally smooth [4, 17]. Score: 0.70.
+*   **steering_feel_rating:** Electric power steering [8, 14]. Likely comfortable but perhaps lacking ultimate feel compared to dedicated sports cars. Score: 0.00.
+*   **adas_score:** Available features included Collision Prevention Assist, Attention Assist, Adaptive Brake, Traffic Sign Assist, Distronic Plus, Blind Spot Assist, Lane Keeping Assist, PRE-SAFE [2]. Good for its time. Score: 0.70.
+*   **visibility_rating:** Good with roof down, limited rear visibility with roof up [17]. Score: 0.00.
+*   **headlight_rating:** Likely Xenon or early LED headlights [26]. Good for its time, but not as advanced as modern matrix LEDs. Score: 0.50.
+*   **security_rating:** Standard luxury car security features for its era. Score: 0.50.
+*   **screen_in:** Featured COMAND Online infotainment [26]. Screen size around 7 inches (inferred from era and class). Score: 0.00.
+*   **infotainment_ux_rating:** COMAND system of that era was functional but could be complex [4]. Score: 0.00.
+*   **smartphone_connect_rating:** Bluetooth connectivity [5]. Early models may lack full smartphone integration like CarPlay/Android Auto, which came later in the R231's life [3]. Score: -0.50.
+*   **audio_rating:** Available premium sound systems like Harman/Kardon [2, 17, 22, 26]. Score: 0.80.
+*   **usb_ports:** Likely 1 or 2 ports. Score: 0.00.
+*   **comfort_feature_score:** Heated/ventilated seats, Airscarf, power seats, dual-zone climate control [2, 17, 22]. High level of comfort features for its time. Score: 0.80.
+*   **convenience_feature_score:** Power retractable hardtop, electric parking brake, keyless entry/start, rearview camera, parking assist [2, 17, 22]. Good convenience features for its era. Score: 0.70.
+*   **brand_prestige_rating:** Mercedes-Benz is high. Score: 0.90.
+*   **model_prestige_rating:** SL is an iconic model, a halo car [17, 27, 28]. Score: -1.00 (following guide).
+*   **trim_prestige_rating:** SL350 was the entry-level engine for the R231 [1, 3, 5, 17]. Score: +1.00 (following guide).
+*   **interior_luxury_rating:** High quality materials (leather, wood, metal) [4, 17]. Luxurious interior for its time. Score: 0.80.
+*   **interior_tech_focus_rating:** Decent tech for its time, but not as screen-dominated as modern cars [4, 26]. Score: 0.00.```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": 0.00,
-  "torque": 0.00,
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -0.80,
+  "repair_risk_score": -0.20,
+  "hp": 0.50,
+  "torque": 0.50,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.00,
-  "top_speed": 0.00,
-  "drive_type": 0.00,
-  "transmission_type": 0.00,
-  "offroad_ability": 0.00,
-  "braking_dist_ft": 0.00,
+  "accel_0_60_sec": 0.80,
+  "top_speed": 0.60,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.80,
   "size": 0.00,
-  "wheelbase": 0.00,
-  "body_style": 0.00,
-  "seats": 0.00,
-  "cargo_space": 0.00,
-  "rear_space": 0.00,
-  "ground_clearance_in": 0.00,
+  "wheelbase": -0.20,
+  "body_style": -1.00,
+  "seats": -1.00,
+  "cargo_space": -0.80,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.80,
   "turn_radius_ft": 0.00,
   "mpg": 0.00,
   "co2_g_km": 0.00,
-  "electric_range_mi": 0.00,
-  "charge_speed_kw": 0.00,
-  "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.80,
+  "style_aggression_rating": 0.50,
   "style_modernity_rating": 0.00,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": 0.00,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 0.80,
+  "cabin_noise_rating": 0.40,
+  "shift_smooth_rating": 0.70,
   "steering_feel_rating": 0.00,
-  "adas_score": 0.00,
+  "adas_score": 0.70,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.00,
-  "security_rating": 0.00,
+  "headlight_rating": 0.50,
+  "security_rating": 0.50,
   "screen_in": 0.00,
   "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.00,
-  "audio_rating": 0.00,
+  "smartphone_connect_rating": -0.50,
+  "audio_rating": 0.80,
   "usb_ports": 0.00,
-  "comfort_feature_score": 0.00,
-  "convenience_feature_score": 0.00,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.00,
+  "comfort_feature_score": 0.80,
+  "convenience_feature_score": 0.70,
+  "brand_prestige_rating": 0.90,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": 0.80,
   "interior_tech_focus_rating": 0.00
 }
 ```

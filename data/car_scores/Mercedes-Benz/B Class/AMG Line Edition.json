@@ -1,55 +1,109 @@
 ```json
 {
-  "price_usd": -0.38,
-  "total_cost_estimate_5yr_usd": -0.30,
-  "insurance_usd_yr": -0.05,
-  "maint_usd_yr": -0.40,
-  "repair_risk_score": -0.20,
-  "hp": -0.20,
+  "price_usd": -0.30,
+  "total_cost_estimate_5yr_usd": -0.40,
+  "insurance_usd_yr": -0.35,
+  "maint_usd_yr": -0.30,
+  "repair_risk_score": 0.10,
+  "hp": -0.05,
   "torque": 0.00,
-  "cylinder_count": -0.50,
-  "engine_displacement": -0.80,
-  "accel_0_60_sec": -0.15,
-  "top_speed": -0.10,
-  "drive_type": -1.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.05,
+  "top_speed": 0.00,
+  "drive_type": -0.50,
   "transmission_type": 0.00,
-  "offroad_ability": 0.90,
+  "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": -0.10,
-  "wheelbase": 0.00,
-  "body_style": 0.50,
+  "size": 0.10,
+  "wheelbase": 0.10,
+  "body_style": 0.10,
   "seats": 0.00,
-  "cargo_space": 0.05,
-  "rear_space": 0.10,
-  "ground_clearance_in": -0.70,
+  "cargo_space": 0.30,
+  "rear_space": 0.40,
+  "ground_clearance_in": -0.10,
   "turn_radius_ft": 0.00,
-  "mpg": 0.60,
-  "co2_g_km": 0.20,
+  "mpg": 0.30,
+  "co2_g_km": 0.30,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": -0.10,
-  "style_aggression_rating": -0.10,
-  "style_modernity_rating": 0.60,
-  "handling_rating": -0.20,
-  "ride_comfort_rating": 0.30,
-  "cabin_noise_rating": 0.40,
-  "shift_smooth_rating": -0.10,
-  "steering_feel_rating": -0.20,
-  "adas_score": 0.40,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.10,
+  "style_modernity_rating": 0.30,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.10,
+  "cabin_noise_rating": 0.30,
+  "shift_smooth_rating": 0.20,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.50,
   "visibility_rating": 0.50,
-  "headlight_rating": 0.50,
+  "headlight_rating": 0.30,
   "security_rating": 0.30,
-  "screen_in": 0.70,
-  "infotainment_ux_rating": 0.80,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.40,
-  "usb_ports": 0.30,
-  "comfort_feature_score": 0.60,
-  "convenience_feature_score": 0.60,
+  "screen_in": 0.50,
+  "infotainment_ux_rating": 0.30,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.20,
+  "usb_ports": 0.10,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.50,
   "brand_prestige_rating": 0.70,
-  "model_prestige_rating": 0.50,
-  "trim_prestige_rating": -0.20,
-  "interior_luxury_rating": 0.60,
-  "interior_tech_focus_rating": 0.80
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.40,
+  "interior_tech_focus_rating": 0.50
 }
 ```
+
+**Reasoning for each rating (Mercedes-Benz B Class AMG Line Edition, W247 Facelift):**
+
+*   **price\_usd:** The AMG Line Edition (or similar Premium/Premium Plus trims) sits higher in the B-Class range. UK pricing starts above £38,000, placing it notably above the $35,000 market average.
+*   **total\_cost\_estimate\_5yr\_usd:** The higher purchase price combined with typical Mercedes-Benz maintenance and insurance costs results in a 5-year ownership estimate that is clearly above the market average.
+*   **insurance\_usd\_yr:** Higher trim levels like the AMG Line Edition, with sportier styling and potentially more powerful engines or larger wheels, generally incur higher insurance costs than base models, placing it above the national average.
+*   **maint\_usd\_yr:** Consistent with the Mercedes-Benz brand, maintenance costs are higher than average compared to non-premium manufacturers.
+*   **repair\_risk\_score:** The B-Class has an average to slightly above-average reliability rating for a premium car, not reaching the top tier but not considered high-risk.
+*   **hp:** Using the common B200 petrol engine (163 hp) as a benchmark for this trim, the horsepower is around the market average for a compact car, but slightly below average for a premium model.
+*   **torque:** The B200 engine's torque (270 Nm / 199 lb-ft) is around the market average.
+*   **cylinder\_count:** The standard engines are 4-cylinder, which is the market average.
+*   **engine\_displacement:** Common engines (1.3L or 2.0L) are within the average range for modern turbocharged compact cars.
+*   **accel\_0\_60\_sec:** The 0-60 mph time for the B200 is around 8.4 seconds, slightly slower than the 7.5-second market average.
+*   **top\_speed:** Top speeds around 139 mph are close to the market average.
+*   **drive\_type:** The most common engine options for this trim are FWD. AWD (4Matic) is available on higher engines but not standard. FWD scores -1.00, making the FWD focus below average.
+*   **transmission\_type:** Uses a 7 or 8-speed dual-clutch automatic transmission, rated as average (0.00).
+*   **offroad\_ability:** This is a road-going compact car with low ground clearance (approx 4.1 inches), offering poor off-road ability, scoring +1.00.
+*   **braking\_dist\_ft:** No specific data indicates poor braking; it's expected to be competent and around average.
+*   **size:** With a length of 4419mm, it's slightly larger than a typical compact hatchback, placing it slightly above average.
+*   **wheelbase:** The 2729mm wheelbase is slightly longer than average for a compact car, benefiting interior space.
+*   **body\_style:** A 5-door hatchback/small MPV is a practical body style, close to the 4-door sedan/coupe average.
+*   **seats:** Standard 5 seats, which is the market average.
+*   **cargo\_space:** Offers good standard cargo space (445-455 litres) and excellent maximum space with seats folded (1530-1540 litres), placing it above average.
+*   **rear\_space:** Reviews highlight generous rear legroom, better than many cars its size.
+*   **ground\_clearance\_in:** At around 4.1 inches, the ground clearance is below the average for compact crossovers and closer to a standard car.
+*   **turn\_radius\_ft:** The turning radius of approximately 36 ft is right around the market average.
+*   **mpg:** Fuel economy for the B200 petrol (42-46 UK mpg) is above average for a non-hybrid petrol car. Diesel options offer even better economy.
+*   **co2\_g\_km:** CO2 emissions for the B200 petrol (138-146 g/km) are relatively low for an internal combustion engine, scoring below the average ICE car.
+*   **electric\_range\_mi:** The standard B-Class is not a full electric vehicle. Scores -1.00 as per the guide.
+*   **charge\_speed\_kw:** Not applicable to standard petrol/diesel models. Scores -1.00 as per the guide.
+*   **style\_sleek\_vs\_boxy:** Its tall hatchback shape is not sleek like a coupe, but the styling is smooth, placing it around the average.
+*   **style\_aggression\_rating:** The AMG Line trim adds sportier bumpers and styling cues, increasing its visual aggression slightly.
+*   **style\_modernity\_rating:** The facelifted design and AMG Line elements give it a modern and contemporary appearance.
+*   **handling\_rating:** Handling is described as safe and competent but not particularly engaging or sporty, placing it around average.
+*   **ride\_comfort\_rating:** While generally comfortable, the AMG Line's firmer suspension and larger wheels can slightly impact ride comfort compared to lower trims. It remains above average but not top-tier.
+*   **cabin\_noise\_rating:** The cabin is generally well-insulated, providing a quiet ride, which is above average for the segment.
+*   **shift\_smooth\_rating:** The dual-clutch transmission is generally smooth in operation.
+*   **steering\_feel\_rating:** Steering is light and accurate for easy maneuvering but lacks significant feedback, placing it around average.
+*   **adas\_score:** Higher trims like the AMG Line Edition often include more standard ADAS features and have access to comprehensive optional packages, resulting in a score well above average.
+*   **visibility\_rating:** The raised driving position and large windows provide excellent all-around visibility.
+*   **headlight\_rating:** Features standard LED headlights, with advanced LED systems (like Adaptive Highbeam Assist) often included or optional on higher trims, placing it above average.
+*   **security\_rating:** As a Mercedes-Benz, it comes with a good level of standard security features.
+*   **screen\_in:** Standard dual 10.25-inch screens are large and contribute significantly to the interior's tech focus, well above average.
+*   **infotainment\_ux\_rating:** The MBUX system is visually impressive and feature-rich, though some controls can be complex. It's a modern and capable system, above average.
+*   **smartphone\_connect\_rating:** Includes standard Apple CarPlay and Android Auto, with wireless connectivity often available on higher trims, which is excellent.
+*   **audio\_rating:** The standard audio system is likely average, but premium sound system options are available.
+*   **usb\_ports:** Includes multiple USB-C ports, which is around average to slightly above.
+*   **comfort\_feature\_score:** Higher trims include more standard comfort features like heated seats and dual-zone climate control, with advanced options available, scoring above average.
+*   **convenience\_feature\_score:** More standard convenience features (reversing camera, parking assist, electric tailgate) and advanced options (360 camera, keyless entry) are available on higher trims, scoring above average.
+*   **brand\_prestige\_rating:** Mercedes-Benz is a highly prestigious premium brand.
+*   **model\_prestige\_rating:** The B-Class is positioned in the middle of the Mercedes-Benz model range.
+*   **trim\_prestige\_rating:** AMG Line Edition is a desirable, well-equipped trim level based on the AMG Line, considered a "Good Trim" (0.00) according to the scoring guide.
+*   **interior\_luxury\_rating:** The interior features quality materials and design, enhanced by AMG Line specific trim, providing a luxurious feel for the segment, above average but not top-tier luxury.
+*   **interior\_tech\_focus\_rating:** The interior design is heavily focused on the large screens and digital interfaces of the MBUX system, indicating a high tech focus.

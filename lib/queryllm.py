@@ -83,24 +83,24 @@ All outputs must be **scored** on the -1.00 to +1.00 scale, using 2 decimal plac
 💰 COST & RISK SCORING — BENCHMARKED TO MARKET
 
   price_usd  (Use autotrader.co.uk to find price estimates)
-      -1.00: >$100,000 (e.g. Range Rover, BMW 7 Series)  
-      0.00: ~$35,000 (market average for a new car)  
-      +1.00: <$15,000 (e.g. Nissan Versa, Mitsubishi Mirage)  
+      -1.00: >$120,000 (e.g. Range Rover, BMW 7 Series)  
+      0.00: ~$52,000 (market average for a new car)  
+      +1.00: <$10,000 (e.g. 10yr old used cars)  
 
   total_cost_estimate_5yr_usd  
-      -1.00: >$60,000 over 5 years (e.g. luxury SUVs, EVs with high depreciation)  
+      -1.00: >$80,000 over 5 years (e.g. luxury SUVs, EVs with high depreciation)  
       0.00: ~$40,000 (typical 5-year ownership cost)  
-      +1.00: <$25,000 (efficient, low-depreciation economy cars)
+      +1.00: <$15,000 (efficient, low-depreciation economy cars)
 
   insurance_usd_yr  (Use UK insurance group)
-      -1.00: >$2,500/year (e.g. sports cars, high theft risk)  
+      -1.00: >$3,500/year (e.g. sports cars, high theft risk)  
       0.00: ~$1,500/year (national average)  
       +1.00: <$800/year (basic sedans, high safety ratings)
 
   maint_usd_yr  
-      -1.00: >$1,200/year (e.g. German luxury cars, performance models)  
-      0.00: ~$750/year  
-      +1.00: <$400/year (e.g. Toyota Corolla, Honda Fit)
+      -1.00: >$3,500/year (e.g. German luxury cars, performance models)  
+      0.00: ~$1000/year  
+      +1.00: <$500/year (e.g. Toyota Corolla, Honda Fit)
 
   repair_risk_score  
       -1.00: Alfa Romeo Giulia / Land Rover (high mechanical risk)  
@@ -119,14 +119,14 @@ All outputs must be **scored** on the -1.00 to +1.00 scale, using 2 decimal plac
       +1.00: Tesla Model S Plaid (>1,000 lb-ft instant)  
 
   cylinder_count  
-      -1.00: Toyota Yaris (3)
+      -1.00: Toyota Yaris (<3)
       0.00: BMW M4 (6) 
-      +1.00: Ferrari 812 (12)
+      +1.00: Ferrari 812 (>12)
 
   engine_displacement  
-      -1.00: Peugot 2008 (1.2L)
+      -1.00: Peugot 2008 (<1.2L)
       0.00: Audi S6 (3.0L)
-      +1.00: Mercedes-Maybach S650 (6.0L)
+      +1.00: Mercedes-Maybach S650 (>6.0L)
 
   accel_0_60_sec  
       -1.00: Mitsubishi Mirage (>10 sec)  
@@ -134,9 +134,9 @@ All outputs must be **scored** on the -1.00 to +1.00 scale, using 2 decimal plac
       +1.00: Porsche Taycan Turbo S (<2.5 sec)  
 
   top_speed  
-      -1.00: Renaulty Twizy (50mph)
+      -1.00: Renaulty Twizy (<50mph)
       0.00: Mercedes-Benz C200 (150mph)
-      +1.00: Aston Martin DB12 (202mph)
+      +1.00: Aventador Ultimae (>222mph)
 
   drive_type  
       -1.00: FWD
@@ -347,9 +347,9 @@ All outputs must be **scored** on the -1.00 to +1.00 scale, using 2 decimal plac
       +1.00: Lucid Air / Hyundai Ioniq 6 / Tesla Cybertruck (avant-garde)
 """
 
-def queryllm_evaluate_model(model: list):
+def queryllm_evaluate_model(model: list, fail_log):
     gemini = client.chats.create(
-        model="gemini-2.5-pro-preview-03-25",
+        model="gemini-2.5-flash-preview-04-17",
         config=types.GenerateContentConfig(
             temperature=0,
             system_instruction=(system_prompt_spec_score),
@@ -360,24 +360,26 @@ def queryllm_evaluate_model(model: list):
 
     for i in model[-1]:
         try:
-            time.sleep(random.random() * 2)
+            time.sleep(random.random() * 4)
             print(f"{Fore.YELLOW}[PICKED]{Style.RESET_ALL} Picked up {model[:-1] + [i]}")
             os.makedirs(os.path.dirname(f"data/car_scores/{'/'.join(model[:-1] + [i])}"), exist_ok=True)
             with open(f"data/car_scores/{'/'.join(model[:-1] + [i])}.json", "w", encoding="utf-8") as file:
-                file.write(gemini.send_message([f"Evaluate the model and explain your reasoning for each rating. If unsure, be sure to search for that exact data. The model is the most recent version of this: {model[:-1] + [i]}"]).text)
+                file.write(gemini.send_message([f"Evaluate the model being considerate about your reasoning for each rating. If unsure, be sure to search for that exact data. The model is the most recent version of this (when applicable): {model[:-1] + [i]}. Ensure that you only respond with JSON and keep your reasoning to yourself."]).text)
             print(f"{Fore.GREEN}[FINISHED]{Style.RESET_ALL} Finished {model[:-1] + [i]}")
         except Exception:
-            print(f"{Fore.RED}[FAILED]{Style.RESET_ALL} Failed on: {model[:-1] + [i]}\n", traceback.format_exc())
-        
-with concurrent.futures.ThreadPoolExecutor(max_workers=16) as executor:
-    futures = []
+            fail_log.write(f"{model[:-1] + [i]}\n{traceback.format_exc()}\n")
+            print(f"{Fore.RED}[FAILED]{Style.RESET_ALL} Failed on: {model[:-1] + [i]}\n{traceback.format_exc()}")
 
-    for i in ["data/car_models/Mercedes-Benz.json"]: #glob.glob("data/car_models/**.json", recursive=True):
-        with open(i, "r") as file:
-            for brand, models in json.load(file).items():
-                for model in models:
-                    for model_name, versions in model.items():
-                        futures.append(executor.submit(queryllm_evaluate_model, [brand, model_name, versions if versions != [] else [""]]))
-                        
-    for i in concurrent.futures.as_completed(futures):
-        i.result()
+with open("data/logs/failed_queryllm.txt", "w") as fail_log:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=256) as executor:
+        futures = []
+
+        for i in ["data/car_models/Mercedes-Benz.json", "data/car_models/BMW.json", "data/car_models/Audi.json", "data/car_models/Volkswagen.json", "data/car_models/Porsche.json", "data/car_models/Vauxhall.json"]: #glob.glob("data/car_models/**.json", recursive=True):
+            with open(i, "r") as file:
+                for brand, models in json.load(file).items():
+                    for model in models:
+                        for model_name, versions in model.items():
+                            futures.append(executor.submit(queryllm_evaluate_model, [brand, model_name, versions if versions != [] else [""]], fail_log))
+                            
+        for i in concurrent.futures.as_completed(futures):
+            i.result()

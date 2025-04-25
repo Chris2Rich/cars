@@ -1,51 +1,109 @@
+The Mercedes-Benz C-Class 'Exclusive Luxury' most likely refers to the 'Exclusive' trim level offered on the W205 generation (2014-2021), which focused on traditional luxury cues like the classic grille and bonnet star (Source [1, 4, 6]). This evaluation is based on a representative W205 C-Class Exclusive (e.g., C200 or C220d) relative to the current automotive market.
+
+*   **price\_usd**: As a used car from 2014-2021, the price is significantly lower than a new car today. Used prices vary based on model, condition, and mileage, but are well below the $35,000 average for a new car (Source [8, 26, 27]). Score: 0.80.
+*   **total\_cost\_estimate\_5yr\_usd**: While the purchase price is low, an older luxury car will have higher maintenance and potential repair costs than a new economy car (Source [9, 15]). Score: -0.20.
+*   **insurance\_usd\_yr**: Insurance groups for the W205 C-Class were moderate to high for its time (Source [5]). Relative to modern cars, this is likely around average or slightly below. Score: 0.00.
+*   **maint\_usd\_yr**: Maintenance costs for a Mercedes-Benz are generally higher than average (Source [9, 15]). Older cars often require more frequent or extensive maintenance. Score: -0.50.
+*   **repair\_risk\_score**: The W205 generation is generally considered reasonably reliable for a Mercedes of its era, but some common issues include electronic gremlins, creaking cabin trim (especially pre-facelift), and potential issues with certain engines like the pre-facelift C300's P052E error or carbon buildup/oil consumption on the C180/C200 petrol engines (Source [1, 15, 20]). Risk is higher than a top-tier reliable brand but better than some other luxury makes. CarEdge rates the W205 C-Class as worse than average for major repair probability over 10 years (Source [9]). Score: -0.20.
+*   **hp**: Varies by engine. C200 had 184 hp (Source [2, 5, 6, 12, 16]), C220d had 170 hp (pre-facelift) or 194 hp (facelift) (Source [1, 9, 22]). These figures are around or slightly below the 200 hp average. Score: -0.10.
+*   **torque**: Varies by engine. C200 had 300 Nm (221 lb-ft) (Source [2, 5, 6, 12, 16]), C220d had 400 Nm (295 lb-ft) (Source [1, 9, 22]). These are above the 190 lb-ft average. Averaging these. Score: 0.40.
+*   **cylinder\_count**: Typically 4 cylinders (Source [1, 2, 5, 6, 7, 9, 12, 16, 22]). This is common, so average. Score: 0.00.
+*   **engine\_displacement**: Varies by engine (e.g., 1.5L/2.0L petrol, 2.0L/2.1L diesel) (Source [1, 2, 5, 6, 7, 9, 12, 16, 22]). Around the average. Score: 0.00.
+*   **accel\_0\_60\_sec**: Varies by engine. C200 around 7.2-7.3 seconds (Source [2, 5, 6]), C220d around 6.6-6.9 seconds (Source [9, 11]). These are around or faster than the 7.5s average. Score: 0.30.
+*   **top\_speed**: Varies by engine, around 145-149 mph (Source [5, 9, 12, 22]). Around the 150 mph average. Score: 0.00.
+*   **drive\_type**: RWD is standard, AWD (4Matic) was available (Source [1, 9, 16]). RWD scores +1.00 according to the guide. Score: 1.00.
+*   **transmission\_type**: Available with 6-speed manual (early models) or 7-speed/9-speed automatic (7G-TRONIC PLUS / 9G-TRONIC) (Source [1, 2, 5, 6, 9, 13, 16]). Manual scores -1.00, Automatic scores +1.00. The 9-speed is modern, the 7-speed was modern for its time. Averaging these options. Score: 0.50.
+*   **offroad\_ability**: Sedan body style, low ground clearance (around 92mm or 3.62 inches) (Source [9]), not designed for off-road. Score: 1.00 (based on guide examples).
+*   **braking\_dist\_ft**: Not explicitly stated, but expected to be good for its class and era. Score: 0.00.
+*   **size**: Length is around 4686 mm (184.5 inches) (Source [1, 5, 9, 16]). Around the 4.6m average. Score: 0.00.
+*   **wheelbase**: 2840 mm (111.8 inches) (Source [1, 5, 9, 16]). This is longer than the 2700mm average. Score: 0.20.
+*   **body\_style**: 4-door Sedan (Source [1, 5, 9]). Estate also available. Score: 0.00.
+*   **seats**: 5 seats (Source [5, 9]). Score: 0.00.
+*   **cargo\_space**: 480 liters (16.95 cu ft) (Source [1, 9, 16]). This is around the 15 cu ft average. Score: 0.00.
+*   **rear\_space**: Improved over the previous W204 generation (Source [1]), but still not outstanding. Score: 0.00.
+*   **ground\_clearance\_in**: Around 92mm (3.62 inches) (Source [9]). Low for a sedan by modern standards. Score: -0.20.
+*   **turn\_radius\_ft**: Around 11.22m (36.81 ft) (Source [16]). Around the 36 ft average. Score: 0.00.
+*   **mpg**: Varies significantly by engine. C200 around 5.6 L/100 km (42 MPG US, 50 MPG UK) (Source [5]), C220d around 4.4-4.8 L/100 km (53-59 MPG US, 64-59 MPG UK) (Source [9]). Real-world MPG is often lower but still good (Source [2]). Averaging these, it's generally above the 30 mpg mark. Score: 0.40.
+*   **co2\_g\_km**: Varies by engine. C200 around 123 g/km (Source [5]), C220d around 114-126 g/km (Source [9]). This is well below the 175 g/km average. Score: 0.60.
+*   **electric\_range\_mi**: Not electric. Score: -1.00.
+*   **charge\_speed\_kw**: Not applicable. Score: -1.00.
+*   **style\_sleek\_vs\_boxy**: W205 design is a sleek, modern sedan shape, inspired by the S-Class (Source [1, 4]). Exclusive trim features the traditional grille and bonnet star (Source [1, 4, 6]). Score: 0.20.
+*   **style\_aggression\_rating**: Exclusive trim styling is traditional and elegant, not aggressive (Source [1, 4, 6]). Score: -0.20.
+*   **style\_modernity\_rating**: Design is from the mid-2010s. Looks somewhat dated compared to the current W206, but still reasonably modern (Source [18]). Score: -0.20.
+*   **handling\_rating**: Generally competent handling, described as comfortable and refined rather than overtly sporty (Source [1, 9]). Exclusive trim often had a Comfort suspension setup (Source [6]). Score: 0.00.
+*   **ride\_comfort\_rating**: Praised for a superb ride quality, especially with the Comfort suspension (Source [1, 6]). Air suspension was also an option (Source [1]). Score: 0.80.
+*   **cabin\_noise\_rating**: Incredibly quiet and refined, especially at motorway speeds (Source [1]). Score: 0.80.
+*   **shift\_smooth\_rating**: 7G-Tronic Plus and 9G-Tronic are generally smooth (Source [1, 2, 5, 6, 9]). Score: 0.50.
+*   **steering\_feel\_rating**: Reviews often noted a lack of steering feel (Source [15]). Score: -0.50.
+*   **adas\_score**: Offered a good range of ADAS for its time, including Collision Prevention Assist, Blind Spot Assist, and optional Distronic Plus (Source [4]). Score: 0.20.
+*   **visibility\_rating**: Standard sedan visibility. Score: 0.00.
+*   **headlight\_rating**: LED headlights were available (Source [6]). Good for their time, but not modern adaptive matrix LEDs. Score: 0.20.
+*   **security\_rating**: Standard for a luxury car of its time, with alarm and immobiliser. Optional enhanced security features might have been available. Score: 0.00.
+*   **screen\_in**: Featured a tablet-style screen, typically around 7-8.4 inches with COMAND Online (Source [6]). Average for its time, but small by modern standards. Score: -0.20.
+*   **infotainment\_ux\_rating**: COMAND Online was advanced for its time, but the interface is less intuitive than modern systems (Source [6]). Apple CarPlay/Android Auto were added later. Score: -0.20.
+*   **smartphone\_connect\_rating**: Bluetooth, USB standard. Apple CarPlay/Android Auto added later in the W205's life (Source [4]). Score: 0.00.
+*   **audio\_rating**: Optional Burmester system was excellent (Source [7]). Standard system is likely average. Score: 0.40.
+*   **usb\_ports**: Likely one or two ports. Score: -0.50.
+*   **comfort\_feature\_score**: Heated front seats, power seats with memory, dual-zone climate control, ambient lighting available (Source [4, 5, 6]). Exclusive trim added features like organic leather upholstery and wood trim (Source [2, 6]). Good level of comfort features for its era. Score: 0.60.
+*   **convenience\_feature\_score**: Keyless entry/start, rearview camera, parking sensors, auto parking available (Source [4, 6]). Lacks some modern convenience tech like 360 cameras as standard on early models. Score: 0.20.
+*   **brand\_prestige\_rating**: Mercedes-Benz is a high-prestige brand. Score: 0.80.
+*   **model\_prestige\_rating**: C-Class is a core, mid-range model for Mercedes-Benz. Score: 0.00.
+*   **trim\_prestige\_rating**: Exclusive was a higher-end trim package focused on traditional luxury, positioned above base models but not a performance trim. Score: 0.00.
+*   **interior\_luxury\_rating**: W205 interior was a significant improvement in quality and design over the W204, feeling very premium for its time (Source [1, 2, 4, 6]). Exclusive trim added nicer materials like leather and wood trim (Source [2, 6]). Materials and design are somewhat dated compared to the latest luxury interiors. Score: 0.60.
+*   **interior\_tech\_focus\_rating**: Featured a prominent screen and COMAND Online, representing a good tech focus for its era, but less screen-dominated than the current W206. Score: 0.40.
+
 ```json
 {
-  "price_usd": -0.58,
-  "total_cost_estimate_5yr_usd": -0.50,
-  "insurance_usd_yr": -0.10,
+  "price_usd": 0.80,
+  "total_cost_estimate_5yr_usd": -0.20,
+  "insurance_usd_yr": 0.00,
   "maint_usd_yr": -0.50,
   "repair_risk_score": -0.20,
-  "hp": 0.01,
-  "torque": 0.16,
-  "cylinder_count": -0.50,
-  "engine_displacement": -0.75,
-  "accel_0_60_sec": 0.05,
-  "braking_dist_ft": 0.10,
-  "size": 0.10,
-  "wheelbase": 0.27,
+  "hp": -0.10,
+  "torque": 0.40,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.30,
+  "top_speed": 0.00,
+  "drive_type": 1.00,
+  "transmission_type": 0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.20,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.05,
-  "rear_space": 0.05,
-  "ground_clearance_in": -0.25,
-  "turn_radius_ft": -0.05,
-  "mpg": 0.25,
-  "co2_g_km": 0.15,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.20,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.40,
+  "co2_g_km": 0.60,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.60,
-  "style_aggression_rating": 0.20,
-  "style_modernity_rating": 0.70,
-  "handling_rating": 0.40,
-  "ride_comfort_rating": 0.60,
-  "cabin_noise_rating": 0.60,
-  "shift_smooth_rating": 0.60,
-  "steering_feel_rating": 0.10,
-  "adas_score": 0.70,
-  "visibility_rating": 0.10,
-  "headlight_rating": 0.75,
-  "security_rating": 0.50,
-  "screen_in": 0.80,
-  "infotainment_ux_rating": 0.75,
-  "smartphone_connect_rating": 0.75,
+  "style_sleek_vs_boxy": 0.20,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": -0.20,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.80,
+  "cabin_noise_rating": 0.80,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": -0.50,
+  "adas_score": 0.20,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.20,
+  "security_rating": 0.00,
+  "screen_in": -0.20,
+  "infotainment_ux_rating": -0.20,
+  "smartphone_connect_rating": 0.00,
   "audio_rating": 0.40,
-  "usb_ports": 0.50,
-  "comfort_feature_score": 0.70,
-  "convenience_feature_score": 0.60,
+  "usb_ports": -0.50,
+  "comfort_feature_score": 0.60,
+  "convenience_feature_score": 0.20,
   "brand_prestige_rating": 0.80,
-  "model_prestige_rating": -0.20,
-  "trim_prestige_rating": -0.25,
-  "interior_luxury_rating": 0.75,
-  "interior_tech_focus_rating": 0.85
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.40
 }
 ```

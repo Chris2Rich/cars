@@ -1,0 +1,109 @@
+Here's the evaluation of the Audi SQ8 e-tron based on the search results and the provided scoring guide:
+
+*   **price\_usd**: UK price starts around £98,815 (Source 7), US price starts around $90,995 - $91,495 (Source 3, 13, 22). This is well above the $100,000 threshold for -1.00. Score: -1.00.
+*   **total\_cost\_estimate\_5yr\_usd**: KBB estimates $117,633 over 5 years (Source 22). This is significantly higher than the >$60,000 threshold for -1.00. Score: -1.00.
+*   **insurance\_usd\_yr**: No specific annual cost found, but it's a high-value performance EV. UK insurance group is not explicitly stated, but similar high-performance luxury EVs would likely be in high groups. Defaulting to average or slightly below average seems reasonable without specific data. Let's default to 0.00 as per the rule for ambiguous data.
+*   **maint\_usd\_yr**: No specific annual cost found. Luxury EVs can have lower routine maintenance but higher costs for specific EV components if needed. Defaulting to 0.00.
+*   **repair\_risk\_score**: No specific reliability score found. Audi's general reliability is often considered average to slightly below average compared to top Japanese brands. Defaulting to 0.00.
+*   **hp**: 496 hp (Source 3, 7, 14, 17, 25, 26). This is significantly higher than the 200 hp average and well into performance territory, though not Hellcat levels. Score: +0.75 (Interpolating between 200hp=0 and >700hp=+1).
+*   **torque**: 718 lb-ft (Source 3, 7, 9, 14, 17, 18, 26). This is very high, especially for an EV with instant torque. Score: +0.90 (Approaching >1000 lb-ft).
+*   **cylinder\_count**: 0 (EV). Does not apply. Default to 0.00.
+*   **engine\_displacement**: 0 (EV). Does not apply. Default to 0.00.
+*   **accel\_0\_60\_sec**: 4.2 - 4.5 seconds (Source 2, 3, 6, 7, 8, 14, 17, 18, 20, 22, 25). This is significantly faster than the 7.5 sec average, but not <2.5 sec. Score: +0.70 (Interpolating between 7.5s=0 and <2.5s=+1).
+*   **top\_speed**: 130 mph (Source 3, 7, 8, 14, 18, 20, 25). This is around the average for modern cars (150mph). Score: 0.00.
+*   **drive\_type**: All-Wheel Drive (Quattro) (Source 3, 7, 9, 11, 13, 14, 15, 26). Score: 0.00.
+*   **transmission\_type**: Single-speed automatic (EV) (Source 26). This is most similar to a very smooth automatic. Score: +1.00.
+*   **offroad\_ability**: SUV with adjustable air suspension and AWD (Source 2, 5, 11). Not a dedicated off-roader like a G-Class (-1.00), but more capable than a sports car (+1.00). Score: 0.00 (Average SUV capability).
+*   **braking\_dist\_ft**: No specific braking distance found. Reviews mention strong brakes but also note the weight (Source 9, 15). Default to 0.00.
+*   **size**: Length 4915 mm (Source 7, 12). This is larger than a Civic (~4600mm = 0.00) but smaller than an Escalade (>5100mm = +1.00). Score: +0.50 (Interpolating).
+*   **wheelbase**: 115.1 inches = ~2924 mm (Source 3). This is larger than an Octavia (~2700mm = 0.00) but smaller than an S-Class (>3200mm = +1.00). Score: +0.50 (Interpolating).
+*   **body\_style**: SUV (Source 3, 13, 26). As discussed, score 0.00 based on the provided scale.
+*   **seats**: 5 seats (Source 3, 7). Score: 0.00.
+*   **cargo\_space**: No specific cu ft found in searches. Default to 0.00.
+*   **rear\_space**: Reviews mention plenty of space for adults (Source 3, 12). Likely better than average (~35" = 0.00), but not S-Class levels (>40" = +1.00). Score: +0.50 (Estimate based on reviews).
+*   **ground\_clearance\_in**: Adjustable air suspension (Source 2, 5, 11). Can likely raise for some clearance, but not a dedicated off-roader. Default to 0.00 (Average adjustable range).
+*   **turn\_radius\_ft**: Turning circle 12.2m = ~40 ft (Source 32). This is slightly larger than the Camry average (~36 ft = 0.00), but not F-250 levels (>45 ft = -1.00). Score: -0.25 (Slightly below average).
+*   **mpg**: 70-73 MPGe combined (Source 3, 22, 26). This is high compared to gasoline cars, but average for an EV (Source 3). Score: 0.00 (Relative to other EVs).
+*   **co2\_g\_km**: 0 g/km (EV) (Source 31). Score: +1.00.
+*   **electric\_range\_mi**: 218-253 miles EPA (Source 2, 3, 6, 7, 14, 17, 22, 25, 26). This is around the average for modern EVs (Mazda MX-30 ~100mi = 0.00, Lucid Air >375mi = +1.00). Score: +0.25 (Slightly above the 100mi benchmark).
+*   **charge\_speed\_kw**: Max DC 170 kW (Source 2, 6, 7, 14, 17, 21, 31). This is good, but not the highest available (250-350+ kW = +1.00). Typical public charging is 11-50 kW (0.00). Score: +0.75 (Well above average, but not top-tier).
+*   **style\_sleek\_vs\_boxy**: SUV shape, but with some Audi sleekness (Source 5, 12, 20). Not ultra-boxy (-1.00) or ultra-sleek (+1.00). Score: 0.00.
+*   **style\_aggression\_rating**: S-specific design elements, wider flares, larger inlets (Source 2, 4, 10, 27). More aggressive than a Leaf (-1.00) or standard Camry (0.00), but not a Lamborghini (+1.00). Score: +0.50.
+*   **style\_modernity\_rating**: Updated design, digital matrix lights, new Audi rings (Source 10, 20, 27). Modern, but not avant-garde like a Cybertruck (+1.00). Score: +0.50.
+*   **handling\_rating**: Reviews mention confident, athletic, nimble for its size, torque vectoring helps (Source 3, 5, 6, 8, 9, 15, 16, 17, 19, 25, 28). Better than a Sienna (-1.00) or Accord (0.00), but not Cayman (+1.00). Score: +0.75.
+*   **ride\_comfort\_rating**: Reviews mention comfortable, supple, hushed cabin, air suspension helps (Source 3, 5, 9, 12, 19, 28). Better than a Wrangler (-1.00) or Camry (0.00), approaching S-Class (+1.00) levels of quietness. Score: +0.75.
+*   **cabin\_noise\_rating**: Reviews highlight a very quiet cabin, excellent noise isolation (Source 3, 9, 12, 15, 18, 19, 23, 29). Near silent like a Lexus ES (+1.00). Score: +1.00.
+*   **shift\_smooth\_rating**: Single-speed EV transmission is inherently smooth. Score: +1.00.
+*   **steering\_feel\_rating**: Reviews mention improved, quicker ratio, more direct, light at low speeds, more feedback than other Audis (Source 2, 5, 8, 9, 15, 19). Better than numb (-1.00) or average (0.00), but maybe not Miata levels (+1.00). Score: +0.75.
+*   **adas\_score**: Suite of standard features including AEB, LKA, BSM, adaptive cruise with lane centering. Optional remote park assist (Source 3, 10, 11, 25). Comprehensive, approaching Tesla levels (+1.00). Score: +0.90.
+*   **visibility\_rating**: Rear visibility noted as not the best in Sportback, but better in standard SUV (Source 5). With cameras and sensors (Source 5, 11), likely average overall. Score: 0.00.
+*   **headlight\_rating**: HD Matrix-design LED headlights available/standard on higher trims (Source 2, 4, 10, 11, 20, 27). These are advanced and high-performing. Score: +1.00.
+*   **security\_rating**: Anti theft alarm, Keyless Go, Anti-theft wheel bolts, wheel loosening detection (Source 11). Standard luxury features, likely includes immobilizer and tracking on higher trims. Score: +0.75.
+*   **screen\_in**: Dual screens, 10.1" upper, 8.6" lower, plus Virtual Cockpit (Source 3). Total screen real estate is high. Score: +0.75 (Larger than Camry 8", but not single massive screen like Tesla).
+*   **infotainment\_ux\_rating**: Reviews mention multiple screens, largely digital, can be fiddly buttons, but generally good and well-thought-out (Source 3, 5, 12, 23, 29). Not perfect (+1.00), but better than touchpad (-1.00) or average (0.00). Score: +0.50.
+*   **smartphone\_connect\_rating**: Apple CarPlay and Android Auto standard, wireless available (Source 3, 11, 24, 32, 33). Includes wireless charging (Source 3, 24). Score: +1.00.
+*   **audio\_rating**: Bang & Olufsen stereo system available/standard (Source 3, 23). High-end audio. Score: +1.00.
+*   **usb\_ports**: 2 in front (charge and data), 2 in rear (charge) (Source 24). Total 4. Score: +0.50 (More than 3, less than 6+).
+*   **comfort\_feature\_score**: Heated front/rear seats, 4-zone climate, power seats, available ventilation/massage/18-way adjust, power steering column, heated steering wheel (Source 2, 3, 10, 11, 19, 27). Very high level of comfort features. Score: +0.90.
+*   **convenience\_feature\_score**: Power liftgate, parking sensors, 360 camera, remote park assist available, soft-closing doors available (Source 3, 5, 11, 21, 25, 27). High level of convenience features. Score: +0.90.
+*   **brand\_prestige\_rating**: Audi is a premium/luxury brand. Score: +0.75 (Below top-tier luxury/supercar brands, but well above average).
+*   **model\_prestige\_rating**: SQ8 e-tron is a high-performance variant of Audi's largest electric SUV (Source 9, 17, 25). It's near the top of the electric SUV range, but not a halo car like an R8 or e-tron GT. Score: -0.50 (Closer to top trim/performance model than entry-level).
+*   **trim\_prestige\_rating**: SQ8 is a performance trim above the standard Q8 e-tron (Source 9, 17, 25). It's a high-end trim. Score: -1.00.
+*   **interior\_luxury\_rating**: Premium materials, leather upholstery, panoramic sunroof, high build quality (Source 3, 12, 23, 27, 29). High level of luxury, but maybe not Maybach (+1.00). Score: +0.75.
+*   **interior\_tech\_focus\_rating**: Multiple high-resolution screens, digital gauge cluster, lots of tech features (Source 3, 10, 23, 24). Screen-forward and tech-focused. Score: +0.90.
+
+Final check of scores and formatting. Ensure all values are floats with two decimal places.```json
+{
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.75,
+  "torque": 0.90,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.70,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 0.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.50,
+  "wheelbase": 0.50,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.50,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": -0.25,
+  "mpg": 0.00,
+  "co2_g_km": 1.00,
+  "electric_range_mi": 0.25,
+  "charge_speed_kw": 0.75,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.75,
+  "ride_comfort_rating": 0.75,
+  "cabin_noise_rating": 1.00,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.75,
+  "adas_score": 0.90,
+  "visibility_rating": 0.00,
+  "headlight_rating": 1.00,
+  "security_rating": 0.75,
+  "screen_in": 0.75,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 1.00,
+  "usb_ports": 0.50,
+  "comfort_feature_score": 0.90,
+  "convenience_feature_score": 0.90,
+  "brand_prestige_rating": 0.75,
+  "model_prestige_rating": -0.50,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": 0.90
+}
+```

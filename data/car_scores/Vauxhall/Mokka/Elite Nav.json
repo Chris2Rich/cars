@@ -1,0 +1,111 @@
+The user is asking for an evaluation of the "most recent version" of the Vauxhall Mokka with the "Elite Nav" trim. Based on search results, the "Elite Nav" trim was primarily associated with the previous generation Vauxhall Mokka X (2016-2019 facelift). While the current generation Mokka (launched 2020/2021) initially had an "Elite Nav Premium" trim, the standard "Elite Nav" is more strongly linked to the Mokka X. I will evaluate the Vauxhall Mokka X Elite Nav, using the 1.4 Turbo (140PS) petrol engine as a common example for this trim.
+
+Here is the evaluation based on the gathered data for the Vauxhall Mokka X 1.4T Elite Nav:
+
+*   **price_usd**: New prices for the Mokka X Elite Nav were around £23,720 - £26,115 (Source [8]), which is roughly $30,000 - $33,000 USD. This is close to the market average of $35,000. Score: 0.00.
+*   **total_cost_estimate_5yr_usd**: Vauxhall/Opel generally have average ownership costs. Score: 0.00.
+*   **insurance_usd_yr**: Insurance groups for the Mokka X Elite Nav are typically around 14E or 15 (Source [6], [9], [21], [23], [30], [32]). This is around the national average. Score: 0.00.
+*   **maint_usd_yr**: Maintenance costs are generally average for a mainstream brand like Vauxhall. Score: 0.00.
+*   **repair_risk_score**: The Mokka X has mixed reliability reviews, with some owners reporting significant issues (Source [11], [15], [36]), while others rate it as very good or excellent (Source [15], [25]). It seems to be around average for its era, perhaps slightly below average based on some owner feedback. Score: -0.10.
+*   **hp**: The 1.4T engine produces 140 PS (138 hp) (Source [1], [5], [9], [12], [26], [29]). This is significantly below the 200 hp average benchmark. Score: -0.90.
+*   **torque**: The 1.4T engine produces 200 Nm (147-148 lb-ft) (Source [1], [5], [9], [12], [26], [29]). This is below the 190 lb-ft average. Score: -0.30.
+*   **cylinder_count**: 4 cylinders (Source [1], [9], [12]). Below the 6-cylinder average benchmark. Score: -0.50.
+*   **engine_displacement**: 1.4L (1364 cc) (Source [1], [9], [13]). Closer to the 1.2L benchmark (-1.00) than the 3.0L benchmark (0.00). Score: -0.90.
+*   **accel_0_60_sec**: 0-60 mph is around 9-10.1 seconds for the 1.4T (Source [1], [5], [9], [12], [17], [22], [26], [44]). This is slower than the 7.5 sec average. Score: -0.50.
+*   **top_speed**: Top speed is around 116-122 mph (Source [1], [5], [9], [12], [17], [26]). Below the 150 mph average. Score: -0.50.
+*   **drive_type**: FWD is standard (Source [9]). AWD was optional (Source [1], [2], [4], [5], [12], [21], [29], [44]). Score: -1.00.
+*   **transmission_type**: Available with manual and automatic transmissions (Source [1], [2], [12], [13], [29]). A traditional automatic is rated +1.00 in the guide. Score: 1.00.
+*   **offroad_ability**: Compact FWD/optional AWD crossover with limited ground clearance. Low offroad ability. Score: 1.00 (based on guide's inverted scale).
+*   **braking_dist_ft**: No specific data found, assume average. Score: 0.00.
+*   **size**: Length is 4275mm (Source [1], [9], [10], [12], [20], [40]). Smaller than the 4600mm average. Score: -0.60.
+*   **wheelbase**: 2555mm (Source [10], [20], [33], [40]). Below the 2700mm average. Score: -0.50.
+*   **body_style**: 5-door SUV/crossover (Source [5], [9], [13], [20]). Closer to 4-door sedan (0.00) than 2-door coupe (-1.00) or 5-door van (+1.00). Score: 0.10.
+*   **seats**: 5 seats (Source [12], [20], [41], [42]). Average. Score: 0.00.
+*   **cargo_space**: 356 litres (12.6 cu ft) with seats up (Source [12], [20], [24], [33], [41]). Below the 15 cu ft average. Score: -0.30.
+*   **rear_space**: Reviews mention rear space is okay for kids but tight for adults (Source [1], [2], [10], [13], [17], [24]). Below average. Score: -0.50.
+*   **ground_clearance_in**: Around 16 cm (6.3 inches) (Source [40]). Slightly below the 6.5" average. Score: -0.10.
+*   **turn_radius_ft**: Turning circle is 11.5m (37.7 ft) (Source [21]). Close to the 36 ft average. Score: 0.00.
+*   **mpg**: The 1.4T FWD manual has claimed figures up to 47.1 mpg (UK) (Source [1], [7], [9], [18], [27], [34]). Real-world is lower but still good compared to the 30 mpg average. Score: 0.50.
+*   **co2_g_km**: CO2 emissions are around 140-152 g/km for the 1.4T (Source [1], [5], [8], [9], [12], [17], [18], [27], [44]). Below the 175 g/km average. Score: 0.30.
+*   **electric_range_mi**: Not an electric vehicle. Score: -1.00.
+*   **charge_speed_kw**: Not an electric vehicle. Score: -1.00.
+*   **style_sleek_vs_boxy**: Typical crossover shape, neither particularly sleek nor boxy. Score: 0.00.
+*   **style_aggression_rating**: Not an aggressive design. Score: -0.50.
+*   **style_modernity_rating**: Design is from the mid-2010s, looks somewhat dated compared to current models. Score: -0.50.
+*   **handling_rating**: Reviews describe handling as safe but unengaging (Source [17], [19]). Score: 0.00.
+*   **ride_comfort_rating**: Ride is described as firm or choppy in town, better at speed (Source [17], [19]). Average overall. Score: 0.00.
+*   **cabin_noise_rating**: Road noise can be intrusive (Source [19]). Average or slightly below. Score: 0.00.
+*   **shift_smooth_rating**: Manual gearbox is described as slicing well (Source [17]). Automatic is likely smooth. Score: 0.50.
+*   **steering_feel_rating**: Steering is described as artificial or light and numb (Source [17]). Score: -0.70.
+*   **adas_score**: Elite Nav included features like front/rear parking sensors, rear camera, cruise control, speed limiter, lane departure warning, traffic sign recognition (Source [3], [4], [14], [16], [22], [26], [28], [38], [44], [45]). Good features for its time and segment. Score: 0.40.
+*   **visibility_rating**: Good forward visibility, but thick pillars compromise rear view (Source [1], [17], [19]). Average overall. Score: 0.00.
+*   **headlight_rating**: Adaptive LED headlights were optional (Source [4], [8]). Standard lights were likely average for the time. Score: 0.00.
+*   **security_rating**: Standard security features, OnStar offered some connected security features (Source [1], [2], [4], [14], [28], [34]). Score: 0.00.
+*   **screen_in**: Elite Nav came with the 8-inch touchscreen (Source [1], [2], [4], [14], [29]). Average for its time. Score: 0.00.
+*   **infotainment_ux_rating**: Navi 900 IntelliLink system was functional but not class-leading (Source [2], [4], [14], [29], [34]). Score: 0.00.
+*   **smartphone_connect_rating**: Apple CarPlay and Android Auto were available (Source [1], [2], [4], [14], [22], [29], [34], [38]). Score: 0.50.
+*   **audio_rating**: Standard audio systems, some trims had 6 speakers (Source [26]). Score: 0.00.
+*   **usb_ports**: USB connection available (Source [2], [14]). Likely 1 or 2 ports. Score: 0.00.
+*   **comfort_feature_score**: Elite Nav included heated front seats, heated steering wheel, dual-zone climate control, ergonomic seats, leather upholstery (Source [1], [2], [4], [12], [16], [22], [26], [36], [38], [44]). Good features for the segment. Score: 0.50.
+*   **convenience_feature_score**: Elite Nav included cruise control, front/rear parking sensors, rear camera, auto lights/wipers, keyless start on some versions (Source [3], [4], [14], [16], [22], [26], [28], [38], [44], [45]). Good features available. Score: 0.40.
+*   **brand_prestige_rating**: Vauxhall is a mainstream brand. Score: 0.00.
+*   **model_prestige_rating**: Mokka is a popular, mid-range model for Vauxhall. Score: 0.00.
+*   **trim_prestige_rating**: Elite Nav was a mid-to-high trim level, offering significant features over lower trims. Score: 0.50.
+*   **interior_luxury_rating**: Elite Nav had leather upholstery and some soft-touch materials, but overall interior quality was average for the segment (Source [1], [19], [38]). Score: 0.00.
+*   **interior_tech_focus_rating**: The interior featured a prominent touchscreen and digital driver display on later models/trims (Source [1], [2], [4], [14], [16], [29], [38]), giving it a reasonable tech focus for its time. Score: 0.30.
+
+```json
+{
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": -0.10,
+  "hp": -0.90,
+  "torque": -0.30,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.90,
+  "accel_0_60_sec": -0.50,
+  "top_speed": -0.50,
+  "drive_type": -1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": -0.60,
+  "wheelbase": -0.50,
+  "body_style": 0.10,
+  "seats": 0.00,
+  "cargo_space": -0.30,
+  "rear_space": -0.50,
+  "ground_clearance_in": -0.10,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.50,
+  "co2_g_km": 0.30,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": -0.50,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": -0.70,
+  "adas_score": 0.40,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.40,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.50,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": 0.30
+}
+```

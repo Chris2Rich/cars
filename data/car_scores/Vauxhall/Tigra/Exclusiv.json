@@ -1,0 +1,109 @@
+```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 1.00,
+  "insurance_usd_yr": 0.50,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": -0.50,
+  "hp": -1.00,
+  "torque": -1.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": -1.00,
+  "accel_0_60_sec": -1.00,
+  "top_speed": -1.00,
+  "drive_type": -1.00,
+  "transmission_type": -1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.00,
+  "body_style": -1.00,
+  "seats": -1.00,
+  "cargo_space": -1.00,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.50,
+  "co2_g_km": 0.50,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": -1.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": -1.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": -0.50,
+  "security_rating": -0.50,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": -0.50,
+  "usb_ports": -1.00,
+  "comfort_feature_score": -0.50,
+  "convenience_feature_score": -0.50,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": -1.00,
+  "interior_tech_focus_rating": -1.00
+}
+```
+
+**Reasoning for each rating:**
+
+*   `price_usd`: **1.00** - As a used vehicle from 2004-2009, current market prices are significantly below the $15,000 threshold for a +1.00 score (search results show prices from £499 to £2,500).
+*   `total_cost_estimate_5yr_usd`: **1.00** - The very low purchase price results in a low overall 5-year cost of ownership, likely well under the $25,000 benchmark, despite potential maintenance on an older car.
+*   `insurance_usd_yr`: **0.50** - UK insurance groups for the Tigra TwinTop Exclusiv range from 18 to 26 (on the 50-group scale). This is in the lower to mid-range, better than average but not the absolute cheapest.
+*   `maint_usd_yr`: **0.00** - Maintenance costs for a Vauxhall of this age are considered average. Parts are generally affordable, but the vehicle's age can lead to more frequent maintenance needs.
+*   `repair_risk_score`: **-0.50** - While the folding hardtop is noted as relatively reliable for its type, the Tigra TwinTop, based on the Corsa C platform, can be susceptible to age-related issues. Potential concerns include timing chain issues on the 1.4L and 1.3L diesel engines and potential issues with the Easytronic transmission. This places its reliability slightly below the market average.
+*   `hp`: **-1.00** - The available engines (1.4L 90hp, 1.8L 125hp, 1.3L diesel 70hp) are all significantly less powerful than the current market average of around 200 hp.
+*   `torque`: **-1.00** - Correspondingly, the torque figures (92 lb-ft for 1.4L, 122 lb-ft for 1.8L) are well below the 190 lb-ft market average.
+*   `cylinder_count`: **0.00** - All engine options are 4-cylinder, which is an average cylinder count in the general market.
+*   `engine_displacement`: **-1.00** - Engine displacements (1.3L, 1.4L, 1.8L) are considerably smaller than the 3.0L average.
+*   `accel_0_60_sec`: **-1.00** - 0-60 mph times range from 9.4 seconds (1.8L) to 12.4 seconds (1.4L) and around 15 seconds (1.3L diesel). All are slower than the 7.5-second average, with the 1.4L and diesel falling into the >10 second range.
+*   `top_speed`: **-1.00** - Top speeds range from 104 mph (diesel) to 127 mph (1.8L). These are below the 150 mph average.
+*   `drive_type`: **-1.00** - The Tigra TwinTop is front-wheel drive (FWD).
+*   `transmission_type`: **-1.00** - Available transmissions were primarily a 5-speed manual and a 5-speed Easytronic automated manual. A traditional automatic was less common. Manual and automated manual transmissions are rated lower than modern automatic or dual-clutch transmissions in the scoring guide.
+*   `offroad_ability`: **1.00** - This is a low-slung 2-seater convertible designed for road use, with no off-road capability. Based on the inverse scoring scale for this metric, it scores +1.00.
+*   `braking_dist_ft`: **0.00** - No specific braking distance data was found, but performance is expected to be average for a small car of its era equipped with ABS.
+*   `size`: **0.00** - With a length of 3921mm, it is smaller than the 4600mm average but not among the smallest city cars.
+*   `wheelbase`: **0.00** - The wheelbase of 2491mm is closer to the 2700mm average than the extreme short or long examples.
+*   `body_style`: **-1.00** - 2-door convertible, which scores -1.00 according to the guide.
+*   `seats`: **-1.00** - It is a 2-seater vehicle.
+*   `cargo_space`: **-1.00** - Cargo space is limited, especially with the roof down (250 litres / ~8.8 cu ft, or 159 litres / ~5.6 cu ft in some measurements). Even with the roof up (440 litres / ~15.5 cu ft), it's only around the 15 cu ft average. The limited space with the roof down is a significant factor for a convertible.
+*   `rear_space`: **-1.00** - As a 2-seater, there is no rear passenger space.
+*   `ground_clearance_in`: **-0.50** - While not as low as a dedicated sports car, as a small convertible, its ground clearance is likely below the average for compact crossovers (~6.5").
+*   `turn_radius_ft`: **0.00** - The turning circle is around 10-10.7 meters (~33-35 ft), which is average for a small car.
+*   `mpg`: **0.50** - Combined MPG figures range from approximately 38-46 mpg (petrol) to over 60 mpg (diesel). These figures are better than the 30 mpg market average.
+*   `co2_g_km`: **0.50** - CO2 emissions range from 122 g/km (diesel) to 146-185 g/km (petrol). These are generally below the 175 g/km average, particularly the diesel model.
+*   `electric_range_mi`: **-1.00** - This is not an electric vehicle.
+*   `charge_speed_kw`: **-1.00** - This is not an electric vehicle.
+*   `style_sleek_vs_boxy`: **0.50** - The Tigra TwinTop has a relatively sleek profile for a small coupe-convertible, not particularly boxy.
+*   `style_aggression_rating`: **-0.50** - The styling is generally considered soft and not aggressive.
+*   `style_modernity_rating`: **-1.00** - The design is from the mid-2000s and appears significantly dated compared to modern vehicle styling.
+*   `handling_rating`: **0.00** - Based on the Corsa platform, handling is described as competent and well-balanced but not particularly sporty or engaging. Average for its class and era.
+*   `ride_comfort_rating`: **0.00** - Ride comfort is reported as reasonably refined for a small convertible, soaking up imperfections fairly easily. Average.
+*   `cabin_noise_rating`: **-0.50** - Convertibles, especially older ones with retractable hardtops, typically have higher cabin noise levels than equivalent hardtop cars.
+*   `shift_smooth_rating`: **0.00** - The manual transmission is standard, while the Easytronic automated manual can be jerky. Overall, the experience is average depending on the transmission choice.
+*   `steering_feel_rating`: **0.00** - Steering feel is reported as good, with "wonderful" power steering. While positive for its time, it's likely not as engaging as the best modern or sports car steering systems. Average overall.
+*   `adas_score`: **-1.00** - Advanced driver-assistance systems were not available on vehicles in this class and era.
+*   `visibility_rating`: **0.00** - Visibility is likely average for a convertible, with potential blind spots when the roof is up.
+*   `headlight_rating`: **-0.50** - Likely equipped with halogen or basic projector headlights, which are less effective than modern LED or matrix LED systems.
+*   `security_rating`: **-0.50** - The Exclusiv trim included a remote control ultrasonic alarm system and engine immobiliser, which was standard for its era but less advanced than modern security features.
+*   `screen_in`: **-1.00** - Features a basic display for the CD30 MP3 audio unit, not a modern infotainment touchscreen.
+*   `infotainment_ux_rating`: **-1.00** - The interface for the basic audio system lacks the features and usability of modern infotainment systems.
+*   `smartphone_connect_rating`: **-1.00** - No support for modern smartphone integration like Apple CarPlay or Android Auto.
+*   `audio_rating`: **-0.50** - Equipped with a basic audio system (CD30 MP3). Below the quality of premium audio systems.
+*   `usb_ports`: **-1.00** - Unlikely to have USB ports for charging or data in this era.
+*   `comfort_feature_score`: **-0.50** - The Exclusiv trim includes desirable features like leather heated sports seats and air conditioning. However, it lacks advanced comfort features found in modern vehicles (e.g., ventilated seats, multi-zone climate control beyond basic AC).
+*   `convenience_feature_score`: **-0.50** - Includes electric roof/windows/mirrors and remote central locking. Optional rear parking sensors were available. Lacks many modern convenience features such as keyless entry/start, 360-degree cameras, or advanced parking aids.
+*   `brand_prestige_rating`: **0.00** - Vauxhall is a mainstream automotive brand with average prestige.
+*   `model_prestige_rating`: **0.00** - The Tigra TwinTop was a lifestyle-oriented model within Vauxhall's lineup, not positioned as a top-tier halo car or a basic entry-level model.
+*   `trim_prestige_rating`: **0.00** - The Exclusiv was a higher trim level offering enhanced equipment (leather, heated seats, larger alloys, air con) compared to base models, but it was not a performance or ultra-luxury variant. It represents a well-equipped, mid-to-high trim.
+*   `interior_luxury_rating`: **-1.00** - While the Exclusiv has leather seats, the overall interior design and materials are based on the Corsa C and are described as dated and a "huge letdown" compared to modern standards, lacking true luxury appointments.
+*   `interior_tech_focus_rating`: **-1.00** - The interior design and features reflect the technology levels of the mid-2000s, with minimal focus on integrated digital displays or advanced tech features compared to contemporary vehicles.

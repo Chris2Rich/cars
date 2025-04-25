@@ -1,55 +1,111 @@
-```json
+Based on the search results, the most recent version of the Mercedes-Benz SL with the "SL280" designation is the R129 generation (1993-2001), specifically the facelifted version from 1998-2001 which had a 204 HP V6 engine, though the earlier inline-6 193 HP version is also referred to as R129 SL280. I will use the specs for the later 1998-2001 SL280 V6 as the "most recent" R129 SL280.
+
+Here's the evaluation based on the R129 SL280 (1998-2001 V6) compared to today's market average:
+
+*   **price_usd:** Original price was high luxury. Current used prices vary but were very high when new. Score: -1.00.
+*   **total_cost_estimate_5yr_usd:** High maintenance, potential for costly repairs on older luxury car, insurance likely high. Score: -1.00.
+*   **insurance_usd_yr:** Insurance group 47 mentioned [20], which is very high. Score: -1.00.
+*   **maint_usd_yr:** Older complex German luxury car, known issues like hydraulic leaks and wiring harnesses [25, 26]. Score: -1.00.
+*   **repair_risk_score:** Known issues with hydraulics and wiring harnesses [25, 26]. Score: -0.50 (Worse than average, but maybe not worst-in-class). Let's stick with -0.20 as it's generally considered relatively robust for its era [19].
+*   **hp:** 204 hp [3, 10]. Today's average is ~200 hp. Score: 0.10.
+*   **torque:** 270 Nm (199 lb-ft) [3, 10]. Today's average is ~190 lb-ft. Score: 0.10.
+*   **cylinder_count:** V6 [3, 10]. Today's average is 4 or 6. Score: 0.00.
+*   **engine_displacement:** 2.8L [3, 10]. Today's average is around 2.0-3.0L. Score: 0.00.
+*   **accel_0_60_sec:** ~9.0-9.5 seconds [3, 14, 20]. Today's average is ~7.5 sec. Score: -0.50.
+*   **top_speed:** ~141-144 mph [3, 14, 20, 23]. Today's average is ~120-130 mph. Score: 0.30.
+*   **drive_type:** RWD [3, 10]. Score: +1.00.
+*   **transmission_type:** 5-speed Automatic [3, 10, 20]. Score: +1.00 (following guide).
+*   **offroad_ability:** Very poor. Score: +1.00 (following guide).
+*   **braking_dist_ft:** Decent for its time, but likely longer than modern cars. Estimate ~135-140 ft. Today's average ~125 ft. Score: -0.50.
+*   **size:** Length ~4499 mm [3, 10]. Today's average sedan/crossover is ~4600mm. Score: 0.00.
+*   **wheelbase:** ~2515 mm [3, 10]. Today's average is ~2700mm. Score: -0.20.
+*   **body_style:** 2-door convertible/roadster [3, 10, 12]. Score: -1.00.
+*   **seats:** 2 seats [10, 12, 13]. Some sources mention 4 seats [5, 20], likely referring to optional rear jump seats which are tiny. Defaulting to the primary 2 seats. Score: -1.00.
+*   **cargo_space:** ~9.36 cu ft (265 L) [3, 10, 13]. Today's average ~15 cu ft. Score: -0.80.
+*   **rear_space:** N/A (2-seater). Score: -1.00.
+*   **ground_clearance_in:** Low for a sports car/convertible. Estimate ~4-5 inches. Score: -0.80.
+*   **turn_radius_ft:** 10.7 m (35.1 ft) [3, 10]. Today's average ~36 ft. Score: 0.00.
+*   **mpg:** ~20-25 mpg combined (US/UK figures vary, but generally low by modern standards) [3, 10, 13, 20]. Today's average ~30 mpg. Score: -0.80.
+*   **co2_g_km:** ~251-272 g/km [5, 20]. Today's average ~175 g/km. Score: -0.80.
+*   **electric_range_mi:** Not electric. Score: -1.00.
+*   **charge_speed_kw:** Not electric. Score: -1.00.
+*   **style_sleek_vs_boxy:** Relatively sleek for its time. Score: 0.50.
+*   **style_aggression_rating:** More elegant than aggressive. Score: 0.00.
+*   **style_modernity_rating:** Dated compared to today. Score: -1.00.
+*   **handling_rating:** Comfortable cruiser, not a sharp handler by modern standards. Score: 0.00.
+*   **ride_comfort_rating:** Known for comfortable ride for its era [25]. Score: 0.50.
+*   **cabin_noise_rating:** Convertible, older insulation. Likely noisier than modern sedans/coupes. Score: -0.50.
+*   **shift_smooth_rating:** Older automatic transmission, described as smooth-shifting [25, 33]. Score: 0.50.
+*   **steering_feel_rating:** Likely hydraulic, decent feel for its time. Score: 0.00.
+*   **adas_score:** None. Score: -1.00.
+*   **visibility_rating:** Good forward/side visibility with roof down, maybe average with roof up. Rear visibility limited. Score: 0.00.
+*   **headlight_rating:** Halogen or basic Xenon. Poor compared to modern LEDs. Score: -1.00.
+*   **security_rating:** Basic alarm/immobilizer for its time [29]. Poor by modern standards. Score: -0.50.
+*   **screen_in:** Tiny or non-existent display for radio. Score: -1.00.
+*   **infotainment_ux_rating:** Basic radio/CD. Score: -1.00.
+*   **smartphone_connect_rating:** None. Score: -1.00.
+*   **audio_rating:** Decent for its time, but not premium by modern standards. Score: 0.00.
+*   **usb_ports:** None. Score: -1.00.
+*   **comfort_feature_score:** Power seats, climate control, heated seats [20, 25]. Lacks modern features. Score: 0.00.
+*   **convenience_feature_score:** Power windows/locks, electric rollover bar [24]. Lacks modern features like keyless entry, cameras, sensors. Score: -0.50.
+*   **brand_prestige_rating:** Mercedes-Benz is high. Score: 0.90.
+*   **model_prestige_rating:** SL is an iconic model, a halo car. Score: -1.00 (following guide).
+*   **trim_prestige_rating:** SL280 was entry-level for the SL. Score: +1.00 (following guide).
+*   **interior_luxury_rating:** High quality materials for its time (leather, wood) [25]. Still feels luxurious but dated. Score: 0.70.
+*   **interior_tech_focus_rating:** Minimal tech focus. Score: -1.00.
+
+Looks good. Ready to generate JSON.```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": 0.00,
-  "torque": 0.00,
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -0.20,
+  "hp": 0.10,
+  "torque": 0.10,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.00,
-  "top_speed": 0.00,
-  "drive_type": 0.00,
-  "transmission_type": 0.00,
-  "offroad_ability": 0.00,
-  "braking_dist_ft": 0.00,
+  "accel_0_60_sec": -0.50,
+  "top_speed": 0.30,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -0.50,
   "size": 0.00,
-  "wheelbase": 0.00,
-  "body_style": 0.00,
-  "seats": 0.00,
-  "cargo_space": 0.00,
-  "rear_space": 0.00,
-  "ground_clearance_in": 0.00,
+  "wheelbase": -0.20,
+  "body_style": -1.00,
+  "seats": -1.00,
+  "cargo_space": -0.80,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.80,
   "turn_radius_ft": 0.00,
-  "mpg": 0.00,
-  "co2_g_km": 0.00,
-  "electric_range_mi": 0.00,
-  "charge_speed_kw": 0.00,
-  "style_sleek_vs_boxy": 0.00,
+  "mpg": -0.80,
+  "co2_g_km": -0.80,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
   "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.00,
+  "style_modernity_rating": -1.00,
   "handling_rating": 0.00,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": 0.50,
   "steering_feel_rating": 0.00,
-  "adas_score": 0.00,
+  "adas_score": -1.00,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.00,
-  "security_rating": 0.00,
-  "screen_in": 0.00,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.00,
+  "headlight_rating": -1.00,
+  "security_rating": -0.50,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
   "audio_rating": 0.00,
-  "usb_ports": 0.00,
+  "usb_ports": -1.00,
   "comfort_feature_score": 0.00,
-  "convenience_feature_score": 0.00,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.00,
-  "interior_tech_focus_rating": 0.00
+  "convenience_feature_score": -0.50,
+  "brand_prestige_rating": 0.90,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": -1.00
 }
 ```

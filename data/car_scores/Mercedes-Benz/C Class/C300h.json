@@ -1,51 +1,109 @@
+The Mercedes-Benz C-Class C300h is a diesel hybrid variant from the W205 generation, produced from 2014 to 2018 (Source [1, 7, 8, 41]). It combines a 2.1L 4-cylinder diesel engine with an electric motor. This evaluation is based on the W205 C300h relative to the current automotive market.
+
+*   **price\_usd**: As a used car from 2014-2018, the price is significantly lower than a new car today. Used prices in the UK can be found from around £9,293 to £13,736 (approx $11,700 - $17,300 USD) (Source [25, 27]). This is well below the $35,000 average for a new car. Score: 0.80.
+*   **total\_cost\_estimate\_5yr\_usd**: While the purchase price is low, an older luxury hybrid car will have higher maintenance and potential repair costs than a new economy car (Source [9, 16]). The hybrid components could add complexity and expense. Score: -0.40.
+*   **insurance\_usd\_yr**: Insurance groups for the W205 C300h were in the higher mid-range for its time (Group 37 in the UK) (Source [32, 35]). Relative to modern cars, this is likely around average or slightly above. Score: 0.00.
+*   **maint\_usd\_yr**: Maintenance costs for a Mercedes-Benz are generally higher than average (Source [9, 16, 39]). The added complexity of a diesel hybrid system could lead to higher maintenance costs. Score: -0.70.
+*   **repair\_risk\_score**: The W205 generation had some reported issues, including with the M274 petrol engine (wrist pin/piston issues on early C300 models, though the C300h uses a diesel engine) (Source [10, 16, 34, 40]). The OM651 diesel engine is generally considered reliable, but the hybrid system adds potential points of failure (Source [16]). CarEdge rates the W205 C-Class as worse than average for major repair probability over 10 years (Source [9]). Score: -0.40.
+*   **hp**: Combined system output is 228-231 hp (Source [1, 2, 3, 7, 8, 41]). This is above the 200 hp average. Score: 0.20.
+*   **torque**: Combined system torque is 500 Nm (368.78 lb-ft) or 750 Nm (553.17 lb-ft) depending on how it's measured (engine vs system peak) (Source [1, 2, 3, 38, 41]). Using the higher system peak torque. This is significantly above the 190 lb-ft average. Score: 0.90.
+*   **cylinder\_count**: The internal combustion engine is a 4-cylinder diesel (Source [1, 2, 3, 7, 8, 38, 41]). This is common, so average. Score: 0.00.
+*   **engine\_displacement**: The internal combustion engine is 2.1L (2143 cm³) (Source [1, 2, 3, 38, 41]). Around the average for a 4-cylinder engine. Score: 0.00.
+*   **accel\_0\_60\_sec**: Around 6.1-6.9 seconds (0-100 km/h in 6.4-7.2s) (Source [1, 3, 8, 33, 41]). This is significantly faster than the 7.5-second average. Score: 0.60.
+*   **top\_speed**: Around 151-152 mph (244 km/h) (Source [1, 2, 8, 41]). Around the 150 mph average. Score: 0.00.
+*   **drive\_type**: RWD (Source [1, 2, 7, 8, 41]). Score: 1.00 (based on guide).
+*   **transmission\_type**: 7-speed automatic (7G-TRONIC PLUS) (Source [1, 2, 3, 8, 38, 41]). A modern automatic for its time. Score: 1.00.
+*   **offroad\_ability**: Low ground clearance (around 92mm or 3.62 inches) (Source [1]), sedan/estate body style, not designed for off-road. Score: 1.00 (based on guide examples).
+*   **braking\_dist\_ft**: Not explicitly stated, but expected to be good for its class and era. Score: 0.00.
+*   **size**: Length is around 4686 mm (184.5 inches) (Source [1, 3, 4, 5, 13, 19, 41]). Around the 4.6m average. Score: 0.00.
+*   **wheelbase**: 2840 mm (111.81 inches) (Source [1, 4, 5, 8, 13, 19, 41]). This is longer than the 2700mm average. Score: 0.20.
+*   **body\_style**: Available as Sedan or Estate (Source [1, 7, 8, 19, 20, 21, 32]). Score: 0.00.
+*   **seats**: 5 seats (Source [1, 7, 8, 20, 41]). Score: 0.00.
+*   **cargo\_space**: 435 liters (15.36 cu ft) for the sedan (Source [1, 20, 41]). The battery reduces trunk space compared to the standard W205 sedan (480 liters / 16.95 cu ft) (Source [4]). This is around the 15 cu ft average. Score: 0.00.
+*   **rear\_space**: Improved over the previous W204 generation (Source [11, 33]). Score: 0.00.
+*   **ground\_clearance\_in**: Around 92mm (3.62 inches) (Source [1]). Low for a sedan by modern standards. Score: -0.20.
+*   **turn\_radius\_ft**: Around 11.22m (36.81 ft) (Source [1, 4]). Around the 36 ft average. Score: 0.00.
+*   **mpg**: Hybrid system provides excellent fuel economy. Claimed combined around 3.6-4.0 L/100 km (58.8 - 65.34 US mpg, 70.62 - 78.47 UK mpg) (Source [1]). Real-world MPG is often lower but still very good (around 37-58 mpg Real MPG, 50.2 mpg average) (Source [12]). This is well above the 30 mpg average for a conventional car. Score: 0.80.
+*   **co2\_g\_km**: Around 94-99 g/km (Source [1]). This is well below the 175 g/km average. Score: 0.80.
+*   **electric\_range\_mi**: As a full hybrid (FHEV), it has a small battery and limited electric-only range, typically only a few miles at low speeds (Source [37, 38]). Score: 0.00.
+*   **charge\_speed\_kw**: Not a plug-in hybrid, so no external charging capability. Score: -1.00.
+*   **style\_sleek\_vs\_boxy**: W205 design is a sleek, modern sedan shape, inspired by the S-Class (Source [11, 29, 37]). Score: 0.40.
+*   **style\_aggression\_rating**: Standard C-Class styling is elegant, AMG Line adds aggression (Source [15, 20]). Assuming standard C300h styling. Score: 0.00.
+*   **style\_modernity\_rating**: Design is from the mid-2010s. Looks somewhat dated compared to the current W206, but still reasonably modern. Score: -0.20.
+*   **handling\_rating**: Generally competent handling, described as comfortable and refined rather than overtly sporty (Source [11, 27, 33]). Score: 0.00.
+*   **ride\_comfort\_rating**: Praised for a superb ride quality, even with sport suspension (Source [11, 33, 37]). Score: 0.80.
+*   **cabin\_noise\_rating**: Incredibly quiet and refined, especially at motorway speeds (Source [11, 37]). Score: 0.80.
+*   **shift\_smooth\_rating**: 7G-Tronic Plus is generally smooth (Source [37]). The transition between electric and diesel power can sometimes be noticeable or jarring (Source [37]). Score: 0.00.
+*   **steering\_feel\_rating**: Reviews often noted a lack of steering feel (Source [11]). Score: -0.50.
+*   **adas\_score**: Offered a good range of ADAS for its time, including Collision Prevention Assist and a reversing camera as standard (Source [11, 20]). Optional features like Distronic Plus were available. Score: 0.20.
+*   **visibility\_rating**: Standard sedan visibility. Score: 0.00.
+*   **headlight\_rating**: LED headlights were available (Source [20]). Good for their time, but not modern adaptive matrix LEDs. Score: 0.20.
+*   **security\_rating**: Standard for a luxury car of its time, with alarm and immobiliser (Source [20]). Score: 0.00.
+*   **screen\_in**: Featured a tablet-style screen, typically around 7-8.4 inches with COMAND Online (Source [11]). Average for its time, but small by modern standards. Score: -0.20.
+*   **infotainment\_ux\_rating**: COMAND Online was advanced for its time, but the interface is less intuitive than modern systems (Source [11]). Score: -0.20.
+*   **smartphone\_connect\_rating**: Bluetooth, USB, and a media interface were standard (Source [11, 20]). Apple CarPlay/Android Auto were introduced later in the W205's life, possibly not standard on early C300h models. Score: -0.50.
+*   **audio\_rating**: Optional Burmester system was excellent (Source [20]). Standard system is likely average. Score: 0.00.
+*   **usb\_ports**: Likely one or two ports. Score: -0.50.
+*   **comfort\_feature\_score**: Heated front seats, power seats, dual-zone climate control, ambient lighting available (Source [20]). Good level of comfort features for its era. Score: 0.40.
+*   **convenience\_feature\_score**: Auto parking, blind-spot sensor, driver attention detection, reversing camera standard (Source [20]). Lacks some modern convenience tech like 360 cameras as standard. Score: 0.20.
+*   **brand\_prestige\_rating**: Mercedes-Benz is a high-prestige brand. Score: 0.80.
+*   **model\_prestige\_rating**: C-Class is a core, mid-range model for Mercedes-Benz. Score: 0.00.
+*   **trim\_prestige\_rating**: C300h was a higher-end engine variant focusing on efficiency and technology, but not a full AMG performance model. Score: -0.20.
+*   **interior\_luxury\_rating**: W205 interior was a significant improvement in quality and design over the W204, feeling very premium for its time (Source [11, 33, 37]). Materials and design are somewhat dated compared to the latest luxury interiors. Score: 0.50.
+*   **interior\_tech\_focus\_rating**: Featured a prominent screen and COMAND Online, representing a good tech focus for its era, but less screen-dominated than the current W206. Score: 0.20.
+
 ```json
 {
-  "price_usd": 0.35,
-  "total_cost_estimate_5yr_usd": 0.10,
-  "insurance_usd_yr": 0.10,
-  "maint_usd_yr": -0.20,
-  "repair_risk_score": 0.10,
-  "hp": 0.15,
-  "torque": 0.50,
-  "cylinder_count": -0.50,
-  "engine_displacement": -0.43,
-  "accel_0_60_sec": 0.20,
-  "braking_dist_ft": 0.10,
-  "size": 0.06,
-  "wheelbase": 0.16,
+  "price_usd": 0.80,
+  "total_cost_estimate_5yr_usd": -0.40,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.70,
+  "repair_risk_score": -0.40,
+  "hp": 0.20,
+  "torque": 0.90,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.60,
+  "top_speed": 0.00,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.20,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.09,
+  "cargo_space": 0.00,
   "rear_space": 0.00,
-  "ground_clearance_in": -0.58,
+  "ground_clearance_in": -0.20,
   "turn_radius_ft": 0.00,
-  "mpg": 0.85,
-  "co2_g_km": 0.55,
-  "electric_range_mi": -1.00,
+  "mpg": 0.80,
+  "co2_g_km": 0.80,
+  "electric_range_mi": 0.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.40,
-  "style_aggression_rating": 0.10,
-  "style_modernity_rating": 0.20,
-  "handling_rating": 0.30,
-  "ride_comfort_rating": 0.50,
-  "cabin_noise_rating": 0.40,
-  "shift_smooth_rating": 0.40,
-  "steering_feel_rating": 0.15,
-  "adas_score": 0.25,
-  "visibility_rating": 0.10,
-  "headlight_rating": 0.30,
-  "security_rating": 0.40,
-  "screen_in": -0.10,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": -0.20,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.80,
+  "cabin_noise_rating": 0.80,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": -0.50,
+  "adas_score": 0.20,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.20,
+  "security_rating": 0.00,
+  "screen_in": -0.20,
   "infotainment_ux_rating": -0.20,
-  "smartphone_connect_rating": 0.00,
-  "audio_rating": 0.10,
-  "usb_ports": 0.00,
+  "smartphone_connect_rating": -0.50,
+  "audio_rating": 0.00,
+  "usb_ports": -0.50,
   "comfort_feature_score": 0.40,
-  "convenience_feature_score": 0.30,
-  "brand_prestige_rating": 0.70,
+  "convenience_feature_score": 0.20,
+  "brand_prestige_rating": 0.80,
   "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.10,
+  "trim_prestige_rating": -0.20,
   "interior_luxury_rating": 0.50,
-  "interior_tech_focus_rating": 0.10
+  "interior_tech_focus_rating": 0.20
 }
 ```

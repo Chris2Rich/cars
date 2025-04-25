@@ -1,55 +1,224 @@
-```json
+Here's the evaluation of the 2003-2006 Mercedes-Benz CL55 AMG (C215) based on the search results and the provided scoring guide:
+
+*   **price_usd**: The original MSRP was around $92,495 - $375,900 depending on year and options (Source 4, 14, 21). Current used prices are significantly lower, averaging around $20,521 (Source 32), but the *new* price was very high compared to today's average car (~$35,000). This scores -1.00.
+*   **total_cost_estimate_5yr_usd**: Luxury cars, especially older AMG models, are known for high maintenance and repair costs (Source 4, 30). The ABC suspension is a known expensive failure point (Source 30). This will be well above the $60,000 threshold. Scores -1.00.
+*   **insurance_usd_yr**: High-performance luxury coupes typically have high insurance costs due to price, performance, and potential repair costs. Scores -1.00. (No specific UK insurance group found, but based on type, it's high).
+*   **maint_usd_yr**: Mercedes-Benz, particularly older AMG models with complex systems like ABC, have significantly higher maintenance costs than average cars (Source 4, 30). Scores -1.00.
+*   **repair_risk_score**: The C215 CL-Class, especially with the complex ABC suspension, is known for reliability concerns and expensive repairs (Source 4, 30). Scores -0.75.
+*   **hp**: The supercharged CL55 AMG produces 493 hp (Source 6, 14, 27). This is significantly higher than today's average car (~200 hp). Scores 1.00. (The earlier naturally aspirated version had 355 hp, Source 8, 11, 25, but the supercharged is the "most recent" CL55).
+*   **torque**: The supercharged CL55 AMG produces 516 lb-ft of torque (Source 9, 14, 27). This is much higher than today's average car (~190 lb-ft). Scores 1.00.
+*   **cylinder_count**: It has a V8 engine (Source 9, 14, 27). While V12 exists in the CL range, V8 is above the average 4 or 6 cylinders. Scores 0.50.
+*   **engine_displacement**: It has a 5.4L engine (Source 9, 14, 27). This is large compared to today's average. Scores 1.00.
+*   **accel_0_60_sec**: 0-60 mph in 4.27-4.8 seconds (Source 6, 14, 27). This is very fast compared to the average (~7.5 sec). Scores 0.90.
+*   **top_speed**: Electronically limited to 155 mph (Source 3, 6, 13, 16, 25, 27). This is around the average for performance cars, but not top-tier supercar speed. Scores 0.00.
+*   **drive_type**: Rear-Wheel Drive (RWD) (Source 4, 9, 14, 25, 27). Scores 1.00 according to the guide.
+*   **transmission_type**: 5-speed automatic transmission (Source 5, 9, 10, 14, 25, 27, 31). The guide rates Automatic as +1.00. Scores 1.00.
+*   **offroad_ability**: This is a low-slung luxury coupe with RWD and performance-focused suspension. It has minimal off-road capability. Scores 1.00 according to the guide's inverse scale for offroad ability.
+*   **braking_dist_ft**: The CL55 AMG F1 Limited Edition had ceramic brakes (Source 7, 10, 31), suggesting excellent braking performance. Standard CL55 had large vented discs (Source 9, 25, 27). While specific distance isn't found, performance cars typically have good braking. Scores 0.50 (assuming better than average, but not best-in-class without specific data).
+*   **size**: Length is 4993 mm (Source 12, 14, 24, 25, 27). This is a large coupe, well over the 4600mm average. Scores 0.90.
+*   **wheelbase**: Wheelbase is 2885 mm (Source 24, 25, 27). This is longer than the 2700mm average. Scores 0.75.
+*   **body_style**: 2-Door Coupe (Source 12, 14, 19, 21, 23, 25, 27). Scores -1.00.
+*   **seats**: 4 seats (Source 9, 18, 19, 23, 25, 27). Scores -0.50.
+*   **cargo_space**: 12.3 cu ft (Source 9, 19, 20). This is below the 15 cu ft average. Scores -0.25.
+*   **rear_space**: Rear legroom is 30.8 inches (Source 9, 20). This is significantly less than the 35" average. Scores -1.00.
+*   **ground_clearance_in**: Not explicitly stated, but as a large luxury coupe with performance suspension (ABC), it will be low. Scores -0.75.
+*   **turn_radius_ft**: 37.6 ft (Source 19). This is slightly larger than the 36 ft average. Scores -0.25.
+*   **mpg**: Combined MPG is around 17.8-21.2 mpg US (Source 5, 8, 13, 16, 25, 27, 28). This is significantly lower than the 30 mpg average. Scores -1.00.
+*   **co2_g_km**: CO2 emissions are around 317-320 g/km (Source 5, 8, 13, 16, 23). This is very high compared to the 175 g/km average. Scores -1.00.
+*   **electric_range_mi**: Not an electric vehicle. Scores -1.00.
+*   **charge_speed_kw**: Not an electric vehicle. Scores -1.00.
+*   **style_sleek_vs_boxy**: The C215 CL has a sleek, pillarless coupe design (Source 9, 17). Scores 0.75.
+*   **style_aggression_rating**: The AMG version has an aggressive body kit and quad exhausts (Source 5, 9, 10, 24, 29). Scores 0.75.
+*   **style_modernity_rating**: The design is from the late 90s/early 00s. While elegant, it is not modern compared to today's vehicles. Scores -0.75.
+*   **handling_rating**: Features Active Body Control (ABC) suspension which provides excellent stability and reduces body roll (Source 2, 6, 7, 9, 17, 18, 22, 24). Scores 0.75.
+*   **ride_comfort_rating**: Known for exceptional ride comfort due to the ABC suspension (Source 2, 7, 17). Scores 1.00.
+*   **cabin_noise_rating**: Features double glazing and good sound insulation (Source 2, 41). Known for a quiet cabin. Scores 1.00.
+*   **shift_smooth_rating**: Equipped with a 5-speed automatic transmission (Source 5, 9, 10, 14, 25, 27, 31). Mercedes automatics of this era were generally smooth. Scores 0.75.
+*   **steering_feel_rating**: Features speed-sensitive power steering (Source 24). While competent, older luxury cars often prioritize comfort over sharp feel. Scores 0.00.
+*   **adas_score**: Features Distronic (adaptive cruise control), Parktronic (parking sensors), rain-sensing wipers, auto headlights (Source 2, 3, 4, 6, 15, 17, 18, 22, 24). Advanced for its time, but limited compared to modern ADAS suites. Scores 0.50.
+*   **visibility_rating**: Coupe body style can limit rear visibility, but pillarless design helps side visibility. Scores 0.00.
+*   **headlight_rating**: Features Bi-Xenon HID headlights (Source 3, 6, 9, 18, 21, 24). Excellent for its time, but not as advanced as modern Matrix LEDs. Scores 0.50.
+*   **security_rating**: As a high-end luxury car, it would have had advanced security features for its era (immobilizer, alarm). Scores 0.25.
+*   **screen_in**: Features a COMAND system with a color display, size increased to 6.5 inches after facelift (Source 7, 10, 15, 24). This is small by modern standards. Scores -0.75.
+*   **infotainment_ux_rating**: COMAND system was advanced for its time but is dated now (Source 30). Scores -0.50.
+*   **smartphone_connect_rating**: Features phone connectivity (Source 10, 24, 31), but not modern smartphone integration like CarPlay/Android Auto (though aftermarket units exist, Source 34, 36). Scores -1.00.
+*   **audio_rating**: Optional Bose sound system was available (Source 3, 6, 7, 15, 17, 24, 26, 35, 36). This was a premium system for its time. Scores 0.75.
+*   **usb_ports**: Not applicable to this era. Scores -1.00.
+*   **comfort_feature_score**: Features include power adjustable seats (standard), heated/ventilated/massaging multi-contour seats (optional), dual-zone climate control, heated steering wheel (optional) (Source 2, 3, 6, 7, 15, 17, 18, 21, 22, 24, 31). Very high level of comfort features for its time. Scores 1.00.
+*   **convenience_feature_score**: Features include Keyless Go (optional), soft-close doors, power trunk, rain sensors, light sensors, Parktronic, auto-dimming mirrors, voice control (optional) (Source 2, 3, 4, 6, 7, 15, 18, 22, 24, 31). High level of convenience features for its time. Scores 0.75.
+*   **brand_prestige_rating**: Mercedes-Benz is a high-prestige brand. Scores 0.75.
+*   **model_prestige_rating**: The CL was the flagship coupe, based on the S-Class (Source 4, 17, 18, 22). This is a top-tier model within the brand. Scores -1.00.
+*   **trim_prestige_rating**: AMG is the top performance trim. Scores -1.00.
+*   **interior_luxury_rating**: Features high-quality leather, wood/carbon fiber trim, and a luxurious design (Source 2, 4, 6, 7, 10, 17, 18, 21, 22, 24, 31). Scores 1.00.
+*   **interior_tech_focus_rating**: Had advanced tech for its time (COMAND, Distronic, ABC), but the interface and integration are dated compared to modern screen-focused interiors. Scores 0.00.
+
+Refining some scores based on the guide and comparisons:
+*   Top Speed: 155 mph is exactly the 0.00 benchmark.
+*   Braking: While performance is good, without a specific distance, 0.50 is reasonable.
+*   Cargo Space: 12.3 cu ft is slightly below 15 cu ft, -0.25 seems appropriate.
+*   Turn Radius: 37.6 ft is slightly above 36 ft, -0.25 seems appropriate.
+*   Style Modernity: A design from 1999-2006 is quite dated now. -0.75 seems more accurate than -0.50.
+*   Infotainment UX: The COMAND system is notoriously clunky by modern standards. -0.50 seems fair.
+*   Interior Tech Focus: While it had tech, the focus wasn't on large screens and digital interfaces like modern cars. 0.00 seems more appropriate than 0.25 or 0.50.
+
+Let's re-check the 0-60 time. Some sources say 4.8s (Source 14, 23, 27), others 4.27s (Motor Trend, Source 6, 15, 18, 22). I'll use the faster 4.27s as it's cited from a specific test. This is very close to the <2.5s benchmark for +1.00, but not quite there. 0.90 seems appropriate.
+
+Let's re-check the HP/Torque benchmarks. >700 hp is +1.00. 493 hp is high, but not in the 700+ range. 0.75 seems reasonable. >1000 lb-ft is +1.00. 516 lb-ft is high, but not in the 1000+ range. 0.75 seems reasonable.
+
+Cylinder Count: V8 (8 cylinders) is above the average 4/6, but not the max 12. 0.50 is reasonable.
+Engine Displacement: 5.4L is large, but not the max 6.0L+. 0.75 seems more appropriate than 1.00.
+
+Drive Type: RWD is +1.00 per the guide.
+Transmission Type: Automatic is +1.00 per the guide.
+Offroad Ability: Low-slung coupe is -1.00 per the guide's inverse scale.
+
+Braking Distance: Without a specific number, let's stick with 0.50.
+
+Size: 4993mm is large. 0.90 is reasonable.
+Wheelbase: 2885mm is long. 0.75 is reasonable.
+Body Style: 2-door coupe is -1.00.
+Seats: 4 seats is -0.50.
+Cargo Space: 12.3 cu ft is -0.25.
+Rear Space: 30.8 inches is -1.00.
+Ground Clearance: Low coupe, -0.75.
+Turn Radius: 37.6 ft is slightly large, -0.25.
+
+MPG: ~18-21 mpg is well below 30 mpg. -1.00 seems more appropriate than -0.75 based on the scale.
+CO2: ~320 g/km is well above 175 g/km. -1.00 seems more appropriate.
+Electric Range/Charge Speed: Not applicable, -1.00.
+
+Handling: ABC provides excellent handling for a large car. 0.75 seems appropriate.
+Ride Comfort: ABC provides superb ride comfort. 1.00.
+Cabin Noise: Known for quiet cabin. 1.00.
+Shift Smoothness: Mercedes automatics were smooth. 0.75.
+Steering Feel: Parameter steering, likely comfortable but not super engaging. 0.00.
+
+ADAS: Distronic was advanced for its time. 0.50 is fair.
+Visibility: Coupe limits rear visibility. 0.00.
+Headlights: Bi-Xenon was good, but not top-tier modern. 0.50.
+Security: High-end car, decent security for the era. 0.25.
+
+Screen Size: 6.5 inches is small. -0.75.
+Infotainment UX: Dated COMAND. -0.50.
+Smartphone Connect: No modern integration. -1.00.
+Audio: Optional Bose was premium. 0.75.
+USB Ports: Not applicable. -1.00.
+
+Comfort Features: Highly equipped for its time. 1.00.
+Convenience Features: Highly equipped for its time. 0.75.
+
+Brand Prestige: Mercedes-Benz is high. 0.75.
+Model Prestige: Flagship coupe. -1.00.
+Trim Prestige: AMG is top performance trim. -1.00.
+Interior Luxury: High quality materials and design. 1.00.
+Interior Tech Focus: Tech was present but not screen-dominant like modern cars. 0.00.
+
+Final review of scores based on benchmarks and relative comparisons.
+
+*   `price_usd`: New price was very high. -1.00.
+*   `total_cost_estimate_5yr_usd`: High maintenance/repair. -1.00.
+*   `insurance_usd_yr`: High performance/luxury. -1.00.
+*   `maint_usd_yr`: Complex systems, AMG. -1.00.
+*   `repair_risk_score`: Known issues (ABC). -0.75.
+*   `hp`: 493 hp is high, but not 700+. 0.75.
+*   `torque`: 516 lb-ft is high, but not 1000+. 0.75.
+*   `cylinder_count`: V8. 0.50.
+*   `engine_displacement`: 5.4L. 0.75.
+*   `accel_0_60_sec`: ~4.3s. Very fast. 0.90.
+*   `top_speed`: 155 mph limited. 0.00.
+*   `drive_type`: RWD. 1.00.
+*   `transmission_type`: Automatic. 1.00.
+*   `offroad_ability`: Poor. 1.00.
+*   `braking_dist_ft`: Good, but no specific data. 0.50.
+*   `size`: Large coupe. 0.90.
+*   `wheelbase`: Long. 0.75.
+*   `body_style`: 2-door coupe. -1.00.
+*   `seats`: 4 seats. -0.50.
+*   `cargo_space`: Below average. -0.25.
+*   `rear_space`: Poor. -1.00.
+*   `ground_clearance_in`: Low. -0.75.
+*   `turn_radius_ft`: Slightly large. -0.25.
+*   `mpg`: Very low. -1.00.
+*   `co2_g_km`: Very high. -1.00.
+*   `electric_range_mi`: Not electric. -1.00.
+*   `charge_speed_kw`: Not electric. -1.00.
+*   `style_sleek_vs_boxy`: Sleek. 0.75.
+*   `style_aggression_rating`: AMG styling adds aggression. 0.75.
+*   `style_modernity_rating`: Dated design. -0.75.
+*   `handling_rating`: Good for size due to ABC. 0.75.
+*   `ride_comfort_rating`: Excellent. 1.00.
+*   `cabin_noise_rating`: Quiet. 1.00.
+*   `shift_smooth_rating`: Smooth auto. 0.75.
+*   `steering_feel_rating`: Average. 0.00.
+*   `adas_score`: Advanced for its time, limited now. 0.50.
+*   `visibility_rating`: Average. 0.00.
+*   `headlight_rating`: Good for its time. 0.50.
+*   `security_rating`: Decent for its time. 0.25.
+*   `screen_in`: Small. -0.75.
+*   `infotainment_ux_rating`: Dated. -0.50.
+*   `smartphone_connect_rating`: None. -1.00.
+*   `audio_rating`: Optional premium system. 0.75.
+*   `usb_ports`: None. -1.00.
+*   `comfort_feature_score`: Very high for its time. 1.00.
+*   `convenience_feature_score`: High for its time. 0.75.
+*   `brand_prestige_rating`: High. 0.75.
+*   `model_prestige_rating`: Flagship. -1.00.
+*   `trim_prestige_rating`: Top performance. -1.00.
+*   `interior_luxury_rating`: Very high. 1.00.
+*   `interior_tech_focus_rating`: Not screen-focused. 0.00.
+
+Looks consistent with the data found and the scoring guide.```json
 {
-    "price_usd": -1.00,
-    "total_cost_estimate_5yr_usd": -1.00,
-    "insurance_usd_yr": -1.00,
-    "maint_usd_yr": -1.00,
-    "repair_risk_score": -0.90,
-    "hp": 0.80,
-    "torque": 0.85,
-    "cylinder_count": 0.50,
-    "engine_displacement": 0.80,
-    "accel_0_60_sec": 0.85,
-    "top_speed": 0.00,
-    "drive_type": 1.00,
-    "transmission_type": 1.00,
-    "offroad_ability": 1.00,
-    "braking_dist_ft": 0.80,
-    "size": 0.80,
-    "wheelbase": 0.40,
-    "body_style": -1.00,
-    "seats": -0.25,
-    "cargo_space": -0.20,
-    "rear_space": -0.50,
-    "ground_clearance_in": -0.80,
-    "turn_radius_ft": -0.10,
-    "mpg": -0.90,
-    "co2_g_km": -1.00,
-    "electric_range_mi": -1.00,
-    "charge_speed_kw": -1.00,
-    "style_sleek_vs_boxy": 0.80,
-    "style_aggression_rating": 0.60,
-    "style_modernity_rating": -0.80,
-    "handling_rating": 0.30,
-    "ride_comfort_rating": 0.90,
-    "cabin_noise_rating": 0.80,
-    "shift_smooth_rating": 0.60,
-    "steering_feel_rating": 0.10,
-    "adas_score": -0.80,
-    "visibility_rating": 0.00,
-    "headlight_rating": 0.00,
-    "security_rating": 0.30,
-    "screen_in": -0.20,
-    "infotainment_ux_rating": -0.80,
-    "smartphone_connect_rating": -1.00,
-    "audio_rating": 0.60,
-    "usb_ports": -0.90,
-    "comfort_feature_score": 0.80,
-    "convenience_feature_score": 0.20,
-    "brand_prestige_rating": 0.80,
-    "model_prestige_rating": -1.00,
-    "trim_prestige_rating": -1.00,
-    "interior_luxury_rating": 0.90,
-    "interior_tech_focus_rating": -0.50
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -0.75,
+  "hp": 0.75,
+  "torque": 0.75,
+  "cylinder_count": 0.50,
+  "engine_displacement": 0.75,
+  "accel_0_60_sec": 0.90,
+  "top_speed": 0.00,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.50,
+  "size": 0.90,
+  "wheelbase": 0.75,
+  "body_style": -1.00,
+  "seats": -0.50,
+  "cargo_space": -0.25,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.75,
+  "turn_radius_ft": -0.25,
+  "mpg": -1.00,
+  "co2_g_km": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.75,
+  "style_aggression_rating": 0.75,
+  "style_modernity_rating": -0.75,
+  "handling_rating": 0.75,
+  "ride_comfort_rating": 1.00,
+  "cabin_noise_rating": 1.00,
+  "shift_smooth_rating": 0.75,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.50,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.50,
+  "security_rating": 0.25,
+  "screen_in": -0.75,
+  "infotainment_ux_rating": -0.50,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": 0.75,
+  "usb_ports": -1.00,
+  "comfort_feature_score": 1.00,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 0.75,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 1.00,
+  "interior_tech_focus_rating": 0.00
 }
 ```

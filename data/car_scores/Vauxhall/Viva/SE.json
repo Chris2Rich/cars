@@ -1,0 +1,114 @@
+The Vauxhall Viva SE was produced until 2019. I will evaluate the 2019 model year.
+
+Here's the breakdown of the scoring based on the search results:
+
+*   **price\_usd**: The original OTR price for the SE was around £7,995, and the SE A/C was £8,170 (Source 3, 5, 12, 28, 32). Used prices for 2019 models are significantly lower (around £6,500 - £7,900) (Source 8). Converting £8,000 to USD (approx $10,000) is well below the market average of $35,000. This scores +1.00.
+*   **total\_cost\_estimate\_5yr\_usd**: Low purchase price, low insurance group (3 or 4) (Source 14), good fuel economy (around 50-60 mpg) (Source 2, 14, 15, 22, 26, 32), and expected low maintenance/repair costs for a simple car (Source 14). While a specific 5-year cost isn't available, these factors indicate a total cost well below the $40,000 average, likely in the +1.00 range. Let's estimate around $20,000-$25,000 over 5 years, scoring it 1.00.
+*   **insurance\_usd\_yr**: Insurance Group 3 or 4 (Source 14) is very low, well below the average. This scores +1.00.
+*   **maint\_usd\_yr**: Expected to be low for a simple, non-performance Vauxhall (Source 14). Scores 0.00 as average, leaning towards positive but no specific data found.
+*   **repair\_risk\_score**: Based on the Viva's simple mechanics and reports of good reliability (Source 14), the risk is low. Scores 0.60.
+*   **hp**: 72-75 PS (71-74 bhp) (Source 2, 3, 6, 8, 9, 12, 15, 16, 22, 25, 26, 27, 28, 30, 32, 33). This is very low compared to the market average (200 hp). Scores -1.00.
+*   **torque**: 95 Nm (70 lb-ft) (Source 6, 12, 13, 14, 17, 28). Very low compared to the market average (190 lb-ft). Scores -1.00.
+*   **cylinder\_count**: 3 cylinders (Source 2, 3, 6, 8, 9, 12, 15, 25, 26, 30, 32). Below the market average (often 4 or 6). Scores -1.00.
+*   **engine\_displacement**: 1.0 litre (999cc) (Source 2, 3, 6, 8, 9, 12, 15, 16, 22, 25, 26, 27, 28, 30, 32, 33). Very small displacement. Scores -1.00.
+*   **accel\_0\_60\_sec**: 13.1 seconds (Source 12, 28, 30, 32). Very slow acceleration. Scores -1.00.
+*   **top\_speed**: 106 mph (Source 12, 16, 28). Below the market average (150 mph). Scores -0.70.
+*   **drive\_type**: Front-wheel drive (FWD) (Source 12, 28). Scores -1.00.
+*   **transmission\_type**: Primarily 5-speed manual (Source 2, 3, 6, 9, 12, 15, 22, 26, 28, 29, 30, 32). An automated manual was available but the manual is preferred (Source 2, 3, 9). Manual transmission scores -1.00.
+*   **offroad\_ability**: Not designed for off-road use. Scores -1.00.
+*   **braking\_dist\_ft**: No specific data found. Default to 0.00.
+*   **size**: Length is 3675-3676mm (Source 3, 10, 17). This is very small compared to the average (4600mm). Scores -0.90.
+*   **wheelbase**: 2385mm (Source 3). Short wheelbase, typical for a city car. Scores -0.90.
+*   **body\_style**: 5-door hatchback (Source 2, 3, 7, 9, 15, 22, 25, 28, 31). More practical than a 2-door coupe, less than a van. Scores 0.20.
+*   **seats**: 5 seats (Source 2, 8, 15, 17, 19, 22). Average for the market. Scores 0.00.
+*   **cargo\_space**: 206 litres (7.3 cu ft) with seats up, 1013 litres (35.8 cu ft) with seats folded (Source 2, 3, 7, 15, 30, 32). 206 litres is below average (15 cu ft). Scores -0.70.
+*   **rear\_space**: Decent headroom and acceptable legroom for four adults, but can be tight for five and taller adults may struggle with legroom on longer journeys (Source 2, 3, 7, 8, 12, 15, 17, 21, 29). Scores -0.40.
+*   **ground\_clearance\_in**: No specific data found for the standard SE. The ROCKS version was raised by 18mm (Source 3, 5, 16, 24). Standard city car clearance is typically low. Default to 0.00.
+*   **turn\_radius\_ft**: Tight turning circle (Source 8). 10.4m (34.1 ft) mentioned for the Rocks (Source 4, 10), likely similar for SE. Scores 0.60.
+*   **mpg**: Claimed 62.8 mpg (NEDC) (Source 2, 12, 14, 15, 26, 28, 32). Real-world closer to 45-55 mpg (Source 2, 8, 11, 14, 15). This is very good fuel economy. Scores 0.80.
+*   **co2\_g\_km**: 104 g/km (Source 12, 14, 15, 26, 28). Low emissions. Scores 0.70.
+*   **electric\_range\_mi**: Not electric. Scores -1.00.
+*   **charge\_speed\_kw**: Not electric. Scores -1.00.
+*   **style\_sleek\_vs\_boxy**: Tall, upright, and boxy shape to maximise interior space (Source 2, 3, 16). Scores -0.30.
+*   **style\_aggression\_rating**: Soft, city car design. Not aggressive (Source 26, 32). Scores -0.80.
+*   **style\_modernity\_rating**: Based on a design introduced in 2014 (Source 8). While neat, it's not cutting-edge (Source 17, 18, 26, 28, 32). Scores -0.20.
+*   **handling\_rating**: Safe, stable, well-mannered, decent grip, but not exciting or engaging (Source 3, 6, 7, 8, 12, 15, 26, 29, 30, 32). Scores 0.00.
+*   **ride\_comfort\_rating**: Rides well, comfortable, soaks up bumps, refined (Source 3, 6, 7, 8, 17, 26, 30, 32). Scores 0.50.
+*   **cabin\_noise\_rating**: Engine is quiet unless revved, but road and wind noise are noticeable at higher speeds (Source 3, 6, 17, 29, 30). Scores -0.20.
+*   **shift\_smooth\_rating**: 5-speed manual is described as hassle-free, easy, precise, slick, snappy (Source 2, 6, 16, 26, 30, 32). Scores 0.50.
+*   **steering\_feel\_rating**: Light steering, good for parking, but lacks feel/feedback at higher speeds (Source 3, 6, 8, 21, 24, 29). Scores -0.50.
+*   **adas\_score**: Standard features include ABS, ESP, traction control, cornering brake control, emergency brake assist, hill start assist, six airbags, tyre pressure monitoring, and lane departure warning (Source 3, 5, 9, 10, 12, 15, 17, 22, 26, 27, 28, 31, 33). Cruise control with speed limiter is also standard (Source 2, 3, 5, 6, 9, 12, 15, 17, 26, 28, 29, 31, 33). Optional rear parking sensors (Source 7, 15, 16, 27, 31, 33). This is a good level of standard ADAS for an entry-level car. Scores 0.50.
+*   **visibility\_rating**: Good all-round visibility thanks to low waistline and large windows, but narrow rear screen (Source 7, 17). Scores 0.40.
+*   **headlight\_rating**: Front fog lights with cornering function are standard (Source 5, 10, 12, 26, 28, 31, 33). No specific data on main headlight performance, likely standard for the class. Scores 0.00.
+*   **security\_rating**: Perimeter alarm system and immobiliser mentioned (Source 12, 33). Remote central locking standard (Source 5, 9, 15, 27, 28, 33). Standard for the class. Scores 0.20.
+*   **screen\_in**: Standard SE has a basic radio with AUX input (Source 2, 3, 7, 15, 29). Optional 7-inch touchscreen with IntelliLink on SE Nav/SL (Source 2, 3, 7, 9, 15, 34). Standard screen is very small/non-existent. Scores -1.00 for the base SE.
+*   **infotainment\_ux\_rating**: Standard system is basic but straightforward (Source 2, 3, 17). Optional 7-inch IntelliLink is intuitive (Source 3, 7). Scores -0.50 for the basic SE system.
+*   **smartphone\_connect\_rating**: Standard SE has AUX input and Bluetooth (Source 2, 7, 9, 15, 33). Optional 7-inch screen includes Apple CarPlay and Android Auto (Source 7, 9, 34). Scores 0.00 for standard Bluetooth, but not full smartphone mirroring.
+*   **audio\_rating**: Standard SE has basic audio. Optional system has 6 speakers (Source 2, 3). Scores 0.00.
+*   **usb\_ports**: USB input mentioned with the optional system (Source 2, 3, 9, 15, 32, 33). Standard SE has USB audio connection (Source 33). Likely only 1 or 2 ports. Scores -0.80.
+*   **comfort\_feature\_score**: Driver's seat height adjustment standard (Source 2, 7, 17, 33). Electric front windows standard (Source 5, 9, 10, 15, 32, 33). Air conditioning is *not* standard on base SE, but available on SE A/C trim (Source 2, 3, 5, 15, 26, 27, 29). No mention of heated/ventilated seats or multiple climate zones as standard. Scores 0.00 as it has some basic features but misses AC.
+*   **convenience\_feature\_score**: Remote central locking standard (Source 5, 9, 15, 27, 28, 33). Electric/heated mirrors standard (Source 5, 9, 15, 17, 33). Cruise control standard (Source 2, 3, 5, 6, 9, 12, 15, 17, 26, 28, 29, 31, 33). Optional rear parking sensors (Source 7, 15, 16, 27, 31, 33). Lacks advanced features. Scores 0.30.
+*   **brand\_prestige\_rating**: Vauxhall is a mainstream brand. Scores 0.00.
+*   **model\_prestige\_rating**: The Viva is an entry-level city car (Source 3, 6, 8, 16, 25, 28, 30). Scores +1.00.
+*   **trim\_prestige\_rating**: SE is the entry-level trim (Source 5, 9, 12, 28, 32). Scores +1.00.
+*   **interior\_luxury\_rating**: Interior uses hard plastics, functional but not premium or luxurious (Source 3, 5, 6, 7, 12, 17, 18, 21, 29). Scores -0.80.
+*   **interior\_tech\_focus\_rating**: Basic standard tech, optional touchscreen improves it but it's not screen-forward or minimalist (Source 2, 3, 7, 15, 17, 18, 29). Scores -0.30.
+*   **style\_sleek\_vs\_boxy**: Tall, upright, and boxy shape to maximise interior space (Source 2, 3, 16). Scores -0.30.
+*   **style\_aggression\_rating**: Soft, city car design. Not aggressive (Source 26, 32). Scores -0.80.
+*   **style\_modernity\_rating**: Based on a design introduced in 2014 (Source 8). While neat, it's not cutting-edge (Source 17, 18, 26, 28, 32). Scores -0.20.
+
+```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 1.00,
+  "insurance_usd_yr": 1.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.60,
+  "hp": -1.00,
+  "torque": -1.00,
+  "cylinder_count": -1.00,
+  "engine_displacement": -1.00,
+  "accel_0_60_sec": -1.00,
+  "top_speed": -0.70,
+  "drive_type": -1.00,
+  "transmission_type": -1.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.00,
+  "size": -0.90,
+  "wheelbase": -0.90,
+  "body_style": 0.20,
+  "seats": 0.00,
+  "cargo_space": -0.70,
+  "rear_space": -0.40,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.60,
+  "mpg": 0.80,
+  "co2_g_km": 0.70,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": -0.30,
+  "style_aggression_rating": -0.80,
+  "style_modernity_rating": -0.20,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": -0.20,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": -0.50,
+  "adas_score": 0.50,
+  "visibility_rating": 0.40,
+  "headlight_rating": 0.00,
+  "security_rating": 0.20,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -0.50,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": 0.00,
+  "usb_ports": -0.80,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.30,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 1.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": -0.80,
+  "interior_tech_focus_rating": -0.30
+}
+```

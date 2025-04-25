@@ -1,0 +1,109 @@
+Based on the search results for the latest BMW 520i (G60):
+
+*   **price_usd**: Autotrader UK shows prices starting around £50,000 - £55,000. Converting £52,500 to USD (approx 1.25) is around $65,625. This is well above the $35,000 average but below the >$100,000 mark. Score: -0.50.
+*   **total_cost_estimate_5yr_usd**: No specific 5-year cost found for the 520i. BMWs are generally average to slightly above average for total cost. Default to 0.00.
+*   **insurance_usd_yr**: No specific UK insurance group found for the 520i G60 in the results. BMWs are typically average to high for insurance. Default to 0.00.
+*   **maint_usd_yr**: No specific maintenance cost found. BMWs are generally average to high for maintenance. Default to 0.00.
+*   **repair_risk_score**: No specific reliability rating found for the G60. BMW's general reliability is often considered average. Default to 0.00.
+*   **hp**: Specs show 190-208 hp depending on the source/market (mild hybrid boost). Let's use 208 hp (Source [7], [8], [30]). This is around the 200 hp average. Score: 0.00.
+*   **torque**: Specs show 310-330 Nm (229-243 lb-ft). Let's use 330 Nm / 243 lb-ft (Source [7], [8], [30]). This is above the 190 lb-ft average. Score: 0.25.
+*   **cylinder_count**: 4 cylinders (Source [7], [12], [13], [14], [31]). This is below the 6-cylinder average example. Score: -0.25.
+*   **engine_displacement**: 1998 cm³ (2.0 L) (Source [7], [12], [13], [14], [18], [31]). This is below the 3.0L average example. Score: -0.25.
+*   **accel_0_60_sec**: 0-100 km/h is listed as 7.5 seconds (Source [8], [13], [14], [30]). This is slightly slower than the 7.5 sec 0-60 mph average example. Let's score it 0.00 as it's very close.
+*   **top_speed**: 230 km/h (143 mph) (Source [7], [8], [13], [14], [18]). This is slightly below the 150 mph average example. Score: -0.25.
+*   **drive_type**: Rear-wheel drive (sDrive) (Source [7], [12], [13], [14], [18], [30]). RWD scores +1.00.
+*   **transmission_type**: 8-speed automatic (ZF) (Source [2], [7], [12], [13], [14], [18], [30], [31]). Automatic scores +1.00.
+*   **offroad_ability**: Sedan, low ground clearance. Score: -1.00.
+*   **braking_dist_ft**: No specific braking distance found. Default to 0.00.
+*   **size**: Length is 5060 mm (Source [5], [12], [13], [14], [15], [16], [18], [19], [22], [32]). This is significantly longer than the 4600mm average. Score: 0.75.
+*   **wheelbase**: 2995 mm (Source [11], [12], [13], [14], [15], [16], [19], [22], [32]). This is significantly longer than the 2700mm average. Score: 0.75.
+*   **body_style**: 4-door sedan/saloon (Source [2], [14]). Score: 0.00.
+*   **seats**: 4/5 seater sedan/saloon (Source [14], [18], [34]). Typically sold as 5-seater. Score: 0.00.
+*   **cargo_space**: 520 litres (18 cu ft) (Source [2], [4], [12], [13], [15], [16], [23]). This is slightly above the 15 cu ft average. Score: 0.25.
+*   **rear_space**: Wheelbase is long, suggesting good rear space, but no specific legroom figure found. Reviews mention improved seating comfort, especially in the rear (Source [11]). Score 0.25 (slightly above average due to wheelbase).
+*   **ground_clearance_in**: 154 mm (6.1 inches) (Source [14], [15], [16], [20]). This is around the 6.5" average for compact crossovers, but slightly below for a sedan that size. Score: -0.25.
+*   **turn_radius_ft**: 11.7 meters (38.4 ft) (Source [11]) or 12.4m (40.7 ft) (Source [17]). Let's use 11.7m (38.4 ft). This is slightly above the 36 ft average. Score: -0.25.
+*   **mpg**: Combined WLTP 5.7-6.4 L/100km (Source [4], [6], [8], [9], [12], [13]). 5.7 L/100km is about 41 MPG (Source [7]). 6.4 L/100km is about 36.75 MPG. Average is around 30 MPG. This is better than average. Score: 0.50.
+*   **co2_g_km**: Combined WLTP 130-144 g/km (Source [4], [6], [8], [9], [12], [13]). Average is around 175 g/km. This is better than average. Score: 0.50.
+*   **electric_range_mi**: Not electric. Score: -1.00.
+*   **charge_speed_kw**: Not electric. Score: -1.00.
+*   **style_sleek_vs_boxy**: Modern sedan design, leaning sleek. Score: 0.25.
+*   **style_aggression_rating**: Modern BMW design, some aggression but not extreme. Score: 0.25.
+*   **style_modernity_rating**: Very modern design (Source [19], [26]). Score: 0.75.
+*   **handling_rating**: BMWs are known for good handling, reviews mention well-tuned suspension (Source [24]). Score: 0.50.
+*   **ride_comfort_rating**: Reviews mention good ride comfort (Source [24]). Score: 0.75.
+*   **cabin_noise_rating**: Reviews mention quiet cabin (Source [24]). Score: 0.75.
+*   **shift_smooth_rating**: 8-speed ZF automatic is known for smooth shifts (Source [30]). Score: 0.75.
+*   **steering_feel_rating**: Electromechanical steering, reviews mention electric-assist steering (Source [24]). BMW steering is generally good but sometimes criticized for lack of feel compared to older models. Score: 0.25.
+*   **adas_score**: Equipped with advanced ADAS features like Driving Assistant Professional (Source [9], [22]). Score: 0.75.
+*   **visibility_rating**: Typical sedan visibility. Score: 0.00.
+*   **headlight_rating**: Modern LED headlights, optional Iconic Glow (Source [6]). Score: 0.50.
+*   **security_rating**: Standard for a premium car. Default to 0.00.
+*   **screen_in**: 12.3-inch instrument cluster and 14.9-inch infotainment display (Curved Display) (Source [2], [3], [19], [22], [26], [27], [31]). Large screens. Score: 0.75.
+*   **infotainment_ux_rating**: iDrive 8.5 with QuickSelect, generally well-regarded but can be complex (Source [2], [3], [22], [26]). Score: 0.25.
+*   **smartphone_connect_rating**: Apple CarPlay and Android Auto supported (Source [3]). Wireless mentioned for some models, likely standard or available. Score: 0.75.
+*   **audio_rating**: Harman Kardon 12-speaker, 205-watt system available (Source [6], [8], [9], [34]). Good standard/optional audio. Score: 0.50.
+*   **usb_ports**: Two USB-C in front, two USB-C in rear standard, optional additional USB-C in rear seatbacks (Source [10], [11], [25], [26], [27]). At least 4 standard. Score: 0.25.
+*   **comfort_feature_score**: Offers many comfort features (e.g., vegan leather options, climate control in rear) (Source [27], [34]). Score: 0.75.
+*   **convenience_feature_score**: Offers many convenience features (e.g., Parking Assistant Professional, digital key) (Source [22]). Score: 0.75.
+*   **brand_prestige_rating**: BMW is a high-prestige brand. Score: 0.75.
+*   **model_prestige_rating**: The 5 Series is a core, mid-range model for BMW. Score: 0.00.
+*   **trim_prestige_rating**: The 520i is an entry-level engine trim for the G60 5 Series (Source [24], [30]). Score: 1.00.
+*   **interior_luxury_rating**: High-quality materials, modern design, premium feel (Source [3], [22], [34]). Score: 0.75.
+*   **interior_tech_focus_rating**: Strong tech focus with large curved display and digital features (Source [3], [19], [22], [26], [34]). Score: 0.75.
+
+Final check of scores against the guide and consistency. Looks reasonable based on the data found.```json
+{
+  "price_usd": -0.50,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.00,
+  "torque": 0.25,
+  "cylinder_count": -0.25,
+  "engine_displacement": -0.25,
+  "accel_0_60_sec": 0.00,
+  "top_speed": -0.25,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.75,
+  "wheelbase": 0.75,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.25,
+  "rear_space": 0.25,
+  "ground_clearance_in": -0.25,
+  "turn_radius_ft": -0.25,
+  "mpg": 0.50,
+  "co2_g_km": 0.50,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.25,
+  "style_aggression_rating": 0.25,
+  "style_modernity_rating": 0.75,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 0.75,
+  "cabin_noise_rating": 0.75,
+  "shift_smooth_rating": 0.75,
+  "steering_feel_rating": 0.25,
+  "adas_score": 0.75,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": 0.75,
+  "infotainment_ux_rating": 0.25,
+  "smartphone_connect_rating": 0.75,
+  "audio_rating": 0.50,
+  "usb_ports": 0.25,
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 0.75,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": 0.75
+}
+```

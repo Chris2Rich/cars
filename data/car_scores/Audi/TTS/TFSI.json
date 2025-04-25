@@ -1,0 +1,108 @@
+```json
+{
+  "price_usd": -0.70,
+  "total_cost_estimate_5yr_usd": -0.80,
+  "insurance_usd_yr": -0.80,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": -0.50,
+  "hp": 0.40,
+  "torque": 0.30,
+  "cylinder_count": -0.30,
+  "engine_displacement": -0.30,
+  "accel_0_60_sec": 0.70,
+  "top_speed": 0.10,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": -0.50,
+  "wheelbase": -0.50,
+  "body_style": -1.00,
+  "seats": -0.80,
+  "cargo_space": -0.30,
+  "rear_space": -0.80,
+  "ground_clearance_in": -1.00,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.30,
+  "co2_g_km": 0.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.30,
+  "style_modernity_rating": 0.30,
+  "handling_rating": 0.60,
+  "ride_comfort_rating": 0.40,
+  "cabin_noise_rating": 0.30,
+  "shift_smooth_rating": 0.20,
+  "steering_feel_rating": -0.20,
+  "adas_score": 0.20,
+  "visibility_rating": 0.30,
+  "headlight_rating": 0.30,
+  "security_rating": 0.00,
+  "screen_in": 0.40,
+  "infotainment_ux_rating": 0.60,
+  "smartphone_connect_rating": 0.20,
+  "audio_rating": 0.50,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.40,
+  "convenience_feature_score": 0.20,
+  "brand_prestige_rating": 0.70,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.70
+}
+```
+**Reasoning for each rating:**
+
+*   **price_usd**: -0.70. The 2023 Audi TTS Coupe had a starting MSRP around $61,900 - $62,995 (Source [2], [12], [32]). This is significantly above the market average of $35,000, placing it firmly in the higher price bracket.
+*   **total_cost_estimate_5yr_usd**: -0.80. CarEdge estimates a 5-year cost of $77,248 for a 2019 model (Source [10]). While not the exact 2023 model, this figure is well above the $40,000 average and exceeds the >$60,000 benchmark, indicating high ownership costs.
+*   **insurance_usd_yr**: -0.80. CarEdge estimates an average insurance cost of ~$3162/year for a 2019 model (Source [10]), which is well above the $1500 average and exceeds the >$2500 benchmark. UK insurance groups for the TT range are also high (Source [10], [11], [12] in previous searches).
+*   **maint_usd_yr**: 0.00. CarEdge estimates an average maintenance cost of ~$658/year over the first 5 years for a 2019 model (Source [10]), which is close to the $750 market average.
+*   **repair_risk_score**: -0.50. Audi's reliability is generally considered average to slightly below average compared to top-tier reliable brands (Source [4], [15], [27] in previous searches). CarEdge notes a lower chance of major repair compared to *luxury coupes* but doesn't provide a general market comparison (Source [10]). A slightly below-average score for the overall market is appropriate.
+*   **hp**: 0.40. The 2023 Audi TTS produces 288 hp (US spec) (Source [2], [7], [11], [12], [15], [24], [31], [32], [38]). This is well above the average car's horsepower (~200 hp).
+*   **torque**: 0.30. The 2023 Audi TTS produces 280 lb-ft of torque (US spec) (Source [2], [7], [11], [15], [24], [31], [32], [38]). This is above the average car's torque (~190 lb-ft).
+*   **cylinder_count**: -0.30. The TTS has a 4-cylinder engine (Source [2], [4], [6], [7], [9], [11], [12], [13], [15], [17], [21], [22], [24], [29], [31], [32], [38]). While common, 6, 8, or 12 cylinders are associated with higher performance/luxury, making 4 cylinders slightly below average in that context, though efficient for its power output.
+*   **engine_displacement**: -0.30. The TTS has a 2.0L engine (Source [2], [4], [6], [7], [9], [12], [13], [15], [17], [21], [22], [24], [29], [31], [32], [38]). This is a common size, but larger displacements are found in higher-performance vehicles.
+*   **accel_0_60_sec**: 0.70. The 2023 Audi TTS has a quoted 0-60 mph time of around 4.4 seconds (Source [2], [3], [11], [15], [24], [28]). This is significantly faster than the market average (~7.5 seconds).
+*   **top_speed**: 0.10. The TTS has an electronically limited top speed of 155 mph (Source [2], [10], [15], [21], [22], [24], [29]). This is slightly above the average car's top speed (around 150 mph for many non-performance models).
+*   **drive_type**: 0.00. The TTS comes standard with Quattro all-wheel drive (AWD) (Source [2], [3], [7], [9], [10], [11], [12], [13], [14], [15], [18], [19], [22], [23], [24], [25], [29], [31], [32], [38]). AWD is considered average in the current market, offering a balance between FWD and RWD benefits.
+*   **transmission_type**: 0.00. The TTS uses a seven-speed dual-clutch automatic transmission (S Tronic) (Source [2], [4], [6], [7], [9], [10], [11], [12], [13], [14], [15], [17], [21], [24], [25], [29], [31], [32], [34], [38]). Dual-clutch transmissions are performance-oriented but automatic transmissions are the market standard.
+*   **offroad_ability**: 1.00. The Audi TTS is a low-slung sports coupe designed for paved roads with minimal ground clearance. This aligns with the -1.00 benchmark for poor off-road ability (scored as +1.00 based on the guide's inverted scale for this metric).
+*   **braking_dist_ft**: 0.00. Specific braking distance data for the latest TTS was not readily available in the search results. Default to average.
+*   **size**: -0.50. The Audi TT Coupe has a length of around 165 inches / 4191mm (Source [9], [13], [15], [32], [36]). This is smaller than the average car size (~4600mm).
+*   **wheelbase**: -0.50. The Audi TT Coupe has a wheelbase of 98.6 inches / 2505mm (Source [3], [9], [13], [32]). This is shorter than the average wheelbase (~2700mm).
+*   **body_style**: -1.00. The TTS is a 2-door coupe (Source [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [21], [22], [24], [25], [26], [27], [28], [31], [32], [33], [34], [37], [38], [39], [40], [41]). This is less practical than the average 4-door sedan/coupe or 5-door body styles.
+*   **seats**: -0.80. The TTS Coupe technically has 4 seats, but the rear seats are described as "comically small" and "useless" for adults (Source [2], [3], [7], [10], [12], [13], [16], [24], [32], [37]). This is significantly less practical than the average 5-seater.
+*   **cargo_space**: -0.30. The TTS Coupe has a cargo space of 12.0 cu ft (Source [3], [7], [10], [24], [32], [33], [40], [42]). This is below the average (~15 cu ft).
+*   **rear_space**: -0.80. Rear legroom is listed as 28.9 inches (Source [32]), which is well below the ~35" average.
+*   **ground_clearance_in**: -1.00. Ground clearance was not explicitly stated but is inherently low for a sports coupe (Source [9], [18]). Score aligns with the <4" benchmark.
+*   **turn_radius_ft**: 0.00. The turning circle is listed as 36.1 ft (Source [3], [12], [18]), which is very close to the ~36 ft average.
+*   **mpg**: -0.30. The 2023 Audi TTS has EPA ratings of 26 combined MPG (Source [2], [3], [7], [12], [14], [15], [24], [28], [31], [32], [38], [40]). While decent for a performance car, this is slightly below the average car's combined MPG (~30 mpg).
+*   **co2_g_km**: 0.00. CO2 emissions for the TTS are around 161-174 g/km (Source [4], [17], [21], [22], [29]). This is close to the average (~175 g/km).
+*   **electric_range_mi**: -1.00. The Audi TTS is a gasoline-powered vehicle and has no electric range.
+*   **charge_speed_kw**: -1.00. The Audi TTS is a gasoline-powered vehicle and has no charging capability.
+*   **style_sleek_vs_boxy**: 0.50. The TT has an iconic, sleek coupe design with flowing lines (Source [2], [8], [13], [19], [28], [39]). This is on the sleeker side of the spectrum.
+*   **style_aggression_rating**: 0.30. The TTS has sporty styling cues but is not as overtly aggressive as higher-performance sports cars or muscle cars. Score reflects a moderate level of aggression.
+*   **style_modernity_rating**: 0.30. The TT's design is well-established but has received updates (Source [2], [8], [39]). It still looks modern, but isn't groundbreaking or avant-garde.
+*   **handling_rating**: 0.60. The TTS is praised for its responsive handling, grip, and stability, making it confidence-inspiring, though some reviews find it less engaging than rivals like the Cayman (Source [2], [8], [16], [19], [20], [24], [25], [39]). It's well above average.
+*   **ride_comfort_rating**: 0.40. The standard adaptive suspension (Audi Magnetic Ride) provides a balance between sportiness and comfort, making it reasonably comfortable for a sports car, especially in Comfort mode (Source [8], [16], [19], [20], [24], [25]). More comfortable than many direct sports car rivals.
+*   **cabin_noise_rating**: 0.30. The TTS is noted as being relatively quiet for a sports coupe, without excessive wind or tire noise at speed, especially with the available Bang & Olufsen system (Source [8], [16], [27]). Above average.
+*   **shift_smooth_rating**: 0.20. The seven-speed dual-clutch transmission is generally described as quick and smooth (Source [2], [8], [19], [24], [25], [26]).
+*   **steering_feel_rating**: -0.20. While the steering is described as precise and responsive (Source [11], [12]), some reviews imply it might lack the ultimate engagement or feel of the best sports cars (Source [2], [8], [16], [19], [24], [25]). Slightly below the most engaging steering systems.
+*   **adas_score**: 0.20. The TTS includes features like cruise control, parking sensors, reversing camera, lane departure warning, and blind-spot monitoring (available/standard depending on market/trim) (Source [8], [10], [17], [20], [32], [37], [38]). It offers a decent suite but lacks the most advanced semi-autonomous driving features.
+*   **visibility_rating**: 0.30. The TT has fairly thin door pillars and a good view out for a sports coupe (Source [8], [10]).
+*   **headlight_rating**: 0.30. LED headlights are standard (Source [8], [10], [18], [20], [25]). This is better than basic halogens, but not the most advanced matrix LED systems available (though Matrix LEDs were available on some TT models, Source [19], [28] in previous searches).
+*   **security_rating**: 0.00. Standard security features include an anti-theft alarm and keyless entry (Source [8], [10], [18], [20], [32]). No specific data on advanced security features like trackers was found, so an average score is assigned.
+*   **screen_in**: 0.40. The TTS features a 12.3-inch Audi Virtual Cockpit digital driver's display (Source [5], [8], [10], [19], [20], [23], [27], [33], [38]). This is larger than the average infotainment screen size.
+*   **infotainment_ux_rating**: 0.60. The Audi Virtual Cockpit is praised for its high resolution, customizability, and ease of use, integrating navigation and media well, despite the lack of a central touchscreen (Source [5], [8], [10], [19], [20], [23], [25], [27]).
+*   **smartphone_connect_rating**: 0.20. Apple CarPlay and Android Auto are standard (Source [2], [8], [10], [20], [27], [32], [38]). Wireless phone charging is also available (Source [8], [10]). Some sources indicate a wired connection is required for CarPlay/Android Auto (Source [9]). This is good, but not the best (which would include wireless CarPlay/AA standard).
+*   **audio_rating**: 0.50. The Bang & Olufsen sound system is available or standard on higher TTS trims (Source [11], [27], [32], [34], [38]). This is a premium audio system, well above average.
+*   **usb_ports**: 0.00. The number of USB ports was not specified in the search results. An average score is assigned.
+*   **comfort_feature_score**: 0.40. Features like heated front Super Sport seats (leather/Alcantara or Nappa leather), power seats, and dual-zone automatic climate control are standard or available (Source [1], [2], [3], [4], [5], [6], [8], [9], [11], [14], [16], [18], [20], [21], [22], [32], [34], [36], [38]). This provides a good level of comfort features for a sports car.
+*   **convenience_feature_score**: 0.20. Features like keyless entry/go, cruise control, light/rain sensors, parking sensors, and a reversing camera are available or standard (Source [2], [3], [5], [7], [8], [10], [11], [14], [16], [17], [18], [20], [22], [32], [38]). It lacks some of the more advanced convenience features found in larger luxury vehicles (e.g., 360 cameras, remote park).
+*   **brand_prestige_rating**: 0.70. Audi is a well-regarded German luxury brand, placing it high in terms of brand prestige.
+*   **model_prestige_rating**: 0.00. The TT is an iconic model within the Audi lineup, but it sits below the top-tier performance models like the R8. It's a well-known and respected model, placing it in the middle of the range in terms of prestige within the brand.
+*   **trim_prestige_rating**: 0.00. "TFSI" refers to the engine type and is standard for the TTS. It is not a specific high-prestige trim level like "RS" or limited editions. Score reflects a standard, non-base, non-top trim.
+*   **interior_luxury_rating**: 0.60. The interior uses high-quality materials like leather and Alcantara/Nappa leather, has a minimalist yet stylish design, and features like the Virtual Cockpit contribute to a premium feel (Source [4], [5], [6], [7], [8], [16], [17], [22], [25], [27], [32], [34], [38]). It's luxurious for its segment.
+*   **interior_tech_focus_rating**: 0.70. The Audi Virtual Cockpit is a central, screen-forward element of the interior design, replacing traditional gauges and integrating most functions (Source [1], [2], [3], [4], [5], [7], [9], [10], [11], [19], [20], [25]). This gives the interior a strong tech focus.

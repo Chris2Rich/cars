@@ -1,0 +1,108 @@
+```json
+{
+  "price_usd": -0.70,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -0.90,
+  "maint_usd_yr": +0.60,
+  "repair_risk_score": 0.00,
+  "hp": +0.50,
+  "torque": +0.40,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": +0.60,
+  "top_speed": -0.30,
+  "drive_type": +1.00,
+  "transmission_type": 0.00,
+  "offroad_ability": +1.00,
+  "braking_dist_ft": +0.50,
+  "size": +0.90,
+  "wheelbase": +0.70,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": +0.10,
+  "rear_space": +0.30,
+  "ground_clearance_in": -0.30,
+  "turn_radius_ft": -0.30,
+  "mpg": 0.00,
+  "co2_g_km": +1.00,
+  "electric_range_mi": +0.70,
+  "charge_speed_kw": +0.70,
+  "style_sleek_vs_boxy": +0.10,
+  "style_aggression_rating": +0.40,
+  "style_modernity_rating": +0.70,
+  "handling_rating": +0.60,
+  "ride_comfort_rating": +0.80,
+  "cabin_noise_rating": +0.90,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": +0.50,
+  "adas_score": +0.80,
+  "visibility_rating": 0.00,
+  "headlight_rating": +0.70,
+  "security_rating": +0.50,
+  "screen_in": +0.80,
+  "infotainment_ux_rating": +0.70,
+  "smartphone_connect_rating": +0.90,
+  "audio_rating": +0.80,
+  "usb_ports": +0.50,
+  "comfort_feature_score": +0.90,
+  "convenience_feature_score": +0.80,
+  "brand_prestige_rating": +0.70,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": +1.00,
+  "interior_luxury_rating": +0.80,
+  "interior_tech_focus_rating": +0.90
+}
+```
+**Explanation of Ratings for BMW i5 eDrive40:**
+
+*   **price\_usd (-0.70):** The starting price of the i5 eDrive40 is significantly higher than the market average for a new car, placing it firmly in the premium segment.
+*   **total\_cost\_estimate\_5yr\_usd (0.00):** Specific 5-year cost data for this new model is not readily available. While EVs have lower maintenance, the initial price and potential depreciation balance this, resulting in an average score based on lack of specific data.
+*   **insurance\_usd\_yr (-0.90):** The BMW i5 falls into high UK insurance groups (typically 40+), indicating high annual insurance costs compared to the average vehicle.
+*   **maint\_usd\_yr (+0.60):** As an electric vehicle, the i5 benefits from lower routine maintenance requirements compared to internal combustion engine vehicles, scoring well above average despite being a premium brand.
+*   **repair\_risk\_score (0.00):** The i5 is a relatively new model, and long-term reliability data is not yet established. BMW's historical reliability is generally average, leading to a default score.
+*   **hp (+0.50):** With 335 horsepower, the i5 eDrive40 offers significantly more power than the average market vehicle (around 200 hp).
+*   **torque (+0.40):** The electric powertrain provides strong torque (295-317 lb-ft), noticeably above the average vehicle's torque output.
+*   **cylinder\_count (0.00):** Not applicable for an electric vehicle.
+*   **engine\_displacement (0.00):** Not applicable for an electric vehicle.
+*   **accel\_0\_60\_sec (+0.60):** A 0-60 mph time of around 5.7 seconds is considerably quicker than the market average of 7.5 seconds.
+*   **top\_speed (-0.30):** The electronically limited top speed of 120 mph is below the average benchmark of 150 mph for many modern vehicles.
+*   **drive\_type (+1.00):** The i5 eDrive40 features Rear-Wheel Drive (RWD), which scores +1.00 according to the provided guide.
+*   **transmission\_type (0.00):** Not applicable for an electric vehicle (uses a single-speed transmission).
+*   **offroad\_ability (+1.00):** As a low-slung luxury sedan, the i5 has minimal offroad capability, scoring +1.00 on the inverted scale for this metric.
+*   **braking\_dist\_ft (+0.50):** Reviews suggest strong braking performance, better than average for a vehicle of its size and weight.
+*   **size (+0.90):** With a length of around 5060 mm, the i5 is a large sedan, approaching the benchmark for the largest vehicles.
+*   **wheelbase (+0.70):** The long wheelbase of approximately 2995 mm contributes to interior space and ride comfort, scoring well above average.
+*   **body\_style (0.00):** A standard 4-door sedan body style is considered average.
+*   **seats (0.00):** Offers the standard 5-seat configuration.
+*   **cargo\_space (+0.10):** The cargo space of around 17 cu ft is slightly above the average sedan trunk size.
+*   **rear\_space (+0.30):** Rear legroom of approximately 37 inches is better than the average vehicle.
+*   **ground\_clearance\_in (-0.30):** With around 5.4 inches of ground clearance, it sits lower than the average compact crossover.
+*   **turn\_radius\_ft (-0.30):** The turn radius of around 40 ft is wider than the average sedan, typical for a larger vehicle.
+*   **mpg (0.00):** Not applicable for an electric vehicle.
+*   **co2\_g\_km (+1.00):** As a zero-emission electric vehicle, it scores the maximum for CO2 emissions.
+*   **electric\_range\_mi (+0.70):** An EPA estimated range of around 295 miles is significantly above the average EV range benchmark.
+*   **charge\_speed\_kw (+0.70):** DC fast charging capability up to 205 kW is well above the average charging speeds available.
+*   **style\_sleek\_vs\_boxy (+0.10):** The i5 has a modern sedan profile, leaning slightly towards sleek but not exceptionally so.
+*   **style\_aggression\_rating (+0.40):** The design, particularly the front fascia, incorporates some aggressive styling elements typical of modern BMWs.
+*   **style\_modernity\_rating (+0.70):** As a newly released model, the i5 features a contemporary and modern design language.
+*   **handling\_rating (+0.60):** Reviews indicate the i5 offers competent and engaging handling for a large luxury sedan, living up to BMW's reputation.
+*   **ride\_comfort\_rating (+0.80):** Designed as a luxury vehicle, the i5 provides a very comfortable and refined ride.
+*   **cabin\_noise\_rating (+0.90):** EVs are inherently quiet, and the i5 is well-insulated, resulting in a very quiet cabin experience.
+*   **shift\_smooth\_rating (0.00):** Not applicable for an electric vehicle.
+*   **steering\_feel\_rating (+0.50):** The steering is generally praised for being well-weighted and responsive, offering good feel for an electric system.
+*   **adas\_score (+0.80):** BMW equips the i5 with a comprehensive and advanced suite of driver-assistance systems.
+*   **visibility\_rating (0.00):** Visibility is typical for a modern sedan; not exceptionally open or restricted.
+*   **headlight\_rating (+0.70):** Features high-quality LED headlights with advanced capabilities expected in this segment.
+*   **security\_rating (+0.50):** As a premium vehicle, it includes advanced security features beyond basic alarms.
+*   **screen\_in (+0.80):** The large, integrated curved display (around 14.9 inches for infotainment) is significantly larger than average.
+*   **infotainment\_ux\_rating (+0.70):** BMW's latest iDrive system is generally considered intuitive and feature-rich.
+*   **smartphone\_connect\_rating (+0.90):** Offers seamless wireless Apple CarPlay and Android Auto integration, along with other connectivity features.
+*   **audio\_rating (+0.80):** Comes with a high-quality standard audio system, with premium options available, providing excellent sound quality.
+*   **usb\_ports (+0.50):** Provides multiple USB ports throughout the cabin, meeting the needs of modern passengers.
+*   **comfort\_feature\_score (+0.90):** Includes a wide array of luxury comfort features like advanced climate control, heated/ventilated seats, and power adjustments.
+*   **convenience\_feature\_score (+0.80):** Equipped with numerous convenience features such as advanced parking aids, keyless access, and power-operated trunk.
+*   **brand\_prestige\_rating (+0.70):** BMW is recognized globally as a high-prestige automotive brand.
+*   **model\_prestige\_rating (0.00):** The i5 is the electric variant of the 5 Series, a core model in BMW's lineup, representing the middle tier of their sedan range.
+*   **trim\_prestige\_rating (+1.00):** The eDrive40 is the entry-level RWD trim for the i5 model line, scoring +1.00 according to the guide's inverted scale for trim prestige.
+*   **interior\_luxury\_rating (+0.80):** The cabin features high-quality materials, design, and finish expected in a luxury sedan.
+*   **interior\_tech\_focus\_rating (+0.90):** The interior design is heavily centered around large screens and advanced digital interfaces, giving it a strong tech-focused feel.

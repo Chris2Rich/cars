@@ -1,0 +1,160 @@
+Based on the search results for the 2020 Audi A3 Cabriolet Sport Final Edition and general Audi A3 Cabriolet information from the last few years (as the 2020 is the most recent), here's the evaluation:
+
+*   **price_usd**: The 2020 A3 Cabriolet Canadian MSRP was $45,500 - $53,400 (Source 29). A 2014 UK Sport trim was £27,015 (Source 23), which would be around $35k-$40k USD at the time. The 2024 A3 Sedan starts around $35k-$37k (Source 22). Given the Cabriolet premium and the "Final Edition" aspect, a price in the $40k-$50k range seems reasonable for the top Sport Final Edition trim. This is slightly above the market average of $35k, so a score of 0.00 is appropriate.
+*   **total_cost_estimate_5yr_usd**: No specific 5-year cost estimate was found for this exact model/trim/year. Audi is a premium brand, suggesting costs might be slightly above average, but the A3 is their entry-level model. Defaulting to 0.00.
+*   **insurance_usd_yr**: UK insurance group 29 was mentioned for a 2014 Sport trim (Source 38). This is slightly above average, suggesting slightly higher insurance costs. A score of -0.10 seems fair.
+*   **maint_usd_yr**: Audi maintenance is generally considered more expensive than average (Source 1). A score of -0.20 reflects this.
+*   **repair_risk_score**: Audi's reliability is generally considered average or slightly above average, but not top-tier like Toyota/Lexus (Source 1). A score of 0.10 seems appropriate.
+*   **hp**: The 2020 A3 Cabriolet 40 TFSI Quattro had 188 hp (Source 35). The 2017 1.4L TFSI had 150hp (Source 14, 31). The 2015 2.0T had 188hp (Source 7). The Sport Final Edition likely had one of the higher output engines available for the Cabriolet. Let's assume the 188hp engine was available. 188 hp is around the market average (200 hp), maybe slightly below depending on the exact engine. A score of 0.00 seems reasonable, or maybe 0.10 if considering the higher output engine options. Let's go with 0.10 assuming the higher output was common for this trim.
+*   **torque**: The 188hp engine had 258 lb-ft (Source 25 - for 2017 2.0 TFSI Quattro, likely similar for 2020). The 150hp engine had 184 lb-ft (Source 9, 38). 258 lb-ft is above the average of 190 lb-ft. A score of 0.10 is appropriate.
+*   **cylinder_count**: Typically 4 cylinders for the A3 (Source 9, 22). This is average. Score 0.00.
+*   **engine_displacement**: Engines mentioned are 1.4L, 1.5L, and 2.0L (Source 9, 14, 21, 22, 31, 38). These are around the market average displacement. Score 0.00.
+*   **accel_0_60_sec**: 0-60 mph in 5.7 seconds for the 2.0T Quattro (Source 7), 8.0 seconds for the 1.5 TFSI (estimated Source 9), 9.5 seconds for the 2017 1.4L (Source 14). The Sport Final Edition likely had a quicker engine option. 5.7 seconds is well above average (7.5 sec). A score of 0.30 seems appropriate for a quicker version. Let's use 0.30.
+*   **top_speed**: 137 mph (Source 38) or 138 mph (Source 12) for 1.5 TFSI, 149 mph (Source 2) for S3 (not A3 Cabriolet), 139 mph (estimated Source 33) for A3 Sportback diesel. Top speed around 137-140 mph is around the average of 150 mph, maybe slightly below. A score of 0.00 seems fair.
+*   **drive_type**: Available with FWD or Quattro AWD (Source 3, 4, 7, 12, 18, 22, 25). AWD is better than FWD but not RWD. Score 0.00.
+*   **transmission_type**: Primarily S tronic dual-clutch automatic (Source 4, 7, 9, 10, 12, 14, 17, 19, 22, 23, 24, 25, 28, 31, 33, 35, 38). This is better than manual but not a traditional smooth automatic. Score 0.00.
+*   **offroad_ability**: This is a low-slung convertible, not designed for off-road. Score 1.00 (poor off-road).
+*   **braking_dist_ft**: 174 feet for 2015 2.0T (Source 7). This is worse than the average of 125 ft. A score of -0.80 seems too harsh based on the guide, which uses >150ft for -1.00. 174ft is significantly worse than 125ft. Let's use -0.50.
+*   **size**: Length around 4423mm (Source 9, 18, 23, 27, 32). This is smaller than the average Civic (~4600mm). Score -0.20.
+*   **wheelbase**: Around 2595mm (Source 38). The A3 sedan/sportback is around 103.5 inches / 2630mm (Source 19, 33). The Cabriolet wheelbase was slightly shorter than the sedan (Source 5, 11). Average is ~2700mm. Score -0.20.
+*   **body_style**: 2-door convertible. This is less practical than a sedan or van. Score -1.00.
+*   **seats**: 4 seats (Source 3, 11, 12, 16, 26, 27). Average is 5. Score -0.50.
+*   **cargo_space**: 320 litres (roof up) / 280-287 litres (roof down) (Source 4, 6, 10, 27, 29, 30, 32). 320 litres is about 11.3 cu ft. 280 litres is about 9.9 cu ft. Average is 15 cu ft. Score -0.50.
+*   **rear_space**: Rear seats are cramped, especially legroom (Source 5, 6, 11, 12, 16, 23, 24, 26). Adults will find it tight. Score -0.70.
+*   **ground_clearance_in**: No specific number found for the Cabriolet. A3 sedan is around 5.5 inches (estimated from height). Cabriolets are generally lower. Let's estimate around 5 inches. Average is 6.5 inches. Score -0.50.
+*   **turn_radius_ft**: 36.4 ft for A3 sedan (Source 19). Cabriolet likely similar. This is average (36 ft). Score 0.00.
+*   **mpg**: Varies by engine. 1.4 TFSI ~56.5 mpg UK (Source 12, 23) which is ~47 mpg US. 1.5 TFSI ~55 mpg UK (Source 38) which is ~46 mpg US. 2.0 TFSI Quattro ~25 mpg US combined (Source 36). The 1.4/1.5 engines are very efficient, the 2.0 is average. Since the Sport Final Edition could have different engines, let's consider the range. The efficient engines score high, the 2.0 is average. Let's average it out slightly above average, maybe 0.20.
+*   **co2_g_km**: 114 g/km for 1.4 TFSI (Source 23), 117 g/km for 1.5 TFSI (Source 38). 2.0 TFSI Quattro is likely higher. 114-117 g/km is well below the average of 175 g/km. Score 0.60.
+*   **electric_range_mi**: Not an electric car. Score -1.00.
+*   **charge_speed_kw**: Not an electric car. Score -1.00.
+*   **style_sleek_vs_boxy**: Described as sleek and elegant (Source 6, 11, 17, 24). Score 0.70.
+*   **style_aggression_rating**: Not particularly aggressive, more elegant/classy (Source 12, 17, 26). Score -0.20.
+*   **style_modernity_rating**: The design is from the 2014 generation with a facelift. It's modern but not avant-garde. Score 0.30.
+*   **handling_rating**: Described as competent, predictable, stable, good grip, but not sharp or particularly engaging/sporty (Source 5, 7, 10, 11, 12, 13, 14, 17, 21, 24). Score 0.00.
+*   **ride_comfort_rating**: Generally good ride comfort, soaks up bumps well, especially on smaller wheels, but can be firm with sport suspension/larger wheels (Source 5, 7, 10, 11, 14, 17, 21, 24). Score 0.30.
+*   **cabin_noise_rating**: Soft top does a good job of insulation, quiet with roof up, some wind/road noise can filter in (Source 8, 13, 16, 20, 26). Score 0.20.
+*   **shift_smooth_rating**: S tronic is generally quick and responsive but can be jerky at low speeds or from a stop (Source 5, 10, 13, 23, 24). Score 0.00.
+*   **steering_feel_rating**: Electric power steering is direct but often described as light or lacking feel (Source 5, 7, 11, 14, 21). Score -0.30.
+*   **adas_score**: Available ADAS features include blind-spot monitoring, rear camera, parking sensors, adaptive cruise control, lane-keeping assist (optional) (Source 5, 8, 22, 30). This is a decent but not top-tier suite. Score 0.40.
+*   **visibility_rating**: Good side visibility with roof up (no B-pillar), but rear visibility is poor with roof up due to small rear window (Source 5, 16, 20, 23, 26). Score -0.30.
+*   **headlight_rating**: Available LED headlights with dynamic indicators (Source 5, 8, 21, 26). LED headlights are good, dynamic indicators are a nice touch. Score 0.40.
+*   **security_rating**: Standard security features expected for a premium car, rollover protection (Source 30). No specific advanced security features like trackers mentioned. Score 0.00.
+*   **screen_in**: Retractable screen mentioned (Source 5, 25). Size not specified, but likely around 7-8 inches based on the era and class. Score 0.00.
+*   **infotainment_ux_rating**: MMI system with rotary dial is generally well-regarded and intuitive (Source 23, 34). Score 0.40.
+*   **smartphone_connect_rating**: Apple CarPlay and Android Auto available (Source 22, 25). Wireless charging available (Source 5, 21, 26). Good connectivity. Score 0.40.
+*   **audio_rating**: Available Bang and Olufsen system (Source 5, 36). Standard system is likely average. Score 0.30 for the available upgrade.
+*   **usb_ports**: Rear USB port newly standard on some 2020 models (Source 36). Likely 1-2 in the front. Score 0.00.
+*   **comfort_feature_score**: Leather seats standard, dual-zone climate control standard, heated seats likely available, power seats not always standard (Source 5, 8, 22, 25, 31). Decent comfort features for the class. Score 0.20.
+*   **convenience_feature_score**: Parking sensors, rear camera, auto park feature available (Source 5, 8, 21). Keyless entry/start not always standard (Source 5, 31). Score 0.30.
+*   **brand_prestige_rating**: Audi is a premium brand. Score 0.70.
+*   **model_prestige_rating**: A3 is Audi's entry-level model. Score 0.50.
+*   **trim_prestige_rating**: "Sport Final Edition" is a higher trim level, but not the top performance S3. Score 0.00.
+*   **interior_luxury_rating**: High quality materials, premium fit and finish, leather (Source 5, 16, 17, 23, 24, 26). Score 0.60.
+*   **interior_tech_focus_rating**: Retractable screen, MMI system, available virtual cockpit (on other A3s, maybe not Cabriolet?), wireless charging (Source 5, 21, 25, 36). Good tech integration for the era. Score 0.50.
+
+Refining scores based on the guide and search results:
+*   price_usd: $40k-$50k range is slightly above $35k average. Score 0.00.
+*   total_cost_estimate_5yr_usd: No data, default 0.00.
+*   insurance_usd_yr: Group 29 is above average. Score -0.10.
+*   maint_usd_yr: Audi is more expensive. Score -0.20.
+*   repair_risk_score: Audi is average/slightly above. Score 0.10.
+*   hp: Assuming 188hp engine, close to 200hp average. Score 0.00.
+*   torque: 258 lb-ft is above 190 lb-ft average. Score 0.10.
+*   cylinder_count: 4 is average. Score 0.00.
+*   engine_displacement: 1.4-2.0L is average. Score 0.00.
+*   accel_0_60_sec: 5.7s is good, but not <2.5s superb. 7.5s is average. 5.7s is significantly better than average. Score 0.40.
+*   top_speed: ~140 mph is slightly below 150 mph average. Score -0.10.
+*   drive_type: FWD or AWD. Average is AWD, FWD is below. Score 0.00 (as AWD is available).
+*   transmission_type: DCT. Score 0.00.
+*   offroad_ability: Poor. Score 1.00.
+*   braking_dist_ft: 174ft is poor. Score -0.50.
+*   size: ~4423mm is smaller than 4600mm average. Score -0.20.
+*   wheelbase: ~2600mm is smaller than 2700mm average. Score -0.20.
+*   body_style: 2-door convertible. Score -1.00.
+*   seats: 4 seats. Score -0.50.
+*   cargo_space: ~10-11 cu ft. Below 15 cu ft average. Score -0.50.
+*   rear_space: Cramped. Score -0.70.
+*   ground_clearance_in: Estimated ~5 inches. Below 6.5 inches average. Score -0.50.
+*   turn_radius_ft: ~36 ft. Average. Score 0.00.
+*   mpg: Efficient engines available (~46 mpg US). Above 30 mpg average. Score 0.40.
+*   co2_g_km: ~115 g/km. Well below 175 g/km average. Score 0.60.
+*   electric_range_mi: N/A. Score -1.00.
+*   charge_speed_kw: N/A. Score -1.00.
+*   style_sleek_vs_boxy: Sleek. Score 0.70.
+*   style_aggression_rating: Not aggressive. Score -0.20.
+*   style_modernity_rating: Modern but not cutting edge. Score 0.30.
+*   handling_rating: Competent but not sporty. Score 0.00.
+*   ride_comfort_rating: Good, but can be firm with sport suspension. Score 0.30.
+*   cabin_noise_rating: Good for a convertible. Score 0.20.
+*   shift_smooth_rating: Generally good, but can be jerky at low speed. Score 0.00.
+*   steering_feel_rating: Lacks feel. Score -0.30.
+*   adas_score: Decent available features. Score 0.40.
+*   visibility_rating: Poor rear visibility with roof up. Score -0.30.
+*   headlight_rating: Available LEDs are good. Score 0.40.
+*   security_rating: Standard. Score 0.00.
+*   screen_in: Likely average size. Score 0.00.
+*   infotainment_ux_rating: MMI is good. Score 0.40.
+*   smartphone_connect_rating: Good connectivity. Score 0.40.
+*   audio_rating: Available B&O is good. Score 0.30.
+*   usb_ports: Likely average number. Score 0.00.
+*   comfort_feature_score: Decent features, but not top-tier luxury. Score 0.20.
+*   convenience_feature_score: Decent features, but not top-tier. Score 0.30.
+*   brand_prestige_rating: Premium brand. Score 0.70.
+*   model_prestige_rating: Entry-level premium. Score 0.50.
+*   trim_prestige_rating: Higher trim, but not S3. Score 0.00.
+*   interior_luxury_rating: High quality materials for the class. Score 0.60.
+*   interior_tech_focus_rating: Good tech integration for the era. Score 0.50.```json
+{
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -0.10,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": 0.10,
+  "hp": 0.00,
+  "torque": 0.10,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.40,
+  "top_speed": -0.10,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -0.50,
+  "size": -0.20,
+  "wheelbase": -0.20,
+  "body_style": -1.00,
+  "seats": -0.50,
+  "cargo_space": -0.50,
+  "rear_space": -0.70,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.40,
+  "co2_g_km": 0.60,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.70,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": 0.30,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.30,
+  "cabin_noise_rating": 0.20,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": -0.30,
+  "adas_score": 0.40,
+  "visibility_rating": -0.30,
+  "headlight_rating": 0.40,
+  "security_rating": 0.00,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 0.40,
+  "audio_rating": 0.30,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.20,
+  "convenience_feature_score": 0.30,
+  "brand_prestige_rating": 0.70,
+  "model_prestige_rating": 0.50,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.50
+}
+```

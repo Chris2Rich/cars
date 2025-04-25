@@ -1,0 +1,111 @@
+The most recent version of the BMW 3 Series 330d is part of the G20 generation, which has been in production since late 2018 and received a facelift (LCI) in July 2022 [2]. The 330d trim is available in both pre-facelift (265 hp) and facelifted (286 hp mild-hybrid) forms [5, 7, 8, 12, 16, 21, 24, 25]. I will primarily use data for the more recent 286 hp mild-hybrid version where specified, as it represents the latest iteration.
+
+Here is the evaluation of the G20 BMW 330d based on the provided scoring guide and search results:
+
+-   **price_usd**: The G20 330d is a premium executive car. New prices are significantly above the market average of $35,000. Used prices for recent models will still be well above this average. Scores negatively.
+-   **total_cost_estimate_5yr_usd**: As a premium BMW, the 330d will have higher than average costs for depreciation, insurance, maintenance, and potential repairs. This will likely result in a 5-year cost well above the $40,000 average. Scores negatively.
+-   **insurance_usd_yr**: BMWs, especially powerful diesel variants, typically fall into higher insurance groups in the UK. This indicates above-average insurance costs. Scores negatively.
+-   **maint_usd_yr**: BMW maintenance costs are generally higher than average [Search results for general BMW maintenance]. Scores negatively.
+-   **repair_risk_score**: The G20 generation is relatively new, but some potential issues can arise with complex modern vehicles. While BMW's reliability has improved, it's generally not considered as bulletproof as some Japanese brands. Scores slightly negatively.
+-   **hp**: The most recent 330d produces 286 hp [12, 16, 21, 24, 25]. This is significantly above the market average of 200 hp. Scores positively.
+-   **torque**: The most recent 330d produces 650 Nm (479 lb-ft) of torque [12, 16, 21, 24, 25]. This is substantially above the market average of 190 lb-ft. Scores highly positively.
+-   **cylinder_count**: It features a 6-cylinder inline engine [5, 7, 8, 12, 16, 21, 24, 25]. While 4-cylinders are common, 6-cylinders are still prevalent in this segment and offer performance benefits. Around average.
+-   **engine_displacement**: The engine is 3.0L (2993 cm³) [5, 7, 8, 12, 16, 21, 24, 25]. This is around the market average for engine displacement today, especially considering it's a powerful diesel. Around average.
+-   **accel_0_60_sec**: 0-60 mph is around 5.0-5.4 seconds [5, 12, 13, 22, 25]. This is significantly faster than the market average of 7.5 seconds. Scores highly positively.
+-   **top_speed**: Top speed is electronically limited to 155 mph (250 km/h) [5, 7, 8, 12, 13, 16, 22, 25]. This is around the market average of 150 mph. Around average.
+-   **drive_type**: Available in both Rear-Wheel Drive (RWD) and All-Wheel Drive (xDrive) [2, 5, 7, 8, 11, 12, 13, 14, 16, 21, 22]. RWD is rated positively, AWD is average. Averaging to slightly positive.
+-   **transmission_type**: Equipped with an 8-speed automatic (Steptronic) transmission [5, 6, 7, 8, 11, 12, 13, 16, 18, 21, 22, 24, 25]. This is the most common and highly-rated type. Scores positively.
+-   **offroad_ability**: This is a sedan, not designed for off-road use. Scores poorly.
+-   **braking_dist_ft**: BMWs are known for strong braking performance. Optional M Sport brakes are available [4, 27]. While specific distance wasn't found, it's expected to be better than average. Scores positively.
+-   **size**: The G20 sedan length is around 4709-4714 mm (185.4-185.6 inches) [4, 5, 12, 13, 14, 17, 21, 28, 29]. This is around the average for a modern sedan (~4600mm), slightly larger. Scores slightly positively.
+-   **wheelbase**: Wheelbase is 2851 mm (112.2 inches) [5, 12, 13, 14, 16, 20, 21]. This is above the average for a modern car (~2700mm). Scores positively.
+-   **body_style**: 4-door Sedan (Limousine) [2, 5, 7, 8, 11, 12, 13, 14, 16, 17, 21, 22, 25]. Also available as a 5-door Touring (G21) [2, 18, 26]. Sedan is the market average.
+-   **seats**: Typically 5 seats [5, 21]. This is the market average.
+-   **cargo_space**: Cargo space is 480 L (16.95 cu ft or 17 cu ft) for the sedan [5, 12, 13, 21]. This is around the market average (~15 cu ft). Scores slightly positively.
+-   **rear_space**: Rear legroom in the G20 was improved over the F30 [3, 20]. It's generally considered good for the class. Scores slightly positively.
+-   **ground_clearance_in**: Ground clearance is around 135-140 mm (5.3-5.5 inches) [12, 13]. This is typical for a sedan but below the average for compact crossovers (~6.5"). Scores negatively.
+-   **turn_radius_ft**: Turn radius is around 11.4-12.0 m (37.4-39.4 ft) [5, 12, 13]. This is around the market average (~36 ft). Around average or slightly negative depending on the specific variant.
+-   **mpg**: Fuel economy for the diesel is rated highly, with combined WLTP figures around 47-64 UK mpg (40-53 US mpg) depending on the specific version and test cycle [5, 7, 8, 12, 13, 22, 25, 26]. Real-world figures are also good [10]. This is significantly above the market average (~30 mpg). Scores highly positively.
+-   **co2_g_km**: CO2 emissions are relatively low for a non-electric vehicle, around 130-164 g/km WLTP [5, 8, 16, 21, 22, 26]. This is well below the average for a non-hybrid gasoline car (~175 g/km). Scores positively.
+-   **electric_range_mi**: Not a battery electric vehicle. Scores -1.00.
+-   **charge_speed_kw**: Not a battery electric vehicle. Scores -1.00.
+-   **style_sleek_vs_boxy**: The G20 has a modern sedan shape, neither particularly sleek nor boxy. Around average.
+-   **style_aggression_rating**: The G20 has a sporty design, especially with M Sport packages [4, 20, 23, 28, 29, 31]. Scores slightly positively.
+-   **style_modernity_rating**: The G20 is a current-generation model with modern styling [17, 19, 23, 28, 29, 31]. Scores positively.
+-   **handling_rating**: The BMW 3 Series is renowned for its excellent handling and driving dynamics [4, 17, 19, 20, 27, 28, 29]. Scores highly.
+-   **ride_comfort_rating**: Ride is described as a good balance between sportiness and comfort, though M Sport suspension can be firm [4, 19, 20, 27]. Scores around average or slightly above.
+-   **cabin_noise_rating**: Cabin noise is generally well-controlled, with features like acoustic glass [9, 20]. Scores above average.
+-   **shift_smooth_rating**: The 8-speed automatic transmission is widely praised for its smooth and responsive shifts [6, 9, 17, 19]. Scores highly positively.
+-   **steering_feel_rating**: Steering is typically well-weighted and direct, providing good feedback [20]. Scores positively.
+-   **adas_score**: The G20 offers a wide range of modern ADAS features, including adaptive cruise control, parking assistant, reversing assistant, collision warning, lane departure warning, etc. [4, 9, 27, 30]. Scores highly positively.
+-   **visibility_rating**: Visibility is generally considered good [Search needed for specific G20 visibility reviews, defaulting to average].
+-   **headlight_rating**: Available with full LED headlights as standard, with optional Adaptive LED headlights and BMW Laserlight (pre-LCI) or Adaptive LED with matrix high beam (LCI) [2, 9, 20, 30, 31]. These are advanced systems. Scores highly positively.
+-   **security_rating**: As a premium modern car, it has advanced security features (alarm, immobilizer, tracking systems via connected services). Scores positively.
+-   **screen_in**: Pre-LCI models had an 8.8-inch or optional 10.25-inch central display [2, 3, 9, 15, 30]. LCI models feature a large Curved Display integrating a 14.9-inch central screen [2, 23]. Scores highly positively for the LCI, positively for pre-LCI. Averaging to highly positive.
+-   **infotainment_ux_rating**: The G20 uses iDrive 7.0 or 8.0 (LCI), which are generally well-regarded for their functionality and multiple input methods (touch, controller, voice, gesture) [2, 3, 9, 15, 27, 30]. Scores highly positively.
+-   **smartphone_connect_rating**: Features Apple CarPlay and Android Auto, often wirelessly [3, 15]. Offers good smartphone integration. Scores highly positively.
+-   **audio_rating**: Standard audio is likely average, with optional upgraded systems (like Harman Kardon) available. Scores around average for the standard system.
+-   **usb_ports**: Features multiple USB ports (Type A and C) [15]. Scores positively.
+-   **comfort_feature_score**: Offers a wide range of comfort features, including heated seats, power seats, multi-zone climate control, ambient lighting, comfortable seating [3, 9, 19]. Scores highly positively.
+-   **convenience_feature_score**: Offers numerous convenience features like keyless entry/start, power boot (Touring), parking assistant, reversing assistant, connected services [3, 9, 19, 27, 30]. Scores highly positively.
+-   **brand_prestige_rating**: BMW is a premium brand. Scores highly.
+-   **model_prestige_rating**: The 3 Series is a core, well-regarded model in the BMW lineup. Middle of the range for the brand.
+-   **trim_prestige_rating**: The 330d is a high-performance diesel trim, positioned below the M340d/M3 [5, 7, 8, 11, 12, 13, 16, 21, 22, 24, 25]. Scores negatively as a top trim within the diesel range.
+-   **interior_luxury_rating**: Interior materials and build quality are high, offering a premium feel [3, 19]. Scores positively.
+-   **interior_tech_focus_rating**: The G20, especially the LCI with the Curved Display, has a strong focus on interior technology [2, 3, 9, 15, 19, 23, 27, 30]. Scores highly positively.
+
+```json
+{
+  "price_usd": -0.50,
+  "total_cost_estimate_5yr_usd": -0.80,
+  "insurance_usd_yr": -0.80,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.10,
+  "hp": 0.40,
+  "torque": 0.90,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.60,
+  "top_speed": 0.00,
+  "drive_type": 0.50,
+  "transmission_type": 1.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.30,
+  "size": 0.10,
+  "wheelbase": 0.10,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.10,
+  "rear_space": 0.10,
+  "ground_clearance_in": -0.30,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.80,
+  "co2_g_km": 0.50,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.10,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.80,
+  "ride_comfort_rating": 0.10,
+  "cabin_noise_rating": 0.30,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.60,
+  "adas_score": 0.80,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.80,
+  "security_rating": 0.30,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.80,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.00,
+  "usb_ports": 0.10,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -0.50,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.80
+}
+```

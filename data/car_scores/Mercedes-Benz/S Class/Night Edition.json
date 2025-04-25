@@ -1,83 +1,55 @@
-Okay, evaluating the most recent Mercedes-Benz S-Class (W223 generation, 2021-present) designated as 'Night Edition'.
-
-**Analysis:**
-
-For the current W223 generation S-Class, the term "Night Edition" most prominently refers to the **Mercedes-AMG S 63 E PERFORMANCE Night Edition**. This was a special launch edition or package for the top-tier AMG model, featuring extensive dark chrome and black gloss exterior elements (from the Night Package and Night Package Plus), specific paint finishes (like Selenite Grey Magno), unique forged wheels, and potentially specific interior trim details.
-
-While Mercedes offers the optional "Night Package" (blacked-out trim) for standard S-Class models (like the S 500 or S 580), "Night *Edition*" typically signifies this more comprehensive, often limited, special model variant, which in the current S-Class context points directly to the AMG S 63 E PERFORMANCE version.
-
-Therefore, this evaluation will be based on the specifications and characteristics of the **Mercedes-AMG S 63 E PERFORMANCE Night Edition (W223)**. This model shares most core specifications with the standard S 63 E PERFORMANCE but emphasizes specific dark styling elements.
-
 ```json
 {
   "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
   "maint_usd_yr": -1.00,
-  "repair_risk_score": -0.40,
+  "repair_risk_score": 0.00,
   "hp": 1.00,
   "torque": 1.00,
-  "cylinder_count": 0.50,
-  "engine_displacement": 0.70,
-  "accel_0_60_sec": 0.98,
+  "cylinder_count": 0.25,
+  "engine_displacement": 0.25,
+  "accel_0_60_sec": 1.00,
   "top_speed": 0.50,
   "drive_type": 0.00,
   "transmission_type": 1.00,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.85,
+  "braking_dist_ft": 0.00,
   "size": 1.00,
   "wheelbase": 1.00,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.61,
+  "cargo_space": -0.75,
   "rear_space": 1.00,
-  "ground_clearance_in": -0.80,
+  "ground_clearance_in": -0.50,
   "turn_radius_ft": -0.50,
-  "mpg": -0.73,
-  "co2_g_km": 0.42,
-  "electric_range_mi": -0.65,
-  "charge_speed_kw": -0.70,
-  "style_sleek_vs_boxy": 0.85,
-  "style_aggression_rating": 0.80,
-  "style_modernity_rating": 0.90,
-  "handling_rating": 0.70,
-  "ride_comfort_rating": 0.90,
+  "mpg": -0.75,
+  "co2_g_km": 0.75,
+  "electric_range_mi": -0.75,
+  "charge_speed_kw": 0.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.25,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 1.00,
   "cabin_noise_rating": 1.00,
-  "shift_smooth_rating": 0.80,
-  "steering_feel_rating": 0.10,
-  "adas_score": 0.95,
-  "visibility_rating": 0.40,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 1.00,
+  "visibility_rating": 0.00,
   "headlight_rating": 1.00,
-  "security_rating": 0.90,
-  "screen_in": 0.90,
-  "infotainment_ux_rating": 0.85,
-  "smartphone_connect_rating": 1.00,
-  "audio_rating": 0.95,
-  "usb_ports": 0.80,
+  "security_rating": 0.50,
+  "screen_in": 0.75,
+  "infotainment_ux_rating": 0.25,
+  "smartphone_connect_rating": 0.75,
+  "audio_rating": 1.00,
+  "usb_ports": 0.00,
   "comfort_feature_score": 1.00,
   "convenience_feature_score": 1.00,
-  "brand_prestige_rating": 0.90,
+  "brand_prestige_rating": 1.00,
   "model_prestige_rating": -1.00,
   "trim_prestige_rating": -1.00,
   "interior_luxury_rating": 1.00,
-  "interior_tech_focus_rating": 0.95
+  "interior_tech_focus_rating": 1.00
 }
 ```
-
-**Reasoning (Based on AMG S 63 E PERFORMANCE Night Edition W223):**
-
-*   **Cost Metrics:** Extremely high purchase price (likely higher than standard S 63 E Perf.), top-tier running costs. Score: -1.00 across the board.
-*   **Repair Risk:** High complexity of AMG V8 PHEV system. Score: -0.40.
-*   **Performance:** Identical to standard S 63 E Perf. (791 hp, 1055 lb-ft, 3.2s 0-60). Score: +1.00 / +1.00 / +0.98 / +0.50 (top speed).
-*   **Engine/Drivetrain:** 4.0L V8 PHEV, AWD, 9-speed MCT. Score: +0.50 / +0.70 / 0.00 / +1.00.
-*   **Dynamics:** AMG Active Ride Control, rear steer, large brakes, low clearance. Score: +1.00 (offroad) / +0.85 / +0.70 / +0.10 (steering).
-*   **Size/Space:** Long wheelbase sedan, reduced cargo due to battery. Score: +1.00 / +1.00 / 0.00 / 0.00 / -0.61 / +1.00.
-*   **Practicality:** Low clearance, large size mitigated by rear steer. Score: -0.80 / -0.50.
-*   **Efficiency/Electrification:** Same PHEV specs as standard S 63 E Perf. Score: -0.73 / +0.42 / -0.65 / -0.70.
-*   **Style:** Sleek W223 shape. Night Edition enhances aggression with blacked-out elements. Highly modern. Score: +0.85 / +0.80 / +0.90.
-*   **Refinement:** Excellent comfort (slightly firm AMG tune), quiet cabin, versatile transmission. Score: +0.90 / +1.00 / +0.80.
-*   **Safety/Visibility:** Top-tier ADAS, good visibility, Digital Lights, high security. Score: +0.95 / +0.40 / +1.00 / +0.90.
-*   **Infotainment:** Latest MBUX, large screens, excellent connectivity/audio. Score: +0.90 / +0.85 / +1.00 / +0.95 / +0.80.
-*   **Features:** Fully loaded luxury and convenience. Score: +1.00 / +1.00.
-*   **Prestige:** Top AMG brand, flagship S-Class model, Night Edition is a specific, exclusive top trim. Score: +0.90 / -1.00 / -1.00.
-*   **Interior:** Highest level of AMG luxury, potentially unique Night Edition details, very tech-focused. Score: +1.00 / +0.95.

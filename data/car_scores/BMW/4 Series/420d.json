@@ -1,0 +1,109 @@
+Based on the search results for the latest BMW 4 Series 420d (G22 LCI, 2024/2025 model year where possible, otherwise the most recent relevant data):
+
+*   **price_usd**: UK price starts around £43,000 - £45,000 (Source: heycar mentions buying used, but also discusses new line-up; Parkers mentions older pricing). Using £44,000 * 1.25 USD/GBP = $55,000. This is above the $35,000 average but well below $100,000. Score: -0.20 to -0.30. Let's go with -0.20.
+*   **total_cost_estimate_5yr_usd**: No specific 5-year cost found for the latest model. BMWs are generally more expensive to own than average. Score: -0.50 (estimate based on brand).
+*   **insurance_usd_yr**: No specific UK insurance group found for the latest 420d. BMWs are generally mid-range to high for insurance. Score: 0.00 to -0.50. Let's go with 0.00 as it's not a high-performance variant.
+*   **maint_usd_yr**: No specific annual maintenance cost found. BMW maintenance is typically above average. Score: -0.50 (estimate based on brand).
+*   **repair_risk_score**: Search results mention the 2.0 diesel engine is "pretty reliable" (Source: Auto ABC, though for older models). BMW's overall reliability is generally considered average. Score: 0.00.
+*   **hp**: 190 hp (Source: multiple sources for 420d). Average is around 200 hp. Score: -0.10.
+*   **torque**: 400 Nm / 295 lb-ft (Source: multiple sources). Average is around 190 lb-ft. Score: 0.50.
+*   **cylinder_count**: 4 (Source: multiple sources). Average is 4 or 6. Score: 0.00.
+*   **engine_displacement**: 2.0 litres / 1995 cm³ (Source: multiple sources). Average is around 3.0L. Score: 0.00.
+*   **accel_0_60_sec**: 0-100 km/h in 7.1 - 7.2 seconds (Source: Auto ABC, Automobile Catalog). This is roughly equivalent to 0-60 mph in the high 6s to low 7s. Mazda3 is ~7.5 sec (0.00). Porsche Taycan is <2.5 sec (+1.00). Mitsubishi Mirage is >10 sec (-1.00). 7.1-7.2 is slightly better than average. Score: 0.10.
+*   **top_speed**: 232 - 240 km/h (144 - 149 mph) (Source: multiple sources). Mercedes C200 is 150mph (0.00). Aston Martin DB12 is 202mph (+1.00). Renault Twizy is 50mph (-1.00). 149 mph is right around average. Score: 0.00.
+*   **drive_type**: RWD standard, xDrive AWD optional (Source: multiple sources). RWD is +1.00, AWD is 0.00, FWD is -1.00. Since RWD is standard, score: 1.00.
+*   **transmission_type**: 8-speed automatic (Steptronic) is standard (Source: multiple sources). Automatic is +1.00. Score: 1.00.
+*   **offroad_ability**: Coupe road car. Score: -1.00.
+*   **braking_dist_ft**: No specific data found. Assume average for a modern car with performance focus. Score: 0.00.
+*   **size**: Length 4768 mm (187.7 in) (Source: multiple sources for G22 Coupe). Honda Civic is ~4600mm (0.00). Fiat 500 is ~3600mm (-1.00). Hummer EV is >5100mm (+1.00). 4768mm is slightly larger than average. Score: 0.10.
+*   **wheelbase**: 2851 mm (112.2 in) (Source: multiple sources for G22 Coupe). Skoda Octavia is ~2700mm (0.00). Mazda Miata is ~2300mm (-1.00). Mercedes S-Class is >3200mm (+1.00). 2851mm is longer than average. Score: 0.20.
+*   **body_style**: 2-door coupe (G22). Score: -1.00. (Note: Gran Coupe is 5-door liftback, but the base 4 Series is the Coupe).
+*   **seats**: 4 seats (Coupe) (Source: heycar, Parkers). Score: -1.00.
+*   **cargo_space**: 440 liters / 15.5 - 15.7 cu ft (Source: heycar, Parkers, Auto-Data.net). Honda Civic is ~15 cu ft (0.00). Mazda MX-5 is ~5 cu ft (-1.00). Subaru Outback is >35 cu ft (+1.00). 15.7 cu ft is right around average. Score: 0.00.
+*   **rear_space**: Rear legroom is tight for adults (Source: heycar, Carwow). Subaru BRZ is <30" (-1.00). Hyundai Tucson is ~35" (0.00). BMW 7 Series is >40" (+1.00). Score: -0.50.
+*   **ground_clearance_in**: 130 mm / 5.12 inches (Source: Auto-Data.net for F32, likely similar for G22). Corvette is <4" (-1.00). Compact crossovers are ~6.5" (0.00). Jeep Wrangler is >10" (+1.00). 5.12 inches is below average. Score: -0.50.
+*   **turn_radius_ft**: 11.3 m / 37.07 ft (Source: Auto-Data.net for F32, likely similar for G22). Toyota Camry is ~36 ft (0.00). Smart Fortwo is ~22 ft (+1.00). Ford F-250 is >45 ft (-1.00). 37.07 ft is slightly above average (larger turning circle). Score: -0.10.
+*   **mpg**: WLTP combined 4.8-5.5 l/100km (Source: BMW website). This is roughly 42.8 - 49 mpg (US). User reported real-world is closer to 39-45 mpg (Source: Fuelly, Parkers). Toyota Camry is ~30 mpg (0.00). Toyota Prius is >55 mpg (+1.00). RAM 1500 TRX is ~12 mpg (-1.00). 40-45 mpg is well above average. Score: 0.60.
+*   **co2_g_km**: WLTP combined 126-144 g/km (Source: BMW website). Toyota RAV4 is ~175 g/km (0.00). Tesla Model 3 is 0 g/km (+1.00). Dodge Charger V8 is >300 g/km (-1.00). 126-144 g/km is well below average. Score: 0.60.
+*   **electric_range_mi**: Not electric. Score: -1.00.
+*   **charge_speed_kw**: Not electric. Score: -1.00.
+*   **handling_rating**: BMW 4 Series is known for good handling, though some reviews note it's less sharp than previous generations (Source: Car and Driver). Still above average. Score: 0.60.
+*   **ride_comfort_rating**: Generally comfortable, though M Sport suspension can be firm (Source: reviews). Above average. Score: 0.50.
+*   **cabin_noise_rating**: BMWs are typically well-insulated and quiet at speed (Source: reviews). Above average. Score: 0.60.
+*   **shift_smooth_rating**: 8-speed ZF automatic is widely praised for smoothness (Source: reviews). High score. Score: 0.80.
+*   **steering_feel_rating**: Modern BMW steering is often criticized for lacking feel compared to older models, but is precise. Score: 0.00 (average).
+*   **adas_score**: Offers a good range of ADAS features, but not industry-leading like Tesla FSD. Score: 0.60.
+*   **visibility_rating**: Coupe body style and thick pillars can hinder visibility (Source: reviews). Below average. Score: -0.30.
+*   **headlight_rating**: BMW offers good LED and optional Laser headlights. Score: 0.70.
+*   **security_rating**: Premium cars generally have good security. Score: 0.50.
+*   **screen_in**: 12.3" digital gauge cluster and 14.9" infotainment display (Source: Car and Driver, Parkers). Total curved display is large. Score: 0.80.
+*   **infotainment_ux_rating**: iDrive 8.5 is well-regarded, combining touchscreen and physical controller (Source: Car and Driver, Parkers). High score. Score: 0.70.
+*   **smartphone_connect_rating**: Standard Apple CarPlay and Android Auto, likely wireless on latest models (Source: Car and Driver, heycar). High score. Score: 0.80.
+*   **audio_rating**: Standard audio is likely average, Harman Kardon upgrade available. Assume slightly above base. Score: 0.30.
+*   **usb_ports**: No specific number found. Assume average (3 ports). Score: 0.00.
+*   **comfort_feature_score**: Offers many comfort features, though some like lumbar are optional (Source: heycar). Above average. Score: 0.60.
+*   **convenience_feature_score**: Offers many convenience features like parking aids, cameras (Source: Parkers). Above average. Score: 0.60.
+*   **brand_prestige_rating**: BMW is a premium brand. Score: 0.75.
+*   **model_prestige_rating**: 4 Series is a core model, not entry or halo. Score: 0.00.
+*   **trim_prestige_rating**: 420d is a mid-range diesel engine trim, not base or top performance. Score: 0.00.
+*   **interior_luxury_rating**: High-quality materials, premium feel (Source: heycar). High score. Score: 0.60.
+*   **interior_tech_focus_rating**: Large curved display, iDrive system, digital cockpit. High tech focus. Score: 0.70.
+*   **style_sleek_vs_boxy**: Coupe body style is sleek. Score: 0.50.
+*   **style_aggression_rating**: Bold design, especially the grille (Source: heycar). Aggressive. Score: 0.60.
+*   **style_modernity_rating**: Current design is modern, though the grille is polarizing (Source: heycar). Score: 0.70.
+
+Double check all scores are between -1.00 and +1.00 and have two decimal places. Ensure all keys are present.```json
+{
+  "price_usd": -0.20,
+  "total_cost_estimate_5yr_usd": -0.50,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": 0.00,
+  "hp": -0.10,
+  "torque": 0.50,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.10,
+  "top_speed": 0.00,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.10,
+  "wheelbase": 0.20,
+  "body_style": -1.00,
+  "seats": -1.00,
+  "cargo_space": 0.00,
+  "rear_space": -0.50,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.60,
+  "co2_g_km": 0.60,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.60,
+  "style_modernity_rating": 0.70,
+  "handling_rating": 0.60,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.60,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.60,
+  "visibility_rating": -0.30,
+  "headlight_rating": 0.70,
+  "security_rating": 0.50,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.70,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.30,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.60,
+  "convenience_feature_score": 0.60,
+  "brand_prestige_rating": 0.75,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.70
+}
+```

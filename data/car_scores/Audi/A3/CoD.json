@@ -1,0 +1,125 @@
+Based on the search results for the most recent Audi A3 1.5 TFSI CoD (primarily focusing on the 8Y generation, but also referencing 8V facelift as CoD was introduced then and specs are similar):
+
+*   **Price:** Used models from around £12,000 to £22,000+ depending on year, mileage, and trim (Sources [3, 4, 11, 16, 20, 28, 36, 38]). New price for a current 35 TFSI (which includes CoD and mild-hybrid) starts around £26,000 (Source [2]). Market average new car is ~$35,000 USD. £26,000 is roughly $33,000 USD. This is very close to the market average. Score: `0.00`.
+*   **Total Cost Estimate 5yr:** No direct data found. Audi is a premium brand, so maintenance and potential repairs might be slightly higher than average, but efficiency is good. Likely around the average. Score: `0.00`.
+*   **Insurance USD/yr:** UK Insurance Group is around 21-27 (Sources [27, 29, 30, 31, 36, 38]). This is around the middle of the 1-50 scale. Average UK insurance cost is around £800-£1000+ for these groups (Source [27]). Converting to USD (~$1000-$1250) is below the $1500 average. Score: `0.25`.
+*   **Maint USD/yr:** No specific data found. Audi maintenance is generally higher than non-premium brands but not as high as some luxury marques. Likely around average. Score: `0.00`.
+*   **Repair Risk Score:** No specific data found for the 1.5 TFSI CoD engine reliability compared to the market. Some sources mention potential issues with the CoD system and DSG transmission as the car ages (Source [22]). Audi's general reliability is considered average to slightly below average compared to top performers like Toyota/Lexus. Score: `0.00`.
+*   **HP:** 150 PS / 148 hp (Sources [3, 4, 8, 10, 12, 14, 19, 24, 25]). Market average is ~200 hp. This is below average. Score: `-0.25`.
+*   **Torque:** 250 Nm / 184 lb-ft (Sources [3, 4, 8, 10, 12, 14, 24]). Market average is ~190 lb-ft. This is very close to average. Score: `0.00`.
+*   **Cylinder Count:** 4 (Inline four-cylinder) (Sources [8, 10, 12, 14, 33]). Market average is 4 or 6. Score: `0.00`.
+*   **Engine Displacement:** 1498 cc / 1.5 L (Sources [3, 4, 8, 10, 12, 14, 24, 25, 26, 31, 33, 36, 38]). Market average is around 2.0-3.0L. This is below average. Score: `-0.25`.
+*   **Accel 0-60 sec:** 7.6-8.2 seconds (Sources [2, 3, 4, 8, 10, 12, 13, 14, 19, 24, 32, 33]). Market average is ~7.5 seconds. This is average to slightly below average. Score: `0.00`.
+*   **Top Speed:** 136-139 mph (Sources [3, 10, 12, 19, 24, 32, 33]). Market average is ~150 mph. This is below average. Score: `-0.25`.
+*   **Drive Type:** Front-wheel drive (FWD) is standard for the 1.5 TFSI CoD (Sources [4, 10, 12, 24]). AWD (Quattro) is available on other A3 variants but not typically the CoD. FWD is the -1.00 benchmark. Score: `-1.00`.
+*   **Transmission Type:** Available with 6-speed manual or 7-speed S tronic (DCT) (Sources [2, 13, 18, 19, 24, 33]). DCT is the 0.00 benchmark. Score: `0.00`.
+*   **Offroad Ability:** Low ground clearance, FWD, not designed for off-road. Score: `-1.00`.
+*   **Braking Dist ft:** No specific data found. Audi A3 generally has competent braking, likely around average. Score: `0.00`.
+*   **Size:** Length ~4313-4458 mm (Sportback vs Saloon) (Sources [3, 4, 10, 12, 18, 32, 33]). Market average is ~4600mm. This is below average (compact). Score: `-0.25`.
+*   **Wheelbase:** ~2637 mm (Sources [3, 4, 10, 12, 31, 32, 33]). Market average is ~2700mm. This is slightly below average. Score: `0.00`.
+*   **Body Style:** Available as 5-door Sportback (Hatchback) or 4-door Saloon (Sedan) (Sources [2, 3, 4, 8, 10, 11, 12, 18, 19, 20, 25, 26, 28, 31, 32, 33, 34, 36, 38, 39]). 4-door Sedan/Coupe is 0.00. 5-door Hatchback is close to 0.00 practicality. Score: `0.00`.
+*   **Seats:** 5 seats (Sources [3, 7, 16, 31, 33]). Market average is 5. Score: `0.00`.
+*   **Cargo Space:** Sportback ~380 litres / 13.4-15 cu ft (Sources [4, 5, 10, 12, 19, 25, 32, 33]), Saloon ~425 litres / 15 cu ft (Source [3]). Market average is ~15 cu ft. This is average to slightly below average for the Sportback, average for the Saloon. Let's average it out. Score: `0.00`.
+*   **Rear Space:** Decent legroom but not ideal for 3 adults (Source [23]). Average for the class. Score: `0.00`.
+*   **Ground Clearance in:** No specific data found, but it's a standard compact car, not an SUV. Likely low/average. Score: `0.00`.
+*   **Turn Radius ft:** ~10.7-10.9m / 35.1-35.8 ft (Sources [10, 12]). Market average is ~36 ft. This is average. Score: `0.00`.
+*   **MPG:** Combined WLTP ~42.2-58.9 mpg UK (Sources [2, 3, 4, 5, 8, 10, 12, 13, 14, 19, 24, 33]). This is very good compared to the 30 mpg average. Score: `0.75`.
+*   **CO2 g/km:** Combined WLTP ~110-142 g/km (Sources [2, 3, 4, 5, 14, 19, 21, 24, 33]). Very good compared to the 175 g/km average. Score: `0.75`.
+*   **Electric Range mi:** Not an electric vehicle. Score: `-1.00`.
+*   **Charge Speed kW:** Not an electric vehicle. Score: `-1.00`.
+*   **Style Sleek vs Boxy:** Modern Audi design, generally sleek but not extremely coupe-like. Score: `0.00`.
+*   **Style Aggression Rating:** Modern Audi design, some sharp lines but not overly aggressive, especially in non-S Line trims. Score: `0.00`.
+*   **Style Modernity Rating:** Recent generation A3 has modern styling. Score: `0.25`.
+*   **Handling Rating:** Generally praised for competent and predictable handling, based on Golf platform (Sources [13, 17, 23]). Not a sports car, but good for a compact car. Score: `0.35`.
+*   **Ride Comfort Rating:** Generally comfortable, absorbs bumps well, though larger wheels can impact this (Sources [15, 17, 22, 23]). Score: `0.25`.
+*   **Cabin Noise Rating:** Generally good, but some tire/road noise noted, especially with larger wheels (Sources [15, 17, 23]). Average to slightly above. Score: `0.15`.
+*   **Shift Smooth Rating:** S tronic (DCT) is generally smooth but can be jerky at low speeds (Source [22]). Manual is typical. Score: `0.00`.
+*   **Steering Feel Rating:** Precise and direct, good feel for the class (Sources [15, 17]). Score: `0.35`.
+*   **ADAS Score:** Available ADAS features like cruise control, parking sensors, collision avoidance, lane departure warning, traffic sign recognition (Sources [3, 4, 7, 9, 19, 25, 31, 34]). Good range of features available, likely average to good depending on options. Score: `0.25`.
+*   **Visibility Rating:** No specific data found. Generally average for a modern car. Score: `0.00`.
+*   **Headlight Rating:** Available LED and Matrix LED headlights (Sources [7, 13, 21, 25]). Good options available. Score: `0.50`.
+*   **Security Rating:** Standard anti-theft alarm, central locking (Sources [4, 7, 9, 31]). Average. Score: `0.00`.
+*   **Screen in:** Standard MMI Radio Plus with 7" or 10.1" screen, Virtual Cockpit (12.3") available (Sources [2, 4, 5, 6, 7, 21, 32]). 10.1" is above average, 12.3" is very good. Score: `0.50`.
+*   **Infotainment UX Rating:** MMI system is generally logical and easy to use (Sources [2, 6, 21, 23]). Score: `0.50`.
+*   **Smartphone Connect Rating:** Audi Smartphone Interface (Apple CarPlay/Android Auto) is standard (Sources [3, 4, 5, 7, 9, 25, 32]). Score: `0.50`.
+*   **Audio Rating:** Standard system is likely average, Audi Sound System available (Sources [4, 7, 32]). Score: `0.00`.
+*   **USB Ports:** 2 x USB charging ports + 1 x AUX-IN (Sources [4, 7, 32]). Average number of ports. Score: `0.00`.
+*   **Comfort Feature Score:** Dual-zone climate control, heated seats, power lumbar support available (Sources [3, 4, 6, 7, 9, 21, 25, 31]). Good features available, above average. Score: `0.35`.
+*   **Convenience Feature Score:** Rear parking sensors, cruise control, auto lights/wipers, keyless entry/start available (Sources [3, 4, 5, 7, 9, 19, 25, 31]). Average to good. Score: `0.25`.
+*   **Brand Prestige Rating:** Audi is a premium German brand. Score: `0.75`.
+*   **Model Prestige Rating:** A3 is the entry-level model in the Audi lineup. Score: `1.00`.
+*   **Trim Prestige Rating:** "CoD" refers to the engine technology, not a specific trim level. Assuming a standard trim like SE Technik or Sport, this is not a top-tier performance or luxury trim. Score: `0.50` (mid-range trim).
+*   **Interior Luxury Rating:** Audi interiors use quality materials, good design (Sources [2, 7, 21, 23]). Good for the class, above average. Score: `0.50`.
+*   **Interior Tech Focus Rating:** High tech focus with MMI screen, Virtual Cockpit availability, ADAS features (Sources [2, 6, 7, 21, 23]). Score: `0.75`.
+
+Refining scores based on benchmarks and comparisons:
+*   HP: 148hp is definitely below 200hp average. Score: -0.25.
+*   Engine Displacement: 1.5L is below 2.0-3.0L average. Score: -0.25.
+*   Accel 0-60: 7.6-8.2s is average to slightly below. Score: 0.00.
+*   Top Speed: 136-139mph is below 150mph average. Score: -0.25.
+*   Drive Type: FWD is -1.00.
+*   MPG: 42-59 UK mpg is very good. 55+ mpg is +1.00. 42-59 is closer to +1.00 than 0.00. Score: 0.75.
+*   CO2: 110-142 g/km is very good. 0 g/km is +1.00. 110-142 is closer to +1.00 than 175 g/km. Score: 0.75.
+*   Screen size: 10.1" is above 8". 17" is +1.00. 10.1" is closer to 0.00 than +1.00, but still good. Score: 0.25. Virtual Cockpit 12.3" is better, maybe 0.50 if standard, but it's an option. Let's stick with 0.25 for the standard screen.
+*   Infotainment UX/Smartphone: Generally well-regarded. Score: 0.50.
+*   Comfort/Convenience: Good features available. Score: 0.35/0.25.
+*   Brand Prestige: Audi is high premium. Score: 0.75.
+*   Model Prestige: Entry-level. Score: 1.00.
+*   Trim Prestige: CoD isn't a trim. Assuming a mid-range trim like Sport or S Line (which Black Edition is based on). S Line is a desirable trim, but not the absolute top performance (like RS). Score: 0.00 (mid-range).
+*   Interior Luxury/Tech: Good for the class. Score: 0.50/0.75.
+
+Let's finalize the scores based on the gathered data and the scoring guide.```json
+{
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.25,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -0.25,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": -0.25,
+  "accel_0_60_sec": 0.00,
+  "top_speed": -0.25,
+  "drive_type": -1.00,
+  "transmission_type": 0.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.00,
+  "size": -0.25,
+  "wheelbase": 0.00,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.75,
+  "co2_g_km": 0.75,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.25,
+  "handling_rating": 0.35,
+  "ride_comfort_rating": 0.25,
+  "cabin_noise_rating": 0.15,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.35,
+  "adas_score": 0.25,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": 0.25,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.35,
+  "convenience_feature_score": 0.25,
+  "brand_prestige_rating": 0.75,
+  "model_prestige_rating": 1.00,
+  "trim_prestige_rating": 0.50,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.75
+}
+```

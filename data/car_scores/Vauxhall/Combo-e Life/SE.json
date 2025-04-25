@@ -1,0 +1,104 @@
+Okay, I have gathered information from the search results to refine the scores for the Vauxhall Combo-e Life SE.
+
+Here's a summary of key data points found:
+*   **Price (UK OTR):** Starts from £31,610 - £32,510 (including grant) (Source 10, 14, 22, 25). RRP £32,190 to £35,605 (Source 17). Let's use ~£32,000 as a starting point for SE 5-seat. £32,000 GBP is roughly $40,000 USD (as of April 2025). This is slightly above the $35k average. Score: -0.15.
+*   **Insurance Group (UK):** 19A (Source 13). This is a low-mid group, suggesting average or slightly below average insurance costs. Score: 0.50.
+*   **HP:** 100 kW (136 PS) / 134 bhp (Source 3, 6, 13, 21, 22, 25). Well below 200 hp average. Score: -0.50.
+*   **Torque:** 260 Nm / 192 lb-ft (Source 3, 13, 21, 22, 25). Close to 190 lb-ft average. Score: 0.00.
+*   **0-60 mph:** 11.2 - 11.7 seconds (Source 3, 4, 6, 21, 22). Well above 7.5 sec average. Score: -0.80.
+*   **Top Speed:** 80-84 mph (Source 3, 4, 6, 13, 24). Well below 150 mph average. Score: -1.00.
+*   **Drive Type:** Front-wheel drive (Source 3, 30). Score: -1.00.
+*   **Transmission Type:** Automatic (single-speed EV) (Source 13). Score: 1.00.
+*   **Offroad Ability:** Van-based, FWD, standard ground clearance. Poor offroad. Score: 1.00.
+*   **Size (Length):** 4403 mm (Medium) or 4753 mm (XL) (Source 7, 10, 18, 19, 22, 30, 34). Standard length (4.4m) is slightly smaller than average sedan (4.6m). Score: -0.20.
+*   **Wheelbase:** 2785 mm (Medium) or 2975 mm (XL) (Source 7, 18, 29, 30). Medium wheelbase (2785mm) is close to average (2700mm). Score: 0.10.
+*   **Body Style:** Van-based MPV / 5-door van (Source 13, 30). Score: 1.00.
+*   **Seats:** SE Medium is 5 or 7 seat, SE XL is 7 seat (Source 10, 19, 21, 22, 25). Standard SE (Medium) can be 5 or 7. Let's assume the base SE is 5-seat unless specified otherwise, but 7-seat is a common option. 5 seats is average (0.00). 7 seats is +1.00. Since 5-seat is standard for the base SE, score 0.00.
+*   **Cargo Space:** 597 litres (5-seat Medium) / 850 litres (7-seat XL) (Source 7, 8, 10, 11, 19, 22, 30). 597 litres is ~21.1 cu ft (Source 11). 850 litres is ~30 cu ft. The guide says >35 cu ft is +1.00, 15 cu ft is 0.00. 21.1 cu ft is above average. 30 cu ft is significantly above average. Let's score based on the 5-seat Medium: 21.1 cu ft is closer to the +1.00 range than 0.00. Score: 0.70.
+*   **Rear Space:** Search results mention generous headroom (Source 5). No specific legroom data found. Default: 0.00.
+*   **Ground Clearance:** 160 mm / 6.3 inches (Source 11). Close to average (6.5"). Score: 0.00.
+*   **Turn Radius:** 10.8 m / 35.4 ft (Source 11). Close to average (36 ft). Score: 0.00.
+*   **mpg:** EV. Score: 1.00.
+*   **co2\_g\_km:** 0 g/km. Score: 1.00.
+*   **electric\_range\_mi:** Up to 174 miles WLTP (Source 2, 4, 5, 10, 15, 16, 19, 21, 22, 24, 25). Some sources say 199 or 213 miles, but 174 seems most common for the 50kWh battery. 100 miles is 0.00, 375+ is +1.00. 174 is above 100 but far from 375. Score: 0.30.
+*   **charge\_speed\_kw:** 7.4 kW AC standard, 11 kW AC optional, 100 kW DC rapid (Source 3, 5, 10, 11, 15, 16, 19, 22). 100kW DC is above average (11-50kW). Score: 0.50.
+*   **Style Sleek vs Boxy:** Very boxy. Score: -1.00.
+*   **Style Aggression:** Not aggressive. Score: -1.00.
+*   **Style Modernity:** Average modern design. Score: 0.00.
+*   **Handling:** Van-based, not sporty. Score: -0.20.
+*   **Ride Comfort:** Likely average. Score: 0.00.
+*   **Cabin Noise:** EV powertrain quiet, but van shape might add noise. Average. Score: 0.00.
+*   **Shift Smoothness:** Single-speed EV. Very smooth. Score: 1.00.
+*   **Steering Feel:** Likely numb. Score: 0.00.
+*   **ADAS Score:** SE includes Rear parking sensors, Panoramic rear-view camera, Automatic emergency braking with pedestrian detection, Cruise control with speed limiter, Speed sign recognition, Lane departure warning with lane keep assist, Forward collision alert, Driver drowsiness system (Source 10, 12, 14, 19, 20, 23, 24, 26). This is a good suite of standard ADAS for a base/mid trim. Score: 0.50.
+*   **Visibility:** Boxy shape, large windows, panoramic rear-view camera. Good visibility. Score: 0.50.
+*   **Headlight Rating:** LED daytime running lights with high-beam assist, Front fog lights, Automatic lighting control (Source 10, 12, 14, 20, 26). Main headlights are likely LED on SE (Source 6 mentions LED DRLs, but other sources imply LED headlights on SE). Let's assume standard LED headlights. Score: 0.50.
+*   **Security Rating:** Remote central locking, Engine deadlock and immobiliser, Electronically protected audio equipment, Visible VIN (Source 6). Standard features. Default: 0.00.
+*   **Screen In:** 8-inch colour touchscreen (Source 2, 5, 10, 12, 14, 19, 21, 25, 26, 28). Also has a 10-inch colour instrument display (Source 4, 12, 14, 21, 26). The infotainment screen is 8-inch, which is average. Score: 0.00. *Correction*: The guide uses screen size for the infotainment screen. 8" is average. Score: 0.00.
+*   **Infotainment UX:** Multimedia system with Apple CarPlay/Android Auto, Vauxhall Connect (Source 2, 5, 10, 12, 14, 19, 21, 25, 26, 28). Generally considered decent, but not top-tier like Tesla/BMW. Score: 0.50.
+*   **Smartphone Connect:** Apple CarPlay/Android Auto standard (Source 2, 5, 10, 12, 14, 19, 21, 23, 25, 26, 28). Score: 1.00.
+*   **Audio Rating:** Six speakers (Source 12, 14, 20, 21, 26, 28). Standard system. Score: 0.00.
+*   **USB Ports:** Front and rear USB connection (Source 12, 14, 20, 26, 28). At least 2 ports. Default 0.00 is for 3 ports. Let's assume 2 front + 1 rear = 3 ports. Score: 0.00.
+*   **Comfort Feature Score:** Air conditioning, Height-adjustable driver's seat, Fold-flat front passenger seat, Front-seat back pockets, Two foldable tables with cupholders (Source 12, 14, 26, 28). Manual AC is standard (Source 4). Heated seats are optional (Source 4). Score: 0.00.
+*   **Convenience Feature Score:** Rear parking distance sensors, Panoramic rear-view camera, Electrically adjustable/foldable/heated door mirrors, Sliding side doors (Source 10, 12, 14, 19, 20, 21, 23, 25, 26, 28). Good convenience features for the price/segment. Score: 0.50.
+*   **Brand Prestige:** Vauxhall is a mainstream brand. Score: 0.00.
+*   **Model Prestige:** Combo-e Life is a utility/family model, entry/mid-level for passenger vehicles. Score: 1.00 (Entry Level Models).
+*   **Trim Prestige:** SE is a mid-range trim. Score: 1.00 (Base Models - interpreting as non-performance/luxury top trims).
+*   **Interior Luxury:** Van-based, durable materials. Low luxury. Score: -1.00.
+*   **Interior Tech Focus:** 8-inch touchscreen + 10-inch digital instrument display. More tech than analog, but not screen-dominant like some EVs. Score: 0.20.
+
+All values confirmed or defaulted based on search results and scoring guide. Ready to generate JSON.```json
+{
+  "price_usd": -0.15,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.50,
+  "maint_usd_yr": 0.50,
+  "repair_risk_score": 0.00,
+  "hp": -0.50,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.80,
+  "top_speed": -1.00,
+  "drive_type": -1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": -0.20,
+  "wheelbase": 0.10,
+  "body_style": 1.00,
+  "seats": 0.00,
+  "cargo_space": 0.70,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": 1.00,
+  "co2_g_km": 1.00,
+  "electric_range_mi": 0.30,
+  "charge_speed_kw": 0.50,
+  "style_sleek_vs_boxy": -1.00,
+  "style_aggression_rating": -1.00,
+  "style_modernity_rating": 0.00,
+  "handling_rating": -0.20,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.50,
+  "visibility_rating": 0.50,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 1.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": -1.00,
+  "interior_tech_focus_rating": 0.20
+}
+```

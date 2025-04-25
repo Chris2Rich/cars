@@ -1,0 +1,109 @@
+```json
+{
+  "price_usd": -0.75,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.50,
+  "torque": 0.25,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.25,
+  "accel_0_60_sec": 0.75,
+  "top_speed": 0.50,
+  "drive_type": 1.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 1.00,
+  "size": -0.25,
+  "wheelbase": -0.50,
+  "body_style": -1.00,
+  "seats": -1.00,
+  "cargo_space": 0.00,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.75,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.50,
+  "co2_g_km": 0.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.75,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 1.00,
+  "ride_comfort_rating": 0.25,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 1.00,
+  "adas_score": 0.25,
+  "visibility_rating": -0.50,
+  "headlight_rating": 0.00,
+  "security_rating": 0.50,
+  "screen_in": -0.25,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": 0.00,
+  "usb_ports": -0.25,
+  "comfort_feature_score": 0.25,
+  "convenience_feature_score": 0.25,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": -0.50,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": -0.25
+}
+```
+
+**Reasoning for each rating:**
+
+*   `price_usd`: -0.75 - The 2024 Porsche 718 Cayman GTS 4.0 starts around $95,200, which is significantly above the market average of $35,000, placing it closer to the >$100,000 benchmark for -1.00.
+*   `total_cost_estimate_5yr_usd`: -1.00 - As a high-performance Porsche, the 5-year ownership costs (including depreciation, insurance, maintenance, and repairs) are expected to be well over the >$60,000 benchmark.
+*   `insurance_usd_yr`: -1.00 - High-performance sports cars like the 718 Cayman GTS typically fall into the highest insurance groups, leading to annual costs significantly exceeding the >$2,500 benchmark.
+*   `maint_usd_yr`: -1.00 - Porsche maintenance is known to be expensive, with annual costs for performance models likely well above the >$1,200 benchmark.
+*   `repair_risk_score`: 0.00 - Reliability data for the 718 Cayman line is somewhat mixed across different sources, leading to an average score.
+*   `hp`: 0.50 - The GTS 4.0's 394 hp is well above the market average of 200 hp, but not in the realm of supercars (>700 hp).
+*   `torque`: 0.25 - The 309-317 lb-ft of torque is above the market average of 190 lb-ft, but not exceptionally high compared to top-tier performance vehicles.
+*   `cylinder_count`: 0.00 - The 4.0L engine is a flat-six, matching the average benchmark of 6 cylinders.
+*   `engine_displacement`: 0.25 - The 4.0L displacement is above the average benchmark of 3.0L.
+*   `accel_0_60_sec`: 0.75 - With a 0-60 mph time of 3.8-4.1 seconds (depending on transmission), it is significantly faster than the average of 7.5 seconds and approaches the best-in-class (<2.5 sec).
+*   `top_speed`: 0.50 - A top speed of 179-182 mph is well above the average of 150 mph.
+*   `drive_type`: 1.00 - The 718 Cayman GTS is Rear-Wheel Drive (RWD), which scores +1.00 according to the guide.
+*   `transmission_type`: 0.00 - The available transmissions are a 6-speed manual (-1.00 according to guide) and a 7-speed PDK dual-clutch automatic (0.00 according to guide). Scoring based on the availability of the DCT option.
+*   `offroad_ability`: 1.00 - As a low-slung sports car, its offroad ability is extremely poor, scoring +1.00 based on the guide's inverse scoring examples.
+*   `braking_dist_ft`: 1.00 - Reviews consistently praise the exceptional braking performance, indicating a stopping distance likely well under the <105 ft benchmark.
+*   `size`: -0.25 - The length of around 4405mm is slightly smaller than the average car length of approximately 4600mm.
+*   `wheelbase`: -0.50 - The wheelbase of 2475mm is shorter than the average benchmark of 2700mm.
+*   `body_style`: -1.00 - The 718 Cayman is a 2-Door Coupe, scoring -1.00.
+*   `seats`: -1.00 - It has 2 seats, scoring -1.00.
+*   `cargo_space`: 0.00 - The combined front and rear cargo space is around 15 cu ft, matching the average benchmark.
+*   `rear_space`: -1.00 - As a 2-seater, there is no rear seating space, scoring -1.00.
+*   `ground_clearance_in`: -0.75 - With a low ride height (PASM sport suspension lowers it by 10mm), the ground clearance is likely around 4 inches or less, close to the -1.00 benchmark for sports coupes.
+*   `turn_radius_ft`: 0.00 - The turning radius is around 36.1 ft, very close to the average benchmark of 36 ft.
+*   `mpg`: -0.50 - The combined EPA/observed fuel economy of 19-21 mpg is significantly below the market average of 30 mpg.
+*   `co2_g_km`: 0.00 - The CO2 emissions of around 186 g/km are close to the average benchmark of 175 g/km.
+*   `electric_range_mi`: -1.00 - The vehicle is not electric.
+*   `charge_speed_kw`: -1.00 - The vehicle is not electric.
+*   `style_sleek_vs_boxy`: 0.75 - The 718 Cayman has a sleek, aerodynamic sports coupe design.
+*   `style_aggression_rating`: 0.50 - The GTS trim adds sporty and somewhat aggressive styling cues, above average but not extreme.
+*   `style_modernity_rating`: 0.50 - The design is modern and current, representing an evolution of Porsche's established sports car aesthetic.
+*   `handling_rating`: 1.00 - The 718 Cayman, especially in GTS trim with its mid-engine layout and tuned chassis, is widely regarded as having exceptional, best-in-class handling and steering feel.
+*   `ride_comfort_rating`: 0.25 - While a sports car, reviews note the GTS 4.0 with PASM offers a surprisingly compliant and comfortable ride for its class, placing it above the typical harsh sports car ride (-0.50) but not achieving the comfort of a luxury sedan (+1.00).
+*   `cabin_noise_rating`: -0.50 - Sports cars generally have more cabin noise than average vehicles, and some reviews mention tire/road noise, placing it below average for quietness.
+*   `shift_smooth_rating`: 1.00 - The available PDK transmission is consistently praised as one of the best dual-clutch transmissions, offering exceptionally fast and smooth shifts, scoring +1.00 for the quality of the automatic shift experience.
+*   `steering_feel_rating`: 1.00 - Porsche's steering feel, particularly in the 718 Cayman, is considered telepathic and best-in-class by reviewers, scoring +1.00.
+*   `adas_score`: 0.25 - Includes some standard ADAS features like a rearview camera and parking sensors, with optional features like adaptive cruise control and automatic emergency braking available, placing it slightly above basic but not offering a comprehensive suite as standard.
+*   `visibility_rating`: -0.50 - The sports coupe body style can lead to compromised rear and side visibility compared to more practical vehicles.
+*   `headlight_rating`: 0.00 - Standard Bi-Xenon headlights are average compared to the range from basic halogens to advanced LED matrix systems.
+*   `security_rating`: 0.50 - Porsche vehicles typically come equipped with robust security features like an immobilizer and alarm, likely above the market average.
+*   `screen_in`: -0.25 - The standard infotainment screen size is typically 7 inches, which is slightly smaller than the average benchmark of 8 inches.
+*   `infotainment_ux_rating`: 0.00 - Porsche's infotainment system is functional and responsive but is sometimes described as feeling a bit dated compared to the newest systems, placing it around average.
+*   `smartphone_connect_rating`: 0.00 - Apple CarPlay is standard, but the lack of Android Auto prevents a higher score, placing it at an average level of smartphone connectivity for the market.
+*   `audio_rating`: 0.00 - The standard 8-speaker audio system is typical for a base/mid-range setup, scoring average. Premium audio options are available.
+*   `usb_ports`: -0.25 - Typically equipped with 1-2 USB ports, falling slightly below the average benchmark of 3 ports.
+*   `comfort_feature_score`: 0.25 - Includes standard comfort features like heated seats and dual-zone climate control, with supportive sports seats, providing a good level of comfort for a sports car, above the basic average.
+*   `convenience_feature_score`: 0.25 - Offers standard convenience features such as a rearview camera and parking sensors, placing it above vehicles with minimal aids, though not equipped with the most advanced convenience tech as standard.
+*   `brand_prestige_rating`: 1.00 - Porsche is explicitly listed as a +1.00 prestige brand in the guide.
+*   `model_prestige_rating`: -0.50 - The 718 Cayman is positioned below the iconic 911 in Porsche's lineup. The GTS is a high-performance variant of this model, placing it above entry-level models (+1.00) and average models (0.00), but below the absolute top-tier halo cars (-1.00).
+*   `trim_prestige_rating`: -1.00 - The GTS is a dedicated high-performance trim within the 718 lineup, fitting the description of "Top Trims" which score -1.00 according to the guide.
+*   `interior_luxury_rating`: 0.50 - The interior features high-quality materials like leather and Alcantara and excellent build quality, providing a premium feel, but the focus is on sportiness rather than outright luxury, placing it above average.
+*   `interior_tech_focus_rating`: -0.25 - The interior design balances analog gauges with digital displays and physical controls, being driver-focused rather than dominated by large screens, placing it below vehicles with a strong interior tech focus.

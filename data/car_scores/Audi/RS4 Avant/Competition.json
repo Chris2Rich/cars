@@ -1,0 +1,163 @@
+**Data Extraction and Scoring:**
+
+*   `price_usd`: Search results show UK price around £84,600 (Source 2) and Australian price around $165,015 - $191,405 AUD (Sources 5, 10, 14). Converting £84,600 to USD (approx 1.25 USD/GBP) is ~$105,750. Converting $191,405 AUD to USD (approx 0.65 USD/AUD) is ~$124,413. Both are well over $100,000. Score: -1.00.
+*   `total_cost_estimate_5yr_usd`: Search results mention a 5-year service plan cost of $3630 AUD (Source 10, 14), which is low for maintenance. However, the high purchase price, insurance, and fuel costs will push the total 5-year cost well above average. While a specific total 5-year cost isn't found, the components suggest it will be high, likely >$60,000. Score: -1.00.
+*   `insurance_usd_yr`: Performance Audi RS models are typically in high insurance groups. While a specific USD figure isn't found, the nature of the car suggests high insurance costs, likely >$2,500/year. Score: -1.00.
+*   `maint_usd_yr`: A 5-year service plan is mentioned at $3630 AUD (Source 10, 14), which is ~$726 AUD/year or ~$472 USD/year. This seems low for a performance car, possibly only covering scheduled maintenance. Other sources suggest higher costs for German performance cars. Defaulting slightly negative as it's a performance Audi. Score: -0.50.
+*   `repair_risk_score`: Audi reliability is generally considered average, not as bulletproof as Toyota/Lexus, but not notoriously unreliable like some others. Score: 0.00.
+*   `hp`: 450 hp (Source 2, 5, 9, 12, 15, 16, 17, 18, 24). This is high performance, well above the 200 hp average. Score: 1.00.
+*   `torque`: 443 lb-ft (600 Nm) (Source 2, 5, 9, 12, 15, 16, 17, 18, 24). This is high torque, well above the 190 lb-ft average. Score: 1.00.
+*   `cylinder_count`: V6 (Source 2, 3, 5, 9, 11, 12, 15, 17, 24). Average is often 4 or 6. V6 is common in performance variants. Score: 0.00.
+*   `engine_displacement`: 2.9L (Source 2, 3, 5, 9, 11, 12, 15, 17, 24). Average is around 3.0L. Score: 0.00.
+*   `accel_0_60_sec`: 0-62 mph in 3.9 seconds (Source 2, 3, 11, 14, 30). This is very fast, well below the 7.5 sec average. Score: 1.00.
+*   `top_speed`: 180 mph (290 km/h) with Competition package (Source 2, 3, 10, 11, 14, 30). Well above the 150 mph average. Score: 1.00.
+*   `drive_type`: Quattro permanent all-wheel drive (Source 2, 3, 11, 16, 17, 18, 21, 27, 32). Score: 0.00 (AWD).
+*   `transmission_type`: 8-speed automatic (Tiptronic) (Source 2, 3, 5, 9, 11, 12, 16, 17, 24, 27, 28, 29). Score: 1.00 (Automatic).
+*   `offroad_ability`: Low ground clearance, performance focus, not designed for off-road. Score: 1.00 (Poor off-road ability as per guide).
+*   `braking_dist_ft`: Ceramic brakes available (Source 18). Performance cars generally have excellent braking. While a specific distance isn't found, it's expected to be good. Score: 0.75 (Estimate based on performance focus and available ceramic brakes).
+*   `size`: Length ~4781-4782mm (Source 23, 28, 29). Width ~1866mm (Source 23, 28, 29). Height ~1404-1449mm (Source 23, 28, 29). Wheelbase ~2826mm (Source 23, 27). This is a medium-sized wagon, slightly larger than a Civic but smaller than a large SUV. Score: 0.00.
+*   `wheelbase`: ~2826mm (Source 23, 27). Average is around 2700mm. Slightly above average. Score: 0.25.
+*   `body_style`: 5-door Avant (estate/wagon) (Source 4, 12, 27). More practical than a sedan/coupe, less than a van. Score: 0.50.
+*   `seats`: 5 seats (Source 4, 36). Score: 0.00.
+*   `cargo_space`: 495 litres (17.5 cu ft) with seats up, 1495 litres (52.8 cu ft) with seats down (Source 3, 6, 12, 17, 18, 20, 24). 17.5 cu ft is around the Civic average, but the wagon shape and folded capacity are good. Score: 0.25 (Slightly above average due to wagon versatility).
+*   `rear_space`: "sufficient legroom" for rear occupants (Source 3). "two six-footers will be very happy" (Source 7). "decent amount of room for those people sitting in the back" (Source 17). Suggests good, but maybe not S-Class levels. Score: 0.50.
+*   `ground_clearance_in`: 129mm (5.08 inches) (Source 27). Competition package lowers it further (10mm or 20mm drop) (Source 2, 5, 9, 10, 14). This is low for a general market car, especially a wagon. Score: -0.75 (Between compact crossover average and sports coupe low).
+*   `turn_radius_ft`: Not found. Default to 0.00.
+*   `mpg`: 28.8 MPG (UK) (Source 2). 9.2 L/100km (claimed) (Source 3, 12). 9.5 L/100km (official combined) (Source 14). 10.1-9.6 L/100km (WLTP) (Source 32). 10.6 L/100km (3P-WLTP) (Source 11). 8.8 L/100km (Source 8). Converting 9.5 L/100km to MPG is ~24.8 MPG. Converting 10.6 L/100km is ~22.2 MPG. Converting 8.8 L/100km is ~26.7 MPG. These are below the 30 mpg average. Score: -0.50.
+*   `co2_g_km`: 220 g/km (Source 13). 201 g/km (Source 8). 229-217 g/km (WLTP) (Source 32). 243 g/km (3P-WLTP) (Source 33). These are well above the 175 g/km average. Score: -1.00.
+*   `electric_range_mi`: Not electric. Score: -1.00.
+*   `charge_speed_kw`: Not electric. Score: -1.00.
+*   `style_sleek_vs_boxy`: Wagon shape is less sleek than a coupe, but the RS design adds aggression. Score: 0.00.
+*   `style_aggression_rating`: RS models have aggressive styling (honeycomb grille, large vents, wide arches, oval exhausts) (Source 7, 12, 20, 24). Score: 0.75.
+*   `style_modernity_rating`: Current Audi design is modern, but the B9 platform is getting older (introduced 2015, facelift 2019). Score: 0.50.
+*   `handling_rating`: Competition package adds track-focused suspension, fixed steering, retuned diff (Source 2, 5, 9, 10, 11, 14, 30, 32). Described as "more responsive, agile, and fun" (Source 9), "very entertaining car" (Source 11), "supreme roadholding" (Source 14). Score: 0.90.
+*   `ride_comfort_rating`: Competition package has manually adjustable coilover suspension, stiffer anti-roll bars (Source 2, 5, 9, 10, 11, 14, 15, 30, 32). Described as "appreciably firmer than a standard RS4" (Source 9), "Overly firm ride quality" (Source 12). Score: -0.75.
+*   `cabin_noise_rating`: 8kg less sound deadening in Competition Plus (Source 5, 14) makes it louder than standard RS4. Score: -0.50.
+*   `shift_smooth_rating`: 8-speed automatic retuned for "crisper shifts" and "more aggressive shifts" (Source 5, 10, 14). "shorter shift times and enhanced acceleration" (Source 30). Less focus on ultimate smoothness, more on speed/feel. Score: 0.50.
+*   `steering_feel_rating`: Fixed-ratio dynamic steering (Source 9, 10, 14, 32). Described as "lifeless, but nicely weighted" (Source 3). Score: 0.00.
+*   `adas_score`: Standard safety equipment includes AEB, adaptive cruise control, blind-spot monitoring, lane-keep assist, rear cross-traffic alert, surround-view camera, parking sensors (Source 10, 14, 25). Good suite of features. Score: 0.75.
+*   `visibility_rating`: Wagon body style generally offers good visibility. Score: 0.00.
+*   `headlight_rating`: Matrix LED headlights standard (Source 5, 17, 20, 25). Score: 0.75.
+*   `security_rating`: Premium car, likely good security features. Score: 0.00.
+*   `screen_in`: 10.1-inch MMI touch display (Source 8, 17, 18, 20, 25). This is a good size, above average but not class-leading large. Score: 0.50.
+*   `infotainment_ux_rating`: MMI touch system, generally well-regarded, intuitive (Source 7, 14, 17, 18, 20). Score: 0.75.
+*   `smartphone_connect_rating`: Apple CarPlay and Android Auto standard (Source 20, 25). No mention of wireless. Score: 0.00.
+*   `audio_rating`: Bang & Olufsen 19-speaker sound system available/standard on some trims (Source 5, 14, 20, 25, 35). Score: 0.75.
+*   `usb_ports`: Not specified, likely average (2-3). Score: 0.00.
+*   `comfort_feature_score`: Heated, power-adjustable front seats with lumbar and massage standard/available (Source 20, 25, 31, 35). Three-zone climate control available (Source 20). Score: 0.50.
+*   `convenience_feature_score`: Powered tailgate (Source 6, 20, 24, 25), gesture control available (Source 24, 25), 360-degree cameras (Source 10, 14, 20, 25), parking sensors (Source 10, 14). Good suite of features. Score: 0.75.
+*   `brand_prestige_rating`: Audi is a premium German brand. Score: 0.50.
+*   `model_prestige_rating`: RS4 is the top performance variant of the A4 range. Score: -1.00 (Top of brand/halo cars).
+*   `trim_prestige_rating`: Competition/Competition Plus is a top performance trim. Score: -1.00 (Top Trims).
+*   `interior_luxury_rating`: High-quality interior materials (Nappa leather, Alcantara, carbon trim options) (Source 5, 6, 11, 14, 17, 18, 25, 35). Score: 0.75.
+*   `interior_tech_focus_rating`: Features Virtual Cockpit (digital instruments) and a large touchscreen (Source 6, 17, 18, 20, 25). Tech-focused, but maybe not as minimalist/screen-heavy as the newest Audi interiors or Tesla. Score: 0.75.
+
+Refining scores based on benchmarks and search results.
+
+*   `price_usd`: ~$105k - $124k USD. >$100k is -1.00. Score: -1.00.
+*   `total_cost_estimate_5yr_usd`: High purchase price, high insurance, high fuel, average maintenance. Likely >$60k over 5 years. Score: -1.00.
+*   `insurance_usd_yr`: High performance car, high risk. Likely >$2500/year. Score: -1.00.
+*   `maint_usd_yr`: Service plan is cheap, but overall maintenance for a performance Audi is higher than average. Let's stick with -0.50.
+*   `repair_risk_score`: Audi is average. Score: 0.00.
+*   `hp`: 450 hp. Well above 200 hp average. Score: 1.00.
+*   `torque`: 443 lb-ft. Well above 190 lb-ft average. Score: 1.00.
+*   `cylinder_count`: V6. Average. Score: 0.00.
+*   `engine_displacement`: 2.9L. Average. Score: 0.00.
+*   `accel_0_60_sec`: 3.9 sec. Well below 7.5 sec average. Score: 1.00.
+*   `top_speed`: 180 mph. Well above 150 mph average. Score: 1.00.
+*   `drive_type`: AWD. Average. Score: 0.00.
+*   `transmission_type`: Automatic. Best score. Score: 1.00.
+*   `offroad_ability`: Very poor. Score: 1.00 (as per guide's inverted scale).
+*   `braking_dist_ft`: Performance car, ceramic option. Likely <125 ft, possibly <105 ft. Let's go with 0.75.
+*   `size`: Medium wagon. Score: 0.00.
+*   `wheelbase`: 2826mm. Slightly above 2700mm average. Score: 0.25.
+*   `body_style`: Wagon. More practical than sedan/coupe, less than van. Score: 0.50.
+*   `seats`: 5. Average. Score: 0.00.
+*   `cargo_space`: 17.5 cu ft seats up, 52.8 cu ft seats down. Average seats up, good seats down. Score: 0.25.
+*   `rear_space`: Good for 6-footers. Score: 0.50.
+*   `ground_clearance_in`: ~5.1 inches, lowered further. Below 6.5" average. Score: -0.75.
+*   `turn_radius_ft`: Not found. Default 0.00.
+*   `mpg`: ~22-27 MPG. Below 30 mpg average. Score: -0.50.
+*   `co2_g_km`: ~201-243 g/km. Above 175 g/km average. Score: -1.00.
+*   `electric_range_mi`: -1.00.
+*   `charge_speed_kw`: -1.00.
+*   `style_sleek_vs_boxy`: Wagon shape, aggressive styling. Score: 0.00.
+*   `style_aggression_rating`: Aggressive RS styling. Score: 0.75.
+*   `style_modernity_rating`: Modern Audi design, but platform aging. Score: 0.50.
+*   `handling_rating`: Enhanced Competition handling. Score: 0.90.
+*   `ride_comfort_rating`: Stiff performance suspension. Score: -0.75.
+*   `cabin_noise_rating`: Less sound deadening, louder exhaust. Score: -0.50.
+*   `shift_smooth_rating`: Retuned for crispness, less smooth. Score: 0.50.
+*   `steering_feel_rating`: Fixed ratio, described as numb/weighted. Score: 0.00.
+*   `adas_score`: Good suite of standard ADAS. Score: 0.75.
+*   `visibility_rating`: Wagon body. Score: 0.00.
+*   `headlight_rating`: Matrix LED. Score: 0.75.
+*   `security_rating`: Premium car. Score: 0.00.
+*   `screen_in`: 10.1 inch. Above average. Score: 0.50.
+*   `infotainment_ux_rating`: Well-regarded MMI touch. Score: 0.75.
+*   `smartphone_connect_rating`: Standard CarPlay/AA, no wireless mentioned. Score: 0.00.
+*   `audio_rating`: B&O system available. Score: 0.75.
+*   `usb_ports`: Not specified. Default 0.00.
+*   `comfort_feature_score`: Power/heated/massage seats available. Score: 0.50.
+*   `convenience_feature_score`: Powered tailgate, 360 cam, etc. Score: 0.75.
+*   `brand_prestige_rating`: Audi premium. Score: 0.50.
+*   `model_prestige_rating`: RS4 is top A4. Score: -1.00.
+*   `trim_prestige_rating`: Competition is top trim. Score: -1.00.
+*   `interior_luxury_rating`: High quality materials. Score: 0.75.
+*   `interior_tech_focus_rating`: Virtual Cockpit, large screen. Score: 0.75.
+
+Looks good. Ready to format as JSON.```json
+{
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": 0.00,
+  "hp": 1.00,
+  "torque": 1.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 1.00,
+  "top_speed": 1.00,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.75,
+  "size": 0.00,
+  "wheelbase": 0.25,
+  "body_style": 0.50,
+  "seats": 0.00,
+  "cargo_space": 0.25,
+  "rear_space": 0.50,
+  "ground_clearance_in": -0.75,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.50,
+  "co2_g_km": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.75,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.90,
+  "ride_comfort_rating": -0.75,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.75,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.75,
+  "security_rating": 0.00,
+  "screen_in": 0.50,
+  "infotainment_ux_rating": 0.75,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": 0.75,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 0.50,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": 0.75
+}
+```

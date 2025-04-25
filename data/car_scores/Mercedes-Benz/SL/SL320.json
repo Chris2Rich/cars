@@ -1,59 +1,109 @@
-The specific model designation 'SL320' was used in previous generations of the Mercedes-Benz SL (like the R129 and R230), but it is **not** part of the current, most recent generation (R232, 2022-present). The current SL lineup consists of the SL 43, SL 55, SL 63, and SL 63 S E Performance models.
+The most recent version of the Mercedes-Benz SL with the 'SL320' designation is part of the R129 generation, produced from 1993 to 2001 [17, 32]. There were two versions of the SL320 in the R129: an inline-six (M104 engine) from 1993-1998 and a V6 (M112 engine) from 1998-2001 [17, 18]. I will use the specifications for the later 1998-2001 SL320 V6 as the "most recent" SL320.
 
-Since the requested model ['Mercedes-Benz', 'SL', 'SL320'] does not exist in the most recent version, I cannot provide specific ratings based on current market data and specifications. As per the instructions for ambiguous or unclear data, I will default all scores to `0.00`.
+Here is the evaluation based on the 1998-2001 Mercedes-Benz R129 SL320 V6, compared to today's market average:
 
-```json
+*   **price_usd:** As a classic/youngtimer, current market prices vary significantly based on condition, but the original price was high luxury [11]. Average used prices are around $12,000-$13,000 [32], which is well below the market average for a *new* car. However, the prompt asks to benchmark against today's *general market*, and its original positioning and current collector value potential place it outside the "cheap used car" bracket. Considering its original price point and target market, it was expensive. Score: -1.00.
+*   **total_cost_estimate_5yr_usd:** Older luxury cars, especially Mercedes of this era with complex systems (like the hydraulic roof), can have significant maintenance and repair costs [21, 22, 24]. Insurance is also high [2, 15, 36]. Score: -1.00.
+*   **insurance_usd_yr:** Insurance group 48 [2, 15, 36] is very high. Score: -1.00.
+*   **maint_usd_yr:** Known issues with hydraulic cylinders, wiring harnesses (on earlier models, but still a risk), and general aging components [21, 22, 24]. Maintenance is expensive [20]. Score: -1.00.
+*   **repair_risk_score:** While the M112 V6 engine is generally reliable [6, 9], the R129 platform has known common issues like hydraulic leaks for the roof, wiring harness deterioration (less common on later models but still possible), and aging plastic/trim parts [21, 22, 24]. This makes it less reliable than average modern cars or highly reliable classics. Score: -0.50.
+*   **hp:** 224 hp [5, 8, 9, 18, 33]. Today's average is ~200 hp. Score: 0.20.
+*   **torque:** 315 Nm (232 lb-ft) [5, 8, 9, 18]. Today's average is ~190 lb-ft. Score: 0.40.
+*   **cylinder_count:** V6 [5, 8, 9, 18]. Today's average is 4 or 6. Score: 0.00.
+*   **engine_displacement:** 3.2L [5, 8, 9, 18]. Today's average is around 2.0-3.0L. Score: 0.00.
+*   **accel_0_60_sec:** ~8.0-8.4 seconds [4, 5, 9, 13, 14, 23, 25]. Today's average is ~7.5 sec. Score: -0.20.
+*   **top_speed:** ~148-149 mph (238-240 km/h) [4, 5, 9, 13, 14, 18]. Today's average is ~120-130 mph. Score: 0.40.
+*   **drive_type:** RWD [4, 5, 9, 10, 13, 17]. Score: +1.00.
+*   **transmission_type:** 5-speed Automatic [4, 5, 9, 10, 13, 17, 18]. Score: +1.00 (following guide).
+*   **offroad_ability:** Very poor. Score: +1.00 (following guide).
+*   **braking_dist_ft:** Equipped with ABS and decent brakes for its time [28, 33, 35]. Likely average compared to modern cars. Score: 0.00.
+*   **size:** Length ~4499 mm (177.13 in) [5, 16, 19]. Today's average sedan/crossover is ~4600mm. Score: 0.00.
+*   **wheelbase:** ~2515 mm (99.02 in) [4, 5, 16, 17]. Today's average is ~2700mm. Score: -0.20.
+*   **body_style:** 2-door convertible/roadster [4, 5, 13, 17]. Score: -1.00.
+*   **seats:** 2 seats [10, 13]. Some sources mention 4 seats [5], referring to tiny rear jump seats [20, 11]. Defaulting to the primary 2 seats. Score: -1.00.
+*   **cargo_space:** ~9.36 cu ft (265 L) [4, 5, 13]. Today's average ~15 cu ft. Score: -0.80.
+*   **rear_space:** N/A (2-seater). Score: -1.00.
+*   **ground_clearance_in:** Low for a sports car/convertible. Estimate ~4-5 inches [19]. Score: -0.80.
+*   **turn_radius_ft:** 10.7 m (35.1 ft) [4, 5]. Today's average ~36 ft. Score: 0.00.
+*   **mpg:** ~20-25 mpg combined (US/UK figures vary) [4, 5, 9, 12, 13, 15]. Today's average ~30 mpg. Score: -0.80.
+*   **co2_g_km:** ~260-270 g/km (inferred from mpg and era). Today's average ~175 g/km. Score: -0.80.
+*   **electric_range_mi:** Not electric. Score: -1.00.
+*   **charge_speed_kw:** Not electric. Score: -1.00.
+*   **style_sleek_vs_boxy:** Relatively sleek for its time, but not as extreme as modern coupe-like designs. Score: 0.50.
+*   **style_aggression_rating:** More elegant and timeless than aggressive [27, 28, 29]. Score: 0.00.
+*   **style_modernity_rating:** Dated compared to today's designs [29]. Score: -1.00.
+*   **handling_rating:** Described as adequate and reasonable, but not a sharp handler; more of a cruiser [11, 27, 35]. Score: 0.00.
+*   **ride_comfort_rating:** Known for excellent ride comfort for its era [11, 27, 31, 35]. Score: 0.50.
+*   **cabin_noise_rating:** Convertible, older insulation. Likely noisier than modern sedans/coupes, but perhaps decent for a convertible of its time. Score: -0.50.
+*   **shift_smooth_rating:** 5-speed automatic described as super smooth [31]. Score: 0.50.
+*   **steering_feel_rating:** Described as having "slightly wayward steering" and not much feel, but super easy to drive [11, 31]. Score: -0.20.
+*   **adas_score:** Minimal to none (ABS, ASR, Brake Assist, ESP on later models) [3, 10, 28, 29, 33]. Score: -0.80.
+*   **visibility_rating:** Good forward/side visibility with roof down, maybe average with roof up. Rear visibility limited [35]. Score: 0.00.
+*   **headlight_rating:** Likely Halogen or basic Xenon on later models [3, 30]. Poor compared to modern LEDs. Score: -1.00.
+*   **security_rating:** Basic alarm/immobilizer for its time [10]. Poor by modern standards. Score: -0.50.
+*   **screen_in:** Tiny or non-existent display for radio [3]. Score: -1.00.
+*   **infotainment_ux_rating:** Basic radio/CD [3]. Score: -1.00.
+*   **smartphone_connect_rating:** None. Score: -1.00.
+*   **audio_rating:** Decent for its time, described as advanced [21], but not premium by modern standards. Score: 0.00.
+*   **usb_ports:** None. Score: -1.00.
+*   **comfort_feature_score:** Power seats (with memory), heated seats, automatic climate control, cruise control [10, 21, 26, 28]. Lacks modern features. Score: 0.00.
+*   **convenience_feature_score:** Power windows/locks, electric rollover bar, power roof [10, 17, 24, 28]. Lacks modern features like keyless entry, cameras, sensors. Score: -0.50.
+*   **brand_prestige_rating:** Mercedes-Benz is high. Score: 0.90.
+*   **model_prestige_rating:** SL is an iconic model, a halo car [27, 28]. Score: -1.00 (following guide).
+*   **trim_prestige_rating:** SL320 was a lower/mid-range engine option for the R129 [6, 27]. Score: 0.50.
+*   **interior_luxury_rating:** High quality materials for its time (leather, wood) [10, 21, 28, 35]. Still feels luxurious but dated [21]. Score: 0.70.
+*   **interior_tech_focus_rating:** Minimal tech focus compared to modern cars [21]. Score: -1.00.```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": 0.00,
-  "torque": 0.00,
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -0.50,
+  "hp": 0.20,
+  "torque": 0.40,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.00,
-  "top_speed": 0.00,
-  "drive_type": 0.00,
-  "transmission_type": 0.00,
-  "offroad_ability": 0.00,
+  "accel_0_60_sec": -0.20,
+  "top_speed": 0.40,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
   "size": 0.00,
-  "wheelbase": 0.00,
-  "body_style": 0.00,
-  "seats": 0.00,
-  "cargo_space": 0.00,
-  "rear_space": 0.00,
-  "ground_clearance_in": 0.00,
+  "wheelbase": -0.20,
+  "body_style": -1.00,
+  "seats": -1.00,
+  "cargo_space": -0.80,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.80,
   "turn_radius_ft": 0.00,
-  "mpg": 0.00,
-  "co2_g_km": 0.00,
-  "electric_range_mi": 0.00,
-  "charge_speed_kw": 0.00,
-  "style_sleek_vs_boxy": 0.00,
+  "mpg": -0.80,
+  "co2_g_km": -0.80,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
   "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.00,
+  "style_modernity_rating": -1.00,
   "handling_rating": 0.00,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": -0.20,
+  "adas_score": -0.80,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.00,
-  "security_rating": 0.00,
-  "screen_in": 0.00,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.00,
+  "headlight_rating": -1.00,
+  "security_rating": -0.50,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
   "audio_rating": 0.00,
-  "usb_ports": 0.00,
+  "usb_ports": -1.00,
   "comfort_feature_score": 0.00,
-  "convenience_feature_score": 0.00,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.00,
-  "interior_tech_focus_rating": 0.00
+  "convenience_feature_score": -0.50,
+  "brand_prestige_rating": 0.90,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": 0.50,
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": -1.00
 }
 ```

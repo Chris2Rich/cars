@@ -1,0 +1,165 @@
+```json
+{
+  "price_usd": -0.75,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -0.75,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.50,
+  "torque": 0.50,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": 0.75,
+  "top_speed": 0.50,
+  "drive_type": 1.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 1.00,
+  "size": -0.25,
+  "wheelbase": -0.50,
+  "body_style": -1.00,
+  "seats": -1.00,
+  "cargo_space": 0.00,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.75,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.25,
+  "co2_g_km": 0.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.75,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 1.00,
+  "ride_comfort_rating": -0.50,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": 0.75,
+  "steering_feel_rating": 1.00,
+  "adas_score": 0.00,
+  "visibility_rating": -0.50,
+  "headlight_rating": 0.00,
+  "security_rating": 0.50,
+  "screen_in": -0.25,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": 0.00,
+  "usb_ports": -0.25,
+  "comfort_feature_score": 0.25,
+  "convenience_feature_score": 0.25,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": 1.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": -0.25
+}
+```
+
+**Reasoning for each rating:**
+
+*   `price_usd`: -0.75 - The base 2025 Porsche 718 Cayman starts around $73,000, which is significantly above the market average of $35,000, but not in the ultra-luxury range (> $100,000).
+*   `total_cost_estimate_5yr_usd`: -1.00 - Edmunds estimates the 5-year cost to own for the base 2025 model at over $106,000, which is well above the -$1.00 benchmark of >$60,000.
+*   `insurance_usd_yr`: -0.75 - The 718 Cayman falls into high UK insurance groups (42-46 out of 50), indicating significantly higher insurance costs than the average vehicle, although US estimates are closer to the average benchmark.
+*   `maint_usd_yr`: -1.00 - Maintenance costs for Porsche vehicles, including the 718 Cayman, are generally high. Estimates suggest annual costs well above the -$1.00 benchmark of >$1,200.
+*   `repair_risk_score`: 0.00 - Reliability data is conflicting, with some sources indicating high reliability and others citing below-average reliability with expensive potential repairs. Defaulting to average.
+*   `hp`: 0.50 - The base 718 Cayman's 300 hp is well above the market average of 200 hp.
+*   `torque`: 0.50 - The base 718 Cayman's 280 lb-ft of torque is well above the market average of 190 lb-ft.
+*   `cylinder_count`: -0.50 - The base model has a 4-cylinder engine, below the average benchmark of 6 cylinders.
+*   `engine_displacement`: -0.50 - The base model's 2.0L engine displacement is below the average benchmark of 3.0L.
+*   `accel_0_60_sec`: 0.75 - The base Cayman with PDK and Sport Chrono can achieve 0-60 mph in around 4.7 seconds, which is significantly faster than the average of 7.5 seconds.
+*   `top_speed`: 0.50 - A top speed of 171 mph for the base model is above the average of 150 mph.
+*   `drive_type`: 1.00 - The 718 Cayman is Rear-Wheel Drive (RWD), which is scored +1.00 according to the guide.
+*   `transmission_type`: 0.00 - The standard transmission is a 7-speed PDK, which is a Dual-Clutch transmission, scored 0.00 according to the guide.
+*   `offroad_ability`: 1.00 - As a low-slung sports car, the 718 Cayman has poor offroad ability, which is scored +1.00 according to the guide's examples.
+*   `braking_dist_ft`: 1.00 - While data for the base model wasn't explicit, the high-performance GT4 RS model's 60-0 mph braking distance of 98 feet is within the excellent (<105 ft) range, indicating superb braking capability for the model line.
+*   `size`: -0.25 - The 718 Cayman's length of around 4379mm is smaller than the average car length of approximately 4600mm.
+*   `wheelbase`: -0.50 - The wheelbase of 2475mm is shorter than the average benchmark of 2700mm, closer to the -1.00 benchmark.
+*   `body_style`: -1.00 - The 718 Cayman is a 2-Door Coupe, which is scored -1.00 according to the guide.
+*   `seats`: -1.00 - The 718 Cayman has 2 seats, which is scored -1.00 according to the guide.
+*   `cargo_space`: 0.00 - The combined front and rear cargo space is around 15 cu ft, which matches the average benchmark.
+*   `rear_space`: -1.00 - As a 2-seater, there is no rear seating space, scoring -1.00.
+*   `ground_clearance_in`: -0.75 - With a ground clearance of around 4.3 inches, it is very low, close to the -1.00 benchmark for sports coupes (<4").
+*   `turn_radius_ft`: 0.00 - The turning radius of 36.1 ft is right around the average benchmark of 36 ft.
+*   `mpg`: -0.25 - The base model's combined 24 mpg is below the market average of 30 mpg.
+*   `co2_g_km`: 0.00 - The estimated CO2 emissions of around 175 g/km are at the average benchmark.
+*   `electric_range_mi`: -1.00 - The vehicle is not electric.
+*   `charge_speed_kw`: -1.00 - The vehicle is not electric.
+*   `style_sleek_vs_boxy`: 0.75 - The 718 Cayman has a sleek, aerodynamic sports coupe design, leaning towards the +1.00 benchmark.
+*   `style_aggression_rating`: 0.50 - The design is sporty and aggressive, above average but not as extreme as a supercar.
+*   `style_modernity_rating`: 0.50 - The design is modern and current, but represents an evolution of Porsche's classic sports car shape rather than a radical, avant-garde approach.
+*   `handling_rating`: 1.00 - Porsche vehicles, especially the Cayman, are renowned for their superb handling and are explicitly listed as a +1.00 example in the guide.
+*   `ride_comfort_rating`: -0.50 - As a sports car, the ride is likely firm and less focused on comfort compared to the average vehicle.
+*   `cabin_noise_rating`: -0.50 - Sports cars typically have more cabin noise than average vehicles, and some reviews mention road noise.
+*   `shift_smooth_rating`: 0.75 - The standard PDK transmission is known for its smooth and rapid shifts, scoring well above average.
+*   `steering_feel_rating`: 1.00 - Porsche is known for its excellent, communicative steering feel, explicitly listed as a +1.00 example (via MX-5 Miata, which is known for great steering).
+*   `adas_score`: 0.00 - The base model includes some standard ADAS features like parking sensors and a rearview camera, with more advanced options available, placing it around average for the market.
+*   `visibility_rating`: -0.50 - Sports coupe designs often compromise rear and side visibility compared to more upright vehicles.
+*   `headlight_rating`: 0.00 - Standard Bi-Xenon headlights are better than basic halogens but not as advanced as top-tier LED matrix systems, scoring average.
+*   `security_rating`: 0.50 - Porsche vehicles typically have robust security features, likely above the market average.
+*   `screen_in`: -0.25 - The base model features a 7-inch infotainment touchscreen, which is slightly smaller than the average benchmark of 8 inches.
+*   `infotainment_ux_rating`: 0.00 - Porsche's PCM system is generally functional and well-regarded, placing it around average compared to the best systems available.
+*   `smartphone_connect_rating`: 0.00 - Apple CarPlay is standard, but the lack of Android Auto prevents a higher score, placing it around average overall.
+*   `audio_rating`: 0.00 - The standard 8-speaker audio system is typical for a base model, scoring average. Premium options are available.
+*   `usb_ports`: -0.25 - With likely 2 standard USB ports, it falls slightly below the average benchmark of 3 ports.
+*   `comfort_feature_score`: 0.25 - Standard features like heated seats and dual-zone climate control, along with available power seats, provide a good level of comfort for a sports car, above the basic average.
+*   `convenience_feature_score`: 0.25 - Includes standard convenience features like cruise control, camera, and sensors, placing it above basic vehicles, though not equipped with the most advanced convenience tech as standard.
+*   `brand_prestige_rating`: 1.00 - Porsche is explicitly listed as a +1.00 brand in the guide.
+*   `model_prestige_rating`: 1.00 - Following the guide's definition of "Entry Level Models" scoring +1.00, the 718 Cayman is the entry-level sports car in Porsche's lineup.
+*   `trim_prestige_rating`: 1.00 - Following the guide's definition of "Base Models" scoring +1.00, this evaluation is for the base trim.
+*   `interior_luxury_rating`: 0.50 - The interior uses premium materials in some areas, offering a luxurious feel for a sports car, but some less premium materials are present, placing it above average but not in the top luxury tier.
+*   `interior_tech_focus_rating`: -0.25 - The interior design is driver-focused with a mix of screens and physical controls, less dominated by large screens compared to vehicles with a high interior tech focus.
+
+```json
+{
+  "price_usd": -0.75,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -0.75,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.50,
+  "torque": 0.50,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": 0.75,
+  "top_speed": 0.50,
+  "drive_type": 1.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 1.00,
+  "size": -0.25,
+  "wheelbase": -0.50,
+  "body_style": -1.00,
+  "seats": -1.00,
+  "cargo_space": 0.00,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.75,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.25,
+  "co2_g_km": 0.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.75,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 1.00,
+  "ride_comfort_rating": -0.50,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": 0.75,
+  "steering_feel_rating": 1.00,
+  "adas_score": 0.00,
+  "visibility_rating": -0.50,
+  "headlight_rating": 0.00,
+  "security_rating": 0.50,
+  "screen_in": -0.25,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": 0.00,
+  "usb_ports": -0.25,
+  "comfort_feature_score": 0.25,
+  "convenience_feature_score": 0.25,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": 1.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": -0.25
+}
+```

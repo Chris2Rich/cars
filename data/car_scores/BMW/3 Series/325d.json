@@ -1,0 +1,111 @@
+The BMW 325d was part of the F30 generation (2012-2019), with updated versions available after the 2015 facelift (LCI) [4, 7, 9, 12, 18]. The most recent version would be from the later years of the F30 production, likely 2016-2018, before the G20 generation was introduced in 2018 [9, 18, 35]. The 325d was not carried over to the G20 generation [35].
+
+Based on the search results for the F30 325d (specifically the later 224 hp version where noted [9]):
+
+- **price_usd**: The F30 325d is no longer sold new. Used prices in the UK market vary but are often found in the £10,000 - £20,000 range depending on age, mileage, and condition [22, 38, 40]. Converting this to USD (~$12,500 - $25,000 at current exchange rates) places it well below the average new car price of $35,000, scoring positively.
+- **total_cost_estimate_5yr_usd**: While the purchase price is lower, BMWs, especially older diesel models, can have higher maintenance and potential repair costs [6, 9, 27]. This, combined with potential depreciation from the current used value, likely puts the 5-year cost above the $40,000 average for a new car.
+- **insurance_usd_yr**: BMWs generally have higher insurance costs. The 325d is a relatively powerful diesel. Insurance groups for F30s can be in the mid-to-high range. This scores negatively.
+- **maint_usd_yr**: BMW maintenance costs are typically above average [6, 9, 27]. Scores negatively.
+- **repair_risk_score**: The N47 and B47 diesel engines in the F30 have had some reported issues, particularly with timing chains in earlier N47s, although the B47 is considered more reliable [6, 9, 27]. Common rail system and EGR valve issues are also mentioned [6, 9]. This places reliability below the top tier.
+- **hp**: The later F30 325d has 224 hp [9]. This is above the market average of 200 hp.
+- **torque**: Torque is 450 Nm (331-332 lb-ft) [3, 4, 5, 7, 8, 9, 12, 42]. This is significantly above the market average of 190 lb-ft.
+- **cylinder_count**: The 325d uses a 4-cylinder engine [2, 3, 4, 5, 6, 7, 8, 9, 12, 14, 42]. This is around the market average.
+- **engine_displacement**: The engine is 2.0L (1995 cm³) [3, 4, 5, 6, 7, 8, 9, 12, 14, 42]. This is around the market average for engine displacement today, especially with turbocharging.
+- **accel_0_60_sec**: 0-60 mph is around 5.8-6.6 seconds depending on transmission and specific year [3, 4, 9, 10, 12, 16, 17]. This is significantly faster than the market average of 7.5 seconds.
+- **top_speed**: Top speed is around 152 mph (245 km/h) [3, 4, 5, 6, 7, 8, 9, 10, 12, 42]. This is around the market average.
+- **drive_type**: Primarily Rear-Wheel Drive (RWD), with some xDrive (AWD) models available [2, 3, 4, 5, 7, 8, 9, 12, 14, 15, 18]. RWD is rated positively.
+- **transmission_type**: Available with both 6-speed manual and 8-speed automatic (Steptronic) transmissions [2, 3, 4, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 32, 42]. The 8-speed automatic is generally well-regarded. Automatic is rated positively.
+- **offroad_ability**: This is a sedan/touring car, not designed for off-road use. Scores poorly.
+- **braking_dist_ft**: BMWs generally have good braking performance. Specific data for the 325d wasn't found, but the platform is known for competent braking. Defaulting to average or slightly above.
+- **size**: The F30 sedan length is around 4624-4633 mm (182.0-182.4 inches) [3, 4, 12, 14, 18, 42]. This is around the average for a modern sedan (~4600mm).
+- **wheelbase**: Wheelbase is 2810 mm (110.6 inches) [3, 4, 12, 14, 18, 42]. This is slightly above the average for a modern car (~2700mm).
+- **body_style**: Primarily 4-door Sedan (Saloon), also available as a 5-door Touring (Estate) [2, 12, 14, 18, 29, 34, 40, 42]. Sedan is the market average.
+- **seats**: Typically 5 seats [12, 14, 42]. This is the market average.
+- **cargo_space**: Cargo space for the sedan is 480 L (16.95 cu ft or 17 cu ft) [3, 4, 12, 15, 42]. This is around the market average (~15 cu ft).
+- **rear_space**: Rear legroom in the F30 was improved over the E90 but still not class-leading compared to larger sedans [11, 18]. Likely around the average (~35").
+- **ground_clearance_in**: Ground clearance is around 140 mm (5.51 inches) [3, 4]. This is below the average for compact crossovers (~6.5") but typical for a sedan. Scores negatively.
+- **turn_radius_ft**: Turn radius is 11.3 m (37.07 ft or 37.1 ft) [3, 4, 12, 42]. This is around the market average (~36 ft).
+- **mpg**: Fuel economy is rated highly for a performance diesel, with combined figures around 48-57.6 UK mpg (40-48 US mpg) [3, 4, 5, 6, 8, 12, 15, 42]. Real-world figures are often slightly lower but still good [6, 19]. This is above the market average (~30 mpg).
+- **co2_g_km**: CO2 emissions are around 121-129 g/km for Euro 5/6 models [10, 12, 14, 42]. This is below the average for a non-hybrid gasoline car (~175 g/km). Scores positively.
+- **electric_range_mi**: Not an electric vehicle. Scores -1.00.
+- **charge_speed_kw**: Not an electric vehicle. Scores -1.00.
+- **style_sleek_vs_boxy**: The F30 has a conventional sedan shape, neither particularly sleek nor boxy. Around average.
+- **style_aggression_rating**: The F30 has a sporty but not overly aggressive design, especially in M Sport trim [11, 19]. Slightly above average.
+- **style_modernity_rating**: The F30 design is from the 2010s and looks somewhat dated compared to the latest models. Scores negatively.
+- **handling_rating**: BMW 3 Series is known for excellent handling [31, 36]. Scores highly. M Sport versions are often firmer [19].
+- **ride_comfort_rating**: Ride is described as firm but comfortable, a good balance [19, 31, 36]. Around average or slightly above.
+- **cabin_noise_rating**: Cabin noise is generally well-controlled, though some road noise can be present depending on the surface [19, 36, 37]. Around average or slightly above.
+- **shift_smooth_rating**: The 8-speed automatic transmission is generally praised for its smoothness [19, 37]. Scores highly. Manual is also available.
+- **steering_feel_rating**: Steering is typically well-weighted and direct, though some reviewers noted a slight reduction in feel compared to older generations [36]. Still scores positively.
+- **adas_score**: The F30 offered some ADAS features (like adaptive cruise control, parking sensors) [13, 31], but not the extensive suites found in the latest vehicles. Scores around average for its time, but below average compared to today's best.
+- **visibility_rating**: Visibility is generally good [36]. Around average.
+- **headlight_rating**: Available with Xenon or LED headlights [13, 28]. These were good for their time but not as advanced as modern Matrix LEDs. Scores around average or slightly above.
+- **security_rating**: Standard security features for a premium car of its era. Likely around average or slightly above.
+- **screen_in**: Available iDrive screen sizes varied, with larger screens available [13, 36]. An 8.8-inch screen was common with Professional Navigation [13, 23]. This is around average compared to modern screens.
+- **infotainment_ux_rating**: The iDrive system in the F30 was improved over previous generations and generally considered good, though perhaps not as intuitive as the very best modern systems [31]. Scores above average for its time, but around average compared to today.
+- **smartphone_connect_rating**: Bluetooth for calls and audio streaming was standard [13]. USB input was available [13]. Apple CarPlay was introduced later in the F30's life, often as an option [Search needed for specific 325d availability]. Lacks the seamless wireless integration of the latest systems. Scores around average or slightly below compared to today.
+- **audio_rating**: Standard audio system was likely average, with upgraded systems (like Harman Kardon) available. Defaulting to average for the standard system.
+- **usb_ports**: Had USB interface [13]. Likely 1 or 2 ports standard. Below average compared to modern cars with multiple ports.
+- **comfort_feature_score**: Available features included heated seats, dual-zone climate control, power seats, leather upholstery [13, 18, 19]. Offers a good level of comfort features, above average for the general market.
+- **convenience_feature_score**: Available features included parking sensors, keyless ignition (Comfort Access optional), power tailgate on Touring [13, 19]. Lacks some of the advanced convenience features of the latest cars (360 cameras, advanced parking). Scores above average for its time, but around average compared to today.
+- **brand_prestige_rating**: BMW is a premium brand. Scores highly.
+- **model_prestige_rating**: The 3 Series is a core, well-regarded model in the BMW lineup. Middle of the range for the brand.
+- **trim_prestige_rating**: The 325d was a mid-to-high level diesel trim in the F30 range, offering a good balance of performance and economy, positioned below the 330d and 335d [37, 41]. Scores around average or slightly below as it wasn't the top diesel trim.
+- **interior_luxury_rating**: Interior materials and build quality were good, with leather and quality trims available [11, 31, 36]. Scores above average for the general market, but not top-tier luxury.
+- **interior_tech_focus_rating**: The F30 interior has a mix of physical controls and a screen. It's not as screen-dominated as the latest interiors. Scores around average compared to modern tech focus.
+
+Refining scores based on the analysis.```json
+{
+  "price_usd": 0.80,
+  "total_cost_estimate_5yr_usd": -0.40,
+  "insurance_usd_yr": -0.30,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.20,
+  "hp": 0.20,
+  "torque": 0.70,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.40,
+  "top_speed": 0.00,
+  "drive_type": 0.50,
+  "transmission_type": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.10,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.10,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.30,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.70,
+  "co2_g_km": 0.50,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.10,
+  "style_modernity_rating": -0.50,
+  "handling_rating": 0.80,
+  "ride_comfort_rating": 0.10,
+  "cabin_noise_rating": 0.10,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.60,
+  "adas_score": -0.30,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.10,
+  "security_rating": 0.10,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": -0.50,
+  "audio_rating": 0.00,
+  "usb_ports": -0.50,
+  "comfort_feature_score": 0.20,
+  "convenience_feature_score": 0.10,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -0.10,
+  "interior_luxury_rating": 0.20,
+  "interior_tech_focus_rating": -0.30
+}
+```

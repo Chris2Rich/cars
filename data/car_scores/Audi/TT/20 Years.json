@@ -1,0 +1,109 @@
+Based on the search results, here's the data and reasoning for each score:
+
+*   **price_usd**: The 2019 Audi TT 20 Years Edition coupe had an MSRP of $52,900 (Source 3, 7). This is above the market average of $35,000 but not in the luxury sedan/SUV range. Score: **-0.30**.
+*   **total_cost_estimate_5yr_usd**: Audi maintenance is average to slightly above. Depreciation for a limited edition might be better than a standard TT, but it's still a coupe. KBB estimates for a 2023 TT show a cost to drive of $231/month (Source 13), which is roughly $13,860 over 5 years, but this doesn't include depreciation, insurance, or full maintenance. A general estimate for a premium sports coupe would be higher than the $40,000 average. Let's estimate it falls between the average and the high end. Score: **-0.40**. *Correction*: The KBB cost to drive is likely just fuel. A 5-year cost estimate for a premium coupe is likely well above $40k. Let's re-evaluate. A standard TT's 5-year cost is likely above average. The limited edition status might help depreciation slightly, but overall costs (insurance, maintenance) are still premium. Let's place it closer to the higher end of average/below average. Score: **-0.80**.
+*   **insurance_usd_yr**: Sports coupe from a premium brand. Insurance groups are typically higher. While I couldn't find the exact UK insurance group for the "20 Years" edition, standard TT models are in higher groups. Score: **-0.25**.
+*   **maint_usd_yr**: Audi maintenance is generally higher than mainstream brands but not as high as some top-tier luxury or performance cars. Score: **0.30**.
+*   **repair_risk_score**: Audi generally has average to good reliability, better than some European counterparts but not typically best-in-class like Toyota/Lexus. Score: **0.70**.
+*   **hp**: The TT 20 Years Edition (US spec) has 228 hp (Source 3, 7, 18). The 45 TFSI global version has 245 hp (Source 4, 10, 16, 17). 228-245 hp is above the 200 hp average but not high-performance territory. Score: **0.10**.
+*   **torque**: The 2.0 TFSI engine produces 258 lb-ft (US spec) or 370 Nm (273 lb-ft) (global 45 TFSI) (Source 5, 16, 17). This is above the 190 lb-ft average. Score: **0.20**.
+*   **cylinder_count**: 4-cylinder (Source 5, 18). Below the 6-cylinder average for performance/premium cars, but common for this engine size. Score: **-0.20**.
+*   **engine_displacement**: 2.0L (Source 5, 16, 17). Below the 3.0L average for premium/performance cars. Score: **-0.30**.
+*   **accel_0_60_sec**: 5.2 seconds (coupe) (Source 3, 7, 18). This is significantly faster than the 7.5-second average. Score: **0.50**.
+*   **top_speed**: 130 mph (US spec, likely limited) (Source 7). Global versions might be higher (155 mph for 45 TFSI - Source 4). 130 mph is below the 150 mph average for performance cars, but 155 mph is average. Let's average it out slightly below average due to the US spec being limited. Score: **0.05**.
+*   **drive_type**: Available with Quattro (AWD) (Source 4, 6, 10, 17, 18). AWD is the market average. Score: **0.00**.
+*   **transmission_type**: 7-speed S tronic dual-clutch automatic (Source 3, 4, 10, 18). Dual-clutch is the market average for sporty cars. Score: **0.00**.
+*   **offroad_ability**: Low ground clearance, sports coupe, not designed for off-road. Score: **-1.00**.
+*   **braking_dist_ft**: Search results show 70-0 mph braking around 151 ft for a 2016 TT (Source 2). Another source mentions 154 ft for a TT RS (Source 22). These are longer than the 125 ft average. Score: **-1.00**.
+*   **size**: Length around 4190-4191mm (Source 8, 27, 29). This is smaller than the 4600mm average. Score: **-0.30**.
+*   **wheelbase**: 2505mm (Source 8, 11, 27, 29). Smaller than the 2700mm average. Score: **-0.40**.
+*   **body_style**: 2-door coupe (Source 8). Below the 4-door sedan/coupe average for practicality. Score: **-1.00**.
+*   **seats**: 4 seats (2+2) (Source 4, 8, 14). The rear seats are very small (Source 5, 21). Score: **-0.50**.
+*   **cargo_space**: 12 cu ft (Source 5, 14, 21). Some sources mention higher with rear seats folded (22 cu ft - Source 13), but the base figure is 12 cu ft. This is below the 15 cu ft average. Score: **-0.10**.
+*   **rear_space**: Minimal/unusable rear seats (Source 5, 21). Score: **-1.00**.
+*   **ground_clearance_in**: 135mm = 5.3 inches (Source 11). This is below the 6.5" average for crossovers, but typical for a sports coupe. Score: **-0.90**.
+*   **turn_radius_ft**: 4.9m = 16.1 ft (Source 8). Another source says 36.1 ft (Source 40). 16.1 ft is exceptionally tight, 36.1 ft is average. Given it's a compact car, 16.1 ft seems more likely for minimum turning radius (between curbs), while 36.1 ft might be turning circle (wall-to-wall). Let's use the smaller radius as it indicates maneuverability. Score: **1.00**. *Correction*: The 16.1 ft is likely minimum turning radius (between curbs), while the 36.1 ft is turning circle (wall-to-wall). The scoring guide uses turning radius, and 36 ft is the average. 36.1 ft is right on average. Score: **0.00**.
+*   **mpg**: EPA combined 25 mpg (Source 5, 14, 34). This is below the 30 mpg average. Score: **-0.20**.
+*   **co2_g_km**: 161-165 g/km (Source 6, 15, 17, 23, 30). This is below the 175 g/km average. Score: **0.10**.
+*   **electric_range_mi**: Not electric. Score: **-1.00**.
+*   **charge_speed_kw**: Not electric. Score: **-1.00**.
+*   **style_sleek_vs_boxy**: Very sleek coupe design. Score: **0.80**.
+*   **style_aggression_rating**: Sporty and moderately aggressive design. Score: **0.40**.
+*   **style_modernity_rating**: Modern design, but the TT shape is classic. The 20 Years edition has retro touches. Moderately modern. Score: **0.50**.
+*   **handling_rating**: Known for good handling, especially with Quattro. Score: **0.60**.
+*   **ride_comfort_rating**: Sporty ride, can be firm. Score: **0.20**.
+*   **cabin_noise_rating**: Decent for a coupe, but not luxury car quiet. Score: **0.20**.
+*   **shift_smooth_rating**: S tronic is generally smooth and fast. Score: **0.60**.
+*   **steering_feel_rating**: Good, direct steering. Score: **0.70**.
+*   **adas_score**: Available ADAS like Audi side assist (Source 3), but not a full suite like top-tier vehicles. Score: **-0.20**.
+*   **visibility_rating**: Coupe design limits rear visibility. Score: **-0.20**.
+*   **headlight_rating**: LED headlights standard, Matrix OLED taillights (Source 13, 15, 20). Good lighting technology. Score: **0.30**.
+*   **security_rating**: Standard modern car security, immobilizer with anti-theft alarm and motion sensor (Source 34). Score: **0.20**.
+*   **screen_in**: Audi Virtual Cockpit is 12.3 inches (Source 5, 13, 16, 21). This is larger than the 8" average. Score: **0.60**.
+*   **infotainment_ux_rating**: Virtual Cockpit is generally well-regarded but can be complex. Score: **0.60**.
+*   **smartphone_connect_rating**: Apple CarPlay and Android Auto standard (Source 3, 5). Score: **0.50**.
+*   **audio_rating**: Bang & Olufsen Sound System standard (Source 3, 5). Premium audio. Score: **0.60**.
+*   **usb_ports**: Search didn't specify the exact number, but typically 2-3 in the front. Below the 3+ average. Score: **-0.20**.
+*   **comfort_feature_score**: Features like heated S Sport seats, climate control (controlled via vents) (Source 3, 21). Good features for the segment, but not high-end luxury. Score: **0.40**.
+*   **convenience_feature_score**: Parking aids available (not explicitly detailed for this trim, but standard on TT). Not top-tier convenience features. Score: **0.30**.
+*   **brand_prestige_rating**: Audi is a premium brand. Score: **0.70**.
+*   **model_prestige_rating**: TT is an iconic model, well-regarded sports coupe. Score: **0.00**.
+*   **trim_prestige_rating**: "20 Years" is a limited special edition, adding exclusivity. Above base trims, but not the top performance trim (TT RS). Score: **0.00**.
+*   **interior_luxury_rating**: Premium materials, fine Nappa leather, good build quality (Source 5, 15, 20, 21). Score: **0.60**.
+*   **interior_tech_focus_rating**: High tech focus with the Virtual Cockpit and integrated climate controls (Source 5, 21). Score: **0.80**.
+
+Construct the JSON and provide reasoning.```json
+{
+  "price_usd": -0.30,
+  "total_cost_estimate_5yr_usd": -0.80,
+  "insurance_usd_yr": -0.25,
+  "maint_usd_yr": 0.30,
+  "repair_risk_score": 0.70,
+  "hp": 0.10,
+  "torque": 0.20,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.30,
+  "accel_0_60_sec": 0.50,
+  "top_speed": 0.05,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": -1.00,
+  "size": -0.30,
+  "wheelbase": -0.40,
+  "body_style": -1.00,
+  "seats": -0.50,
+  "cargo_space": -0.10,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.90,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.20,
+  "co2_g_km": 0.10,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.80,
+  "style_aggression_rating": 0.40,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.60,
+  "ride_comfort_rating": 0.20,
+  "cabin_noise_rating": 0.20,
+  "shift_smooth_rating": 0.60,
+  "steering_feel_rating": 0.70,
+  "adas_score": -0.20,
+  "visibility_rating": -0.20,
+  "headlight_rating": 0.30,
+  "security_rating": 0.20,
+  "screen_in": 0.60,
+  "infotainment_ux_rating": 0.60,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.60,
+  "usb_ports": -0.20,
+  "comfort_feature_score": 0.40,
+  "convenience_feature_score": 0.30,
+  "brand_prestige_rating": 0.70,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.80
+}
+```

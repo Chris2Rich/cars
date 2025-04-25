@@ -1,0 +1,108 @@
+```json
+{
+  "price_usd": -0.45,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.10,
+  "repair_risk_score": 0.40,
+  "hp": 0.00,
+  "torque": 0.05,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": 0.00,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "offroad_ability": 0.70,
+  "braking_dist_ft": 0.00,
+  "size": 0.45,
+  "wheelbase": 0.40,
+  "body_style": 0.50,
+  "seats": 0.00,
+  "cargo_space": 0.10,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.75,
+  "turn_radius_ft": -0.40,
+  "mpg": 0.35,
+  "co2_g_km": 0.05,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.60,
+  "style_aggression_rating": 0.20,
+  "style_modernity_rating": 0.70,
+  "handling_rating": 0.10,
+  "ride_comfort_rating": 0.60,
+  "cabin_noise_rating": 0.40,
+  "shift_smooth_rating": 0.40,
+  "steering_feel_rating": 0.10,
+  "adas_score": 0.60,
+  "visibility_rating": 0.10,
+  "headlight_rating": 0.80,
+  "security_rating": 0.00,
+  "screen_in": 0.25,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.00,
+  "usb_ports": 0.35,
+  "comfort_feature_score": 0.70,
+  "convenience_feature_score": 0.70,
+  "brand_prestige_rating": 0.60,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -0.70,
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.70
+}
+```
+**Reasoning for Ratings:**
+
+*   **price_usd**: Based on UK pricing starting around £51,000 for the Edition 1 trim, which converts to approximately $63,750. This is significantly above the market average of $35,000, resulting in a negative score.
+*   **total_cost_estimate_5yr_usd**: No specific data found for the 5-year cost estimate. Defaulted to the average score.
+*   **insurance_usd_yr**: No specific UK insurance group data found. Defaulted to the average score.
+*   **maint_usd_yr**: Estimated annual maintenance costs are slightly above the market average, leading to a slightly negative score.
+*   **repair_risk_score**: J.D. Power and Consumer Reports ratings indicate above-average reliability for the Audi A5 range, resulting in a positive score.
+*   **hp**: Using the 201 hp figure common for the 40 TFSI engine available on the A5 Avant, which is very close to the 200 hp market average.
+*   **torque**: The 40 TFSI engine's 236 lb-ft of torque is slightly above the 190 lb-ft market average.
+*   **cylinder_count**: The common 2.0L engines are 4-cylinders, which is below the 6-cylinder benchmark for average.
+*   **engine_displacement**: The common 2.0L engine displacement is below the 3.0L benchmark for average.
+*   **accel_0_60_sec**: The 0-60 mph time of around 7.6-7.7 seconds for common engines is very close to the 7.5-second market average.
+*   **top_speed**: A top speed of around 152 mph is very close to the 150 mph market average.
+*   **drive_type**: Available with Quattro AWD, which is the benchmark for the average score.
+*   **transmission_type**: Equipped with a 7-speed S tronic dual-clutch automatic transmission, which is the benchmark for the average score.
+*   **offroad_ability**: As a low-riding estate car, it has very poor off-road capability, scoring positively according to the inverse scale for this metric.
+*   **braking_dist_ft**: No specific data found for braking distance. Defaulted to the average score.
+*   **size**: With a length of around 4.83 meters, it is larger than the average sedan/hatchback, resulting in a positive score.
+*   **wheelbase**: A wheelbase of around 2.89 meters is longer than the average, contributing to a positive score.
+*   **body_style**: The 5-door Estate (Avant) body style offers more practicality than a sedan but less than a van, resulting in a positive score.
+*   **seats**: Offers 5 seats, which is the market average.
+*   **cargo_space**: The cargo space with seats up (around 16.8 cu ft) is slightly above the average for a non-SUV.
+*   **rear_space**: Rear legroom is approximately 35.1 inches, very close to the market average.
+*   **ground_clearance_in**: Ground clearance of around 4.6 inches is significantly below the average for compact crossovers, resulting in a negative score.
+*   **turn_radius_ft**: A turning radius of around 39-40 ft is slightly larger than the average, resulting in a negative score.
+*   **mpg**: Fuel economy figures around 39 mpg (for the 40 TFSI) are above the 30 mpg market average.
+*   **co2_g_km**: CO2 emissions around 165 g/km (for the 40 TFSI) are below the 175 g/km market average.
+*   **electric_range_mi**: This is not an electric vehicle, resulting in the lowest possible score.
+*   **charge_speed_kw**: This is not an electric vehicle, resulting in the lowest possible score.
+*   **style_sleek_vs_boxy**: The Avant body style features a sloping roofline, giving it a sleek appearance for an estate.
+*   **style_aggression_rating**: The design incorporates some sporty elements, particularly in the Edition 1 trim, but is generally sophisticated rather than overtly aggressive.
+*   **style_modernity_rating**: The recent generation features updated styling and modern design cues.
+*   **handling_rating**: Reviews suggest competent and well-balanced handling, though not class-leading in sportiness.
+*   **ride_comfort_rating**: The A5 Avant is noted for offering a comfortable and refined ride.
+*   **cabin_noise_rating**: The cabin is generally quiet, contributing to ride comfort.
+*   **shift_smooth_rating**: The S tronic dual-clutch transmission is typically praised for smooth shifts.
+*   **steering_feel_rating**: Steering is described as sharp at lower speeds but not particularly engaging compared to sportier benchmarks.
+*   **adas_score**: Comes with a comprehensive suite of standard and available advanced driver-assistance systems, including features enhanced in the Edition 1 trim.
+*   **visibility_rating**: The estate body style generally offers decent visibility compared to other body types like coupes.
+*   **headlight_rating**: The availability of Matrix LED headlights on the Edition 1 trim provides excellent illumination.
+*   **security_rating**: Standard security features are present, but no data on advanced tracking or immobilizer systems was found to warrant a higher score.
+*   **screen_in**: Features a 10.1-inch central touchscreen and a 12.3-inch digital instrument cluster, which are larger than the average screen size.
+*   **infotainment_ux_rating**: Audi's MMI infotainment system is generally considered user-friendly and well-designed.
+*   **smartphone_connect_rating**: Offers standard Apple CarPlay and Android Auto, with wireless Apple CarPlay available.
+*   **audio_rating**: Comes with a standard audio system, with an optional premium Bang & Olufsen system available. The score reflects the standard system being average.
+*   **usb_ports**: Features multiple USB-C ports in both front and rear, exceeding the average number of ports.
+*   **comfort_feature_score**: The Edition 1 trim includes many desirable comfort features like heated sports seats and multi-zone climate control, with options for ventilation, massage, and heated rear seats.
+*   **convenience_feature_score**: The Edition 1 trim includes numerous convenience features such as parking assistance, cameras (including top-view), and an electric tailgate.
+*   **brand_prestige_rating**: Audi is a well-established premium German automotive brand.
+*   **model_prestige_rating**: The A5 is positioned as a core model in Audi's upper mid-size lineup, replacing the A4.
+*   **trim_prestige_rating**: Edition 1 is a high-specification, range-topping trim level, scoring negatively according to the guide's inverse scale for top trims.
+*   **interior_luxury_rating**: The interior features premium materials and a high level of finish, especially in higher trims.
+*   **interior_tech_focus_rating**: The interior design is modern and screen-focused, highlighting technological integration.
