@@ -360,7 +360,7 @@ def queryllm_evaluate_model(model: list, fail_log):
 
     for i in model[-1]:
         try:
-            time.sleep(random.random() * 4)
+            time.sleep(random.random() * 8)
             print(f"{Fore.YELLOW}[PICKED]{Style.RESET_ALL} Picked up {model[:-1] + [i]}")
             os.makedirs(os.path.dirname(f"data/car_scores/{'/'.join(model[:-1] + [i])}"), exist_ok=True)
             with open(f"data/car_scores/{'/'.join(model[:-1] + [i])}.json", "w", encoding="utf-8") as file:
