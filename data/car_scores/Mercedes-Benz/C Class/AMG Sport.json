@@ -1,0 +1,63 @@
+The user is asking for an evaluation of the most recent Mercedes-Benz C Class with the "AMG Sport" trim. Based on search results, "AMG Sport" was a trim level used on the W205 generation C-Class, notably on the C450 AMG Sport (which was later renamed the AMG C43). The current generation (W206) uses "AMG Line" for the sportier non-AMG models and specific AMG model designations (C43, C63).
+
+Given the request for the "most recent version of this (when applicable)", and that "AMG Sport" is not a current trim name on the W206, I will evaluate the W205 C450 AMG Sport sedan, as it is the most recent model explicitly using the "AMG Sport" designation before the naming convention changed.
+
+Here is the evaluation of the 2015-2016 Mercedes-Benz C450 AMG Sport sedan, formatted as a JSON object with normalized scores, evaluated against today's market benchmarks:
+
+```json
+{
+  "price_usd": 0.60,
+  "total_cost_estimate_5yr_usd": 0.30,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.30,
+  "repair_risk_score": 0.00,
+  "hp": 0.50,
+  "torque": 0.50,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.70,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": -0.50,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 0.80,
+  "braking_dist_ft": 0.30,
+  "size": 0.00,
+  "wheelbase": 0.00,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.20,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.30,
+  "co2_g_km": -0.50,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.20,
+  "style_aggression_rating": 0.30,
+  "style_modernity_rating": -0.50,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.30,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": -0.50,
+  "visibility_rating": 0.00,
+  "headlight_rating": -0.20,
+  "security_rating": 0.00,
+  "screen_in": -0.50,
+  "infotainment_ux_rating": -0.60,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": 0.50,
+  "usb_ports": -0.50,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.70,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": -0.80
+}
+```

@@ -1,55 +1,113 @@
-```json
+Based on the search results, here's the data for the latest Audi S3 Vorsprung (primarily focusing on the 2024/2025 model year updates where available, as Vorsprung is a top trim often associated with the latest features):
+
+*   **price_usd**: UK price is around £45,597 - £50,230. Using £48,000 as an average and converting to USD (~1.27 conversion rate) is ~$60,960. This is above the $52,000 average. Score: -0.25.
+*   **total_cost_estimate_5yr_usd**: No specific 5-year cost found. Audi maintenance is average to slightly high. Insurance is high. Depreciation is likely moderate for an S model. Estimate slightly above average cost. Score: -0.25.
+*   **insurance_usd_yr**: UK Insurance Group 34. This is a high group. Estimate high insurance cost. Score: -0.75.
+*   **maint_usd_yr**: Service every 12 months or 15,000 km. No specific annual cost found. Audi maintenance is generally average for a premium brand. Score: 0.00.
+*   **repair_risk_score**: No specific reliability rating found for the latest S3. Audi/VW group reliability is often considered average. Score: 0.00.
+*   **hp**: 328 hp (2025 model). Previous was 310 PS (306-310 hp). Using the latest 328 hp. This is well above the 200 hp average. Score: 0.60.
+*   **torque**: 310 lb-ft (2025 model). Previous was 400 Nm (295 lb-ft). Using the latest 310 lb-ft. This is well above the 190 lb-ft average. Score: 0.60.
+*   **cylinder_count**: 4. Average is 6. Score: -0.50.
+*   **engine_displacement**: 2.0L (1984 cc). Average is 3.0L. Score: -0.50.
+*   **accel_0_60_sec**: 4.7 seconds (0-62 mph). 0-60 mph is often slightly faster, around 4.1-4.6 seconds. Using 4.5 seconds as a strong estimate. This is very fast. Score: 0.80.
+*   **top_speed**: 155 mph (electronically limited). Above the 150 mph average, but limited. Score: 0.10.
+*   **drive_type**: All-wheel drive (Quattro). Average. Score: 0.00.
+*   **transmission_type**: 7-speed S tronic (dual-clutch automatic). Average. Score: 0.00.
+*   **driving_track_vs_gt**: Sporty daily driver, leans towards performance but still comfortable enough for GT. Score: -0.10.
+*   **offroad_ability**: Low ground clearance, not designed for off-road. Score: 1.00.
+*   **braking_dist_ft**: No specific braking distance found. Performance car with larger brakes. Estimate better than average. Score: 0.50.
+*   **size**: Length around 4504 mm (Saloon) or 4354 mm (Sportback). Average is 4600mm. S3 is a compact car. Score: -0.10.
+*   **wheelbase**: Around 2630-2636 mm. Average is 2700mm. Score: -0.10.
+*   **body_style**: Available as 4-door Saloon or 5-door Sportback (hatchback). Sedan/Hatchback is average. Score: 0.00.
+*   **seats**: 5 seats. Average. Score: 0.00.
+*   **cargo_space**: Around 8.3 cu ft (Sedan) or 325 L (~11.5 cu ft) (Hatchback). Average is 15 cu ft. Below average. Score: -0.75.
+*   **rear_space**: Rear legroom around 35.2 inches. Average is 35 inches. Score: 0.00.
+*   **ground_clearance_in**: Around 121 mm (~4.7 inches). Lower than compact crossovers (~6.5"). Score: -0.25.
+*   **turn_radius_ft**: Around 11.1 m (~36.4 ft). Average is 36 ft. Score: 0.00.
+*   **mpg**: Combined 26-34 MPG depending on source/year. Using 28 MPG as a balanced estimate. Below the 30 MPG average. Score: -0.25.
+*   **co2_g_km**: Around 165-198 g/km. Using 180 g/km as a balanced estimate. Above the 175 g/km average. Score: -0.10.
+*   **electrification**: Petrol. Score: -1.00.
+*   **electric_range_mi**: Not electric. Score: -1.00.
+*   **charge_speed_kw**: Not electric. Score: -1.00.
+*   **style_sleek_vs_boxy**: Modern Audi design, generally sleek. Score: 0.00.
+*   **style_aggression_rating**: S3 has sporty styling, more aggressive than A3. Above average. Score: 0.50.
+*   **style_modernity_rating**: Recent design, modern. Above average. Score: 0.50.
+*   **handling_rating**: Known for good handling, improved with torque splitter. Above average. Score: 0.70.
+*   **ride_comfort_rating**: Stiffer S sport suspension, especially on 19-inch wheels. Adaptive dampers help. Below average comfort. Score: -0.30.
+*   **cabin_noise_rating**: Engine sound can be adjusted. Generally decent for its class. Score: 0.10.
+*   **shift_smooth_rating**: 7-speed S tronic is generally smooth and fast. Above average. Score: 0.20.
+*   **steering_feel_rating**: Accurate but sometimes criticized for lack of feedback. Below average feel. Score: -0.20.
+*   **adas_score**: Vorsprung trim includes many ADAS features like adaptive cruise control, lane assist, park assist, 360 camera, traffic sign recognition. Well above average. Score: 0.75.
+*   **visibility_rating**: Typical sedan/hatchback visibility. Score: 0.00.
+*   **headlight_rating**: Vorsprung includes Matrix LED headlights. Excellent. Score: 0.75.
+*   **security_rating**: Premium brand, likely good security features like alarm, immobilizer, advanced key. Above average. Score: 0.20.
+*   **screen_in**: 10.1-inch touchscreen + 12.3-inch Virtual Cockpit. Large screens. Above average. Score: 0.75.
+*   **infotainment_ux_rating**: MMI system is generally well-regarded, touch screen with haptic feedback. Above average. Score: 0.50.
+*   **smartphone_connect_rating**: Apple CarPlay and Android Auto standard, Vorsprung likely has wireless charging/connection. Above average. Score: 0.80.
+*   **audio_rating**: Vorsprung includes Bang & Olufsen or Sonos 3D sound system. Excellent. Score: 0.70.
+*   **usb_ports**: At least 2 USB-C ports. Above average. Score: 0.20.
+*   **comfort_feature_score**: Vorsprung includes heated electric seats with memory, dual-zone climate, panoramic sunroof. Well above average. Score: 0.75.
+*   **convenience_feature_score**: Vorsprung includes power tailgate, keyless entry, park assist, 360 camera, head-up display. Well above average. Score: 0.75.
+*   **brand_prestige_rating**: Audi is a premium brand. High. Score: 0.75.
+*   **model_prestige_rating**: S3 is a performance variant, above A3 but below RS3. Middle of the range for Audi Sport. Score: 0.00.
+*   **trim_prestige_rating**: Vorsprung is the top trim. Score: -1.00 (as per guide).
+*   **interior_luxury_rating**: Premium materials, sporty design, carbon inlays. Above average, but not top-tier luxury. Score: 0.40.
+*   **interior_tech_focus_rating**: High tech focus with large screens, virtual cockpit, HUD. Well above average. Score: 0.70.
+
+Final check of scores against guide and rounding to two decimal places.```json
 {
-  "price_usd": 0.05,
-  "total_cost_estimate_5yr_usd": -0.70,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": 0.60,
-  "torque": 0.55,
-  "cylinder_count": -0.25,
-  "engine_displacement": -0.20,
-  "accel_0_60_sec": 0.75,
-  "top_speed": 0.05,
-  "drive_type": 0.00,
-  "transmission_type": 0.00,
-  "offroad_ability": -1.00,
-  "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": -0.10,
-  "body_style": 0.00,
-  "seats": 0.00,
-  "cargo_space": -0.40,
-  "rear_space": 0.00,
-  "ground_clearance_in": 0.00,
-  "turn_radius_ft": 0.00,
-  "mpg": -0.15,
-  "co2_g_km": 0.00,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.40,
-  "style_modernity_rating": 0.30,
-  "handling_rating": 0.60,
-  "ride_comfort_rating": -0.10,
-  "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": 0.20,
-  "adas_score": 0.50,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.40,
-  "security_rating": 0.00,
-  "screen_in": 0.40,
-  "infotainment_ux_rating": 0.30,
-  "smartphone_connect_rating": 0.40,
-  "audio_rating": 0.40,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.40,
-  "convenience_feature_score": 0.40,
-  "brand_prestige_rating": 0.50,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": -0.20,
-  "interior_luxury_rating": 0.40,
-  "interior_tech_focus_rating": 0.50
+ "price_usd": -0.25,
+ "total_cost_estimate_5yr_usd": -0.25,
+ "insurance_usd_yr": -0.75,
+ "maint_usd_yr": 0.00,
+ "repair_risk_score": 0.00,
+ "hp": 0.60,
+ "torque": 0.60,
+ "cylinder_count": -0.50,
+ "engine_displacement": -0.50,
+ "accel_0_60_sec": 0.80,
+ "top_speed": 0.10,
+ "drive_type": 0.00,
+ "transmission_type": 0.00,
+ "driving_track_vs_gt": -0.10,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.50,
+ "size": -0.10,
+ "wheelbase": -0.10,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": -0.75,
+ "rear_space": 0.00,
+ "ground_clearance_in": -0.25,
+ "turn_radius_ft": 0.00,
+ "mpg": -0.25,
+ "co2_g_km": -0.10,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": 0.00,
+ "style_aggression_rating": 0.50,
+ "style_modernity_rating": 0.50,
+ "handling_rating": 0.70,
+ "ride_comfort_rating": -0.30,
+ "cabin_noise_rating": 0.10,
+ "shift_smooth_rating": 0.20,
+ "steering_feel_rating": -0.20,
+ "adas_score": 0.75,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.75,
+ "security_rating": 0.20,
+ "screen_in": 0.75,
+ "infotainment_ux_rating": 0.50,
+ "smartphone_connect_rating": 0.80,
+ "audio_rating": 0.70,
+ "usb_ports": 0.20,
+ "comfort_feature_score": 0.75,
+ "convenience_feature_score": 0.75,
+ "brand_prestige_rating": 0.75,
+ "model_prestige_rating": 0.00,
+ "trim_prestige_rating": -1.00,
+ "interior_luxury_rating": 0.40,
+ "interior_tech_focus_rating": 0.70
 }
 ```

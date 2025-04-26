@@ -1,107 +1,57 @@
-The Mercedes-Benz R-Class R350 was produced until 2013, with a facelift in 2010. I will evaluate based on the later models (2010-2013) where possible, as they represent the "most recent version".
-
-*   **price_usd**: The R-Class is discontinued, so the price is a used market price. Used R350s from 2010-2013 are significantly below the average new car price of $52,000. Prices vary, but they are well under $20,000, often closer to $10,000 or less depending on condition and mileage. This scores very high.
-*   **total_cost_estimate_5yr_usd**: As an older, out-of-warranty Mercedes, maintenance and potential repairs can be costly. While the purchase price is low, the 5-year cost of ownership is likely to be above average due to these factors.
-*   **insurance_usd_yr**: Mercedes-Benz vehicles, especially larger ones, tend to have higher insurance costs. While not a high-performance model, it's a luxury brand vehicle. Insurance group data for this specific older model is hard to pinpoint exactly, but it's likely above average.
-*   **maint_usd_yr**: Mercedes-Benz maintenance is generally more expensive than average. Older models can require significant maintenance.
-*   **repair_risk_score**: The W251 R-Class, particularly earlier models, had some known issues like the balance shaft problem on the M272 engine (though later models might have revised engines). Older luxury cars generally have higher repair risks and costs than average mass-market vehicles.
-*   **hp**: The 2012 R350 4MATIC had 302 hp [3]. Earlier models had 268 hp [1, 7, 10]. 302 hp is above the 200 hp average, but not exceptionally high for a large vehicle.
-*   **torque**: The 2012 R350 4MATIC had 273 lb-ft [3]. Earlier models had 258 lb-ft [1, 7, 10]. This is above the 190 lb-ft average, contributing to decent, though not rapid, acceleration for its size.
-*   **cylinder_count**: V6 engine (6 cylinders) [1, 3, 7, 10, 13]. This is around the average for larger vehicles, but below the high-end V8/V12.
-*   **engine_displacement**: 3.5L (3498cc) [1, 7, 10, 13]. This is above the 3.0L average.
-*   **accel_0_60_sec**: Around 8.0-8.1 seconds for the earlier 268hp models [1, 7, 10, 18], and likely slightly quicker for the 302hp 2012 model (no specific 0-60 found for 302hp, but 8.5s for diesel [5] and 7.65s for 2009 4MATIC [16] suggests the later gas is around 7.5-8s). This is around the average of 7.5 seconds.
-*   **top_speed**: Electronically limited to 130 mph [7]. Some sources list higher (143 mph [10, 15]). 130-143 mph is around or slightly below the 150 mph average.
-*   **drive_type**: R350 4MATIC is AWD [1, 2, 5, 7, 13, 16, 17, 20, 23]. AWD is the market average.
-*   **transmission_type**: 7-speed automatic (7G-Tronic) [1, 5, 7, 13, 16, 17, 20, 22, 23, 31]. Automatic is the best score.
-*   **offroad_ability**: It has AWD and adjustable air suspension (AIRMATIC) [6, 31, 32] which can raise the nose [32], but it's not designed for serious off-roading [32]. It's a large crossover/MPV. Average or slightly below average compared to SUVs, but better than a sedan.
-*   **braking_dist_ft**: No specific data found. Assume average for a large vehicle of its era.
-*   **size**: Long wheelbase version is ~5157mm (203 inches) [6, 7, 8, 10, 20, 21, 31, 36, 37]. This is significantly longer than the 4600mm average.
-*   **wheelbase**: Long wheelbase is ~3215mm (126.6 inches) [6, 7, 8, 9, 10, 20, 31, 34, 36, 37]. This is significantly longer than the 2700mm average.
-*   **body_style**: Described as a crossover, MPV, or Grand Sports Tourer [1, 2, 5, 7, 10, 23, 25]. It's a 5-door vehicle [6, 9, 18]. Falls somewhere between a sedan/coupe (0.00) and a van (1.00).
-*   **seats**: Available with 6 or 7 seats [5, 6, 7, 9, 23, 26]. 7 seats is above average.
-*   **cargo_space**: 15.2 cu ft behind the 3rd row, 42.2 cu ft behind the 2nd row, 85 cu ft max [2, 7, 8, 16, 20, 25]. 15.2 is below the 15 cu ft average, but the max space is very large (above 35 cu ft). Score based on maximum utility.
-*   **rear_space**: 2nd row legroom ~36.2 inches, 3rd row ~32.4 inches [7]. 2nd row is around average (35"), 3rd row is below average but usable for adults [1]. Score reflects good 2nd row, decent 3rd row.
-*   **ground_clearance_in**: ~5.8 inches (147mm) [7, 25, 32, 36]. This is below the 6.5" average for crossovers. Can be raised by 2 inches with air suspension [32].
-*   **turn_radius_ft**: ~40.7 ft (12.4m) [25] or 41.0 ft [8]. Some sources say 6.3m (20.7 ft) [6, 9, 22] which seems too small for this size vehicle, likely a typo or different measurement standard. Using the larger, more plausible numbers. 40.7-41.0 ft is above the 36 ft average.
-*   **mpg**: EPA estimates vary slightly by year, around 15 city / 19-21 highway [1, 5, 7, 16, 18, 31]. Real-world averages are around 17-18 mpg [12, 27]. This is well below the 30 mpg average.
-*   **co2_g_km**: No specific g/km data found for the gasoline R350. Given the low MPG, CO2 emissions will be high, likely above the 175 g/km average.
-*   **electric_range_mi**: Not an electric vehicle.
-*   **charge_speed_kw**: Not an electric vehicle.
-*   **style_sleek_vs_boxy**: The R-Class design was often criticized and seen as awkward, a mix of wagon, minivan, and SUV [1, 2]. Not particularly sleek or boxy, but unique and not universally loved.
-*   **style_aggression_rating**: Not an aggressive design. More family-oriented.
-*   **style_modernity_rating**: The design, especially pre-facelift, is dated compared to modern vehicles. Even the facelift is from 2010.
-*   **handling_rating**: Focused on comfort, not sporty handling. Reviews mention body roll [5] but also decent handling for its size [32]. Steering can be vague [5]. Average for a large family vehicle, below average compared to sportier cars.
-*   **ride_comfort_rating**: Known for a comfortable ride, especially with air suspension [1, 19, 26, 32]. Scores high.
-*   **cabin_noise_rating**: Reviews mention it's quiet, especially on the highway [1, 27, 33]. Scores high.
-*   **shift_smooth_rating**: The 7G-Tronic automatic transmission is generally smooth [5, 32]. Scores high.
-*   **steering_feel_rating**: Reviews mention steering can be vague or heavily weighted [5]. Not known for engaging steering feel. Below average or average.
-*   **adas_score**: For its era (2010-2013), ADAS features were limited compared to modern cars. Available features included Blind Spot Assist [2], Parktronic (parking sensors) [1], rearview camera [3, 23], PRE-SAFE [3, 23, 28]. Lacks modern features like adaptive cruise control, lane keeping assist, etc. Scores low compared to today.
-*   **visibility_rating**: Large windows and airy cabin contribute to good visibility [1, 28]. Scores high.
-*   **headlight_rating**: Available with Bi-xenon headlights [1]. Good for its time, but not as advanced as modern matrix LEDs. Average or slightly above average for its era, but average compared to today.
-*   **security_rating**: Standard Mercedes security features like immobilizer, alarm, remote locking, Tele Aid (for its time) [29]. Assume average compared to modern systems.
-*   **screen_in**: COMAND system with a 6.5" or 7" screen [3, 23, 25]. This is small by modern standards.
-*   **infotainment_ux_rating**: COMAND system from that era was functional but not as intuitive as modern systems, sometimes criticized [2, 23]. Lacks touch screen on earlier models. Below average compared to modern systems.
-*   **smartphone_connect_rating**: Bluetooth available [2, 3], Aux-in [1, 3], iPod adapter available [2]. No Apple CarPlay or Android Auto [6, 35]. Very poor by modern standards.
-*   **audio_rating**: Standard 8-speaker system [16], optional Harman/Kardon LOGIC7 premium system [2, 23]. Standard is average, premium is good. Score reflects the availability of a good optional system.
-*   **usb_ports**: Older models likely had Aux-in or iPod connectors, but not standard USB-A or USB-C ports like modern cars. Scores low.
-*   **comfort_feature_score**: Available features included power seats, dual-zone climate control, heated seats, optional ventilated/massaging seats (less common on R350 trim), rear climate control, panoramic sunroof [1, 2, 23, 28]. Good for its time, but standard features might be less extensive than top modern cars. Above average.
-*   **convenience_feature_score**: Available features included power tailgate, Parktronic, rearview camera, keyless ignition, remote trunk release, steering wheel controls [1, 2, 3, 16, 23]. Lacks many modern convenience features like 360 cameras, auto-parking, etc. Average or slightly below average compared to modern cars.
-*   **brand_prestige_rating**: Mercedes-Benz is a high-prestige brand.
-*   **model_prestige_rating**: The R-Class was not as prestigious or successful as other Mercedes models like the S-Class or E-Class. It was a niche model. Below average for a Mercedes model, but still a Mercedes.
-*   **trim_prestige_rating**: R350 was a mid-range trim, not the base or the top AMG. Average trim prestige.
-*   **interior_luxury_rating**: High-quality materials (leather, wood trim available) and comfortable seats [1, 19, 23]. Luxurious for its time. Scores high.
-*   **interior_tech_focus_rating**: Interior design is more traditional luxury than screen-focused modern tech [25]. Tech features are dated. Scores low on tech focus compared to modern cars.```json
+```json
 {
-  "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": -0.50,
+  "price_usd": -0.60,
+  "total_cost_estimate_5yr_usd": -0.20,
   "insurance_usd_yr": -0.20,
-  "maint_usd_yr": -0.50,
-  "repair_risk_score": -0.30,
-  "hp": 0.10,
-  "torque": 0.30,
+  "maint_usd_yr": -0.60,
+  "repair_risk_score": -0.40,
+  "hp": 0.00,
+  "torque": 0.00,
   "cylinder_count": 0.00,
-  "engine_displacement": 0.20,
+  "engine_displacement": 0.00,
   "accel_0_60_sec": 0.00,
-  "top_speed": -0.20,
+  "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "offroad_ability": -0.20,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": -1.00,
   "braking_dist_ft": 0.00,
-  "size": 1.00,
-  "wheelbase": 1.00,
-  "body_style": 0.50,
-  "seats": 1.00,
-  "cargo_space": 1.00,
-  "rear_space": 0.10,
-  "ground_clearance_in": -0.30,
-  "turn_radius_ft": -0.30,
-  "mpg": -0.80,
-  "co2_g_km": -0.80,
+  "size": 0.00,
+  "wheelbase": 0.00,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.00,
+  "co2_g_km": 0.00,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": -0.50,
-  "style_modernity_rating": -0.80,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": -0.20,
   "handling_rating": 0.00,
-  "ride_comfort_rating": 0.80,
-  "cabin_noise_rating": 0.80,
+  "ride_comfort_rating": 0.60,
+  "cabin_noise_rating": 0.60,
   "shift_smooth_rating": 0.80,
-  "steering_feel_rating": -0.20,
-  "adas_score": -0.70,
-  "visibility_rating": 0.80,
+  "steering_feel_rating": 0.00,
+  "adas_score": -0.20,
+  "visibility_rating": 0.00,
   "headlight_rating": 0.00,
   "security_rating": 0.00,
-  "screen_in": -0.70,
-  "infotainment_ux_rating": -0.70,
+  "screen_in": -0.20,
+  "infotainment_ux_rating": -0.20,
   "smartphone_connect_rating": -1.00,
-  "audio_rating": 0.50,
+  "audio_rating": 0.00,
   "usb_ports": -1.00,
-  "comfort_feature_score": 0.50,
-  "convenience_feature_score": 0.00,
+  "comfort_feature_score": 0.60,
+  "convenience_feature_score": 0.60,
   "brand_prestige_rating": 0.80,
-  "model_prestige_rating": -0.50,
+  "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.70,
-  "interior_tech_focus_rating": -0.80
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": -0.20
 }
 ```

@@ -1,10 +1,6 @@
-The search results confirm that the 'E280' designation is associated with older generations of the Mercedes-Benz E-Class, specifically the W210 (1996-2002) and W211 (2002-2009) models (Source [1, 4, 6, 7, 8, 11, 12, 14, 15]). The most recent generation (W214, 2024+) uses different engine designations like E350, E450, E220d, etc., and is available exclusively in mild hybrid and plug-in hybrid variants (Source [2, 13, 16, 17, 19]).
+The search results confirm that "E280" is not a current engine or trim designation for the most recent (W214) Mercedes-Benz E-Class (2024 onwards). It is mentioned in the context of older generations, specifically the W124 (1993-1995) and W211 (2006-2009) models.
 
-Since the requested 'E280' trim/engine is not available on the most recent version of the Mercedes-Benz E-Class, I cannot provide specific data or ratings for this configuration on the current model.
-
-As per the instructions, when data is ambiguous or unclear (because the requested configuration doesn't exist for the specified model year), I must default to returning a JSON with all values set to `0.00`.
-
-```json
+Therefore, as per the instructions for ambiguous or unclear data regarding the most recent model, I will return a JSON with all scores set to 0.00.```json
 {
   "price_usd": 0.00,
   "total_cost_estimate_5yr_usd": 0.00,
@@ -19,6 +15,7 @@ As per the instructions, when data is ambiguous or unclear (because the requeste
   "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
   "offroad_ability": 0.00,
   "braking_dist_ft": 0.00,
   "size": 0.00,
@@ -31,6 +28,7 @@ As per the instructions, when data is ambiguous or unclear (because the requeste
   "turn_radius_ft": 0.00,
   "mpg": 0.00,
   "co2_g_km": 0.00,
+  "electrification": 0.00,
   "electric_range_mi": 0.00,
   "charge_speed_kw": 0.00,
   "style_sleek_vs_boxy": 0.00,

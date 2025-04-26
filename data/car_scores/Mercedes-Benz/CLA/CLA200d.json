@@ -1,111 +1,57 @@
-Based on the search results, the most recent version of the Mercedes-Benz CLA 200d is part of the 2024 model year refresh (C118 chassis). It is available in markets outside the US. I will evaluate the 2024 Mercedes-Benz CLA 200d Coupe based on the specifications found.
-
-Here's the breakdown of the data found and the corresponding scores:
-
-*   **price_usd**: No specific US price found for the CLA 200d. UK prices start around £36,000 - £38,000 [previous searches]. This converts to approximately $45,000 - $48,000 USD. This is above the market average of $35,000 for a new car, but it's an entry-level luxury model. Score: `-0.20`.
-*   **total_cost_estimate_5yr_usd**: No specific 5-year cost estimate found for the CLA 200d. Mercedes-Benz maintenance and insurance costs are generally higher than average [previous searches]. Score: `-0.30`.
-*   **insurance_usd_yr**: No specific insurance group or annual cost found for the 2024 CLA 200d. Mercedes-Benz models generally have higher insurance costs. Score: `-0.30`.
-*   **maint_usd_yr**: No specific annual maintenance cost found for the CLA 200d. Mercedes maintenance is generally higher than average ($750). Score: `-0.20`.
-*   **repair_risk_score**: J.D. Power gives the CLA-Class an 83/100 for Quality & Reliability [12], which is considered "Great". RepairPal indicates average repair costs but higher frequency/severity for the model line [17]. Score: `0.00`.
-*   **hp**: 150 hp (110 kW) [5, 6, 38]. This is below the 200 hp average. Score: `-0.40`.
-*   **torque**: 320 Nm (~236 lb-ft) [5, 6, 38]. This is above the 190 lb-ft average. Score: `0.30`.
-*   **cylinder_count**: 4-cylinder [5, 6, 38]. Average is around 4-6 cylinders. Score: `0.00`.
-*   **engine_displacement**: 2.0L (1950 cc) [5, 6, 23, 38]. Around the 3.0L average. Score: `0.00`.
-*   **accel_0_60_sec**: 8.5 seconds (0-100 km/h) [5]. ProfessCars estimates 8.3 seconds (0-60 mph) [6]. Using the ProfessCars estimate as it's closer to the 0-60 mph benchmark. This is slower than the 7.5 sec average. Score: `-0.20`.
-*   **top_speed**: 140 mph (226 km/h) [5, 23, 38]. Below the 150 mph average. Score: `-0.20`.
-*   **drive_type**: Front-wheel drive (FWD) [6, 38]. Score: `-1.00`.
-*   **transmission_type**: 8-speed dual-clutch automatic (8G-DCT) [6, 38]. Dual-clutch is 0.00 on the scale. Score: `0.00`.
-*   **offroad_ability**: Low ground clearance, FWD, not designed for off-road. Score: `1.00`.
-*   **braking_dist_ft**: High-performance braking system mentioned for the CLA line [10]. No specific distance found for the 200d. Score: `0.00`.
-*   **size**: Length 4688mm (184.6 inches) [6, 23]. Around the size of a Honda Civic (4600mm). Score: `0.00`.
-*   **wheelbase**: 2729mm (107.4 inches) [6]. Skoda Octavia is around 2700mm. Score: `0.00`.
-*   **body_style**: 4-door coupe/sedan [6, 23]. Score: `0.00`.
-*   **seats**: 5 seats [3, 26]. Average is 5 seats. Score: `0.00`.
-*   **cargo_space**: 460 Litres (~16.2 cu ft) [42]. 13.1 cu ft [2, 13]. Conflicting figures, using the higher figure from a recent review [42]. Around the average of 15 cu ft. Score: `0.00`.
-*   **rear_space**: Rear legroom 33.9 inches [2, 14]. Rear headroom 35.7 inches [2]. Described as tight, especially for taller passengers [2, 42]. Below average. Score: `-0.50`.
-*   **ground_clearance_in**: Not explicitly found for the 200d. Standard CLA is around 4.3-4.7 inches [previous search]. Score: `-0.80`.
-*   **turn_radius_ft**: Not explicitly found for the 200d. Standard CLA is around 36.1-36.4 ft [previous search]. Score: `0.00`.
-*   **mpg**: Combined 4.9-5.4 L/100km (~44-48 mpg US) (WLTP) [5, 23]. 5 L/100km (~47 mpg US) [26]. 4.4 L/100km (~53 mpg US) [32]. US EPA equivalent would be lower, likely in the high 30s to low 40s. This is very good for a non-PHEV/EV. Score: `0.60`.
-*   **co2_g_km**: 129-142 g/km (WLTP) [5, 23]. 132 g/km [26]. 133 g/km [32]. Toyota RAV4 is ~175 g/km. This is below average. Score: `0.40`.
-*   **electric_range_mi**: Not applicable (diesel). Score: `-1.00`.
-*   **charge_speed_kw**: Not applicable (diesel). Score: `-1.00`.
-*   **style_sleek_vs_boxy**: Known for its "swooping roofline" and coupe-like profile [8, 15, 16]. Score: `0.80`.
-*   **style_aggression_rating**: Standard CLA styling is sporty but not aggressive [8]. Score: `0.00`.
-*   **style_modernity_rating**: Refreshed design, modern interior [4, 8, 11]. Score: `0.70`.
-*   **handling_rating**: Described as having "sure-footed and capable enough" handling [previous search]. Score: `0.30`.
-*   **ride_comfort_rating**: Described as having a "firmer" ride than the A-Class [previous search]. Score: `0.00`.
-*   **cabin_noise_rating**: Described as "quiet on the motorway" [previous search], but diesel clatter at idle mentioned for the 220d [31]. Score: `0.20`.
-*   **shift_smooth_rating**: 8-speed dual-clutch transmission. Described as "smooth shifting" [20]. Score: `0.20`.
-*   **steering_feel_rating**: Direct steer system [previous search]. Score: `0.30`.
-*   **adas_score**: Standard features include Active Lane Keeping Assist, Speed Limit Assist, Attention Assist, Parking package with reversing camera, Mirror package [5, 28]. Optional Driver Assistance Package available [4]. Score: `0.60`.
-*   **visibility_rating**: Low visibility due to the sloping roofline [previous search]. Score: `-0.50`.
-*   **headlight_rating**: LED High Performance headlamps standard [5]. Score: `0.30`.
-*   **security_rating**: Standard security system, immobiliser [29]. Score: `0.30`.
-*   **screen_in**: Standard dual 10.25-inch displays [2, 4, 11, 13, 15, 20, 25]. Large and modern. Score: `0.70`.
-*   **infotainment_ux_rating**: MBUX system, described as intuitive and responsive, touchscreen, voice control, steering wheel controls [2, 4, 11, 15, 25]. Score: `0.70`.
-*   **smartphone_connect_rating**: Standard wireless Apple CarPlay and Android Auto [4, 11, 15, 25]. Score: `0.80`.
-*   **audio_rating**: Standard 8-speaker system [13]. Optional Burmester system available [2, 8, 14]. Score: `0.30`.
-*   **usb_ports**: 5 USB-C ports mentioned for the CLA 250 [18]. USB package plus standard on some trims [previous search]. Score: `0.30`.
-*   **comfort_feature_score**: Standard 12-way power-adjustable front seats [2]. Heated front seats available [2]. Dual-zone automatic climate control available [7]. Comfort seats standard [5]. Score: `0.40`.
-*   **convenience_feature_score**: Parking package with reversing camera standard [2, 28]. Keyless entry/go available [previous search]. Wireless charging available [7, 14]. 360-degree camera available [2]. Score: `0.60`.
-*   **brand_prestige_rating**: Mercedes-Benz is a high-prestige brand. Score: `0.80`.
-*   **model_prestige_rating**: CLA is the entry-level car model for Mercedes-Benz [8, 13, 16]. Score: `1.00`.
-*   **trim_prestige_rating**: CLA 200d is a mid-range diesel engine/trim. Score: `0.00`.
-*   **interior_luxury_rating**: Described as having a premium, well-equipped interior with high-quality materials [2, 19]. ARTICO man-made leather/fabric upholstery standard [5]. Score: `0.60`.
-*   **interior_tech_focus_rating**: Dual large screens, MBUX, digital instrument cluster, ambient lighting available [2, 4, 7, 11, 13, 15, 20, 25]. Very tech-focused. Score: `0.80`.
-
 ```json
 {
-  "price_usd": -0.20,
-  "total_cost_estimate_5yr_usd": -0.30,
-  "insurance_usd_yr": -0.30,
-  "maint_usd_yr": -0.20,
-  "repair_risk_score": 0.00,
-  "hp": -0.40,
-  "torque": 0.30,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": -0.20,
-  "top_speed": -0.20,
-  "drive_type": -1.00,
-  "transmission_type": 0.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.00,
-  "body_style": 0.00,
-  "seats": 0.00,
-  "cargo_space": 0.00,
-  "rear_space": -0.50,
-  "ground_clearance_in": -0.80,
-  "turn_radius_ft": 0.00,
-  "mpg": 0.60,
-  "co2_g_km": 0.40,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.80,
-  "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.70,
-  "handling_rating": 0.30,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": 0.20,
-  "shift_smooth_rating": 0.20,
-  "steering_feel_rating": 0.30,
-  "adas_score": 0.60,
-  "visibility_rating": -0.50,
-  "headlight_rating": 0.30,
-  "security_rating": 0.30,
-  "screen_in": 0.70,
-  "infotainment_ux_rating": 0.70,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.30,
-  "usb_ports": 0.30,
-  "comfort_feature_score": 0.40,
-  "convenience_feature_score": 0.60,
-  "brand_prestige_rating": 0.80,
-  "model_prestige_rating": 1.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.60,
-  "interior_tech_focus_rating": 0.80
+ "price_usd": 0.10,
+ "total_cost_estimate_5yr_usd": 0.00,
+ "insurance_usd_yr": 0.00,
+ "maint_usd_yr": -0.20,
+ "repair_risk_score": 0.00,
+ "hp": -0.50,
+ "torque": 0.10,
+ "cylinder_count": 0.00,
+ "engine_displacement": 0.00,
+ "accel_0_60_sec": -0.20,
+ "top_speed": -0.20,
+ "drive_type": -1.00,
+ "transmission_type": 0.00,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.00,
+ "size": 0.00,
+ "wheelbase": 0.00,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": 0.10,
+ "rear_space": -0.50,
+ "ground_clearance_in": -0.50,
+ "turn_radius_ft": 0.00,
+ "mpg": 0.50,
+ "co2_g_km": 0.50,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": 0.50,
+ "style_aggression_rating": 0.00,
+ "style_modernity_rating": 0.50,
+ "handling_rating": 0.00,
+ "ride_comfort_rating": -0.20,
+ "cabin_noise_rating": 0.20,
+ "shift_smooth_rating": -0.20,
+ "steering_feel_rating": 0.00,
+ "adas_score": 0.50,
+ "visibility_rating": -0.50,
+ "headlight_rating": 0.50,
+ "security_rating": 0.50,
+ "screen_in": 0.80,
+ "infotainment_ux_rating": 0.50,
+ "smartphone_connect_rating": 0.70,
+ "audio_rating": 0.00,
+ "usb_ports": 0.20,
+ "comfort_feature_score": 0.20,
+ "convenience_feature_score": 0.20,
+ "brand_prestige_rating": 0.80,
+ "model_prestige_rating": 1.00,
+ "trim_prestige_rating": 0.50,
+ "interior_luxury_rating": 0.20,
+ "interior_tech_focus_rating": 0.70
 }
 ```

@@ -1,55 +1,115 @@
-```json
+Okay, I have gathered data for the 2024 Audi A3, primarily the 40 TFSI sedan model, as it seems to be the most common base configuration in the US market searches. Some data points are from the Sportback or mention the 2025 model which is a facelift, but the core specs (engine, dimensions, tech features) appear largely consistent or updated slightly. I will use the most specific data found for the 2024 A3 sedan where available.
+
+Let's go through each metric and assign a score based on the gathered data and the provided scoring guide.
+
+*   **price_usd**: 2024 Audi A3 starts around $35,800 - $36,895. This is below the market average of $52,000. Score: +0.20 (closer to average than <$10k)
+*   **total_cost_estimate_5yr_usd**: No specific 5-year cost estimate found. Default to 0.00.
+*   **insurance_usd_yr**: Audi A3 insurance group varies, but generally falls in the mid-range for premium compacts. Estimate around average. Score: 0.00.
+*   **maint_usd_yr**: Audi maintenance costs are typically higher than average but not as high as some luxury or performance brands. Estimate slightly above average. Score: -0.20.
+*   **repair_risk_score**: Audi generally has average reliability ratings, sometimes slightly below or above depending on the source and year. Score: 0.00.
+*   **hp**: 201 hp (40 TFSI). Average is around 200 hp. Score: 0.00.
+*   **torque**: 221 lb-ft (40 TFSI). Average is around 190 lb-ft. Slightly above average. Score: +0.10.
+*   **cylinder_count**: 4-cylinder. Average is 6, but 4 is common. Score: -0.20 (relative to the guide's 6=0.00, >12=+1.00, <3=-1.00).
+*   **engine_displacement**: 2.0 L. Average is around 3.0L. Below average. Score: -0.20.
+*   **accel_0_60_sec**: 6.0 - 6.6 seconds (FWD/AWD variants). Average is 7.5 sec. Above average. Score: +0.30.
+*   **top_speed**: 130.49 mph (210 km/h) to 150 mph (241 km/h) depending on source/variant. Average is 150 mph. Score: 0.00.
+*   **drive_type**: Available in FWD and AWD (Quattro). AWD is average, FWD is below. Score: 0.00 (as AWD is available).
+*   **transmission_type**: 7-speed dual-clutch automatic (S tronic). Dual-clutch is 0.00 in the guide. Score: 0.00.
+*   **driving_track_vs_gt**: Positioned as a premium compact sedan, comfortable for daily driving but with sporty handling. Leans towards daily driver/GT. Score: +0.20.
+*   **offroad_ability**: Low ground clearance, not designed for off-road. Score: +1.00 (poor off-road ability).
+*   **braking_dist_ft**: No specific braking distance found. Default to 0.00.
+*   **size**: Length ~176.9 inches (4493mm). Width ~71.5 inches (1816mm). Falls between Fiat 500 (~3600mm) and Civic (~4600mm). Score: -0.20 (closer to smaller end).
+*   **wheelbase**: 103.5 inches (2629mm). Falls between Miata (~2300mm) and Octavia (~2700mm). Score: -0.20 (closer to smaller end).
+*   **body_style**: 4-door Sedan (also available as Sportback hatchback). Score: 0.00.
+*   **seats**: 5 seats. Score: 0.00.
+*   **cargo_space**: 10.9 cu ft (sedan). Below average (15 cu ft). Score: -0.30.
+*   **rear_space**: Rear legroom ~35.2 inches. Average is ~35". Score: 0.00.
+*   **ground_clearance_in**: ~4.4 inches (112mm) for some models, sport suspension lowers it. Below average (6.5"). Score: -0.50.
+*   **turn_radius_ft**: 36.4 ft. Average is ~36 ft. Score: 0.00.
+*   **mpg**: Combined 30-32 mpg (40 TFSI). Average is ~30 mpg. Score: 0.00.
+*   **co2_g_km**: ~111-191 g/km depending on engine/drive. Average is ~175 g/km. Score: 0.00.
+*   **electrification**: Mild Hybrid (MHEV) or Plug-in Hybrid (PHEV) available. MHEV is closer to Petrol/Diesel (-1.00), PHEV is 0.00. Score: -0.20 (as MHEV is standard on 40 TFSI).
+*   **electric_range_mi**: PHEV has electric range, MHEV does not. For the standard 40 TFSI (MHEV), this is N/A. Score: -1.00.
+*   **charge_speed_kw**: N/A for MHEV. Score: -1.00.
+*   **style_sleek_vs_boxy**: Sedan body style, modern Audi design. Not particularly sleek or boxy. Score: 0.00.
+*   **style_aggression_rating**: Updated design has a slightly sportier edge. Score: +0.20.
+*   **style_modernity_rating**: Updated for 2024/2025 with modern design elements. Score: +0.30.
+*   **handling_rating**: Respectable levels of performance and handling, light and nimble, precise steering. Score: +0.30.
+*   **ride_comfort_rating**: Comfortable seats, soaks up bumps well, refined. Score: +0.30.
+*   **cabin_noise_rating**: Road, wind, and engine noise well contained, quiet. Score: +0.50.
+*   **shift_smooth_rating**: Smooth, quick shifts from the dual-clutch. Score: +0.30.
+*   **steering_feel_rating**: Precise and Audi-like, light controls at low speeds, progressive. Score: +0.30.
+*   **adas_score**: Includes standard safety and tech items, available adaptive cruise assist, lane guidance, park assist, blind spot monitor (optional). Good standard features, but top-tier features are optional. Score: +0.30.
+*   **visibility_rating**: Excellent all-round visibility, large windows, good seating position. Score: +0.50.
+*   **headlight_rating**: Standard LED headlights with automatic high beams. Score: +0.30.
+*   **security_rating**: Standard features like lane departure warning, pre-collision system. No specific advanced security features mentioned like trackers. Score: 0.00.
+*   **screen_in**: 10.1-inch central touchscreen standard, 10.25-inch or 12.3-inch digital instrument cluster. 10.1" is above average (8"). Score: +0.30.
+*   **infotainment_ux_rating**: Slick and intuitive MMI system, user-friendly, neatly integrated. Score: +0.50.
+*   **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto standard. Score: +0.50.
+*   **audio_rating**: Standard 10-speaker system, optional Bang & Olufsen or Sonos system. Standard is above basic, optional is excellent. Score: +0.30.
+*   **usb_ports**: Two USB ports mentioned. Average is 3. Score: -0.20.
+*   **comfort_feature_score**: Heated front seats standard, three-zone climate control, power seats with lumbar support available. Good standard features, but top luxury features are not standard. Score: +0.30.
+*   **convenience_feature_score**: Standard rear parking sensors, available park assist, rearview camera, keyless entry, wireless charging pad (optional). Good features, but not top-tier convenience like auto-close doors or 360 cameras standard. Score: +0.30.
+*   **brand_prestige_rating**: Audi is a premium/luxury brand. Score: +0.70.
+*   **model_prestige_rating**: A3 is the entry-level model in Audi's sedan lineup. Score: +1.00.
+*   **trim_prestige_rating**: Assuming the base Premium trim. Score: +1.00.
+*   **interior_luxury_rating**: High-quality materials, solid build quality, leather upholstery available. Score: +0.50.
+*   **interior_tech_focus_rating**: Digital instrument cluster standard, large touchscreen, modern infotainment. Score: +0.50.
+
+Now, format this into the required JSON structure.```json
 {
-  "price_usd": 0.25,
+  "price_usd": 0.20,
   "total_cost_estimate_5yr_usd": 0.00,
   "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
+  "maint_usd_yr": -0.20,
   "repair_risk_score": 0.00,
-  "hp": 0.05,
-  "torque": 0.15,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
+  "hp": 0.00,
+  "torque": 0.10,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.20,
   "accel_0_60_sec": 0.30,
-  "top_speed": -0.10,
+  "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 0.00,
-  "offroad_ability": -1.00,
+  "driving_track_vs_gt": 0.20,
+  "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": -0.05,
-  "wheelbase": -0.05,
+  "size": -0.20,
+  "wheelbase": -0.20,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.25,
+  "cargo_space": -0.30,
   "rear_space": 0.00,
   "ground_clearance_in": -0.50,
   "turn_radius_ft": 0.00,
-  "mpg": -0.10,
-  "co2_g_km": 0.20,
+  "mpg": 0.00,
+  "co2_g_km": 0.00,
+  "electrification": -0.20,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.10,
-  "style_aggression_rating": 0.10,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.20,
   "style_modernity_rating": 0.30,
   "handling_rating": 0.30,
-  "ride_comfort_rating": 0.20,
-  "cabin_noise_rating": 0.10,
-  "shift_smooth_rating": 0.05,
-  "steering_feel_rating": -0.05,
+  "ride_comfort_rating": 0.30,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.30,
+  "steering_feel_rating": 0.30,
   "adas_score": 0.30,
-  "visibility_rating": 0.10,
+  "visibility_rating": 0.50,
   "headlight_rating": 0.30,
-  "security_rating": 0.05,
+  "security_rating": 0.00,
   "screen_in": 0.30,
-  "infotainment_ux_rating": 0.20,
-  "smartphone_connect_rating": 0.40,
-  "audio_rating": 0.20,
-  "usb_ports": 0.20,
-  "comfort_feature_score": 0.25,
-  "convenience_feature_score": 0.25,
-  "brand_prestige_rating": 0.40,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.30,
+  "usb_ports": -0.20,
+  "comfort_feature_score": 0.30,
+  "convenience_feature_score": 0.30,
+  "brand_prestige_rating": 0.70,
   "model_prestige_rating": 1.00,
   "trim_prestige_rating": 1.00,
-  "interior_luxury_rating": 0.20,
-  "interior_tech_focus_rating": 0.40
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.50
 }
 ```

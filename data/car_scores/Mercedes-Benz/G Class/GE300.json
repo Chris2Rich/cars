@@ -1,0 +1,115 @@
+The Mercedes-Benz G-Class GE300 (or 300GE) is a model from the W460 and W463 generations, produced primarily in the late 1980s and early 1990s. It is not the most recent version of the G-Class. Evaluating it against benchmarks for today's vehicles will highlight its age.
+
+Here is the evaluation based on the search results for the Mercedes-Benz G-Class GE300 (W460/W463 era):
+
+*   **price_usd**: Used prices vary significantly, but typical market values are well below the average price of a new car today ($52,000). Some examples are listed between €24,800 and €34,990, or around $35,276 average sale price. Compared to a new car average, this is significantly lower. +0.50.
+*   **total_cost_estimate_5yr_usd**: While the purchase price is lower than a new car, fuel economy is poor, and maintenance/repair costs for an older, potentially rare vehicle can be high due to parts availability and specialist labor. Ambiguous compared to a modern average. 0.00.
+*   **insurance_usd_yr**: Older vehicle, potentially lower value than new, but desirability and parts cost might prevent it from being very cheap to insure. Assume average. 0.00.
+*   **maint_usd_yr**: Parts can be expensive and hard to find for older Mercedes models. Maintenance is likely above average compared to a typical modern car. -0.50.
+*   **repair_risk_score**: The M103 engine is considered reliable, and the mechanics are simpler than modern cars. However, age-related issues and potential difficulty finding parts contribute to risk. Average risk compared to the whole market. 0.00.
+*   **hp**: Around 168-170 hp. This is below the market average (200 hp). -0.50.
+*   **torque**: Around 140-177 lb-ft (235-240 Nm). This is below the market average (190 lb-ft). -0.20.
+*   **cylinder_count**: Inline-6 (6 cylinders). Above average. 0.50.
+*   **engine_displacement**: 3.0L (2960-2962 cm³). Above average. 0.50.
+*   **accel_0_60_sec**: Around 11.9 - 13.5 seconds. This is significantly slower than the market average (7.5 sec) and falls into the slowest category. -1.00.
+*   **top_speed**: Around 100-102.5 mph (160-165 km/h). This is well below the market average (150 mph). -1.00.
+*   **drive_type**: 4MATIC (Permanent AWD) or 4x4. 0.00.
+*   **transmission_type**: 4-speed automatic or 5-speed manual. Using Automatic for the scale. 1.00.
+*   **driving_track_vs_gt**: Utilitarian off-roader, not designed for track or grand touring. 0.00.
+*   **offroad_ability**: Excellent off-road capability with differential locks. -1.00 (inverted scale).
+*   **braking_dist_ft**: No specific data found. Given its age and weight, braking performance is likely below modern standards. -0.50.
+*   **size**: Length around 4185mm (SWB) or 4662mm (LWB). Width around 1690mm. Average to slightly larger depending on wheelbase. 0.00.
+*   **wheelbase**: 2400mm (SWB) or 2850mm (LWB). Average to longer depending on wheelbase. 0.00.
+*   **body_style**: 3-door or 5-door wagon/SUV, also convertible. 0.00.
+*   **seats**: 4 or 5 seats. 0.00.
+*   **cargo_space**: Up to 2250 litres (79.46 cu ft) with rear seats folded. Excellent maximum space. 0.80.
+*   **rear_space**: Relatively spacious for two adults in the back seat. Assume average. 0.00.
+*   **ground_clearance_in**: High ground clearance. Around 8 inches (estimated based on W460/W461 data). 0.80.
+*   **turn_radius_ft**: Likely large due to off-road focus and older steering design. -0.50.
+*   **mpg**: Poor fuel economy, around 16.3-21.7 mpg Imperial (13.6-18.1 US mpg). Very inefficient by modern standards. -1.00.
+*   **co2_g_km**: Very high emissions for a petrol engine of that era. -1.00.
+*   **electrification**: Petrol. -0.50.
+*   **electric_range_mi**: Not electric. -1.00.
+*   **charge_speed_kw**: Not electric. -1.00.
+*   **style_sleek_vs_boxy**: Very boxy. -1.00.
+*   **style_aggression_rating**: Utilitarian, not aggressive. -1.00.
+*   **style_modernity_rating**: Very dated design and interior. -1.00.
+*   **handling_rating**: Reviews mention vague body control and poor handling compared to modern SUVs. -0.80.
+*   **ride_comfort_rating**: Reviews mention a utilitarian or hard ride. -0.80.
+*   **cabin_noise_rating**: Wind noise from large mirrors mentioned. Likely loud cabin. -0.80.
+*   **shift_smooth_rating**: Older automatic transmission. 0.00.
+*   **steering_feel_rating**: Slow, vague steering. Poor. -0.80.
+*   **adas_score**: None available for this era. -1.00.
+*   **visibility_rating**: Excellent all-round visibility due to boxy shape and large windows. 1.00.
+*   **headlight_rating**: Likely basic halogen headlights. Poor compared to modern systems. -1.00.
+*   **security_rating**: Basic security features for the era (immobiliser and tracking system mentioned on one modified example). Basic by modern standards. -0.80.
+*   **screen_in**: No integrated screen, aftermarket units might be fitted. -1.00.
+*   **infotainment_ux_rating**: Basic radio/cassette player originally, aftermarket head units possible. No integrated infotainment system. -1.00.
+*   **smartphone_connect_rating**: None originally. -1.00.
+*   **audio_rating**: Basic audio system originally, aftermarket upgrades possible. Basic by modern standards. -1.00.
+*   **usb_ports**: None originally. -1.00.
+*   **comfort_feature_score**: Basic features, aircon and automatic gearbox were options on earlier models. Leather and wood trim available on W463. Basic compared to modern luxury. -1.00.
+*   **convenience_feature_score**: Basic features, power windows, central locking might be available. No modern convenience features like sensors, cameras, keyless entry standard. -1.00.
+*   **brand_prestige_rating**: Mercedes-Benz. 0.90.
+*   **model_prestige_rating**: G-Class (Iconic, but this is an older, less luxurious version than modern ones). 0.00.
+*   **trim_prestige_rating**: GE300 was a standard engine option, not a top performance or luxury trim. +0.50.
+*   **interior_luxury_rating**: Utilitarian with some luxury touches on W463 models. Basic compared to modern luxury. -1.00.
+*   **interior_tech_focus_rating**: No tech focus. -1.00.
+
+```json
+{
+ "price_usd": 0.50,
+ "total_cost_estimate_5yr_usd": 0.00,
+ "insurance_usd_yr": 0.00,
+ "maint_usd_yr": -0.50,
+ "repair_risk_score": 0.00,
+ "hp": -0.50,
+ "torque": -0.20,
+ "cylinder_count": 0.50,
+ "engine_displacement": 0.50,
+ "accel_0_60_sec": -1.00,
+ "top_speed": -1.00,
+ "drive_type": 0.00,
+ "transmission_type": 1.00,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": -1.00,
+ "braking_dist_ft": -0.50,
+ "size": 0.00,
+ "wheelbase": 0.00,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": 0.80,
+ "rear_space": 0.00,
+ "ground_clearance_in": 0.80,
+ "turn_radius_ft": -0.50,
+ "mpg": -1.00,
+ "co2_g_km": -1.00,
+ "electrification": -0.50,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": -1.00,
+ "style_aggression_rating": -1.00,
+ "style_modernity_rating": -1.00,
+ "handling_rating": -0.80,
+ "ride_comfort_rating": -0.80,
+ "cabin_noise_rating": -0.80,
+ "shift_smooth_rating": 0.00,
+ "steering_feel_rating": -0.80,
+ "adas_score": -1.00,
+ "visibility_rating": 1.00,
+ "headlight_rating": -1.00,
+ "security_rating": -0.80,
+ "screen_in": -1.00,
+ "infotainment_ux_rating": -1.00,
+ "smartphone_connect_rating": -1.00,
+ "audio_rating": -1.00,
+ "usb_ports": -1.00,
+ "comfort_feature_score": -1.00,
+ "convenience_feature_score": -1.00,
+ "brand_prestige_rating": 0.90,
+ "model_prestige_rating": 0.00,
+ "trim_prestige_rating": 0.50,
+ "interior_luxury_rating": -1.00,
+ "interior_tech_focus_rating": -1.00
+}
+```

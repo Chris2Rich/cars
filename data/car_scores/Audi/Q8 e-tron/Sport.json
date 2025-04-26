@@ -1,110 +1,56 @@
-Here's the evaluation of the Audi Q8 e-tron Sport based on the search results and the provided scoring guide:
-
-*   **price_usd**: Starts around $74,400 - $75,595 (Source [5, 35]). This is well above the $52,000 average but not in the >$120k range. Score: -0.50.
-*   **total_cost_estimate_5yr_usd**: No specific 5-year cost found, default to 0.00.
-*   **insurance_usd_yr**: No specific annual insurance cost found, default to 0.00. (UK insurance group mentioned but no group number found).
-*   **maint_usd_yr**: No specific annual maintenance cost found, default to 0.00.
-*   **repair_risk_score**: No specific reliability rating found, default to 0.00.
-*   **hp**: 402 hp (Boost Mode) (Source [2, 3, 5, 11, 15, 19, 25, 30]). This is significantly above the 200 hp average. Score: 0.60.
-*   **torque**: 490 lb-ft (Boost Mode) (Source [2, 3, 11, 15, 25, 30]). This is significantly above the 190 lb-ft average. Score: 0.60.
-*   **cylinder_count**: EV, 0 cylinders. Default to 0.00.
-*   **engine_displacement**: EV, 0 displacement. Default to 0.00.
-*   **accel_0_60_sec**: 5.2 - 5.4 seconds (Source [2, 3, 5, 18, 19, 29]). This is faster than the 7.5 sec average. Score: 0.50.
-*   **top_speed**: 124 mph (Source [18]). This is below the 150 mph average. Score: -0.20.
-*   **drive_type**: AWD (e-quattro) (Source [2, 3, 5, 6, 11, 12, 15, 18, 19, 30, 33]). Score: 0.00.
-*   **transmission_type**: Single-speed automatic (Source [6, 19]). Score: 1.00.
-*   **offroad_ability**: Has adaptive air suspension with adjustable ride height and an "offroad" mode (Source [13, 27]). Ground clearance is 176mm (6.9 inches) in default, can be raised (Source [27]). This is better than average for an SUV, but not a dedicated offroader. Score: 0.30.
-*   **braking_dist_ft**: No specific braking distance found, default to 0.00.
-*   **size**: Length is around 4915 mm (Source [23]) or 193.5 inches (Source [3]). This is larger than the 4600mm average. Score: 0.40.
-*   **wheelbase**: 115.1 inches (Source [2, 3]) or 2498 mm (Source [23]). 115.1 inches is ~2924 mm. This is larger than the 2700mm average. Score: 0.40.
-*   **body_style**: 5-door SUV (Source [15]). Score: 0.30 (between sedan/coupe and van).
-*   **seats**: 5 seats (Source [2, 3, 6, 10, 15, 18, 19, 28]). Score: 0.00.
-*   **cargo_space**: 28.5 - 29 cu ft behind rear seats (Source [2, 10, 19, 28, 30, 31]). This is significantly above the 15 cu ft average. Score: 0.70.
-*   **rear_space**: Rear legroom 39.1 inches (Source [10, 19]). This is well above the 35" average. Score: 0.80.
-*   **ground_clearance_in**: Default 6.9 inches, adjustable (Source [27]). This is slightly above the 6.5" average. Score: 0.20.
-*   **turn_radius_ft**: Steering is described as nimble and having a tight turning circle (Source [20, 33]). No specific ft value found. Score: 0.30.
-*   **mpg**: EV. Score: 0.00.
-*   **co2_g_km**: EV. Score: 1.00.
-*   **electric_range_mi**: EPA estimated 285 miles (Source [2, 3, 5, 18, 19, 22, 30]). This is well above the 100 mi average. Score: 0.70.
-*   **charge_speed_kw**: Max DC charging 170 kW (Source [3, 4, 5, 11, 12, 21, 24, 25, 32, 34]). This is significantly above the 11-50 kW average. Score: 0.80.
-*   **style_sleek_vs_boxy**: Described as having a sleek roofline (Sportback) or well-balanced design (SUV) (Source [14, 23, 31]). Not overly boxy or sleek. Score: 0.00.
-*   **style_aggression_rating**: Design is described as "a bit vanilla" or "subdued" compared to rivals, but the facelift added a "more aggressive" front (Source [7, 9, 23]). Score: 0.00.
-*   **style_modernity_rating**: Modern EV design, but conventional-looking (Source [3, 6, 7, 23, 31]). Score: 0.30.
-*   **handling_rating**: Described as composed, stable, and agile for its size, with improved steering and suspension tuning (Source [2, 3, 11, 27, 30, 33, 34]). Score: 0.50.
-*   **ride_comfort_rating**: Described as smooth, quiet, comfortable, excellent ride quality, soaks up bumps brilliantly (Source [2, 3, 7, 8, 9, 13, 16, 17, 20, 27, 31, 34]). Score: 0.90.
-*   **cabin_noise_rating**: Described as hushed, quiet, silent cruising, supremely low wind/road noise (Source [2, 3, 9, 13, 17, 20, 31, 33, 34]). Score: 1.00.
-*   **shift_smooth_rating**: EV, single speed. Perfectly smooth. Score: 1.00.
-*   **steering_feel_rating**: Steering is precise and direct with improved tuning, but some reviews note lack of feedback (Source [5, 9, 27, 30, 33, 34]). Score: 0.40.
-*   **adas_score**: Offers a comprehensive suite of standard ADAS features including adaptive cruise control, lane assist, blind-spot monitoring, 360-degree camera (Source [3, 10, 13, 16, 20, 23, 33, 34]). Score: 0.80.
-*   **visibility_rating**: Generally good visibility, though virtual mirrors are criticized (if equipped) and C-pillar is mentioned (Source [7, 9, 20, 31, 34]). Score: 0.60.
-*   **headlight_rating**: LED headlights are standard, Matrix-design available (Source [2, 6, 12, 34]). Audi is known for good lighting. Score: 0.80.
-*   **security_rating**: No specific security features beyond standard mentioned, default to 0.00.
-*   **screen_in**: Multiple screens, including 12.3-inch Virtual Cockpit and dual central touchscreens (10.1-inch upper, 8.6-inch lower) (Source [2, 8, 9, 11, 20, 23, 33]). Score: 0.70.
-*   **infotainment_ux_rating**: MMI touch response system is generally well-regarded, intuitive, large buttons, but can be fingerprint magnets and haptic feedback can be distracting (Source [8, 9, 11, 18, 34]). Score: 0.50.
-*   **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto supported (Source [13]). Score: 0.90.
-*   **audio_rating**: Available Bang & Olufsen 3D Premium Sound System (Source [2, 10, 11, 13]). Score: 0.80.
-*   **usb_ports**: Four USB-C ports mentioned (Source [31]). Score: 0.60.
-*   **comfort_feature_score**: Standard heated power front seats, 4-zone climate control. Available ventilated, massaging, 18-way adjustable seats (Source [2, 5, 10, 11, 14, 18, 34]). Score: 0.90.
-*   **convenience_feature_score**: Standard features like adaptive cruise control, top-view 360-degree camera system available (Source [2, 10, 11, 18, 20, 31, 33, 34]). Score: 0.80.
-*   **brand_prestige_rating**: Audi is a premium/luxury brand. Score: 0.70.
-*   **model_prestige_rating**: Q8 is positioned as the flagship EV SUV (Source [3, 30]). Score: -1.00.
-*   **trim_prestige_rating**: 'Sport' is a mid-range trim, not base or top performance (SQ8). Score: 0.00.
-*   **interior_luxury_rating**: Described as sophisticated, luxurious, premium materials, excellent quality, plush materials, comfy seats (Source [2, 5, 8, 9, 10, 13, 16, 17, 18, 20, 31, 34, 36]). Score: 0.90.
-*   **interior_tech_focus_rating**: Packed with multiple high-resolution screens, digital gauge cluster, dual touchscreens (Source [2, 8, 9, 11, 17, 20, 33]). Screen-forward design. Score: 0.90.
-
-Refining scores based on findings and benchmarks. Adjusting some scores slightly based on multiple sources confirming similar points. For example, multiple sources praise ride comfort and cabin noise, justifying high scores. Cargo space is good for the segment, but not class-leading compared to some larger SUVs, so 0.70 seems appropriate. Range is competitive but not class-leading, so 0.70 is fair. Charging speed is good, but not the absolute fastest available, so 0.80 is appropriate.
-
-Final check on scores against benchmarks. Looks reasonable.```json
+```json
 {
-  "price_usd": -0.50,
+  "price_usd": -0.70,
   "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
+  "insurance_usd_yr": -1.00,
   "maint_usd_yr": 0.00,
   "repair_risk_score": 0.00,
-  "hp": 0.60,
+  "hp": 0.50,
   "torque": 0.60,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.50,
+  "accel_0_60_sec": 0.40,
   "top_speed": -0.20,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "offroad_ability": 0.30,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": -0.50,
   "braking_dist_ft": 0.00,
-  "size": 0.40,
-  "wheelbase": 0.40,
-  "body_style": 0.30,
+  "size": 0.50,
+  "wheelbase": 0.50,
+  "body_style": 0.50,
   "seats": 0.00,
-  "cargo_space": 0.70,
+  "cargo_space": 0.60,
   "rear_space": 0.80,
-  "ground_clearance_in": 0.20,
-  "turn_radius_ft": 0.30,
+  "ground_clearance_in": 0.30,
+  "turn_radius_ft": -0.10,
   "mpg": 0.00,
   "co2_g_km": 1.00,
-  "electric_range_mi": 0.70,
-  "charge_speed_kw": 0.80,
-  "style_sleek_vs_boxy": 0.00,
+  "electrification": 1.00,
+  "electric_range_mi": 0.50,
+  "charge_speed_kw": 0.50,
+  "style_sleek_vs_boxy": 0.50,
   "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.30,
-  "handling_rating": 0.50,
-  "ride_comfort_rating": 0.90,
-  "cabin_noise_rating": 1.00,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.40,
+  "ride_comfort_rating": 0.80,
+  "cabin_noise_rating": 0.90,
   "shift_smooth_rating": 1.00,
-  "steering_feel_rating": 0.40,
-  "adas_score": 0.80,
-  "visibility_rating": 0.60,
-  "headlight_rating": 0.80,
-  "security_rating": 0.00,
-  "screen_in": 0.70,
-  "infotainment_ux_rating": 0.50,
-  "smartphone_connect_rating": 0.90,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.90,
+  "visibility_rating": 0.20,
+  "headlight_rating": 0.90,
+  "security_rating": 0.50,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.20,
+  "smartphone_connect_rating": 0.80,
   "audio_rating": 0.80,
-  "usb_ports": 0.60,
+  "usb_ports": 0.50,
   "comfort_feature_score": 0.90,
-  "convenience_feature_score": 0.80,
-  "brand_prestige_rating": 0.70,
-  "model_prestige_rating": -1.00,
-  "trim_prestige_rating": 0.00,
+  "convenience_feature_score": 0.90,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": -0.80,
+  "trim_prestige_rating": 1.00,
   "interior_luxury_rating": 0.90,
   "interior_tech_focus_rating": 0.90
 }

@@ -1,68 +1,14 @@
-The search results confirm that there is no current model specifically named "Mercedes-Benz GLC300h". The current lineup includes GLC300 (mild hybrid gasoline), GLC300d (mild hybrid diesel), GLC300e (gasoline PHEV), GLC300de (diesel PHEV), GLC350e (gasoline PHEV), and AMG variants.
+Based on the search results, the most recent version of the Mercedes-Benz GLC does not include a model specifically named "GLC 300h". The current hybrid variants in the latest generation (X254, 2023-present) are the GLC 300e (petrol plug-in hybrid) and the GLC 300de (diesel plug-in hybrid). The standard GLC 300 is a mild-hybrid (MHEV) petrol model.
 
-Since the exact model "GLC300h" does not appear to exist in the current lineup with specific, verifiable data, I must default most scores to 0.00 as per the instructions for ambiguous data. I can, however, rate general characteristics of the GLC range and Mercedes-Benz brand where applicable and supported by the search results (e.g., brand prestige, interior tech, screen size, ADAS).
+Since the requested model name "GLC300h" does not correspond to a currently produced vehicle in the most recent GLC lineup, I cannot provide specific data for it. According to the instructions, if data is ambiguous or unclear, I should default to 0.00. As the model itself is not found in the current lineup, I will populate the JSON with default values.
 
-Let's populate the JSON with 0.00 for most specific performance/efficiency/size metrics and use general GLC/Mercedes knowledge for the others.
-
-*   **price\_usd**: Cannot find price for GLC300h. Default 0.00.
-*   **total\_cost\_estimate\_5yr\_usd**: Cannot estimate for GLC300h. Default 0.00.
-*   **insurance\_usd\_yr**: Cannot find insurance group for GLC300h. Default 0.00.
-*   **maint\_usd\_yr**: Cannot estimate for GLC300h. Default 0.00.
-*   **repair\_risk\_score**: Mercedes generally average to slightly below. Score: -0.25.
-*   **hp**: Cannot find HP for GLC300h. Default 0.00.
-*   **torque**: Cannot find torque for GLC300h. Default 0.00.
-*   **cylinder\_count**: GLC models typically use 4-cylinders. Score: 0.00.
-*   **engine\_displacement**: GLC models typically use 2.0L. Score: 0.00.
-*   **accel\_0\_60\_sec**: Cannot find 0-60 for GLC300h. Default 0.00.
-*   **top\_speed**: Cannot find top speed for GLC300h. Default 0.00.
-*   **drive\_type**: GLC offers RWD and AWD (4MATIC). Default 0.00.
-*   **transmission\_type**: GLC uses 9-speed automatic. Score: 1.00.
-*   **offroad\_ability**: Standard luxury SUV. Score: 0.00.
-*   **braking\_dist\_ft**: Cannot find braking distance for GLC300h. Default 0.00.
-*   **size**: GLC is a compact luxury SUV, around average size. Score: 0.00.
-*   **wheelbase**: GLC wheelbase is around average for its class. Score: 0.00.
-*   **body\_style**: 5-door SUV. Score: 0.00.
-*   **seats**: 5 seats. Score: 0.00.
-*   **cargo\_space**: Cannot find specific cargo space for GLC300h. Default 0.00.
-*   **rear\_space**: Rear legroom is generally good in the GLC. Score: 0.25.
-*   **ground\_clearance\_in**: Standard SUV clearance. Score: 0.00.
-*   **turn\_radius\_ft**: Cannot find turn radius for GLC300h. Default 0.00.
-*   **mpg**: Cannot find MPG for GLC300h. Default 0.00.
-*   **co2\_g\_km**: Cannot find CO2 for GLC300h. Default 0.00.
-*   **electric\_range\_mi**: Cannot find electric range for GLC300h. Default -1.00 (assuming it's not a PHEV with significant range, or if it's a mild hybrid, the electric range is negligible). Given the 'h' it might imply some hybridisation, but without data, -1.00 is the safest default for a non-EV/non-PHEV with substantial range.
-*   **charge\_speed\_kw**: Cannot find charge speed for GLC300h. Default -1.00 (same reasoning as electric range).
-*   **style\_sleek\_vs\_boxy**: Typical crossover shape. Score: 0.00.
-*   **style\_aggression\_rating**: Standard GLC is not aggressive. Score: 0.00.
-*   **style\_modernity\_rating**: Recent redesign is modern. Score: 0.75.
-*   **handling\_rating**: Focused on comfort. Score: 0.00.
-*   **ride\_comfort\_rating**: Mercedes is known for comfort. Score: 0.75.
-*   **cabin\_noise\_rating**: Mercedes is known for quiet cabins. Score: 0.75.
-*   **shift\_smooth\_rating**: 9-speed automatic is typically smooth. Score: 0.50.
-*   **steering\_feel\_rating**: Comfortable, not engaging. Score: 0.00.
-*   **adas\_score**: High level of ADAS available in GLC range. Score: 0.75.
-*   **visibility\_rating**: Typical SUV visibility. Score: 0.00.
-*   **headlight\_rating**: Good LED headlights in GLC range. Score: 0.50.
-*   **security\_rating**: Luxury brand, likely good security features. Score: 0.50.
-*   **screen\_in**: Large screens in the latest GLC. Score: 0.75.
-*   **infotainment\_ux\_rating**: MBUX, generally good but can be complex. Score: 0.50.
-*   **smartphone\_connect\_rating**: Wireless CarPlay/Android Auto standard in latest GLC. Score: 1.00.
-*   **audio\_rating**: Good base system, upgrades available. Score: 0.50.
-*   **usb\_ports**: Multiple USB-C ports in latest GLC. Score: 0.75.
-*   **comfort\_feature\_score**: Many luxury comfort features available in GLC range. Score: 0.75.
-*   **convenience\_feature\_score**: Many luxury convenience features available in GLC range. Score: 0.75.
-*   **brand\_prestige\_rating**: Mercedes-Benz is a high-prestige brand. Score: 0.75.
-*   **model\_prestige\_rating**: GLC is a core model. Score: 0.00.
-*   **trim\_prestige\_rating**: "GLC300h" is not a recognized trim, defaulting to average trim prestige. Score: 0.00.
-*   **interior\_luxury\_rating**: High quality materials and design in GLC range. Score: 0.75.
-*   **interior\_tech\_focus\_rating**: Very screen-focused and modern tech in latest GLC. Score: 1.00.
-
-This approach adheres to the instructions by defaulting to 0.00 when specific data for the named model is unavailable, while still applying general knowledge about the GLC model line and Mercedes-Benz brand for attributes that are likely consistent.```json
+```json
 {
   "price_usd": 0.00,
   "total_cost_estimate_5yr_usd": 0.00,
   "insurance_usd_yr": 0.00,
   "maint_usd_yr": 0.00,
-  "repair_risk_score": -0.25,
+  "repair_risk_score": 0.00,
   "hp": 0.00,
   "torque": 0.00,
   "cylinder_count": 0.00,
@@ -70,7 +16,8 @@ This approach adheres to the instructions by defaulting to 0.00 when specific da
   "accel_0_60_sec": 0.00,
   "top_speed": 0.00,
   "drive_type": 0.00,
-  "transmission_type": 1.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
   "offroad_ability": 0.00,
   "braking_dist_ft": 0.00,
   "size": 0.00,
@@ -78,36 +25,37 @@ This approach adheres to the instructions by defaulting to 0.00 when specific da
   "body_style": 0.00,
   "seats": 0.00,
   "cargo_space": 0.00,
-  "rear_space": 0.25,
+  "rear_space": 0.00,
   "ground_clearance_in": 0.00,
   "turn_radius_ft": 0.00,
   "mpg": 0.00,
   "co2_g_km": 0.00,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
+  "electrification": 0.00,
+  "electric_range_mi": 0.00,
+  "charge_speed_kw": 0.00,
   "style_sleek_vs_boxy": 0.00,
   "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.75,
+  "style_modernity_rating": 0.00,
   "handling_rating": 0.00,
-  "ride_comfort_rating": 0.75,
-  "cabin_noise_rating": 0.75,
-  "shift_smooth_rating": 0.50,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.00,
   "steering_feel_rating": 0.00,
-  "adas_score": 0.75,
+  "adas_score": 0.00,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.50,
-  "security_rating": 0.50,
-  "screen_in": 0.75,
-  "infotainment_ux_rating": 0.50,
-  "smartphone_connect_rating": 1.00,
-  "audio_rating": 0.50,
-  "usb_ports": 0.75,
-  "comfort_feature_score": 0.75,
-  "convenience_feature_score": 0.75,
-  "brand_prestige_rating": 0.75,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.00,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.75,
-  "interior_tech_focus_rating": 1.00
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": 0.00
 }
 ```

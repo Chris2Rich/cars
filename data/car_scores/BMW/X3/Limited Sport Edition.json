@@ -1,0 +1,111 @@
+The "Limited Sport Edition" was a trim level available on the first generation BMW X3 (E83), particularly around 2009. This evaluation will be based on the E83 generation, comparing it to the current automotive market.
+
+- price_usd: Used E83 X3 models are significantly cheaper than the average new car today. Prices can be under £11,300 in the UK. Score: +1.00.
+- total_cost_estimate_5yr_usd: While the purchase price is low, older BMWs can have higher maintenance and repair costs. However, the low initial price likely results in a lower total cost over 5 years compared to a new car. Score: +0.50.
+- insurance_usd_yr: Insurance groups for the E83 X3 range from 27 to 42. This is around or slightly above the average for today's market. Score: 0.00.
+- maint_usd_yr: Older BMWs are known for potentially higher maintenance costs than average. Score: -0.50.
+- repair_risk_score: The E83 X3 has some known common problems, including potential issues with the AWD drivetrain, power steering, and electrical gremlins, indicating a higher repair risk than average. Score: -0.50.
+- hp: Engine options for the 2009 E83 X3 ranged from 143 hp to 286 hp. The average is below today's market average. Score: -0.30.
+- torque: Torque figures vary by engine (e.g., 2.5i had 250 Nm / 184 lb-ft, 3.0sd had 580 Nm / 428 lb-ft). The average is below or around today's market average. Score: -0.20.
+- cylinder_count: Engines were primarily 4 or 6 cylinders. Score: -0.20.
+- engine_displacement: Engines ranged from 2.0L to 3.0L. Score: 0.00.
+- accel_0_60_sec: 0-60 mph times ranged from around 6.2 to 11.1 seconds depending on the engine. This is slower than the average new car today. Score: -0.30.
+- top_speed: Top speeds ranged from around 118 mph to 142 mph. This is around or below the average new car. Score: -0.20.
+- drive_type: Most E83 X3 models, including the Limited Sport Edition, came with xDrive (AWD). Score: 0.00.
+- transmission_type: Available with both manual and automatic transmissions. Automatic was common. Score: 1.00.
+- driving_track_vs_gt: Designed as a daily driver/mild SUV, not a track car or a dedicated grand tourer. Score: 0.00.
+- offroad_ability: Had some mild off-road capability due to AWD and ground clearance, but not a serious off-roader. Score: -0.20.
+- braking_dist_ft: Braking performance was average for its time, likely longer than modern cars. Score: -0.30.
+- size: The E83 X3 is smaller than the current generation X3 and many modern SUVs. Length is around 4.57m. Score: -0.20.
+- wheelbase: Wheelbase is around 2.80m. Shorter than many modern SUVs. Score: -0.20.
+- body_style: 5-door SUV. Score: 0.50.
+- seats: 5 seats. Score: 0.00.
+- cargo_space: Cargo volume is 480L (17 cu ft) with seats up, 1560L (55 cu ft) with seats down. This is around average for a compact SUV, but below the average for all SUVs today. Score: 0.00.
+- rear_space: Rear legroom was considered adequate for its time but not exceptional. Likely below the average for modern SUVs. Score: -0.20.
+- ground_clearance_in: Ground clearance is around 20 cm (7.87 inches). This is good for an SUV. Score: 0.70.
+- turn_radius_ft: Turning circle is 11.7m (38.4 ft). Around average. Score: 0.00.
+- mpg: Fuel economy ranged from 23 to 45 mpg depending on the engine. This is below the average for modern cars, especially with newer hybrid/EV options. Score: -0.50.
+- co2_g_km: CO2 emissions were relatively high (e.g., 2.5si was 224 g/km, 3.0i was 293 g/km). Score: -0.70.
+- electrification: Petrol/Diesel engines only. Score: -1.00.
+- electric_range_mi: Not applicable. Score: -1.00.
+- charge_speed_kw: Not applicable. Score: -1.00.
+- style_sleek_vs_boxy: Traditional SUV shape, neither particularly sleek nor boxy. Score: 0.00.
+- style_aggression_rating: Mildly aggressive for its time, but not by modern standards. Score: 0.00.
+- style_modernity_rating: The E83 design is clearly dated compared to modern vehicles. Score: -1.00.
+- handling_rating: Known for good handling for an SUV of its era, especially with the Sport package. Score: 0.30.
+- ride_comfort_rating: The Sport package included stiffer suspension, resulting in a firmer ride. Below average comfort by modern standards. Score: -0.50.
+- cabin_noise_rating: Average for its time, likely higher than modern premium SUVs. Score: 0.00.
+- shift_smooth_rating: Automatic transmission was decent for its time. Score: 0.00.
+- steering_feel_rating: BMW steering was generally well-regarded, though hydraulic. Score: 0.30.
+- adas_score: Minimal to no advanced ADAS features. Score: -1.00.
+- visibility_rating: Decent visibility for an SUV. Score: 0.00.
+- headlight_rating: Available with Xenon headlights. Below modern LED/Matrix standards. Score: -0.50.
+- security_rating: Standard security features for its time (alarm, immobilizer). Score: 0.00.
+- screen_in: Optional iDrive system had a small screen. Base models may have had no screen. Score: -1.00.
+- infotainment_ux_rating: Dated iDrive or basic system, not user-friendly by modern standards. Score: -1.00.
+- smartphone_connect_rating: No modern smartphone connectivity (CarPlay/Android Auto). Score: -1.00.
+- audio_rating: Standard audio systems. Score: 0.00.
+- usb_ports: Likely none or very few older types. Score: -1.00.
+- comfort_feature_score: Basic features by modern standards. Sport seats were available. Score: -0.50.
+- convenience_feature_score: Basic features by modern standards. Parking sensors were optional. Score: -0.50.
+- brand_prestige_rating: BMW is a high-prestige brand. Score: 0.80.
+- model_prestige_rating: X3 is a core model, not entry or halo. Score: 0.00.
+- trim_prestige_rating: "Limited Sport Edition" was a specific, higher-end trim for the E83. Score: -0.50.
+- interior_luxury_rating: Decent materials for its time, but not luxurious by modern standards. Score: 0.00.
+- interior_tech_focus_rating: Minimal tech focus compared to modern cars. Score: -1.00.```json
+{
+ "price_usd": 1.00,
+ "total_cost_estimate_5yr_usd": 0.50,
+ "insurance_usd_yr": 0.00,
+ "maint_usd_yr": -0.50,
+ "repair_risk_score": -0.50,
+ "hp": -0.30,
+ "torque": -0.20,
+ "cylinder_count": -0.20,
+ "engine_displacement": 0.00,
+ "accel_0_60_sec": -0.30,
+ "top_speed": -0.20,
+ "drive_type": 0.00,
+ "transmission_type": 1.00,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": -0.20,
+ "braking_dist_ft": -0.30,
+ "size": -0.20,
+ "wheelbase": -0.20,
+ "body_style": 0.50,
+ "seats": 0.00,
+ "cargo_space": 0.00,
+ "rear_space": -0.20,
+ "ground_clearance_in": 0.70,
+ "turn_radius_ft": 0.00,
+ "mpg": -0.50,
+ "co2_g_km": -0.70,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": 0.00,
+ "style_aggression_rating": 0.00,
+ "style_modernity_rating": -1.00,
+ "handling_rating": 0.30,
+ "ride_comfort_rating": -0.50,
+ "cabin_noise_rating": 0.00,
+ "shift_smooth_rating": 0.00,
+ "steering_feel_rating": 0.30,
+ "adas_score": -1.00,
+ "visibility_rating": 0.00,
+ "headlight_rating": -0.50,
+ "security_rating": 0.00,
+ "screen_in": -1.00,
+ "infotainment_ux_rating": -1.00,
+ "smartphone_connect_rating": -1.00,
+ "audio_rating": 0.00,
+ "usb_ports": -1.00,
+ "comfort_feature_score": -0.50,
+ "convenience_feature_score": -0.50,
+ "brand_prestige_rating": 0.80,
+ "model_prestige_rating": 0.00,
+ "trim_prestige_rating": -0.50,
+ "interior_luxury_rating": 0.00,
+ "interior_tech_focus_rating": -1.00
+}
+```

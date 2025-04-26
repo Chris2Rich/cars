@@ -1,0 +1,63 @@
+The search results indicate that the Mercedes-Benz C250 designation was primarily used for previous generations of the C-Class (W204, W205). The current W206 generation (2021-present) offers petrol variants named C180, C200, and C300. While one search result mentions a "Mercedes Benz C 250 (W206)" and provides specifications like a 2.0L engine, 204 hp, and 320 Nm of torque, these specifications (204 hp, 320 Nm) precisely match those of the C200 model in the W206 generation. This suggests that the "C250 (W206)" mentioned in that source might be a regional naming variation or an error, as the official Mercedes-Benz W206 powertrain list and multiple reviews consistently refer to the 204 hp variant as the C200 and the 255 hp variant as the C300.
+
+Given the strong evidence that "C250" is not a standard, globally recognized model name for the most recent W206 C-Class generation, and the ambiguity introduced by the single source using that name with specs matching the C200, I will treat the requested model as unclear for the current generation.
+
+As per instructions, I will default scores to 0.00 where data is ambiguous or unclear for the requested *recent* model, and -1.00 for metrics that are inherently not applicable (like electric range for a petrol-based car).
+
+```json
+{
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.00,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.00,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 0.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.00,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.00,
+  "co2_g_km": 0.00,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.90,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": 0.00
+}
+```

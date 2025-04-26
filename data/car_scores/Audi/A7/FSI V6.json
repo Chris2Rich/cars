@@ -1,109 +1,57 @@
-Based on the search results, I will evaluate the 2015 Audi A7 3.0 FSI V6 Quattro (also referred to as 3.0T).
-
-*   **price_usd**: Used prices for a 2015 A7 3.0T Premium Plus/Prestige are around $15,000 - $20,000 (Source 20). This is well below the market average of $52,000. Score: +1.00.
-*   **total_cost_estimate_5yr_usd**: No specific 5-year cost found for this exact model year/trim. Default to 0.00.
-*   **insurance_usd_yr**: No specific insurance cost found. Audi A7 is a luxury car, likely higher than average. Default to 0.00.
-*   **maint_usd_yr**: Audi maintenance is generally higher than average. Score: -0.30.
-*   **repair_risk_score**: Reviews mention "very poor reliability record" for the 2010-2018 A7 generation (Source 32), specifically mentioning potential issues with the electronic handbrake, infotainment screen, fuel filler cap lock, engine rattle (on TDI, but indicates potential V6 issues), and electronic steering (Source 7). Score: -0.90.
-*   **hp**: 2015 A7 3.0T has 310 hp (Source 2, 13). This is above the average of 200 hp. Score: 0.40.
-*   **torque**: 2015 A7 3.0T has 325 lb-ft (Source 2, 13). This is above the average of 190 lb-ft. Score: 0.40.
-*   **cylinder_count**: V6 engine, so 6 cylinders. Score: 0.00.
-*   **engine_displacement**: 3.0L (Source 2, 13). Score: 0.00.
-*   **accel_0_60_sec**: 5.4 seconds (Source 2, 13). This is significantly quicker than the average of 7.5 seconds. Score: 0.70.
-*   **top_speed**: 130 mph (electronically limited) (Source 20). This is around the average of 150 mph for a C200, but lower than some performance cars. Score: 0.00.
-*   **drive_type**: Quattro (AWD) is standard on the 3.0T (Source 2, 13). Score: 0.00.
-*   **transmission_type**: 8-speed Tiptronic automatic (Source 2, 13). Score: 1.00.
-*   **offroad_ability**: Low-slung luxury car, not designed for off-road. Score: 1.00 (as per inverse scoring).
-*   **braking_dist_ft**: 166 feet from 70 mph (Source 26). This is worse than the average of ~125 ft from 60 mph. Score: -1.00.
-*   **size**: Length is 4.97 meters (16.3 ft) (Source 5, 19). This is larger than the average Civic (~4600mm). Score: 0.60.
-*   **wheelbase**: Turning diameter is 39.0 ft (Source 8, 24). Turning radius is half of that, 19.5 ft. This is larger than the average Camry (~36 ft turning diameter, 18 ft radius). Score: -0.20. (Correction: The guide uses turning radius, so 19.5 ft is slightly larger than average 18 ft radius). Let's re-score based on radius. Average radius is 18 ft. 19.5 ft is slightly larger. Score: -0.20.
-*   **body_style**: 5-door hatchback/coupe (Source 5, 13, 17). This is more practical than a 2-door coupe or 4-door sedan. Score: 0.30.
-*   **seats**: 5 seats (Source 8). Score: 0.00. (Some sources mention 4 seats depending on configuration, but 5 is common).
-*   **cargo_space**: 24.5 cu ft (Source 8, 17, 19, 20). This is significantly larger than the average of 15 cu ft. Score: 0.80.
-*   **rear_space**: Reviews mention rear space is "smaller than ideal" and "cramped" for adults due to the roofline (Source 4, 15). Score: -0.50.
-*   **ground_clearance_in**: No specific number found. It's a low-slung car. Score: -0.50.
-*   **turn_radius_ft**: 19.5 ft (Source 24). Average is ~18 ft. Score: -0.20.
-*   **mpg**: 21 mpg combined (Source 2, 13, 20). This is below the average of 30 mpg. Score: -0.20.
-*   **co2_g_km**: 176 g/km for the TFSI (Source 23). This is higher than the average of 175 g/km. Score: -0.10.
-*   **electric_range_mi**: Not electric. Score: -1.00.
-*   **charge_speed_kw**: Not electric. Score: -1.00.
-*   **style_sleek_vs_boxy**: Described as "sleek styling", "coupe-like silhouette" (Source 4, 13, 15, 19). Score: 0.80.
-*   **style_aggression_rating**: Stylish and elegant, but not overly aggressive compared to S/RS models (Source 4, 15). Score: 0.40.
-*   **style_modernity_rating**: Facelifted for 2015, described as having "new headlights, taillights and new infotainment systems" (Source 5, 19). Looks modern for its time. Score: 0.50.
-*   **handling_rating**: Reviews mention "predictable and easy to live with", "great grip", "assured and positive", but "lacks the ultimate chassis finesse and steering feedback", "starts to understeer hopelessly" when pushed hard, "not real fun to drive", "sterile" (Source 4, 9, 14, 15, 28). Score: 0.00.
-*   **ride_comfort_rating**: Described as "supremely quiet and cosseting", "beautifully smooth, quiet ride", "proper long distance cruiser that's comfortable", "sublime comfort", "pretty near perfect ride" (Source 2, 3, 9, 16). Score: 0.80.
-*   **cabin_noise_rating**: "supremely quiet", "ridiculously quiet in the cabin", "almost no trace of wind or road noise" (Source 2, 16). Score: 0.90.
-*   **shift_smooth_rating**: 8-speed Tiptronic automatic. Generally smooth, though some reviews mention occasional clunking or lag in standard mode (Source 6, 9, 11). Score: 0.70.
-*   **steering_feel_rating**: Described as "doesn't impress", "dull steering", "a little on the light side", "numb steering feel", "either non-existent or artificially non-existent" (Source 2, 4, 7, 15, 18). Score: -0.80.
-*   **adas_score**: Available features include adaptive cruise control, Audi Pre-Sense Plus (forward collision mitigation), corner-view camera, lane-keeping assist, blind-spot monitor, head-up display, night vision (optional) (Source 2, 3, 7, 13, 16, 20, 22). This is a good suite for 2015. Score: 0.70.
-*   **visibility_rating**: Rear visibility is described as "poor" and "marginal" due to the swooping roofline (Source 15, 26, 32). Score: -0.80.
-*   **headlight_rating**: LED technology standard, Matrix LED optional (Source 5, 19, 20). Matrix LEDs are excellent. Score: 0.80.
-*   **security_rating**: No specific details found, assume average for a luxury car. Default to 0.00.
-*   **screen_in**: Pop-up screen, 6.5 or 8.0-inch display (Source 7). 8-inch is around average for 2015. Score: 0.00.
-*   **infotainment_ux_rating**: MMI system with rotary dial and touchpad. Described as "best I've used", "intricate-yet-fluid control system", "easy to live with", "straight-forward", "one of the best driver interface systems", but also "can be rather distracting", "requires a glance at the navigation screen", "infotainment controls are not as consistent throughout the range" (Source 3, 7, 9, 16, 25, 27). Score: 0.30.
-*   **smartphone_connect_rating**: No mention of Apple CarPlay or Android Auto, which were not common in 2015. Assume basic connectivity. Score: -0.50.
-*   **audio_rating**: Bose and Bang & Olufsen systems available (Source 2, 16, 18). Score: 0.80.
-*   **usb_ports**: No specific number found. Assume at least one. Default to 0.00.
-*   **comfort_feature_score**: Heated/cooled front seats, power seats, four-zone climate control, comfortable seats (Source 3, 13, 16, 27, 30). Score: 0.70.
-*   **convenience_feature_score**: Parking sensors, cameras (360 view available), head-up display, keyless entry, power trunk (Source 3, 5, 7, 13, 16, 19, 22). Score: 0.70.
-*   **brand_prestige_rating**: Audi is a premium German brand. Score: 0.70.
-*   **model_prestige_rating**: A7 is a higher-end model below the A8, S/RS models. Score: 0.00.
-*   **trim_prestige_rating**: FSI V6 (3.0T) is a strong engine option but not the top performance trim (S7/RS7) or the base engine. Score: 0.00.
-*   **interior_luxury_rating**: Described as "upscale interior", "top-notch tech", "comfortable and luxurious", "handsomely designed and tightly constructed, with excellent materials quality", "paragon of quality, subtle design and neatly expressed ergonomics", "lovely place to be", "beautifully put together", "premium leather and wood accents", "approaching A8 levels of luxury" (Source 2, 3, 4, 5, 13, 16, 22, 27). Score: 0.80.
-*   **interior_tech_focus_rating**: Features like MMI, pop-up screen, touchpad, head-up display, advanced ADAS for the time (Source 3, 7, 13, 16, 22, 27). Score: 0.60.
-
-Final check on scores and formatting.```json
+```json
 {
-  "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": -0.30,
-  "repair_risk_score": -0.90,
-  "hp": 0.40,
-  "torque": 0.40,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.70,
-  "top_speed": 0.00,
-  "drive_type": 0.00,
-  "transmission_type": 1.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": -1.00,
-  "size": 0.60,
-  "wheelbase": 0.00,
-  "body_style": 0.30,
-  "seats": 0.00,
-  "cargo_space": 0.80,
-  "rear_space": -0.50,
-  "ground_clearance_in": -0.50,
-  "turn_radius_ft": -0.20,
-  "mpg": -0.20,
-  "co2_g_km": -0.10,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.80,
-  "style_aggression_rating": 0.40,
-  "style_modernity_rating": 0.50,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 0.80,
-  "cabin_noise_rating": 0.90,
-  "shift_smooth_rating": 0.70,
-  "steering_feel_rating": -0.80,
-  "adas_score": 0.70,
-  "visibility_rating": -0.80,
-  "headlight_rating": 0.80,
-  "security_rating": 0.00,
-  "screen_in": 0.00,
-  "infotainment_ux_rating": 0.30,
-  "smartphone_connect_rating": -0.50,
-  "audio_rating": 0.80,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.70,
-  "convenience_feature_score": 0.70,
-  "brand_prestige_rating": 0.70,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.80,
-  "interior_tech_focus_rating": 0.60
+ "price_usd": -0.50,
+ "total_cost_estimate_5yr_usd": -0.50,
+ "insurance_usd_yr": -0.50,
+ "maint_usd_yr": -0.25,
+ "repair_risk_score": 0.00,
+ "hp": 0.50,
+ "torque": 0.50,
+ "cylinder_count": 0.00,
+ "engine_displacement": 0.25,
+ "accel_0_60_sec": 0.75,
+ "top_speed": 0.25,
+ "drive_type": 0.00,
+ "transmission_type": 1.00,
+ "driving_track_vs_gt": 1.00,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.25,
+ "size": 0.50,
+ "wheelbase": 0.50,
+ "body_style": 0.25,
+ "seats": 0.00,
+ "cargo_space": 0.50,
+ "rear_space": 0.25,
+ "ground_clearance_in": -0.75,
+ "turn_radius_ft": 0.00,
+ "mpg": -0.25,
+ "co2_g_km": -0.25,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": 0.75,
+ "style_aggression_rating": 0.25,
+ "style_modernity_rating": -0.25,
+ "handling_rating": 0.25,
+ "ride_comfort_rating": 0.75,
+ "cabin_noise_rating": 0.75,
+ "shift_smooth_rating": 0.75,
+ "steering_feel_rating": 0.00,
+ "adas_score": 0.25,
+ "visibility_rating": -0.25,
+ "headlight_rating": 0.50,
+ "security_rating": 0.50,
+ "screen_in": -0.25,
+ "infotainment_ux_rating": 0.00,
+ "smartphone_connect_rating": 0.00,
+ "audio_rating": 0.50,
+ "usb_ports": -0.25,
+ "comfort_feature_score": 0.75,
+ "convenience_feature_score": 0.75,
+ "brand_prestige_rating": 0.75,
+ "model_prestige_rating": 0.00,
+ "trim_prestige_rating": 0.00,
+ "interior_luxury_rating": 0.75,
+ "interior_tech_focus_rating": 0.25
 }
 ```

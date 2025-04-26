@@ -14,6 +14,7 @@ import ast
 import traceback
 import json
 
+data_dim = 53
 latent_dim = 16
 epochs = 50
 free_bits = 0.5
@@ -99,12 +100,12 @@ class Sampling(layers.Layer):
         return input_shape[0]
 
 def encoder_architecture(inputs):
-    x = layers.Dense(51)(inputs)
+    x = layers.Dense(data_dim)(inputs)
     x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
     x = layers.Activation("mish")(x)
     x = layers.GaussianDropout(0.2)(x)
 
-    x = layers.Dense(51)(x)
+    x = layers.Dense(data_dim)(x)
     x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
     x = layers.Activation("mish")(x)
     x = layers.GaussianDropout(0.2)(x)
@@ -138,10 +139,10 @@ def decoder_architecture():
     x = layers.Activation("mish")(x)
     x = layers.GaussianDropout(0.2)(x)
 
-    x = layers.Dense(51)(x)
+    x = layers.Dense(data_dim)(x)
     x = layers.Activation("mish")(x)
 
-    x = layers.Dense(51)(x)
+    x = layers.Dense(data_dim)(x)
     x = layers.Activation("softsign")(x)
     
     outputs = x
@@ -157,7 +158,7 @@ def train_model():
         raw_data = np.array(ast.literal_eval(file.readline())) 
     train_data, val_data = train_test_split(raw_data, test_size=0.2, random_state=42)
 
-    inputs = keras.Input(shape=(51,))
+    inputs = keras.Input(shape=(data_dim,))
     encoder, z_mean, z_log_var = encoder_architecture(inputs)
     decoder = decoder_architecture()
 
@@ -196,7 +197,7 @@ def train_model():
 
 def load_encoder():
     # Encoder
-    encoder, _, _ = encoder_architecture(keras.Input(shape=(51,)))
+    encoder, _, _ = encoder_architecture(keras.Input(shape=(data_dim,)))
     encoder.load_weights(f"models/{version}/encoder.weights.h5")
     return encoder
 
@@ -207,7 +208,7 @@ def load_decoder():
     return decoder
 
 def load_vae():
-    inputs = keras.Input(shape=(51,))
+    inputs = keras.Input(shape=(data_dim,))
     encoder, z_mean, z_log_var = encoder_architecture(inputs)
     decoder = decoder_architecture()
 

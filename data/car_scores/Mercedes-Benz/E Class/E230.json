@@ -1,9 +1,3 @@
-The search results indicate that the 'E230' designation is associated with older generations of the Mercedes-Benz E-Class, specifically the W210 (1995-2002) and W212 (2009-2016) models (Source [4, 8, 9]). The most recent generation of the E-Class (W214, 2024+) is offered with engine options like the E350 (2.0L 4-cylinder) and E450 (3.0L 6-cylinder), both with mild-hybrid technology, and also plug-in hybrid and AMG variants (Source [1, 2, 6, 10, 12, 14]).
-
-Since the requested 'E230' trim/engine is not available on the most recent version of the Mercedes-Benz E-Class, I cannot provide specific data or ratings for this configuration on the current model.
-
-As per the instructions, when data is ambiguous or unclear (because the requested configuration doesn't exist for the specified model year), I must default to returning a JSON with all values set to `0.00`.
-
 ```json
 {
   "price_usd": 0.00,
@@ -19,6 +13,7 @@ As per the instructions, when data is ambiguous or unclear (because the requeste
   "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
   "offroad_ability": 0.00,
   "braking_dist_ft": 0.00,
   "size": 0.00,
@@ -31,6 +26,7 @@ As per the instructions, when data is ambiguous or unclear (because the requeste
   "turn_radius_ft": 0.00,
   "mpg": 0.00,
   "co2_g_km": 0.00,
+  "electrification": 0.00,
   "electric_range_mi": 0.00,
   "charge_speed_kw": 0.00,
   "style_sleek_vs_boxy": 0.00,

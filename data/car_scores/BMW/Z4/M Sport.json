@@ -1,0 +1,111 @@
+Based on the search results for the 2024 BMW Z4 sDrive30i M Sport (as M Sport is a trim often associated with the 30i engine, and the M40i is a separate model/engine):
+
+*   **price_usd**: Starts around $53,600 USD. This is very close to the $52,000 average. Score 0.00.
+*   **total_cost_estimate_5yr_usd**: No specific data found. Default to 0.00.
+*   **insurance_usd_yr**: BMW Z4 insurance group is likely higher than average due to it being a sports car. Score -0.60 (based on previous Z4 trims).
+*   **maint_usd_yr**: BMW maintenance is typically average to slightly above average. Score 0.00.
+*   **repair_risk_score**: BMW reliability is generally average. Score 0.00.
+*   **hp**: sDrive30i has 255 hp. Average is ~200 hp. Score 0.20.
+*   **torque**: sDrive30i has 295 lb-ft. Average is ~190 lb-ft. Score 0.50.
+*   **cylinder_count**: sDrive30i has 4 cylinders. Average is 6. Score -0.20.
+*   **engine_displacement**: sDrive30i has 2.0L. Average is 3.0L. Score -0.20.
+*   **accel_0_60_sec**: sDrive30i is ~5.1-5.3 seconds. Average is ~7.5 sec. Score 0.70.
+*   **top_speed**: sDrive30i is ~149 mph (0-62 mph in 6.6s for 20i, M40i is 155mph). Score 0.00.
+*   **drive_type**: RWD. Score +1.00.
+*   **transmission_type**: 8-speed automatic is standard. Score +1.00. (Manual is available on M40i, but not standard on 30i M Sport).
+*   **driving_track_vs_gt**: Roadster, leans towards GT/daily driver but capable. Score 0.50.
+*   **offroad_ability**: Low ground clearance, RWD. Score +1.00 (poor off-road).
+*   **braking_dist_ft**: sDrive30i with Dynamic Handling Package stopped in 104 ft. Average is ~125 ft. Score +0.50.
+*   **size**: Length ~170.7 inches (4336 mm). Average is ~4600mm. Score -0.20.
+*   **wheelbase**: ~97.2 inches (2469-2470 mm). Average is ~2700mm. Score -0.30.
+*   **body_style**: 2-door convertible/roadster. Score -1.00.
+*   **seats**: 2 seats. Score -1.00.
+*   **cargo_space**: ~9.9-10 cu ft. Average is ~15 cu ft. Score -0.60.
+*   **rear_space**: 2-seater, no rear space. Score -1.00.
+*   **ground_clearance_in**: ~4.5-4.7 inches (114-117 mm). Average is ~6.5 inches. Score -0.70.
+*   **turn_radius_ft**: ~36.1 ft. Average is ~36 ft. Score 0.00.
+*   **mpg**: sDrive30i is 28 mpg combined. Average is ~30 mpg. Score 0.00.
+*   **co2_g_km**: sDrive30i is ~149-167 g/km (WLTP). Average is ~175 g/km. Score 0.20.
+*   **electrification**: Petrol. Score -1.00.
+*   **electric_range_mi**: Not electric. Score -1.00.
+*   **charge_speed_kw**: Not electric. Score -1.00.
+*   **style_sleek_vs_boxy**: Sleek roadster. Score 0.70.
+*   **style_aggression_rating**: Moderately aggressive M Sport styling. Score 0.60.
+*   **style_modernity_rating**: Modern design. Score 0.50.
+*   **handling_rating**: Good handling, but less focused than some rivals. Score 0.60.
+*   **ride_comfort_rating**: Comfortable for a sports car. Score 0.50.
+*   **cabin_noise_rating**: Convertible, likely average noise with top up. Score 0.00.
+*   **shift_smooth_rating**: 8-speed automatic is excellent. Score 1.00.
+*   **steering_feel_rating**: Quick and accurate, but lacks feel. Score 0.00.
+*   **adas_score**: Offers modern ADAS, including optional features. Score 0.50.
+*   **visibility_rating**: 0.00 (Convertible top up/down trade-off).
+*   **headlight_rating**: Modern LEDs. Score 0.50.
+*   **security_rating**: Standard BMW security features. Score 0.00.
+*   **screen_in**: 10.25-inch or 10.3-inch touchscreen. Average is ~8 inches. Score 0.30.
+*   **infotainment_ux_rating**: iDrive is user-friendly. Score 1.00.
+*   **smartphone_connect_rating**: Apple CarPlay and Android Auto standard. Score 1.00.
+*   **audio_rating**: Standard 10-speaker system, optional premium available. Score 0.50.
+*   **usb_ports**: Standard ports. Assume average number. Score 0.00.
+*   **comfort_feature_score**: Offers features like dual-zone climate, heated seats (optional on 30i, standard on M40i). Score 0.60.
+*   **convenience_feature_score**: Parking aids, remote functions available. Score 0.60.
+*   **brand_prestige_rating**: BMW is a premium brand. Score 0.80.
+*   **model_prestige_rating**: Z4 is a known sports roadster, mid-range for BMW. Score 0.00.
+*   **trim_prestige_rating**: M Sport is a desirable package/trim, but not the top performance (M40i). Score 0.00.
+*   **interior_luxury_rating**: High-quality interior materials. Score 0.80.
+*   **interior_tech_focus_rating**: Modern screens and tech. Score 0.50.```json
+{
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -0.60,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.20,
+  "torque": 0.50,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": 0.70,
+  "top_speed": 0.00,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.50,
+  "size": -0.20,
+  "wheelbase": -0.30,
+  "body_style": -1.00,
+  "seats": -1.00,
+  "cargo_space": -0.60,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.70,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.00,
+  "co2_g_km": 0.20,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.70,
+  "style_aggression_rating": 0.60,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.60,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.50,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": 0.30,
+  "infotainment_ux_rating": 1.00,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.50,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.60,
+  "convenience_feature_score": 0.60,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.80,
+  "interior_tech_focus_rating": 0.50
+}
+```

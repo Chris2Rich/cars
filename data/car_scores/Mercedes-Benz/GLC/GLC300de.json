@@ -1,0 +1,113 @@
+Based on the search results for the 2024/2025 Mercedes-Benz GLC 300de:
+
+*   **price_usd:** Search results show prices in Euros (€66,540 - €71,983) and a 2025 model listed at €94,950. Converting €68,413 (a mid-range price found) to USD (using a recent exchange rate around 1.08 USD/EUR) is roughly $73,886 USD. This is significantly above the market average ($52,000). Score: -0.20.
+*   **total_cost_estimate_5yr_usd:** No specific 5-year cost found. As a luxury PHEV, it will likely have higher ownership costs than average. Default to 0.00 as no specific data was found.
+*   **insurance_usd_yr:** No specific USD annual insurance cost found. Insurance costs for luxury PHEVs are generally higher than average. Default to 0.00.
+*   **maint_usd_yr:** No specific annual maintenance cost found. Mercedes-Benz maintenance is generally more expensive than average, and PHEVs can have additional complexities. Default to 0.00.
+*   **repair_risk_score:** Reliability reviews for the GLC generation are mixed. The added complexity of the diesel hybrid system might introduce additional potential issues. Score slightly below average, -0.20.
+*   **hp:** Total system output is 328 hp (333 PS / 245 kW) or 335 hp. Using 328 hp. This is well above the average car (200 hp). Score: 0.40.
+*   **torque:** Total system torque is 750 Nm (553 lb-ft). This is extremely high, well into the superb range. Score: 0.80.
+*   **cylinder_count:** 4-cylinder (2.0L diesel). This is a common configuration. Score: 0.00.
+*   **engine_displacement:** 2.0L (1993 cm³). This is a common size for a 4-cylinder engine. Score: 0.00.
+*   **accel_0_60_sec:** 6.1 - 6.4 seconds (0-100 km/h is 6.4s, 0-60 mph is estimated around 6.1-6.2s). The average car is around 7.5 seconds. This is quicker than average. Score: 0.30.
+*   **top_speed:** 135 mph (217 km/h) or 143 mph (230 km/h) or 216 km/h. Electric-only top speed is 140 km/h (87 mph) or 160 km/h. Using the overall top speed around 135-143 mph. This is around the average (150 mph) or slightly below. Score: 0.00.
+*   **drive_type:** 4MATIC (All-Wheel Drive) is standard. AWD is the average drive type. Score: 0.00.
+*   **transmission_type:** 9-speed automatic (9G-TRONIC). Automatic transmission is rated +1.00 in the guide. Score: 1.00.
+*   **driving_track_vs_gt:** Described as comfortable, refined, and built for cruising and long distances, despite its performance capabilities. Leans towards Grand Touring. Score: 0.50.
+*   **offroad_ability:** Has 4MATIC AWD, Off-road mode, and ground clearance around 1640mm - 201mm (64.6 - 7.9 inches). Capable on unpaved terrain with clever electronics. Score: 0.20.
+*   **braking_dist_ft:** No specific braking distance found. Default to average. Score: 0.00.
+*   **size:** Length around 4716mm (185.7 inches). Width around 1890mm (74.4 inches). Height around 1640mm - 1648mm (64.6 - 64.9 inches). This is larger than a Civic (~181 inches) but not a large SUV (>200 inches). Score: 0.20.
+*   **wheelbase:** 113.1 - 113.7 inches (2888mm). This is longer than an Octavia (~105 inches) but not S-Class length (>125 inches). Score: 0.30.
+*   **body_style:** SUV (Estate) and Coupe available. SUV is closer to a wagon/hatchback in practicality than a sedan. Score: 0.50.
+*   **seats:** 5 seats. This is the average. Score: 0.00.
+*   **cargo_space:** 395 - 470 litres (13.9 - 16.6 cu ft) with seats up, 1455 - 1530 litres (51.4 - 54.0 cu ft) with seats down. The battery significantly reduces cargo space compared to non-hybrid models (600 litres / 21.2 cu ft). 13.9-16.6 cu ft is around or slightly above Civic (15 cu ft), but poor for an SUV of this size. Score based on seats up. Score: -0.20.
+*   **rear_space:** Space in the back is impressive, with plenty of head and legroom. Score: 0.40.
+*   **ground_clearance_in:** Around 64.6 - 7.9 inches (1640mm - 201mm). This is around or above compact crossovers (~6.5"). Score: 0.20.
+*   **turn_radius_ft:** 36.09 ft (11m). This is around the average (~36 ft). Score: 0.00.
+*   **mpg:** Claimed combined 0.4 - 0.7 L/100km (very high mpg figures like 588-706 mpg UK are theoretical for PHEVs). Real-world diesel consumption when battery is depleted is around 6-7 L/100km (33-39 mpg US). The high claimed mpg figures are due to the PHEV nature and are not comparable to standard ICE mpg. Score based on the potential for high efficiency when used as intended (charging frequently). Score: 0.80.
+*   **co2_g_km:** 11 - 18 g/km (WLTP). This is extremely low, well into the superb range. Score: 0.90.
+*   **electrification:** Plug-in Hybrid Electric Vehicle (PHEV) with a diesel engine. PHEV is 0.00 according to the guide. Score: 0.00.
+*   **electric_range_mi:** Claimed WLTP range is 73 miles (117 km) or over 100 km. Real-world range is closer to 30-50 miles depending on conditions. 73 miles is well above the average PHEV range (~20-30 miles) and approaches the lower end of EV range. Score: 0.80.
+*   **charge_speed_kw:** AC charging up to 7.4 kW or 11 kW. DC charging up to 60 kW. 7.4-11 kW AC is good for home charging. 60 kW DC fast charging is rare and excellent for a PHEV. Score: 0.80.
+*   **style_sleek_vs_boxy:** Conventional SUV shape (Estate) or sloping roofline (Coupe). Score: 0.00.
+*   **style_aggression_rating:** Standard styling is not aggressive, AMG Line adds aggression. Score based on standard. Score: -0.20.
+*   **style_modernity_rating:** Latest generation, modern design. Score: 0.50.
+*   **handling_rating:** Feels taut and precise, more agile than expected despite weight, sweet weighting to the steering, fluid accuracy, but ride can be busy/nervous, not a car for the enthusiast. Score: 0.10.
+*   **ride_comfort_rating:** Ride is firm, big impacts can thump through, doesn't always settle down, jitters/jolts at low speeds, nervousness at high speeds. Optional air suspension improves comfort. Score based on standard suspension. Score: 0.00.
+*   **cabin_noise_rating:** Diesel engine is refined once warmed up, smooth transition between power sources, near silence in the cabin, exceptionally quiet at freeway speeds. Score: 0.80.
+*   **shift_smooth_rating:** 9-speed automatic is smooth. Score: 0.50.
+*   **steering_feel_rating:** Sweet weighting, fluid accuracy, precise, nicely weighted, but lacks feedback. Score: 0.00.
+*   **adas_score:** Standard automated emergency braking, blind-spot monitoring, parking assist. Available adaptive cruise control, 360-degree camera, etc. Good standard ADAS, comprehensive optional package. Score: 0.60.
+*   **visibility_rating:** Good for the SUV, but Coupe has compromised rear visibility due to sloping roofline. Score based on SUV. Score: 0.20.
+*   **headlight_rating:** Full LED tail lamps, Multibeam LED headlights available. Score: 0.30.
+*   **security_rating:** Standard luxury car security features. Score: 0.40.
+*   **screen_in:** 12.3-inch digital instrument cluster and 11.9-inch central display. Large screens. Score: 0.50.
+*   **infotainment_ux_rating:** Latest MBUX system, visually appealing, user-friendly, but still yearn for physical buttons for HVAC. Score: 0.20.
+*   **smartphone_connect_rating:** Standard wireless Apple CarPlay and Android Auto. Score: 0.80.
+*   **audio_rating:** Standard audio, optional Burmester system. Standard likely average. Score: 0.00.
+*   **usb_ports:** USB ports available, including USB-C in the rear. Score: 0.20.
+*   **comfort_feature_score:** Heated seats standard, power seats with memory, dual-zone climate, ambient lighting standard. Optional features available. Score: 0.60.
+*   **convenience_feature_score:** Power liftgate standard, keyless entry standard, remote start standard, rearview camera standard, parking assist standard. Optional 360-degree camera, automated parking. Score: 0.60.
+*   **brand_prestige_rating:** Mercedes-Benz. High prestige. Score: 0.80.
+*   **model_prestige_rating:** GLC is a compact luxury SUV, a core model. Score: 0.00.
+*   **trim_prestige_rating:** GLC 300de is a specific PHEV variant, often available in higher trims like AMG Line. Score: 0.50.
+*   **interior_luxury_rating:** Upscale materials, modernized design, high-quality materials, feels premium. Some reviews mention scratchy plastics at common touchpoints. Generally very luxurious. Score: 0.70.
+*   **interior_tech_focus_rating:** Screen-heavy interior, large displays, digitized controls, latest MBUX. High tech focus. Score: 0.80.
+
+```json
+{
+  "price_usd": -0.20,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": -0.20,
+  "hp": 0.40,
+  "torque": 0.80,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.30,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.50,
+  "offroad_ability": 0.20,
+  "braking_dist_ft": 0.00,
+  "size": 0.20,
+  "wheelbase": 0.30,
+  "body_style": 0.50,
+  "seats": 0.00,
+  "cargo_space": -0.20,
+  "rear_space": 0.40,
+  "ground_clearance_in": 0.20,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.80,
+  "co2_g_km": 0.90,
+  "electrification": 0.00,
+  "electric_range_mi": 0.80,
+  "charge_speed_kw": 0.80,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.10,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.80,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.60,
+  "visibility_rating": 0.20,
+  "headlight_rating": 0.30,
+  "security_rating": 0.40,
+  "screen_in": 0.50,
+  "infotainment_ux_rating": 0.20,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.00,
+  "usb_ports": 0.20,
+  "comfort_feature_score": 0.60,
+  "convenience_feature_score": 0.60,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.50,
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": 0.80
+}
+```

@@ -1,120 +1,57 @@
-Refining scores based on search results:
-
-*   `price_usd`: Starts around $77,650 for CLS 450 4Matic. AMG Line Night Edition is likely higher. Some listings show prices around $90k+. Let's use a range and score it around -0.60 to -0.70. Let's use -0.65.
-*   `total_cost_estimate_5yr_usd`: No direct data found, but given the price, maintenance, and luxury segment, it will be high. Score: -0.60.
-*   `insurance_usd_yr`: UK insurance group 50E. This is the highest group, indicating very high insurance costs. Score: -1.00.
-*   `maint_usd_yr`: Mercedes maintenance is expensive, no specific annual cost found. Score: -0.60.
-*   `repair_risk_score`: No specific rating found, defaulting to 0.00.
-*   `hp`: 362 hp. Score: 0.50.
-*   `torque`: 369 lb-ft. Score: 0.50.
-*   `cylinder_count`: Inline 6. Score: 0.00.
-*   `engine_displacement`: 3.0L. Score: 0.00.
-*   `accel_0_60_sec`: 4.6-4.8 seconds. Score: 0.75.
-*   `top_speed`: 130 mph (limited). Score: 0.00.
-*   `drive_type`: 4MATIC (AWD). Score: 0.00.
-*   `transmission_type`: 9-speed automatic. Score: 1.00.
-*   `offroad_ability`: Very low ground clearance (3.7 inches). Score: 1.00 (poor).
-*   `braking_dist_ft`: 70-0 mph in 167 ft (for 2019 model). This is quite long. Score: -0.75.
-*   `size`: Length ~196.4 inches (4989mm). Score: 0.50.
-*   `wheelbase`: 115.7 inches (2939mm). Score: 0.50.
-*   `body_style`: 4-door coupe/sedan. Score: 0.00.
-*   `seats`: 5 seats. Score: 0.00.
-*   `cargo_space`: 12 cu ft (337 L). Score: -0.50.
-*   `rear_space`: Rear legroom 35 inches. Score: 0.00. Rear headroom is noted as tight.
-*   `ground_clearance_in`: 3.7 inches. Score: -1.00.
-*   `turn_radius_ft`: 39.1 ft, 6.0m (19.5'). Note: 6m is about 19.7 ft. 39.1 ft is the turning *diameter*, so radius is 19.55 ft. Score: 0.75.
-*   `mpg`: 25 combined (22 city/30 highway). Score: 0.00 (average for a non-hybrid luxury sedan, but good for the performance). Let's stick with 0.00.
-*   `co2_g_km`: 7.1 tons/year @ 15k miles. Need to convert to g/km. 1 ton = 1,000,000 g. 15,000 miles = 24,140 km. 7.1 tons/year = 7,100,000 g/year. 7,100,000 g / 24,140 km = ~294 g/km. Score: -0.75.
-*   `electric_range_mi`: -1.00 (Not electric).
-*   `charge_speed_kw`: -1.00 (Not electric).
-*   `style_sleek_vs_boxy`: Very sleek. Score: 0.75.
-*   `style_aggression_rating`: AMG Line adds aggression. Score: 0.50.
-*   `style_modernity_rating`: Modern design. Score: 0.75.
-*   `handling_rating`: Tuned for comfort, not aggressive handling. Score: 0.25.
-*   `ride_comfort_rating`: Plush ride, smooth. Score: 0.75.
-*   `cabin_noise_rating`: Mercedes usually good. Score: 0.75.
-*   `shift_smooth_rating`: Well-behaved 9-speed automatic. Score: 0.75.
-*   `steering_feel_rating`: Electric power steering, speed-sensing. Direct-Steer System. Likely comfortable but not highly communicative. Score: 0.00.
-*   `adas_score`: Driver Assistance Package available with extensive features. Score: 0.75.
-*   `visibility_rating`: Coupe shape affects rear visibility. Score: -0.50.
-*   `headlight_rating`: LED Intelligent Light System available. Score: 0.75.
-*   `security_rating`: Standard alarm, good brand reputation. Score: 0.50.
-*   `screen_in`: Dual 12.3-inch screens. Score: 0.75.
-*   `infotainment_ux_rating`: MBUX system, generally intuitive, but can be complex. Score: 0.50.
-*   `smartphone_connect_rating`: Apple CarPlay and Android Auto standard. Wireless available. Score: 0.75.
-*   `audio_rating`: Burmester Surround Sound System available. Score: 0.75.
-*   `usb_ports`: Search results mention USB inputs but not a specific number for the 2023 model. Default to 0.00.
-*   `comfort_feature_score`: Heated front seats standard, ventilated front seats optional, heated steering wheel optional. Leather upholstery standard. Dual-zone climate control standard. High score warranted. Score: 0.75.
-*   `convenience_feature_score`: Parking Package with Active Parking Assist and Surround View Camera available. Keyless Start/Entry standard. Power trunk closer. Remote engine start available. High score warranted. Score: 0.75.
-*   `brand_prestige_rating`: Mercedes-Benz is high prestige. Score: 0.75.
-*   `model_prestige_rating`: CLS is a stylish, upscale model below S-Class. Score: 0.50.
-*   `trim_prestige_rating`: AMG Line is a desirable appearance/handling package, but not the top performance trim (AMG 53). Score: 0.00.
-*   `interior_luxury_rating`: Lavish luxury, quality materials, leather, wood trim. Score: 0.75.
-*   `interior_tech_focus_rating`: Dazzling dashboard display, dual screens, MBUX. Screen-forward design. Score: 0.75.
-
-Final review of scores based on search results and scoring guide. Adjusting a few based on more precise data.
-*   `price_usd`: $77k+ base, AMG Line Night Edition likely higher. -0.65 seems reasonable.
-*   `insurance_usd_yr`: Group 50E is max. -1.00.
-*   `braking_dist_ft`: 167 ft from 70 mph is poor. -0.75.
-*   `turn_radius_ft`: ~19.5-19.7 ft radius is excellent. +0.75.
-*   `mpg`: 25 combined is average for the segment/performance, but not overall market average (30 mpg). Score: 0.00 -> -0.25.
-*   `co2_g_km`: ~294 g/km is high. Score: -0.75.
-*   `steering_feel_rating`: Direct-Steer system mentioned, but reviews often note Mercedes steering is less engaging than rivals. Stick with 0.00.
-*   `infotainment_ux_rating`: MBUX is good, but some complexity. 0.50 seems right.
-*   `usb_ports`: No specific number found. Default 0.00.
-
-Looks good. Ready to format as JSON.```json
+```json
 {
-  "price_usd": -0.65,
-  "total_cost_estimate_5yr_usd": -0.60,
-  "insurance_usd_yr": -1.00,
-  "maint_usd_yr": -0.60,
-  "repair_risk_score": 0.00,
+  "price_usd": -0.25,
+  "total_cost_estimate_5yr_usd": -0.50,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.75,
+  "repair_risk_score": -0.50,
   "hp": 0.50,
   "torque": 0.50,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.75,
+  "accel_0_60_sec": 0.00,
   "top_speed": 0.00,
-  "drive_type": 0.00,
+  "drive_type": 1.00,
   "transmission_type": 1.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": -0.75,
-  "size": 0.50,
-  "wheelbase": 0.50,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.00,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.50,
+  "cargo_space": 0.00,
   "rear_space": 0.00,
   "ground_clearance_in": -1.00,
-  "turn_radius_ft": 0.75,
-  "mpg": -0.25,
-  "co2_g_km": -0.75,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.00,
+  "co2_g_km": 0.00,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.75,
-  "style_aggression_rating": 0.50,
-  "style_modernity_rating": 0.75,
-  "handling_rating": 0.25,
-  "ride_comfort_rating": 0.75,
-  "cabin_noise_rating": 0.75,
+  "style_sleek_vs_boxy": 1.00,
+  "style_aggression_rating": 0.75,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.75,
+  "ride_comfort_rating": 0.25,
+  "cabin_noise_rating": 0.50,
   "shift_smooth_rating": 0.75,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.75,
-  "visibility_rating": -0.50,
-  "headlight_rating": 0.75,
-  "security_rating": 0.50,
-  "screen_in": 0.75,
+  "steering_feel_rating": 0.75,
+  "adas_score": 0.50,
+  "visibility_rating": 0.00,
+  "headlight_rating": 1.00,
+  "security_rating": 0.75,
+  "screen_in": 0.50,
   "infotainment_ux_rating": 0.50,
   "smartphone_connect_rating": 0.75,
   "audio_rating": 0.75,
-  "usb_ports": 0.00,
+  "usb_ports": 0.50,
   "comfort_feature_score": 0.75,
   "convenience_feature_score": 0.75,
-  "brand_prestige_rating": 0.75,
-  "model_prestige_rating": 0.50,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
   "interior_luxury_rating": 0.75,
-  "interior_tech_focus_rating": 0.75
+  "interior_tech_focus_rating": 0.50
 }
 ```

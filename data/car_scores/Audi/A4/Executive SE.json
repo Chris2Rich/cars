@@ -1,0 +1,157 @@
+The Audi A4 Executive SE trim appears to be from an older generation, likely the B8 (2008-2015) or early B9 (2016-2019) based on the search results. I will use data points that appear consistently across these years for the Executive SE trim, prioritizing the B9 generation where possible as it's more recent.
+
+**Price (price_usd):** Used prices vary significantly based on year and condition. New prices for the B9 SE trim started around £25,900 in 2015, which is roughly $33,000 USD (using a historical exchange rate). This is below the market average of $52,000, so a positive score is appropriate. Let's estimate a score of 0.30 for a used model price relative to today's market.
+
+**Total Cost Estimate 5yr (total_cost_estimate_5yr_usd):** Audi A4 maintenance and repair costs are generally higher than average, though potentially lower than some luxury rivals. One source estimates ~$9,649 over 10 years or ~$3,051 over 5 years for maintenance and repairs for a newer A4, which is below the luxury segment average but still higher than the overall market average. Another source suggests around $739 annually for maintenance and repair. Given it's an older luxury car, depreciation and potentially higher repair costs compared to a new mass-market car would likely result in a higher 5-year total cost. A score reflecting slightly above average cost seems appropriate. Let's estimate -0.20.
+
+**Insurance (insurance_usd_yr):** Insurance groups for the A4 Executive SE vary, but are generally in the mid-range (e.g., Group 18, 19, 20, 26, 30). This is around the market average, so a score near 0.00 is suitable. Let's use 0.00.
+
+**Maintenance (maint_usd_yr):** Annual maintenance costs are cited around $739 on average. Some sources suggest it can be more expensive than average, especially at dealerships. Compared to the $1000 average benchmark, this is slightly better, but considering it's a luxury brand, it leans towards average or slightly above average cost in practice. Let's score it 0.00.
+
+**Repair Risk (repair_risk_score):** Reliability ratings for the A4 vary, with some sources indicating above-average reliability for newer B9 models (2016-2019). Older models had poorer reliability. Common issues include electrical systems, engine problems, and climate control. RepairPal gives the A4 a 3.5 out of 5.0 reliability rating, ranking it in the middle of luxury midsize cars. The probability of a major repair is around 13%. This suggests average reliability compared to the overall market, maybe slightly better than average for its segment. A score of 0.10 seems reasonable.
+
+**HP (hp):** Engine options for the Executive SE varied. Examples include 118 bhp (1.8 TFSI), 141 bhp (2.0 TDI), 143 bhp (2.0 TDI), 170 bhp (2.0 TDI), and 211 hp (2.0 TFSI Quattro). The 140-170 hp range is around the market average (200 hp benchmark), while the 211 hp is slightly above. Let's average this out to a score near 0.00.
+
+**Torque (torque):** Torque figures range from 170 lb-ft (1.8 TFSI) to 236 lb-ft (2.0 TDI) and 258 lb-ft (2.0 TDI) up to 295 lb-ft (2.0 TDI 190) and 258 lb-ft (2.0 TFSI Quattro). The 190 lb-ft benchmark is met or exceeded by most options. A score slightly above average is appropriate. Let's use 0.20.
+
+**Cylinder Count (cylinder_count):** Most engines are 4-cylinder. This is below the 6-cylinder benchmark for 0.00. Score: -0.20.
+
+**Engine Displacement (engine_displacement):** Most engines are around 1.8L or 2.0L. This is below the 3.0L benchmark for 0.00. Score: -0.20.
+
+**Accel 0-60 mph (accel_0_60_sec):** 0-60 times range from 9.1-9.4 seconds for lower power diesels to 8.0 seconds for higher power diesels and 6.0 seconds for the 2.0 TFSI Quattro. The 7.5-second benchmark for 0.00 is met or beaten by some variants. A score reflecting the range, leaning towards average or slightly better, is suitable. Let's use 0.00.
+
+**Top Speed (top_speed):** Top speeds range from 130 mph to 134 mph and up to 152.86 mph. The 150 mph benchmark is met by some variants. A score near 0.00 is appropriate. Let's use 0.00.
+
+**Drive Type (drive_type):** Available with FWD and Quattro AWD. AWD is 0.00, FWD is -1.00. Since both were available, let's average to -0.50.
+
+**Transmission Type (transmission_type):** Available with Manual and Automatic (Multitronic/CVT or S-Tronic/Dual-clutch). Manual is -1.00, Dual-Clutch is 0.00, Automatic is +1.00. The availability of both manual and different automatic types makes this tricky. The S-Tronic is a dual-clutch (0.00), Multitronic is a CVT (-1.00 or worse). Let's consider the prevalence of automatics and average types. A score slightly below average seems appropriate due to the presence of CVT and manual options. Let's use -0.20.
+
+**Driving Track vs GT (driving_track_vs_gt):** The A4 is described as an executive saloon, comfortable and refined for city/highway driving and eating up motorway miles. This aligns with a GT focus. Score: +1.00.
+
+**Offroad Ability (offroad_ability):** This is a low-slung sedan/wagon, not designed for off-road. Score: +1.00 (poor off-road ability).
+
+**Braking Dist ft (braking_dist_ft):** No specific braking distance found for this trim/era. Default to 0.00.
+
+**Size (size):** Length is around 4703-4726 mm. This is around the 4600mm benchmark. Score: 0.00.
+
+**Wheelbase (wheelbase):** Wheelbase is around 2808-2820 mm. This is around the 2700mm benchmark. Score: 0.00.
+
+**Body Style (body_style):** Available as Saloon (4-door sedan) and Avant (5-door estate/wagon). Sedan is 0.00, Wagon is slightly more practical (+0.20). Let's average to 0.10.
+
+**Seats (seats):** 5 seats. Score: 0.00.
+
+**Cargo Space (cargo_space):** Saloon boot space is around 480 litres (17 cu ft). Avant boot space is 505 litres (17.8 cu ft) or up to 1430 litres with seats down. The sedan figure is slightly above the 15 cu ft benchmark. The wagon is better. Let's score based on the sedan as it's more common, slightly above average. Score: 0.10.
+
+**Rear Space (rear_space):** Rear legroom cited as 710 mm (27.95 inches). This is below the 35" benchmark. Score: -1.00.
+
+**Ground Clearance (ground_clearance_in):** No specific ground clearance found. It's a sedan, so likely low. Score: -0.50.
+
+**Turn Radius (turn_radius_ft):** Turn circle cited as 11m (36.09 ft). This is right at the 36 ft benchmark. Score: 0.00.
+
+**MPG (mpg):** Combined MPG varies by engine: 39.8 mpg (1.8 TFSI), 48.7-53.3 mpg (2.0 TDI), 65.7 mpg (2.0 TDIe), 74.3 mpg (2.0 TDI 150). The 30 mpg benchmark is easily exceeded by most diesel variants. Petrol is also above average. Score: 0.50.
+
+**CO2 g/km (co2_g_km):** CO2 emissions vary: 164 g/km (1.8 TFSI), 149 g/km (2.0 TDI), 134 g/km (2.0 TDI), 112 g/km (2.0 TDIe), 99 g/km (2.0 TDI 150). The 175 g/km benchmark is met or beaten by all listed variants. Score: 0.50.
+
+**Electrification (electrification):** These models are petrol or diesel. Score: -1.00.
+
+**Electric Range (electric_range_mi):** Not electric. Score: -1.00.
+
+**Charge Speed (charge_speed_kw):** Not electric. Score: -1.00.
+
+**Handling (handling_rating):** Described as precise and predictable, but lacking engagement compared to rivals. Score: 0.10.
+
+**Ride Comfort (ride_comfort_rating):** Described as very comfortable, refined, and quiet, absorbing bumps well. Score: 0.70.
+
+**Cabin Noise (cabin_noise_rating):** Described as whisper quiet on the motorway and quieter than rivals. Score: 0.80.
+
+**Shift Smoothness (shift_smooth_rating):** S-Tronic (dual-clutch) can be a little jerky at slow speeds, while the conventional auto is smoother. Manual is also available. Score: 0.00.
+
+**Steering Feel (steering_feel_rating):** Described as precise but lacking magic/engagement. Score: -0.20.
+
+**ADAS Score (adas_score):** Available features included driver-fatigue detection, lane and blind spot monitoring, and adaptive radar cruise control with low-speed braking. Newer models (B9) had Audi pre-sense city and parking sensors standard on SE. This is better than minimal tech but not a full FSD suite. Score: 0.30.
+
+**Visibility (visibility_rating):** No specific reviews on visibility found. Default to 0.00.
+
+**Headlight Rating (headlight_rating):** Xenon headlights with LED daytime running lights were standard on SE. Premium trims had all-LED or Matrix LED available. Xenon/LED is better than halogens ( -1.00) and projector LEDs (0.00), but not top-tier Matrix LEDs (+1.00). Score: 0.40.
+
+**Security Rating (security_rating):** Alarm is listed as a feature. No specific advanced security features mentioned. Default to 0.00.
+
+**Screen In (screen_in):** A 7-inch colour MMI display was standard on SE. An 8.3-inch screen was available on newer B9 models. Optional Virtual Cockpit was 12.3-inch. The standard 7-inch is around the 8-inch benchmark. Score: -0.10.
+
+**Infotainment UX Rating (infotainment_ux_rating):** MMI system is generally well-regarded, operated by rotary dial, buttons, or voice. Newer B9 had a touchscreen. Score: 0.30.
+
+**Smartphone Connect Rating (smartphone_connect_rating):** Audi Smartphone Interface (Apple CarPlay/Android Auto) was optional on B9 SE. This is better than no connectivity (-1.00) but not standard or wireless. Score: 0.00.
+
+**Audio Rating (audio_rating):** 8 passive loudspeakers were standard on B9 SE. Optional Bang & Olufsen 3D sound system was available. Standard audio is likely average. Score: 0.00.
+
+**USB Ports (usb_ports):** No specific number of USB ports found. Default to 0.00.
+
+**Comfort Feature Score (comfort_feature_score):** Features included climate control (3-zone on B9 SE), electric lumbar support, heated front seats (on B9 SE), twin leather upholstery (on B9 SE). This is better than basic, but not full luxury features. Score: 0.40.
+
+**Convenience Feature Score (convenience_feature_score):** Features included rear parking sensors (on B9 SE), cruise control, light and rain sensor, keyless start. Power tailgate on Avant. Not full convenience suite. Score: 0.30.
+
+**Brand Prestige Rating (brand_prestige_rating):** Audi is a premium/luxury brand. Score: 0.70.
+
+**Model Prestige Rating (model_prestige_rating):** The A4 is a core, mid-range model for Audi. Score: 0.00.
+
+**Trim Prestige Rating (trim_prestige_rating):** Executive SE was an entry-level or mid-level trim. Score: 0.00.
+
+**Interior Luxury Rating (interior_luxury_rating):** Described as a quality interior with premium materials, twin leather upholstery available. Better than average, but not top-tier luxury. Score: 0.50.
+
+**Interior Tech Focus Rating (interior_tech_focus_rating):** Standard screen is average size, but optional Virtual Cockpit and MMI system provide a good tech focus. Score: 0.40.```json
+{
+  "price_usd": 0.30,
+  "total_cost_estimate_5yr_usd": -0.20,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.10,
+  "hp": 0.00,
+  "torque": 0.20,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": 0.00,
+  "top_speed": 0.00,
+  "drive_type": -0.50,
+  "transmission_type": -0.20,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.00,
+  "body_style": 0.10,
+  "seats": 0.00,
+  "cargo_space": 0.10,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.50,
+  "co2_g_km": 0.50,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": -0.50,
+  "handling_rating": 0.10,
+  "ride_comfort_rating": 0.70,
+  "cabin_noise_rating": 0.80,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": -0.20,
+  "adas_score": 0.30,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.40,
+  "security_rating": 0.00,
+  "screen_in": -0.10,
+  "infotainment_ux_rating": 0.30,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.40,
+  "convenience_feature_score": 0.30,
+  "brand_prestige_rating": 0.70,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.40
+}
+```

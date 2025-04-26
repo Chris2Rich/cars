@@ -1,107 +1,57 @@
-Based on the search results for the Mercedes-Benz ML 250 BlueTEC (W166), which is the most recent M-Class BlueEfficiency model:
-
-- **price_usd**: Used prices for a 2015 ML 250 BlueTEC are in the $10,000 - $20,000 range (Source 22). This is well below the market average for a new car. Score: +1.00.
-- **total_cost_estimate_5yr_usd**: As a used luxury SUV, depreciation is lower than new, but maintenance and potential repairs can be higher. Estimating this is difficult without specific data, but it's likely below the new car average but not extremely low. Default to 0.00.
-- **insurance_usd_yr**: No specific UK insurance group found for the ML 250 BlueTEC W166. Mercedes-Benz SUVs are generally not the cheapest to insure, but the 250 engine is the smallest. Default to 0.00.
-- **maint_usd_yr**: Mercedes-Benz maintenance is generally more expensive than average (Source 5). Score: -0.50.
-- **repair_risk_score**: The W166 M-Class has some known issues, particularly with diesel engines (Source 5). Reliability is likely average to slightly below average compared to the market. Score: -0.25.
-- **hp**: ML 250 BlueTEC has 204 hp (Source 8, 10, 14). This is around the market average. Score: 0.00.
-- **torque**: ML 250 BlueTEC has 500 Nm (369 lb-ft) (Source 8, 10, 14). This is above average, especially for a 4-cylinder diesel. Score: 0.50.
-- **cylinder_count**: ML 250 BlueTEC has 4 cylinders (Source 10, 14). This is below the average of 6 cylinders in the scoring guide. Score: -0.50.
-- **engine_displacement**: ML 250 BlueTEC has 2.1L (2143 cm³) (Source 8, 10, 14). This is below the average of 3.0L in the scoring guide. Score: -0.50.
-- **accel_0_60_sec**: ML 250 BlueTEC 0-60 mph is around 8.6-8.9 seconds (Source 8, 22). This is slightly below the average of 7.5 seconds. Score: -0.25.
-- **top_speed**: ML 250 BlueTEC top speed is 210 km/h (130-131 mph) (Source 8, 10). This is around the average of 150 mph. Score: 0.00.
-- **drive_type**: ML 250 BlueTEC is 4MATIC (AWD) (Source 8, 10, 14). Score: 0.00.
-- **transmission_type**: ML 250 BlueTEC has a 7G-TRONIC PLUS automatic transmission (Source 23). Score: 1.00.
-- **offroad_ability**: The W166 M-Class has permanent AWD and an off-road mode (Source 2, 35). Optional Off-Road packages offered more capability (Source 6, 25, 35). Without the specific package, it's above average for an SUV but not a dedicated off-roader. Score: 0.25.
-- **braking_dist_ft**: No specific braking distance found for the ML 250 BlueTEC W166. Default to 0.00.
-- **size**: Length 4804mm, Width 1926mm, Height 1796mm (Source 8, 10, 11, 21). This is larger than a Honda Civic (4600mm) but not as large as a Hummer EV (>5100mm). Score: 0.50.
-- **wheelbase**: 2915mm (Source 8, 10, 21, 34). This is larger than a Skoda Octavia (2700mm) but not as large as an S-Class (>3200mm). Score: 0.50.
-- **body_style**: SUV (Source 14, 21). Score: 0.50.
-- **seats**: 5 seats (Source 10, 21, 27). Score: 0.00.
-- **cargo_space**: 690 L (24.4 cu ft) to 2010 L (71 cu ft) with seats folded (Source 8, 10, 11, 17, 21). 24.4 cu ft is above the Civic's 15 cu ft, and 71 cu ft is well above the 35 cu ft benchmark. Score: 0.75.
-- **rear_space**: The W166 M-Class has a roomy cabin and backseat (Source 22, 27). Likely above average. Score: 0.50.
-- **ground_clearance_in**: 200-202mm (7.87-8 inches) (Source 7, 11, 15, 21). This is above the compact crossover average (6.5"). Score: 0.50.
-- **turn_radius_ft**: 11.8m (38.71 ft) (Source 8, 24). This is close to the Camry's 36 ft. Score: 0.00.
-- **mpg**: ML 250 BlueTEC combined NEDC is 5.8-6.2 L/100km (37.9-40.5 US mpg, 45.5-48.7 UK mpg) (Source 8, 10, 12, 17, 21, 23). Edmunds reports 25 mpg combined (US) (Source 22). This is above the Camry's 30 mpg. Score: 0.25.
-- **co2_g_km**: ML 250 BlueTEC is 154-163 g/km (Source 2, 10, 12, 17, 21, 23). This is below the RAV4's 175 g/km. Score: 0.25.
-- **electric_range_mi**: Not electric. Score: -1.00.
-- **charge_speed_kw**: Not electric. Score: -1.00.
-- **style_sleek_vs_boxy**: The W166 has a characteristic SUV shape, less boxy than a G-Class but not sleek like an A7 (Source 2, 9). Score: 0.00.
-- **style_aggression_rating**: The W166 has a confident front design (Source 2), but is not overly aggressive. Score: 0.00.
-- **style_modernity_rating**: The W166 design is from 2011-2015 (Source 8, 10, 21, 32). It looks somewhat dated compared to modern vehicles. Score: -0.50.
-- **handling_rating**: Reviews mention competent handling but feel the weight in corners (Source 6, 27). Not a sports car, but capable for an SUV. Score: 0.00.
-- **ride_comfort_rating**: Known for a comfortable ride, especially with optional AIRMATIC (Source 2, 5, 9, 22, 27, 29, 34). Score: 0.75.
-- **cabin_noise_rating**: Described as a great motorway cruiser with little wind or road noise (Source 23). Score: 0.75.
-- **shift_smooth_rating**: The 7G-TRONIC PLUS is generally smooth (Source 23), though one review mentions it's not quick to respond (Source 23). Score: 0.50.
-- **steering_feel_rating**: Electric steering with variable assistance (Source 5, 24). Described as accurate (Source 27). Score: 0.00.
-- **adas_score**: Standard features included Attention Assist, PRE-SAFE, Brake Assist (Source 2, 13, 34). Optional packages added Blind Spot Assist, Lane Keeping Assist, Active Park Assist, Surround View System, Night View Assist Plus, DISTRONIC PLUS (Source 2, 5, 13, 24, 34). Good for its era, but not as comprehensive as modern systems. Score: 0.25.
-- **visibility_rating**: No specific rating found, but SUV ride height generally helps. Score: 0.00.
-- **headlight_rating**: Projector Xenon headlights were available (Source 28), and an Intelligent Light System was optional (Source 2). Above average for the time. Score: 0.25.
-- **security_rating**: Standard features include engine immobiliser (Source 28) and likely standard Mercedes security features. Score: 0.00.
-- **screen_in**: COMAND Online system had a 17.8 cm (7 inch) display (Source 2). Aftermarket upgrades offer larger screens (Source 4, 16, 26, 30, 33). The standard screen size was average for the era. Score: 0.00.
-- **infotainment_ux_rating**: COMAND Online system was considered user-friendly for its time (Source 2). Score: 0.00.
-- **smartphone_connect_rating**: COMAND Online offered internet access and Mercedes-Benz apps (Source 2). Apple CarPlay and Android Auto were not standard but could be added via aftermarket systems (Source 4, 16, 26, 30, 33). Standard connectivity was limited by modern standards. Score: -0.75.
-- **audio_rating**: Mercedes-Benz typically offers good audio systems, with optional upgrades like Harmon-Kardon (Source 33). Score: 0.50.
-- **usb_ports**: Likely had at least one USB port for media interface (Source 2). Aftermarket systems mention 2 USB cables (Source 26). Score: 0.00.
-- **comfort_feature_score**: Available features included electric seats, dual climate control, heated rear seats, temperature-controlled cup holders, ventilated seats (optional) (Source 3, 5, 9). Good comfort features for its time. Score: 0.50.
-- **convenience_feature_score**: Available features included Active Park Assist, reversing camera, power tailgate, keyless entry (likely optional), 360 cameras (optional via aftermarket) (Source 2, 3, 5, 26). Good convenience features for its time. Score: 0.50.
-- **brand_prestige_rating**: Mercedes-Benz is a high-prestige brand. Score: 0.75.
-- **model_prestige_rating**: The M-Class was a core luxury SUV model for Mercedes-Benz. Score: 0.00.
-- **trim_prestige_rating**: "BlueEfficiency" was an efficiency-focused designation, not a high-performance or luxury trim. Score: 0.50.
-- **interior_luxury_rating**: High-quality materials like leather and wood were available (Source 3, 5, 9). Interior was considered refined and luxurious for its time (Source 9, 22, 27). Score: 0.75.
-- **interior_tech_focus_rating**: The W166 had a good amount of tech for its era (COMAND, ADAS options) (Source 2, 5, 9, 24), but not as screen-focused as modern vehicles. Score: 0.00.```json
+```json
 {
-  "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": -0.50,
-  "repair_risk_score": -0.25,
+  "price_usd": -0.60,
+  "total_cost_estimate_5yr_usd": -0.20,
+  "insurance_usd_yr": -0.20,
+  "maint_usd_yr": -0.40,
+  "repair_risk_score": -0.20,
   "hp": 0.00,
-  "torque": 0.50,
-  "cylinder_count": -0.50,
-  "engine_displacement": -0.50,
-  "accel_0_60_sec": -0.25,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.00,
   "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "offroad_ability": 0.25,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 0.00,
   "braking_dist_ft": 0.00,
-  "size": 0.50,
-  "wheelbase": 0.50,
-  "body_style": 0.50,
+  "size": 0.40,
+  "wheelbase": 0.40,
+  "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.75,
-  "rear_space": 0.50,
-  "ground_clearance_in": 0.50,
+  "cargo_space": 0.20,
+  "rear_space": 0.20,
+  "ground_clearance_in": 0.20,
   "turn_radius_ft": 0.00,
-  "mpg": 0.25,
-  "co2_g_km": 0.25,
+  "mpg": 0.20,
+  "co2_g_km": 0.20,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
   "style_aggression_rating": 0.00,
-  "style_modernity_rating": -0.50,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 0.75,
-  "cabin_noise_rating": 0.75,
-  "shift_smooth_rating": 0.50,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.25,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.25,
-  "security_rating": 0.00,
-  "screen_in": 0.00,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": -0.75,
-  "audio_rating": 0.50,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.50,
-  "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.75,
+  "style_modernity_rating": 0.20,
+  "handling_rating": 0.20,
+  "ride_comfort_rating": 0.40,
+  "cabin_noise_rating": 0.40,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.20,
+  "adas_score": 0.40,
+  "visibility_rating": 0.20,
+  "headlight_rating": 0.80,
+  "security_rating": 0.80,
+  "screen_in": 0.40,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 0.40,
+  "audio_rating": 0.60,
+  "usb_ports": 0.40,
+  "comfort_feature_score": 0.60,
+  "convenience_feature_score": 0.60,
+  "brand_prestige_rating": 0.80,
   "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.50,
-  "interior_luxury_rating": 0.75,
-  "interior_tech_focus_rating": 0.00
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.40
 }
 ```

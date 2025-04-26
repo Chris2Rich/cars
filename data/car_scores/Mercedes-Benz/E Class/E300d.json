@@ -1,8 +1,6 @@
-Based on the search results, the 'E300d' designation is associated with previous generations of the Mercedes-Benz E-Class, such as the W213 (2016-2023) (Source [31, 32, 33, 34, 35]). The most recent generation of the E-Class (W214, 2024+) is offered with diesel engines like the E220d and E450d, both featuring mild-hybrid technology (Source [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]).
+The search results indicate that the "E300d" engine designation was available in the previous generation of the Mercedes-Benz E-Class (W213). For the most recent generation (W214, 2024 onwards), the diesel options mentioned are typically the E220d and E450d in relevant markets. There is no widespread information confirming an "E300d" variant for the current W214 E-Class.
 
-Since the requested 'E300d' trim/engine is not available on the most recent version of the Mercedes-Benz E-Class, I cannot provide specific data or ratings for this configuration on the current model.
-
-As per the instructions, when data is ambiguous or unclear (because the requested configuration doesn't exist for the specified model year), I must default to returning a JSON with all values set to `0.00`.
+Therefore, as per the instructions for ambiguous or unclear data regarding the most recent model, I will return a JSON with all scores set to 0.00.
 
 ```json
 {
@@ -19,6 +17,7 @@ As per the instructions, when data is ambiguous or unclear (because the requeste
   "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
   "offroad_ability": 0.00,
   "braking_dist_ft": 0.00,
   "size": 0.00,
@@ -31,6 +30,7 @@ As per the instructions, when data is ambiguous or unclear (because the requeste
   "turn_radius_ft": 0.00,
   "mpg": 0.00,
   "co2_g_km": 0.00,
+  "electrification": 0.00,
   "electric_range_mi": 0.00,
   "charge_speed_kw": 0.00,
   "style_sleek_vs_boxy": 0.00,

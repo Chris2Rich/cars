@@ -1,0 +1,115 @@
+Based on the search results, the 'Sport Edition' trim level is mentioned for the 2023- model year in the UK, specifically the GLA 180 Sport Edition. It is also mentioned for the 2025 GLA 200d Sport Edition in India. However, the primary current trim levels listed for the most recent GLA (2024/2025 facelift) in major markets like the US and UK are GLA 250, AMG GLA 35, and various "AMG Line" sub-trims (Executive, Premium, Premium Plus). The "Sport" trim itself was an entry-level trim for the previous generation and the initial launch of the current generation in some markets.
+
+Given that "Sport Edition" appears to be a specific package or limited run in certain markets for recent model years, and the most detailed specs found are for the GLA 180 Sport Edition (2023-) and GLA 200d Sport Edition (2025), I will use the data available for these models, prioritizing the GLA 180 Sport Edition as it's explicitly listed as a "Special Edition" for the current generation. I will supplement with general GLA characteristics where specific "Sport Edition" data is missing.
+
+*   **price_usd**: No specific price found for the GLA 180 Sport Edition in USD. UK pricing for a new GLA starts from £35,880. The GLA 200 Sport (entry-level in 2020) started at £32,640. The GLA 180 Sport Edition is likely an entry-level or slightly above entry-level price point. Estimate slightly below market average $52,000 (approx £41,000). Score 0.15.
+*   **total_cost_estimate_5yr_usd**: No specific 5-year cost data found. Mercedes generally have higher ownership costs. Estimate -0.10.
+*   **insurance_usd_yr**: No specific insurance group found for Sport Edition. Base GLA trims are typically lower than AMG. Estimate 0.00.
+*   **maint_usd_yr**: Mercedes maintenance is higher than average. Score -0.20.
+*   **repair_risk_score**: J.D. Power gave the 2023 GLA an 80/100 reliability score (average). What Car? rated the used 2023 GLA highly (94.1%). Score 0.20 (leaning slightly positive due to UK data).
+*   **hp**: GLA 180 Sport Edition has 134 BHP (136 PS). GLA 200d Sport Edition has 136 bhp. Compared to 200 hp average and >700 hp (+1.00). (134-200)/(120-200) = -66/-80 = 0.825. (134-200)/(700-200) = -66/500 = -0.132. Score -0.10.
+*   **torque**: GLA 200d Sport Edition has 300 Nm (221 lb-ft). GLA 180 Sport Edition specs not found. Using 221 lb-ft: Compared to 190 lb-ft average and >1000 lb-ft (+1.00). (221-190)/(1000-190) = 31/810 = 0.038. Score 0.05.
+*   **cylinder_count**: 4 cylinders. Average is 6. Score -0.20.
+*   **engine_displacement**: GLA 180 Sport Edition has 1332 cc (1.3L). GLA 200d Sport Edition has 2143 cc (2.1L). Average is 3.0L. Score -0.40 (using 1.3L).
+*   **accel_0_60_sec**: GLA 180 Sport Edition 0-60 mph is 10.0 secs. GLA 200d Sport Edition 0-60 mph not listed, 0-100 km/h is 9.1s. Average 0-60 mph is 7.5 sec, +1.00 is <2.5 sec. Using 10.0s: (7.5-10.0)/(10-7.5) = -2.5/2.5 = -1.00. Score -1.00.
+*   **top_speed**: GLA 180 Sport Edition max speed 124 mph. GLA 200d Sport Edition max speed not listed. Average is 150 mph, +1.00 is >222 mph. (124-150)/(50-150) = -26/-100 = 0.26. (124-150)/(222-150) = -26/72 = -0.36. Score -0.30.
+*   **drive_type**: GLA 180 Sport Edition is FWD. GLA 200d Sport Edition specs don't explicitly state FWD or AWD, but older 200d models were available in both. Assume FWD for the base engine Sport Edition. Score -1.00.
+*   **transmission_type**: GLA 180 Sport Edition has 7-speed Auto. GLA 200d Sport Edition specs don't list transmission type, but other 200d models use 8G-DCT. Assume DCT. Score 0.00.
+*   **driving_track_vs_gt**: Crossover, daily driver focus. Score 0.00.
+*   **offroad_ability**: Raised suspension compared to A-Class. FWD version has limited off-road ability. Score 0.20.
+*   **braking_dist_ft**: Ventilated Disc front brakes mentioned for 200d Sport Edition. No specific braking distance found. Default 0.00.
+*   **size**: GLA 180 Sport Edition Height 1,616 mm, Width 1834 mm. GLA 200d Sport Edition Length 4,417 mm, Width 1,804 mm, Height 1,494 mm. Current GLA length 4410-4436 mm. Average ~4600mm. Smaller than average. Score -0.20.
+*   **wheelbase**: GLA 200d Sport Edition Wheelbase 2699 mm. Current GLA wheelbase 2729 mm. Average ~2700mm. Very close to average. Score 0.00.
+*   **body_style**: 5-door Hatchback/SUV. Score 0.00.
+*   **seats**: 5 seats. Score 0.00.
+*   **cargo_space**: GLA 200d Sport Edition Boot Space 421 L (14.9 cu ft). Average ~15 cu ft. Score 0.00.
+*   **rear_space**: No specific data for Sport Edition. Standard GLA has good rear space. Score 0.60.
+*   **ground_clearance_in**: GLA 200d Sport Edition Ground Clearance (unladen) 183 mm (7.2 inches). Average for compact crossovers is 6.5". Score 0.40.
+*   **turn_radius_ft**: GLA 200d Sport Edition Minimum Turning Radius 5.9 metres (19.3 ft). Average ~36 ft. Excellent turn radius. Score 0.80.
+*   **mpg**: GLA 180 Sport Edition WLTP FC Comb 42.8 mpg. GLA 200d Sport Edition Mileage ARAI 17.90 KM/L (approx 42.1 mpg US). Average ~30 mpg, +1.00 is >55 mpg. 42.8 mpg is significantly above average. (42.8-30)/(55-30) = 12.8/25 = 0.512. Score 0.50.
+*   **co2_g_km**: GLA 180 Sport Edition CO2 Emissions 148 g/km. GLA 200d Sport Edition CO2 Emissions not listed. Average ~175 g/km, +1.00 is 0 g/km. 148 g/km is better than average. (175-148)/(175-0) = 27/175 = 0.154. Score 0.15.
+*   **electrification**: GLA 180 Sport Edition is Petrol. GLA 200d Sport Edition is Diesel. Assume standard ICE. Score -1.00.
+*   **electric_range_mi**: N/A. Score -1.00.
+*   **charge_speed_kw**: N/A. Score -1.00.
+*   **style_sleek_vs_boxy**: Crossover shape, leans slightly sleek. Score 0.20.
+*   **style_aggression_rating**: Sport Edition styling, likely includes some sporty elements but not full AMG. Score 0.00.
+*   **style_modernity_rating**: Based on current generation GLA, updated LED lights. Score 0.40.
+*   **handling_rating**: No specific handling description for Sport Edition. Standard GLA handling is average. Score 0.00.
+*   **ride_comfort_rating**: No specific ride comfort description for Sport Edition. Standard GLA ride comfort is average to slightly firm. Score 0.00.
+*   **cabin_noise_rating**: No specific cabin noise data for Sport Edition. Default 0.00.
+*   **shift_smooth_rating**: 7-speed Auto/DCT. DCT can be clunky at low speeds. Score -0.20.
+*   **steering_feel_rating**: No specific steering feel description for Sport Edition. Standard GLA steering is light. Score 0.20.
+*   **adas_score**: Standard safety features like ABS, EBD, Driver/Passenger/Side Airbags mentioned for 200d Sport Edition. Standard GLA has more ADAS. Assume standard GLA ADAS features are included. Score 0.40.
+*   **visibility_rating**: No specific visibility data for Sport Edition. Standard GLA has good forward visibility. Score 0.20.
+*   **headlight_rating**: LED high performance headlamps standard. Automatic Headlamps, Bi-xenon Light Type mentioned for 200d Sport Edition. LED High Performance is good. Score 0.60.
+*   **security_rating**: Engine Immobilizer, Speed Sensing Door Lock, Child Safety Lock mentioned for 200d Sport Edition. Standard GLA has more security features. Score 0.40.
+*   **screen_in**: 7-inch touchscreen media display and a 7-inch digital cockpit mentioned for GLA 200 Sport (entry-level 2020). Current GLA has dual 10.25-inch screens standard. Assume current standard screens. Score 0.60.
+*   **infotainment_ux_rating**: MBUX multimedia system, 'Hey Mercedes' voice-activated virtual assistant. Standard GLA MBUX is generally good but can be complex. Score 0.40.
+*   **smartphone_connect_rating**: Apple and Android smartphone mirroring features mentioned for 2017 update. Smartphone integration and wireless charging mentioned for AMG Line Executive. Assume wireless CarPlay/Android Auto is standard on recent models. Score 0.80.
+*   **audio_rating**: Mid-range sound system mentioned for AMG Line Premium. Standard is likely average. Score 0.00.
+*   **usb_ports**: No specific data for Sport Edition. Standard GLA has multiple USB-C ports. Score 0.40.
+*   **comfort_feature_score**: Heated front seats standard. Dual-zone air conditioning system. Comfort seats. Good standard features. Score 0.60.
+*   **convenience_feature_score**: 180° reversing camera standard. Parking package with Active Parking Assist mentioned for Sport Executive. Assume reversing camera is standard. Score 0.40.
+*   **brand_prestige_rating**: Mercedes-Benz is high prestige. Score 0.80.
+*   **model_prestige_rating**: GLA is entry-level Mercedes SUV. Score 0.80.
+*   **trim_prestige_rating**: Sport Edition appears to be an entry-level or slightly above entry-level trim. Score 0.80.
+*   **interior_luxury_rating**: Black ARTICO man-made leather and Fléron fabric, spiral-look trim. Standard GLA interior quality is good but some cheaper plastics. Score 0.40.
+*   **interior_tech_focus_rating**: MBUX system, digital cockpit. Screen-focused. High tech focus. Score 0.60.
+
+Refining scores based on the gathered data and benchmarks. Adjusting ground clearance and turn radius based on the 200d Sport Edition data. Adjusting acceleration based on 180 Sport Edition data. Adjusting HP/Torque based on 180 Sport Edition data. Adjusting Electrification based on engine type. Adjusting Trim Prestige based on it being an entry-level variant.```json
+{
+  "price_usd": 0.15,
+  "total_cost_estimate_5yr_usd": -0.10,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": 0.20,
+  "hp": -0.10,
+  "torque": 0.05,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.40,
+  "accel_0_60_sec": -1.00,
+  "top_speed": -0.30,
+  "drive_type": -1.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 0.20,
+  "braking_dist_ft": 0.00,
+  "size": -0.20,
+  "wheelbase": 0.00,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.60,
+  "ground_clearance_in": 0.40,
+  "turn_radius_ft": 0.80,
+  "mpg": 0.50,
+  "co2_g_km": 0.15,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.20,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.40,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": -0.20,
+  "steering_feel_rating": 0.20,
+  "adas_score": 0.40,
+  "visibility_rating": 0.20,
+  "headlight_rating": 0.60,
+  "security_rating": 0.40,
+  "screen_in": 0.60,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.00,
+  "usb_ports": 0.40,
+  "comfort_feature_score": 0.60,
+  "convenience_feature_score": 0.40,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 0.80,
+  "trim_prestige_rating": 0.80,
+  "interior_luxury_rating": 0.40,
+  "interior_tech_focus_rating": 0.60
+}
+```

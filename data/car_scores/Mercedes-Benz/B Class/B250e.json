@@ -1,0 +1,113 @@
+Here's the evaluation of the most recent Mercedes-Benz B-Class B250e based on the search results and the provided scoring guide:
+
+-   **price_usd**: UK prices start at £35,280 for AMG Line Executive, up to £38,280 for AMG Line Premium Plus. Using a conversion rate of 1 GBP = 1.27 USD (approx), this is ~$44,806 - $48,596. The market average for a new car is ~$52,000. This puts the B250e price below the current market average. Score: `0.10`.
+-   **total_cost_estimate_5yr_usd**: No specific 5-year cost found. PHEVs can have lower fuel costs but potentially higher maintenance/repair costs due to complexity. Mercedes maintenance is generally higher. Score: `-0.10`.
+-   **insurance_usd_yr**: Insurance group 31E. This is in the higher half of insurance groups, suggesting above-average insurance costs. Score: `-0.20`.
+-   **maint_usd_yr**: Mercedes maintenance is generally higher than average. Score: `-0.20`.
+-   **repair_risk_score**: Reliability reviews for the W247 are mixed, with reported issues in engine, transmission, suspension, electrical, climate control, and brakes. Score: `-0.30`.
+-   **hp**: System output is 218 hp (160 kW). Average is ~200 hp. This is above average. Score: `0.10`.
+-   **torque**: System torque is 450 Nm (~331 lb-ft). Average torque is around 190 lb-ft. This is well above average. Score: `0.50`.
+-   **cylinder_count**: Uses a 1.3-litre four-cylinder petrol engine. Average is 6. Score: `-0.20`.
+-   **engine_displacement**: 1.33L petrol engine. Average is 3.0L. This is well below average. Score: `-0.80`.
+-   **accel_0_60_sec**: Around 6.4 seconds (0-60 mph) or 6.6 seconds (0-100 km/h). Average is 7.5 seconds. This is faster than average. Score: `0.30`.
+-   **top_speed**: 235 km/h (~146 mph). Electric top speed is 140 km/h (~87 mph). Average is 150 mph. The combined top speed is around average. Score: `0.00`.
+-   **drive_type**: Front-wheel drive. FWD is -1.00. Score: `-1.00`.
+-   **transmission_type**: 8G-DCT automatic transmission. DCT is 0.00. Score: `0.00`.
+-   **driving_track_vs_gt**: A comfortable family car, good for cruising. Definitely a daily driver/grocery-getter. Score: `0.00`.
+-   **offroad_ability**: Low ground clearance (around 104mm / ~4.1 inches for W247). Not designed for off-road. Score: `1.00`.
+-   **braking_dist_ft**: No specific data found. Default to average. Score: `0.00`.
+-   **size**: Length is 4419 mm (~174 inches). Older B250e (2015-2017) was 4359mm. Average is ~4600mm. Score: `0.10`.
+-   **wheelbase**: Wheelbase is 2729 mm (~107.4 inches). Older B250e (2017) was 106.2 inches. Average is ~2700mm. Score: `0.00`.
+-   **body_style**: 5-door hatchback/small MPV/Sports Tourer. Closer to a hatchback/MPV than a van. Score: `-0.20`.
+-   **seats**: 5 seats. Average is 5. Score: `0.00`.
+-   **cargo_space**: Minimal reduction in boot capacity compared to non-hybrid models. W247 B-Class is around 440-455 litres (15.5-16.1 cu ft). Older B250e (2017) was 21.6 cu ft with seats up. Using W247 data. Score: `0.00`.
+-   **rear_space**: Impressively spacious rear seats, plenty of leg and headroom for six-footers. Score: `0.50`.
+-   **ground_clearance_in**: Around 104mm (~4.1 inches) for W247. Average is ~6.5 inches. This is low. Score: `-0.80`.
+-   **turn_radius_ft**: Turning circle is 11m (~36.1 ft). Older B250e (2017) was 36 ft. Average is ~36 ft. Score: `0.00`.
+-   **mpg**: Official combined fuel consumption up to 235.4 mpg (UK). This relies heavily on electric driving. Average is 30 mpg. This is superb for a combined figure. Score: `1.00`.
+-   **co2_g_km**: 27 g/km (WLTP). Some sources list slightly higher (32 g/km NEDC, 25 g/km WLTP). Average is ~175 g/km. This is extremely low. Score: `1.00`.
+-   **electrification**: Plug-in Hybrid Electric Vehicle (PHEV). Score: `0.00`.
+-   **electric_range_mi**: Up to 42 miles (WLTP). Older B250e (2015-2017) had ~90 miles real range. Average for PHEV is around 20-30 miles. 42 miles is good. Score: `0.50`.
+-   **charge_speed_kw**: 7.4 kW AC standard. Optional 11 kW AC available. DC charging is mentioned as possible (10-80% in ~25 mins), but some sources say no rapid charging. Using the standard AC speed. 7.4 kW is decent for AC. Score: `0.00`.
+-   **style_sleek_vs_boxy**: Taller body than hatchbacks, but neat curvy styling, not ultra-boxy. Score: `0.00`.
+-   **style_aggression_rating**: AMG Line adds sportier bumpers, grille, wheels, and styling elements. Increases aggression slightly. Score: `0.30`.
+-   **style_modernity_rating**: Modern but not avant-garde. Score: `0.00`.
+-   **handling_rating**: Agile handling, competent but not outstanding, dull but extremely safe and predictable. Score: `0.00`.
+-   **ride_comfort_rating**: Comfortable ride. Score: `0.50`.
+-   **cabin_noise_rating**: Generally refined, quiet and serene at motorway speeds. Score: `0.30`.
+-   **shift_smooth_rating**: 8-speed DCT automatic. Can have issues like rough shifting or delayed changes. Score: `0.00`.
+-   **steering_feel_rating**: Light steering, precise but light and numb. Score: `-0.20`.
+-   **adas_score**: Full five-star Euro NCAP rating. High level of active safety standard (Active Brake Assist, Lane Keeping Assist, ATTENTION ASSIST, reversing camera, Active Parking Assist). Optional Driving Assistance package adds adaptive cruise control and more advanced features. Score: `0.50`.
+-   **visibility_rating**: Raised driving position aids visibility. Excellent outward visibility. Score: `0.50`.
+-   **headlight_rating**: LED High Performance headlamps standard. Multibeam LED headlights available on Premium Plus. Good illumination. Score: `0.30`.
+-   **security_rating**: Keyless start standard. Alarm system with immobiliser expected. Good security expected from Mercedes. Score: `0.30`.
+-   **screen_in**: Dual screens standard since facelift. 10.25-inch media display standard. 10.25-inch digital cockpit standard on Premium trims. Widescreen cockpit (2 x 10.25") available. Score based on standard screens for B250e trims. Score: `0.50`.
+-   **infotainment_ux_rating**: MBUX system is well-regarded, intuitive, slick, responsive touchscreen, good voice control ("Hey Mercedes"). Touch-sensitive steering wheel controls can be fiddly. Touchpad removed in facelift. Score: `0.50`.
+-   **smartphone_connect_rating**: Apple CarPlay and Android Auto standard. Wireless charging available. Score: `0.50`.
+-   **audio_rating**: Mercedes-Benz advanced sound system available on Premium trims. Standard system is likely average or slightly above. Score: `0.30`.
+-   **usb_ports**: Two USB (type C) interfaces in rear of centre console, plus one in oddments tray. Total 3 ports mentioned. Score: `0.00`.
+-   **comfort_feature_score**: Heated front seats standard. Thermotronic climate control standard. KEYLESS-GO starting function standard. Ambient lighting available. Memory seats available on Premium Plus. Score: `0.50`.
+-   **convenience_feature_score**: Parking package, Mirror package standard. Active Parking Assist, reversing camera standard. Keyless-Go locking and unlocking available. EASY-PACK tailgate (electric) available. Score: `0.50`.
+-   **brand_prestige_rating**: Mercedes-Benz is a high-prestige brand. Score: `0.80`.
+-   **model_prestige_rating**: The B-Class is an entry-level/mid-range model within Mercedes' lineup. Score: `0.00`.
+-   **trim_prestige_rating**: B250e is a higher-end engine/trim level within the standard B-Class range, offering PHEV technology. Available in AMG Line trims. Score: `-0.20`.
+-   **interior_luxury_rating**: High quality materials in places (ARTICO man-made leather/DINAMICA microfibre upholstery standard on AMG Line Executive). Looks stylish and finished to high standards. Can require extras for best quality. Score: `0.50`.
+-   **interior_tech_focus_rating**: Dual screens, MBUX, voice control, augmented reality nav available, ambient lighting give a strong tech-focused feel. Score: `0.50`.
+
+```json
+{
+  "price_usd": 0.10,
+  "total_cost_estimate_5yr_usd": -0.10,
+  "insurance_usd_yr": -0.20,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": -0.30,
+  "hp": 0.10,
+  "torque": 0.50,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.80,
+  "accel_0_60_sec": 0.30,
+  "top_speed": 0.00,
+  "drive_type": -1.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.10,
+  "wheelbase": 0.00,
+  "body_style": -0.20,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.50,
+  "ground_clearance_in": -0.80,
+  "turn_radius_ft": 0.00,
+  "mpg": 1.00,
+  "co2_g_km": 1.00,
+  "electrification": 0.00,
+  "electric_range_mi": 0.50,
+  "charge_speed_kw": 0.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.30,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.30,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": -0.20,
+  "adas_score": 0.50,
+  "visibility_rating": 0.50,
+  "headlight_rating": 0.30,
+  "security_rating": 0.30,
+  "screen_in": 0.50,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.30,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -0.20,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.50
+}
+```

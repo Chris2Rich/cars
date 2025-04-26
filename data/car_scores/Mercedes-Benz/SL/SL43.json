@@ -1,108 +1,56 @@
-The most recent Mercedes-Benz SL with the 'SL43' designation is part of the R232 generation, introduced for the 2022 model year. The 2024 and 2025 models are the most recent versions, with the 2025 model receiving a slight power increase [3, 11]. I will primarily use the specifications for the 2024 model, noting the 2025 power increase where relevant. The SL43 is powered by a 2.0L turbocharged inline-4 engine with mild-hybrid assist [3, 4, 5, 6, 8, 9, 10, 11, 14, 16, 17, 18, 23, 25, 27].
-
-Here is the evaluation based on the 2024 Mercedes-AMG R232 SL43, compared to today's market average:
-
-*   **price_usd:** The 2024 Mercedes-AMG SL43 has a starting MSRP around $111,050 - $111,800 [2, 6, 23, 25, 27]. This is well above the $100,000 threshold for the lowest score. Score: -1.00.
-*   **total_cost_estimate_5yr_usd:** As a high-end luxury performance car, the 5-year ownership cost will be significantly higher than the market average due to depreciation, insurance, maintenance, and potential repairs. Score: -1.00.
-*   **insurance_usd_yr:** High-performance luxury vehicles like the SL43 fall into the highest insurance groups [15]. Score: -1.00.
-*   **maint_usd_yr:** Mercedes-AMG maintenance is expensive, especially for a complex modern vehicle with performance components [27]. Score: -1.00.
-*   **repair_risk_score:** While modern Mercedes-Benz vehicles have improved reliability, complex systems and performance tuning can lead to higher repair risks compared to average cars. Score: -0.20.
-*   **hp:** The 2024 SL43 has 375 hp [3, 6, 8, 9, 10, 16, 18, 23, 27]. The 2025 model has 416 hp [3, 11, 14, 17]. Both are significantly above the 200 hp market average. Using the 2024 figure for the rating. Score: 0.70.
-*   **torque:** The 2024 SL43 has 354 lb-ft [6, 8, 9, 10, 16, 18, 23, 27]. The 2025 model has 369 lb-ft [3, 11, 14, 17]. Both are significantly above the 190 lb-ft market average. Using the 2024 figure. Score: 0.70.
-*   **cylinder_count:** Inline-4 [3, 4, 5, 6, 8, 9, 10, 11, 14, 16, 17, 18, 23, 25, 27]. Today's average is 4 or 6. A 4-cylinder in this segment is unusual, but the scoring is based on the general market. Score: -0.50.
-*   **engine_displacement:** 2.0L [3, 6, 8, 9, 10, 16, 18, 23, 27]. Today's average is around 2.0-3.0L. Score: 0.00.
-*   **accel_0_60_sec:** 4.5-4.8 seconds [2, 3, 4, 11, 15, 17, 19, 25]. This is very fast. Score: 0.90.
-*   **top_speed:** 170-173 mph [15, 25]. This is well above the 150 mph benchmark for 0.00. Score: 0.80.
-*   **drive_type:** RWD [2, 3, 4, 6, 8, 9, 10, 11, 16, 18, 23, 27]. Score: +1.00.
-*   **transmission_type:** 9-speed Automatic (AMG SPEEDSHIFT MCT) [3, 4, 6, 8, 9, 10, 11, 16, 17, 18, 23]. Score: +1.00 (following guide).
-*   **offroad_ability:** Very poor. Score: +1.00 (following guide).
-*   **braking_dist_ft:** 149 ft from 70 mph [2]. Converting to 60 mph would be shorter, likely in the excellent range. Score: 0.80.
-*   **size:** Length 185.2 inches (4704 mm) [3, 8, 10, 16, 18, 23, 27]. Today's average sedan/crossover is ~4600mm. Score: 0.00.
-*   **wheelbase:** 106.3 inches (2700 mm) [3, 8, 10, 11, 16, 18, 23]. Today's average is ~2700mm. Score: 0.00.
-*   **body_style:** 2-door convertible/roadster [2, 3, 4, 5, 8, 10, 11, 13, 18, 20, 23, 27]. Score: -1.00.
-*   **seats:** 2+2 seating, but rear seats are very small, effectively a 2-seater [2, 3, 4, 5, 8, 9, 10, 11, 13, 18, 23, 27, 28]. Score: -0.50.
-*   **cargo_space:** 7.5 cu ft (212-241 L) [3, 4, 7, 8, 10, 16, 18, 23, 26]. This is small. Score: -0.80.
-*   **rear_space:** Very limited, effectively unusable for adults [11, 28]. Score: -1.00.
-*   **ground_clearance_in:** 53.3-53.5 inches height [3, 8, 10, 16, 18, 27]. Ground clearance is not explicitly stated but is low for a sports car. Estimate ~4-5 inches. Score: -0.80.
-*   **turn_radius_ft:** 42.1-42.9 ft [7, 16, 21, 23]. This is larger than average. Score: -0.50.
-*   **mpg:** EPA combined 22-23 mpg [3, 4, 5, 8, 9, 10, 16, 18, 23, 26, 27, 28]. Real-world varies [2, 4]. Today's average ~30 mpg. Score: -0.50.
-*   **co2_g_km:** 206 g/km [15]. EPA Greenhouse Gas Score 5.0 [8, 9, 18, 27]. Today's average ~175 g/km. Score: -0.50.
-*   **electric_range_mi:** Mild hybrid, no electric-only range. Score: -1.00.
-*   **charge_speed_kw:** Mild hybrid, no external charging. Score: -1.00.
-*   **style_sleek_vs_boxy:** Sleek roadster design [2, 20, 24]. Score: 0.80.
-*   **style_aggression_rating:** Muscular and dynamic appearance [19, 28]. Score: 0.70.
-*   **style_modernity_rating:** Modern design [20]. Score: 0.80.
-*   **handling_rating:** Great chassis, stable, unflappable, agile, grippy [2, 12, 13, 19, 20, 24]. Score: 0.80.
-*   **ride_comfort_rating:** Rides with suppleness, disciplined without being harsh [2, 24]. Score: 0.70.
-*   **cabin_noise_rating:** Suffers road noise and some roof-up wind noise [24]. Engine note can be uncouth at low revs [2]. Score: -0.20.
-*   **shift_smooth_rating:** 9-speed MCT transmission. Can be less relaxed at low speeds [2]. Score: 0.60.
-*   **steering_feel_rating:** Steering cuts with authority, solid, natural feel, precise weighting, but maybe not the most feedback [2, 12, 13, 19, 24]. Score: 0.60.
-*   **adas_score:** Vast suite of driver assistance programs available, including Active Distance Assist DISTRONIC, Active Steering Assist, Active Blind Spot Assist, Active Lane Keeping Assist, etc. [17, 24, 27]. Score: 0.90.
-*   **visibility_rating:** Good with roof down, limited rear visibility with roof up. Score: 0.00.
-*   **headlight_rating:** LED lights, Adaptive Highbeam Assist Plus available [17, 28]. Score: 0.80.
-*   **security_rating:** Standard luxury car security features, alarm system [17, 26]. Score: 0.80.
-*   **screen_in:** 11.9-inch central touchscreen and 12.3-inch instrument cluster [19, 20, 28]. Large screens. Score: 0.80.
-*   **infotainment_ux_rating:** MBUX system, integrated into a three-dimensional visor, adjustable tilt screen [19, 20]. Can have layers of menus [2]. Score: 0.60.
-*   **smartphone_connect_rating:** Apple CarPlay and Android Auto standard [10, 17]. Wireless phone charging available [17]. Score: 0.90.
-*   **audio_rating:** Burmester surround sound system standard, Burmester High-End 3D Surround Sound System optional [17]. Score: 0.90.
-*   **usb_ports:** Additional USB Type-C Ports available [17]. Likely multiple ports. Score: 0.60.
-*   **comfort_feature_score:** AIRSCARF, heated steering wheel, heated/ventilated/massage front seats, dual-zone climate control, memory package [17, 23, 24, 26, 28]. High level of comfort features. Score: 0.90.
-*   **convenience_feature_score:** KEYLESS-GO, KEYLESS Start, EASY-PACK Power Trunk Closer, Foot Activated Trunk/Tailgate Release, Parking Package (including assisted parking, cameras, sensors), Fingerprint Scanner [17, 23, 24, 26]. High level of convenience features. Score: 0.90.
-*   **brand_prestige_rating:** Mercedes-Benz is a high-prestige brand. Score: 0.90.
-*   **model_prestige_rating:** SL is an iconic model, a halo car [6, 11, 20]. Score: -1.00 (following guide).
-*   **trim_prestige_rating:** SL43 is the entry-level engine/trim for the R232 generation [6, 11, 25]. Score: +1.00 (following guide).
-*   **interior_luxury_rating:** Awash in top-grade coverings, beautifully styled, posh cabin details, premium leather options [2, 11, 17, 28]. Score: 0.90.
-*   **interior_tech_focus_rating:** Hyper analog cockpit with fully digital instrument cluster and large central touchscreen, MBUX system [19, 20]. High tech focus. Score: 0.80.```json
+```json
 {
   "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
   "maint_usd_yr": -1.00,
-  "repair_risk_score": -0.20,
-  "hp": 0.70,
-  "torque": 0.70,
+  "repair_risk_score": 0.00,
+  "hp": 0.50,
+  "torque": 0.50,
   "cylinder_count": -0.50,
-  "engine_displacement": 0.00,
+  "engine_displacement": -0.30,
   "accel_0_60_sec": 0.90,
-  "top_speed": 0.80,
+  "top_speed": 0.10,
   "drive_type": 1.00,
   "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.50,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.80,
-  "size": 0.00,
+  "braking_dist_ft": 0.50,
+  "size": 0.10,
   "wheelbase": 0.00,
   "body_style": -1.00,
   "seats": -0.50,
-  "cargo_space": -0.80,
+  "cargo_space": -0.70,
   "rear_space": -1.00,
-  "ground_clearance_in": -0.80,
-  "turn_radius_ft": -0.50,
-  "mpg": -0.50,
+  "ground_clearance_in": -1.00,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.30,
   "co2_g_km": -0.50,
+  "electrification": -0.50,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.80,
-  "style_aggression_rating": 0.70,
-  "style_modernity_rating": 0.80,
-  "handling_rating": 0.80,
+  "style_sleek_vs_boxy": 0.70,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.50,
   "ride_comfort_rating": 0.70,
-  "cabin_noise_rating": -0.20,
-  "shift_smooth_rating": 0.60,
-  "steering_feel_rating": 0.60,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.50,
   "adas_score": 0.90,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.80,
-  "security_rating": 0.80,
-  "screen_in": 0.80,
-  "infotainment_ux_rating": 0.60,
-  "smartphone_connect_rating": 0.90,
+  "headlight_rating": 0.50,
+  "security_rating": 0.90,
+  "screen_in": 0.70,
+  "infotainment_ux_rating": 0.70,
+  "smartphone_connect_rating": 1.00,
   "audio_rating": 0.90,
-  "usb_ports": 0.60,
+  "usb_ports": 0.00,
   "comfort_feature_score": 0.90,
   "convenience_feature_score": 0.90,
   "brand_prestige_rating": 0.90,
-  "model_prestige_rating": -1.00,
-  "trim_prestige_rating": 1.00,
+  "model_prestige_rating": -0.90,
+  "trim_prestige_rating": 0.00,
   "interior_luxury_rating": 0.90,
   "interior_tech_focus_rating": 0.80
 }

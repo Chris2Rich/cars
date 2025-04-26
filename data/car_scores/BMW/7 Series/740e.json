@@ -1,0 +1,113 @@
+The most recent BMW 740e is from the G11/G12 generation (2016-2019 for the 740e, replaced by 745e in the 2019 facelift). I will use specs primarily from the 2016-2019 model years, noting variations where found.
+
+*   **price\_usd**: Original MSRP was around $90,095 - $91,695. Used prices in 2023 were around $35,000 to $50,000. Compared to the new car average of $52,000, used prices are around average, while new prices were well above. Averaging these perspectives, it leans towards the higher cost bracket. Score: -0.50.
+*   **total\_cost\_estimate\_5yr\_usd**: Edmunds estimates a 5-year True Cost to Own for a 2019 740e xDrive at $67,507. This is well above the $40,000 average. Score: -1.00.
+*   **insurance\_usd\_yr**: Insurance group is high, around 47-49 (on a 1-50 scale). This translates to high insurance costs. Score: -1.00.
+*   **maint\_usd\_yr**: Annual maintenance costs are estimated between $1,000 and $1,500. CarEdge estimates $14,769 for maintenance and repairs over 10 years, which is higher than average for luxury sedans. Score: -1.00.
+*   **repair\_risk\_score**: While some reports indicate good reliability for specific owners, the E65/E66 generation had reliability issues, and complex PHEV systems can add potential points of failure. General BMW reliability is average to slightly below. Score: -0.20.
+*   **hp**: Combined system output is 322-326 hp. This is significantly above the 200 hp average. Score: 0.50.
+*   **torque**: Combined system torque is 369 lb-ft (500 Nm). This is well above the 190 lb-ft average. Score: 0.80.
+*   **cylinder\_count**: It uses a 4-cylinder gasoline engine. This is below the 6-cylinder average for the benchmark. Score: -0.50.
+*   **engine\_displacement**: The gasoline engine is 2.0L (1998 cm³). This is below the 3.0L average. Score: -0.50.
+*   **accel\_0\_60\_sec**: 0-60 mph is around 5.1-5.3 seconds. This is significantly faster than the 7.5 sec average. Score: 0.80.
+*   **top\_speed**: Top speed is limited to 149-155 mph (240-250 km/h). This is around the 150 mph average. Score: 0.00.
+*   **drive\_type**: Available in RWD and AWD (xDrive). RWD is +1.00, AWD is 0.00. Averaging for the model range. Score: 0.50.
+*   **transmission\_type**: 8-speed automatic transmission. Automatic is +1.00. Score: 1.00.
+*   **driving\_track\_vs\_gt**: Designed as a comfortable luxury sedan for long drives. Score: 1.00.
+*   **offroad\_ability**: Low ground clearance and not designed for off-road. Score: 1.00.
+*   **braking\_dist\_ft**: Brakes are strong, but some reviews mention a slightly spongy feel due to regenerative braking. No specific distance found. Default to average. Score: 0.00.
+*   **size**: Available in standard (G11) and long wheelbase (G12) versions. Length is around 5098 mm (200.7 in) for G11 and 5238 mm (206.2 in) for G12. Both are large, with the G12 well over 5100mm. Score: 1.00.
+*   **wheelbase**: Wheelbase is 3070 mm (120.87 in) for G11 and 3210 mm (126.4 in) for G12. G12 is well over 3200mm. Score: 1.00.
+*   **body\_style**: 4-door sedan. Average. Score: 0.00.
+*   **seats**: 5 seats. Average. Score: 0.00.
+*   **cargo\_space**: Trunk capacity is 420 litres (14.8 cu ft). This is around the 15 cu ft average. Score: 0.00.
+*   **rear\_space**: Excellent rear legroom, especially in the long-wheelbase version. Well over 40". Score: 1.00.
+*   **ground\_clearance\_in**: Ground clearance is 135 mm (5.31 in). This is below the 6.5" average for crossovers, but not extremely low like a sports car. Score: -0.20.
+*   **turn\_radius\_ft**: Turning circle is 12.3 meters (40.35 ft). Larger than the 36 ft average. Score: -0.20.
+*   **mpg**: Combined fuel economy is rated very high (e.g., 64 MPGe EPA, 102-134.5 mpg imp NEDC) when using electric power. Real-world varies greatly depending on charging frequency and driving style, but owners report averages around 42 mpg. Even the gas-only mode is around 27 mpg. This is significantly above the 30 mpg average. Score: 0.80.
+*   **co2\_g\_km**: CO2 emissions are very low (45-56 g/km). This is well below the 175 g/km average. Score: 0.80.
+*   **electrification**: Plug-in Hybrid Electric Vehicle (PHEV). Score: 0.00.
+*   **electric\_range\_mi**: EPA electric range is 14 miles. NEDC range is 25 miles. Real-world range is reported around 20 miles. This is below the 100-mile benchmark for average EV range, but good for a PHEV of its era. Score: -0.50.
+*   **charge\_speed\_kw**: AC charging is up to 3.6-3.7 kW. Charging time is around 2.7-4 hours from a Wallbox. This is typical for Level 2 AC charging but not fast compared to modern EVs. Score: 0.00.
+*   **style\_sleek\_vs\_boxy**: Typical large luxury sedan shape, not particularly sleek or boxy compared to the extremes. Score: 0.00.
+*   **style\_aggression\_rating**: Luxury sedan styling, not very aggressive. Score: 0.00.
+*   **style\_modernity\_rating**: The G11/G12 design was modern for its time but has been superseded by the G70. Score: 0.20.
+*   **handling\_rating**: Good handling for a large luxury car, but the added weight of the hybrid system can affect agility compared to non-hybrid versions. Score: 0.50.
+*   **ride\_comfort\_rating**: Excellent ride comfort due to air suspension and focus on luxury. Score: 1.00.
+*   **cabin\_noise\_rating**: Excellent cabin insulation, very quiet, especially in electric mode. Score: 1.00.
+*   **shift\_smooth\_rating**: Smooth 8-speed automatic transmission. Score: 1.00.
+*   **steering\_feel\_rating**: Steering is accurate but somewhat one-dimensional in feel. Score: 0.20.
+*   **adas\_score**: Equipped with advanced ADAS features for its era, including adaptive cruise control, lane departure warning, blind spot monitoring, and self-steering traffic jam assist. Score: 0.80.
+*   **visibility\_rating**: Standard visibility for a large sedan. Score: 0.00.
+*   **headlight\_rating**: Features LED headlights, with optional Laserlight. Score: 1.00.
+*   **security\_rating**: High-end security features expected for a luxury car. Score: 0.80.
+*   **screen\_in**: Features a 10.25" or 12.3" infotainment screen and a digital instrument cluster. Score: 0.50.
+*   **infotainment\_ux\_rating**: iDrive system (version 6.0) is generally well-regarded, with touchscreen, controller, and gesture control options. Score: 0.80.
+*   **smartphone\_connect\_rating**: Supports Apple CarPlay (optional on some years). Android Auto was not available. Score: 0.50.
+*   **audio\_rating**: Available with high-end audio systems like Harman Kardon. Score: 1.00.
+*   **usb\_ports**: Standard number of USB ports for its era. Score: 0.00.
+*   **comfort\_feature\_score**: Extensive comfort features like power seats, heating, cooling, massage, ambient lighting, etc.. Score: 1.00.
+*   **convenience\_feature\_score**: High level of convenience features like parking assist, head-up display, gesture control, soft-close doors, power trunk lid. Score: 1.00.
+*   **brand\_prestige\_rating**: BMW is a high-prestige brand. Score: 0.80.
+*   **model\_prestige\_rating**: The 7 Series is the flagship luxury sedan. Score: -1.00.
+*   **trim\_prestige\_rating**: 740e is a mid-range PHEV trim within the 7 Series lineup. Score: 0.00.
+*   **interior\_luxury\_rating**: High-quality materials, leather, wood/metal trim. Score: 1.00.
+*   **interior\_tech\_focus\_rating**: High level of interior tech for its era, with multiple screens and advanced infotainment. Score: 0.80.
+
+```json
+{
+  "price_usd": -0.50,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -0.20,
+  "hp": 0.50,
+  "torque": 0.80,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": 0.80,
+  "top_speed": 0.00,
+  "drive_type": 0.50,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 1.00,
+  "wheelbase": 1.00,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 1.00,
+  "ground_clearance_in": -0.20,
+  "turn_radius_ft": -0.20,
+  "mpg": 0.80,
+  "co2_g_km": 0.80,
+  "electrification": 0.00,
+  "electric_range_mi": -0.50,
+  "charge_speed_kw": 0.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.20,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 1.00,
+  "cabin_noise_rating": 1.00,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.20,
+  "adas_score": 0.80,
+  "visibility_rating": 0.00,
+  "headlight_rating": 1.00,
+  "security_rating": 0.80,
+  "screen_in": 0.50,
+  "infotainment_ux_rating": 0.80,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 1.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 1.00,
+  "convenience_feature_score": 1.00,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 1.00,
+  "interior_tech_focus_rating": 0.80
+}
+```

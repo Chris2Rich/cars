@@ -1,137 +1,57 @@
-Based on the search results for Mercedes-Benz 280 CE (W123):
-
-- **price_usd**: Classic car prices vary greatly. Average is around £9,266 (Source 8), but can go up to £27,819 or more (Source 8, 32). Lowest recent sales around £2,231 (Source 8). Compared to a $52,000 modern average, these prices are significantly lower for average condition cars. Score +1.00.
-- **total_cost_estimate_5yr_usd**: Maintenance and potential restoration costs can be high (Source 6, 9, 37). While reliability is good for its era, it's still an old car. Hard to estimate 5-year cost precisely against modern cars. Default to 0.00.
-- **insurance_usd_yr**: Classic car insurance can be cheaper (Source 7). Score +0.50.
-- **maint_usd_yr**: Older cars require more maintenance, and parts can be expensive (Source 9, 37). Likely higher than average modern car. Score -0.50.
-- **repair_risk_score**: W123 is renowned for reliability for its era (Source 6, 9, 11, 24, 37). However, age-related issues and rust are concerns (Source 6, 11, 37). Compared to modern cars, the risk of age-related failure is higher, but mechanical simplicity helps. Score 0.00 (balancing reliability reputation with age).
-- **hp**: Around 182-185 hp (Source 2, 4, 5, 13, 15, 20, 31). Modern average is around 200 hp. Score 0.00.
-- **torque**: Around 177 lb-ft (Source 2, 4, 5, 13, 20, 31). Modern average is around 190 lb-ft. Score 0.00.
-- **cylinder_count**: 6 cylinders (Source 2, 4, 17, 20, 31). Modern average is often 4 or 6. Score 0.00.
-- **engine_displacement**: 2.7-2.8L (Source 2, 4, 5, 13, 17, 20, 31). Modern average is around 2.0-3.0L. Score 0.00.
-- **accel_0_60_sec**: Around 8.1-10 seconds (Source 4, 5, 13, 14, 15, 21, 28, 31). Modern average is around 7.5 seconds. Score 0.00 (slightly slower than average).
-- **top_speed**: Around 124 mph (Source 2, 4, 5, 15, 31). Modern average is around 150 mph. Score 0.00 (below average).
-- **drive_type**: RWD (Source 2, 4, 17, 31, 35, 41). Score +1.00.
-- **transmission_type**: Available with 4-speed Automatic or Manual (Source 4, 5, 12, 13, 14, 17, 21, 23, 25, 28, 31, 35, 38, 40, 41). Automatic was common. Scoring guide rates Automatic as +1.00.
-- **offroad_ability**: Low ground clearance, RWD, not designed for offroad. Score +1.00 (poor offroad ability).
-- **braking_dist_ft**: Disc brakes (Source 13, 17, 35). ABS was optional later (Source 13, 23, 24). Braking technology is older. Likely longer stopping distances than modern cars. Score -0.50.
-- **size**: Length around 4640 mm (Source 2, 3, 4, 5, 12, 19, 20, 28, 31, 41), width around 1786 mm (Source 2, 3, 4, 5, 12, 19, 20, 28, 31, 41). Compared to modern Civic (~4600mm), it's similar in length but narrower. Score 0.00.
-- **wheelbase**: Around 2710 mm (Source 2, 12, 20, 22, 41). Modern Skoda Octavia (~2700mm). Score 0.00.
-- **body_style**: 2-Door Coupe (Source 4, 12, 15, 22, 31, 41). Score -1.00.
-- **seats**: 4 seats (Source 4, 12, 31, 41). Modern average is 5. Score -0.25.
-- **cargo_space**: Around 17.7 cu ft / 500 L (Source 17 - likely sedan, coupe might be less). Modern Civic (~15 cu ft), Subaru Outback (>35 cu ft). Score 0.00 (average for a sedan, maybe slightly above average for a coupe). Let's use 0.00.
-- **rear_space**: Coupe rear space is typically limited. Later models had improved rear legroom (Source 23). Likely less than a modern sedan/SUV. Score -0.50.
-- **ground_clearance_in**: Height around 1395 mm (Source 2, 3, 12, 19, 20, 41). This translates to a low ride height. Score -0.50.
-- **turn_radius_ft**: Around 11.0 m (Source 20), which is about 36.1 ft. Modern Camry (~36 ft). Score 0.00.
-- **mpg**: Around 14-19 mpg city/highway (Source 10), 17-24 mpg (Source 13), 17 mpg in town (Source 26), 16-18 mpg (Source 27), 15.7-27.7 US MPG (Source 31), 19.9-25.3 US MPG (Source 14). Average is well below modern cars (30 mpg). Score -0.75.
-- **co2_g_km**: High emissions due to lower MPG. Score -0.75.
-- **electric_range_mi**: Not electric. Score -1.00.
-- **charge_speed_kw**: Not electric. Score -1.00.
-- **style_sleek_vs_boxy**: Classic, elegant design. Not particularly sleek or boxy by modern standards. Score 0.00.
-- **style_aggression_rating**: Elegant, not aggressive (Source 13). Score -0.50.
-- **style_modernity_rating**: Classic design, clearly dated (Source 13). Score -1.00.
-- **handling_rating**: Good road manners for its time (Source 10, 13, 27). Agile for its size (Source 43). Score 0.25.
-- **ride_comfort_rating**: Known for comfortable ride (Source 13, 24). Score 0.50.
-- **cabin_noise_rating**: Decent for its era, but modern cars are quieter. Score 0.00.
-- **shift_smooth_rating**: Automatic transmission was good for its time (Source 23). Score 0.25.
-- **steering_feel_rating**: Power steering, precise but maybe less feel than modern sports cars (Source 27, 43). Score 0.00.
-- **adas_score**: None. Score -1.00.
-- **visibility_rating**: Good visibility for its era (thinner pillars). Score 0.25.
-- **headlight_rating**: Halogen (later models) or sealed beam (earlier). Poor compared to modern LEDs. Score -1.00.
-- **security_rating**: Basic security for its era. Score -1.00.
-- **screen_in**: None. Score -1.00.
-- **infotainment_ux_rating**: None. Score -1.00.
-- **smartphone_connect_rating**: None. Score -1.00.
-- **audio_rating**: Basic radio. Score -1.00.
-- **usb_ports**: None. Score -1.00.
-- **comfort_feature_score**: Basic features (power windows, optional AC/sunroof) (Source 13, 37, 43). Score -0.75.
-- **convenience_feature_score**: Basic features (no sensors, cameras, etc.). Vacuum central locking can be problematic (Source 37). Score -1.00.
-- **brand_prestige_rating**: Mercedes-Benz is high prestige. Score +1.00.
-- **model_prestige_rating**: Desirable classic coupe, but not the top-tier Mercedes models like the S-Class or SL (Source 8). Score 0.25.
-- **trim_prestige_rating**: 280CE was a higher engine option for the coupe (Source 23). Not base, not AMG. Score 0.00.
-- **interior_luxury_rating**: High quality materials for its time (wood, leather/velour options) (Source 13, 37). Good compared to average modern car. Score 0.50.
-- **interior_tech_focus_rating**: Minimal tech. Score -1.00.
-
-Refining scores based on benchmarks and search results:
-- price_usd: Average classic price is much lower than new car average. +1.00 seems appropriate.
-- total_cost_estimate_5yr_usd: High potential maintenance/restoration costs offset low depreciation. 0.00 seems fair.
-- insurance_usd_yr: Classic insurance is often cheaper. +0.50.
-- maint_usd_yr: Older cars cost more to maintain. -0.50.
-- repair_risk_score: Reliable for its era, but age is a factor. 0.00.
-- hp: Slightly below modern average. 0.00.
-- torque: Slightly below modern average. 0.00.
-- accel_0_60_sec: Slower than modern average. 0.00.
-- top_speed: Significantly below modern average. -0.25.
-- braking_dist_ft: Older tech, likely longer distance. -0.50.
-- rear_space: Coupe rear space is limited. -0.50.
-- ground_clearance_in: Standard sedan/coupe, lower than crossovers. -0.50.
-- mpg: Significantly lower than modern average. -0.75.
-- co2_g_km: Higher emissions. -0.75.
-- adas_score: None. -1.00.
-- headlight_rating: Older tech. -1.00.
-- security_rating: Basic. -1.00.
-- screen_in: None. -1.00.
-- infotainment_ux_rating: None. -1.00.
-- smartphone_connect_rating: None. -1.00.
-- audio_rating: Basic. -1.00.
-- usb_ports: None. -1.00.
-- comfort_feature_score: Basic features. -0.75.
-- convenience_feature_score: Basic features. -1.00.
-- style_modernity_rating: Dated design. -1.00.
-- interior_tech_focus_rating: Minimal tech. -1.00.
-
-Other scores seem reasonable based on initial assessment and search results confirming specs/reputation.```json
+```json
 {
-  "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.50,
-  "maint_usd_yr": -0.50,
-  "repair_risk_score": 0.00,
+  "price_usd": -0.40,
+  "total_cost_estimate_5yr_usd": -0.20,
+  "insurance_usd_yr": -0.20,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": -0.20,
   "hp": 0.00,
   "torque": 0.00,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
   "accel_0_60_sec": 0.00,
-  "top_speed": -0.25,
+  "top_speed": 0.00,
   "drive_type": 1.00,
   "transmission_type": 1.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": -0.50,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.00,
   "size": 0.00,
   "wheelbase": 0.00,
   "body_style": -1.00,
-  "seats": -0.25,
+  "seats": 0.00,
   "cargo_space": 0.00,
-  "rear_space": -0.50,
-  "ground_clearance_in": -0.50,
+  "rear_space": -0.20,
+  "ground_clearance_in": -1.00,
   "turn_radius_ft": 0.00,
-  "mpg": -0.75,
-  "co2_g_km": -0.75,
+  "mpg": 0.00,
+  "co2_g_km": 0.00,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": -0.50,
-  "style_modernity_rating": -1.00,
-  "handling_rating": 0.25,
-  "ride_comfort_rating": 0.50,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": -0.20,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.00,
   "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": 0.25,
+  "shift_smooth_rating": 0.00,
   "steering_feel_rating": 0.00,
   "adas_score": -1.00,
-  "visibility_rating": 0.25,
-  "headlight_rating": -1.00,
-  "security_rating": -1.00,
+  "visibility_rating": -0.20,
+  "headlight_rating": -0.20,
+  "security_rating": 0.00,
   "screen_in": -1.00,
   "infotainment_ux_rating": -1.00,
   "smartphone_connect_rating": -1.00,
   "audio_rating": -1.00,
   "usb_ports": -1.00,
-  "comfort_feature_score": -0.75,
-  "convenience_feature_score": -1.00,
+  "comfort_feature_score": -0.20,
+  "convenience_feature_score": -0.20,
   "brand_prestige_rating": 1.00,
-  "model_prestige_rating": 0.25,
+  "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.50,
+  "interior_luxury_rating": 0.00,
   "interior_tech_focus_rating": -1.00
 }
 ```

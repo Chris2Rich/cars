@@ -1,0 +1,115 @@
+Based on the search results, "T" is not a current trim level for the 2024 Audi A4 Avant in the UK. The current trims are Sport Edition, S Line, and Black Edition. Some engine designations include "TFSI" which indicates a petrol engine, but this is not a trim name.
+
+Therefore, I will evaluate based on the standard 2024 Audi A4 Avant, using data points found across the search results for the current model year, primarily focusing on the Sport Edition as the new entry point.
+
+-   **price_usd**: RRP for A4 Avant Sport Edition starts around £36,640 - £40,845. Taking an average around £38,000-£40,000, which is approximately $48,000-$50,000 USD. This is close to the market average of $52,000. Score: 0.00.
+-   **total_cost_estimate_5yr_usd**: Higher purchase price than average, and Audi maintenance is fairly expensive. Reliability is strong. Estimate slightly above average cost of ownership. Score: -0.10.
+-   **insurance_usd_yr**: Insurance group data not found directly for Sport Edition, but A4 Avant groups range from 19-44. As an entry-level premium trim, it's likely around the average group. Score: 0.00.
+-   **maint_usd_yr**: Audi's servicing and maintenance costs are fairly expensive. Score: -0.10.
+-   **repair_risk_score**: Reliability of the B9 generation (2015-2024) is rated as very strong, placing third in a 2023 reliability survey. Score: +0.10.
+-   **hp**: Engines available include 35 TFSI (150PS/148 hp), 40 TFSI (190PS/190 hp or 204PS/201 hp depending on source/year), 35 TDI (163PS), and 40 TDI (204PS). Average is 200 hp. Score: 0.00.
+-   **torque**: 35 TFSI (270 Nm/199 lb-ft), 40 TFSI (320 Nm/236 lb-ft), 35 TDI (370 Nm/273 lb-ft), 40 TDI (400 Nm/295 lb-ft). Average is 190 lb-ft. Score: +0.10.
+-   **cylinder_count**: All engines are 2.0-litre four-cylinder units. Average is 6. Score: -0.10.
+-   **engine_displacement**: 2.0L. Average is 3.0L. Score: -0.10.
+-   **accel_0_60_sec**: 35 TFSI is ~9.1-9.2s, 40 TFSI is ~7.3s, 40 TDI is ~7.1s. Average is 7.5 sec. Score: 0.00.
+-   **top_speed**: 35 TFSI is 130 mph, 40 TFSI is 146 mph, 40 TDI is 147 mph. Average is 150 mph. Score: 0.00.
+-   **drive_type**: Available in FWD and Quattro AWD. Score: 0.00.
+-   **transmission_type**: 7-speed S tronic (dual-clutch automatic) is standard. Score: 0.00.
+-   **driving_track_vs_gt**: Refined and comfortable, designed for daily driving and long journeys. Leans towards Grand Touring. Score: 0.10.
+-   **offroad_ability**: Not designed for off-road, low ground clearance. Score: 1.00.
+-   **braking_dist_ft**: No specific data found. Audi generally has good braking performance. Default to average. Score: 0.00.
+-   **size**: Length is 4762mm (187.5 in). Average is 4600mm. Score: +0.10.
+-   **wheelbase**: 2818mm (sedan) / 2820mm (Avant). Average is 2700mm. Score: +0.10.
+-   **body_style**: 5-door station wagon (Avant). Average is 4-door sedan/coupe. Score: +0.10.
+-   **seats**: 5 seats. Average is 5 seats. Score: 0.00.
+-   **cargo_space**: 495 litres (17.5 cu ft), expands to 1,495 litres. Average is 15 cu ft. Score: +0.10.
+-   **rear_space**: Generous space, can fit a six-foot passenger behind an equally lanky driver and more headroom than the sedan. Score: +0.10.
+-   **ground_clearance_in**: Height is 1435mm (56.5 inches). Ground clearance is not explicitly stated for the Sport Edition, but lower trims typically have standard suspension. Estimate around 6-6.5 inches. Average is 6.5". Score: 0.00.
+-   **turn_radius_ft**: Turning circle is 11.6 m (38.1 ft). Average is 36 ft. Score: -0.10.
+-   **mpg**: 35 TFSI is ~38.2-44.8 mpg UK (31.8-37.3 mpg US), 40 TFSI is ~43.5-44.8 mpg UK (36.2-37.3 mpg US), 35 TDI is ~49.6-57.6 mpg UK (41.3-48.0 mpg US), 40 TDI is ~44.8-47.9 mpg UK (37.3-39.9 mpg US). Average is 30 mpg. Score: +0.10.
+-   **co2_g_km**: 35 TFSI is 144-167 g/km, 40 TFSI is 147-160 g/km, 35 TDI is 128-149 g/km, 40 TDI is 154-164 g/km. Average is 175 g/km. Score: +0.10.
+-   **electrification**: Mild-hybrid technology on most engines. Score: -0.10.
+-   **electric_range_mi**: Not an EV or PHEV. Score: -1.00.
+-   **charge_speed_kw**: Not an EV or PHEV. Score: -1.00.
+-   **handling_rating**: Smooth and refined, well-balanced handling. Competent and sure-footed, precise steering, but not as sporty or fun as rivals like the BMW 3 Series. Score: 0.00.
+-   **ride_comfort_rating**: Comfortable ride, refined. Can get firmer on rough roads. Score: 0.10.
+-   **cabin_noise_rating**: Very little wind and road noise, exceptionally refined, hushed cabin. Score: +0.10.
+-   **shift_smooth_rating**: S tronic is slick and smooth-shifting. Score: +0.10.
+-   **steering_feel_rating**: Precise steering but lacks feedback, light at lower speeds. Score: -0.10.
+-   **adas_score**: Standard features include AEB (pre-sense city), collision avoidance assist, turn assist, lane departure warning, rear-view camera, traffic sign recognition, driver attention assist, front and rear parking sensors. Adaptive cruise control with stop/go, traffic jam assist, blind-spot monitoring, rear cross-traffic alert, safe exit warning are standard on some models/markets but optional on UK trims. Score: 0.00.
+-   **visibility_rating**: Good visibility. Score: 0.10.
+-   **headlight_rating**: LED headlights and rear lights with LED daytime running lights standard. High beam assist standard on Sport Edition. Score: 0.10.
+-   **security_rating**: Anti theft alarm, central locking, keyless go standard. Score: 0.00.
+-   **screen_in**: 10.1-inch touchscreen infotainment system standard. Average is 8". Score: +0.10.
+-   **infotainment_ux_rating**: MMI Navigation Plus with touchscreen is easy to use, high resolution, quick response. Score: +0.10.
+-   **smartphone_connect_rating**: Apple CarPlay and Android Auto standard. Wireless Android Auto and Apple CarPlay mentioned for some models/markets, but typically wired standard in UK. Score: 0.00.
+-   **audio_rating**: 8 passive loudspeakers standard. B&O premium system available. Score: 0.00.
+-   **usb_ports**: 2 USB charging ports in the front. Some sources mention 2 rear USB ports as well. Score: 0.00.
+-   **comfort_feature_score**: Heated front twin-leather sport seats with 4-way electric lumbar support standard. Deluxe 3-zone electronic climate control standard. Manual seat adjustment standard on Sport Edition. Score: 0.00.
+-   **convenience_feature_score**: Power tailgate, front/rear parking sensors, rear camera, keyless go, cruise control standard. Parking assist is standard on S line and above, not explicitly stated for Sport Edition. Score: 0.00.
+-   **brand_prestige_rating**: Audi is a well-established premium/luxury brand. Score: 0.10.
+-   **model_prestige_rating**: A4 is a core model in the range, not entry-level or halo. Score: 0.00.
+-   **trim_prestige_rating**: Sport Edition is the entry-level trim for the 2024 model year. Score: +0.10.
+-   **interior_luxury_rating**: High-quality materials, elegant design, twin leather upholstery on Sport Edition. Score: 0.10.
+-   **interior_tech_focus_rating**: Audi Virtual Cockpit Plus (12.3-inch digital display) standard, large screen, MMI Touch. Score: 0.10.
+-   **style_sleek_vs_boxy**: Elongated, practical proportions of an Avant. Sport front and rear bumpers and side skirts. Balanced, not particularly sleek or boxy. Score: 0.00.
+-   **style_aggression_rating**: Sport exterior styling elements add some aggression compared to a base model. Score: 0.00.
+-   **style_modernity_rating**: Modern design, but the current generation (launched 2015, updated 2019) is showing its age slightly compared to newer rivals. Score: 0.00.
+
+```json
+{
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": -0.10,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.10,
+  "repair_risk_score": 0.10,
+  "hp": 0.00,
+  "torque": 0.10,
+  "cylinder_count": -0.10,
+  "engine_displacement": -0.10,
+  "accel_0_60_sec": 0.00,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.10,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.10,
+  "wheelbase": 0.10,
+  "body_style": 0.10,
+  "seats": 0.00,
+  "cargo_space": 0.10,
+  "rear_space": 0.10,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.10,
+  "co2_g_km": 0.10,
+  "electrification": -0.10,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.10,
+  "cabin_noise_rating": 0.10,
+  "shift_smooth_rating": 0.10,
+  "steering_feel_rating": -0.10,
+  "adas_score": 0.00,
+  "visibility_rating": 0.10,
+  "headlight_rating": 0.10,
+  "security_rating": 0.00,
+  "screen_in": 0.10,
+  "infotainment_ux_rating": 0.10,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.10,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.10,
+  "interior_luxury_rating": 0.10,
+  "interior_tech_focus_rating": 0.10
+}
+```

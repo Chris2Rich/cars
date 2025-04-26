@@ -1,55 +1,113 @@
-```json
+Based on the search results, here's the data and scoring:
+
+- **price_usd**: 2025 Audi S4 starts at $55,995 USD. This is very close to the market average of $52,000. Score: 0.05.
+- **total_cost_estimate_5yr_usd**: German luxury/performance cars typically have higher ownership costs. No specific 5-year cost found, but based on segment, estimate higher than average. Score: -0.50.
+- **insurance_usd_yr**: No specific USD figure, but performance cars have higher insurance. Score: -0.30.
+- **maint_usd_yr**: No specific figure, but German luxury maintenance is above average. Score: -0.10.
+- **repair_risk_score**: Audi reliability is generally average to slightly below average compared to the overall market, but good within the luxury segment. Score: -0.10.
+- **hp**: 349 hp. Well above the 200 hp average. Score: 0.50.
+- **torque**: 369 lb-ft. Well above the 190 lb-ft average. Score: 0.50.
+- **cylinder_count**: V6 (6 cylinders). Average for performance cars, above average overall. Score: 0.00.
+- **engine_displacement**: 3.0L (2995 cm³). Average for performance cars, above average overall. Score: 0.00.
+- **accel_0_60_sec**: 4.4 seconds. Significantly faster than the 7.5 sec average. Score: 0.60.
+- **top_speed**: 155 mph (electronically limited). Above the 150 mph average. Score: 0.10.
+- **drive_type**: Quattro AWD. Average. Score: 0.00.
+- **transmission_type**: 8-speed Tiptronic automatic. Automatic transmission is +1.00. Score: 1.00.
+- **driving_track_vs_gt**: Described as a comfortable sports sedan, more GT focused. Score: 0.50.
+- **offroad_ability**: Low ground clearance, not designed for off-road. Score: 1.00.
+- **braking_dist_ft**: No specific figure found, but reviews mention good brakes. Estimate better than average. Score: 0.50.
+- **size**: Length 187.5 inches (4762.5 mm). Mid-size, above compact, below large. Score: 0.30.
+- **wheelbase**: 111.0 inches (2819.4 mm). Average for its size class. Score: 0.25.
+- **body_style**: 4-door sedan. Score: 0.00.
+- **seats**: 5 seats. Score: 0.00.
+- **cargo_space**: 12 cubic feet. Below average for practicality. Score: -0.30.
+- **rear_space**: Rear legroom 35.7 inches. Average. Score: 0.00.
+- **ground_clearance_in**: 4.5 inches. Low. Score: -0.60.
+- **turn_radius_ft**: No specific figure found, but likely average for its size. Score: 0.00.
+- **mpg**: 24 combined MPG. Below the 30 mpg average. Score: -0.30.
+- **co2_g_km**: 7.3 tons/year (US figure). Converting roughly, this is high. UK spec is 179-186 g/km, which is above average (175 g/km). Score: -0.10.
+- **electrification**: Petrol engine. Score: -1.00.
+- **electric_range_mi**: N/A. Score: -1.00.
+- **charge_speed_kw**: N/A. Score: -1.00.
+- **style_sleek_vs_boxy**: Sleek sedan design. Score: 0.20.
+- **style_aggression_rating**: Sporty but understated. Score: 0.30.
+- **style_modernity_rating**: Modern but not avant-garde. Score: 0.00.
+- **handling_rating**: Agile and capable, but less engaging than some rivals. Score: 0.20.
+- **ride_comfort_rating**: Comfortable for a sports sedan. Score: 0.30.
+- **cabin_noise_rating**: Quiet interior. Score: 0.30.
+- **shift_smooth_rating**: Snappy-shifting 8-speed automatic. Smooth. Score: 0.30.
+- **steering_feel_rating**: Can be numb. Score: -0.20.
+- **adas_score**: Good suite of available ADAS features, including adaptive cruise control, lane keeping assist, parking sensors, surround view camera. Score: 0.40.
+- **visibility_rating**: Good visibility for a sedan. Score: 0.00.
+- **headlight_rating**: Standard LED headlights, optional Matrix-design LED headlights. Good to excellent. Score: 0.80.
+- **security_rating**: Standard security features like engine immobilizer. Average. Score: 0.00.
+- **screen_in**: 10.1-inch center touchscreen. Above average (8 inches). Score: 0.20.
+- **infotainment_ux_rating**: MMI system is user-friendly, though rotary controller removed. Good UX. Score: 0.40.
+- **smartphone_connect_rating**: Standard Apple CarPlay and Android Auto (wireless CarPlay available). Good connectivity. Score: 0.40.
+- **audio_rating**: Standard Audi sound system (10 speakers), optional Bang & Olufsen with 3D sound (19 speakers). Optional system is excellent. Score based on availability of premium option. Score: 0.80.
+- **usb_ports**: USB ports in front and rear. Average to good. Score: 0.30.
+- **comfort_feature_score**: Heated front S sport seats standard, power lumbar, massage function, three-zone climate control, heated rear seats available. Good comfort features. Score: 0.60.
+- **convenience_feature_score**: Keyless entry/start, power trunk lid, rear view camera, parking sensors, available surround-view camera, head-up display, automated parking system. Good convenience features. Score: 0.60.
+- **brand_prestige_rating**: Audi is a well-regarded luxury brand. Score: 0.60.
+- **model_prestige_rating**: S4 is a performance variant above the base A4, but below RS4. Score: -0.30.
+- **trim_prestige_rating**: TFSI V6 is the standard engine for the S4, not a specific high-prestige trim. Score: 0.00.
+- **interior_luxury_rating**: High quality materials, well-built, luxurious feel. Score: 0.60.
+- **interior_tech_focus_rating**: Good tech integration with digital cockpit and large screen, but retains physical controls. Balanced tech focus. Score: 0.40.
+
+Final check of scores against benchmarks and consistency. Looks reasonable.```json
 {
-  "price_usd": 0.05,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": -0.20,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": 0.60,
-  "torque": 0.60,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.70,
-  "top_speed": 0.00,
-  "drive_type": 0.00,
-  "transmission_type": 1.00,
-  "offroad_ability": -0.70,
-  "braking_dist_ft": -0.30,
-  "size": 0.10,
-  "wheelbase": 0.10,
-  "body_style": 0.00,
-  "seats": 0.00,
-  "cargo_space": -0.20,
-  "rear_space": 0.00,
-  "ground_clearance_in": -0.50,
-  "turn_radius_ft": 0.00,
-  "mpg": -0.20,
-  "co2_g_km": -0.10,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": -0.30,
-  "style_modernity_rating": 0.00,
-  "handling_rating": 0.50,
-  "ride_comfort_rating": 0.40,
-  "cabin_noise_rating": 0.50,
-  "shift_smooth_rating": 0.50,
-  "steering_feel_rating": 0.20,
-  "adas_score": 0.40,
-  "visibility_rating": 0.30,
-  "headlight_rating": 0.50,
-  "security_rating": 0.10,
-  "screen_in": 0.30,
-  "infotainment_ux_rating": 0.20,
-  "smartphone_connect_rating": 0.30,
-  "audio_rating": 0.40,
-  "usb_ports": 0.20,
-  "comfort_feature_score": 0.60,
-  "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.70,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.60,
-  "interior_tech_focus_rating": 0.40
+ "price_usd": 0.05,
+ "total_cost_estimate_5yr_usd": -0.50,
+ "insurance_usd_yr": -0.30,
+ "maint_usd_yr": -0.10,
+ "repair_risk_score": -0.10,
+ "hp": 0.50,
+ "torque": 0.50,
+ "cylinder_count": 0.00,
+ "engine_displacement": 0.00,
+ "accel_0_60_sec": 0.60,
+ "top_speed": 0.10,
+ "drive_type": 0.00,
+ "transmission_type": 1.00,
+ "driving_track_vs_gt": 0.50,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.50,
+ "size": 0.30,
+ "wheelbase": 0.25,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": -0.30,
+ "rear_space": 0.00,
+ "ground_clearance_in": -0.60,
+ "turn_radius_ft": 0.00,
+ "mpg": -0.30,
+ "co2_g_km": -0.10,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": 0.20,
+ "style_aggression_rating": 0.30,
+ "style_modernity_rating": 0.00,
+ "handling_rating": 0.20,
+ "ride_comfort_rating": 0.30,
+ "cabin_noise_rating": 0.30,
+ "shift_smooth_rating": 0.30,
+ "steering_feel_rating": -0.20,
+ "adas_score": 0.40,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.80,
+ "security_rating": 0.00,
+ "screen_in": 0.20,
+ "infotainment_ux_rating": 0.40,
+ "smartphone_connect_rating": 0.40,
+ "audio_rating": 0.80,
+ "usb_ports": 0.30,
+ "comfort_feature_score": 0.60,
+ "convenience_feature_score": 0.60,
+ "brand_prestige_rating": 0.60,
+ "model_prestige_rating": -0.30,
+ "trim_prestige_rating": 0.00,
+ "interior_luxury_rating": 0.60,
+ "interior_tech_focus_rating": 0.40
 }
 ```

@@ -1,55 +1,111 @@
-```json
+Based on the search results, here's the data and scoring:
+
+- **price_usd**: Search results show 2025 Q8 starting around $74,400 - $83,795 USD. UK prices for 2020 Vorsprung were £84,375. A Black Edition would be in this range, well above the $52,000 average. Score: -0.50.
+- **total_cost_estimate_5yr_usd**: High purchase price, likely above average maintenance and insurance. Will be significantly above the $40,000 average. Score: -0.50.
+- **insurance_usd_yr**: High-end luxury SUV. Search results mention high insurance group is likely. Score: -0.50.
+- **maint_usd_yr**: German luxury cars typically have higher maintenance costs. Score: -0.50.
+- **repair_risk_score**: Audi reliability is generally considered average. Score: 0.00.
+- **hp**: 3.0L V6 is 335-340 hp. This is well above the 200 hp average. Score: 0.50.
+- **torque**: 369-500 lb-ft (500 Nm). This is significantly above the 190 lb-ft average. Score: 0.50.
+- **cylinder_count**: 3.0L V6 engine. Score: 0.00.
+- **engine_displacement**: 2995 cc (3.0L). Score: 0.10 (slightly above average 3.0L).
+- **accel_0_60_sec**: 5.2-5.6 seconds. This is fast. Score: 0.50.
+- **top_speed**: 155 mph (electronically limited). Score: 0.00 (average for performance cars, but high for general market).
+- **drive_type**: Quattro all-wheel drive (AWD) is standard. Score: 0.00.
+- **transmission_type**: 8-speed Tiptronic automatic. This is a modern, smooth automatic. Score: 1.00.
+- **driving_track_vs_gt**: Reviews mention it's comfortable for long trips (GT) but also capable in corners. More GT focused than track. Score: 0.75.
+- **offroad_ability**: AWD and adjustable air suspension help, but it's not a dedicated offroader. Score: -0.25 (poor compared to true offroaders, average for an SUV).
+- **braking_dist_ft**: 170 ft from 70 mph. Converting 70 mph to 60 mph braking distance is difficult without specific data, but 170 ft from 70 mph is decent for a large SUV. Score: 0.00 (assuming average for its class).
+- **size**: Length around 4986-5012 mm (196.3-197.3 inches). This is a large SUV. Score: 0.50.
+- **wheelbase**: 2995 mm (117.9 inches). Long wheelbase. Score: 0.50.
+- **body_style**: 5-door SUV Coupe. Score: 0.00 (relative to sedan/coupe/van scale).
+- **seats**: 5 seats. Score: 0.00.
+- **cargo_space**: 605 litres (21.3 cu ft) behind rear seats, 1755 litres (61.9 cu ft) with seats folded. This is good for an SUV Coupe, but less than a traditional SUV like the Q7. Score: 0.50.
+- **rear_space**: Excellent legroom and ample headroom. Score: 0.75.
+- **ground_clearance_in**: Search didn't provide a specific number in inches. It has adaptive air suspension, which can adjust height, but it's not a high-clearance offroader. Default to average. Score: 0.00.
+- **turn_radius_ft**: Large car, but optional rear-wheel steering improves maneuverability. Score: 0.25 (better than expected for size with RWS).
+- **mpg**: EPA estimates 17 city / 23 highway / 19 combined. Real-world can be better. This is below the 30 mpg average. Score: -0.50.
+- **co2_g_km**: Around 175 g/km for the 50 TDI diesel, 300 g/km for 55 TFSI. Petrol is high. Score: -0.50.
+- **electrification**: Mild-hybrid (MHEV) system. Score: -0.50 (Petrol/Diesel).
+- **electric_range_mi**: N/A for petrol/diesel MHEV. Score: -1.00.
+- **charge_speed_kw**: N/A for petrol/diesel MHEV. Score: -1.00.
+- **style_sleek_vs_boxy**: Coupe-like roofline makes it sleek. Score: 0.75.
+- **style_aggression_rating**: Aggressive Audi styling, especially with Black Edition/Black Optic package. Score: 0.50.
+- **style_modernity_rating**: Modern Audi design language, updated lighting. Score: 0.75.
+- **handling_rating**: Good handling for its size, agile, minimal body roll. Score: 0.75.
+- **ride_comfort_rating**: Comfortable ride, especially with air suspension, handles bumps well, good for long trips. Score: 0.75.
+- **cabin_noise_rating**: Well-insulated, quiet cabin, low road and wind noise. Score: 0.75.
+- **shift_smooth_rating**: Generally smooth 8-speed automatic, though one review mentioned it can be clunky at times. Score: 0.75.
+- **steering_feel_rating**: Steering has light effort and linear feedback, precise, but lacking in feel. Score: -0.25.
+- **adas_score**: High level of standard and available ADAS features, including adaptive cruise control, lane keep assist, blind-spot monitoring, emergency braking, 360 camera, parking assist. Score: 0.75.
+- **visibility_rating**: Coupe-like roofline and thick pillars can limit visibility, but 360 camera helps. Score: -0.50.
+- **headlight_rating**: Excellent Matrix LED headlights, available Laser light. Score: 0.75.
+- **security_rating**: Standard security features expected for a luxury vehicle. Score: 0.25.
+- **screen_in**: Dual touchscreens (10.1" and 8.6") plus 12.3" Virtual Cockpit. Score: 0.50 (large screens, but not the single massive screen like Tesla).
+- **infotainment_ux_rating**: Dual touchscreen system with haptic feedback. Can be distracting but generally well-regarded. Score: 0.50.
+- **smartphone_connect_rating**: Standard Apple CarPlay and Android Auto, wireless charging available. Score: 0.75.
+- **audio_rating**: Bang & Olufsen audio systems available. Score: 0.75.
+- **usb_ports**: Multiple ports expected in a modern luxury car. Search didn't give an exact count, but likely more than 3. Score: 0.25.
+- **comfort_feature_score**: High level of comfort features available: heated/ventilated/massaging seats, 4-zone climate control, panoramic sunroof, ambient lighting. Score: 0.75.
+- **convenience_feature_score**: High level of convenience features: power tailgate, wireless charging, 360 cameras, parking assist, soft-close doors available. Score: 0.75.
+- **brand_prestige_rating**: Audi is a well-established premium/luxury brand. Score: 0.75.
+- **model_prestige_rating**: Q8 is the flagship SUV model (excluding RS Q8). Score: -0.75 (Top of brand/halo car).
+- **trim_prestige_rating**: Black Edition is a desirable trim, but not the top performance trim like RS Q8. Score: 0.25 (Good Trim).
+- **interior_luxury_rating**: High-quality materials, premium finish, leather options, well-aligned panels. Score: 0.75.
+- **interior_tech_focus_rating**: Very tech-focused interior with multiple screens (Virtual Cockpit, dual MMI touchscreens). Score: 0.75.```json
 {
-  "price_usd": -0.70,
-  "total_cost_estimate_5yr_usd": -0.80,
-  "insurance_usd_yr": -0.70,
+  "price_usd": -0.50,
+  "total_cost_estimate_5yr_usd": -0.50,
+  "insurance_usd_yr": -0.50,
   "maint_usd_yr": -0.50,
-  "repair_risk_score": 0.20,
-  "hp": 0.40,
-  "torque": 0.40,
-  "cylinder_count": 0.20,
-  "engine_displacement": 0.20,
-  "accel_0_60_sec": 0.60,
-  "top_speed": 0.10,
+  "repair_risk_score": 0.00,
+  "hp": 0.50,
+  "torque": 0.50,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.10,
+  "accel_0_60_sec": 0.50,
+  "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "offroad_ability": 0.40,
+  "driving_track_vs_gt": 0.75,
+  "offroad_ability": -0.25,
   "braking_dist_ft": 0.00,
-  "size": 0.70,
-  "wheelbase": 0.60,
-  "body_style": 0.50,
+  "size": 0.50,
+  "wheelbase": 0.50,
+  "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.40,
-  "rear_space": 0.80,
-  "ground_clearance_in": 0.30,
-  "turn_radius_ft": -0.30,
-  "mpg": -0.70,
-  "co2_g_km": -0.80,
+  "cargo_space": 0.50,
+  "rear_space": 0.75,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.25,
+  "mpg": -0.50,
+  "co2_g_km": -0.50,
+  "electrification": -0.50,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.70,
-  "style_aggression_rating": 0.60,
-  "style_modernity_rating": 0.70,
-  "handling_rating": 0.40,
-  "ride_comfort_rating": 0.90,
-  "cabin_noise_rating": 0.90,
-  "shift_smooth_rating": 0.80,
-  "steering_feel_rating": -0.40,
-  "adas_score": 0.90,
-  "visibility_rating": -0.20,
-  "headlight_rating": 0.80,
-  "security_rating": 0.00,
-  "screen_in": 0.80,
-  "infotainment_ux_rating": 0.20,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.60,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.90,
-  "convenience_feature_score": 0.90,
-  "brand_prestige_rating": 0.90,
-  "model_prestige_rating": -1.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.90,
-  "interior_tech_focus_rating": 0.90
+  "style_sleek_vs_boxy": 0.75,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.75,
+  "handling_rating": 0.75,
+  "ride_comfort_rating": 0.75,
+  "cabin_noise_rating": 0.75,
+  "shift_smooth_rating": 0.75,
+  "steering_feel_rating": -0.25,
+  "adas_score": 0.75,
+  "visibility_rating": -0.50,
+  "headlight_rating": 0.75,
+  "security_rating": 0.25,
+  "screen_in": 0.50,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.75,
+  "audio_rating": 0.75,
+  "usb_ports": 0.25,
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 0.75,
+  "model_prestige_rating": -0.75,
+  "trim_prestige_rating": 0.25,
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": 0.75
 }
 ```

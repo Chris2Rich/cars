@@ -1,55 +1,111 @@
-```json
+The 'SE' trim is mentioned in UK/Ireland contexts, often associated with the base or lower-mid range engine (45 TDI or 45 TFSI). In the US, the base trim is typically called 'Premium'. I will evaluate based on the characteristics of a base/lower-mid trim Q7, using the 45 TFSI engine specs where applicable, and standard features mentioned for the base Q7.
+
+*   **price\_usd**: The base 2024/2025 Audi Q7 (45 TFSI Premium) starts around $59,500 - $61,795. This is significantly above the market average of ~$52,000. Score: -0.50.
+*   **total\_cost\_estimate\_5yr\_usd**: No specific 5-year cost estimate found for the SE or base trim. Default to 0.00.
+*   **insurance\_usd\_yr**: UK insurance groups for Q7 SE are around 35. This is on the expensive side. Cannot convert reliably to USD average. Default to 0.00.
+*   **maint\_usd\_yr**: Audi maintenance is generally expensive. Default to 0.00.
+*   **repair\_risk\_score**: Audi reliability is average. Default to 0.00.
+*   **hp**: The 45 TFSI engine (common in base trims like SE/Premium) has 261 hp. Average is ~200 hp. Score: 0.30.
+*   **torque**: The 45 TFSI engine has 273 lb-ft. Average is ~190 lb-ft. Score: 0.40.
+*   **cylinder\_count**: 4-cylinder (45 TFSI). Average is 4-6. Score: 0.00.
+*   **engine\_displacement**: 2.0L (45 TFSI). Average is ~3.0L. Score: 0.00.
+*   **accel\_0\_60\_sec**: 45 TFSI is around 6.7 seconds. Average is ~7.5 seconds. Score: 0.40.
+*   **top\_speed**: 45 TFSI top speed is not explicitly stated in US specs, but other engines are around 140-155 mph. Default to 0.00.
+*   **drive\_type**: Quattro all-wheel drive is standard. Score: 0.00.
+*   **transmission\_type**: 8-speed automatic transmission is standard. Score: 1.00.
+*   **driving\_track\_vs\_gt**: The Q7 is described as comfortable and suited for families and long drives. Score: 1.00.
+*   **offroad\_ability**: Has AWD and adjustable air suspension (though standard on 55 TFSI Prestige, not necessarily base SE/Premium). Not a dedicated off-roader. Score: 0.00.
+*   **braking\_dist\_ft**: No specific braking distance found. Default to 0.00.
+*   **size**: Length is around 199.3-199.7 inches (5064-5072 mm). Larger than average (~4600mm). Score: 0.30.
+*   **wheelbase**: Around 117.9 inches (2995-3000 mm). Longer than average (~2700mm). Score: 0.30.
+*   **body\_style**: 4-door SUV/wagon. Score: 0.00.
+*   **seats**: 7 seats standard. Score: 1.00.
+*   **cargo\_space**: Up to 69.6 cu ft max. 14.2 cu ft behind 3rd row (from previous search). Score: 0.00.
+*   **rear\_space**: Rear legroom is 38.8 inches (from previous search). Third row is tight. Score: 0.30.
+*   **ground\_clearance\_in**: Higher ground clearance mentioned (up to 254mm or ~10 inches) with air suspension, but standard clearance not specified. Default to 0.00.
+*   **turn\_radius\_ft**: Turning circle is 12.5m (~41 ft). Slightly larger than average (~36 ft). Score: -0.10.
+*   **mpg**: 45 TFSI is EPA-estimated 20 city/26 highway/22 combined. Average is 30 mpg. Below average. Score: -0.50.
+*   **co2\_g\_km**: 55 TFSI is 229-251 g/km. 45 TFSI likely similar or slightly lower. Above average (175 g/km). Default to 0.00.
+*   **electrification**: Mild-hybrid system. PHEV option exists, but SE trim often comes with the mild-hybrid petrol/diesel. Score: 0.00.
+*   **electric\_range\_mi**: Not a primary EV. PHEV range is 80-84 km (~50-52 miles). Score: 0.00 (for PHEV option, but base is -1.00). Assuming the SE *can* be PHEV, but the base engine is mild-hybrid. Default to -1.00 for the standard SE.
+*   **charge\_speed\_kw**: Not applicable for mild-hybrid. Default to -1.00.
+*   **style\_sleek\_vs\_boxy**: Q7 style applies. Score: 0.00.
+*   **style\_aggression\_rating**: Base trim, less aggressive than S line. Score: 0.00.
+*   **style\_modernity\_rating**: Q7 modernity applies. Score: 0.00.
+*   **handling\_rating**: Q7 handling applies. Score: 0.30.
+*   **ride\_comfort\_rating**: Q7 ride comfort applies. Score: 0.80.
+*   **cabin\_noise\_rating**: Q7 cabin noise applies. Score: 0.80.
+*   **shift\_smooth\_rating**: Q7 transmission applies. Score: 0.80.
+*   **steering\_feel\_rating**: Q7 steering applies. Score: 0.50.
+*   **adas\_score**: Standard features include Audi pre sense front/rear, lane departure warning, rear cross traffic assist, side assist. Parking system plus, rear view camera standard. Good standard suite. Score: 0.50.
+*   **visibility\_rating**: Q7 visibility applies. Default: 0.00.
+*   **headlight\_rating**: Matrix-design LED headlights standard on select 45 models. Standard on UK S line and above. SE might have standard LEDs, not Matrix. Default to 0.00.
+*   **security\_rating**: No specific data. Default: 0.00.
+*   **screen\_in**: Standard dual touchscreens (10.1" + 8.6") and Virtual Cockpit (12.3"). Score: 0.80.
+*   **infotainment\_ux\_rating**: Q7 MMI system applies, can be cumbersome. Score: 0.30.
+*   **smartphone\_connect\_rating**: Wireless Apple CarPlay and Android Auto standard. Score: 1.00.
+*   **audio\_rating**: Standard Audi sound system. Not the premium B&O. Score: 0.30.
+*   **usb\_ports**: USB connection standard. No specific number found. Default: 0.00.
+*   **comfort\_feature\_score**: Heated front seats standard. 2-zone automatic climate control standard. Less likely to have ventilation/massage/heated rears standard compared to higher trims. Score: 0.50.
+*   **convenience\_feature\_score**: Power tailgate with hands-free release. Rear view camera, parking system plus standard. Less likely to have 360 camera, remote park, soft-close doors standard. Score: 0.50.
+*   **brand\_prestige\_rating**: Audi is a premium/luxury brand. Score: 0.80.
+*   **model\_prestige\_rating**: Q7 is a significant model, but not a halo car. Score: 0.00.
+*   **trim\_prestige\_rating**: SE is typically a base or lower-mid trim. Score: 1.00.
+*   **interior\_luxury\_rating**: Standard leather seating surfaces. Premium materials and build quality. Score: 0.70 (Slightly less luxurious than top trims).
+*   **interior\_tech\_focus\_rating**: Dual screens and Virtual Cockpit. Screen-forward design. Score: 0.80.```json
 {
   "price_usd": -0.50,
-  "total_cost_estimate_5yr_usd": -1.00,
-  "insurance_usd_yr": -0.80,
-  "maint_usd_yr": -0.50,
-  "repair_risk_score": -0.50,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
   "hp": 0.30,
-  "torque": 0.30,
-  "cylinder_count": 0.20,
+  "torque": 0.40,
+  "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.50,
-  "top_speed": -0.20,
+  "accel_0_60_sec": 0.40,
+  "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "offroad_ability": 0.30,
-  "braking_dist_ft": 0.20,
-  "size": 0.20,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 0.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.30,
   "wheelbase": 0.30,
   "body_style": 0.00,
   "seats": 1.00,
-  "cargo_space": 1.00,
-  "rear_space": 0.80,
-  "ground_clearance_in": 0.80,
-  "turn_radius_ft": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.30,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": -0.10,
   "mpg": -0.50,
-  "co2_g_km": -0.50,
+  "co2_g_km": 0.00,
+  "electrification": 0.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.20,
-  "style_modernity_rating": 0.30,
-  "handling_rating": 0.50,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.30,
   "ride_comfort_rating": 0.80,
   "cabin_noise_rating": 0.80,
   "shift_smooth_rating": 0.80,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.80,
-  "visibility_rating": 0.30,
-  "headlight_rating": 0.80,
-  "security_rating": 0.30,
-  "screen_in": 0.30,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.80,
-  "usb_ports": 0.30,
-  "comfort_feature_score": 0.80,
-  "convenience_feature_score": 0.80,
+  "steering_feel_rating": 0.50,
+  "adas_score": 0.50,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.30,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.30,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.50,
   "brand_prestige_rating": 0.80,
-  "model_prestige_rating": -0.50,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.80,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": 0.70,
   "interior_tech_focus_rating": 0.80
 }
 ```

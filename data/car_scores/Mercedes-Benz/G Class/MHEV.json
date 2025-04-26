@@ -1,0 +1,115 @@
+The user is asking for an evaluation of the most recent Mercedes-Benz G-Class with Mild Hybrid technology. Based on the search results, the 2025 Mercedes-Benz G 550 and AMG G 63 are the latest models featuring a 48-volt mild-hybrid system. I will evaluate the G 550 MHEV as the standard mild-hybrid offering.
+
+Here is the evaluation based on the search results for the 2025 Mercedes-Benz G 550 (W464 facelift) with mild-hybrid technology:
+
+*   **price_usd**: The 2025 Mercedes-Benz G 550 starts at an MSRP of around $148,250 to $149,400 USD, with tested prices reaching over $182,000. This is significantly above the market average for a new car ($52,000). -1.00.
+*   **total_cost_estimate_5yr_usd**: High purchase price, high fuel costs, high insurance, and luxury vehicle maintenance contribute to a high 5-year ownership cost. -1.00.
+*   **insurance_usd_yr**: The G-Class is in a very high insurance group (e.g., 48 or 50). -1.00.
+*   **maint_usd_yr**: Maintenance for a luxury Mercedes-Benz is expensive. Estimates for 5-year maintenance/repair are around $6,158, which is less than the industry average for luxury SUVs according to one source, but still high in absolute terms. I will rate this as above average cost. -0.50.
+*   **repair_risk_score**: It's a newer model with complex tech. Mercedes-Benz generally has average reliability, though some sources suggest a higher chance of major repair compared to segment average over 10 years. I will keep this at average for the overall market. 0.00.
+*   **hp**: The 3.0L inline-6 turbo engine produces 443 hp, with the mild-hybrid system adding up to 20 hp boost. Total effective power is high. 0.80.
+*   **torque**: The engine produces 413 lb-ft of torque, with the mild-hybrid system adding up to 148 lb-ft boost. Total effective torque is very high. 0.90.
+*   **cylinder_count**: Inline-6 (6 cylinders). Above average. 0.50.
+*   **engine_displacement**: 3.0L. Above average. 0.50.
+*   **accel_0_60_sec**: 5.0 - 5.3 seconds. Very fast. 0.90.
+*   **top_speed**: 130 mph (electronically limited). Below the market average (150 mph). -0.80.
+*   **drive_type**: 4MATIC (Permanent All-Wheel Drive). 0.00.
+*   **transmission_type**: 9G-TRONIC 9-speed automatic. 1.00.
+*   **driving_track_vs_gt**: Luxury SUV with significant off-road capability. Not a track car or a sleek GT. 0.00.
+*   **offroad_ability**: Excellent off-road capability with three differential locks, low-range, high ground clearance, and features like "Transparent Hood". -1.00 (inverted scale).
+*   **braking_dist_ft**: No specific data found for 2025. Assume average for a heavy SUV. 0.00.
+*   **size**: Length around 190.0 inches (4826mm), width around 76.0 inches (1930mm), height around 77.7 inches (1974mm). Larger than average. 0.50.
+*   **wheelbase**: 113.8 inches (2890-2891mm). Longer than average. 0.50.
+*   **body_style**: 5-door SUV/wagon. 0.00.
+*   **seats**: 5 seats. 0.00.
+*   **cargo_space**: 34.8 cu ft (seats up) to 68.6 - 70.3 cu ft (seats down) or 555-640 litres up to 1990-2010 litres. Excellent maximum space. 0.80.
+*   **rear_space**: Rear legroom around 39.5 inches (1003mm). Above average (35"). 0.80.
+*   **ground_clearance_in**: 9.5 inches (241mm). High. 0.80.
+*   **turn_radius_ft**: 44.6 ft (13.6m) wall-to-wall or 22.3 ft (6.8m) curb-to-curb. The wall-to-wall figure is large. -0.80.
+*   **mpg**: EPA estimated 18 MPG combined (17 city / 19 highway). Very inefficient. -1.00.
+*   **co2_g_km**: High emissions for a petrol engine. -1.00.
+*   **electrification**: Mild Hybrid Electric Vehicle (MHEV). 0.00.
+*   **electric_range_mi**: 0 (Mild hybrid doesn't provide electric-only range). -1.00.
+*   **charge_speed_kw**: 0 (Mild hybrid doesn't plug in). -1.00.
+*   **style_sleek_vs_boxy**: Boxy. -1.00.
+*   **style_aggression_rating**: Imposing, but not overtly aggressive like AMG. 0.50.
+*   **style_modernity_rating**: Classic shape with modern details. 0.50.
+*   **handling_rating**: Improved over previous gen due to independent front suspension and adaptive dampers, but still a tall, heavy SUV that doesn't handle enthusiastically in turns. 0.00.
+*   **ride_comfort_rating**: Ride quality is quite good, handles bumps well thanks to adaptive dampers. 0.70.
+*   **cabin_noise_rating**: Hushed ride, impressive given the shape, wind and tire noise slightly higher than average but not intrusive. 0.70.
+*   **shift_smooth_rating**: 9G-TRONIC is generally smooth, though some minor clunkiness noted in specific situations. 0.70.
+*   **steering_feel_rating**: Electric power-assist steering. Improved over old generation. 0.00.
+*   **adas_score**: Comprehensive modern suite standard, including Active Distance Assist DISTRONIC (adaptive cruise control), Blind Spot Assist, Lane Keeping Assist, Active Steering Assist, Active Emergency Stop Assist, Parking Assist, 360 camera with "Transparent Hood". 0.80.
+*   **visibility_rating**: Great visibility due to boxy shape and upright position. 0.70.
+*   **headlight_rating**: Programmable Projector Beam LED Low/High Beam Auto-Leveling Directionally Adaptive Auto High-Beam Daytime Running Lights. Modern and effective. 0.80.
+*   **security_rating**: High-end luxury vehicle with standard security features like engine immobilizer, security system. 0.80.
+*   **screen_in**: Dual 12.3-inch displays standard. Very large. 0.90.
+*   **infotainment_ux_rating**: Latest MBUX system, intuitive controls, natural voice commands, Augmented Reality Navigation. 0.70.
+*   **smartphone_connect_rating**: Wireless Apple CarPlay/Android Auto standard, wireless phone charging. 0.80.
+*   **audio_rating**: Burmester 3D Surround Sound system standard or available. 0.90.
+*   **usb_ports**: Multiple 12V DC power outlets and 120V AC power outlet mentioned. Assume multiple USB ports are also present in a modern luxury vehicle. 0.50.
+*   **comfort_feature_score**: High level of luxury features standard and optional (heated/ventilated/massaging front seats, heated rear seats, heated steering wheel, 3-zone climate control, ambient lighting). 0.90.
+*   **convenience_feature_score**: High level of convenience features (Keyless Entry, Remote Start, power liftgate, parking assist, 360 camera, "Transparent Hood", climate-controlled cup holders, wireless charging). 0.90.
+*   **brand_prestige_rating**: Mercedes-Benz. 0.90.
+*   **model_prestige_rating**: G-Class (Halo model). -1.00.
+*   **trim_prestige_rating**: G550 (Standard engine trim for the W464 facelift, below AMG G63). 0.00.
+*   **interior_luxury_rating**: Very high quality materials, Nappa leather, wood/metal trim, intricate stitching. 0.90.
+*   **interior_tech_focus_rating**: High tech focus with dual large screens, MBUX, advanced ADAS, and off-road tech displays. 0.80.
+
+```json
+{
+ "price_usd": -1.00,
+ "total_cost_estimate_5yr_usd": -1.00,
+ "insurance_usd_yr": -1.00,
+ "maint_usd_yr": -0.50,
+ "repair_risk_score": 0.00,
+ "hp": 0.80,
+ "torque": 0.90,
+ "cylinder_count": 0.50,
+ "engine_displacement": 0.50,
+ "accel_0_60_sec": 0.90,
+ "top_speed": -0.80,
+ "drive_type": 0.00,
+ "transmission_type": 1.00,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": -1.00,
+ "braking_dist_ft": 0.00,
+ "size": 0.50,
+ "wheelbase": 0.50,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": 0.80,
+ "rear_space": 0.80,
+ "ground_clearance_in": 0.80,
+ "turn_radius_ft": -0.80,
+ "mpg": -1.00,
+ "co2_g_km": -1.00,
+ "electrification": 0.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": -1.00,
+ "style_aggression_rating": 0.50,
+ "style_modernity_rating": 0.50,
+ "handling_rating": 0.00,
+ "ride_comfort_rating": 0.70,
+ "cabin_noise_rating": 0.70,
+ "shift_smooth_rating": 0.70,
+ "steering_feel_rating": 0.00,
+ "adas_score": 0.80,
+ "visibility_rating": 0.70,
+ "headlight_rating": 0.80,
+ "security_rating": 0.80,
+ "screen_in": 0.90,
+ "infotainment_ux_rating": 0.70,
+ "smartphone_connect_rating": 0.80,
+ "audio_rating": 0.90,
+ "usb_ports": 0.50,
+ "comfort_feature_score": 0.90,
+ "convenience_feature_score": 0.90,
+ "brand_prestige_rating": 0.90,
+ "model_prestige_rating": -1.00,
+ "trim_prestige_rating": 0.00,
+ "interior_luxury_rating": 0.90,
+ "interior_tech_focus_rating": 0.80
+}
+```

@@ -1,0 +1,111 @@
+The most recent model year the Audi A1 was available with a TDI engine was 2018, as part of the first generation (8X). The second generation (GB, from 2018) is only offered with petrol engines. I will evaluate the 2018 Audi A1 1.6 TDI, as it was a common diesel option.
+
+- **price_usd**: A new 2018 Audi A1 1.6 TDI would have been priced in a similar range to the 1.0/1.4 TFSI models, likely starting around £16,000 - £18,000 depending on trim. Converting £17,000 to USD (~$21,600) and comparing to the current market average new car price ($52,000), this is significantly lower. Score: 0.70.
+- **total_cost_estimate_5yr_usd**: Reliability for the 8X generation is rated as "Good" to "Very good". However, the 1.6 TDI engine is noted for potential issues like turbocharger failures, DPF blockages, EGR valve malfunctions, and fuel injector problems, particularly with age and mileage. Clutch and transmission issues are also reported. Maintenance and repair costs for Audi can be higher than non-premium rivals. Insurance is average. Depreciation from new would be substantial over 5 years from 2018. Considering the potential for specific diesel engine issues, the total cost might be slightly higher than average for a used premium car. Score: -0.10.
+- **insurance_usd_yr**: Insurance groups for the 2018 A1 1.6 TDI are typically around group 14 or 15. This is around the average for the UK market (1-50 scale). Score: 0.00.
+- **maint_usd_yr**: Maintenance costs for Audi are generally higher than average for a small car. Specific issues with the TDI engine components can also add to costs. Score: -0.30.
+- **repair_risk_score**: The A1 8X generation has a generally good reliability rating, but the 1.6 TDI engine has known common problems. This makes it less reliable than the best, but better than the worst. Score: 0.50.
+- **hp**: The 2018 A1 1.6 TDI produced 116 PS (114 hp). This is well below the current market average of 200 hp. Score: -0.50.
+- **torque**: The 2018 A1 1.6 TDI produced 250 Nm (184 lb-ft). This is close to the current market average of 190 lb-ft. Score: -0.10.
+- **cylinder_count**: The 1.6 TDI engine is a 4-cylinder. This is average. Score: 0.00.
+- **engine_displacement**: The 1.6 TDI engine has a displacement of 1598 cm³ (1.6L). This is below the average (3.0L). Score: -0.70.
+- **accel_0_60_sec**: The 2018 A1 1.6 TDI S-Tronic is estimated to accelerate from 0-60 mph in 9 seconds. This is slower than the market average of 7.5s. Score: -0.30.
+- **top_speed**: The 2018 A1 1.6 TDI S-Tronic has a top speed of around 124 mph. This is below the market average of 150 mph. Score: -0.30.
+- **drive_type**: Front-wheel drive (FWD). Score: -1.00.
+- **transmission_type**: Available with manual or S-Tronic (dual-clutch automatic). Dual-clutch is average. Score: 0.00.
+- **driving_track_vs_gt**: Daily driver/city car, capable on motorways. Score: 0.00.
+- **offroad_ability**: Low ground clearance, FWD. Score: 1.00.
+- **braking_dist_ft**: No specific data found. Assume average for its class/era. Score: 0.00.
+- **size**: Length around 3973 mm (156.4 in). This is significantly smaller than the market average (~4600mm). Score: -0.70.
+- **wheelbase**: Around 2469 mm (97.2 in). This is smaller than the market average (~2700mm). Score: -0.50.
+- **body_style**: Available as 3-door or 5-door (Sportback) hatchback. Hatchback is a common body style. Score: 0.00.
+- **seats**: 4 seats (3-door) or 4/5 seats (Sportback). Average. Score: 0.00.
+- **cargo_space**: 270 litres (9.5 cu ft). This is well below the average of 15 cu ft. Score: -0.30.
+- **rear_space**: Limited rear legroom and headroom. Below average. Score: -0.30.
+- **ground_clearance_in**: Around 121 mm (4.8 inches) (based on similar models/era). This is low compared to the average (~6.5 inches). Score: -0.30.
+- **turn_radius_ft**: Around 10.6 meters (34.8 ft) (based on similar models/era). This is slightly better than the average (~36 ft). Score: 0.10.
+- **mpg**: 1.6 TDI official figures were very high (e.g., 72.43 UK mpg / 60.31 US mpg). Real-world figures are lower, reported around 50-55 mpg UK (41-46 mpg US). Using a real-world average around 43 mpg US, this is significantly above the 30 mpg average. Score: 0.70.
+- **co2_g_km**: 1.6 TDI figures were low (e.g., 103 g/km). This is well below the market average of 175 g/km. Score: 0.70.
+- **electrification**: Diesel only. Score: -1.00.
+- **electric_range_mi**: Not applicable. Score: -1.00.
+- **charge_speed_kw**: Not applicable. Score: -1.00.
+- **handling_rating**: Agile, drives like it's on rails, but steering lacks feel. Score: 0.00.
+- **ride_comfort_rating**: Firm ride. Score: 0.00.
+- **cabin_noise_rating**: Quiet at a cruise. Above average. Score: 0.30.
+- **shift_smooth_rating**: Varies by transmission. S-Tronic is generally smooth. Score: 0.00.
+- **steering_feel_rating**: Steering is weighty but well measured, lacks feel. Score: 0.00.
+- **adas_score**: Basic ADAS like parking sensors, maybe cruise control and basic pre-sense front were available or optional in 2018. Limited compared to modern standards. Score: -0.30.
+- **visibility_rating**: Good all-round visibility noted in reviews. Score: 0.30.
+- **headlight_rating**: Halogen or Xenon Plus LED headlights available. Not modern LED matrix. Score: 0.00.
+- **security_rating**: Audi generally has good security features. Score: 0.50.
+- **screen_in**: Screen size around 6.5 inches on lower trims. This is small by today's standards. Score: -0.50.
+- **infotainment_ux_rating**: MMI system with rotary controller was intuitive for its time, but dated now. Score: 0.00.
+- **smartphone_connect_rating**: Basic Bluetooth was available, but not factory Apple CarPlay/Android Auto on the first generation. Score: -0.50.
+- **audio_rating**: Assume average standard audio system. Score: 0.00.
+- **usb_ports**: Likely 1-2 ports, possibly none in the rear. Score: 0.00.
+- **comfort_feature_score**: Average for its class/era. Features like climate control, heated seats (optional) were available. Score: 0.00.
+- **convenience_feature_score**: Parking sensors available. Lacked many modern convenience features. Score: 0.00.
+- **brand_prestige_rating**: Audi is a premium brand. Score: 0.70.
+- **model_prestige_rating**: A1 is the entry-level Audi model. Score: 1.00.
+- **trim_prestige_rating**: TDI refers to the engine, not a specific trim level. It was available across various trims (SE, Sport, S line). Assume a mid-range trim level for scoring purposes. Score: 0.00.
+- **interior_luxury_rating**: Interior quality was a strong point for its class, using premium materials. Score: 0.30.
+- **interior_tech_focus_rating**: Average for its era. MMI system was a tech highlight, but not screen-forward like modern cars. Score: 0.00.
+- **style_sleek_vs_boxy**: Sleek, modern supermini design for its era. Score: 0.50.
+- **style_aggression_rating**: Standard A1 design is not overly aggressive. Score: 0.00.
+- **style_modernity_rating**: Design was modern for its era (ending 2018), but dated now compared to the latest designs. Score: 0.00.```json
+{
+  "price_usd": 0.70,
+  "total_cost_estimate_5yr_usd": -0.10,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.30,
+  "repair_risk_score": 0.50,
+  "hp": -0.50,
+  "torque": -0.10,
+  "cylinder_count": 0.00,
+  "engine_displacement": -0.70,
+  "accel_0_60_sec": -0.30,
+  "top_speed": -0.30,
+  "drive_type": -1.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": -0.70,
+  "wheelbase": -0.50,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": -0.30,
+  "rear_space": -0.30,
+  "ground_clearance_in": -0.30,
+  "turn_radius_ft": 0.10,
+  "mpg": 0.70,
+  "co2_g_km": 0.70,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.30,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": -0.30,
+  "visibility_rating": 0.30,
+  "headlight_rating": 0.00,
+  "security_rating": 0.50,
+  "screen_in": -0.50,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": -0.50,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.70,
+  "model_prestige_rating": 1.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.30,
+  "interior_tech_focus_rating": 0.00
+}
+```

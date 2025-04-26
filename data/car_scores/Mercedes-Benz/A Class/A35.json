@@ -1,109 +1,115 @@
-```json
+The most recent Mercedes-Benz A-Class A35 is the facelifted Mercedes-AMG A35 4Matic, available as a hatchback or sedan (W177 generation, 2023 onwards). It features a 2.0-litre turbocharged four-cylinder petrol engine with mild-hybrid assistance.
+
+Here's the evaluation based on the search results and scoring guide:
+
+*   **price_usd**: New prices in the UK start from around £35,580, but higher trims and options quickly increase this. A 2025 model in Australia starts around $88,800 AUD, which is roughly $58,900 USD (using ~0.66 USD/AUD). This is above the market average of $52,000. Score: -0.10.
+*   **total_cost_estimate_5yr_usd**: Premium AMG model means higher purchase price, insurance, and maintenance costs. Reliability is rated as decent (76/100 by J.D. Power for 2021 model), but some issues like cylinder head problems have been reported. Parts and specialized labor are expensive,. Overall 5-year cost is likely significantly above average. Score: -0.50.
+*   **insurance_usd_yr**: Insurance group is high (e.g., 37E in the UK). This is well above average. Score: -0.50.
+*   **maint_usd_yr**: Annual maintenance cost is estimated between $1,000 and $2,500. Service intervals are typically 12 months or 12,500-25,000 miles/km,. Mercedes maintenance is generally expensive. Score: -0.20.
+*   **repair_risk_score**: Reliability is rated as decent but not perfect. Reports of cylinder head issues on the M260/M264 engine exist, though covered under extended warranty in some regions. Other potential issues include DCT problems and electrical glitches,. Score: -0.20.
+*   **hp**: 302-306 hp,,,,,. This is well above the 200 hp market average. Score: 0.50.
+*   **torque**: 400 Nm (~295 lb-ft),,,,,. This is significantly above the 190 lb-ft market average. Score: 0.25.
+*   **cylinder_count**: 4 cylinders,,,,. Score: 0.00.
+*   **engine_displacement**: 2.0L (1991 cm3),,,,. This is around the 2.0-3.0L average. Score: 0.00.
+*   **accel_0_60_sec**: 0-60 mph in 4.6-4.7 seconds,,. 0-100 km/h in 4.7-4.8 seconds,,,,,. This is significantly faster than the 7.5 sec average. Score: 0.80.
+*   **top_speed**: 155 mph (250 km/h), electronically limited,,,,,. This is around the 150 mph average, but limited. Score: 0.00.
+*   **drive_type**: AWD (4Matic),,,,,,,,,,,,,,. Score: 0.00.
+*   **transmission_type**: 7-speed or 8-speed DCT automatic,,,,,,,,,,,,,. Score: +1.00.
+*   **driving_track_vs_gt**: Designed for driving dynamics and performance,,, but also intended for everyday comfort,,. Described as a fast road car rather than a hardcore track car. Score: 0.00.
+*   **offroad_ability**: Low ground clearance (113-114 mm / ~4 inches),,,. Not designed for off-road. Score: +1.00.
+*   **braking_dist_ft**: High-performance braking system with larger discs and multi-piston calipers,,,. Described as bringing the car to an "absolutely flat stop in an impressively short distance". Score: 0.80.
+*   **size**: Length 4436-4570 mm (~174.6-179.9 inches),,,,. This is around the 4600mm average. Score: 0.00.
+*   **wheelbase**: 2729-2730 mm (~107.4-107.5 inches),,,,,,,,,,,,. This is around the 2700mm average. Score: 0.00.
+*   **body_style**: 5-door Hatchback or 4-door Sedan,,,,,. Score: 0.00.
+*   **seats**: 5 seats,,,,. Score: 0.00.
+*   **cargo_space**: Hatchback 370 litres (~13.1 cu ft). Sedan 8.6 cu ft (~244 litres), or 405-420 litres (~14.3-14.8 cu ft),. Sedan figures vary significantly, likely due to measurement methods or specific variants. Using the hatchback figure (13.1 cu ft) and a conservative sedan estimate, it's around or slightly below the 15 cu ft average. Score: -0.10.
+*   **rear_space**: Rear legroom is 33.9 inches (861 mm),,,,. This is below the 35" average. Score: -0.10.
+*   **ground_clearance_in**: 113-114 mm (~4 inches),,. Also listed as 160mm (~6.3 inches), which seems high for an AMG model and might be incorrect or for a different variant/market. Using the lower, more consistent figures. This is low. Score: -0.80.
+*   **turn_radius_ft**: 11.0-11.54 m (~36.1-37.9 ft),,,,. This is around the 36 ft average. Score: 0.00.
+*   **mpg**: Combined WLTP around 7.3-8.2 L/100km (~28.7-32.2 US mpg),,. Official figures up to 38.7 mpg UK (~32.2 US mpg),,,. Real-world figures often in the high 20s or low 30s,. This is around the 30 mpg average. Score: 0.00.
+*   **co2_g_km**: 164-193 g/km,,,,,,,,. This is around or slightly above the 175 g/km average. Score: -0.10.
+*   **electrification**: Mild Hybrid (48V system) on facelifted models,,. Score: 0.00.
+*   **electric_range_mi**: N/A (Mild Hybrid). Score: -1.00.
+*   **charge_speed_kw**: N/A (Mild Hybrid). Score: -1.00.
+*   **handling_rating**: Agile, precise turn-in, strong front-end grip, tenacious AWD,,,. Described as competent and capable, but some reviews note it's less engaging or fun than rivals like the Golf R or Civic Type R. Score: 0.50.
+*   **ride_comfort_rating**: AMG suspension is firm,,. Can be brittle or jiggly at low speeds,,. Optional adaptive damping helps,,. More comfortable than A45. Score: -0.20.
+*   **cabin_noise_rating**: Can be noisy at highway speeds, particularly tire roar,. Engine sound is emotional/throaty,. Score: -0.10.
+*   **shift_smooth_rating**: DCT automatic is generally quick, but can occasionally stumble or be hesitant at low speeds/junctions,. 8-speed on facelift is likely smoother than older 7-speed. Score: 0.10.
+*   **steering_feel_rating**: Accurate steering, electromechanical power assist,. Described as lively. Likely lacks significant feedback compared to hydraulic systems or more driver-focused cars. Score: 0.10.
+*   **adas_score**: Comprehensive ADAS features available, including Active Brake Assist (standard), Lane Keeping Assist, Speed Limit Assist (standard on some trims), Blind Spot Assist, Adaptive Cruise Control (optional Driving Assistance Package), Active Parking Assist, and 360-degree camera (optional Parking Package),,,,. Score: 0.50.
+*   **visibility_rating**: Generally good front visibility, but small rear window and blind spot over the rear shoulder noted,. Reversing camera and sensors help,,. Score: 0.00.
+*   **headlight_rating**: LED headlights standard, optional Multibeam LEDs with Adaptive High-Beam Assist,,,. Score: 0.30.
+*   **security_rating**: Premium brand, likely good security features. Keyless-Go starting function standard, Keyless Entry available,. Alarm system standard. Score: 0.15.
+*   **screen_in**: Dual 10.25-inch screens standard on facelift,,,,. Score: 0.80.
+*   **infotainment_ux_rating**: Latest MBUX system, looks great, advanced features, excellent voice control ("Hey Mercedes"),,,,. Touchscreen-only can be fiddly, and touch-sensitive steering wheel controls are annoying. Score: 0.30.
+*   **smartphone_connect_rating**: Apple CarPlay and Android Auto integration standard,,. Wireless on facelift. Score: 0.40.
+*   **audio_rating**: Standard audio system (6+ speakers),. Optional mid-range or Burmester surround sound system (12 speakers, 710 watts) available,,. Score: 0.20.
+*   **usb_ports**: Five USB-C ports standard. Score: 0.50.
+*   **comfort_feature_score**: Heated front seats (optional/standard depending on trim),,,,. Dual-zone automatic climate control standard,,. Power front seats with memory (optional/standard),,,,. Lumbar support,. Ambient lighting (optional/standard),,. Heated steering wheel (optional). AMG Performance seats available,,, but can be snug. Score: 0.40.
+*   **convenience_feature_score**: Reversing camera standard,,,. Parking sensors standard,. Active Parking Assist available,,. 360-degree camera available,,. Keyless Entry/Go,. Hands-Free Access tailgate (sedan). Wireless charger available. Score: 0.40.
+*   **brand_prestige_rating**: Mercedes-Benz is a high-prestige brand. AMG enhances this. Score: 0.90.
+*   **model_prestige_rating**: A Class is the entry-level Mercedes model. Score: +1.00.
+*   **trim_prestige_rating**: A35 is the entry-level AMG performance trim. Score: -1.00.
+*   **interior_luxury_rating**: High-quality interior design, sporty touches, good materials on higher trims/options (leather, wood, ambient lighting),,,,,. Some cheaper plastics found lower down. Score: 0.40.
+*   **interior_tech_focus_rating**: Very high tech focus with the dual screens, MBUX system, voice control, digital instrument cluster, AMG-specific displays,,,,,,. Score: 0.90.
+*   **style_sleek_vs_boxy**: Sleek hatchback/sedan design,. Score: 0.40.
+*   **style_aggression_rating**: AMG styling adds significant aggression (AMG grille, bumpers, spoiler, wheels),,,,,. Score: 0.80.
+*   **style_modernity_rating**: Modern design, especially the interior tech and exterior styling,. Score: 0.80.
+
+Refining scores based on findings. Price is slightly negative for a new car. Total cost and insurance are negative due to AMG nature. Maintenance and repair risk are slightly negative. Performance is strong (HP, Torque, Accel), but Top Speed and Engine Size are average. Drive type is AWD (0.00). Transmission is automatic (+1.00). Driving focus is sporty daily (0.00). Offroad is poor (+1.00). Braking is very good (0.80). Practicality (Size, Wheelbase, Seats, Turn Radius) is average, Cargo and Rear Space are slightly below average. Ground clearance is low (-0.80). Efficiency (MPG, CO2) is average or slightly negative for a performance car. Electrification is mild hybrid (0.00), EV metrics N/A (-1.00). Handling is good (0.50). Ride comfort is below average (-0.20). Cabin noise is slightly below average (-0.10). Shift smoothness is slightly above average (0.10). Steering feel is slightly above average (0.10). ADAS/Tech/Infotainment/Connectivity/Screens/Features are strong points (0.40-0.90). Brand prestige is high (0.90), Model prestige is entry-level (+1.00), Trim prestige is high performance (-1.00). Interior luxury is good (0.40), Interior tech focus is very high (0.90). Style is modern, sleek, and aggressive (0.40, 0.80, 0.80).```json
 {
-  "price_usd": -0.70,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": -0.70,
-  "maint_usd_yr": -0.70,
-  "repair_risk_score": 0.00,
-  "hp": 0.30,
-  "torque": 0.30,
-  "cylinder_count": -0.50,
-  "engine_displacement": -0.50,
-  "accel_0_60_sec": 0.70,
-  "top_speed": 0.30,
-  "drive_type": 0.00,
-  "transmission_type": 0.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.00,
-  "body_style": 0.00,
-  "seats": 0.00,
-  "cargo_space": -0.20,
-  "rear_space": -0.50,
-  "ground_clearance_in": -0.50,
-  "turn_radius_ft": 0.00,
-  "mpg": 0.00,
-  "co2_g_km": 0.00,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.50,
-  "style_aggression_rating": 0.50,
-  "style_modernity_rating": 0.50,
-  "handling_rating": 0.30,
-  "ride_comfort_rating": -0.50,
-  "cabin_noise_rating": -0.50,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": -0.30,
-  "adas_score": 0.50,
-  "visibility_rating": -0.20,
-  "headlight_rating": 0.30,
-  "security_rating": 0.00,
-  "screen_in": 0.50,
-  "infotainment_ux_rating": 0.50,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.30,
-  "usb_ports": 0.30,
-  "comfort_feature_score": 0.50,
-  "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.80,
-  "model_prestige_rating": 1.00,
-  "trim_prestige_rating": 0.50,
-  "interior_luxury_rating": 0.50,
-  "interior_tech_focus_rating": 0.80
+ "price_usd": -0.10,
+ "total_cost_estimate_5yr_usd": -0.50,
+ "insurance_usd_yr": -0.50,
+ "maint_usd_yr": -0.20,
+ "repair_risk_score": -0.20,
+ "hp": 0.50,
+ "torque": 0.25,
+ "cylinder_count": 0.00,
+ "engine_displacement": 0.00,
+ "accel_0_60_sec": 0.80,
+ "top_speed": 0.00,
+ "drive_type": 0.00,
+ "transmission_type": 1.00,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.80,
+ "size": 0.00,
+ "wheelbase": 0.00,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": -0.10,
+ "rear_space": -0.10,
+ "ground_clearance_in": -0.80,
+ "turn_radius_ft": 0.00,
+ "mpg": 0.00,
+ "co2_g_km": -0.10,
+ "electrification": 0.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "handling_rating": 0.50,
+ "ride_comfort_rating": -0.20,
+ "cabin_noise_rating": -0.10,
+ "shift_smooth_rating": 0.10,
+ "steering_feel_rating": 0.10,
+ "adas_score": 0.50,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.30,
+ "security_rating": 0.15,
+ "screen_in": 0.80,
+ "infotainment_ux_rating": 0.30,
+ "smartphone_connect_rating": 0.40,
+ "audio_rating": 0.20,
+ "usb_ports": 0.50,
+ "comfort_feature_score": 0.40,
+ "convenience_feature_score": 0.40,
+ "brand_prestige_rating": 0.90,
+ "model_prestige_rating": 1.00,
+ "trim_prestige_rating": -1.00,
+ "interior_luxury_rating": 0.40,
+ "interior_tech_focus_rating": 0.90,
+ "style_sleek_vs_boxy": 0.40,
+ "style_aggression_rating": 0.80,
+ "style_modernity_rating": 0.80
 }
 ```
-
-**Reasoning for each rating:**
-
-*   **price\_usd (-0.70):** Based on UK RRP starting around £47,960 - £52,965 [1], which is significantly above the market average of $35,000 (~£28k) and closer to the higher end of the price scale.
-*   **total\_cost\_estimate\_5yr\_usd (0.00):** No specific data found for 5-year cost for this AMG model. Defaulted to average.
-*   **insurance\_usd\_yr (-0.70):** UK insurance group is high (32-38) [16, 18], indicating well above average insurance costs.
-*   **maint\_usd\_yr (-0.70):** Mercedes-AMG maintenance is known to be significantly higher than average.
-*   **repair\_risk\_score (0.00):** Mercedes generally has an average reputation for reliability. While AMG models are performance-tuned, specific widespread issues for the facelifted A35 were not highlighted. Defaulted to average.
-*   **hp (0.30):** Produces 302-306 hp [1, etc.]. This is well above the market average (~200 hp) but far from the top-tier benchmark (>700 hp).
-*   **torque (0.30):** Produces 400 Nm (295 lb-ft) [1, etc.]. This is above the market average (~190 lb-ft) but not in the extreme range.
-*   **cylinder\_count (-0.50):** Uses a 4-cylinder engine [1, etc.]. While common, the market average benchmark is 6 cylinders, placing 4 cylinders below average.
-*   **engine\_displacement (-0.50):** Uses a 2.0L engine [1, etc.]. This is below the market average benchmark of 3.0L.
-*   **accel\_0\_60\_sec (0.70):** 0-60 mph times are consistently fast, around 4.3-4.7 seconds [1, etc.]. This is significantly quicker than the market average (~7.5 seconds), scoring positively towards the superb benchmark.
-*   **top\_speed (0.30):** Top speed is electronically limited to 155 mph [1, etc.]. This is around the market average benchmark (150 mph), but above what many non-performance cars achieve.
-*   **drive\_type (0.00):** Comes standard with AMG Performance 4MATIC all-wheel drive [1, etc.]. AWD is the market average benchmark.
-*   **transmission\_type (0.00):** Uses a 7-speed or 8-speed DCT automatic transmission [1, etc.]. DCT is the market average benchmark.
-*   **offroad\_ability (1.00):** As a low-slung performance car with limited ground clearance [15], it has poor off-road ability, scoring +1.00 on this inverted scale.
-*   **braking\_dist\_ft (0.00):** High-performance braking system is noted [1, 13, 26], but specific distance data is limited or for older models [27]. Assuming performance braking brings it to at least average compared to the general market. Defaulted to average.
-*   **size (0.00):** Length is around 4.4-4.55m depending on body style [1, etc.]. This is close to the market average of ~4.6m.
-*   **wheelbase (0.00):** Wheelbase is around 2.73m [1, etc.]. This is close to the market average of ~2.7m.
-*   **body\_style (0.00):** Available as a 5-door hatchback or 4-door sedan [1, etc.], both common body styles (rated as 0.00).
-*   **seats (0.00):** Has 5 seats [1, etc.], which is the market average.
-*   **cargo\_space (-0.20):** Boot space is around 370L (hatch) or 405L (sedan) [1, 5, 10, 12, 19]. This is slightly below the market average of ~15 cu ft (approx 425L).
-*   **rear\_space (-0.50):** Rear legroom is noted as being tight for taller adults [2, 11, 12, 18, 19, 21, 23]. Below the 35" average.
-*   **ground\_clearance\_in (-0.50):** Ground clearance is low (around 4.09-5 inches) [9, 12, 14, 15, 28, 37, 44], well below typical compact crossovers (~6.5").
-*   **turn\_radius\_ft (0.00):** Turning circle is around 11m (36.1 ft) [1, 3, 12, 27, 28, 29, 30]. This is around the market average of ~36 ft.
-*   **mpg (0.00):** Combined MPG is around 25-27 US MPG or 33-39 UK MPG [1, etc.]. This is around the market average of ~30 mpg, which is good considering its performance.
-*   **co2\_g\_km (0.00):** CO2 emissions are around 164-193 g/km [1, etc.]. This is around the market average of ~175 g/km, which is good considering its performance.
-*   **electric\_range\_mi (-1.00):** This is a purely internal combustion engine vehicle, scoring -1.00 as it has no electric range.
-*   **charge\_speed\_kw (-1.00):** This is a purely internal combustion engine vehicle, scoring -1.00 as it has no charging capability.
-*   **style\_sleek\_vs\_boxy (0.50):** Has a sleek, coupe-like profile, especially the sedan [5, 14, 19, 20, 21, 24].
-*   **style\_aggression\_rating (0.50):** Features aggressive AMG styling elements (bumpers, grille, spoiler) [1, 5, 14, 20]. Above average.
-*   **style\_modernity\_rating (0.50):** Has a modern design that still looks fresh [2, 4, 8, 11, 14, 17, 19, 21, 23].
-*   **handling\_rating (0.30):** Praised for high grip, stability, and capability [2, 5, 8, 9, 27, 32, 35], though some reviews note it's less engaging than rivals [2, 5, 8, 32]. Above average.
-*   **ride\_comfort\_rating (-0.50):** The ride is noted as being firm or harsh, especially on larger wheels or rough surfaces [2, 5, 8, 32, 33]. Below average.
-*   **cabin\_noise\_rating (-0.50):** Road and tyre noise are noted as being intrusive, particularly at speed [2, 8, 22, 32, 33]. Below average.
-*   **shift\_smooth\_rating (0.00):** The DCT transmission is generally smooth during spirited driving but can sometimes stumble at low speeds [2, 5, 8, 22, 27]. Rated as average overall.
-*   **steering\_feel\_rating (-0.30):** Steering is direct and accurate but often described as lacking feedback [8, 27, 35]. Below average.
-*   **adas\_score (0.50):** Comes with a good level of standard ADAS features and offers advanced optional systems [1, 2, 5, 18, 20, 21, 27, 34]. Above average.
-*   **visibility\_rating (-0.20):** Rear visibility is somewhat restricted by the design [5]. Below average.
-*   **headlight\_rating (0.30):** LED headlights are standard or available on higher trims [1, 8, 18, 20]. Above average.
-*   **security\_rating (0.00):** Standard security features are expected to be average for a car in this segment. Defaulted to average.
-*   **screen\_in (0.50):** Features dual 10.25-inch screens on the facelifted model [8, 21, 23, 25]. This is above the market average size.
-*   **infotainment\_ux\_rating (0.50):** The MBUX system is widely praised for its intuitive interface, clear displays, and effective voice control [11, 14, 17, 21, 25, 31, 34, 35]. Above average.
-*   **smartphone\_connect\_rating (0.80):** Wireless Apple CarPlay and Android Auto are standard on the facelifted model [6, 8, 18, 21, 23]. This is better than average.
-*   **audio\_rating (0.30):** A standard audio system is included, with an optional upgraded Burmester system available [18, 21, 31, 35]. Above average due to the availability of a premium option.
-*   **usb\_ports (0.30):** Multiple USB-C ports are available (e.g., 5 ports) [11, 18, 21, 23, 31, 35]. Above average.
-*   **comfort\_feature\_score (0.50):** Includes features like heated front seats and dual-zone climate control on higher trims [1, 2, 5, 11, 17, 18, 21, 31, 34, 35], with optional power/memory/performance seats. Above average.
-*   **convenience\_feature\_score (0.50):** Standard features include reversing camera and parking sensors [1, 5, 18, 20, 30, 31, 34, 35], with advanced parking aids and cameras available [18, 20, 31, 34, 35]. Above average.
-*   **brand\_prestige\_rating (0.80):** Mercedes-Benz and its AMG sub-brand are highly prestigious [2, etc.].
-*   **model\_prestige\_rating (1.00):** The A-Class is positioned as the entry-level model in the Mercedes range [4, etc.], scoring highly on this inverted scale.
-*   **trim\_prestige\_rating (0.50):** The A35 is the entry-level AMG model, positioned below the A45/A45 S [8, 9, 32]. On the inverted scale, this places it as a "Good Trim" (0.00) or slightly better (0.50) compared to the absolute top trims (-1.00).
-*   **interior\_luxury\_rating (0.50):** The interior design is modern and visually appealing with good materials for the segment, though some cheaper plastics are present [2, 6, 13, 17, 19, 21, 24, 35]. Above average for the general market.
-*   **interior\_tech\_focus\_rating (0.80):** The interior is heavily focused on technology, particularly the large screens and MBUX system [6, 8, 11, 14, 15, 17, 18, 19, 20, 21, 23, 31, 34, 35]. Well above average.

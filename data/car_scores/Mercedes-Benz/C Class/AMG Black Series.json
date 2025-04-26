@@ -1,109 +1,57 @@
-Based on the search results for the Mercedes-Benz C63 AMG Black Series (W204):
-
-*   **price_usd**: Original price was around $105,000 - $125,000 (£138k in UK) (Source 1, 4, 10). Current market value is often higher due to collectibility (Source 10, 16). This is well above the $52,000 average and significantly above $120,000. Score: -1.00.
-*   **total_cost_estimate_5yr_usd**: High purchase price, high maintenance, high fuel costs, high insurance. Will be well over $80,000 over 5 years. Score: -1.00.
-*   **insurance_usd_yr**: UK insurance group 50A (Source 13), the highest group. Will be very expensive. Score: -1.00.
-*   **maint_usd_yr**: AMG V8, performance components, known issues like head bolts (early models) and camshaft/lifter wear (Source 4, 28, 31). Maintenance is significantly higher than average. Score: -0.80.
-*   **repair_risk_score**: Known engine issues (head bolts on early models, camshaft/lifter wear) (Source 4, 28, 31). Higher risk than average. Score: -0.50.
-*   **hp**: 510-517 hp (Source 1, 3, 5, 10, 12, 18, 19, 20, 26, 29). Very high. Score: 0.80.
-*   **torque**: 457 lb-ft (620 Nm) (Source 1, 3, 5, 10, 18, 19, 20, 26, 29). Very high. Score: 0.70.
-*   **cylinder_count**: V8 (Source 1, 3, 10, 11, 12, 18, 20, 26). Above average (6 is average). Score: 0.50.
-*   **engine_displacement**: 6.2L (6208 cc) (Source 1, 3, 10, 11, 12, 18, 20, 26). Very large. Score: 0.80.
-*   **accel_0_60_sec**: 3.7-4.2 seconds (Source 1, 3, 5, 10, 13, 18, 20, 25, 26). Very fast. Score: 0.80.
-*   **top_speed**: 186 mph (300 km/h), electronically limited (Source 1, 3, 5, 10, 13, 19, 26, 27). High, but not top-tier supercar speed. Score: 0.50.
-*   **drive_type**: RWD (Source 1, 3, 5, 11, 12, 18). Score: +1.00.
-*   **transmission_type**: 7-speed AMG SPEEDSHIFT MCT automatic (Source 1, 3, 5, 10, 11, 12, 13, 16, 18, 19, 20, 22, 24, 28). This is a performance-oriented automated manual/multi-clutch transmission. It's not a traditional smooth automatic (+1) or a manual (-1). It fits closer to the DCT (0) category in character, but is a specific AMG performance auto. Let's score it slightly positive for performance focus but not +1 like a smooth luxury auto. Score: 0.30.
-*   **offroad_ability**: None. Low ground clearance, RWD, stiff suspension. Score: +1.00 (following the guide's reversed scale for this metric).
-*   **braking_dist_ft**: Uprated performance brakes (Source 5, 13). Should be significantly better than average. Score: 0.70.
-*   **size**: Length around 188 inches (4776 mm) (Source 30). Slightly larger than a standard C-Class coupe (180.7 in) due to widebody. Falls between Civic (181 in) and Escalade (>200 in). Score: 0.10.
-*   **wheelbase**: 108.9 inches (2765 mm) (Source 1, 3, 8, 17, 32). Standard C-Class wheelbase. Average. Score: 0.00.
-*   **body_style**: 2-door coupe (Source 1, 5, 7, 16, 17). Score: -1.00.
-*   **seats**: 2 seats standard (rear seat delete), optional 4 seats (Source 5, 13, 19). Standard configuration is 2 seats. Score: -1.00.
-*   **cargo_space**: 11.7 cu ft (Source 6). Below the 15 cu ft average for a sedan/coupe. Score: -0.30.
-*   **rear_space**: N/A (2-seater standard). Score: -1.00.
-*   **ground_clearance_in**: Around 4 inches (112mm) (Source 14). Very low. Score: -1.00.
-*   **turn_radius_ft**: 36.4 ft (Source 8), 5.1m (16.7 ft) (Source 17 - this seems too low, likely curb-to-curb vs wall-to-wall or a typo). Let's use the 36.4 ft figure which is close to the Camry average. Score: 0.00.
-*   **mpg**: 13 city / 19 highway / 15 combined (EPA) (Source 1, 6, 8, 23). Very low. Score: -1.00.
-*   **co2_g_km**: 280-312 g/km (Source 9, 10, 11, 19, 20). Very high. Score: -1.00.
-*   **electric_range_mi**: Not electric. Score: -1.00.
-*   **charge_speed_kw**: Not electric. Score: -1.00.
-*   **style_sleek_vs_boxy**: Aggressive widebody coupe. Not particularly sleek or boxy. Score: 0.00.
-*   **style_aggression_rating**: Very aggressive (wide body, vents, optional wing) (Source 4, 5, 19, 20). Score: 0.90.
-*   **style_modernity_rating**: Design from 2011-2015. Not modern by 2025 standards. Score: -0.70.
-*   **handling_rating**: Track-focused, adjustable suspension, wider tracks, remapped steering (Source 5, 13, 18). Excellent handling for its era. Score: 0.90.
-*   **ride_comfort_rating**: Stiff, track-focused suspension (Source 5, 13, 23). Very uncomfortable ride. Score: -1.00.
-*   **cabin_noise_rating**: Loud V8 engine, minimal sound deadening, road noise (Source 1, 13). Very loud cabin. Score: -1.00.
-*   **shift_smooth_rating**: Performance-oriented MCT, can be less smooth than a luxury auto (Source 24, 28). Score: -0.30.
-*   **steering_feel_rating**: Speed-sensitive hydraulic assist, remapped for more feel (Source 13). Good feel for its era. Score: 0.60.
-*   **adas_score**: Minimal for its era. Score: -0.80.
-*   **visibility_rating**: Coupe visibility, likely average. Score: 0.00.
-*   **headlight_rating**: Xenon or early LED. Average by modern standards. Score: 0.00.
-*   **security_rating**: Standard for a high-value car of its time. Score: 0.00.
-*   **screen_in**: Small screen for its era (Source 24 - refers to NTG 4.5 integrated screen, likely around 7 inches). Score: -0.70.
-*   **infotainment_ux_rating**: Older Mercedes COMAND system. Dated UI/UX. Score: -0.70.
-*   **smartphone_connect_rating**: Basic Bluetooth audio/calls. No modern smartphone integration. Score: -1.00.
-*   **audio_rating**: Likely a decent factory system, but not premium by modern standards. Score: 0.00.
-*   **usb_ports**: Likely few or none by modern standards. Score: -0.80.
-*   **comfort_feature_score**: Minimal comfort features, focused on performance (bucket seats, rear seat delete) (Source 13, 19). Score: -0.80.
-*   **convenience_feature_score**: Minimal convenience features compared to modern cars. Score: -0.80.
-*   **brand_prestige_rating**: Mercedes-Benz AMG. High prestige. Score: 0.80.
-*   **model_prestige_rating**: C-Class is mid-range for Mercedes. Score: 0.00.
-*   **trim_prestige_rating**: Black Series is the top, most prestigious, limited-production trim. Score: -1.00 (following the guide's reversed scale).
-*   **interior_luxury_rating**: Performance-focused interior with some luxury touches, but less overall luxury than a standard C-Class or higher models (Alcantara, carbon fiber, but bucket seats) (Source 13, 19). Score: -0.30.
-*   **interior_tech_focus_rating**: Minimal tech focus compared to modern cars, focused on driving dynamics and engine (AMG Performance Media was an option but basic by modern standards) (Source 13, 19). Score: -0.80.
-
-Final check of scores and JSON format.```json
+```json
 {
-  "price_usd": -1.00,
-  "total_cost_estimate_5yr_usd": -1.00,
+  "price_usd": -0.75,
+  "total_cost_estimate_5yr_usd": -0.75,
   "insurance_usd_yr": -1.00,
-  "maint_usd_yr": -0.80,
-  "repair_risk_score": -0.50,
-  "hp": 0.80,
-  "torque": 0.70,
-  "cylinder_count": 0.50,
-  "engine_displacement": 0.80,
-  "accel_0_60_sec": 0.80,
-  "top_speed": 0.50,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -1.00,
+  "hp": 1.00,
+  "torque": 1.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 1.00,
+  "top_speed": 0.75,
   "drive_type": 1.00,
-  "transmission_type": 0.30,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.70,
-  "size": 0.10,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": -1.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 1.00,
+  "size": 0.00,
   "wheelbase": 0.00,
   "body_style": -1.00,
   "seats": -1.00,
-  "cargo_space": -0.30,
-  "rear_space": -1.00,
+  "cargo_space": -1.00,
+  "rear_space": -0.50,
   "ground_clearance_in": -1.00,
   "turn_radius_ft": 0.00,
   "mpg": -1.00,
   "co2_g_km": -1.00,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.90,
-  "style_modernity_rating": -0.70,
-  "handling_rating": 0.90,
-  "ride_comfort_rating": -1.00,
-  "cabin_noise_rating": -1.00,
-  "shift_smooth_rating": -0.30,
-  "steering_feel_rating": 0.60,
-  "adas_score": -0.80,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.00,
-  "security_rating": 0.00,
-  "screen_in": -0.70,
-  "infotainment_ux_rating": -0.70,
-  "smartphone_connect_rating": -1.00,
-  "audio_rating": 0.00,
-  "usb_ports": -0.80,
-  "comfort_feature_score": -0.80,
-  "convenience_feature_score": -0.80,
-  "brand_prestige_rating": 0.80,
-  "model_prestige_rating": 0.00,
+  "style_sleek_vs_boxy": 1.00,
+  "style_aggression_rating": 1.00,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 1.00,
+  "ride_comfort_rating": -0.75,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.75,
+  "steering_feel_rating": 1.00,
+  "adas_score": 0.00,
+  "visibility_rating": -0.25,
+  "headlight_rating": 1.00,
+  "security_rating": 0.75,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": 0.75,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": -1.00,
   "trim_prestige_rating": -1.00,
-  "interior_luxury_rating": -0.30,
-  "interior_tech_focus_rating": -0.80
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.00
 }
 ```

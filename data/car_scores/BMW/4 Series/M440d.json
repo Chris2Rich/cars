@@ -1,0 +1,111 @@
+The most recent version of the BMW 4 Series M440d is the G22/G26 generation, which includes the 2024 facelift (LCI). I will use data for the G22 Coupe M440d xDrive MHT (Mild Hybrid).
+
+*   **price_usd**: New UK prices are around £61,775. Used 2023 models are listed from £38,998 to £44,998. The new price is significantly above the market average ($52,000). Score -0.30.
+*   **total_cost_estimate_5yr_usd**: No specific 5-year cost found. As a high-performance premium diesel with AWD, expect higher than average depreciation, maintenance, and insurance costs. Score -0.70.
+*   **insurance_usd_yr**: Insurance group 41 or 42E. This is a very high insurance group, indicating high costs. Score -0.80.
+*   **maint_usd_yr**: BMW maintenance is generally higher than average. Service intervals are around 15,000 miles or 24 months. Score -0.10.
+*   **repair_risk_score**: BMW reliability is generally considered average to slightly below average compared to brands like Toyota/Lexus. Score -0.10.
+*   **hp**: 340 PS / 335 bhp. This is significantly above the market average of 200 hp. Score 0.30.
+*   **torque**: 700 Nm / 516 lb-ft. This is very high torque, especially available from low RPM (1750-2250 rpm). Score 0.50.
+*   **cylinder_count**: 6 cylinders (Inline 6). This is above the average of 4-6 cylinders. Score 0.00.
+*   **engine_displacement**: 3.0 litres / 2993 cm³. This is above the average of ~2.0-3.0L. Score 0.00.
+*   **accel_0_60_sec**: 4.5 - 4.7 seconds (0-60 mph or 0-100 km/h). This is significantly faster than the average 7.5 seconds. Score 0.50.
+*   **top_speed**: 155 mph (electronically limited). This is around the average of 150 mph for performance cars, but limited. Score 0.00.
+*   **drive_type**: xDrive (All-wheel drive) standard. AWD scores 0.00.
+*   **transmission_type**: 8-speed automatic (Steptronic) standard. Automatic scores +1.00.
+*   **driving_track_vs_gt**: High-performance diesel coupe with AWD, excels at rapid acceleration and comfortable high-speed cruising. More GT than pure track car. Score 0.00.
+*   **offroad_ability**: Low coupe, not designed for off-road. Score 1.00.
+*   **braking_dist_ft**: No specific data found. Assume average for a modern car in this segment. Score 0.00.
+*   **size**: Length 4770 mm (187.8 in). This is slightly larger than the average 4600mm. Score 0.20.
+*   **wheelbase**: 2851 mm (112.2 in). This is longer than the average 2700mm. Score 0.20.
+*   **body_style**: 2-door coupe. Scores -1.00.
+*   **seats**: 4 seats (2+2). Scores -0.50.
+*   **cargo_space**: 440 litres (15.5 cu ft) or 385 litres for convertible. Using Coupe volume: 440L is 15.5 cu ft. This is around the average of 15 cu ft. Score 0.00.
+*   **rear_space**: Rear legroom is limited in the coupe. Score -0.20.
+*   **ground_clearance_in**: 129 mm (5.1 inches) or 127 mm (5 in). This is below the average 6.5". Score -0.30.
+*   **turn_radius_ft**: 12.0 m (39.37 ft) or 11.4 m (37.4 ft). This is slightly above the average 36 ft. Score -0.10.
+*   **mpg**: Combined WLTP 41-49 UK mpg or 38.6-47.9 mpg. Real-world reported around 40-45 mpg. Using a real-world average of ~42 mpg. This is significantly above the average 30 mpg. Score 0.50.
+*   **co2_g_km**: Combined WLTP 153-175 g/km. This is around the average 175 g/km, slightly better. Score 0.10.
+*   **electrification**: Diesel with 48V mild-hybrid technology. This is Petrol/Diesel (-1.00) but with mild-hybrid, so slightly better. Score -0.80.
+*   **electric_range_mi**: N/A (Mild Hybrid). Score -1.00.
+*   **charge_speed_kw**: N/A (Mild Hybrid). Score -1.00.
+*   **style_sleek_vs_boxy**: Sleek coupe profile, despite the controversial grille. Score 0.50.
+*   **style_aggression_rating**: M Performance model with aggressive M Sport styling and large grille. Score 0.70.
+*   **style_modernity_rating**: Current generation design, modern interior tech. Score 0.70.
+*   **handling_rating**: Praised for dynamic handling, grip (xDrive), and M Sport differential/suspension. Score 0.80.
+*   **ride_comfort_rating**: Can be firm with M Sport suspension, especially on larger wheels, but adaptive suspension improves comfort. Score 0.00.
+*   **cabin_noise_rating**: Generally well-insulated cabin for a coupe. Score 0.40.
+*   **shift_smooth_rating**: ZF 8-speed automatic is widely praised for smoothness and speed. Score 0.70.
+*   **steering_feel_rating**: Accurate steering, Variable Sport Steering is standard. Score 0.50.
+*   **adas_score**: Good range of standard (Active Guard Plus, Parking Assistant) and optional ADAS features (Driving Assistant Professional). Score 0.50.
+*   **visibility_rating**: Coupe body style can limit rear visibility, reversing camera and Parking Assistant help. Score 0.00.
+*   **headlight_rating**: Adaptive LED headlights standard, Laserlights optional. Good performance. Score 0.40.
+*   **security_rating**: Premium brand, likely good security features (Alarm System, Immobiliser). Score 0.00.
+*   **screen_in**: Standard 12.3" instrument display and 14.9" Control Display (Curved Display) on LCI models. This is large. Score 0.70.
+*   **infotainment_ux_rating**: iDrive 8.5 (on LCI) is well-regarded, intuitive interface with touchscreen, rotary controller, and voice control. Score 0.80.
+*   **smartphone_connect_rating**: Standard wireless Apple CarPlay and Android Auto. Score 0.60.
+*   **audio_rating**: Standard system is decent, Harman Kardon upgrade available and well-regarded. Score 0.40.
+*   **usb_ports**: 2x USB Type C in front, 2x USB Type C in rear. Total 4. Score 0.10.
+*   **comfort_feature_score**: Standard Sport seats, heated front seats, 3-zone climate control, electric seats with memory, heated steering wheel, lumbar support, ambient lighting available. Good features. Score 0.60.
+*   **convenience_feature_score**: Parking Assistant, reversing camera, Comfort Access, Head-Up Display, High-Beam Assist, electric folding mirrors available. Good features. Score 0.50.
+*   **brand_prestige_rating**: BMW is a high-prestige brand. Score 0.70.
+*   **model_prestige_rating**: 4 Series is a core model, not entry-level or halo. Score -0.10.
+*   **trim_prestige_rating**: M440d is a high-performance diesel trim, near the top of the diesel range, just below the full M models. Score -0.20.
+*   **interior_luxury_rating**: High-quality materials, premium feel, available Vernasca or Merino leather. Score 0.60.
+*   **interior_tech_focus_rating**: Curved display, iDrive system, digital cluster, Head-Up Display emphasize tech. Score 0.70.```json
+{
+  "price_usd": -0.30,
+  "total_cost_estimate_5yr_usd": -0.70,
+  "insurance_usd_yr": -0.80,
+  "maint_usd_yr": -0.10,
+  "repair_risk_score": -0.10,
+  "hp": 0.30,
+  "torque": 0.50,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.50,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.20,
+  "wheelbase": 0.20,
+  "body_style": -1.00,
+  "seats": -0.50,
+  "cargo_space": 0.00,
+  "rear_space": -0.20,
+  "ground_clearance_in": -0.30,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.50,
+  "co2_g_km": 0.10,
+  "electrification": -0.80,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.70,
+  "style_modernity_rating": 0.70,
+  "handling_rating": 0.80,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.40,
+  "shift_smooth_rating": 0.70,
+  "steering_feel_rating": 0.50,
+  "adas_score": 0.50,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.40,
+  "security_rating": 0.00,
+  "screen_in": 0.70,
+  "infotainment_ux_rating": 0.80,
+  "smartphone_connect_rating": 0.60,
+  "audio_rating": 0.40,
+  "usb_ports": 0.10,
+  "comfort_feature_score": 0.60,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 0.70,
+  "model_prestige_rating": -0.10,
+  "trim_prestige_rating": -0.20,
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.70
+}
+```

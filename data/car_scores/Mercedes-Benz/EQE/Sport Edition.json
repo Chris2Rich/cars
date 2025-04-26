@@ -1,210 +1,36 @@
-Based on the search results, here's the data for the Mercedes-Benz EQE Sport Edition (primarily focusing on the EQE 350+ Sport Edition as it's the most common/specified):
-
-*   **Price:** UK OTR from £69,055 (Source 10). This is well over $100k USD equivalent. Score: -1.00.
-*   **Total Cost Estimate 5yr:** Luxury EV, high initial cost, likely high depreciation. Score: -1.00.
-*   **Insurance:** Insurance Group 50 (highest) (Source 14). Score: -1.00.
-*   **Maintenance:** EVs have lower scheduled maintenance, but Mercedes parts/labor can be expensive if needed. Warranty is good (10yr/155k miles for battery, 3yr/unlimited for car) (Source 7, 18). Defaulting to 0.00 seems reasonable.
-*   **Repair Risk:** Mercedes generally has average reliability. Defaulting to 0.00.
-*   **HP:** EQE 350+ Sport Edition is 288 bhp / 215 kW (Source 16, 18). This is above average but not top-tier performance. Score: 0.20 (closer to Camry 200hp than Hellcat 700+).
-*   **Torque:** EQE 350+ Sport Edition is 417 lb-ft / 565 Nm (Source 16, 18). This is significantly above average. Score: 0.60 (closer to 1000+ than 190).
-*   **Cylinder Count:** Electric. Score: 0.00.
-*   **Engine Displacement:** Electric. Score: 0.00.
-*   **Accel 0-60 mph:** EQE 350+ Sport Edition is 6.5 seconds (Source 16, 18). This is faster than average (7.5s). Score: 0.40 (closer to 2.5s than 10s).
-*   **Top Speed:** 130 mph (Source 16, 18). Average for a modern car, below performance models. Score: 0.00 (closer to 150mph than 50mph).
-*   **Drive Type:** EQE 350+ Sport Edition is Rear-Wheel Drive (Source 5, 18). Score: +1.00. (Note: Some EQE models are AWD, but Sport Edition seems RWD based on sources).
-*   **Transmission Type:** Automatic (Single-speed EV) (Source 5, 18). Score: +1.00.
-*   **Offroad Ability:** Luxury electric sedan, low ground clearance, RWD. Score: -1.00.
-*   **Braking Dist ft:** No specific data found for Sport Edition. Defaulting to 0.00.
-*   **Size:** Length 4946mm (Source 16, 20). This is large. Score: 0.80 (closer to >5100mm than 3600mm).
-*   **Wheelbase:** 3120mm (Source 16, 20). This is long. Score: 0.80 (closer to >3200mm than 2300mm).
-*   **Body Style:** 4-door Saloon/Sedan (Source 2, 20). Score: 0.00.
-*   **Seats:** 5 seats (Source 2, 20). Score: 0.00.
-*   **Cargo Space:** 430 litres / ~15.2 cu ft (Source 2, 19, 20). This is average for a sedan, but perhaps slightly small for the exterior size. Score: 0.00 (right around the 15 cu ft benchmark).
-*   **Rear Space:** Legroom levels impress, wide rear seat, but headroom can be tight with sunroof (Sport Edition might not have standard sunroof, but reviews mention it generally) (Source 2, 4, 19). Rear legroom 38.2 in (Source 17). Score: 0.60 (closer to >40" than <30").
-*   **Ground Clearance in:** No specific number found for Sport Edition. EQE generally has low ground clearance for aerodynamics. Score: -0.40 (estimating below average sedan).
-*   **Turn Radius ft:** 12.5m / ~41 ft (Source 10, 20). This is larger than average (36 ft). Score: -0.40 (closer to >45ft than 22ft).
-*   **MPG:** Electric. Score: 0.00.
-*   **CO2 g/km:** 0 g/km. Score: 1.00.
-*   **Electric Range mi:** WLTP 429 miles (Source 16, 18, 20). EPA 308 miles for EQE 350+ (Source 3, 11). Using the higher WLTP figure as it's often quoted in UK/Europe where Sport Edition is prominent. Score: 0.80 (closer to >375 than 100).
-*   **Charge Speed kW:** Max 170kW DC (Source 4, 7, 16, 18). Score: 0.60 (closer to 250-350+ than 11-50).
-*   **Style Sleek vs Boxy:** Very sleek, aerodynamic design (Source 7, 19). Score: 1.00.
-*   **Style Aggression Rating:** Sport Edition adds some sporty cues, but the overall EQE design is sleek rather than aggressive (Source 2, 19). Score: 0.00.
-*   **Style Modernity Rating:** Very modern EV design (Source 7). Score: 1.00.
-*   **Handling Rating:** Comfortable rather than dynamic, noticeable weight, steering needs more precision (Source 4, 19). Score: 0.00 (average).
-*   **Ride Comfort Rating:** Super-supple air suspension (though Sport Edition might not have it standard, reviews mention comfort suspension is good), irons out bumps, very comfortable (Source 4, 19). Score: 1.00.
-*   **Cabin Noise Rating:** Exceptionally quiet, high levels of refinement (Source 4, 9, 19). Score: 1.00.
-*   **Shift Smooth Rating:** Single-speed EV transmission is inherently smooth. Score: 1.00.
-*   **Steering Feel Rating:** Steering needs more precision, not very engaging (Source 4). Score: 0.00 (numb/average).
-*   **ADAS Score:** Excellent standard and available driver-assist tech, radar-guided cruise control, lane-keeping, parking assist, 360 camera (though 360 camera might not be standard on Sport Edition) (Source 2, 4, 9, 12, 16, 28). High score warranted. Score: 1.00.
-*   **Visibility Rating:** Rear window is notably small (Source 19). Score: -0.40.
-*   **Headlight Rating:** LED High Performance headlamps with Adaptive Highbeam Assist (Source 7, 16). Mercedes typically has excellent headlights. Score: 1.00.
-*   **Security Rating:** GUARD 360° vehicle protection, tracking, geofencing (Source 5, 7, 18). High level of security features. Score: 1.00.
-*   **Screen in:** 12.8-inch OLED central display standard (Source 4, 5, 7, 19). Hyperscreen is optional. Score: 0.80 (closer to 17" than 8").
-*   **Infotainment UX Rating:** Excellent MBUX system, easy to use, responsive, good voice assistant (Source 4, 5, 19). Score: 0.80.
-*   **Smartphone Connect Rating:** Wireless smartphone integration (Apple CarPlay/Android Auto) (Source 4, 5, 7, 18). Score: 1.00.
-*   **Audio Rating:** Mercedes-Benz sound system standard, Burmester optional (Source 5, 7, 19). Standard system is likely good. Score: 0.80 (closer to Burmester than 2 speakers).
-*   **USB Ports:** USB package standard with 6 fast charging USB-C ports (Source 7, 16, 18). Score: 1.00.
-*   **Comfort Feature Score:** Heated front seats standard, dual-zone climate, comfort seats, ambient lighting (Source 5, 7, 18). High level of comfort features. Score: 1.00.
-*   **Convenience Feature Score:** Easy pack tailgate, parking pack with sensors and camera (reversing camera standard, 360 optional), keyless start (keyless entry might be missing on Sport Edition), remote features (Source 4, 5, 7, 12, 16, 18). High level of convenience features, despite some optional items. Score: 0.80.
-*   **Brand Prestige Rating:** Mercedes-Benz. Score: 1.00.
-*   **Model Prestige Rating:** EQE is a core electric luxury sedan, below EQS but above entry models. Score: 0.00.
-*   **Trim Prestige Rating:** Sport Edition is described as the "least expensive" version (Source 5), but still well-equipped. It's above base but below AMG Line Premium/Plus or AMG. Score: 0.00.
-*   **Interior Luxury Rating:** High-quality fit and finish, fake leather standard (ARTICO), real leather optional (Source 4, 19). Still very luxurious. Score: 0.80 (closer to Maybach than Versa).
-*   **Interior Tech Focus Rating:** Tech-rich interior, large screens, MBUX, digital driver display, fingerprint scanner, 5G (Source 4, 5, 7, 19). High tech focus. Score: 1.00.
-
-Refining scores based on benchmarks and search results:
-
-*   `price_usd`: £69k+ is well over $100k. -1.00.
-*   `total_cost_estimate_5yr_usd`: High price, luxury brand, EV tech. -1.00.
-*   `insurance_usd_yr`: Group 50. -1.00.
-*   `maint_usd_yr`: 0.00 (default).
-*   `repair_risk_score`: 0.00 (default).
-*   `hp`: 288 hp. Benchmark 0.00 is 200hp, +1.00 is >700hp. 288 is closer to 200 than 700. Score: 0.20.
-*   `torque`: 417 lb-ft. Benchmark 0.00 is 190 lb-ft, +1.00 is >1000 lb-ft. 417 is significantly above 190. Score: 0.40 (closer to 1000+ than 190).
-*   `accel_0_60_sec`: 6.5s. Benchmark 0.00 is 7.5s, +1.00 is <2.5s. 6.5s is faster than average. Score: 0.40 (closer to 2.5s than 10s).
-*   `top_speed`: 130 mph. Benchmark 0.00 is 150mph, -1.00 is 50mph. 130 is closer to 150 than 50. Score: 0.00.
-*   `drive_type`: RWD. Score: 1.00.
-*   `transmission_type`: Automatic (Single-speed). Score: 1.00.
-*   `offroad_ability`: -1.00.
-*   `size`: 4946mm. Benchmark 0.00 is 4600mm, +1.00 is >5100mm. 4946mm is closer to >5100mm. Score: 0.80.
-*   `wheelbase`: 3120mm. Benchmark 0.00 is 2700mm, +1.00 is >3200mm. 3120mm is very close to >3200mm. Score: 0.80.
-*   `cargo_space`: 430L (~15.2 cu ft). Benchmark 0.00 is 15 cu ft. Score: 0.00.
-*   `rear_space`: 38.2". Benchmark 0.00 is 35", +1.00 is >40". 38.2" is closer to >40". Score: 0.60.
-*   `ground_clearance_in`: No specific data, but reviews imply low. Estimating around 5-6 inches. Benchmark 0.00 is 6.5", -1.00 is <4". Score: -0.20 (slightly below average).
-*   `turn_radius_ft`: 41 ft. Benchmark 0.00 is 36 ft, -1.00 is >45 ft. 41 ft is closer to >45 ft. Score: -0.40.
-*   `electric_range_mi`: WLTP 429 miles. Benchmark 0.00 is 100 mi, +1.00 is >375 mi. 429 is well over 375. Score: 1.00. (Using WLTP as it's a UK trim, but EPA 308 would be 0.80. Let's use 1.00 based on WLTP).
-*   `charge_speed_kw`: 170kW. Benchmark 0.00 is 11-50kW, +1.00 is 250-350+. 170kW is significantly above average but below top tier. Score: 0.60.
-*   `handling_rating`: 0.00 (average).
-*   `ride_comfort_rating`: 1.00 (excellent).
-*   `cabin_noise_rating`: 1.00 (excellent).
-*   `shift_smooth_rating`: 1.00 (excellent).
-*   `steering_feel_rating`: 0.00 (numb/average).
-*   `adas_score`: 1.00 (excellent).
-*   `visibility_rating`: -0.40 (poor rear visibility).
-*   `headlight_rating`: 1.00 (excellent).
-*   `security_rating`: 1.00 (excellent).
-*   `screen_in`: 12.8". Benchmark 0.00 is 8", +1.00 is 17". 12.8" is closer to 17". Score: 0.80.
-*   `infotainment_ux_rating`: 0.80 (excellent).
-*   `smartphone_connect_rating`: 1.00 (excellent).
-*   `audio_rating`: 0.80 (good standard system).
-*   `usb_ports`: 6 ports. Benchmark 0.00 is 3, +1.00 is 6+. Score: 1.00.
-*   `comfort_feature_score`: 1.00 (excellent).
-*   `convenience_feature_score`: 0.80 (excellent, but some key features like 360 camera might be optional).
-*   `brand_prestige_rating`: 1.00.
-*   `model_prestige_rating`: 0.00.
-*   `trim_prestige_rating`: 0.00 (mid-range).
-*   `interior_luxury_rating`: 0.80 (very luxurious, but standard fake leather pulls it slightly from perfect).
-*   `interior_tech_focus_rating`: 1.00 (excellent).
-*   `style_sleek_vs_boxy`: 1.00.
-*   `style_aggression_rating`: 0.00.
-*   `style_modernity_rating`: 1.00.
-
-Let's re-check the electric range score. The guide says +1.00 is >375 miles. WLTP 429 miles fits this perfectly. EPA 308 miles is below 375 but well above 100. Given the UK context of the Sport Edition, using the WLTP figure seems appropriate for scoring against the guide's benchmark. Score: 1.00.
-
-Let's re-check the convenience score. Parking pack with reversing camera and sensors is standard (Source 12, 16). Easy pack tailgate standard (Source 15, 16). Keyless start standard (Source 6). Wireless charging standard (Source 9). 360 camera is mentioned as something you "must do without" on Sport Edition compared to higher trims (Source 4). Given the standard features are still very high-end (auto parking, power tailgate, etc.), it's still well above average. Score: 0.80 seems fair.
-
-Let's re-check the ground clearance. No specific number found. Reviews mention it's low. Defaulting to 0.00 might be safer if no specific data. Let's stick with 0.00.
-
-Let's re-check the braking distance. No specific data found. Defaulting to 0.00.
-
-Let's re-check the horsepower. 288 hp. 0.00 is 200hp, +1.00 is >700hp. The range is 500hp. 288 is 88 above 200. 700 is 500 above 200. 88/500 = 0.176. Score 0.20 seems reasonable.
-
-Let's re-check the torque. 417 lb-ft. 0.00 is 190 lb-ft, +1.00 is >1000 lb-ft. The range is 810 lb-ft. 417 is 227 above 190. 1000 is 810 above 190. 227/810 = 0.28. Score 0.30 seems more accurate.
-
-Let's re-check the 0-60. 6.5s. 0.00 is 7.5s, +1.00 is <2.5s (-1.00 is >10s). Range from 10s to 2.5s is 7.5s. 7.5s is 0. 6.5s is 1s faster than 0.00. 2.5s is 5s faster than 0.00. 1/5 = 0.2. Score 0.20 seems more accurate based on the scale.
-
-Let's re-check the turning radius. 41 ft. 0.00 is 36 ft, -1.00 is >45 ft. Range from 36 to 45 is 9 ft. 41 is 5 ft worse than 36. 5/9 = 0.55. Score -0.60 seems more accurate.
-
-Let's re-check the screen size. 12.8". 0.00 is 8", +1.00 is 17". Range is 9". 12.8 is 4.8 above 8. 4.8/9 = 0.53. Score 0.50 seems reasonable.
-
-Let's re-check the audio rating. Mercedes-Benz sound system standard. Burmester optional. Score 0.80 seems fair for a good standard system in a luxury car.
-
-Let's re-check the convenience score. Missing 360 camera and keyless entry (Source 4). Standard features include parking assist, reversing camera, power tailgate, keyless start, remote features. Still very high. Score 0.60 might be more appropriate given the missing items compared to top luxury.
-
-Final check on scores:
-*   price_usd: -1.00
-*   total_cost_estimate_5yr_usd: -1.00
-*   insurance_usd_yr: -1.00
-*   maint_usd_yr: 0.00
-*   repair_risk_score: 0.00
-*   hp: 0.20
-*   torque: 0.30
-*   cylinder_count: 0.00
-*   engine_displacement: 0.00
-*   accel_0_60_sec: 0.20
-*   top_speed: 0.00
-*   drive_type: 1.00 (RWD)
-*   transmission_type: 1.00
-*   offroad_ability: -1.00
-*   braking_dist_ft: 0.00
-*   size: 0.80
-*   wheelbase: 0.80
-*   body_style: 0.00
-*   seats: 0.00
-*   cargo_space: 0.00
-*   rear_space: 0.60
-*   ground_clearance_in: 0.00 (default)
-*   turn_radius_ft: -0.60
-*   mpg: 0.00
-*   co2_g_km: 1.00
-*   electric_range_mi: 1.00 (using WLTP 429)
-*   charge_speed_kw: 0.60
-*   style_sleek_vs_boxy: 1.00
-*   style_aggression_rating: 0.00
-*   style_modernity_rating: 1.00
-*   handling_rating: 0.00
-*   ride_comfort_rating: 1.00
-*   cabin_noise_rating: 1.00
-*   shift_smooth_rating: 1.00
-*   steering_feel_rating: 0.00
-*   adas_score: 1.00
-*   visibility_rating: -0.40
-*   headlight_rating: 1.00
-*   security_rating: 1.00
-*   screen_in: 0.50
-*   infotainment_ux_rating: 0.80
-*   smartphone_connect_rating: 1.00
-*   audio_rating: 0.80
-*   usb_ports: 1.00
-*   comfort_feature_score: 1.00
-*   convenience_feature_score: 0.60
-*   brand_prestige_rating: 1.00
-*   model_prestige_rating: 0.00
-*   trim_prestige_rating: 0.00
-*   interior_luxury_rating: 0.80
-*   interior_tech_focus_rating: 1.00
-
-Looks consistent with the data found and the scoring guide.```json
+```json
 {
-  "price_usd": -1.00,
-  "total_cost_estimate_5yr_usd": -1.00,
+  "price_usd": -0.75,
+  "total_cost_estimate_5yr_usd": -0.50,
   "insurance_usd_yr": -1.00,
   "maint_usd_yr": 0.00,
   "repair_risk_score": 0.00,
-  "hp": 0.20,
-  "torque": 0.30,
+  "hp": 0.50,
+  "torque": 0.75,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.20,
-  "top_speed": 0.00,
+  "accel_0_60_sec": 0.50,
+  "top_speed": -0.25,
   "drive_type": 1.00,
   "transmission_type": 1.00,
-  "offroad_ability": -1.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.80,
-  "wheelbase": 0.80,
+  "size": 0.25,
+  "wheelbase": 0.50,
   "body_style": 0.00,
   "seats": 0.00,
   "cargo_space": 0.00,
-  "rear_space": 0.60,
-  "ground_clearance_in": 0.00,
-  "turn_radius_ft": -0.60,
-  "mpg": 0.00,
+  "rear_space": 0.25,
+  "ground_clearance_in": -0.25,
+  "turn_radius_ft": 0.00,
+  "mpg": 1.00,
   "co2_g_km": 1.00,
-  "electric_range_mi": 1.00,
-  "charge_speed_kw": 0.60,
+  "electrification": 1.00,
+  "electric_range_mi": 0.75,
+  "charge_speed_kw": 0.50,
   "style_sleek_vs_boxy": 1.00,
-  "style_aggression_rating": 0.00,
+  "style_aggression_rating": 0.50,
   "style_modernity_rating": 1.00,
   "handling_rating": 0.00,
   "ride_comfort_rating": 1.00,
@@ -212,20 +38,20 @@ Looks consistent with the data found and the scoring guide.```json
   "shift_smooth_rating": 1.00,
   "steering_feel_rating": 0.00,
   "adas_score": 1.00,
-  "visibility_rating": -0.40,
+  "visibility_rating": -0.50,
   "headlight_rating": 1.00,
   "security_rating": 1.00,
-  "screen_in": 0.50,
-  "infotainment_ux_rating": 0.80,
+  "screen_in": 0.75,
+  "infotainment_ux_rating": 0.50,
   "smartphone_connect_rating": 1.00,
-  "audio_rating": 0.80,
-  "usb_ports": 1.00,
+  "audio_rating": 0.75,
+  "usb_ports": 0.50,
   "comfort_feature_score": 1.00,
-  "convenience_feature_score": 0.60,
+  "convenience_feature_score": 1.00,
   "brand_prestige_rating": 1.00,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.80,
+  "interior_luxury_rating": 1.00,
   "interior_tech_focus_rating": 1.00
 }
 ```

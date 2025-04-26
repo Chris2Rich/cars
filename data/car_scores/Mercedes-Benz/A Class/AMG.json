@@ -1,109 +1,57 @@
 ```json
 {
-  "price_usd": -0.70,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": -0.70,
-  "maint_usd_yr": -0.70,
-  "repair_risk_score": 0.00,
-  "hp": 0.50,
-  "torque": 0.30,
-  "cylinder_count": -0.50,
-  "engine_displacement": -0.50,
-  "accel_0_60_sec": 0.70,
-  "top_speed": 0.30,
-  "drive_type": 0.00,
-  "transmission_type": 0.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.30,
-  "size": 0.00,
-  "wheelbase": 0.00,
-  "body_style": 0.00,
-  "seats": 0.00,
-  "cargo_space": -0.20,
-  "rear_space": -0.50,
-  "ground_clearance_in": -0.50,
-  "turn_radius_ft": 0.00,
-  "mpg": 0.00,
-  "co2_g_km": 0.00,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.50,
-  "style_aggression_rating": 0.80,
-  "style_modernity_rating": 0.50,
-  "handling_rating": 0.30,
-  "ride_comfort_rating": -0.70,
-  "cabin_noise_rating": -0.50,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": -0.30,
-  "adas_score": 0.50,
-  "visibility_rating": -0.20,
-  "headlight_rating": 0.30,
-  "security_rating": 0.00,
-  "screen_in": 0.50,
-  "infotainment_ux_rating": 0.50,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.30,
-  "usb_ports": 0.30,
-  "comfort_feature_score": 0.50,
-  "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.80,
-  "model_prestige_rating": 1.00,
-  "trim_prestige_rating": -1.00,
-  "interior_luxury_rating": 0.50,
-  "interior_tech_focus_rating": 0.80
+ "price_usd": -0.10,
+ "total_cost_estimate_5yr_usd": -0.50,
+ "insurance_usd_yr": -0.50,
+ "maint_usd_yr": -0.20,
+ "repair_risk_score": -0.20,
+ "hp": 1.00,
+ "torque": 0.25,
+ "cylinder_count": 0.00,
+ "engine_displacement": 0.00,
+ "accel_0_60_sec": 1.00,
+ "top_speed": 0.50,
+ "drive_type": 0.00,
+ "transmission_type": 1.00,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.80,
+ "size": 0.00,
+ "wheelbase": 0.00,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": 0.00,
+ "rear_space": -0.10,
+ "ground_clearance_in": -0.80,
+ "turn_radius_ft": 0.00,
+ "mpg": 0.00,
+ "co2_g_km": -0.10,
+ "electrification": 0.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "handling_rating": 0.50,
+ "ride_comfort_rating": -0.20,
+ "cabin_noise_rating": -0.10,
+ "shift_smooth_rating": 0.10,
+ "steering_feel_rating": 0.10,
+ "adas_score": 0.50,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.30,
+ "security_rating": 0.15,
+ "screen_in": 0.80,
+ "infotainment_ux_rating": 0.30,
+ "smartphone_connect_rating": 0.40,
+ "audio_rating": 0.20,
+ "usb_ports": 0.50,
+ "comfort_feature_score": 0.40,
+ "convenience_feature_score": 0.40,
+ "brand_prestige_rating": 0.90,
+ "model_prestige_rating": 1.00,
+ "trim_prestige_rating": -1.00,
+ "interior_luxury_rating": 0.40,
+ "interior_tech_focus_rating": 0.90,
+ "style_sleek_vs_boxy": 0.40,
+ "style_aggression_rating": 0.80,
+ "style_modernity_rating": 0.80
 }
 ```
-
-**Reasoning for each rating:**
-
-*   **price\_usd (-0.70):** The AMG variants (A35 and A45 S) are significantly more expensive than the standard A-Class, with prices starting well above the market average of $35,000 and reaching towards the higher end of the scale.
-*   **total\_cost\_estimate\_5yr\_usd (0.00):** No specific data found for 5-year cost for AMG models. Defaulted to average.
-*   **insurance\_usd\_yr (-0.70):** AMG models fall into high insurance groups, indicating well above average insurance costs.
-*   **maint\_usd\_yr (-0.70):** Mercedes-AMG maintenance is significantly more expensive than average due to performance components and specialized servicing.
-*   **repair\_risk\_score (0.00):** Mercedes generally has an average reputation for reliability. While AMG models are performance-tuned, specific widespread issues for the recent AMG A-Class were not prominently highlighted. Defaulted to average.
-*   **hp (0.50):** AMG models offer significantly higher horsepower (302-416 hp) than the market average (~200 hp), scoring well above average.
-*   **torque (0.30):** Torque figures (400-500 Nm) are well above the market average (~190 lb-ft).
-*   **cylinder\_count (-0.50):** Both AMG variants use a 4-cylinder engine, which is below the market average benchmark of 6 cylinders.
-*   **engine\_displacement (-0.50):** Both AMG variants use a 2.0L engine, which is below the market average benchmark of 3.0L.
-*   **accel\_0\_60\_sec (0.70):** 0-60 mph times are very fast (3.7-4.7 seconds), scoring significantly above the market average (~7.5 seconds).
-*   **top\_speed (0.30):** Top speeds (electronically limited to 155-168 mph) are above the market average benchmark (150 mph).
-*   **drive\_type (0.00):** Both AMG variants come standard with AMG Performance 4MATIC all-wheel drive, which is the market average benchmark.
-*   **transmission\_type (0.00):** Both AMG variants use a DCT automatic transmission, which is the market average benchmark.
-*   **offroad\_ability (1.00):** As low-slung performance cars with limited ground clearance, they have poor off-road ability, scoring +1.00 on this inverted scale.
-*   **braking\_dist\_ft (0.30):** Feature high-performance AMG braking systems, likely resulting in better-than-average braking distances compared to the general market.
-*   **size (0.00):** Length is similar to the standard A-Class, close to the market average.
-*   **wheelbase (0.00):** Wheelbase is similar to the standard A-Class, close to the market average.
-*   **body\_style (0.00):** Available as a 5-door hatchback or 4-door sedan, both common body styles.
-*   **seats (0.00):** Has 5 seats, which is the market average.
-*   **cargo\_space (-0.20):** Boot space is slightly below the market average.
-*   **rear\_space (-0.50):** Rear legroom is noted as being tight for taller adults.
-*   **ground\_clearance\_in (-0.50):** Ground clearance is low, well below typical compact crossovers.
-*   **turn\_radius\_ft (0.00):** Turning circle is around the market average.
-*   **mpg (0.00):** Combined MPG is around the market average, which is good considering the performance.
-*   **co2\_g\_km (0.00):** CO2 emissions are around the market average, which is good considering the performance.
-*   **electric\_range\_mi (-1.00):** These are purely internal combustion engine vehicles with no electric range.
-*   **charge\_speed\_kw (-1.00):** These are purely internal combustion engine vehicles with no charging capability.
-*   **style\_sleek\_vs\_boxy (0.50):** Has a sleek, coupe-like profile.
-*   **style\_aggression\_rating (0.80):** Features aggressive AMG styling elements, scoring well above average.
-*   **style\_modernity\_rating (0.50):** Has a modern design that still looks fresh.
-*   **handling\_rating (0.30):** Praised for high grip, stability, and capability, scoring above average, though some reviews note it's less engaging than rivals.
-*   **ride\_comfort\_rating (-0.70):** The ride is noted as being firm or harsh, scoring well below average.
-*   **cabin\_noise\_rating (-0.50):** Road and tyre noise are noted as being intrusive, scoring below average.
-*   **shift\_smooth\_rating (0.00):** The DCT transmission is generally smooth during spirited driving but can sometimes stumble at low speeds. Rated as average overall.
-*   **steering\_feel\_rating (-0.30):** Steering is direct and accurate but often described as lacking feedback, scoring below average.
-*   **adas\_score (0.50):** Comes with a good level of standard ADAS features and offers advanced optional systems, scoring above average.
-*   **visibility\_rating (-0.20):** Rear visibility is somewhat restricted by the design.
-*   **headlight\_rating (0.30):** LED headlights are standard or available on higher trims, scoring above average.
-*   **security\_rating (0.00):** Standard security features are expected to be average. Defaulted to average.
-*   **screen\_in (0.50):** Features large dual 10.25-inch screens, above the market average size.
-*   **infotainment\_ux\_rating (0.50):** The MBUX system is widely praised for its intuitive interface and features, scoring above average.
-*   **smartphone\_connect\_rating (0.80):** Wireless Apple CarPlay and Android Auto are standard on the facelifted model, which is better than average.
-*   **audio\_rating (0.30):** An optional upgraded Burmester system is available, scoring above average due to the availability of a premium option.
-*   **usb\_ports (0.30):** Multiple USB-C ports are available, scoring above average.
-*   **comfort\_feature\_score (0.50):** Includes features like heated front seats and dual-zone climate control on higher trims, with optional performance seats, scoring above average.
-*   **convenience\_feature\_score (0.50):** Standard features include reversing camera and parking sensors, with advanced parking aids and cameras available, scoring above average.
-*   **brand\_prestige\_rating (0.80):** Mercedes-Benz and its AMG sub-brand are highly prestigious.
-*   **model\_prestige\_rating (1.00):** The A-Class is positioned as the entry-level model in the Mercedes range, scoring highly on this inverted scale.
-*   **trim\_prestige\_rating (-1.00):** The AMG variants represent the top-tier performance trims in the A-Class range, scoring -1.00 on the inverted scale.
-*   **interior\_luxury\_rating (0.50):** The interior design is modern and visually appealing with good materials for the segment, including AMG-specific touches, scoring above average for the general market.
-*   **interior\_tech\_focus\_rating (0.80):** The interior is heavily focused on technology, particularly the large screens, MBUX system, and AMG-specific displays, scoring well above average.

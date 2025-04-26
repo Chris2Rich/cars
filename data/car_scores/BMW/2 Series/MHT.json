@@ -1,0 +1,147 @@
+Based on the search results, the "most recent version" of the BMW 2 Series with MHT appears to be the 220i MHT, specifically within the 2 Series Active Tourer body style (U06 generation, launched in 2021). There is also mention of a 220d MHT in the 2-door Coupe (G42 generation), but the 220i MHT Active Tourer seems more prevalent in the search results regarding MHT. The 223i also has MHT.
+
+I will focus on the 220i MHT Active Tourer as the primary example of the "BMW 2 Series MHT" for evaluation, as it is frequently mentioned in the context of MHT. I will use data from the search results, prioritizing the most recent information (2024/2025 model year where available).
+
+Here's a breakdown of the data found and how it maps to the scoring guide:
+
+*   **price_usd**: RRP range £34,895 - £50,230. Used starts at £23,681. New price from £31,540 cash. £30,265 for entry-level Sport trim. £32,277.80 for 220i MHT Sport. This is around the market average for a new car (~$52,000), maybe slightly below depending on the exact trim and current exchange rates. Let's estimate around $40,000 - $45,000 USD. Score: 0.10.
+*   **total_cost_estimate_5yr_usd**: No specific 5-year cost estimate found. BMWs generally have higher maintenance/repair costs than average. Mild hybrid adds complexity. Depreciation might be average for a BMW. Default to 0.00, maybe slightly negative due to potential BMW costs. Score: -0.10.
+*   **insurance_usd_yr**: Insurance Group 25E. This is mid-range, leaning slightly higher than the average group. Score: -0.20.
+*   **maint_usd_yr**: No specific annual cost found. BMW maintenance is generally higher than average. Score: -0.20.
+*   **repair_risk_score**: No specific reliability score found. BMW is generally considered average to slightly below average for long-term reliability compared to brands like Toyota/Lexus. Score: 0.00.
+*   **hp**: 156 bhp (engine) + 19 hp (electric motor) = 175 hp combined. This is slightly below the market average of 200 hp. Score: -0.20.
+*   **torque**: 240 Nm. 280 Nm combined. 280 Nm is approximately 206 lb-ft. This is slightly above the market average of 190 lb-ft. Score: 0.10.
+*   **cylinder_count**: 3 cylinders (1.5L engine). Below average. Score: -0.50.
+*   **engine_displacement**: 1.5L. Below average. Score: -0.50.
+*   **accel_0_60_sec**: 8.1 seconds (0-62 mph). This is slower than the market average of 7.5 seconds. Score: -0.30.
+*   **top_speed**: 137 mph. This is below the average of 150 mph. Score: -0.20.
+*   **drive_type**: Front-wheel drive. Score: -1.00.
+*   **transmission_type**: 7-speed Steptronic dual-clutch automatic. Dual-clutch is 0.00, but the guide lists Automatic as +1.00. Let's use 0.00 for DCT. Score: 0.00.
+*   **driving_track_vs_gt**: Active Tourer is an MPV/family car. Definitely a grocery-getter/daily driver. Score: 0.00.
+*   **offroad_ability**: Low ground clearance, FWD, not designed for off-road. Score: 1.00.
+*   **braking_dist_ft**: No specific data found. Assume average for its class. Score: 0.00.
+*   **size**: Length 4386 mm. Width 1824 mm (2102 mm inc mirrors). Height 1576 mm. This is larger than a typical sedan/hatchback (Civic ~4600mm length) but smaller than large SUVs. It's an MPV body style. Compared to the size guide, it's closer to the smaller end. Score: -0.10.
+*   **wheelbase**: 2670 mm. This is around the average wheelbase (Skoda Octavia ~2700mm). Score: 0.00.
+*   **body_style**: 5-door Hatchback/MPV. The guide lists 5-door Van as +1.00. MPV is close to a van in practicality. Score: 0.80.
+*   **seats**: 5 seats. Average. Score: 0.00.
+*   **cargo_space**: 415 litres (seats up). This is approximately 14.6 cu ft (415 L / 28.317). This is around the average of 15 cu ft. Score: 0.00.
+*   **rear_space**: Generous headroom and knee room mentioned. No specific legroom inches found. Assume above average for its size class due to MPV design. Score: 0.30.
+*   **ground_clearance_in**: Not specified. MPV body style suggests it's higher than a sedan but lower than an SUV. Assume average for a crossover/MPV. Score: 0.00.
+*   **turn_radius_ft**: Not specified. Assume average. Score: 0.00.
+*   **mpg**: WLTP Combined 47.9 mpg, 48.7 mpg, 50 mpg, 53.5 mpg. Real MPG 32-64 mpg. Official figures are good, real-world varies. Better than average. Score: 0.40.
+*   **co2_g_km**: WLTP Combined 129 g/km, 131 g/km, 134 g/km, 137 g/km. Lower than average (175 g/km). Score: 0.40.
+*   **electrification**: Mild Hybrid (MHT). Score: 0.00.
+*   **electric_range_mi**: Not a PHEV or EV. Score: -1.00.
+*   **charge_speed_kw**: Not a PHEV or EV. Score: -1.00.
+*   **style_sleek_vs_boxy**: MPV shape, less sleek than a coupe, more rounded than a boxy SUV. "Styling is challenging", "frumpy looks... swapped for something with a dash more panache". Leans slightly towards boxy compared to sleeker cars. Score: -0.10.
+*   **style_aggression_rating**: Not aggressive. Family-oriented design. Score: -0.50.
+*   **style_modernity_rating**: Recent design, modern interior tech. Score: 0.60.
+*   **handling_rating**: "Fun to drive for an MPV", "drives way better than its chunky disposition would have you believe", "quite capable of gripping corners". Good handling for its class, but not a sports car. Score: 0.40.
+*   **ride_comfort_rating**: "Ride is a bit harsh", "ride comfort is not a strong point" (implied by focus on handling). Below average comfort. Score: -0.30.
+*   **cabin_noise_rating**: No specific rating found. Assume average for a family car in this segment. Score: 0.00.
+*   **shift_smooth_rating**: 7-speed Steptronic dual-clutch. BMW automatics are generally smooth. DCTs can sometimes be less smooth at low speeds than traditional automatics. Score: 0.50.
+*   **steering_feel_rating**: "beautifully weighted controls", "Servotronic variable electric power steering (EPS)". BMW steering is usually well-regarded. Score: 0.60.
+*   **adas_score**: Active Guard, lane departure, front collision warning, brake intervention, parking assistant, reversing assistant, rear view camera standard/available. Driving Assistant available. Good range of standard and optional ADAS. Score: 0.60.
+*   **visibility_rating**: "expansive glass roof floods in natural light". MPVs generally have good visibility due to large windows. Score: 0.50.
+*   **headlight_rating**: LED headlights standard, Adaptive LED available. Good. Score: 0.50.
+*   **security_rating**: Thatcham 1 alarm system, immobiliser, locking wheel bolts. Standard security features. Score: 0.00.
+*   **screen_in**: Widescreen Display, Live Cockpit Plus with 12.3" instrument cluster and 14.9" centre display. Large screens. Score: 0.80.
+*   **infotainment_ux_rating**: BMW Operating System 8/9, iDrive control system, "breeze to operate", "superb infotainment". Highly rated. Score: 0.80.
+*   **smartphone_connect_rating**: Wireless Android Auto/Apple CarPlay, Smartphone Integration, Connected Package Professional. Excellent connectivity. Score: 1.00.
+*   **audio_rating**: DAB Digital radio standard. Harman Kardon Surround Sound System available. Standard audio is likely average, optional is premium. Score: 0.30 (averaging standard and available).
+*   **usb_ports**: 2x USB Type C front, 2x USB Type C rear. Total 4. Above average. Score: 0.30.
+*   **comfort_feature_score**: Heated front seats standard/available. Automatic two zone climate control. Power seats mentioned as available on Luxury trim, manual adjustment standard. Decent comfort features, but not top-tier luxury. Score: 0.40.
+*   **convenience_feature_score**: Parking Assistant, reversing camera, powered tailgate standard/available. Wireless charging available. Comfort Access available. Good convenience features. Score: 0.60.
+*   **brand_prestige_rating**: BMW. High prestige. Score: 0.80.
+*   **model_prestige_rating**: 2 Series Active Tourer. An MPV, less prestigious than BMW's core sedan/coupe/SUV lines. Score: 0.20.
+*   **trim_prestige_rating**: MHT is an engine designation, not a trim level itself, but it's often associated with Sport or Luxury trims. Assuming a mid-range trim level like Sport or Luxury. Score: 0.00.
+*   **interior_luxury_rating**: Well-made cabin, plush materials, solid switchgear. Alcantara/Veganza or Vernasca leather available. Modern design. Good quality, but not S-Class level. Score: 0.50.
+*   **interior_tech_focus_rating**: Widescreen display, iDrive 8/9, lots of digital features. High tech focus. Score: 0.80.
+
+Double-checking the body style scoring: The guide lists 5-Door Van as +1.00. An MPV like the Active Tourer is very similar in concept and practicality to a van, just styled more like a car/crossover. Scoring it at 0.80 seems appropriate, close to the van score due to its utility.
+
+Double-checking transmission: The guide lists Automatic as +1.00 and DCT as 0.00. The car has a DCT. So 0.00 is correct based on the guide.
+
+Double-checking drive type: FWD. Guide says FWD is -1.00. Correct.
+
+Let's refine some scores based on the gathered data and guide:
+*   price_usd: £30k-£50k range. £31,540 is ~ $40k USD. This is below the $52k average. Score should be positive. Let's say 0.20.
+*   hp: 175 hp combined. Below 200 hp average. -0.20 seems right.
+*   torque: 280 Nm (~206 lb-ft). Above 190 lb-ft average. 0.10 seems right.
+*   accel_0_60_sec: 8.1s. Slower than 7.5s average. -0.30 seems right.
+*   mpg: 48-53 mpg official. Better than 30 mpg average. 0.40 seems reasonable.
+*   co2_g_km: 129-137 g/km. Lower than 175 g/km average. 0.40 seems reasonable.
+*   rear_space: "Generous". Let's bump this slightly to 0.40.
+*   cargo_space: 415L (~14.6 cu ft). Right at the 15 cu ft average. 0.00.
+*   ground_clearance_in: No data. Default to 0.00.
+*   turn_radius_ft: No data. Default to 0.00.
+*   adas_score: Good range. 0.60 seems appropriate.
+*   visibility_rating: Good due to MPV design. 0.50 seems appropriate.
+*   headlight_rating: LED standard, Adaptive LED available. 0.50 seems appropriate.
+*   screen_in: Large screens (12.3" + 14.9"). 0.80 seems appropriate.
+*   infotainment_ux_rating: Highly rated iDrive. 0.80 seems appropriate.
+*   smartphone_connect_rating: Wireless CarPlay/AA, eSim. Excellent. 1.00 seems appropriate.
+*   audio_rating: Standard is likely average, HK available. 0.30 seems fair.
+*   usb_ports: 4 ports. Above average. 0.30 seems fair.
+*   comfort_feature_score: Heated seats, 2-zone climate, power seats available. 0.40 seems fair.
+*   convenience_feature_score: Parking assist, camera, power tailgate, wireless charging. 0.60 seems fair.
+*   model_prestige_rating: MPV body style is less prestigious for BMW. 0.20 seems fair.
+*   trim_prestige_rating: MHT is an engine, not a trim. Assuming a mid-range trim like Sport/Luxury. 0.00 seems fair.
+
+Looks good. Ready to format as JSON.```json
+{
+ "price_usd": 0.20,
+ "total_cost_estimate_5yr_usd": -0.10,
+ "insurance_usd_yr": -0.20,
+ "maint_usd_yr": -0.20,
+ "repair_risk_score": 0.00,
+ "hp": -0.20,
+ "torque": 0.10,
+ "cylinder_count": -0.50,
+ "engine_displacement": -0.50,
+ "accel_0_60_sec": -0.30,
+ "top_speed": -0.20,
+ "drive_type": -1.00,
+ "transmission_type": 0.00,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.00,
+ "size": -0.10,
+ "wheelbase": 0.00,
+ "body_style": 0.80,
+ "seats": 0.00,
+ "cargo_space": 0.00,
+ "rear_space": 0.40,
+ "ground_clearance_in": 0.00,
+ "turn_radius_ft": 0.00,
+ "mpg": 0.40,
+ "co2_g_km": 0.40,
+ "electrification": 0.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": -0.10,
+ "style_aggression_rating": -0.50,
+ "style_modernity_rating": 0.60,
+ "handling_rating": 0.40,
+ "ride_comfort_rating": -0.30,
+ "cabin_noise_rating": 0.00,
+ "shift_smooth_rating": 0.50,
+ "steering_feel_rating": 0.60,
+ "adas_score": 0.60,
+ "visibility_rating": 0.50,
+ "headlight_rating": 0.50,
+ "security_rating": 0.00,
+ "screen_in": 0.80,
+ "infotainment_ux_rating": 0.80,
+ "smartphone_connect_rating": 1.00,
+ "audio_rating": 0.30,
+ "usb_ports": 0.30,
+ "comfort_feature_score": 0.40,
+ "convenience_feature_score": 0.60,
+ "brand_prestige_rating": 0.80,
+ "model_prestige_rating": 0.20,
+ "trim_prestige_rating": 0.00,
+ "interior_luxury_rating": 0.50,
+ "interior_tech_focus_rating": 0.80
+}
+```

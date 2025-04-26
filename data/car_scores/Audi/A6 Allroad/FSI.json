@@ -1,128 +1,57 @@
-Based on the search results, the Audi A6 Allroad C6 (2006-2011) with the 3.2 FSI V6 engine is a common configuration. Specs found:
-*   Engine: 3.2L V6 FSI (252-256 HP, 243 lb-ft torque) [7, 8, 9, 10]
-*   0-60 mph: ~7.2-7.7 seconds [10, 14] (Some sources say 8.8s [13], but 7.x seems more common for the 3.2 FSI)
-*   Top Speed: ~149-155 mph [6, 8, 9, 10]
-*   Transmission: Tiptronic Automatic or Manual (Manual was standard on some, Auto on others) [10, 17]. Assuming Automatic for scoring as it's common for this segment/era.
-*   Drive: Quattro AWD [1, 2, 6, 7, 8, 9, 10, 11]
-*   MPG (Combined): ~21-25 UK mpg / ~18-21 US mpg [6, 10, 14, 16] (Modern average is ~30 mpg)
-*   CO2: ~262 g/km [10] (Modern average is ~175 g/km)
-*   Size (Length): ~194.25 inches (4934 mm) [2, 6, 9, 10] (Modern Civic is ~183 inches, Escalade > 200 inches) - Large.
-*   Wheelbase: ~111.5 inches (2833 mm) [2, 6, 9, 10] (Skoda Octavia ~105 inches, S-Class > 120 inches) - Long.
-*   Cargo Space: 19.95 - 58.62 cu ft (565 - 1660 L) [2, 6, 9, 10, 11] (Honda Civic ~15 cu ft, Subaru Outback > 35 cu ft) - Excellent for a car, good for a wagon.
-*   Ground Clearance: Adjustable, up to 185mm (~7.3 inches) in lift mode [3, 12, 15]. Average compact crossover is ~6.5 inches, Wrangler > 10 inches. Better than average car.
-*   Turn Radius: 11.9m (~39 ft) [2, 6, 9, 10]. Toyota Camry ~36 ft, F-250 > 45 ft. Slightly worse than average.
-*   ADAS: Minimal (Audi Side Assist mentioned as optional on A6 C6, but likely not standard or as advanced as modern systems) [18]. Defaulting to low score.
-*   Infotainment: MMI system with central screen [21, 24]. Screen size likely small by modern standards (~7" mentioned for aftermarket, original likely smaller or similar) [19, 20]. UX is dated. No modern smartphone connectivity [19, 20].
-*   Used Price (UK): AutoTrader shows C6 Allroads (mostly diesels, but gives an idea) starting around £6,500 [22, 27, 29]. This is well below $10,000 USD. Score: +1.00.
-*   Insurance Group (UK): Parkers lists C6 A6 Allroad insurance groups from 32-41 [23]. Average is around 20-25. This is high. Score: -0.10 to -0.30. Let's use -0.10 as it's not extreme.
-*   Repair Risk: Older luxury Audi, known for potential issues with air suspension, electronics, etc. Score: -0.20.
-*   Maintenance: Older luxury Audi, parts and labor can be expensive. Score: -0.30.
-
-Refined Scores:
-*   price_usd: +1.00 (Used price < $10k)
-*   total_cost_estimate_5yr_usd: -0.20 (Higher maintenance/repair risk for older luxury)
-*   insurance_usd_yr: -0.10 (Moderate to high insurance group)
-*   maint_usd_yr: -0.30 (Higher maintenance costs)
-*   repair_risk_score: -0.20 (Moderate repair risk)
-*   hp (256): 0.20 (Above average for its time, slightly above average today)
-*   torque (243): 0.20 (Above average for its time, slightly above average today)
-*   cylinder_count (V6): 0.00
-*   engine_displacement (3.2L): 0.00
-*   accel_0_60_sec (7.3s): 0.00 (Average today)
-*   top_speed (149 mph): 0.00 (Average today)
-*   drive_type (AWD): 0.00
-*   transmission_type (Automatic): 1.00
-*   offroad_ability: 0.40 (Adjustable air suspension, AWD)
-*   braking_dist_ft: -0.10 (Older tech, likely slightly longer than modern average)
-*   size (194"): 0.30 (Large)
-*   wheelbase (111.5"): 0.30 (Long)
-*   body_style (Wagon): 0.30
-*   seats: 0.00
-*   cargo_space (20-59 cu ft): 0.70 (Excellent for a car)
-*   rear_space: 0.20 (Likely good in a large wagon)
-*   ground_clearance_in (up to 7.3"): 0.40 (Better than average car)
-*   turn_radius_ft (39 ft): -0.10 (Slightly worse than average)
-*   mpg (~20 combined): -0.40 (Below average today)
-*   co2_g_km (~262): -0.40 (High)
-*   electric_range_mi: -1.00
-*   charge_speed_kw: -1.00
-*   style_sleek_vs_boxy: 0.00 (Standard wagon)
-*   style_aggression_rating: 0.00 (Not aggressive)
-*   style_modernity_rating: -0.50 (Dated design)
-*   handling_rating: 0.00 (Competent but not sporty)
-*   ride_comfort_rating: 0.80 (Known for comfortable ride, air suspension)
-*   cabin_noise_rating: 0.80 (Well insulated)
-*   shift_smooth_rating: 0.70 (Good automatic)
-*   steering_feel_rating: -0.20 (Typical older luxury numb)
-*   adas_score: -0.80 (Minimal/basic systems)
-*   visibility_rating: 0.20 (Wagon body style)
-*   headlight_rating: 0.00 (Xenon, average compared to modern LEDs)
-*   security_rating: 0.00 (Standard for its time)
-*   screen_in (~7"): -0.40 (Small by modern standards)
-*   infotainment_ux_rating: -0.50 (Dated MMI)
-*   smartphone_connect_rating: -0.80 (No modern connectivity)
-*   audio_rating: 0.50 (Optional upgrades were good)
-*   usb_ports: 0.00 (Defaulting, likely few/none by modern standards)
-*   comfort_feature_score: 0.30 (Luxury features for its time, but lacks modern ones)
-*   convenience_feature_score: 0.20 (Basic parking aids likely)
-*   brand_prestige_rating: 0.70
-*   model_prestige_rating: 0.00
-*   trim_prestige_rating: 0.00 (Standard engine trim)
-*   interior_luxury_rating: 0.50 (Good materials for its time, dated design)
-*   interior_tech_focus_rating: -0.50 (Minimal screens, physical buttons)
-
-Looks reasonable. Ready to format as JSON.```json
+```json
 {
-  "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": -0.20,
-  "insurance_usd_yr": -0.10,
-  "maint_usd_yr": -0.30,
-  "repair_risk_score": -0.20,
-  "hp": 0.20,
-  "torque": 0.20,
+  "price_usd": -0.50,
+  "total_cost_estimate_5yr_usd": -0.90,
+  "insurance_usd_yr": -0.90,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.10,
+  "hp": 0.50,
+  "torque": 0.50,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.00,
+  "accel_0_60_sec": 0.70,
   "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "offroad_ability": 0.40,
-  "braking_dist_ft": -0.10,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": -0.50,
+  "braking_dist_ft": 0.20,
   "size": 0.30,
   "wheelbase": 0.30,
-  "body_style": 0.30,
+  "body_style": 0.50,
   "seats": 0.00,
   "cargo_space": 0.70,
-  "rear_space": 0.20,
-  "ground_clearance_in": 0.40,
+  "rear_space": 0.50,
+  "ground_clearance_in": 0.00,
   "turn_radius_ft": -0.10,
-  "mpg": -0.40,
-  "co2_g_km": -0.40,
+  "mpg": -0.20,
+  "co2_g_km": -0.20,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.00,
-  "style_modernity_rating": -0.50,
-  "handling_rating": 0.00,
+  "style_sleek_vs_boxy": 0.20,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": 0.70,
+  "handling_rating": 0.20,
   "ride_comfort_rating": 0.80,
-  "cabin_noise_rating": 0.80,
-  "shift_smooth_rating": 0.70,
-  "steering_feel_rating": -0.20,
-  "adas_score": -0.80,
-  "visibility_rating": 0.20,
-  "headlight_rating": 0.00,
+  "cabin_noise_rating": 0.70,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.80,
+  "visibility_rating": 0.50,
+  "headlight_rating": 0.90,
   "security_rating": 0.00,
-  "screen_in": -0.40,
-  "infotainment_ux_rating": -0.50,
-  "smartphone_connect_rating": -0.80,
-  "audio_rating": 0.50,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.30,
-  "convenience_feature_score": 0.20,
-  "brand_prestige_rating": 0.70,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.30,
+  "smartphone_connect_rating": 0.90,
+  "audio_rating": 0.90,
+  "usb_ports": 0.30,
+  "comfort_feature_score": 0.90,
+  "convenience_feature_score": 0.80,
+  "brand_prestige_rating": 0.80,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.50,
-  "interior_tech_focus_rating": -0.50
+  "interior_luxury_rating": 0.90,
+  "interior_tech_focus_rating": 0.80
 }
 ```

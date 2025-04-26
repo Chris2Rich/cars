@@ -1,111 +1,57 @@
-The Mercedes-Benz A-Class A220d is part of the most recent (facelifted W177) A-Class range, available since late 2022/early 2023 [2, 3, 4]. This evaluation is based on the specifications and characteristics of that model, compared to today's automotive market benchmarks.
-
 ```json
 {
-  "price_usd": -0.10,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": -0.20,
-  "torque": 0.50,
-  "cylinder_count": 0.00,
-  "engine_displacement": -0.50,
-  "accel_0_60_sec": 0.00,
-  "top_speed": -0.10,
-  "drive_type": -0.50,
-  "transmission_type": 0.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.00,
-  "body_style": 0.00,
-  "seats": 0.00,
-  "cargo_space": -0.20,
-  "rear_space": -0.50,
-  "ground_clearance_in": -0.50,
-  "turn_radius_ft": 0.80,
-  "mpg": 0.80,
-  "co2_g_km": 0.80,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.50,
-  "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.50,
-  "handling_rating": -0.30,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": 0.30,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": -0.30,
-  "adas_score": 0.50,
-  "visibility_rating": -0.20,
-  "headlight_rating": 0.30,
-  "security_rating": 0.00,
-  "screen_in": 0.50,
-  "infotainment_ux_rating": 0.50,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.00,
-  "usb_ports": 0.30,
-  "comfort_feature_score": 0.30,
-  "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.80,
-  "model_prestige_rating": 1.00,
-  "trim_prestige_rating": 0.50,
-  "interior_luxury_rating": 0.30,
-  "interior_tech_focus_rating": 0.80
+ "price_usd": 0.25,
+ "total_cost_estimate_5yr_usd": -0.10,
+ "insurance_usd_yr": 0.00,
+ "maint_usd_yr": -0.15,
+ "repair_risk_score": -0.10,
+ "hp": 0.00,
+ "torque": 0.25,
+ "cylinder_count": 0.00,
+ "engine_displacement": 0.00,
+ "accel_0_60_sec": 0.15,
+ "top_speed": -0.10,
+ "drive_type": -1.00,
+ "transmission_type": 1.00,
+ "driving_track_vs_gt": 0.50,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.10,
+ "size": 0.00,
+ "wheelbase": 0.00,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": 0.00,
+ "rear_space": -0.10,
+ "ground_clearance_in": -0.80,
+ "turn_radius_ft": 0.00,
+ "mpg": 0.50,
+ "co2_g_km": 0.30,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "handling_rating": 0.00,
+ "ride_comfort_rating": 0.00,
+ "cabin_noise_rating": 0.00,
+ "shift_smooth_rating": 0.20,
+ "steering_feel_rating": 0.00,
+ "adas_score": 0.40,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.30,
+ "security_rating": 0.15,
+ "screen_in": 0.80,
+ "infotainment_ux_rating": 0.30,
+ "smartphone_connect_rating": 0.40,
+ "audio_rating": 0.00,
+ "usb_ports": 0.10,
+ "comfort_feature_score": 0.30,
+ "convenience_feature_score": 0.30,
+ "brand_prestige_rating": 0.80,
+ "model_prestige_rating": 1.00,
+ "trim_prestige_rating": 0.00,
+ "interior_luxury_rating": 0.30,
+ "interior_tech_focus_rating": 0.80,
+ "style_sleek_vs_boxy": 0.40,
+ "style_aggression_rating": 0.00,
+ "style_modernity_rating": 0.80
 }
 ```
-
-**Reasoning for each rating:**
-
-*   **price\_usd (-0.10):** Based on UK pricing starting around £33,180 (~$41k USD) [19], which is slightly above the market average of $35,000.
-*   **total\_cost\_estimate\_5yr\_usd (0.00):** No specific data found for 5-year cost. Defaulted to average.
-*   **insurance\_usd\_yr (0.00):** UK insurance group is around 22E [5], which is around the national average. Defaulted to average.
-*   **maint\_usd\_yr (0.00):** Mercedes maintenance can be higher than average. Specific annual cost data for the A220d facelift was not readily available. Defaulted to average.
-*   **repair\_risk\_score (0.00):** The A-Class generally has an average reputation for reliability, though some potential issues have been noted on earlier W177 models [18]. The facelift is relatively new, so long-term data is limited. Defaulted to average.
-*   **hp (-0.20):** The A220d produces 190 hp (140 kW) [2, 3, 4, 8, 9, 16]. This is close to the market average of ~200 hp.
-*   **torque (0.50):** Torque is 400 Nm (295 lb-ft) [2, 3, 4, 8, 9]. This is significantly above the market average of ~190 lb-ft.
-*   **cylinder\_count (0.00):** Uses a 4-cylinder engine [2, 3, 4, 8, 9, 16]. Average: 0.00.
-*   **engine\_displacement (-0.50):** Uses a 2.0L diesel engine [2, 3, 4, 8, 9, 16, 17]. Smaller than the market average of ~3.0L.
-*   **accel\_0\_60\_sec (0.00):** 0-60 mph is around 6.8 - 7.2 seconds [2, 3, 4, 7, 8]. This range straddles the market average of ~7.5 seconds.
-*   **top\_speed (-0.10):** Top speed is around 146 mph (235 km/h) [2, 3, 4]. Close to the 150mph average. Score: -0.10.
-*   **drive\_type (-0.50):** FWD [2, 3, 8, 16]. Below average: -0.50.
-*   **transmission\_type (0.00):** 8-speed DCT automatic [2, 3, 4, 8, 16]. DCT is 0.00.
-*   **offroad\_ability (1.00):** Low ground clearance (around 3.58 inches) [3]. Poor off-road ability: +1.00.
-*   **braking\_dist\_ft (0.00):** No specific data. Default: 0.00.
-*   **size (0.00):** Hatchback length ~4.43m [2, 3, 21]. Close to 4.6m average. Score: 0.00.
-*   **wheelbase (0.00):** ~2.73m [2, 3, 14, 21]. Close to 2.7m average. Score: 0.00.
-*   **body\_style (0.00):** 5-door Hatchback or 4-door Sedan [2, 3, 4, 25]. Common styles: 0.00.
-*   **seats (0.00):** 5 seats [2, 3, 21]. Average: 0.00.
-*   **cargo\_space (-0.20):** Hatchback boot space ~350 litres (12.36 cu ft) [2, 3, 10, 21]. Below 15 cu ft average. Score: -0.20.
-*   **rear\_space (-0.50):** Noted as tight for adults [20]. Score: -0.50.
-*   **ground\_clearance\_in (-0.50):** Ground clearance is around 3.58 inches (9.1 cm) [3], lower than typical compact crossovers (~6.5").
-*   **turn\_radius\_ft (0.80):** Turning circle is around 11m (36.1 ft) [2, 3, 7]. Better than the market average (~36 ft). Score: 0.80.
-*   **mpg (0.80):** Diesel engine offers excellent fuel economy (around 47-56 MPG US / 56.5-67.26 MPG UK combined) [2, 3, 7]. Well above 30mpg average. Score: 0.80.
-*   **co2\_g\_km (0.80):** Low CO2 emissions for a non-electric car (around 131 g/km) [3]. Significantly lower than 175 g/km average. Score: 0.80.
-*   **electric\_range\_mi (-1.00):** Not an EV or PHEV. Score: -1.00.
-*   **charge\_speed\_kw (-1.00):** Not an EV or PHEV. Score: -1.00.
-*   **style\_sleek\_vs\_boxy (0.50):** Sleek, coupe-like profile [20]. Score: 0.50.
-*   **style\_aggression\_rating (0.00):** Base A220d is not overly aggressive, even in AMG Line trim [19]. Score: 0.00.
-*   **style\_modernity\_rating (0.50):** Modern design that still looks fresh [20]. Score: 0.50.
-*   **handling\_rating (-0.30):** Competent and safe, but less engaging than rivals like the BMW 1 Series [10, 20]. Score: -0.30.
-*   **ride\_comfort\_rating (0.00):** Generally comfortable, but can be unsettled on bumps, particularly with larger wheels [10, 20]. Rated as average.
-*   **cabin\_noise\_rating (0.30):** Noted as being quiet at speed with low road and wind noise [20]. Score: 0.30.
-*   **shift\_smooth\_rating (0.00):** The 8-speed DCT is generally smooth [2, 3]. Score: 0.00.
-*   **steering\_feel\_rating (-0.30):** Steering is light and accurate but lacks feedback [10, 20]. Score: -0.30.
-*   **adas\_score (0.50):** Comes with a good level of standard ADAS features and offers advanced options [as per general A-Class facelift reviews]. Score: 0.50.
-*   **visibility\_rating (-0.20):** Rear quarter blind spots and a small rear window are noted issues [as per previous A-Class searches]. Score: -0.20.
-*   **headlight\_rating (0.30):** LED headlights are standard on higher trims [21]. Score: 0.30.
-*   **security\_rating (0.00):** No specific data. Default: 0.00.
-*   **screen\_in (0.50):** Dual 10.25-inch screens are standard on the facelift [as per general A-Class facelift reviews]. Above average size. Score: 0.50.
-*   **infotainment\_ux\_rating (0.50):** The MBUX system is praised for its intuitive menus, clear displays, and voice control [20]. Score: 0.50.
-*   **smartphone\_connect\_rating (0.80):** Wireless Apple CarPlay and Android Auto are standard on the facelift [as per general A-Class facelift knowledge]. Better than average. Score: 0.80.
-*   **audio\_rating (0.00):** Standard audio system is likely average (6 speakers) [21]. Default: 0.00.
-*   **usb\_ports (0.30):** Multiple USB-C ports are available [as per general W177 knowledge]. Score: 0.30.
-*   **comfort\_feature\_score (0.30):** Includes features like heated front seats and dual-zone climate control on higher trims [21]. Base trim might be lower. Score: 0.30.
-*   **convenience\_feature\_score (0.50):** Standard features include reversing camera and parking sensors [as per general A-Class facelift reviews], with advanced parking aids available. Score: 0.50.
-*   **brand\_prestige\_rating (0.80):** Mercedes-Benz is a highly prestigious brand [20]. Score: 0.80.
-*   **model\_prestige\_rating (1.00):** The A-Class is the entry-level model in the Mercedes range [10, 19], scoring highly on this inverted scale.
-*   **trim\_prestige\_rating (0.50):** The A220d is a mid-range diesel engine option. Trims like AMG Line Premium Plus are higher, while Sport Executive is lower [19]. Averaging for the engine variant.
-*   **interior\_luxury\_rating (0.30):** The interior design is modern and visually appealing with some premium materials, but the presence of some cheaper plastics prevents a higher score [20]. Score: 0.30.
-*   **interior\_tech\_focus\_rating (0.80):** The interior is heavily focused on technology, particularly the large screens and MBUX system [20]. Score: 0.80.
