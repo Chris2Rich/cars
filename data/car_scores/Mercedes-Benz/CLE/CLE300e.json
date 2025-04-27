@@ -1,0 +1,174 @@
+The Mercedes-Benz CLE 300e is a Plug-in Hybrid (PHEV) variant of the CLE Coupe. It combines a 2.0-liter petrol engine with an electric motor.
+
+**Cost & Risk:**
+*   **price_usd:** UK pricing for the CLE 300e starts around £60,555 and goes up to £67,055. This converts to approximately $76,000 - $85,000 USD. This is significantly above the market average of $52,000. Score: -0.40.
+*   **total_cost_estimate_5yr_usd:** PHEVs can have complex systems, and Mercedes-Benz ownership costs are generally high. While potential fuel savings exist, the higher purchase price and potential for expensive repairs likely push the 5-year cost well above average. Score: -0.50.
+*   **insurance_usd_yr:** The CLE 300e is in UK insurance group 45E, which is very high. This indicates high insurance costs, well above the $1,500 average. Score: -1.00.
+*   **maint_usd_yr:** Mercedes-Benz maintenance is typically higher than average. PHEV systems can add complexity. Score: -0.40.
+*   **repair_risk_score:** Mercedes-Benz reliability is generally average to slightly below average. The added complexity of a PHEV system could potentially increase repair risk. Score: -0.20.
+
+**Power & Performance (CLE 300e PHEV):**
+*   **hp:** Total system output is 309 hp (313 PS). This is significantly above the 200 hp average. Score: 0.40.
+*   **torque:** The engine provides 320 Nm (236 lb-ft) and the electric motor adds 440 Nm (324.53 lb-ft). Total system torque is 406 lb-ft. This is very high torque. Score: 0.70.
+*   **cylinder_count:** It has a 4-cylinder engine. Below average. Score: -0.20.
+*   **engine_displacement:** It has a 2.0L engine. Around average. Score: -0.10.
+*   **accel_0_60_sec:** 0-60 mph is 6.3 seconds. 0-62 mph (0-100 km/h) is 6.3 seconds. This is faster than the 7.5-second average. Score: 0.20.
+*   **top_speed:** Top speed is 147 mph. Around the 150 mph average. Score: 0.00.
+*   **drive_type:** Rear-wheel drive (RWD). Score: +1.00.
+*   **transmission_type:** It uses a 9G-TRONIC 9-speed automatic transmission. A modern automatic. Score: 1.00.
+*   **driving_track_vs_gt:** Like other CLE models, it leans towards GT/daily driver comfort, though the added weight of the PHEV system can impact handling compared to petrol variants. Score: 0.30.
+*   **offroad_ability:** Low ground clearance, performance focus. No off-road capability. Score: 1.00.
+*   **braking_dist_ft:** Features a braking system with larger discs on the front axle. No specific distance found, but likely good due to performance focus, though some reviews note pedal feel issues on other CLE models. Score: 0.20.
+
+**Space & Practicality:**
+*   **size:** Length is 4850mm (190.94 inches). Larger than average. Score: 0.30.
+*   **wheelbase:** Wheelbase is 2865mm (112.8 inches). Longer than average. Score: 0.30.
+*   **body_style:** 2-door coupe. Score: -1.00.
+*   **seats:** 4 seats. Score: -0.50.
+*   **cargo_space:** Trunk volume is 290 liters (10.24 cu ft). This is significantly reduced compared to the standard CLE coupe (420L) due to the battery. Well below the 15 cu ft average. Score: -0.80.
+*   **rear_space:** Rear legroom is 888mm (34.96 inches). Below the 35" average but decent for a coupe. Score: -0.10.
+*   **ground_clearance_in:** Height is 1429mm (56.26 inches). Ground clearance is low, typical for a coupe. Score: 0.50.
+*   **turn_radius_ft:** Turning circle is 11.2m (36.75 ft). Around the 36 ft average. Score: 0.00.
+
+**Efficiency & Electrification:**
+*   **mpg:** Combined WLTP is 470.8 mpg. This is a theoretical figure for PHEVs. Real-world petrol consumption will vary greatly depending on electric use. Score: 1.00 (based on official figure).
+*   **co2_g_km:** Combined WLTP is 13 g/km. Very low due to electric capability. Score: 0.90.
+*   **electrification:** Plug-in Hybrid Electric Vehicle (PHEV). Score: 0.00.
+*   **electric_range_mi:** WLTP electric range is up to 69 miles. This is a very good electric range for a PHEV. Score: 0.80.
+*   **charge_speed_kw:** No specific charge speed (kW) found in the search results. Default to average. Score: 0.00.
+
+**Ride & Dynamics:**
+*   **handling_rating:** Reviews note the added weight (2100 kg / 4629.71 lbs curb weight) impacts handling, making it feel less agile and potentially "wallowy" compared to petrol models. Score: -0.30.
+*   **ride_comfort_rating:** Reviews are mixed; some praise the low-speed ride, while others find it unsettled at higher speeds or note discomfort from seats. Score: 0.00.
+*   **cabin_noise_rating:** Generally quiet, but engine noise can be present when the petrol engine kicks in. Score: 0.60.
+*   **shift_smooth_rating:** The 9G-TRONIC transmission is generally smooth. Score: 0.80.
+*   **steering_feel_rating:** Steering is likely similar to other CLE models - precise but potentially lacking feedback. Score: 0.00.
+
+**Safety & Visibility:**
+*   **adas_score:** Comes with a comprehensive suite of standard ADAS features (Active Brake Assist, Blind Spot Assist, Parking Assist with PARKTRONIC, rearview camera). Optional Driver Assistance Package Plus adds more. Score: 0.70.
+*   **visibility_rating:** Similar to other CLE coupe models, rear visibility is somewhat limited. Score: -0.20.
+*   **headlight_rating:** Features LED Headlamps standard, with optional DIGITAL LIGHT. Good standard, excellent optional. Score: 0.70.
+*   **security_rating:** Features anti-theft alarm system. GUARD 360° system likely available. Score: 0.80.
+
+**Infotainment & Connectivity:**
+*   **screen_in:** 12.3-inch digital gauge display and 11.9-inch central touchscreen. Large screens. Score: 0.80.
+*   **infotainment_ux_rating:** Latest MBUX system, generally praised for responsiveness and features, but touch-sensitive steering wheel controls can be frustrating. Score: 0.70.
+*   **smartphone_connect_rating:** Standard wireless Apple CarPlay and Android Auto. Score: 1.00.
+*   **audio_rating:** Standard audio system, with optional Burmester 3D Surround Sound System. Assume standard is decent, optional is excellent. Score: 0.50.
+*   **usb_ports:** Features USB package Plus with multiple USB-C ports. Score: 0.50.
+
+**Comfort & Convenience:**
+*   **comfort_feature_score:** Features heated front seats with memory, dual-zone climate control, power seats, ambient lighting standard. Available ventilated and massaging seats. Some reviews note discomfort from the seats themselves. Score: 0.60.
+*   **convenience_feature_score:** Features Parking Package with rearview camera standard, 360° camera available. Keyless entry/go, hands-free trunk access available. Score: 0.70.
+
+**Style, Brand & Interior Character:**
+*   **interior_luxury_rating:** Interior uses premium materials, described as high-quality and luxurious, though some reviews note cheaper plastics in places. Score: 0.70.
+*   **interior_tech_focus_rating:** Features large digital screens, MBUX, voice control, biometric scanner, ambient lighting. Very tech-focused. Score: 0.90.
+*   **brand_prestige_rating:** Mercedes-Benz is a high-prestige brand. Score: 0.80.
+*   **model_prestige_rating:** The CLE replaces the C and E-Class coupes, positioning it as a mid-range luxury coupe within the brand. Score: 0.00.
+*   **trim_prestige_rating:** CLE 300e is a specific powertrain option, available across different trim levels (AMG Line Premium, Premier Edition). It's not the base engine, but also not the top AMG performance model. Score: 0.00.
+*   **style_sleek_vs_boxy:** Described with sleek, elegant lines and a coupe-like profile. Score: 0.80.
+*   **style_aggression_rating:** Standard styling is elegant and athletic, but not overly aggressive. AMG Line adds sportier styling. Score: 0.00.
+*   **style_modernity_rating:** All-new model with modern design language and interior tech. Score: 0.80.
+
+Refining scores based on gathered data and benchmarks.
+Price is high for a non-AMG model. -0.40 is fine.
+Insurance group 45E is very high. -1.00 is correct.
+Maintenance is high. -0.40 is fine.
+Repair risk is slightly below average. -0.20 is fine.
+HP/Torque are good for a non-AMG. 0.40/0.70 are fine.
+Cylinder count/Engine displacement are average/below average. -0.20/-0.10 are fine.
+Accel is faster than average. 0.20 is fine.
+Top speed is average. 0.00 is fine.
+Drive type is RWD. 1.00 is correct.
+Transmission is modern auto. 1.00 is correct.
+Driving type leans GT/Daily, but weight impacts it. 0.30 is fine.
+Offroad is poor. 1.00 is correct.
+Braking is likely good, but no specific data. 0.20 is a reasonable estimate.
+Size/Wheelbase are larger than average. 0.30 is fine.
+Body style/Seats are typical coupe. -1.00/-0.50 are fine.
+Cargo space is significantly reduced by the battery. -0.80 is correct.
+Rear space is decent for a coupe. -0.10 is fine.
+Ground clearance is low. 0.50 is fine.
+Turn radius is average. 0.00 is fine.
+MPG/CO2 are excellent due to PHEV system. 1.00/0.90 are correct based on official figures.
+Electrification is PHEV. 0.00 is correct.
+Electric range is very good for a PHEV. 0.80 is correct.
+Charge speed is unknown. 0.00 is correct.
+Handling is impacted by weight. -0.30 is correct.
+Ride comfort is mixed. 0.00 is fine.
+Cabin noise is generally good. 0.60 is fine.
+Shift smooth is good. 0.80 is fine.
+Steering feel is average. 0.00 is fine.
+ADAS is good. 0.70 is fine.
+Visibility is a coupe weakness. -0.20 is fine.
+Headlights are good. 0.70 is fine.
+Security is good. 0.80 is fine.
+Screens/Infotainment/Smartphone connect are strong points. 0.80/0.70/1.00 are fine.
+Audio is decent standard, excellent optional. 0.50 is fine.
+USB ports are multiple USB-C. 0.50 is fine.
+Comfort features are good, but seat comfort is questioned. 0.60 is a slight adjustment.
+Convenience features are good. 0.70 is fine.
+Brand prestige is high. 0.80 is fine.
+Model prestige is mid-range. 0.00 is fine.
+Trim prestige is a powertrain option, not base or top performance. 0.00 is fine.
+Style is sleek and modern. 0.80/0.80 are fine.
+Aggression is low for the standard model. 0.00 is fine.
+
+Looks consistent with the data and scoring guide.```json
+{
+  "price_usd": -0.40,
+  "total_cost_estimate_5yr_usd": -0.50,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -0.40,
+  "repair_risk_score": -0.20,
+  "hp": 0.40,
+  "torque": 0.70,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.10,
+  "accel_0_60_sec": 0.20,
+  "top_speed": 0.00,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.30,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.20,
+  "size": 0.30,
+  "wheelbase": 0.30,
+  "body_style": -1.00,
+  "seats": -0.50,
+  "cargo_space": -0.80,
+  "rear_space": -0.10,
+  "ground_clearance_in": 0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": 1.00,
+  "co2_g_km": 0.90,
+  "electrification": 0.00,
+  "electric_range_mi": 0.80,
+  "charge_speed_kw": 0.00,
+  "style_sleek_vs_boxy": 0.80,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.80,
+  "handling_rating": -0.30,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.60,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.70,
+  "visibility_rating": -0.20,
+  "headlight_rating": 0.70,
+  "security_rating": 0.80,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.70,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.50,
+  "usb_ports": 0.50,
+  "comfort_feature_score": 0.60,
+  "convenience_feature_score": 0.70,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": 0.90
+}
+```

@@ -1,51 +1,140 @@
-```json
+The Porsche 911 Edition 50 Years Porsche Design (992) is a limited edition model based on the 911 Targa 4 GTS. It was produced for the 2022 model year to celebrate the 50th anniversary of Porsche Design. Only 750 units were made.
+
+-   **price_usd**: The starting price was $183,800 or $197,200 depending on the source. Market values are significantly higher, ranging from $191,000 to $226,000. This is well above the $120,000 threshold. Score: -1.00.
+-   **total_cost_estimate_5yr_usd**: High purchase price, insurance, and maintenance costs for a limited-edition, high-performance Porsche will result in a very high 5-year cost, likely well over $80,000. Score: -1.00.
+-   **insurance_usd_yr**: As a high-value, high-performance, limited-edition Porsche, the Edition 50 Years Porsche Design will be in the highest insurance groups. Costs will be well over $3,500/year. Score: -1.00.
+-   **maint_usd_yr**: Porsche maintenance is expensive, and a specialized, limited-edition model could incur even higher costs. Likely well over $3,500/year on average. Score: -1.00.
+-   **repair_risk_score**: Based on the 992 Targa 4 GTS, which is generally considered reliable. Score: 0.80.
+-   **hp**: Based on the 911 Targa 4 GTS, it has 473-480 hp. This is well above the 200 hp average and a good way towards the >700 hp benchmark. Score: 0.80.
+-   **torque**: Based on the 911 Targa 4 GTS, it has 420 lb-ft (570 Nm). This is well above the 190 lb-ft average and a good way towards the >1000 lb-ft benchmark. Score: 0.70.
+-   **cylinder_count**: Flat-6 (H6). Score: 0.00.
+-   **engine_displacement**: 3.0L (2981 cc) twin-turbocharged flat-six. Around 3.0L is 0.00, >6.0L is +1.00. 3.0L is around average for performance cars. Score: 0.00.
+-   **accel_0_60_sec**: Porsche claims 3.3 seconds. 0-62 mph (0-100 kph) is 3.5 seconds. <2.5s is +1.00, ~7.5s is 0.00. 3.3 seconds is exceptionally fast, very close to the benchmark. Score: 0.90.
+-   **top_speed**: 190-191 mph (307 km/h). >222mph is +1.00, 150mph is 0.00. 190-191 mph is well above average. Score: 0.80.
+-   **drive_type**: All-wheel drive (AWD) is standard (based on Targa 4 GTS). Score: 0.00.
+-   **transmission_type**: 8-speed PDK (dual-clutch) is standard, with a 7-speed manual available as a no-cost option. Dual-Clutch is 0.00, Manual is -1.00. Since both were available, average to -0.50.
+-   **driving_track_vs_gt**: Based on the Targa 4 GTS, it's a versatile grand tourer with high-performance capabilities. Score: 0.20.
+-   **offroad_ability**: Not designed for off-road. Low ground clearance. Score: 1.00.
+-   **braking_dist_ft**: Features high-performance brakes, the same as the 911 Turbo. Porsche brakes are typically excellent, likely <110 ft. Score: 0.90.
+-   **size**: Length 4533 mm (178.5 in). Width 1852 mm (72.9 in). Height 1299 mm (51.1 in). ~4600mm (~181in) is 0.00. Slightly smaller than average. Score: -0.20.
+-   **wheelbase**: 2450 mm (96.5 in). ~2700mm is 0.00, <2300mm is -1.00. Closer to -1.00. Score: -0.50.
+-   **body_style**: 2-door Targa. The Targa is a specific body style unique to the 911, combining elements of coupe and convertible. It's not a standard coupe, sedan, or van. Score: 0.00. (Using 0.00 as it doesn't fit the defined -1.00, 0.00, +1.00 body styles).
+-   **seats**: 4 seats (2+2 arrangement). Rear seats are small. Score: -0.80.
+-   **cargo_space**: Front luggage compartment 132-133 liters (4.6-4.7 cu ft). <5 cu ft is -1.00, ~15 cu ft is 0.00. Score: -1.00.
+-   **rear_space**: Minimal legroom in rear seats. Score: -1.00.
+-   **ground_clearance_in**: 1299 mm height. Ground clearance is low. Score: -0.80.
+-   **turn_radius_ft**: 11.2 m (36.7 ft). ~36 ft is 0.00. Score: 0.00.
+-   **mpg**: EPA combined 19 mpg. City/Highway 17/22 MPG. WLTP combined 10.8-11.3 l/100 km (20.8-21.8 mpg). ~30 mpg is 0.00, ~12 mpg is -1.00. Real-world is likely below average. Score: -0.20.
+-   **co2_g_km**: WLTP combined 245-257 g/km. NEDC combined 221-243 g/km. ~175 g/km is 0.00, >300 g/km is -1.00. High emissions. Score: -0.50.
+-   **electrification**: Petrol engine only. Score: -1.00.
+-   **electric_range_mi**: Not electric. Score: -1.00.
+-   **charge_speed_kw**: Not electric. Score: -1.00.
+-   **style_sleek_vs_boxy**: Sleek sports car profile with the distinctive Targa bar. Score: 0.80.
+-   **style_aggression_rating**: Aggressive styling cues from the GTS and Turbo S wheels. Score: 0.70.
+-   **style_modernity_rating**: Modern design with retro-inspired elements (Targa bar, interior pattern). Score: 0.50.
+-   **handling_rating**: Exceptional handling, precise steering, great agility (based on Targa 4 GTS). Score: 1.00.
+-   **ride_comfort_rating**: Comfortable ride quality for a sports car, despite being based on the GTS. Score: 0.50.
+-   **cabin_noise_rating**: Some resonance inside the cabin, especially with the roof down. Less interior insulation than standard GTS. Score: -0.50.
+-   **shift_smooth_rating**: 8-speed PDK dual-clutch transmission is excellent. Score: 0.80.
+-   **steering_feel_rating**: Lovely steering, crisp, pure-feeling. Score: 1.00.
+-   **adas_score**: Standard features include ParkAssist (front and rear), rearview camera. Optional features include Adaptive Cruise Control, Lane Change Assist, Night View Assist, Surround View, Active Parking Support. More comprehensive than older models. Score: 0.80.
+-   **visibility_rating**: Limited visibility typical of sports coupes/Targas, especially rearward with the Targa bar. Score: -0.20.
+-   **headlight_rating**: LED headlights standard. Optional adaptive Matrix-LED with PDLS Plus likely available. Score: 0.80.
+-   **security_rating**: High value, limited edition car. Likely has advanced security features including a tracking system. Score: 0.90.
+-   **screen_in**: 10.9-inch touchscreen infotainment system. Score: 0.80.
+-   **infotainment_ux_rating**: PCM system with touchscreen, navigation, Apple CarPlay, Android Auto. Generally well-regarded. Score: 0.50.
+-   **smartphone_connect_rating**: Apple CarPlay and Android Auto available. Score: 0.80.
+-   **audio_rating**: Bose Surround Sound System standard. Excellent quality. Score: 0.80.
+-   **usb_ports**: Likely multiple USB ports. Score: 0.00.
+-   **comfort_feature_score**: 18-way electrically adjustable Adaptive Sports Seats Plus with a memory package standard. Heated seats likely standard or optional. Dual-zone climate control standard. High level of comfort features available. Score: 0.80.
+-   **convenience_feature_score**: Sport Chrono Package standard. Comfort Access, ParkAssist, Surround View, Front Axle Lift system likely available/standard. High level of convenience features available. Score: 0.80.
+-   **brand_prestige_rating**: Porsche is a high-prestige brand. Score: 1.00.
+-   **model_prestige_rating**: The 911 is Porsche's halo model. Score: -1.00.
+-   **trim_prestige_rating**: Limited edition, highly exclusive trim. Score: -1.00.
+-   **interior_luxury_rating**: High-quality materials (leather, Sport-Tex with classic check pattern, carbon fiber options). High level of luxury with unique design elements. Score: 0.90.
+-   **interior_tech_focus_rating**: Features a large central touchscreen and digital elements in the cluster, but retains physical controls. Not as screen-forward as some newest cars. Score: 0.50.
+
+Final review of scores:
+- Price, Total Cost, Insurance, Maint: -1.00 seems correct for a limited-edition, high-end Porsche.
+- Repair Risk: 0.80 seems fair for generally good reliability of the base car.
+- Performance (HP, Torque, Accel, Top Speed, Braking): High scores are appropriate.
+- Engine Details (Cylinders, Displacement): 0.00 seems correct.
+- Drive Type: 0.00 for AWD. Correct.
+- Transmission: -0.50 for PDK/Manual option. Correct.
+- Driving Track vs GT: 0.20 for Performance GT blend. Correct.
+- Offroad Ability: 1.00 for none. Correct.
+- Braking Dist: 0.90 for excellent. Correct.
+- Size: -0.20 (Slightly smaller than average) - Seems reasonable.
+- Wheelbase: -0.50 (Shorter than average) - Seems reasonable.
+- Body Style: 0.00 for Targa (unique). Correct based on guide limitations.
+- Seats: -0.80 for 2+2. Correct.
+- Cargo Space: -1.00 for small frunk. Correct.
+- Rear Space: -1.00 for minimal. Correct.
+- Ground Clearance: -0.80 (Low) - Seems reasonable.
+- Turn Radius: 0.00 (~36-37ft) - Correct.
+- Efficiency (MPG, CO2): Below average/high emissions. -0.20/-0.50 seem correct.
+- Electrification: -1.00 for petrol. Correct.
+- Electric Range/Charge Speed: -1.00 for N/A. Correct.
+- Style: High scores for sleek, aggressive, modern-retro. 0.80/0.70/0.50 seem reasonable.
+- Dynamics (Handling, Steering): 1.00/1.00 for exceptional. Correct.
+- Ride Comfort, Cabin Noise: 0.50/-0.50 for comfortable ride but increased noise. Correct.
+- Shift Smooth: 0.80 for excellent PDK. Correct.
+- Safety/Visibility (ADAS, Visibility, Headlights, Security): Higher scores for ADAS/Headlights/Security, lower for Visibility. 0.80/-0.20/0.80/0.90 seem reasonable.
+- Infotainment/Connectivity (Screen, UX, Smartphone, Audio, USB): High scores for modern tech. 0.80/0.50/0.80/0.80/0.00 seem reasonable.
+- Features (Comfort, Convenience): High scores for available features. 0.80/0.80 seem reasonable.
+- Prestige (Brand, Model, Trim): High scores for Brand/Model, highest for Trim. 1.00/-1.00/-1.00 seem correct.
+- Interior Character (Luxury, Tech Focus): 0.90/0.50 seem reasonable for high quality, unique, and tech-integrated interior.
+
+Looks good. Proceed with JSON output.```json
 {
   "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
   "maint_usd_yr": -1.00,
-  "repair_risk_score": 0.50,
-  "hp": 0.85,
-  "torque": 0.75,
+  "repair_risk_score": 0.80,
+  "hp": 0.80,
+  "torque": 0.70,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.95,
-  "top_speed": 0.95,
+  "accel_0_60_sec": 0.90,
+  "top_speed": 0.80,
   "drive_type": 0.00,
-  "transmission_type": 0.00,
+  "transmission_type": -0.50,
+  "driving_track_vs_gt": 0.20,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 1.00,
-  "size": 0.00,
-  "wheelbase": -0.75,
-  "body_style": -1.00,
-  "seats": -0.75,
+  "braking_dist_ft": 0.90,
+  "size": -0.20,
+  "wheelbase": -0.50,
+  "body_style": 0.00,
+  "seats": -0.80,
   "cargo_space": -1.00,
   "rear_space": -1.00,
-  "ground_clearance_in": -0.75,
+  "ground_clearance_in": -0.80,
   "turn_radius_ft": 0.00,
-  "mpg": -0.50,
-  "co2_g_km": -0.75,
+  "mpg": -0.20,
+  "co2_g_km": -0.50,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.75,
-  "style_aggression_rating": 0.50,
+  "style_sleek_vs_boxy": 0.80,
+  "style_aggression_rating": 0.70,
   "style_modernity_rating": 0.50,
   "handling_rating": 1.00,
-  "ride_comfort_rating": 0.00,
+  "ride_comfort_rating": 0.50,
   "cabin_noise_rating": -0.50,
-  "shift_smooth_rating": 0.75,
+  "shift_smooth_rating": 0.80,
   "steering_feel_rating": 1.00,
-  "adas_score": 0.75,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.75,
-  "security_rating": 0.75,
-  "screen_in": 0.50,
-  "infotainment_ux_rating": 0.75,
-  "smartphone_connect_rating": 0.75,
-  "audio_rating": 0.75,
+  "adas_score": 0.80,
+  "visibility_rating": -0.20,
+  "headlight_rating": 0.80,
+  "security_rating": 0.90,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.80,
   "usb_ports": 0.00,
-  "comfort_feature_score": 0.75,
-  "convenience_feature_score": 0.75,
+  "comfort_feature_score": 0.80,
+  "convenience_feature_score": 0.80,
   "brand_prestige_rating": 1.00,
   "model_prestige_rating": -1.00,
   "trim_prestige_rating": -1.00,

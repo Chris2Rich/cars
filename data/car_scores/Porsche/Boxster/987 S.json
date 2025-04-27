@@ -1,109 +1,57 @@
 ```json
 {
-  "price_usd": 0.40,
-  "total_cost_estimate_5yr_usd": -0.30,
-  "insurance_usd_yr": -0.40,
-  "maint_usd_yr": -0.40,
-  "repair_risk_score": -0.30,
-  "hp": 0.40,
-  "torque": 0.20,
-  "cylinder_count": 0.40,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.50,
-  "top_speed": 0.50,
-  "drive_type": 1.00,
-  "transmission_type": 0.00,
-  "offroad_ability": -1.00,
-  "braking_dist_ft": 0.40,
-  "size": -0.30,
-  "wheelbase": -0.30,
-  "body_style": -1.00,
-  "seats": -1.00,
-  "cargo_space": -0.70,
-  "rear_space": -1.00,
-  "ground_clearance_in": -1.00,
-  "turn_radius_ft": 0.00,
-  "mpg": -0.40,
-  "co2_g_km": -0.30,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.70,
-  "style_aggression_rating": 0.50,
-  "style_modernity_rating": -0.50,
-  "handling_rating": 1.00,
-  "ride_comfort_rating": 0.60,
-  "cabin_noise_rating": -0.40,
-  "shift_smooth_rating": 0.30,
-  "steering_feel_rating": 1.00,
-  "adas_score": -0.90,
-  "visibility_rating": -0.20,
-  "headlight_rating": 0.00,
-  "security_rating": 0.30,
-  "screen_in": -0.80,
-  "infotainment_ux_rating": -0.70,
-  "smartphone_connect_rating": -0.90,
-  "audio_rating": 0.20,
-  "usb_ports": -0.90,
-  "comfort_feature_score": 0.00,
-  "convenience_feature_score": -0.20,
-  "brand_prestige_rating": 1.00,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.20,
-  "interior_tech_focus_rating": -0.80
+ "price_usd": 0.70,
+ "total_cost_estimate_5yr_usd": -0.60,
+ "insurance_usd_yr": -0.80,
+ "maint_usd_yr": -0.70,
+ "repair_risk_score": 0.70,
+ "hp": 0.50,
+ "torque": 0.30,
+ "cylinder_count": 0.30,
+ "engine_displacement": 0.00,
+ "accel_0_60_sec": 0.80,
+ "top_speed": 0.50,
+ "drive_type": 1.00,
+ "transmission_type": 0.00,
+ "driving_track_vs_gt": -0.50,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.80,
+ "size": -0.50,
+ "wheelbase": -0.50,
+ "body_style": -0.50,
+ "seats": -1.00,
+ "cargo_space": -0.80,
+ "rear_space": -1.00,
+ "ground_clearance_in": -0.80,
+ "turn_radius_ft": 0.00,
+ "mpg": -0.20,
+ "co2_g_km": -0.40,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": 0.50,
+ "style_aggression_rating": 0.50,
+ "style_modernity_rating": -0.50,
+ "handling_rating": 1.00,
+ "ride_comfort_rating": 0.50,
+ "cabin_noise_rating": 0.00,
+ "shift_smooth_rating": 0.80,
+ "steering_feel_rating": 1.00,
+ "adas_score": -0.80,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.50,
+ "security_rating": 0.00,
+ "screen_in": -0.50,
+ "infotainment_ux_rating": -0.80,
+ "smartphone_connect_rating": -1.00,
+ "audio_rating": 0.00,
+ "usb_ports": -1.00,
+ "comfort_feature_score": 0.50,
+ "convenience_feature_score": -0.50,
+ "brand_prestige_rating": 0.80,
+ "model_prestige_rating": 0.00,
+ "trim_prestige_rating": 0.00,
+ "interior_luxury_rating": 0.50,
+ "interior_tech_focus_rating": -1.00
 }
 ```
-
-**Reasoning for each rating:**
-
-*   **price_usd**: Used Porsche Boxster 987 S models are available in a wide price range, often starting below $25,000 for earlier, higher-mileage examples and going up to $40,000+ for later 987.2 models or those in excellent condition [Used market search results]. A significant portion of the market is below the average new car price of ~$35,000, warranting a positive score. Score: 0.40.
-*   **total_cost_estimate_5yr_usd**: While initial purchase can be affordable, Porsche ownership costs (maintenance, insurance, and potential repairs, particularly for 987.1 models) are higher than average. This pushes the total 5-year cost above the typical $40,000. Score: -0.30.
-*   **insurance_usd_yr**: The Boxster S falls into high UK insurance groups (40s) [34, 27], indicating annual insurance costs significantly above the national average of ~$1,500. Score: -0.40.
-*   **maint_usd_yr**: Porsche maintenance is consistently more expensive than average. Routine servicing and potential repairs are costly, even at independent specialists [11, 24, 27]. Score: -0.40.
-*   **repair_risk_score**: The 987.1 S models are known for potential, albeit relatively rare, catastrophic issues like IMS bearing failure and bore scoring [3, 28, 29, 31]. The 987.2 S (2009-2012) with the 9A1 engine is considered more reliable [26, 31]. Rear Main Seal (RMS) leaks are also common [3, 28, 29]. Averaging the risk across the generation, it's higher than average due to the 987.1 concerns. Score: -0.30.
-*   **hp**: The 987.1 Boxster S had 280-295 hp (3.2L/3.4L) [4, 7, 9, 10, 14, 16, 17], and the 987.2 S had 310 hp (3.4L DFI) [5, 6, 13, 21, 37]. All variants offer horsepower figures comfortably above the average car's ~200 hp. Score: 0.40.
-*   **torque**: Torque figures range from 236 lb-ft (987.1 3.2L) to 265 lb-ft (987.2 3.4L) [4, 7, 9, 10, 14, 16, 17, 21]. These are above the average car's ~190 lb-ft. Score: 0.20.
-*   **cylinder_count**: All 987 Boxster S models are powered by a 6-cylinder boxer engine [4, 5, 7, 9, 10, 16, 17, 21]. Score: 0.40.
-*   **engine_displacement**: Engine displacements are 3.2L or 3.4L [4, 7, 9, 10, 16, 17, 21]. This range is centered around the 3.0L average benchmark. Score: 0.00.
-*   **accel_0_60_sec**: 0-60 mph times vary from around 4.8 seconds (987.2 S PDK w/ Sport Chrono) to 5.5 seconds (987.1 S manual) [4, 9, 10, 14, 16, 17, 23, 32]. These times are significantly faster than the average car's ~7.5 seconds. Score: 0.50.
-*   **top_speed**: Top speeds range from approximately 162 mph (987.1 S Tiptronic) to 174 mph (987.2 S PDK) [9, 10, 14, 16, 17, 33]. All variants exceed the average car's ~150 mph top speed. Score: 0.50.
-*   **drive_type**: The Boxster 987 S is Rear-Wheel Drive (RWD) [4, 5, 9, 10, 16, 17, 35]. Score: 1.00.
-*   **transmission_type**: The 987 S was offered with a 6-speed manual [4, 7, 9, 10, 14, 16, 17], a 5-speed Tiptronic S automatic (987.1) [9, 10, 16], and a 7-speed PDK dual-clutch transmission (987.2) [2, 5, 6, 13, 19, 21]. The availability of Manual (-1.00), Tiptronic (+1.00), and PDK (0.00) results in an average score across the generation. Score: 0.00.
-*   **offroad_ability**: As a low-slung sports car, the Boxster 987 S has no off-road capability. Score: -1.00.
-*   **braking_dist_ft**: The Boxster S features larger brakes than the base model [6, 9, 10, 16], and Porsche vehicles are known for excellent braking performance. Expected to perform better than the average car (~125 ft). Score: 0.40.
-*   **size**: The length of the 987 Boxster S (~4329-4359 mm) [2, 9, 10, 16, 17, 21, 34, 35] is smaller than the average modern sedan/hatchback (~4600mm). Score: -0.30.
-*   **wheelbase**: The wheelbase (~2415-2416 mm) [2, 5, 9, 10, 16, 17, 21, 34, 35] is shorter than the average modern car (~2700mm). Score: -0.30.
-*   **body_style**: The Boxster is a 2-door roadster/convertible [2, 5, 17, 35]. Score: -1.00.
-*   **seats**: The Boxster is a 2-seater [2, 4, 5, 8, 17, 35]. Score: -1.00.
-*   **cargo_space**: The 987 S has split front and rear trunks, offering a combined cargo volume of around 9.9-10 cu ft [5, 17]. This is significantly less than the average car's cargo space. Score: -0.70.
-*   **rear_space**: As a 2-seater, there is no rear space. Score: -1.00.
-*   **ground_clearance_in**: Ground clearance is low, typical for a sports car (~4.0-4.4 inches, lower with PASM) [5, 20, 21, 38]. This is well below the average crossover (~6.5 inches). Score: -1.00.
-*   **turn_radius_ft**: The turning circle is listed around 36 feet [17], which matches the average benchmark. Score: 0.00.
-*   **mpg**: Combined fuel economy figures for the 987 S range from roughly 19-21 mpg (987.1) to 22-23 mpg (987.2) [4, 7, 9, 10, 15, 16, 21]. This is generally below the average modern car's ~30 mpg. Score: -0.40.
-*   **co2_g_km**: CO2 emissions range from approximately 214-254 g/km [4, 5, 6, 7, 15, 21, 35]. These figures are above the average modern car's ~175 g/km. Score: -0.30.
-*   **electric_range_mi**: The Porsche Boxster 987 S is not an electric vehicle. Score: -1.00.
-*   **charge_speed_kw**: The Porsche Boxster 987 S is not an electric vehicle. Score: -1.00.
-*   **style_sleek_vs_boxy**: The Boxster features a classic, sleek sports car profile. Score: 0.70.
-*   **style_aggression_rating**: The 'S' trim adds some sporty visual cues (e.g., twin tailpipes, red calipers) [13], making it slightly more aggressive than the base model, but not overtly so. Score: 0.50.
-*   **style_modernity_rating**: The design dates from 2005-2012. While considered a timeless design by many, it is visually a generation or two older than current automotive styling trends. Score: -0.50.
-*   **handling_rating**: The 987 Boxster chassis, particularly the S model with its enhanced suspension options (like PASM), is universally acclaimed for its exceptional handling, balance, and mid-engine dynamics. Score: 1.00.
-*   **ride_comfort_rating**: For a sports car, the 987 S offers a relatively comfortable ride, especially with optional PASM in its softer setting, providing a good balance for daily driving or touring [4]. Score: 0.60.
-*   **cabin_noise_rating**: As a convertible sports car with the engine located behind the occupants, cabin noise levels are generally higher than in a typical sedan or luxury car, particularly at speed or with the top down. Score: -0.40.
-*   **shift_smooth_rating**: The 6-speed manual is praised for its feel. The 987.2's PDK is known for smooth and fast shifts (1.00). The older 987.1 Tiptronic automatic is less refined than modern automatics. Averaging the experience across the available transmissions. Score: 0.30.
-*   **steering_feel_rating**: The hydraulic power steering system in the 987 is highly regarded for its directness, feedback, and communication, often preferred by enthusiasts over the electric systems in later models. Score: 1.00.
-*   **adas_score**: The 987 S offered minimal ADAS features, primarily limited to basic stability control (PSM) and ABS [13]. It lacked modern safety technologies like adaptive cruise control, blind-spot monitoring, or automatic emergency braking [37]. Score: -0.90.
-*   **visibility_rating**: Visibility is generally good with the top down. With the soft top up, rear visibility is limited, which is typical for a convertible. Score: -0.20.
-*   **headlight_rating**: The 987 S offered Halogen and optional Bi-Xenon headlights [5]. These were good for their time but are not as advanced as modern adaptive matrix LED systems. Score: 0.00.
-*   **security_rating**: Standard security features for a premium vehicle of its era would be included, likely above basic but not featuring the most advanced modern security systems. Score: 0.30.
-*   **screen_in**: The optional PCM infotainment system featured a relatively small screen (6.5-7 inches if touchscreen) [5, 30, 37], significantly smaller than average modern displays. Score: -0.80.
-*   **infotainment_ux_rating**: The PCM infotainment system from the 987 era is dated in terms of interface design, speed, and functionality compared to modern systems [26]. Score: -0.70.
-*   **smartphone_connect_rating**: Connectivity was limited to Bluetooth for phone calls (optional) and potentially an iPod connection [30]. Modern smartphone integration like Apple CarPlay or Android Auto was not available from the factory, although aftermarket solutions exist [25, 30, 36]. Scoring based on original features. Score: -0.90.
-*   **audio_rating**: Optional upgraded audio systems (like Bose or Burmester) were available [5, 30], providing better-than-average sound quality. The base system was likely average. Score: 0.20.
-*   **usb_ports**: The 987 likely had very limited or no standard USB ports originally, possibly featuring an older iPod connector instead [30, 36]. Score: -0.90.
-*   **comfort_feature_score**: Available comfort features included power seats, heated seats, and climate control [13], which are above basic but not as extensive as the luxury features found in top modern cars. Score: 0.00.
-*   **convenience_feature_score**: Features like parking sensors were optional [14], but it lacked many modern convenience features such as keyless entry/start (often standard today), backup cameras (standard today), or advanced parking aids. Score: -0.20.
-*   **brand_prestige_rating**: Porsche is a highly prestigious automotive brand. Score: 1.00.
-*   **model_prestige_rating**: The Boxster is positioned as Porsche's entry-level sports car model. Based on the inverted scoring guide (-1.00 for top/halo, 0.00 for middle, +1.00 for entry-level), it falls into the middle range within the brand's lineup, below the 911 but above entry-level SUVs. Score: 0.00.
-*   **trim_prestige_rating**: The S trim is positioned as a higher performance model above the base 987, but below the limited-production Spyder. Based on the inverted scoring guide (-1.00 for Top Trims, 0.00 for Good Trim, +1.00 for Base Models), the S is considered a "Good Trim". Score: 0.00.
-*   **interior_luxury_rating**: The interior features high-quality materials and solid build quality for its era, providing a premium feel, but it is focused on sportiness rather than the extensive luxury found in top-tier luxury vehicles. Score: 0.20.
-*   **interior_tech_focus_rating**: The interior design is driver-focused with a traditional layout of physical controls and analog gauges. It has minimal screen real estate and lacks the screen-heavy, minimalist approach of modern tech-focused interiors. Score: -0.80.

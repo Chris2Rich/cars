@@ -1,55 +1,115 @@
-```json
+Okay, I have gathered information on the Vauxhall Combo Life, including petrol, diesel, and electric versions, focusing on the most recent data available (primarily 2024 updates for the electric, and slightly older reviews for the ICE versions which are still relevant for many metrics). I will now process this information and assign scores based on the provided guide.
+
+**Data Extraction and Scoring:**
+
+*   **price_usd:** UK RRP for the latest Electric model starts around £32,180. Petrol/Diesel models were lower, starting around £20,530 in 2018, and £26,675-£30,995 for recent models. The average new car price is ~$52,000. £32,180 is roughly $40,800 (using a £1 = $1.27 conversion). This is below the market average. Score: `+0.20`.
+*   **total_cost_estimate_5yr_usd:** No specific 5-year cost estimate found. Reliability is generally considered average. Insurance groups are low (8E-12E for ICE, 18-21 for Electric). Maintenance is likely average for a mainstream brand. Score: `0.00`.
+*   **insurance_usd_yr:** Insurance groups are low (8E-12E for ICE, 18-21 for Electric). Average is ~$1500. Low groups suggest lower costs. Score: `+0.50`.
+*   **maint_usd_yr:** No specific annual maintenance cost found. Vauxhall is a mainstream brand, suggesting average costs. Score: `0.00`.
+*   **repair_risk_score:** No specific reliability rating found, but reviews suggest it's well-made and durable, sharing underpinnings with reliable PSA/Stellantis vans. Score: `+0.20`.
+*   **hp:** Petrol engines around 110-130 PS (108-128 hp). Diesel engines around 100-130 PS (99-128 hp). Electric is 136 PS (134 hp). These are below the average car HP (~200 hp). Score: `-0.50`.
+*   **torque:** Petrol 205 Nm (151 lb-ft). Diesel 250-300 Nm (184-221 lb-ft). Electric 260 Nm (192 lb-ft). Average is ~190 lb-ft. Scores vary by engine, average is slightly below. Score: `-0.10`.
+*   **cylinder_count:** Petrol is 3-cylinder (1.2L). Diesel is 4-cylinder (1.5L). Electric has no cylinders. Average is 4-6. Score: `-0.20`.
+*   **engine_displacement:** Petrol 1.2L. Diesel 1.5L. Electric has no displacement. Average is around 2.0-3.0L. Score: `-0.50`.
+*   **accel_0_60_sec:** Petrol/Diesel 12.6-13.0 seconds. Electric 11.3 seconds. Average is ~7.5 seconds. This is slow. Score: `-0.80`.
+*   **top_speed:** Petrol/Diesel 107-114 mph. Electric 81 mph. Average is ~150 mph. This is low. Score: `-0.80`.
+*   **drive_type:** Front-wheel drive (FWD). Score: `-1.00`.
+*   **transmission_type:** Available with 5-speed manual, 6-speed manual, 8-speed automatic. Electric is automatic. Automatic is available. Score: `+1.00`.
+*   **driving_track_vs_gt:** Described as comfortable, easy to drive, relaxed, suited for long drives, not a sports car. Definitely a GT/daily driver focus. Score: `+0.50`.
+*   **offroad_ability:** FWD with IntelliGrip system for different surfaces. High ground clearance is not mentioned as a feature, standard ground clearance is 6.3 inches. Not designed for serious off-roading. Score: `+0.50`.
+*   **braking_dist_ft:** No specific braking distance found. Score: `0.00`.
+*   **size:** Standard length 4.4m (4403mm), XL 4.75-4.76m (4760mm). Average car length is ~4600mm. It spans average to slightly larger. Score: `0.10`.
+*   **wheelbase:** Standard 2.79m (2785mm), XL 2.98m (2980mm). Average is ~2700mm. It spans average to long. Score: `0.20`.
+*   **body_style:** MPV / People Carrier, van-derived. Closest to a Van in the scoring guide. Score: `+1.00`.
+*   **seats:** Available with 5 or 7 seats. Score: `+1.00`.
+*   **cargo_space:** 597-850 litres (seats up), 2126-2693 litres (seats down). This is huge. 597 litres is ~21 cu ft, 850 litres is ~30 cu ft. Max is ~75-95 cu ft. Score: `+1.00`.
+*   **rear_space:** Plenty of leg and head room, three adults can sit comfortably side by side. Score: `+0.80`.
+*   **ground_clearance_in:** 160mm (6.3 inches). Average for a crossover. Score: `0.00`.
+*   **turn_radius_ft:** 11.0m (36 ft) for standard, 11.8m (38.7 ft) for XL. 11.0m is ~36.1 ft, 11.8m is ~38.7 ft. Average is ~36 ft. Score: `-0.10`.
+*   **mpg:** Petrol 40-51.4 mpg. Diesel 42-67.3 mpg (official), 50-54.5 mpg (real world). Electric is N/A for MPG, but efficiency is rated. Average is ~30 mpg. ICE versions are good. Score: `+0.50`.
+*   **co2_g_km:** Petrol 125 g/km. Diesel 111-152 g/km. Electric 0 g/km. Average is ~175 g/km. ICE versions are good, EV is excellent. Score: `+0.50`.
+*   **electrification:** Available with Petrol, Diesel, and Electric powertrains. Score: `0.50`.
+*   **electric_range_mi:** Electric range up to 174 miles (WLTP), updated to 199-213 miles (WLTP), real-world estimate 100-220 miles. Average EV range is ~250-300 miles. Score: `-0.20`.
+*   **charge_speed_kw:** Electric supports 11kW (AC) and 100kW (DC). 100kW DC is decent, but not top-tier fast charging. Score: `0.20`.
+*   **style_sleek_vs_boxy:** Described as boxy, van-like looks. Score: `-1.00`.
+*   **style_aggression_rating:** Described as sensible, not aggressive. Score: `-0.80`.
+*   **style_modernity_rating:** Updated with fresh front-end styling and Vizor grille, but fundamentally a van shape. Score: `0.00`.
+*   **handling_rating:** Not sharp, soft, predictable, comfortable, rolls in corners, understeers. Score: `-0.50`.
+*   **ride_comfort_rating:** Superb, comfortable, irons out bumps, bordering on limousine standards. Score: `+0.80`.
+*   **cabin_noise_rating:** Can be noisy (road, wind, engine) especially with 5-speed manual, but quieter on good surfaces. Score: `-0.20`.
+*   **shift_smooth_rating:** 6-speed manual is smooth, 5-speed can be noisy, 8-speed auto is available. Auto is likely smooth. Score: `0.20`.
+*   **steering_feel_rating:** Speed-sensitive power steering, healthy amount of feedback, surprisingly pleasant, responsive. Score: `0.50`.
+*   **adas_score:** Includes AEB with pedestrian detection, forward collision alert, lane departure warning with lane keep assist, speed sign recognition, driver drowsiness system, rear parking sensors, 180-degree rear camera. Good level of standard safety kit. Score: `0.50`.
+*   **visibility_rating:** Upright windscreen, big windows, high seating position, great view out. Score: `+0.80`.
+*   **headlight_rating:** LED daytime running lights standard, optional adaptive IntelliLux matrix LED headlights available. Score: `0.50`.
+*   **security_rating:** Engine immobiliser, central locking, standard safety features. No mention of advanced security like trackers. Score: `0.00`.
+*   **screen_in:** 8-inch or 10-inch colour touchscreen infotainment system. Average to slightly above average size. Score: `0.20`.
+*   **infotainment_ux_rating:** Touchscreen system, includes sat-nav (optional), Apple CarPlay/Android Auto. Graphics not always industry standard. Score: `0.20`.
+*   **smartphone_connect_rating:** Apple CarPlay/Android Auto standard. Wireless charging available. Score: `0.80`.
+*   **audio_rating:** Six speakers mentioned. No mention of premium audio. Score: `0.00`.
+*   **usb_ports:** USB connection front and rear mentioned. Score: `0.20`.
+*   **comfort_feature_score:** Well-padded seats, good range of adjustment, dual-zone climate control (Ultimate trim), heated steering wheel (Ultimate trim), foldable tables with cupholders, panoramic roof (optional). Score: `0.50`.
+*   **convenience_feature_score:** Twin sliding rear doors, flat load floor, huge storage compartments (up to 27), rear parking sensors, 180-degree rear camera, keyless entry/start (Ultimate). Score: `0.80`.
+*   **brand_prestige_rating:** Vauxhall is a mainstream, mass-market brand. Score: `0.00`.
+*   **model_prestige_rating:** Combo Life is a practical, van-derived MPV, not a halo model. Score: `+1.00`.
+*   **trim_prestige_rating:** Base models are utilitarian, higher trims add features. Score: `0.50`.
+*   **interior_luxury_rating:** Unashamedly plastic, hard scratchy plastics, utilitarian trim, not luxurious. Score: `-0.80`.
+*   **interior_tech_focus_rating:** Has a touchscreen and digital display, but focus is on practicality rather than cutting-edge tech integration. Score: `0.00`.
+
+Now, assemble the JSON.```json
 {
   "price_usd": 0.20,
   "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.30,
+  "insurance_usd_yr": 0.50,
   "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
+  "repair_risk_score": 0.20,
   "hp": -0.50,
-  "torque": 0.00,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": -0.70,
+  "torque": -0.10,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": -0.80,
   "top_speed": -0.80,
   "drive_type": -1.00,
-  "transmission_type": 0.80,
-  "offroad_ability": 0.80,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.50,
+  "offroad_ability": 0.50,
   "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.10,
+  "size": 0.10,
+  "wheelbase": 0.20,
   "body_style": 1.00,
-  "seats": 0.50,
-  "cargo_space": 0.50,
-  "rear_space": 0.00,
+  "seats": 1.00,
+  "cargo_space": 1.00,
+  "rear_space": 0.80,
   "ground_clearance_in": 0.00,
   "turn_radius_ft": -0.10,
-  "mpg": -1.00,
-  "co2_g_km": 1.00,
-  "electric_range_mi": 0.30,
-  "charge_speed_kw": 0.50,
+  "mpg": 0.50,
+  "co2_g_km": 0.50,
+  "electrification": 0.50,
+  "electric_range_mi": -0.20,
+  "charge_speed_kw": 0.20,
   "style_sleek_vs_boxy": -1.00,
   "style_aggression_rating": -0.80,
   "style_modernity_rating": 0.00,
-  "handling_rating": -0.30,
+  "handling_rating": -0.50,
   "ride_comfort_rating": 0.80,
-  "cabin_noise_rating": -0.10,
-  "shift_smooth_rating": 0.90,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.60,
-  "visibility_rating": 0.70,
-  "headlight_rating": 0.70,
+  "cabin_noise_rating": -0.20,
+  "shift_smooth_rating": 0.20,
+  "steering_feel_rating": 0.50,
+  "adas_score": 0.50,
+  "visibility_rating": 0.80,
+  "headlight_rating": 0.50,
   "security_rating": 0.00,
-  "screen_in": 0.30,
+  "screen_in": 0.20,
   "infotainment_ux_rating": 0.20,
-  "smartphone_connect_rating": 0.50,
+  "smartphone_connect_rating": 0.80,
   "audio_rating": 0.00,
-  "usb_ports": -0.10,
-  "comfort_feature_score": 0.40,
-  "convenience_feature_score": 0.60,
-  "brand_prestige_rating": -0.20,
-  "model_prestige_rating": 0.50,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": -0.50,
+  "usb_ports": 0.20,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.80,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 1.00,
+  "trim_prestige_rating": 0.50,
+  "interior_luxury_rating": -0.80,
   "interior_tech_focus_rating": 0.00
 }
 ```

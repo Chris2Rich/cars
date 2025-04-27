@@ -1,57 +1,111 @@
-```json
+The Mercedes-Benz S55 AMG (W220) was produced from 1999 to 2005, with a facelift in 2003 that included a supercharged engine. I will use data primarily from the supercharged models (2003-2005) as the "most recent version" where applicable, noting differences if necessary.
+
+- **price_usd**: Original MSRP was around $98,000 - $101,000. Current market value for a well-maintained example is significantly lower, but still a luxury car. Compared to the average new car price of $52,000, the original price was very high. Current used prices vary widely but are generally below the new car average. Let's consider a blend, leaning towards its original positioning. Score: -0.75.
+- **total_cost_estimate_5yr_usd**: High maintenance and potential repair costs for an aging AMG, plus fuel costs. Likely well over $40,000 over 5 years. Score: -1.00.
+- **insurance_usd_yr**: High-performance luxury sedan, likely in a high insurance group. Score: -1.00.
+- **maint_usd_yr**: Mercedes-Benz AMG maintenance is expensive, especially on older models. Score: -1.00.
+- **repair_risk_score**: W220 S-Class and its complex systems (like ABC suspension) can be prone to expensive repairs as they age. Score: -0.75.
+- **hp**: Naturally aspirated: 354-360 hp. Supercharged: 493-500 hp. 493 hp is well above the average car. Score: 0.80.
+- **torque**: Naturally aspirated: 391 lb-ft. Supercharged: 516 lb-ft. 516 lb-ft is significantly above average. Score: 0.80.
+- **cylinder_count**: V8 engine. Score: 0.50.
+- **engine_displacement**: 5.4L V8. This is a large displacement. Score: 0.75.
+- **accel_0_60_sec**: Naturally aspirated: 5.5-6.2 seconds. Supercharged: 4.2-4.8 seconds. Using the supercharged time of ~4.5 seconds, this is very fast. Score: 0.85.
+- **top_speed**: Electronically limited to 155 mph. De-restricted can be higher (~186-198 mph). 155 mph is above average. Score: 0.50.
+- **drive_type**: Rear-wheel drive (RWD). Score: 1.00.
+- **transmission_type**: 5-speed automatic (5G-Tronic). Score: 1.00.
+- **driving_track_vs_gt**: Designed as a high-performance luxury sedan, excellent for long-distance, high-speed cruising (Grand Touring). Score: 1.00.
+- **offroad_ability**: Very low ground clearance and RWD, not designed for off-road. Score: 1.00.
+- **braking_dist_ft**: 60-0 mph in 120 feet. 70-0 mph in 163 ft. 120 ft from 60 mph is good for its size and era, but not exceptional by modern sports car standards. Score: 0.25.
+- **size**: Length around 198.5 - 203.3 inches (5042-5164 mm) depending on wheelbase and year. This is a large sedan. Score: 0.75.
+- **wheelbase**: 116.7 inches (2965 mm) for SWB, 121.5-122.5 inches (3085-3112 mm) for LWB. Long wheelbase. Score: 0.75.
+- **body_style**: 4-door sedan. Score: 0.00.
+- **seats**: 5 seats. Score: 0.00.
+- **cargo_space**: Around 15.4 - 17.7 cu ft. Average for a sedan. Score: 0.00.
+- **rear_space**: S-Class is known for good rear space, especially LWB models. Score: 0.75.
+- **ground_clearance_in**: Not explicitly stated, but as a luxury sedan with performance suspension (ABC), it would be low. Estimate < 6 inches. Score: -0.50.
+- **turn_radius_ft**: Around 38.4 ft (11.7 m). This is average for a large sedan. Score: 0.00.
+- **mpg**: EPA combined 15-17 mpg. Very low by modern standards. Score: -1.00.
+- **co2_g_km**: Around 317-331 g/km. Very high. Score: -1.00.
+- **electrification**: Petrol engine. Score: -1.00.
+- **electric_range_mi**: N/A. Score: -1.00.
+- **charge_speed_kw**: N/A. Score: -1.00.
+- **style_sleek_vs_boxy**: W220 was a move towards a sleeker design compared to W140. Score: 0.50.
+- **style_aggression_rating**: AMG body kit adds some aggression. Score: 0.50.
+- **style_modernity_rating**: Design is clearly from the late 90s/early 2000s. Score: -1.00.
+- **handling_rating**: Praised for handling for its size, especially with ABC. Score: 0.75.
+- **ride_comfort_rating**: S-Class is known for excellent ride comfort, even the AMG version with ABC. Score: 0.75.
+- **cabin_noise_rating**: S-Class is known for a quiet cabin. Score: 0.75.
+- **shift_smooth_rating**: 5-speed automatic was smooth for its time. Score: 0.50.
+- **steering_feel_rating**: Steering feel was generally good for a luxury car, though perhaps not as communicative as a pure sports car. Score: 0.25.
+- **adas_score**: Had early ADAS like Distronic (adaptive cruise control) and Pre-Safe. Advanced for its era, but minimal by modern standards. Score: -0.50.
+- **visibility_rating**: Typical sedan visibility, likely good forward and side visibility, rear might be average. Score: 0.00.
+- **headlight_rating**: Bi-xenon headlights were advanced for the time. Score: 0.50.
+- **security_rating**: Had features like immobilizer and remote central locking. Good for its time. Score: 0.25.
+- **screen_in**: COMAND system screen was around 6.5 inches. Small by modern standards. Score: -0.75.
+- **infotainment_ux_rating**: COMAND system was functional but dated compared to modern systems. Score: -0.75.
+- **smartphone_connect_rating**: No modern smartphone connectivity like CarPlay/Android Auto. Score: -1.00.
+- **audio_rating**: Bose sound system was available. High-end for its time. Score: 0.50.
+- **usb_ports**: Likely none or very few (maybe in an armrest). Score: -1.00.
+- **comfort_feature_score**: Heated, ventilated, massaging, multi-contour, power-adjustable seats, dual-zone climate control, heated rear seats, power rear sunshade, soft-close doors. Very high level of comfort features for its time. Score: 0.85.
+- **convenience_feature_score**: Parktronic (parking sensors), Keyless Go, power closing doors, power trunk, rain-sensing wipers, auto headlights. High level of convenience features for its time. Score: 0.75.
+- **brand_prestige_rating**: Mercedes-Benz AMG is a high-prestige brand. Score: 1.00.
+- **model_prestige_rating**: S-Class is the flagship model. Score: -1.00.
+- **trim_prestige_rating**: AMG is the top performance trim. Score: -1.00.
+- **interior_luxury_rating**: High-quality materials like Nappa leather and wood trim. Very luxurious for its time. Score: 0.75.
+- **interior_tech_focus_rating**: Had advanced tech for its era (COMAND, ABC, Distronic) but the design is not screen-dominated like modern cars. Score: -0.75.```json
 {
-  "price_usd": -0.60,
-  "total_cost_estimate_5yr_usd": -0.70,
-  "insurance_usd_yr": -0.80,
-  "maint_usd_yr": -0.80,
-  "repair_risk_score": -0.70,
-  "hp": 0.70,
-  "torque": 0.70,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.50,
+  "price_usd": -0.75,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -0.75,
+  "hp": 0.80,
+  "torque": 0.80,
+  "cylinder_count": 0.50,
+  "engine_displacement": 0.75,
+  "accel_0_60_sec": 0.85,
   "top_speed": 0.50,
   "drive_type": 1.00,
-  "transmission_type": 0.00,
-  "driving_track_vs_gt": 0.00,
-  "offroad_ability": -1.00,
-  "braking_dist_ft": 0.00,
-  "size": 1.00,
-  "wheelbase": 1.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.25,
+  "size": 0.75,
+  "wheelbase": 0.75,
   "body_style": 0.00,
   "seats": 0.00,
   "cargo_space": 0.00,
-  "rear_space": 1.00,
-  "ground_clearance_in": -1.00,
+  "rear_space": 0.75,
+  "ground_clearance_in": -0.50,
   "turn_radius_ft": 0.00,
-  "mpg": -0.40,
-  "co2_g_km": -0.40,
+  "mpg": -1.00,
+  "co2_g_km": -1.00,
   "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.70,
-  "style_modernity_rating": 0.00,
-  "handling_rating": 0.70,
-  "ride_comfort_rating": 1.00,
-  "cabin_noise_rating": 1.00,
-  "shift_smooth_rating": 0.70,
-  "steering_feel_rating": 0.70,
-  "adas_score": 0.70,
-  "visibility_rating": 0.70,
-  "headlight_rating": 1.00,
-  "security_rating": 1.00,
-  "screen_in": 0.70,
-  "infotainment_ux_rating": 0.70,
-  "smartphone_connect_rating": 1.00,
-  "audio_rating": 1.00,
-  "usb_ports": 0.70,
-  "comfort_feature_score": 1.00,
-  "convenience_feature_score": 1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": -1.00,
+  "handling_rating": 0.75,
+  "ride_comfort_rating": 0.75,
+  "cabin_noise_rating": 0.75,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.25,
+  "adas_score": -0.50,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.50,
+  "security_rating": 0.25,
+  "screen_in": -0.75,
+  "infotainment_ux_rating": -0.75,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": 0.50,
+  "usb_ports": -1.00,
+  "comfort_feature_score": 0.85,
+  "convenience_feature_score": 0.75,
   "brand_prestige_rating": 1.00,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 1.00,
-  "interior_tech_focus_rating": 0.70
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": -0.75
 }
 ```

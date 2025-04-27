@@ -1,28 +1,103 @@
+The most recent version of the Audi 100 S4 is the C4 generation, produced from 1991 to 1994. There were two main engine options for the S4 in this generation: a 2.2-liter turbocharged inline five-cylinder and a 4.2-liter V8 (often referred to as the S4 Plus or part of the S6 range after the 100 was renamed A6 in 1994). I will primarily use the specs for the more common 2.2L Turbo I5 sedan for the evaluation, noting where the V8 specs differ.
+
+Here's the evaluation of the 1994 Audi 100 S4 (C4) based on today's market standards:
+
+**Cost & Risk:**
+*   **price_usd:** Used 1994 Audi S4 prices vary, with Kelley Blue Book showing a KBB Fair Purchase Price around $3,917 and Hagerty valuing a good condition model around $13,800. Auction sales have reached up to $19,950 for well-maintained examples. These prices are well below the $10,000 threshold for a +1.00 score, but higher than typical scrap value. Score: 1.00.
+*   **total_cost_estimate_5yr_usd:** As a 30-year-old performance car, maintenance and potential repairs are likely to be significant and expensive, especially for parts that are hard to find. Default to 0.00.
+*   **insurance_usd_yr:** No specific UK insurance group found for the S4 C4, but as a performance variant of a premium brand from that era, it would likely fall into a higher insurance group than the standard 100 (group 29). This suggests higher-than-average insurance costs. Score: -0.50.
+*   **maint_usd_yr:** Owners report that Audi parts are "insanely expensive" and labor can be extensive. Score: -1.00.
+*   **repair_risk_score:** While some owners report reliability for its age, it's an old, rare car with parts difficulty, increasing repair risk significantly compared to modern vehicles. Score: -1.00.
+
+**Power & Performance:**
+*   **hp:** The 2.2L Turbo I5 produces 227 hp. The 4.2L V8 produces 276 hp. 227 hp is slightly above the modern average (~200 hp), while 276 hp is more significantly above average. Score: 0.50 (averaging the two common engines relative to the scale).
+*   **torque:** The 2.2L Turbo I5 produces 258 lb-ft. The 4.2L V8 produces 295 lb-ft. Both are above the modern average (~190 lb-ft). Score: 0.50.
+*   **cylinder_count:** Available with a 5-cylinder or an 8-cylinder engine. 5-cylinder is unusual, 8-cylinder is high. Score: 0.00.
+*   **engine_displacement:** Available with 2.2L or 4.2L displacement. 2.2L is around average, 4.2L is high. Score: 0.00.
+*   **accel_0_60_sec:** The 2.2L Turbo I5 is rated at 6.2 to 6.8 seconds. The 4.2L V8 is rated at 6.4 to 6.6 seconds. These times were quick for their era but are around or slightly slower than the modern average (~7.5 sec), and significantly slower than modern performance cars. Score: -0.50.
+*   **top_speed:** The 2.2L Turbo I5 has a top speed of 150-152 mph (some electronically limited to 127 mph). The 4.2L V8 has a top speed of 153-155 mph. These speeds are around the modern average (150 mph). Score: 0.00.
+*   **drive_type:** All S4 models came standard with Quattro AWD. Score: 0.00.
+*   **transmission_type:** Available with manual (5-speed or 6-speed in Europe) or automatic (4-speed). Automatic is common today. Score: 0.00.
+*   **driving_track_vs_gt:** The S4 was a performance-oriented version of the executive sedan/wagon, designed for fast road driving and comfortable long distances. Score: 0.50.
+*   **offroad_ability:** Low ground clearance (4.0 inches) and not designed for off-road. Score: -1.00.
+*   **braking_dist_ft:** No specific data found, but performance brakes for its time (ventilated discs) would likely be less effective than modern performance braking systems. Score: -0.50.
+
+**Space & Practicality:**
+*   **size:** Length is 4790 mm (188.6 inches). This is around the size of a modern Honda Civic sedan (~4600mm). Score: 0.00.
+*   **wheelbase:** Wheelbase is 2690-2692 mm (105.9-106.0 inches). This is around the size of a modern Skoda Octavia (~2700mm). Score: 0.00.
+*   **body_style:** Available as a 4-door sedan or 5-door Avant (wagon). Sedan is average. Score: 0.00.
+*   **seats:** 5 seats. Score: 0.00.
+*   **cargo_space:** Sedan has 16.4 cu ft (464 L) or 510 L (18 cu ft). Avant has 13.77 - 46.26 cu ft (390-1310 L). 16.4-18 cu ft is slightly above the average sedan (~15 cu ft). Score: 0.00.
+*   **rear_space:** Rear legroom is 34.8 inches. This is around the modern average (~35"). Score: 0.00.
+*   **ground_clearance_in:** Minimum ground clearance is 4.0 inches or 78 mm (3.07 inches) or 12.3 cm (4.84 inches). This is low. Score: -1.00.
+*   **turn_radius_ft:** Turning circle is 11.4 m (37.4 ft) or 34.4 feet. This is around the modern average (~36 ft). Score: 0.00.
+
+**Efficiency & Electrification:**
+*   **mpg:** The 2.2L Turbo I5 is rated at 16-18 city / 22-23 highway / 18-26.4 combined mpg (US/UK). The 4.2L V8 is rated at 16 city / 22 highway / 18-21.4 combined mpg (US/UK). Real-world average for S4s on Fuelly is around 20.9 mpg. These figures are below the modern average of ~30 mpg. Score: -1.00.
+*   **co2_g_km:** No specific data found, but petrol engines from this era have significantly higher CO2 emissions than modern cars, especially EVs. Score: -1.00.
+*   **electrification:** Petrol engine. Score: -1.00.
+*   **electric_range_mi:** Not electric. Score: -1.00.
+*   **charge_speed_kw:** Not electric. Score: -1.00.
+
+**Ride & Dynamics:**
+*   **handling_rating:** Known for good handling for its time, especially with Quattro. Compared to modern performance cars, likely average. Score: 0.00.
+*   **ride_comfort_rating:** Described as comfortable, even at high speeds. Score: 0.50.
+*   **cabin_noise_rating:** Cabin is described as hushed at cruise. Score: 0.00.
+*   **shift_smooth_rating:** Manual transmission can require concentration for smooth results. Automatic transmission smoothness is not specified but likely average for its time. Score: 0.00.
+*   **steering_feel_rating:** Steering is power-assisted rack-and-pinion, with a speed-sensitive option. Can channel road surface directly with kickback over rough surfaces. Score: 0.00.
+
+**Safety & Visibility:**
+*   **adas_score:** Minimal safety features by modern standards, includes driver and passenger airbags and child door locks, but not child seat anchors. Score: -1.00.
+*   **visibility_rating:** Sedan/wagon body style with a third-side window. Likely average visibility for its time. Score: 0.00.
+*   **headlight_rating:** Uses ellipsoid halogen headlights. Poor compared to modern LEDs. Score: -1.00.
+*   **security_rating:** Basic security features for its time. Score: -1.00.
+
+**Infotainment & Connectivity:**
+*   **screen_in:** No central infotainment screen. Score: -1.00.
+*   **infotainment_ux_rating:** Basic radio/cassette/CD player options. Score: -1.00.
+*   **smartphone_connect_rating:** No smartphone connectivity. Score: -1.00.
+*   **audio_rating:** A Bose stereo system was an option. Above average for its time, but average compared to modern premium systems. Score: 0.00.
+*   **usb_ports:** None. Score: -1.00.
+
+**Comfort & Convenience:**
+*   **comfort_feature_score:** Standard features included automatic climate control, power glass sunroof, power front seats (dual power front seats standard on 1994), leather seats, heated front and rear seats. Lacks many modern comfort features. Score: -0.50.
+*   **convenience_feature_score:** Standard features included cruise control, power windows, tilt/telescoping steering wheel, central locking. Lacks many modern convenience features (sensors, cameras, keyless entry/start). Score: -1.00.
+
+**Style, Brand & Interior Character:**
+*   **interior_luxury_rating:** Used best materials available for its time, no hard plastic in main areas, leather interior available. Premium for its era, but not luxurious by modern standards. Score: -0.50.
+*   **interior_tech_focus_rating:** Minimal technology focus in the interior. Score: -1.00.
+*   **brand_prestige_rating:** Audi is a premium/luxury brand. Score: 1.00.
+*   **model_prestige_rating:** The S4 was the high-performance variant of the 100/A6, a step above the standard models. Score: -0.50.
+*   **trim_prestige_rating:** S4 was the top performance trim level. Score: -1.00.
+*   **style_sleek_vs_boxy:** Classic sedan/wagon shape with curved lines. Score: 0.00.
+*   **style_aggression_rating:** Distinguished by flared fenders and wider wheels, giving it a sportier look than the standard 100, but not aggressively styled by modern standards. Score: 0.00.
+*   **style_modernity_rating:** Clearly dated design compared to modern vehicles. Score: -1.00.
+
 ```json
 {
   "price_usd": 1.00,
   "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": -0.75,
-  "repair_risk_score": -0.75,
-  "hp": 0.25,
-  "torque": 0.25,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -1.00,
+  "hp": 0.50,
+  "torque": 0.50,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.25,
+  "accel_0_60_sec": -0.50,
   "top_speed": 0.00,
   "drive_type": 0.00,
-  "transmission_type": -1.00,
-  "driving_track_vs_gt": 1.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.50,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": -0.50,
   "size": 0.00,
   "wheelbase": 0.00,
   "body_style": 0.00,
   "seats": 0.00,
   "cargo_space": 0.00,
   "rear_space": 0.00,
-  "ground_clearance_in": 0.00,
+  "ground_clearance_in": -1.00,
   "turn_radius_ft": 0.00,
   "mpg": -1.00,
   "co2_g_km": -1.00,
@@ -32,8 +107,8 @@
   "style_sleek_vs_boxy": 0.00,
   "style_aggression_rating": 0.00,
   "style_modernity_rating": -1.00,
-  "handling_rating": 0.25,
-  "ride_comfort_rating": 0.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
   "cabin_noise_rating": 0.00,
   "shift_smooth_rating": 0.00,
   "steering_feel_rating": 0.00,
@@ -46,12 +121,12 @@
   "smartphone_connect_rating": -1.00,
   "audio_rating": 0.00,
   "usb_ports": -1.00,
-  "comfort_feature_score": -1.00,
+  "comfort_feature_score": -0.50,
   "convenience_feature_score": -1.00,
   "brand_prestige_rating": 1.00,
-  "model_prestige_rating": 0.00,
+  "model_prestige_rating": -0.50,
   "trim_prestige_rating": -1.00,
-  "interior_luxury_rating": 0.00,
+  "interior_luxury_rating": -0.50,
   "interior_tech_focus_rating": -1.00
 }
 ```

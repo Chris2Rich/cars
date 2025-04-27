@@ -1,113 +1,113 @@
-Here's the data extracted and scored based on the search results for the 2024/2025 BMW X2 M35i (U10 generation) and the provided guide:
+Here is the evaluation of the most recent BMW X2 M35i based on the gathered data and the provided scoring guide:
 
-*   **price_usd**: Starting MSRP is $51,400. This is very close to the market average of $52,000. Score: `0.05`.
-*   **total_cost_estimate_5yr_usd**: Not found. Default to `0.00`.
-*   **insurance_usd_yr**: No specific annual insurance cost or UK insurance group found for the U10 M35i. Default to `0.00`. (Previous generation M35i was group 30-31, which would be negative, but using 0.00 for the new model due to lack of specific data).
-*   **maint_usd_yr**: BMW offers 3 years/36,000 miles complimentary maintenance. This is better than average, but long-term costs might be higher. Default to `0.00` for long-term average.
-*   **repair_risk_score**: The previous generation X2 and X1 were noted as having some issues. BMW reliability is generally average to slightly below average compared to Japanese brands. Score: `-0.10`.
-*   **hp**: 312 hp (US spec), 300 hp (EU spec). Using 312 hp as it's the higher figure and often used for performance comparisons. Average is around 200 hp. This is significantly above average. Score: `0.50`.
-*   **torque**: 295 lb-ft (400 Nm). Average is around 190 lb-ft. This is significantly above average. Score: `0.40`.
-*   **cylinder_count**: 4 cylinders. Average is 4-6. Score: `0.00`.
-*   **engine_displacement**: 2.0L (1998 cm³). Average is around 3.0L. This is below average displacement for the power output, indicating high specific output. Score: `0.20`.
-*   **accel_0_60_sec**: 5.2 seconds (BMW estimate/various reviews). Average is around 7.5 seconds. This is well above average. Score: `0.50`. (Note: Previous gen was faster at 4.5-4.9s, but scoring the current model).
-*   **top_speed**: 155 mph (with performance tires). Limited to 130 mph with all-season tires. Average is around 150 mph. Score: `0.10`.
-*   **drive_type**: All-wheel drive (xDrive). Average is AWD for this segment. Score: `0.00`.
-*   **transmission_type**: 7-speed dual-clutch automatic (DCT). DCT is generally considered sportier than traditional automatic but can have low-speed jerkiness. Score: `0.00`.
-*   **driving_track_vs_gt**: Positioned as a performance-focused crossover (M Performance model). Reviews mention sporty handling but also a stiff ride. Leans towards track/sporty feel but is still a daily driver. Score: `-0.20`.
-*   **offroad_ability**: Ground clearance 182 mm (7.2 inches) or 20 cm (7.87 inches). Using 7.2 inches. Not designed for serious off-roading. Score: `0.40`.
-*   **braking_dist_ft**: M Sport Brakes are standard/available, optional M Compound brakes. Reviews mention good braking. No specific distance found. Default to `0.00`.
-*   **size**: Length 4554 mm (179.3 inches) or 179.8 inches. Using 179.3 inches. This is on the larger side for a compact crossover, approaching midsize. Score: `0.10`.
-*   **wheelbase**: 2692 mm (106.0 inches) or 105.1 inches (previous gen). Using 106.0 inches for the new generation. Average for a compact/small luxury SUV. Score: `0.00`.
-*   **body_style**: Sports Activity Coupe (SAC) / 4-door wagon / SUV. Coupe-like SUV profile. Score: `0.00`.
-*   **seats**: 5 seats. Average. Score: `0.00`.
-*   **cargo_space**: 25.3 cu ft (seats up), 51.7 cu ft (seats down). Also cited as 560-1470 litres. 25.3 cu ft is above average for a sedan (15 cu ft) and good for a compact SUV/crossover. Score: `0.20`.
-*   **rear_space**: Reviews mention improved rear space over the previous generation, enough for four adults. Score: `0.10`.
-*   **ground_clearance_in**: 7.2 inches or 8.15 inches. Using 7.2 inches. Above average for a car, average for an SUV/crossover. Score: `0.00`.
-*   **turn_radius_ft**: 11.3 m (37.1 ft) (previous gen). No data for U10. Default to `0.00`.
-*   **mpg**: EPA Combined 26 mpg (23 City / 32 Highway). Reviews mention getting 35 mpg highway. Average is around 30 mpg. This is slightly below average due to performance focus. Score: `-0.10`.
-*   **co2_g_km**: 174-183 g/km WLTP. Average is around 175 g/km. Score: `0.00`.
-*   **electrification**: Gasoline (ICE). Score: `-1.00`.
-*   **electric_range_mi**: N/A (ICE). Score: `-1.00`.
-*   **charge_speed_kw**: N/A (ICE). Score: `-1.00`.
-*   **style_sleek_vs_boxy**: Coupe-like SUV profile. Leans towards sleek. Score: `0.30`.
-*   **style_aggression_rating**: M Performance styling, bold grille, quad exhaust tips. High aggression. Score: `0.60`.
-*   **style_modernity_rating**: New generation, striking design, illuminated grille, modern interior tech. Looks modern. Score: `0.40`.
-*   **handling_rating**: Reviews mention capable handling, lots of grip, sharp turning, but some find it less engaging than expected or darty. Score: `0.30`.
-*   **ride_comfort_rating**: Reviews consistently mention a firm/stiff ride, especially on larger wheels, bordering on too firm for daily driving. Score: `-0.50`.
-*   **cabin_noise_rating**: Reviews mention the cabin is well insulated from wind noise, but road noise from large wheels/run-flats can be noticeable. Engine sound is pumped in. Score: `0.00`.
-*   **shift_smooth_rating**: 7-speed dual-clutch transmission. Reviews mention rapid-fire changes, but also low-speed jerk/lag in traffic. Score: `-0.20`.
-*   **steering_feel_rating**: Reviews mention quick and accurate steering, good steering feedback, but also lightweight and uninvolving or darty and unnatural. Mixed reviews, leaning slightly positive for responsiveness but negative for feel/polish. Score: `0.00`.
-*   **adas_score**: Standard automated emergency braking, lane-departure warning, blind spot monitoring, front collision warning. Available adaptive cruise control (full-speed), lane keeping assist, cross-traffic alert, Extended Traffic Jam Assistant, Parking Assistant Plus, surround-view camera, Head-Up Display. Good standard suite, comprehensive advanced options. Score: `0.50`.
-*   **visibility_rating**: Coupe-like profile might slightly impact rear visibility. Score: `-0.20`.
-*   **headlight_rating**: Standard LED headlights, available Adaptive LED, M headlights in Shadowline available. Above average. Score: `0.30`.
-*   **security_rating**: Standard features likely include alarm, immobilizer, Comfort Access (keyless entry). Score: `0.30`.
-*   **screen_in**: 10.7-inch central touchscreen + 10.25-inch instrument cluster behind a single curved display. Central screen is 10.7 inches. This is large. Score: `0.40`.
-*   **infotainment_ux_rating**: Latest BMW iDrive 9 (Android-based). Pure touch-based system (no iDrive controller). Reviews mention it's easier to use than iDrive 8, intuitive, but some glitches reported and loss of physical controller is a negative for some. Score: `0.10`.
-*   **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto standard. Excellent. Score: `0.80`.
-*   **audio_rating**: Standard system is likely average. Optional Harman Kardon 12-speaker system available, noted as exceptional. Scoring for standard: `0.00`.
-*   **usb_ports**: Not specified in search results for M35i. Default to `0.00`.
-*   **comfort_feature_score**: Standard power front sport seats, heated front seats (optional package in xDrive28i, likely standard or widely available on M35i), dual-zone climate control. Available heated steering wheel. Sport seats are supportive but can be stiff. Score: `0.30`.
-*   **convenience_feature_score**: Standard power liftgate, backup camera, smart key w/hands-free access, push button start. Available Parking Assistant Plus, surround-view camera (360 cameras), remote start, Digital Key, Head-Up Display. Good standard, excellent options. Score: `0.50`.
-*   **brand_prestige_rating**: BMW is a premium/luxury brand. Score: `0.60`.
-*   **model_prestige_rating**: X2 is a compact luxury crossover, below models like X3/X5/X7. Score: `0.10`.
-*   **trim_prestige_rating**: M35i is the top performance trim for the X2, below full M models but above standard trims. Score: `-0.20`.
-*   **interior_luxury_rating**: High-quality materials, Alcantara/Veganza upholstery standard, available leather, upscale design, ambient lighting. Score: `0.40`.
-*   **interior_tech_focus_rating**: Large curved display, digital instrument cluster, screen-focused controls, advanced ADAS tech. High tech focus. Score: `0.60`.
+*   **price_usd**: The 2024 BMW X2 M35i starts at $51,400 - $52,395 in the US. The 2025 model starts around $51,850 - $52,300. This is right around the market average of $52,000. Score 0.00.
+*   **total_cost_estimate_5yr_usd**: No specific 5-year cost estimate found. M Performance models typically have higher costs than standard models. Default to 0.00.
+*   **insurance_usd_yr**: UK Insurance Group 40 or 42 for the M35i. This is significantly above the average (20-25). Score negative. -0.50.
+*   **maint_usd_yr**: BMW offers maintenance plans, but M Performance parts (brakes, tires) can be expensive to replace. Score slightly negative. -0.25.
+*   **repair_risk_score**: BMW's general reliability is often considered average or slightly below. Some reviews mention potential electrical gremlins in previous generations. M Performance models might have higher repair costs for specific components. Score slightly negative. -0.25.
+*   **hp**: 312 hp. This is significantly above the average of 200 hp. Score positive. +0.75.
+*   **torque**: 295 lb-ft. This is significantly above the average of 190 lb-ft. Score positive. +0.75.
+*   **cylinder_count**: 4-cylinder. Average is 6, so score negative. -0.25.
+*   **engine_displacement**: 2.0L / 1998 cm³ / 122 in³. Average is 3.0L, so score negative. -0.25.
+*   **accel_0_60_sec**: 5.2 seconds (BMW claim/Edmunds estimate). This is very fast, well below the 7.5s average. Score positive. +0.75.
+*   **top_speed**: 155 mph (250 km/h). This is above the 150 mph average. Score positive. +0.10.
+*   **drive_type**: All-Wheel Drive (xDrive) is standard. Average is AWD, so score 0.00.
+*   **transmission_type**: 7-speed dual-clutch automatic (Steptronic/DKG). The guide lists DCT as 0.00.
+*   **driving_track_vs_gt**: M35i is a performance-oriented crossover with M Sport suspension and tuning. Reviews note it's capable in corners but the ride is harsh. It leans heavily towards sporty/track feel for a crossover, but isn't a dedicated track car. Score negative. -0.50.
+*   **offroad_ability**: Performance-oriented crossover with M Sport suspension (often lowered) and large wheels/low profile tires. Not designed for off-road. Score towards the poor end for off-road. +0.75.
+*   **braking_dist_ft**: Optional M Sport Compound brakes available. No specific braking distance figure found for the U10 M35i. Default to 0.00.
+*   **size**: Length 4554 mm (179.3 inches). Some sources say 179.8 inches. Around the size of a Honda Civic (4600mm). Score 0.00.
+*   **wheelbase**: 2692 mm (106.0 inches). Around the size of a Skoda Octavia (2700mm). Score 0.00.
+*   **body_style**: Sports Activity Coupe (SAC) / 4-door crossover. Coupe-like roofline. +0.25.
+*   **seats**: 5 seats. M Sport seats standard. Average is 5 seats. Score 0.00.
+*   **cargo_space**: 25.3 cu ft (716 liters) behind rear seats. 515-560 liters (18.2 - 19.8 cu ft) in some markets. Max 51.7 cu ft (1470 liters) with seats folded. Using the US figure of 25.3 cu ft, this is above the 15 cu ft sedan average, but below the >35 cu ft SUV/wagon benchmark for +1.00. Score positive. +0.25.
+*   **rear_space**: Rear legroom 36.7 inches. Around the 35" average. Score 0.00.
+*   **ground_clearance_in**: M Sport suspension is often lowered. No specific ground clearance figure found for the U10 M35i. Default to 0.00.
+*   **turn_radius_ft**: 38.4 ft. Around the 36 ft average. Score 0.00.
+*   **mpg**: EPA estimated 26 mpg combined (23 city / 32 highway). WLTP combined 35.3 – 36.7 mpg imp (approx 29.4 - 30.6 US mpg). Using the US figure of 26 mpg, this is below the 30 mpg average. Score negative. -0.25.
+*   **co2_g_km**: WLTP combined 174-184 g/km. This is around or slightly above the 175 g/km average. Score 0.00.
+*   **electrification**: Gasoline engine with mild-hybrid technology in some markets (not explicitly stated for US M35i, but common on B48 engine). Assume primarily petrol. Score -1.00.
+*   **electric_range_mi**: Not an EV or PHEV. Score -1.00.
+*   **charge_speed_kw**: Not an EV or PHEV. Score -1.00.
+*   **style_sleek_vs_boxy**: Coupe-like roofline, aggressive M styling. Leans sleek. +0.50.
+*   **style_aggression_rating**: M35i has aggressive M-specific styling, quad exhaust, M grille, M spoiler. Score significantly positive. +0.75.
+*   **style_modernity_rating**: All-new generation, modern design inside and out. Score positive. +0.50.
+*   **handling_rating**: Praised for capable handling, grip, sharp steering, and body control. Score significantly positive. +0.75.
+*   **ride_comfort_rating**: Reviews consistently mention the ride is harsh/firm, especially with larger wheels. Score significantly negative. -0.75.
+*   **cabin_noise_rating**: Reviews mention road/wind noise, especially with larger wheels/run-flats. M Performance exhaust adds engine noise (positive for enthusiasts, negative for comfort). Score negative for overall noise intrusion. -0.25.
+*   **shift_smooth_rating**: 7-speed DCT. Reviews mention it shifts quickly, but DCTs can sometimes be less smooth than traditional automatics at low speeds. Score slightly negative. -0.25.
+*   **steering_feel_rating**: M Sport steering is standard. Reviews mention it's sharp and accurate, but some find it lacks feedback. Score positive, but not best-in-class. +0.50.
+*   **adas_score**: Standard features include automated emergency braking, lane-departure warning, blind-spot detection, front collision warning, parking sensors/assist, backup camera. Available adaptive cruise control, parking assistance plus, head-up display. Good standard features, comprehensive options. Score positive. +0.50.
+*   **visibility_rating**: Sloping roofline and narrow rear window likely compromise rear visibility, similar to other X2s. Score negative. -0.25.
+*   **headlight_rating**: Adaptive LED headlights standard. Score positive. +0.50.
+*   **security_rating**: Standard features include active blind spot detection, lane departure warning, front collision warning, rear collision prevention, rear child safety locks. Standard alarm, immobilizer, tracker system expected for BMW. Score positive. +0.50.
+*   **screen_in**: BMW Curved Display with 10.25-inch instrument cluster and 10.7-inch central information display. 10.7 inches is above the 8" average. Score positive. +0.25.
+*   **infotainment_ux_rating**: Latest BMW iDrive 9.0. Praised for graphics and usability, but criticized for removing physical climate controls and iDrive controller. Score mixed, leaning slightly positive for modern tech, slightly negative for usability changes. Let's say 0.00.
+*   **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto standard. Score positive. +0.50.
+*   **audio_rating**: Harman Kardon 12-speaker audio system is standard on M35i in some markets. This is a premium system. Score positive. +0.75.
+*   **usb_ports**: Multiple USB ports. Assume at least 3 total. Score 0.00.
+*   **comfort_feature_score**: Standard heated, power-adjustable front sport seats, dual-zone automatic climate control. Available heated steering wheel, active front seats with lumbar support/massage function. Excellent comfort features for the segment. Score positive. +0.75.
+*   **convenience_feature_score**: Standard power liftgate, keyless entry, backup camera, parking sensors/assist, blind spot monitor, lane departure warning. Available Parking Assistant Plus, Head-up display, Digital Key. Comprehensive convenience features. Score positive. +0.75.
+*   **brand_prestige_rating**: BMW. +0.75.
+*   **model_prestige_rating**: X2 is a compact luxury crossover. 0.50.
+*   **trim_prestige_rating**: M35i is the top M Performance trim. Score negative. -0.75.
+*   **interior_luxury_rating**: High-quality materials, modern design, M-specific touches, available Alcantara/Veganza upholstery. Score positive. +0.75.
+*   **interior_tech_focus_rating**: Large curved display, digital instrument panel, iDrive 9, head-up display available. Screen-forward, modern tech focus. Score positive. +0.75.
 
-Final check on values and scoring logic. Ensure all values are floats and within -1.00 to +1.00. Round to two decimal places.```json
+```json
 {
-  "price_usd": 0.05,
+  "price_usd": 0.00,
   "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": -0.10,
-  "hp": 0.50,
-  "torque": 0.40,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.20,
-  "accel_0_60_sec": 0.50,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.25,
+  "repair_risk_score": -0.25,
+  "hp": 0.75,
+  "torque": 0.75,
+  "cylinder_count": -0.25,
+  "engine_displacement": -0.25,
+  "accel_0_60_sec": 0.75,
   "top_speed": 0.10,
   "drive_type": 0.00,
   "transmission_type": 0.00,
-  "driving_track_vs_gt": -0.20,
-  "offroad_ability": 0.40,
+  "driving_track_vs_gt": -0.50,
+  "offroad_ability": 0.75,
   "braking_dist_ft": 0.00,
-  "size": 0.10,
+  "size": 0.00,
   "wheelbase": 0.00,
-  "body_style": 0.00,
+  "body_style": 0.25,
   "seats": 0.00,
-  "cargo_space": 0.20,
-  "rear_space": 0.10,
+  "cargo_space": 0.25,
+  "rear_space": 0.00,
   "ground_clearance_in": 0.00,
   "turn_radius_ft": 0.00,
-  "mpg": -0.10,
+  "mpg": -0.25,
   "co2_g_km": 0.00,
   "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.30,
-  "style_aggression_rating": 0.60,
-  "style_modernity_rating": 0.40,
-  "handling_rating": 0.30,
-  "ride_comfort_rating": -0.50,
-  "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": -0.20,
-  "steering_feel_rating": 0.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.75,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.75,
+  "ride_comfort_rating": -0.75,
+  "cabin_noise_rating": -0.25,
+  "shift_smooth_rating": -0.25,
+  "steering_feel_rating": 0.50,
   "adas_score": 0.50,
-  "visibility_rating": -0.20,
-  "headlight_rating": 0.30,
-  "security_rating": 0.30,
-  "screen_in": 0.40,
-  "infotainment_ux_rating": 0.10,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.00,
+  "visibility_rating": -0.25,
+  "headlight_rating": 0.50,
+  "security_rating": 0.50,
+  "screen_in": 0.25,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.75,
   "usb_ports": 0.00,
-  "comfort_feature_score": 0.30,
-  "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.60,
-  "model_prestige_rating": 0.10,
-  "trim_prestige_rating": -0.20,
-  "interior_luxury_rating": 0.40,
-  "interior_tech_focus_rating": 0.60
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 0.75,
+  "model_prestige_rating": 0.50,
+  "trim_prestige_rating": -0.75,
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": 0.75
 }
 ```

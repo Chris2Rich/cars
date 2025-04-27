@@ -1,54 +1,122 @@
-```json
+Based on the search results, the Vauxhall Vivaro 2900 CDTi most commonly refers to the second generation (2014-2019) with 1.6L or 2.0L CDTi engines, or the first generation (2001-2014) with 1.9L or 2.0L CDTi engines. The "2900" indicates a 2.9-tonne Gross Vehicle Weight. I will use data points from the 2014-2019 generation (specifically 1.6 CDTi 120PS or 115PS variants where possible) as it's more recent, but acknowledge that specs can vary by year and engine.
+
+- **price_usd:** Used prices are typically well below the $52,000 average for a new car. Search results show prices around £8,000 - £15,000 + VAT, which is roughly $10,000 - $19,000 USD. This is significantly below average. Score: +1.00.
+- **total_cost_estimate_5yr_usd:** Commercial vehicle costs can be higher than passenger cars due to usage, but the low purchase price helps. Likely below the $40,000 average. Score: 0.50.
+- **insurance_usd_yr:** Insurance groups are around 38-39A for 1.6 CDTi models. This is in the mid-to-high range compared to passenger cars, but average for a commercial vehicle. Score: 0.00.
+- **maint_usd_yr:** Diesel vans, especially with commercial use, can have higher maintenance costs than average passenger cars. Score: -0.20.
+- **repair_risk_score:** Vauxhall/Opel reliability is generally considered average. Score: 0.00.
+- **hp:** Common engines are 1.6 CDTi 90PS (88 hp), 115PS (113 hp), 120PS (118 hp), 125PS (123 hp), and 140PS/145PS (138/143 hp). These are all well below the 200 hp average. Score: -1.00.
+- **torque:** 1.6 CDTi 120PS has 221 lb-ft (300 Nm), 1.6 CDTi 125PS has 236 lb-ft (320 Nm), 2.0 CDTi 115PS has 214 lb-ft (290 Nm). This is decent for a diesel but not high overall. Score: 0.20.
+- **cylinder_count:** Typically 4 cylinders. Score: -0.50.
+- **engine_displacement:** 1.6L or 2.0L. Below the 3.0L benchmark. Score: -0.20.
+- **accel_0_60_sec:** Around 13-15 seconds for 1.6 CDTi 120PS/115PS. Very slow. Score: -1.00.
+- **top_speed:** Around 99-106 mph. Well below the 150 mph benchmark. Score: -1.00.
+- **drive_type:** FWD. Score: -1.00.
+- **transmission_type:** Manual is standard/common. Score: -1.00.
+- **driving_track_vs_gt:** Commercial van, utility focus. Score: 0.00.
+- **offroad_ability:** Poor. FWD, road tires, not designed for off-road. Score: +1.00.
+- **braking_dist_ft:** Vans generally have longer braking distances. Score: -0.50.
+- **size:** Large van. Length around 4.9-5.3m, width around 1.9-2.2m. Score: 0.80.
+- **wheelbase:** Long wheelbase for cargo. Around 3.0-3.4m. Score: 0.80.
+- **body_style:** Panel Van (5-Door Van). Score: +1.00.
+- **seats:** Typically 3 in the front. Some Combi versions have more. Assuming panel van: 3 seats. Score: -0.50.
+- **cargo_space:** Excellent cargo space is the main feature. Volume around 5.2-6.0 m3 (183-212 cu ft). Score: +1.00.
+- **rear_space:** N/A for panel van. Score: 0.00.
+- **ground_clearance_in:** Around 150-164mm (approx 6-6.5 inches). Average for a crossover, but not high like an SUV. Score: 0.00.
+- **turn_radius_ft:** Turning circle around 11.8-13.2m (38.7-43.3 ft). Wider than average car. Score: -0.50.
+- **mpg:** Combined MPG around 37-43 mpg for diesel variants. Average for a diesel, but not high compared to hybrids/small cars. Score: 0.00.
+- **co2_g_km:** Around 160-198 g/km for diesel variants. Higher than average passenger car. Score: -0.50.
+- **electrification:** Petrol/Diesel. Score: -1.00.
+- **electric_range_mi:** N/A. Score: -1.00.
+- **charge_speed_kw:** N/A. Score: -1.00.
+- **handling_rating:** Functional, not engaging. Score: -0.50.
+- **ride_comfort_rating:** Designed for load, can be firm. Score: -0.20.
+- **cabin_noise_rating:** Vans are typically noisier than passenger cars. Score: -0.50.
+- **shift_smooth_rating:** Manual van gearbox is functional. Score: -0.20.
+- **steering_feel_rating:** Functional, not engaging. Score: -0.50.
+- **adas_score:** Older vans have minimal ADAS. Some later models might have parking sensors or cruise control. Score: -0.50.
+- **visibility_rating:** Good forward visibility, potentially poor rear/side in panel van. Score: 0.00.
+- **headlight_rating:** Basic headlights. Score: -0.20.
+- **security_rating:** Basic security features. Score: 0.00.
+- **screen_in:** Older models might have small basic screens or none. Later models might have a 7-inch screen. Score: -0.50.
+- **infotainment_ux_rating:** Basic functionality. Score: -0.80.
+- **smartphone_connect_rating:** Bluetooth available on some trims. Score: -0.20.
+- **audio_rating:** Basic audio system. Score: -0.80.
+- **usb_ports:** Some models have USB. Likely few. Score: -0.20.
+- **comfort_feature_score:** Basic features (manual seats, basic climate). Air conditioning available on some trims. Score: -0.50.
+- **convenience_feature_score:** Basic features. Parking sensors available on some trims. Score: -0.50.
+- **brand_prestige_rating:** Vauxhall is a mainstream brand. Score: 0.00.
+- **model_prestige_rating:** Vivaro is a workhorse van. Score: +1.00.
+- **trim_prestige_rating:** CDTi 2900 is a functional variant. Sportive adds some features but is not a top luxury/performance trim. Score: +1.00.
+- **interior_luxury_rating:** Utilitarian, hard-wearing materials. Score: -1.00.
+- **interior_tech_focus_rating:** Minimal tech focus. Score: -1.00.
+
+Refining scores based on benchmarks and search results.
+
+- Price: Used price is very low compared to new car average. +1.00 seems appropriate.
+- HP: Max HP is around 145, well below 200 average. -1.00 is appropriate.
+- 0-60: >12 seconds. -1.00 is appropriate.
+- Top Speed: <110 mph. -1.00 is appropriate.
+- Cargo Space: Excellent. +1.00 is appropriate.
+- Electrification: Diesel. -1.00 is appropriate.
+- ADAS: Very minimal on older models. -1.00 is appropriate.
+- Infotainment/Tech: Basic or non-existent on older models. Scores should reflect this. Screen size small, UX basic, connectivity limited, audio basic, few USBs. -0.80 to -1.00 range seems appropriate for these.
+- Interior Luxury/Tech Focus: Utilitarian van interior. -1.00 is appropriate.
+- Model/Trim Prestige: Workhorse van, base/utility trim. +1.00 is appropriate for both based on the guide's examples.
+
+Final check of all scores and formatting.```json
 {
   "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": 0.00,
+  "total_cost_estimate_5yr_usd": 0.50,
   "insurance_usd_yr": 0.00,
-  "maint_usd_yr": -0.50,
-  "repair_risk_score": -0.20,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": 0.00,
   "hp": -1.00,
-  "torque": 0.00,
-  "cylinder_count": -0.20,
-  "engine_displacement": -0.30,
+  "torque": 0.20,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.20,
   "accel_0_60_sec": -1.00,
   "top_speed": -1.00,
   "drive_type": -1.00,
   "transmission_type": -1.00,
+  "driving_track_vs_gt": 0.00,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
+  "braking_dist_ft": -0.50,
   "size": 0.80,
   "wheelbase": 0.80,
   "body_style": 1.00,
-  "seats": -1.00,
+  "seats": -0.50,
   "cargo_space": 1.00,
-  "rear_space": -1.00,
+  "rear_space": 0.00,
   "ground_clearance_in": 0.00,
   "turn_radius_ft": -0.50,
-  "mpg": 0.50,
-  "co2_g_km": -0.20,
+  "mpg": 0.00,
+  "co2_g_km": -0.50,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": -1.00,
-  "style_aggression_rating": -1.00,
-  "style_modernity_rating": -0.50,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": -0.80,
-  "shift_smooth_rating": 0.00,
+  "style_sleek_vs_boxy": -0.80,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": -0.20,
+  "handling_rating": -0.50,
+  "ride_comfort_rating": -0.20,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": -0.20,
   "steering_feel_rating": -0.50,
-  "adas_score": -0.80,
+  "adas_score": -1.00,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.00,
+  "headlight_rating": -0.20,
   "security_rating": 0.00,
-  "screen_in": -0.20,
-  "infotainment_ux_rating": -0.50,
-  "smartphone_connect_rating": -0.50,
+  "screen_in": -0.80,
+  "infotainment_ux_rating": -0.80,
+  "smartphone_connect_rating": -0.20,
   "audio_rating": -0.80,
   "usb_ports": -0.20,
   "comfort_feature_score": -0.50,
   "convenience_feature_score": -0.50,
-  "brand_prestige_rating": -0.50,
+  "brand_prestige_rating": 0.00,
   "model_prestige_rating": 1.00,
-  "trim_prestige_rating": 0.00,
+  "trim_prestige_rating": 1.00,
   "interior_luxury_rating": -1.00,
   "interior_tech_focus_rating": -1.00
 }

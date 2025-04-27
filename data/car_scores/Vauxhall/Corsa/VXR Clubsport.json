@@ -1,0 +1,115 @@
+The Vauxhall Corsa VXR Clubsport was a special edition of the Corsa D VXR, produced around 2014. It was based on the earlier Nürburgring Edition and featured enhanced performance components. I will evaluate based on the 1.6 Turbo 205PS petrol engine with a manual gearbox, scoring against current market benchmarks.
+
+Here's the data extracted and the corresponding scores based on the guide:
+
+*   **price_usd**: Original price was around £22,390. Used models from 2014 are listed for around £4,590 - £10,990. Using £7,000 as a mid-point for a used model, this is ~$8,890 USD. This is extremely low compared to the current market average of $52,000. Score: +1.00.
+*   **total_cost_estimate_5yr_usd**: While the purchase price is very low, it's a used performance-oriented car with specific high-end components (LSD, Brembo brakes, Bilstein suspension) which can be expensive to maintain or replace. Insurance is high. Overall 5-year cost should be below average for a new car, but potentially higher than a standard used Corsa. Score: 0.00.
+*   **insurance_usd_yr**: Insurance group 34. This is high compared to the overall range of 1-50. Score: -0.10.
+*   **maint_usd_yr**: Maintenance costs for a Corsa D are generally considered low for standard models. The VXR Clubsport has specific performance parts (LSD, Bilstein dampers, Brembo brakes) which are likely more expensive to service or repair than standard Corsa parts. Score: 0.00.
+*   **repair_risk_score**: The Corsa D has a fairly average record for reliability, though some common faults exist (Easytronic gearbox, steering motor, heater controls). Being a high-performance model with specific components increases potential stress and repair costs. Score: 0.00.
+*   **hp**: 205 PS (202 bhp). This is around average for current vehicles, and good for a supermini hot hatch of its era. Score: 0.00.
+*   **torque**: 245 Nm (181 lb-ft) or 280 Nm (207 lb-ft) on overboost. This is around average to good. Score: 0.00.
+*   **cylinder_count**: 4. Score: 0.00.
+*   **engine_displacement**: 1.6 litres (1598 cc). Score: 0.00.
+*   **accel_0_60_sec**: 0-60 mph in 6.5 seconds or 0-62 mph in 6.5 seconds. This is quick and above average. Score: 0.30.
+*   **top_speed**: 143 mph. This is above average. Score: 0.00.
+*   **drive_type**: FWD. Score: -1.00.
+*   **transmission_type**: 6-speed Manual. Score: -1.00 (Manual).
+*   **driving_track_vs_gt**: Hot Hatch/Sporty Supermini, specifically track-focused with LSD, uprated suspension and brakes. Score: -1.00.
+*   **offroad_ability**: FWD city car with lowered, stiff sports suspension. Score: 1.00.
+*   **braking_dist_ft**: 305mm front discs and 284mm rear discs with Brembo four-piston calipers. Described as "high performance Brembo braking", "exceptional stopping ability", "epic brakes". Score: 0.50.
+*   **size**: Length 3999 mm (4040mm). This is small. Score: -0.70.
+*   **wheelbase**: 2511 mm. This is short. Score: -0.50.
+*   **body_style**: 3-door Hatchback only. Score: -1.00.
+*   **seats**: 5. Score: 0.00.
+*   **cargo_space**: 285 litres (seats up). 285 litres * 0.0353147 cu ft/litre = ~10.06 cu ft. This is low. Score: -0.60.
+*   **rear_space**: Described as potentially a little small in the rear, especially in the 3-door. Score: -0.10.
+*   **ground_clearance_in**: Height 1488 mm. Lowered 20mm front and 15mm rear compared to standard VXR. Ground clearance not explicitly stated, but very low for the segment. Score: -0.50.
+*   **turn_radius_ft**: Not found. Corsa D is generally easy to manoeuvre. Score: 0.10.
+*   **mpg**: 37.2 mpg (NEDC combined). Real-world likely lower. Using 37.2 UK mpg = ~31 US mpg. This is low. Score: -0.20.
+*   **co2_g_km**: 178 g/km (NEDC). This is high compared to many modern cars. Score: -0.20.
+*   **electrification**: Petrol. Score: -1.00.
+*   **electric_range_mi**: Not electric. Score: -1.00.
+*   **charge_speed_kw**: Not electric. Score: -1.00.
+*   **style_sleek_vs_boxy**: Standard hatchback shape with aggressive VXR Clubsport styling. Score: 0.00.
+*   **style_aggression_rating**: VXR styling includes aggressive bumpers, air intakes, prominent spoiler, twin Remus exhaust, large 18-inch gloss black wheels, black grille/mirrors, unique rear diffuser. Described as "one mean Corsa", "aggressive front splitter", "sporty but trendy effect". Score: 0.70.
+*   **style_modernity_rating**: Corsa D design (2006-2014) with VXR styling. Looks dated compared to the current facelifted model. Score: -0.50.
+*   **handling_rating**: Features Bilstein-developed chassis, lowered suspension, Drexler mechanical limited-slip differential. Described as having "unbeatable traction", "hyper-alert front end", "sort of grip that wouldn't disgrace the proverbial littoral mollusc", "can feel really wonderful on a tight, twisty B-road", "will amaze you with how quickly and competently it can dissect a corner". However, the LSD causes significant torque steer ("tugging the steering wheel with every provocation", "steering wheel never stops tugging at your wrists", "battle to keep it going straight"). Score: 0.50.
+*   **ride_comfort_rating**: Bilstein-tuned chassis and lowered suspension. Described as "very compromised", "riding a pogo stick", "very firm", "a little firm". Score: -0.50.
+*   **cabin_noise_rating**: A lot of wind and road noise once you built up speed. Score: -0.20.
+*   **shift_smooth_rating**: 6-speed manual, described as having a "short-shifting lever which is an absolute joy to use" (Corsa E VXR, likely similar to Clubsport). Score: 0.50.
+*   **steering_feel_rating**: Power-assisted steering. Described as having an "unpleasant stiction just off centre", lacking precise feedback, "tugging at your wrists" due to LSD, but also "very good steering" and "direct and accurate". Score: 0.00.
+*   **adas_score**: Includes ABS, ESP Plus, Traction Control, Hill Start Assist, Airbags. Lacks modern ADAS like AEB, LKA. Score: -0.50.
+*   **visibility_rating**: 3-door body style can hinder visibility. Score: -0.10.
+*   **headlight_rating**: Chrome-Style Dual Ellipsoidal Halogen Headlights with LED Daytime Running Lights. Bi-xenon headlights were optional (part of Plus Pack on Nurburgring, likely similar for Clubsport). Score: -0.20.
+*   **security_rating**: Remote Control Central Deadlocking, Security Deadlocks, Electronic Engine Deadlock Immobiliser, Remote Control Ultrasonic Alarm. Basic security for its time, but older Corsas are known targets and scored poorly in Thatcham tests (Group 34 is high risk). Score: -0.50.
+*   **screen_in**: Standard was likely a basic radio/CD player (CD30 MP3). Optional Touch & Connect multi-media system with a five-inch touch screen was available. Score: -0.20.
+*   **infotainment_ux_rating**: Basic radio interface or optional 5-inch touchscreen system. Simple interface, but optional system described as "intuitive". Score: -0.10.
+*   **smartphone_connect_rating**: Optional Touch & Connect system included USB and Bluetooth. Standard CD30 MP3 had Aux-in. Bluetooth connectivity and AUX connection mentioned as standard on some listings. Score: -0.20.
+*   **audio_rating**: CD/MP3 CD player/stereo radio, 6 Speakers, Steering wheel mounted audio controls. Score: 0.00.
+*   **usb_ports**: Optional Touch & Connect system included USB. USB connection mentioned as standard on some listings. Likely 1 USB port if equipped. Score: -0.50.
+*   **comfort_feature_score**: Recaro shell-backed sports front seats (standard), VXR leather steering wheel, sports pedals. Air Conditioning standard. Optional Leather Pack with heated seats. Score: 0.30.
+*   **convenience_feature_score**: Cruise Control, Power Assisted Steering, Remote Central Locking, Electric Front Windows, Heated Door Mirrors. Optional Rear Parking Sensors, Optional Heated Steering Wheel. Lacks modern convenience features like cameras as standard. Score: 0.00.
+*   **brand_prestige_rating**: Vauxhall is a mainstream brand. VXR sub-brand adds performance prestige. Score: -0.30.
+*   **model_prestige_rating**: Corsa is an entry-level model. VXR is the performance flagship. Score: -0.50.
+*   **trim_prestige_rating**: Clubsport was a top-tier, limited edition, track-focused trim. Score: -0.50.
+*   **interior_luxury_rating**: Interior described as feeling old/dated, plasticky, not bought for quality or stylish fittings. Recaro seats are a highlight. Score: -0.50.
+*   **interior_tech_focus_rating**: Basic tech standard, with optional 5-inch touchscreen infotainment. Not tech-focused. Score: -0.20.
+
+```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -0.10,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.00,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.30,
+  "top_speed": 0.00,
+  "drive_type": -1.00,
+  "transmission_type": -1.00,
+  "driving_track_vs_gt": -1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.50,
+  "size": -0.70,
+  "wheelbase": -0.50,
+  "body_style": -1.00,
+  "seats": 0.00,
+  "cargo_space": -0.60,
+  "rear_space": -0.30,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.10,
+  "mpg": -0.20,
+  "co2_g_km": -0.20,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.70,
+  "style_modernity_rating": -0.50,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": -0.50,
+  "cabin_noise_rating": -0.20,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.00,
+  "adas_score": -0.50,
+  "visibility_rating": -0.10,
+  "headlight_rating": -0.20,
+  "security_rating": -0.50,
+  "screen_in": -0.20,
+  "infotainment_ux_rating": -0.10,
+  "smartphone_connect_rating": -0.20,
+  "audio_rating": 0.00,
+  "usb_ports": -0.50,
+  "comfort_feature_score": 0.30,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": -0.30,
+  "model_prestige_rating": -0.50,
+  "trim_prestige_rating": -0.50,
+  "interior_luxury_rating": -0.50,
+  "interior_tech_focus_rating": -0.20
+}
+```

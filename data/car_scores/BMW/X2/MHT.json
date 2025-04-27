@@ -1,5 +1,115 @@
-MHT (Mild Hybrid Technology) is a technology used in certain engine variants of the BMW X2, rather than a specific model or trim level itself. The most recent BMW X2 models that feature MHT are the X2 20i and the X2 20d.
+The most recent version of the BMW X2 with Mild Hybrid Technology (MHT) is part of the new U10 generation. The sDrive20i and xDrive20d variants in certain markets (like the UK and Europe) feature a 48V mild-hybrid system. I will evaluate the sDrive20i MHT as a representative example.
 
-I have already evaluated the BMW X2 20i and the BMW X2 20d in previous responses. As "X2 MHT" does not represent a single, distinct model with its own unique set of specifications separate from the 20i and 20d, I cannot provide a single JSON evaluation for it.
+Here's the evaluation based on the gathered data for the 2024/2025 BMW X2 sDrive20i MHT:
 
-Please refer to the JSON outputs provided for the ['BMW', 'X2', '20i'] and ['BMW', 'X2', '20d'] models, as these represent the most recent BMW X2 vehicles equipped with Mild Hybrid Technology.
+*   **price_usd**: UK pricing for the sDrive20i M Sport starts around £40,515 - £42,995. Using a conversion rate (e.g., 1 GBP = 1.27 USD), this is roughly $51,500 - $54,600 USD. This is right around the market average of $52,000. Score 0.00.
+*   **total_cost_estimate_5yr_usd**: No specific 5-year cost estimate found for this variant. Default to 0.00.
+*   **insurance_usd_yr**: UK Insurance Group 25 or 26 for the sDrive20i MHT. This is around the average (20-25). Score 0.00.
+*   **maint_usd_yr**: BMW offers maintenance plans, and mild-hybrid systems can add complexity, but also potentially reduce wear on the combustion engine. Default to 0.00.
+*   **repair_risk_score**: BMW's general reliability is often considered average or slightly below. Mild-hybrid systems introduce additional components which could potentially increase risk, though they are generally less complex than full hybrids. Score slightly negative. -0.25.
+*   **hp**: 125 kW / 170 hp (combined system output). The combustion engine provides 115 kW / 156 hp, and the electric motor adds up to 14 kW / 19 hp. This combined output is below the average of 200 hp. Score negative. -0.25.
+*   **torque**: 280 Nm / 207 lb-ft (combined system torque). The combustion engine provides 240 Nm / 177 lb-ft, and the electric motor adds up to 55 Nm / 41 lb-ft. This combined torque is above the average of 190 lb-ft. Score positive. +0.25.
+*   **cylinder_count**: 3-cylinder combustion engine. Average is 6, so score significantly negative. -0.50.
+*   **engine_displacement**: 1.5L / 1499 cm³ combustion engine. Average is 3.0L, so score significantly negative. -1.00.
+*   **accel_0_60_sec**: 0-100 km/h in 8.3 seconds. This is roughly 7.9-8.0 seconds 0-60 mph. This is slower than the 7.5s average. Score negative. -0.25.
+*   **top_speed**: 213 km/h (132 mph) or 213 km/h (132 mph). This is below the 150 mph average. Score negative. -0.25.
+*   **drive_type**: Front-Wheel Drive (sDrive). Score -1.00.
+*   **transmission_type**: 7-speed Steptronic dual-clutch automatic (DKG). The guide lists DCT as 0.00.
+*   **driving_track_vs_gt**: Similar to other X2 variants, it's a sporty crossover. Score negative. -0.25.
+*   **offroad_ability**: Front-wheel drive, ground clearance around 20.7 cm (8.15 inches). Not designed for serious off-roading. Score towards the poor end for off-road. +0.50.
+*   **braking_dist_ft**: No specific braking distance found. Default to 0.00.
+*   **size**: Length 4554 mm (179.3 inches) or 4567 mm (179.8 inches). Around the size of a Honda Civic (4600mm). Score 0.00.
+*   **wheelbase**: 2692 mm (106.0 inches). Around the size of a Skoda Octavia (2700mm). Score 0.00.
+*   **body_style**: Sports Activity Coupe (SAC) / 4-door crossover. Coupe-like roofline. +0.25.
+*   **seats**: 5 seats. Average is 5 seats. Score 0.00.
+*   **cargo_space**: 515-560 liters (18.2 - 19.8 cu ft) with seats up. Max 1400-1470 liters (49.4 - 51.9 cu ft) with seats folded. Using the range, 18.2-19.8 cu ft is above the 15 cu ft sedan average, but below the >35 cu ft SUV/wagon benchmark for +1.00. Score positive. +0.25.
+*   **rear_space**: Increased legroom and headroom compared to previous gen, but headroom less than X1 due to sloping roof. Rear legroom 36.7 inches. Around the 35" average. Score 0.00.
+*   **ground_clearance_in**: 20.7 cm (8.15 inches). Above the compact crossover average of 6.5 inches, but well below the >10 inches benchmark for +1.00. Score positive. +0.25.
+*   **turn_radius_ft**: 11.7 m (38.4 ft). Around the 36 ft average. Score 0.00.
+*   **mpg**: WLTP combined 45.6 - 48.7 mpg imp (approx 38.0 - 40.6 US mpg). This is well above the 30 mpg average. Score positive. +0.75.
+*   **co2_g_km**: WLTP combined 131-143 g/km. This is below the 175 g/km average. Score positive. +0.50.
+*   **electrification**: Mild Hybrid Petrol. Score 0.00.
+*   **electric_range_mi**: Mild Hybrid system provides minimal electric-only range (usually less than a mile). Score -1.00.
+*   **charge_speed_kw**: Mild Hybrid system does not have external charging. Score -1.00.
+*   **style_sleek_vs_boxy**: Coupe-like roofline, dynamic design. Leans sleek. +0.50.
+*   **style_aggression_rating**: Bolder and more aggressive than previous gen, especially in M Sport trim. Score positive. +0.50.
+*   **style_modernity_rating**: New generation, modern design inside and out, latest iDrive. Score positive. +0.50.
+*   **handling_rating**: Described as good to drive, sporty and engaging, especially with M Sport suspension. Score positive. +0.50.
+*   **ride_comfort_rating**: Comfortable cabin, updated suspension for comfort, but M Sport suspension can be firm. Score slightly positive. +0.25.
+*   **cabin_noise_rating**: No specific rating found, but reviews of the diesel mention it's quiet. Assume petrol MHT is also reasonably refined. Score 0.00.
+*   **shift_smooth_rating**: 7-speed dual-clutch automatic. DCTs can sometimes be less smooth than traditional automatics at low speeds. Score slightly negative. -0.25.
+*   **steering_feel_rating**: Electric power steering. BMW steering is usually well-regarded. Score positive. +0.50.
+*   **adas_score**: Standard features include Active Guard (front collision warning, braking intervention), Lane Departure Warning, Parking Assistant with reversing camera and sensors. Available Driving Assistant Professional (adaptive cruise control with lane centering), Parking Assistant Plus (360 camera). Good standard features, comprehensive options. Score positive. +0.50.
+*   **visibility_rating**: Sloping roofline contributes to some blind spots, narrow rear window. Score slightly negative. -0.25.
+*   **headlight_rating**: Adaptive LED headlights standard on M Sport. Score positive. +0.50.
+*   **security_rating**: Alarm system with tilt sensor, central locking, locking wheel bolts. Score positive. +0.50.
+*   **screen_in**: BMW Curved Display with 10.25-inch instrument cluster and 10.7-inch central information display. 10.7 inches is above the 8" average. Score positive. +0.25.
+*   **infotainment_ux_rating**: Latest BMW iDrive 9.0. Reliance on touchscreen for climate control is a negative. Score 0.00.
+*   **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto standard. Score positive. +0.50.
+*   **audio_rating**: Standard system, available Harman Kardon. Standard system is average. Score 0.00.
+*   **usb_ports**: Multiple USB Type C ports (at least 2 front, 2 rear). Score positive. +0.25.
+*   **comfort_feature_score**: Standard heated, power-adjustable front seats (on M Sport), dual-zone automatic climate control. Available heated steering wheel, electric memory seats. Good standard features. Score positive. +0.50.
+*   **convenience_feature_score**: Standard power liftgate, keyless entry, backup camera, parking sensors/assist, blind spot monitor, lane departure warning. Available Parking Assistant Plus, Head-up display, wireless charging. Comprehensive convenience features. Score positive. +0.50.
+*   **brand_prestige_rating**: BMW is a luxury brand. Score positive. +0.75.
+*   **model_prestige_rating**: X2 is a compact luxury crossover. 0.50.
+*   **trim_prestige_rating**: MHT is an engine variant, often available on M Sport trim. Assuming M Sport trim as per search results. M Sport is a higher-tier trim below M Performance. Score negative. -0.25.
+*   **interior_luxury_rating**: High-quality materials, modern design, M-specific touches in M Sport trim. Score positive. +0.50.
+*   **interior_tech_focus_rating**: Large curved display, digital instrument panel, iDrive 9, head-up display available. Screen-forward, modern tech focus. Score positive. +0.75.
+
+```json
+{
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": -0.25,
+  "hp": -0.25,
+  "torque": 0.25,
+  "cylinder_count": -0.50,
+  "engine_displacement": -1.00,
+  "accel_0_60_sec": -0.25,
+  "top_speed": -0.25,
+  "drive_type": -1.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": -0.25,
+  "offroad_ability": 0.50,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.00,
+  "body_style": 0.25,
+  "seats": 0.00,
+  "cargo_space": 0.25,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.25,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.75,
+  "co2_g_km": 0.50,
+  "electrification": 0.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 0.25,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": -0.25,
+  "steering_feel_rating": 0.50,
+  "adas_score": 0.50,
+  "visibility_rating": -0.25,
+  "headlight_rating": 0.50,
+  "security_rating": 0.50,
+  "screen_in": 0.25,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.00,
+  "usb_ports": 0.25,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 0.75,
+  "model_prestige_rating": 0.50,
+  "trim_prestige_rating": -0.25,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.75
+}
+```

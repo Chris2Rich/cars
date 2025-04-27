@@ -1,55 +1,115 @@
-```json
+Based on the search results, the "most recent version" is a bit ambiguous as Porsche is selling both the updated gasoline 2024 Macan and introducing the all-electric 2024/2025 Macan EV. The user's request `['Porsche', 'Macan', '']` with an empty trim suggests they might be referring to the base gasoline model, which is the current one widely available before the EV transition fully takes over. I will evaluate the 2024 Porsche Macan base gasoline model.
+
+Here's the data extracted and the corresponding scores based on the guide:
+
+- **price_usd:** 2024 Porsche Macan starts at $60,900 MSRP. This is above the market average ($52,000) but not in the ultra-luxury range. Score: -0.20.
+- **total_cost_estimate_5yr_usd:** No specific 5-year cost found, but Porsche maintenance is generally high. Score: -0.50 (estimate based on brand/maintenance).
+- **insurance_usd_yr:** No specific UK insurance group found. Porsche is a performance/luxury brand, likely higher than average. Score: -0.40 (estimate).
+- **maint_usd_yr:** No specific annual cost found, but Porsche maintenance is known to be expensive. Score: -0.70 (estimate based on brand reputation).
+- **repair_risk_score:** No specific reliability score found, but Porsche generally has decent reliability for a performance brand, though not Toyota/Lexus levels. Score: 0.20 (estimate).
+- **hp:** Base 2024 Macan has 261 hp. This is above the average (~200 hp). Score: 0.30.
+- **torque:** Base 2024 Macan has 295 lb-ft. This is above the average (~190 lb-ft). Score: 0.40.
+- **cylinder_count:** Base 2024 Macan has a 4-cylinder engine. Average is often 4 or 6. Score: 0.00.
+- **engine_displacement:** Base 2024 Macan has a 2.0L engine. This is around the average for modern engines. Score: 0.00.
+- **accel_0_60_sec:** Base 2024 Macan does 0-60 in 6.0 seconds (5.8 with Sport Chrono). This is faster than average (~7.5 sec). Score: 0.40.
+- **top_speed:** Base 2024 Macan has a top speed of 144 mph. This is above the average (150 mph is 0.00, 50 mph is -1.00, >222 mph is +1.00). Score: 0.00 (closer to average than extremes).
+- **drive_type:** AWD is standard. Score: 0.00.
+- **transmission_type:** 7-speed PDK (dual-clutch automatic). The guide lists Automatic as +1.00 and Dual-Clutch as 0.00. Score: 0.00.
+- **driving_track_vs_gt:** Described as a sporty SUV, more sports car than SUV in feel. Leans towards GT/daily driver but with strong performance. Score: 0.20.
+- **offroad_ability:** Limited off-road ability for a performance SUV. Score: 0.80 (closer to sports car than G-Class).
+- **braking_dist_ft:** No specific braking distance found. Porsche generally has excellent brakes. Score: 0.50 (estimate).
+- **size:** Length is 186.1 inches (approx 4726 mm). This is around the size of a Honda Civic (~4600mm). Score: 0.00.
+- **wheelbase:** 110.5 inches (approx 2807 mm). This is around the size of a Skoda Octavia (~2700mm). Score: 0.00.
+- **body_style:** 5-door SUV. Score: 0.50.
+- **seats:** 5 seats. Score: 0.00.
+- **cargo_space:** 17.2 cu ft with seats up, 53 cu ft with seats folded. 17.2 is slightly above average (15 cu ft). Score: 0.10.
+- **rear_space:** No specific rear legroom found, but described as "less rear legroom" than rivals like BMW X3. Score: -0.20 (estimate).
+- **ground_clearance_in:** Max ground clearance 7.4 inches (for Macan S, base likely similar). Compact crossovers are ~6.5". Score: 0.20.
+- **turn_radius_ft:** Turning Circle Diameter: 39.4 feet. Average is ~36 ft. Score: -0.20.
+- **mpg:** Base 2024 Macan gets 19 city / 25 highway / 21 combined. Average is ~30 mpg. Score: -0.40.
+- **co2_g_km:** No specific g/km found. Based on MPG, it will be higher than average. Score: -0.40 (estimate based on MPG).
+- **electrification:** Petrol/Gasoline. Score: -1.00.
+- **electric_range_mi:** N/A. Score: -1.00.
+- **charge_speed_kw:** N/A. Score: -1.00.
+- **handling_rating:** Described as having "brilliant chassis tuning", "confidence-inspiring handling", "unmatched in terms of driving feel", "sharp handling". Score: 0.90.
+- **ride_comfort_rating:** Described as having a good ride, especially with optional air suspension. Likely firm but comfortable for a sporty SUV. Score: 0.30.
+- **cabin_noise_rating:** No specific rating found, but luxury vehicles are typically well-insulated. Score: 0.50 (estimate).
+- **shift_smooth_rating:** 7-speed PDK is known for being smooth and fast. Score: 0.80.
+- **steering_feel_rating:** Described as "direct steering", "engaging". Score: 0.90.
+- **adas_score:** Includes standard features like ParkAssist, adaptive cruise control, lane departure warnings, collision mitigation with emergency brake assist, back-up camera. Higher trims add more. Score: 0.40.
+- **visibility_rating:** Back-up camera helps. No specific rating found. Score: 0.00 (estimate).
+- **headlight_rating:** Standard LED headlights, dynamic cornering lights. Score: 0.50.
+- **security_rating:** Porsche is a high-value target, likely has good security features like immobilizer, tracking (optional). Score: 0.60 (estimate).
+- **screen_in:** 10.9-inch touchscreen infotainment system. Above average (8"). Score: 0.40.
+- **infotainment_ux_rating:** Described as "state-of-the-art and easy to control", "intuitive". Some sources say it "feels dated" compared to rivals. Score: 0.20.
+- **smartphone_connect_rating:** Wireless Apple CarPlay, Android Auto. Score: 0.80.
+- **audio_rating:** Standard 10-speaker system, optional Burmester 16-speaker. Score: 0.60.
+- **usb_ports:** Multiple USB ports and 12-volt outlets throughout the cabin. Score: 0.40 (estimate, specific count not found).
+- **comfort_feature_score:** Standard 8-way power heated front seats, three-zone climate control. Options for ventilated, heated rear, 14/18-way seats. Score: 0.60.
+- **convenience_feature_score:** Standard ParkAssist, adaptive cruise control, lane departure warning, back-up camera, power liftgate, keyless entry, push-button start, wireless charging. Score: 0.60.
+- **brand_prestige_rating:** Porsche is a high-prestige brand. Score: 0.90.
+- **model_prestige_rating:** Macan is the best-selling Porsche model globally, but it's the entry-level SUV. Score: 0.20.
+- **trim_prestige_rating:** Evaluating the base model. Score: 1.00.
+- **interior_luxury_rating:** High-end materials available (partial leather standard, full leather optional), described as "comfortable and elegant cabin", "opulent experience". Score: 0.70.
+- **interior_tech_focus_rating:** 10.9" screen, digital instrument cluster available (Macan EV has curved cluster), wireless charging. Modern but not as screen-dominant as some EVs. Score: 0.40.
+- **style_sleek_vs_boxy:** Described as having a "sleek, sloping silhouette", "aerodynamic build". Score: 0.60.
+- **style_aggression_rating:** Described as having an "athletic stance", "boldly sculpted exterior", "distinct fenders and a low hood". Moderately aggressive. Score: 0.40.
+- **style_modernity_rating:** Updated design, but the platform is older. The EV is the major modern update. Score: 0.30.
+
+Double check values and scoring against the guide. Ensure all fields are present and formatted correctly in JSON.```json
 {
-  "price_usd": -0.25,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": 0.80,
-  "torque": 0.80,
+  "price_usd": -0.20,
+  "total_cost_estimate_5yr_usd": -0.50,
+  "insurance_usd_yr": -0.40,
+  "maint_usd_yr": -0.70,
+  "repair_risk_score": 0.20,
+  "hp": 0.30,
+  "torque": 0.40,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.90,
-  "top_speed": 0.25,
+  "accel_0_60_sec": 0.40,
+  "top_speed": 0.00,
   "drive_type": 0.00,
-  "transmission_type": 0.75,
-  "offroad_ability": 0.25,
-  "braking_dist_ft": 0.00,
-  "size": 0.50,
-  "wheelbase": 0.75,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.20,
+  "offroad_ability": 0.80,
+  "braking_dist_ft": 0.50,
+  "size": 0.00,
+  "wheelbase": 0.00,
   "body_style": 0.50,
   "seats": 0.00,
-  "cargo_space": 0.75,
-  "rear_space": 0.50,
-  "ground_clearance_in": 0.25,
-  "turn_radius_ft": 0.50,
-  "mpg": -1.00,
-  "co2_g_km": 1.00,
-  "electric_range_mi": 0.70,
-  "charge_speed_kw": 0.90,
-  "style_sleek_vs_boxy": 0.25,
-  "style_aggression_rating": 0.75,
-  "style_modernity_rating": 0.95,
-  "handling_rating": 0.95,
-  "ride_comfort_rating": 0.85,
-  "cabin_noise_rating": 0.85,
-  "shift_smooth_rating": 1.00,
-  "steering_feel_rating": 0.80,
-  "adas_score": 0.80,
+  "cargo_space": 0.10,
+  "rear_space": -0.20,
+  "ground_clearance_in": 0.20,
+  "turn_radius_ft": -0.20,
+  "mpg": -0.40,
+  "co2_g_km": -0.40,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.60,
+  "style_aggression_rating": 0.40,
+  "style_modernity_rating": 0.30,
+  "handling_rating": 0.90,
+  "ride_comfort_rating": 0.30,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.90,
+  "adas_score": 0.40,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.85,
-  "security_rating": 0.25,
-  "screen_in": 0.85,
-  "infotainment_ux_rating": 0.90,
-  "smartphone_connect_rating": 0.50,
-  "audio_rating": 0.75,
-  "usb_ports": 0.50,
-  "comfort_feature_score": 0.90,
-  "convenience_feature_score": 0.90,
-  "brand_prestige_rating": 1.00,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.75,
-  "interior_luxury_rating": 0.75,
-  "interior_tech_focus_rating": 0.95
+  "headlight_rating": 0.50,
+  "security_rating": 0.60,
+  "screen_in": 0.40,
+  "infotainment_ux_rating": 0.20,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.60,
+  "usb_ports": 0.40,
+  "comfort_feature_score": 0.60,
+  "convenience_feature_score": 0.60,
+  "brand_prestige_rating": 0.90,
+  "model_prestige_rating": 0.20,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": 0.40
 }
 ```

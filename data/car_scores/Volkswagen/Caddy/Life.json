@@ -1,0 +1,113 @@
+Based on the search results, here's the evaluation for the most recent Volkswagen Caddy Life (primarily focusing on the 5th generation, post-2020, and the Life trim):
+
+*   **price\_usd**: Prices for the Caddy Life in the UK range from around £32,977 to £36,487 (for the Maxi DSG). Using a rough conversion (1 GBP = 1.25 USD), this is approximately $41,221 to $45,609. This is below the market average of $52,000. Score: 0.50.
+*   **total\_cost\_estimate\_5yr\_usd**: No specific 5-year cost estimate found. Default to 0.00.
+*   **insurance\_usd\_yr**: Insurance groups for older models were 10-20. The new model is likely similar or slightly higher. This is below the -1.00 threshold (> $3,500) and likely below the average ($1,500). Score: 0.50.
+*   **maint\_usd\_yr**: No specific maintenance cost found. VW maintenance is generally average. Default to 0.00.
+*   **repair\_risk\_score**: VW reliability is generally considered average. No specific data suggesting high or low risk for the Caddy. Score: 0.00.
+*   **hp**: Engines range from 102 PS (101 hp) to 122 PS (120 hp) for diesel, and 114 PS (112 hp) to 116 PS (116 hp) for petrol. These figures are well below the average of 200 hp. Score: -1.00.
+*   **torque**: Torque ranges from 220 Nm (162 lb-ft) for petrol to 320 Nm (236 lb-ft) for diesel. 236 lb-ft is around the average (190 lb-ft). Score: 0.00.
+*   **cylinder\_count**: Engines are 3-cylinder (older 1.0 TSI) or 4-cylinder (1.5 TSI, 2.0 TDI). 4-cylinder is common, 3-cylinder is below average. Score: 0.00.
+*   **engine\_displacement**: Engines are 1.5L or 2.0L. These are around the average (3.0L). Score: 0.00.
+*   **accel\_0\_60\_sec**: 0-60 mph is around 11-11.8 seconds. This is slower than the average of 7.5 seconds. Score: -1.00.
+*   **top\_speed**: Top speed is around 113-116 mph. This is below the average of 150 mph. Score: -1.00.
+*   **drive\_type**: Primarily Front-Wheel Drive (FWD). Score: -1.00.
+*   **transmission\_type**: Available with manual or 7-speed DSG automatic. DSG is a type of automatic/dual-clutch. Score: 0.00.
+*   **driving\_track\_vs\_gt**: Designed as a practical family/utility vehicle. Score: 0.00.
+*   **offroad\_ability**: Low ground clearance (around 5.7-7 inches) and FWD. Poor off-road ability. Score: +1.00.
+*   **braking\_dist\_ft**: No specific braking distance found. Default to 0.00.
+*   **size**: Length is around 4500mm (SWB) or 4853mm (Maxi). Width is around 1855mm. These dimensions are around the average for a large car/small van. Score: 0.00.
+*   **wheelbase**: Wheelbase is 2755mm (SWB) or 2970mm (Maxi). These are around the average (2700mm). Score: 0.00.
+*   **body\_style**: 5-door van/MPV. Score: +1.00.
+*   **seats**: Available with 5 or 7 seats. 7 seats is above average. Score: 0.50.
+*   **cargo\_space**: Cargo space is substantial, especially with seats removed (up to 3105 litres / ~109 cu ft). Score: +1.00.
+*   **rear\_space**: Rear headroom is good (43.6 inches). Legroom not specified, but wheelbase and body style suggest good space. Score: 0.50.
+*   **ground\_clearance\_in**: Around 5.7-7 inches. Around the average for a crossover/van. Score: 0.00.
+*   **turn\_radius\_ft**: Turning circle is around 11.1-12.1 meters (36.4-39.7 ft). This is around the average. Score: 0.00.
+*   **mpg**: Combined MPG is around 40.9-58.9 mpg depending on engine/transmission. These figures are above average. Score: 0.50.
+*   **co2\_g\_km**: CO2 emissions are around 127-146 g/km. These are around the average. Score: 0.00.
+*   **electrification**: Petrol and Diesel engines only, no hybrid or EV options currently confirmed for UK. Score: -1.00.
+*   **electric\_range\_mi**: Not electric. Score: -1.00.
+*   **charge\_speed\_kw**: Not electric. Score: -1.00.
+*   **style\_sleek\_vs\_boxy**: Van-based MPV, inherently boxy. Score: -1.00.
+*   **style\_aggression\_rating**: Functional design, not aggressive. Score: -1.00.
+*   **style\_modernity\_rating**: The 5th gen Caddy has a modern design for its class. Score: 0.00.
+*   **handling\_rating**: Based on Golf platform, more car-like than previous vans, but still a tall van. Handling is competent but not sporty. Score: -0.50.
+*   **ride\_comfort\_rating**: Soft suspension for comfort. ErgoComfort seats available. Likely comfortable for its class. Score: 0.50.
+*   **cabin\_noise\_rating**: Van shape can lead to more cabin noise than a sedan/SUV. Likely below average. Score: -0.50.
+*   **shift\_smooth\_rating**: DSG transmission is generally smooth, but can be lazy from a standstill. Manual is car-like. Score: 0.00.
+*   **steering\_feel\_rating**: Electric power steering, functional but likely not engaging. Score: -0.50.
+*   **adas\_score**: Life trim includes or offers adaptive cruise control, lane assist, blind spot monitor, front assist with AEB, parking sensors, park assist, rear view camera. Good suite of modern ADAS. Score: 0.50.
+*   **visibility\_rating**: Large windows and airy cabin. Good visibility. Score: 0.50.
+*   **headlight\_rating**: Optional LED headlights available. Standard likely halogen or basic LED. Score: 0.00.
+*   **security\_rating**: Anti-theft alarm system available. Standard modern security features. Score: 0.00.
+*   **screen\_in**: Infotainment screen up to 10 inches. Digital Cockpit (10.25 inches) available. 10 inches is above average. Score: 0.50.
+*   **infotainment\_ux\_rating**: VW's MIB system is generally decent, but some reviews mention fiddly controls. Score: -0.50.
+*   **smartphone\_connect\_rating**: Apple CarPlay and Android Auto (App-Connect) standard. Score: 0.00.
+*   **audio\_rating**: 6 speakers mentioned. Standard audio quality. Score: 0.00.
+*   **usb\_ports**: Two USB ports mentioned as standard, additional ports available. Score: 0.50.
+*   **comfort\_feature\_score**: Dual-zone climate control, electric lumbar support seats, heated mirrors, optional heated seats, optional panoramic roof. Good comfort features for its class. Score: 0.50.
+*   **convenience\_feature\_score**: Sliding doors, removable seats, electric parking brake, front/rear parking sensors, rear view camera, optional park assist, optional keyless entry/start, optional power tailgate. Good convenience features. Score: 0.50.
+*   **brand\_prestige\_rating**: Volkswagen is a mainstream brand. Score: 0.00.
+*   **model\_prestige\_rating**: Caddy is a utility/family van, not a halo model. Score: +1.00.
+*   **trim\_prestige\_rating**: Life is a mid-range/higher trim, not base or top performance. Score: 0.00.
+*   **interior\_luxury\_rating**: Functional, durable interior materials typical of a van-based MPV. Not luxurious. Score: -0.50.
+*   **interior\_tech\_focus\_rating**: Modern screens and digital cockpit available, but not minimalist/screen-dominated. Score: 0.00.
+
+Construct the JSON output.```json
+{
+ "price_usd": 0.50,
+ "total_cost_estimate_5yr_usd": 0.00,
+ "insurance_usd_yr": 0.50,
+ "maint_usd_yr": 0.00,
+ "repair_risk_score": 0.00,
+ "hp": -1.00,
+ "torque": 0.00,
+ "cylinder_count": 0.00,
+ "engine_displacement": 0.00,
+ "accel_0_60_sec": -1.00,
+ "top_speed": -1.00,
+ "drive_type": -1.00,
+ "transmission_type": 0.00,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.00,
+ "size": 0.00,
+ "wheelbase": 0.00,
+ "body_style": 1.00,
+ "seats": 0.50,
+ "cargo_space": 1.00,
+ "rear_space": 0.50,
+ "ground_clearance_in": 0.00,
+ "turn_radius_ft": 0.00,
+ "mpg": 0.50,
+ "co2_g_km": 0.00,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": -1.00,
+ "style_aggression_rating": -1.00,
+ "style_modernity_rating": 0.00,
+ "handling_rating": -0.50,
+ "ride_comfort_rating": 0.50,
+ "cabin_noise_rating": -0.50,
+ "shift_smooth_rating": 0.00,
+ "steering_feel_rating": -0.50,
+ "adas_score": 0.50,
+ "visibility_rating": 0.50,
+ "headlight_rating": 0.00,
+ "security_rating": 0.00,
+ "screen_in": 0.50,
+ "infotainment_ux_rating": -0.50,
+ "smartphone_connect_rating": 0.00,
+ "audio_rating": 0.00,
+ "usb_ports": 0.50,
+ "comfort_feature_score": 0.50,
+ "convenience_feature_score": 0.50,
+ "brand_prestige_rating": 0.00,
+ "model_prestige_rating": 1.00,
+ "trim_prestige_rating": 0.00,
+ "interior_luxury_rating": -0.50,
+ "interior_tech_focus_rating": 0.00
+}
+```

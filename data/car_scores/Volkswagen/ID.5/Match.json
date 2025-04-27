@@ -1,107 +1,57 @@
-Based on the search results for the Volkswagen ID.5 Match (specifically the Match Pro 77kWh 286PS variant, which seems to be the common "Match" trim):
-
-*   **price_usd**: UK price is around £45,835 - £45,900 (Source 16, 26, 28). This is roughly $57,000 - $58,000 USD (as of April 2025 exchange rates). This is slightly above the market average of $52,000, so a score slightly below 0.00 is appropriate. Let's use -0.10.
-*   **total_cost_estimate_5yr_usd**: No specific 5-year cost found. Default to 0.00.
-*   **insurance_usd_yr**: Insurance group 28 (Source 14). This is slightly below average for new cars, suggesting lower insurance costs. Score 0.25.
-*   **maint_usd_yr**: EVs generally have lower maintenance costs than ICE cars. Score 0.50.
-*   **repair_risk_score**: VW generally average reliability. Default to 0.00.
-*   **hp**: 286 PS / 282 bhp (Source 7, 17, 19). This is above the average 200 hp. Score 0.50.
-*   **torque**: 545 Nm / 402 lb-ft (Source 7, 10, 19). This is significantly above the average 190 lb-ft. Score 0.75.
-*   **cylinder_count**: EV. Score 0.00.
-*   **engine_displacement**: EV. Score 0.00.
-*   **accel_0_60_sec**: 6.7 seconds (Source 7, 8, 17, 19, 26). This is faster than the average 7.5 seconds. Score 0.50.
-*   **top_speed**: 112 mph (Source 7, 8, 10, 17, 19, 21). This is below the average 150 mph. Score -0.50.
-*   **drive_type**: Rear-wheel drive (Source 5, 23). RWD scores +1.00.
-*   **transmission_type**: Automatic (single-speed EV). Score 1.00.
-*   **offroad_ability**: Low ground clearance, RWD (for Match Pro). Score 1.00 (poor).
-*   **braking_dist_ft**: No specific data found. Default to 0.00.
-*   **size**: Length 4599mm (Source 2, 4, 7, 11, 14, 16, 19, 21). This is close to the average 4600mm. Score 0.00.
-*   **wheelbase**: 2771mm (Source 4, 7, 11, 14, 19, 21). Close to the average 2700mm. Score 0.00.
-*   **body_style**: Coupe-SUV. Score 0.00.
-*   **seats**: 5 seats (Source 2, 4, 7, 14, 19, 21). Score 0.00.
-*   **cargo_space**: 549 litres (Source 2, 4, 7, 12, 19, 29, 30). This is about 19.4 cu ft (549 L / 28.317). This is above the average 15 cu ft. Score 0.25.
-*   **rear_space**: Good legroom, but coupe roofline impacts headroom (Source 2, 5, 12). Slightly above average legroom, slightly below average headroom. Let's average to 0.00.
-*   **ground_clearance_in**: No specific inches found, but it's a crossover, likely average. Default to 0.00.
-*   **turn_radius_ft**: 11.6m / 10.2-12.0m (Source 4, 5, 7, 11, 19, 21). 11.6m is about 38 ft (11.6 * 3.28084). This is close to the average 36 ft. Score 0.00.
-*   **mpg**: EV. Score 0.00.
-*   **co2_g_km**: EV. Score 1.00.
-*   **electric_range_mi**: Up to 344 miles WLTP (Source 2, 3, 8, 9, 15, 17, 19, 21, 26). Real-world 260-320 miles (Source 15). This is well above the average 100 miles. Score 0.75.
-*   **charge_speed_kw**: Up to 135 kW DC (Source 15, 20). GTX is 175kW, but Match Pro is 135kW. 135kW is above the typical 11-50kW, but not best-in-class 250-350+. Score 0.50.
-*   **style_sleek_vs_boxy**: Coupe-SUV shape. Score 0.50.
-*   **style_aggression_rating**: Moderate. Score 0.00.
-*   **style_modernity_rating**: Modern EV design. Score 0.50.
-*   **handling_rating**: Described as competent but not exciting (Source 12, 19). Score 0.00.
-*   **ride_comfort_rating**: Described as mostly comfortable (Source 12, 19). Score 0.50.
-*   **cabin_noise_rating**: EV, likely quiet. Score 0.75.
-*   **shift_smooth_rating**: EV single gear. Score 0.75.
-*   **steering_feel_rating**: Described as power-assisted speed sensitive (Source 4, 16), some criticism of haptic buttons (Source 25). Not described as engaging. Score 0.00.
-*   **adas_score**: Includes Adaptive cruise control, Traffic sign recognition, Lane change assist, Park assist, Rear view camera, Emergency assist, etc. (Source 4, 8, 16, 18, 24, 28). Good suite of features. Score 0.75.
-*   **visibility_rating**: Rear visibility is poor due to coupe shape (Source 2). Score -0.25.
-*   **headlight_rating**: Matrix LED headlights with automatic control (Source 13, 18, 22). Score 0.75.
-*   **security_rating**: Standard VW security features (alarm, immobilizer mentioned for ID.4, likely similar) (Source 5). Score 0.25.
-*   **screen_in**: 12.9 inch infotainment screen (Source 6, 16, 18). Large screen. Score 0.75.
-*   **infotainment_ux_rating**: VW ID software criticized for touch sliders and haptic buttons (Source 2, 12, 25). Score -0.50.
-*   **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto (Source 2, 4, 16, 18, 25). Score 0.75.
-*   **audio_rating**: 6 speakers with 140 watt output (Source 13, 22). Standard system. Score 0.00.
-*   **usb_ports**: 2 front USB-C, 2 rear USB-C (Source 4, 6, 13, 16, 18, 22). 4 ports total. Score 0.50.
-*   **comfort_feature_score**: Heated front seats, 2-zone climate, power adjustable seats available (Source 4, 12, 16, 18, 22). Good features for the trim. Score 0.50.
-*   **convenience_feature_score**: Rear view camera, Park assist, electric tailgate, wireless charging (Source 4, 8, 13, 16, 18, 24). Good convenience features. Score 0.50.
-*   **brand_prestige_rating**: Volkswagen. Score 0.00.
-*   **model_prestige_rating**: ID.5 is mid-range EV. Score 0.00.
-*   **trim_prestige_rating**: Match is a mid-range trim. Score 0.00.
-*   **interior_luxury_rating**: Criticized for cheap-feeling plastics in places (Source 2, 5). Not luxurious. Score -0.50.
-*   **interior_tech_focus_rating**: Large screen, digital cockpit, ADAS, EV tech. High tech focus. Score 0.75.```json
+```json
 {
-  "price_usd": -0.10,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.25,
-  "maint_usd_yr": 0.50,
-  "repair_risk_score": 0.00,
-  "hp": 0.50,
-  "torque": 0.75,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.50,
-  "top_speed": -0.50,
-  "drive_type": 1.00,
-  "transmission_type": 1.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.00,
-  "body_style": 0.00,
-  "seats": 0.00,
-  "cargo_space": 0.25,
-  "rear_space": 0.00,
-  "ground_clearance_in": 0.00,
-  "turn_radius_ft": 0.00,
-  "mpg": 0.00,
-  "co2_g_km": 1.00,
-  "electric_range_mi": 0.75,
-  "charge_speed_kw": 0.50,
-  "style_sleek_vs_boxy": 0.50,
-  "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.50,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 0.50,
-  "cabin_noise_rating": 0.75,
-  "shift_smooth_rating": 0.75,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.75,
-  "visibility_rating": -0.25,
-  "headlight_rating": 0.75,
-  "security_rating": 0.25,
-  "screen_in": 0.75,
-  "infotainment_ux_rating": -0.50,
-  "smartphone_connect_rating": 0.75,
-  "audio_rating": 0.00,
-  "usb_ports": 0.50,
-  "comfort_feature_score": 0.50,
-  "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": -0.50,
-  "interior_tech_focus_rating": 0.75
+ "price_usd": -0.15,
+ "total_cost_estimate_5yr_usd": 0.00,
+ "insurance_usd_yr": -0.30,
+ "maint_usd_yr": 0.40,
+ "repair_risk_score": 0.00,
+ "hp": 0.00,
+ "torque": 0.20,
+ "cylinder_count": 0.00,
+ "engine_displacement": 0.00,
+ "accel_0_60_sec": -0.20,
+ "top_speed": -0.40,
+ "drive_type": 1.00,
+ "transmission_type": 1.00,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.00,
+ "size": 0.00,
+ "wheelbase": 0.00,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": 0.20,
+ "rear_space": 0.20,
+ "ground_clearance_in": -0.20,
+ "turn_radius_ft": 0.20,
+ "mpg": 1.00,
+ "co2_g_km": 1.00,
+ "electrification": 1.00,
+ "electric_range_mi": 0.60,
+ "charge_speed_kw": 0.60,
+ "style_sleek_vs_boxy": 0.20,
+ "style_aggression_rating": -0.20,
+ "style_modernity_rating": 0.50,
+ "handling_rating": 0.00,
+ "ride_comfort_rating": 0.40,
+ "cabin_noise_rating": 0.50,
+ "shift_smooth_rating": 1.00,
+ "steering_feel_rating": -0.30,
+ "adas_score": 0.40,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.20,
+ "security_rating": 0.00,
+ "screen_in": 0.40,
+ "infotainment_ux_rating": -0.40,
+ "smartphone_connect_rating": 0.30,
+ "audio_rating": 0.00,
+ "usb_ports": 0.20,
+ "comfort_feature_score": 0.30,
+ "convenience_feature_score": 0.30,
+ "brand_prestige_rating": 0.00,
+ "model_prestige_rating": 0.00,
+ "trim_prestige_rating": 0.00,
+ "interior_luxury_rating": 0.10,
+ "interior_tech_focus_rating": 0.50
 }
 ```

@@ -1,57 +1,114 @@
+The Mercedes-Benz A-Class AMG Line Edition is a trim level on the current W177 generation A-Class (2018-present). It builds upon the standard AMG Line trim by adding extra features, often including larger screens, specific wheels, and enhanced equipment packages. It is available with various standard A-Class engines, not the full AMG performance engines. I will base the performance and efficiency metrics on the A200 petrol engine (1.3L, 163 hp, 250 Nm) as a representative example, as found in search results for this trim.
+
+**Key Data Extracted & Inferred:**
+*   **Price:** Higher than standard AMG Line. Used prices for 2021-2022 models are around £20k-£23k in the UK (~$25k-$29k USD). New price for A200 AMG Line Executive (similar positioning) was around £31k (~$39k USD). Scoring based on new price range for a well-equipped A-Class.
+*   **Total Cost Estimate 5yr:** Higher purchase price and potentially slightly higher running costs than lower trims.
+*   **Insurance USD/yr:** Insurance Group 24E for A200 AMG Line Edition. This is moderate to high.
+*   **Maint USD/yr:** Standard Mercedes maintenance costs.
+*   **Repair Risk Score:** Standard W177 A-Class reliability, some reported issues but generally decent.
+*   **HP:** 161 hp (A200 engine).
+*   **Torque:** 250 Nm (184 lb-ft) (A200 engine).
+*   **Cylinder Count:** 4.
+*   **Engine Displacement:** 1.3L (A200 engine).
+*   **Accel 0-60 mph:** ~8.0 seconds (0-62 mph in 8.1s for A200d, 9.2s for A180, ~8.0s for A200). Using ~8.0s for A200.
+*   **Top Speed:** 140 mph (A200 engine).
+*   **Drive Type:** Front Wheel Drive (most common engine options).
+*   **Transmission Type:** 7-speed or 8-speed Automatic/DCT.
+*   **Driving Track vs GT:** Daily driver with sporty styling/feel.
+*   **Offroad Ability:** Low ground clearance, not designed for offroad.
+*   **Braking Dist ft:** Standard A-Class brakes, generally good.
+*   **Size:** Standard W177 A-Class dimensions. Length ~4419mm, Width ~1796mm.
+*   **Wheelbase:** 2729 mm.
+*   **Body Style:** 5-door Hatchback.
+*   **Seats:** 5.
+*   **Cargo Space:** 370 liters (13.07 cu ft).
+*   **Rear Space:** Can be cramped for taller adults.
+*   **Ground Clearance in:** Lowered suspension, around 3.8-4.1 inches.
+*   **Turn Radius ft:** Around 36-37 ft.
+*   **MPG:** Around 40-50 mpg US combined depending on engine (A200 ~40-43 US mpg).
+*   **CO2 g/km:** Around 120-140 g/km depending on engine (A200 ~137 g/km).
+*   **Electrification:** Petrol/Diesel only (unless A250e AMG Line Edition). Assuming standard petrol/diesel.
+*   **Electric Range mi:** N/A. [-1.00]
+*   **Charge Speed kW:** N/A. [-1.00]
+*   **Style Sleek vs Boxy:** Sleek hatchback.
+*   **Style Aggression Rating:** Sportier than base, with AMG styling.
+*   **Style Modernity Rating:** Modern design.
+*   **Handling Rating:** Handles well, but can be unsettled by bumps due to suspension.
+*   **Ride Comfort Rating:** Firmer ride due to lowered suspension.
+*   **Cabin Noise Rating:** Generally refined, but some wind/road noise at speed.
+*   **Shift Smooth Rating:** Automatic/DCT is generally smooth, slight pause on kickdown.
+*   **Steering Feel Rating:** Light and accurate.
+*   **ADAS Score:** Good range of standard/available ADAS.
+*   **Visibility Rating:** Generally good, but rear quarter blind spot.
+*   **Headlight Rating:** LED headlights standard, Multibeam LED available.
+*   **Security Rating:** Standard Mercedes security features.
+*   **Screen in:** Often includes dual 10.25-inch screens.
+*   **Infotainment UX Rating:** MBUX system, generally good but can be complex.
+*   **Smartphone Connect Rating:** Apple CarPlay and Android Auto standard/available.
+*   **Audio Rating:** Standard system decent, upgraded system available.
+*   **USB Ports:** Multiple USB-C ports.
+*   **Comfort Feature Score:** Includes heated seats, dual-zone climate, etc.
+*   **Convenience Feature Score:** Parking assist, cameras available.
+*   **Brand Prestige Rating:** Mercedes-Benz.
+*   **Model Prestige Rating:** A-Class is entry-level.
+*   **Trim Prestige Rating:** Mid-to-high trim level.
+*   **Interior Luxury Rating:** Good quality for the segment, AMG Line adds sporty touches.
+*   **Interior Tech Focus Rating:** High due to MBUX and large screens.
+
 ```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": 0.00,
-  "torque": 0.00,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.00,
-  "top_speed": 0.00,
-  "drive_type": 0.00,
-  "transmission_type": 0.00,
-  "driving_track_vs_gt": 0.00,
-  "offroad_ability": 0.00,
-  "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.00,
-  "body_style": 0.00,
-  "seats": 0.00,
-  "cargo_space": 0.00,
-  "rear_space": 0.00,
-  "ground_clearance_in": 0.00,
-  "turn_radius_ft": 0.00,
-  "mpg": 0.00,
-  "co2_g_km": 0.00,
-  "electrification": 0.00,
-  "electric_range_mi": 0.00,
-  "charge_speed_kw": 0.00,
-  "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.00,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.00,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.00,
-  "security_rating": 0.00,
-  "screen_in": 0.00,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.00,
-  "audio_rating": 0.00,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.00,
-  "convenience_feature_score": 0.00,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.00,
-  "interior_tech_focus_rating": 0.00
+ "price_usd": 0.10,
+ "total_cost_estimate_5yr_usd": -0.10,
+ "insurance_usd_yr": -0.15,
+ "maint_usd_yr": -0.15,
+ "repair_risk_score": -0.10,
+ "hp": -0.30,
+ "torque": -0.05,
+ "cylinder_count": 0.00,
+ "engine_displacement": -0.15,
+ "accel_0_60_sec": -0.10,
+ "top_speed": -0.10,
+ "drive_type": -1.00,
+ "transmission_type": 0.00,
+ "driving_track_vs_gt": -0.10,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.00,
+ "size": -0.05,
+ "wheelbase": 0.05,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": -0.10,
+ "rear_space": -0.10,
+ "ground_clearance_in": -0.80,
+ "turn_radius_ft": 0.00,
+ "mpg": 0.30,
+ "co2_g_km": 0.30,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": 0.20,
+ "style_aggression_rating": 0.30,
+ "style_modernity_rating": 0.40,
+ "handling_rating": 0.30,
+ "ride_comfort_rating": -0.30,
+ "cabin_noise_rating": -0.05,
+ "shift_smooth_rating": -0.05,
+ "steering_feel_rating": 0.00,
+ "adas_score": 0.25,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.20,
+ "security_rating": 0.15,
+ "screen_in": 0.80,
+ "infotainment_ux_rating": 0.40,
+ "smartphone_connect_rating": 0.25,
+ "audio_rating": 0.20,
+ "usb_ports": 0.20,
+ "comfort_feature_score": 0.25,
+ "convenience_feature_score": 0.25,
+ "brand_prestige_rating": 0.80,
+ "model_prestige_rating": 1.00,
+ "trim_prestige_rating": 0.00,
+ "interior_luxury_rating": 0.40,
+ "interior_tech_focus_rating": 0.40
 }
 ```

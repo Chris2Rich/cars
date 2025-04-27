@@ -1,9 +1,65 @@
+The Audi A8 D5 (2017-Present) is the most recent generation, with a facelift in 2021/2022. The SE trim is typically an entry-level luxury trim in the UK/Europe. I will base the evaluation on the 3.0L V6 TFSI (55 TFSI) or 3.0L V6 TDI (50 TDI) mild-hybrid engines, as these are common in the SE trim.
+
+- **price_usd:** The 2025 Audi A8 starts around $93,295 USD. This is significantly above the market average. Score: -1.00.
+- **total_cost_estimate_5yr_usd:** Luxury cars have high depreciation, maintenance, and insurance costs. Likely well over $80,000 over 5 years. Score: -1.00.
+- **insurance_usd_yr:** Audi A8 models are in high insurance groups (44-50 in the UK). Average cost for group 40 is around £1985/year. This is well above average. Score: -1.00.
+- **maint_usd_yr:** Maintenance for a complex German luxury car is expensive. Score: -1.00.
+- **repair_risk_score:** The D5 generation has had some reported issues, particularly with the Belt Starter Generator (BSG) in mild-hybrid systems, although Audi has addressed this with a service action in some regions. Overall reliability is considered average for the luxury segment, below Lexus but potentially better than some Mercedes-Benz S-Class models. Score: -0.25.
+- **hp:** The 55 TFSI V6 produces 335 hp (340 PS). The 50 TDI V6 produces 282 hp (286 PS). These are above the market average (~200 hp) but not top-tier performance. Score: 0.25 (for 50 TDI) to 0.50 (for 55 TFSI). Using 55 TFSI: 0.50.
+- **torque:** The 55 TFSI V6 produces 368 lb-ft (500 Nm). The 50 TDI V6 produces 442 lb-ft (600 Nm). These are well above average. Score: 0.50 (55 TFSI) to 0.75 (50 TDI). Using 55 TFSI: 0.50.
+- **cylinder_count:** V6 engine. This is average. Score: 0.00.
+- **engine_displacement:** 3.0L (2995-2998 cm³). This is average. Score: 0.00.
+- **accel_0_60_sec:** 55 TFSI is around 5.3-5.6 seconds. 50 TDI is around 5.9 seconds. These are good acceleration times. Score: 0.50.
+- **top_speed:** Electronically limited to 155 mph (250 km/h). This is average according to the guide. Score: 0.00.
+- **drive_type:** Quattro all-wheel drive is standard. Score: 0.00.
+- **transmission_type:** 8-speed Tiptronic automatic. Score: 1.00.
+- **driving_track_vs_gt:** Designed as a comfortable Grand Tourer. Score: 1.00.
+- **offroad_ability:** Low ground clearance, not designed for off-road. Score: 1.00.
+- **braking_dist_ft:** No specific data found, but luxury sedans typically have good braking. Estimate slightly above average. Score: 0.25.
+- **size:** Length around 5172mm (standard) or 5320mm (LWB). Width around 1945mm (body) / 2130mm (with mirrors). This is a large car. Score: 1.00.
+- **wheelbase:** Around 2998mm (standard) or 3128mm (LWB). This is a long wheelbase. Score: 1.00.
+- **body_style:** 4-door Sedan. Score: 0.00.
+- **seats:** 5 seats standard, optional 4-seat layout. Score: 0.00.
+- **cargo_space:** 505 liters (around 17.8 cu ft) for petrol/diesel, 390 liters (around 13.8 cu ft) for PHEV. This is average to below average for a large sedan, especially compared to SUVs/hatches. Score: -0.25 (for 505L) to -0.50 (for 390L). Using 505L: -0.25.
+- **rear_space:** Excellent rear legroom, especially in LWB models. Score: 1.00.
+- **ground_clearance_in:** Around 12.4-14 cm (4.9-5.5 inches). This is low compared to crossovers/SUVs. Score: -0.25.
+- **turn_radius_ft:** Around 11.4-12.9 meters (37.4-42.3 ft). This is a large turning circle. Score: -0.50.
+- **mpg:** 55 TFSI combined WLTP is around 26-31 mpg UK (21.5-25.8 US mpg). 50 TDI combined WLTP is around 34-40 mpg UK (28.3-33.3 US mpg). These figures are average to slightly above average for a large luxury car, but below average compared to the overall market. Score: -0.25.
+- **co2_g_km:** 55 TFSI is around 205-231 g/km. 50 TDI is around 184 g/km. These are high compared to the market average. Score: -0.50.
+- **electrification:** Mild Hybrid (MHEV) is standard on petrol and diesel engines. PHEV option exists. MHEV is a step towards electrification but not full PHEV or EV. Score: -0.50.
+- **electric_range_mi:** Not applicable for MHEV. PHEV has electric range. Score: -1.00 (for MHEV).
+- **charge_speed_kw:** Not applicable for MHEV. Score: -1.00 (for MHEV).
+- **style_sleek_vs_boxy:** Sleek sedan profile. Score: 0.50.
+- **style_aggression_rating:** Understated elegance, not aggressive. Score: 0.00.
+- **style_modernity_rating:** Modern design, especially the interior tech. Score: 0.50.
+- **handling_rating:** Good handling for a large car, balanced with comfort. Score: 0.25.
+- **ride_comfort_rating:** Excellent ride comfort with adaptive air suspension. Score: 1.00.
+- **cabin_noise_rating:** Extremely quiet cabin. Score: 1.00.
+- **shift_smooth_rating:** Smooth 8-speed automatic transmission. Score: 1.00.
+- **steering_feel_rating:** Steering is light and comfortable, not particularly engaging. Score: 0.00.
+- **adas_score:** High level of advanced driver assistance systems available, including adaptive cruise assist, parking pilot, traffic jam pilot (where legal). Score: 1.00.
+- **visibility_rating:** Good visibility for a sedan. Score: 0.00.
+- **headlight_rating:** Excellent LED and optional HD Matrix LED headlights. Score: 1.00.
+- **security_rating:** High level of security features. Score: 1.00.
+- **screen_in:** Dual touchscreens (10.1" upper, 8.6" lower) plus 12.3" virtual cockpit. Large screens. Score: 0.75.
+- **infotainment_ux_rating:** MMI Touch Response system, generally good but can be complex with dual screens. Score: 0.50.
+- **smartphone_connect_rating:** Apple CarPlay and Android Auto are standard. Score: 0.50.
+- **audio_rating:** Standard and optional Bang & Olufsen sound systems are excellent. Score: 1.00.
+- **usb_ports:** Multiple USB ports. Score: 0.50.
+- **comfort_feature_score:** Abundant luxury features standard and optional (heated/ventilated/massaging seats, 4-zone climate, soft-close doors). Score: 1.00.
+- **convenience_feature_score:** Abundant convenience features (keyless entry, power tailgate, parking aids, remote parking assist). Score: 1.00.
+- **brand_prestige_rating:** High (Audi). Score: 0.75.
+- **model_prestige_rating:** High (A8 is flagship). Score: -1.00.
+- **trim_prestige_rating:** SE is typically an entry-level luxury trim, not the highest performance (S8) or most opulent. Score: 1.00.
+- **interior_luxury_rating:** Very high quality materials and finish. Score: 1.00.
+- **interior_tech_focus_rating:** High focus on interior technology with multiple screens and digital interfaces. Score: 1.00.
+
 ```json
 {
-  "price_usd": -0.75,
-  "total_cost_estimate_5yr_usd": -0.75,
-  "insurance_usd_yr": -0.75,
-  "maint_usd_yr": -0.75,
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -1.00,
   "repair_risk_score": -0.25,
   "hp": 0.50,
   "torque": 0.50,
@@ -15,12 +71,12 @@
   "transmission_type": 1.00,
   "driving_track_vs_gt": 1.00,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.75,
+  "braking_dist_ft": 0.25,
   "size": 1.00,
   "wheelbase": 1.00,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.00,
+  "cargo_space": -0.25,
   "rear_space": 1.00,
   "ground_clearance_in": -0.25,
   "turn_radius_ft": -0.50,
@@ -31,13 +87,13 @@
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.50,
   "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.00,
+  "style_modernity_rating": 0.50,
   "handling_rating": 0.25,
   "ride_comfort_rating": 1.00,
   "cabin_noise_rating": 1.00,
   "shift_smooth_rating": 1.00,
   "steering_feel_rating": 0.00,
-  "adas_score": 0.50,
+  "adas_score": 1.00,
   "visibility_rating": 0.00,
   "headlight_rating": 1.00,
   "security_rating": 1.00,
@@ -45,13 +101,13 @@
   "infotainment_ux_rating": 0.50,
   "smartphone_connect_rating": 0.50,
   "audio_rating": 1.00,
-  "usb_ports": 0.00,
+  "usb_ports": 0.50,
   "comfort_feature_score": 1.00,
   "convenience_feature_score": 1.00,
   "brand_prestige_rating": 0.75,
   "model_prestige_rating": -1.00,
   "trim_prestige_rating": 1.00,
   "interior_luxury_rating": 1.00,
-  "interior_tech_focus_rating": 0.75
+  "interior_tech_focus_rating": 1.00
 }
 ```

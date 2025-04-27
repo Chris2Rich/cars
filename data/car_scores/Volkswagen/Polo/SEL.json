@@ -1,0 +1,141 @@
+The Volkswagen Polo SEL trim was available on the pre-facelift Mk6 generation (2017-2021). I will evaluate based on the 2019 Mk6 Polo SEL 1.0 TSI 115 PS model, as it represents a common higher-spec engine for this trim.
+
+*   **Price (price_usd):** A 2019 Polo SEL 1.0 TSI 115 PS DSG with low mileage is listed for £16,500. New prices for a 2020 SEL 1.0 TSI 115 PS DSG were £19,570 - £20,410. These prices are well below the $52,000 market average for a new car. Score: 0.25.
+*   **Total Cost Estimate 5yr (total_cost_estimate_5yr_usd):** Moderate purchase price, good fuel economy, and average reliability contribute to a reasonable total cost of ownership. Score: 0.00.
+*   **Insurance (insurance_usd_yr):** The Polo SEL 1.0 TSI 115 PS is in insurance group 10E or 11E. This is low compared to the market average. Score: 0.50.
+*   **Maintenance (maint_usd_yr):** Standard VW maintenance costs, generally average. Fixed service plans are available. Score: 0.00.
+*   **Repair Risk (repair_risk_score):** The Mk6 Polo is generally considered reasonably reliable, although VW as a brand ranked lower in a 2024 reliability survey. Some user reports mention minor issues, but overall reliability is seen as average compared to rivals. Score: 0.00.
+*   **HP (hp):** 115 PS (113-114 bhp). This is below the modern market average of ~200 hp. Score: -0.75.
+*   **Torque (torque):** 200 Nm (148 lb-ft). This is below the modern market average of ~190 lb-ft, but closer than lower-powered engines. Score: -0.25.
+*   **Cylinder Count (cylinder_count):** 3-cylinder engine. Below average. Score: -0.50.
+*   **Engine Displacement (engine_displacement):** 1.0L (999 cc). Small displacement. Score: -0.75.
+*   **Accel 0-60 sec (accel_0_60_sec):** 9.9 seconds (0-62 mph). This is slower than the 7.5s average. Score: -0.25.
+*   **Top Speed (top_speed):** 121 mph. This is below the 150 mph average. Score: -0.50.
+*   **Drive Type (drive_type):** Front-wheel drive. Score: -1.00.
+*   **Transmission Type (transmission_type):** Available with 6-speed manual or 7-speed DSG automatic. Score: 0.00 (averaging manual and auto availability).
+*   **Driving Track vs GT (driving_track_vs_gt):** Designed as a practical supermini with a focus on comfort and refinement. Daily driver. Score: 0.00.
+*   **Offroad Ability (offroad_ability):** Low ground clearance (14.8 cm / 5.8 inches), FWD. Not designed for offroad. Score: 1.00.
+*   **Braking Dist ft (braking_dist_ft):** Ventilated disc front, disc rear brakes. ABS standard. Assume average for its class. Score: 0.00.
+*   **Size (size):** Length ~4053-4074mm, Width ~1751mm. Small hatchback size. Score: -0.50.
+*   **Wheelbase (wheelbase):** 2551-2564mm. Short wheelbase. Score: -0.25.
+*   **Body Style (body_style):** 5-door hatchback. Common body style. Score: 0.25.
+*   **Seats (seats):** 5 seats. Average. Score: 0.00.
+*   **Cargo Space (cargo_space):** 351 litres (seats up). This is close to the 15 cu ft average (425L). Score: -0.25.
+*   **Rear Space (rear_space):** Good rear space for a supermini. Score: 0.00.
+*   **Ground Clearance in (ground_clearance_in):** 14.8 cm (5.8 inches). This is low. Score: -0.50.
+*   **Turn Radius ft (turn_radius_ft):** Turning circle 10.6 - 10.7 m (34.8 - 35.1 ft). This is good. Score: 0.25.
+*   **MPG (mpg):** 1.0 TSI 115 PS combined WLTP 60.1-62.8 mpg UK (~50-52 US mpg). This is excellent fuel economy, approaching the 55 mpg benchmark for +1.00. Score: 0.75.
+*   **CO2 g/km (co2_g_km):** 108 g/km. This is well below the 175 g/km average. Score: 0.75.
+*   **Electrification (electrification):** Petrol engine. Score: -1.00.
+*   **Electric Range mi (electric_range_mi):** N/A. Score: -1.00.
+*   **Charge Speed kw (charge_speed_kw):** N/A. Score: -1.00.
+*   **Style Sleek vs Boxy (style_sleek_vs_boxy):** Standard hatchback shape. Score: 0.00.
+*   **Style Aggression Rating (style_aggression_rating):** Neutral, non-aggressive design, described as having "a dash more sophistication". Score: -0.50.
+*   **Style Modernity Rating (style_modernity_rating):** Design from the late 2010s. Score: 0.50.
+*   **Handling Rating (handling_rating):** Described as sacrificing an entertaining drive for safety and refinement. Competent but not exciting. Score: 0.00.
+*   **Ride Comfort Rating (ride_comfort_rating):** Praised for excellent comfort and refinement. One of the comfiest superminis. Score: 0.75.
+*   **Cabin Noise Rating (cabin_noise_rating):** Does a good job of muting wind and tyre noise at motorway speeds. Reasonably quiet. Score: 0.25.
+*   **Shift Smooth Rating (shift_smooth_rating):** Manual gearbox is precise. DSG can be a little jerky at lower speeds but generally smooth. Score: 0.00 (averaging).
+*   **Steering Feel Rating (steering_feel_rating):** Light steering, good for city driving. Fair amount of feedback. Score: 0.00.
+*   **ADAS Score (adas_score):** SEL includes Front Assist with City Emergency Braking and Pedestrian Monitoring, Driver Alert System, Cruise Control, front and rear parking sensors, auto wipers, auto-dimming rearview mirror. Adaptive Cruise Control was optional. Good standard ADAS for its class/era. Score: 0.75.
+*   **Visibility Rating (visibility_rating):** Good visibility, slim pillars, large rear windscreen. Score: 0.50.
+*   **Headlight Rating (headlight_rating):** LED daytime running lights standard. Front fog lights with static cornering function standard. LED headlights were optional. Score: 0.50 (factoring standard and optional).
+*   **Security Rating (security_rating):** Alarm with interior protection, immobiliser, remote central locking. Good security features. Score: 0.50.
+*   **Screen in (screen_in):** 8-inch colour touch-screen infotainment system standard. Active Info Display (digital cockpit) was optional. Score: 0.00 (standard screen size).
+*   **Infotainment UX Rating (infotainment_ux_rating):** 8-inch touchscreen system is sharp, responsive, and easy to use. Good UX. Score: 0.50.
+*   **Smartphone Connect Rating (smartphone_connect_rating):** Apple CarPlay and Android Auto compatibility (App-Connect) standard. Score: 0.75.
+*   **Audio Rating (audio_rating):** 6 speakers standard. Assume standard audio system is average. Score: 0.00.
+*   **USB Ports (usb_ports):** USB ports available. Assume multiple USB-C ports for this era/trim. Score: 0.50.
+*   **Comfort Feature Score (comfort_feature_score):** Climate control (2-zone electronic air conditioning), front seat height adjustment, leather trimmed steering wheel/gear knob/handbrake, electric windows (front/rear), heated/adjustable door mirrors, auto-dimming rear-view mirror, ambient lighting, front centre armrest with storage. Good comfort features. Score: 0.50.
+*   **Convenience Feature Score (convenience_feature_score):** Remote central locking, electric windows, heated/adjustable mirrors, auto wipers, auto-dimming mirror, front/rear parking sensors, cruise control, front fog lights. Comprehensive convenience features. Score: 0.75.
+*   **Brand Prestige Rating (brand_prestige_rating):** Volkswagen is a mainstream brand. Score: 0.25.
+*   **Model Prestige Rating (model_prestige_rating):** Polo is an entry-level/compact model. Score: 1.00.
+*   **Trim Prestige Rating (trim_prestige_rating):** SEL was a high-level trim, one of the most luxurious before R-Line and GTI. Score: -0.25.
+*   **Interior Luxury Rating (interior_luxury_rating):** Well-built interior with good materials for its class, ambient lighting, chrome trim. Feels upmarket for a supermini. Score: 0.00.
+*   **Interior Tech Focus Rating (interior_tech_focus_rating):** Good tech focus with 8" touchscreen, smartphone integration, digital cockpit option, and comprehensive ADAS. Score: 0.50.
+
+Refining scores based on specific findings:
+*   Price: 0.25 (New price closer to average for a *new* supermini)
+*   Repair Risk: 0.00 (Average reliability)
+*   HP: 114 (-0.75)
+*   Torque: 148 (-0.25)
+*   0-60: 9.9 (-0.25)
+*   Top Speed: 121 (-0.50)
+*   Transmission: 0.00 (Manual/Auto options)
+*   Cargo Space: 351L (-0.25)
+*   Ground Clearance: ~5.8 inches (-0.50)
+*   Turn Radius: ~35 ft (0.25)
+*   MPG: ~50-52 US mpg (0.75)
+*   CO2: 108 g/km (0.75)
+*   Ride Comfort: 0.75 (Praised in reviews)
+*   Cabin Noise: 0.25 (Good for class)
+*   ADAS: Standard Front/Rear Parking Sensors, Cruise, Front Assist, Driver Alert (0.75)
+*   Headlights: LED DRLs, Fog Lights standard, full LED optional (0.50)
+*   Screen: 8 inch standard (0.00)
+*   Infotainment UX: Good (0.50)
+*   Smartphone Connect: Standard CarPlay/AA (0.75)
+*   Audio: 6 speakers (0.00)
+*   USB Ports: Multiple (0.50)
+*   Comfort Features: Good (0.50)
+*   Convenience Features: Comprehensive (0.75)
+*   Trim Prestige: High-level non-performance (-0.25)
+*   Interior Luxury: 0.00
+*   Interior Tech Focus: 0.50
+
+Looks consistent.```json
+{
+  "price_usd": 0.25,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.50,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -0.75,
+  "torque": -0.25,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.75,
+  "accel_0_60_sec": -0.25,
+  "top_speed": -0.50,
+  "drive_type": -1.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": -0.50,
+  "wheelbase": -0.25,
+  "body_style": 0.25,
+  "seats": 0.00,
+  "cargo_space": -0.25,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.25,
+  "mpg": 0.75,
+  "co2_g_km": 0.75,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.75,
+  "cabin_noise_rating": 0.25,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.75,
+  "visibility_rating": 0.50,
+  "headlight_rating": 0.50,
+  "security_rating": 0.50,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.75,
+  "audio_rating": 0.00,
+  "usb_ports": 0.50,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 0.25,
+  "model_prestige_rating": 1.00,
+  "trim_prestige_rating": -0.25,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": 0.50
+}
+```

@@ -1,108 +1,57 @@
 ```json
 {
-  "price_usd": 0.00,
+  "price_usd": 0.50,
   "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.10,
-  "maint_usd_yr": 0.50,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 1.00,
   "repair_risk_score": 0.00,
-  "hp": -0.40,
+  "hp": -0.70,
   "torque": 0.00,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": -0.20,
-  "top_speed": -0.70,
+  "cylinder_count": -1.00,
+  "engine_displacement": -1.00,
+  "accel_0_60_sec": 0.00,
+  "top_speed": -0.50,
   "drive_type": -1.00,
   "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.00,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
   "size": -0.50,
-  "wheelbase": -0.30,
-  "body_style": 0.20,
+  "wheelbase": -0.40,
+  "body_style": 0.00,
   "seats": 0.00,
   "cargo_space": -0.60,
-  "rear_space": -0.50,
-  "ground_clearance_in": 0.00,
-  "turn_radius_ft": 0.30,
-  "mpg": 0.00,
+  "rear_space": -0.70,
+  "ground_clearance_in": -0.30,
+  "turn_radius_ft": 0.10,
+  "mpg": -1.00,
   "co2_g_km": 1.00,
-  "electric_range_mi": 0.60,
-  "charge_speed_kw": 0.50,
+  "electrification": 1.00,
+  "electric_range_mi": 0.40,
+  "charge_speed_kw": 0.40,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.20,
-  "style_modernity_rating": 0.30,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.10,
   "handling_rating": 0.00,
-  "ride_comfort_rating": 0.30,
+  "ride_comfort_rating": 0.20,
   "cabin_noise_rating": 0.50,
   "shift_smooth_rating": 1.00,
   "steering_feel_rating": -0.30,
-  "adas_score": 0.40,
-  "visibility_rating": -0.20,
-  "headlight_rating": 0.40,
+  "adas_score": 0.30,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.00,
   "security_rating": 0.00,
-  "screen_in": -0.10,
-  "infotainment_ux_rating": 0.30,
+  "screen_in": 0.20,
+  "infotainment_ux_rating": 0.00,
   "smartphone_connect_rating": 0.00,
-  "audio_rating": 0.00,
-  "usb_ports": -0.30,
-  "comfort_feature_score": 0.40,
-  "convenience_feature_score": 0.50,
+  "audio_rating": -0.10,
+  "usb_ports": -0.50,
+  "comfort_feature_score": 0.30,
+  "convenience_feature_score": 0.20,
   "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.50,
+  "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.00,
-  "interior_tech_focus_rating": 0.40
+  "interior_luxury_rating": -0.50,
+  "interior_tech_focus_rating": 0.00
 }
 ```
-**Explanation of Scores:**
-
-*   **price_usd (0.00):** The SRi Nav Premium was a high trim level. Prices for the Corsa Electric range from around £26k to £38.5k (~$33k - $48k USD). This trim likely sat towards the upper end, around £30k-£35k (~$38k-$44k USD), centering around the market average for a new car ($35,000).
-*   **total_cost_estimate_5yr_usd (0.00):** No specific 5-year cost data was found for this trim. While EVs generally have lower running costs, the purchase price is around average, leading to a default average score for total ownership cost without specific data.
-*   **insurance_usd_yr (0.10):** The Corsa-e SRi Nav Premium is typically in insurance group 25E (on a 1-50 scale). This is slightly above the middle of the scale (average 20-30), suggesting slightly higher than average insurance costs, but not significantly so.
-*   **maint_usd_yr (0.50):** As an electric vehicle, the Corsa-e benefits from lower maintenance requirements compared to the average internal combustion engine vehicle.
-*   **repair_risk_score (0.00):** Reviews suggest the Corsa Electric is reliable, benefiting from the PSA platform, with no commonly reported issues. Vauxhall's reliability has improved, placing it around average.
-*   **hp (-0.40):** The 136hp electric motor is below the average horsepower benchmark of 200 hp, but well above the -1.00 benchmark of 120 hp.
-*   **torque (0.00):** The torque output of 260Nm (192 lb-ft) is very close to the average benchmark of 190 lb-ft.
-*   **cylinder_count (0.00):** As an electric vehicle, it has no cylinders. Defaults to average.
-*   **engine_displacement (0.00):** As an electric vehicle, it has no engine displacement in the traditional sense. Defaults to average.
-*   **accel_0_60_sec (-0.20):** The 0-60 mph time of 8.1 seconds is slightly slower than the average benchmark of 7.5 seconds.
-*   **top_speed (-0.70):** A top speed of 93 mph is significantly lower than the average benchmark of 150 mph, placing it closer to the -1.00 benchmark of 50 mph.
-*   **drive_type (-1.00):** The Corsa-e is front-wheel drive (FWD), which scores -1.00 according to the guide.
-*   **transmission_type (1.00):** It uses a single-speed automatic electric transmission, which provides inherently smooth operation, scoring +1.00.
-*   **offroad_ability (1.00):** As a small FWD hatchback with standard ground clearance, it has very poor offroad ability, scoring +1.00 according to the inverted benchmark scale.
-*   **braking_dist_ft (0.00):** No specific braking distance data was found, so it defaults to average.
-*   **size (-0.50):** With a length of 4060 mm, it is significantly smaller than the average benchmark of 4600 mm, placing it closer to the -1.00 benchmark for small cars.
-*   **wheelbase (-0.30):** The wheelbase of 2538 mm is smaller than the average benchmark of 2700 mm, but well above the -1.00 benchmark of 2300 mm.
-*   **body_style (0.20):** A 5-door hatchback offers more practicality than a 2-door coupe (-1.00) or 4-door sedan (0.00) but less than a 5-door van (+1.00), placing it slightly above average.
-*   **seats (0.00):** It has 5 seats, which is the benchmark average.
-*   **cargo_space (-0.60):** The boot space of 267 litres (approx 9.4 cu ft) is below the average benchmark of 15 cu ft, placing it closer to the -1.00 benchmark of 5 cu ft.
-*   **rear_space (-0.50):** Reviews indicate rear space, particularly kneeroom, is limited for adults, placing it below the average benchmark of 35".
-*   **ground_clearance_in (0.00):** No specific data was found, but as a standard small hatchback, its ground clearance is likely around the average benchmark of 6.5 inches.
-*   **turn_radius_ft (0.30):** The turning circle of 10.4 m (approx 34.1 ft) is better than the average benchmark of 36 ft, placing it closer to the +1.00 benchmark for small turning circles.
-*   **mpg (0.00):** As an electric vehicle, MPG is not applicable. Defaults to average.
-*   **co2_g_km (1.00):** As a zero-emission electric vehicle, it scores the maximum +1.00.
-*   **electric_range_mi (0.60):** The WLTP range of 209 miles is well above the average benchmark of 100 miles, but not in the best-in-class category (>375 miles).
-*   **charge_speed_kw (0.50):** The maximum DC rapid charge speed of 100 kW is above the average benchmark (11-50 kW), though not in the highest tier (250-350+ kW).
-*   **style_sleek_vs_boxy (0.00):** It has a standard hatchback profile, neither notably sleek nor boxy.
-*   **style_aggression_rating (0.20):** The SRi trim adds sporty styling elements like spoilers and specific wheels, giving it a slightly more aggressive look than base models, but it's not a truly aggressive design.
-*   **style_modernity_rating (0.30):** The design incorporates modern Vauxhall styling cues, making it look current, but it's not considered avant-garde or revolutionary.
-*   **handling_rating (0.00):** Reviews suggest handling is competent, safe, and predictable, but lacks the sharpness or engagement of sportier cars, placing it around average.
-*   **ride_comfort_rating (0.30):** The ride is generally described as comfortable due to soft suspension tuning, placing it slightly above average.
-*   **cabin_noise_rating (0.50):** As an EV, it is inherently quieter than most internal combustion engine cars, resulting in a better-than-average cabin noise level, though some wind/road noise is present at speed.
-*   **shift_smooth_rating (1.00):** The single-speed electric transmission provides inherently smooth acceleration without gear shifts, scoring +1.00.
-*   **steering_feel_rating (-0.30):** Reviews note the steering is light and easy for city driving but lacks feedback and feel, placing it below average for driver engagement.
-*   **adas_score (0.40):** The SRi Nav Premium trim includes a good set of ADAS features such as AEB, LKA, Speed Sign Recognition, Driver Drowsiness Alert, Cruise Control, Front and Rear Parking Sensors, and a 180-degree Panoramic Rear View Camera. This is a solid offering for the segment, placing it above average.
-*   **visibility_rating (-0.20):** Visibility is generally decent but can be hampered by thick pillars, placing it slightly below average.
-*   **headlight_rating (0.40):** LED headlights with High Beam Assist are standard. Better than halogen/basic LED, but not the top-tier Matrix LEDs. Above average.
-*   **security_rating (0.00):** Standard security features like remote central locking, engine immobiliser, and alarm system are typical for the segment, resulting in an average score.
-*   **screen_in (-0.10):** The SRi Nav Premium trim was typically equipped with a 7-inch touchscreen, which is slightly smaller than the 8-inch average benchmark.
-*   **infotainment_ux_rating (0.30):** The infotainment system (Navi 4.0 IntelliLink) is generally considered user-friendly and includes navigation, placing it above average.
-*   **smartphone_connect_rating (0.00):** Standard Apple CarPlay and Android Auto integration is included, but typically requires a wired connection on this trim, which is the benchmark average.
-*   **audio_rating (0.00):** The standard six-speaker audio system is described as competent but not exceptional, typical for a base/mid-range system in this class, scoring average.
-*   **usb_ports (-0.30):** The Corsa-e often includes only one or two USB ports, which is fewer than the average number found in many modern vehicles, placing it below average.
-*   **comfort_feature_score (0.40):** The SRi Nav Premium includes heated front seats and a heated steering wheel as standard, which are good comfort features for this segment, placing it above average.
-*   **convenience_feature_score (0.50):** Features like front and rear parking sensors, a 180-degree panoramic rear camera, keyless entry and start, automatic lights and wipers, and an auto-dimming rear-view mirror provide a good level of convenience, placing it above average.
-*   **brand_prestige_rating (0.00):** Vauxhall is a mainstream, non-luxury brand, scoring average prestige.
-*   **model_prestige_rating (0.50):** The Corsa is a popular, high-volume model, representing the entry/mid-level of the brand's lineup, scoring +0.50 on the inverted prestige scale (where +1.00 is entry-level).
-*   **trim_prestige_rating (0.00):** SRi Nav Premium was a high-tier trim level within the Corsa-e range, but not the absolute top (like Ultimate or Elite Nav Premium), placing it at the average prestige level for trims.
-*   **interior_luxury_rating (0.00):** The interior uses decent materials and is well-built for the segment, with some sporty touches on the SRi, but it is not described as luxurious and includes some harder plastics, placing it at the average benchmark.
-*   **interior_tech_focus_rating (0.40):** The inclusion of a digital instrument cluster and a central touchscreen, combined with a good suite of ADAS features, gives the interior a modern, tech-focused feel, although the presence of physical controls means it's not as minimalist as some highly tech-focused interiors. It's above average for tech focus in its segment.

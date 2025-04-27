@@ -1,0 +1,135 @@
+Based on the search results, the "SE" trim appears more frequently in reviews and specs from earlier model years (around 2011-2018) in the UK/European market. More recent US-focused reviews (2024-2025) tend to mention "Premium", "Premium Plus", and "S line" trims. It seems the "SE" trim might not be the primary offering in the most recent model years in all markets, or its specifications vary significantly by region and year.
+
+However, some recent UK sources still list "SE" as a trim or refer to base models with similar specs. I will use the most recent relevant data found for an "SE" or base model Q3, prioritizing 2018 onwards (second generation) where possible, but acknowledging that some data might be from slightly older models if that's the most specific "SE" info available.
+
+Let's consolidate the findings for a recent Q3 SE or base model:
+
+*   **Price:** Carwow UK lists RRP from £35,380 (approx $44,000 USD) for the Q3. A 2014 1.4T FSI SE was priced at £23,745 new. A 2015 2.0 TDI SE was £26,825. A 2025 Q3 Premium starts around $44,990. Let's use a figure around the lower end of the recent range, considering SE is often a base trim. $44,000 USD seems reasonable.
+*   **5-year Cost, Insurance, Maint:** No specific recent data for Q3 SE. General Q3 reliability is rated well by some consumers (4.8/5 in 2018, 3.8/5 in 2021, 9/10 by one reviewer), but some report issues. Maintenance costs for Audi can be higher than average. I will use 0.00 for cost/insurance/maint estimates due to lack of specific SE data, and a slightly positive score for reliability based on mixed reviews leaning towards decent.
+*   **Repair Risk Score:** Mixed reviews, some positive, some negative reports. Let's go with 0.25, slightly above average.
+*   **HP/Torque/Engine:** A 2016/2015 Q3 SE TFSI had 148 BHP (150 PS) and 250 Nm (184.4 lb-ft). A 2015 2.0 TDI SE had 184 bhp (181 bhp) and 380 Nm (280 lb-ft). A 2014 1.4 TFSI SE had 148 bhp and 250 Nm. A 2022 Q3 base had 184 hp and 221 lb-ft. A 2024 Q3 40 TFSI (often the base engine in the US) has 187.74 bhp (190 PS) and 320 Nm (236 lb-ft). Let's use the 150 PS / 184 lb-ft figures as representative of a lower-powered SE variant often found in the UK/EU.
+*   **Cylinder Count:** 4-cylinder inline engine is common. Score: 0.00.
+*   **Engine Displacement:** 1.4L or 2.0L are common for SE/base trims. Let's use 1.4L as representative of a smaller SE engine. Score: -0.50.
+*   **0-60 mph:** 1.4 TFSI SE is around 9.2-9.3 seconds. 2.0 TDI SE is around 9.9 seconds (140hp) or 7.6-8.1 seconds (184hp). 2022 base 2.0L is 8.6 seconds. 2025 35 TFSI is 9.3 seconds. Let's use 9.3 seconds. Score: -0.50.
+*   **Top Speed:** 1.4 TFSI SE is 126 mph. 2.0 TDI SE is 122-136 mph depending on power/drivetrain. Score: 0.00 (average is 150mph, 126 is below average).
+*   **Drive Type:** FWD is available on SE trims. Score: -1.00.
+*   **Transmission Type:** Manual and S tronic (DCT) are available. Let's assume S tronic (DCT) is common for recent models. Score: 0.00.
+*   **Driving Track vs GT:** Compact SUV, tuned for comfort. Score: 0.50 (leaning towards GT).
+*   **Offroad Ability:** Compact SUV, not designed for serious off-roading. Score: 1.00 (poor off-road).
+*   **Braking Dist ft:** No specific data found for SE. General Q3 braking is likely average or slightly better. Default to 0.00.
+*   **Size:** Length around 4384-4485mm. This is around the average for a compact SUV/larger hatchback. Score: 0.00.
+*   **Wheelbase:** Around 2603-2680mm. Average for the size. Score: 0.00.
+*   **Body Style:** 5-door SUV/hatchback. Score: 0.50 (practical).
+*   **Seats:** 5 seats. Score: 0.00.
+*   **Cargo Space:** 460-530 litres (seats up), 1375-1525 litres (seats down). 460 litres is approx 16.2 cu ft. 530 litres is approx 18.7 cu ft. 2024 US model is 23.7 cu ft (seats up). Let's use 18.7 cu ft as a mid-range figure for the sliding seat. Score: 0.25 (slightly above average for a car, but maybe average for a compact SUV). Let's use 0.00 for average.
+*   **Rear Space:** Rear legroom 36.1 inches. Some reviews mention it can feel squeezed for adults on long trips despite sliding seats. Score: 0.00 (average).
+*   **Ground Clearance:** 170mm (approx 6.7 inches). Score: 0.00 (average for a crossover).
+*   **Turn Radius ft:** 11.8m (approx 38.7 ft). Score: 0.00 (average).
+*   **MPG:** 1.4 TFSI SE is around 47-50.4 mpg (NEDC). 2.0 TDI SE is around 54.3-61.4 mpg (NEDC). 2024 45 TFSI is 21/28/31 mpg (EPA/C/D). 2022 base 2.0L is 22/27 mpg (EPA). Let's use a combined figure around 30-35 mpg (closer to WLTP/EPA for recent models). 30 mpg is average. Score: 0.00.
+*   **CO2 g/km:** 1.4 TFSI SE is around 128-136 g/km. 2.0 TDI SE is around 119-149 g/km. Score: 0.25 (slightly better than average for petrol/diesel).
+*   **Electrification:** Petrol/Diesel. Score: -1.00.
+*   **Electric Range:** N/A. Score: -1.00.
+*   **Charge Speed:** N/A. Score: -1.00.
+*   **Style Sleek vs Boxy:** SUV shape, but with Audi's modern lines. Not overly boxy or sleek. Score: 0.00.
+*   **Style Aggression:** Modern Audi design, not particularly aggressive. Score: 0.00.
+*   **Style Modernity:** Modern Audi design. Score: 0.50.
+*   **Handling:** Tuned for comfort, steering is light. Not particularly sporty. Score: -0.25.
+*   **Ride Comfort:** Generally comfortable. Score: 0.50.
+*   **Cabin Noise:** Serene cabin experience mentioned. Score: 0.50.
+*   **Shift Smoothness:** S tronic shifts smoothly. Score: 0.50.
+*   **Steering Feel:** Direct but light on feel. Score: -0.50.
+*   **ADAS Score:** Offers a host of driver assists. ADAS pack available. Score: 0.50.
+*   **Visibility:** Good forward visibility, better all-round than many compact SUVs. Score: 0.50.
+*   **Headlight Rating:** LED headlights available/standard on some trims. Score: 0.50.
+*   **Security Rating:** No specific data found. Default to 0.00.
+*   **Screen In:** 8.8-inch or 10.1-inch touchscreen available. 10.1-inch is above average. Score: 0.50.
+*   **Infotainment UX:** Attractive and mostly easy to operate, but screen position can be distracting. Score: 0.25.
+*   **Smartphone Connect:** Apple CarPlay and Android Auto standard. Wireless charging optional. Score: 0.75.
+*   **Audio Rating:** Audi sound system standard, 15-speaker Sonos optional. Score: 0.50 (standard) to 0.75 (optional). Let's use 0.50 for the standard SE.
+*   **USB Ports:** No specific number found. Assume average (2-3). Score: 0.00.
+*   **Comfort Feature Score:** Heated front seats, dual-zone climate control, power seats available/standard on some trims. Score: 0.50.
+*   **Convenience Feature Score:** Parking sensors, camera available. Power tailgate available. Score: 0.50.
+*   **Brand Prestige:** Audi is a premium brand. Score: 0.75.
+*   **Model Prestige:** Q3 is an entry-level/mid-range SUV for Audi. Score: 0.50.
+*   **Trim Prestige:** SE is typically a base or mid-range trim. Score: 0.75 (better than base, but not top).
+*   **Interior Luxury:** High-quality materials, leather upholstery available. Doesn't quite match higher-end rivals. Score: 0.50.
+*   **Interior Tech Focus:** Digital gauge cluster available, touchscreen infotainment. Score: 0.75.
+
+Refining scores based on the guide:
+*   Price: $44,000 is below the $52,000 average, but not significantly. Score: 0.25.
+*   HP: 150 hp is below the 200 hp average. Score: -0.50.
+*   Torque: 184 lb-ft is below the 190 lb-ft average. Score: -0.25.
+*   Engine Displacement: 1.4L is below 3.0L average. Score: -0.50.
+*   Accel 0-60: 9.3 sec is slower than 7.5 sec average. Score: -0.50.
+*   Top Speed: 126 mph is below 150 mph average. Score: -0.25.
+*   Drive Type: FWD. Score: -1.00.
+*   Transmission Type: DCT. Score: 0.00.
+*   Offroad Ability: Poor. Score: 1.00.
+*   Cargo Space: 18.7 cu ft is above 15 cu ft average. Score: 0.25.
+*   Rear Space: 36.1 inches is around 35 inches average. Score: 0.00.
+*   Ground Clearance: 6.7 inches is around 6.5 inches average. Score: 0.00.
+*   Turn Radius: 38.7 ft is around 36 ft average. Score: -0.25.
+*   MPG: Around 30-35 mpg combined. 30 mpg is average. Score: 0.00.
+*   CO2: 128-136 g/km is below 175 g/km average. Score: 0.25.
+*   Screen In: 10.1 inches is above 8 inches average. Score: 0.25.
+*   Audio Rating: Standard system is likely average (0.00), optional is better (0.75). Let's use 0.00 for the base SE.
+*   USB Ports: Assume average (3 ports). Score: 0.00.
+*   Trim Prestige: SE is a base/mid trim. Score: 0.75.
+
+Final check on values and scores.```json
+{
+  "price_usd": 44000.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.25,
+  "hp": 150.00,
+  "torque": 184.00,
+  "cylinder_count": 4.00,
+  "engine_displacement": 1.40,
+  "accel_0_60_sec": 9.30,
+  "top_speed": 126.00,
+  "drive_type": -1.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.00,
+  "body_style": 0.50,
+  "seats": 5.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": -0.25,
+  "mpg": 0.00,
+  "co2_g_km": 0.25,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.50,
+  "handling_rating": -0.25,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": -0.50,
+  "adas_score": 0.50,
+  "visibility_rating": 0.50,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": 0.25,
+  "infotainment_ux_rating": 0.25,
+  "smartphone_connect_rating": 0.75,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 0.75,
+  "model_prestige_rating": 0.50,
+  "trim_prestige_rating": 0.75,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.75
+}
+```

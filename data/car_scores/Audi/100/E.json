@@ -1,20 +1,93 @@
-```json
+Based on the search results, the "most recent version" of the Audi 100 is the 1994 model year (C4 generation), which was then facelifted and renamed the A6 in the same year. The "E" trim level was available with several engine options, including a 2.0L I4, 2.3L I5, 2.6L V6, and 2.8L V6. Some "E" trims also offered Quattro AWD. To provide a representative evaluation, I will use the specs for the 1994 Audi 100 2.8 E Quattro sedan where available, as it seems to be a well-documented "E" variant from the final year. If specific data for the 2.8 E Quattro is missing, I will use data from other 1994 Audi 100 "E" trims or the general 1994 Audi 100 range, noting where assumptions are made.
+
+Here's the evaluation:
+
+**Cost & Risk:**
+*   **price_usd:** A 1994 Audi 100 is a classic/used car today. Prices range from around $2,640 to $5,830. This is well below the $10,000 threshold for a +1.00 score. Score: 1.00.
+*   **total_cost_estimate_5yr_usd:** Difficult to estimate precisely for a 30-year-old car. Maintenance and potential repairs could be significant despite a low purchase price. Default to 0.00.
+*   **insurance_usd_yr:** The 1991-1994 Audi 100 falls into UK insurance group 29. This is a mid-to-high group out of 50. Compared to the average ($1500/year), group 29 would likely result in higher-than-average insurance costs, but not the highest. Score: -0.50.
+*   **maint_usd_yr:** Older German luxury cars are generally more expensive to maintain than average cars. Owners report maintenance can be expensive. Score: -1.00.
+*   **repair_risk_score:** While some owners report good reliability for its age, older cars inherently have higher repair risk compared to modern vehicles. Power steering leaks are mentioned as a potential issue. Score: -1.00.
+
+**Power & Performance:**
+*   **hp:** The 2.8 E Quattro has 172 hp. The 2.0 E has 113-116 hp, the 2.3 E has 131 hp, and the 2.6 E has 148 hp. 172 hp is below the modern average of ~200 hp. Score: -1.00.
+*   **torque:** The 2.8 E Quattro has 184 lb-ft. The 2.3 E has 137 lb-ft, the 2.6 E has 166 lb-ft, and the 2.0 E has 124 lb-ft. 184 lb-ft is below the modern average of ~190 lb-ft. Score: -1.00.
+*   **cylinder_count:** The 2.8 E and 2.6 E have V6 engines. The 2.3 E has an Inline 5, and the 2.0 E has an Inline 4. V6 and I5 are around the average (modern cars often have 4 or 6 cylinders). Score: 0.00.
+*   **engine_displacement:** The 2.8 E has 2.8L. Other E trims have 2.0L, 2.3L, or 2.6L. 2.8L is around the modern average. Score: 0.00.
+*   **accel_0_60_sec:** The 2.8 E Quattro is estimated at 8.6 seconds or 7.7 seconds. The 2.0 E is 11.0 seconds or 10.1 seconds. The 2.6 E Quattro is 9.2 seconds. The 2.3 E is 9.2 seconds. These times are significantly slower than the modern average of ~7.5 seconds. Score: -1.00.
+*   **top_speed:** The 2.8 E Quattro has a top speed of 135 mph. The 2.3 E has 126 mph, the 2.6 E has 131 mph, and the 2.0 E has 119 mph (191 km/h). These are below the modern average of 150 mph. Score: -1.00.
+*   **drive_type:** The 2.8 E Quattro is AWD. Other E trims were FWD. AWD is average. Score: 0.00.
+*   **transmission_type:** Available with manual or automatic. Automatic is common today. Score: 0.00.
+*   **driving_track_vs_gt:** The Audi 100 was known for comfort and was a mid-size executive car. It's a comfortable car for long trips. Score: 1.00.
+*   **offroad_ability:** Low ground clearance and not designed for off-road. Score: -1.00.
+*   **braking_dist_ft:** No specific data found, but older braking systems are generally less effective than modern ones. Score: -1.00.
+
+**Space & Practicality:**
+*   **size:** Length is 4790 mm (188.6 in). This is around the size of a modern Honda Civic sedan (~4600mm). Score: 0.00.
+*   **wheelbase:** Wheelbase is 2687 mm or 2692 mm. This is around the size of a modern Skoda Octavia (~2700mm). Score: 0.00.
+*   **body_style:** Available as a 4-door sedan or 5-door Avant (wagon). Sedan is average. Score: 0.00.
+*   **seats:** 5 seats. Score: 0.00.
+*   **cargo_space:** The sedan has 510 L (18 cu ft). The Avant would have more. 18 cu ft is slightly above the average sedan (~15 cu ft). Score: 0.00.
+*   **rear_space:** Described as having a spacious cabin for five full-grown adults. Compared to modern standards, likely average or slightly above average for its size class at the time. Score: 0.00.
+*   **ground_clearance_in:** No specific data found, but typical for a sedan of that era, likely around 6 inches. Score: 0.00.
+*   **turn_radius_ft:** Turning circle is 11.4 m (37.4 ft). This is around the modern average (~36 ft). Score: 0.00.
+
+**Efficiency & Electrification:**
+*   **mpg:** Combined MPG varies by engine: 2.8 E Quattro is 26.9 mpg (UK) or 22 mpg (US), 2.8 E FWD is 30.1 mpg, 2.3 E is 25 mpg (US) / 30 mpg (UK), 2.6 E Quattro is 27.1 mpg (UK) or 25 mpg (US). Real-world user reports average around 20 mpg. These figures are below the modern average of ~30 mpg. Score: -1.00.
+*   **co2_g_km:** No specific data found, but petrol engines from this era have significantly higher CO2 emissions than modern cars, especially EVs. Score: -1.00.
+*   **electrification:** Petrol engine. Score: -1.00.
+*   **electric_range_mi:** Not electric. Score: -1.00.
+*   **charge_speed_kw:** Not electric. Score: -1.00.
+
+**Ride & Dynamics:**
+*   **handling_rating:** Controls are light and precise, handling is generally very good for its time. Compared to modern cars, likely average. Score: 0.00.
+*   **ride_comfort_rating:** Known for a super-smooth ride and comfort. Score: 0.50.
+*   **cabin_noise_rating:** Noise levels are low due to its aerodynamic shape. Score: 0.00.
+*   **shift_smooth_rating:** The engine runs smooth, and gears shift perfectly (for a well-maintained example). Score: 0.00.
+*   **steering_feel_rating:** Power steering can give trouble. Likely less engaging than modern systems. Score: 0.00.
+
+**Safety & Visibility:**
+*   **adas_score:** Minimal to no modern ADAS features. Score: -1.00.
+*   **visibility_rating:** Has a third-side window behind the rear doors. Likely average visibility for a sedan of its time. Score: 0.00.
+*   **headlight_rating:** Likely uses older halogen technology, which is poor compared to modern LEDs. Score: -1.00.
+*   **security_rating:** May have a car alarm with central lock remote (retrofitted in one example). Basic by modern standards. Score: -1.00.
+
+**Infotainment & Connectivity:**
+*   **screen_in:** No central infotainment screen. Score: -1.00.
+*   **infotainment_ux_rating:** Basic radio/cassette player. Score: -1.00.
+*   **smartphone_connect_rating:** No smartphone connectivity. Score: -1.00.
+*   **audio_rating:** May have a radio with six speakers. Average for its time. Score: 0.00.
+*   **usb_ports:** None. Score: -1.00.
+
+**Comfort & Convenience:**
+*   **comfort_feature_score:** May have features like air conditioning, heated seats, power steering, electric mirrors, height adjustable seats. Lacks many modern comfort features (ventilated seats, multi-zone climate control, etc.). Score: -1.00.
+*   **convenience_feature_score:** May have features like central locking, fog lights, headlight washers. Lacks modern convenience features (360 cameras, sensors, keyless entry/start, etc.). Score: -1.00.
+
+**Style, Brand & Interior Character:**
+*   **interior_luxury_rating:** Used good materials for its time, no hard plastic in main areas. Velour or leather interior available. Decent for its era, but not luxurious by modern standards. Score: -0.50.
+*   **interior_tech_focus_rating:** Minimal technology focus in the interior. Score: -1.00.
+*   **brand_prestige_rating:** Audi is a premium/luxury brand. Score: 1.00.
+*   **model_prestige_rating:** The 100 was a mid-size executive car, competing with BMW 5 Series and Mercedes-Benz E-Class. It was not the top of the range (like the V8 or S4/S6). Score: 0.00.
+*   **trim_prestige_rating:** "E" trim typically indicates a base or mid-level trim, not the top performance or luxury trim (like S4/S6). Score: 1.00.
+*   **style_sleek_vs_boxy:** Had a classic look with sleek, curved lines and a low drag coefficient for its time (0.30). Score: 0.00.
+*   **style_aggression_rating:** Soft, passive design compared to modern aggressive styling. Score: -1.00.
+*   **style_modernity_rating:** Clearly dated design compared to modern vehicles. Score: -1.00.```json
 {
   "price_usd": 1.00,
   "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.50,
-  "maint_usd_yr": -0.75,
-  "repair_risk_score": -0.75,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -1.00,
   "hp": -1.00,
   "torque": -1.00,
   "cylinder_count": 0.00,
-  "engine_displacement": -0.50,
+  "engine_displacement": 0.00,
   "accel_0_60_sec": -1.00,
   "top_speed": -1.00,
-  "drive_type": -1.00,
-  "transmission_type": 1.00,
-  "driving_track_vs_gt": 0.00,
-  "offroad_ability": 1.00,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": -1.00,
   "braking_dist_ft": -1.00,
   "size": 0.00,
   "wheelbase": 0.00,
@@ -33,12 +106,12 @@
   "style_aggression_rating": -1.00,
   "style_modernity_rating": -1.00,
   "handling_rating": 0.00,
-  "ride_comfort_rating": 0.00,
+  "ride_comfort_rating": 0.50,
   "cabin_noise_rating": 0.00,
   "shift_smooth_rating": 0.00,
   "steering_feel_rating": 0.00,
   "adas_score": -1.00,
-  "visibility_rating": 0.50,
+  "visibility_rating": 0.00,
   "headlight_rating": -1.00,
   "security_rating": -1.00,
   "screen_in": -1.00,
@@ -50,8 +123,8 @@
   "convenience_feature_score": -1.00,
   "brand_prestige_rating": 1.00,
   "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": -0.50,
   "interior_tech_focus_rating": -1.00
 }
 ```

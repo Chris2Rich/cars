@@ -1,30 +1,53 @@
+Based on the search results, the "Vauxhall Omega i V6" most likely refers to a model from the Omega A generation (1986-1993), specifically the 3.0i V6 24V variant. The 1993 model year is a good representation of the later "i" models. Specs vary slightly between sources, but I will use the most consistent figures found for the 3.0i 24V engine.
+
+- Engine: 3.0L V6 (24v)
+- HP: ~201-207 hp
+- Torque: ~195-199 lb-ft
+- 0-60 mph: ~7.6-8.3 seconds (Using 8.0s as a middle ground)
+- Top Speed: ~149 mph
+- Drive Type: RWD
+- Transmission: Available with Manual or Automatic. I will score for Automatic as per previous requests.
+- Dimensions: Length ~4.7m, Wheelbase ~2.73m
+- Body Style: Sedan or Estate. Scoring for Sedan.
+- Seats: 5
+- Cargo Space: ~18.4 cu ft (Sedan)
+- Ground Clearance: ~5.9 inches (for a later model, likely similar)
+- MPG: ~22-27 MPG (Combined NEDC). Real-world likely lower. Using 24 MPG as a mid-point.
+- CO2: ~251-255 g/km
+- Reliability: Mixed reviews, some sources mention problems, others decent for later models. Generally considered below average compared to modern cars. -0.50 seems appropriate.
+- Insurance Group: Omega models from 1994-2003 range, some V6 models are in Group 29. Group 29 is above average. -0.20 seems fair.
+
+Now, applying the scoring guide based on comparison to the *current* market:
+
 ```json
 {
   "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": -0.20,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": -0.50,
-  "repair_risk_score": -1.00,
+  "total_cost_estimate_5yr_usd": 0.50,
+  "insurance_usd_yr": -0.20,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": -0.50,
   "hp": 0.00,
-  "torque": 0.20,
+  "torque": 0.00,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": -0.50,
-  "top_speed": 0.00,
+  "accel_0_60_sec": 0.00,
+  "top_speed": -0.20,
   "drive_type": 1.00,
-  "transmission_type": -0.50,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 1.00,
   "offroad_ability": 1.00,
-  "braking_dist_ft": -0.50,
-  "size": 0.20,
+  "braking_dist_ft": -0.20,
+  "size": 0.50,
   "wheelbase": 0.00,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.50,
-  "rear_space": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.20,
   "ground_clearance_in": -0.20,
-  "turn_radius_ft": 0.20,
-  "mpg": -0.20,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.50,
   "co2_g_km": -0.80,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
@@ -33,23 +56,23 @@
   "handling_rating": 0.00,
   "ride_comfort_rating": 0.50,
   "cabin_noise_rating": 0.20,
-  "shift_smooth_rating": -0.20,
+  "shift_smooth_rating": 0.00,
   "steering_feel_rating": 0.00,
   "adas_score": -1.00,
   "visibility_rating": 0.00,
-  "headlight_rating": -0.80,
-  "security_rating": -0.80,
+  "headlight_rating": -0.50,
+  "security_rating": 0.00,
   "screen_in": -1.00,
   "infotainment_ux_rating": -1.00,
   "smartphone_connect_rating": -1.00,
-  "audio_rating": -0.50,
+  "audio_rating": 0.00,
   "usb_ports": -1.00,
   "comfort_feature_score": 0.00,
-  "convenience_feature_score": -1.00,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.20,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": -0.20,
+  "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": -0.80,
+  "interior_luxury_rating": 0.20,
   "interior_tech_focus_rating": -1.00
 }
 ```

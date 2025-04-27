@@ -1,0 +1,115 @@
+The most recent BMW 1 Series is the F70 generation, launched in 2024. The 118d trim is available in this generation.
+
+Here is the evaluation based on the F70 118d model data found:
+
+*   **price_usd:** The F70 1 Series starts from £31,875 in the UK. The 118d is a mid-range diesel model. While a specific price for the 118d wasn't found, it would be above the base price. Assuming a price around £34,000-£36,000, this is approximately $42,500 - $45,000 USD (using £1 = $1.25). This is below the $52,000 market average for a new car. Score: `0.10`.
+*   **total_cost_estimate_5yr_usd:** BMWs typically have average to slightly above-average ownership costs. Data for the F70 is not readily available yet, defaulting to average. Score: `0.00`.
+*   **insurance_usd_yr:** The F40 118d was in insurance group 18-22. The F70 120 is group 21. The 118d is likely in a similar range. This is around the national average cost. Score: `0.00`.
+*   **maint_usd_yr:** BMW maintenance is generally higher than average. Score: `-0.20`.
+*   **repair_risk_score:** BMW reliability is generally considered average. Score: `0.00`.
+*   **hp:** The F70 118d has 150 HP (110 kW). This is below today's average of 200 HP. Score: `-0.40`.
+*   **torque:** The F70 118d has 360 Nm (265 lb-ft). This is well above today's average of 190 lb-ft. Score: `0.60`.
+*   **cylinder_count:** The F70 118d uses a 2.0L 4-cylinder diesel engine. Average is 6. Score: `-0.30`.
+*   **engine_displacement:** 2.0L (1995 cm³). Below today's average of 3.0L. Score: `-0.30`.
+*   **accel_0_60_sec:** 0-100 km/h in 8.3 seconds, 0-60 mph in 7.9-8.0 seconds. This is slightly slower than today's average of 7.5 seconds. Score: `-0.10`.
+*   **top_speed:** 222 km/h (138 mph). Below today's average of 150 mph. Score: `-0.40`.
+*   **drive_type:** Front-wheel drive (FWD). Score: `-1.00`.
+*   **transmission_type:** 7-speed Steptronic automatic (dual-clutch). Automatic is +1.00. Score: `1.00`.
+*   **driving_track_vs_gt:** Designed as a compact daily driver with sporty handling characteristics. Score: `0.00`.
+*   **offroad_ability:** Not designed for off-road use. Score: `1.00`.
+*   **braking_dist_ft:** No specific data found for F70 braking distance. BMWs generally have good brakes. Defaulting to average. Score: `0.00`.
+*   **size:** Length is 4361 mm (171.7 inches). Average is 4600mm. Score: `-0.30`.
+*   **wheelbase:** 2670 mm (105.1 inches). Close to today's average of 2700mm. Score: `0.00`.
+*   **body_style:** 5-door hatchback. Score: `0.10`.
+*   **seats:** 5 seats. Score: `0.00`.
+*   **cargo_space:** 380 liters (13.4 cu ft). Average is 15 cu ft. Score: `-0.10`.
+*   **rear_space:** Rear space is noted as not being the most generous. Score: `0.00`.
+*   **ground_clearance_in:** 156 mm (6.14 inches). Below average for compact crossovers (~6.5"). Score: `-0.10`.
+*   **turn_radius_ft:** 11.7 meters (38.39 ft). Close to today's average of 36 ft. Score: `-0.10`.
+*   **mpg:** Combined WLTP 4.6-5.2 l/100 km (51.13-45.23 US mpg / 61.41-54.32 UK mpg). Very fuel efficient, well above today's average of 30 mpg. Score: `0.80`.
+*   **co2_g_km:** 122-133 g/km (WLTP). Low, well below today's average of 175 g/km. Score: `0.70`.
+*   **electrification:** Diesel engine. Some sources mention mild hybrid diesel for the 120d, but the 118d is listed as standard diesel. Score: `-1.00`.
+*   **electric_range_mi:** Not electric. Score: `-1.00`.
+*   **charge_speed_kw:** Not electric. Score: `-1.00`.
+*   **handling_rating:** BMWs are known for good handling, even FWD models. Reviews mention well-sorted driving experience and precise steering. Score: `0.40`.
+*   **ride_comfort_rating:** Ride is described as reasonably supple but can be firm. Score: `0.00`.
+*   **cabin_noise_rating:** Diesel engine can be audible, but generally well-insulated for the class. Score: `0.00`.
+*   **shift_smooth_rating:** 7-speed Steptronic dual-clutch automatic is standard. BMW automatics are typically smooth. Score: `0.60`.
+*   **steering_feel_rating:** Precise and accurate steering. Score: `0.30`.
+*   **adas_score:** Offers a comprehensive array of optional ADAS features, Driving Assistant and Parking Assistant are standard on F70. Score: `0.40`.
+*   **visibility_rating:** Typical hatchback visibility. Score: `0.00`.
+*   **headlight_rating:** LED headlights are standard, Adaptive LED headlights available. Score: `0.30`.
+*   **security_rating:** BMWs have good standard security features. Score: `0.20`.
+*   **screen_in:** Features a curved display with a 10.25-inch instrument cluster and a 10.7-inch touchscreen. Score: `0.60`.
+*   **infotainment_ux_rating:** Runs BMW Operating System 9, described as intuitive and responsive, though the iDrive controller is removed. Score: `0.40`.
+*   **smartphone_connect_rating:** Wireless Apple CarPlay and Android Auto are standard. Score: `0.70`.
+*   **audio_rating:** Optional Harman Kardon system available. Base system likely average. Score: `0.10`.
+*   **usb_ports:** Not specified, likely 2-4 ports. Score: `0.00`.
+*   **comfort_feature_score:** Heated front seats available, standard seats are fabric or Veganza/Alcantara depending on trim. Good for the class. Score: `0.40`.
+*   **convenience_feature_score:** Reversing camera and Parking Assistant are standard. Score: `0.40`.
+*   **brand_prestige_rating:** BMW is a premium brand. Score: `0.80`.
+*   **model_prestige_rating:** The 1 Series is the entry-level model for BMW. Score: `1.00`.
+*   **trim_prestige_rating:** 118d is a mid-range diesel trim. Score: `0.50`.
+*   **interior_luxury_rating:** Premium feel with soft-touch materials and good build quality. Score: `0.40`.
+*   **interior_tech_focus_rating:** High tech focus with the large curved screens and OS 9. Score: `0.60`.
+*   **style_sleek_vs_boxy:** Hatchback shape, neither particularly sleek nor boxy. Score: `0.00`.
+*   **style_aggression_rating:** Features a bold front grille and dynamic shape. Score: `0.30`.
+*   **style_modernity_rating:** Brand new model with modern design language. Score: `0.60`.
+
+```json
+{
+  "price_usd": 0.10,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": 0.00,
+  "hp": -0.40,
+  "torque": 0.60,
+  "cylinder_count": -0.30,
+  "engine_displacement": -0.30,
+  "accel_0_60_sec": -0.10,
+  "top_speed": -0.40,
+  "drive_type": -1.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": -0.30,
+  "wheelbase": 0.00,
+  "body_style": 0.10,
+  "seats": 0.00,
+  "cargo_space": -0.10,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.10,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.80,
+  "co2_g_km": 0.70,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.30,
+  "style_modernity_rating": 0.60,
+  "handling_rating": 0.40,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.60,
+  "steering_feel_rating": 0.30,
+  "adas_score": 0.40,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.30,
+  "security_rating": 0.20,
+  "screen_in": 0.60,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 0.70,
+  "audio_rating": 0.10,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.40,
+  "convenience_feature_score": 0.40,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 1.00,
+  "trim_prestige_rating": 0.50,
+  "interior_luxury_rating": 0.40,
+  "interior_tech_focus_rating": 0.60
+}
+```

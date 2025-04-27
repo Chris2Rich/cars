@@ -1,10 +1,66 @@
+Based on the search results, the most recent version of the BMW 5 Series ActiveHybrid 5 is from the F10 generation (2011-2016). I will evaluate the F10 ActiveHybrid 5 based on today's market standards.
+
+- **price_usd**: Used prices for the ActiveHybrid 5 range from around $5,900 to $13,950, with an average around $10,567 to $10,897. This is significantly below the $52,000 market average for a new car. Score: +1.00.
+- **total_cost_estimate_5yr_usd**: Older luxury cars, especially hybrids with potentially expensive battery replacements and complex systems, tend to have high ownership costs. Score: -1.00.
+- **insurance_usd_yr**: Insurance group 42 or 44 is high. Score: -0.50.
+- **maint_usd_yr**: Maintenance costs for an older BMW hybrid are likely high. Score: -1.00.
+- **repair_risk_score**: The ActiveHybrid 5 has reported issues with the hybrid system and battery reliability, leading to concerns about long-term reliability. Score: -1.00.
+- **hp**: Combined system output is 340 hp (250 kW). This is well above the average of 200 hp. Score: 0.50.
+- **torque**: Maximum combined torque is 450 Nm (332 lb-ft). This is significantly above the average of 190 lb-ft. Score: 0.50.
+- **cylinder_count**: Features a 3.0L inline-six petrol engine plus an electric motor. The engine has 6 cylinders. Score: 0.00.
+- **engine_displacement**: The petrol engine is 2979 cm³ (3.0 L). Score: 0.00.
+- **accel_0_60_sec**: 0-100 km/h (0-62 mph) in 5.9 seconds. This is fast compared to the average of 7.5 seconds. Score: 0.50.
+- **top_speed**: Electronically limited to 250 km/h (155 mph). Score: 0.00.
+- **drive_type**: Rear-wheel drive. Score: +1.00.
+- **transmission_type**: 8-speed automatic (Steptronic). Score: 1.00.
+- **driving_track_vs_gt**: Designed as a comfortable executive sedan, suitable for long-distance driving. Score: 0.75.
+- **offroad_ability**: Low ground clearance sedan, not designed for off-road use. Ground clearance is 140 mm (5.5 inches). Score: 1.00.
+- **braking_dist_ft**: No specific data found. Default: 0.00.
+- **size**: Length is around 4899 mm (192.9 inches). This is around the average size for a sedan today. Score: 0.00.
+- **wheelbase**: 2968 mm (116.9 inches). This is slightly above the average wheelbase today. Score: 0.10.
+- **body_style**: 4-door sedan. Score: 0.00.
+- **seats**: 5 seats. Score: 0.00.
+- **cargo_space**: 375 L (13.2 cu ft or 14.5 cu ft). Reduced due to battery, below the average for a sedan (15 cu ft). Score: -0.25.
+- **rear_space**: Rear legroom is around 36 inches. This is around the average for a sedan. Score: 0.00.
+- **ground_clearance_in**: 140 mm (5.5 inches). Below average for general market, typical for a sedan. Score: -0.25.
+- **turn_radius_ft**: No specific data found. Default: 0.00.
+- **mpg**: Combined fuel consumption is around 6.4-7.0 L/100km (40-44 mpg imp or 33.3-36.7 US MPG) or 44.1 mpg (UK) or 26 MPG (US combined). Real-world economy often lower (33 mpg UK, 7.8 L/100km or 30.16 US MPG). Averaging the official and real-world figures, it's around or slightly above the 30 mpg average, but not significantly better than non-hybrid models. Score: 0.00.
+- **co2_g_km**: CO2 emissions are 149-163 g/km. This is below the average of 175 g/km. Score: 0.25.
+- **electrification**: Full Hybrid Electric Vehicle (FHEV). Not a PHEV or EV. Score: -0.50.
+- **electric_range_mi**: Electric-only range is up to 4 km (2.5 miles). This is very low. Score: 0.00.
+- **charge_speed_kw**: Not a plug-in hybrid, charges via engine/regeneration. Not applicable for scoring charge speed in kW. Score: -1.00.
+- **style_sleek_vs_boxy**: The F10 design is a classic sedan shape, neither particularly sleek nor boxy compared to benchmarks. Score: 0.00.
+- **style_aggression_rating**: Standard 5 Series design, not overly aggressive. Score: 0.00.
+- **style_modernity_rating**: The design is dated compared to today's vehicles. Score: -0.50.
+- **handling_rating**: Described as having good body control, but the added weight impacts agility compared to non-hybrid models. Score: 0.00.
+- **ride_comfort_rating**: Described as comfortable and refined. Score: 0.75.
+- **cabin_noise_rating**: Quiet, especially in electric mode. Score: 0.75.
+- **shift_smooth_rating**: The 8-speed automatic transmission was generally smooth. Score: 1.00.
+- **steering_feel_rating**: Described as having direct steering, but the added weight can be felt. Score: 0.25.
+- **adas_score**: Available ADAS features included adaptive cruise control and parking assist. Score: 0.00.
+- **visibility_rating**: Standard sedan visibility. Score: 0.00.
+- **headlight_rating**: Adaptive LED Headlights were optional. Good for its time, but not top-tier today. Score: 0.50.
+- **security_rating**: Standard security features for a luxury car of its era. Score: 0.00.
+- **screen_in**: Standard screen was 10.25 inches. Score: 0.25.
+- **infotainment_ux_rating**: iDrive NBT system, generally well-regarded for its time. Score: 0.25.
+- **smartphone_connect_rating**: Bluetooth audio was available, but no standard Apple CarPlay or Android Auto. Score: -0.50.
+- **audio_rating**: Premium audio options were available. Score: 0.50.
+- **usb_ports**: USB ports were available. Score: 0.00.
+- **comfort_feature_score**: Features like power seats, heated seats, multi-zone climate control, and stationary climate control were available. Score: 0.50.
+- **convenience_feature_score**: Features like parking assist, reversing camera, head-up display, and comfort access were available. Score: 0.50.
+- **brand_prestige_rating**: BMW is a high-prestige brand. Score: 0.75.
+- **model_prestige_rating**: The 5 Series is a core, mid-range model for BMW. Score: 0.00.
+- **trim_prestige_rating**: The ActiveHybrid 5 was a specific, higher-tech trim within the F10 range. Score: 0.00.
+- **interior_luxury_rating**: Premium interior materials for its time, but dated compared to modern luxury interiors. Score: 0.25.
+- **interior_tech_focus_rating**: Good tech for its era, centered around the iDrive screen and hybrid display, but not as screen-forward or integrated as modern cars. Score: 0.00.
+
 ```json
 {
   "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": -0.30,
-  "maint_usd_yr": -0.30,
-  "repair_risk_score": -0.30,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -1.00,
   "hp": 0.50,
   "torque": 0.50,
   "cylinder_count": 0.00,
@@ -13,45 +69,45 @@
   "top_speed": 0.00,
   "drive_type": 1.00,
   "transmission_type": 1.00,
-  "driving_track_vs_gt": 1.00,
+  "driving_track_vs_gt": 0.75,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.50,
-  "wheelbase": 0.50,
+  "size": 0.00,
+  "wheelbase": 0.10,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.30,
+  "cargo_space": -0.25,
   "rear_space": 0.00,
-  "ground_clearance_in": -0.30,
-  "turn_radius_ft": -0.30,
+  "ground_clearance_in": -0.25,
+  "turn_radius_ft": 0.00,
   "mpg": 0.00,
-  "co2_g_km": 0.30,
-  "electrification": 0.00,
-  "electric_range_mi": -0.30,
-  "charge_speed_kw": -0.50,
+  "co2_g_km": 0.25,
+  "electrification": -0.50,
+  "electric_range_mi": 0.00,
+  "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
   "style_aggression_rating": 0.00,
-  "style_modernity_rating": -0.70,
-  "handling_rating": 0.30,
-  "ride_comfort_rating": 0.70,
-  "cabin_noise_rating": 0.70,
-  "shift_smooth_rating": 0.80,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.30,
+  "style_modernity_rating": -0.50,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.75,
+  "cabin_noise_rating": 0.75,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.25,
+  "adas_score": 0.00,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.30,
+  "headlight_rating": 0.50,
   "security_rating": 0.00,
-  "screen_in": 0.00,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": -0.70,
+  "screen_in": 0.25,
+  "infotainment_ux_rating": 0.25,
+  "smartphone_connect_rating": -0.50,
   "audio_rating": 0.50,
-  "usb_ports": -0.50,
-  "comfort_feature_score": 0.70,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.50,
   "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.80,
+  "brand_prestige_rating": 0.75,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.50,
+  "interior_luxury_rating": 0.25,
   "interior_tech_focus_rating": 0.00
 }
 ```

@@ -1,113 +1,57 @@
-The BMW 320Cd refers to the diesel coupe version of the 3 Series. The most recent generation available with this designation was the E92 (2006-2013). There was a pre-facelift (2007-2010) and a facelift (LCI, 2010-2013) version, with slightly different power outputs and efficiency figures. I will use data for the later LCI version (2010-2013) as the "most recent".
-
-**Data Extraction & Scoring:**
-
-*   **price_usd:** Used car prices for E92 320d Coupes in the UK range from under £4k to around £10k+ depending on year, mileage, and condition. This is well below the average new car price. Score +1.00.
-*   **total_cost_estimate_5yr_usd:** Older premium cars can have higher maintenance and repair costs, especially with known engine issues (N47 timing chain). While the purchase price is low, running costs pull this down. Score -0.50.
-*   **insurance_usd_yr:** UK insurance groups for the E92 320d are around group 31. The average group is 20-25. Group 31 is above average, suggesting higher insurance costs. Score -0.20.
-*   **maint_usd_yr:** BMW maintenance is generally higher than average. Older models require more attention. Score -0.50.
-*   **repair_risk_score:** The N47 diesel engine in the E9x 320d is known for potential timing chain issues, which can be costly. This significantly increases repair risk compared to average cars. Score -0.80.
-*   **hp:** LCI 320d has 184 HP. The modern average is around 200 HP. Slightly below average. Score 0.00.
-*   **torque:** LCI 320d has 380 Nm (280 lb-ft). The modern average is around 190 lb-ft. Well above average, especially for a 2.0L diesel. Score 0.80.
-*   **cylinder_count:** Inline 4. Average is 4-6. Score 0.00.
-*   **engine_displacement:** 2.0L (1995 cm³). Average is around 3.0L. Below average. Score -0.30.
-*   **accel_0_60_sec:** 0-60 mph in 6.8-7.6 seconds (depending on source/transmission). The modern average is around 7.5 seconds. Slightly above average. Score 0.20.
-*   **top_speed:** 143-147 mph (230-237 km/h). Modern average is around 150 mph. Slightly below average. Score 0.00.
-*   **drive_type:** RWD (xDrive AWD was also available, but RWD is standard for 320d Coupe). Score +1.00.
-*   **transmission_type:** Available with 6-speed Manual or Automatic (Steptronic). Score 0.00.
-*   **driving_track_vs_gt:** More of a sporty GT/Daily driver than a pure track car. Score 0.50.
-*   **offroad_ability:** Low ground clearance, RWD. Score -1.00.
-*   **braking_dist_ft:** No specific data found. Assume good for its era, likely average compared to modern cars with advanced braking systems. Score 0.00.
-*   **size:** Length 4580-4612 mm (180.3-181.6 in). Average sedan length is around 4600mm. Score 0.00.
-*   **wheelbase:** 2760 mm (108.7 in). Average is around 2700mm. Slightly above average. Score 0.10.
-*   **body_style:** 2-door Coupe. Less practical than a 4-door sedan/hatchback/SUV. Score -1.00.
-*   **seats:** 4 seats (2+2). Below average (5 seats). Score 0.00.
-*   **cargo_space:** 400-440 L (14.1-15.54 cu ft). Average sedan is around 15 cu ft. Average. Score 0.00.
-*   **rear_space:** Coupe rear space is typically limited. Below average. Score -0.50.
-*   **ground_clearance_in:** 143 mm (5.63 in). Below average (~6.5"). Score -0.50.
-*   **turn_radius_ft:** 11.0-11.8 m (36.1-38.7 ft). Average (~36 ft). Score 0.00.
-*   **mpg:** Combined NEDC 4.7-4.8 L/100km (58.9-60 UK mpg, 49-50 US mpg). Real-world user reports around 6.1 L/100km (46.3 UK mpg, 38.6 US mpg). Diesel efficiency is good, especially for its era. Above average compared to the current market mix. Score 0.50.
-*   **co2_g_km:** 125-153 g/km (depending on year/transmission). Lower than many petrol cars, but not zero like EVs. Above average compared to the market mix. Score 0.50.
-*   **electrification:** Petrol/Diesel. Score -1.00.
-*   **electric_range_mi:** N/A. Score -1.00.
-*   **charge_speed_kw:** N/A. Score -1.00.
-*   **handling_rating:** E92 chassis is praised for handling, though some note electric steering lacks feel compared to older hydraulic systems. Still considered good. Above average. Score 0.70.
-*   **ride_comfort_rating:** Can be firm, especially with M Sport suspension or run-flat tires. Average or slightly below. Score 0.00.
-*   **cabin_noise_rating:** Diesel engine noise is present, but generally well-insulated for its class/era. Average. Score 0.00.
-*   **shift_smooth_rating:** Manual gearbox is generally good, Automatic (Steptronic) is smooth for its time. Above average compared to the market mix which includes some less refined transmissions. Score 0.50.
-*   **steering_feel_rating:** Electric steering is precise but lacks feedback compared to older hydraulic systems. Average compared to modern electric systems, but below the best. Score 0.00.
-*   **adas_score:** Limited compared to modern cars (likely includes ABS, Stability Control, Traction Control). Well below average. Score -1.00.
-*   **visibility_rating:** Coupe body style can have compromises (thick C-pillars). Average. Score 0.00.
-*   **headlight_rating:** Available with Bi-Xenon headlights. Below modern LED/Matrix. Score -0.50.
-*   **security_rating:** Standard security features for its era. Average. Score 0.00.
-*   **screen_in:** Optional iDrive screen was up to 8.8 inches. Base models had smaller/no screen. Average for its era, below modern average. Score 0.00.
-*   **infotainment_ux_rating:** iDrive system was decent for its time but less intuitive than modern systems. Below average. Score -0.50.
-*   **smartphone_connect_rating:** Basic Bluetooth for calls, optional USB audio. No modern CarPlay/Android Auto. Well below average. Score -1.00.
-*   **audio_rating:** Standard system is average, optional upgrades were available. Average. Score 0.00.
-*   **usb_ports:** Optional USB audio interface. Likely 1 or none standard. Below average. Score -0.50.
-*   **comfort_feature_score:** Available features included power/heated/sport seats, dual-zone climate control. Decent for its time, but lacks many modern comfort features. Below average. Score 0.00.
-*   **convenience_feature_score:** Available features included cruise control, parking sensors, keyless entry/start (Comfort Access). Decent for its time, but lacks many modern convenience features (360 cameras, auto-park, etc.). Below average. Score 0.00.
-*   **brand_prestige_rating:** BMW is a high-prestige brand. Score 0.80.
-*   **model_prestige_rating:** 3 Series is a core model, not halo or entry. Score 0.00.
-*   **trim_prestige_rating:** 320d is a mid-range engine/trim, not the base or top performance. Score 0.00.
-*   **interior_luxury_rating:** Premium materials for its time (leather options). Above average compared to the whole market mix, but not top-tier luxury. Score 0.50.
-*   **interior_tech_focus_rating:** Interior design is driver-focused but not dominated by screens like modern tech-focused cars. Below average. Score -0.50.
-*   **style_sleek_vs_boxy:** E92 Coupe is generally considered a sleek design. Score 0.70.
-*   **style_aggression_rating:** Sporty but not overly aggressive compared to M models or dedicated sports cars. Score 0.30.
-*   **style_modernity_rating:** Design is clearly from the 2000s/early 2010s, not modern. Score -0.50.```json
+```json
 {
   "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": -0.50,
-  "insurance_usd_yr": -0.20,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.50,
   "maint_usd_yr": -0.50,
-  "repair_risk_score": -0.80,
-  "hp": 0.00,
-  "torque": 0.80,
+  "repair_risk_score": -0.50,
+  "hp": -0.80,
+  "torque": 0.30,
   "cylinder_count": 0.00,
-  "engine_displacement": -0.30,
-  "accel_0_60_sec": 0.20,
-  "top_speed": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.20,
+  "top_speed": -0.20,
   "drive_type": 1.00,
-  "transmission_type": 0.00,
-  "driving_track_vs_gt": 0.50,
-  "offroad_ability": -1.00,
-  "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.10,
+  "transmission_type": -0.30,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -0.20,
+  "size": -0.10,
+  "wheelbase": 0.00,
   "body_style": -1.00,
-  "seats": 0.00,
+  "seats": -0.50,
   "cargo_space": 0.00,
-  "rear_space": -0.50,
+  "rear_space": -0.80,
   "ground_clearance_in": -0.50,
   "turn_radius_ft": 0.00,
-  "mpg": 0.50,
-  "co2_g_km": 0.50,
+  "mpg": 0.30,
+  "co2_g_km": 0.10,
   "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.70,
-  "style_aggression_rating": 0.30,
-  "style_modernity_rating": -0.50,
-  "handling_rating": 0.70,
+  "style_sleek_vs_boxy": 0.30,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": -1.00,
+  "handling_rating": 0.50,
   "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": 0.50,
-  "steering_feel_rating": 0.00,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": -0.30,
+  "steering_feel_rating": 0.80,
   "adas_score": -1.00,
   "visibility_rating": 0.00,
   "headlight_rating": -0.50,
-  "security_rating": 0.00,
-  "screen_in": 0.00,
-  "infotainment_ux_rating": -0.50,
+  "security_rating": -0.50,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
   "smartphone_connect_rating": -1.00,
-  "audio_rating": 0.00,
-  "usb_ports": -0.50,
-  "comfort_feature_score": 0.00,
-  "convenience_feature_score": 0.00,
+  "audio_rating": -0.50,
+  "usb_ports": -1.00,
+  "comfort_feature_score": -0.80,
+  "convenience_feature_score": -0.80,
   "brand_prestige_rating": 0.80,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.50,
-  "interior_tech_focus_rating": -0.50
+  "interior_luxury_rating": -0.20,
+  "interior_tech_focus_rating": -1.00
 }
 ```

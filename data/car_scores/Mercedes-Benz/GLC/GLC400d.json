@@ -1,113 +1,115 @@
-Based on the search results, the Mercedes-Benz GLC 400d was part of the previous generation (X253 Facelift, 2019-2023 model years) and is not available in the current X254 generation. The most recent version of the GLC 400d is therefore the last model year it was produced, which appears to be around 2022 or 2023 in some markets. I will evaluate based on the specifications of the 2020-2023 GLC 400d 4MATIC.
+Based on the search results, the Mercedes-Benz GLC 400d is from the previous generation (X253 facelift, 2019-2022 model years) and is powered by a 2.9L inline-6 diesel engine. It is not the most recent version of the GLC lineup, which features 4-cylinder engines (including mild and plug-in hybrids) and AMG variants with 4-cylinder PHEV powertrains. However, it was the most powerful diesel option in that generation.
 
-*   **price_usd:** As a model no longer sold new, evaluating against today's new car market average is difficult. When last sold (around 2020-2023), its price would have been significantly higher than the base GLC 300. A 2020 GLC 300 4MATIC was around $44,500. The 400d, with a larger engine and higher performance, would have been considerably more expensive, likely starting well over $55,000-$60,000 USD. This is above the market average for a new car today ($52k). Score: -0.20.
-*   **total_cost_estimate_5yr_usd:** No specific 5-year cost found. Luxury diesel SUVs typically have higher ownership costs. Default to 0.00.
-*   **insurance_usd_yr:** No specific USD annual insurance cost found. Higher performance diesel luxury SUVs have higher insurance costs. Default to 0.00.
-*   **maint_usd_yr:** No specific annual maintenance cost found. Mercedes-Benz maintenance is generally more expensive, especially for larger engines. Default to 0.00.
-*   **repair_risk_score:** The X253 generation GLC (2015-2022) is considered relatively reliable for a Mercedes by some sources, but the brand's overall reliability is average to slightly below average compared to top performers. Score: -0.20.
-*   **hp:** 330 hp (243 kW). This is well above the average car (200 hp). Score: 0.40.
-*   **torque:** 700 Nm (516 lb-ft). This is extremely high. Score: 0.80.
-*   **cylinder_count:** Inline 6 (6 cylinders). This is above the average (4 cylinders) and aligns with the guide's 0.00 benchmark for 6 cylinders. Score: 0.00.
-*   **engine_displacement:** 2.9L or 3.0L (2925 cm³ or 2927 cm³). This is above the average for a 4-cylinder and aligns with the guide's 0.00 benchmark for 3.0L. Score: 0.00.
-*   **accel_0_60_sec:** Around 4.7 - 4.8 seconds (estimated 0-60 mph) or 5.0 - 5.1 seconds (0-100 km/h). This is very quick, well above average (7.5 sec). Score: 0.60.
-*   **top_speed:** 149 mph (240 km/h) or 155 mph (250 km/h) electronically limited. This is around the average (150 mph). Score: 0.00.
-*   **drive_type:** 4MATIC (All-Wheel Drive) was standard. AWD is the average. Score: 0.00.
-*   **transmission_type:** 9-speed automatic (9G-TRONIC). Automatic transmission is +1.00. Score: 1.00.
-*   **driving_track_vs_gt:** Powerful engine but still a comfortable luxury SUV. Leans towards Grand Touring. Score: 0.50.
-*   **offroad_ability:** 4MATIC AWD and some ground clearance. Not a dedicated off-roader. Score: 0.20.
-*   **braking_dist_ft:** No specific braking distance found. Default to average. Score: 0.00.
-*   **size:** Length around 183.4 - 186.3 inches (4658mm - 4731mm) for the X253 generation. Around the size of a Civic or slightly larger. Score: 0.00.
-*   **wheelbase:** 113.1 inches (2873mm). Longer than Octavia, shorter than S-Class. Score: 0.30.
-*   **body_style:** SUV (Wagon) and Coupe available. SUV is closer to a wagon/hatchback. Score: 0.50.
-*   **seats:** 5 seats. Average. Score: 0.00.
-*   **cargo_space:** 19.4 - 56.5 cu ft (550 - 1600 liters) for the X253 generation. Above Civic. Score: 0.20.
-*   **rear_space:** Around 37.3 inches legroom (X253 generation). Around/slightly above Tucson. Score: 0.40.
-*   **ground_clearance_in:** Around 6.3 - 7.5 inches (160.5mm - 190mm) for the X253 generation. Around or slightly above compact crossovers. Score: 0.10.
-*   **turn_radius_ft:** 38.71 ft (11.80m) for the X253 generation. Slightly larger than average. Score: -0.10.
-*   **mpg:** Claimed combined 6.4 L/100 km (36.8 mpg US / 44 mpg UK). Real-world reviews for the 400d mention around 30-35 mpg (UK gallons, which is higher than US gallons). Converting 36.8 mpg US is below the average (30 mpg). Score: -0.10.
-*   **co2_g_km:** 168 g/km. This is below the average (175 g/km). Score: 0.10.
-*   **electrification:** Pure Diesel (ICE). Score: -1.00.
-*   **electric_range_mi:** IF NOT ELECTRIC. Score: -1.00.
-*   **charge_speed_kw:** IF NOT ELECTRIC. Score: -1.00.
-*   **style_sleek_vs_boxy:** Conventional SUV shape (X253 generation). Score: 0.00.
-*   **style_aggression_rating:** Standard styling is not aggressive, AMG Line adds aggression. Score based on standard. Score: -0.20.
-*   **style_modernity_rating:** As a previous generation model, it looks less modern than the current one. Score: -0.20.
-*   **handling_rating:** Comfortable, composed, but less engaging than rivals. Score: -0.30.
-*   **ride_comfort_rating:** Excellent refinement and composed ride quality. Score: 0.60.
-*   **cabin_noise_rating:** V6 diesel is refined, cabin is quiet. Score: 0.70.
-*   **shift_smooth_rating:** 9-speed automatic was generally smooth. Score: 0.50.
-*   **steering_feel_rating:** Steering lacks tactile feedback. Score: -0.40.
-*   **adas_score:** Had ADAS available, but less advanced than current systems. Score: 0.40.
-*   **visibility_rating:** Good for an SUV. Score: 0.20.
-*   **headlight_rating:** Had LED options, good for its time. Score: 0.20.
-*   **security_rating:** Standard luxury car security features. Score: 0.40.
-*   **screen_in:** Had screens (e.g., 7-inch or optional 8.4-inch or 10.25-inch). Smaller than current models. Score: 0.00.
-*   **infotainment_ux_rating:** Previous generation COMAND or early MBUX. Score: -0.20.
-*   **smartphone_connect_rating:** Had Apple CarPlay and Android Auto compatibility. Score: 0.50.
-*   **audio_rating:** Standard and optional premium audio (Burmester). Standard likely average. Score: 0.00.
-*   **usb_ports:** Had USB ports. Score: 0.00.
-*   **comfort_feature_score:** Standard luxury features for its time. Score: 0.50.
-*   **convenience_feature_score": Standard convenience features for its time. Score: 0.50.
-*   **brand_prestige_rating:** Mercedes-Benz. High prestige. Score: 0.80.
+Here is an evaluation based on the specifications of the 2019-2022 Mercedes-Benz GLC 400d 4MATIC:
+
+*   **price_usd:** As a used model from 2019-2022, prices will vary significantly based on age, mileage, and condition. UK used prices are listed on AutoTrader.co.uk. A 2020 model might be priced around £35,000 - £45,000+ depending on spec and mileage. Converting to USD, this is roughly $44,000 - $57,000+. This is around the average price for a *new* car, but high for a used one of this age. Score: 0.20.
+*   **total_cost_estimate_5yr_usd:** While the purchase price is lower than a new GLC, maintenance and potential repairs on a high-performance diesel Mercedes can be significant. Score: -0.30.
+*   **insurance_usd_yr:** Insurance groups for the GLC range from 27-49. The 400d, being a powerful diesel, is likely in the higher end of this range, potentially group 49 or 50E,. This indicates high insurance costs. Score: -0.50.
+*   **maint_usd_yr:** Mercedes-Benz maintenance costs are generally higher than average, and a larger diesel engine might incur higher costs than a 4-cylinder. Score: -0.30.
+*   **repair_risk_score:** The X253 generation is generally considered reasonably reliable,. However, complex diesel engines can have specific issues, and some general GLC issues like tyre skipping on full lock were noted. Score: -0.10.
+*   **hp:** 326-330 hp (243 kW). This is well above the average horsepower for the general market and strong for an SUV of this size. Score: 0.50.
+*   **torque:** 700 Nm (516 lb-ft). This is excellent torque, providing strong pulling power. Score: 0.60.
+*   **cylinder_count:** Inline 6-cylinder. This is above the average cylinder count. Score: 0.50.
+*   **engine_displacement:** 2925-2927 cm3 (2.9L). This is around the average engine displacement for the general market. Score: 0.00.
+*   **accel_0_60_sec:** 0-60 mph in 4.7-4.8 seconds. This is very quick acceleration. Score: 0.80.
+*   **top_speed:** 149-157 mph (240-253 km/h). This is above average top speed. Score: 0.00.
+*   **drive_type:** 4MATIC All-Wheel Drive (AWD). Score: 0.00.
+*   **transmission_type:** 9-speed Automatic (9G-TRONIC). Modern, smooth automatic. Score: 1.00.
+*   **driving_track_vs_gt:** Designed for comfortable daily driving and high-speed cruising (GT). Score: 0.50.
+*   **offroad_ability:** Has AWD and reasonable ground clearance (around 4.84 inches listed for X253, though other sources suggest higher for GLC generally,). Not a serious off-roader. Score: 0.00.
+*   **braking_dist_ft:** No specific data found, assume average for a modern SUV. Score: 0.00.
+*   **size:** Length around 4658 mm (183.4 inches). Mid-size SUV. Score: 0.25.
+*   **wheelbase:** Wheelbase is 2873 mm (113.1 inches). Score: 0.40.
+*   **body_style:** 4-door SUV/Wagon. Score: 0.50. (Coupe variant also exists).
+*   **seats:** 5 seats. Standard. Score: 0.00.
+*   **cargo_space:** Boot space is 550 litres (19.4 cu ft) for the SUV, 500 litres (17.7 cu ft) for the Coupe,,. This is average for the segment. Score: 0.00.
+*   **rear_space:** Rear legroom is good for two adults. Score: 0.60.
+*   **ground_clearance_in:** Listed as 123 mm (4.84 inches) for the X253 400d. This is quite low for an SUV. Score: -0.50. (Note: Other sources for the GLC generally list higher clearance, but this specific model data is low).
+*   **turn_radius_ft:** Turning circle is 11.0-11.8m (36.1-38.7 ft),,. Average. Score: 0.00.
+*   **mpg:** Claimed combined fuel economy is around 6.0-7.0 L/100km (33.6-39.2 MPG US, 40.4-47.9 MPG Imp),,. Real-world is often lower (around 9.0 L/100km or 26.1 MPG US),. Good efficiency for a powerful diesel SUV. Score: 0.30.
+*   **co2_g_km:** CO2 emissions are around 162-183 g/km. Average for a vehicle of this size and performance. Score: 0.00.
+*   **electrification:** No electrification (standard diesel). Score: -1.00.
+*   **electric_range_mi:** N/A. Score: -1.00.
+*   **charge_speed_kw:** N/A. Score: -1.00.
+*   **style_sleek_vs_boxy:** Modern SUV styling, more sleek than boxy. Score: 0.00.
+*   **style_aggression_rating:** Standard styling is not aggressive. AMG Line adds some aggression. Score: -0.50.
+*   **style_modernity_rating:** Styling is from the previous generation (2019 facelift), less modern than the current X254,. Score: -0.20.
+*   **handling_rating:** Comfortable and composed, but not particularly sporty or engaging,. Score: 0.00.
+*   **ride_comfort_rating:** Known for a comfortable ride, though some reviews mention it can be busy or nervous,. Score: 0.50.
+*   **cabin_noise_rating:** Cabin is generally quiet, though the diesel engine can be audible. Score: 0.70.
+*   **shift_smooth_rating:** The 9G-Tronic transmission shifts smoothly. Score: 0.70.
+*   **steering_feel_rating:** Steering is accurate but can lack feedback. Score: -0.50.
+*   **adas_score:** Available ADAS features were good for its time. Score: 0.30.
+*   **visibility_rating:** Good forward view. Average for an SUV. Score: 0.20.
+*   **headlight_rating:** LED headlights available, Multibeam LED optional. Good for its time. Score: 0.30.
+*   **security_rating:** Standard Mercedes security features. Score: 0.50.
+*   **screen_in:** Features a 10.25-inch touchscreen with MBUX on facelifted models. Good size for its time. Score: 0.30.
+*   **infotainment_ux_rating:** MBUX system is generally good, but some touch controls can be fiddly,. Score: 0.30.
+*   **smartphone_connect_rating:** Apple CarPlay and Android Auto available on facelifted models,. Score: 0.50.
+*   **audio_rating:** Standard audio is average, Burmester optional. Score: 0.30.
+*   **usb_ports:** Fewer ports than modern cars. Score: -0.50.
+*   **comfort_feature_score:** Heated seats, power seats, dual-zone climate control available. Good for its time. Score: 0.30.
+*   **convenience_feature_score:** Power tailgate, parking sensors/camera, keyless entry/go available,. Good for its time. Score: 0.30.
+*   **brand_prestige_rating:** Mercedes-Benz is a high prestige brand. Score: 0.90.
 *   **model_prestige_rating:** GLC is a core model. Score: 0.00.
-*   **trim_prestige_rating:** GLC 400d was a higher-end diesel variant. Score: 0.00.
-*   **interior_luxury_rating:** High-quality interior for its time. Score: 0.60.
-*   **interior_tech_focus_rating:** Had tech, but less screen-focused than current models. Score: 0.00.
+*   **trim_prestige_rating:** The 400d was a high-performance diesel trim. Score: -0.20.
+*   **interior_luxury_rating:** High quality materials for its time, feels luxurious,. Score: 0.40.
+*   **interior_tech_focus_rating:** Less screen-focused than the current generation, but MBUX brought significant tech improvement for its time. Score: 0.00.
 
 ```json
 {
-  "price_usd": -0.20,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": -0.20,
-  "hp": 0.40,
-  "torque": 0.80,
-  "cylinder_count": 0.00,
+  "price_usd": 0.20,
+  "total_cost_estimate_5yr_usd": -0.30,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.30,
+  "repair_risk_score": -0.10,
+  "hp": 0.50,
+  "torque": 0.60,
+  "cylinder_count": 0.50,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.60,
+  "accel_0_60_sec": 0.80,
   "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 1.00,
   "driving_track_vs_gt": 0.50,
-  "offroad_ability": 0.20,
+  "offroad_ability": 0.00,
   "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.30,
+  "size": 0.25,
+  "wheelbase": 0.40,
   "body_style": 0.50,
   "seats": 0.00,
-  "cargo_space": 0.20,
-  "rear_space": 0.40,
-  "ground_clearance_in": 0.10,
-  "turn_radius_ft": -0.10,
-  "mpg": -0.10,
-  "co2_g_km": 0.10,
+  "cargo_space": 0.00,
+  "rear_space": 0.60,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.30,
+  "co2_g_km": 0.00,
   "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": -0.20,
+  "style_aggression_rating": -0.50,
   "style_modernity_rating": -0.20,
-  "handling_rating": -0.30,
-  "ride_comfort_rating": 0.60,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
   "cabin_noise_rating": 0.70,
-  "shift_smooth_rating": 0.50,
-  "steering_feel_rating": -0.40,
-  "adas_score": 0.40,
+  "shift_smooth_rating": 0.70,
+  "steering_feel_rating": -0.50,
+  "adas_score": 0.30,
   "visibility_rating": 0.20,
-  "headlight_rating": 0.20,
-  "security_rating": 0.40,
-  "screen_in": 0.00,
-  "infotainment_ux_rating": -0.20,
+  "headlight_rating": 0.30,
+  "security_rating": 0.50,
+  "screen_in": 0.30,
+  "infotainment_ux_rating": 0.30,
   "smartphone_connect_rating": 0.50,
-  "audio_rating": 0.00,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.50,
-  "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.80,
+  "audio_rating": 0.30,
+  "usb_ports": -0.50,
+  "comfort_feature_score": 0.30,
+  "convenience_feature_score": 0.30,
+  "brand_prestige_rating": 0.90,
   "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.60,
+  "trim_prestige_rating": -0.20,
+  "interior_luxury_rating": 0.40,
   "interior_tech_focus_rating": 0.00
 }
 ```

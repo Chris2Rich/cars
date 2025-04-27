@@ -1,0 +1,144 @@
+The most recent version of the BMW 3 Series M340d is part of the G20/G21 generation, which received a facelift (LCI) for the 2023 model year. The M340d is an M Performance variant, offering a powerful diesel engine and sporty features, available in some markets (primarily Europe). This evaluation is based on the data found for the most recent M340d models.
+
+Here's an evaluation based on the available data for the most recent M340d:
+
+*   **price\_usd**: Prices for the M340d vary by market. A 2024 M340d xDrive Saloon is listed at £44,440 (used, approx $56k USD) and £58,470 (new, approx $74k USD) in the UK. A 2020 M340d Touring was priced around £54,325 (approx $69k USD). The average new car price is around $52,000. The new price for the M340d is significantly above the market average. Score: -0.10.
+*   **total\_cost\_estimate\_5yr\_usd**: BMW maintenance costs are generally higher than average, and M Performance models can be more expensive to maintain. Score: -0.10.
+*   **insurance\_usd\_yr**: UK insurance groups for the 3 Series range from 18 to 43. The M340d xDrive is in group 42E. This is in the upper range, suggesting above-average insurance costs for a premium performance car. Score: -0.10.
+*   **maint\_usd\_yr**: BMW maintenance costs can be high, especially for M Performance models. Score: -0.20.
+*   **repair\_risk\_score**: The G20 3 Series is generally considered reliable. The B57 diesel engine is generally reliable, but potential issues like clogged fuel injectors, DPF issues, and EGR valve/cooler problems are mentioned as common for modern diesels. Transmission issues are also possible over time. Overall, it's considered reliable for a performance diesel, but perhaps not best-in-class compared to brands like Lexus. Score: 0.40.
+*   **hp**: The most recent M340d has 340 hp (250 kW). This is significantly above the market average of 200 hp. Score: 0.40.
+*   **torque**: The most recent M340d has 700 Nm (516 lb-ft). This is superb, best-in-class for its segment, significantly above the market average of 190 lb-ft. Score: 0.80.
+*   **cylinder\_count**: The M340d has an Inline 6-cylinder engine. This is above the market average of 4 cylinders. Score: 0.50.
+*   **engine\_displacement**: The M340d has a 3.0L (2993 cm³) engine. This is above the market average of around 2.0-3.0L. Score: 0.30.
+*   **accel\_0\_60\_sec**: 0-60 mph is claimed at 4.5-4.6 seconds. 0-62 mph (0-100 km/h) is claimed at 4.6-4.8 seconds. Real-world tests show 0-60 mph around 4.5 seconds. This is significantly faster than the market average of 7.5 seconds. Score: 0.80.
+*   **top\_speed**: Top speed is 155 mph (250 km/h), electronically limited. This is around the 150 mph average. Score: 0.00.
+*   **drive\_type**: xDrive (AWD) is standard on the M340d. Score: 0.00.
+*   **transmission\_type**: 8-speed Sport automatic transmission with paddle shifters and launch control is standard. Score: 1.00.
+*   **driving\_track\_vs\_gt**: Excellent balance of performance and daily usability. Capable of spirited driving but also comfortable for long distances. More GT-oriented than a full M car. Score: 0.50.
+*   **offroad\_ability**: Low ground clearance sedan/touring. Score: 1.00.
+*   **braking\_dist\_ft**: M Sport brakes with red calipers are standard. Brakes are described as strong and consistent, though some reviews mention inconsistency at low speeds due to regenerative braking integration. Assume better than average stopping power. Score: 0.20.
+*   **size**: Length is around 4713 mm (185.6 inches). This is slightly larger than the 4600mm average. Score: 0.10.
+*   **wheelbase**: 2851 mm (112.2 inches). This is longer than the 2700mm average. Score: 0.20.
+*   **body\_style**: 4-door Sedan (Saloon) or 5-door Touring (Estate). Score: 0.00 (for Sedan), 0.50 (for Touring). Using 0.00 for the base body style.
+*   **seats**: 5 seats. Score: 0.00.
+*   **cargo\_space**: 480 litres (approx 17 cu ft) for the sedan, 500 litres (approx 17.7 cu ft) for the Touring. This is slightly above the 15 cu ft average. Score: 0.10.
+*   **rear\_space**: Rear legroom is 35.2 inches. This is the market average. Score: 0.00.
+*   **ground\_clearance\_in**: 130-135 mm (approx 5.1-5.3 inches). This is below the 6.5" average for crossovers, typical for a sedan, and lower than standard 3 Series due to M Sport suspension. Score: -0.50.
+*   **turn\_radius\_ft**: 12.0 m (approx 39.4 ft). This is slightly above the market average of 36 ft. Score: -0.10.
+*   **mpg**: Combined WLTP is 6.1-6.8 L/100km (approx 34.6-38.6 mpg). Real-world figures can be over 40 mpg. This is better than the 30 mpg average. Score: 0.30.
+*   **co2\_g\_km**: Combined WLTP is 161-177 g/km. This is around the 175 g/km average. Score: 0.00.
+*   **electrification**: Mild Hybrid Electric Vehicle (MHEV). This is better than pure Petrol/Diesel but not a PHEV or EV. Score: -0.50.
+*   **electric\_range\_mi**: Not a PHEV or EV. Score: -1.00.
+*   **charge\_speed\_kw**: Not a PHEV or EV. Score: -1.00.
+*   **style\_sleek\_vs\_boxy**: Modern BMW sedan/touring styling, leaning towards sleek. Score: 0.30.
+*   **style\_aggression\_rating**: M Performance styling adds significant aggression over standard models. Score: 0.50.
+*   **style\_modernity\_rating**: Facelift updated styling to be more modern. Score: 0.60.
+*   **handling\_rating**: BMW 3 Series is known for superb handling, enhanced by M Adaptive Suspension, Variable Sport Steering, and M Sport Differential. Described as having fast, pin-sharp handling. Score: 0.90.
+*   **ride\_comfort\_rating**: M Adaptive Suspension balances comfort and sportiness, but is firmer than standard suspension. Described as comfortable but less so than the M3. Score: 0.40.
+*   **cabin\_noise\_rating**: Acoustic glass and good insulation contribute to a quiet cabin, though the diesel engine is audible under load. Score: 0.50.
+*   **shift\_smooth\_rating**: 8-speed Sport automatic is described as "exceptionally smooth" and "telepathic". Score: 1.00.
+*   **steering\_feel\_rating**: Variable Sport Steering provides a direct, athletic steering experience. Described as well-weighted with good feel. Score: 0.80.
+*   **adas\_score**: Standard features include Active Guard Plus (collision warning, lane departure warning). Available features include Driving Assistant Professional (adaptive cruise control with stop & go, lane keeping assist, blind spot monitoring), Parking Assistant Plus (360 cameras, automated parking). Offers Level 2 partial automation. High score for available tech. Score: 0.80.
+*   **visibility\_rating**: Visibility is described as "pretty good". Score: 0.00.
+*   **headlight\_rating**: Adaptive LED Headlights with High-Beam Assistant are standard. BMW Individual Lights Shadow Line available. Score: 0.80.
+*   **security\_rating**: Alarm System, electronic vehicle immobiliser, tyre pressure monitoring are standard. BMWs generally have good security. Score: 0.60.
+*   **screen\_in**: Curved display combines 12.3" instrument cluster and 14.9" central display. The central screen is 14.9 inches. Score: 0.90.
+*   **infotainment\_ux\_rating**: Runs on latest iDrive OS (8.5). Described as snappy, easy to navigate, intuitive, high resolution. Live Cockpit Professional is standard. Score: 0.90.
+*   **smartphone\_connect\_rating**: Connected Package Pro includes smartphone integration with Wireless Charging, Wireless Apple CarPlay and Android Auto. Score: 1.00.
+*   **audio\_rating**: Harman Kardon Surround Sound audio system is available (part of Technology Plus Pack). Standard system is likely above average. Score: 0.80 (assuming Harman Kardon is common on this trim).
+*   **usb\_ports**: USB connection mentioned, Enhanced USB & Bluetooth Plus Smartphone Integration available. Assume at least 2-3 ports. Score: 0.00.
+*   **comfort\_feature\_score**: Automatic Three-Zone Air Conditioning, Heated front seats (standard/optional), Electric front seats with driver memory (optional), Heated steering wheel (optional), Ambient Lighting, Sport seats, Lumbar support (optional). Good level of features, especially with Comfort Plus Pack. Score: 0.60.
+*   **convenience\_feature\_score**: Parking Assistant (front/rear sensors, rear camera) is standard. Electric Bootlid (optional), Comfort Access (optional), Storage for wireless charging (optional), Live Cockpit Pro with Head up Display (optional), 360 cameras (Parking Assistant Plus optional). Good level of convenience features, especially with options. Score: 0.70.
+*   **brand\_prestige\_rating**: BMW is a high-prestige brand. Score: 0.80.
+*   **model\_prestige\_rating**: 3 Series is a core, well-regarded model. Score: 0.00.
+*   **trim\_prestige\_rating**: M Performance variant, offering significant performance upgrades over standard models, placing it high in the lineup but below the full M3. Score: -0.10.
+*   **interior\_luxury\_rating**: Modern design, excellent materials (Vernasca Leather available), impressive build quality, Sensatec dashboard, Aluminium Rhombicle or Carbon Fibre trim. High level of interior luxury. Score: 0.70.
+*   **interior\_tech\_focus\_rating**: Large curved display, iDrive 8.5, digital instrument panel, advanced connectivity, Head-up Display (optional), wireless charging (optional). Very tech-focused interior. Score: 0.90.
+
+Refining scores based on the guide and gathered data:
+- Price: Significantly above average for a new car. Score -0.10.
+- Total Cost: Higher maintenance. Score -0.10.
+- Insurance: Above average. Score -0.10.
+- HP: Significantly above average. Score 0.40.
+- Torque: Superb. Score 0.80.
+- Cylinder Count: Above average. Score 0.50.
+- Engine Displacement: Above average. Score 0.30.
+- Accel 0-60: Significantly faster than average. Score 0.80.
+- Top Speed: Around average (limited). Score 0.00.
+- Drive Type: AWD standard. Score 0.00.
+- Ground Clearance: Lower than standard 3 Series, well below market average. Score -0.50.
+- Turn Radius: Slightly above average. Score -0.10.
+- MPG: Better than average for a performance car. Score 0.30.
+- CO2: Around average. Score 0.00.
+- Electrification: Mild Hybrid. Score -0.50.
+- Handling: Superb. Score 0.90.
+- Ride Comfort: Good, but firmer than standard. Score 0.40.
+- Cabin Noise: Good, but diesel engine audible under load. Score 0.50.
+- Steering Feel: Excellent. Score 0.80.
+- ADAS: Excellent available features, including Level 2. Score 0.80.
+- Screen Size: 14.9" central screen is large. Score 0.90.
+- Infotainment UX: Highly rated iDrive 8.5. Score 0.90.
+- Smartphone Connect: Wireless is best-in-class. Score 1.00.
+- Audio: Standard is above average, Harman Kardon optional/common. Score 0.80.
+- Trim Prestige: M Performance is high in the lineup, below M3. Score -0.10.
+- Interior Luxury: High quality materials and finishes. Score 0.70.
+- Interior Tech Focus: High tech focus. Score 0.90.
+
+Looks consistent.```json
+{
+  "price_usd": -0.10,
+  "total_cost_estimate_5yr_usd": -0.10,
+  "insurance_usd_yr": -0.10,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": 0.40,
+  "hp": 0.40,
+  "torque": 0.80,
+  "cylinder_count": 0.50,
+  "engine_displacement": 0.30,
+  "accel_0_60_sec": 0.80,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.20,
+  "size": 0.10,
+  "wheelbase": 0.20,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.10,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.30,
+  "co2_g_km": 0.00,
+  "electrification": -0.50,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.30,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.60,
+  "handling_rating": 0.90,
+  "ride_comfort_rating": 0.40,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.80,
+  "adas_score": 0.80,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.80,
+  "security_rating": 0.60,
+  "screen_in": 0.90,
+  "infotainment_ux_rating": 0.90,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.80,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.60,
+  "convenience_feature_score": 0.70,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -0.10,
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": 0.90
+}
+```

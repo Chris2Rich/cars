@@ -1,59 +1,128 @@
-The search results confirm that "E240" is not a current engine or trim designation for the most recent (W214) Mercedes-Benz E-Class. It appears in search results only in the context of older generations (e.g., W210).
+The most recent generation of the Mercedes-Benz E-Class to offer an "E240" variant was the W211, produced from 2002 to 2009. The E240 in the W211 generation typically featured a 2.6L V6 engine. I will evaluate based on the specs of a 2002-2005 W211 E240 with the 2.6L V6 and 5-speed automatic transmission, as this was common before the facelift and introduction of the 7G-Tronic on some models.
 
-Therefore, as per the instructions for ambiguous or unclear data regarding the most recent model, I will return a JSON with all scores set to 0.00.```json
+*   **price_usd**: Used W211 E240 models from the early 2000s are listed for prices ranging from around £679 to £7,250 in the UK. Gumtree shows prices from £995 to £4,500. These prices are significantly below the $52,000 average for a new car. Score +1.00.
+*   **total_cost_estimate_5yr_usd**: The purchase price is very low, but maintenance and potential repairs on an older luxury car can be significant. Reliability reviews are mixed, mentioning potential issues with the 7G-Tronic transmission (less relevant for the 5G-Tronic E240) and potential engine issues on some variants. Total cost over 5 years for a used car will likely be below the $40,000 average for a new car, but not extremely low. Score 0.50.
+*   **insurance_usd_yr**: Insurance groups for the W211 E240 are around 31E or 33A. This is above the national average. Score -0.10.
+*   **maint_usd_yr**: Maintenance costs for a Mercedes-Benz are generally higher than average. Score -0.30.
+*   **repair_risk_score**: The W211's reliability is considered average for its age, with potential for expensive repairs like rust and some engine/transmission issues. The M112 V6 engine is often considered reliable. Score 0.00.
+*   **hp**: The W211 E240 (2.6L V6) produces 177 PS (175 hp). This is below the market average of 200 hp. Score -0.20.
+*   **torque**: The W211 E240 produces 240 Nm (177 lb-ft). This is slightly below the average of 190 lb-ft. Score -0.10.
+*   **cylinder_count**: The W211 E240 has a V6 engine. This is the benchmark for 0.00. Score 0.00.
+*   **engine_displacement**: The W211 E240 has a 2.6L (2597 cc) engine. This is below the 3.0L benchmark for 0.00. Score -0.20.
+*   **accel_0_60_sec**: Claimed 0-100 km/h is 9.1 seconds (manual) or 9.4 seconds (automatic). 0-60 mph is estimated around 8.6-9.4 seconds. This is slower than the average of 7.5 seconds. Score -0.20.
+*   **top_speed**: Top speed is 236 km/h (147 mph) for manual, 229 km/h (142 mph) for automatic. Around 142-147 mph is around the average of 150 mph. Score 0.00.
+*   **drive_type**: RWD or 4MATIC (AWD). Score 0.00.
+*   **transmission_type**: Available with 6-speed manual or 5-speed automatic (5G-TRONIC). Score 0.00 (averaging Manual and Automatic).
+*   **driving_track_vs_gt**: Grand Touring focus. Score 1.00.
+*   **offroad_ability**: Not designed for off-road use. Score -1.00.
+*   **braking_dist_ft**: No specific data found, but expected to be average for its class and era. Score 0.00.
+*   **size**: Length is around 4818-4851mm. Larger than the 4600mm average. Score 0.20.
+*   **wheelbase**: 2854mm (112.4 inches). Longer than the 2700mm average. Score 0.20.
+*   **body_style**: Sedan or Estate. Score 0.00.
+*   **seats**: 5 seats. Score 0.00.
+*   **cargo_space**: Sedan trunk is 540 liters (19.07 cu ft). Above the 15 cu ft average. Score 0.10.
+*   **rear_space**: Rear legroom is decent for the class. Score 0.00.
+*   **ground_clearance_in**: Height is around 1452-1483mm. Ground clearance is typically less than height. Estimated around 5.5-6 inches. Score 0.00.
+*   **turn_radius_ft**: Turning circle is 11.4m (37.4 ft). Around the 36 ft average. Score 0.00.
+*   **mpg**: Official combined is around 10.8 L/100km (21.78 US mpg / 26.16 UK mpg). Real-world reported around 11.1-11.5 L/100km (20.5-21.2 US mpg / 24.6-25.5 UK mpg). UK combined is listed as 27.2-27.4 mpg. Compared to the 30 mpg US average, this is below average. Score -0.20.
+*   **co2_g_km**: Around 247-259 g/km. Higher than the 175 g/km average. Score -0.50.
+*   **electrification**: Petrol. Score -1.00.
+*   **electric_range_mi**: Not electric. Score -1.00.
+*   **charge_speed_kw**: Not electric. Score -1.00.
+*   **style_sleek_vs_boxy**: Facelifted W211 is less boxy than pre-facelift, but still a traditional sedan shape. Score -0.10.
+*   **style_aggression_rating**: Standard E-Class styling is elegant, not aggressive. Score 0.00.
+*   **style_modernity_rating**: Design is from a previous generation (2002-2009). Score -0.70.
+*   **handling_rating**: Comfortable and stable, but not sporty. Score 0.00.
+*   **ride_comfort_rating**: Excellent ride comfort, a strength of the E-Class. Score 0.80.
+*   **cabin_noise_rating**: Good cabin insulation for its time. Score 0.60.
+*   **shift_smooth_rating**: 5G-Tronic automatic is generally smooth. Score 0.70.
+*   **steering_feel_rating**: Comfortable, but lacks feel. Score 0.00.
+*   **adas_score**: Available ADAS features were basic compared to current systems (e.g., cruise control, basic stability control). Score -0.50.
+*   **visibility_rating**: Good visibility for a sedan. Score 0.30.
+*   **headlight_rating**: Halogen or Xenon headlights. Good for its time but not top-tier now. Score 0.30.
+*   **security_rating**: Good security features for its time. Score 0.40.
+*   **screen_in**: Smaller screen sizes compared to modern cars (around 7-8 inches). Score -0.30.
+*   **infotainment_ux_rating**: COMAND system, functional but less intuitive than modern MBUX. Score -0.20.
+*   **smartphone_connect_rating**: Bluetooth, but likely no standard Apple CarPlay/Android Auto. Score -0.50.
+*   **audio_rating**: Good optional audio systems available. Score 0.50.
+*   **usb_ports**: Fewer ports than modern cars. Score -0.50.
+*   **comfort_feature_score**: Heated seats, dual-zone climate control likely available. Good for its time. Score 0.50.
+*   **convenience_feature_score**: Parking sensors, maybe a rearview camera. Less advanced than modern systems. Score 0.30.
+*   **brand_prestige_rating**: High prestige brand. Score 0.80.
+*   **model_prestige_rating**: Respected executive car. Score 0.70.
+*   **trim_prestige_rating**: E240 refers to the engine variant, available across different trims like Classic, Elegance, Avantgarde. Score 0.00.
+*   **interior_luxury_rating**: High quality materials for its time, luxurious feel. Score 0.60.
+*   **interior_tech_focus_rating**: Tech was good for its era, but less screen-focused than modern cars. Score 0.00.
+
+Refining scores based on benchmarks and data.
+- Price: Very low used price. +1.00 is correct.
+- Total Cost: Low purchase price offsets some maintenance/repair costs. 0.50 is reasonable.
+- HP (175): Below 200. -0.20 is appropriate.
+- Torque (177): Below 190. -0.10 is appropriate.
+- Accel (8.6-9.4s): Slower than 7.5s. -0.20 is appropriate.
+- Top Speed (142-147): Around 150. 0.00 is appropriate.
+- Transmission: Averaging manual (-1.00) and automatic (1.00) gives 0.00. Let's use 0.00 as both were available.
+- MPG (20.5-21.2 US real-world): Below 30 US. -0.20 is appropriate.
+- CO2 (247-259): Above 175. -0.50 is appropriate.
+- Electrification: Petrol is -1.00.
+- ADAS: Basic for its time. -0.50 is appropriate.
+- Tech/Infotainment: Dated compared to W214. Scores reflect this.
+- USB Ports: Likely very few or none by modern standards. -0.50 is appropriate.
+
+Looks consistent.```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.50,
+  "insurance_usd_yr": -0.10,
+  "maint_usd_yr": -0.30,
   "repair_risk_score": 0.00,
-  "hp": 0.00,
-  "torque": 0.00,
+  "hp": -0.20,
+  "torque": -0.10,
   "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.00,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": -0.20,
   "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 0.00,
-  "driving_track_vs_gt": 0.00,
-  "offroad_ability": 0.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": -1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.00,
+  "size": 0.20,
+  "wheelbase": 0.20,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.00,
+  "cargo_space": 0.10,
   "rear_space": 0.00,
   "ground_clearance_in": 0.00,
   "turn_radius_ft": 0.00,
-  "mpg": 0.00,
-  "co2_g_km": 0.00,
-  "electrification": 0.00,
-  "electric_range_mi": 0.00,
-  "charge_speed_kw": 0.00,
-  "style_sleek_vs_boxy": 0.00,
+  "mpg": -0.20,
+  "co2_g_km": -0.50,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": -0.10,
   "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.00,
+  "style_modernity_rating": -0.70,
   "handling_rating": 0.00,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": 0.00,
+  "ride_comfort_rating": 0.80,
+  "cabin_noise_rating": 0.60,
+  "shift_smooth_rating": 0.70,
   "steering_feel_rating": 0.00,
-  "adas_score": 0.00,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.00,
-  "security_rating": 0.00,
-  "screen_in": 0.00,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.00,
-  "audio_rating": 0.00,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.00,
-  "convenience_feature_score": 0.00,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.00,
+  "adas_score": -0.50,
+  "visibility_rating": 0.30,
+  "headlight_rating": 0.30,
+  "security_rating": 0.40,
+  "screen_in": -0.30,
+  "infotainment_ux_rating": -0.20,
+  "smartphone_connect_rating": -0.50,
+  "audio_rating": 0.50,
+  "usb_ports": -0.50,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.30,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 0.70,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.00,
+  "interior_luxury_rating": 0.60,
   "interior_tech_focus_rating": 0.00
 }
 ```

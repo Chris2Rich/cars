@@ -1,57 +1,113 @@
-```json
+Here's the evaluation of the Audi SQ8 e-tron based on the search results and the provided scoring guide:
+
+*   **price_usd**: Starts around $89,800 - $91,495. This is well above the market average of $52,000, but not in the ultra-luxury >$120k range. Score: -0.70.
+*   **total_cost_estimate_5yr_usd**: No specific 5-year cost found, but as a high-priced EV from a luxury brand, it's expected to be high due to depreciation, insurance, and potentially higher maintenance/repair costs compared to average cars. Score: -0.70 (Estimate based on price and segment).
+*   **insurance_usd_yr**: No specific annual insurance cost found, nor UK insurance group. As a high-performance luxury EV, insurance is expected to be high. Score: -0.70 (Estimate based on price, performance, and segment).
+*   **maint_usd_yr**: No specific annual maintenance cost found. EVs generally have lower maintenance than ICE, but luxury brands can be more expensive. Score: 0.00 (Default due to lack of specific data).
+*   **repair_risk_score**: No specific reliability score found. Audi is generally considered average to slightly above average, but complex EVs can have unique issues. Score: 0.00 (Default due to lack of specific data).
+*   **hp**: 496 hp. This is significantly above the average of 200 hp. Score: +0.70.
+*   **torque**: 718 lb-ft. This is very high torque, especially for an EV with instant delivery. Score: +0.80.
+*   **cylinder_count**: 0 (EV). Score: -1.00 (Based on guide, <3 cylinders is -1.00).
+*   **engine_displacement**: 0 (EV). Score: -1.00 (Based on guide, <1.2L is -1.00).
+*   **accel_0_60_sec**: 4.2 - 4.5 seconds. This is significantly faster than the average of 7.5 seconds. Score: +0.70.
+*   **top_speed**: 130 mph (210 km/h). This is around the average top speed for many cars (150 mph benchmark is high). Score: 0.00.
+*   **drive_type**: AWD (Tri-motor electric quattro). Score: 0.00 (Based on guide, AWD is 0.00).
+*   **transmission_type**: Single-speed EV transmission. This provides very smooth, seamless acceleration. Score: +1.00 (Aligning with the "Automatic Transmission" benchmark for smoothness).
+*   **driving_track_vs_gt**: Described as comfortable and capable on twisty roads, but also refined and comfortable for cruising. Leans towards GT. Score: +0.70.
+*   **offroad_ability**: It's an SUV with AWD and adjustable air suspension, but not designed for serious off-roading. Score: +0.70 (Based on guide, low to ground/harsh suspension is +1.00, average SUV is 0.00. This is an SUV, but not off-road focused, so closer to average SUV). Let's re-evaluate the guide. The guide has the scoring reversed for offroad ability. -1.00 is high ability, +1.00 is low ability. So, an average SUV like the Explorer is 0.00. The SQ8 e-tron has AWD and adjustable suspension, giving it some capability beyond a sedan, but it's not a dedicated off-roader. Score: -0.20 (Slightly better than a car, but not a true off-roader).
+*   **braking_dist_ft**: No specific braking distance found. Score: 0.00 (Default).
+*   **size**: Length is 193.5 inches (4915 mm). This is larger than a Civic (~4600mm) but not as large as a Hummer EV (>5100mm). Score: +0.50.
+*   **wheelbase**: 115.1 inches (2924 mm). This is longer than a Skoda Octavia (~2700mm) but shorter than an S-Class (>3200mm). Score: +0.50.
+*   **body_style**: 4-door SUV/Hatchback/Wagon. Score: 0.00 (Closer to 4-door sedan/coupe than 5-door van).
+*   **seats**: 5 seats. Score: 0.00 (Matches the average).
+*   **cargo_space**: 28.5 cu ft behind the second row. This is significantly more than a Civic (~15 cu ft) but less than a Subaru Outback (>35 cu ft). Score: +0.50.
+*   **rear_space**: Good legroom in the rear. No specific inches found. Score: +0.50 (Based on reviews indicating good space).
+*   **ground_clearance_in**: No specific ground clearance found. It has adaptive air suspension, which can adjust height. Score: 0.00 (Default).
+*   **turn_radius_ft**: No specific turn radius found. Progressive steering helps with low-speed maneuvers. Score: 0.00 (Default).
+*   **mpg**: EV, not applicable. Score: 0.00 (Default/Neutral).
+*   **co2_g_km**: 0 g/km (EV). Score: +1.00 (Matches the benchmark).
+*   **electrification**: BEV (Full Electric Vehicle). Score: +1.00 (Matches the benchmark).
+*   **electric_range_mi**: EPA estimated up to 253 miles (with 20" wheels), drops to 218 miles with 22" wheels. WLTP range up to 285 miles or 438km (272 miles). Compared to segment leaders (>375 mi), this is below average for a modern luxury EV. Score: -0.50.
+*   **charge_speed_kw**: Max DC fast charging up to 170 kW (average 144 kW). This is decent but not class-leading compared to 250-350+ kW benchmarks. Score: 0.00.
+*   **style_sleek_vs_boxy**: SUV profile, but with a relatively sleek design, especially the Sportback. Score: 0.00 (SUV is generally neutral, not ultra-boxy or ultra-sleek).
+*   **style_aggression_rating**: SQ8 trim adds sporty elements, wider fenders, and larger air inlets. Score: +0.50.
+*   **style_modernity_rating**: Modern EV design with updated Audi styling cues. Score: +0.50.
+*   **handling_rating**: Described as confident, athletic, nimble for its size, with good grip and torque vectoring. Score: +0.70.
+*   **ride_comfort_rating**: Generally comfortable, especially at low speeds and on the motorway, thanks to air suspension. Score: +0.70.
+*   **cabin_noise_rating**: Extremely quiet cabin, aided by dual-pane acoustic glass. Score: +0.90.
+*   **shift_smooth_rating**: EV single-speed transmission is inherently smooth. Score: +1.00.
+*   **steering_feel_rating**: Progressive steering with speed-sensitive assist, described as having more road feedback than other new Audis and a quicker ratio. Score: +0.70.
+*   **adas_score**: Packed with driver assistance features including adaptive cruise control, lane keeping assist, park assist plus, 360 cameras, collision avoidance assist, rear cross-traffic assist. Audi typically has strong ADAS. Score: +0.80.
+*   **visibility_rating**: No specific reviews on visibility found. Score: 0.00 (Default).
+*   **headlight_rating**: Available Digital Matrix-design LED headlights are advanced. Score: +0.80.
+*   **security_rating**: Anti-theft alarm, Keyless Go, anti-theft wheel bolts, wheel loosening detection. Audi is a premium brand, likely good security. Score: +0.50.
+*   **screen_in**: Features Audi virtual cockpit plus (12.3") and dual MMI touch displays (10.1" and 8.6"). Multiple large screens. Score: +0.80.
+*   **infotainment_ux_rating**: MMI touch response system. Generally well-regarded but can be distracting. Score: +0.50.
+*   **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto. Score: +1.00.
+*   **audio_rating**: Standard Bang & Olufsen Premium sound system with 3D sound (16 speakers, 705 watts). Score: +0.90.
+*   **usb_ports**: No specific count found, but expected to have multiple in a modern luxury vehicle. Score: 0.00 (Default).
+*   **comfort_feature_score**: Available 18-way power adjustable, heated, ventilated, massaging front seats, 4-zone climate control, heated rear seats, remote preconditioning. Score: +0.90.
+*   **convenience_feature_score**: Power operated tailgate, 360-degree cameras, park assist plus (remote parking available for 2025), soft-closing doors (2025). Score: +0.90.
+*   **brand_prestige_rating**: Audi is a premium/luxury brand. Score: +0.70.
+*   **model_prestige_rating**: SQ8 e-tron is a high-performance variant of Audi's large electric SUV, near the top of their electric SUV range. Score: 0.00 (Middle of range/performance variant).
+*   **trim_prestige_rating**: SQ8 is a performance trim. Score: 0.00 (Good Trim/Performance Trim).
+*   **interior_luxury_rating**: Soft leather, suede-like material, carbon trim, quilted leather seats, leather-trimmed instrument panel (2025). High-quality luxury interior. Score: +0.90.
+*   **interior_tech_focus_rating**: Multiple large screens (virtual cockpit, dual MMI), extensive ADAS, digital headlights. Very tech-focused. Score: +0.90.
+
+Construct the JSON output.```json
 {
-  "price_usd": -0.50,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
+  "price_usd": -0.70,
+  "total_cost_estimate_5yr_usd": -0.70,
+  "insurance_usd_yr": -0.70,
   "maint_usd_yr": 0.00,
   "repair_risk_score": 0.00,
   "hp": 0.70,
   "torque": 0.80,
   "cylinder_count": -1.00,
   "engine_displacement": -1.00,
-  "accel_0_60_sec": 0.80,
-  "top_speed": -0.20,
+  "accel_0_60_sec": 0.70,
+  "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "driving_track_vs_gt": 0.50,
-  "offroad_ability": 0.80,
+  "driving_track_vs_gt": 0.70,
+  "offroad_ability": -0.20,
   "braking_dist_ft": 0.00,
-  "size": 0.40,
-  "wheelbase": 0.40,
+  "size": 0.50,
+  "wheelbase": 0.50,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.60,
-  "rear_space": 0.00,
+  "cargo_space": 0.50,
+  "rear_space": 0.50,
   "ground_clearance_in": 0.00,
   "turn_radius_ft": 0.00,
   "mpg": 0.00,
   "co2_g_km": 1.00,
   "electrification": 1.00,
-  "electric_range_mi": 0.60,
-  "charge_speed_kw": 0.60,
-  "style_sleek_vs_boxy": 0.20,
+  "electric_range_mi": -0.50,
+  "charge_speed_kw": 0.00,
+  "style_sleek_vs_boxy": 0.00,
   "style_aggression_rating": 0.50,
   "style_modernity_rating": 0.50,
   "handling_rating": 0.70,
-  "ride_comfort_rating": 0.60,
+  "ride_comfort_rating": 0.70,
   "cabin_noise_rating": 0.90,
   "shift_smooth_rating": 1.00,
-  "steering_feel_rating": 0.60,
-  "adas_score": 0.70,
+  "steering_feel_rating": 0.70,
+  "adas_score": 0.80,
   "visibility_rating": 0.00,
-  "headlight_rating": 1.00,
+  "headlight_rating": 0.80,
   "security_rating": 0.50,
   "screen_in": 0.80,
   "infotainment_ux_rating": 0.50,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": 1.00,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.90,
   "usb_ports": 0.00,
   "comfort_feature_score": 0.90,
   "convenience_feature_score": 0.90,
   "brand_prestige_rating": 0.70,
-  "model_prestige_rating": 0.80,
-  "trim_prestige_rating": 1.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
   "interior_luxury_rating": 0.90,
-  "interior_tech_focus_rating": 0.80
+  "interior_tech_focus_rating": 0.90
 }
 ```

@@ -1,11 +1,3 @@
-The search results indicate that the "BlueLine" trim was available on previous generations of the Volkswagen Golf GTD, specifically mentioning models from 2017, 2018, 2019, and 2020 (Sources [2], [4], [5], [7], [13], [19], [20]). These sources refer to the Golf Mk7 or earlier.
-
-The most recent generation of the Volkswagen Golf is the Mk8, introduced around 2019-2020 (Sources [3], [22]). The listed trims for the Mk8 Golf GTD do not include "BlueLine" (Sources [1], [3], [6], [14], [17]). The "BlueLine" seems to have been an efficiency-focused variant offered alongside the standard GTD in the Mk7 generation, often featuring smaller wheels for better MPG and lower CO2 emissions (Sources [10], [15]).
-
-Since the user specifically requested the "most recent version" of the "Volkswagen Golf GTD BlueLine", and the "BlueLine" trim is not available on the current Mk8 Golf GTD, the data for this exact model and trim in its most recent form is ambiguous and unclear.
-
-Therefore, following the instructions, I will default all scores to `0.00`.
-
 ```json
 {
   "price_usd": 0.00,
@@ -21,6 +13,7 @@ Therefore, following the instructions, I will default all scores to `0.00`.
   "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
   "offroad_ability": 0.00,
   "braking_dist_ft": 0.00,
   "size": 0.00,
@@ -33,8 +26,9 @@ Therefore, following the instructions, I will default all scores to `0.00`.
   "turn_radius_ft": 0.00,
   "mpg": 0.00,
   "co2_g_km": 0.00,
-  "electric_range_mi": 0.00,
-  "charge_speed_kw": 0.00,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
   "style_aggression_rating": 0.00,
   "style_modernity_rating": 0.00,

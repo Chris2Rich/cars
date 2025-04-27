@@ -1,55 +1,157 @@
-```json
+The most recent version of the Porsche 911 991 Turbo is the 991.2 Turbo, produced from 2016/2017 to 2019.
+
+- **Price:** The 2017 Porsche 911 Turbo had a starting MSRP of $173,000. The 2017-2019 911 Turbo started around $159,200 - $173,000, and the Turbo S from $188,100 - $200,000. These prices are well above the $120,000 threshold for a -1.00 score. Score: -1.00.
+- **Total Cost Estimate 5yr:** High purchase price, insurance, and maintenance costs for a high-performance Porsche will result in a high 5-year cost, likely well over $80,000. Score: -1.00.
+- **Insurance USD/yr:** Porsche 911 models, including the Turbo, are in the highest insurance groups (49-50). Costs can be $4,000/year or more. Score: -1.00.
+- **Maint USD/yr:** Porsche maintenance is expensive. Minor service from £350, Major from £880, full brake pads and discs from £2,110. While some owners report reasonable costs for routine service, potential issues and larger jobs are costly. Likely >$3,500/year on average, especially considering potential age-related items. Score: -1.00.
+- **Repair Risk Score:** The 991 Turbo is generally considered reliable, especially compared to other supercars. Some potential issues like water pump or turbos going bad are mentioned, but overall reliability is praised. Score: 0.80.
+- **HP:** The 991.2 Turbo has 540 hp (533 bhp), and the Turbo S has 580 hp (572 bhp). These are well above the 700 hp benchmark for +1.00, but significantly above the 200 hp average. Score: 0.90.
+- **Torque:** The 991.2 Turbo has 523 lb-ft (710 Nm), and the Turbo S has 553 lb-ft (750 Nm) with overboost. These are well above the 190 lb-ft average and a good way towards the >1000 lb-ft benchmark. Score: 0.80.
+- **Cylinder Count:** Flat-6. Score: 0.00.
+- **Engine Displacement:** 3.8L (3800 cc) twin-turbocharged flat-6. Around 3.0L is 0.00, >6.0L is +1.00. 3.8L is slightly above average. Score: 0.20.
+- **Accel 0-60 sec:** 991.2 Turbo is 2.9-3.0 seconds, Turbo S is 2.6-2.9 seconds. This is exceptionally fast, very close to the <2.5s benchmark. Score: 0.90.
+- **Top Speed:** 991.2 Turbo is 198-199 mph, Turbo S is 205 mph. >222mph is +1.00, 150mph is 0.00. These speeds are well above average. Score: 0.80.
+- **Drive Type:** All-wheel drive (AWD) is standard. Score: 0.00.
+- **Transmission Type:** Exclusively with 7-speed PDK (dual-clutch). Dual-Clutch is 0.00. Score: 0.00.
+- **Driving Track vs GT:** The Turbo is described as a practical daily driver with immense performance, comfortable for long drives but also a performance monster. It blends GT comfort with supercar speed. Score: 0.50.
+- **Offroad Ability:** Not designed for off-road. Low ground clearance. Score: 1.00.
+- **Braking Dist ft:** Excellent brakes, ceramic composite brakes standard on Turbo S. Porsche brakes are typically excellent, likely <110 ft. Score: 0.90.
+- **Size:** Length ~177.4 in (4506 mm). ~4600mm (~181in) is 0.00. Slightly smaller than average. Score: -0.20.
+- **Wheelbase:** 96.5 in (2450 mm). ~2700mm is 0.00, <2300mm is -1.00. Closer to -1.00. Score: -0.50.
+- **Body Style:** 2-door coupe (also available as Cabriolet). Coupe is -1.00.
+- **Seats:** 2+2 seating, rear seats are small. Score: -0.80.
+- **Cargo Space:** Front luggage compartment 4.1-4.8 cu ft (115-136 L). Folding rear seats adds ~9 cu ft. <5 cu ft is -1.00, ~15 cu ft is 0.00. Frunk is small, total space with folded seats is still below average. Score: -0.80.
+- **Rear Space:** Minimal legroom in rear seats. Score: -1.00.
+- **Ground Clearance in:** Height ~51.0-51.3 in. Ground clearance is low. Score: -0.80.
+- **Turn Radius ft:** 36.4 ft (10.9 m). ~36 ft is 0.00. Score: 0.00.
+- **MPG:** EPA combined 17-21 mpg. NEDC combined 22.56-28.1 mpg. WLTP combined 25.8-28.1 mpg (model range). ~30 mpg is 0.00, ~12 mpg is -1.00. Real-world is likely closer to the lower end. Below average. Score: -0.50.
+- **CO2 g/km:** NEDC 226-231 g/km. WLTP 239-279 g/km (model range). ~175 g/km is 0.00, >300 g/km is -1.00. High emissions. Score: -0.80.
+- **Electrification:** Petrol engine only. Score: -1.00.
+- **Electric Range mi:** Not electric. Score: -1.00.
+- **Charge Speed kW:** Not electric. Score: -1.00.
+- **Style Sleek vs Boxy:** Sleek sports car profile. Score: 0.80.
+- **Style Aggression Rating:** Aggressive styling cues. Score: 0.70.
+- **Style Modernity Rating:** Modern classic design. Score: 0.20.
+- **Handling Rating:** Exceptional levels of cornering grip, quick-twitch reflexes. Score: 1.00.
+- **Ride Comfort Rating:** Doesn't compromise ride quality despite performance. Comfortable for daily driving. Score: 0.50.
+- **Cabin Noise Rating:** Comfortable enough for daily driving. Likely some engine/road noise, but not excessive for a performance car. Score: 0.00.
+- **Shift Smooth Rating:** PDK dual-clutch transmission is excellent, "sublime, best there is". Score: 0.80.
+- **Steering Feel Rating:** Communicative steering feedback through electrically assisted setup. Score: 0.80.
+- **ADAS Score:** Available features include adaptive cruise control, lane change assist, parking sensors, rearview camera. Not a full suite like modern top systems. Score: 0.20.
+- **Visibility Rating:** Limited visibility typical of sports coupes. Score: -0.20.
+- **Headlight Rating:** Full-LED headlights with PDLS available. Good, but not top-tier modern matrix LEDs standard. Score: 0.50.
+- **Security Rating:** High value car, likely good security features (alarms, immobilizers, tracking systems available). Score: 0.80.
+- **Screen in:** Infotainment screen size ~7 inches. ~8 inches is 0.00. Score: -0.20.
+- **Infotainment UX Rating:** Porsche Communication Management (PCM) system. Functional but not cutting edge compared to newest systems. Score: 0.00.
+- **Smartphone Connect Rating:** Apple CarPlay capability standard, Android Auto not available. Score: 0.50.
+- **Audio Rating:** Bose audio system standard, Burmester available. Good to excellent quality available. Score: 0.80.
+- **USB Ports:** Likely 1 or 2. Score: -0.50.
+- **Comfort Feature Score:** Posh interior materials, heated/ventilated seats, power seats, dual-zone climate control available. Score: 0.80.
+- **Convenience Feature Score:** Porsche Entry & Drive, front axle lift system, parking aids, multifunction steering wheel available. Score: 0.80.
+- **Brand Prestige Rating:** Porsche is a high-prestige brand. Score: 1.00.
+- **Model Prestige Rating:** The 911 is Porsche's halo model. Score: -1.00.
+- **Trim Prestige Rating:** Turbo is a top-tier performance trim, below Turbo S but above Carrera/GTS. Score: -0.80.
+- **Interior Luxury Rating:** Posh interior materials, leather, carbon fiber options. High level of luxury for a sports car. Score: 0.80.
+- **Interior Tech Focus Rating:** Has a touchscreen and digital elements, but retains physical buttons and analog gauges. Not as screen-forward as the newest cars. Score: -0.20.
+
+Refining scores based on the guide and collected data.
+- Price: -1.00 (>$120k) - Correct.
+- Total Cost: -1.00 (>$80k) - Correct.
+- Insurance: -1.00 (Group 49-50, >$3500) - Correct.
+- Maint: -1.00 (Porsche high) - Correct.
+- Repair Risk: 0.80 (Generally reliable) - Correct.
+- HP: 0.90 (540-580 hp) - Correct relative to range.
+- Torque: 0.80 (523-553 lb-ft) - Correct relative to range.
+- Cylinder Count: 0.00 (6) - Correct.
+- Engine Displacement: 0.20 (3.8L) - Correct relative to range.
+- Accel 0-60: 0.90 (2.6-3.0s) - Very fast, close to best-in-class. Correct.
+- Top Speed: 0.80 (198-205 mph) - Very high. Correct.
+- Drive Type: 0.00 (AWD) - Correct.
+- Transmission: 0.00 (PDK only) - Correct.
+- Driving Track vs GT: 0.50 (Performance GT) - Correct.
+- Offroad Ability: 1.00 (Poor) - Correct.
+- Braking Dist: 0.90 (Excellent) - Correct.
+- Size: -0.20 (Slightly smaller than average) - Seems reasonable.
+- Wheelbase: -0.50 (Shorter than average) - Seems reasonable.
+- Body Style: -1.00 (2-door Coupe) - Correct.
+- Seats: -0.80 (2+2) - Correct.
+- Cargo Space: -0.80 (Small frunk) - Correct.
+- Rear Space: -1.00 (Minimal) - Correct.
+- Ground Clearance: -0.80 (Low) - Seems reasonable.
+- Turn Radius: 0.00 (~36ft) - Correct.
+- MPG: -0.50 (17-28 mpg range, likely lower in real world) - Below average. Correct.
+- CO2 g/km: -0.80 (226-299 g/km range) - High. Correct.
+- Electrification: -1.00 (Petrol) - Correct.
+- Electric Range: -1.00 (N/A) - Correct.
+- Charge Speed: -1.00 (N/A) - Correct.
+- Style Sleek vs Boxy: 0.80 (Very sleek) - Correct.
+- Style Aggression: 0.70 (Aggressive) - Correct.
+- Style Modernity: 0.20 (Modern classic) - Seems reasonable.
+- Handling: 1.00 (Exceptional) - Correct.
+- Ride Comfort: 0.50 (Comfortable for a sports car) - Seems reasonable.
+- Cabin Noise: 0.00 (Not excessively loud for a performance car) - Seems reasonable.
+- Shift Smooth: 0.80 (Excellent PDK) - Correct.
+- Steering Feel: 0.80 (Communicative) - Seems reasonable.
+- Safety/Visibility (ADAS, Visibility, Headlights, Security): Mixed scores. 0.20/-0.20/0.50/0.80 seem reasonable.
+- Infotainment/Connectivity (Screen, UX, Smartphone, Audio, USB): Mixed scores. -0.20/0.00/0.50/0.80/-0.50 seem reasonable for the era and focus.
+- Features (Comfort, Convenience): High scores for available features. 0.80/0.80 seem reasonable.
+- Prestige (Brand, Model, Trim): High scores for Brand/Model, high for Trim. 1.00/-1.00/-0.80 seem correct.
+- Interior Character (Luxury, Tech Focus): 0.80/-0.20 seem reasonable for high quality but not overly tech-focused interior.
+
+Looks good. Proceed with JSON output.```json
 {
   "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
   "maint_usd_yr": -1.00,
-  "repair_risk_score": 0.50,
+  "repair_risk_score": 0.80,
   "hp": 0.90,
   "torque": 0.80,
   "cylinder_count": 0.00,
-  "engine_displacement": 0.25,
-  "accel_0_60_sec": 0.95,
-  "top_speed": 0.95,
+  "engine_displacement": 0.20,
+  "accel_0_60_sec": 0.90,
+  "top_speed": 0.80,
   "drive_type": 0.00,
   "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.50,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 1.00,
-  "size": -0.50,
+  "braking_dist_ft": 0.90,
+  "size": -0.20,
   "wheelbase": -0.50,
   "body_style": -1.00,
-  "seats": -0.75,
-  "cargo_space": -1.00,
+  "seats": -0.80,
+  "cargo_space": -0.80,
   "rear_space": -1.00,
-  "ground_clearance_in": -1.00,
+  "ground_clearance_in": -0.80,
   "turn_radius_ft": 0.00,
-  "mpg": -0.75,
-  "co2_g_km": -0.75,
+  "mpg": -0.50,
+  "co2_g_km": -0.80,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.75,
-  "style_aggression_rating": 0.90,
-  "style_modernity_rating": 0.50,
+  "style_sleek_vs_boxy": 0.80,
+  "style_aggression_rating": 0.70,
+  "style_modernity_rating": 0.20,
   "handling_rating": 1.00,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": -0.50,
-  "shift_smooth_rating": 0.75,
-  "steering_feel_rating": 1.00,
-  "adas_score": 0.50,
-  "visibility_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.80,
+  "adas_score": 0.20,
+  "visibility_rating": -0.20,
   "headlight_rating": 0.50,
-  "security_rating": 0.75,
-  "screen_in": 0.00,
-  "infotainment_ux_rating": 0.50,
+  "security_rating": 0.80,
+  "screen_in": -0.20,
+  "infotainment_ux_rating": 0.00,
   "smartphone_connect_rating": 0.50,
-  "audio_rating": 0.75,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.50,
-  "convenience_feature_score": 0.50,
+  "audio_rating": 0.80,
+  "usb_ports": -0.50,
+  "comfort_feature_score": 0.80,
+  "convenience_feature_score": 0.80,
   "brand_prestige_rating": 1.00,
   "model_prestige_rating": -1.00,
-  "trim_prestige_rating": -1.00,
-  "interior_luxury_rating": 0.75,
-  "interior_tech_focus_rating": 0.00
+  "trim_prestige_rating": -0.80,
+  "interior_luxury_rating": 0.80,
+  "interior_tech_focus_rating": -0.20
 }
 ```

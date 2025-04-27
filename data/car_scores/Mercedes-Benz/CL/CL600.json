@@ -1,0 +1,115 @@
+The most recent version of the Mercedes-Benz CL600 is from the C216 generation (2006-2014), specifically the facelifted model from 2010-2014. It is powered by a 5.5L twin-turbo V12 engine.
+
+Here is the evaluation based on the search results:
+
+- **price_usd**: Used prices for a 2014 CL600 are around $20,812 - $40,000+ depending on condition and mileage. The original MSRP was around $163,805 - $177,785. Compared to the average new car price of $52,000, the used price is lower, but the original price was very high. Averaging these perspectives, leaning towards the current used market value. Score: 0.50.
+- **total_cost_estimate_5yr_usd**: As a V12 Mercedes-Benz luxury coupe, 5-year ownership costs will be very high due to depreciation from the used price, expensive maintenance, and potential for costly repairs, particularly with the complex ABC suspension and V12 engine components like coil packs. Likely well over $80,000 over 5 years. Score: -1.00.
+- **insurance_usd_yr**: The CL600 is in insurance group 50, the highest group. Insurance costs will be very high, likely over $3,500/year. Score: -1.00.
+- **maint_usd_yr**: Annual maintenance cost is estimated around $1,348 by RepairPal, but forum discussions indicate costs can easily be $500-$1000+ per visit, with specific V12 items like coil packs being very expensive. Annual costs are likely well above $1000, potentially much higher. Score: -0.90.
+- **repair_risk_score**: While the V12 engine itself is considered reliable if maintained, the complex ABC suspension and other electronics are known failure points that are very expensive to repair. This brings the overall repair risk down. Score: -0.70.
+- **hp**: The 2010-2014 CL600 has 510-517 hp. This is significantly above the market average. Score: 0.80.
+- **torque**: The 2010-2014 CL600 has 612 lb-ft (830 Nm) of torque. This is extremely high. Score: 0.90.
+- **cylinder_count**: It has a V12 engine. This is well above the common cylinder counts. Score: 1.00.
+- **engine_displacement**: The CL600 has a 5.5L V12. This is a very large displacement. Score: 0.80.
+- **accel_0_60_sec**: 0-60 mph is rated at 4.0-4.2 seconds. This is very fast. Score: 0.90.
+- **top_speed**: Top speed is electronically limited to 155 mph (250 km/h). This is above average but limited. Score: 0.00.
+- **drive_type**: The CL600 is Rear-Wheel Drive. RWD is +1.00. Score: 1.00.
+- **transmission_type**: It has a 5-speed automatic transmission (5G-TRONIC). Automatic is +1.00. Score: 1.00.
+- **driving_track_vs_gt**: It is a luxurious grand tourer designed for comfort and high-speed cruising. Score: 1.00.
+- **offroad_ability**: It is a low-slung luxury coupe with no off-road capability. Score: 1.00.
+- **braking_dist_ft**: Car and Driver tested a 2013 CL600 at 163 ft from 70 mph. This is longer than average. Score: -0.20.
+- **size**: Length is around 5095 mm (200.6 inches). This is larger than the average Civic (~4600mm). Score: 0.80.
+- **wheelbase**: Wheelbase is 2955 mm (116.3 inches). This is longer than the average Octavia (~2700mm). Score: 0.60.
+- **body_style**: 2-door coupe. Score: -1.00.
+- **seats**: 4 seats. Score: -0.25.
+- **cargo_space**: 17.3 cu ft (490 L). This is around the average for a sedan. Score: 0.00.
+- **rear_space**: Rear legroom is 37.28 inches (947 mm). This is around average. Score: 0.00.
+- **ground_clearance_in**: Ground clearance is around 5 inches (127 mm). This is lower than average crossovers but not extremely low. Score: -0.20.
+- **turn_radius_ft**: Turning circle is 11.6 meters (38.06 ft). This is slightly larger than the average Camry (~36 ft). Score: -0.10.
+- **mpg**: Combined EPA is 15-17 mpg (NEDC combined 17 MPG US). This is well below the market average of 30 mpg. Score: -0.70.
+- **co2_g_km**: CO2 emissions are around 322-340 g/km. This is very high. Score: -0.90.
+- **electrification**: Petrol engine. Score: -1.00.
+- **electric_range_mi**: N/A. Score: -1.00.
+- **charge_speed_kw**: N/A. Score: -1.00.
+- **style_sleek_vs_boxy**: Sleek, pillarless coupe design. Score: 0.70.
+- **style_aggression_rating**: Elegant and luxurious, not overly aggressive. Score: -0.20.
+- **style_modernity_rating**: Design is from 2006 with a 2010 facelift. It looks dated compared to modern cars. Score: -0.70.
+- **handling_rating**: Comfortable and stable due to ABC, but not a sharp handler. Score: -0.20.
+- **ride_comfort_rating**: Known for excellent ride comfort (Active Body Control). Consumer reviews rate comfort highly (5.0/5.0). Score: 0.90.
+- **cabin_noise_rating**: Luxurious and quiet cabin. Score: 0.90.
+- **shift_smooth_rating**: Smooth automatic transmission. Score: 0.80.
+- **steering_feel_rating**: Comfortable steering, likely not highly communicative. Score: -0.30.
+- **adas_score**: For 2010-2014, it offered advanced features like Distronic Plus (adaptive cruise control), blind-spot assist, lane keeping assist, Night View Assist Plus, and Pre-Safe brake system. This was very advanced for its time but is less comprehensive than the most advanced modern systems. Score: 0.50.
+- **visibility_rating**: Coupe body style with pillarless windows offers decent side visibility, but rear visibility might be limited. Score: 0.00.
+- **headlight_rating**: Bi-xenon headlights with Active Curve Illumination and Night View Assist Plus were available. Good for its time. Score: 0.20.
+- **security_rating**: Standard luxury car security features, including Keyless Go and power door/trunk closing assist. Score: 0.50.
+- **screen_in**: 8-inch infotainment display. Average for today. Score: 0.00.
+- **infotainment_ux_rating**: Uses the older COMAND system, which was considered complex by some. Score: -0.70.
+- **smartphone_connect_rating**: Bluetooth was standard. USB interface available. No modern CarPlay/Android Auto standard. Score: -0.80.
+- **audio_rating**: Available premium sound system (e.g., Harman Kardon). High quality. Score: 0.80.
+- **usb_ports**: Likely limited, possibly one. Score: -0.80.
+- **comfort_feature_score**: Multi-level heated and ventilated front seats, massaging front seats, dual-zone climate control, power rear sunshade, Keyless Go. Very high level of comfort features. Score: 0.90.
+- **convenience_feature_score**: Rearview camera, parking sensors, power trunk lid, Night View Assist Plus, soft-close doors. High level of convenience features for its time. Score: 0.80.
+- **brand_prestige_rating**: Mercedes-Benz is a high-prestige brand. Score: 0.80.
+- **model_prestige_rating**: The CL was the flagship coupe, based on the S-Class. High prestige model. Score: -0.80.
+- **trim_prestige_rating**: CL600 was a high-end trim below the AMG CL65. Score: -0.50.
+- **interior_luxury_rating**: Luxurious interior with premium leather, wood trim, and high-quality materials. High quality materials. Score: 0.90.
+- **interior_tech_focus_rating**: Had advanced tech for its time (Night View, Distronic, complex infotainment), but the focus was more on traditional luxury than modern screen-heavy tech. Score: -0.20.
+
+```json
+{
+ "price_usd": 0.50,
+ "total_cost_estimate_5yr_usd": -1.00,
+ "insurance_usd_yr": -1.00,
+ "maint_usd_yr": -0.90,
+ "repair_risk_score": -0.70,
+ "hp": 0.80,
+ "torque": 0.90,
+ "cylinder_count": 1.00,
+ "engine_displacement": 0.80,
+ "accel_0_60_sec": 0.90,
+ "top_speed": 0.00,
+ "drive_type": 1.00,
+ "transmission_type": 1.00,
+ "driving_track_vs_gt": 1.00,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": -0.20,
+ "size": 0.80,
+ "wheelbase": 0.60,
+ "body_style": -1.00,
+ "seats": -0.25,
+ "cargo_space": 0.00,
+ "rear_space": 0.00,
+ "ground_clearance_in": -0.20,
+ "turn_radius_ft": -0.10,
+ "mpg": -0.70,
+ "co2_g_km": -0.90,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": 0.70,
+ "style_aggression_rating": -0.20,
+ "style_modernity_rating": -0.70,
+ "handling_rating": -0.20,
+ "ride_comfort_rating": 0.90,
+ "cabin_noise_rating": 0.90,
+ "shift_smooth_rating": 0.80,
+ "steering_feel_rating": -0.30,
+ "adas_score": 0.50,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.20,
+ "security_rating": 0.50,
+ "screen_in": 0.00,
+ "infotainment_ux_rating": -0.70,
+ "smartphone_connect_rating": -0.80,
+ "audio_rating": 0.80,
+ "usb_ports": -0.80,
+ "comfort_feature_score": 0.90,
+ "convenience_feature_score": 0.80,
+ "brand_prestige_rating": 0.80,
+ "model_prestige_rating": -0.80,
+ "trim_prestige_rating": -0.50,
+ "interior_luxury_rating": 0.90,
+ "interior_tech_focus_rating": -0.20
+}
+```

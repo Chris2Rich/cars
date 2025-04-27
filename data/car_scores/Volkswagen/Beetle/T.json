@@ -1,0 +1,113 @@
+The search results confirm that the 2019 Volkswagen Beetle trims were S, SE, Final Edition SE, and Final Edition SEL. There was no 'T' trim. The engine across all 2019 trims was a 2.0L turbocharged I4.
+
+Since there is no 'T' trim, I will evaluate the base 'S' trim for the 2019 model year, as it is the entry point for the most recent version of the Beetle. I will use the data found for the 2019 Beetle S.
+
+*   **Price:** The 2019 Beetle S had a starting MSRP of $20,895. Used prices are significantly lower now, placing it well below the average new car price. Score +1.00.
+*   **Total Cost Estimate (5yr):** Low purchase price contributes positively. Maintenance and repair costs for an older VW are likely average. Insurance is moderate (Group 6-18). Depreciation is likely low now. Score 0.25.
+*   **Insurance USD/yr:** Insurance groups range from 6 to 18. This is generally below the national average for new cars. Score 0.25.
+*   **Maint USD/yr:** VW maintenance is typically average. Score 0.00.
+*   **Repair Risk Score:** J.D. Power gave the 2019 Beetle 81/100 for reliability, which is slightly above average. Score 0.25.
+*   **HP:** 174 hp. This is below the modern average (~200 hp). Score -0.25.
+*   **Torque:** 184 lb-ft. This is below the modern average (~190 lb-ft). Score -0.25.
+*   **Cylinder Count:** 4. Average is often 4 or 6. Score 0.00.
+*   **Engine Displacement:** 2.0L. Average is around 2.0-3.0L. Score 0.00.
+*   **Accel 0-60 sec:** Around 7.2-8.1 seconds (based on reviews of the 2.0T engine). Average is around 7.5 seconds. Score 0.00.
+*   **Top Speed:** Not explicitly stated for the S trim, but likely around 120-130 mph based on power. Below average. Score -0.50.
+*   **Drive Type:** FWD. Score -1.00.
+*   **Transmission Type:** 6-speed automatic with Tiptronic and Sport mode. Automatic is the modern standard. Score 1.00.
+*   **Driving Track vs GT:** More of a comfortable daily driver. Score 0.00.
+*   **Offroad Ability:** Very poor. Score 1.00.
+*   **Braking Dist ft:** Not specified, but has disc brakes with ABS/HBA. Likely average for its class/era. Score 0.00.
+*   **Size:** Length 168.8 in (~4288 mm). Compact size. Score -0.50.
+*   **Wheelbase:** 100.1 in (~2543 mm). Compact wheelbase. Score -0.50.
+*   **Body Style:** 2-door hatchback/coupe or convertible. Less practical than a 4-door sedan/hatchback or SUV. Score -1.00.
+*   **Seats:** 4. Below average (5 is typical). Score -0.50.
+*   **Cargo Space:** 15.4 cu ft (coupe). Average for a coupe/hatchback. Score 0.00.
+*   **Rear Space:** Rear legroom not specified but reviews mention it's difficult for adults/children. Likely limited. Score -0.75.
+*   **Ground Clearance in:** 5.7 in. Below average for a modern vehicle. Score -0.50.
+*   **Turn Radius ft:** 35 ft (wall to wall). Average. Score 0.00.
+*   **MPG:** 26 city / 33 highway / 29 combined. Average for a non-hybrid petrol car today. Score 0.00.
+*   **CO2 g/km:** Based on 29 mpg combined, this is likely in the 150-170 g/km range (rough estimate). Below average for a petrol car. Score 0.25.
+*   **Electrification:** Petrol. Score -1.00.
+*   **Electric Range mi:** N/A. Score -1.00.
+*   **Charge Speed kW:** N/A. Score -1.00.
+*   **Handling Rating:** Reviews mention light steering and taut chassis, enjoyable to drive. Score 0.00.
+*   **Ride Comfort Rating:** Reviews mention comfortable ride. Score 0.50.
+*   **Cabin Noise Rating:** Convertible interior is surprisingly quiet at speed. Assume coupe is similar or better. Score 0.50.
+*   **Shift Smooth Rating:** 6-speed automatic is described as fairly refined and smooth. Score 0.50.
+*   **Steering Feel Rating:** Light steering. Score 0.00.
+*   **ADAS Score:** Standard rearview camera, Blind Spot Monitor, Rear Traffic Alert. Lacked adaptive cruise control, lane-keeping assist. Below average for modern cars. Score -0.25.
+*   **Visibility Rating:** Generally good outward visibility. Score 0.00.
+*   **Headlight Rating:** Halogen headlights with separate DRLs standard on S. Below average compared to modern LEDs/Xenons. Score 0.00.
+*   **Security Rating:** Standard alarm, immobilizer, ICRS. Average. Score 0.00.
+*   **Screen in:** 5-inch touchscreen standard on S. Small for a 2019 model. Score -0.75.
+*   **Infotainment UX Rating:** VW's Composition Color system is basic but functional. Score 0.00.
+*   **Smartphone Connect Rating:** Bluetooth standard. Apple CarPlay/Android Auto standard on SE and higher, not S. Below average for a 2019 car. Score 0.00.
+*   **Audio Rating:** 8-speaker sound system standard. Average. Score 0.00.
+*   **USB Ports:** One USB input. Below average. Score -0.75.
+*   **Comfort Feature Score:** Heated front seats standard. Cloth seating. Manual adjustable front seats. Manual air conditioning. Below average. Score -0.50.
+*   **Convenience Feature Score:** Rearview camera standard. Heated mirrors. Remote keyless entry. Lacked many modern convenience features like push-button start (standard on SE+), dual-zone climate (standard on SE+), parking sensors (standard on SEL). Below average. Score -0.25.
+*   **Brand Prestige Rating:** Volkswagen is a mainstream brand. Score 0.00.
+*   **Model Prestige Rating:** Iconic model, but the base trim. Score 0.50.
+*   **Trim Prestige Rating:** 'S' is the base trim. Score 1.00.
+*   **Interior Luxury Rating:** Cloth seating, basic materials. Score -0.50.
+*   **Interior Tech Focus Rating:** Had a small touchscreen and basic tech, but not screen-dominant. Score -0.50.
+*   **Style Sleek vs Boxy:** Unique, rounded shape, not sleek or boxy. Score 0.00.
+*   **Style Aggression Rating:** Not aggressive. Score -1.00.
+*   **Style Modernity Rating:** Retro design, but updated with modern elements. Score -0.25.```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.25,
+  "insurance_usd_yr": 0.25,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.25,
+  "hp": -0.25,
+  "torque": -0.25,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.00,
+  "top_speed": -0.50,
+  "drive_type": -1.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": -0.50,
+  "wheelbase": -0.50,
+  "body_style": -1.00,
+  "seats": -0.50,
+  "cargo_space": 0.00,
+  "rear_space": -0.75,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.00,
+  "co2_g_km": 0.25,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -1.00,
+  "style_modernity_rating": -0.25,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.00,
+  "adas_score": -0.25,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": -0.75,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": 0.00,
+  "usb_ports": -0.75,
+  "comfort_feature_score": -0.50,
+  "convenience_feature_score": -0.25,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.50,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": -0.50,
+  "interior_tech_focus_rating": -0.50
+}
+```

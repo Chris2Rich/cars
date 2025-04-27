@@ -1,0 +1,154 @@
+The most recent Vauxhall Insignia was produced until 2022. The 'Ultimate Nav' was a top-tier trim level in the 2017-2022 generation. I will use data for the 2017-2022 Insignia Grand Sport (hatchback) Ultimate Nav trim, primarily focusing on the 2.0 Turbo 200PS petrol engine where specific data is available, and supplementing with general Insignia Mk2 data for other aspects.
+
+-   **price_usd**: Used prices in the UK for 2017-2022 Insignia Ultimate Nav models range significantly depending on engine and condition, but are generally well below the market average for a new car. Prices around £10,000 - £20,000+ are common. Converting this to USD (approx 1.27 USD to 1 GBP), this is roughly $12,700 to $25,400+. This is well below the market average of $52,000. Score: +1.00.
+-   **total_cost_estimate_5yr_usd**: The low purchase price is a major factor. Running costs for the 2.0 Turbo petrol are not the most economical. Reliability is rated as better-than-average. Score: 0.00.
+-   **insurance_usd_yr**: Insurance groups for the Insignia range from 13-30. Higher trims and larger engines like the 2.0 Turbo 200PS will be in the upper part of this range, likely around group 20-25. This is around or slightly above the average insurance group (around 20). Score: 0.00.
+-   **maint_usd_yr**: Maintenance costs for Vauxhalls are generally considered average. Score: 0.00.
+-   **repair_risk_score**: The Insignia Mk2 has a better-than-average reliability score according to MotorEasy data and J.D. Power surveys. Score: 0.50.
+-   **hp**: The 2.0 Turbo 200PS engine produces 197-200 bhp. This is around the market average of 200 hp. Score: 0.00.
+-   **torque**: The 2.0 Turbo 200PS engine produces 350 Nm (258 lb-ft). This is above the market average of 190 lb-ft. Score: 0.30.
+-   **cylinder_count**: The engine is a 4-cylinder. Below the market average which includes 6-cylinders. Score: -0.20.
+-   **engine_displacement**: The engine displacement is 2.0L. Around the market average. Score: 0.00.
+-   **accel_0_60_sec**: 0-60 mph is around 7.2 seconds for the 2.0 Turbo 200PS. This is slightly faster than the market average of 7.5 seconds. Score: 0.10.
+-   **top_speed**: Top speed is around 146 mph. Around the market average of 150 mph. Score: 0.00.
+-   **drive_type**: Front-Wheel Drive (FWD) is standard for this engine. Score: -1.00.
+-   **transmission_type**: 9-speed Automatic transmission for the 2.0 Turbo petrol. Score: 1.00.
+-   **driving_track_vs_gt**: Described as a comfortable cruiser, great for motorway driving. Score: 0.70.
+-   **offroad_ability**: Standard passenger car with no off-road capability. Score: 1.00.
+-   **braking_dist_ft**: No specific braking distance data found. Assume average. Score: 0.00.
+-   **size**: Length is 4897mm (Grand Sport) or 4986mm (Sports Tourer). This is larger than the average Civic (4600mm). Score: 0.30.
+-   **wheelbase**: Wheelbase is 2829mm. Longer than the average Octavia (2700mm). Score: 0.10.
+-   **body_style**: Available as a 5-door hatchback (Grand Sport) or estate (Sports Tourer). Score: 0.00 (average practicality).
+-   **seats**: 5 seats. Score: 0.00.
+-   **cargo_space**: Grand Sport boot space is 490 litres (17.3 cu ft). Sports Tourer is 560 litres (19.8 cu ft). This is around or slightly above the average Civic (15 cu ft). Score: 0.10 (Hatchback) to 0.30 (Estate). Averaging to 0.20.
+-   **rear_space**: Described as having generous rear legroom. Headroom can be tight due to sloping roofline. Score: 0.50.
+-   **ground_clearance_in**: Ground clearance is listed as 12cm (4.7 inches) for the Opel Insignia Sports Tourer 2017. This is below the average compact crossover (~6.5"). Score: -0.50.
+-   **turn_radius_ft**: Turning circle is 11.15m = 36.6 ft. Around the average Camry (36 ft). Score: 0.00.
+-   **mpg**: The 2.0 Turbo 200PS petrol has an average economy of up to 50.4mpg (UK) officially, but real-world is likely lower. This is above the market average of 30 mpg, but not exceptionally high for a modern car. Score: 0.00 (Average).
+-   **co2_g_km**: CO2 emissions for the 2.0 Turbo 200PS are around 172 g/km (NEDC). This is around the market average of 175 g/km. Score: 0.00.
+-   **electrification**: Petrol engine. Score: -1.00.
+-   **electric_range_mi**: N/A. Score: -1.00.
+-   **charge_speed_kw**: N/A. Score: -1.00.
+-   **style_sleek_vs_boxy**: Described as having a sleek, low profile. Score: 0.50.
+-   **style_aggression_rating**: Generally unpretentious appearance, even in Ultimate trim. Score: -0.20.
+-   **style_modernity_rating**: Exterior styling was updated in 2020, but interior design feels dated compared to newer rivals. Score: -0.30.
+-   **handling_rating**: Handles well with little body roll, but steering lacks feel. Not especially satisfying to drive. Score: -0.20.
+-   **ride_comfort_rating**: Praised for its comfortable and hushed ride, excellent ride quality. Score: 0.70.
+-   **cabin_noise_rating**: Very quiet at speed, hushed and comfortable. Score: 0.50.
+-   **shift_smooth_rating**: The 9-speed automatic is described as smooth. Score: 0.70.
+-   **steering_feel_rating**: Steering lacks feel, feels too large, numb. Score: -0.70.
+-   **adas_score**: Ultimate Nav includes a comprehensive range of features like front and rear parking sensors, traffic sign recognition, lane departure warning with lane assist, automatic emergency braking, forward collision alert, following distance indicator, adaptive cruise control, blind-spot alert, and head-up display. Score: 0.70.
+-   **visibility_rating**: Good visibility fore and aft, but sloping rear screen creates a blindspot. Score: 0.00.
+-   **headlight_rating**: IntelliLux adaptive LED pixel headlights were standard on Ultimate Nav. Class-leading for its time. Score: 0.70.
+-   **security_rating**: Standard features including remote control security alarm system (Thatcham approved). Score: 0.00.
+-   **screen_in**: Ultimate Nav models came with the 8-inch colour touchscreen (Multimedia Navi Pro). This is the market average. Score: 0.00.
+-   **infotainment_ux_rating**: The Multimedia Navi Pro system is functional but reviews mention it's not intuitive or clumsy, feels dated. Score: -0.20.
+-   **smartphone_connect_rating**: Standard with Apple CarPlay and Android Auto. Score: 0.50.
+-   **audio_rating**: Bose premium sound system was standard on Ultimate Nav. Score: 0.70.
+-   **usb_ports**: Ultimate Nav includes twin front USB sockets and twin rear USB sockets. Score: 0.70.
+-   **comfort_feature_score**: Ultimate Nav includes dual-zone climate control, ergonomic active sports front seats (AGR-approved) with heating, ventilation, and massage function, heated rear seats, heated steering wheel. Excellent comfort features. Score: 0.70.
+-   **convenience_feature_score**: Ultimate Nav includes keyless entry and start, front/rear parking sensors, rear camera, auto lights/wipers, electric mirrors, head-up display, optional advanced park assist. Score: 0.70.
+-   **brand_prestige_rating**: Vauxhall is a mainstream brand. Score: 0.00.
+-   **model_prestige_rating**: The Insignia is a large family car, positioned in the middle of the market segment. Score: 0.00.
+-   **trim_prestige_rating**: Ultimate Nav was a top trim level. Score: -1.00 (Top Trims are -1.00 according to the guide).
+-   **interior_luxury_rating**: Interior quality is decent with soft-touch materials and leather on Ultimate, but some scratchy plastics are present. Not considered luxury compared to premium rivals. Score: -0.20.
+-   **interior_tech_focus_rating**: Interior tech feels dated, button-heavy design despite the touchscreen, screens are average size. Not tech-focused compared to modern rivals. Score: -0.50.
+-   **style_sleek_vs_boxy**: Sleek profile. 0.50.
+-   **style_aggression_rating**: Generally unpretentious appearance. -0.20.
+-   **style_modernity_rating**: Exterior is modern after facelift, but interior tech feels dated. -0.30.
+
+Final review of scores against benchmarks:
+- price_usd: Well below $10k threshold for +1.00. +1.00.
+- total_cost_estimate_5yr_usd: Low purchase price, decent reliability, but higher running costs for petrol/top trim. 0.00 seems fair.
+- insurance_usd_yr: Group 20-25 is around average or slightly above. 0.00 seems fair.
+- repair_risk_score: Better than average reliability. 0.50 is appropriate.
+- hp: 200hp is average. 0.00.
+- torque: 258lb-ft is above 190lb-ft average. 0.30.
+- accel_0_60_sec: 7.2s is slightly faster than 7.5s average. 0.10.
+- top_speed: 146mph is around 150mph average. 0.00.
+- drive_type: FWD is -1.00.
+- transmission_type: 9-speed Automatic is +1.00.
+- driving_track_vs_gt: GT is +1.00. Cruiser focus is towards GT. 0.70.
+- offroad_ability: Low to ground is +1.00.
+- ground_clearance_in: 4.7 inches is below average. -0.50.
+- mpg: Average for petrol. 0.00.
+- co2_g_km: Around average. 0.00.
+- electrification: Petrol is -1.00.
+- handling_rating: Not sporty, numb steering. -0.20 seems fair.
+- ride_comfort_rating: Praised. 0.70.
+- cabin_noise_rating: Hushed. 0.50.
+- shift_smooth_rating: Auto is smooth. 0.70.
+- steering_feel_rating: Numb. -0.70.
+- adas_score: Comprehensive features available. 0.70.
+- headlight_rating: Matrix LED standard. 0.70.
+- screen_in: 8-inch is average. 0.00.
+- infotainment_ux_rating: Not great. -0.20.
+- smartphone_connect_rating: Standard. 0.50.
+- audio_rating: Bose standard. 0.70.
+- usb_ports: Twin front and rear ports. 0.70.
+- comfort_feature_score: Excellent features available. 0.70.
+- convenience_feature_score: Good features available. 0.70.
+- trim_prestige_rating: Top trim is -1.00.
+- interior_luxury_rating: Not luxury. -0.20.
+- interior_tech_focus_rating: Dated tech. -0.50.
+- style_sleek_vs_boxy: Sleek. 0.50.
+- style_aggression_rating: Not aggressive. -0.20.
+- style_modernity_rating: Dated interior tech. -0.30.
+
+Looks consistent.```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.50,
+  "hp": 0.00,
+  "torque": 0.30,
+  "cylinder_count": -0.20,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.10,
+  "top_speed": 0.00,
+  "drive_type": -1.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.70,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.30,
+  "wheelbase": 0.10,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.20,
+  "rear_space": 0.50,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.00,
+  "co2_g_km": 0.00,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": -0.30,
+  "handling_rating": -0.20,
+  "ride_comfort_rating": 0.70,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.70,
+  "steering_feel_rating": -0.70,
+  "adas_score": 0.70,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.70,
+  "security_rating": 0.00,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": -0.20,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.70,
+  "usb_ports": 0.70,
+  "comfort_feature_score": 0.70,
+  "convenience_feature_score": 0.70,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": -0.20,
+  "interior_tech_focus_rating": -0.50
+}
+```

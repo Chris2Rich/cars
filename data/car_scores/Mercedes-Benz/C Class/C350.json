@@ -1,0 +1,148 @@
+The most recent Mercedes-Benz C350 is the C350e Plug-in Hybrid from the W205 generation (produced from 2015 to 2018). There was also a C350 petrol V6 in earlier W204 models, but the W205 C350e is the most recent to carry the C350 badge. I will evaluate the W205 C350e.
+
+-   **price_usd**: As a used luxury PHEV from the mid-to-late 2010s, the price is significantly lower than a new luxury car but still above the average used car price. Used prices are around £15k-£25k in the UK, which is roughly $19k-$31k USD. This is well below the >$120,000 threshold and above the <$10,000 threshold. Score: 0.50.
+-   **total_cost_estimate_5yr_usd**: Higher initial price (when new), luxury brand maintenance costs, and the complexity of a PHEV system contribute to above-average 5-year costs compared to a typical used car. Score: -0.25.
+-   **insurance_usd_yr**: Luxury cars and PHEVs often have higher insurance costs. Score: -0.50.
+-   **maint_usd_yr**: Mercedes-Benz maintenance is generally more expensive than average. Score: -0.50.
+-   **repair_risk_score**: The W205 is generally considered reliable, but the complexity of a PHEV system could introduce additional potential failure points. Score: 0.00.
+-   **hp**: System output is 279 HP. This is significantly above the market average of ~200 HP. Score: 0.50.
+-   **torque**: System torque is 600 Nm (442 lb-ft). This is exceptionally high compared to the market average of ~190 lb-ft. Score: 1.00.
+-   **cylinder_count**: Inline 4-cylinder petrol engine. The market average is around 4 or 6. Score: 0.00.
+-   **engine_displacement**: 1991 cm³ (2.0L). This is around the market average (3.0L is 0.00). Score: 0.00.
+-   **accel_0_60_sec**: 0-60 mph is 5.8 seconds. This is significantly faster than the market average of ~7.5 seconds. Score: 0.75.
+-   **top_speed**: Top speed is 155 mph (250 km/h). This is around the market average of 150 mph. Score: 0.00.
+-   **drive_type**: Rear Wheel Drive (RWD). RWD scores 1.00.
+-   **transmission_type**: 7-speed automatic transmission (7G-TRONIC PLUS). Modern automatics are generally smooth and efficient, but the 7G-TRONIC is older than the 9G-TRONIC. Score: 0.50.
+-   **driving_track_vs_gt**: The C-Class is a luxury sedan designed for comfortable daily driving and longer journeys (GT). Score: 0.50.
+-   **offroad_ability**: This is a low-riding sedan with minimal offroad capability. Score: 1.00 based on the inverse scale.
+-   **braking_dist_ft**: No specific braking distance data found. Default to 0.00.
+-   **size**: Length is 4686 mm (184.5 in). This is around the market average of ~4600mm. Score: 0.00.
+-   **wheelbase**: Wheelbase is 2840 mm (111.81 in). This is slightly above the market average of ~2700mm. Score: 0.25.
+-   **body_style**: Available in Sedan, Estate, Coupe, Cabriolet. Assuming Sedan. 4-door Sedan scores 0.00.
+-   **seats**: 5 seats. Scoring 0.00 is appropriate.
+-   **cargo_space**: Trunk space is 335 liters (11.83 cu ft). This is below the market average of ~15 cu ft due to battery packaging. Score: -0.50.
+-   **rear_space**: Rear legroom is around 31.1 inches (790 mm). This is below the average of ~35 inches. Score: -0.50.
+-   **ground_clearance_in**: Ground clearance is 92 mm (3.62 in). This is low compared to the average of ~6.5 inches. Score: -0.75.
+-   **turn_radius_ft**: Turning circle is 11.22 m (36.81 ft). This is right around the market average of ~36 ft. Score: 0.00.
+-   **mpg**: Combined fuel economy (NEDC) is 2.1-2.4 l/100 km (98-112 US mpg / 117-135 UK mpg). Real-world will be lower but still exceptionally high if charged regularly. This is vastly above the market average of ~30 mpg. Score: 1.00.
+-   **co2_g_km**: CO2 emissions (NEDC) are 48-54 g/km. This is extremely low compared to the market average of ~175 g/km. Score: 1.00.
+-   **electrification**: Plug-in Hybrid (Petrol/Electric). PHEV scores 0.00.
+-   **electric_range_mi**: NEDC electric range is 19 miles (31 km). This is below the 100-mile benchmark for EVs but is a usable electric range for a PHEV of this era. Score: 0.00.
+-   **charge_speed_kw**: Supports AC charging up to 7.4 kW. [Search for W205 C350e charge speed] This is around the typical home charging speed but below faster public AC or DC charging. Score: 0.00.
+-   **style_sleek_vs_boxy**: The W205 C-Class has a sleek, modern sedan design. Score: 0.50.
+-   **style_aggression_rating**: The W205 C-Class has a stylish but not overly aggressive design (unless it's an AMG Line). For a standard C350e, scoring 0.00 is appropriate.
+-   **style_modernity_rating**: The W205 design, while from the mid-2010s, still holds up reasonably well but is not cutting-edge modern compared to the latest designs. Score: 0.00.
+-   **handling_rating**: Reviews mention competent handling, but the added weight of the battery can impact agility compared to non-PHEV models. Score: 0.00.
+-   **ride_comfort_rating**: Reviews mention a comfortable ride, especially with the standard air suspension on the C350e. Score: 0.75.
+-   **cabin_noise_rating**: Reviews mention quiet operation, especially in electric mode. Score: 0.75.
+-   **shift_smooth_rating**: The 7G-TRONIC PLUS transmission is generally smooth. Score: 0.50.
+-   **steering_feel_rating**: Reviews mention comfortable steering, but not particularly engaging. Score: 0.00.
+-   **adas_score**: The W205 was available with a range of ADAS features, including Attention Assist, Collision Prevention Assist Plus (autonomous braking), and optional Distronic Plus (adaptive cruise control). Facelift models (2018+) had more advanced semi-autonomous features. For a pre-facelift C350e, scoring 0.50 is appropriate.
+-   **visibility_rating**: Assume average visibility for a modern sedan. 0.00.
+-   **headlight_rating**: Available with LED headlights. This is above average compared to basic halogens or projectors. Score: 0.50.
+-   **security_rating**: Mercedes-Benz vehicles typically have good security features. Score: 0.50.
+-   **screen_in**: Available with a 7-inch or optional 8.4-inch central display. [Search for W205 C350e screen size] Facelift models had larger screens (10.25 or 12.3 inches). For the pre-facelift C350e, 8.4 inches is around the average 8-inch screen. Score: 0.00.
+-   **infotainment_ux_rating**: Uses the COMAND system, controllable by a central controller and touchpad. Generally well-regarded for its time, but less intuitive than modern touchscreen systems. Score: 0.00.
+-   **smartphone_connect_rating**: Apple CarPlay and Android Auto were available, either from the factory on later models or via retrofit kits. This is above average. Score: 0.75.
+-   **audio_rating**: Burmester surround sound system was an optional extra. This is a premium audio system. Score: 0.75.
+-   **usb_ports**: Likely had multiple USB ports. Assume at least 2. Score: 0.00.
+-   **comfort_feature_score**: Available with premium features like leather upholstery, electrically adjustable seats with memory, ambient lighting, heated seats, air suspension (standard on C350e). Score: 0.75.
+-   **convenience_feature_score**: Available with features like parking assist, reversing camera, keyless entry/go (likely optional). Score: 0.50.
+-   **brand_prestige_rating**: Mercedes-Benz is a high-prestige brand. Score: 0.75.
+-   **model_prestige_rating**: The C-Class is a core, mid-range model for Mercedes-Benz. Score: 0.00.
+-   **trim_prestige_rating**: C350e is a higher-end, complex powertrain option, above the standard petrol/diesel engines but not an AMG performance model. Score: 0.00.
+-   **interior_luxury_rating**: The W205 interior is noted for very good quality materials and a premium feel. Score: 0.75.
+-   **interior_tech_focus_rating**: The W205 interior had a significant tech focus for its time, with available digital dash (on facelift models) and advanced infotainment. Score: 0.50.
+
+Refining scores based on benchmarks and comparisons:
+- price_usd: 0.50 is reasonable for a used luxury PHEV.
+- total_cost_estimate_5yr_usd: -0.25 is reasonable.
+- hp: 0.50 is appropriate.
+- torque: 1.00 is appropriate.
+- accel_0_60_sec: 0.75 is appropriate.
+- drive_type: 1.00 for RWD is correct.
+- transmission_type: 0.50 for 7G-TRONIC PLUS is reasonable.
+- cargo_space: -0.50 is appropriate.
+- rear_space: -0.50 is appropriate.
+- ground_clearance_in: -0.75 is appropriate.
+- mpg: 1.00 is appropriate.
+- co2_g_km: 1.00 is appropriate.
+- electrification: 0.00 is appropriate.
+- electric_range_mi: 0.00 for 19 miles is appropriate.
+- charge_speed_kw: 0.00 for 7.4 kW AC is appropriate.
+- style_sleek_vs_boxy: 0.50 is appropriate.
+- style_modernity_rating: 0.00 is appropriate.
+- handling_rating: 0.00 is appropriate.
+- ride_comfort_rating: 0.75 is appropriate.
+- cabin_noise_rating: 0.75 is appropriate.
+- shift_smooth_rating: 0.50 is appropriate.
+- steering_feel_rating: 0.00 is appropriate.
+- adas_score: 0.50 for pre-facelift is appropriate.
+- headlight_rating: 0.50 for LED is appropriate.
+- screen_in: 0.00 for 8.4-inch is appropriate.
+- infotainment_ux_rating: 0.00 for COMAND is appropriate.
+- smartphone_connect_rating: 0.75 is appropriate.
+- audio_rating: 0.75 is appropriate.
+- usb_ports: 0.00 is appropriate.
+- comfort_feature_score: 0.75 is appropriate.
+- convenience_feature_score: 0.50 is appropriate.
+- interior_luxury_rating: 0.75 is appropriate.
+- interior_tech_focus_rating: 0.50 is appropriate.
+
+All scores seem consistent with the data and benchmarks.```json
+{
+  "price_usd": 0.50,
+  "total_cost_estimate_5yr_usd": -0.25,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": 0.00,
+  "hp": 0.50,
+  "torque": 1.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.75,
+  "top_speed": 0.00,
+  "drive_type": 1.00,
+  "transmission_type": 0.50,
+  "driving_track_vs_gt": 0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.25,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": -0.50,
+  "rear_space": -0.50,
+  "ground_clearance_in": -0.75,
+  "turn_radius_ft": 0.00,
+  "mpg": 1.00,
+  "co2_g_km": 1.00,
+  "electrification": 0.00,
+  "electric_range_mi": 0.00,
+  "charge_speed_kw": 0.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.75,
+  "cabin_noise_rating": 0.75,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.50,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.50,
+  "security_rating": 0.50,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.75,
+  "audio_rating": 0.75,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 0.75,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": 0.50
+}
+```

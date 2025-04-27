@@ -1,0 +1,110 @@
+The search results indicate that the "Luna" trim was part of the *New Beetle* generation (1997-2011), not the final A5 generation (2011-2019). Specifically, it was an entry-level trim available with the 1.4L (75 PS) and 1.6L (102 PS) engines. The most recent applicable version would be from the later years of the New Beetle production, likely around 2010-2011.
+
+Let's re-evaluate based on the *New Beetle Luna* specs found:
+*   **Price:** Used prices for a 2010-ish New Beetle Luna are very low. Score +1.00.
+*   **Costs:** Low purchase price, but older cars can have higher maintenance/repair costs. Insurance group is low (5-8). Score 0.00.
+*   **Maintenance/Repair:** Older VWs can be average to slightly below average for reliability compared to Japanese cars of the era. Score 0.00.
+*   **Repair Risk:** Average to slightly below average. Score 0.00.
+*   **HP/Torque:** 1.4L (75 PS/93 lb-ft) or 1.6L (102 PS/109 lb-ft). Very low by modern standards. Score -1.00.
+*   **Cylinders:** 4. Score -0.50.
+*   **Displacement:** 1.4L or 1.6L. Score -0.50.
+*   **0-60:** 14.6s (1.4L) or 12.3s (1.6L). Very slow. Score -1.00.
+*   **Top Speed:** 100 mph (1.4L) or 111 mph (1.6L). Low. Score -1.00.
+*   **Drive Type:** FWD. Score -1.00.
+*   **Transmission:** Manual standard, automatic optional on some engines (not specified for Luna 1.4/1.6 in search results, but 2.0L had it). Assume manual is common for entry trim. Score -1.00.
+*   **Driving Track vs GT:** Daily driver. Score 0.00.
+*   **Offroad Ability:** Poor. Score 1.00.
+*   **Braking:** ABS standard. Likely average for its era, poor by modern standards. Score -0.50.
+*   **Size/Wheelbase:** Compact (Length ~4.1m, Wheelbase ~2.5m). Score -0.50.
+*   **Body Style:** 2-door hatchback/convertible. Score -1.00.
+*   **Seats:** 4. Score -0.50.
+*   **Cargo:** 201L (~7 cu ft). Small. Score -0.75.
+*   **Rear Space:** Rear legroom ~22 inches. Very limited. Score -1.00.
+*   **Ground Clearance:** Not specified, but typical for a compact car, maybe slightly low. Score -0.50.
+*   **Turn Radius:** 10.9m (~35.8 ft). Average. Score 0.00.
+*   **MPG:** Combined ~37-40 mpg (UK). Average for its era, slightly below average now. Score -0.25.
+*   **CO2:** 169-185 g/km. Average for its era, high now. Score -0.50.
+*   **Electrification:** Petrol. Score -1.00.
+*   **EV Metrics:** N/A. Score -1.00.
+*   **Handling:** Reviews often mention comfortable ride, not sporty handling. Score 0.00.
+*   **Ride Comfort:** Generally considered comfortable. Score 0.50.
+*   **Cabin Noise:** Likely average for its era, maybe higher than modern cars. Score 0.00.
+*   **Shift Smoothness:** Manual transmission. Score -1.00.
+*   **Steering Feel:** Likely light and easy for city driving. Score 0.00.
+*   **ADAS:** ABS, ESP, traction control standard. No modern ADAS. Score -1.00.
+*   **Visibility:** Good forward visibility, potentially limited rear in hatchback, more so in convertible. Score 0.00.
+*   **Headlights:** Likely halogen. Score -1.00.
+*   **Security:** Remote central locking, alarm, immobiliser standard. Average for its era. Score 0.00.
+*   **Screen:** Entry-level models had basic radio/CD. Later models might have had small screens, but not standard on Luna. Aftermarket screens are available. Assume standard for the era. Score -1.00.
+*   **Infotainment UX:** Basic radio/CD. Score -1.00.
+*   **Smartphone Connect:** Not available originally. Aftermarket exists. Score -1.00.
+*   **Audio:** Basic system. Score -1.00.
+*   **USB Ports:** Not standard. Score -1.00.
+*   **Comfort Features:** Manual seats, air conditioning optional on Luna. Basic. Score -1.00.
+*   **Convenience Features:** Electric windows/mirrors, remote locking standard. Parking sensors optional. Basic. Score -1.00.
+*   **Brand Prestige:** Mainstream VW. Score 0.00.
+*   **Model Prestige:** Iconic status, but entry-level trim. Score 0.50.
+*   **Trim Prestige:** Entry-level. Score 1.00.
+*   **Interior Luxury:** Basic materials. Score -1.00.
+*   **Interior Tech Focus:** Minimal tech. Score -1.00.
+*   **Style Sleek/Boxy:** Unique shape, not sleek or boxy. Score 0.00.
+*   **Style Aggression:** Not aggressive. Score -1.00.
+*   **Style Modernity:** Retro design, dated by modern standards. Score -1.00.
+
+Okay, the search results confirm the Luna trim was on the *New Beetle* (1997-2011), not the A5 Beetle (2011-2019). The specs found are consistent with an entry-level compact car from that era. I will score based on these findings relative to *today's* market.```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.25,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -1.00,
+  "torque": -1.00,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": -1.00,
+  "top_speed": -1.00,
+  "drive_type": -1.00,
+  "transmission_type": -1.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -0.50,
+  "size": -0.50,
+  "wheelbase": -0.50,
+  "body_style": -1.00,
+  "seats": -0.50,
+  "cargo_space": -0.75,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.25,
+  "co2_g_km": -0.50,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -1.00,
+  "style_modernity_rating": -1.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": -1.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": -1.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": -1.00,
+  "security_rating": 0.00,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": -1.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": -1.00,
+  "convenience_feature_score": -1.00,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.50,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": -1.00,
+  "interior_tech_focus_rating": -1.00
+}
+```

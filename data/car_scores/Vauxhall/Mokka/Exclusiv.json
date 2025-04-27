@@ -1,0 +1,111 @@
+The Vauxhall Mokka Exclusiv trim was part of the first generation Mokka (2012-2016) and the Mokka X (2016-2020). It is not the most recent version of the Mokka. I will evaluate based on the specifications commonly found for the Exclusiv trim from that era, using data from around 2013-2016.
+
+- **price_usd**: Used prices for the Mokka Exclusiv range from around £1,995 to £7,999 or more depending on year, mileage, and condition. An average price is around £3,957 or £6,040 for the 1.4 4x4. Converting £3,957 to USD (using ~1.25 USD/GBP) is about $4,946. This is significantly below the market average for a *new* car, scoring highly. Score: 1.00.
+- **total_cost_estimate_5yr_usd**: No specific 5-year cost data found for this older model. Default to 0.00.
+- **insurance_usd_yr**: Insurance groups for the Mokka Exclusiv range from 12 to 15. This is well below the average group (around 25-30), suggesting lower insurance costs. Score: 0.50.
+- **maint_usd_yr**: No specific data found. Maintenance costs for older cars can vary. Default to 0.00.
+- **repair_risk_score**: Reliability is generally considered respectable for the Mokka, though some older models had recalls. Owner reviews mention some minor issues like mirror motors or a 3-pin socket plug. Overall reliability is rated 4/5 by some owners. Score: 0.00.
+- **hp**: Engines included 1.6L petrol (115hp), 1.4L Turbo petrol (140hp/138bhp), 1.7L CDTi diesel (130PS/130hp), and 1.6L CDTi diesel (134hp). These figures are below the 200hp market average. Score: -0.50.
+- **torque**: 1.6 CDTi diesel has 236 lb-ft. 1.7 CDTi diesel has 300Nm (221 lb-ft). These are around or slightly above the 190 lb-ft market average. Score: 0.00.
+- **cylinder_count**: Engines are typically 4-cylinder (1.6, 1.4T, 1.7 CDTi, 1.6 CDTi). This is around average. Score: 0.00.
+- **engine_displacement**: Engines range from 1.4L to 1.7L. These are on the smaller side compared to the 3.0L average. Score: -0.50.
+- **accel_0_60_sec**: 1.6 petrol: nearly 12 seconds. 1.4T petrol: 9.9 seconds. 1.7 CDTi: up to 9.9 seconds. These figures are slower than the 7.5s average. Score: -0.30.
+- **top_speed**: 1.4T petrol: 116-119 mph. 1.7 CDTi: 119 mph. These figures are below the 150mph average. Score: -0.50.
+- **drive_type**: Available in Front-wheel drive (FWD) or Intelligent four-wheel drive (4x4). The availability of AWD is a positive, but FWD was also common. Score: 0.00.
+- **transmission_type**: Available with manual (5 or 6-speed) or automatic (6-speed) transmissions. The availability of a conventional automatic is a positive. Score: 1.00.
+- **driving_track_vs_gt**: Described as comfortable and practical for daily driving. Not focused on track performance or grand touring luxury. Score: 0.00.
+- **offroad_ability**: Available with 4x4, but primarily a compact SUV with limited off-road capability. Score: 0.00.
+- **braking_dist_ft**: No specific data found. Default to 0.00.
+- **size**: Length 4278mm. This is on the smaller side for a compact SUV, closer to a large hatchback/small crossover. Score: -0.50.
+- **wheelbase**: 2555mm. Below the 2700mm average. Score: -0.30.
+- **body_style**: 5-door SUV/crossover. Common body style. Score: 0.00.
+- **seats**: 5 seats. Score: 0.00.
+- **cargo_space**: 356 litres (12.6 cu ft) with seats up, 1372 litres (48.45 cu ft) with seats folded. 362 litres (12.78 cu ft) with seats up. Below the 15 cu ft average. Score: -0.30.
+- **rear_space**: Rear space is described as lacking space for bigger passengers. Score: -0.30.
+- **ground_clearance_in**: 158mm (6.2 inches). Around the 6.5" average for compact crossovers. Score: 0.00.
+- **turn_radius_ft**: Turning circle is 10.9m (35.8 ft) kerb-to-kerb, 11.5m (37.7 ft) wall-to-wall. Around the 36 ft average. Score: 0.00.
+- **mpg**: Petrol 1.6: 41.5 mpg. Petrol 1.4T: 45.6 mpg (manual), 40.9 mpg (auto). Diesel 1.7 CDTi: up to 62.8 mpg. Diesel 1.6 CDTi: up to 68.9 mpg. Diesel figures are well above the 30 mpg average. Petrol figures are around average. Score: 0.50.
+- **co2_g_km**: Petrol 1.6: 153 g/km. Petrol 1.4T: 139-160 g/km. Diesel 1.7 CDTi: 120 g/km. Diesel 1.6 CDTi: as low as 108 g/km. Petrol figures are around the 175 g/km average. Diesel figures are well below average. Score: 0.50.
+- **electrification**: Petrol and Diesel engines only. Score: -1.00.
+- **electric_range_mi**: Not an electric vehicle. Score: -1.00.
+- **charge_speed_kw**: Not an electric vehicle. Score: -1.00.
+- **style_sleek_vs_boxy**: More traditional SUV shape compared to the newer Mokka, but not overly boxy. Score: 0.00.
+- **style_aggression_rating**: Standard design, not particularly aggressive. Score: 0.00.
+- **style_modernity_rating**: Design is from 2012-2016, now looks dated compared to current models. Score: -0.50.
+- **handling_rating**: Not the most fun-to-drive, but offers a decent balance. Score: 0.00.
+- **ride_comfort_rating**: Comfortable ride. Score: 0.00.
+- **cabin_noise_rating**: Fair bit of road and wind noise. Diesel engines can be noisy. Score: -0.30.
+- **shift_smooth_rating**: Automatic transmission available. Score: 1.00.
+- **steering_feel_rating**: Variable power steering. Not known for exceptional steering feel. Score: 0.00.
+- **adas_score**: Features include front and rear parking sensors, cruise control, automatic lighting control, high beam assist. Some models had forward collision alert, lane departure warning, traffic sign recognition, driver drowsiness alert. Decent features for the era, but not as comprehensive as modern systems. Score: 0.00.
+- **visibility_rating**: Higher driving position is a positive. No specific data on blind spots. Score: 0.00.
+- **headlight_rating**: Automatic lighting control, front fog lights, high beam assist. Standard for the era. Score: 0.00.
+- **security_rating**: Remote ultrasonic alarm system, immobiliser, deadlocks, locking wheel nuts. Standard security features. Score: 0.00.
+- **screen_in**: CD450 radio with MP3 compatibility, Aux-In, USB connection, Remote Display. Some models had Navi 950 IntelliLink with satellite navigation. Screen size is likely small compared to modern standards. Score: -0.30.
+- **infotainment_ux_rating**: CD/MP3 player, radio, Aux-In, USB, Bluetooth, DAB radio. Navi 950 IntelliLink with sat nav available. Functionality is basic by modern standards. Score: -0.50.
+- **smartphone_connect_rating**: Bluetooth connectivity and USB connection with iPod control. No Apple CarPlay or Android Auto. Score: -1.00.
+- **audio_rating**: 6 speakers. Standard. Score: 0.00.
+- **usb_ports**: USB connection available. Likely 1 or 2 ports. Score: 0.00.
+- **comfort_feature_score**: Dual zone climate control, front centre armrest, front passenger underseat storage, heated rear window, heated seats and steering wheel available on higher trims (SE). Exclusiv had dual zone climate control, front armrest, underseat tray. Decent comfort features for the time. Score: 0.30.
+- **convenience_feature_score**: Front and rear parking sensors, cruise control, automatic lights/wipers, electric windows, 230V rear power outlet. Good convenience features for the era. Score: 0.30.
+- **brand_prestige_rating**: Vauxhall is a mainstream brand. Score: 0.00.
+- **model_prestige_rating**: Mokka was a popular compact SUV model. Score: 0.00.
+- **trim_prestige_rating**: Exclusiv was a mid-range trim. Score: 0.00.
+- **interior_luxury_rating**: Cloth upholstery standard, leather available on higher trims. Quality materials for the class. Not luxury class. Score: 0.00.
+- **interior_tech_focus_rating**: Features a multi function display panel and trip computer. Infotainment screen is smaller and less integrated than modern systems. Score: -0.50.```json
+{
+ "price_usd": 1.00,
+ "total_cost_estimate_5yr_usd": 0.00,
+ "insurance_usd_yr": 0.50,
+ "maint_usd_yr": 0.00,
+ "repair_risk_score": 0.00,
+ "hp": -0.50,
+ "torque": 0.00,
+ "cylinder_count": 0.00,
+ "engine_displacement": -0.50,
+ "accel_0_60_sec": -0.30,
+ "top_speed": -0.50,
+ "drive_type": 0.00,
+ "transmission_type": 1.00,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": 0.00,
+ "braking_dist_ft": 0.00,
+ "size": -0.50,
+ "wheelbase": -0.30,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": -0.30,
+ "rear_space": -0.30,
+ "ground_clearance_in": 0.00,
+ "turn_radius_ft": 0.00,
+ "mpg": 0.50,
+ "co2_g_km": 0.50,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": 0.00,
+ "style_aggression_rating": 0.00,
+ "style_modernity_rating": -0.50,
+ "handling_rating": 0.00,
+ "ride_comfort_rating": 0.00,
+ "cabin_noise_rating": -0.30,
+ "shift_smooth_rating": 1.00,
+ "steering_feel_rating": 0.00,
+ "adas_score": 0.00,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.00,
+ "security_rating": 0.00,
+ "screen_in": -0.30,
+ "infotainment_ux_rating": -0.50,
+ "smartphone_connect_rating": -1.00,
+ "audio_rating": 0.00,
+ "usb_ports": 0.00,
+ "comfort_feature_score": 0.30,
+ "convenience_feature_score": 0.30,
+ "brand_prestige_rating": 0.00,
+ "model_prestige_rating": 0.00,
+ "trim_prestige_rating": 0.00,
+ "interior_luxury_rating": 0.00,
+ "interior_tech_focus_rating": -0.50
+}
+```

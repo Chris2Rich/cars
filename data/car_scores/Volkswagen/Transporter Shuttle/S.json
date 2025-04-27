@@ -1,0 +1,115 @@
+The most recent version of the Volkswagen Transporter Shuttle is the T6.1. The 'S' trim is the base trim level for the Shuttle.
+
+Here's the evaluation based on the search results and the scoring guide:
+
+*   **price_usd**: The T6.1 Shuttle S SWB starts from £21,635 exc. VAT, or £27,045 inc. VAT (Feb 2020 price list). Using an estimated conversion rate of 1 GBP = 1.25 USD, this is around $33,800. This is below the market average for a new car ($52,000). Score: `0.20`.
+*   **total_cost_estimate_5yr_usd**: No specific 5-year cost estimate found for the Shuttle S. Default to `0.00`.
+*   **insurance_usd_yr**: VW Transporters can fall into insurance groups 5-40. The Shuttle is a passenger variant, likely placing it in a mid-range group compared to basic panel vans or high-performance versions. No specific group for the 'S' trim found. Default to `0.00`.
+*   **maint_usd_yr**: No specific maintenance cost found for the Shuttle S. Volkswagen maintenance costs are generally average. Default to `0.00`.
+*   **repair_risk_score**: The VW Transporter has a reputation for being a solid and reliable workhorse, with many owners reporting high mileage without major problems if well-maintained. However, some reports mention issues with the EGR system, dual mass flywheel on higher mileage vehicles, oil leaks, and some electrical/sensor problems. Reliability is often described as average compared to its price. Score: `0.10`.
+*   **hp**: The Shuttle S is available with the 90PS (89 hp) or 110PS (108 hp) 2.0 TDI engines. These are low power outputs compared to the market average (~200 hp). Score: `-0.70`.
+*   **torque**: The 90PS engine has 220Nm (162 lb-ft) and the 110PS has 250Nm (184 lb-ft). These are below the average benchmark (~190 lb-ft), especially the 90PS. Score: `-0.20`.
+*   **cylinder_count**: The engines are 2.0-litre TDI, which are 4-cylinder. Average is 6 cylinders in the scoring guide. Score: `-0.20`.
+*   **engine_displacement**: 2.0 litres. This is below the average benchmark (3.0L). Score: `-0.10`.
+*   **accel_0_60_sec**: No specific 0-60 mph time found for the Shuttle S trims. Based on the low power outputs, it will be slower than the average car (7.5 sec). Score: `-0.50`.
+*   **top_speed**: Top speed for the 110PS model is 102 mph. This is below the average benchmark (150 mph). Score: `-0.40`.
+*   **drive_type**: Standard is Front-Wheel Drive (FWD). FWD is -1.00. Score: `-1.00`.
+*   **transmission_type**: Standard is a 5-speed manual gearbox. Manual is -1.00. Score: `-1.00`.
+*   **driving_track_vs_gt**: Designed for professional passenger transport, families, and groups. Comfortable on bumpy roads and over longer distances. This fits the Grand Touring/daily driver profile, leaning towards GT for passenger comfort focus. Score: `0.30`.
+*   **offroad_ability**: While 4MOTION is available on higher trims/engines, the standard Shuttle S with FWD has limited off-road capability. Score: `1.00`.
+*   **braking_dist_ft**: No specific braking distance found. Default to `0.00`.
+*   **size**: Length ranges from 4804 mm (SWB) to 5500 mm (LWB). This is larger than the average car (4600mm). Score: `0.50`.
+*   **wheelbase**: Wheelbase is 3000 mm (SWB) or 3400 mm (LWB). This is significantly longer than the average car (2700mm). Score: `0.50`.
+*   **body_style**: Minibus/Passenger Van. This is closest to a 5-door van. Score: `1.00`.
+*   **seats**: Can seat up to 9 passengers (including driver) depending on configuration. This is well above the average (5 seats). Score: `1.00`.
+*   **cargo_space**: Luggage capacity is 5.8 m3 (204.8 cu ft) for SWB and 6.7 m3 (236.6 cu ft) for LWB. This is vastly more than the average car (15 cu ft). Score: `1.00`.
+*   **rear_space**: Mentions "plenty of head and legroom" and "excellent all-round visibility". Designed for passenger comfort. Score: `0.70`.
+*   **ground_clearance_in**: Around 1900-1990mm height, but ground clearance is not explicitly stated in inches. Based on its van body style, it will have more clearance than a car but less than a dedicated off-roader. Score: `0.30`.
+*   **turn_radius_ft**: Turning circle is 11.9m (39.04 ft) for SWB and 13.2m (43.3 ft) for LWB. This is slightly larger than the average car (36 ft). Score: `-0.10`.
+*   **mpg**: Combined MPG is around 38.7 mpg for the 84PS/102PS models. This is good for its size and above the average car (30 mpg). Score: `0.40`.
+*   **co2_g_km**: CO2 emissions are around 193 g/km for the 84PS/102PS models. This is slightly above the average benchmark (175 g/km). Score: `-0.10`.
+*   **electrification**: Primarily Diesel engines. Score: `-1.00`.
+*   **electric_range_mi**: Not applicable for standard diesel models. Score: `-1.00`.
+*   **charge_speed_kw**: Not applicable for standard diesel models. Score: `-1.00`.
+*   **style_sleek_vs_boxy**: It's a van/minibus body style. Inherently boxy for practicality. Score: `-1.00`.
+*   **style_aggression_rating**: Functional design, not aggressive. Score: `-0.50`.
+*   **style_modernity_rating**: Updated front end and interior tech for the T6.1 facelift, but the basic design is evolutionary. Score: `0.00`.
+*   **handling_rating**: Car-like to drive, poised, dynamic for its size. Score: `0.40`.
+*   **ride_comfort_rating**: Suspension does a great job soaking up bumps, comfortable on bumpy roads and over longer distances. Score: `0.50`.
+*   **cabin_noise_rating**: Improved sound deadening, but engine, road, and wind noise can still be apparent. Score: `0.20`.
+*   **shift_smooth_rating**: Manual gearboxes have a positive and robust action. Score: `0.20`.
+*   **steering_feel_rating**: New electro-mechanical power steering provides ample feedback and precision. Score: `0.40`.
+*   **adas_score**: Standard ADAS includes Front Assist with City Emergency Braking, Crosswind Assist, Driver Alert, Brake Assist. This is a good set of standard features. Score: `0.50`.
+*   **visibility_rating**: Excellent all-round visibility mentioned. Large windows typical of a van/shuttle. Score: `0.70`.
+*   **headlight_rating**: Standard Halogen headlights. Halogen is poor. Score: `-1.00`.
+*   **security_rating**: Features like remote central locking, immobiliser, anti-theft alarm system with interior monitoring (optional on some trims). Score: `0.40`.
+*   **screen_in**: Standard 6.5-inch touchscreen. Average is 8". Score: `-0.10`.
+*   **infotainment_ux_rating**: Composition Colour DAB+ radio system with 6.5-inch touch-screen, App-Connect. Modern system with smartphone integration. Score: `0.50`.
+*   **smartphone_connect_rating**: App-Connect (Apple CarPlay/Android Auto) is standard or available. Score: `0.60`.
+*   **audio_rating**: Standard speakers (4 or 6). No mention of premium audio options for the S trim. Score: `-0.20`.
+*   **usb_ports**: Two USB (Type-C) ports on the dashboard. Score: `0.00`.
+*   **comfort_feature_score**: Climatic semi-automatic air conditioning, leather-wrapped multi-function steering wheel, driver's seat with lumbar support and armrests, LED interior lighting, plenty of head and legroom. Good comfort features for a base van trim. Score: `0.30`.
+*   **convenience_feature_score**: Dash panel with open stowage compartments, drink holders, lockable illuminated glovebox, side steps, illuminated. Standard features are basic but functional. Score: `0.00`.
+*   **brand_prestige_rating**: Volkswagen is a mainstream brand, generally considered above average but not luxury/premium. Score: `0.20`.
+*   **model_prestige_rating**: The Transporter is an iconic and well-regarded model, a benchmark in its class. It's a core model, not entry-level or halo. Score: `0.00`.
+*   **trim_prestige_rating**: 'S' is the base trim level for the Shuttle. Score: `1.00`.
+*   **interior_luxury_rating**: Dash panel, door, side and seat trim panels in Dark Anthracite, 'Double grid' cloth seat upholstery. Functional and robust, but not luxurious. Score: `-0.50`.
+*   **interior_tech_focus_rating**: Updated dashboard, touchscreen infotainment, App-Connect, integrated eSIM. Good focus on integrating modern tech, though the base screen is smaller and Digital Cockpit is not available on S. Score: `0.40`.
+
+```json
+{
+  "price_usd": 0.20,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.10,
+  "hp": -0.70,
+  "torque": -0.20,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.10,
+  "accel_0_60_sec": -0.50,
+  "top_speed": -0.40,
+  "drive_type": -1.00,
+  "transmission_type": -1.00,
+  "driving_track_vs_gt": 0.30,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.50,
+  "wheelbase": 0.50,
+  "body_style": 1.00,
+  "seats": 1.00,
+  "cargo_space": 1.00,
+  "rear_space": 0.70,
+  "ground_clearance_in": 0.30,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.40,
+  "co2_g_km": -0.10,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": -1.00,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.40,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.20,
+  "shift_smooth_rating": 0.20,
+  "steering_feel_rating": 0.40,
+  "adas_score": 0.50,
+  "visibility_rating": 0.70,
+  "headlight_rating": -1.00,
+  "security_rating": 0.40,
+  "screen_in": -0.10,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.60,
+  "audio_rating": -0.20,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.30,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.20,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": -0.50,
+  "interior_tech_focus_rating": 0.40
+}
+```

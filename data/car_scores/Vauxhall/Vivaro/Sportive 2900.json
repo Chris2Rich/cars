@@ -1,51 +1,148 @@
-```json
+The Vauxhall Vivaro Sportive 2900 refers to the second generation (2014-2019) Vivaro van in the Sportive trim level with a 2.9-tonne Gross Vehicle Weight (GVW). This GVW was available with various 1.6L CDTi and 1.6L BiTurbo diesel engines. The Sportive trim added features over the base model, including body-coloured bumpers, air conditioning, cruise control, rear parking sensors, DAB radio, Bluetooth, and the FlexCargo load-through bulkhead.
+
+-   **price_usd:** Used prices for 2014-2019 Vivaro Sportive 2900 models range from around £5,899 to £15,995 + VAT. This is significantly below the $52,000 average for a new car. Score: +1.00.
+-   **total_cost_estimate_5yr_usd:** As a used commercial vehicle, costs will vary based on usage and condition. Maintenance is moderate, and fuel economy is decent for a van. Reliability is average. Total cost is likely below the $40,000 average for a new car. Score: 0.50.
+-   **insurance_usd_yr:** Insurance groups for the 2014-2019 Vivaro Sportive are typically around 11E or 40A (depending on the grouping system used). Compared to the overall market (groups 1-50), this is in the mid-range, suggesting average insurance costs. Score: 0.00.
+-   **maint_usd_yr:** Maintenance costs are reported as moderate and average compared to competitors. Service intervals are up to 30,000 miles or 2 years. Score: 0.00.
+-   **repair_risk_score:** The 2014-2019 Vivaro shared its platform with the Renault Trafic. Reliability is generally considered average, with some reported issues including injector problems, transmission issues, and electrical faults. Score: 0.00.
+-   **hp:** Common engines for the 2900 GVW Sportive include the 1.6L CDTi BiTurbo with 120PS (118 hp) or 140PS (138 hp). These are well below the 200 hp average. Score: -1.00.
+-   **torque:** The 1.6L BiTurbo engines produce 320 Nm (236 lb-ft) for the 120PS and 340 Nm (251 lb-ft) for the 140PS. This is good torque for a diesel van, above the average car benchmark. Score: 0.30.
+-   **cylinder_count:** 4 cylinders. Score: -0.50.
+-   **engine_displacement:** 1.6L. Below the 3.0L benchmark. Score: -0.20.
+-   **accel_0_60_sec:** Around 13-15 seconds for the 1.6L BiTurbo variants. Very slow. Score: -1.00.
+-   **top_speed:** Around 96-107 mph. Well below the 150 mph benchmark. Score: -1.00.
+-   **drive_type:** FWD. Score: -1.00.
+-   **transmission_type:** Six-speed manual is standard. Score: -1.00.
+-   **driving_track_vs_gt:** Commercial van, utility focus. Score: 0.00.
+-   **offroad_ability:** Poor. FWD, road tires, not designed for off-road. Score: +1.00.
+-   **braking_dist_ft:** No specific data found, but vans generally have longer braking distances than cars. Score: -0.10.
+-   **size:** Available in L1 (short wheelbase) and L2 (long wheelbase) lengths. L1 is around 4.9m, L2 is around 5.3m. Width around 1.9-2.2m. Height is H1 (standard roof) around 1.9m. Large vehicle. Score: 0.80.
+-   **wheelbase:** L1 wheelbase is 3098mm, L2 is 3498mm. Long wheelbases. Score: 0.80.
+-   **body_style:** Panel Van is common. Doublecab also available. Score: 1.00.
+-   **seats:** Typically 3 in the front for panel vans. Doublecab has 6 seats. Assuming panel van: 3 seats. Score: -0.50.
+-   **cargo_space:** Excellent cargo space. Panel van L1H1 has 5.2 cubic metres. FlexCargo load-through facility is standard on Sportive, allowing items up to 3.75m (L1) or 4.15m (L2) long. Load volume up to 8.6m3 in L2H2 (though H2 is less common). Score: +1.00.
+-   **rear_space:** N/A for panel van. Doublecab has rear seats with Isofix. Score: 0.00.
+-   **ground_clearance_in:** No specific data found, likely average for a van. Score: 0.00.
+-   **turn_radius_ft:** Turning circle around 12m - 13.17m (39.4 - 43.2 ft). Wider than average car. Score: -0.50.
+-   **mpg:** Combined MPG around 46.3 - 47.9 mpg for the 1.6L BiTurbo variants. Good for a van of this size and capability, above the average car benchmark. Score: 0.40.
+-   **co2_g_km:** Around 155-164 g/km. Around average for a non-electrified vehicle. Score: 0.00.
+-   **electrification:** Diesel only for this generation/trim. Score: -1.00.
+-   **electric_range_mi:** N/A. Score: -1.00.
+-   **charge_speed_kw:** N/A. Score: -1.00.
+-   **style_sleek_vs_boxy:** It's a van, inherently boxy. Sportive adds body-coloured bumpers and mirrors. Score: -0.80.
+-   **style_aggression_rating:** Adds some styling elements but not an aggressive design. Score: 0.00.
+-   **style_modernity_rating:** Styling from the 2014-2019 generation. Looks somewhat dated compared to the current model. Score: -0.20.
+-   **handling_rating:** Described as comfortable and very car-like to drive, easy to manoeuvre, with composed suspension. Score: 0.50.
+-   **ride_comfort_rating:** Described as comfortable, with excellent road manners and composed suspension. Can be jumpy when empty. Score: 0.40.
+-   **cabin_noise_rating:** Engines are described as impressively smooth and quiet. Whisper quiet on the roads even at motorway speeds. Score: 0.60.
+-   **shift_smooth_rating:** Six-speed manual gearbox is described as super slick. Score: 0.40.
+-   **steering_feel_rating:** Relatively light steering with good feel. Score: 0.50.
+-   **adas_score:** Standard features include ABS, ESP, Emergency Brake Assist, Hill Start Assist. Sportive adds Rear Parking sensors. Automatic lighting and rain-sensitive wipers are standard on Sportive. Adaptive Load Control is included. Lacks more advanced ADAS found on newer vehicles. Score: 0.00.
+-   **visibility_rating:** High driving position provides good forward visibility. Rear/side visibility in panel van is limited, but rear parking sensors help. Wide-angle passenger sun visor mirror helps when reversing. Score: 0.00.
+-   **headlight_rating:** Front foglights with chrome surround and LED daytime running lights are standard on Sportive. Automatic headlights are standard. Score: 0.20.
+-   **security_rating:** Remote central locking with selective door opening, electronic engine deadlock immobiliser, security alarm system pre-wiring. Score: 0.40.
+-   **screen_in:** CD 18 BT USB radio is standard. NAVI 50 IntelliLink with a 7-inch colour touchscreen was optional or standard on Limited Edition Nav. Assuming the standard radio/CD player for Sportive unless specified otherwise. Score: -0.80. (Revisiting based on Sportive features lists - DAB radio with Bluetooth, CD player and USB connection is standard on Sportive. This is not a touchscreen. Score: -0.80).
+-   **infotainment_ux_rating:** The standard radio/CD system is basic. The optional IntelliLink system was described as not particularly user-friendly. Score: -0.80.
+-   **smartphone_connect_rating:** Bluetooth connectivity and USB connection are standard on Sportive. Aux-in socket also included. FlexDock smartphone docking station was available. Score: 0.20.
+-   **audio_rating:** DAB digital radio is standard on Sportive. Basic audio system with 2 speakers. Score: -0.50.
+-   **usb_ports:** USB connection is standard. Likely one port. Score: -0.50.
+-   **comfort_feature_score:** Air conditioning is standard on Sportive. Six-way adjustable driver's seat with lumbar adjustment and armrest is standard. Dual front passenger seat with storage and fold-flat centre section (FlexCargo). Score: 0.50.
+-   **convenience_feature_score:** Cruise control with speed limiter is standard on Sportive. Rear parking sensors standard. Electric windows and heated mirrors standard. FlexCargo load-through bulkhead standard. Score: 0.70.
+-   **brand_prestige_rating:** Vauxhall is a mainstream brand. Score: 0.00.
+-   **model_prestige_rating:** Vivaro is a workhorse van. Score: 1.00.
+-   **trim_prestige_rating:** Sportive was a mid-to-high range trim level for this generation. Score: 0.00.
+-   **interior_luxury_rating:** Interior is utilitarian van design, but adds some comfort features like adjustable seat, armrest, and leather steering wheel/gear knob (on some variants). Score: -0.50.
+-   **interior_tech_focus_rating:** Includes DAB radio, Bluetooth, USB, cruise control, and parking sensors. Optional touchscreen nav was available. Decent tech for a van of this era, but not cutting-edge. Score: 0.00.
+
+Refining scores based on benchmarks and search results.
+
+- Price: Used price is very low compared to new car average. +1.00 is appropriate.
+- HP: Max 138hp. Well below 200hp average. -1.00 is appropriate.
+- Torque: Good for a van. 0.30 is appropriate.
+- 0-60: Very slow. -1.00 is appropriate.
+- Top Speed: Low. -1.00 is appropriate.
+- Transmission: Manual standard. -1.00 is appropriate.
+- Offroad: Poor. +1.00 is appropriate.
+- Cargo Space: Excellent with FlexCargo. +1.00 is appropriate.
+- Seats: Panel van is common. -0.50 is appropriate.
+- Rear Space: N/A for panel van. 0.00 is appropriate.
+- Turn Radius: Wider than average. -0.50 is appropriate.
+- MPG: Good for a van. 0.40 is appropriate.
+- CO2: Around average for non-EV. 0.00 is appropriate.
+- Electrification: Diesel only. -1.00 is appropriate.
+- EV Range: N/A. -1.00 is appropriate.
+- Charge Speed: N/A. -1.00 is appropriate.
+- Style: Boxy van with some styling additions. -0.80 is appropriate for sleek vs boxy. 0.00 for aggression. -0.20 for modernity (dated generation).
+- Handling: Good for a van. 0.50 is appropriate.
+- Ride Comfort: Decent for a van, improved by acoustic glass. 0.40 is appropriate.
+- Cabin Noise: Reasonable for a van, described as quiet. 0.60 is appropriate.
+- Shift Smoothness: Manual is slick. 0.40 is appropriate.
+- Steering Feel: Good feel for a van. 0.50 is appropriate.
+- ADAS: Basic ADAS for the era. 0.00 is appropriate.
+- Visibility: Good forward, poor rear in panel van, aids help. 0.00 is appropriate.
+- Headlights: Auto/fog/LED DRLs. 0.20 is appropriate.
+- Security: Good standard features. 0.40 is appropriate.
+- Screen: Standard is basic radio. -0.80 is appropriate.
+- Infotainment UX: Basic radio, optional nav was poor. -0.80 is appropriate.
+- Smartphone Connect: Bluetooth, USB, Aux. 0.20 is appropriate.
+- Audio: DAB radio, basic speakers. -0.50 is appropriate.
+- USB Ports: Likely 1. -0.50 is appropriate.
+- Comfort Features: AC, adjustable driver seat, bench seat standard. 0.50 is appropriate.
+- Convenience Features: Cruise, sensors, auto lights/wipers, twin doors, FlexCargo standard. 0.70 is appropriate.
+- Brand Prestige: Mainstream. 0.00 is appropriate.
+- Model Prestige: Workhorse van. 1.00 is appropriate.
+- Trim Prestige: Mid-to-high range for its generation. 0.00 is appropriate.
+- Interior Luxury: Utilitarian with some comfort additions. -0.50 is appropriate.
+- Interior Tech Focus: Basic tech standard, optional nav. 0.00 is appropriate.```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.20,
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.50,
   "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.50,
-  "repair_risk_score": -0.50,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
   "hp": -1.00,
-  "torque": 0.50,
-  "cylinder_count": 0.00,
-  "engine_displacement": -0.50,
+  "torque": 0.30,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.20,
   "accel_0_60_sec": -1.00,
   "top_speed": -1.00,
   "drive_type": -1.00,
   "transmission_type": -1.00,
+  "driving_track_vs_gt": 0.00,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
-  "size": 1.00,
-  "wheelbase": 1.00,
+  "braking_dist_ft": -0.10,
+  "size": 0.80,
+  "wheelbase": 0.80,
   "body_style": 1.00,
   "seats": -0.50,
   "cargo_space": 1.00,
-  "rear_space": -1.00,
+  "rear_space": 0.00,
   "ground_clearance_in": 0.00,
   "turn_radius_ft": -0.50,
-  "mpg": 0.50,
-  "co2_g_km": -0.50,
+  "mpg": 0.40,
+  "co2_g_km": 0.00,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": -1.00,
-  "style_aggression_rating": -1.00,
-  "style_modernity_rating": 0.00,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": -1.00,
-  "steering_feel_rating": 0.00,
+  "style_sleek_vs_boxy": -0.80,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": -0.20,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 0.40,
+  "cabin_noise_rating": 0.60,
+  "shift_smooth_rating": 0.40,
+  "steering_feel_rating": 0.50,
   "adas_score": 0.00,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.00,
-  "security_rating": 0.50,
-  "screen_in": -0.50,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.70,
+  "headlight_rating": 0.20,
+  "security_rating": 0.40,
+  "screen_in": -0.80,
+  "infotainment_ux_rating": -0.80,
+  "smartphone_connect_rating": 0.20,
   "audio_rating": -0.50,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.00,
-  "convenience_feature_score": 0.00,
+  "usb_ports": -0.50,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.70,
   "brand_prestige_rating": 0.00,
   "model_prestige_rating": 1.00,
   "trim_prestige_rating": 0.00,

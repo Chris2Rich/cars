@@ -1,113 +1,57 @@
-The Audi A3 S line Competition appears to be a specific trim or package, often associated with the PHEV (TFSIe) models in recent years, particularly in the UK/Europe. It builds upon the S line trim, adding cosmetic enhancements like black detailing and red brake calipers for a sharper look. Performance specs for the "Competition" trim itself are tied to the engine it's paired with (e.g., 40 TFSIe or 45 TFSIe PHEV).
-
-I will evaluate based on the 2024 Audi A3 Sportback 45 TFSIe S line Competition, as this specific configuration is mentioned in search results. This is a PHEV model, which significantly impacts the electrification, range, and charge speed scores compared to the standard petrol A3.
-
-*   **price_usd**: A 2024 A3 Sportback 45 TFSIe S line Competition is listed around £29,795 - £30,321 used in the UK. New prices for PHEVs are higher. A new 40 TFSIe S line is around £39,000. The 45 TFSIe is likely higher. Let's estimate a new price around $50,000 - $55,000 USD (converting roughly from GBP and considering it's a higher trim PHEV). This is close to the market average of $52,000. Score: 0.00.
-*   **total_cost_estimate_5yr_usd**: PHEVs can have complex costs. No specific 5-year cost estimate found. Default to 0.00.
-*   **insurance_usd_yr**: S line trims and PHEVs can have slightly higher insurance. Estimate slightly above average. Score: -0.10.
-*   **maint_usd_yr**: Audi maintenance is above average. PHEV adds complexity. Score: -0.30.
-*   **repair_risk_score**: Audi generally average reliability. PHEV system adds potential complexity. Score: -0.10.
-*   **hp**: 245 PS (242 hp) for the 45 TFSIe. Average is 200 hp. Above average. Score: +0.20.
-*   **torque**: 295 lb-ft (400 Nm) for the 45 TFSIe. Average is 190 lb-ft. Well above average. Score: +0.40.
-*   **cylinder_count**: 4-cylinder (1.4L petrol engine in the PHEV). Score: -0.20.
-*   **engine_displacement**: 1.4L (petrol engine). Below average (3.0L). Score: -0.40.
-*   **accel_0_60_sec**: 0-62 mph in 7.4 seconds for 40 TFSIe. 45 TFSIe is likely faster, around 6.8-7.0 seconds. Average is 7.5 sec. Above average. Score: +0.20.
-*   **top_speed**: No specific top speed for 45 TFSIe found. Assume similar to other A3s, around 140-150 mph. Score: 0.00.
-*   **drive_type**: Often FWD for the PHEV models, though Quattro is available on some A3s. Assuming FWD for the specific PHEV trim unless specified otherwise. Score: -1.00.
-*   **transmission_type**: S tronic (dual-clutch automatic). Score: 0.00.
-*   **driving_track_vs_gt**: S line Competition adds sporty styling and potentially firmer suspension. Still primarily a daily driver/GT, but with a sportier edge. Score: +0.10.
-*   **offroad_ability**: Low ground clearance, not designed for off-road. Score: +1.00.
-*   **braking_dist_ft**: No specific braking distance found. Default to 0.00.
-*   **size**: Sportback dimensions are similar to the sedan, around 4343mm length. Score: -0.30.
-*   **wheelbase**: 103.5 inches (2629mm). Score: -0.20.
-*   **body_style**: 5-door Sportback (Hatchback). Score: -0.10 (between 2-door and 4-door sedan).
-*   **seats**: 5 seats. Score: 0.00.
-*   **cargo_space**: PHEV battery reduces boot space. A3 Sportback is 380 litres (13.4 cu ft). PHEV version is smaller, around 280 litres (9.9 cu ft). Below average (15 cu ft). Score: -0.50.
-*   **rear_space**: Rear legroom is adequate but not generous, especially with bulky sport seats. Score: 0.00.
-*   **ground_clearance_in**: S line models have sports suspension, lowered by 15mm. Standard A3 is ~4.4 inches. S line is lower, maybe ~3.8 inches. Score: -0.70.
-*   **turn_radius_ft**: No specific turn radius found. Assume similar to standard A3. Score: 0.00.
-*   **mpg**: PHEV combined mpg is very high (e.g., 282.5 mpg WLTP for 40 TFSIe). This is highly dependent on charging frequency. Score: +1.00.
-*   **co2_g_km**: PHEV CO2 emissions are very low (e.g., 25g/km for 40 TFSIe). Score: +1.00.
-*   **electrification**: PHEV. Score: 0.00.
-*   **electric_range_mi**: Up to 88 miles WLTP for 40 TFSIe. 45 TFSIe likely similar or slightly less. Score: +0.80.
-*   **charge_speed_kw**: 50kW DC fast charging for TFSIe. Average is 11-50kW. Score: +0.10.
-*   **style_sleek_vs_boxy**: Sportback body style is less sleek than the sedan, but not boxy. Score: -0.10.
-*   **style_aggression_rating**: S line Competition adds aggressive styling elements. Score: +0.50.
-*   **style_modernity_rating**: Facelifted 2025 model has updated modern design. Score: +0.40.
-*   **handling_rating**: Precise steering, composed cornering, sporty feel with S line suspension. Score: +0.40.
-*   **ride_comfort_rating**: S line suspension is firmer than standard. Can be a little too firm. Score: -0.20.
-*   **cabin_noise_rating**: Hushed wind and road noise. Score: +0.50.
-*   **shift_smooth_rating**: Smooth shifts from S tronic. Score: +0.30.
-*   **steering_feel_rating**: Precise steering, but lacks feedback. Score: +0.10.
-*   **adas_score**: Includes standard safety features, available parking assist, camera, etc.. Score: +0.30.
-*   **visibility_rating**: Good visibility, though sport seats can limit rear view slightly. Score: +0.40.
-*   **headlight_rating**: Standard LED headlights. Score: +0.30.
-*   **security_rating**: Standard safety features. No specific advanced security mentioned. Score: 0.00.
-*   **screen_in**: 10.1-inch central touchscreen, 12.3-inch virtual cockpit standard on S line. Score: +0.50.
-*   **infotainment_ux_rating**: Slick MMI system, user-friendly, updated for 2025. Score: +0.50.
-*   **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto standard. Score: +0.50.
-*   **audio_rating**: Optional Bang & Olufsen or Sonos system available. Standard is good. Score: +0.40.
-*   **usb_ports**: Multiple ports expected in a modern car, likely at least 2 front, maybe 1-2 rear. Assume average. Score: 0.00.
-*   **comfort_feature_score**: Heated front sport seats standard, 3-zone climate control, electric driver seat. Good features. Score: +0.40.
-*   **convenience_feature_score**: Parking assist, camera, keyless entry available. Score: +0.30.
-*   **brand_prestige_rating**: Audi is a premium/luxury brand. Score: +0.70.
-*   **model_prestige_rating**: A3 is the entry-level model. Score: +1.00.
-*   **trim_prestige_rating**: S line Competition is a high-level trim, just below S3/RS3 and Vorsprung. Score: -0.30.
-*   **interior_luxury_rating**: High-quality materials, sporty S line interior. Score: +0.60.
-*   **interior_tech_focus_rating**: Large screens, digital cockpit, modern infotainment. Score: +0.60.```json
+```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
+  "price_usd": 0.50,
+  "total_cost_estimate_5yr_usd": -0.20,
   "insurance_usd_yr": -0.10,
-  "maint_usd_yr": -0.30,
-  "repair_risk_score": -0.10,
-  "hp": 0.20,
-  "torque": 0.40,
-  "cylinder_count": -0.20,
-  "engine_displacement": -0.40,
-  "accel_0_60_sec": 0.20,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": 0.00,
+  "hp": 0.00,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.00,
   "top_speed": 0.00,
   "drive_type": -1.00,
   "transmission_type": 0.00,
-  "driving_track_vs_gt": 0.10,
+  "driving_track_vs_gt": -0.10,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
-  "size": -0.30,
-  "wheelbase": -0.20,
-  "body_style": -0.10,
+  "braking_dist_ft": 0.10,
+  "size": 0.00,
+  "wheelbase": 0.00,
+  "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.50,
+  "cargo_space": -0.20,
   "rear_space": 0.00,
-  "ground_clearance_in": -0.70,
+  "ground_clearance_in": -0.50,
   "turn_radius_ft": 0.00,
-  "mpg": 1.00,
-  "co2_g_km": 1.00,
-  "electrification": 0.00,
-  "electric_range_mi": 0.80,
-  "charge_speed_kw": 0.10,
-  "style_sleek_vs_boxy": -0.10,
-  "style_aggression_rating": 0.50,
-  "style_modernity_rating": 0.40,
-  "handling_rating": 0.40,
-  "ride_comfort_rating": -0.20,
-  "cabin_noise_rating": 0.50,
-  "shift_smooth_rating": 0.30,
-  "steering_feel_rating": 0.10,
-  "adas_score": 0.30,
-  "visibility_rating": 0.40,
-  "headlight_rating": 0.30,
+  "mpg": 0.20,
+  "co2_g_km": 0.00,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.20,
+  "style_aggression_rating": 0.20,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 0.10,
+  "cabin_noise_rating": 0.20,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.20,
+  "adas_score": 0.50,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.50,
   "security_rating": 0.00,
-  "screen_in": 0.50,
+  "screen_in": 0.20,
   "infotainment_ux_rating": 0.50,
-  "smartphone_connect_rating": 0.50,
-  "audio_rating": 0.40,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.00,
   "usb_ports": 0.00,
-  "comfort_feature_score": 0.40,
-  "convenience_feature_score": 0.30,
-  "brand_prestige_rating": 0.70,
-  "model_prestige_rating": 1.00,
-  "trim_prestige_rating": -0.30,
-  "interior_luxury_rating": 0.60,
-  "interior_tech_focus_rating": 0.60
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 0.50,
+  "trim_prestige_rating": -0.50,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.80
 }
 ```

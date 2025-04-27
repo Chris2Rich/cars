@@ -1,0 +1,111 @@
+The Audi A3 e-tron is a plug-in hybrid version of the previous generation A3 (8V, 2013-2020). The "most recent" version would be the facelifted model from around 2016-2020.
+
+*   **price_usd:** The new price was around £32,910 - £36,565 in the UK, or $37,900 - $40,475 in the US before incentives. This is below the $52,000 market average for a new car. Score 0.50.
+*   **total_cost_estimate_5yr_usd:** No specific 5-year cost data found. As a premium PHEV, costs are likely above average due to complexity and potential depreciation, but offset by fuel savings. Default to 0.00.
+*   **insurance_usd_yr:** Insurance group 29E in the UK. This is around the middle of the 1-50 scale, suggesting average insurance costs. Score 0.00.
+*   **maint_usd_yr:** Audi maintenance is generally above average. Score -0.20.
+*   **repair_risk_score:** Audi A3 reliability is generally considered average or slightly above average. The added hybrid system could introduce complexity, but no specific data on e-tron repair risk found. Default to 0.00.
+*   **hp:** Combined system output is 204 hp. This is around the 200 hp average. Score 0.00.
+*   **torque:** Combined system torque is 350 Nm (258 lb-ft) or 258.1 lb-ft. This is above the 190 lb-ft average. Score 0.20.
+*   **cylinder_count:** The petrol engine is a 1.4L four-cylinder. Average is 6. Score 0.00.
+*   **engine_displacement:** The petrol engine is 1.4L. This is below the 3.0L average. Score -0.50.
+*   **accel_0_60_sec:** 0-60 mph in 7.6 seconds or 6.5 seconds (Car and Driver test). 7.6s is around the 7.5s average, 6.5s is better. Let's average to 0.10.
+*   **top_speed:** 137 mph or 138 mph. Average is 150 mph. Below average. Score -0.10.
+*   **drive_type:** Front-wheel drive. Score -1.00.
+*   **transmission_type:** Six-speed dual-clutch automatic (S tronic). Dual-clutch is 0.00.
+*   **driving_track_vs_gt:** A comfortable daily driver and capable of longer trips, but the added weight affects handling compared to a standard A3. Leans towards GT/daily driver. Score 0.50.
+*   **offroad_ability:** Low ground clearance, FWD. Score +1.00 (poor offroad ability).
+*   **braking_dist_ft:** No specific data found. Default 0.00.
+*   **size:** Length is 4312mm or 4310mm (169.7 inches). Average is 4600mm. Below average. Score -0.10.
+*   **wheelbase:** 2630mm or 2636mm (103.5 inches). Average is 2700mm. Below average. Score -0.10.
+*   **body_style:** 5-door Hatchback (Sportback). Score 0.00.
+*   **seats:** 5 seats. Average is 5. Score 0.00.
+*   **cargo_space:** 280 litres (approx 9.9 cu ft) or 13.6 cubic feet behind the rear seats. This is significantly less than the standard A3 Sportback due to the battery. Average is 15 cu ft. Score -0.50.
+*   **rear_space:** Rear passenger space is preserved as the battery is under the seat, but some sources say it's still a bit tight. Score 0.00.
+*   **ground_clearance_in:** No specific data found for the e-tron, but standard A3 is around 6.5 inches. The e-tron is heavier, which might slightly reduce clearance, but it's not an off-road vehicle. Score -0.50.
+*   **turn_radius_ft:** 10.9m (35.8 ft) or 11.0m (36.1 ft). Average is 36 ft. Score 0.00.
+*   **mpg:** Official combined is 176.6 mpg or 188 mpg (NEDC). Real-world is much lower, around 35-40 mpg in hybrid mode or on longer trips. The official figure is misleading for scoring against a general market average. Using real-world hybrid mpg (around 40 mpg) is above the 30 mpg average. Score 0.20.
+*   **co2_g_km:** 35 g/km or 37 g/km. This is very low compared to the 175 g/km average. Score 0.80.
+*   **electrification:** Plug-in Hybrid (PHEV). Score 0.00.
+*   **electric_range_mi:** Claimed 31 miles or 50km (approx 31 miles). EPA rated 16-17 miles, real-world around 20-25 miles. Average PHEV range is around 20-30 miles. Score 0.00.
+*   **charge_speed_kw:** Around 2.5 hours on a 240V charger (approx 3.6 kW). Typical home/public charging is 11-50 kW. 3.6 kW is below average for public charging, but typical for home Level 2. Score 0.00.
+*   **style_sleek_vs_boxy:** Sleek hatchback. Score 0.50.
+*   **style_aggression_rating:** Standard A3 styling, not particularly aggressive. Score 0.00.
+*   **style_modernity_rating:** Modern for its era (2016-2020 facelift). Score 0.50.
+*   **handling_rating:** Sporty handling for a PHEV, but the extra weight makes it less sharp than a standard A3. Score 0.20.
+*   **ride_comfort_rating:** Comfortable ride, softer suspension than sportier A3s. Score 0.50.
+*   **cabin_noise_rating:** Refined and quiet, especially in EV mode. Score 0.80.
+*   **shift_smooth_rating:** Smooth S tronic dual-clutch transmission. Score 0.50.
+*   **steering_feel_rating:** Responsive but lacking feel. Score 0.00.
+*   **adas_score:** Available ADAS features like adaptive cruise control, lane assist, parking sensors. Good for its time. Score 0.50.
+*   **visibility_rating:** Good visibility. Score 0.50.
+*   **headlight_rating:** LED headlights available/standard on some trims. Score 0.50.
+*   **security_rating:** Standard Audi security features. Score 0.00.
+*   **screen_in:** 7-inch infotainment screen. Optional 12.3-inch Virtual Cockpit instrument cluster. 7" is below average now, 12.3" is above. Let's average or consider the main screen. 7" is the main infotainment screen. Score -0.10.
+*   **infotainment_ux_rating:** MMI system is generally well-regarded, intuitive, good graphics. Score 0.50.
+*   **smartphone_connect_rating:** Apple CarPlay and Android Auto available/standard on higher trims. Good for its time. Score 0.80.
+*   **audio_rating:** Standard 10-speaker system, optional B&O. Standard is likely average. Score 0.00.
+*   **usb_ports:** USB port(s) available. Likely 1 or 2 standard. Score 0.00.
+*   **comfort_feature_score:** Leather seats standard, heated electric front seats optional. Dual-zone climate likely available. Score 0.50.
+*   **convenience_feature_score:** Rear parking sensors standard, auto parking available. Score 0.50.
+*   **brand_prestige_rating:** Audi is a premium brand. Score 0.80.
+*   **model_prestige_rating:** A3 is the entry-level Audi car model. Score 1.00.
+*   **trim_prestige_rating:** e-tron was a specific powertrain variant, often well-equipped, but not necessarily the top performance trim (like S3/RS3). It was one of the more expensive A3 models. Score 0.00.
+*   **interior_luxury_rating:** High-quality materials and build for the class. Score 0.50.
+*   **interior_tech_focus_rating:** Good tech for its era, especially with optional Virtual Cockpit and MMI Touch. Score 0.80.```json
+{
+  "price_usd": 0.50,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": 0.00,
+  "hp": 0.00,
+  "torque": 0.20,
+  "cylinder_count": 0.00,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": 0.10,
+  "top_speed": -0.10,
+  "drive_type": -1.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": -0.10,
+  "wheelbase": -0.10,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": -0.50,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.20,
+  "co2_g_km": 0.80,
+  "electrification": 0.00,
+  "electric_range_mi": 0.00,
+  "charge_speed_kw": 0.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.20,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.80,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.50,
+  "visibility_rating": 0.50,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": -0.10,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 1.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.80
+}
+```

@@ -1,55 +1,159 @@
-```json
+Based on the search results, the most recent generation of the Vauxhall Astra Van was produced until around 2013. It was based on the Astra H (Mk5) and J (Mk6) platforms. The CDTi engines were available in 1.3L, 1.7L, and 1.9L variants with different power outputs. The 1.7 CDTi was a common option, often with around 100-110 hp. The 1.9 CDTi offered 120 hp or 150 hp. Let's use the specs for a common 1.7 CDTi (110 PS/108 bhp) from around 2012/2013 for the evaluation, as this seems representative of a later model CDTi van.
+
+*   **Cost & Risk:**
+    *   `price_usd`: Used prices for 2011-2013 models are around £4k-£6k. This is well below the $52,000 average new car price. Score: +1.00.
+    *   `total_cost_estimate_5yr_usd`: Running costs are mentioned as low due to fuel economy and service intervals. Reliability is generally good, but some known issues exist (EGR, gearbox, flywheel). Depreciation is likely low now given its age. Overall, likely below average cost of ownership compared to the market average which includes new cars. Score: 0.50.
+    *   `insurance_usd_yr`: Insurance group 0 is mentioned for a 2011 1.9 CDTi. This is very low. Score: +1.00.
+    *   `maint_usd_yr`: Service intervals are 20,000 miles/1 year. Maintenance costs are generally low for this era of Vauxhall, but potential issues like EGR/gearbox could increase costs. Score: 0.30.
+    *   `repair_risk_score`: Reliability is generally good, but known issues with EGR, gearbox, and flywheel exist, especially on higher mileage examples. Score: 0.00.
+*   **Power & Performance:**
+    *   `hp`: 1.7 CDTi (108 bhp). Compared to a market average of ~200 hp, this is low. Score: -0.80.
+    *   `torque`: 1.7 CDTi (192 lb-ft / 260 Nm). This is around the market average for torque. Score: 0.00.
+    *   `cylinder_count`: 4 cylinders. Average. Score: 0.00.
+    *   `engine_displacement`: 1.7L or 1.9L. 1.7L is below average, 1.9L is closer to average. Let's use 1.7L as representative. Score: -0.50.
+    *   `accel_0_60_sec`: 1.7 CDTi (108 bhp) is ~12.0 seconds. This is slow compared to the market average (~7.5 sec). Score: -0.80.
+    *   `top_speed`: 1.7 CDTi (108 bhp) is ~114 mph. Below the 150 mph average. Score: -0.50.
+    *   `drive_type`: FWD. Score: -1.00.
+    *   `transmission_type`: Manual is standard. Automatic was optional on 1.9 CDTi. Manual is -1.00. Let's assume manual is the most common CDTi van. Score: -1.00.
+    *   `driving_track_vs_gt`: It's a car-derived van, praised for car-like handling. It's a utility vehicle, not a track car or a luxury GT. Score: 0.00.
+    *   `offroad_ability`: Low ground clearance, FWD. Poor off-road. Score: 1.00.
+    *   `braking_dist_ft`: ABS and EBA are standard. No specific distance found. Default to 0.00.
+*   **Space & Practicality:**
+    *   `size`: Length ~4515mm. This is around the size of a modern compact car/small SUV, which is average. Score: 0.00.
+    *   `wheelbase`: ~2703mm. This is around the average wheelbase. Score: 0.00.
+    *   `body_style`: 3-door panel van. This is a utility body style, not common for passenger cars. Score: 0.50 (more practical than a coupe, less than a large van).
+    *   `seats`: 2 seats. Score: -1.00.
+    *   `cargo_space`: 1.58 m³ (55.8 cu ft). This is very large compared to passenger cars (~15 cu ft average, >35 cu ft is +1.00). Score: 1.00.
+    *   `rear_space`: No rear seats. Score: -1.00.
+    *   `ground_clearance_in`: Loading height 591mm (23.3 inches). This is loading height, not ground clearance. Ground clearance is likely similar to the Astra car, around 5-6 inches. Score: -0.50.
+    *   `turn_radius_ft`: 11.10m (36.4ft). This is around the average turning radius. Score: 0.00.
+*   **Efficiency & Electrification:**
+    *   `mpg`: 1.7 CDTi combined is around 50-60 mpg (UK). This is good compared to the 30 mpg average. Score: 0.50.
+    *   `co2_g_km`: 1.7 CDTi is around 137-149 g/km. This is below the 175 g/km average. Score: 0.30.
+    *   `electrification`: Diesel. Score: -1.00.
+    *   `electric_range_mi`: Not electric. Score: -1.00.
+    *   `charge_speed_kw`: Not electric. Score: -1.00.
+*   **Ride & Dynamics:**
+    *   `handling_rating`: Praised for car-like handling and agility. Score: 0.50.
+    *   `ride_comfort_rating`: Mentioned as having genuine ride comfort. Score: 0.30.
+    *   `cabin_noise_rating`: Diesel engine noise and van body might make it noisier than a car. Score: -0.30.
+    *   `shift_smooth_rating`: Manual gearbox is described as precise. Score: 0.00.
+    *   `steering_feel_rating`: Electro-hydraulic power steering is described as precise and well-weighted. Score: 0.30.
+*   **Safety & Visibility:**
+    *   `adas_score`: ABS, EBD, EBA standard. ESP-plus optional/standard on higher trims/engines. Driver and passenger airbags standard, side airbags optional. Basic safety tech for the era. Score: -0.50.
+    *   `visibility_rating`: Van body with solid rear panels means poor rear/side visibility compared to a car. Score: -0.80.
+    *   `headlight_rating`: Standard for the era, likely halogen or basic projectors. Score: 0.00.
+    *   `security_rating`: Remote central deadlocking, engine immobiliser standard, optional alarm. Standard for the era. Score: 0.00.
+*   **Infotainment & Connectivity:**
+    *   `screen_in`: Likely basic radio/CD player, maybe a small screen on higher trims. Score: -0.80.
+    *   `infotainment_ux_rating`: Systems from that era were basic and not the most intuitive. Score: -0.50.
+    *   `smartphone_connect_rating`: No modern smartphone connectivity. Score: -1.00.
+    *   `audio_rating`: Basic audio system (CD/radio). Score: -0.50.
+    *   `usb_ports`: Unlikely to have USB ports as standard in that era. Score: -1.00.
+*   **Comfort & Convenience:**
+    *   `comfort_feature_score`: Height-adjustable driver's seat, adjustable steering column standard. Sports seats with lumbar adjustment on higher trims. Air conditioning standard on higher trims, optional on base. Basic comfort features. Score: -0.50.
+    *   `convenience_feature_score`: Electric windows, remote central locking standard. Optional parking sensor. Basic convenience features. Score: -0.50.
+*   **Style, Brand & Interior Character:**
+    *   `interior_luxury_rating`: Interior resembles the Astra car, described as bright, airy, comfortable, and practical. Materials are likely durable for a van. Not luxurious. Score: -0.80.
+    *   `interior_tech_focus_rating`: Minimal tech focus. Score: -0.80.
+    *   `brand_prestige_rating`: Vauxhall is a mainstream brand. Score: 0.00.
+    *   `model_prestige_rating`: Astra is a common model. Van version is utility focused. Score: 0.00.
+    *   `trim_prestige_rating`: CDTi refers to engine. Sportive/Sportive SE were higher trims. Assuming a standard CDTi van, it's likely a base or mid-range utility trim. Score: 0.50.
+    *   `style_sleek_vs_boxy`: Based on the Astra car, relatively standard hatchback/estate shape converted to a van. Not particularly sleek or boxy. Score: 0.00.
+    *   `style_aggression_rating`: Standard styling, not aggressive. Score: 0.00.
+    *   `style_modernity_rating`: Design from the 2000s/early 2010s, looks dated compared to today's vehicles. Score: -0.80.
+
+Double check scores against guide and refine where necessary.
+*   Price: Used price is very low. +1.00 is appropriate.
+*   Insurance: Group 0 is extremely low. +1.00 is appropriate.
+*   Cargo Space: 55.8 cu ft is well over the >35 cu ft threshold for +1.00.
+*   Rear Space: 0 rear space is -1.00.
+*   Seats: 2 seats is -1.00.
+*   Electrification: Diesel is -1.00.
+*   Electric Range/Charge Speed: Not applicable, -1.00.
+*   ADAS: Very basic for today. -0.50 seems fair.
+*   Visibility: Poor rear/side visibility. -0.80 seems fair.
+*   Infotainment Screen: Small/basic screen. -0.80 seems fair.
+*   Infotainment UX: Basic/dated. -0.50 seems fair.
+*   Smartphone Connect: None. -1.00.
+*   Audio: Basic. -0.50.
+*   USB Ports: Likely none. -1.00.
+*   Comfort/Convenience Features: Basic. -0.50 seems fair for both.
+*   Interior Luxury/Tech Focus: Utility vehicle, low scores appropriate. -0.80 for both.
+*   Style Modernity: Dated design. -0.80 seems fair.
+*   Handling/Ride/Steering: Praised for car-like feel, but still a van from that era. Scores around 0.00 to 0.50 seem appropriate.
+*   Cabin Noise: Diesel van, likely noisy. -0.30 seems fair.
+*   Repair Risk: Known issues, but generally reliable. 0.00 seems fair.
+*   Maintenance: Low cost for basic servicing, but potential for expensive repairs. 0.30 seems fair.
+*   Total Cost: Low purchase price, decent running costs, but potential repair bills. 0.00 seems reasonable compared to the *entire* market including new luxury cars.
+*   HP/Torque/Accel/Top Speed: Low power/performance compared to market average. Scores seem appropriate.
+*   Cylinder Count/Displacement: 4-cyl, 1.7L are below average. Scores seem appropriate.
+*   Drive Type: FWD is -1.00.
+*   Transmission: Manual is -1.00.
+*   Driving Track vs GT: Utility vehicle, 0.00.
+*   Offroad: Poor, 1.00.
+*   Braking: Default 0.00.
+*   Size/Wheelbase/Turn Radius: Around average. 0.00.
+*   Body Style: Van is +1.00 in the guide, but the guide seems to imply passenger vehicles. For a van, this is its defining feature and highly practical for its purpose. Let's re-evaluate body style based on the *utility* context. A van body is highly practical for cargo, which is its purpose. Compared to other body styles *for utility*, it's good. Compared to the *general market* (mostly passenger cars), it's a specific utility body. Let's stick to the guide's scoring for body style relative to the general market. 5-door van is +1.00. This is a 3-door van. Let's score it slightly lower than a large 5-door van, maybe 0.80.
+*   Brand/Model Prestige: Mainstream, average. 0.00.
+*   Trim Prestige: Base/mid-range utility. 0.50 seems fair based on the guide's scale where base is +1.00.
+
+Let's adjust Body Style to 0.80 and Transmission to -1.00 (assuming manual). USB ports to -1.00. Smartphone connect to -1.00. Infotainment screen to -0.80. Infotainment UX to -0.50. Audio to -0.50. ADAS to -0.50. Convenience/Comfort to -0.50. Interior Luxury/Tech to -0.80. Style Modernity to -0.80.
+
+Final check on values and scores. Looks consistent with the data found and the scoring guide.```json
 {
-  "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": 0.20,
-  "insurance_usd_yr": 0.50,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": -0.20,
-  "hp": -0.60,
-  "torque": -0.40,
-  "cylinder_count": 0.00,
-  "engine_displacement": -0.20,
-  "accel_0_60_sec": -1.00,
-  "top_speed": -0.80,
-  "drive_type": -1.00,
-  "transmission_type": -1.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.00,
-  "body_style": 1.00,
-  "seats": -1.00,
-  "cargo_space": 1.00,
-  "rear_space": -1.00,
-  "ground_clearance_in": -0.80,
-  "turn_radius_ft": 0.00,
-  "mpg": 0.00,
-  "co2_g_km": -0.50,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.20,
-  "style_aggression_rating": -0.50,
-  "style_modernity_rating": -1.00,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": -0.50,
-  "shift_smooth_rating": -1.00,
-  "steering_feel_rating": 0.00,
-  "adas_score": -1.00,
-  "visibility_rating": 0.00,
-  "headlight_rating": -1.00,
-  "security_rating": 0.00,
-  "screen_in": -1.00,
-  "infotainment_ux_rating": -1.00,
-  "smartphone_connect_rating": -1.00,
-  "audio_rating": -0.80,
-  "usb_ports": -1.00,
-  "comfort_feature_score": -1.00,
-  "convenience_feature_score": -1.00,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 1.00,
-  "interior_luxury_rating": -1.00,
-  "interior_tech_focus_rating": -1.00
+ "price_usd": 1.00,
+ "total_cost_estimate_5yr_usd": 0.50,
+ "insurance_usd_yr": 1.00,
+ "maint_usd_yr": 0.30,
+ "repair_risk_score": 0.00,
+ "hp": -0.80,
+ "torque": 0.00,
+ "cylinder_count": 0.00,
+ "engine_displacement": -0.50,
+ "accel_0_60_sec": -0.80,
+ "top_speed": -0.50,
+ "drive_type": -1.00,
+ "transmission_type": -1.00,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.00,
+ "size": 0.00,
+ "wheelbase": 0.00,
+ "body_style": 0.80,
+ "seats": -1.00,
+ "cargo_space": 1.00,
+ "rear_space": -1.00,
+ "ground_clearance_in": -0.50,
+ "turn_radius_ft": 0.00,
+ "mpg": 0.50,
+ "co2_g_km": 0.30,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": 0.00,
+ "style_aggression_rating": 0.00,
+ "style_modernity_rating": -0.80,
+ "handling_rating": 0.50,
+ "ride_comfort_rating": 0.30,
+ "cabin_noise_rating": -0.30,
+ "shift_smooth_rating": 0.00,
+ "steering_feel_rating": 0.30,
+ "adas_score": -0.50,
+ "visibility_rating": -0.80,
+ "headlight_rating": 0.00,
+ "security_rating": 0.00,
+ "screen_in": -0.80,
+ "infotainment_ux_rating": -0.50,
+ "smartphone_connect_rating": -1.00,
+ "audio_rating": -0.50,
+ "usb_ports": -1.00,
+ "comfort_feature_score": -0.50,
+ "convenience_feature_score": -0.50,
+ "brand_prestige_rating": 0.00,
+ "model_prestige_rating": 0.00,
+ "trim_prestige_rating": 0.50,
+ "interior_luxury_rating": -0.80,
+ "interior_tech_focus_rating": -0.80
 }
 ```

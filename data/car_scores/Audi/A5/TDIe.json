@@ -1,130 +1,57 @@
-The Audi A5 TDIe was a specific efficiency-focused variant, primarily available in the B8 generation (2007-2016) and possibly early B9 models. It typically featured a 2.0 TDI engine with modifications for lower emissions and higher fuel economy, often with reduced power compared to standard TDI models. The "e" designation was later replaced by "ultra" and then integrated into the standard TDI naming with MHEV technology in the B9 facelift and the new 2025 A5.
-
-Given the prompt asks for the "most recent version," and the "TDIe" badge is associated with older, efficiency-tuned variants, I will evaluate based on a representative B8 facelift A5 2.0 TDIe (around 2012-2016), likely with around 136 PS (134 hp) or 163 PS (161 hp).
-
-*   **price_usd**: As a model from 2012-2016, its current used price is significantly below the average new car price ($52,000). Used prices are typically well under £10,000. Score: `0.60`.
-*   **total_cost_estimate_5yr_usd**: Maintenance costs for Audis are above average. Insurance groups are moderate for a diesel A5 (around 20-25). Reliability for the B8 is average, with some known potential issues (DPF, EGR, timing belt). The focus on efficiency might mean specific components related to emissions control could require attention as they age. Overall cost is likely around average for a used car, potentially slightly below due to better fuel economy offsetting some maintenance costs. Score: `0.00`.
-*   **insurance_usd_yr**: Insurance groups are typically 20-25 for the TDIe. This is around the national average (around group 20). Score: `0.00`.
-*   **maint_usd_yr**: Audi maintenance is generally more expensive than average. Score: `-0.20`.
-*   **repair_risk_score**: The B8 generation had some known issues, particularly with diesel emissions systems (DPF, EGR) and timing belts. While the 2.0 TDI engine itself is often considered reliable for mileage accumulation, these specific components can be costly to repair as the car ages. Score: `-0.20`.
-*   **hp**: The 2.0 TDIe typically produced around 136 PS (134 hp) or 163 PS (161 hp). The average car has ~200 hp. This is below average. Score: `-0.30`.
-*   **torque**: Torque is around 320 Nm (236 lb-ft) or 370 Nm (273 lb-ft). The average car has ~190 lb-ft. This is above average, especially for the lower horsepower. Score: `0.20`.
-*   **cylinder_count**: It has a 4-cylinder engine. The average car has 6 cylinders. Score: `-0.20`.
-*   **engine_displacement**: The displacement is 2.0L. The average car is around 3.0L. Score: `-0.20`.
-*   **accel_0_60_sec**: 0-60 mph times are around 8.3s (136hp) or 7.9s (163hp). The average car is ~7.5s. This is around or slightly slower than average. Score: `-0.10`.
-*   **top_speed**: Top speed is around 130-137 mph. The average car is 150 mph. Score: `-0.20`.
-*   **drive_type**: Typically FWD for the TDIe models to maximize efficiency. FWD is -1.00. Score: `-1.00`.
-*   **transmission_type**: Available with Manual or Multitronic (CVT). Manual is -1.00, Multitronic is -1.00. Score: `-1.00`.
-*   **driving_track_vs_gt**: The TDIe is focused on efficiency and comfortable cruising, less on sporty driving. Leans towards GT/daily driver. Score: `0.10`.
-*   **offroad_ability**: Low ground clearance, not designed for off-road use. Score: `1.00`.
-*   **braking_dist_ft**: No specific data found. Default: `0.00`.
-*   **size**: Length is around 4.71m (Sportback). Average is 4.6m. Slightly above average. Score: `0.10`.
-*   **wheelbase**: Wheelbase is around 2.81m. Average is 2.7m. Above average. Score: `0.10`.
-*   **body_style**: Available as Coupe (2-door) or Sportback (5-door liftback). Sportback is common for efficiency variants. Score: `0.20`.
-*   **seats**: 4 seats (Coupe) or 5 seats (Sportback). Score: `0.00` (assuming Sportback is common).
-*   **cargo_space**: Sportback has 480L (17 cu ft). Average is 15 cu ft. Above average. Score: `0.30`.
-*   **rear_space**: Rear legroom is limited, especially in the Coupe. Sportback is better but still not vast. Score: `-0.10`.
-*   **ground_clearance_in**: Likely slightly lower than standard A5 for aerodynamics. Around 4.5 inches. Average is 6.5 inches. Low. Score: `-0.50`.
-*   **turn_radius_ft**: Around 11.7m (38.4 ft). Average is 36 ft. Slightly above average (larger radius is worse). Score: `-0.10`.
-*   **mpg**: Combined MPG is very high, around 60-68 mpg (UK). Average is 30 mpg. This is excellent. Score: `0.80`.
-*   **co2_g_km**: CO2 emissions are very low, around 109-120 g/km. Average is 175 g/km. This is excellent. Score: `0.60`.
-*   **electrification**: Diesel engine. Score: `-1.00`.
-*   **electric_range_mi**: Not electric. Score: `-1.00`.
-*   **charge_speed_kw**: Not electric. Score: `-1.00`.
-*   **handling_rating**: Competent and secure handling, but focused on comfort and efficiency rather than sportiness. Score: `0.00`.
-*   **ride_comfort_rating**: Tuned for comfort, likely a smooth ride. Score: `0.30`.
-*   **cabin_noise_rating**: Good cabin refinement for its class. Score: `0.30`.
-*   **shift_smooth_rating**: Multitronic (CVT) transmission can be less smooth than traditional automatics or DCTs. Manual is fine. Score: `-0.50` (reflecting the common Multitronic).
-*   **steering_feel_rating**: Direct and accurate steering, but can lack ultimate feel. Score: `0.00`.
-*   **adas_score**: Available features for its era included parking sensors, cruise control, rest recommendation system. Decent for its era. Score: `0.10`.
-*   **visibility_rating**: Sportback body style can compromise rear visibility. Score: `0.00`.
-*   **headlight_rating**: Bi-Xenon Plus or LED daytime running lights. Good for its era. Score: `0.20`.
-*   **security_rating**: Standard security features for a premium car of its time. Score: `0.20`.
-*   **screen_in**: MMI screen size typically 6.5 inches. Below modern average (8"). Score: `-0.10`.
-*   **infotainment_ux_rating**: MMI system was well-regarded for its time, controlled by a rotary dial. Score: `0.30`.
-*   **smartphone_connect_rating**: Bluetooth connectivity was available. AMI and AUX-IN were present. Apple CarPlay/Android Auto were not standard. Score: `-0.50`.
-*   **audio_rating**: Standard system is decent, Bang & Olufsen available. Score: `0.30`.
-*   **usb_ports**: Likely had AMI or AUX, not standard USB-A/C ports. Score: `-0.50`.
-*   **comfort_feature_score**: Heated front seats available. Climate control. Power seats available. Good level of comfort features for its time. Score: `0.20`.
-*   **convenience_feature_score**: Parking sensors, cruise control, power tailgate (Sportback), keyless start available. Good level of convenience features for its time. Score: `0.30`.
-*   **brand_prestige_rating**: Audi is a premium German brand. Score: `0.40`.
-*   **model_prestige_rating**: A5 is a stylish coupe/sportback, mid-range for the brand. Score: `0.00`.
-*   **trim_prestige_rating**: TDIe was an efficiency-focused variant, not typically the highest prestige trim. Score: `0.00`.
-*   **interior_luxury_rating**: High-quality materials, good build quality. Premium feel for its era. Score: `0.30`.
-*   **interior_tech_focus_rating**: MMI system was a tech highlight, but less screen-focused than modern cars. Score: `0.10`.
-*   **style_sleek_vs_boxy**: Sleek, coupe-like design. Score: `0.50`.
-*   **style_aggression_rating**: Standard styling, less aggressive than S line. Score: `0.00`.
-*   **style_modernity_rating**: Design is from the early 2010s. Looks somewhat dated compared to current models. Score: `-0.30`.
-
-Refining scores:
-*   Price: Very low used price. 0.60 is appropriate.
-*   Total Cost: Fuel economy helps, but maintenance/potential repairs are above average for a used car. 0.00 is fair.
-*   Repair Risk: Known diesel/transmission issues. -0.20 is fair.
-*   Performance (HP, Torque, 0-60, Top Speed): Below average HP/Top Speed, above average torque, around average 0-60. -0.30, 0.20, -0.10, -0.20.
-*   Transmission: Manual/Multitronic. -1.00 is appropriate.
-*   MPG/CO2: Excellent. 0.80/0.60 are fair.
-*   Rear Space/Seats: Limited in Coupe, average in Sportback. -0.10/0.00 seem fair.
-*   Ground Clearance/Turn Radius: Low/Slightly large. -0.50/-0.10 seem fair.
-*   Infotainment/Tech: Dated by modern standards. Screen size -0.10, UX 0.30, Smartphone -0.50, USB -0.50. Audio 0.30 is fair.
-*   ADAS: Decent for its era. 0.10 is fair.
-*   Comfort/Convenience: Good features for its era. 0.20/0.30 seem fair.
-*   Interior Luxury/Tech Focus: Premium materials, but tech focus is dated. Luxury 0.30, Tech Focus 0.10.
-*   Style Modernity: Dated design. -0.30 is fair.
-
-Looks consistent with the data found for the B8 facelift A5 TDIe.```json
+```json
 {
- "price_usd": 0.60,
- "total_cost_estimate_5yr_usd": 0.00,
- "insurance_usd_yr": 0.00,
- "maint_usd_yr": -0.20,
- "repair_risk_score": -0.20,
- "hp": -0.30,
- "torque": 0.20,
- "cylinder_count": -0.20,
- "engine_displacement": -0.20,
- "accel_0_60_sec": -0.10,
- "top_speed": -0.20,
- "drive_type": -1.00,
- "transmission_type": -1.00,
- "driving_track_vs_gt": 0.10,
- "offroad_ability": 1.00,
- "braking_dist_ft": 0.00,
- "size": 0.10,
- "wheelbase": 0.10,
- "body_style": 0.20,
- "seats": 0.00,
- "cargo_space": 0.30,
- "rear_space": -0.10,
- "ground_clearance_in": -0.50,
- "turn_radius_ft": -0.10,
- "mpg": 0.80,
- "co2_g_km": 0.60,
- "electrification": -1.00,
- "electric_range_mi": -1.00,
- "charge_speed_kw": -1.00,
- "style_sleek_vs_boxy": 0.50,
- "style_aggression_rating": 0.00,
- "style_modernity_rating": -0.30,
- "handling_rating": 0.00,
- "ride_comfort_rating": 0.30,
- "cabin_noise_rating": 0.30,
- "shift_smooth_rating": -0.50,
- "steering_feel_rating": 0.00,
- "adas_score": 0.10,
- "visibility_rating": 0.00,
- "headlight_rating": 0.20,
- "security_rating": 0.20,
- "screen_in": -0.10,
- "infotainment_ux_rating": 0.30,
- "smartphone_connect_rating": -0.50,
- "audio_rating": 0.30,
- "usb_ports": -0.50,
- "comfort_feature_score": 0.20,
- "convenience_feature_score": 0.30,
- "brand_prestige_rating": 0.40,
- "model_prestige_rating": 0.00,
- "trim_prestige_rating": 0.00,
- "interior_luxury_rating": 0.30,
- "interior_tech_focus_rating": 0.10
+  "price_usd": 0.90,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": 0.00,
+  "hp": -0.20,
+  "torque": 0.20,
+  "cylinder_count": -0.20,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.20,
+  "top_speed": -0.20,
+  "drive_type": -1.00,
+  "transmission_type": -1.00,
+  "driving_track_vs_gt": 0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.00,
+  "body_style": -1.00,
+  "seats": -0.50,
+  "cargo_space": -0.20,
+  "rear_space": -0.50,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.50,
+  "co2_g_km": 0.30,
+  "electrification": -0.50,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": -0.50,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": -0.50,
+  "adas_score": -0.50,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": -0.50,
+  "infotainment_ux_rating": -0.50,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": 0.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.50,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.50,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": -0.50
 }
 ```

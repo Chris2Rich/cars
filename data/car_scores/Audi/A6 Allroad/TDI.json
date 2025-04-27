@@ -1,111 +1,57 @@
-Based on the search results, I can refine the scores for the most recent Audi A6 Allroad TDI (C8 generation, post-2019 refresh, including 2023-2025 models which are largely similar).
-
-*   **price_usd**: Starts around $71,795 for 2025 model. This is significantly above the $52k average but not in the ultra-luxury >$120k range. Score: -0.50.
-*   **total_cost_estimate_5yr_usd**: Premium car, likely high depreciation and maintenance. Estimate -0.90.
-*   **insurance_usd_yr**: High insurance groups in the UK. Estimate -0.90.
-*   **maint_usd_yr**: Audi maintenance is above average. Estimate -0.50.
-*   **repair_risk_score**: Audi reliability is generally average to slightly below average. Score -0.10.
-*   **hp**: TDI options range from 231 hp (45 TDI) to 286 hp (50 TDI) and 339 hp (55 TDI). The 55 TDI has 339 hp. 200hp=0.00, >700hp=+1.00. 339hp is well above average. Score 0.50.
-*   **torque**: TDI options range from 369 lb-ft (45 TDI) to 457 lb-ft (50 TDI) and 516 lb-ft (55 TDI). The 55 TDI has 516 lb-ft. 190 lb-ft=0.00, >1000 lb-ft=+1.00. 516 lb-ft is well above average. Score 0.50.
-*   **cylinder_count**: V6. Score 0.20.
-*   **engine_displacement**: 3.0L V6. Score 0.00.
-*   **accel_0_60_sec**: 55 TDI does 0-62 mph in 5.2 seconds. 45 TDI does it in 6.7 seconds. 50 TDI does it in 5.9 seconds. 7.5s=0.00, <2.5s=+1.00. 5.2-6.7s is significantly faster than average. Score 0.70 (leaning towards the faster variants).
-*   **top_speed**: 155 mph (governed). 150mph=0.00. Score 0.00.
-*   **drive_type**: Quattro AWD. Score 0.00.
-*   **transmission_type**: 8-speed Tiptronic automatic. Score 1.00. (Note: Some sources mention 7-speed S tronic for TFSI, but TDI uses 8-speed Tiptronic).
-*   **driving_track_vs_gt**: Comfortable cruiser, good for long distances. Score 1.00 (GT).
-*   **offroad_ability**: Raised air suspension, offroad mode, hill descent control. Better than a sedan, not a hardcore off-roader. Score -0.50 (using the corrected interpretation).
-*   **braking_dist_ft**: No specific data found. Estimate based on performance and weight. Score 0.20.
-*   **size**: Length around 4951-4954mm. 4600mm=0.00, >5100mm=+1.00. Score 0.30.
-*   **wheelbase**: Around 2924-2925mm. 2700mm=0.00, >3200mm=+1.00. Score 0.30.
-*   **body_style**: Wagon/Estate. Score 0.50.
-*   **seats**: 5. Score 0.00.
-*   **cargo_space**: 30 cu ft behind rear seats, 63.8 cu ft with seats folded. 15 cu ft=0.00, >35 cu ft=+1.00. 30 cu ft is well above average for a car, closer to SUV levels. Score 0.70.
-*   **rear_space**: Around 37 inches legroom. 35"=0.00, >40"=+1.00. Score 0.20.
-*   **ground_clearance_in**: Adjustable air suspension provides up to 1.8 inches extra over A6 sedan. Base A6 sedan is around 4-5 inches. Allroad can reach ~6-7 inches in Offroad mode, maybe higher in Lift mode. 6.5"=0.00, >10"=+1.00. Score 0.00.
-*   **turn_radius_ft**: Around 39-40 ft (12.1m). 36ft=0.00, 22ft=+1.00, >45ft=-1.00. Score -0.10.
-*   **mpg**: TDI combined is around 30-41 US mpg depending on variant. 30mpg=0.00, >55mpg=+1.00, ~12mpg=-1.00. Score 0.00.
-*   **co2_g_km**: TDI combined is around 152-186 g/km depending on variant. 175 g/km=0.00, >300 g/km=-1.00, 0 g/km=+1.00. Score 0.00.
-*   **electrification**: Diesel with Mild Hybrid (MHEV). Still primarily Diesel. Score -1.00.
-*   **electric_range_mi**: N/A. Score -1.00.
-*   **charge_speed_kw**: N/A. Score -1.00.
-*   **style_sleek_vs_boxy**: Wagon, not particularly sleek or boxy. Score 0.20.
-*   **style_aggression_rating**: Understated. Score -0.20.
-*   **style_modernity_rating**: Modern Audi design. Score 0.70.
-*   **handling_rating**: Comfortable, competent but not sporty. Score 0.20.
-*   **ride_comfort_rating**: Excellent with adaptive air suspension. Score 0.80.
-*   **cabin_noise_rating**: Excellent insulation, dual-pane acoustic glass available. Score 0.70.
-*   **shift_smooth_rating**: 8-speed Tiptronic is generally smooth, though some reviews mention low-speed ponderousness. Score 0.80.
-*   **steering_feel_rating**: Progressive steering, competent but lacks feedback. Score 0.00.
-*   **adas_score**: Comprehensive suite available, including adaptive cruise assist, lane guidance, emergency assist, traffic sign recognition, 360 camera, etc. Score 0.80.
-*   **visibility_rating**: Good for the class. Score 0.50.
-*   **headlight_rating**: Excellent LED/Matrix LED options. Score 0.90.
-*   **security_rating**: Standard premium features, alarm. Score 0.00.
-*   **screen_in**: Dual screens (10.1" upper, 8.6" lower) plus 12.3" Virtual Cockpit. Score 0.80.
-*   **infotainment_ux_rating**: MMI Touch Response, generally well-regarded but can be distracting. Score 0.30.
-*   **smartphone_connect_rating**: Wireless Apple CarPlay/Android Auto standard. Score 0.90.
-*   **audio_rating**: Standard Audi Sound System (10 speakers, 180W), optional B&O Premium (16 speakers, 705W), optional B&O Advanced (19 speakers, 1820W). Score 0.90 (reflecting the availability of excellent optional systems).
-*   **usb_ports**: 2 in front (data+charge), 2 in rear (charge). Score 0.30.
-*   **comfort_feature_score**: High level of comfort features available (heated/ventilated/massaging seats, 4-zone climate, acoustic glass). Score 0.90.
-*   **convenience_feature_score**: High level of convenience features available (hands-free tailgate, 360 camera, parking assist, remote lock/unlock). Score 0.80.
-*   **brand_prestige_rating**: Audi is high premium. Score 0.80.
-*   **model_prestige_rating**: A6 is mid-range. Score 0.00.
-*   **trim_prestige_rating**: TDI is a standard engine option, not a top performance trim. Score 0.00.
-*   **interior_luxury_rating**: High quality materials and finish, leather/Alcantara standard, optional Valcona leather. Score 0.90.
-*   **interior_tech_focus_rating**: Screen-heavy, modern tech. Score 0.80.```json
+```json
 {
   "price_usd": -0.50,
-  "total_cost_estimate_5yr_usd": -0.90,
-  "insurance_usd_yr": -0.90,
-  "maint_usd_yr": -0.50,
-  "repair_risk_score": -0.10,
-  "hp": 0.50,
-  "torque": 0.50,
-  "cylinder_count": 0.20,
+  "total_cost_estimate_5yr_usd": -0.25,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.25,
+  "repair_risk_score": 0.00,
+  "hp": 0.25,
+  "torque": 0.75,
+  "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.70,
+  "accel_0_60_sec": 0.50,
   "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 1.00,
   "driving_track_vs_gt": 1.00,
-  "offroad_ability": -0.50,
-  "braking_dist_ft": 0.20,
-  "size": 0.30,
-  "wheelbase": 0.30,
-  "body_style": 0.50,
+  "offroad_ability": 0.25,
+  "braking_dist_ft": 0.25,
+  "size": 0.50,
+  "wheelbase": 0.50,
+  "body_style": 0.25,
   "seats": 0.00,
-  "cargo_space": 0.70,
-  "rear_space": 0.20,
-  "ground_clearance_in": 0.00,
-  "turn_radius_ft": -0.10,
-  "mpg": 0.00,
-  "co2_g_km": 0.00,
+  "cargo_space": 0.50,
+  "rear_space": 0.50,
+  "ground_clearance_in": 0.25,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.25,
+  "co2_g_km": -0.25,
   "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.20,
-  "style_aggression_rating": -0.20,
-  "style_modernity_rating": 0.70,
-  "handling_rating": 0.20,
-  "ride_comfort_rating": 0.80,
-  "cabin_noise_rating": 0.70,
-  "shift_smooth_rating": 0.80,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -0.25,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.75,
+  "cabin_noise_rating": 0.75,
+  "shift_smooth_rating": 0.75,
   "steering_feel_rating": 0.00,
-  "adas_score": 0.80,
-  "visibility_rating": 0.50,
-  "headlight_rating": 0.90,
-  "security_rating": 0.00,
-  "screen_in": 0.80,
-  "infotainment_ux_rating": 0.30,
-  "smartphone_connect_rating": 0.90,
-  "audio_rating": 0.90,
-  "usb_ports": 0.30,
-  "comfort_feature_score": 0.90,
-  "convenience_feature_score": 0.80,
-  "brand_prestige_rating": 0.80,
+  "adas_score": 0.75,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.75,
+  "security_rating": 0.25,
+  "screen_in": 0.75,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.75,
+  "audio_rating": 0.75,
+  "usb_ports": 0.25,
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 0.75,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.90,
-  "interior_tech_focus_rating": 0.80
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": 0.75
 }
 ```

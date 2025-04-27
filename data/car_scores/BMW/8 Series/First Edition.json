@@ -1,168 +1,131 @@
-The BMW 8 Series 'First Edition' is based on the M850i xDrive Coupe. It was a limited run model from 2019.
+The BMW 8 Series 'First Edition' was based on the 2019 BMW M850i xDrive Coupe. It was a limited run of 400 units globally. I will use the specifications for the 2019 M850i xDrive Coupe, noting where the 'First Edition' added specific features.
 
-Here is the evaluation based on the search results and the scoring guide:
-
-*   **price_usd**: The base price for the M850i xDrive Coupe was around $111,900 - $112,895, with the 'First Edition' likely costing more. This is well above the market average of $52,000 and close to the >$120,000 threshold for -1.00. Score: -0.90.
-*   **total_cost_estimate_5yr_usd**: High-end BMWs have high depreciation, maintenance, and insurance costs. Likely exceeds $80,000 over 5 years. Score: -1.00.
-*   **insurance_usd_yr**: The M850i is in the highest insurance group (Group 50 in the UK). This translates to high insurance costs, likely >$3,500/year. Score: -1.00.
-*   **maint_usd_yr**: Maintenance for a performance V8 BMW is expensive. Likely >$3,500/year. Score: -1.00.
-*   **repair_risk_score**: BMW's reliability is generally considered average. Score: 0.00.
-*   **hp**: The M850i xDrive has 523 hp. This is significantly above the average of 200 hp and well below the >700 hp benchmark. Score: 0.80.
-*   **torque**: The M850i xDrive has 553 lb-ft of torque. This is significantly above the average of 190 lb-ft and well below the >1000 lb-ft benchmark. Score: 0.80.
-*   **cylinder_count**: It has a V8 engine (8 cylinders). Average is 6, >12 is +1.00. Score: 0.30.
-*   **engine_displacement**: It has a 4.4L engine. Average is 3.0L, >6.0L is +1.00. Score: 0.40.
-*   **accel_0_60_sec**: 0-60 mph is officially 3.6 seconds, with some tests showing 3.3 seconds. <2.5 seconds is +1.00, ~7.5 seconds is 0.00. This is very fast. Score: 0.90.
-*   **top_speed**: Top speed is electronically limited to 155 mph. 150 mph is 0.00, >222 mph is +1.00. Score: 0.00.
-*   **drive_type**: xDrive means All-Wheel Drive. Score: 0.00.
-*   **transmission_type**: 8-speed automatic transmission. Score: 1.00.
-*   **driving_track_vs_gt**: Described as a Grand Tourer. Score: 1.00.
-*   **offroad_ability**: Low ground clearance, not designed for off-road. Score: 1.00.
-*   **braking_dist_ft**: Car and Driver measured 70-0 mph braking at 161 ft (Note: benchmark is 60-0 mph). Other sources suggest excellent braking performance. Estimate based on performance class. Score: 0.80.
-*   **size**: Length ~191.2 inches (4851mm), Width ~74.9 inches (1902mm). ~4600mm (~181 in) is 0.00, >5100mm (~201 in) is +1.00. Score: 0.20.
-*   **wheelbase**: ~111.1 inches (2822mm). ~2700mm (~106 in) is 0.00, >3200mm (~126 in) is +1.00. Score: 0.20.
+*   **price_usd**: The 2019 M850i xDrive Coupe had a base price of $112,895. The 'First Edition' was priced higher, around $120,000+ in the US and $295,900 AUD in Australia. Using the US price, $120,000 is at the threshold for -1.00. Score: -1.00.
+*   **total_cost_estimate_5yr_usd**: Edmunds estimates the 5-year True Cost to Own for a 2019 M850i xDrive Coupe at $84,774. CarEdge estimates $123,310. Both are well above the $80,000 threshold for -1.00. Score: -1.00.
+*   **insurance_usd_yr**: Edmunds estimates 5-year insurance at $6,700 or $8,241 depending on the specific model variant listed. CarEdge estimates $24,160 over 5 years, averaging $4,832/year. Insurance.com estimates $3,120/year for a 2019 M850i. These figures vary, but several are well above the $3,500/year threshold. Let's average the higher estimates. Score: -1.00.
+*   **maint_usd_yr**: Edmunds estimates 5-year maintenance at $11,357, averaging ~$2,271/year. CarEdge estimates $5,301 over 5 years, averaging ~$1,060/year. BMW included 3 years/36,000 miles of free scheduled maintenance. After the free period, costs are significant for a luxury performance car. Averaging the post-free maintenance estimates, it's well above $1000/year. Score: -0.50.
+*   **repair_risk_score**: The M850i uses the N63TU3 V8 engine, which has had some historical concerns, though the TU3 version is considered more solid. It was a first-year production model (G15 chassis). Forum discussions mention potential issues with plastic/rubber parts due to heat and expensive repairs for components like the transmission or driver assist sensors. While some owners report good reliability with diligent maintenance, the potential for expensive repairs on a complex, high-performance first-year luxury car is high. Score: -0.50.
+*   **hp**: 523 hp. This is significantly above the 200 hp average and well into the high-performance range, though not >700 hp. Score: 0.80.
+*   **torque**: 553 lb-ft. This is significantly above the 190 lb-ft average and well into the high-performance range, though not >1000 lb-ft. Score: 0.80.
+*   **cylinder_count**: V8. Score: 0.50.
+*   **engine_displacement**: 4.4L (4395 cc). Score: 0.75.
+*   **accel_0_60_sec**: Car and Driver tested at 3.3 seconds. BMW claimed 3.6 seconds or 3.7 seconds (0-100 km/h). MotorWeek tested at 3.5 seconds. This is significantly faster than the 7.5 sec average and approaching the <2.5 sec threshold for +1.00. Score: 0.90.
+*   **top_speed**: 155 mph (electronically limited). Score: 0.00.
+*   **drive_type**: xDrive (All-Wheel Drive). Score: 0.00.
+*   **transmission_type**: 8-speed Steptronic Sport Automatic. This is a modern, high-performance automatic. Score: 1.00.
+*   **driving_track_vs_gt**: Described as a grand tourer. Score: 1.00.
+*   **offroad_ability**: Low ground clearance, performance coupe not designed for off-road. Score: 1.00.
+*   **braking_dist_ft**: Car and Driver tested 70-0 mph braking at 161 ft. This is worse than the 125 ft average and even worse than the >150 ft threshold for -1.00. Score: -1.00.
+*   **size**: Length ~191.0-191.2 inches (4851 mm). This is a large car, above Civic (~4600mm). Score: 0.50.
+*   **wheelbase**: 111.1 inches (2822 mm). This is a long wheelbase. Score: 0.50.
 *   **body_style**: 2-door Coupe. Score: -1.00.
-*   **seats**: 4 seats (2+2 configuration). Rear seats are small. Score: -0.50.
-*   **cargo_space**: ~15 cu ft (14.8-15 cu ft). ~15 cu ft is 0.00. Score: 0.00.
-*   **rear_space**: Rear legroom is limited, around 29.5 inches. <30" is -1.00. Score: -1.00.
-*   **ground_clearance_in**: Around 53 inches height, low ground clearance for a coupe. Estimate based on body style. Score: -0.80.
-*   **turn_radius_ft**: Turning circle is 11.6 - 11.9 meters (38-39 ft). ~36 ft is 0.00. Slightly larger than average. Score: -0.10.
-*   **mpg**: EPA combined 19-20 mpg, observed around 20-29 mpg. ~30 mpg is 0.00, ~12 mpg is -1.00. Score: -0.70.
-*   **co2_g_km**: Around 224-245 g/km (WLTP). ~175 g/km is 0.00, >300 g/km is -1.00. High emissions. Score: -0.70.
+*   **seats**: 4 seats. Rear seats are tight. Score: -0.50.
+*   **cargo_space**: 14.8 cu ft or 15 cu ft. Around the 15 cu ft average. Score: 0.00.
+*   **rear_space**: Rear legroom is likely tight in the coupe, similar to the 840i coupe. Score: -0.50.
+*   **ground_clearance_in**: ~5.0 inches (125 mm). This is low. Score: -0.50.
+*   **turn_radius_ft**: 39.0 ft or 11.6-11.9 m (~38-39 ft). Around the 36 ft average. Score: 0.00.
+*   **mpg**: EPA Combined 20 mpg. This is well below the 30 mpg average. Score: -0.75.
+*   **co2_g_km**: ~224-238 g/km. This is well above the 175 g/km average. Score: -0.75.
 *   **electrification**: Petrol engine. Score: -1.00.
-*   **electric_range_mi**: N/A. Score: -1.00.
-*   **charge_speed_kw**: N/A. Score: -1.00.
-*   **style_sleek_vs_boxy**: Very sleek coupe design. Score: 1.00.
-*   **style_aggression_rating**: Aggressive styling cues (M Sport). Score: 0.70.
-*   **style_modernity_rating**: Modern BMW design. Score: 0.80.
-*   **handling_rating**: Praised for handling for a large GT. Score: 0.80.
-*   **ride_comfort_rating**: Described as having a genuinely serene ride quality. Score: 1.00.
-*   **cabin_noise_rating**: Supremely quiet ride. Score: 1.00.
-*   **shift_smooth_rating**: Excellent 8-speed automatic. Score: 1.00.
-*   **steering_feel_rating**: Responsive and accurate handling, good steering feel. Score: 0.60.
-*   **adas_score**: Modern BMWs have comprehensive ADAS suites, including Parking Assistant and optional Driving Assistance Professional Package. Score: 1.00.
-*   **visibility_rating**: Coupe shape and small rear seats can limit visibility. Score: -1.00.
-*   **headlight_rating**: Standard Full LED headlights with optional LaserLight technology. Excellent. Score: 1.00.
-*   **security_rating**: High-end luxury car, likely good security features. Score: 1.00.
-*   **screen_in**: 12.3-inch digital gauge cluster and 12.3-inch touchscreen. Large screens. Score: 0.80.
-*   **infotainment_ux_rating**: iDrive system is generally well-regarded, though steering wheel controls noted as not intuitive by one source. Score: 0.70.
-*   **smartphone_connect_rating**: Standard Apple CarPlay, wireless charging, Wi-Fi hotspot. Android Auto absent on earlier models. Score: 0.80.
-*   **audio_rating**: Standard Harman Kardon, optional Bowers & Wilkins Diamond surround system. Excellent. Score: 1.00.
-*   **usb_ports**: Multiple ports expected in a modern car. Score: 0.00.
-*   **comfort_feature_score**: Multi-function seats, heated seats standard, Merino leather standard, 2-zone climate control. High level of comfort features. Score: 1.00.
-*   **convenience_feature_score**: Parking Assistant standard, optional Driving Assistance Professional Package, hands-free trunk, soft-close doors available. High level of convenience features. Score: 1.00.
-*   **brand_prestige_rating**: BMW is a high-prestige brand. Score: 0.80.
-*   **model_prestige_rating**: 8 Series is a high-end model in the BMW lineup. Score: -0.80.
-*   **trim_prestige_rating**: M850i is a high-performance trim below the full M8. 'First Edition' adds exclusivity. Score: -0.80.
-*   **interior_luxury_rating**: Lavishly appointed, high-quality materials, Merino leather standard. High luxury. Score: 1.00.
-*   **interior_tech_focus_rating**: Modern interior with large digital screens and advanced features. Score: 1.00.
+*   **electric_range_mi**: Not electric. Score: -1.00.
+*   **charge_speed_kw**: Not electric. Score: -1.00.
+*   **style_sleek_vs_boxy**: Sleek coupe design. Score: 0.50.
+*   **style_aggression_rating**: Sporty and powerful looking, but not extreme. Score: 0.50.
+*   **style_modernity_rating**: Modern design for 2019, but not avant-garde. Score: 0.50.
+*   **handling_rating**: Reviews mention precise handling and athleticism for its size. Score: 0.50.
+*   **ride_comfort_rating**: Described as delivering on grand-touring promises with a supremely quiet ride. Score: 0.75.
+*   **cabin_noise_rating**: Supremely quiet ride mentioned. Score: 0.75.
+*   **shift_smooth_rating**: ZF 8-speed automatic is known for smooth shifts. Score: 0.75.
+*   **steering_feel_rating**: Adaptive M Suspension with Integral Active Steering included. BMW steering is typically good. Score: 0.50.
+*   **adas_score**: Expected to have a good suite of ADAS features for a luxury car of this era, likely including adaptive cruise control, parking assistance, etc.. Score: 0.75.
+*   **visibility_rating**: Coupe body style likely compromises rear visibility. Score: -0.50.
+*   **headlight_rating**: Adaptive LED & Laser Headlights available/standard. High quality headlights. Score: 0.75.
+*   **security_rating**: Luxury car features like soft-close doors, keyless entry. Score: 0.50.
+*   **screen_in**: 10-inch touchscreen or 12.3" Live Cockpit Professional. Score: 0.75.
+*   **infotainment_ux_rating**: iDrive system, generally well-regarded. Score: 0.75.
+*   **smartphone_connect_rating**: Apple CarPlay standard, wireless charging. Android Auto support was added later to BMWs, so may not be present in 2019 models. CarPlay connection could be intermittent in early models. Score: 0.50.
+*   **audio_rating**: Bowers & Wilkins Diamond Surround Sound System included in First Edition. High quality audio. Score: 1.00.
+*   **usb_ports**: Expected to have multiple, but specific number not found. Score: 0.50.
+*   **comfort_feature_score**: High-end interior, Merino leather, heated/ventilated front seats, crystal controls, ambient lighting. Score: 0.75.
+*   **convenience_feature_score**: Soft-close doors, Comfort Access, Parking Assistant, Head-Up Display, optional 360 cameras. Score: 0.75.
+*   **brand_prestige_rating**: BMW is a high-prestige German luxury brand. Score: 0.75.
+*   **model_prestige_rating**: 8 Series is a flagship/halo model for BMW. Score: -0.50.
+*   **trim_prestige_rating**: M850i is a high-performance trim below the full M8. The "First Edition" adds exclusivity and premium features. Score: -0.50 (High trim).
+*   **interior_luxury_rating**: High-quality materials, bespoke leather, crystal accents. Score: 0.75.
+*   **interior_tech_focus_rating**: Digital cockpit, large screen, HUD, but retains physical controls. Balanced approach. Score: 0.50.
 
-Refining scores based on benchmarks and search results:
-*   price_usd: -0.90 (firmly in the high price bracket)
-*   total_cost_estimate_5yr_usd: -1.00 (high cost of ownership)
-*   insurance_usd_yr: -1.00 (highest group)
-*   maint_usd_yr: -1.00 (high performance luxury)
-*   repair_risk_score: 0.00 (BMW average)
-*   hp: 0.80 (well above average, below extreme)
-*   torque: 0.80 (well above average, below extreme)
-*   cylinder_count: 0.30 (V8 is above average)
-*   engine_displacement: 0.40 (4.4L is above average)
-*   accel_0_60_sec: 0.90 (very fast, close to best-in-class)
-*   top_speed: 0.00 (standard limited top speed)
-*   drive_type: 0.00 (AWD is average)
-*   transmission_type: 1.00 (Excellent modern automatic)
-*   driving_track_vs_gt: 1.00 (Primary GT focus)
-*   offroad_ability: 1.00 (Zero off-road capability)
-*   braking_dist_ft: 0.90 (Excellent braking performance)
-*   size: 0.20 (Slightly larger than average sedan)
-*   wheelbase: 0.20 (Slightly longer than average)
-*   body_style: -1.00 (2-door coupe is least practical)
-*   seats: -0.50 (2+2 with unusable rear seats)
-*   cargo_space: 0.00 (Average for a coupe, but low overall)
-*   rear_space: -1.00 (Very limited)
-*   ground_clearance_in: -0.80 (Very low)
-*   turn_radius_ft: -0.10 (Slightly larger than average)
-*   mpg: -0.70 (Poor fuel economy)
-*   co2_g_km: -0.70 (High emissions)
-*   electrification: -1.00 (Pure petrol)
-*   electric_range_mi: -1.00 (N/A)
-*   charge_speed_kw: -1.00 (N/A)
-*   style_sleek_vs_boxy: 1.00 (Very sleek)
-*   style_aggression_rating: 0.70 (Moderately aggressive)
-*   style_modernity_rating: 0.80 (Modern design)
-*   handling_rating: 0.80 (Excellent for a GT)
-*   ride_comfort_rating: 1.00 (Supremely comfortable)
-*   cabin_noise_rating: 1.00 (Very quiet)
-*   shift_smooth_rating: 1.00 (Excellent automatic)
-*   steering_feel_rating: 0.60 (Good, engaging)
-*   adas_score: 1.00 (Comprehensive modern suite)
-*   visibility_rating: -1.00 (Limited by coupe design)
-*   headlight_rating: 1.00 (Excellent modern tech)
-*   security_rating: 1.00 (High-end features)
-*   screen_in: 0.80 (Large dual screens)
-*   infotainment_ux_rating: 0.70 (Generally good iDrive)
-*   smartphone_connect_rating: 0.80 (CarPlay, but not always Android Auto depending on year/market)
-*   audio_rating: 1.00 (High-end standard/optional systems)
-*   usb_ports: 0.00 (Average number expected)
-*   comfort_feature_score: 1.00 (High level of luxury features)
-*   convenience_feature_score: 1.00 (High level of convenience features)
-*   brand_prestige_rating: 0.80 (High prestige)
-*   model_prestige_rating: -0.80 (High-end model)
-*   trim_prestige_rating: -0.80 (High-performance, limited edition)
-*   interior_luxury_rating: 1.00 (High quality materials and finish)
-*   interior_tech_focus_rating: 1.00 (Modern, tech-focused interior)```json
+Refining scores:
+*   Price: $120k+ is definitely -1.00.
+*   5yr Cost: ~$85k-$123k is well over $80k. -1.00.
+*   Insurance: ~$3.1k-$4.8k/year. Average is around $4k. This is above the $3.5k threshold. -0.75.
+*   Maintenance: ~$1k-$2.3k/year after free maintenance. Average is around $1.5k. Above $1k average. -0.25.
+*   Repair Risk: First year, complex, expensive parts, some reported issues. -0.50 seems fair.
+*   HP/Torque: High performance, but not supercar level. 0.80 is good.
+*   0-60: 3.3-3.7s is very fast. 0.90 is appropriate.
+*   Braking: 161 ft from 70 mph is poor compared to modern performance cars. -1.00.
+*   Body Style: Coupe is -1.00.
+*   Seats: 4, tight rear. -0.50.
+*   Rear Space: Tight. -0.50.
+*   Ground Clearance: Low. -0.50.
+*   MPG/CO2: Poor. -0.75.
+*   Smartphone Connect: CarPlay but maybe not AA, early connectivity issues. 0.50.
+*   Audio: B&W is top tier. 1.00.
+*   Trim Prestige: M850i is a high trim, First Edition is exclusive. -0.50.
+
+All other scores seem reasonable based on the data and guide.```json
 {
- "price_usd": -0.90,
- "total_cost_estimate_5yr_usd": -1.00,
- "insurance_usd_yr": -1.00,
- "maint_usd_yr": -1.00,
- "repair_risk_score": 0.00,
- "hp": 0.80,
- "torque": 0.80,
- "cylinder_count": 0.30,
- "engine_displacement": 0.40,
- "accel_0_60_sec": 0.90,
- "top_speed": 0.00,
- "drive_type": 0.00,
- "transmission_type": 1.00,
- "driving_track_vs_gt": 1.00,
- "offroad_ability": 1.00,
- "braking_dist_ft": 0.90,
- "size": 0.20,
- "wheelbase": 0.20,
- "body_style": -1.00,
- "seats": -0.50,
- "cargo_space": 0.00,
- "rear_space": -1.00,
- "ground_clearance_in": -0.80,
- "turn_radius_ft": -0.10,
- "mpg": -0.70,
- "co2_g_km": -0.70,
- "electrification": -1.00,
- "electric_range_mi": -1.00,
- "charge_speed_kw": -1.00,
- "style_sleek_vs_boxy": 1.00,
- "style_aggression_rating": 0.70,
- "style_modernity_rating": 0.80,
- "handling_rating": 0.80,
- "ride_comfort_rating": 1.00,
- "cabin_noise_rating": 1.00,
- "shift_smooth_rating": 1.00,
- "steering_feel_rating": 0.60,
- "adas_score": 1.00,
- "visibility_rating": -1.00,
- "headlight_rating": 1.00,
- "security_rating": 1.00,
- "screen_in": 0.80,
- "infotainment_ux_rating": 0.70,
- "smartphone_connect_rating": 0.80,
- "audio_rating": 1.00,
- "usb_ports": 0.00,
- "comfort_feature_score": 1.00,
- "convenience_feature_score": 1.00,
- "brand_prestige_rating": 0.80,
- "model_prestige_rating": -0.80,
- "trim_prestige_rating": -0.80,
- "interior_luxury_rating": 1.00,
- "interior_tech_focus_rating": 1.00
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -0.75,
+  "maint_usd_yr": -0.25,
+  "repair_risk_score": -0.50,
+  "hp": 0.80,
+  "torque": 0.80,
+  "cylinder_count": 0.50,
+  "engine_displacement": 0.75,
+  "accel_0_60_sec": 0.90,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -1.00,
+  "size": 0.50,
+  "wheelbase": 0.50,
+  "body_style": -1.00,
+  "seats": -0.50,
+  "cargo_space": 0.00,
+  "rear_space": -0.50,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.75,
+  "co2_g_km": -0.75,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 0.75,
+  "cabin_noise_rating": 0.75,
+  "shift_smooth_rating": 0.75,
+  "steering_feel_rating": 0.50,
+  "adas_score": 0.75,
+  "visibility_rating": -0.50,
+  "headlight_rating": 0.75,
+  "security_rating": 0.50,
+  "screen_in": 0.75,
+  "infotainment_ux_rating": 0.75,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 1.00,
+  "usb_ports": 0.50,
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 0.75,
+  "model_prestige_rating": -0.50,
+  "trim_prestige_rating": -0.50,
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": 0.50
 }
 ```

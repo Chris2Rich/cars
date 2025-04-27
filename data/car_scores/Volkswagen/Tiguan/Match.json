@@ -1,0 +1,114 @@
+Based on the search results, the 'Match' trim is available on both the Mk2 (2016-2024) and the new Mk3 (2024 onwards) Volkswagen Tiguan. Since the user asked for the "most recent version", I will prioritize data for the Mk3 Tiguan Match (2024 onwards) where available, and supplement with Mk2 Match data if Mk3 specifics are missing.
+
+Data points for the most recent Volkswagen Tiguan Match (primarily 2024 onwards, with some Mk2 data for context):
+- **price_usd:** New prices for the 2024 Tiguan Match start around £37,405 or £38,360 (approx $47,000 - $48,500 USD). Used 2024 models are listed around £31,500 - £32,989 (approx $40,000 - $41,800 USD). Used Mk2 Match models (2019-2020) are around £19,000 - £26,839 (approx $24,000 - $34,000 USD). The new price is close to the $52,000 average, while used prices are well below. Focusing on the *most recent* version implies the new/nearly new price. Score: -0.10 (close to average).
+- **total_cost_estimate_5yr_usd:** No specific 5-year cost estimate found. Maintenance and reliability are rated as average to good. Default to 0.00.
+- **insurance_usd_yr:** Insurance groups for the 2024 Tiguan Match are around 18. Mk2 Match groups are 16-18. Group 18 is around the average for insurance. Score: 0.00.
+- **maint_usd_yr:** Average annual repair cost for Tiguan is $730. This is below the $1000 benchmark. Score: +0.20.
+- **repair_risk_score:** Reliability ratings are mixed, with some concerns about DSG transmission and electrical issues on Mk2, but also positive owner reviews. Mk3 is new, so long-term data is limited. Repair frequency is higher than average, but severity is lower. Default to 0.00, acknowledging mixed data.
+- **hp:** Mk3 Match engines include 1.5 eTSI (130 PS/128 HP or 150 PS/148 HP). eHybrid (204 PS/201 HP) is also available on Match. Mk2 Match engines included 1.5 TSI (150 PS/148 HP) and 2.0 TDI (150 PS/148 HP or 190 PS/187 HP). The 128-148 HP range is below the 200 HP average. 187 HP is slightly below. 201 HP is around average. Focusing on the common non-hybrid 1.5 eTSI 150 HP (148 HP). Score: -0.30.
+- **torque:** 1.5 eTSI (250 Nm/184 lb-ft). eHybrid (350 Nm/258 lb-ft). Average is ~190 lb-ft. 184 lb-ft is average. 258 lb-ft is above average. Focusing on the common non-hybrid 1.5 eTSI. Score: 0.00.
+- **cylinder_count:** 4 cylinders. Average. Score: 0.00.
+- **engine_displacement:** 1.5L. Below average (3.0L). Score: -0.20.
+- **accel_0_60_sec:** 1.5 eTSI 130: 10.3s. 1.5 eTSI 150: 9.1s. eHybrid 204: 8.2s. Average is ~7.5s. These are slower than average. Score: -0.10 to -0.50. Let's use -0.30 for the common non-hybrid.
+- **top_speed:** 1.5 eTSI 130: 120 mph. 1.5 eTSI 150: 130 mph. eHybrid 204: 130 mph. Average is 150 mph. Score: -0.10 to -0.20. Let's use -0.10.
+- **drive_type:** Available in FWD and AWD (4Motion). Mk3 Match specs primarily show FWD for the 1.5 eTSI. Score: -1.00 (assuming FWD is standard/most common for Match).
+- **transmission_type:** DSG Automatic standard. Score: +1.00.
+- **driving_track_vs_gt:** Family SUV, comfortable for daily driving and trips. Score: +0.20.
+- **offroad_ability:** SUV body style, available AWD on some variants. Ground clearance around 182-191mm (7.2-7.5 inches). Better than a car. Score: +0.30.
+- **braking_dist_ft:** No specific data. Default 0.00.
+- **size:** Length ~4539mm. Width ~1842mm. Height ~1658mm. Typical compact SUV. Score: 0.00.
+- **wheelbase:** ~2677-2679mm. Typical compact SUV. Score: 0.00.
+- **body_style:** 5-door SUV. Score: +0.50.
+- **seats:** 5 seats. Average. Score: 0.00. (Note: US market Tiguan had 7 seats on FWD, but UK/Euro models are typically 5-seat).
+- **cargo_space:** 652L (non-hybrid), 490L (eHybrid). 652L is very good (benchmark ~425L). 490L is good. Score: +0.50.
+- **rear_space:** "Lots of headroom throughout", "sliding rear bench seat means you can juggle boot space and passenger knee room". Good rear space. Score: +0.50.
+- **ground_clearance_in:** ~7.2-7.5 inches. Above average (6.5 inches). Score: +0.30.
+- **turn_radius_ft:** 11.7m (38.4 ft). Around the 36 ft average, slightly higher. Score: -0.10.
+- **mpg:** 1.5 eTSI 130: 44.1-45.6 mpg. 1.5 eTSI 150: 42.8 mpg. eHybrid: 703.5 mpg (WLTP combined, includes electric range). Average is 30 mpg. Non-hybrid is good, hybrid is excellent. Score: +0.50 (non-hybrid) to +1.00 (hybrid). Let's use +0.60 for the common non-hybrid.
+- **co2_g_km:** 1.5 eTSI 130: 145-150 g/km. 1.5 eTSI 150: 142 g/km. eHybrid: 9 g/km. Average is 175 g/km. Non-hybrid is good, hybrid is excellent. Score: +0.20 (non-hybrid) to +1.00 (hybrid). Let's use +0.30 for the common non-hybrid.
+- **electrification:** Available with Petrol (eTSI MHEV) and eHybrid (PHEV). MHEV is mild electrification, PHEV is significant. Score: +0.50 (PHEV option available).
+- **electric_range_mi:** eHybrid has 25.7 kWh battery. Predicted ~60 miles pure electric range. This is very good for a PHEV. Score: +0.80.
+- **charge_speed_kw:** DC fast charging available on eHybrid. Specific kW not stated, but DC fast charging is positive. Score: +0.50.
+- **style_sleek_vs_boxy:** SUV shape, not particularly sleek or boxy. Score: 0.00.
+- **style_aggression_rating:** Standard SUV styling, not aggressive. Score: -0.50.
+- **style_modernity_rating:** New Mk3 design, "all-new exterior design", "striking front fascia, sleek headlights, and an LED light bar". Modern design. Score: +0.50.
+- **handling_rating:** Mk2 described as competent but not sporty. Mk3 moves to MQB evo platform (shared with GTI). Described as "nimble handling". Score: +0.30.
+- **ride_comfort_rating:** Mk2 described as comfortable. Mk3 described as "Smooth ride quality", "comfortable". Score: +0.50.
+- **cabin_noise_rating:** Mk3 described as "exceptionally quiet". Score: +0.80.
+- **shift_smooth_rating:** DSG transmission is generally smooth. Score: +0.50.
+- **steering_feel_rating:** Mk2 steering lacks feedback. Mk3 described as "responsive steering". Score: +0.30.
+- **adas_score:** Match trim includes Rear View Camera, Park Assist Pro, Keyless Access, LED Headlights. Adaptive Cruise Control, Dynamic road sign display, Lane Assist, Emergency Assist, Side Assist, Rear traffic alert, Exit warning system, Front Assist with City Emergency Braking standard or available. Comprehensive suite, including advanced features like Park Assist Pro. Score: +0.80.
+- **visibility_rating:** Raised seating position, "clear vision". Score: +0.50.
+- **headlight_rating:** LED Headlights standard on Match. LED Matrix headlights with Dynamic Light Assist available. Score: +0.50 (standard LED) to +0.80 (Matrix available). Let's use +0.50 for standard.
+- **security_rating:** Alarm with interior protection, Keyless Entry. Score: +0.30.
+- **screen_in:** 8-inch or 12.9-inch infotainment screen available. 10.25-inch digital driver's display. Score: +0.50 (blend).
+- **infotainment_ux_rating:** Mk3 has updated infotainment, larger touchscreens. Described as "intuitive layout". Score: +0.50.
+- **smartphone_connect_rating:** Wireless App-Connect (Apple CarPlay and Android Auto) standard. Excellent. Score: +1.00.
+- **audio_rating:** No specific data on speaker count for Match. Default to 0.00.
+- **usb_ports:** 2 USB-C ports in the front. Score: +0.20.
+- **comfort_feature_score:** 2-zone climate control standard. Heated front seats, heated steering wheel available (Winter Pack). Sliding/reclining rear seats. Good features. Score: +0.50.
+- **convenience_feature_score:** Rear View Camera, Park Assist Pro, Electric Tailgate, Keyless Access standard. Parking sensors, auto lights/wipers, power tailgate, remote parking available. High level of convenience features. Score: +0.80.
+- **brand_prestige_rating:** Volkswagen. 0.00.
+- **model_prestige_rating:** Tiguan. 0.00.
+- **trim_prestige_rating:** Match is a mid-range trim. Score: 0.00.
+- **interior_luxury_rating:** Mk3 has "improved interior design and material choices", "more refined, high-quality interior", "premium interior finishes". Score: +0.50.
+- **interior_tech_focus_rating:** Digital instrument cluster, large touchscreen options, comprehensive ADAS, wireless connectivity. Tech-focused. Score: +0.80.
+
+Refining scores based on benchmarks and available data for the most recent Match trim.```json
+{
+  "price_usd": -0.10,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.20,
+  "repair_risk_score": 0.00,
+  "hp": -0.30,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": -0.30,
+  "top_speed": -0.10,
+  "drive_type": -1.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.20,
+  "offroad_ability": 0.30,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.00,
+  "body_style": 0.50,
+  "seats": 0.00,
+  "cargo_space": 0.50,
+  "rear_space": 0.50,
+  "ground_clearance_in": 0.30,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.60,
+  "co2_g_km": 0.30,
+  "electrification": 0.50,
+  "electric_range_mi": 0.80,
+  "charge_speed_kw": 0.50,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.30,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.80,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.30,
+  "adas_score": 0.80,
+  "visibility_rating": 0.50,
+  "headlight_rating": 0.50,
+  "security_rating": 0.30,
+  "screen_in": 0.50,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.00,
+  "usb_ports": 0.20,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.80,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.80
+}
+```

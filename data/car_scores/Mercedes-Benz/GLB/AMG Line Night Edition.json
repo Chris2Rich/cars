@@ -1,57 +1,142 @@
-```json
+Based on the search results, I can gather the following information for the 2024 Mercedes-Benz GLB AMG Line Night Edition (or similar recent AMG Line trims, as Night Edition is often a package on AMG Line):
+
+*   **Price:** UK prices for 2024 GLB range from £40,190 to £59,545. A used 2023 GLB 200 AMG Line Night Edition (Premium Plus) was listed around £31,898, while a used 2024 GLB 220d AMG Line was £38,000 and a 2024 GLB 220d 4Matic AMG Line Premium was £38,755. A used 2022 AMG Line Night Edition was £30,200. New pricing for AMG Line Night Edition is likely in the upper part of the £40k-£60k range. Let's estimate around £45,000 - £50,000 GBP, which is roughly $57,000 - $63,000 USD (using ~1.25 conversion). This is slightly above the market average of $52,000. Score: -0.05 to -0.10. Let's use -0.05 as it's not excessively high.
+*   **Total Cost Estimate 5yr:** Edmunds estimates 5-year cost for a 2023 GLB 250 4MATIC at over $40k, including depreciation, fuel, insurance, maintenance, and repairs. Mercedes maintenance and repair costs are noted as higher than average. Score around 0.00 to -0.10. Let's use 0.00 as it's close to the average for a luxury compact SUV.
+*   **Insurance USD/yr:** UK Insurance Group 24 for GLB. This is mid-range for Mercedes but above average overall. Estimated annual cost around $1500-$2000. Score around 0.00.
+*   **Maint USD/yr:** Estimated 5-year maintenance/repair cost is $4,629 for the first five years for a GLB 250, which is less than the luxury SUV average, but the 10-year cost is higher. Scheduled maintenance is $300-$600. Mercedes maintenance is generally higher than average. Score negative. Let's use -0.10.
+*   **Repair Risk Score:** 44% chance of major repair in first 5 years, 5.58% worse than segment average. Recalls have occurred. J.D. Power gives 4.4/5 for reliability for 2024, but some owner reviews mention issues. Car Expert has no reliability rating yet but notes high running costs. Score slightly negative. Let's use -0.10.
+*   **HP:** GLB 250 has 221 hp. GLB 200 has 163 hp. GLB 220d has 190 hp. AMG Line Night Edition is usually based on the GLB 200 or GLB 220d in the UK market. Let's assume the GLB 200 MHEV (163 hp + mild hybrid boost) or GLB 220d (190 hp). Average HP is ~200. Score around 0.00 to 0.10 depending on engine. Let's use 0.00 for the petrol, 0.10 for the diesel. Given "AMG Line", it leans slightly sportier, let's use 0.10.
+*   **Torque:** GLB 200 (petrol) has 250 Nm (~184 lb-ft). GLB 250 has 258 lb-ft. GLB 220d has 400 Nm (~295 lb-ft). Average torque is ~190 lb-ft. The diesel torque is significantly above average. Let's assume the diesel is common for this trim in the UK. Score positive. Let's use 0.30 (closer to 295 lb-ft).
+*   **Cylinder Count:** 4-cylinder. Average. Score 0.00.
+*   **Engine Displacement:** 1.3L (GLB 200) or 2.0L (GLB 250/220d). Average is around 3.0L for the guide, but for 4-cylinders, 2.0L is common. Score 0.00.
+*   **Accel 0-60 sec:** GLB 250 is 6.9 sec. GLB 220d is 7.6-9.3 sec. Average is 7.5 sec. Score around 0.00 to 0.10. Let's use 0.10 for the GLB 250 equivalent performance.
+*   **Top Speed:** 127-155 mph. Average is 150 mph. Score 0.00.
+*   **Drive Type:** FWD or AWD (4Matic). AWD is common on higher trims. Score 0.00.
+*   **Transmission Type:** 7-speed or 8-speed Dual-Clutch Automatic (DCT). The guide rates Automatic as +1.00 and DCT as 0.00. I will use 0.00 as it's a DCT.
+*   **Driving Track vs GT:** Comfortable daily driver/GT. Score positive. Let's use 0.10.
+*   **Offroad Ability:** Not designed for serious off-roading, despite SUV looks. Low ground clearance compared to true off-roaders. Score negative. Let's use -0.20.
+*   **Braking Dist ft:** No specific data found, but reviews mention firm brakes. Assume average or slightly better. Score 0.00.
+*   **Size:** Length 4634-4638 mm. Width 1834-1850 mm. Height 1659-1697 mm. Average length ~4600mm. Score slightly positive. Let's use 0.10.
+*   **Wheelbase:** 2829 mm (111.4 inches). Average ~2700mm. Score positive. Let's use 0.20.
+*   **Body Style:** SUV. Guide uses Sedan/Coupe/Van. SUV is practical but not as practical as a van. Score 0.00.
+*   **Seats:** Standard 5, optional 7. The availability of 7 seats is a key selling point. Score positive. Let's use 0.20.
+*   **Cargo Space:** 20-22 cu ft behind 2nd row, 62 cu ft max. 570 litres (~20 cu ft) behind 2nd row. 12.4 cu ft behind 3rd row. Average is ~15 cu ft. Score positive. Let's use 0.10.
+*   **Rear Space:** Good legroom in first two rows (41.1", 38.1"), 3rd row cramped (29.1"). Rear space is ample in the first two rows. Score positive for 1st/2nd row, but 3rd row is poor. Averaging this out, it's still better than a typical 5-seater compact SUV. Score 0.20.
+*   **Ground Clearance in:** 135mm (~5.3 inches) or 155mm (~6.1 inches) or 8 inches or 200mm (~7.9 inches) or 213mm (~8.4 inches). There's conflicting data. 8 inches and 213mm seem high for a road-focused SUV. 135mm seems low. 155mm or around 6-7 inches seems more realistic for a compact crossover. Average is 6.5". Let's use 6.5" as a compromise, which is average. Score 0.00.
+*   **Turn Radius ft:** No specific data found. Assume average for its size. Score 0.00.
+*   **MPG:** GLB 250 FWD 27 combined, AWD 24 combined. 2025 GLB 250 FWD 27 combined, AWD 26 combined. GLB 200 petrol ~40mpg (UK). GLB 220d diesel ~50mpg (UK). Average is 30 mpg. Petrol is below average, Diesel is above average. AMG Line Night Edition could be either. Let's assume the petrol is more common for "Night Edition" styling focus, or average the two. Let's use 0.00 as it's close to average depending on engine.
+*   **CO2 g/km:** GLB 200 petrol 160-171 g/km. GLB 220d diesel 148-158 g/km. Average is 175 g/km. Score positive. Let's use 0.10.
+*   **Electrification:** Mild-hybrid on some petrol engines. Not PHEV or EV. Score -0.80.
+*   **Electric Range/Charge Speed:** Not applicable. Score -1.00.
+*   **Handling Rating:** Agreeable and competent, but not sporty or nimble. Tends to lean in corners. Steering is good enough. Score around 0.00.
+*   **Ride Comfort Rating:** Comfortable and refined. Ride is good. Score positive. Let's use 0.20.
+*   **Cabin Noise Rating:** Other SUVs are quieter at motorway speeds. Score slightly positive. Let's use 0.10.
+*   **Shift Smooth Rating:** Quick-shifting 8-speed dual-clutch. Can be a bit uneven/jerky sometimes. Paddle shifters are okay. Score slightly positive. Let's use 0.10.
+*   **Steering Feel Rating:** Steering is good enough. Often numb in modern SUVs. Score 0.00.
+*   **ADAS Score:** Comprehensive suite available, including adaptive cruise, lane-keeping, blind-spot monitoring, auto emergency braking. ADAS features are particularly good. Score positive. Let's use 0.40.
+*   **Visibility Rating:** Visibility is great. Score positive. Let's use 0.10.
+*   **Headlight Rating:** Updated head and taillights. Mercedes usually has good LED headlights. Score positive. Let's use 0.20.
+*   **Security Rating:** Mercedes vehicles have strong security features. Score positive. Let's use 0.20.
+*   **Screen in:** Dual 10.25-inch screens standard on higher trims. 10.3-inch standard. 12.3-inch standard on 2025 GLB250. Let's assume 10.25/10.3 is standard for 2024 AMG Line. Score positive. Let's use 0.40.
+*   **Infotainment UX Rating:** MBUX system is arguably the best, very easy to navigate, voice control works accurately. Score positive. Let's use 0.40.
+*   **Smartphone Connect Rating:** Apple CarPlay and Android Auto standard, wireless available. Score positive. Let's use 0.30.
+*   **Audio Rating:** 8 speakers standard, optional 12-speaker Burmester available. Score slightly positive for standard, better with option. Let's use 0.10 for standard.
+*   **USB Ports:** Four USB-C ports. Score average. Let's use 0.00.
+*   **Comfort Feature Score:** Heated power front seats standard, dual-zone climate control standard. Ventilated seats optional. Many creature comforts. Score positive. Let's use 0.30.
+*   **Convenience Feature Score:** Power liftgate standard. Parking assist available. 360 camera optional. Score positive. Let's use 0.30.
+*   **Interior Luxury Rating:** Plush inside, premium experience, good material quality mixed with some cheaper plastics. Upmarket and eye-catching cabin. Score positive. Let's use 0.30.
+*   **Interior Tech Focus Rating:** Dual screens, MBUX, ambient lighting. Screen-forward design. Score positive. Let's use 0.40.
+*   **Brand Prestige Rating:** Mercedes-Benz. High prestige. Score 0.60.
+*   **Model Prestige Rating:** GLB slots between GLA and GLC, often forgotten. Mid-range model. Score 0.60.
+*   **Trim Prestige Rating:** AMG Line is a desirable trim but not the top-tier full AMG. Score 0.00.
+*   **Style Sleek vs Boxy:** Boxy design, upright stance. More MPV than SUV rear. Score negative. Let's use -0.20.
+*   **Style Aggression Rating:** AMG Line adds sporty styling. Feisty looks. Score slightly positive. Let's use 0.10.
+*   **Style Modernity Rating:** Modern design, updated styling. Not avant-garde. Score positive. Let's use 0.20.
+
+Reviewing the scores and adjusting slightly based on the specific "AMG Line Night Edition" which is a sporty appearance package:
+*   Price: Slightly higher than base AMG Line. -0.05 -> 0.05 (closer to average price for a well-equipped compact luxury SUV).
+*   Total Cost: Higher than average. 0.00 -> -0.15.
+*   Insurance: AMG Line might slightly increase group. 0.00 -> -0.10.
+*   Maint/Repair: Same as other GLB. -0.10.
+*   HP/Torque/Accel/Top Speed: Based on standard engines (200/220d), not AMG 35. Scores remain.
+*   Drive Type/Transmission: Same.
+*   Driving Track vs GT: Still a comfortable daily driver, AMG Line adds styling but not significant track focus. 0.10.
+*   Offroad Ability: Lower ground clearance than some GLB variants. Score more negative. -0.20.
+*   Braking: Same. 0.00.
+*   Size/Wheelbase/Body Style/Seats/Cargo/Rear Space/Turn Radius: Same.
+*   Ground Clearance: Using 155mm (~6.1 inches) or 200mm (~7.9 inches) or 213mm (~8.4 inches). Let's re-evaluate. The 213mm figure is from an Australian source for the GLB 200. The 200mm figure is from a 2020 review. 155mm is from another spec site. 8 inches (~203mm) is from a US dealer site. Given the AMG Line focus, it might be slightly lower than a base model, but still an SUV. Let's use 6.5 inches as average and score 0.00.
+*   MPG/CO2: Same engines.
+*   Electrification: Same.
+*   Handling: AMG Line might slightly improve handling feel, but reviews still say it's not sporty. 0.00.
+*   Ride Comfort: AMG Line suspension might be firmer. Score slightly lower. 0.20.
+*   Cabin Noise: Same. 0.20.
+*   Shift Smoothness: Same. 0.10.
+*   Steering Feel: Same. 0.00.
+*   ADAS/Visibility/Headlights/Security: Same.
+*   Screen/Infotainment/Smartphone/Audio/USB: Screens are likely the larger ones on this trim. 0.40 for screen. Others same.
+*   Comfort/Convenience: Same.
+*   Interior Luxury/Tech Focus: Same.
+*   Brand Prestige: Same. 0.60.
+*   Model Prestige: Still a GLB. 0.60.
+*   Trim Prestige: AMG Line is a good trim, but not top AMG. Score 0.00.
+*   Style Sleek/Boxy: Same. -0.20.
+*   Style Aggression: AMG Line adds aggression. 0.10.
+*   Style Modernity: Same. 0.20.
+
+Looks consistent. I will use these scores.```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": 0.00,
-  "torque": 0.00,
+  "price_usd": 0.05,
+  "total_cost_estimate_5yr_usd": -0.15,
+  "insurance_usd_yr": -0.10,
+  "maint_usd_yr": -0.10,
+  "repair_risk_score": -0.10,
+  "hp": 0.10,
+  "torque": 0.30,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.00,
+  "accel_0_60_sec": 0.10,
   "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 0.00,
-  "driving_track_vs_gt": 0.00,
-  "offroad_ability": -1.00,
+  "driving_track_vs_gt": 0.10,
+  "offroad_ability": -0.20,
   "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.00,
+  "size": 0.10,
+  "wheelbase": 0.20,
   "body_style": 0.00,
-  "seats": 0.00,
-  "cargo_space": 0.00,
-  "rear_space": 0.00,
+  "seats": 0.20,
+  "cargo_space": 0.10,
+  "rear_space": 0.20,
   "ground_clearance_in": 0.00,
   "turn_radius_ft": 0.00,
   "mpg": 0.00,
-  "co2_g_km": 0.00,
-  "electrification": -1.00,
+  "co2_g_km": 0.10,
+  "electrification": -0.80,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.00,
+  "style_sleek_vs_boxy": -0.20,
+  "style_aggression_rating": 0.10,
+  "style_modernity_rating": 0.20,
   "handling_rating": 0.00,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": 0.00,
+  "ride_comfort_rating": 0.20,
+  "cabin_noise_rating": 0.10,
+  "shift_smooth_rating": 0.10,
   "steering_feel_rating": 0.00,
-  "adas_score": 0.00,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.00,
-  "security_rating": 0.00,
-  "screen_in": 0.00,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.00,
-  "audio_rating": 0.00,
+  "adas_score": 0.40,
+  "visibility_rating": 0.10,
+  "headlight_rating": 0.20,
+  "security_rating": 0.20,
+  "screen_in": 0.40,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 0.30,
+  "audio_rating": 0.10,
   "usb_ports": 0.00,
-  "comfort_feature_score": 0.00,
-  "convenience_feature_score": 0.00,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.00,
+  "comfort_feature_score": 0.30,
+  "convenience_feature_score": 0.30,
+  "brand_prestige_rating": 0.60,
+  "model_prestige_rating": 0.60,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.00,
-  "interior_tech_focus_rating": 0.00
+  "interior_luxury_rating": 0.30,
+  "interior_tech_focus_rating": 0.40
 }
 ```

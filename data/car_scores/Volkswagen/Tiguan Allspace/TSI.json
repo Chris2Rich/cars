@@ -1,0 +1,169 @@
+Based on the search results, I can gather data for the Volkswagen Tiguan Allspace with TSI engines, primarily the 1.5 TSI (150PS) and 2.0 TSI (190PS and 245PS). I will use a blend of data, prioritizing the more common 1.5 and 2.0 190PS engines where specific trim data isn't available for 'TSI' generically.
+
+- **price_usd**: New prices vary by trim and engine. A 1.5 TSI Life is around £39,546. A 2.0 TSI 190 Elegance is around £41,485, and a 2.0 TSI 190 R-Line is around £41,933. Used prices are lower. The average new car price is around $52,000 USD. £40,000 is roughly $50,000 USD. This is close to the average, maybe slightly below depending on the exact configuration. Score: 0.05 to 0.10. Let's use 0.05 for a typical TSI.
+- **total_cost_estimate_5yr_usd**: Maintenance costs are cited as high compared to rivals like Toyota. Reliability seems average. Depreciation is not explicitly stated but VW is generally average. 5-year cost is likely around the market average. Score: 0.00.
+- **insurance_usd_yr**: Insurance groups range from 16 to 29. This is a wide range, but many TSI models fall in the lower to middle of this range (e.g., 1.4 TSI is group 16E). This suggests average to slightly below average insurance costs. Score: 0.00.
+- **maint_usd_yr**: Maintenance costs are noted as high compared to rivals. Average cost per service over 5 years is cited around $600-730 AUD, which is roughly £300-380 or $380-480 USD per service. With 15,000km/12-month intervals, this is below the $1000/year average. Score: 0.10.
+- **repair_risk_score**: Reliability is described as average. Score: 0.00.
+- **hp**: 1.5 TSI is 150 PS (148 HP). 2.0 TSI is 190 PS (187 HP) or 245 PS (242 HP). Average car is around 200 HP. 150 HP is below average, 190 HP is average, 245 HP is above average. For 'TSI' generally, let's average or lean towards the more common engines. Score: -0.10 (leaning towards 150/190).
+- **torque**: 1.5 TSI is 250 Nm (184 lb-ft). 2.0 TSI 190PS is 320 Nm (236 lb-ft). 2.0 TSI 245PS is 370 Nm. Average car is around 190 lb-ft. 184 lb-ft is average, 236 lb-ft is above average. Score: 0.05 (leaning towards 1.5/2.0 190).
+- **cylinder_count**: 4 cylinders for TSI engines. Average is 6. Score: -0.20.
+- **engine_displacement**: 1.5 TSI is 1498 cc (1.5L). 2.0 TSI is 1984 cc (2.0L). Average is 3.0L. Score: -0.20.
+- **accel_0_60_sec**: 1.5 TSI 9.6s (DSG), 10.3s (Manual). 1.4 TSI 9.5s. 2.0 TSI 190PS 7.4s, 7.8s. 2.0 TSI 245PS 6.2s. Average is 7.5s. Scores range from -0.30 (1.5 TSI) to 0.20 (2.0 TSI 190) to 0.50 (2.0 TSI 245). For 'TSI', let's average the common ones. Score: -0.10 (average of 1.5 and 2.0 190).
+- **top_speed**: 1.5 TSI 124 mph, 123 mph. 2.0 TSI 190PS 132 mph, 131.73 mph. 2.0 TSI 245PS 142 mph. Average is 150 mph. Scores range from -0.20 (1.5 TSI) to -0.10 (2.0 TSI 190) to 0.00 (2.0 TSI 245). Score: -0.20 (leaning towards 1.5/2.0 190).
+- **drive_type**: FWD or 4MOTION (AWD). Score: 0.00 (as AWD is an option).
+- **transmission_type**: Manual or DSG (Automatic). Score: 0.00 (as Automatic is common).
+- **driving_track_vs_gt**: Family SUV, comfortable for daily driving and longer trips. Score: 0.20 (leaning towards GT).
+- **offroad_ability**: SUV stance, some AWD options, but not a dedicated off-roader. Ground clearance is average. Score: 0.00.
+- **braking_dist_ft**: No specific data found. Default: 0.00.
+- **size**: Length 4701-4728mm. Width 1839mm. This is larger than a typical sedan/compact SUV, fitting into the larger SUV segment. Score: 0.20.
+- **wheelbase**: 2787-2790mm. This is longer than average, contributing to interior space. Score: 0.10.
+- **body_style**: 5-door SUV. Score: 0.00.
+- **seats**: 7 seats (2/3/2 configuration). Score: 0.50.
+- **cargo_space**: 230L (7 seats), 700L (5 seats), 1775-1920L (seats folded). 700L is excellent for 5-seat mode. Score: 0.50.
+- **rear_space**: Spacious interior, comfortable for passengers. Third row is recommended for passengers up to 1.60m. Score: 0.00 (average for 2nd row, limited for 3rd).
+- **ground_clearance_in**: 201mm (7.91 inches). This is slightly above average for a crossover. Score: 0.10.
+- **turn_radius_ft**: 11.9m (39.04 ft). This is slightly above average. Score: 0.00.
+- **mpg**: 1.5 TSI combined WLTP 38.9–41.6 mpg, Real MPG 33.9 mpg. 2.0 TSI 190PS combined WLTP 35 mpg UK, NEDC 38.7 UK mpg. 2.0 TSI 245PS combined WLTP 8.6L/100km (32.9 mpg US). Average is 30 mpg. Scores range from 0.00 to 0.10. Score: 0.05.
+- **co2_g_km**: 1.5 TSI combined WLTP 156-170 g/km, NEDC 130-139 g/km. 2.0 TSI 190PS combined WLTP 190 g/km, NEDC 152-162 g/km, 172 g/km. 2.0 TSI 245PS combined WLTP 203 g/km, NEDC 170-174 g/km. Average is 175 g/km. Scores range from 0.00 to -0.20. Score: -0.05.
+- **electrification**: Petrol engine. Score: -1.00.
+- **electric_range_mi**: Not electric. Score: -1.00.
+- **charge_speed_kw**: Not electric. Score: -1.00.
+- **style_sleek_vs_boxy**: SUV shape, not particularly sleek or boxy. Score: 0.00.
+- **style_aggression_rating**: Standard VW SUV styling, not aggressive. R-Line adds some sportiness. Score: -0.10 (leaning towards less aggressive).
+- **style_modernity_rating**: Updated design, but not avant-garde. Score: 0.00.
+- **handling_rating**: No specific rating found, generally described as comfortable rather than sporty. Score: 0.00.
+- **ride_comfort_rating**: Described as comfortable. Score: 0.20.
+- **cabin_noise_rating**: No specific rating found, but described as comfortable interior. Score: 0.00.
+- **shift_smooth_rating**: DSG is generally smooth, manual is slightly notchy. Score: 0.00 (considering both options).
+- **steering_feel_rating**: Electromechanical power steering, speed-sensitive. No specific feel rating, likely average. Score: 0.00.
+- **adas_score**: IQ.Drive standard on all variants includes AEB, ACC, Blind Spot, Rear Cross Traffic, Lane Assist. This is a good suite of standard ADAS. Score: 0.50.
+- **visibility_rating**: No specific rating found, SUV body style generally offers good visibility. Score: 0.20.
+- **headlight_rating**: LED headlamps standard, IQ.LIGHT matrix LED available. Score: 0.40 (standard is good, option is excellent).
+- **security_rating**: Standard safety features include airbags, ISOFIX, seat belts. Alarm system mentioned. Score: 0.00.
+- **screen_in**: 8.0-inch touchscreen standard, 9.2-inch on higher trims. 10.25-inch digital driver display standard. Score: 0.20 (standard is average, higher trims better).
+- **infotainment_ux_rating**: Described as advanced, easy to use, logical layout. Score: 0.20.
+- **smartphone_connect_rating**: App-Connect with USB-C, Voice control standard. Wireless charging available. Wireless CarPlay/AA mentioned. Score: 0.40.
+- **audio_rating**: Harman Kardon sound system available. Standard audio not specified, likely average. Score: 0.10 (average standard, good option).
+- **usb_ports**: 2x USB-C in front standard. Number in rear not specified. Score: 0.00.
+- **comfort_feature_score**: 3-zone climate control standard, heated/ventilated/electric seats, panoramic sunroof available. Score: 0.40.
+- **convenience_feature_score**: Cruise control, parking aids (Area View/Rear View, Park Assist optional), powered tailgate available, keyless entry. Score: 0.40.
+- **brand_prestige_rating**: Volkswagen is a mainstream brand, above average but not luxury. Score: 0.10.
+- **model_prestige_rating**: Tiguan is a popular, well-regarded SUV model, but not a halo car. Allspace is a larger variant. Score: 0.00.
+- **trim_prestige_rating**: 'TSI' is an engine type, not a specific trim level. It's available across various trims (Life, Elegance, R-Line). This makes scoring trim prestige difficult for 'TSI' generically. Default to 0.00.
+- **interior_luxury_rating**: Mix of high-end materials and soft touchpoints, feels high-quality, Vienna leather available. Score: 0.20.
+- **interior_tech_focus_rating**: Digital Cockpit Pro standard, large screens, ADAS features. Score: 0.40.
+
+Review and adjust scores based on the -1 to +1 scale and benchmarks. Ensure 2 decimal places.
+
+- price_usd: £30k-40k is below $52k average. Score 0.10.
+- total_cost_estimate_5yr_usd: Average. Score 0.00.
+- insurance_usd_yr: Group 16-29, average is around 20. Score 0.00.
+- maint_usd_yr: Cited as high compared to rivals, but actual cost per year seems below $1000 average based on service plan costs. Score 0.10.
+- repair_risk_score: Average reliability. Score 0.00.
+- hp: 150-245 HP. Average around 200. Score 0.00.
+- torque: 184-370 lb-ft. Average around 190. Score 0.10.
+- cylinder_count: 4. Below average (6). Score -0.20.
+- engine_displacement: 1.5-2.0L. Below average (3.0L). Score -0.20.
+- accel_0_60_sec: 6.2-10.3s. Average 7.5s. Score 0.00.
+- top_speed: 123-142 mph. Average 150 mph. Score -0.20.
+- drive_type: FWD/AWD. Score 0.00.
+- transmission_type: Manual/Auto. Score 0.00.
+- driving_track_vs_gt: GT leaning. Score 0.20.
+- offroad_ability: Average SUV. Score 0.00.
+- braking_dist_ft: No data. Score 0.00.
+- size: Larger SUV. Score 0.20.
+- wheelbase: Longer than average. Score 0.10.
+- body_style: SUV. Score 0.00.
+- seats: 7. Above average. Score 0.50.
+- cargo_space: Excellent in 5-seat mode. Score 0.50.
+- rear_space: Average 2nd row, limited 3rd. Score 0.00.
+- ground_clearance_in: Slightly above average. Score 0.10.
+- turn_radius_ft: Slightly above average (larger). Score 0.00.
+- mpg: Average to slightly above average. Score 0.05.
+- co2_g_km: Average to slightly above average (lower emissions). Score 0.05.
+- electrification: Petrol. Score -1.00.
+- electric_range_mi: N/A. Score -1.00.
+- charge_speed_kw: N/A. Score -1.00.
+- style_sleek_vs_boxy: Average. Score 0.00.
+- style_aggression_rating: Below average. Score -0.10.
+- style_modernity_rating: Average. Score 0.00.
+- handling_rating: Average. Score 0.00.
+- ride_comfort_rating: Above average. Score 0.20.
+- cabin_noise_rating: No specific data, assume average. Score 0.00.
+- shift_smooth_rating: Average (mix of manual/DSG). Score 0.00.
+- steering_feel_rating: Average. Score 0.00.
+- adas_score: Good standard suite. Score 0.50.
+- visibility_rating: Average SUV. Score 0.00.
+- headlight_rating: Good standard, excellent option. Score 0.30.
+- security_rating: Average. Score 0.00.
+- screen_in: Average to above average. Score 0.10.
+- infotainment_ux_rating: Above average. Score 0.20.
+- smartphone_connect_rating: Good standard, wireless option. Score 0.30.
+- audio_rating: Average standard, good option. Score 0.10.
+- usb_ports: Average (2 front). Score 0.00.
+- comfort_feature_score: Good options available. Score 0.40.
+- convenience_feature_score: Good options available. Score 0.40.
+- brand_prestige_rating: Above average mainstream. Score 0.10.
+- model_prestige_rating: Average. Score 0.00.
+- trim_prestige_rating: N/A for engine type. Score 0.00.
+- interior_luxury_rating: Above average for mainstream. Score 0.20.
+- interior_tech_focus_rating: Above average. Score 0.30.
+
+Final check of scores and formatting.```json
+{
+  "price_usd": 0.10,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.10,
+  "repair_risk_score": 0.00,
+  "hp": 0.00,
+  "torque": 0.10,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": 0.00,
+  "top_speed": -0.20,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.20,
+  "offroad_ability": 0.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.20,
+  "wheelbase": 0.10,
+  "body_style": 0.00,
+  "seats": 0.50,
+  "cargo_space": 0.50,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.10,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.05,
+  "co2_g_km": 0.05,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -0.10,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.20,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.50,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.30,
+  "security_rating": 0.00,
+  "screen_in": 0.10,
+  "infotainment_ux_rating": 0.20,
+  "smartphone_connect_rating": 0.30,
+  "audio_rating": 0.10,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.40,
+  "convenience_feature_score": 0.40,
+  "brand_prestige_rating": 0.10,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.20,
+  "interior_tech_focus_rating": 0.30
+}
+```

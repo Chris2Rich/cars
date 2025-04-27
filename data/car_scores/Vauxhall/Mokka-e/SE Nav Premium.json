@@ -1,0 +1,113 @@
+Based on the search results for the Vauxhall Mokka-e SE Nav Premium:
+
+*   **Price:** New price around £30,840 after PiCG in 2021. Used prices range from £8,800 - £12,475. Let's use a representative used price as the "most recent version" implies it's not necessarily brand new stock. A mid-range used price seems appropriate. Let's use £11,000. This is well below the market average of $52,000, scoring high.
+*   **Total Cost Estimate 5yr:** No specific data found. Default to 0.00.
+*   **Insurance USD/yr:** Insurance group 21E. This is around the average range (1-50), so score 0.00.
+*   **Maint USD/yr:** EVs generally have lower maintenance costs than ICE cars. Score positively, maybe 0.50.
+*   **Repair Risk Score:** Reliability should be good as it shares components with other EVs and has fewer moving parts than ICE cars. Score positively, maybe 0.50.
+*   **HP:** 134 bhp (100 kW). This is below the average car (200 hp), so score negatively. -0.70 seems appropriate.
+*   **Torque:** 260 Nm (192 lb-ft). This is around the average (190 lb-ft), so score 0.00.
+*   **Cylinder Count:** 0 (EV). Score 0.00 as it's not applicable in the traditional sense.
+*   **Engine Displacement:** 0L (EV). Score 0.00 as it's not applicable.
+*   **Accel 0-60 mph:** 8.5-9.2 seconds. This is slower than the average (~7.5 sec), so score negatively. -0.60 seems appropriate.
+*   **Top Speed:** 93 mph (150 km/h). This is well below the average (150 mph), so score negatively. -0.50 seems appropriate.
+*   **Drive Type:** Front-wheel drive (FWD). Score -1.00.
+*   **Transmission Type:** Automatic (single-speed for EV). Score 1.00.
+*   **Driving Track vs GT:** Described as a comfortable, capable daily driver. Not designed for enthusiastic driving. Score 0.00.
+*   **Offroad Ability:** It's a compact SUV/crossover, but FWD and not designed for off-road. Score 1.00 (poor off-road).
+*   **Braking Dist ft:** No specific data found. Default to 0.00.
+*   **Size:** Length 4151mm. This is on the smaller side of the average (4600mm), so score negatively. -0.30 seems appropriate.
+*   **Wheelbase:** 2561mm. This is smaller than the average (2700mm), so score negatively. -0.30 seems appropriate.
+*   **Body Style:** 5-door Hatchback/SUV/Crossover. Score 0.00 (common).
+*   **Seats:** 5 seats. Score 0.00.
+*   **Cargo Space:** 350 litres (seats up). This is around 12.3 cu ft (350L / 28.317). This is below the average (15 cu ft), so score negatively. -0.30 seems appropriate. Some sources say 310L, which is even smaller (~10.9 cu ft). Let's stick with -0.30 as 350L is also cited.
+*   **Rear Space:** Limited head and knee space for tall adults. Score negatively. -0.50 seems appropriate.
+*   **Ground Clearance in:** No specific data found. Default to 0.00.
+*   **Turn Radius ft:** Turning circle 11.08m. This is about 36.35 ft (11.08 * 3.28084). This is around the average (36 ft), so score 0.00.
+*   **MPG:** N/A for EV. Use CO2. Score 0.00.
+*   **CO2 g/km:** 0 g/km. Score 1.00.
+*   **Electrification:** Battery Electric Vehicle (BEV). Score 1.00.
+*   **Electric Range mi:** WLTP range up to 201 miles. Real-world range around 130-155 miles. 201 miles is below the best-in-class (>375 mi) but better than the average EV (~100 mi). Score 0.20 seems fair, considering the average EV range is increasing.
+*   **Charge Speed kW:** Max DC rapid charge 100 kW. On-board AC charger 11 kW standard. 100 kW DC is decent, above average (~50 kW) but not best-in-class (~250-350+ kW). Score 0.30 seems appropriate.
+*   **Style Sleek vs Boxy:** Described as a funky, futuristic, modern SUV/crossover. Not particularly sleek or boxy. Score 0.00.
+*   **Style Aggression Rating:** Has a "muscle car appearance", "bold, eye-catching good looks". Score slightly positive, 0.10.
+*   **Style Modernity Rating:** Described as "all new and thoroughly modern", "futuristic looks", "bold new design language". Score positively, 0.50.
+*   **Handling Rating:** Described as nimble, more responsive and agile than the previous generation, but not designed for enthusiastic driving. Steering lacks sensitive feedback. Score slightly positive for improvement, but not sporty. 0.00 seems fair.
+*   **Ride Comfort Rating:** Generally smooth ride, softer ride than the regular Mokka, comfortable seats. Score positively, 0.30.
+*   **Cabin Noise Rating:** Near utter silence, refined and quiet. Score positively, 0.50.
+*   **Shift Smooth Rating:** Single-speed automatic for EV is inherently smooth. Score 1.00.
+*   **Steering Feel Rating:** Lacks sensitive feedback, light controls. Score negatively, -0.30.
+*   **ADAS Score:** SE Nav Premium has rear parking sensors, rear view camera, speed sign recognition, cruise control/speed limiter, automatic emergency braking, forward collision alert (low speed), driver drowsiness alert, lane departure warning with lane keep assist. This is a good set of features, above average. Score 0.40.
+*   **Visibility Rating:** Windscreen is fairly narrow, pillars are fairly thick, making visibility a little worse than many rivals. Shallow rear side windows. Score negatively, -0.30.
+*   **Headlight Rating:** SE Nav Premium has LED headlights. Higher trims get Matrix LEDs. LED headlights are good, above average halogens. Score 0.50.
+*   **Security Rating:** Remote control ultrasonic security alarm system. Keyless entry and start. Good standard features. Score 0.00.
+*   **Screen in:** SE Nav Premium has a 7-inch touchscreen. Higher trims get 10-inch central and 12-inch driver displays. 7-inch is average. Score 0.00.
+*   **Infotainment UX Rating:** Uses PSA software, described as easy-to-use, but could be more intuitive. Central touchscreen integrates well with instruments. Score slightly negative due to PSA software reputation, but not terrible. -0.10 seems fair.
+*   **Smartphone Connect Rating:** Apple CarPlay and Android Auto standard. Score 0.50.
+*   **Audio Rating:** 6 speakers standard. Score 0.00.
+*   **USB Ports:** Front USB connection. Higher trims get 2 rear USB. SE Nav Premium likely has 1 or 2. Score 0.00 (average is 3).
+*   **Comfort Feature Score:** Electronic climate control (ECC). 6-way manually adjustable front seats. Heated front seats and steering wheel on higher trims. SE Nav Premium has basic climate and manual seats. Score slightly negative. -0.10 seems appropriate.
+*   **Convenience Feature Score:** Rear parking sensors, panoramic rear view camera, keyless start. Automatic wipers, lights, anti-dazzle mirror. Score positively, 0.30.
+*   **Brand Prestige Rating:** Vauxhall is a mainstream brand. Score -0.20.
+*   **Model Prestige Rating:** Mokka is a compact SUV, not a halo car or entry-level. Score 0.00.
+*   **Trim Prestige Rating:** SE Nav Premium is the base trim level. Score 1.00.
+*   **Interior Luxury Rating:** Material quality is "good enough considering the car's inexpensive price". Some cheap plastics. Score negatively. -0.30 seems appropriate.
+*   **Interior Tech Focus Rating:** Features the Pure Panel display concept, digital instruments and touchscreen. Score positively for the modern tech layout. 0.50.
+
+Final check on values and scoring. Price is based on used market data. Other scores seem consistent with reviews.```json
+{
+  "price_usd": 11000.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.50,
+  "repair_risk_score": 0.50,
+  "hp": -0.70,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.60,
+  "top_speed": -0.50,
+  "drive_type": -1.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": -0.30,
+  "wheelbase": -0.30,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": -0.30,
+  "rear_space": -0.50,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.00,
+  "co2_g_km": 1.00,
+  "electrification": 1.00,
+  "electric_range_mi": 0.20,
+  "charge_speed_kw": 0.30,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.10,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.30,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": -0.30,
+  "adas_score": 0.40,
+  "visibility_rating": -0.30,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": -0.10,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": -0.10,
+  "convenience_feature_score": 0.30,
+  "brand_prestige_rating": -0.20,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": -0.30,
+  "interior_tech_focus_rating": 0.50
+}
+```

@@ -1,142 +1,57 @@
-The most recent Mercedes-Benz C Class with the 'Avantgarde' trim is the W206 generation, launched around 2021. The 'Avantgarde' trim is a core offering on this model in many markets. I will base the evaluation on the W206 C200 Avantgarde sedan, as it's a common powertrain for this trim.
-
-Based on the search results, here are some specifications for the W206 C200 Avantgarde sedan:
-- Engine: 1.5L 4-cylinder Turbo Petrol with 48V Mild Hybrid (EQ Boost)
-- HP: 204 PS (201 hp) + 20 hp from EQ Boost
-- Torque: 300 Nm (221 lb-ft) + 200 Nm from EQ Boost
-- Transmission: 9G-Tronic 9-speed automatic
-- Drive Type: Rear-Wheel Drive (4MATIC AWD available on some engines/markets)
-- 0-60 mph: ~7.1 seconds (0-100 km/h in 7.3 seconds)
-- Top Speed: 246 km/h (~153 mph)
-- Length: 4751 mm (187.0 inches)
-- Width: 1820 mm (71.7 inches) (excluding mirrors)
-- Height: 1437 mm (56.6 inches)
-- Wheelbase: 2865 mm (112.8 inches)
-- Ground Clearance: 9.7 cm (~3.8 inches)
-- Cargo Space: 455 liters (~16.1 cu ft)
-- Seats: 5
-- Price New (UK/Europe): Starts around £38,785 / €41,138 (C180/C200) (Equivalent to ~$45,000 - $50,000+ USD depending on market/options)
-- Insurance Group (UK): 33-45 (range for W206 C-Class)
-- MPG (Combined WLTP): ~37-44 mpg (6.4 L/100km)
-- CO2 (WLTP): ~146-154 g/km
-- Electrification: Mild Hybrid (48V system with Integrated Starter Generator)
-- Electric Range: Very limited (mild hybrid boost only)
-- Charge Speed: Not applicable (mild hybrid)
-- Interior: 11.9-inch central touchscreen, 12.3-inch digital instrument cluster, MBUX infotainment, wireless CarPlay/Android Auto, heated memory seats, dual-zone climate, ambient lighting, panoramic sunroof (optional/higher trims)
-- ADAS: Basic ADAS standard (Active Brake Assist), more advanced features optional (Adaptive Cruise Control, Lane Keeping Assist, Blind Spot Assist, 360 camera, Parking Assist)
-- Headlights: LED High Performance standard, DIGITAL LIGHT optional
-- USB Ports: Six 100W fast charging USB ports mentioned for some trims
-
-Now, scoring these against today's benchmarks:
-
-*   **price_usd**: New price is around the market average for a new car, maybe slightly above depending on configuration. Score: 0.00
-*   **total_cost_estimate_5yr_usd**: Higher than average due to purchase price, maintenance, and insurance for a luxury brand. Score: -0.20
-*   **insurance_usd_yr**: Insurance group is moderate to high. Score: -0.20
-*   **maint_usd_yr**: Mercedes maintenance is generally above average. Score: -0.20
-*   **repair_risk_score**: Mercedes is generally average for reliability, but new tech can introduce issues. Score: 0.10
-*   **hp**: 201 hp + boost is around average for the overall market, maybe slightly above for a base/mid engine in this segment. Score: 0.10
-*   **torque**: 221 lb-ft + boost is around average. Score: 0.10
-*   **cylinder_count**: 4-cylinder is average. Score: 0.00
-*   **engine_displacement**: 1.5L is below average. Score: 0.00
-*   **accel_0_60_sec**: ~7.1 seconds is around average. Score: 0.00
-*   **top_speed**: ~153 mph is around average. Score: 0.00
-*   **drive_type**: RWD is less common than FWD/AWD in the average market, but preferred by some. AWD is available. Score: 0.00
-*   **transmission_type**: 9-speed automatic is modern and smooth. Score: 1.00
-*   **driving_track_vs_gt**: Comfortable luxury sedan, good for GT and daily driving. Score: 0.50
-*   **offroad_ability**: Low ground clearance, not designed for off-road. Score: 1.00
-*   **braking_dist_ft**: Likely good braking performance for its class. Score: 0.20
-*   **size**: Length is slightly above average for a sedan, but overall size is typical for the segment. Score: 0.00
-*   **wheelbase**: Wheelbase is slightly above average. Score: 0.10
-*   **body_style**: 4-door sedan is average. Score: 0.00
-*   **seats**: 5 seats is average. Score: 0.00
-*   **cargo_space**: 16.1 cu ft is around average for a sedan. Score: 0.00
-*   **rear_space**: Improved rear legroom over previous generation, likely above average for the segment. Score: 0.20
-*   **ground_clearance_in**: 3.8 inches is very low. Score: -0.80
-*   **turn_radius_ft**: Standard turning circle is likely average, rear-axle steering improves it (optional). Score: 0.00
-*   **mpg**: Mild hybrid helps, fuel economy is decent for a petrol luxury sedan. Score: 0.10
-*   **co2_g_km**: CO2 emissions are around average for a non-PHEV petrol car. Score: 0.00
-*   **electrification**: Mild Hybrid system. Score: -0.50
-*   **electric_range_mi**: Very limited electric-only capability (mild hybrid). Score: -1.00
-*   **charge_speed_kw**: Not applicable (mild hybrid). Score: -1.00
-*   **style_sleek_vs_boxy**: Modern sedan shape, leaning towards sleek. Score: 0.30
-*   **style_aggression_rating**: Avantgarde trim is sportier than base but less aggressive than AMG Line. Score: 0.10
-*   **style_modernity_rating**: W206 is a very modern design. Score: 0.80
-*   **handling_rating**: Competent and comfortable, but less sporty than rivals like the 3 Series. Score: 0.00
-*   **ride_comfort_rating**: Praised for excellent ride comfort. Score: 0.80
-*   **cabin_noise_rating**: Excellent cabin insulation. Score: 0.80
-*   **shift_smooth_rating**: 9-speed automatic is very smooth. Score: 0.80
-*   **steering_feel_rating**: Can feel a bit numb compared to sportier rivals. Score: -0.10
-*   **adas_score**: Basic ADAS standard, comprehensive optional suite available. Score: 0.50
-*   **visibility_rating**: Generally good visibility for a sedan. Score: 0.00
-*   **headlight_rating**: LED standard, advanced DIGITAL LIGHT optional. Score: 0.50
-*   **security_rating**: High standard of security features. Score: 0.50
-*   **screen_in**: Large 11.9-inch central screen and 12.3-inch digital cluster are well above average. Score: 0.80
-*   **infotainment_ux_rating**: Latest MBUX system is generally well-regarded, though touch-heavy. Score: 0.70
-*   **smartphone_connect_rating**: Wireless Apple CarPlay/Android Auto available. Score: 1.00
-*   **audio_rating**: Standard audio is likely good, Burmester optional. Score: 0.50
-*   **usb_ports**: Multiple USB-C ports, including high-power ones. Score: 0.50
-*   **comfort_feature_score**: Heated memory seats, dual-zone climate, ambient lighting standard/available. High level of comfort features. Score: 0.60
-*   **convenience_feature_score**: Keyless entry, power trunk, parking aids, optional 360 camera, etc. High level of convenience features. Score: 0.60
-*   **brand_prestige_rating**: Mercedes-Benz is high prestige. Score: 0.70
-*   **model_prestige_rating**: C-Class is a core model, average prestige within the brand. Score: 0.00
-*   **trim_prestige_rating**: Avantgarde is a mid-level trim. Score: 0.00
-*   **interior_luxury_rating**: High-quality materials, modern design, luxurious feel for the segment. Score: 0.70
-*   **interior_tech_focus_rating**: Very high tech focus with large screens and MBUX. Score: 0.90
-
 ```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": -0.20,
-  "insurance_usd_yr": -0.20,
-  "maint_usd_yr": -0.20,
-  "repair_risk_score": 0.10,
-  "hp": 0.10,
-  "torque": 0.10,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
+  "price_usd": -0.25,
+  "total_cost_estimate_5yr_usd": -0.25,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.25,
+  "hp": 0.00,
+  "torque": 0.25,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.25,
   "accel_0_60_sec": 0.00,
   "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "driving_track_vs_gt": 0.50,
+  "driving_track_vs_gt": 0.25,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.20,
+  "braking_dist_ft": 0.25,
   "size": 0.00,
-  "wheelbase": 0.10,
+  "wheelbase": 0.00,
   "body_style": 0.00,
   "seats": 0.00,
   "cargo_space": 0.00,
-  "rear_space": 0.20,
-  "ground_clearance_in": -0.80,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
   "turn_radius_ft": 0.00,
-  "mpg": 0.10,
-  "co2_g_km": 0.00,
-  "electrification": -0.50,
+  "mpg": 0.25,
+  "co2_g_km": 0.25,
+  "electrification": -0.75,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.30,
-  "style_aggression_rating": 0.10,
-  "style_modernity_rating": 0.80,
+  "style_sleek_vs_boxy": 0.25,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.75,
   "handling_rating": 0.00,
-  "ride_comfort_rating": 0.80,
-  "cabin_noise_rating": 0.80,
-  "shift_smooth_rating": 0.80,
-  "steering_feel_rating": -0.10,
+  "ride_comfort_rating": 0.75,
+  "cabin_noise_rating": 0.75,
+  "shift_smooth_rating": 0.75,
+  "steering_feel_rating": 0.00,
   "adas_score": 0.50,
   "visibility_rating": 0.00,
   "headlight_rating": 0.50,
   "security_rating": 0.50,
-  "screen_in": 0.80,
-  "infotainment_ux_rating": 0.70,
-  "smartphone_connect_rating": 1.00,
+  "screen_in": 0.75,
+  "infotainment_ux_rating": 0.75,
+  "smartphone_connect_rating": 0.75,
   "audio_rating": 0.50,
-  "usb_ports": 0.50,
-  "comfort_feature_score": 0.60,
-  "convenience_feature_score": 0.60,
-  "brand_prestige_rating": 0.70,
+  "usb_ports": 0.75,
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 0.75,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.70,
-  "interior_tech_focus_rating": 0.90
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": 0.75
 }
 ```

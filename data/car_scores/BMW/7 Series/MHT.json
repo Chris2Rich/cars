@@ -1,19 +1,76 @@
+The most recent BMW 7 Series generation is the G70 (since 2022). The term 'MHT' refers to the Mild Hybrid Technology that is standard on the internal combustion engine variants of the G70, such as the 740i and 760i xDrive. I will evaluate the G70 740i as a representative model for the 'BMW 7 Series MHT', scoring it against today's market benchmarks.
+
+- **price_usd**: The 2025 BMW 740i starts at $97,300 MSRP. This is significantly above the market average of ~$52,000. Score: -1.00.
+- **total_cost_estimate_5yr_usd**: As a high-end luxury vehicle, the 740i will have high depreciation, insurance, and maintenance costs, leading to a high 5-year ownership cost. Score: -1.00.
+- **insurance_usd_yr**: Luxury cars like the 7 Series fall into high insurance groups. Score: -0.50.
+- **maint_usd_yr**: BMW maintenance is generally more expensive than average. Score: -0.50.
+- **repair_risk_score**: BMW generally has an average reliability reputation. Score: 0.00.
+- **hp**: The G70 740i has 375-381 hp. This is well above the average car's horsepower. Score: 0.50.
+- **torque**: The G70 740i has 383-398 lb-ft (520-540 Nm). This is significantly above the average car's torque. Score: 0.70.
+- **cylinder_count**: Uses a 6-cylinder engine. This is above the average 4-cylinder. Score: 0.00.
+- **engine_displacement**: The engine is 3.0L (2998 cm³). This is above average displacement. Score: 0.00.
+- **accel_0_60_sec**: BMW estimates 0-60 mph in 4.9-5.2 seconds. This is quick compared to the average car. Score: 0.50.
+- **top_speed**: Top speed is electronically limited to 155 mph (250 km/h). This is around the average for many modern cars. Score: 0.00.
+- **drive_type**: Available with RWD or AWD (xDrive). RWD is +1.00, AWD is 0.00. Score: 0.50 (averaging RWD and AWD availability).
+- **transmission_type**: 8-speed automatic transmission (Steptronic). This is the benchmark for smooth automatic transmissions. Score: 1.00.
+- **driving_track_vs_gt**: The 7 Series is designed as a comfortable luxury cruiser (Grand Tourer). Score: 1.00.
+- **offroad_ability**: As a large luxury sedan with low ground clearance, it has no off-road capability. Score: 1.00.
+- **braking_dist_ft**: No specific data found for G70 740i. Assume average for a large sedan with good brakes. Score: 0.00.
+- **size**: The G70 is around 5391 mm (212.2 inches) long. This is a very large car. Score: 1.00.
+- **wheelbase**: The G70 wheelbase is around 3215 mm (126.6 inches). Very long wheelbase. Score: 1.00.
+- **body_style**: 4-door sedan. Score: 0.00.
+- **seats**: 5 seats. Score: 0.00.
+- **cargo_space**: 540 litres (19.07 cu ft). This is above average for a sedan. Score: 0.20.
+- **rear_space**: Excellent rear legroom due to the long wheelbase. Score: 1.00.
+- **ground_clearance_in**: 136-147 mm (5.35-5.8 inches). This is below average. Score: -0.50.
+- **turn_radius_ft**: 12.1-12.9 m (39.7-42.3 ft). This is on the larger side. Score: -0.50.
+- **mpg**: EPA rated 25 city / 31 highway mpg (RWD). Combined is around 27-28 mpg. This is around average for the market, but good for a large luxury car. Score: 0.00.
+- **co2_g_km**: 160-180 g/km (WLTP). This is around average. Score: 0.00.
+- **electrification**: Mild hybrid system (MHT). Score: -1.00.
+- **electric_range_mi**: Not applicable for a mild hybrid. Score: -1.00.
+- **charge_speed_kw**: Not applicable for a mild hybrid. Score: -1.00.
+- **style_sleek_vs_boxy**: The G70 has a distinctive, somewhat boxy but modern design. Score: 0.00.
+- **style_aggression_rating**: Features a large grille and split headlights, giving it some aggression. Score: 0.50.
+- **style_modernity_rating**: Features a controversial but modern design. Score: 0.50.
+- **handling_rating**: Handles well for its size, disguises its weight, especially with rear-axle steering. Score: 0.00.
+- **ride_comfort_rating**: Standard air suspension provides a blissfully smooth ride. Score: 1.00.
+- **cabin_noise_rating**: Very quiet cabin. Score: 1.00.
+- **shift_smooth_rating**: 8-speed ZF automatic is known for smoothness. Score: 1.00.
+- **steering_feel_rating**: Steering feel is noted as numb but with good weight. Score: 0.00.
+- **adas_score**: Abundant standard safety tech and available advanced packages, including hands-free driving system and Parking Assistant Professional. Score: 0.50.
+- **visibility_rating**: Generally good visibility for a sedan. Score: 0.00.
+- **headlight_rating**: Features advanced headlights, including optional crystal headlights. Score: 0.50.
+- **security_rating**: Luxury cars typically have good security features. Score: 0.50.
+- **screen_in**: BMW Curved Display with 12.3" instrument cluster and 14.9" central information display standard. Optional 31.3-inch rear screen. Score: 1.00.
+- **infotainment_ux_rating**: iDrive 8/8.5 is advanced with touch, voice, and dial control. Generally well-regarded, though some screen controls can be fiddly. Score: 0.50.
+- **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto standard. Score: 1.00.
+- **audio_rating**: Standard Bowers and Wilkins Surround Sound System (18 speakers), optional Bowers & Wilkins Diamond Surround Sound System (up to 40 speakers). Score: 1.00.
+- **usb_ports**: Six USB-C sockets featured. Score: 0.50.
+- **comfort_feature_score**: Heated front/rear seats standard, ventilated and massaging seats optional, 4-zone climate control, reclining rear seats available. Score: 1.00.
+- **convenience_feature_score**: Optional automatic doors, Parking Assistant Professional, Surround View w/3D View, remote engine start, keyless entry. Score: 1.00.
+- **brand_prestige_rating**: BMW is a prestigious brand. Score: 0.50.
+- **model_prestige_rating**: The 7 Series is the flagship model. Score: -1.00.
+- **trim_prestige_rating**: The 740i is typically an entry-level engine/trim for the 7 Series in markets where it's offered. Score: 1.00.
+- **interior_luxury_rating**: High-quality materials, leather, optional cashmere, crystal details, Executive Lounge options. Score: 1.00.
+- **interior_tech_focus_rating**: Screen-forward design, BMW Curved Display, Interaction Bar, optional rear theatre screen, Head-up Display, Intelligent Personal Assistant. Score: 1.00.
+
 ```json
 {
-  "price_usd": -0.95,
+  "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
-  "insurance_usd_yr": -1.00,
-  "maint_usd_yr": -1.00,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.50,
   "repair_risk_score": 0.00,
-  "hp": 0.65,
-  "torque": 0.65,
+  "hp": 0.50,
+  "torque": 0.70,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.75,
-  "top_speed": 0.10,
-  "drive_type": 1.00,
+  "accel_0_60_sec": 0.50,
+  "top_speed": 0.00,
+  "drive_type": 0.50,
   "transmission_type": 1.00,
-  "offroad_ability": -1.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
   "size": 1.00,
   "wheelbase": 1.00,
@@ -21,35 +78,36 @@
   "seats": 0.00,
   "cargo_space": 0.20,
   "rear_space": 1.00,
-  "ground_clearance_in": -0.20,
-  "turn_radius_ft": -0.60,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": -0.50,
   "mpg": 0.00,
   "co2_g_km": 0.00,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.30,
-  "style_modernity_rating": 0.60,
-  "handling_rating": 0.40,
-  "ride_comfort_rating": 0.90,
-  "cabin_noise_rating": 0.90,
-  "shift_smooth_rating": 0.90,
-  "steering_feel_rating": -0.40,
-  "adas_score": 0.90,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 1.00,
+  "cabin_noise_rating": 1.00,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.50,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.90,
-  "security_rating": 0.90,
-  "screen_in": 0.90,
-  "infotainment_ux_rating": 0.80,
+  "headlight_rating": 0.50,
+  "security_rating": 0.50,
+  "screen_in": 1.00,
+  "infotainment_ux_rating": 0.50,
   "smartphone_connect_rating": 1.00,
-  "audio_rating": 0.95,
-  "usb_ports": 0.90,
-  "comfort_feature_score": 0.95,
-  "convenience_feature_score": 0.95,
-  "brand_prestige_rating": 0.80,
+  "audio_rating": 1.00,
+  "usb_ports": 0.50,
+  "comfort_feature_score": 1.00,
+  "convenience_feature_score": 1.00,
+  "brand_prestige_rating": 0.50,
   "model_prestige_rating": -1.00,
   "trim_prestige_rating": 1.00,
-  "interior_luxury_rating": 0.95,
-  "interior_tech_focus_rating": 0.95
+  "interior_luxury_rating": 1.00,
+  "interior_tech_focus_rating": 1.00
 }
 ```

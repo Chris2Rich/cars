@@ -1,111 +1,57 @@
-Based on the search results, the most recent available Porsche Panamera GTS is the 2023 model year. The 2024 model year was updated, but the GTS trim was not initially offered and is expected later, possibly for 2025. I will use the specifications for the 2023 Porsche Panamera GTS.
-
-Here's the evaluation based on the gathered data and the scoring guide:
-
-*   **price\_usd**: 2023 Panamera GTS starts around $140,000+ (Source [2], [8], [13]). This is well above the $100,000 threshold for -1.00. Score: -1.00.
-*   **total\_cost\_estimate\_5yr\_usd**: No specific 5-year cost found, but given the high purchase price, insurance, and maintenance costs for a Porsche, it will be well over $60,000. Score: -1.00.
-*   **insurance\_usd\_yr**: High-performance luxury car. High insurance group. Score: -1.00.
-*   **maint\_usd\_yr**: Porsche maintenance is expensive. Score: -1.00.
-*   **repair\_risk\_score**: Porsche generally has average reliability (Source [2] mentions "exceptionally well-built car a solid value" for the Panamera line). Score: 0.00.
-*   **hp**: 473 hp (Source [2], [13], [16], [17]) or 500 PS / 368 kW (Source [5], [10], [12]). Significantly above the 200 hp average. Score: 0.75 (closer to 700+ than 200).
-*   **torque**: 457 lb-ft (Source [2], [10], [13], [16], [17]) or 620 Nm (Source [5], [6], [9], [11], [16]). Significantly above the 190 lb-ft average. Score: 0.75 (closer to 1000+ than 190).
-*   **cylinder\_count**: V8 (Source [2], [5], [6], [10], [11], [16], [17], [18], [19]). Score: 0.50 (above 6, below 12).
-*   **engine\_displacement**: 4.0L (Source [2], [5], [6], [9], [10], [11], [16], [17], [18], [19]). Score: 0.50 (above 3.0L, below 6.0L).
-*   **accel\_0\_60\_sec**: 3.2 seconds (Source [2]), 3.6 seconds (Source [10]), 3.7 seconds (Source [17]), 0-100 km/h in 3.8 seconds (Source [5], [12]). Much faster than 7.5s. Score: 0.90 (closer to 2.5s than 7.5s).
-*   **top\_speed**: 186 mph (Source [10], [13], [14]), 300 km/h (186 mph) (Source [3], [11]), 302 km/h (188 mph) (Source [5]). Well above 150 mph. Score: 0.75 (closer to 202+ than 150).
-*   **drive\_type**: AWD (Source [2], [5], [6], [9], [10], [11], [13], [17], [18], [19]). Score: 0.00.
-*   **transmission\_type**: 8-speed dual-clutch automatic (PDK) (Source [3], [6], [9], [10], [11], [18], [28]). Dual-Clutch. Score: 0.00.
-*   **offroad\_ability**: Low-slung performance sedan. Score: 1.00 (poor off-road ability).
-*   **braking\_dist\_ft**: 100-0 km/h braking: 34.13 metres (111.9 ft) (Source [9]). Excellent braking. Score: 0.75 (closer to <105 than 125).
-*   **size**: Length around 198.8-199.0 inches / 5050-5053 mm (Source [10], [13], [21], [23]). Larger than 4600mm. Score: 0.50.
-*   **wheelbase**: Around 116.1 inches / 2949-2950 mm (Source [10], [13], [21], [23]). Larger than 2700mm. Score: 0.50.
-*   **body\_style**: 4-door Hatchback Sedan (Source [2], [4], [6], [18]). Score: 0.00.
-*   **seats**: 4 seats standard (Source [2], [8], [13], [25], [27]), optional 5th seat (Source [2]). Standard is 4. Score: -0.25.
-*   **cargo\_space**: 17.6 cu ft (Source [2], [8], [13], [25]), 16.9 ft³ (Source [10]). Slightly above 15 cu ft. Score: 0.25.
-*   **rear\_space**: Rear legroom around 31.9 inches (Source [4]). Below 35". Score: -0.25.
-*   **ground\_clearance\_in**: Around 4.9-5.2 inches (Source [10], [21]). Below 6.5". Score: -0.50.
-*   **turn\_radius\_ft**: Around 39.0-39.3 ft (Source [10], [13]). Slightly larger than 36 ft. Score: -0.25.
-*   **mpg**: 15 city / 21 highway / 17 combined (Source [8], [13]), 19 combined (Source [2]), 21.2 combined (Sport Turismo, Source [18]), 22.7 – 24.4 mpg combined WLTP (Source [12]). Using the 17-19 combined range. Below 30 mpg. Score: -0.50.
-*   **co2\_g\_km**: 267 g/km (Source [5], [6], [12]), 235g (Sport Turismo, Source [21]), 253 g/km (Sport Turismo, Source [18]), 283 – 264 g/km combined WLTP (Source [12]), 323 g/km (Est) (Source [19]). These are well above 175 g/km. Score: -0.75 (closer to >300 than 175).
-*   **electric\_range\_mi**: Not electric. Score: -1.00.
-*   **charge\_speed\_kw**: Not electric. Score: -1.00.
-*   **style\_sleek\_vs\_boxy**: Sleek, coupe-like profile (Source [4]). Score: 0.75.
-*   **style\_aggression\_rating**: Sporty and aggressive styling cues (GTS trim has black highlights, specific apron, tinted taillights) (Source [3], [18]). Score: 0.75.
-*   **style\_modernity\_rating**: Modern design, though based on the previous generation platform for 2023. Score: 0.50.
-*   **handling\_rating**: Excellent handling, sports car dynamics, "tremendously fun", "decisive steering and incredible grip" (Source [2], [3], [4], [24], [30]). Score: 1.00.
-*   **ride\_comfort\_rating**: GTS is sportier, firmer ride than other Panameras, but still comfortable for a performance car, "ride is almost shockingly good" (Source [2], [3], [24], [30]). Score: 0.50.
-*   **cabin\_noise\_rating**: V8 engine note is present, but cabin is generally well-insulated for a performance car (Source [3], [24]). Score: 0.50.
-*   **shift\_smooth\_rating**: PDK is known for fast and smooth shifts (Source [3], [24]). Score: 0.75.
-*   **steering\_feel\_rating**: Excellent, communicative steering, "decisive steering" (Source [2], [3], [24], [30]). Score: 1.00.
-*   **adas\_score**: Available ADAS features like adaptive cruise control, lane keeping assist, night vision, surround-view camera, Lane Change Assist (Source [2], [4], [22]). Score: 0.75.
-*   **visibility\_rating**: Rear visibility can be limited by the sloping roofline, but front visibility is excellent, surround-view camera helps (Source [4], [22], [24], [31]). Score: 0.00.
-*   **headlight\_rating**: LED headlights with Porsche Dynamic Light System (PDLS) (Source [3], [18]). Score: 0.75.
-*   **security\_rating**: Luxury car, likely good security features. Default to 0.00.
-*   **screen\_in**: 12.3-inch touchscreen (Source [4], [18], [23], [27], [28], [29]). Score: 0.75.
-*   **infotainment\_ux\_rating**: Porsche's infotainment system (PCM) is generally well-regarded, but can be fussy/complex (Source [2], [3], [4], [18], [27], [28]). Score: 0.50.
-*   **smartphone\_connect\_rating**: Wireless Apple CarPlay standard, Android Auto available (Source [27], [28]). Score: 0.75.
-*   **audio\_rating**: Premium audio options available (Bose, Burmester) (Source [22], [25], [27], [28]). Score: 0.75.
-*   **usb\_ports**: Two rear USB charging ports (Source [25]). Multiple ports available. Score: 0.50.
-*   **comfort\_feature\_score**: Heated front seats standard, optional heated rear seats, heated steering wheel, ventilated/massaging seats, quad-zone climate (Source [25]). Score: 0.75.
-*   **convenience\_feature\_score**: Parking sensors, surround-view camera, keyless entry/start, power liftgate (Source [22], [25]). Score: 0.75.
-*   **brand\_prestige\_rating**: Porsche is a high-prestige brand. Score: 1.00.
-*   **model\_prestige\_rating**: Panamera is a high-end model within Porsche. Score: -0.75.
-*   **trim\_prestige\_rating**: GTS is a performance-oriented trim, high up in the model range, but below Turbo/Turbo S. Score: -0.50.
-*   **interior\_luxury\_rating**: High-quality materials, luxurious cabin, "Materials are of the highest quality, as is the fit and finish" (Source [3], [4], [24], [25]). Score: 0.75.
-*   **interior\_tech\_focus\_rating**: Modern digital cockpit, large screen, but retains some physical controls (Source [3], [4], [23], [27], [28]). Score: 0.75.
-
 ```json
 {
   "price_usd": -1.00,
-  "total_cost_estimate_5yr_usd": -1.00,
+  "total_cost_estimate_5yr_usd": -0.90,
   "insurance_usd_yr": -1.00,
-  "maint_usd_yr": -1.00,
-  "repair_risk_score": 0.00,
-  "hp": 0.75,
-  "torque": 0.75,
+  "maint_usd_yr": -0.90,
+  "repair_risk_score": -0.20,
+  "hp": 0.60,
+  "torque": 0.60,
   "cylinder_count": 0.50,
   "engine_displacement": 0.50,
   "accel_0_60_sec": 0.90,
-  "top_speed": 0.75,
+  "top_speed": 0.50,
   "drive_type": 0.00,
   "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.50,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.75,
-  "size": 0.50,
+  "braking_dist_ft": 0.90,
+  "size": 0.90,
   "wheelbase": 0.50,
-  "body_style": 0.00,
-  "seats": -0.25,
-  "cargo_space": 0.25,
-  "rear_space": -0.25,
-  "ground_clearance_in": -0.50,
-  "turn_radius_ft": -0.25,
-  "mpg": -0.50,
-  "co2_g_km": -0.75,
+  "body_style": 0.10,
+  "seats": -0.50,
+  "cargo_space": 0.10,
+  "rear_space": 0.50,
+  "ground_clearance_in": -0.80,
+  "turn_radius_ft": 0.80,
+  "mpg": -0.90,
+  "co2_g_km": -0.90,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.75,
-  "style_aggression_rating": 0.75,
+  "style_sleek_vs_boxy": 1.00,
+  "style_aggression_rating": 0.70,
   "style_modernity_rating": 0.50,
-  "handling_rating": 1.00,
+  "handling_rating": 0.95,
   "ride_comfort_rating": 0.50,
   "cabin_noise_rating": 0.50,
-  "shift_smooth_rating": 0.75,
+  "shift_smooth_rating": 0.90,
   "steering_feel_rating": 1.00,
-  "adas_score": 0.75,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.75,
-  "security_rating": 0.00,
-  "screen_in": 0.75,
+  "adas_score": 0.50,
+  "visibility_rating": -0.20,
+  "headlight_rating": 0.70,
+  "security_rating": 0.50,
+  "screen_in": 0.50,
   "infotainment_ux_rating": 0.50,
-  "smartphone_connect_rating": 0.75,
-  "audio_rating": 0.75,
-  "usb_ports": 0.50,
-  "comfort_feature_score": 0.75,
-  "convenience_feature_score": 0.75,
-  "brand_prestige_rating": 1.00,
-  "model_prestige_rating": -0.75,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.70,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.80,
+  "convenience_feature_score": 0.80,
+  "brand_prestige_rating": 0.90,
+  "model_prestige_rating": -0.50,
   "trim_prestige_rating": -0.50,
-  "interior_luxury_rating": 0.75,
-  "interior_tech_focus_rating": 0.75
+  "interior_luxury_rating": 0.90,
+  "interior_tech_focus_rating": 0.70
 }
 ```

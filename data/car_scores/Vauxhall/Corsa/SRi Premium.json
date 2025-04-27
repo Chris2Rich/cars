@@ -1,59 +1,113 @@
-The search results indicate that 'SRi Premium' was a trim level available on the pre-facelift version of the current generation Vauxhall Corsa (Corsa F, launched in 2019) (Sources [8], [9], [10], [12], [13], [14]). However, the most recent version of the Vauxhall Corsa is the facelifted Corsa F, which was introduced in 2023. The current trim levels for the facelifted Corsa F are consistently listed as Yes, Design, GS, and Ultimate (Sources [2], [3], [4], [5], [6], [7], [11]).
+The Vauxhall Corsa 'SRi Premium' trim was available on the pre-facelift Corsa F generation (2019-2023). I will evaluate based on the 1.2 Turbo 100PS petrol engine with a manual gearbox, as this was a common and representative powertrain for this trim. I will score against current market benchmarks.
 
-Since 'SRi Premium' is not a trim level for the *most recent* version of the Vauxhall Corsa (the 2023 facelift and onwards), I cannot provide specific data for this combination based on the current model year. As per the instructions, when data is ambiguous or unclear for the requested model/trim combination, all scores must default to 0.00.
+*   **price_usd**: Used Corsa F 1.2 Turbo SRi Premium 100PS manual models from 2020-2021 are listed for around £8,800 - £12,799. Using £10,800 as a mid-point, this is ~$13,716 USD. This is significantly below the current market average for a new car ($52,000). Score: +1.00.
+*   **total_cost_estimate_5yr_usd**: While the purchase price is low, it's a relatively recent used car, so depreciation will be a factor, though less than a new car. Maintenance and insurance are relatively low for a Corsa. Overall 5-year cost should be below average. Score: 0.30.
+*   **insurance_usd_yr**: The Corsa F 1.2 Turbo 100PS SRi Premium falls into insurance group 17E. This is still relatively low compared to the full range of 1-50. Score: 0.20.
+*   **maint_usd_yr**: Maintenance costs for the Corsa F are generally considered low, with an average repair bill of less than £400. Score: 0.70.
+*   **repair_risk_score**: The Corsa F has an average reliability record (65% Expert Rating, 71% reliability score). Some reported issues include the stop-start function, window demisting problems, and potential issues with the wet cambelt if incorrect oil is used. Score: 0.00.
+*   **hp**: 100 PS (99 bhp). This is below the average for current vehicles. Score: -0.30.
+*   **torque**: 205 Nm (151.2 lb-ft). This is around average. Score: 0.00.
+*   **cylinder_count**: 3. Score: -0.50.
+*   **engine_displacement**: 1.2 litres (1199 cc). Score: -0.50.
+*   **accel_0_60_sec**: 0-60 mph in 9.6 seconds or 0-62 mph in 9.9 seconds. This is around average. Score: 0.00.
+*   **top_speed**: 121 mph. This is around average. Score: 0.00.
+*   **drive_type**: FWD. Score: -1.00.
+*   **transmission_type**: 6-speed Manual. Score: -1.00 (Manual).
+*   **driving_track_vs_gt**: Supermini/City car, with sporty styling. Score: 0.00.
+*   **offroad_ability**: FWD city car. Score: 1.00.
+*   **braking_dist_ft**: Front ventilated discs, rear drums (on some models). No specific distance found. Default to average. Score: 0.00.
+*   **size**: Length 4060-4061 mm (159.8 inches). This is small. Score: -0.70.
+*   **wheelbase**: 2538 mm (99.9 inches). This is short. Score: -0.50.
+*   **body_style**: 5-door Hatchback. Score: 0.00.
+*   **seats**: 5. Score: 0.00.
+*   **cargo_space**: 309 litres (seats up). 309 litres * 0.0353147 cu ft/litre = ~10.9 cu ft. This is low. Score: -0.50.
+*   **rear_space**: Described as cramped, less room than previous generation, knees brushing front seats. Score: -0.30.
+*   **ground_clearance_in**: Height 1433-1435 mm. Ground clearance not explicitly stated, but described as sitting "quite low". Likely low for the segment. Score: -0.20.
+*   **turn_radius_ft**: 10.4 m (34.1 ft) kerb-to-kerb, 10.7 m (35.1 ft). This is good for a city car. Score: 0.10.
+*   **mpg**: 1.2 Turbo 100PS manual gets around 52.3 - 57.6 mpg (WLTP combined). Using 52.3 mpg UK = ~43.5 US mpg. This is good. Score: 0.50.
+*   **co2_g_km**: 96 - 125 g/km (WLTP combined). Using 96 g/km. This is low. Score: 0.60.
+*   **electrification**: Petrol. Score: -1.00.
+*   **electric_range_mi**: Not electric. Score: -1.00.
+*   **charge_speed_kw**: Not electric. Score: -1.00.
+*   **style_sleek_vs_boxy**: Standard hatchback shape, with sporty SRi Nav Premium styling elements. Score: 0.00.
+*   **style_aggression_rating**: SRi Premium adds sporty touches like 17-inch alloy wheels, black roof, sports styling. Gives it a "more sporty appearance". Score: 0.30.
+*   **style_modernity_rating**: Pre-facelift Corsa F design (2019-2023). Looks reasonably modern but not cutting-edge compared to the facelifted model or newer rivals. Score: 0.00.
+*   **handling_rating**: Handles reasonably well, set up for UK roads, but lacks excitement compared to rivals like Fiesta/Ibiza. Score: 0.00.
+*   **ride_comfort_rating**: Described as comfortable, decent for segment, but can feel unsettled on rough roads or jiggly at low speeds. SRi Premium has "Sports seats". Score: 0.00.
+*   **cabin_noise_rating**: Improved insulation over previous generation, keeps wind and road noise at bay, but tyre noise mentioned at motorway speeds. Score: 0.00.
+*   **shift_smooth_rating**: 6-speed manual, described as "highly useable" but "not the slickest", "slightly soft-edged vagueness", "long-ish throw". Score: 0.00.
+*   **steering_feel_rating**: Speed sensitive power steering, likely light for city driving. Described as light action, lacks feel when cornering at speed, "slow and a little vague". Score: -0.20.
+*   **adas_score**: SRi Premium includes LED headlights with high beam assist, Lane Departure Warning with Lane Keep Assist, Speed Sign Recognition, Driver Drowsiness Alert, Forward Collision Alert, Automatic Emergency Braking, Cruise Control with Intelligent Speed Limiter, Rear Parking Sensors, Six airbags. Also includes heated front seats and steering wheel, automatic lights and wipers. Front camera system with front parking assistance. This is a good suite. Score: 0.30.
+*   **visibility_rating**: Thick rear pillars cause a blind spot. Score: 0.00 (Average, slightly hindered).
+*   **headlight_rating**: LED headlights with high beam assist standard. Score: 0.50.
+*   **security_rating**: Scored poorly in anti-theft tests by Thatcham Research (Poor rating for relay attack). Remote control security alarm system standard. Basic security for its time, but older Corsas are known targets. Score: -0.50.
+*   **screen_in**: 7-inch colour touchscreen with Multimedia Navi system. 7-inch digital instrument cluster display. Score: -0.20 (7-inch screen is below average, 7-inch cluster is average).
+*   **infotainment_ux_rating**: Described as fiddly to use, slow to respond, menus not easiest. Score: -0.20.
+*   **smartphone_connect_rating**: Apple CarPlay and Android Auto compatibility standard. Wireless Apple CarPlay/Android Auto on facelifted model, but wired on this generation. Score: 0.10.
+*   **audio_rating**: Six speakers standard. Score: 0.00.
+*   **usb_ports**: USB connection mentioned. Likely 1 or 2 in the front. Score: -0.20.
+*   **comfort_feature_score**: Heated front seats and steering wheel, Electronic climate control, Flat-bottomed leather-covered steering wheel, 60/40 split rear seats, Electrically operated front and rear windows, Electrically adjustable/heated door mirrors, Rain-sensitive windscreen wipers, Automatic lighting control, Automatic anti-dazzle rear-view mirror. Sports-style front seats. Good comfort features for the segment. Score: 0.30.
+*   **convenience_feature_score**: Rear parking sensors, Automatic lights/wipers, Cruise control with intelligent speed limiter, Electric front and rear windows, Remote central locking, Automatic anti-dazzle rear-view mirror. Front parking assistance/sensors. Electrically folding door mirrors. Score: 0.30.
+*   **brand_prestige_rating**: Vauxhall is a mainstream brand. Score: -0.50.
+*   **model_prestige_rating**: Corsa is an entry-level model. Score: +1.00.
+*   **trim_prestige_rating**: SRi Premium was a higher-mid range trim on the pre-facelift model. Score: 0.00.
+*   **interior_luxury_rating**: Interior described as sturdy but subdued/drab, plasticky, lacking imagination, but well put together for the price. SRi Premium adds sports seats and alloy-effect pedals. Part leather heated sports seats mentioned. Score: -0.30.
+*   **interior_tech_focus_rating**: 7-inch touchscreen and 7-inch digital cluster. Standard tech for segment, not screen-forward like some rivals. Score: 0.10.
 
 ```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.30,
+  "insurance_usd_yr": 0.20,
+  "maint_usd_yr": 0.70,
   "repair_risk_score": 0.00,
-  "hp": 0.00,
+  "hp": -0.30,
   "torque": 0.00,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.50,
   "accel_0_60_sec": 0.00,
   "top_speed": 0.00,
-  "drive_type": 0.00,
-  "transmission_type": 0.00,
-  "offroad_ability": 0.00,
+  "drive_type": -1.00,
+  "transmission_type": -1.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.00,
+  "size": -0.70,
+  "wheelbase": -0.50,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.00,
-  "rear_space": 0.00,
-  "ground_clearance_in": 0.00,
-  "turn_radius_ft": 0.00,
-  "mpg": 0.00,
-  "co2_g_km": 0.00,
-  "electric_range_mi": 0.00,
-  "charge_speed_kw": 0.00,
+  "cargo_space": -0.50,
+  "rear_space": -0.30,
+  "ground_clearance_in": -0.20,
+  "turn_radius_ft": 0.10,
+  "mpg": 0.50,
+  "co2_g_km": 0.60,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.00,
+  "style_aggression_rating": 0.30,
   "style_modernity_rating": 0.00,
   "handling_rating": 0.00,
   "ride_comfort_rating": 0.00,
   "cabin_noise_rating": 0.00,
   "shift_smooth_rating": 0.00,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.00,
+  "steering_feel_rating": -0.20,
+  "adas_score": 0.30,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.00,
-  "security_rating": 0.00,
-  "screen_in": 0.00,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.00,
+  "headlight_rating": 0.50,
+  "security_rating": -0.50,
+  "screen_in": -0.20,
+  "infotainment_ux_rating": -0.20,
+  "smartphone_connect_rating": 0.10,
   "audio_rating": 0.00,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.00,
-  "convenience_feature_score": 0.00,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.00,
+  "usb_ports": -0.20,
+  "comfort_feature_score": 0.30,
+  "convenience_feature_score": 0.30,
+  "brand_prestige_rating": -0.50,
+  "model_prestige_rating": 1.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.00,
-  "interior_tech_focus_rating": 0.00
+  "interior_luxury_rating": -0.30,
+  "interior_tech_focus_rating": 0.10
 }
 ```

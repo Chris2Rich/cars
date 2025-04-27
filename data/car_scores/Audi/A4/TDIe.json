@@ -1,0 +1,111 @@
+The user is asking for an evaluation of the most recent Audi A4 TDIe. Based on search results, the "TDIe" designation was primarily used in the B8 generation (2008-2016) and focused on efficiency. The current B9 generation uses different engine designations (like 35 TDI, 40 TDI, etc.) and incorporates mild-hybrid technology across the range rather than a specific "e" model. Therefore, I will evaluate the B8 Audi A4 2.0 TDIe (specifically the 136 HP version, as it's a common example found in searches) against today's market benchmarks.
+
+- **price_usd**: A used B8 A4 TDIe is significantly below the average new car price. Score: +1.00.
+- **total_cost_estimate_5yr_usd**: Older premium car, potentially higher maintenance/repair than average, but lower purchase price. Default to average. Score: 0.00.
+- **insurance_usd_yr**: Older car, lower value, but premium brand and diesel engine might keep it around average. Score: 0.00.
+- **maint_usd_yr**: Older Audi diesel, likely higher than average maintenance. Score: -0.20.
+- **repair_risk_score**: B8 A4s have known issues like oil consumption (less common in TDI but possible), DPF issues, and potential electrical problems as they age. Score: -0.20.
+- **hp**: 136 HP. Well below modern average (~200 HP). Score: -0.80.
+- **torque**: 320 Nm (236 lb-ft). This is decent torque for its power level and slightly above the modern average (~190 lb-ft). Score: 0.30.
+- **cylinder_count**: 4 cylinders. Below the 6-cylinder average. Score: -0.20.
+- **engine_displacement**: 2.0L (1968 cm³). Below the 3.0L average. Score: -0.20.
+- **accel_0_60_sec**: Around 9.0-9.2 seconds. Significantly slower than modern average (~7.5 sec). Score: -0.80.
+- **top_speed**: Around 134 mph (215 km/h). Below modern average (~150 mph). Score: -0.50.
+- **drive_type**: Typically Front-Wheel Drive. Score: -1.00.
+- **transmission_type**: Available with Manual or Multitronic CVT. CVT is less common and often less preferred than modern automatics. Score: -0.20.
+- **driving_track_vs_gt**: Designed as an efficient daily driver. Score: 0.00.
+- **offroad_ability**: Low sedan, not designed for off-road. Score: +1.00.
+- **braking_dist_ft**: No specific data found for B8 A4 TDIe. Assume average for its era, likely worse than modern average. Default to 0.00.
+- **size**: Length is around 4703 mm (185.16 in). Close to the 4600mm average. Score: 0.10.
+- **wheelbase**: Around 2808 mm (110.55 in). Slightly longer than the 2700mm average. Score: 0.10.
+- **body_style**: Sedan. Score: 0.00.
+- **seats**: 5 seats. Score: 0.00.
+- **cargo_space**: Sedan is around 480 liters (16.95 cu ft). This is around the 15 cu ft average. Score: 0.00.
+- **rear_space**: No specific data found. Assume average for its size class at the time. Score: 0.00.
+- **ground_clearance_in**: Around 10.8 cm (4.25 inches) to 12.9 cm (5.08 inches). Below the 6.5 inches average. Score: -0.50.
+- **turn_radius_ft**: Around 11.4 m (37.4 ft) to 11.5 m (37.73 ft). Close to the 36 ft average. Score: 0.00.
+- **mpg**: Combined fuel economy is a focus for TDIe, around 58.85 UK mpg (49 US mpg) claimed for the 136 HP version. Real-world is lower but still likely above the 30 mpg average. Score: 0.50.
+- **co2_g_km**: Around 109-115 g/km. Well below the 175 g/km average. Score: 0.50.
+- **electrification**: Diesel engine. Score: -0.50.
+- **electric_range_mi**: Not electric. Score: -1.00.
+- **charge_speed_kw**: Not electric. Score: -1.00.
+- **style_sleek_vs_boxy**: Sleek sedan design for its time. Score: 0.10.
+- **style_aggression_rating**: Mild design. Score: -0.20.
+- **style_modernity_rating**: Dated design compared to current vehicles. Score: -0.50.
+- **handling_rating**: Generally competent handling for a FWD sedan. Score: 0.00.
+- **ride_comfort_rating**: Known for a comfortable ride. Score: 0.00.
+- **cabin_noise_rating**: Decent cabin insulation for its time. Score: 0.00.
+- **shift_smooth_rating**: Older CVT/Manual options. Score: -0.20.
+- **steering_feel_rating**: Hydraulic steering, often praised for feel compared to modern electric. Score: 0.20.
+- **adas_score**: Minimal or optional ADAS features (like blind-spot monitoring, lane departure warning, adaptive cruise control were available on B8, but not standard on base trims). Score: -0.80.
+- **visibility_rating**: Average for a sedan. Score: 0.00.
+- **headlight_rating**: Available with Halogen or Xenon. Score: 0.00.
+- **security_rating**: Standard for its time (alarm, immobilizer). Score: 0.00.
+- **screen_in**: Base models had small screens, higher trims had larger MMI screens (6.5 or 7 inches). Below modern average. Score: -0.50.
+- **infotainment_ux_rating**: MMI system was decent for its time but dated now (button/dial based). Score: -0.80.
+- **smartphone_connect_rating**: Bluetooth for calls was available, but streaming and smartphone integration (CarPlay/Android Auto) were not standard. Score: -1.00.
+- **audio_rating**: Standard system, optional upgrades available. Score: 0.00.
+- **usb_ports**: None standard, AMI (Audi Music Interface) with adapters was available. Score: -1.00.
+- **comfort_feature_score**: Available with standard comfort features for its class at the time. Score: 0.00.
+- **convenience_feature_score**: Available with standard convenience features for its class at the time. Score: 0.00.
+- **brand_prestige_rating**: Audi is a premium brand. Score: 0.50.
+- **model_prestige_rating**: A4 is a mid-range model. Score: 0.00.
+- **trim_prestige_rating**: TDIe was an efficiency-focused trim, not a top-tier performance or luxury trim. Score: 0.00.
+- **interior_luxury_rating**: High-quality interior for its time, but dated design and tech. Score: 0.00.
+- **interior_tech_focus_rating**: Less tech-focused compared to modern vehicles. Score: -0.80.```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": -0.20,
+  "hp": -0.80,
+  "torque": 0.30,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": -0.80,
+  "top_speed": -0.50,
+  "drive_type": -1.00,
+  "transmission_type": -0.20,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.10,
+  "wheelbase": 0.10,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.50,
+  "co2_g_km": 0.50,
+  "electrification": -0.50,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.10,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": -0.50,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": -0.20,
+  "steering_feel_rating": 0.20,
+  "adas_score": -0.80,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": -0.50,
+  "infotainment_ux_rating": -0.80,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": 0.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.50,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": -0.80
+}
+```

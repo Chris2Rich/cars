@@ -1,124 +1,57 @@
-The most recent Audi A6 Avant is the C8 generation, which received a facelift for the 2024/2025 model year. The TDI engine options available include the 40 TDI (2.0L 4-cylinder) and the 50 TDI (3.0L V6). I will evaluate based on the 40 TDI Quattro S tronic variant, as it is a common configuration.
-
-Here is the evaluation based on the Audi A6 Avant 40 TDI Quattro S tronic:
-
-*   **price_usd**: The Audi A6 Avant Sport 40 TDI Quattro S Tronic starts around £53,285 OTR in the UK. Converting £53,285 to USD (using ~1.27 USD/GBP) is approximately $67,672. This is above the market average of $52,000 but well below $120,000. Scoring -0.30.
-*   **total_cost_estimate_5yr_usd**: As a premium German car, the 5-year ownership cost is expected to be above average due to depreciation, maintenance, and insurance. Scoring -0.40.
-*   **insurance_usd_yr**: The 40 TDI S Tronic falls into insurance groups like 35 or 37. This is significantly above the national average. Scoring -0.40.
-*   **maint_usd_yr**: Audi maintenance costs are generally higher than average. Scoring -0.30.
-*   **repair_risk_score**: Audi's reliability is rated poorly by some sources, with reports of electrical and other issues on the C8 generation. Scoring -0.80.
-*   **hp**: The 40 TDI produces 204 PS (201 HP). This is right around the 200 HP market average. Scoring 0.00.
-*   **torque**: The 40 TDI produces 400 Nm (295 lb-ft) of torque. This is significantly above the 190 lb-ft average. Scoring 0.50.
-*   **cylinder_count**: The 40 TDI is a 4-cylinder engine. This is below the 6-cylinder benchmark. Scoring -0.50.
-*   **engine_displacement**: The 40 TDI has a 2.0L (1968 cm³) displacement. This is below the 3.0L average benchmark. Scoring -0.30.
-*   **accel_0_60_sec**: The 40 TDI Quattro accelerates from 0-62 mph in 7.0 seconds. Some sources estimate 0-60 mph in 7.7 seconds. This is slightly faster than the 7.5 sec average. Scoring 0.10.
-*   **top_speed**: The 40 TDI Quattro has a top speed of around 149-153 mph. This is around the 150 mph benchmark. Scoring 0.00.
-*   **drive_type**: This variant is Quattro (all-wheel drive). This is the benchmark for 0.00.
-*   **transmission_type**: It uses a 7-speed S tronic dual-clutch automatic transmission. Dual-clutch is the benchmark for 0.00.
-*   **driving_track_vs_gt**: The A6 Avant is designed as a comfortable and refined long-distance cruiser. It is GT focused. Scoring 0.70.
-*   **offroad_ability**: It has low ground clearance and is not designed for off-road use. Scoring 1.00.
-*   **braking_dist_ft**: No specific data found, but premium cars typically have good braking performance. Assume slightly better than average. Scoring 0.10.
-*   **size**: The length is 4939 mm (194.45 in). This is larger than the 4600mm average. Scoring 0.60.
-*   **wheelbase**: The wheelbase is 2924 mm (115.12 in). This is longer than the 2700mm average. Scoring 0.50.
-*   **body_style**: It is a 5-door station wagon (estate). More practical than a sedan/coupe, less than a van. Scoring 0.50.
-*   **seats**: It has 5 seats. This is the benchmark for 0.00.
-*   **cargo_space**: Cargo space is 565 liters (19.95 cu ft) with seats up and 1680 liters (59.33 cu ft) with seats down. This is significantly above the 15 cu ft sedan average and well into the +1.00 range with seats down. Scoring 0.60.
-*   **rear_space**: The interior space is described as generous, with good rear headroom. Scoring 0.60.
-*   **ground_clearance_in**: Height is around 1467-1494 mm (57.8-58.8 in). Ground clearance is not explicitly stated but is low for a road car. Scoring -0.20.
-*   **turn_radius_ft**: The turning circle is 12.1 m (39.7 ft). This is slightly larger than the 36 ft average. Scoring -0.10.
-*   **mpg**: The 40 TDI Quattro has a combined fuel consumption of around 43-51 mpg UK (around 36-42 mpg US). This is significantly above the 30 mpg average. Scoring 0.60.
-*   **co2_g_km**: CO2 emissions are around 124-160 g/km depending on wheels/trim. This is well below the 175 g/km average. Scoring 0.50.
-*   **electrification**: It features Mild Hybrid (MHEV) technology. Scoring -0.50.
-*   **electric_range_mi**: It is not a PHEV or EV. Scoring -1.00.
-*   **charge_speed_kw**: It is not a PHEV or EV. Scoring -1.00.
-*   **style_sleek_vs_boxy**: Features a sleek, long roofline and athletic surfacing. Scoring 0.50.
-*   **style_aggression_rating**: Has sharp creases and a wide grille, but is generally sophisticated rather than overtly aggressive. Scoring 0.30.
-*   **style_modernity_rating**: Facelifted model with modern design cues, digital lighting, and minimalist interior. Scoring 0.60.
-*   **handling_rating**: Described as safe, solid, and capable, but not particularly fun or engaging compared to rivals. Competent handling. Scoring 0.10.
-*   **ride_comfort_rating**: Known for supreme ride comfort, especially with optional suspension, but standard suspension is also comfortable. Scoring 0.60.
-*   **cabin_noise_rating**: Very little road or wind noise, quiet at a cruise. Scoring 0.80.
-*   **shift_smooth_rating**: The 7-speed S tronic is described as smooth-shifting. Scoring 0.50.
-*   **steering_feel_rating**: Precise steering but can feel numb or odd off-center. Scoring 0.00.
-*   **adas_score**: Packed with safety and communications technology, including adaptive cruise assist, lane departure warning, parking assist, and surround view cameras. High level of ADAS. Scoring 0.80.
-*   **visibility_rating**: Excellent outward visibility thanks to slender pillars and available surround view cameras. Scoring 0.60.
-*   **headlight_rating**: Matrix LED headlights are standard or available, providing excellent illumination. Scoring 0.80.
-*   **security_rating**: Features anti-theft alarm and immobiliser. Standard premium features. Scoring 0.30.
-*   **screen_in**: Features dual touchscreens (10.1" and 8.6" or 14.5" and 11.9") and a 12.3" digital cockpit. Large screens. Scoring 0.80.
-*   **infotainment_ux_rating**: MMI touch response system is intuitive but dual screens can be distracting. Good but not perfect UX. Scoring 0.40.
-*   **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto are standard. Excellent connectivity. Scoring 0.80.
-*   **audio_rating**: Standard audio system is likely average for a premium car, with Bang & Olufsen optional. Scoring 0.30.
-*   **usb_ports**: Multiple USB-C ports are available. Assume average or slightly above. Scoring 0.20.
-*   **comfort_feature_score**: Heated front seats, electric seats, 4-zone climate control, heated rear seats, ventilated/massaging seats available. High level of comfort features. Scoring 0.80.
-*   **convenience_feature_score**: Power tailgate, keyless entry/go, parking sensors, reversing camera, parking assist, surround view cameras available. High level of convenience features. Scoring 0.80.
-*   **brand_prestige_rating**: Audi is a premium/luxury brand. Scoring 0.70.
-*   **model_prestige_rating**: A6 is a mid-range executive model. Scoring 0.00.
-*   **trim_prestige_rating**: "TDI" refers to the engine, not a specific trim. Assuming a standard TDI model (not S line, Black Edition, etc.), this represents a core engine option across various trims. Scoring 0.00.
-*   **interior_luxury_rating**: High-quality materials, leather upholstery, modern design, ambient lighting. Premium interior. Scoring 0.70.
-*   **interior_tech_focus_rating**: Digital cockpit, multiple large screens, extensive connectivity, minimalist aesthetic. High tech focus. Scoring 0.80.
-
-Refining scores based on benchmarks and comparisons:
-- Repair Risk: Audi's low reliability rating (-0.80) is consistent.
-- MPG/CO2: Diesel efficiency is a strong point. 0.60 and 0.50 are appropriate.
-- ADAS/Headlights/Screens/Smartphone Connect: High scores (0.80) reflect the extensive standard/available tech.
-- Interior Luxury/Tech Focus: High scores (0.70/0.80) reflect the premium and digital cabin.
-- Trim Prestige: Evaluating based on the engine type, not a specific trim, so 0.00 is correct.
-
-The scores align well with the gathered data for the Audi A6 Avant 40 TDI Quattro.
-
 ```json
 {
-  "price_usd": -0.30,
-  "total_cost_estimate_5yr_usd": -0.40,
-  "insurance_usd_yr": -0.40,
-  "maint_usd_yr": -0.30,
-  "repair_risk_score": -0.80,
+  "price_usd": -0.15,
+  "total_cost_estimate_5yr_usd": -0.15,
+  "insurance_usd_yr": -0.20,
+  "maint_usd_yr": -0.10,
+  "repair_risk_score": 0.10,
   "hp": 0.00,
-  "torque": 0.50,
+  "torque": 0.40,
   "cylinder_count": -0.50,
-  "engine_displacement": -0.30,
-  "accel_0_60_sec": 0.10,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": 0.00,
   "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 0.00,
-  "driving_track_vs_gt": 0.70,
+  "driving_track_vs_gt": 1.00,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.10,
+  "braking_dist_ft": 0.20,
   "size": 0.60,
   "wheelbase": 0.50,
-  "body_style": 0.50,
+  "body_style": 0.20,
   "seats": 0.00,
-  "cargo_space": 0.60,
-  "rear_space": 0.60,
-  "ground_clearance_in": -0.20,
-  "turn_radius_ft": -0.10,
-  "mpg": 0.60,
-  "co2_g_km": 0.50,
-  "electrification": -0.50,
+  "cargo_space": 0.20,
+  "rear_space": 0.50,
+  "ground_clearance_in": -0.30,
+  "turn_radius_ft": -0.30,
+  "mpg": 0.40,
+  "co2_g_km": 0.20,
+  "electrification": -0.80,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.50,
-  "style_aggression_rating": 0.30,
-  "style_modernity_rating": 0.60,
-  "handling_rating": 0.10,
-  "ride_comfort_rating": 0.60,
+  "style_sleek_vs_boxy": 0.30,
+  "style_aggression_rating": 0.10,
+  "style_modernity_rating": 0.20,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
   "cabin_noise_rating": 0.80,
   "shift_smooth_rating": 0.50,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.80,
-  "visibility_rating": 0.60,
-  "headlight_rating": 0.80,
-  "security_rating": 0.30,
-  "screen_in": 0.80,
-  "infotainment_ux_rating": 0.40,
+  "steering_feel_rating": -0.50,
+  "adas_score": 0.50,
+  "visibility_rating": 0.40,
+  "headlight_rating": 0.30,
+  "security_rating": 0.50,
+  "screen_in": 0.40,
+  "infotainment_ux_rating": 0.30,
   "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.30,
-  "usb_ports": 0.20,
-  "comfort_feature_score": 0.80,
-  "convenience_feature_score": 0.80,
+  "audio_rating": 0.00,
+  "usb_ports": 0.30,
+  "comfort_feature_score": 0.40,
+  "convenience_feature_score": 0.50,
   "brand_prestige_rating": 0.70,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.70,
-  "interior_tech_focus_rating": 0.80
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.70
 }
 ```

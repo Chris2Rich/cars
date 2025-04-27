@@ -1,115 +1,57 @@
-"Competition M" is not a recognized current trim level for the BMW M3. The current generation (G80) includes the M3, M3 Competition, M3 Competition xDrive, and the limited-edition M3 CS. The user is likely referring to the M3 Competition or M3 Competition xDrive. I will evaluate the 2024 BMW M3 Competition, which encompasses both RWD and xDrive variants, as it is the most recent and relevant model featuring the "Competition" designation.
-
-Here is the evaluation based on the search results and the provided scoring guide:
-
-- **price_usd**: The 2024 M3 Competition starts around $81,375 (RWD) to $86,475 (xDrive). This is significantly above the market average of $52,000. Score: -0.60.
-- **total_cost_estimate_5yr_usd**: Estimated 5-year cost to own is high, around $93,749 - $101,004. This is well above the typical $40,000. Score: -1.00.
-- **insurance_usd_yr**: Average annual insurance cost is estimated around $4,713 - $4,733. This is well above the national average of $1,500. Score: -0.80.
-- **maint_usd_yr**: Estimated annual maintenance costs are above average, around $870 - $1,161, or $4,351 - $5,805 over 5 years. Score: -0.70.
-- **repair_risk_score**: RepairPal gives the M3 a 2.0 out of 5.0 reliability rating, ranking it low for luxury midsize cars, indicating higher repair costs and frequency. Some owner experiences vary, but the overall rating is poor. Score: -1.00.
-- **hp**: The 2024 M3 Competition produces 503 hp (RWD) or 503-530 hp (xDrive, depending on source/year). This is very high. Score: 0.80.
-- **torque**: 479 lb-ft (650 Nm). This is very high. Score: 0.80.
-- **cylinder_count**: 6 (inline-6). Common for performance cars but not the highest. Score: 0.00.
-- **engine_displacement**: 3.0L (2993 cm³). Moderate displacement for the power output. Score: 0.00.
-- **accel_0_60_sec**: Reported times for the Competition xDrive range from 2.8 to 3.5 seconds. The RWD Competition is around 3.5-3.8 seconds. This is extremely fast. Score: 0.90.
-- **top_speed**: Electronically limited to 155 mph (249 km/h), or 180-188 mph (289 km/h) with the optional M Driver's Package. 155 mph is above average. Score: 0.70.
-- **drive_type**: RWD standard, AWD (xDrive) optional. RWD is +1.00, AWD is 0.00. Since Competition offers both, average is 0.50, but the RWD option is a key performance characteristic. Score: 0.50.
-- **transmission_type**: 8-speed automatic only for the Competition trims. This is the benchmark for smooth, modern transmissions. Score: 1.00.
-- **driving_track_vs_gt**: Described as intensely fast on track but surprisingly livable for daily commuting. Leans towards track capability but retains GT characteristics. Score: -0.50.
-- **offroad_ability**: Low ground clearance, performance-focused. Not designed for off-road. Score: 1.00.
-- **braking_dist_ft**: Reviews mention powerful brakes, with optional carbon ceramics. No specific distance found. Score: 0.00 (default due to lack of specific data).
-- **size**: Length around 188.7 - 189.1 inches (4794 - 4801 mm). Slightly larger than a typical compact sedan, moving towards medium. Score: 0.10.
-- **wheelbase**: 112.5 inches (2857 mm). Slightly longer than average for its size class. Score: 0.20.
-- **body_style**: 4-door sedan (Saloon) or 5-door wagon (Touring - not available in all markets). Sedan is the benchmark average. Score: 0.00.
-- **seats**: 5 seats. Benchmark average. Score: 0.00.
-- **cargo_space**: 13 - 17 cubic feet (368 - 480 liters) for the sedan. Average for a sedan. Score: 0.10.
-- **rear_space**: Rear legroom is described as pretty good, allowing it to be used as a family car. Around 35.6 inches. Average. Score: 0.00.
-- **ground_clearance_in**: Height ranges from 1393 mm to 1446 mm (54.8 to 56.9 inches). This indicates low ground clearance. Score: -0.80.
-- **turn_radius_ft**: Described as having an "excellent tight radius" in one review. No specific number found. Score: 0.00 (default due to lack of specific data).
-- **mpg**: 16-19 combined MPG (16/22 to 16/23 city/highway). This is low. Score: -0.80.
-- **co2_g_km**: 221-235 g/km (or 296 g/km for xDrive in some tests). This is high. Score: -0.40.
-- **electrification**: Petrol engine. Score: -1.00.
-- **electric_range_mi**: N/A. Score: -1.00.
-- **charge_speed_kw**: N/A. Score: -1.00.
-- **style_sleek_vs_boxy**: Modern BMW sedan styling, not particularly sleek or boxy compared to extremes. Score: 0.00.
-- **style_aggression_rating**: Features aggressive M styling, large grille. Score: 0.80.
-- **style_modernity_rating**: Features modern design elements, large curved display, updated headlights for 2025 model year. Score: 0.50.
-- **handling_rating**: Reviews praise its athletic handling, grip, and ability to carve up roads. Score: 0.90.
-- **ride_comfort_rating**: Described as surprisingly comfortable for its capability, but firm and uncomfortable over bumps in town. Score: -0.50.
-- **cabin_noise_rating**: Wind and road noise are elevated over the standard M3 in the CS, suggesting it's not the quietest cabin, but not excessively loud. Score: -0.20.
-- **shift_smooth_rating**: 8-speed automatic is described as quick-shifting, snappy and impressively smooth. Score: 0.80.
-- **steering_feel_rating**: Reviews mention precise control and quick reaction to inputs, but some find it light or lacking feel compared to rivals. Score: 0.50.
-- **adas_score**: Offers a roster of standard and optional driver-assistance technology, including adaptive cruise control, blind-spot warning, lane departure warning, parking assist, backup camera, frontal collision warnings. Score: 0.70.
-- **visibility_rating**: Power-folding heated side mirrors provide excellent visibility. Described as good forward visibility despite thick pillars, good rear visibility. Score: 0.00.
-- **headlight_rating**: Features projector beam LED headlights, with Icon Adaptive LED headlights with Laserlight available. Score: 0.50.
-- **security_rating**: Standard security features expected for a luxury brand, including alarm system, engine immobiliser, central locking. Score: 0.50.
-- **screen_in**: 12.3-inch instrument cluster and 14.9-inch central touchscreen (curved display). Large screens. Score: 0.80.
-- **infotainment_ux_rating**: iDrive 8/8.5 system, described as intuitive and feature-rich, but can be complex. Score: 0.80.
-- **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto standard. Score: 0.80.
-- **audio_rating**: Harman Kardon sound system standard, 16 speakers. Score: 0.70.
-- **usb_ports**: Multiple phone-charging ports mentioned. Score: 0.20 (assuming standard number).
-- **comfort_feature_score**: Heated and power-adjustable front seats standard, optional carbon bucket seats, three-zone climate control, extended Merino leather. Score: 0.80.
-- **convenience_feature_score**: Keyless entry/start, navigation, parking sensors, reversing camera, optional surround-view camera, remote engine start, wireless charging available. Score: 0.80.
-- **brand_prestige_rating**: BMW is a high-prestige brand. Score: 0.70.
-- **model_prestige_rating**: M3 is an iconic, high-performance model within the brand. Score: -1.00.
-- **trim_prestige_rating**: Competition is a high-performance trim, but not the absolute top (CS is higher). Score: 0.00.
-- **interior_luxury_rating**: High-quality materials, leather, carbon fiber accents, optional luxury instrument panel. Score: 0.70.
-- **interior_tech_focus_rating**: Large curved digital displays, advanced infotainment, digital gauge cluster. Score: 0.80.
-
 ```json
 {
-  "price_usd": -0.60,
-  "total_cost_estimate_5yr_usd": -1.00,
-  "insurance_usd_yr": -0.80,
-  "maint_usd_yr": -0.70,
-  "repair_risk_score": -1.00,
-  "hp": 0.80,
-  "torque": 0.80,
+  "price_usd": -0.80,
+  "total_cost_estimate_5yr_usd": -0.70,
+  "insurance_usd_yr": -0.70,
+  "maint_usd_yr": -0.60,
+  "repair_risk_score": -0.20,
+  "hp": +0.85,
+  "torque": +0.80,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.90,
-  "top_speed": 0.70,
-  "drive_type": 0.50,
-  "transmission_type": 1.00,
+  "accel_0_60_sec": +0.90,
+  "top_speed": +0.50,
+  "drive_type": 0.00,
+  "transmission_type": +1.00,
   "driving_track_vs_gt": -0.50,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
-  "size": 0.10,
-  "wheelbase": 0.20,
+  "offroad_ability": +1.00,
+  "braking_dist_ft": +0.90,
+  "size": 0.00,
+  "wheelbase": 0.00,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.10,
+  "cargo_space": 0.00,
   "rear_space": 0.00,
   "ground_clearance_in": -0.80,
-  "turn_radius_ft": 0.00,
+  "turn_radius_ft": -0.30,
   "mpg": -0.80,
-  "co2_g_km": -0.40,
+  "co2_g_km": -0.80,
   "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.80,
-  "style_modernity_rating": 0.50,
-  "handling_rating": 0.90,
-  "ride_comfort_rating": -0.50,
+  "style_aggression_rating": +0.80,
+  "style_modernity_rating": +0.50,
+  "handling_rating": +0.90,
+  "ride_comfort_rating": -0.30,
   "cabin_noise_rating": -0.20,
-  "shift_smooth_rating": 0.80,
-  "steering_feel_rating": 0.50,
-  "adas_score": 0.70,
+  "shift_smooth_rating": +0.80,
+  "steering_feel_rating": +0.70,
+  "adas_score": +0.70,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.50,
-  "security_rating": 0.50,
-  "screen_in": 0.80,
-  "infotainment_ux_rating": 0.80,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.70,
-  "usb_ports": 0.20,
-  "comfort_feature_score": 0.80,
-  "convenience_feature_score": 0.80,
-  "brand_prestige_rating": 0.70,
+  "headlight_rating": +0.50,
+  "security_rating": +0.50,
+  "screen_in": +0.80,
+  "infotainment_ux_rating": +0.70,
+  "smartphone_connect_rating": +0.80,
+  "audio_rating": +0.70,
+  "usb_ports": 0.00,
+  "comfort_feature_score": +0.80,
+  "convenience_feature_score": +0.80,
+  "brand_prestige_rating": +0.80,
   "model_prestige_rating": -1.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.70,
-  "interior_tech_focus_rating": 0.80
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": +0.70,
+  "interior_tech_focus_rating": +0.80
 }
 ```

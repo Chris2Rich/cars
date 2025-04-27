@@ -1,0 +1,75 @@
+The Mercedes-Benz A180d is part of the current W177 generation A-Class (2018-present). It is typically powered by a 1.5L or 2.0L diesel engine producing around 116 hp and 260-280 Nm (192-207 lb-ft) of torque. Acceleration from 0-60 mph is around 9.0-10.6 seconds, and top speed is around 125-128 mph. It is a front-wheel-drive car with a 7-speed or 8-speed DCT automatic transmission.
+
+Fuel economy is a strong point, with combined figures often in the 45-70 mpg range in real-world driving, and official figures higher. CO2 emissions are low, typically around 108-111 g/km. As a diesel, it has no electric range.
+
+Dimensions are around 4419-4428 mm length, 1796 mm width, and 1440-1452 mm height, with a wheelbase of 2729 mm. Cargo space is around 341-370 liters (12.18-13.07 cu ft) with seats up. Rear legroom is around 33.9 inches. [Search needed, using A-Class general] Ground clearance is around 9.1-10.4 cm (3.58-4.1 inches). Turning circle is around 11-11.54 meters (36.09-37.86 ft). It has 5 seats.
+
+New prices in the UK start around £31,300 - £35,000 (~$39k-$44k USD). Insurance groups are around 16-22. Maintenance costs are typical for a Mercedes. Reliability can be mixed, with some reports of issues like turbo lag/wear, DPF blockages, coolant leaks, steering rack problems, and MBUX glitches, though diesel engines are often robust.
+
+The W177 A-Class received a 5-star Euro NCAP safety rating. ADAS features are available, though some are optional. Visibility can be average. [Search needed] Headlights are typically LED. Security features are standard Mercedes.
+
+The MBUX infotainment system is a highlight, with standard dual 7-inch screens or optional dual 10.25-inch screens. The UX is generally well-regarded, with touchscreen, touchpad, and voice control ("Hey Mercedes"). Smartphone integration (Apple CarPlay/Android Auto) is standard/available. Audio systems are decent, with optional upgrades. Multiple USB-C ports are available.
+
+Comfort and convenience features are good for the segment, with options like heated seats, dual-zone climate control, parking assist, and keyless entry.
+
+Brand prestige is high (Mercedes-Benz). The A-Class is the entry-level model (high model prestige score). The A180d is an entry-level engine/trim (high trim prestige score). Interior luxury is good for the segment but not top-tier Mercedes. Interior tech focus is high due to the MBUX system.
+
+The style is sleek and modern, with a moderately aggressive front end.
+
+```json
+{
+ "price_usd": 0.25,
+ "total_cost_estimate_5yr_usd": -0.15,
+ "insurance_usd_yr": -0.15,
+ "maint_usd_yr": -0.20,
+ "repair_risk_score": -0.15,
+ "hp": -1.00,
+ "torque": 0.00,
+ "cylinder_count": 0.00,
+ "engine_displacement": -0.05,
+ "accel_0_60_sec": -1.00,
+ "top_speed": -0.20,
+ "drive_type": -1.00,
+ "transmission_type": 0.00,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.00,
+ "size": -0.05,
+ "wheelbase": 0.05,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": -0.10,
+ "rear_space": -0.20,
+ "ground_clearance_in": -0.80,
+ "turn_radius_ft": 0.00,
+ "mpg": 0.80,
+ "co2_g_km": 0.80,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": 0.10,
+ "style_aggression_rating": 0.10,
+ "style_modernity_rating": 0.40,
+ "handling_rating": 0.20,
+ "ride_comfort_rating": -0.05,
+ "cabin_noise_rating": 0.10,
+ "shift_smooth_rating": 0.00,
+ "steering_feel_rating": 0.00,
+ "adas_score": 0.20,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.15,
+ "security_rating": 0.15,
+ "screen_in": 0.40,
+ "infotainment_ux_rating": 0.30,
+ "smartphone_connect_rating": 0.25,
+ "audio_rating": 0.20,
+ "usb_ports": 0.10,
+ "comfort_feature_score": 0.25,
+ "convenience_feature_score": 0.25,
+ "brand_prestige_rating": 0.80,
+ "model_prestige_rating": 1.00,
+ "trim_prestige_rating": 1.00,
+ "interior_luxury_rating": 0.30,
+ "interior_tech_focus_rating": 0.40
+}
+```

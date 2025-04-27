@@ -1,55 +1,163 @@
-```json
+The most recent generation of the Vauxhall Vectra is the Vectra C, produced from 2002 to 2008. The 'Design' trim was available on this generation, including the facelifted models from 2005 onwards.
+
+**price_usd**: Used Vauxhall Vectra Design models from this era are very inexpensive in the UK, often listed for under £2,000, and sometimes up to around £5,000 for lower mileage examples. This translates to a very low USD price compared to the market average for a new car. Score: 1.00.
+
+**total_cost_estimate_5yr_usd**: The low purchase price is a significant factor in the total cost. Maintenance and potential repairs on an older car will add to the cost, but reliability is generally considered average for its age with proven mechanicals. Score: 0.50.
+
+**insurance_usd_yr**: The Vauxhall Vectra Design typically falls into lower insurance groups (around 10-12 for a 1.9 CDTi 120ps, and 23 for a 1.9 CDTi 150ps), which means lower insurance costs compared to the national average. Score: 0.50.
+
+**maint_usd_yr**: Maintenance costs are average for a car of this age and segment. Score: 0.00.
+
+**repair_risk_score**: Reliability is generally described as dependable for its age, with few significant faults reported, although some specific issues like fuel pumps or dual mass flywheels on certain engines can occur. Score: 0.00.
+
+**hp**: The 'Design' trim was available with various engines, including the 1.8i (122-140 hp) and 1.9 CDTi (120-150 hp). Taking the range of common engines for this trim, the horsepower is below the modern average of 200 hp. Score: -0.80.
+
+**torque**: The 1.9 CDTi 150hp engine produces 320 Nm (236 lb-ft), which is around the average benchmark. Other engines would have less torque. Averaging across common engines for the trim, the score is around average. Score: 0.00.
+
+**cylinder_count**: Most engines available in the Design trim were 4-cylinder. Score: -0.50.
+
+**engine_displacement**: Common engines include 1.8L and 1.9L, which are around the 3.0L average benchmark. Score: -0.20.
+
+**accel_0_60_sec**: 0-60 mph times for common Design engines like the 1.8i (11.2s) and 1.9 CDTi 150hp (9.3s) are slower than the 7.5 sec benchmark. Score: -0.80.
+
+**top_speed**: Top speeds for common Design engines range from around 120 mph to 130 mph, below the 150 mph benchmark. Score: -0.50.
+
+**drive_type**: Front-wheel drive. Score: -1.00.
+
+**transmission_type**: Available with both manual and automatic transmissions. Score: 0.00.
+
+**driving_track_vs_gt**: Designed as a comfortable daily driver and capable of Grand Touring. Score: 0.00.
+
+**offroad_ability**: Low ground clearance (around 130-140mm, approx 5.1-5.5 inches) and FWD limit off-road capability. Score: 1.00.
+
+**braking_dist_ft**: No specific data found for braking distance. Assume average for its era, which is likely worse than modern cars. Score: -0.20.
+
+**size**: Length is around 4.6-4.8m depending on body style, and width is around 1.8m. This is average for a D-segment car, aligning with the Civic benchmark. Score: 0.00.
+
+**wheelbase**: Wheelbase is around 2.7-2.8m depending on body style. This is average. Score: 0.00.
+
+**body_style**: Available as Hatchback, Sedan, or Estate. Score: 0.00.
+
+**seats**: 5 seats. Score: 0.00.
+
+**cargo_space**: Hatchback/Sedan boot space is around 500L (approx 17.7 cu ft), and the Estate is larger (530-1850L). 500L is slightly above the Civic benchmark (15 cu ft). Score: 0.20.
+
+**rear_space**: Described as having ample headroom and legroom, though one review mentions rear legroom could be tight for a tall person behind a tall driver. Assume average for its class. Score: 0.00.
+
+**ground_clearance_in**: Around 130-140mm (approx 5.1-5.5 inches). This is low compared to the average benchmark (6.5"). Score: -0.80.
+
+**turn_radius_ft**: Turning circle is around 11-11.35m (approx 36-37.2 ft). This is around the average benchmark (36 ft). Score: 0.00.
+
+**mpg**: Combined fuel consumption for common Design engines ranges from around 33-50 mpg (UK), which translates to roughly 27-41 mpg (US). This is around or above the 30 mpg benchmark. Score: 0.20.
+
+**co2_g_km**: CO2 emissions for common Design engines range from around 154-197 g/km. This is around the 175 g/km benchmark. Score: 0.00.
+
+**electrification**: Petrol or Diesel engines. Score: -1.00.
+
+**electric_range_mi**: Not electric. Score: -1.00.
+
+**charge_speed_kw**: Not electric. Score: -1.00.
+
+**style_sleek_vs_boxy**: Mainstream sedan/hatchback/estate design, neither particularly sleek nor boxy. Score: 0.00.
+
+**style_aggression_rating**: Not particularly aggressive styling. Score: -0.20.
+
+**style_modernity_rating**: Dated design by modern standards. Score: -0.50.
+
+**handling_rating**: Handling was generally considered uninspiring compared to rivals, though the facelift improved it. Score: -0.50.
+
+**ride_comfort_rating**: Known for comfort and refinement. Score: 0.50.
+
+**cabin_noise_rating**: Described as refined and whisper-quiet at motorway speeds. Score: 0.20.
+
+**shift_smooth_rating**: Automatic transmission was available and generally smooth. Manual transmission is also available. Score: 0.00.
+
+**steering_feel_rating**: Steering is positive, but handling and steering lack finesse. Likely numb compared to modern standards. Score: -0.20.
+
+**adas_score**: Minimal or no advanced ADAS features were standard. Basic systems like ABS and ESP were standard. Score: -1.00.
+
+**visibility_rating**: No specific reviews found. Assume average for a sedan/hatchback/estate of its era. Score: 0.00.
+
+**headlight_rating**: Likely standard halogen or basic projector headlights. Score: 0.00.
+
+**security_rating**: Basic security features like central deadlocking and an engine immobiliser were standard. Score: 0.00.
+
+**screen_in**: Standard models likely had a small central information display (5-inch monochromatic). Score: -1.00.
+
+**infotainment_ux_rating**: Basic, dated infotainment system with buttons. Score: -1.00.
+
+**smartphone_connect_rating**: No standard smartphone connectivity like CarPlay or Android Auto. Score: -1.00.
+
+**audio_rating**: Basic audio system likely standard. Score: 0.00.
+
+**usb_ports**: Unlikely to have USB ports as standard in this era. Score: -1.00.
+
+**comfort_feature_score**: Features like electronic climate control, heated seats, multi-adjustable seats were available on some trims, including 8-way adjustable front seats on Design. Score: 0.00.
+
+**convenience_feature_score**: Features like cruise control were standard on all models. Parking sensors were available on some trims. Score: 0.00.
+
+**brand_prestige_rating**: Vauxhall is a mainstream brand. Score: 0.00.
+
+**model_prestige_rating**: Vectra was a mainstream family car. Score: 0.00.
+
+**trim_prestige_rating**: Design was a popular mid-range trim level. Score: 0.00.
+
+**interior_luxury_rating**: Interior quality was average for a mainstream car of its time, described as plain and drab by some. Score: 0.00.
+
+**interior_tech_focus_rating**: Minimal tech focus compared to modern cars. Score: -1.00.```json
 {
   "price_usd": 1.00,
   "total_cost_estimate_5yr_usd": 0.50,
   "insurance_usd_yr": 0.50,
-  "maint_usd_yr": -0.50,
-  "repair_risk_score": -0.50,
-  "hp": -0.75,
-  "torque": -0.75,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": -0.75,
-  "top_speed": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -0.80,
+  "torque": 0.00,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": -0.80,
+  "top_speed": -0.50,
   "drive_type": -1.00,
-  "transmission_type": -0.75,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
   "offroad_ability": 1.00,
-  "braking_dist_ft": -0.50,
+  "braking_dist_ft": -0.20,
   "size": 0.00,
   "wheelbase": 0.00,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.00,
+  "cargo_space": 0.20,
   "rear_space": 0.00,
-  "ground_clearance_in": 0.00,
+  "ground_clearance_in": -0.80,
   "turn_radius_ft": 0.00,
-  "mpg": -0.50,
-  "co2_g_km": -0.50,
+  "mpg": 0.20,
+  "co2_g_km": 0.00,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": -0.75,
-  "style_modernity_rating": -1.00,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": -0.50,
   "handling_rating": -0.50,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": -0.50,
-  "shift_smooth_rating": -0.50,
-  "steering_feel_rating": -0.50,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.20,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": -0.20,
   "adas_score": -1.00,
   "visibility_rating": 0.00,
-  "headlight_rating": -1.00,
-  "security_rating": -0.50,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
   "screen_in": -1.00,
   "infotainment_ux_rating": -1.00,
   "smartphone_connect_rating": -1.00,
-  "audio_rating": -1.00,
+  "audio_rating": 0.00,
   "usb_ports": -1.00,
-  "comfort_feature_score": -0.75,
-  "convenience_feature_score": -1.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
   "brand_prestige_rating": 0.00,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": -1.00,
+  "interior_luxury_rating": 0.00,
   "interior_tech_focus_rating": -1.00
 }
 ```

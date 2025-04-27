@@ -1,107 +1,57 @@
-The most recent Vauxhall Insignia was produced until 2022. The "Turbo D" refers to the diesel engine options, which included 1.5L and 2.0L variants in the later years (Source 7, 8, 26, 28). I will base the evaluation on the specs available for these engines in the 2020-2022 timeframe.
-
-*   **price_usd:** New prices for the Insignia in 2020 ranged from around £23,795 for a 1.5 Turbo D SE Nav (Source 31) up to higher specs. Using a rough £1 = $1.25 conversion, this is around $29,744. This is below the market average new car price of $35,000. Score: 0.10.
-*   **total_cost_estimate_5yr_usd:** As a mainstream diesel car, expect average ownership costs. Score: 0.00.
-*   **insurance_usd_yr:** Insurance groups for Turbo D models range from 17 to 22 (Source 8, 17, 35, 37, 38). The average group is 28. This is below average. Score: 0.20.
-*   **maint_usd_yr:** Vauxhall maintenance is generally average. Score: 0.00.
-*   **repair_risk_score:** Reviews suggest average to slightly better than average reliability for the later generation, though some older diesel issues are noted (Source 24, 36). Score: 0.00.
-*   **hp:** 1.5L Turbo D has 122PS (~120hp) (Source 8, 26). 2.0L Turbo D has 174PS (~172hp) (Source 25, 28). Average is 200hp. These are below average. Score: -0.20.
-*   **torque:** 1.5L Turbo D has 285Nm (~210 lb-ft) (Source 26). 2.0L Turbo D has 400Nm (~295 lb-ft) (Source 11, 43). Average is 190 lb-ft. These are above average. Score: 0.20.
-*   **cylinder_count:** 4-cylinder (Source 26, 43). Average is 6. Score: -0.20.
-*   **engine_displacement:** 1.5L or 2.0L (Source 7, 8, 26, 28). Average is 3.0L. These are below average. Score: -0.20.
-*   **accel_0_60_sec:** 1.5L Turbo D is 10.7s (Source 26). 2.0L Turbo D is 8.4s (Source 43). Average is 7.5s. The 1.5L is slow (-0.50), the 2.0L is slightly below average (0.00). Score: -0.20 (averaging the common options).
-*   **top_speed:** 1.5L Turbo D is 127 mph (Source 8, 26). 2.0L Turbo D is 140 mph (Source 43). Average is 150 mph. These are below average. Score: -0.20.
-*   **drive_type:** Primarily FWD (Source 26, 43). Score: -1.00.
-*   **transmission_type:** Available with manual or 8-speed automatic (Source 25, 26, 43). Automatic is common and preferred by many. Score: 1.00.
-*   **offroad_ability:** Low-slung road car. Score: 1.00 (poor off-road ability).
-*   **braking_dist_ft:** No specific data found, assume average for the class. Score: 0.00.
-*   **size:** Length is around 4906mm (Source 22). Average is 4600mm. This is significantly above average. Score: 0.50.
-*   **wheelbase:** 2829mm (Source 19, 22). Average is 2700mm. Above average. Score: 0.20.
-*   **body_style:** 5-door hatchback/liftback (Grand Sport) or estate (Sports Tourer) (Source 26, 29). More practical than a sedan. Score: 0.10.
-*   **seats:** 5 seats (Source 9, 26, 43). Score: 0.00.
-*   **cargo_space:** 490 litres (17.3 cu ft) for Grand Sport, 560 litres (19.8 cu ft) for Sports Tourer (Source 9, 20, 26). 15 cu ft is 0.00, >35 cu ft is +1.00. Above average for a hatchback/sedan. Score: 0.10.
-*   **rear_space:** Good legroom, but headroom can be tight for taller passengers (Source 13, 14, 16, 30). Score: 0.10.
-*   **ground_clearance_in:** Not explicitly stated, but it's a standard road car, likely low. Score: -0.50.
-*   **turn_radius_ft:** Turning circle 11.7m (~38.4 ft) (Source 26, 43). 36 ft is 0.00. Slightly below average. Score: -0.10.
-*   **mpg:** 1.5L Turbo D up to 61.4 mpg (WLTP combined), real-world around 50+ mpg (Source 4, 5, 6, 8, 26). 2.0L Turbo D up to 54.3 mpg (WLTP combined), real-world around 40+ mpg (Source 4, 6, 43). 30 mpg is 0.00, >55 mpg is +1.00. Diesel engines are efficient. Score: 0.50.
-*   **co2_g_km:** 1.5L Turbo D is 122-124 g/km (WLTP) (Source 8, 26, 31). 2.0L Turbo D is 136-141 g/km (Source 13, 43). 175 g/km is 0.00, 0 g/km is +1.00. These are well below average. Score: 0.50.
-*   **electric_range_mi:** Not electric. Score: -1.00.
-*   **charge_speed_kw:** Not electric. Score: -1.00.
-*   **style_sleek_vs_boxy:** Sleek liftback/estate design (Source 7, 30). Score: 0.50.
-*   **style_aggression_rating:** Standard Turbo D trims are not particularly aggressive. Score: 0.00.
-*   **style_modernity_rating:** Design is from 2017 facelifted in 2021. Looks a bit dated compared to the newest cars (Source 12). Score: 0.00.
-*   **handling_rating:** Competent but not sporty (Source 12, 14). Score: 0.00.
-*   **ride_comfort_rating:** Generally praised as comfortable (Source 2, 12, 14, 16). Score: 0.50.
-*   **cabin_noise_rating:** Quiet at speed (Source 2, 12, 13). Score: 0.20.
-*   **shift_smooth_rating:** Automatic transmission is generally smooth (Source 25). Score: 0.50.
-*   **steering_feel_rating:** Often described as lacking feel (Source 23). Score: -0.20.
-*   **adas_score:** Standard features include AEB, Lane Keep Assist, Traffic Sign Recognition, Parking Sensors (Source 7, 25, 31). Adaptive LED Pixel headlights available (Source 7, 25). Decent for its time. Score: 0.20.
-*   **visibility_rating:** Sloping roofline can impact rear visibility (Source 13). Score: -0.20.
-*   **headlight_rating:** Adaptive LED Pixel headlights are available and good (Source 7, 25). Standard LED headlights are also good (Source 25). Score: 0.50.
-*   **security_rating:** Security alarm system mentioned (Source 34). Assume average. Score: 0.00.
-*   **screen_in:** 7-inch or 8-inch colour touchscreen (Source 2, 3, 7, 13, 20, 31). 8-inch is average. Score: 0.00.
-*   **infotainment_ux_rating:** Functional but not class-leading, some reviews mention too many buttons or awkward screen position (Source 3, 12, 13, 23). Score: -0.20.
-*   **smartphone_connect_rating:** Apple CarPlay/Android Auto standard (Source 2, 3, 7, 14, 20, 31). Wireless charging available (Source 7). Score: 0.50.
-*   **audio_rating:** Seven speakers standard (Source 20, 34). Assume average. Score: 0.00.
-*   **usb_ports:** Twin rear USB sockets available (Source 2, 10, 13, 20, 34). Above average number of ports. Score: 0.20.
-*   **comfort_feature_score:** Dual-zone climate control, ergonomic active front seats (AGR-approved), heated front seats available (Source 7, 12, 14, 20, 25, 31). Good features. Score: 0.20.
-*   **convenience_feature_score:** Front/rear parking sensors, cruise control, keyless start (on some trims) (Source 2, 7, 12, 15, 20, 31). Decent level of convenience features. Score: 0.20.
-*   **brand_prestige_rating:** Vauxhall is a mainstream brand. Score: -0.50.
-*   **model_prestige_rating:** Insignia was a large family car, not a halo model. Middle of the range for Vauxhall. Score: 0.00.
-*   **trim_prestige_rating:** "Turbo D" refers to the engine, not a specific trim level. Trims like SE, Design, SRi, Elite were available with this engine. Assuming a mix of lower to mid-range trims. Score: 0.00.
-*   **interior_luxury_rating:** Interior quality is decent but not premium compared to rivals (Source 13, 14, 23). Score: 0.00.
-*   **interior_tech_focus_rating:** Had digital instrument cluster and touchscreen, but not as screen-focused as some modern cars (Source 2, 3, 7, 13, 20, 31). Score: 0.00.```json
+```json
 {
-  "price_usd": 0.10,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.20,
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.50,
+  "insurance_usd_yr": 0.00,
   "maint_usd_yr": 0.00,
   "repair_risk_score": 0.00,
-  "hp": -0.20,
-  "torque": 0.20,
+  "hp": -0.10,
+  "torque": 0.50,
   "cylinder_count": -0.20,
-  "engine_displacement": -0.20,
-  "accel_0_60_sec": -0.20,
-  "top_speed": -0.20,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.10,
+  "top_speed": -0.10,
   "drive_type": -1.00,
-  "transmission_type": 1.00,
+  "transmission_type": 0.50,
+  "driving_track_vs_gt": 0.70,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.50,
-  "wheelbase": 0.20,
-  "body_style": 0.10,
+  "size": 0.30,
+  "wheelbase": 0.10,
+  "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.10,
-  "rear_space": 0.10,
-  "ground_clearance_in": -0.50,
-  "turn_radius_ft": -0.10,
+  "cargo_space": 0.20,
+  "rear_space": 0.30,
+  "ground_clearance_in": -0.10,
+  "turn_radius_ft": 0.00,
   "mpg": 0.50,
-  "co2_g_km": 0.50,
+  "co2_g_km": 0.30,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.50,
-  "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.00,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 0.50,
-  "cabin_noise_rating": 0.20,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": -0.30,
+  "handling_rating": -0.50,
+  "ride_comfort_rating": 0.70,
+  "cabin_noise_rating": 0.50,
   "shift_smooth_rating": 0.50,
-  "steering_feel_rating": -0.20,
-  "adas_score": 0.20,
-  "visibility_rating": -0.20,
-  "headlight_rating": 0.50,
+  "steering_feel_rating": -0.70,
+  "adas_score": 0.30,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.30,
   "security_rating": 0.00,
   "screen_in": 0.00,
   "infotainment_ux_rating": -0.20,
   "smartphone_connect_rating": 0.50,
   "audio_rating": 0.00,
-  "usb_ports": 0.20,
-  "comfort_feature_score": 0.20,
-  "convenience_feature_score": 0.20,
-  "brand_prestige_rating": -0.50,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.30,
+  "convenience_feature_score": 0.30,
+  "brand_prestige_rating": 0.00,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.00,
-  "interior_tech_focus_rating": 0.00
+  "interior_luxury_rating": -0.20,
+  "interior_tech_focus_rating": -0.50
 }
 ```

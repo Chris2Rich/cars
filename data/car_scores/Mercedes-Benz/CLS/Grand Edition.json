@@ -1,57 +1,115 @@
+The most recent version of the Mercedes-Benz CLS Grand Edition is a special edition of the second generation (C218), offered in 2018. This package added specific styling and interior features to the standard CLS models of that year. Since the "Grand Edition" is a trim package and not a specific engine variant, performance and efficiency metrics depend on the underlying engine (e.g., CLS 350 d or CLS 400), and thus cannot be definitively rated for the "Grand Edition" alone. For these metrics, I will default to 0.00 as per the instructions.
+
+Here's the evaluation based on the details of the 2018 Mercedes-Benz CLS Grand Edition package and the C218 platform:
+
+*   **price\_usd**: The Grand Edition package added a premium to the base CLS price. A 2018 CLS 350 d Grand Edition was priced around £57,510 (~$73,000 USD). This is significantly above the market average of ~$52,000. Score: -0.60.
+*   **total\_cost\_estimate\_5yr\_usd**: No specific 5-year cost estimate for this trim. Default to 0.00.
+*   **insurance\_usd\_yr**: Based on the underlying CLS model and AMG styling, insurance is likely high. Default to 0.00.
+*   **maint\_usd\_yr**: Based on Mercedes-Benz luxury/AMG styling, maintenance is likely higher than average. Default to 0.00.
+*   **repair\_risk\_score**: Based on C218 generation reliability. Default to 0.00.
+*   **hp**: Defined by engine (e.g., 350d or 400). Default to 0.00.
+*   **torque**: Defined by engine. Default to 0.00.
+*   **cylinder\_count**: Defined by engine. Default to 0.00.
+*   **engine\_displacement**: Defined by engine. Default to 0.00.
+*   **accel\_0\_60\_sec**: Defined by engine. Default to 0.00.
+*   **top\_speed**: Defined by engine. Default to 0.00.
+*   **drive\_type**: Defined by engine (RWD or AWD). Default to 0.00.
+*   **transmission\_type**: Defined by engine (7G-Tronic Plus or 9G-Tronic). Default to 0.00.
+*   **driving\_track\_vs\_gt**: The CLS platform is designed as a Grand Tourer. Score: 1.00.
+*   **offroad\_ability**: The CLS is a low-slung sedan, not designed for off-road use. Score: 1.00.
+*   **braking\_dist\_ft**: Defined by engine/brakes. Default to 0.00.
+*   **size**: Based on C218 CLS length (~4940mm or 194.4 inches). This is larger than a Honda Civic (~4600mm) but not as large as a Hummer EV (>5100mm). Score: 0.50.
+*   **wheelbase**: Based on C218 CLS wheelbase (2874 mm or 113.1 inches). This is longer than a Skoda Octavia (~2700mm) but shorter than an S-Class (>3200mm). Score: 0.25.
+*   **body\_style**: The CLS is a 4-door coupe. Score: 0.00.
+*   **seats**: The C218 CLS typically has seating for 4. Score: -0.50.
+*   **cargo\_space**: The C218 CLS coupe has 520 litres (18.36 cu ft) of cargo space. This is slightly above a Honda Civic (~15 cu ft). Score: 0.25.
+*   **rear\_space**: Rear headroom is noted as limited, and rear legroom is around 35.47 inches. Rear space is compromised compared to a traditional sedan. Score: 0.00.
+*   **ground\_clearance\_in**: Ground clearance is listed around 118mm (4.65 inches) or 95mm (3.74 inches). This is below the average of ~6.5 inches. Score: -0.75.
+*   **turn\_radius\_ft**: Turning circle is 11.18-11.27 meters (36.68-36.98 ft). This is around the average of ~36 ft. Score: 0.00.
+*   **mpg**: Defined by engine. Default to 0.00.
+*   **co2\_g\_km**: Defined by engine. Default to 0.00.
+*   **electrification**: Defined by engine (petrol or diesel). Default to 0.00.
+*   **electric\_range\_mi**: Not an EV/PHEV. Score: -1.00.
+*   **charge\_speed\_kw**: Not an EV/PHEV. Score: -1.00.
+*   **style\_sleek\_vs\_boxy**: The CLS is known for its sleek, coupe-like profile. Score: 1.00.
+*   **style\_aggression\_rating**: The Grand Edition includes AMG bodystyling and tinted headlights, adding sportiness. Score: 0.50.
+*   **style\_modernity\_rating**: The C218 design is older now compared to current models. Score: -0.50.
+*   **handling\_rating**: Based on C218 CLS handling, sports suspension adds some capability. Score: 0.25.
+*   **ride\_comfort\_rating**: Based on C218 CLS ride, sports suspension might slightly reduce comfort compared to standard, but still a GT. Score: 0.50.
+*   **cabin\_noise\_rating**: Based on C218 CLS cabin noise. Score: 0.50.
+*   **shift\_smooth\_rating**: Based on C218 CLS transmission (7G-Tronic Plus or 9G-Tronic). Score: 0.75.
+*   **steering\_feel\_rating**: Based on C218 CLS steering. Score: 0.00.
+*   **adas\_score**: Based on C218 facelift ADAS availability (COMAND Online, reversing camera, Active Parking Assist, LED Intelligent Light System). Score: 0.50.
+*   **visibility\_rating**: Rear visibility limited. Score: -0.50.
+*   **headlight\_rating**: LED Intelligent Light System and tinted headlights. Score: 0.75.
+*   **security\_rating**: Standard Mercedes security features. Score: 0.50.
+*   **screen\_in**: C218 facelift screen size (8 inches). Score: 0.00.
+*   **infotainment\_ux\_rating**: C218 COMAND system. Score: -0.25.
+*   **smartphone\_connect\_rating**: Apple CarPlay/Android Auto were available on later C218 models. Score: 0.50.
+*   **audio\_rating**: Standard system likely decent, premium options available (e.g., Harman Kardon). Score: 0.50.
+*   **usb\_ports**: Likely fewer than modern cars. Score: -0.50.
+*   **comfort\_feature\_score**: Heated seats standard, designo leather, special trim. Score: 0.75.
+*   **convenience\_feature\_score**: Reversing camera, Active Parking Assist, COMAND Online. Score: 0.50.
+*   **brand\_prestige\_rating**: Mercedes-Benz is high prestige. Score: 1.00.
+*   **model\_prestige\_rating**: CLS is upper-middle/high. Score: -0.50.
+*   **trim\_prestige\_rating**: Grand Edition is a special edition, typically positioned above standard trims but below full AMG. Score: 0.00.
+*   **interior\_luxury\_rating**: Designo leather, special wood trim, Alcantara headliner. Score: 1.00.
+*   **interior\_tech\_focus\_rating**: C218 tech level. Score: -0.50.
+
 ```json
 {
-  "price_usd": +1.00,
-  "total_cost_estimate_5yr_usd": +0.30,
-  "insurance_usd_yr": -0.80,
-  "maint_usd_yr": -0.50,
-  "repair_risk_score": -0.10,
-  "hp": +0.40,
-  "torque": +0.30,
+  "price_usd": -0.60,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.00,
+  "torque": 0.00,
   "cylinder_count": 0.00,
-  "engine_displacement": +0.10,
-  "accel_0_60_sec": +0.40,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.00,
   "top_speed": 0.00,
-  "drive_type": +1.00,
-  "transmission_type": +1.00,
-  "driving_track_vs_gt": +1.00,
-  "offroad_ability": +1.00,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": +0.50,
-  "wheelbase": +0.50,
+  "size": 0.50,
+  "wheelbase": 0.25,
   "body_style": 0.00,
-  "seats": -0.30,
-  "cargo_space": +0.10,
+  "seats": -0.50,
+  "cargo_space": 0.25,
   "rear_space": 0.00,
-  "ground_clearance_in": -0.50,
+  "ground_clearance_in": -0.75,
   "turn_radius_ft": 0.00,
-  "mpg": -0.10,
-  "co2_g_km": -0.30,
-  "electrification": -1.00,
+  "mpg": 0.00,
+  "co2_g_km": 0.00,
+  "electrification": 0.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": +1.00,
-  "style_aggression_rating": +0.50,
+  "style_sleek_vs_boxy": 1.00,
+  "style_aggression_rating": 0.50,
   "style_modernity_rating": -0.50,
-  "handling_rating": +0.50,
-  "ride_comfort_rating": +0.80,
-  "cabin_noise_rating": +0.80,
-  "shift_smooth_rating": +0.50,
+  "handling_rating": 0.25,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.75,
   "steering_feel_rating": 0.00,
-  "adas_score": -1.00,
-  "visibility_rating": -0.30,
-  "headlight_rating": +0.50,
-  "security_rating": +0.50,
-  "screen_in": -0.30,
-  "infotainment_ux_rating": -0.30,
-  "smartphone_connect_rating": -1.00,
-  "audio_rating": +0.80,
-  "usb_ports": -1.00,
-  "comfort_feature_score": +0.80,
-  "convenience_feature_score": +0.50,
-  "brand_prestige_rating": +0.80,
-  "model_prestige_rating": -0.30,
+  "adas_score": 0.50,
+  "visibility_rating": -0.50,
+  "headlight_rating": 0.75,
+  "security_rating": 0.50,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": -0.25,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.50,
+  "usb_ports": -0.50,
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": -0.50,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": +0.80,
+  "interior_luxury_rating": 1.00,
   "interior_tech_focus_rating": -0.50
 }
 ```

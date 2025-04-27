@@ -1,57 +1,115 @@
-```json
+Based on the search results, the most recent model year with readily available detailed specs seems to be the 2024 Audi e-tron GT, although information on the 2025 model is also emerging with increased power and range. I will primarily use 2024 data where available, noting 2025 improvements where relevant for context, but scoring based on the 2024 model unless a metric is only available for 2025. I will focus on the base e-tron GT (Premium Plus/Prestige) unless RS specs are specifically requested or more commonly cited.
+
+Here's the data extraction and scoring:
+
+*   **price\_usd**: 2024 starts at $107,995 (Premium Plus). This is significantly above the $52,000 average. Score: -1.00.
+*   **total\_cost\_estimate\_5yr\_usd**: No specific 5-year cost estimate found. Given the high purchase price, luxury brand, and EV components, it's likely to be high, but without data, default to 0.00.
+*   **insurance\_usd\_yr**: No specific annual insurance cost found. Luxury/performance EVs tend to have higher insurance. Default to 0.00.
+*   **maint\_usd\_yr**: No specific annual maintenance cost found. EVs generally have lower maintenance than ICE cars, but luxury EVs can still be costly. Default to 0.00.
+*   **repair\_risk\_score**: No specific reliability rating found in the snippets. Audi is generally considered average to slightly above average, but new EVs can have initial issues. Default to 0.00.
+*   **hp**: Base 2024 e-tron GT has 469 hp (522 hp with boost). This is well above the 200 hp average. Score: +0.70 (closer to 700hp benchmark).
+*   **torque**: Base 2024 e-tron GT has 464 lb-ft (472 lb-ft with boost). This is well above the 190 lb-ft average. Score: +0.70 (closer to 1000 lb-ft benchmark).
+*   **cylinder\_count**: N/A (EV). Default to 0.00.
+*   **engine\_displacement**: N/A (EV). Default to 0.00.
+*   **accel\_0\_60\_sec**: Base 2024 e-tron GT is 3.9 seconds. This is significantly faster than the 7.5 sec average. Score: +0.70 (closer to 2.5 sec benchmark).
+*   **top\_speed**: Base 2024 e-tron GT is 152 mph. RS is 155 mph. 152 mph is around the 150mph benchmark. Score: 0.00.
+*   **drive\_type**: All-wheel drive (Quattro) is standard. AWD is the 0.00 benchmark. Score: 0.00.
+*   **transmission\_type**: 2-speed automatic (rear axle). EVs don't have traditional transmissions like ICE cars. The 2-speed is unique for EVs but not a standard transmission type comparison. Default to 0.00.
+*   **driving\_track\_vs\_gt**: Described as a "grand tourer" with focus on comfort but also sporty handling. It balances GT comfort with performance. Score: +0.50 (leaning towards GT).
+*   **offroad\_ability**: Low ground clearance, sleek sedan body style. Not designed for off-road. Score: +1.00 (poor off-road ability).
+*   **braking\_dist\_ft**: Edmunds tested 106 ft from 60 mph. This is better than the 125 ft average and closer to the <105 ft benchmark. Score: +0.70.
+*   **size**: Length is 196.4-197.0 inches (approx 4989-5004 mm). This is larger than the 4600mm Civic benchmark, closer to the >5100mm large vehicles. Score: +0.50.
+*   **wheelbase**: 114.1-114.2 inches (approx 2898 mm). This is larger than the 2700mm Octavia benchmark, closer to the >3200mm large luxury cars. Score: +0.50.
+*   **body\_style**: Four-door coupe/sedan. This is the 0.00 benchmark. Score: 0.00.
+*   **seats**: 5 seats. This is the 0.00 benchmark. Score: 0.00.
+*   **cargo\_space**: 9 cu ft (rear) + 2 cu ft (front) = 11 cu ft total. Some sources say 12 cu ft rear. Using 11 cu ft total. This is less than the 15 cu ft Civic benchmark. Score: -0.50.
+*   **rear\_space**: Rear legroom is 32.2 inches. Rear headroom is 37.5 inches. Described as limited rear legroom and needing to "scrunch down". This is less than the 35" Tucson benchmark. Score: -0.50.
+*   **ground\_clearance\_in**: Not explicitly stated in inches, but described as having low roofline and ride height and "not great" ground clearance. Likely in the 4-6 inch range. Score: -0.50 (closer to sports car low).
+*   **turn\_radius\_ft**: 19.0 ft (5.8m). This is significantly smaller than the 36 ft Camry benchmark, closer to the 22 ft Smart Fortwo. Score: +0.80.
+*   **mpg**: N/A (EV). EPA MPGe is 84-90 combined. This is very efficient compared to ICE, but the scoring is for MPG. Default to 0.00.
+*   **co2\_g\_km**: 0 g/km (EV). This is the +1.00 benchmark. Score: +1.00.
+*   **electrification**: BEV (Battery Electric Vehicle). This is the +1.00 benchmark. Score: +1.00.
+*   **electric\_range\_mi**: EPA estimated 238 miles (base 2024). Real-world tests got 240-273 miles. 2025 models claim up to 300-378 miles. Using 2024 EPA 238 miles. This is better than the 100 mi benchmark but less than the >375 mi benchmark. Score: +0.30.
+*   **charge\_speed\_kw**: Max DC fast charging is 270 kW (standard). 2025 models increase to 320 kW. Using 270 kW. This is significantly higher than the 11-50 kW average. Score: +0.80 (closer to 250-350+ kW benchmark).
+*   **style\_sleek\_vs\_boxy**: Described as having a "sleek and sporty design", "sleek, flowing lines", "elongated and low silhouette, along with its chiseled lines". Clearly on the sleek end. Score: +0.80.
+*   **style\_aggression\_rating**: Described with "aggressive-looking side air intakes", "bold, upright fascia", "bold, muscular design". Leans towards aggressive. Score: +0.50.
+*   **style\_modernity\_rating**: Described as "eye-catching styling", "looks magnificent", "head-turning style", "leading-edge all-electric drive". Shares platform with Taycan. Looks modern and distinct. Score: +0.80.
+*   **handling\_rating**: Described with "splendid handling", "confident handling", "precise handling", "razor-sharp" handling, "superb driving dynamics", "one of the very best EVs to drive". Score: +0.80.
+*   **ride\_comfort\_rating**: Described as "perfectly comfortable", "excellent on-road comfort", "comfortable ride", "quite comfortable", "mightily impressive" air suspension. Score: +0.80.
+*   **cabin\_noise\_rating**: Described as having "outstanding refinement", "effortless, serene performance". EVs are generally quiet. Score: +0.80.
+*   **shift\_smooth\_rating**: N/A (EV). Has a 2-speed transmission, but not a traditional shift feel. Default to 0.00.
+*   **steering\_feel\_rating**: Described as "precise steering", "responsive", "fast and precise, but not particularly engaging". Score: +0.30 (precise but lacking engagement).
+*   **adas\_score**: Available with adaptive cruise assist with lane guidance, intersection assist, top view camera, remote park assist, matrix LED headlights with laser high beams. Has a good suite of modern ADAS features. Score: +0.70.
+*   **visibility\_rating**: Described as having "Poor rearward visibility", "small rear door openings and limited rear legroom", "low roofline and invasive (wide) door pillars", "windows are small". Score: -0.70.
+*   **headlight\_rating**: Matrix-design LED headlights with laser high beams available on higher trims. This is advanced technology. Score: +0.80.
+*   **security\_rating**: No specific security features mentioned beyond standard airbags and traction control. Default to 0.00.
+*   **screen\_in**: 10.1-inch central touchscreen and 12.3-inch digital instrument cluster (virtual cockpit). Using the main touchscreen size. 10.1 inches is larger than the 8" average. Score: +0.30.
+*   **infotainment\_ux\_rating**: Described as "visually exciting and loaded with popular content", "straightforward 10.1-inch touch-screen", "very slick, expensive-looking, and fairly easy to use". Score: +0.70.
+*   **smartphone\_connect\_rating**: Wireless Apple CarPlay and Android Auto standard. Wireless charging pad available. Score: +0.80.
+*   **audio\_rating**: Bang & Olufsen premium audio system available/standard on some trims. Described as "powerful 16-speaker" or "3D sound". Score: +0.80.
+*   **usb\_ports**: Not specified in the search results. Default to 0.00.
+*   **comfort\_feature\_score**: Heated front seats standard, three-zone automatic climate control standard, power seats, available massaging/ventilated seats (not explicitly stated but common for this class). Score: +0.70.
+*   **convenience\_feature\_score**: Integrated navigation standard, wireless charging available, remote park assist available, top view camera system available, adaptive cruise assist standard. Score: +0.70.
+*   **brand\_prestige\_rating**: Audi is a well-established luxury brand. Score: +0.70.
+*   **model\_prestige\_rating**: The e-tron GT is described as the "spearhead of Audi's electric portfolio", "flagship electric car", "electric halo", "performance electric car". It's a high-end, performance-oriented model within the Audi lineup. This fits the "-1.00: Top of brand/ halo cars" benchmark. Score: -1.00.
+*   **trim\_prestige\_rating**: Assuming the base Premium Plus trim. This is not the top RS or RS Performance trim. This fits the "+1.00: Base Models" benchmark. Score: +1.00.
+*   **interior\_luxury\_rating**: Described as "luxe and functional interior", "upscale cabin packed full of all the latest tech features", "premium-look dashboard", "high-quality materials". Available with Dinamica and leather-free options. Score: +0.80.
+*   **interior\_tech\_focus\_rating**: Features multiple large screens (10.1" touch, 12.3" digital cluster), wireless CarPlay/AA, wireless charging, advanced ADAS. Clearly tech-focused. Score: +0.80.
+
+Double-check all values and ensure they are within the -1.00 to +1.00 range with two decimal places. Ensure the JSON format is correct.```json
 {
   "price_usd": -1.00,
-  "total_cost_estimate_5yr_usd": -1.00,
-  "insurance_usd_yr": -1.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
   "maint_usd_yr": 0.00,
   "repair_risk_score": 0.00,
-  "hp": 0.75,
-  "torque": 0.75,
+  "hp": 0.70,
+  "torque": 0.70,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.80,
-  "top_speed": 0.10,
+  "accel_0_60_sec": 0.70,
+  "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 0.00,
   "driving_track_vs_gt": 0.50,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
+  "braking_dist_ft": 0.70,
   "size": 0.50,
   "wheelbase": 0.50,
   "body_style": 0.00,
   "seats": 0.00,
   "cargo_space": -0.50,
   "rear_space": -0.50,
-  "ground_clearance_in": -1.00,
-  "turn_radius_ft": 1.00,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.80,
   "mpg": 0.00,
   "co2_g_km": 1.00,
   "electrification": 1.00,
-  "electric_range_mi": 0.40,
-  "charge_speed_kw": 1.00,
-  "style_sleek_vs_boxy": 1.00,
-  "style_aggression_rating": 0.70,
-  "style_modernity_rating": 0.90,
-  "handling_rating": 0.90,
+  "electric_range_mi": 0.30,
+  "charge_speed_kw": 0.80,
+  "style_sleek_vs_boxy": 0.80,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.80,
+  "handling_rating": 0.80,
   "ride_comfort_rating": 0.80,
-  "cabin_noise_rating": 0.90,
+  "cabin_noise_rating": 0.80,
   "shift_smooth_rating": 0.00,
-  "steering_feel_rating": 0.50,
+  "steering_feel_rating": 0.30,
   "adas_score": 0.70,
-  "visibility_rating": -0.50,
+  "visibility_rating": -0.70,
   "headlight_rating": 0.80,
   "security_rating": 0.00,
-  "screen_in": 0.00,
+  "screen_in": 0.30,
   "infotainment_ux_rating": 0.70,
-  "smartphone_connect_rating": 1.00,
+  "smartphone_connect_rating": 0.80,
   "audio_rating": 0.80,
   "usb_ports": 0.00,
   "comfort_feature_score": 0.70,
-  "convenience_feature_score": 0.80,
-  "brand_prestige_rating": 0.80,
-  "model_prestige_rating": -0.80,
+  "convenience_feature_score": 0.70,
+  "brand_prestige_rating": 0.70,
+  "model_prestige_rating": -1.00,
   "trim_prestige_rating": 1.00,
-  "interior_luxury_rating": 0.90,
-  "interior_tech_focus_rating": 0.70
+  "interior_luxury_rating": 0.80,
+  "interior_tech_focus_rating": 0.80
 }
 ```

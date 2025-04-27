@@ -56,7 +56,7 @@ def send_with_backoff(gemini: genai.chats.Chat, messages: list[str]):
         except google.genai.errors.ClientError as rl_exc:
             if rl_exc.code == 429 or rl_exc.code == 503:
                 if attempt < 5:
-                    delay = min(120, 10 * (2 ** (attempt - 1)))
+                    delay = min(120, 20 * (2 ** (attempt - 1)))
                     if execution_enabled.is_set():
                         execution_enabled.clear()
 
@@ -66,8 +66,11 @@ def send_with_backoff(gemini: genai.chats.Chat, messages: list[str]):
                 raise rl_exc
         except Exception as exc:
             raise exc
+    raise Exception("No response")
 
 def queryllm_evaluate_model(model: list[str], fail_log: typing.TextIO):
+    execution_enabled.wait()
+    time.sleep(1)
     execution_enabled.wait()
     time.sleep(random.random() * 2)
     gemini = client.chats.create(
@@ -80,6 +83,8 @@ def queryllm_evaluate_model(model: list[str], fail_log: typing.TextIO):
     )
 
     for i in model[-1]:
+        execution_enabled.wait()
+        time.sleep(1)
         execution_enabled.wait()
         time.sleep(random.random() * 0.5)
         try:

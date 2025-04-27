@@ -1,4 +1,92 @@
-```json
+The Porsche 911 Dakar (992) is a limited edition model. Production of the original 992 Dakar wrapped up in November 2024, but a new hybridized version based on the 992.2 GTS is expected by the end of 2025 as a 2026 model year. Since the user asked for the "most recent version," and the hybridized 992.2 Dakar is not yet widely available or fully detailed, I will evaluate the original 992.1 Dakar (2023-2024 model years) based on the available data.
+
+-   **price_usd**: The 2023 Porsche 911 Dakar had a base price of $223,450, with tested prices around $230,800. This is well above the $120,000 threshold. Score: -1.00.
+-   **total_cost_estimate_5yr_usd**: High purchase price, insurance, and maintenance costs for a limited-edition, high-performance Porsche will result in a very high 5-year cost, likely well over $80,000. Score: -1.00.
+-   **insurance_usd_yr**: As a high-value, high-performance, limited-edition Porsche, the Dakar will be in the highest insurance groups. Costs will be well over $3,500/year. Score: -1.00.
+-   **maint_usd_yr**: Porsche maintenance is expensive, and a specialized, limited-edition model with unique components (like the suspension and tires) could incur even higher costs. Likely well over $3,500/year on average. Score: -1.00.
+-   **repair_risk_score**: The Dakar shares components with other 992 models (GTS engine, GT3 suspension mounts), which are generally reliable. However, its unique off-road focus and limited production run could mean higher costs or difficulty sourcing parts if specialized components fail. Score: 0.00.
+-   **hp**: The 911 Dakar has 473-480 hp. This is well above the 200 hp average and a good way towards the >700 hp benchmark. Score: 0.80.
+-   **torque**: The 911 Dakar has 420 lb-ft (570 Nm). This is well above the 190 lb-ft average and a good way towards the >1000 lb-ft benchmark. Score: 0.70.
+-   **cylinder_count**: Flat-6 (H6). Score: 0.00.
+-   **engine_displacement**: 3.0L (2981 cc) twin-turbocharged flat-six. Around 3.0L is 0.00, >6.0L is +1.00. 3.0L is around average for performance cars. Score: 0.00.
+-   **accel_0_60_sec**: Porsche claims 3.4 seconds (0-100 km/h). Car and Driver tested it at 2.9 seconds. 0-62 mph is 3.4-3.5 seconds. <2.5s is +1.00, ~7.5s is 0.00. 2.9-3.4 seconds is exceptionally fast, very close to the benchmark. Score: 0.90.
+-   **top_speed**: Top speed is limited to 149 mph (240 km/h) due to the all-terrain tires. >222mph is +1.00, 150mph is 0.00. 149 mph is just below the 0.00 benchmark. Score: -0.20.
+-   **drive_type**: All-wheel drive (AWD) is standard. Score: 0.00.
+-   **transmission_type**: 8-speed PDK (dual-clutch) is standard. Score: 0.00.
+-   **driving_track_vs_gt**: Designed for both on-road performance and off-road capability. It's a unique blend, not purely track or GT. Score: 0.00.
+-   **offroad_ability**: Significantly enhanced off-road capability compared to a standard 911, with increased ground clearance, lift system, and specific modes. While not a dedicated off-road vehicle like a Wrangler or G-Class, it is exceptionally capable for a sports car. Score: -0.50. (Benchmarked against typical SUVs/off-roaders, it's not best-in-class, but far better than a standard sports car).
+-   **braking_dist_ft**: Uses Carrera S brakes. Porsche brakes are typically excellent. Score: 0.80.
+-   **size**: Length 4530 mm (178.3 in). Width 1864 mm (73.4 in) without mirrors, 2033 mm (80.0 in) with mirrors. Height 1338 mm (52.7 in). ~4600mm (~181in) is 0.00. Slightly smaller than average. Score: -0.20.
+-   **wheelbase**: 2450 mm (96.5 in). ~2700mm is 0.00, <2300mm is -1.00. Closer to -1.00. Score: -0.50.
+-   **body_style**: 2-door coupe. Score: -1.00.
+-   **seats**: 2 seats (rear seat delete standard). Full bucket seats standard, adaptive sports seats optional. Score: -1.00.
+-   **cargo_space**: Front luggage compartment 132-135 liters (4.6-4.8 cu ft). <5 cu ft is -1.00, ~15 cu ft is 0.00. Score: -1.00.
+-   **rear_space**: No rear seats. Score: -1.00.
+-   **ground_clearance_in**: Standard ride height is 50mm higher than a standard 911, plus 10mm from tires. Lift system adds another 30mm. Max ground clearance is 191mm (7.5 inches). ~6.5 inches is 0.00, >10 inches is +1.00. 7.5 inches is above average. Score: 0.20.
+-   **turn_radius_ft**: 10.7 m (35.1 ft). ~36 ft is 0.00. Score: 0.00.
+-   **mpg**: EPA combined 19 mpg. WLTP combined 11.3 l/100 km (20.8 mpg). ~30 mpg is 0.00, ~12 mpg is -1.00. Real-world is likely below average. Score: -0.20.
+-   **co2_g_km**: WLTP combined 256 g/km. EPA 9.3 tons/year (equivalent to ~330 g/km). ~175 g/km is 0.00, >300 g/km is -1.00. High emissions. Score: -0.80.
+-   **electrification**: Petrol engine only (original 992.1 Dakar). Score: -1.00. (Note: The upcoming 992.2 Dakar will be hybrid).
+-   **electric_range_mi**: Not electric. Score: -1.00.
+-   **charge_speed_kw**: Not electric. Score: -1.00.
+-   **style_sleek_vs_boxy**: Sleek sports car profile, but with off-road elements (raised height, cladding, roof rack option). Score: 0.50.
+-   **style_aggression_rating**: Aggressive styling cues, especially with Rallye Design Package and off-road accessories. Score: 0.80.
+-   **style_modernity_rating**: Modern design, but with retro cues from the 953 Paris-Dakar car. Score: 0.20.
+-   **handling_rating**: Exceptional handling on-road, surprisingly capable off-road. Blends sports car agility with off-road stability. Score: 0.80.
+-   **ride_comfort_rating**: Surprisingly comfortable ride quality for a performance car, especially on rough surfaces, due to increased suspension travel and softer springs. Score: 0.80.
+-   **cabin_noise_rating**: Less sound deadening than standard 911, more turbo/engine noise, and road noise from all-terrain tires. Score: -0.50.
+-   **shift_smooth_rating**: 8-speed PDK dual-clutch transmission is excellent. Score: 0.80.
+-   **steering_feel_rating**: Precise and communicative steering, even with off-road tires. Score: 1.00.
+-   **adas_score**: Standard features include Warn and Brake Assist (AEB), ParkAssist (front and rear), rearview camera, SurroundView. Optional features likely similar to other 992s (Adaptive Cruise Control, etc.). More comprehensive than older models. Score: 0.50.
+-   **visibility_rating**: Limited visibility typical of sports coupes. Score: -0.20.
+-   **headlight_rating**: Dark-tinted LED main headlights with matrix beam, incl. PDLS Plus standard. Optional roof basket includes auxiliary LED headlights for off-road use. Top-tier modern headlights. Score: 1.00.
+-   **security_rating**: High value, limited edition car. Likely has advanced security features including a tracking system. Score: 0.90.
+-   **screen_in**: 10.9-inch touchscreen infotainment system. Score: 0.80.
+-   **infotainment_ux_rating**: PCM system with touchscreen, navigation, Apple CarPlay, Android Auto. Generally well-regarded. Score: 0.50.
+-   **smartphone_connect_rating**: Apple CarPlay and Android Auto available. Score: 0.80.
+-   **audio_rating**: Bose Surround Sound System standard. Excellent quality. Score: 0.80.
+-   **usb_ports**: Likely multiple USB ports. Score: 0.00.
+-   **comfort_feature_score**: Full bucket seats standard (less comfortable), but adaptive sports seats (18-way electric) are a no-cost option. Dual-zone climate control standard. Heated seats likely optional. Score: 0.20.
+-   **convenience_feature_score**: Standard features include Sport Chrono Package, Comfort Access, ParkAssist, SurroundView, HomeLink®. Optional roof rack with accessories. High level of convenience features available. Score: 0.80.
+-   **brand_prestige_rating**: Porsche is a high-prestige brand. Score: 1.00.
+-   **model_prestige_rating**: The 911 is Porsche's halo model. Score: -1.00.
+-   **trim_prestige_rating**: Dakar is a limited-edition, highly specialized, top-tier variant. Score: -1.00.
+-   **interior_luxury_rating**: High-quality materials (leather, Race-Tex/Alcantara, carbon fiber options). Luxurious for a car with off-road intent. Score: 0.70.
+-   **interior_tech_focus_rating**: Features a large central touchscreen and digital elements in the cluster, but retains physical controls. Not as screen-forward as some newest cars. Score: 0.20.
+
+Final review of scores:
+- Price, Total Cost, Insurance, Maint: -1.00 seems correct for a limited-edition, high-end Porsche.
+- Repair Risk: 0.00 seems fair, balancing general reliability with unique components.
+- Performance (HP, Torque, Accel, Braking): High scores are appropriate.
+- Top Speed: -0.20 due to tire limitation. Correct.
+- Engine Details (Cylinders, Displacement): 0.00 seems correct.
+- Drive Type: 0.00 for AWD. Correct.
+- Transmission: 0.00 for PDK only. Correct.
+- Driving Track vs GT: 0.00 for unique blend. Correct.
+- Offroad Ability: -0.50 for enhanced capability relative to segment, but not best overall. Correct.
+- Braking Dist: 0.80 seems reasonable.
+- Size: -0.20 (Slightly smaller than average) - Seems reasonable.
+- Wheelbase: -0.50 (Shorter than average) - Seems reasonable.
+- Body Style: -1.00 for 2-door Coupe. Correct.
+- Seats: -1.00 for 2 seats. Correct.
+- Cargo Space: -1.00 for small frunk. Correct.
+- Rear Space: -1.00 for none. Correct.
+- Ground Clearance: 0.20 for above average. Correct.
+- Turn Radius: 0.00 (~35-36ft) - Correct.
+- Efficiency (MPG, CO2): Below average/high emissions. -0.20/-0.80 seem correct.
+- Electrification: -1.00 for petrol. Correct.
+- Electric Range/Charge Speed: -1.00 for N/A. Correct.
+- Style: Mixed scores for sleek/aggressive/modern-retro. 0.50/0.80/0.20 seem reasonable.
+- Dynamics (Handling, Steering): 0.80/1.00 for excellent handling/steering with unique off-road capability. Correct.
+- Ride Comfort, Cabin Noise: 0.80/-0.50 for surprisingly comfortable ride but increased noise. Correct.
+- Shift Smooth: 0.80 for excellent PDK. Correct.
+- Safety/Visibility (ADAS, Visibility, Headlights, Security): Mixed scores. 0.50/-0.20/1.00/0.90 seem reasonable.
+- Infotainment/Connectivity (Screen, UX, Smartphone, Audio, USB): Mixed scores. 0.80/0.50/0.80/0.80/0.00 seem reasonable.
+- Features (Comfort, Convenience): Mixed scores due to standard bucket seats but high convenience features. 0.20/0.80 seem reasonable.
+- Prestige (Brand, Model, Trim): High scores for Brand/Model, highest for Trim. 1.00/-1.00/-1.00 seem correct.
+- Interior Character (Luxury, Tech Focus): 0.70/0.20 seem reasonable for high quality but not overly tech-focused interior with performance cues.
+
+Looks good. Proceed with JSON output.```json
 {
   "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
@@ -9,47 +97,49 @@
   "torque": 0.70,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.95,
-  "top_speed": 0.50,
+  "accel_0_60_sec": 0.90,
+  "top_speed": -0.20,
   "drive_type": 0.00,
   "transmission_type": 0.00,
-  "offroad_ability": -0.75,
-  "braking_dist_ft": 1.00,
-  "size": 0.00,
-  "wheelbase": -0.75,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": -0.50,
+  "braking_dist_ft": 0.80,
+  "size": -0.20,
+  "wheelbase": -0.50,
   "body_style": -1.00,
   "seats": -1.00,
   "cargo_space": -1.00,
   "rear_space": -1.00,
-  "ground_clearance_in": 0.50,
-  "turn_radius_ft": 0.50,
-  "mpg": -0.75,
-  "co2_g_km": -0.75,
+  "ground_clearance_in": 0.20,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.20,
+  "co2_g_km": -0.80,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.50,
-  "style_aggression_rating": 0.75,
-  "style_modernity_rating": 0.50,
-  "handling_rating": 0.90,
-  "ride_comfort_rating": 0.75,
-  "cabin_noise_rating": -0.75,
-  "shift_smooth_rating": 0.75,
+  "style_aggression_rating": 0.80,
+  "style_modernity_rating": 0.20,
+  "handling_rating": 0.80,
+  "ride_comfort_rating": 0.80,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": 0.80,
   "steering_feel_rating": 1.00,
   "adas_score": 0.50,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.50,
-  "security_rating": 0.75,
-  "screen_in": 0.50,
-  "infotainment_ux_rating": 0.75,
-  "smartphone_connect_rating": 1.00,
-  "audio_rating": 0.75,
+  "visibility_rating": -0.20,
+  "headlight_rating": 1.00,
+  "security_rating": 0.90,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.80,
   "usb_ports": 0.00,
-  "comfort_feature_score": 0.25,
-  "convenience_feature_score": 0.75,
+  "comfort_feature_score": 0.20,
+  "convenience_feature_score": 0.80,
   "brand_prestige_rating": 1.00,
   "model_prestige_rating": -1.00,
   "trim_prestige_rating": -1.00,
-  "interior_luxury_rating": 0.75,
-  "interior_tech_focus_rating": 0.50
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": 0.20
 }
 ```

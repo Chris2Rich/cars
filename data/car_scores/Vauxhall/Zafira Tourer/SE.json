@@ -1,55 +1,113 @@
+The Vauxhall Zafira Tourer 'SE' trim was available on the pre-facelift model (2011-2016). I will use data primarily from the later years of this period, around 2015-2016.
+
+- **price_usd**: Used prices for 2015-2016 Vauxhall Zafira Tourer SE models in the UK range from around £1,650 to £7,449. Converting £4,000 (a mid-range price) to USD (approx 1.2 USD/GBP) is $4,800. This is well below the market average of $52,000. Score: +1.00.
+- **total_cost_estimate_5yr_usd**: Running costs are generally considered reasonable. Average repair cost is less than £350. Reliability is mixed. Depreciation is a factor for MPVs. Given the very low purchase price and reasonable running costs, the 5-year cost is likely significantly below the $40,000 average. Score: 0.75.
+- **insurance_usd_yr**: Insurance groups for the Zafira Tourer SE range from 15 to 22. These groups are around the middle to upper end of the Zafira Tourer range (11-22) but likely result in below average insurance costs compared to the national average for a new car. Score: 0.25.
+- **maint_usd_yr**: Average repair cost for a Zafira Tourer is less than £350. This suggests lower than average annual maintenance costs. Score: 0.50.
+- **repair_risk_score**: The Zafira Tourer has an average reliability score of 69% according to MotorEasy data. Common faults relate to suspension and engine, though repair costs are comparable to rivals. Some owner reviews mention mechanical issues and trim not being hardwearing. There was a recall related to fire risk on older Zafira B models, which might affect perception, though the Tourer is a different generation. Compared to highly reliable models, it's below average. Score: -0.25.
+- **hp**: SE trim offered engines like the 1.4i Turbo (140 PS / 138 bhp), 1.8i (140 PS / 138 bhp), and 2.0 CDTi (130 PS / 128 bhp or 165 PS / 162 bhp or 170 PS / 168 bhp). These figures are below the market average of 200 hp. Score: -0.50.
+- **torque**: 1.4i Turbo has 200 Nm (147 lb-ft). 2.0 CDTi engines have higher torque (e.g., 165PS has 350 Nm / 258 lb-ft, 170PS has 295 lb-ft). The diesel torque figures are around or above the 190 lb-ft average. Averaging across common engines for the trim, it's around average. Score: 0.00.
+- **cylinder_count**: Engines are typically 4-cylinder. This is the market average. Score: 0.00.
+- **engine_displacement**: Common engines are 1.4L, 1.8L, and 2.0L. These are around or slightly below the market average of 3.0L. Score: -0.25.
+- **accel_0_60_sec**: 0-60 mph times range from 9.1s (2.0 CDTi 165PS) to 10.6s (2.0 CDTi 130PS) or 9.9s (1.4T). These times are slower than the market average of 7.5s. Score: -0.50.
+- **top_speed**: Top speeds range from 119 mph (2.0 CDTi 130PS) to 129 mph (2.0 CDTi 165PS) or 124 mph (1.4T). These are below the market average of 150 mph. Score: -0.50.
+- **drive_type**: Front-wheel drive (FWD). Score: -1.00.
+- **transmission_type**: Offered with manual and automatic transmissions. Automatic is available. Score: 1.00.
+- **driving_track_vs_gt**: MPV designed for family transport and comfort. Score: 1.00.
+- **offroad_ability**: Low ground clearance MPV, not designed for off-road. Score: 1.00.
+- **braking_dist_ft**: Brakes are described as strong and responsive in one review, but lacking bite in another. The electronic parking brake on SE models worked well on a slope. No specific distance found, assume average. Score: 0.00.
+- **size**: Length is 4656-4658 mm (183.4 inches). This is slightly larger than a typical sedan/hatchback but smaller than large SUVs/vans. Score: 0.10.
+- **wheelbase**: Wheelbase is 2760 mm (108.66 inches). This is around the average for a modern vehicle. Score: 0.00.
+- **body_style**: 5-door MPV (people carrier). Score: 0.75.
+- **seats**: 7 seats standard (Flex7® seating system). Score: 1.00.
+- **cargo_space**: 152 litres (5.37 cu ft) with 7 seats up, 710 litres (25.07 cu ft) with 3rd row folded, 1860 litres (65.69 cu ft) with 2nd and 3rd rows folded. Excellent cargo space with seats folded. Score: 1.00.
+- **rear_space**: Second row seats slide and recline for comfort. Third row is cramped, best for children or occasional use. Score: 0.25.
+- **ground_clearance_in**: No specific figure found, but typical for an MPV, likely around 5-6 inches. Score: -0.25.
+- **turn_radius_ft**: Turning circle is 11.4m (37.4 ft). This is around the market average. Score: 0.00.
+- **mpg**: Combined MPG varies by engine, e.g., 1.4T petrol 42.2-44.8 mpg, 2.0 CDTi 130PS 54.3-62.8 mpg, 2.0 CDTi 165PS 53.3-54.3 mpg, 1.6 CDTi 68.9 mpg. Diesel engines offer good to very good MPG for the size. Score: 0.75.
+- **co2_g_km**: CO2 emissions vary by engine, e.g., 1.6 CDTi 109 g/km, 2.0 CDTi 130PS ecoFLEX 119 g/km, 2.0 CDTi 165PS 137-139 g/km, 1.4T 148-158 g/km. Diesel engines have relatively low CO2 for their time. Score: 0.50.
+- **electrification**: Petrol/Diesel engines only. Score: -1.00.
+- **electric_range_mi**: N/A. Score: -1.00.
+- **charge_speed_kw**: N/A. Score: -1.00.
+- **style_sleek_vs_boxy**: MPV shape, more streamlined than older vans but still fundamentally a box for practicality. Score: -0.25.
+- **style_aggression_rating**: Not an aggressive design. Score: -0.75.
+- **style_modernity_rating**: Pre-facelift design from 2011. Looks dated compared to today's market. Score: -0.25.
+- **handling_rating**: Praised for being surprisingly agile for an MPV, with taut handling and decent road-holding. UK cars had bespoke steering and suspension settings. Score: 0.25.
+- **ride_comfort_rating**: Generally considered comfortable, though some found the ride a little firm. Score: 0.25.
+- **cabin_noise_rating**: Diesel engines can be noisy at speed. 1.6 CDTi "Whisper diesel" was quieter. Score: 0.00.
+- **shift_smooth_rating**: Manual gearbox is described as reasonably slick-shifting or short and positive, but can feel rubbery. Automatics were offered. Assume average. Score: 0.00.
+- **steering_feel_rating**: Steering is light and easy to manoeuvre, which helps with parking, but lacks feel. UK cars had sharpened steering. Score: 0.00.
+- **adas_score**: SE trim could have the optional front camera system (Traffic Sign Recognition, Lane Departure Warning, Forward Collision Alert with Automatic Brake Intervention) and Side Blind Spot Alert (part of Perimeter Protection Pack). Cruise control is standard. OnStar includes automatic crash response. Score: 0.50.
+- **visibility_rating**: Praised for outstanding visibility, especially with the super-slim A-pillars and optional panoramic windscreen. Score: 1.00.
+- **headlight_rating**: SE trim includes daytime running lights. Optional Adaptive Forward Lighting LED headlamps were available. Likely projector halogens or basic LEDs as standard. Score: 0.00.
+- **security_rating**: SE trim includes remote control central deadlocking and electronic engine deadlock immobiliser. Remote control ultrasonic security alarm system was optional. OnStar includes stolen vehicle assistance. Score: 0.50.
+- **screen_in**: Pre-facelift models (up to mid-2016) had a multi-function display or CD400+ radio. Facelifted models (from late 2016) got a 7-inch touchscreen. Since SE was primarily pre-facelift, assume the older system. Score: -0.75.
+- **infotainment_ux_rating**: Pre-facelift infotainment was basic (CD400+ radio). Facelifted system (R4.0 or Navi 4.0 IntelliLink) was improved but some reviews found it hasn't aged well. Since SE was primarily pre-facelift, score based on the older system. Score: -0.25.
+- **smartphone_connect_rating**: Pre-facelift models had Bluetooth available, standard on Tech Line and above. USB connection mentioned on Tech Line. Exclusiv likely had Aux-in and possibly USB/Bluetooth depending on options/year. Facelifted models (from late 2016) with R4.0 or Navi 4.0 IntelliLink offered Apple CarPlay and Android Auto. Since SE was primarily pre-facelift, score based on the older system (Bluetooth/USB likely available but not full mirroring). Score: -0.25.
+- **audio_rating**: CD400+ radio with DAB was available. Standard audio system with 6 speakers. Score: 0.00.
+- **usb_ports**: USB connection mentioned on Tech Line. Exclusiv might have had it depending on options/year. Assume 1 port if available. Score: -0.25.
+- **comfort_feature_score**: SE trim includes air conditioning, cruise control, electric front/rear windows, front centre armrest, FlexRail storage system. Score: 0.25.
+- **convenience_feature_score**: SE trim includes front and rear parking sensors. OnStar includes Wi-Fi hotspot and vehicle diagnostics (on facelifted models, but OnStar was available earlier). Score: 0.50.
+- **brand_prestige_rating**: Vauxhall is a mainstream brand. Score: 0.00.
+- **model_prestige_rating**: Zafira Tourer is a family MPV. Score: 0.00.
+- **trim_prestige_rating**: 'SE' was a mid-range trim level. Score: 0.00.
+- **interior_luxury_rating**: Interior quality was improved over the previous Zafira but not considered luxury. Some interior plastics are not very hardwearing. Score: 0.00.
+- **interior_tech_focus_rating**: Pre-facelift model had basic tech compared to later versions or modern cars. Score: -0.75.
+
 ```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.75,
+  "insurance_usd_yr": 0.25,
+  "maint_usd_yr": 0.50,
   "repair_risk_score": -0.25,
-  "hp": -0.25,
-  "torque": 0.25,
+  "hp": -0.50,
+  "torque": 0.00,
   "cylinder_count": 0.00,
   "engine_displacement": -0.25,
   "accel_0_60_sec": -0.50,
-  "top_speed": -0.25,
+  "top_speed": -0.50,
   "drive_type": -1.00,
-  "transmission_type": 0.50,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 1.00,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.25,
-  "wheelbase": 0.25,
-  "body_style": 1.00,
+  "size": 0.10,
+  "wheelbase": 0.00,
+  "body_style": 0.75,
   "seats": 1.00,
-  "cargo_space": 0.75,
-  "rear_space": 0.00,
+  "cargo_space": 1.00,
+  "rear_space": 0.25,
   "ground_clearance_in": -0.25,
   "turn_radius_ft": 0.00,
-  "mpg": 1.00,
-  "co2_g_km": 0.75,
+  "mpg": 0.75,
+  "co2_g_km": 0.50,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": -0.50,
+  "style_sleek_vs_boxy": -0.25,
+  "style_aggression_rating": -0.75,
   "style_modernity_rating": -0.25,
-  "handling_rating": 0.00,
+  "handling_rating": 0.25,
   "ride_comfort_rating": 0.25,
   "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": 0.50,
-  "steering_feel_rating": -0.25,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
   "adas_score": 0.50,
-  "visibility_rating": 0.50,
+  "visibility_rating": 1.00,
   "headlight_rating": 0.00,
-  "security_rating": 0.00,
-  "screen_in": -0.25,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.75,
+  "security_rating": 0.50,
+  "screen_in": -0.75,
+  "infotainment_ux_rating": -0.25,
+  "smartphone_connect_rating": -0.25,
   "audio_rating": 0.00,
   "usb_ports": -0.25,
   "comfort_feature_score": 0.25,
   "convenience_feature_score": 0.50,
-  "brand_prestige_rating": -0.25,
+  "brand_prestige_rating": 0.00,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": -0.25,
-  "interior_tech_focus_rating": 0.00
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": -0.75
 }
 ```

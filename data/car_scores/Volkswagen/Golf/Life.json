@@ -1,72 +1,19 @@
-The most recent version of the Volkswagen Golf Life refers to the Mk8 generation, including the updated Mk8.5. Based on the search results, here is an evaluation of the Volkswagen Golf Life:
-
-*   **price_usd**: New RRP in the UK is around £28,010 - £28,900 (Sources [6], [7]). This is roughly $35,000 - $36,000 USD. This is right around the market average for a new car. Score: 0.00.
-*   **total_cost_estimate_5yr_usd**: No specific 5-year cost data found. VW generally has average ownership costs. Default to 0.00.
-*   **insurance_usd_yr**: Golf models range from insurance groups 7 to 39 (Sources [28], [29], [36]). The Life trim is typically in a lower to mid-range group. While a specific group for the most recent Life wasn't found, the range suggests it's likely around the average. Default to 0.00.
-*   **maint_usd_yr**: Service intervals are 12 months or 15,000km (Source [12]). Capped-price servicing for 5 years is around £1900 in Australia (Source [4]), which is roughly $475 USD/year. This is below the $750 average. Score: 0.25.
-*   **repair_risk_score**: The Volkswagen Golf generally has average to good reliability ratings (Sources [14], [22], [23], [24]). iSeeCars gives it an 8.2/10 reliability rating, ranking it 9th out of 43 small cars (Source [14]). Score: 0.25.
-*   **hp**: Available with 1.5L TSI engines producing 115 PS (113 hp) or 150 PS (148 hp) (Sources [6], [7], [8], [11], [13], [33]). Also a 1.4L with 110kW (148 hp) (Sources [2], [3], [4], [12]). Using the 113-148 hp range. This is below the 200 hp average. Score: -0.25.
-*   **torque**: 1.4L/1.5L engines produce around 250 Nm (184 lb-ft) or 250 Nm (184 lb-ft) for the 115PS/130PS, and 250 Nm (184 lb-ft) for the 150PS (Sources [2], [3], [4], [12]). This is slightly below the 190 lb-ft average. Score: 0.00.
-*   **cylinder_count**: 4-cylinder (Sources [2], [3], [4], [8], [12]). Score: -0.25.
-*   **engine_displacement**: 1.4L or 1.5L (Sources [2], [3], [4], [6], [8], [12], [13], [33]). This is below the 3.0L average. Score: -0.50.
-*   **accel_0_60_sec**: Around 8.5 - 9.9 seconds depending on engine (Sources [4], [7], [8], [11], [13], [33]). This is slower than the 7.5 sec average. Score: -0.25.
-*   **top_speed**: Around 126 - 139 mph depending on engine (Sources [8], [11], [13]). This is below the 150 mph average. Score: -0.25.
-*   **drive_type**: Front-wheel drive (FWD) (Sources [2], [3], [12]). Score: -1.00.
-*   **transmission_type**: Available with 6-speed manual or 8-speed automatic (torque converter) or 7-speed DSG (mild hybrid) (Sources [2], [3], [4], [8], [10], [11], [13], [33], [37]). Automatic/DSG is 0.00. Manual is -1.00. Score: 0.00 (representing the availability of automatic).
-*   **offroad_ability**: Low ground clearance, FWD, not designed for off-road. Score: 1.00.
-*   **braking_dist_ft**: No specific data found. Default to 0.00.
-*   **size**: Length is around 4284 mm (Sources [5], [12], [16], [27], [32], [37]). This is shorter than the 4600mm average. Score: -0.25.
-*   **wheelbase**: Around 2620 - 2636 mm (Sources [12], [16], [27], [32], [37]). This is shorter than the 2700mm average. Score: -0.25.
-*   **body_style**: 5-door hatchback (Sources [5], [12], [16], [17], [32]). Score: 0.00.
-*   **seats**: 5 seats (Sources [5], [16], [17]). Score: 0.00.
-*   **cargo_space**: Around 374 - 381 litres (13.2 - 13.4 cu ft) (Sources [3], [5], [16], [27], [37]). This is slightly below the 15 cu ft average. Score: -0.25.
-*   **rear_space**: Rear seats have good legroom, headroom, and toe room for a small hatch (Source [2], [4]). Score: 0.00.
-*   **ground_clearance_in**: Around 134mm (5.3 inches) (Source [12]). This is below the 6.5" average. Score: -0.25.
-*   **turn_radius_ft**: Around 11.1m (36.4 ft) (Source [27]). Close to 36 ft average. Score: 0.00.
-*   **mpg**: Around 47.1 - 54.3 mpg combined (Sources [7], [8], [10], [11], [13], [18], [33]). This is well above the 30 mpg average. Score: 0.50.
-*   **co2_g_km**: Around 119 - 129 g/km (Sources [7], [8], [11], [13]). This is well below the 175 g/km average. Score: 0.50.
-*   **electric_range_mi**: Not applicable (ICE or mild-hybrid). Score: -1.00.
-*   **charge_speed_kw**: Not applicable (ICE or mild-hybrid). Score: -1.00.
-*   **style_sleek_vs_boxy**: Hatchback shape, not particularly sleek or boxy. Score: 0.00.
-*   **style_aggression_rating**: Standard Golf styling, not aggressive. Score: 0.00.
-*   **style_modernity_rating**: Mk8/Mk8.5 Golf has modern styling. Score: 0.50.
-*   **handling_rating**: Well-rounded driving experience, balanced between responsiveness and ease of use (Source [2]). Praised for brilliant ride and handling combination (Source [4]). Score: 0.50.
-*   **ride_comfort_rating**: Comfortable ride (Source [2]). Score: 0.50.
-*   **cabin_noise_rating**: Generally refined. Score: 0.25.
-*   **shift_smooth_rating**: 8-speed automatic is noted as smoother than previous DSG in stop/start traffic (Source [2]). DSG is generally smooth (Source [37]). Score: 0.25.
-*   **steering_feel_rating**: Nicely weighted steering, good balance (Source [2]). Precise and accurate steering (Source [38]). Score: 0.50.
-*   **adas_score**: Comes with a comprehensive suite of standard ADAS features, including AEB, ACC, Lane Keep Assist, Blind Spot Monitoring, Rear Cross-Traffic Alert, Park Assist (Sources [2], [3], [4], [26], [31], [35], [38]). Score: 0.75.
-*   **visibility_rating**: Hatchback shape generally offers good visibility. Score: 0.50.
-*   **headlight_rating**: LED headlights standard (Sources [3], [6]). Score: 0.50.
-*   **security_rating**: Standard VW security. Score: 0.00.
-*   **screen_in**: 10-inch infotainment display and 10.25-inch Digital Cockpit Pro standard on Life (Sources [2], [3], [4]). Updated Mk8.5 has 12.9-inch screen available (Source [6], [15]). Using the larger size for the most recent version. 12.9 inches is well above the 8" average. Score: 0.75.
-*   **infotainment_ux_rating**: Mk8 infotainment system received mixed reviews for usability, heavily reliant on touch controls (Sources [4]). Mk8.5 system is improved with new menu structure and illuminated sliders (Source [15]). Score: 0.00 (Improved but still not universally praised).
-*   **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto standard on Life (Sources [2], [3], [4]). Wireless charging also standard (Sources [2], [3]). Score: 0.75.
-*   **audio_rating**: 7-speaker sound system standard (Source [3]). Optional Harman Kardon system available (Source [2], [4]). Score: 0.00 (based on standard).
-*   **usb_ports**: Two USB-C ports up front, and in the rear (Sources [2], [4]). Score: 0.25.
-*   **comfort_feature_score**: Comfort seats with lumbar adjustment, tri-zone climate control standard (Sources [2], [3], [4], [5]). Score: 0.50.
-*   **convenience_feature_score**: Keyless entry and start, auto-dimming mirror, rain sensor, front and rear parking sensors, park assist standard (Sources [3], [4], [5], [6]). Score: 0.75.
-*   **brand_prestige_rating**: Volkswagen is a mainstream brand. Score: 0.00.
-*   **model_prestige_rating**: Golf is an iconic model, not a halo car or entry-level. Score: 0.00.
-*   **trim_prestige_rating**: Life is an entry-level to mid-range trim. Score: 0.50.
-*   **interior_luxury_rating**: Interior quality is good for the class, but not luxury level (Source [4]). Score: 0.00.
-*   **interior_tech_focus_rating**: Mk8/Mk8.5 interior has a strong focus on digital displays and touch controls (Sources [2], [3], [4], [6], [15]). Score: 0.75.
-
 ```json
 {
   "price_usd": 0.00,
   "total_cost_estimate_5yr_usd": 0.00,
   "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.25,
-  "repair_risk_score": 0.25,
-  "hp": -0.25,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -0.50,
   "torque": 0.00,
-  "cylinder_count": -0.25,
-  "engine_displacement": -0.50,
-  "accel_0_60_sec": -0.25,
-  "top_speed": -0.25,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.75,
+  "accel_0_60_sec": -0.50,
+  "top_speed": -0.50,
   "drive_type": -1.00,
-  "transmission_type": 0.00,
+  "transmission_type": 0.25,
+  "driving_track_vs_gt": 0.00,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
   "size": -0.25,
@@ -74,35 +21,36 @@ The most recent version of the Volkswagen Golf Life refers to the Mk8 generation
   "body_style": 0.00,
   "seats": 0.00,
   "cargo_space": -0.25,
-  "rear_space": 0.00,
+  "rear_space": 0.25,
   "ground_clearance_in": -0.25,
   "turn_radius_ft": 0.00,
-  "mpg": 0.50,
-  "co2_g_km": 0.50,
+  "mpg": 0.75,
+  "co2_g_km": 0.75,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.50,
-  "handling_rating": 0.50,
-  "ride_comfort_rating": 0.50,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.25,
   "cabin_noise_rating": 0.25,
-  "shift_smooth_rating": 0.25,
-  "steering_feel_rating": 0.50,
-  "adas_score": 0.75,
-  "visibility_rating": 0.50,
-  "headlight_rating": 0.50,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.50,
+  "visibility_rating": 0.25,
+  "headlight_rating": 0.25,
   "security_rating": 0.00,
-  "screen_in": 0.75,
-  "infotainment_ux_rating": 0.00,
+  "screen_in": 0.50,
+  "infotainment_ux_rating": -0.25,
   "smartphone_connect_rating": 0.75,
   "audio_rating": 0.00,
-  "usb_ports": 0.25,
+  "usb_ports": 0.00,
   "comfort_feature_score": 0.50,
-  "convenience_feature_score": 0.75,
+  "convenience_feature_score": 0.50,
   "brand_prestige_rating": 0.00,
   "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.50,
+  "trim_prestige_rating": 1.00,
   "interior_luxury_rating": 0.00,
   "interior_tech_focus_rating": 0.75
 }

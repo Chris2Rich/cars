@@ -1,0 +1,113 @@
+Refining the scores based on search results:
+
+*   **price_usd**: UK price starts around £49,710 - £58,770. £49,710 is roughly $63,000 USD. This is above the $52,000 average. Score -0.20.
+*   **total_cost_estimate_5yr_usd**: Search results mention "affordable running costs" and good servicing/maintenance costs over 5 years (£3,943). Insurance is high. Depreciation is a factor for EVs. No clear 5-year total cost figure found. Default to 0.00.
+*   **insurance_usd_yr**: Insurance group 37-45. This is high. Estimate £1500-£2500/year ($1900-$3100 USD). Above average ($1500) but below -1.00 threshold ($3500). Score -0.25.
+*   **maint_usd_yr**: Servicing costs over 5 years are estimated at £3,943. This averages to about £788/year, which is around $1000 USD. This is average. Score 0.00.
+*   **repair_risk_score**: No specific reliability rating found, but mentions "no major issues recorded by owners" and "should prove reliable" due to fewer moving parts. MBUX system reliability has been criticised. One recall mentioned. Overall seems average to slightly above average reliability for an EV, but maybe average for the market due to potential tech issues. Default 0.00.
+*   **hp**: EQA 250+ has 188 hp. EQA 300 has 225 hp. EQA 350 has 288 hp. Average is 200 hp. 188 hp is slightly below average. Score -0.05.
+*   **torque**: EQA 250+ has 284-285 lb-ft. EQA 300 has 288-290 lb-ft. EQA 350 has 380 lb-ft. Average is 190 lb-ft. All versions are significantly above average. Using EQA 250+ (284 lb-ft). Score +0.30.
+*   **cylinder_count**: EV. 0.00.
+*   **engine_displacement**: EV. 0.00.
+*   **accel_0_60_sec**: EQA 250+ is 8.3-8.6 seconds. EQA 300 is 7.4-7.7 seconds. EQA 350 is around 6.0 seconds. Average is 7.5 sec. EQA 250+ is below average. Score -0.20.
+*   **top_speed**: 99 mph for EQA 250+ and 300. Average is 150 mph. Significantly below average. Score -0.35.
+*   **drive_type**: EQA 250+ is FWD. EQA 300/350 are AWD. Scoring guide uses FWD=-1.00, AWD=0.00, RWD=+1.00. Base model is FWD. Score -1.00.
+*   **transmission_type**: Single-speed automatic for EV. Scoring guide uses Manual/Sequential=-1.00, DCT=0.00, Automatic=+1.00. This doesn't fit perfectly. Single-speed is simpler than a traditional automatic. Default 0.00.
+*   **driving_track_vs_gt**: Comfortable, relaxing daily driver. Not sporty. Closer to GT/daily driver. Score +0.50.
+*   **offroad_ability**: Compact SUV, not designed for off-road. Score +1.00 (poor off-road ability).
+*   **braking_dist_ft**: No specific data found. Default 0.00.
+*   **size**: Length 4463mm. Honda Civic ~4600mm (0.00). Smaller than average. Score -0.15.
+*   **wheelbase**: 2729mm. Skoda Octavia ~2700mm (0.00). Slightly above average. Score +0.05.
+*   **body_style**: 5-door SUV/crossover. Score 0.00.
+*   **seats**: 5 seats. Average. Score 0.00.
+*   **cargo_space**: 340 litres (12 cu ft). Honda Civic ~15 cu ft (0.00). Below average. Score -0.15.
+*   **rear_space**: Search results mention "plenty of legroom" but also "space in the back seats... is pretty miserly". Conflicting. Default 0.00.
+*   **ground_clearance_in**: Height is around 1612-1624mm. This translates to roughly 63.5-63.9 inches. Ground clearance is not explicitly stated but is likely typical for a compact crossover based on a car platform. Assume around 6.5-7 inches. Score 0.00.
+*   **turn_radius_ft**: Turning Circle 11.4m. 11.4m is about 37.4 ft. Toyota Camry ~36 ft (0.00). Slightly above average (larger radius). Score -0.05.
+*   **mpg**: EV. 0.00.
+*   **co2_g_km**: 0 g/km for EV. +1.00.
+*   **electrification**: EV. +1.00.
+*   **electric_range_mi**: EQA 250+ WLTP up to 346 miles. Real-world estimate 286 miles. EQA 300/350 WLTP 258-266 miles. Mazda MX-30 ~100 mi (0.00). Lucid Air >375 mi (+1.00). 346 miles is very good. Score +0.80.
+*   **charge_speed_kw**: Max DC charging 100 kW. Some sources say 112 kW max but 100 kW 10-80%. Typical home/public is 11-50 kW (0.00). High-speed DC is 250-350+ kW (+1.00). 100 kW is above average but not top-tier. Score +0.20.
+*   **style_sleek_vs_boxy**: Crossover based on GLA. Not particularly sleek or boxy. Score 0.00.
+*   **style_aggression_rating**: Not very aggressive, smooth design. Score -0.20.
+*   **style_modernity_rating**: Modern Mercedes EQ design. Score +0.50.
+*   **handling_rating**: Comfortable, not sporty. Handling rated 3/5 by Parkers. Score -0.10.
+*   **ride_comfort_rating**: Comfortable. Ride comfort rated 4/5 by Parkers. Score +0.50.
+*   **cabin_noise_rating**: Quiet and relaxing. EVs are inherently quiet. Score +0.70.
+*   **shift_smooth_rating**: EV. 0.00.
+*   **steering_feel_rating**: No specific rating found. Assume average for a comfort-focused car. Score 0.00.
+*   **adas_score**: Good suite of ADAS features available, including adaptive cruise control, lane keeping assist, blind spot assist, auto emergency braking, parking assist, 360 camera, augmented reality navigation. Euro NCAP Safety Assist score 75%. Score +0.60.
+*   **visibility_rating**: No specific rating found. Crossover body style generally offers decent visibility. Score 0.00.
+*   **headlight_rating**: LED High Performance headlights standard, Adaptive High Beam Assist available. Score +0.50.
+*   **security_rating**: No specific rating found. Assume good for a Mercedes. Score +0.50.
+*   **screen_in**: Dual 10.25-inch screens standard (Widescreen Cockpit). Score +0.70.
+*   **infotainment_ux_rating**: MBUX system, generally well-regarded, touchscreen, voice control, augmented reality navigation. Can be complex. Score +0.40.
+*   **smartphone_connect_rating**: Apple CarPlay and Android Auto standard, wireless available. Score +0.50.
+*   **audio_rating**: Mercedes-Benz sound system standard, optional Burmester surround sound system with Dolby Atmos available. Score +0.60 (factoring in the excellent optional system).
+*   **usb_ports**: Multiple USB-C ports, including front and rear. Score +0.40.
+*   **comfort_feature_score**: Heated front seats, dual-zone climate control, power seats with memory, ambient lighting, panoramic sunroof available. Score +0.60.
+*   **convenience_feature_score**: Reversing camera, parking package, 360-degree camera, electric tailgate, keyless entry available. Score +0.60.
+*   **brand_prestige_rating**: Mercedes-Benz is a high-prestige brand. Score +0.80.
+*   **model_prestige_rating**: EQA is the smallest/entry-level EQ model. Score +0.50.
+*   **trim_prestige_rating**: Assuming a base/mid-range trim. Score 0.00.
+*   **interior_luxury_rating**: High-quality materials, ambient lighting, premium feel. Score +0.70.
+*   **interior_tech_focus_rating**: Dual screens, MBUX, ADAS, augmented reality nav. Strong tech focus. Score +0.70.
+
+Final check on values and scoring. Looks reasonable based on the search results and scoring guide.```json
+{
+  "price_usd": -0.20,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -0.25,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -0.05,
+  "torque": +0.30,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.20,
+  "top_speed": -0.35,
+  "drive_type": -1.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": +0.50,
+  "offroad_ability": +1.00,
+  "braking_dist_ft": 0.00,
+  "size": -0.15,
+  "wheelbase": +0.05,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": -0.15,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": -0.05,
+  "mpg": 0.00,
+  "co2_g_km": +1.00,
+  "electrification": +1.00,
+  "electric_range_mi": +0.80,
+  "charge_speed_kw": +0.20,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": +0.50,
+  "handling_rating": -0.10,
+  "ride_comfort_rating": +0.50,
+  "cabin_noise_rating": +0.70,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": +0.60,
+  "visibility_rating": 0.00,
+  "headlight_rating": +0.50,
+  "security_rating": +0.50,
+  "screen_in": +0.70,
+  "infotainment_ux_rating": +0.40,
+  "smartphone_connect_rating": +0.50,
+  "audio_rating": +0.60,
+  "usb_ports": +0.40,
+  "comfort_feature_score": +0.60,
+  "convenience_feature_score": +0.60,
+  "brand_prestige_rating": +0.80,
+  "model_prestige_rating": +0.50,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": +0.70,
+  "interior_tech_focus_rating": +0.70
+}
+```

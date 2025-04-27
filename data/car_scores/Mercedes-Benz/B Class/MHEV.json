@@ -1,113 +1,57 @@
-Based on the search results, "MHEV" (Mild Hybrid Electric Vehicle) is not a specific trim level for the Mercedes-Benz B-Class, but rather a technology integrated into the petrol engines (like the B200 and B220) in the most recent version (W247 facelift). I will evaluate the B-Class based on the characteristics of these models featuring the MHEV system.
-
--   **price_usd**: Prices for B200/B220 models in the W247 range from around £35,000 to over £40,000 depending on trim. Using a conversion rate of 1 GBP = 1.27 USD (approx), this is ~$44,450 - $50,800+. The market average is ~$52,000. This puts the price around or slightly below the market average. Score: `0.00`.
--   **total_cost_estimate_5yr_usd**: No specific 5-year cost found. Mercedes maintenance can be higher than average. Reliability is mixed. Likely slightly above average cost. Score: `-0.10`.
--   **insurance_usd_yr**: Insurance groups for B200/B220 are in the average to slightly above average range (e.g., group 22E, 29, 30). Score: `0.00`.
--   **maint_usd_yr**: Mercedes maintenance is generally higher than average. Score: `-0.20`.
--   **repair_risk_score**: Reliability reviews for the W247 are mixed, with reported issues. Score: `-0.30`.
--   **hp**: B200 MHEV is 163 hp (+14 hp electric boost), B220 MHEV is 188 hp (+14 hp electric boost). Average is ~200 hp. These are around or slightly below average. Score: `0.00`.
--   **torque**: B200 MHEV is 250 Nm (~185 lb-ft), B220 MHEV is 300 Nm (~221 lb-ft). Average torque is around 190 lb-ft. The range is around or above average. Score: `0.10`.
--   **cylinder_count**: 4-cylinder. Average is 6. Score: `-0.20`.
--   **engine_displacement**: 1.33L (B200) or 2.0L (B220). Average is 3.0L. Score: `-0.50`.
--   **accel_0_60_sec**: B200 MHEV is around 8.2s, B220 MHEV is around 6.9s. Average is 7.5s. The range is around or faster than average. Score: `0.10`.
--   **top_speed**: B200 MHEV is around 134 mph, B220 MHEV is around 145-149 mph. Average is 150 mph. The range is around or below average. Score: `0.00`.
--   **drive_type**: Primarily FWD, B220 available with 4MATIC (AWD). Score: `0.00`.
--   **transmission_type**: 7-speed or 8-speed DCT automatic. DCT is 0.00. Score: `0.00`.
--   **driving_track_vs_gt**: Comfortable family car, daily driver. Score: `0.00`.
--   **offroad_ability**: Low ground clearance (around 104mm / ~4.1 inches). Not designed for off-road. Score: `1.00`.
--   **braking_dist_ft**: No specific data found. Default to average. Score: `0.00`.
--   **size**: Length is 4419 mm (~174 inches). Average is ~4600mm. Score: `0.10`.
--   **wheelbase**: Wheelbase is 2729 mm (~107.4 inches). Average is ~2700mm. Score: `0.00`.
--   **body_style**: 5-door hatchback/small MPV. Score: `-0.20`.
--   **seats**: 5 seats. Average is 5. Score: `0.00`.
--   **cargo_space**: Around 440-455 litres (15.5-16.1 cu ft). Average is 15 cu ft. Score: `0.00`.
--   **rear_space**: Impressively spacious rear seats. Score: `0.50`.
--   **ground_clearance_in**: Around 104mm (~4.1 inches). Average is ~6.5 inches. Low. Score: `-0.80`.
--   **turn_radius_ft**: Around 11m (~36.1 ft). Average is ~36 ft. Score: `0.00`.
--   **mpg**: B200 MHEV around 46 mpg (UK), B220 MHEV around 33-46 mpg (UK). Average is 30 mpg. Range is around or above average. Score: `0.50`.
--   **co2_g_km**: B200 MHEV 129-140 g/km, B220 MHEV 141-145 g/km. Average is ~175 g/km. Below average. Score: `0.30`.
--   **electrification**: Mild Hybrid Electric Vehicle (MHEV). Score: `-1.00`.
--   **electric_range_mi**: IF NOT ELECTRIC. Score: `-1.00`.
--   **charge_speed_kw**: IF NOT ELECTRIC. Score: `-1.00`.
--   **style_sleek_vs_boxy**: Taller body, but not ultra-boxy. Score: `0.00`.
--   **style_aggression_rating**: Standard styling is not aggressive. Score: `-0.50`.
--   **style_modernity_rating**: Modern but not avant-garde. Score: `0.00`.
--   **handling_rating**: Competent but not sporty. Score: `0.00`.
--   **ride_comfort_rating**: Comfortable ride. Score: `0.50`.
--   **cabin_noise_rating**: Generally refined. Score: `0.30`.
--   **shift_smooth_rating**: DCT automatic. Can be inconsistent. Score: `0.00`.
--   **steering_feel_rating**: Light and numb. Score: `-0.20`.
--   **adas_score**: High level of standard ADAS, optional advanced package. Score: `0.50`.
--   **visibility_rating**: Good visibility from raised position. Score: `0.50`.
--   **headlight_rating**: LED headlights standard. Score: `0.30`.
--   **security_rating**: Good security expected from Mercedes. Score: `0.30`.
--   **screen_in**: Dual screens standard (7"+10.3" or 10.3"+10.3"). Score: `0.50`.
--   **infotainment_ux_rating**: MBUX system is well-regarded. Score: `0.50`.
--   **smartphone_connect_rating**: Apple CarPlay and Android Auto standard. Wireless charging available. Score: `0.50`.
--   **audio_rating**: Standard system is average or slightly above. Score: `0.10`.
--   **usb_ports**: Multiple USB-C ports. Score: `0.00`.
--   **comfort_feature_score**: Comfortable seats, climate control, keyless start standard. Score: `0.30`.
--   **convenience_feature_score**: Parking assist, reversing camera standard. Score: `0.30`.
--   **brand_prestige_rating**: High-prestige brand. Score: `0.80`.
--   **model_prestige_rating**: Entry-level/mid-range model. Score: `0.00`.
--   **trim_prestige_rating**: MHEV applies to various trims (Executive, Premium, etc.). Score based on the engine type being mid-range. Score: `0.00`.
--   **interior_luxury_rating**: High quality materials in places, looks stylish. Score: `0.30`.
--   **interior_tech_focus_rating**: Dual screens, MBUX, voice control give a tech-focused feel. Score: `0.50`.
-
 ```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": -0.10,
+  "price_usd": 0.10,
+  "total_cost_estimate_5yr_usd": -0.20,
   "insurance_usd_yr": 0.00,
   "maint_usd_yr": -0.20,
-  "repair_risk_score": -0.30,
-  "hp": 0.00,
-  "torque": 0.10,
-  "cylinder_count": -0.20,
+  "repair_risk_score": 0.00,
+  "hp": -0.10,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
   "engine_displacement": -0.50,
-  "accel_0_60_sec": 0.10,
+  "accel_0_60_sec": -0.10,
   "top_speed": 0.00,
-  "drive_type": 0.00,
+  "drive_type": -1.00,
   "transmission_type": 0.00,
   "driving_track_vs_gt": 0.00,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.10,
+  "size": 0.00,
   "wheelbase": 0.00,
-  "body_style": -0.20,
+  "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.00,
+  "cargo_space": 0.10,
   "rear_space": 0.50,
   "ground_clearance_in": -0.80,
   "turn_radius_ft": 0.00,
-  "mpg": 0.50,
-  "co2_g_km": 0.30,
-  "electrification": -1.00,
+  "mpg": 0.00,
+  "co2_g_km": 0.00,
+  "electrification": 0.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": -0.50,
-  "style_modernity_rating": 0.00,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": 0.50,
   "handling_rating": 0.00,
   "ride_comfort_rating": 0.50,
-  "cabin_noise_rating": 0.30,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": -0.20,
-  "adas_score": 0.50,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": -0.50,
+  "adas_score": 0.80,
   "visibility_rating": 0.50,
-  "headlight_rating": 0.30,
-  "security_rating": 0.30,
-  "screen_in": 0.50,
-  "infotainment_ux_rating": 0.50,
-  "smartphone_connect_rating": 0.50,
-  "audio_rating": 0.10,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.30,
-  "convenience_feature_score": 0.30,
+  "headlight_rating": 0.50,
+  "security_rating": 0.50,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.80,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.00,
+  "usb_ports": 0.20,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.80,
   "brand_prestige_rating": 0.80,
-  "model_prestige_rating": 0.00,
+  "model_prestige_rating": 0.80,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.30,
-  "interior_tech_focus_rating": 0.50
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.80
 }
 ```

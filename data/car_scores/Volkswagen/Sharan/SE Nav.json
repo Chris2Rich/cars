@@ -1,0 +1,113 @@
+Based on the search results, the Volkswagen Sharan SE Nav was a popular mid-range trim for the Sharan, which was discontinued in 2022. It added satellite navigation and other features over the base SE trim. I will use specifications primarily from the 2020-2022 model years where available for the SE Nav trim, considering variations across engines (1.4 TSI 150ps and 2.0 TDI 150ps/177ps are common) and transmissions (Manual/DSG).
+
+Here's the breakdown and scoring:
+
+*   **price_usd:** Used prices for 2020-2021 SE Nav models range from ~£16,000 to ~£26,000 in the UK. A 2019 model is listed at ~£19,341. New price ranges were £29,470 to £44,160. The SE Nav was a mid-range trim, likely falling in the middle to upper-middle of this range when new. Let's estimate a new price around £35,000-£40,000 (~$44,000-$50,000 USD). This is close to the market average of $52,000. Score: 0.00.
+*   **total_cost_estimate_5yr_usd:** Reliability is noted as slightly below average. Maintenance costs for VW are generally average. Being a family MPV, depreciation might be moderate. Overall 5-year costs are likely average compared to the market. Score: 0.00.
+*   **insurance_usd_yr:** Insurance group 20E is mentioned for the SE Nav 2.0 TDI 150ps. Insurance groups for the Sharan range from 15-25. Group 20E is around the market average. Score: 0.00.
+*   **maint_usd_yr:** No specific data for SE Nav, but general Sharan maintenance is average. Score: 0.00.
+*   **repair_risk_score:** Reliability is noted as "slightly below average" and "very unreliable" compared to an index of 100 (Sharan scored 200). This indicates below-average reliability. Score: -0.50.
+*   **hp:** Common engines for SE Nav are 1.4 TSI 150ps (~148 HP) and 2.0 TDI 150ps (~148 HP) or 177ps (~175 HP). Average HP is 200. These figures are below average. Score: -0.50.
+*   **torque:** 1.4 TSI 150ps has 185 lb-ft. 2.0 TDI 150ps has 340 Nm (~251 lb-ft). 2.0 TDI 177ps has higher torque. Average torque is 190 lb-ft. The diesel engines offer significantly above-average torque. Score: 0.50.
+*   **cylinder_count:** All listed engines are Inline 4. Score: 0.00.
+*   **engine_displacement:** Engines are 1.4L and 2.0L. These are common displacements. Score: 0.00.
+*   **accel_0_60_sec:** 1.4 TSI 150ps DSG is 9.9 secs. 2.0 TDI 150ps DSG is 10.3 secs. A 2.0 TDI 177ps DSG is 9.7 secs. Average 0-60 is 7.5 secs. The Sharan is generally slower than average. Score: -0.75.
+*   **top_speed:** 1.4 TSI 150ps is 123 mph. 2.0 TDI 150ps is 123-124 mph. Average top speed is 150 mph. The Sharan is below average. Score: -0.50.
+*   **drive_type:** Primarily FWD. AWD was optional on some diesel models, but FWD is standard/most common for SE Nav. Score: -0.50.
+*   **transmission_type:** Available with Manual or DSG automatic. DSG is a Dual-Clutch Transmission. Score: 0.00.
+*   **driving_track_vs_gt:** MPV, designed for family transport and comfort. Clearly a Grand Touring/daily driver type. Score: 1.00.
+*   **offroad_ability:** MPV, low ground clearance (~4.2 inches). Not designed for off-road. Score: 1.00.
+*   **braking_dist_ft:** No specific data found. MPVs are generally not known for exceptional braking. Likely average or slightly below due to size/weight. Default to 0.00.
+*   **size:** Length 4854 mm (~191 inches). This is larger than a typical sedan/hatchback (4600mm average) but not as large as some full-size SUVs/Vans (>5100mm). Score: 0.25.
+*   **wheelbase:** 2920 mm (~115 inches). Longer than average (2700mm) for better interior space and ride comfort. Score: 0.50.
+*   **body_style:** 5-Door MPV/Minivan. Score: 1.00.
+*   **seats:** 7 seats standard. Score: 1.00.
+*   **cargo_space:** 300 litres (~10.6 cu ft) with all seats up, 2297 litres (~81.1 cu ft) with rear seats folded. 300L is below average (15 cu ft), but the maximum space is huge and versatile. Score based on the versatile maximum space. Score: 1.00.
+*   **rear_space:** Not specified in inches, but noted as spacious and comfortable. MPVs are designed for passenger space. Score: 0.75.
+*   **ground_clearance_in:** 106 mm (~4.2 inches). This is low, comparable to sedans/coupes. Score: -1.00.
+*   **turn_radius_ft:** 11.9 m (~39 ft). Average is around 36 ft. Slightly larger than average. Score: -0.25.
+*   **mpg:** 1.4 TSI 150ps DSG is 34.4 mpg. 2.0 TDI 150ps is 40.9-54.3 mpg (depending on test cycle/transmission). Average is 30 mpg. The Sharan is generally above average, especially the diesels. Score: 0.50.
+*   **co2_g_km:** 1.4 TSI 150ps DSG is 161 g/km. 2.0 TDI 150ps is 130-136 g/km. Average is around 175 g/km. The Sharan's range is below average. Score: 0.50.
+*   **electrification:** Petrol/Diesel engines only. Score: -1.00.
+*   **electric_range_mi:** N/A. Score: -1.00.
+*   **charge_speed_kw:** N/A. Score: -1.00.
+*   **style_sleek_vs_boxy:** MPV shape is inherently boxy. Score: -1.00.
+*   **style_aggression_rating:** MPV design is functional, not aggressive. Score: -1.00.
+*   **style_modernity_rating:** Design was refreshed in 2015 but based on a 2010 platform. Looks dated compared to modern vehicles. Score: -0.50.
+*   **handling_rating:** Handles with confidence, feels more nimble than size suggests, but not sporty. Average for an MPV, below average compared to general market. Score: -0.25.
+*   **ride_comfort_rating:** Cushioned ride, comfortable. Optional adaptive suspension improves comfort. Score: 0.50.
+*   **cabin_noise_rating:** Quiet and refined, slight tyre roar/wind whistle at motorway speeds but not intrusive. Reasonably quiet. Score: 0.50.
+*   **shift_smooth_rating:** DSG transmission is noted as smooth. Score: 0.00.
+*   **steering_feel_rating:** Power assisted steering, speed sensitive. Not noted for exceptional feel. Likely light and numb as is typical for MPVs. Score: -0.50.
+*   **adas_score:** SE Nav includes Adaptive Cruise Control, Front Assist with City Emergency Braking, Driver Alert System, Front and rear parking sensors, Lane Assist, Blind Spot Monitor. This is a good suite of features for its time and segment. Score: 0.50.
+*   **visibility_rating:** High driving position and large windows provide great visibility. Score: 0.75.
+*   **headlight_rating:** Halogen headlights standard. Xenon dipped beam headlights optional. Score based on standard halogen. Score: 0.00.
+*   **security_rating:** Alarm with interior protection, electronic engine immobiliser, remote central locking. Standard VW security features. Score: 0.00.
+*   **screen_in:** 6.5-inch colour touchscreen infotainment system standard. Average is 8". Below average. Score: -0.25.
+*   **infotainment_ux_rating:** Easy-to-use system. Discover Navigation system included. Score: 0.25.
+*   **smartphone_connect_rating:** Bluetooth connectivity standard. Optional Apple CarPlay and Android Auto ("App-Connect") available. Score based on availability. Score: 0.50.
+*   **audio_rating:** 8 speakers mentioned. Standard audio is likely average or slightly above. Score: 0.00.
+*   **usb_ports:** USB ports mentioned. Number not specified, but likely at least 1-2. Score: 0.00.
+*   **comfort_feature_score:** Three-zone climate control standard. Heated front seats optional. Comfort seats standard. Score: 0.50.
+*   **convenience_feature_score:** Sliding rear doors, easy folding seats, flexible seating system, front and rear parking sensors standard. Seat-back tables, extra storage standard. Score: 0.75.
+*   **brand_prestige_rating:** Volkswagen is a mainstream brand. Score: 0.00.
+*   **model_prestige_rating:** Sharan is a family MPV, not a halo model. Middle of the range for VW. Score: 0.00.
+*   **trim_prestige_rating:** SE Nav is a popular mid-range trim. Score: 0.00.
+*   **interior_luxury_rating:** Interior materials are robust, some soft-touch plastics. Cloth upholstery standard, leather optional. Well-built but focuses on practicality over luxury. Score: -0.25.
+*   **interior_tech_focus_rating:** Has a touchscreen and digital elements, but not screen-forward or minimalist like modern tech-focused cars. Score: -0.25.```json
+{
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": -0.50,
+  "hp": -0.50,
+  "torque": 0.50,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.75,
+  "top_speed": -0.50,
+  "drive_type": -0.50,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.25,
+  "wheelbase": 0.50,
+  "body_style": 1.00,
+  "seats": 1.00,
+  "cargo_space": 1.00,
+  "rear_space": 0.75,
+  "ground_clearance_in": -1.00,
+  "turn_radius_ft": -0.25,
+  "mpg": 0.50,
+  "co2_g_km": 0.50,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": -1.00,
+  "style_aggression_rating": -1.00,
+  "style_modernity_rating": -0.50,
+  "handling_rating": -0.25,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": -0.50,
+  "adas_score": 0.50,
+  "visibility_rating": 0.75,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": -0.25,
+  "infotainment_ux_rating": 0.25,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": -0.25,
+  "interior_tech_focus_rating": -0.25
+}
+```

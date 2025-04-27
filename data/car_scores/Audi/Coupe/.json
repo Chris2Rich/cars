@@ -1,57 +1,114 @@
-```json
+Okay, I have gathered information on the 2024 Audi A5 Coupe. I will use this data to populate the JSON structure with normalized scores.
+
+*   **Model Year:** 2024 Audi A5 Coupe.
+*   **Base Price:** Starts around $48,400 - $49,495. This is close to the market average ($52k), so score will be near 0.00.
+*   **5-Year Cost:** Not explicitly found, but Audi maintenance is average to slightly above average for a luxury brand. Reliability is rated above average (4/5 or 3.5/5). Insurance group not found, but likely moderate for a coupe. Estimate 5-year cost as average for its segment, maybe slightly below average for luxury. Score near 0.00.
+*   **Insurance USD/yr:** UK insurance group not found, but given its price and performance, it's unlikely to be extremely low or high. Estimate average. Score 0.00.
+*   **Maintenance USD/yr:** Estimated $800-$1000 annually. This is around the average benchmark ($1000). Score 0.00.
+*   **Repair Risk Score:** Rated 4/5 or 3.5/5 reliability by J.D. Power/Consumer Reports, described as above average. Score slightly positive.
+*   **HP:** 261 HP. This is above the average car (200 HP) but not high-performance. Score slightly positive.
+*   **Torque:** 273 lb-ft. This is above the average car (190 lb-ft). Score slightly positive.
+*   **Cylinder Count:** 4-cylinder. This is below the average benchmark (6). Score negative.
+*   **Engine Displacement:** 2.0L. This is below the average benchmark (3.0L). Score negative.
+*   **Accel 0-60 mph:** 5.3 seconds. This is significantly faster than the average (7.5 sec). Score positive.
+*   **Top Speed:** 130 mph (electronically limited). This is below the average benchmark (150 mph). Score negative.
+*   **Drive Type:** All-Wheel Drive (Quattro). This is better than FWD but not RWD for the benchmark. Score 0.00.
+*   **Transmission Type:** 7-speed S tronic dual-clutch automatic. The benchmark prefers Automatic over Dual-Clutch. Score negative.
+*   **Driving Track vs GT:** Described as a comfortable cruiser and potent lifestyle vehicle, not a true sports car. Leans towards GT. Score positive.
+*   **Offroad Ability:** Low ground clearance, not designed for offroad. Score negative.
+*   **Braking Dist ft:** Not explicitly found. Assume average for its class. Score 0.00.
+*   **Size:** Length 4696mm (184.9"). This is slightly larger than the average (4600mm). Score slightly positive.
+*   **Wheelbase:** 2764mm (108.8"). This is slightly larger than the average (2700mm). Score slightly positive.
+*   **Body Style:** 2-door Coupe. Score negative.
+*   **Seats:** 4 seats. Score negative.
+*   **Cargo Space:** 10.9 - 11 cu ft. This is below the average (15 cu ft). Score negative.
+*   **Rear Space:** Rear legroom 32.7". Described as cramped for adults. This is below the average (35"). Score negative.
+*   **Ground Clearance in:** Not explicitly found. Assume typical for a coupe, likely low. Score negative.
+*   **Turn Radius ft:** 18.8 ft (5.7m). This is significantly better than the average (36 ft). Score positive.
+*   **MPG:** 27 combined. This is slightly below the average (30 mpg). Score slightly negative.
+*   **CO2 g/km:** Up to 171 g/km (petrol). This is above the average (175 g/km) but close. Score 0.00.
+*   **Electrification:** Mild Hybrid (MHEV). Score 0.00 (between Petrol/Diesel and PHEV).
+*   **Electric Range mi:** N/A (Mild Hybrid). Score -1.00.
+*   **Charge Speed kW:** N/A (Mild Hybrid). Score -1.00.
+*   **Handling Rating:** Described as agile, confident, easy to hustle, but lacks ultimate focus/feel compared to rivals, steering can be numb. Score slightly positive, but not top-tier.
+*   **Ride Comfort Rating:** Described as comfortable, compliant, serene, well-insulated. Score positive.
+*   **Cabin Noise Rating:** Described as quiet and well-insulated. Score positive.
+*   **Shift Smooth Rating:** 7-speed S tronic dual-clutch described as smooth shifting. Score positive.
+*   **Steering Feel Rating:** Described as accurate, nicely weighted, but can be numb or lack feel compared to rivals. Score slightly negative.
+*   **ADAS Score:** Standard features include adaptive cruise control, active lane assist, parking assist, pre sense basic, 360-degree camera available. Score positive.
+*   **Visibility Rating:** Described as good for a coupe, low dashboard helps, but thick pillars and small rear screen can obstruct view. Score 0.00.
+*   **Headlight Rating:** Standard Matrix-design LED headlights, available laser lights. Score positive.
+*   **Security Rating:** Not explicitly found, assume standard for a luxury brand. Score 0.00.
+*   **Screen in:** Primary LCD size 10.1". This is above the average (8"). Score positive.
+*   **Infotainment UX Rating:** Described as easy to use, ultra-modern twin-screen setup, excellent sat-nav, virtual cockpit impressive. Score positive.
+*   **Smartphone Connect Rating:** Apple CarPlay/Android Auto standard, wireless available. Score positive.
+*   **Audio Rating:** Standard 10 speakers. Assume average quality unless upgraded. Score 0.00.
+*   **USB Ports:** Not explicitly found. Assume at least 2-3 standard. Score 0.00.
+*   **Comfort Feature Score:** Standard heated front sport seats, power seats, three-zone climate control, available ventilation. Score positive.
+*   **Convenience Feature Score:** Standard keyless start, power trunk release, auto-dimming mirror, available 360 camera, parking assist, remote start. Score positive.
+*   **Brand Prestige Rating:** Audi is a well-regarded luxury brand. Score positive.
+*   **Model Prestige Rating:** A5 is a core model, but not the top-tier (A8, R8). Score 0.00.
+*   **Trim Prestige Rating:** Assuming a mid-range trim like Premium Plus. Score 0.00.
+*   **Interior Luxury Rating:** Described as high quality, well-built, stylish, elegant, leather/wood accents available, but some shortcuts like thin armrests. Score positive.
+*   **Interior Tech Focus Rating:** Features virtual cockpit, large screens, advanced ADAS. Score positive.
+*   **Style Sleek vs Boxy:** Classic coupe proportions, sleek, aerodynamic silhouette. Score positive.
+*   **Style Aggression Rating:** Described as elegant, classy, dynamic, sporty but not a true sports car. Score 0.00.
+*   **Style Modernity Rating:** Described as stylish and modern, subtly crisper creases, looks more modern in metal. Score positive.
+
+Now, I will compile these scores into the JSON format.```json
 {
-  "price_usd": 0.00,
+  "price_usd": 0.05,
   "total_cost_estimate_5yr_usd": 0.00,
   "insurance_usd_yr": 0.00,
   "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.30,
-  "hp": 0.30,
-  "torque": 0.40,
+  "repair_risk_score": 0.20,
+  "hp": 0.15,
+  "torque": 0.15,
   "cylinder_count": -0.20,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.50,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": 0.40,
   "top_speed": -0.20,
   "drive_type": 0.00,
-  "transmission_type": 0.00,
-  "driving_track_vs_gt": 0.50,
-  "offroad_ability": 1.00,
+  "transmission_type": -0.20,
+  "driving_track_vs_gt": 0.20,
+  "offroad_ability": -0.80,
   "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.00,
-  "body_style": -1.00,
+  "size": 0.05,
+  "wheelbase": 0.05,
+  "body_style": -0.50,
   "seats": -0.50,
-  "cargo_space": -0.50,
-  "rear_space": -0.50,
-  "ground_clearance_in": -0.80,
-  "turn_radius_ft": 0.80,
-  "mpg": 0.00,
+  "cargo_space": -0.30,
+  "rear_space": -0.30,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.50,
+  "mpg": -0.10,
   "co2_g_km": 0.00,
-  "electrification": -0.50,
+  "electrification": 0.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.80,
-  "style_aggression_rating": 0.30,
-  "style_modernity_rating": 0.50,
-  "handling_rating": 0.30,
-  "ride_comfort_rating": 0.50,
-  "cabin_noise_rating": 0.70,
-  "shift_smooth_rating": 0.50,
-  "steering_feel_rating": -0.20,
-  "adas_score": 0.50,
-  "visibility_rating": 0.30,
-  "headlight_rating": 0.80,
+  "style_sleek_vs_boxy": 0.40,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.20,
+  "handling_rating": 0.10,
+  "ride_comfort_rating": 0.40,
+  "cabin_noise_rating": 0.40,
+  "shift_smooth_rating": 0.30,
+  "steering_feel_rating": -0.10,
+  "adas_score": 0.30,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.30,
   "security_rating": 0.00,
-  "screen_in": 0.30,
-  "infotainment_ux_rating": 0.20,
-  "smartphone_connect_rating": 0.50,
-  "audio_rating": 0.30,
+  "screen_in": 0.20,
+  "infotainment_ux_rating": 0.30,
+  "smartphone_connect_rating": 0.30,
+  "audio_rating": 0.00,
   "usb_ports": 0.00,
-  "comfort_feature_score": 0.50,
-  "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.70,
+  "comfort_feature_score": 0.30,
+  "convenience_feature_score": 0.30,
+  "brand_prestige_rating": 0.50,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.50,
-  "interior_tech_focus_rating": 0.40
+  "interior_luxury_rating": 0.30,
+  "interior_tech_focus_rating": 0.30
 }
 ```

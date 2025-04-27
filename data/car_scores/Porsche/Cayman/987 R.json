@@ -1,0 +1,113 @@
+The Porsche Cayman 987 R was produced for the 2011 and 2012 model years. It is a lightweight, more performance-focused version of the 987.2 Cayman S.
+
+Here is the evaluation based on the search results:
+
+*   **price_usd**: The original base price was around $67,250 in the US (2012) or £51,728 in the UK (2011). Current used prices in 2024 vary, with an average around $68,413 for manual models, but can range from $40,100 to over $124,995 depending on condition, mileage, and specification. Compared to the average new car price of $52,000, the R's original price was higher, and current used prices are generally above or significantly above the average used car price. Score: 0.00.
+*   **total_cost_estimate_5yr_usd**: Porsche ownership costs are high due to maintenance, insurance, and potential repairs. While the 987.2 generation is more reliable than the 987.1, it's still a performance car with potentially expensive parts and labor. Score: -0.25.
+*   **insurance_usd_yr**: The Cayman R falls into high UK insurance groups (e.g., 42), indicating high insurance costs. Score: -0.50.
+*   **maint_usd_yr**: Maintenance costs for the 987 R are similar to other 987.2 models, which are expensive compared to average cars. Routine servicing can be several hundred pounds/dollars, with larger services or unexpected repairs costing more. Score: -0.75.
+*   **repair_risk_score**: The 987.2 generation, including the R, is generally considered reliable and addressed the major engine issues (IMS, bore scoring) of the 987.1. Common issues are less severe, like coolant leaks or minor electrical faults. Overall, good reliability for a performance car of its age. Score: 0.50.
+*   **hp**: 330 hp (326 bhp) from the 3.4L flat-six. This is significantly above the 200 hp average. Score: 0.75.
+*   **torque**: 273 lb-ft (370 Nm). This is well above the 190 lb-ft average. Score: 0.50.
+*   **cylinder_count**: 6 cylinders (flat-six). Score: 0.00.
+*   **engine_displacement**: 3.4L (3436 cc). Score: 0.00.
+*   **accel_0_60_sec**: Varies slightly by source and transmission: 4.3s, 4.4s, 4.7s (manual), 4.9s (PDK), 4.7s (PDK with Sport Chrono). Using the quickest figure (4.3s or 4.5s/4.7s), it's significantly faster than the 7.5s average. Score: 0.75.
+*   **top_speed**: 175 mph (manual), 174 mph (PDK). Some sources say 180 mph with manual. Using the commonly cited 175 mph, it's well above the 150 mph average. Score: 0.50.
+*   **drive_type**: Rear-Wheel Drive (RWD). Score: +1.00.
+*   **transmission_type**: Available with 6-speed manual or 7-speed PDK (dual-clutch). Score: 0.00.
+*   **driving_track_vs_gt**: Designed for enhanced driving dynamics and track capability, with weight reduction and stiffer suspension. While still usable on the road, its focus is more towards performance than grand touring comfort. Score: -0.25.
+*   **offroad_ability**: Low ground clearance, RWD, sports car. Score: +1.00.
+*   **braking_dist_ft**: Praised for excellent braking performance, with short stopping distances (e.g., 110 feet from 60 mph). Score: 0.75.
+*   **size**: Length around 4347-4376mm (171.1-172.1 in). This is smaller than the 4600mm average. Score: 0.25.
+*   **wheelbase**: Around 2415-2416mm (95.1 in). This is shorter than the 2700mm average. Score: 0.25.
+*   **body_style**: 2-door coupe (fastback coupé). Score: -1.00.
+*   **seats**: 2 seats. Score: -1.00.
+*   **cargo_space**: Front trunk around 5.3-5.7 cu ft (150-162L), rear trunk around 4.6-9.2 cu ft (130-260L). Total combined luggage space is around 11 cu ft or 14.5 cu ft (410L). Some sources say 1.9 cu ft (54L) for cargo volume, which seems incorrect for the total. Using the more common figures, it's around or below the 15 cu ft average. Score: -0.25.
+*   **rear_space**: 2-seater, no rear space. Score: -1.00.
+*   **ground_clearance_in**: Around 104-121mm (4.1-4.7 inches). Lowered by 20mm (0.8 inches) compared to Cayman S. This is lower than the 6.5 inches average. Score: -0.50.
+*   **turn_radius_ft**: No specific figure found. Default to average. Score: 0.00.
+*   **mpg**: EPA combined 22-23 mpg (19/27 city/highway). UK NEDC combined 29.1-30.4 mpg imperial. Real-world average around 22-25 mpg. This is below the 30 mpg average. Score: -0.25.
+*   **co2_g_km**: Around 214-228 g/km. This is above the 175 g/km average. Score: -0.25.
+*   **electrification**: Petrol engine only. Score: -1.00.
+*   **electric_range_mi**: Not electric. Score: -1.00.
+*   **charge_speed_kw**: Not electric. Score: -1.00.
+*   **style_sleek_vs_boxy**: Sleek sports car design. Score: 0.75.
+*   **style_aggression_rating**: More aggressive styling than standard Cayman with fixed wing, decals, and revised fascia. Score: 0.75.
+*   **style_modernity_rating**: Design is from 2010-2012, clearly dated compared to the latest models. Score: -0.50.
+*   **handling_rating**: Universally praised as one of the best handling Porsches, with exceptional precision, balance, and steering feel. Score: +1.00.
+*   **ride_comfort_rating**: Stiffer suspension than standard Cayman, noticeable on the street, but generally considered acceptable for a performance car. Score: 0.00.
+*   **cabin_noise_rating**: Engine noise is part of the experience, especially with the sports exhaust. Weight reduction means less sound deadening. Score: -0.25.
+*   **shift_smooth_rating**: Manual is praised as slick, PDK is fast and smooth. Score: 0.75.
+*   **steering_feel_rating**: Hydraulic steering is highly praised for feel and communication. Score: 0.75.
+*   **adas_score**: Minimal to no ADAS features available for its era. Optional rear park assist. Score: -1.00.
+*   **visibility_rating**: Reviews mention good all-round visibility for a sports car. Score: 0.25.
+*   **headlight_rating**: Bi-Xenon dynamic cornering lights and daytime running lights were optional. Standard headlights were likely halogen or basic Xenon. Score: 0.00.
+*   **security_rating**: Standard alarm and immobilizer for its era. Score: 0.00.
+*   **screen_in**: Standard radio (CDR30) or optional PCM (Porsche Communication Management) with navigation. PCM screen size is typically around 7 inches for this era. Score: -0.25.
+*   **infotainment_ux_rating**: Original systems were basic and dated. PCM was functional but not intuitive by modern standards. Score: -0.50.
+*   **smartphone_connect_rating**: Bluetooth for phone calls was optional. Universal Audio Interface (USB/iPod) was optional. No standard Apple CarPlay/Android Auto. Score: -0.75.
+*   **audio_rating**: Radio/sound system was initially deleted for weight saving but could be optioned back in. Optional Bose Surround Sound System was available. Score: 0.00 (starts with no radio, but good options were available). Let's average it out.
+*   **usb_ports**: Universal Audio Interface included USB connectivity. 12V socket in passenger footwell. Score: 0.00.
+*   **comfort_feature_score**: Air conditioning was initially deleted for weight saving but could be optioned back in. Lightweight bucket seats were standard, but heated leather sport seats were optional. Dual-zone climate control was optional. Score: -0.25 (starts stripped, but comfort features were available).
+*   **convenience_feature_score**: Rear parking sensors were optional. Cruise control was optional. Minimal convenience features compared to modern cars. Score: -0.50.
+*   **brand_prestige_rating**: Porsche is a high-prestige brand. Score: +1.00.
+*   **model_prestige_rating**: Cayman is a core Porsche sports car model, positioned below the 911. Score: 0.00.
+*   **trim_prestige_rating**: R is a special, performance-focused, lightweight trim, considered the pinnacle of the 987 generation and highly sought after by enthusiasts. Score: -1.00.
+*   **interior_luxury_rating**: High-quality materials for its era, but the R trim focused on weight reduction, with standard lightweight seats and deleted items. Optional leather and other features could add luxury back. Score: 0.25.
+*   **interior_tech_focus_rating**: Interior design is driver-focused with physical buttons and analog gauges. Infotainment was basic unless optioned. Minimal tech focus compared to modern cars. Score: -0.75.```json
+{
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": -0.25,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.75,
+  "repair_risk_score": 0.50,
+  "hp": 0.75,
+  "torque": 0.50,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.75,
+  "top_speed": 0.50,
+  "drive_type": 1.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": -0.25,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.75,
+  "size": 0.25,
+  "wheelbase": 0.25,
+  "body_style": -1.00,
+  "seats": -1.00,
+  "cargo_space": -0.25,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.25,
+  "co2_g_km": -0.25,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.75,
+  "style_aggression_rating": 0.75,
+  "style_modernity_rating": -0.50,
+  "handling_rating": 1.00,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": -0.25,
+  "shift_smooth_rating": 0.75,
+  "steering_feel_rating": 0.75,
+  "adas_score": -1.00,
+  "visibility_rating": 0.25,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": -0.25,
+  "infotainment_ux_rating": -0.50,
+  "smartphone_connect_rating": -0.75,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": -0.25,
+  "convenience_feature_score": -0.50,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 0.25,
+  "interior_tech_focus_rating": -0.75
+}
+```

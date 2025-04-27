@@ -1,109 +1,113 @@
-The Porsche 944 S was produced from 1987 to 1988 [2, 3, 7]. It featured a 2.5L 16-valve engine producing 187-190 hp and 170 lb-ft of torque [2, 3, 4, 7, 9, 10]. 0-60 mph was around 7.0-7.7 seconds [2, 4, 13, 17]. Top speed was around 142 mph [2, 7, 9, 10, 17]. It was rear-wheel drive and typically came with a 5-speed manual transmission [4, 9]. Ground clearance was around 4.9 inches [5, 8, 14, 16]. Turning radius is listed as 33.8 ft in one source [35]. MPG is estimated around 19-28 combined [4, 7, 9, 17, 19, 25, 26, 28]. Cargo space is around 11.2 cu ft [35]. Rear seats are very small [2, 3, 34]. ABS and airbags were optional on the 944 S, standard on the Turbo [2, 6, 23, 29]. Handling and steering are generally praised [20, 21]. Reliability is dependent on maintenance due to age [11, 18, 20, 21, 24].
+Here is the evaluation of the Porsche 944 S based on the provided criteria and search results:
 
-Now, scoring based on the gathered data and the provided guide:
+- price_usd: Used prices vary, but Classic.com shows an average of $17,235 for the 944 S. AutoTrader UK shows prices from around £5k to £20k+. This is well below the market average for a new car ($52,000). Score: +0.60.
+- total_cost_estimate_5yr_usd: Older Porsches can have high maintenance and repair costs. Estimates range from $500-$1000/year for parts if doing DIY, to $2000-$4000/year using shops. A major repair like a timing belt failure can be $1500+. This suggests high ownership costs over 5 years compared to average. Score: -0.70.
+- insurance_usd_yr: Older sports cars can have higher insurance, but specific UK insurance group data wasn't found. Defaulting slightly negative. Score: -0.40.
+- maint_usd_yr: RepairPal estimates annual maintenance at $948, but forum posts suggest higher costs, especially if using shops (£2k+ per year mentioned for S2). Given its age and Porsche parts cost, it's well above average. Score: -0.70.
+- repair_risk_score: RepairPal gives Porsche a 2.0/5.0 reliability rating, ranking 32nd out of 32 brands. The 944 has known issues like timing belt failures (interference engine). Score: -0.60.
+- hp: The 944 S has 187-190 hp. This is slightly below the average for modern cars (~200 hp). Score: -0.10.
+- torque: The 944 S has 170 lb-ft (230 Nm) of torque. This is below the average for modern cars (~190 lb-ft). Score: -0.20.
+- cylinder_count: It has a 4-cylinder engine. This is below the market average (often 4 or 6). Score: -0.50.
+- engine_displacement: It has a 2.5L engine (some later models had 2.7L or 3.0L S2, but S is 2.5L). This is around the average displacement. Score: 0.00.
+- accel_0_60_sec: 0-60 mph is listed as 7.0-7.7 seconds. This is slightly slower than the modern average (~7.5 sec). Score: -0.10.
+- top_speed: Top speed is listed as 142-149 mph. This is around the average for non-performance cars. Score: 0.00.
+- drive_type: Rear-wheel drive. Score: 1.00.
+- transmission_type: Primarily 5-speed manual, some automatics were available but manual is characteristic. Manual is scored -1.00. Score: -1.00.
+- driving_track_vs_gt: Known for excellent handling, but comfortable enough for touring. Leans towards GT due to front-engine layout and comfort focus compared to pure track cars. Score: 0.50.
+- offroad_ability: Very low ground clearance (4.92 inches). Score: 1.00.
+- braking_dist_ft: Uses ventilated discs, rear brakes from the Turbo. Braking was good for its era, but modern cars with ABS and better tires stop shorter. Estimate slightly below average. Score: -0.20.
+- size: Length is around 168.9 inches (4290 mm). This is smaller than a modern Honda Civic (~184 inches). Score: -0.50.
+- wheelbase: Wheelbase is 94.5 inches (2400 mm). This is significantly shorter than a modern Civic (~107 inches). Score: -0.50.
+- body_style: 2-door coupe/hatchback. Score: -1.00.
+- seats: 2+2 seating, but rear seats are very small. Effectively 2 usable seats. Score: -0.50.
+- cargo_space: Hatchback design offers decent cargo space for a coupe, but not comparable to modern hatchbacks or SUVs. Estimate below average. Score: -0.30.
+- rear_space: Rear seats are extremely cramped. Score: -1.00.
+- ground_clearance_in: 4.92 inches. Very low. Score: -0.70.
+- turn_radius_ft: Listed as 10.3m (33.79 ft). This is better than the average (~36 ft). Score: 0.20.
+- mpg: EPA estimates 19/27 mpg. Forum users report 16-24 mpg mixed. This is below the modern average (~30 mpg). Score: -0.50.
+- co2_g_km: Based on MPG, CO2 emissions will be high compared to modern vehicles, especially EVs. Estimate significantly negative. Score: -0.70.
+- electrification: Petrol engine. Score: -1.00.
+- electric_range_mi: N/A. Score: -1.00.
+- charge_speed_kw: N/A. Score: -1.00.
+- style_sleek_vs_boxy: Sleek, aerodynamic coupe design. Score: 0.70.
+- style_aggression_rating: Moderate aggression for its era, pop-up headlights soften it slightly. Score: 0.30.
+- style_modernity_rating: Iconic design, but clearly from the 1980s. Score: -0.80.
+- handling_rating: Renowned for excellent handling and balance (transaxle layout). Score: 0.90.
+- ride_comfort_rating: Sports suspension, likely firm but not overly harsh. Score: -0.20.
+- cabin_noise_rating: Older car, less sound deadening than modern vehicles. Score: -0.30.
+- shift_smooth_rating: Manual transmission feel varies, but generally direct. Not as smooth as a modern automatic. Score: -0.20.
+- steering_feel_rating: Known for good, communicative steering. Score: 0.70.
+- adas_score: None available. Score: -1.00.
+- visibility_rating: Large glass area for a coupe, including the rear hatch. Generally good visibility. Score: 0.00.
+- headlight_rating: Pop-up headlights with older bulb technology are poor by modern standards. Score: -1.00.
+- security_rating: Basic security for its era. Score: -0.80.
+- screen_in: No infotainment screen. Score: -1.00.
+- infotainment_ux_rating: No infotainment system. Score: -1.00.
+- smartphone_connect_rating: No smartphone connectivity. Score: -1.00.
+- audio_rating: Basic audio system for its era. Score: -0.50.
+- usb_ports: None. Score: -1.00.
+- comfort_feature_score: Basic comfort features for its era (AC optional). Score: -0.80.
+- convenience_feature_score: Basic convenience features for its era (ABS optional). Score: -0.80.
+- brand_prestige_rating: Porsche is a high-prestige brand. Score: 1.00.
+- model_prestige_rating: The 944 is a classic Porsche, but not as iconic or high-tier as the 911. It's a middle-of-the-range model within the brand's history. Score: 0.00.
+- trim_prestige_rating: The 'S' trim is a performance upgrade over the base 944 but sits below the Turbo and S2/CS models. It's a mid-tier performance trim. Score: 0.00.
+- interior_luxury_rating: Interior materials were good for the 1980s but lack the luxury of modern high-end cars. Score: -0.30.
+- interior_tech_focus_rating: Minimal technology focus in the interior. Score: -1.00.
 
-- price_usd: Used prices are significantly lower than the average new car price of $52,000. Score +0.50.
-- total_cost_estimate_5yr_usd: While the purchase price is low, maintenance and potential repairs on a 30+ year old Porsche can be substantial [18, 20, 24]. Score 0.00.
-- insurance_usd_yr: Insurance group is likely higher than average due to it being a sports car, but classic status might mitigate this slightly. UK insurance group around 30-35 [25]. Score -0.25.
-- maint_usd_yr: Maintenance is known to be higher than average for these cars [18, 20, 24]. Score -0.50.
-- repair_risk_score: Reliability is good *if* maintained, but age increases the risk of components failing [11, 18, 20, 21, 24]. Score 0.00.
-- hp: 187-190 hp is slightly below the modern average of 200 hp. Score -0.25.
-- torque: 170 lb-ft is below the modern average of 190 lb-ft. Score -0.25.
-- cylinder_count: 4-cylinder. Score -1.00.
-- engine_displacement: 2.5L is below the modern average of 3.0L. Score -0.25.
-- accel_0_60_sec: 7.0-7.7 seconds is around the modern average of 7.5 seconds. Score 0.00.
-- top_speed: 142 mph is below the modern average of 150 mph. Score -0.25.
-- drive_type: RWD. Score +1.00.
-- transmission_type: Typically manual. Score -1.00.
-- offroad_ability: Very low ground clearance, not designed for off-road. Score +1.00 (inverse scale).
-- braking_dist_ft: Reviews mention good brakes for the era [23]. Assume around modern average. Score 0.00.
-- size: Length ~4.2-4.3m is smaller than the modern average of ~4.6m. Score -0.50.
-- wheelbase: ~2.4m is shorter than the modern average of ~2.7m. Score -0.50.
-- body_style: 2-door coupe/hatchback. Score -1.00.
-- seats: 2+2. Score -0.50.
-- cargo_space: 11.2 cu ft is below the modern average of 15 cu ft. Score -0.50.
-- rear_space: Very limited rear legroom [2, 3, 34]. Score -1.00.
-- ground_clearance_in: ~4.9 inches is low. Score -0.75.
-- turn_radius_ft: 33.8 ft is better than the modern average of 36 ft. Score +0.25.
-- mpg: Combined 19-28 mpg is below the modern average of 30 mpg. Score -0.75.
-- co2_g_km: Higher than modern standards. Score -0.75.
-- electric_range_mi: N/A. Score -1.00.
-- charge_speed_kw: N/A. Score -1.00.
-- handling_rating: Widely praised as excellent [20, 21]. Score +1.00.
-- ride_comfort_rating: Sports car from the 80s, likely firm. Score -0.25.
-- cabin_noise_rating: Older car, less insulation. Score -0.50.
-- shift_smooth_rating: Manual transmission, feel varies. Score -0.50.
-- steering_feel_rating: Highly praised, excellent feel [20, 21]. Score +1.00.
-- adas_score: None. ABS and airbags were optional, not standard ADAS features by modern definition [2, 6, 23, 29]. Score -1.00.
-- visibility_rating: Average for a coupe. Score 0.00.
-- headlight_rating: Pop-up headlights with older technology. Score -1.00.
-- security_rating: Basic for its era. Score -1.00.
-- screen_in: No central screen. Score -1.00.
-- infotainment_ux_rating: Basic radio/cassette. Score -1.00.
-- smartphone_connect_rating: None. Score -1.00.
-- audio_rating: Basic for its era. Score -1.00.
-- usb_ports: None. Score -1.00.
-- comfort_feature_score: Basic features for its era. Score -0.75.
-- convenience_feature_score: Basic features for its era. Score -0.75.
-- brand_prestige_rating: Porsche is high prestige. Score +1.00.
-- model_prestige_rating: Performance variant of 944, but not the top Turbo/Turbo S. Score 0.25.
-- trim_prestige_rating: S is a performance trim, but not the highest. Score -0.25.
-- interior_luxury_rating: Decent for its era and segment, but not modern luxury. Score -0.50.
-- interior_tech_focus_rating: Very low tech focus. Score -1.00.
-- style_sleek_vs_boxy: Relatively sleek profile. Score 0.25.
-- style_aggression_rating: Moderate aggression. Score 0.00.
-- style_modernity_rating: Clearly dated design. Score -1.00.```json
+```json
 {
-  "price_usd": 0.50,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": -0.25,
-  "maint_usd_yr": -0.50,
-  "repair_risk_score": 0.00,
-  "hp": -0.25,
-  "torque": -0.25,
-  "cylinder_count": -1.00,
-  "engine_displacement": -0.25,
-  "accel_0_60_sec": 0.00,
-  "top_speed": -0.25,
-  "drive_type": 1.00,
-  "transmission_type": -1.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
-  "size": -0.50,
-  "wheelbase": -0.50,
-  "body_style": -1.00,
-  "seats": -0.50,
-  "cargo_space": -0.50,
-  "rear_space": -1.00,
-  "ground_clearance_in": -0.75,
-  "turn_radius_ft": 0.25,
-  "mpg": -0.75,
-  "co2_g_km": -0.75,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.25,
-  "style_aggression_rating": 0.00,
-  "style_modernity_rating": -1.00,
-  "handling_rating": 1.00,
-  "ride_comfort_rating": -0.25,
-  "cabin_noise_rating": -0.50,
-  "shift_smooth_rating": -0.50,
-  "steering_feel_rating": 1.00,
-  "adas_score": -1.00,
-  "visibility_rating": 0.00,
-  "headlight_rating": -1.00,
-  "security_rating": -1.00,
-  "screen_in": -1.00,
-  "infotainment_ux_rating": -1.00,
-  "smartphone_connect_rating": -1.00,
-  "audio_rating": -1.00,
-  "usb_ports": -1.00,
-  "comfort_feature_score": -0.75,
-  "convenience_feature_score": -0.75,
-  "brand_prestige_rating": 1.00,
-  "model_prestige_rating": 0.25,
-  "trim_prestige_rating": -0.25,
-  "interior_luxury_rating": -0.50,
-  "interior_tech_focus_rating": -1.00
+ "price_usd": 0.60,
+ "total_cost_estimate_5yr_usd": -0.70,
+ "insurance_usd_yr": -0.40,
+ "maint_usd_yr": -0.70,
+ "repair_risk_score": -0.60,
+ "hp": -0.10,
+ "torque": -0.20,
+ "cylinder_count": -0.50,
+ "engine_displacement": 0.00,
+ "accel_0_60_sec": -0.10,
+ "top_speed": 0.00,
+ "drive_type": 1.00,
+ "transmission_type": -1.00,
+ "driving_track_vs_gt": 0.50,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": -0.20,
+ "size": -0.50,
+ "wheelbase": -0.50,
+ "body_style": -1.00,
+ "seats": -0.50,
+ "cargo_space": -0.30,
+ "rear_space": -1.00,
+ "ground_clearance_in": -0.70,
+ "turn_radius_ft": 0.20,
+ "mpg": -0.50,
+ "co2_g_km": -0.70,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": 0.70,
+ "style_aggression_rating": 0.30,
+ "style_modernity_rating": -0.80,
+ "handling_rating": 0.90,
+ "ride_comfort_rating": -0.20,
+ "cabin_noise_rating": -0.30,
+ "shift_smooth_rating": -0.20,
+ "steering_feel_rating": 0.70,
+ "adas_score": -1.00,
+ "visibility_rating": 0.00,
+ "headlight_rating": -1.00,
+ "security_rating": -0.80,
+ "screen_in": -1.00,
+ "infotainment_ux_rating": -1.00,
+ "smartphone_connect_rating": -1.00,
+ "audio_rating": -0.50,
+ "usb_ports": -1.00,
+ "comfort_feature_score": -0.80,
+ "convenience_feature_score": -0.80,
+ "brand_prestige_rating": 1.00,
+ "model_prestige_rating": 0.00,
+ "trim_prestige_rating": 0.00,
+ "interior_luxury_rating": -0.30,
+ "interior_tech_focus_rating": -1.00
 }
 ```

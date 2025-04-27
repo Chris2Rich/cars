@@ -1,0 +1,115 @@
+Okay, I have gathered data for the Mercedes-Benz CLE, primarily focusing on the 2024/2025 CLE 300 4Matic Coupe as a representative model, and also referencing the CLE 450 where noted. I will now process this information and assign scores based on the provided guide.
+
+Here's the breakdown of the data found and the corresponding scoring logic:
+
+*   **price_usd:** Starts around $58,000 - $59,150 for the CLE 300 Coupe. This is above the market average of $52,000, but not in the ultra-luxury range. Score: -0.10.
+*   **total_cost_estimate_5yr_usd:** No specific 5-year cost found. Mercedes-Benz is generally higher than average for maintenance and insurance. Default to 0.00.
+*   **insurance_usd_yr:** UK insurance groups are 35E-45E. This is high. Estimate >$1500/year, likely closer to $2000-$3000 depending on location/driver. Score: -0.50.
+*   **maint_usd_yr:** Mercedes maintenance is typically above average. No specific annual cost found. Estimate >$1000/year, likely $1500-$2000+. Score: -0.50.
+*   **repair_risk_score:** Mercedes-Benz has an average to slightly below-average reliability reputation compared to brands like Toyota/Lexus. Score: -0.10.
+*   **hp:** CLE 300 has 255 hp (+23 hp mild hybrid boost). CLE 450 has 375 hp (+23 hp mild hybrid boost). 255 hp is slightly above average (200 hp). Score: 0.10.
+*   **torque:** CLE 300 has 295 lb-ft (+148-151 lb-ft mild hybrid boost). CLE 450 has 369 lb-ft (+148-151 lb-ft mild hybrid boost). 295 lb-ft is well above average (190 lb-ft). Score: 0.30.
+*   **cylinder_count:** CLE 300 is I4 (4 cylinders). CLE 450 is I6 (6 cylinders). 4 cylinders is average, 6 is above average. Score based on the base engine: 0.00.
+*   **engine_displacement:** CLE 300 is 2.0L. CLE 450 is 3.0L. 2.0L is average. Score: 0.00.
+*   **accel_0_60_sec:** CLE 300 is 6.2 sec. CLE 450 is 4.1-4.2 sec. 6.2 sec is slightly faster than average (7.5 sec). Score: 0.20.
+*   **top_speed:** 130 mph (limited) for CLE 300/450. Some sources mention 250 km/h (155 mph) for CLE 300 4Matic. Using the limited speed of 130 mph, this is below average (150 mph). Score: -0.10.
+*   **drive_type:** Standard 4MATIC (AWD). Score: 0.00 (AWD is average).
+*   **transmission_type:** 9-speed automatic. Score: 1.00 (Automatic).
+*   **driving_track_vs_gt:** Positioned as a comfortable cruiser, less sporty than rivals like the BMW 4 Series. More GT focused. Score: 0.50.
+*   **offroad_ability:** Low ground clearance, RWD/AWD coupe. Poor off-road ability. Score: 1.00.
+*   **braking_dist_ft:** 70-0 mph in 159 ft (CLE 450). This is longer than average (125 ft for 60-0 mph). Score: -0.50.
+*   **size:** Length 191.0 inches (4851 mm). This is larger than a Honda Civic (~4600mm) and closer to larger vehicles. Score: 0.50.
+*   **wheelbase:** 112.8 inches (2865 mm). This is longer than a Skoda Octavia (~2700mm). Score: 0.30.
+*   **body_style:** 2-door coupe. Score: -1.00.
+*   **seats:** 4 seats. Score: -0.50.
+*   **cargo_space:** 10-11 cu ft (Cabriolet), 11.2-14.8 cu ft (Coupe). Using the higher coupe figure of 14.8 cu ft, this is average (15 cu ft). Score: 0.00.
+*   **rear_space:** Rear legroom 34.2 inches. This is below average (35"). Score: -0.10.
+*   **ground_clearance_in:** Not explicitly stated, but as a coupe, it will be low. Estimate <6.5". Score: -0.50.
+*   **turn_radius_ft:** Turning diameter 36.8 ft. This is average (36 ft). Score: 0.00.
+*   **mpg:** CLE 300 combined 26-28 mpg. CLE 450 combined 25-26 mpg. Average is 30 mpg. Score: -0.10.
+*   **co2_g_km:** CLE 300 162 g/km, 175 g/km, 6.4 tons/year (est). Average is ~175 g/km. Score: 0.00.
+*   **electrification:** Mild Hybrid (48V system). Score: -0.50 (Petrol/Diesel is -1.00, PHEV is 0.00, EV is +1.00). Mild Hybrid is between Petrol/Diesel and PHEV.
+*   **electric_range_mi:** Mild Hybrid, no significant electric range. Score: -1.00.
+*   **charge_speed_kw:** Mild Hybrid, not applicable for charging. Score: -1.00.
+*   **style_sleek_vs_boxy:** Sleek coupe profile. Score: 0.50.
+*   **style_aggression_rating:** Elegant and stylish, not overly aggressive. Score: 0.00.
+*   **style_modernity_rating:** Brand new model, modern design. Score: 0.50.
+*   **handling_rating:** Precise and nimble, but less sporty/engaging than rivals like BMW 4 Series. Balanced between comfort and agility. Score: 0.00.
+*   **ride_comfort_rating:** Refined, comfortable, eats up highway miles. Not as plush as E-Class sedan. Standard suspension is good. Score: 0.50.
+*   **cabin_noise_rating:** Very good NVH, quiet cabin. Score: 0.50.
+*   **shift_smooth_rating:** Slick-shifting 9-speed automatic. Smooth performance. Score: 0.50.
+*   **steering_feel_rating:** Precise steering, but light and numb. Score: -0.10.
+*   **adas_score:** Standard features include AEB, Lane Keep Assist, Blind Spot Assist, Attention Assist. Optional Driver Assistance package adds Adaptive Cruise Control, Active Steering Assist, etc. Good standard suite, comprehensive optional package. Score: 0.50.
+*   **visibility_rating:** Not explicitly rated, but coupes often have compromised rear visibility. Default to 0.00.
+*   **headlight_rating:** LED High Performance headlamps standard, optional Digital Light with adaptive LEDs. Score: 0.50.
+*   **security_rating:** Antitheft alarm system with sensors, integrated with keyless entry, central locking, GPS tracking. Score: 0.50.
+*   **screen_in:** 12.3-inch digital gauge cluster, 11.9-inch central touchscreen. Large screens. Score: 0.50.
+*   **infotainment_ux_rating:** Latest MBUX, intuitive menus, high resolution, smooth operation. Touch-sensitive steering wheel controls can be confusing. Score: 0.50.
+*   **smartphone_connect_rating:** Wireless Apple CarPlay and Android Auto standard. Score: 0.50.
+*   **audio_rating:** Standard 17-speaker Burmester 3D Surround Sound System. Excellent audio system. Score: 0.80.
+*   **usb_ports:** Three USB-C outlets mentioned. Score: 0.00 (Average is 3).
+*   **comfort_feature_score:** Heated, power-operated multi-contour front seats standard. Optional ventilation and massage. 64-color ambient lighting standard. Good comfort features. Score: 0.50.
+*   **convenience_feature_score:** Wireless phone charger, semi-automatic parking assist, Parking Package with rearview camera, optional Surround View Camera, optional Driver Assistance Package with advanced features. Good convenience features. Score: 0.50.
+*   **brand_prestige_rating:** Mercedes-Benz is a high-prestige brand. Score: 0.80.
+*   **model_prestige_rating:** The CLE replaces the C and E-Class coupes, positioned between them. It's not the top-tier S-Class coupe replacement (which doesn't exist anymore) or AMG GT, but it's above entry-level. Score: -0.30.
+*   **trim_prestige_rating:** Evaluating the base/mid-range CLE 300/450, not the AMG 53. Score: 0.00.
+*   **interior_luxury_rating:** Luxurious cabin, premium materials (MB-Tex standard, leather/Nappa optional), ambient lighting. Some reviews note cheaper plastics below hip level. Score: 0.50.
+*   **interior_tech_focus_rating:** Large screens, latest MBUX, voice control, augmented reality nav available. High tech focus. Score: 0.80.
+
+Now, assemble the JSON.```json
+{
+  "price_usd": -0.10,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.10,
+  "hp": 0.10,
+  "torque": 0.30,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.20,
+  "top_speed": -0.10,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -0.50,
+  "size": 0.50,
+  "wheelbase": 0.30,
+  "body_style": -1.00,
+  "seats": -0.50,
+  "cargo_space": 0.00,
+  "rear_space": -0.10,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.10,
+  "co2_g_km": 0.00,
+  "electrification": -0.50,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": -0.10,
+  "adas_score": 0.50,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.50,
+  "security_rating": 0.50,
+  "screen_in": 0.50,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.80,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": -0.30,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.80
+}
+```

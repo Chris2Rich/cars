@@ -1,0 +1,113 @@
+The search results confirm that the "most recent version" of the Porsche Macan Turbo is the all-electric 2024/2025 model. The gasoline Macan Turbo was discontinued. I will evaluate the 2024/2025 Porsche Macan Turbo Electric.
+
+Here's the data extracted and the corresponding scores based on the guide:
+
+- **price_usd:** Starts around $105,300 - $107,295. This is significantly above the market average ($52,000) and entering the higher end of luxury pricing. Score: -0.60.
+- **total_cost_estimate_5yr_usd:** No specific 5-year cost found. EVs can have lower maintenance but depreciation on high-end EVs can be significant. Porsche maintenance is generally high. Score: -0.60 (estimate based on price/EV/brand).
+- **insurance_usd_yr:** No specific UK insurance group found. High performance, high value EV will likely be very high. Score: -0.70 (estimate).
+- **maint_usd_yr:** EVs generally have lower maintenance costs than gasoline cars. Score: 0.00 (relative to overall market, not just performance cars).
+- **repair_risk_score:** J.D. Power gives the Macan EV an 84 for Quality & Reliability, the highest in its class. Score: 1.00.
+- **hp:** Up to 630 hp with overboost. This is very high performance. Score: 0.90.
+- **torque:** Up to 833 lb-ft with overboost. This is very high torque, especially for an EV. Score: 0.90.
+- **cylinder_count:** N/A (Electric). Score: 0.00.
+- **engine_displacement:** N/A (Electric). Score: 0.00.
+- **accel_0_60_sec:** 2.9 seconds (Car and Driver tested) or 3.1 seconds (Porsche spec with Launch Control). Using the faster tested time. This is extremely fast. Score: 0.90.
+- **top_speed:** 161 mph or 162 mph. Score: 0.10 (relative to the guide, 150mph is 0.00, >222mph is +1.00).
+- **drive_type:** All-Wheel Drive (AWD) via dual motors. Score: 0.00.
+- **transmission_type:** Single-speed (EV). Score: 0.50 (closer to Automatic in feel than Manual/DCT).
+- **driving_track_vs_gt:** Described as having outstanding driving dynamics, agile, sharp handling, but also comfortable ride. Balances performance and comfort well. Score: 0.30.
+- **offroad_ability:** Has adjustable air suspension and decent ground clearance for an SUV, but focus is on road performance. Max wading depth mentioned. Score: 0.20 (better than a sports car, but not a dedicated off-roader).
+- **braking_dist_ft:** No specific braking distance found, but has large brakes (14.8-inch front rotors) and Porsche Surface Coated Brakes available. Porsche is known for excellent braking. Score: 0.80 (estimate).
+- **size:** Length 4784 mm (188.3 inches). Slightly larger than a Honda Civic (~4600mm). Score: 0.10.
+- **wheelbase:** 2893 mm (113.9 inches). Longer than a Skoda Octavia (~2700mm). Score: 0.30.
+- **body_style:** 5-door SUV/Wagon. Score: 0.50.
+- **seats:** 5 seats. Score: 0.00.
+- **cargo_space:** Rear: 17-18 cu ft (480-540 liters), Front (frunk): 2.9-3 cu ft (84 liters). Total is good for the segment. Score: 0.20.
+- **rear_space:** No specific rear legroom found. Wheelbase is longer than the gasoline model, which might suggest more space, but reviews don't highlight it as exceptional. Score: 0.00 (estimate).
+- **ground_clearance_in:** 224 mm (8.8 inches) with air suspension in high level. Standard is 7.2 inches. Score: 0.30.
+- **turn_radius_ft:** Turning circle diameter 39.4 feet (same as gasoline model). Average is ~36 ft. Score: 0.00.
+- **mpg:** EPA rated 91 MPGe combined. EV equivalent efficiency. Score: 0.80.
+- **co2_g_km:** 0 g/km. Score: 1.00.
+- **electrification:** Full EV. Score: 1.00.
+- **electric_range_mi:** EPA estimated 288 miles. WLTP is higher (367-380 miles). Score: 0.70 (based on EPA, which is above average EV range).
+- **charge_speed_kw:** Max DC fast charging up to 270 kW. Supports 800V architecture. Very fast charging. Score: 1.00.
+- **style_sleek_vs_boxy:** Described as having a "gently sloping flyline", "aerodynamic build", "sleek silhouette". Score: 0.80.
+- **style_aggression_rating:** Described as having a "dynamic design", "athletic stance", "more aggressive look" than base models. Moderately aggressive. Score: 0.30.
+- **style_modernity_rating:** All-new electric platform, modern design, split headlights, active aero. Looks very modern. Score: 0.80.
+- **handling_rating:** Described as having "outstanding driving dynamics", "agile", "sharp handling", "well-balanced", "virtually no body roll". Excellent handling for an SUV. Score: 0.90.
+- **ride_comfort_rating:** Standard air suspension, adaptive dampers. Described as having a "soft but controlled ride", "exceptional ride comfort". Score: 0.80.
+- **cabin_noise_rating:** EVs are generally quiet. No specific rating found, but expected to be very quiet. Score: 0.80 (estimate).
+- **shift_smooth_rating:** Single-speed EV transmission is inherently smooth. Score: 1.00.
+- **steering_feel_rating:** Described as "sharp and direct", "optimum precision", "accurate and tight steering". Score: 0.90.
+- **adas_score:** Equipped with a suite of advanced features including adaptive cruise control, automatic emergency braking, lane-keeping assist. Optional augmented reality head-up display and passenger display. Score: 0.70.
+- **visibility_rating:** High ground clearance helps. Optional augmented reality head-up display. No specific rating found. Score: 0.00 (estimate).
+- **headlight_rating:** Split-level LED headlights, optional LED matrix technology. Score: 0.50.
+- **security_rating:** Porsche is a high-value target. Likely has good security features. Score: 0.60 (estimate).
+- **screen_in:** 12.6-inch digital instrument cluster and 10.9-inch central touchscreen standard. Optional 10.9-inch passenger display. Large screens. Score: 0.80.
+- **infotainment_ux_rating:** Described as a "highly digitalized cockpit", "modern operating comfort", "new-generation infotainment system". Some sources mention the passenger screen relevance is questionable. Score: 0.50.
+- **smartphone_connect_rating:** Wireless Apple CarPlay and Android Auto mentioned for the platform. Score: 0.80.
+- **audio_rating:** Optional Bose or Burmester systems available. Score: 0.70.
+- **usb_ports:** Multiple USB-C ports expected in a modern EV. Score: 0.60 (estimate).
+- **comfort_feature_score:** Standard adaptive sport seats with memory, three-zone climate control, heated seats. Options for ventilated, massaging seats. Score: 0.70.
+- **convenience_feature_score:** Standard adaptive air suspension, adaptive dampers, power liftgate, keyless entry, push-button start, wireless charging. Optional rear-axle steering, augmented reality head-up display. Score: 0.70.
+- **brand_prestige_rating:** Porsche is a high-prestige brand. Score: 0.90.
+- **model_prestige_rating:** Macan is the best-selling Porsche model globally, but it's the entry-level SUV. Score: 0.20.
+- **trim_prestige_rating:** Turbo is the top performance trim in the EV lineup. Score: -1.00.
+- **interior_luxury_rating:** Premium materials, recycled materials used, customizable options. Described as "comfortable and elegant cabin", "opulent experience" (for gasoline, likely similar for EV). Some sources say the interior "lacks panache" for the price. Score: 0.60.
+- **interior_tech_focus_rating:** Highly digitalized cockpit, multiple screens, augmented reality HUD available. Screen-forward design. Score: 0.80.```json
+{
+  "price_usd": -0.60,
+  "total_cost_estimate_5yr_usd": -0.60,
+  "insurance_usd_yr": -0.70,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 1.00,
+  "hp": 0.90,
+  "torque": 0.90,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.90,
+  "top_speed": 0.10,
+  "drive_type": 0.00,
+  "transmission_type": 0.50,
+  "driving_track_vs_gt": 0.30,
+  "offroad_ability": 0.20,
+  "braking_dist_ft": 0.80,
+  "size": 0.10,
+  "wheelbase": 0.30,
+  "body_style": 0.50,
+  "seats": 0.00,
+  "cargo_space": 0.20,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.30,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.80,
+  "co2_g_km": 1.00,
+  "electrification": 1.00,
+  "electric_range_mi": 0.70,
+  "charge_speed_kw": 1.00,
+  "style_sleek_vs_boxy": 0.80,
+  "style_aggression_rating": 0.30,
+  "style_modernity_rating": 0.80,
+  "handling_rating": 0.90,
+  "ride_comfort_rating": 0.80,
+  "cabin_noise_rating": 0.80,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.90,
+  "adas_score": 0.70,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.50,
+  "security_rating": 0.60,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.70,
+  "usb_ports": 0.60,
+  "comfort_feature_score": 0.70,
+  "convenience_feature_score": 0.70,
+  "brand_prestige_rating": 0.90,
+  "model_prestige_rating": 0.20,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.80
+}
+```

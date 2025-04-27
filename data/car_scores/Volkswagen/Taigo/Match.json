@@ -1,125 +1,113 @@
-Here's the data extracted and scored based on the provided guide:
+Now I will process the search results and assign scores based on the provided guide.
 
-*   **price_usd**: RRP £24,770 - £33,125 (Source 2). Match trim prices start around £24,945 (Source 22) or £25,770 (Source 16) for 1.0 TSI 110PS. £28,385 for 1.0 TSI 115PS DSG (Source 26). Let's use an average around £27,000. Convert to USD (approx 1.25 USD/GBP): ~$33,750. This is below the market average of $52,000. Score: 0.30.
-*   **total_cost_estimate_5yr_usd**: High FRV (Future Residual Value) mentioned (Source 3). Reliability is expected to be good, sharing components with Polo/T-Cross (Source 2, 13). Some potential issues mentioned (turbo, gearbox, battery, parking sensors) but often fixable (Source 9). Maintenance cost seems average (Source 2). 5-year cost estimate is not explicitly given, but good residual value and average maintenance/reliability suggest it's likely around the market average. Score: 0.00.
-*   **insurance_usd_yr**: Insurance Group 15E or 17E (Source 4, 6, 27). This is on the lower side of the 1-50 scale, suggesting lower insurance costs. Average is ~$1500/year. Lower group means lower cost. Score: 0.20.
-*   **maint_usd_yr**: Service interval 9300 miles or 12 months (Source 2, 4, 32, 33). Fixed and flexible plans available (Source 2). No specific annual cost found, but VW servicing is generally average. Score: 0.00.
-*   **repair_risk_score**: Shares platform/components with reliable models (Polo, T-Cross) (Source 2, 13). Reliability reviews are generally good (Source 12). Some potential issues mentioned (turbo, gearbox, battery, parking sensors) (Source 9), but these don't seem widespread enough to indicate poor reliability overall. Score: 0.00.
-*   **hp**: Available engines: 95PS (94hp), 110PS (109hp), 115PS (113hp), 150PS (148hp) (Source 2, 4, 5, 6, 7, 8, 10, 12, 15, 17, 18, 24, 27, 32, 33). Match trim is available with 95PS, 110PS, and 115PS (Source 3, 4, 5, 6, 7, 8, 15, 17, 18, 26, 27, 32, 33). The 95PS is the lowest output (Source 3). The 110/115PS is the sweet spot (Source 2, 24). Average car is ~200hp. The Taigo's engines are significantly below average. Score: -0.50 (using the 110/115PS as representative for Match).
-*   **torque**: 95PS: 175 Nm (129 lb-ft) (Source 3). 110/115PS: 200 Nm (148 lb-ft) (Source 4, 6, 7, 8, 15, 27, 32). Average car is ~190 lb-ft. The Taigo's torque is below average. Score: -0.40 (using 148 lb-ft).
-*   **cylinder_count**: 3-cylinder for 1.0 TSI engines (Source 5, 32, 33). 4-cylinder for 1.5 TSI (Source 2, 10). Match trim is available with 1.0 TSI (Source 3, 4, 5, 6, 7, 8, 15, 17, 18, 26, 27, 32, 33). 3 cylinders are below the common 4 or 6. Score: -0.20.
-*   **engine_displacement**: 1.0 litre (999cc) for 1.0 TSI engines (Source 3, 4, 5, 6, 18, 32, 33). 1.5 litre for 1.5 TSI (Source 2, 10). Match trim is available with 1.0 TSI. 1.0L is significantly below the average 3.0L. Score: -0.50.
-*   **accel_0_60_sec**: 95PS: 11.1-11.2s (Source 2, 3, 33). 110PS: 10.4s (Source 4, 6). 115PS: 9.9-10.2s (Source 8, 15, 17, 18, 32). Average is ~7.5s. The Taigo is slower than average. Score: -0.50 (using an average around 10.5s).
-*   **top_speed**: 95PS: 114 mph (Source 3, 33). 110PS: 119 mph (Source 4, 6, 7). 115PS: 122 mph (Source 5, 8, 15, 18, 27, 32). Average is ~150mph. The Taigo is below average. Score: -0.30 (using an average around 118mph).
-*   **drive_type**: Front-wheel-drive (FWD) only (Source 2). Score: -1.00.
-*   **transmission_type**: Available with 5-speed manual (95PS), 6-speed manual (110PS), or 7-speed DSG automatic (110/115PS, 150PS) (Source 3, 4, 5, 6, 7, 8, 10, 11, 15, 17, 26, 27, 32, 33, 35). Match trim is available with manual and DSG (Source 3, 4, 5, 6, 7, 8, 15, 17, 26, 27, 32, 33). Automatic is the most common/preferred in the market today. DSG is a type of automatic. Score: 0.50 (representing the availability of a modern automatic).
-*   **offroad_ability**: Based on Polo platform (MQB-A0) (Source 10, 13, 36, 37). 137mm (5.4 inches) ground clearance (Source 14). FWD only. Not designed for off-road. Score: 1.00 (poor off-road ability).
-*   **braking_dist_ft**: Not explicitly found. Assume average for its class. Score: 0.00.
-*   **size**: Length 4266mm (Source 10, 18, 23, 32, 33, 35, 39). Width 1757mm (excluding mirrors) (Source 10, 18, 23, 32, 33, 35, 39). Height 1515-1518mm (Source 10, 23, 32, 33, 35, 39). This is a compact crossover size, comparable to Nissan Juke (Source 10). Average car length is ~4600mm. It's smaller than average. Score: -0.20.
-*   **wheelbase**: 2554mm (Source 32, 33, 35, 39). Average is ~2700mm. It's smaller than average. Score: -0.20.
-*   **body_style**: SUV Coupe (Source 2, 10, 13, 21, 24, 36, 37). This is a popular crossover style, not a traditional sedan or van. Score: 0.00 (representing a common modern body style).
-*   **seats**: 5 seats (Source 6, 32, 33, 35). Average is 5 seats. Score: 0.00.
-*   **cargo_space**: 440 litres (15.5 cu ft) with rear seats up (Source 16, 21, 24, 35, 39). 1222 litres with seats down (Source 35). Average sedan is ~15 cu ft, average SUV/hatchback is higher. 440L is decent for its size, slightly above a typical sedan. Score: 0.10.
-*   **rear_space**: Rear headroom is not significantly restricted by the coupe roofline (Source 36, 37). Four adults can sit comfortably (Source 24). Rear legroom not explicitly stated in inches. Assume average for its class, maybe slightly less due to coupe roofline affecting perceived space. Score: -0.10.
-*   **ground_clearance_in**: 137mm = ~5.4 inches (Source 14). Average compact crossover is ~6.5 inches. It's slightly below average for a crossover, closer to a hatchback. Score: 0.00.
-*   **turn_radius_ft**: Turning circle 10.7 - 10.9m (Source 32, 33, 35, 39). 10.7m = ~35.1 ft. 10.9m = ~35.8 ft. Average is ~36 ft. This is slightly better than average. Score: 0.10.
-*   **mpg**: 95PS manual: 51.4mpg (Source 2, 10, 11). 110PS manual: 52.3mpg (Source 2, 10, 11). 110PS DSG: 47.9mpg (Source 10, 11). 115PS DSG: 48.7mpg (Source 5, 15, 27). Real MPG reported 43-47 mpg (Source 19). Average is ~30mpg. The Taigo is significantly more fuel efficient. Score: 0.70 (using WLTP figures as benchmark).
-*   **co2_g_km**: 95PS manual: 123-124 g/km (Source 2, 10, 11, 17). 110PS manual: 124 g/km (Source 10, 11). 110PS DSG: 134 g/km (Source 10, 11). 115PS DSG: 128 g/km (Source 5, 15). Average is ~175 g/km. The Taigo has lower CO2 emissions. Score: 0.60 (using an average around 128 g/km).
-*   **electric_range_mi**: Not electric. Score: -1.00.
-*   **charge_speed_kw**: Not electric. Score: -1.00.
-*   **style_sleek_vs_boxy**: Coupe-style sloping rear roofline (Source 13, 21, 24, 36, 37). More avant garde/trendier than T-Cross (Source 10, 13). Described as sleek (Source 30). Score: 0.50.
-*   **style_aggression_rating**: Described as smart, somewhat understated (Source 14). Not particularly stylish compared to some rivals (Source 2). Not aggressive. Score: 0.10.
-*   **style_modernity_rating**: Full-width light bar at the back adds a modern touch (Source 24). IQ.LIGHT LED matrix headlights available (Source 37, 11). Digital cockpit (Source 28, 36, 38). Feels modern (Source 24). Score: 0.50.
-*   **handling_rating**: Comfortable and easy to drive (Source 2). Feels solid and secure (Source 20). Light steering good around town, less fun on open road than Ford Puma (Source 14, 19, 20). Handles reasonably well, stays composed (Source 21). Generic small SUV handling (Source 19). Score: 0.00.
-*   **ride_comfort_rating**: Comfortable ride (Source 2, 24). Smooth ride, absorbs bumps well (Source 21). Ride can be a bit skittish on poor surfaces with larger wheels (Source 14). Generally comfortable. Score: 0.10.
-*   **cabin_noise_rating**: Cabin is well insulated from road and wind noise (Source 14). Tyre noise can be intrusive on larger wheels (Source 2). Generally average to slightly better. Score: 0.00.
-*   **shift_smooth_rating**: Auto gearbox (DSG) is a bit jerky (Source 2). Manual transmission is also available. Score: 0.00 (average, considering the jerky DSG but availability of manual). *Correction*: The previous Taigo evaluations used 0.40 for DSG, let's stick to that for consistency if DSG is common on the trim. Match is available with DSG. Score: 0.40.
-*   **steering_feel_rating**: Light steering (Source 19, 20). Good around town, less engaging than rivals like Puma (Source 14, 19). Score: 0.00.
-*   **adas_score**: Full five-star Euro NCAP rating (Source 2, 12, 32, 33). Standard equipment includes adaptive cruise control, autonomous emergency braking, park assist with surround parking sensors, lane change assist, travel assist (semi-automated) (Source 2, 3, 12, 19, 36, 37). Match trim adds reversing camera (Source 3, 20). Comprehensive standard ADAS. Score: 0.50.
-*   **visibility_rating**: Surprisingly good for a coupe-SUV (Source 20). Score: 0.00.
-*   **headlight_rating**: Standard LED headlights (Source 10). IQ.LIGHT LED matrix headlights available on higher trims (Style) (Source 11, 37). Match gets standard LEDs. Score: 0.50.
-*   **security_rating**: Anti-theft alarm system with interior monitoring, backup horn, towing protection (Source 4). Anti-theft wheel bolts (Source 4). Standard security features seem average. Score: 0.00.
-*   **screen_in**: Match trim comes with an 8-inch touchscreen display (Source 20). Style/R-Line get 10.25-inch digital cockpit and 8-inch infotainment (Source 11, 19, 20). Entry Life gets basic infotainment and digital cockpit (Source 19, 20). Match gets 8-inch infotainment and 8-inch digital cockpit (Source 20). 8-inch is average. Score: 0.00.
-*   **infotainment_ux_rating**: Based on latest MIB3 (Source 36, 37). Easier to use than latest Golf system, but reliant on touchscreen (Source 19). Menus sensibly laid out (Source 19). Can be frustrating to use (Source 24). Physical climate controls on Life and Match (Source 20). Score: 0.00 (mixed reviews, touchscreen focus is a negative for some).
-*   **smartphone_connect_rating**: App-Connect Wireless (Apple CarPlay/Android Auto) standard (Source 12, 19, 28, 36, 37, 38). Wireless is a plus. Score: 0.70.
-*   **audio_rating**: Beats Audio Sound System optional on Match (Source 3). Standard audio not specified, likely average. Score: 0.00.
-*   **usb_ports**: External USB type C socket and charging sockets (Source 6, 35). Number not specified, but presence of multiple Type C ports is good. Assume at least 2-3. Score: 0.50.
-*   **comfort_feature_score**: Lumbar support for front seats (Source 4, 10). Heated front seats optional (Source 3). 2-zone climate control optional (Source 3, 11). Match has physical climate controls (Source 20). Standard comfort features seem average, some desirable options available. Score: 0.00.
-*   **convenience_feature_score**: Front and rear parking sensors standard (Source 3). Park assist standard (Source 2). Reversing camera standard on Match and above (Source 3, 20). Keyless entry standard on Match (Source 3). Electrically folding heated door mirrors (Source 10, 35). Good level of convenience features standard on Match. Score: 0.50.
-*   **brand_prestige_rating**: Volkswagen is a mainstream brand, generally considered average prestige. Score: 0.00.
-*   **model_prestige_rating**: Taigo is a compact crossover, positioned below T-Roc (Source 2, 12, 24). Not a halo car or entry-level model. Middle of the range for VW SUVs. Score: 0.00.
-*   **trim_prestige_rating**: Match is a mid-range trim, above Life, below Style/R-Line/Black Edition (Source 3). Not base, not top. Score: 0.00.
-*   **interior_luxury_rating**: Interior finish might not be the best, some flimsy finishes (Source 2). Interior is somewhat plain (Source 29). Materials feel a bit cheap (Source 24). Perceived quality is high, but wants for individuality/occasion (Source 14). Not luxurious. Score: -0.30.
-*   **interior_tech_focus_rating**: Digital cockpit standard (Source 28, 36, 38). MIB3 infotainment (Source 36, 37). Wireless App-Connect (Source 28, 36, 37, 38). Screen-focused interface (Source 19). Good tech features for its class. Score: 0.50.
+**Model:** Volkswagen Taigo Match (focusing on 2024/2025 model year data for the UK market)
 
-Reviewing the previous Taigo evaluations:
-- Base Taigo: accel -0.30, top speed -0.30, transmission 0.50, size 0.20, wheelbase 0.20, rear space -0.20, screen 0.20, infotainment 0.00, convenience 0.40, trim prestige 0.00, interior tech 0.30.
-- Black Edition: accel -0.30, top speed -0.30, transmission 0.00, size -0.20, wheelbase -0.20, rear space -0.10, screen 0.30, infotainment -0.10, convenience 0.50, trim prestige 0.00, interior tech 0.50.
-- Life: accel -0.70, top speed -0.50, transmission 1.00, size -0.20, wheelbase -0.20, rear space -0.10, screen 0.00, infotainment 0.00, convenience 0.40, trim prestige 1.00, interior tech 0.30.
-
-Adjusting based on Match specific data and consistency:
-- accel_0_60_sec: Match 95PS is 11.1s, 110/115PS is 9.9-10.4s. Average is ~10.5s. This is slower than the -0.30 used for the base/Black Edition (which likely used the faster engines). Let's use -0.50 for Match, reflecting the slower engine options available/common on this trim.
-- transmission_type: Match is available with manual and DSG. DSG is 0.50. Manual is -1.00. Since DSG is a common option on Match, 0.50 seems appropriate.
-- size: Length 4266mm. This is consistently found. Compared to Civic (4600mm), it's smaller. -0.20 seems correct.
-- wheelbase: 2554mm. Smaller than Octavia (2700mm). -0.20 seems correct.
-- rear_space: Reviews suggest it's decent for a coupe-SUV, but maybe not class-leading. -0.10 seems reasonable.
-- screen_in: Match gets 8-inch infotainment and 8-inch digital cockpit. 8-inch infotainment is average (0.00). Digital cockpit is a plus (adds tech focus). Let's keep 0.00 for the main screen size.
-- infotainment_ux_rating: Mixed reviews, touchscreen focus. -0.10 seems fair.
-- convenience_feature_score: Match adds reversing camera and keyless entry over Life. 0.50 seems appropriate, better than Life's 0.40.
-- trim_prestige_rating: Match is mid-range. 0.00 is correct.
-
-Final check of values and benchmarks. Looks consistent with the data found and the scoring guide.```json
+*   **price\_usd:** RRP from £24,945. Used 2024 models around £23,000 - £24,000. New RRP starts around £24,770. Let's use a new price estimate around £25,000. This is below the market average of $52,000 (approx £41,000). Score: 0.60.
+*   **total\_cost\_estimate\_5yr\_usd:** VW reliability is generally good. Running costs are reasonable due to small engines and decent MPG. Residual values look strong. Some potential issues mentioned (turbo, gearbox, parking sensors). Overall, likely below average cost of ownership. Score: 0.30.
+*   **insurance\_usd\_yr:** Insurance group 13E mentioned for the 95ps engine. This is quite low. Score: 0.50. (Using the 95ps engine as it's the base Match engine, though 115ps is also available).
+*   **maint\_usd\_yr:** VW fixed/flexible service packages available. Maintenance costs are generally average for a mainstream brand. Score: 0.00.
+*   **repair\_risk\_score:** VW reliability is generally good, sharing components with tested models like Polo and T-Cross. Some potential issues mentioned (turbo, gearbox, parking sensors), but overall reputation is solid. Score: 0.30.
+*   **hp:** Available engines are 1.0 TSI 95ps (94hp), 1.0 TSI 115ps (113hp), and 1.5 TSI 150ps (148hp). Match trim is available with 95ps and 115ps. 94-113 hp is well below the 200hp average. Score: -0.50.
+*   **torque:** 1.0 TSI 110HP engine has 200 Nm (147 lb-ft). 95ps engine likely less. 147 lb-ft is below the 190 lb-ft average. Score: -0.30.
+*   **cylinder\_count:** 1.0 TSI engines are 3-cylinder. 1.5 TSI is 4-cylinder. Match trim gets 3-cylinder engines. 3 cylinders is below average. Score: -0.50.
+*   **engine\_displacement:** 1.0L or 1.5L. 1.0L is 999 cm³. This is well below average (3.0L). Score: -0.50.
+*   **accel\_0\_60\_sec:** 95ps engine is 11.1s (0-62mph). 115ps engine is 10.2s (0-60mph). 150ps engine is 8.2s (0-62mph). Match trim gets 95ps or 115ps. 10.2-11.1s is well above the 7.5s average. Score: -0.50.
+*   **top\_speed:** 95ps engine is 114 mph. 115ps engine is 122 mph. 150ps engine is 212 km/h (132 mph). Match trim gets 95ps or 115ps. 114-122 mph is below the 150 mph average. Score: -0.30.
+*   **drive\_type:** Front-wheel drive only. Score: -1.00.
+*   **transmission\_type:** Available with 5-speed manual (95ps), 6-speed manual (115ps), or 7-speed DSG automatic (115ps, 150ps). Match trim is available with manual or DSG. Automatic/DSG is common, manual is less so. DSG is dual-clutch. Score: 0.00 (Average between Manual/Sequential -1.00, DCT 0.00, Auto 1.00. Manual/DSG options make it average).
+*   **driving\_track\_vs\_gt:** Described as easy to drive in town, composed on winding roads, comfortable, but not exciting. A typical daily driver/grocery-getter. Score: 0.00.
+*   **offroad\_ability:** FWD only. Based on Polo/T-Cross platform. Ground clearance around 16.8 cm (6.6 inches). Not designed for off-road. Score: 1.00.
+*   **braking\_dist\_ft:** No specific data found. Assume average for the segment. Score: 0.00.
+*   **size:** Length 4266-4271mm. Width 1757mm (excl mirrors). Height 1515-1518mm. This is smaller than a typical Honda Civic (~4600mm). Score: -0.30.
+*   **wheelbase:** 2554mm. This is smaller than a typical Skoda Octavia (~2700mm). Score: -0.30.
+*   **body\_style:** Coupe-SUV/Crossover. 5-door. Score: 0.00 (Falls between sedan/coupe and van).
+*   **seats:** 5 seats. Score: 0.00.
+*   **cargo\_space:** 440 litres (seats up). 440 litres is approx 15.5 cu ft. This is comparable to a Honda Civic (~15 cu ft) or slightly better. Score: 0.00.
+*   **rear\_space:** Rear headroom is impacted by the sloping roofline. Legroom is adequate for a car this size, but not generous. Narrow car, difficult to fit three adults. Score: -0.10.
+*   **ground\_clearance\_in:** 16.8 cm, which is 6.6 inches. This is around the average for compact crossovers. Score: 0.00.
+*   **turn\_radius\_ft:** No specific data found. Assume average for the size. Score: 0.00.
+*   **mpg:** WLTP combined 47.9 - 52.3 mpg (1.0L). 1.0 TSI 115ps Match DSG is 48.7 mpg. This is good efficiency. Score: 0.50.
+*   **co2\_g\_km:** WLTP combined 120 - 134 g/km (1.0L). 1.0 TSI 115ps Match DSG is 128 g/km. This is below the 175 g/km average. Score: 0.50.
+*   **electrification:** Petrol engines only, no hybrid or EV options. Score: -1.00.
+*   **electric\_range\_mi:** Not electric. Score: -1.00.
+*   **charge\_speed\_kw:** Not electric. Score: -1.00.
+*   **style\_sleek\_vs\_boxy:** Coupe-SUV styling with a sloping roofline. More sleek than boxy SUVs like the T-Cross. Score: 0.50.
+*   **style\_aggression\_rating:** Sporty styling cues, but not overly aggressive. Score: 0.10.
+*   **style\_modernity\_rating:** Relatively new model (released 2021 in Europe). Modern design language, LED lights. Score: 0.30.
+*   **handling\_rating:** Easy to drive, composed, light steering good for town, not as fun as rivals like Ford Puma. Score: 0.00.
+*   **ride\_comfort\_rating:** Comfortable ride. Composed over potholes. Score: 0.10.
+*   **cabin\_noise\_rating:** Tyre noise can be intrusive on larger wheels. Overall quiet and smooth for a small car platform. Score: 0.00.
+*   **shift\_smooth\_rating:** DSG can be slightly hampered. Manual is standard on 95ps Match. Assume average performance. Score: 0.00.
+*   **steering\_feel\_rating:** Light steering, good for town, less engaging on open road. Score: 0.00.
+*   **adas\_score:** Standard features include Lane Assist, Front Assist (AEB with pedestrian/cyclist monitoring), Adaptive Cruise Control, parking sensors. Match adds rear-view camera. Optional IQ.DRIVE Travel Assist (semi-automated driving). Good level of standard ADAS for the segment. Score: 0.50.
+*   **visibility\_rating:** No specific reviews found on visibility. Assume average. Score: 0.00.
+*   **headlight\_rating:** LED headlights standard. Match trim gets LED headlights. Style/R-Line get IQ.LIGHT LED matrix headlights. Match headlights are likely good, but not best-in-class matrix. Score: 0.50.
+*   **security\_rating:** Euro NCAP 5-star rating (2022). Standard safety features are good. Security features like alarm/immobilizer not explicitly detailed in searches, but standard VW features are usually average. Score: 0.00.
+*   **screen\_in:** 8-inch digital instrument cluster standard. 8-inch central touchscreen standard. Style/R-Line get 10.25-inch digital cockpit. 8-inch screens are average. Score: 0.00.
+*   **infotainment\_ux\_rating:** MIB3 system. Can be laggy and confusing. Touch-sensitive climate controls on upper trims (not Match) are unintuitive. Match has physical climate controls. Overall UX seems average to slightly below average based on reviews. Score: 0.00.
+*   **smartphone\_connect\_rating:** Apple CarPlay and Android Auto standard. Wireless App-Connect available. Wireless charging standard. Good connectivity. Score: 0.50.
+*   **audio\_rating:** Standard audio not detailed. Optional Beats Audio system available. Assume standard is average. Score: 0.00.
+*   **usb\_ports:** Four USB ports (two front, two rear). USB-C sockets. Good number of ports. Score: 0.30.
+*   **comfort\_feature\_score:** Match adds metallic paint, 17-inch alloys, rear tinted windows, keyless entry. Front centre armrest, lumbar support, height adjustment for front seats standard. Optional heated front seats, 2-zone climate control. Standard comfort features are decent, but not extensive. Score: 0.10.
+*   **convenience\_feature\_score:** Match adds rear-view camera, keyless entry. Parking sensors standard. Adaptive cruise control standard. Optional features like electric tailgate on other VW Match models (Touran, ID.4, ID.7), but not listed for Taigo Match. Good standard convenience features for the segment. Score: 0.30.
+*   **brand\_prestige\_rating:** Volkswagen is a mainstream brand, generally considered average prestige. Score: 0.00.
+*   **model\_prestige\_rating:** Taigo is a compact crossover, positioned alongside/below T-Cross. Not a halo model. Score: 0.00.
+*   **trim\_prestige\_rating:** Match is a mid-range trim, above Life but below Style and R-Line/Black Edition. Score: 0.00.
+*   **interior\_luxury\_rating:** Interior described as well-laid out but more functional than stylish. Some scratchy surfaces and flimsy finishes. Lots of hard plastic. Not particularly luxurious. Score: 0.00.
+*   **interior\_tech\_focus\_rating:** Digital cockpit standard. 8-inch screens standard. Wireless App-Connect. Good tech for the segment, but not cutting-edge compared to higher trims or other brands. Score: 0.30.```json
 {
-  "price_usd": 0.30,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.20,
+  "price_usd": 0.60,
+  "total_cost_estimate_5yr_usd": 0.30,
+  "insurance_usd_yr": 0.50,
   "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
+  "repair_risk_score": 0.30,
   "hp": -0.50,
-  "torque": -0.40,
-  "cylinder_count": -0.20,
+  "torque": -0.30,
+  "cylinder_count": -0.50,
   "engine_displacement": -0.50,
   "accel_0_60_sec": -0.50,
   "top_speed": -0.30,
   "drive_type": -1.00,
-  "transmission_type": 0.50,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": -0.20,
-  "wheelbase": -0.20,
+  "size": -0.30,
+  "wheelbase": -0.30,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.10,
+  "cargo_space": 0.00,
   "rear_space": -0.10,
   "ground_clearance_in": 0.00,
-  "turn_radius_ft": 0.10,
-  "mpg": 0.70,
-  "co2_g_km": 0.60,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.50,
+  "co2_g_km": 0.50,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.50,
   "style_aggression_rating": 0.10,
-  "style_modernity_rating": 0.50,
+  "style_modernity_rating": 0.30,
   "handling_rating": 0.00,
   "ride_comfort_rating": 0.10,
   "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": 0.40,
+  "shift_smooth_rating": 0.00,
   "steering_feel_rating": 0.00,
   "adas_score": 0.50,
   "visibility_rating": 0.00,
   "headlight_rating": 0.50,
   "security_rating": 0.00,
   "screen_in": 0.00,
-  "infotainment_ux_rating": -0.10,
-  "smartphone_connect_rating": 0.70,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.50,
   "audio_rating": 0.00,
-  "usb_ports": 0.50,
-  "comfort_feature_score": 0.00,
-  "convenience_feature_score": 0.50,
+  "usb_ports": 0.30,
+  "comfort_feature_score": 0.10,
+  "convenience_feature_score": 0.30,
   "brand_prestige_rating": 0.00,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": -0.30,
-  "interior_tech_focus_rating": 0.50
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": 0.30
 }
 ```

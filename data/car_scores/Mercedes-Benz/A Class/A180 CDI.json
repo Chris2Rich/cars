@@ -1,0 +1,71 @@
+The Mercedes-Benz A180 CDI was primarily associated with the W176 generation (2012-2018). After the 2015 facelift, this model was often referred to as the A180d. I will evaluate the W176 A180 CDI/A180d based on the available data, comparing it to today's market.
+
+The W176 A180 CDI/A180d is typically powered by a 1.5L or 1.8L diesel engine producing around 107-109 hp and 250-260 Nm (184-192 lb-ft) of torque. Acceleration from 0-60 mph is estimated between 10.3 and 11.3 seconds, and the top speed is around 118 mph. It is a front-wheel-drive car and was available with manual or 7-speed DCT automatic transmissions.
+
+In terms of efficiency, official figures ranged from around 52 to 80 mpg (NEDC), with real-world averages often in the 45-70 mpg range. CO2 emissions were relatively low for its time, around 92-111 g/km. As a diesel car, it has no electric range or charging capability.
+
+Dimensions for the W176 A-Class are around 4292-4299 mm in length, 1780 mm in width, and 1433 mm in height, with a wheelbase of 2699 mm. Cargo space is listed as 341 liters (12.04 cu ft) with seats up, expanding to 1157 liters (40.86 cu ft) with seats folded. It has 5 seats. Ground clearance is around 9.3 cm (3.66 inches) or 113-165mm depending on measurement point and trim. The turning circle is around 11 meters (36.09 ft).
+
+Reliability is generally considered decent if maintained, but common issues include potential turbocharger failure, DPF blockages, electrical gremlins, and transmission problems (especially with the DCT). Maintenance costs can be higher than average for a Mercedes. Insurance groups are relatively low for a Mercedes. Used prices are significantly lower than new cars.
+
+The W176 A-Class received a 5-star Euro NCAP safety rating. ADAS features were limited compared to modern cars. Infotainment systems in the W176 were less advanced than current models, typically featuring smaller screens (around 7-8 inches standard, with optional larger screens up to 10.25 inches available, sometimes as aftermarket upgrades) and less intuitive interfaces compared to the latest MBUX system. Smartphone connectivity like Apple CarPlay and Android Auto was either optional or not standard on earlier models, though aftermarket solutions exist.
+
+The W176 A-Class had a sportier design than its predecessors. Interior quality was considered good for its time, but may show its age now. It carries the Mercedes-Benz brand prestige, but as an entry-level model and trim, it sits lower in the brand/model hierarchy.
+
+```json
+{
+ "price_usd": 1.00,
+ "total_cost_estimate_5yr_usd": 0.30,
+ "insurance_usd_yr": 0.50,
+ "maint_usd_yr": -0.30,
+ "repair_risk_score": -0.50,
+ "hp": -1.00,
+ "torque": -0.20,
+ "cylinder_count": 0.00,
+ "engine_displacement": -0.20,
+ "accel_0_60_sec": -1.00,
+ "top_speed": -0.50,
+ "drive_type": -1.00,
+ "transmission_type": -0.80,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.00,
+ "size": 0.00,
+ "wheelbase": 0.05,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": -0.20,
+ "rear_space": -0.15,
+ "ground_clearance_in": -0.80,
+ "turn_radius_ft": 0.00,
+ "mpg": 0.80,
+ "co2_g_km": 0.80,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": 0.10,
+ "style_aggression_rating": 0.00,
+ "style_modernity_rating": -0.50,
+ "handling_rating": 0.00,
+ "ride_comfort_rating": -0.10,
+ "cabin_noise_rating": 0.00,
+ "shift_smooth_rating": -0.80,
+ "steering_feel_rating": 0.00,
+ "adas_score": -1.00,
+ "visibility_rating": 0.00,
+ "headlight_rating": -0.80,
+ "security_rating": 0.00,
+ "screen_in": -0.50,
+ "infotainment_ux_rating": -0.50,
+ "smartphone_connect_rating": -1.00,
+ "audio_rating": -0.50,
+ "usb_ports": -1.00,
+ "comfort_feature_score": -1.00,
+ "convenience_feature_score": -1.00,
+ "brand_prestige_rating": 0.80,
+ "model_prestige_rating": 1.00,
+ "trim_prestige_rating": 1.00,
+ "interior_luxury_rating": -0.20,
+ "interior_tech_focus_rating": -1.00
+}
+```

@@ -1,55 +1,265 @@
+Based on the search results, I can gather the following information for recent Vauxhall Movano CDTi 3500 models (primarily focusing on the 2.2 or 2.3 CDTi engines, as the '3500' refers to the GVW):
+
+- **Price:** New models are around £37,000 - £38,000 (inc VAT). Used prices vary significantly. Using the new price for normalization.
+- **Insurance Group:** Group 16 or 48A depending on the source/year. This is relatively low for a vehicle of this size/cost.
+- **Maint/Repair Risk:** Service intervals are long (32,000 miles or 24 months). Some reviews mention potential gearbox issues on older models. Overall, likely average for a commercial vehicle.
+- **HP:** Recent 2.2/2.3 CDTi engines offer around 136-140 PS (138-140 bhp). Older models had lower power. 140 bhp is low for a large vehicle but typical for a base/mid-range van.
+- **Torque:** Around 350 Nm (258 lb-ft). Some older models had lower torque. This is decent for a diesel van.
+- **Cylinder Count:** 4-cylinder in-line.
+- **Engine Displacement:** 2.2L or 2.3L.
+- **Accel 0-60:** Not typically published for vans, and expected to be slow due to size and weight.
+- **Top Speed:** Not typically published, but expected to be limited and not high. One source mentions 134 mph for an older model, which seems high and unlikely for a van. Defaulting to average/low.
+- **Drive Type:** Available in FWD and RWD. FWD is common for 3500 GVW.
+- **Transmission Type:** Primarily Manual (6-speed). Automatic is an option.
+- **Driving Track vs GT:** Commercial van, neither.
+- **Offroad Ability:** Minimal, designed for roads. Some mention of slightly increased ride height over a car, but not off-road capable.
+- **Braking Dist:** Not published, but large vans typically have longer braking distances than passenger cars.
+- **Size:** Large van (L2, L3, L4 lengths, H1, H2, H3 heights). Lengths range from ~5.4m to ~6.3m, widths ~2.05m (excl mirrors) to ~2.69m (incl mirrors), heights ~2.5m to ~2.7m. These are large dimensions.
+- **Wheelbase:** Varies by length, e.g., 3450mm (L2), 4035mm (L3). These are long wheelbases.
+- **Body Style:** Panel Van is common for 3500 CDTi, but also Chassis Cab, Dropside, Tipper, Box Van. Panel van is the most typical large van body style.
+- **Seats:** Typically 3 (driver + dual passenger bench).
+- **Cargo Space:** Varies significantly by body size (L/H). Ranges from 10m³ to 17m³ (353 to 600 cu ft). This is very large.
+- **Rear Space:** Not a passenger vehicle, rear space is cargo area. Front cabin space is adequate for 3 people.
+- **Ground Clearance:** One older model spec shows 150mm (~5.9 inches). Likely around average for a commercial vehicle, not high.
+- **Turn Radius:** One older model spec shows 15.68m (~51.4 ft). Large vans have poor turning circles.
+- **MPG:** Varies by engine and configuration, around 35-41 mpg (combined). This is decent for a large diesel vehicle.
+- **CO2 g/km:** Varies, around 184-217 g/km. This is high compared to passenger cars.
+- **Electrification:** Diesel engine (-1.00).
+- **Electric Range/Charge Speed:** N/A for diesel (-1.00).
+- **Style Sleek vs Boxy:** Very boxy (-1.00).
+- **Style Aggression:** Not aggressive (-1.00).
+- **Style Modernity:** Functional, not particularly modern or dated (0.00).
+- **Handling:** Described as easy to drive, but lags behind best rivals. Steering has good feel. Overall likely below average for a vehicle, but maybe average for a large van.
+- **Ride Comfort:** Lags behind best rivals. Engine noise and road spray can be issues. Below average.
+- **Cabin Noise:** Engine noise and road spray can be issues. Below average.
+- **Shift Smoothness:** Manual gearbox can be notchy. Below average.
+- **Steering Feel:** Described as having good feel. Average or slightly above for a van.
+- **ADAS Score:** Includes features like AEB, Lane Keep Assist, Intelligent Speed Assist, Driver Attention Alert, High Beam Assist, Auto Lights, ESP, Hill Start Assist, Rear Parking Sensors. Some models can have Level 2 autonomy features. This is good for a commercial vehicle.
+- **Visibility:** Good forward/side, but A-pillar can create a blind spot. Rear visibility poor without cameras. Overall average.
+- **Headlight Rating:** Dipped beam good, main beam weak. Average.
+- **Security Rating:** Remote central deadlocking, immobiliser, alarm system. Standard commercial vehicle security.
+- **Screen in:** Up to 10 inches available. Some models have 5" or smaller. Average size is probably around 5-7 inches, with larger optional. Let's assume average is around 7-8 inches for scoring.
+- **Infotainment UX:** Basic system, some with Sat Nav, DAB, Bluetooth, USB. Smartphone station/connectivity available. UX likely functional but not cutting edge. Average.
+- **Smartphone Connect:** USB connection, Bluetooth, Apple CarPlay/Android Auto available. Good for a commercial vehicle.
+- **Audio Rating:** Basic AM/FM/DAB radio, two speakers mentioned. Basic.
+- **USB Ports:** USB connection mentioned. Likely 1 or 2 ports. Below average.
+- **Comfort Feature Score:** Manual AC, adjustable driver's seat with lumbar support, armrest, dual passenger bench. Basic comfort features.
+- **Convenience Feature Score:** Electric windows/mirrors, remote locking, rear parking sensors, cruise control, hill start assist. Some ADAS features add convenience. Good for a commercial vehicle.
+- **Brand Prestige:** Vauxhall is mainstream (0.00).
+- **Model Prestige:** Movano is a commercial van, not a prestige model (1.00 - entry level/utility focus).
+- **Trim Prestige:** CDTi 3500 is a weight/engine variant, often associated with base/mid-range trims like Prime or Edition. Not a top performance/luxury trim (1.00 - base model focus).
+- **Interior Luxury:** Utilitarian, hard plastics. Low luxury (-1.00).
+- **Interior Tech Focus:** Functional, not tech-focused (-1.00).
+
+Now, map these to the -1.00 to +1.00 scale.
+
+- price_usd: ~$37,000 - $38,000. Market average is ~$52,000. This is below average, so positive score. Maybe 0.20.
+- total_cost_estimate_5yr_usd: Hard to find exact data. Commercial vehicles can have higher running costs but also potentially lower depreciation if used for business. Assume average for now (0.00).
+- insurance_usd_yr: Group 16/48A. Lower than average for passenger cars, but maybe average for commercial vehicles? Let's use 0.00 as it's hard to compare directly.
+- maint_usd_yr: Long service intervals are good. Assume average for a commercial vehicle (0.00).
+- repair_risk_score: Some mentions of gearbox issues, but generally seems average for a van. 0.00.
+- hp: 140 bhp. Low for a large vehicle. -0.50.
+- torque: 350 Nm. Decent for a diesel van. 0.30.
+- cylinder_count: 4. Average for most vehicles. 0.00.
+- engine_displacement: 2.2L/2.3L. Average displacement. 0.00.
+- accel_0_60_sec: Not published, expected to be slow (>10 sec). -1.00.
+- top_speed: Not published, expected to be low. -0.50.
+- drive_type: FWD is common for this GVW, RWD also available. FWD is -1.00, RWD is +1.00. Let's assume FWD is more common for the CDTi 3500 panel van and score -1.00.
+- transmission_type: Manual is standard (-1.00). Automatic is optional (0.00). Score for standard manual. -1.00.
+- driving_track_vs_gt: Commercial van. 0.00.
+- offroad_ability: Minimal. +1.00 (opposite of G-Class).
+- braking_dist_ft: Not published, expected to be poor (>150 ft). -1.00.
+- size: Very large van. +1.00.
+- wheelbase: Very long. +1.00.
+- body_style: 5-door van. +1.00.
+- seats: 3 seats. Below average for passenger vehicles, but typical for a van. -0.50.
+- cargo_space: Very large. +1.00.
+- rear_space: N/A (cargo area). 0.00.
+- ground_clearance_in: Around 6 inches. Average. 0.00.
+- turn_radius_ft: Expected to be poor (>45 ft). -1.00.
+- mpg: 35-41 mpg. Good for a large vehicle. 0.50.
+- co2_g_km: 184-217 g/km. High compared to passenger cars. -1.00.
+- electrification: Diesel. -1.00.
+- electric_range_mi: N/A. -1.00.
+- charge_speed_kw: N/A. -1.00.
+- style_sleek_vs_boxy: Very boxy. -1.00.
+- style_aggression_rating: Not aggressive. -1.00.
+- style_modernity_rating: Functional, not particularly modern or dated. 0.00.
+- handling_rating: Below average compared to cars, maybe average for a van. -0.50.
+- ride_comfort_rating: Below average. -0.50.
+- cabin_noise_rating: Below average. -0.50.
+- shift_smooth_rating: Notchy manual. -0.50.
+- steering_feel_rating: Good feel mentioned. 0.50.
+- adas_score: Good range of ADAS available, including some advanced features. 0.70.
+- visibility_rating: Good forward/side, A-pillar blind spot, poor rear without camera. Average. 0.00.
+- headlight_rating: Dipped good, main weak. Average. 0.00.
+- security_rating: Standard commercial vehicle security. 0.00.
+- screen_in: Varies, up to 10", but smaller standard. Assume average around 7-8". 0.00.
+- infotainment_ux_rating: Basic but functional. Average. 0.00.
+- smartphone_connect_rating: Includes CarPlay/Android Auto. Good. 0.50.
+- audio_rating: Basic system. -0.50.
+- usb_ports: Likely 1 or 2. Below average. -0.50.
+- comfort_feature_score: Basic features. -0.50.
+- convenience_feature_score: Good range of convenience features for a van (parking sensors, cruise control, etc.). 0.50.
+- brand_prestige_rating: Vauxhall. 0.00.
+- model_prestige_rating: Commercial van. 1.00.
+- trim_prestige_rating: Base/mid-range utility trim. 1.00.
+- interior_luxury_rating: Utilitarian. -1.00.
+- interior_tech_focus_rating: Functional, not tech-focused. -1.00.
+
+Refining some scores based on the guide and context of a commercial van:
+- price_usd: £37k is roughly $47k USD. This is below the $52k average, so a positive score is appropriate. 0.20 seems reasonable.
+- hp: 140hp is very low compared to passenger cars, but maybe average for a base large van? Let's stick with -0.50.
+- torque: 350Nm is good for pulling power in a van. 0.50.
+- drive_type: FWD is common for vans, RWD is also available. Scoring FWD as -1.00 is correct based on the guide.
+- transmission_type: Manual is standard, scoring -1.00 is correct.
+- offroad_ability: It's a road van, scoring +1.00 (opposite of off-road capable) is correct.
+- mpg: 35-41 mpg is good for a large van, but not exceptional compared to the overall market (Prius >55mpg). 0.50 seems fair.
+- co2_g_km: 184-217 g/km is high. -1.00 is appropriate compared to the market average and EVs at 0.
+- adas_score: The available ADAS features are quite good for a van, approaching passenger car levels. 0.70 seems fair.
+- smartphone_connect_rating: CarPlay/Android Auto is standard on many modern cars (0.00), wireless is +1.00. Wired is probably 0.50.
+- usb_ports: 1 or 2 ports is below average for modern vehicles. -0.50.
+- comfort_feature_score: Basic features like manual AC and basic seat adjustments are well below average compared to passenger cars. -1.00.
+- convenience_feature_score: Rear sensors, cruise control, electric windows/mirrors are common on many vehicles (0.00). Some ADAS adds convenience. 0.50 seems fair.
+- interior_tech_focus_rating: Utilitarian, minimal screens/tech focus. -1.00.
+
+Let's re-check the scores against the guide ranges and examples.
+
+- price_usd: $47k is closer to $52k average than $10k or $120k. 0.20 seems reasonable.
+- hp: 140hp is closer to 120hp (-1.00) than 200hp (0.00). -0.50 seems fair.
+- torque: 350Nm (approx 258 lb-ft) is well above 190 lb-ft (0.00). 0.50 seems fair.
+- accel_0_60_sec: >10 sec is -1.00. Correct.
+- top_speed: <150mph is below average. -0.50 seems fair.
+- braking_dist_ft: >150 ft is -1.00. Correct.
+- size: >5100mm is +1.00. Correct.
+- wheelbase: >3200mm is +1.00. Correct.
+- body_style: 5-door van is +1.00. Correct.
+- seats: 3 seats is below 5 (0.00). -0.50 seems fair.
+- cargo_space: >35 cu ft is +1.00. Correct (10m³ is ~353 cu ft).
+- turn_radius_ft: >45 ft is -1.00. Correct.
+- mpg: 35-41 mpg is above 30 (0.00) but below 55 (+1.00). 0.50 seems fair.
+- co2_g_km: >175 g/km is below 0 (+1.00) and above 175 (0.00). -1.00 seems appropriate for >200 g/km.
+- adas_score: Has more than basic tech (0.00) but not FSD (+1.00). 0.70 seems fair.
+- screen_in: 7-8" is average (0.00). Up to 10" is slightly better. 0.00 is safe.
+- smartphone_connect_rating: Wired CarPlay/AA is better than none (-1.00) but not wireless (+1.00). 0.50 seems fair.
+- usb_ports: 1-2 ports is below 3 (0.00). -0.50 seems fair.
+- comfort_feature_score: Manual seats/AC is -1.00. Correct.
+- convenience_feature_score: Basic parking aids (0.00), 360 cameras (+1.00). Rear sensors, cruise control, electrics are better than basic. 0.50 seems fair.
+- interior_luxury_rating: Hard plastic is -1.00. Correct.
+- interior_tech_focus_rating: Analog gauges/minimal screens is -1.00. Correct.
+
+Looks mostly consistent. Let's finalize the scores.
+
 ```json
 {
   "price_usd": 0.20,
   "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": -0.20,
-  "maint_usd_yr": 0.20,
-  "repair_risk_score": 0.30,
-  "hp": -0.20,
-  "torque": 0.30,
-  "cylinder_count": -0.10,
-  "engine_displacement": -0.20,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -0.50,
+  "torque": 0.50,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
   "accel_0_60_sec": -1.00,
   "top_speed": -0.50,
-  "drive_type": 0.50,
+  "drive_type": -1.00,
   "transmission_type": -1.00,
-  "offroad_ability": -0.80,
-  "braking_dist_ft": -0.30,
-  "size": 0.80,
-  "wheelbase": 0.50,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -1.00,
+  "size": 1.00,
+  "wheelbase": 1.00,
   "body_style": 1.00,
   "seats": -0.50,
   "cargo_space": 1.00,
   "rear_space": 0.00,
   "ground_clearance_in": 0.00,
-  "turn_radius_ft": -0.30,
-  "mpg": 0.20,
-  "co2_g_km": -0.30,
+  "turn_radius_ft": -1.00,
+  "mpg": 0.50,
+  "co2_g_km": -1.00,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": -1.00,
-  "style_aggression_rating": -0.80,
+  "style_aggression_rating": -1.00,
   "style_modernity_rating": 0.00,
-  "handling_rating": -0.30,
-  "ride_comfort_rating": -0.30,
-  "cabin_noise_rating": -0.40,
+  "handling_rating": -0.50,
+  "ride_comfort_rating": -0.50,
+  "cabin_noise_rating": -0.50,
   "shift_smooth_rating": -0.50,
-  "steering_feel_rating": -0.30,
-  "adas_score": 0.40,
-  "visibility_rating": 0.50,
-  "headlight_rating": -0.10,
+  "steering_feel_rating": 0.50,
+  "adas_score": 0.70,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.00,
   "security_rating": 0.00,
-  "screen_in": -0.50,
+  "screen_in": 0.00,
   "infotainment_ux_rating": 0.00,
   "smartphone_connect_rating": 0.50,
   "audio_rating": -0.50,
-  "usb_ports": 0.00,
-  "comfort_feature_score": -0.30,
-  "convenience_feature_score": 0.20,
-  "brand_prestige_rating": -0.50,
+  "usb_ports": -0.50,
+  "comfort_feature_score": -1.00,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 0.00,
   "model_prestige_rating": 1.00,
   "trim_prestige_rating": 1.00,
-  "interior_luxury_rating": -0.80,
-  "interior_tech_focus_rating": 0.00
+  "interior_luxury_rating": -1.00,
+  "interior_tech_focus_rating": -1.00
+}
+``````json
+{
+  "price_usd": 0.20,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -0.50,
+  "torque": 0.50,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -1.00,
+  "top_speed": -0.50,
+  "drive_type": -1.00,
+  "transmission_type": -1.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -1.00,
+  "size": 1.00,
+  "wheelbase": 1.00,
+  "body_style": 1.00,
+  "seats": -0.50,
+  "cargo_space": 1.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": -1.00,
+  "mpg": 0.50,
+  "co2_g_km": -1.00,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": -1.00,
+  "style_aggression_rating": -1.00,
+  "style_modernity_rating": 0.00,
+  "handling_rating": -0.50,
+  "ride_comfort_rating": -0.50,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": -0.50,
+  "steering_feel_rating": 0.50,
+  "adas_score": 0.70,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": -0.50,
+  "usb_ports": -0.50,
+  "comfort_feature_score": -1.00,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 1.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": -1.00,
+  "interior_tech_focus_rating": -1.00
 }
 ```

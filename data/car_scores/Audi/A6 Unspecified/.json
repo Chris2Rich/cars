@@ -1,57 +1,177 @@
+Based on the search results for the most recent Audi A6 (C8 generation, including the 2023 facelift and information on the upcoming 2025/2026 model which will be renamed A7 for ICE versions), I can now populate the JSON structure. I will use data primarily from the C8 facelift (2023-2024) where available, and supplement with earlier C8 data if needed, noting the range of options.
+
+- **price_usd**: 2025 A6 Sedan starts at $58,100 USD. This is close to the market average ($52,000), so score around 0.00. Let's use $58,100.
+- **total_cost_estimate_5yr_usd**: Hard to find exact 5-year cost. Audi is a premium brand, so likely above average. Default to 0.00 or slightly negative. Let's default to 0.00 as specific data is missing.
+- **insurance_usd_yr**: Need UK insurance group. Search results mention UK prices but not insurance group. Audi A6 is a premium car, likely above average insurance. Default to 0.00 or slightly negative. Let's default to 0.00.
+- **maint_usd_yr**: Maintenance for German luxury cars is typically above average. Default to 0.00 or slightly negative. Let's default to 0.00.
+- **repair_risk_score**: Some reports mention reliability concerns with earlier C8 models, particularly with the mild-hybrid system and transmission jerkiness, although recalls have addressed some issues. Consumer Reports gave it a low rating. This suggests below-average reliability. Score around -0.50.
+- **hp**: Engine options range from 163 hp to 340 hp (for standard ICE, excluding S/RS models). The 45 TFSI has ~248-261 hp, 55 TFSI has ~335-340 hp. Average is around 200 hp, so A6 engines are generally above average. Let's score based on the range, maybe slightly positive. A 250hp engine is above average. Score around +0.20.
+- **torque**: Torque ranges from ~236 lb-ft to ~457 lb-ft. Average is around 190 lb-ft. A6 torque is significantly above average. Score around +0.40.
+- **cylinder_count**: Available with 4-cylinder and 6-cylinder engines. Average is 4 cylinders. Having 6 cylinders available is above average. Score around +0.20.
+- **engine_displacement**: Ranges from 2.0L to 3.0L. Average is around 2.0-3.0L. Score around 0.00.
+- **accel_0_60_sec**: Ranges from ~7.2 sec (40 TDI) to ~4.9 sec (55 TFSI). Average is around 7.5 sec. The 55 TFSI is well above average. Score based on the range, leaning positive. Score around +0.30.
+- **top_speed**: Typically electronically limited to 155 mph (250 km/h) for higher-powered models. Lower models might be lower (e.g., 130 mph). 150 mph is average. Score around +0.10.
+- **drive_type**: Available in FWD and AWD (Quattro). AWD is common and preferred. Score for AWD. Score around 0.00 (AWD is average for many segments, but better than FWD). Let's score 0.00 as AWD is common in this segment.
+- **transmission_type**: Uses automatic (S tronic or Tiptronic). Automatic is +1.00.
+- **driving_track_vs_gt**: Described as a comfortable executive sedan, good for long trips. Leans towards Grand Touring. Score around +0.50.
+- **offroad_ability**: Low ground clearance, not designed for off-road. Score around +1.00 (poor off-road ability).
+- **braking_dist_ft**: No specific data found in searches. Default to 0.00.
+- **size**: Length is around 4939 mm (194.4 in). This is a large sedan. Score around +0.50.
+- **wheelbase**: Around 2924 mm (115.1 in). This is a long wheelbase. Score around +0.50.
+- **body_style**: 4-door sedan/Avant (wagon). Score for 4-door sedan. Score around 0.00.
+- **seats**: 5 seats. Score around 0.00.
+- **cargo_space**: Sedan trunk space is around 13.7 cu ft. Avant is much larger (19.95 - 59.33 cu ft). Scoring for sedan, 13.7 cu ft is below average for a mid-size/large sedan. Score around -0.20.
+- **rear_space**: Rear legroom is around 37.4 inches. This is good, above average. Score around +0.30.
+- **ground_clearance_in**: Around 4.2 inches. This is low. Score around -0.50.
+- **turn_radius_ft**: Around 39.7 ft (12.1 m). Average is around 36 ft. Slightly above average turn radius (less maneuverable). Score around -0.10.
+- **mpg**: Ranges from ~26-31 MPG combined for petrol/diesel. Average is around 30 mpg. Score around 0.00.
+- **co2_g_km**: Ranges from ~146-186 g/km for petrol/diesel. Average is around 175 g/km. Score around 0.00.
+- **electrification**: Available with Mild-Hybrid (MHEV) and Plug-in Hybrid (PHEV). MHEV is 0.00, PHEV is 0.00. Let's score based on MHEV being standard on many engines. Score around 0.00.
+- **electric_range_mi**: For PHEV models, range is mentioned as 720-750 km (total range). Need electric-only range. Search for "Audi A6 PHEV electric range mi".
+- **charge_speed_kw**: Need charge speed for A6 PHEV. Search for "Audi A6 PHEV charge speed kw".
+- **style_sleek_vs_boxy**: Described as sleek. Score around +0.50.
+- **style_aggression_rating**: Moderate aggression, especially S-line. Score around +0.20.
+- **style_modernity_rating**: Modern design, updated with facelift. Score around +0.50.
+- **handling_rating**: Described as a "true Audi" - corners well, precise steering, but also comfortable. Balanced, not ultra-sporty. Score around +0.20.
+- **ride_comfort_rating**: Known for being incredibly refined and comfortable. Score around +0.70.
+- **cabin_noise_rating**: Interior is well-appointed and quiet. Score around +0.70.
+- **shift_smooth_rating**: Automatic transmissions are smooth. Score around +0.50.
+- **steering_feel_rating**: Precise steering, but some reviews mention it feeling heavy or less responsive than desired. Score around +0.10.
+- **adas_score**: Offers extensive ADAS features, expected to increase with facelift. Score around +0.70.
+- **visibility_rating**: Visibility is excellent thanks to expansive glass areas and slim pillars. Score around +0.50.
+- **headlight_rating**: Matrix LED headlights available/standard. Audi is known for good lighting. Score around +0.70.
+- **security_rating**: Expected to have good security features for a premium car. Default to 0.00 or slightly positive. Let's default to 0.00.
+- **screen_in**: Features 10.1-inch infotainment and 12.3-inch digital cockpit, optional passenger screen. Large screens. Score around +0.70.
+- **infotainment_ux_rating**: MMI system is intuitive and user-friendly, but can be complex. Score around +0.30.
+- **smartphone_connect_rating**: Apple CarPlay, Android Auto, Wi-Fi standard. Score around +0.50.
+- **audio_rating**: Standard 10-speaker, optional 16-speaker Bang & Olufsen. Score around +0.50.
+- **usb_ports**: Multiple ports expected. Default to 0.00 or slightly positive. Let's default to 0.00.
+- **comfort_feature_score**: Many comfort features available (heated/ventilated seats, multi-zone climate, adaptive air suspension). Score around +0.70.
+- **convenience_feature_score**: Many convenience features available (parking aids, cameras, keyless entry, remote trunk release). Score around +0.70.
+- **brand_prestige_rating**: Audi is a premium German brand. Score around +0.70.
+- **model_prestige_rating**: A6 is a mid-range executive sedan for Audi. Score around 0.00.
+- **trim_prestige_rating**: Scoring for a typical mid-range trim (e.g., Premium Plus). Score around 0.00.
+- **interior_luxury_rating**: Interior is sleek, modern, with premium materials. High quality. Score around +0.70.
+- **interior_tech_focus_rating**: High tech focus with multiple screens and digital cockpit. Score around +0.70.
+
+Need to search for A6 PHEV electric range and charge speed.Based on the new search results:
+- **electric_range_mi**: Audi A6 PHEV electric range is stated as 34 miles WLTP, real-world closer to 28-30 miles. This is an average range for a PHEV. Score around 0.00.
+- **charge_speed_kw**: Audi A6 PHEV charges at a maximum of 7.4 kW AC. It does not support DC rapid charging. 7.4 kW is typical for home charging but slow compared to full EVs or PHEVs with faster AC charging. Score around -0.20.
+
+Now I can finalize the JSON output.
+
 ```json
 {
- "price_usd": 0.10,
- "total_cost_estimate_5yr_usd": 0.00,
- "insurance_usd_yr": -0.50,
- "maint_usd_yr": -0.30,
- "repair_risk_score": -0.50,
- "hp": 0.30,
- "torque": 0.30,
- "cylinder_count": 0.00,
- "engine_displacement": 0.00,
- "accel_0_60_sec": 0.40,
- "top_speed": 0.10,
- "drive_type": 0.50,
- "transmission_type": 0.50,
- "driving_track_vs_gt": 0.50,
- "offroad_ability": 1.00,
- "braking_dist_ft": 0.00,
- "size": 0.30,
- "wheelbase": 0.30,
- "body_style": 0.00,
- "seats": 0.00,
- "cargo_space": -0.10,
- "rear_space": 0.30,
- "ground_clearance_in": 0.00,
- "turn_radius_ft": -0.10,
- "mpg": -0.10,
- "co2_g_km": 0.00,
- "electrification": 0.30,
- "electric_range_mi": -1.00,
- "charge_speed_kw": -1.00,
- "style_sleek_vs_boxy": 0.50,
- "style_aggression_rating": 0.00,
- "style_modernity_rating": 0.50,
- "handling_rating": -0.10,
- "ride_comfort_rating": 0.50,
- "cabin_noise_rating": 0.50,
- "shift_smooth_rating": 0.50,
- "steering_feel_rating": 0.00,
- "adas_score": 0.50,
- "visibility_rating": 0.10,
- "headlight_rating": 0.50,
- "security_rating": 0.50,
- "screen_in": 0.50,
- "infotainment_ux_rating": 0.30,
- "smartphone_connect_rating": 0.30,
- "audio_rating": 0.50,
- "usb_ports": 0.00,
- "comfort_feature_score": 0.70,
- "convenience_feature_score": 0.70,
- "brand_prestige_rating": 0.70,
- "model_prestige_rating": 0.00,
- "trim_prestige_rating": 0.00,
- "interior_luxury_rating": 0.70,
- "interior_tech_focus_rating": 0.70
+  "price_usd": 58100.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": -0.50,
+  "hp": 0.20,
+  "torque": 0.40,
+  "cylinder_count": 0.20,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.30,
+  "top_speed": 0.10,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.50,
+  "wheelbase": 0.50,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": -0.20,
+  "rear_space": 0.30,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.00,
+  "co2_g_km": 0.00,
+  "electrification": 0.00,
+  "electric_range_mi": 0.00,
+  "charge_speed_kw": -0.20,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.20,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.20,
+  "ride_comfort_rating": 0.70,
+  "cabin_noise_rating": 0.70,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.10,
+  "adas_score": 0.70,
+  "visibility_rating": 0.50,
+  "headlight_rating": 0.70,
+  "security_rating": 0.00,
+  "screen_in": 0.70,
+  "infotainment_ux_rating": 0.30,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.50,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.70,
+  "convenience_feature_score": 0.70,
+  "brand_prestige_rating": 0.70,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": 0.70
+}
+```
+
+Double-check all values and ensure they are within the -1.00 to +1.00 range and have two decimal places. Ensure only the JSON is outputted.```json
+{
+  "price_usd": 58100.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": -0.50,
+  "hp": 0.20,
+  "torque": 0.40,
+  "cylinder_count": 0.20,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.30,
+  "top_speed": 0.10,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.50,
+  "wheelbase": 0.50,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": -0.20,
+  "rear_space": 0.30,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.00,
+  "co2_g_km": 0.00,
+  "electrification": 0.00,
+  "electric_range_mi": 0.00,
+  "charge_speed_kw": -0.20,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.20,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.20,
+  "ride_comfort_rating": 0.70,
+  "cabin_noise_rating": 0.70,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.10,
+  "adas_score": 0.70,
+  "visibility_rating": 0.50,
+  "headlight_rating": 0.70,
+  "security_rating": 0.00,
+  "screen_in": 0.70,
+  "infotainment_ux_rating": 0.30,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.50,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.70,
+  "convenience_feature_score": 0.70,
+  "brand_prestige_rating": 0.70,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": 0.70
 }
 ```

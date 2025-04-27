@@ -1,55 +1,111 @@
-```json
+Based on the search results, the Vauxhall Mokka Black Edition is based on the GS Line trim and was a limited edition, though the "Black" styling elements (black roof, wheels, badging) are available on other trims like GS and Design for the latest model year (2025). I will evaluate based on the specs commonly associated with the Black Edition/GS trim for the current generation Mokka.
+
+- **Price:** The Mokka Black Edition manual was priced around £27,525 and the automatic at £29,170. The general Mokka range is £25,215 to £31,360. Converting roughly to USD (using ~1.25 USD/GBP): $34,400 - $36,460 for Black Edition, $31,500 - $39,200 for the range. This is below the market average of $52,000, so it scores positively. Let's use an average price for the Black Edition petrol auto: ~$36,000 USD. Score: 0.25.
+- **Total Cost Estimate 5yr:** No specific 5-year cost data found for the Black Edition. General Mokka running costs are mentioned as reasonable. Default to 0.00.
+- **Insurance USD/yr:** Insurance group 19 is mentioned for the 1.2 Turbo Black Auto. This is below the average group (around 25-30). Converting to USD/year is difficult without specific UK insurance data, but a lower group suggests lower costs. Let's estimate below average. Score: 0.00 (defaulting due to lack of direct USD data).
+- **Maint USD/yr:** No specific data found. Vauxhall maintenance is generally considered average. Default to 0.00.
+- **Repair Risk Score:** No specific reliability score for the Black Edition. Vauxhall reliability is generally considered average. Default to 0.00.
+- **HP:** Petrol engines are 1.2L Turbo with 130PS (128hp) or 136PS (134hp). The electric version has 136PS (134hp). These figures are below the 200hp market average. Score: -0.50.
+- **Torque:** The electric version has 260 Nm (192 lb-ft). The 1.2 Turbo petrol 130PS has 230Nm (170 lb-ft). These are around the market average. Score: 0.00.
+- **Cylinder Count:** The petrol engine is a 1.2L Turbo, which is typically a 3-cylinder engine. This is below average. Score: -1.00.
+- **Engine Displacement:** 1.2L for petrol. This is below average. Score: -1.00.
+- **Accel 0-60 mph:** 9.2 seconds for the 130PS auto. 8.9 seconds for the 136PS manual. The range is 8.2 - 10.6s. Around 9 seconds is slightly slower than the 7.5s average. Score: -0.30.
+- **Top Speed:** 124-129 mph for petrol. 93.2 mph for the Mokka-e. Petrol is below the 150mph average. Score: -0.50.
+- **Drive Type:** Front-wheel drive (FWD) only. Score: -1.00.
+- **Transmission Type:** Available with 6-speed manual or 8-speed automatic. The 8-speed automatic is a modern automatic transmission. Score: 1.00.
+- **Driving Track vs GT:** Described as easy and comfortable for daily driving and town use, not sporty. Score: 0.00.
+- **Offroad Ability:** It's a compact SUV with raised ride height but no 4x4 option. Minimal off-road ability. Score: 1.00.
+- **Braking Dist ft:** No specific data found. Default to 0.00.
+- **Size:** Length 4151mm. This is on the smaller side for a compact SUV, closer to a large supermini. Score: -0.50.
+- **Wheelbase:** No specific data found. Default to 0.00.
+- **Body Style:** 5-door SUV/crossover. This is a common body style. Score: 0.00.
+- **Seats:** 5 seats. Score: 0.00.
+- **Cargo Space:** 350 litres (12.36 cu ft) with seats up, 1105 litres (38.03 cu ft) with seats folded. 350 litres is below the 15 cu ft average. Score: -0.30.
+- **Rear Space:** Rear space is described as cramped for tall adults but okay for kids. Score: -0.30.
+- **Ground Clearance in:** Raised ride height compared to a hatchback, but no specific figure found. Default to 0.00.
+- **Turn Radius ft:** Light steering helps with manoeuvring, but no specific turning circle data found. Estimate slightly better than average for a compact car. Score: 0.10.
+- **MPG:** Petrol engines range from 47.1 mpg to 51.4 mpg (WLTP combined). The 100hp engine gets 51.4 mpg, 136hp manual gets over 50mpg, 130hp auto gets 47.1 mpg. The 136hp manual GS gets 49.6 mpg. These figures are around the 30 mpg average (converted from UK mpg). Score: 0.00.
+- **CO2 g/km:** Petrol engines range from 121 g/km to 134 g/km (WLTP combined). The Mokka-e is 0 g/km. Petrol figures are around the 175 g/km average. Score: 0.00.
+- **Electrification:** Available with petrol or as a full EV (Mokka Electric). The Black Edition specifically mentions petrol powertrains, but the Mokka-e is also available in GS trim which the Black Edition is based on. Let's score based on the availability of a full EV option in the model line. Score: 1.00.
+- **Electric Range mi:** Mokka Electric has a range of up to 209 miles (WLTP). This is around the 200-mile average for smaller EVs. Score: 0.50.
+- **Charge Speed kW:** No specific charge speed data found for the Mokka-e in the search results. Default to 0.00.
+- **Style Sleek vs Boxy:** Described as having sharp styling, crisp lines, and a sleek, compact shape. Less boxy than traditional SUVs. Score: 0.10.
+- **Style Aggression Rating:** Bold and modern design, distinctive front grille. Not overly aggressive. Score: 0.00.
+- **Style Modernity Rating:** Radical new look, progressive interior, on-trend Pure Technology features. Described as thoroughly modern. Score: 0.30.
+- **Handling Rating:** Strikes a decent balance, not as agile as some rivals, but good body control and grip. Steering is direct and sharp but not too light. Score: 0.00.
+- **Ride Comfort Rating:** Soft suspension soaks up bumps nicely, comfortable ride at town speeds. Slightly firmer than the Mokka-e. Score: 0.10.
+- **Cabin Noise Rating:** Fairly quiet at motorway speeds, not too much engine noise unless accelerating hard. Score: 0.50.
+- **Shift Smooth Rating:** 8-speed automatic transmission shifts are smooth. Score: 1.00.
+- **Steering Feel Rating:** Steering feels artificial in the older model, but direct and sharp in the new one. Not as direct as some rivals. Score: -0.30.
+- **ADAS Score:** Includes features like automatic emergency braking, lane keep assist, speed sign recognition, driver drowsiness alert, blind spot alert, rear camera, parking sensors, adaptive cruise control (on higher trims/auto). Good level of standard kit. Score: 0.30.
+- **Visibility Rating:** Good forward visibility due to raised driving position, but rear view is compromised by thick pillars and small rear window. Score: 0.00.
+- **Headlight Rating:** LED headlights standard, Intelli-Lux Matrix LED available on top trims. LED standard is good. Score: 0.30.
+- **Security Rating:** Remote control ultrasonic security alarm system, engine deadlock immobiliser, locking wheel nuts. Standard features. Score: 0.00.
+- **Screen in:** 10-inch colour touchscreen and 10-inch or 12-inch digital instrument cluster. 10-inch touchscreen is around average, 12-inch cluster is good. Let's average the touchscreen size. Score: 0.00.
+- **Infotainment UX Rating:** Multimedia Pure Panel system, easy to use and responsive. Uses PSA software which has been criticised, but seems improved. Score: 0.00.
+- **Smartphone Connect Rating:** Apple CarPlay and Android Auto standard, wired connection only. No wireless CarPlay/AA mentioned. Score: 0.00.
+- **Audio Rating:** 6 speakers mentioned. Standard. Score: 0.00.
+- **USB Ports:** Front USB connection standard. 2 rear USB connections on GS trim. Score: 0.00 (assuming 2-3 total).
+- **Comfort Feature Score:** Heated front seats and steering wheel available. Electronic climate control available. Driver massage function available on some trims. Decent comfort features available, but not standard on all trims. Score: 0.30.
+- **Convenience Feature Score:** Rear parking sensors and panoramic rear view camera standard on GS/Black Edition. Keyless entry and start available. Advanced Park Assist available. Moveable boot floor available. Good level of convenience features available. Score: 0.10.
+- **Brand Prestige Rating:** Vauxhall is a mainstream brand. Score: 0.00.
+- **Model Prestige Rating:** Mokka is a popular compact SUV model in the range. Score: 0.00.
+- **Trim Prestige Rating:** Black Edition/GS is a mid-range to higher-mid-range trim. Score: 0.00.
+- **Interior Luxury Rating:** Quality materials mentioned, feels higher quality than some rivals, but not luxury class. Black cloth and leather-effect seats. Score: 0.00.
+- **Interior Tech Focus Rating:** Pure Panel cockpit with dual screens. Screen-focused design. Score: 0.30.```json
 {
-  "price_usd": 0.50,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.20,
-  "hp": -0.80,
-  "torque": 0.00,
-  "cylinder_count": -0.50,
-  "engine_displacement": -0.70,
-  "accel_0_60_sec": -0.30,
-  "top_speed": -0.30,
-  "drive_type": -1.00,
-  "transmission_type": 0.20,
-  "offroad_ability": 0.50,
-  "braking_dist_ft": 0.00,
-  "size": -0.50,
-  "wheelbase": 0.00,
-  "body_style": 0.20,
-  "seats": 0.00,
-  "cargo_space": -0.30,
-  "rear_space": 0.00,
-  "ground_clearance_in": 0.00,
-  "turn_radius_ft": 0.00,
-  "mpg": 0.50,
-  "co2_g_km": 0.30,
-  "electric_range_mi": 0.00,
-  "charge_speed_kw": 0.00,
-  "style_sleek_vs_boxy": 0.50,
-  "style_aggression_rating": 0.20,
-  "style_modernity_rating": 0.50,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": 0.20,
-  "shift_smooth_rating": 0.20,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.50,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.50,
-  "security_rating": 0.00,
-  "screen_in": 0.50,
-  "infotainment_ux_rating": 0.30,
-  "smartphone_connect_rating": 0.50,
-  "audio_rating": 0.00,
-  "usb_ports": 0.20,
-  "comfort_feature_score": 0.50,
-  "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.00,
-  "interior_tech_focus_rating": 0.50
+ "price_usd": 0.25,
+ "total_cost_estimate_5yr_usd": 0.00,
+ "insurance_usd_yr": 0.00,
+ "maint_usd_yr": 0.00,
+ "repair_risk_score": 0.00,
+ "hp": -0.50,
+ "torque": 0.00,
+ "cylinder_count": -1.00,
+ "engine_displacement": -1.00,
+ "accel_0_60_sec": -0.30,
+ "top_speed": -0.50,
+ "drive_type": -1.00,
+ "transmission_type": 1.00,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.00,
+ "size": -0.50,
+ "wheelbase": 0.00,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": -0.30,
+ "rear_space": -0.30,
+ "ground_clearance_in": 0.00,
+ "turn_radius_ft": 0.10,
+ "mpg": 0.00,
+ "co2_g_km": 0.00,
+ "electrification": 1.00,
+ "electric_range_mi": 0.50,
+ "charge_speed_kw": 0.00,
+ "style_sleek_vs_boxy": 0.10,
+ "style_aggression_rating": 0.00,
+ "style_modernity_rating": 0.30,
+ "handling_rating": 0.00,
+ "ride_comfort_rating": 0.10,
+ "cabin_noise_rating": 0.50,
+ "shift_smooth_rating": 1.00,
+ "steering_feel_rating": -0.30,
+ "adas_score": 0.30,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.30,
+ "security_rating": 0.00,
+ "screen_in": 0.00,
+ "infotainment_ux_rating": 0.00,
+ "smartphone_connect_rating": 0.00,
+ "audio_rating": 0.00,
+ "usb_ports": 0.00,
+ "comfort_feature_score": 0.30,
+ "convenience_feature_score": 0.10,
+ "brand_prestige_rating": 0.00,
+ "model_prestige_rating": 0.00,
+ "trim_prestige_rating": 0.00,
+ "interior_luxury_rating": 0.00,
+ "interior_tech_focus_rating": 0.30
 }
 ```

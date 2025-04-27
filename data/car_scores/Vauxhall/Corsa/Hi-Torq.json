@@ -1,61 +1,113 @@
-The search results indicate that "Hi-Torq" is not a recognized trim level for the most recent version of the Vauxhall Corsa (Corsa F, facelifted in 2023). The term "Hi-Torq" appears in search results related to older Vauxhall/Opel engines, specifically diesel variants like the 1.7 CDTI, used in previous Corsa generations (Corsa C, Corsa D).
+The Vauxhall Corsa 'Hi-Torq' trim was available on the Corsa B generation (1993-2000). It was often associated with the 1.4i engine. I will evaluate based on the 1.4i 8v petrol engine with a manual gearbox, scoring against current market benchmarks.
 
-The current trim levels for the facelifted Vauxhall Corsa (2023 onwards) are consistently listed as Yes, Design, GS, and Ultimate (Sources [1], [2], [3], [4], [5], [10], [12], [13], [14], [15]).
-
-Since the requested trim ('Hi-Torq') does not exist for the most recent version of the Vauxhall Corsa, I cannot provide specific data for this combination. As per the instructions, when data is ambiguous or unclear for the requested model/trim combination, all scores must default to 0.00.
+*   **price_usd**: A 1998 Corsa 1.4i Hi-Torq LS 3dr is listed for £1,495 on Auto Trader. This is extremely low compared to the current market average of $52,000. Score: +1.00.
+*   **total_cost_estimate_5yr_usd**: The purchase price is very low. While maintenance and potential repairs on an older car can add up, the overall 5-year cost would likely be significantly less than a new car. Score: +0.50.
+*   **insurance_usd_yr**: The Corsa B 1.4i Breeze (Hi-Torq) 5d falls into insurance group 7. This is a very low insurance group compared to the overall range of 1-50. Score: +0.30.
+*   **maint_usd_yr**: Maintenance costs for a Corsa B are generally considered low, with cheap parts. Common issues include clutch cables, front suspension wear, and potential timing belt/water pump issues on 16v engines (though the 1.4i Hi-Torq is often 8v). Score: +0.50.
+*   **repair_risk_score**: The Corsa B is generally reliable but prone to specific issues like front suspension wear and potential timing belt problems on some engines. Being an older car increases potential for repairs. Score: -0.10.
+*   **hp**: The 1.4i 8v engine produces around 60 PS (59 bhp). This is very low by current standards. Score: -0.70.
+*   **torque**: The 1.4i 8v engine produces around 103 Nm (75 lb-ft). This is low. Score: -0.30.
+*   **cylinder_count**: 4. Score: 0.00.
+*   **engine_displacement**: 1.4 litres (1389 cc). Score: -0.30.
+*   **accel_0_60_sec**: 0-60 mph in around 15 seconds. This is very slow. Score: -0.70.
+*   **top_speed**: Around 96 mph (155 km/h). This is low. Score: -0.50.
+*   **drive_type**: FWD. Score: -1.00.
+*   **transmission_type**: 5-speed Manual. Score: -1.00 (Manual).
+*   **driving_track_vs_gt**: City car/Supermini. Score: 0.00.
+*   **offroad_ability**: FWD city car. Score: +1.00.
+*   **braking_dist_ft**: Front ventilated disc, rear drum brakes. No specific distance found. Default to average. Score: 0.00.
+*   **size**: Length 3740 mm. This is small. Score: -0.70.
+*   **wheelbase**: 2445 mm. This is short. Score: -0.50.
+*   **body_style**: Hatchback (available in 3 or 5 door). Score: 0.00.
+*   **seats**: 5. Score: 0.00.
+*   **cargo_space**: 260 litres (seats up). 260 litres * 0.0353147 cu ft/litre = ~9.18 cu ft. This is low. Score: -0.60.
+*   **rear_space**: Described as surprisingly spacious for its size, but rear legroom is limited compared to modern cars. Score: -0.10.
+*   **ground_clearance_in**: 140 mm (5.51 inches). This is slightly low compared to the average compact crossover. Score: -0.20.
+*   **turn_radius_ft**: Not found. Corsa B is known for being easy to manoeuvre. Score: 0.10.
+*   **mpg**: 1.4i 8v gets around 39 mpg UK combined. 39 UK mpg * 0.832674 = ~32.4 US mpg. This is around average by current standards. Score: 0.00.
+*   **co2_g_km**: Around 178 g/km for a similar 1.4i engine. This is high compared to many modern cars. Score: -0.20.
+*   **electrification**: Petrol. Score: -1.00.
+*   **electric_range_mi**: Not electric. Score: -1.00.
+*   **charge_speed_kw**: Not electric. Score: -1.00.
+*   **style_sleek_vs_boxy**: Standard hatchback shape. Score: 0.00.
+*   **style_aggression_rating**: Standard city car design. Score: 0.00.
+*   **style_modernity_rating**: Corsa B design (1993-2000). Looks dated compared to current cars. Score: -0.50.
+*   **handling_rating**: Described as having "supremely fun driving characteristics" and "surprisingly competent handling for its class" when new, but also "unremarkable drive" and "stodgy and characterless to drive" compared to rivals of its era. Score: -0.10.
+*   **ride_comfort_rating**: Described as roomy and comfortable for its size. Score: 0.00.
+*   **cabin_noise_rating**: Not specifically mentioned for Hi-Torq, likely average for its era, potentially noisy at speed. Score: -0.20.
+*   **shift_smooth_rating**: Manual transmission, described as having "smooth gear shifting" when new. Score: 0.00.
+*   **steering_feel_rating**: Power steering was available/standard on some trims. Described as having "precise steering" when new. Score: -0.30.
+*   **adas_score**: Basic safety features for its era (driver's airbag, ABS on some models). Lacks modern ADAS. Score: -0.70.
+*   **visibility_rating**: Older cars often had better visibility than modern ones with thick pillars. Score: 0.10.
+*   **headlight_rating**: Standard headlights for the era, likely halogen. Score: -0.50.
+*   **security_rating**: Central locking and car alarm were features introduced on the Corsa B. Electronic immobiliser standard. Basic security for its time, but older Corsas are known targets. Score: -0.50.
+*   **screen_in**: Basic radio/cassette or CD player. No large screen. Score: -0.20.
+*   **infotainment_ux_rating**: Basic radio interface. Simple. Score: -0.10.
+*   **smartphone_connect_rating**: No modern smartphone connectivity. Score: -0.50.
+*   **audio_rating**: Basic audio system with speakers. Score: 0.00.
+*   **usb_ports**: No USB ports mentioned. Score: -0.50.
+*   **comfort_feature_score**: Cloth seat trim, height adjustable driver's seat, front electric windows (on some), manual sunroof (on some). Basic comfort features. Score: -0.20.
+*   **convenience_feature_score**: Power steering, central locking. Lacks modern convenience features like sensors/cameras. Score: 0.00.
+*   **brand_prestige_rating**: Vauxhall is a mainstream brand. Score: -0.50.
+*   **model_prestige_rating**: Corsa is an entry-level model. Score: +1.00.
+*   **trim_prestige_rating**: Hi-Torq was a specific engine variant/trim level, likely mid-range. Score: 0.00.
+*   **interior_luxury_rating**: Interior described as stylish for its time, but basic materials. Score: -0.50.
+*   **interior_tech_focus_rating**: Basic tech for its era. Score: -0.50.
 
 ```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": 0.00,
-  "torque": 0.00,
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.50,
+  "insurance_usd_yr": 0.30,
+  "maint_usd_yr": 0.50,
+  "repair_risk_score": -0.10,
+  "hp": -0.70,
+  "torque": -0.30,
   "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.00,
-  "top_speed": 0.00,
-  "drive_type": 0.00,
-  "transmission_type": 0.00,
-  "offroad_ability": 0.00,
+  "engine_displacement": -0.30,
+  "accel_0_60_sec": -0.70,
+  "top_speed": -0.50,
+  "drive_type": -1.00,
+  "transmission_type": -1.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.00,
+  "size": -0.70,
+  "wheelbase": -0.50,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.00,
-  "rear_space": 0.00,
-  "ground_clearance_in": 0.00,
-  "turn_radius_ft": 0.00,
+  "cargo_space": -0.60,
+  "rear_space": -0.10,
+  "ground_clearance_in": -0.20,
+  "turn_radius_ft": 0.10,
   "mpg": 0.00,
-  "co2_g_km": 0.00,
-  "electric_range_mi": 0.00,
-  "charge_speed_kw": 0.00,
+  "co2_g_km": -0.20,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
   "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.00,
-  "handling_rating": 0.00,
+  "style_modernity_rating": -0.50,
+  "handling_rating": -0.10,
   "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": 0.00,
+  "cabin_noise_rating": -0.20,
   "shift_smooth_rating": 0.00,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.00,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.00,
-  "security_rating": 0.00,
-  "screen_in": 0.00,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.00,
+  "steering_feel_rating": -0.30,
+  "adas_score": -0.70,
+  "visibility_rating": 0.10,
+  "headlight_rating": -0.50,
+  "security_rating": -0.50,
+  "screen_in": -0.20,
+  "infotainment_ux_rating": -0.10,
+  "smartphone_connect_rating": -0.50,
   "audio_rating": 0.00,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.00,
+  "usb_ports": -0.50,
+  "comfort_feature_score": -0.20,
   "convenience_feature_score": 0.00,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.00,
+  "brand_prestige_rating": -0.50,
+  "model_prestige_rating": 1.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.00,
-  "interior_tech_focus_rating": 0.00
+  "interior_luxury_rating": -0.50,
+  "interior_tech_focus_rating": -0.50
 }
 ```

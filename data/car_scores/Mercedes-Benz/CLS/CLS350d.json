@@ -1,142 +1,57 @@
-The Mercedes-Benz CLS 350d (C257 generation, 2018-2021) is the most recent version of this specific diesel variant.
-
-**Key Data Extracted:**
-*   **Engine:** 2.9L Inline 6 Turbo Diesel
-*   **HP:** 282-286 PS (282 bhp / 210 kW)
-*   **Torque:** 600 Nm (443 lb-ft)
-*   **Cylinder Count:** 6
-*   **Engine Displacement:** 2.9L (2925-2927 cm³)
-*   **0-60 mph:** ~5.4-5.5 seconds (0-100 km/h is 5.7-5.8s)
-*   **Top Speed:** 155 mph (250 km/h)
-*   **Drive Type:** 4MATIC (All-wheel drive)
-*   **Transmission Type:** 9-speed Automatic (9G-Tronic)
-*   **Size (Length):** ~4988 mm (196.4 inches)
-*   **Wheelbase:** ~2939 mm (115.7 inches)
-*   **Body Style:** 4-door Coupe/Sedan
-*   **Seats:** 4/5 seats (C257 is often listed as 5 seats) - Using 5.
-*   **Cargo Space:** ~490-520 Litres (~17.3-18.4 cu ft) - Using 490L (17.3 cu ft).
-*   **Rear Space:** Limited due to coupe roofline. Headroom ~927mm (36.5 inches). Legroom not explicitly found for C257, but generally less than E-Class.
-*   **Ground Clearance_in:** ~93-130 mm (~3.66-5.1 inches) - Using 130mm (5 inches).
-*   **Turn Radius_ft:** ~11.2-12.3 meters (~36.7-40.4 ft) - Using 11.6m (38.06 ft).
-*   **MPG:** Combined WLTP ~5.6-5.8 l/100km (~40.5-42 US mpg, ~48.7-50.4 UK mpg). Real-world ~57.3 UK MPG (~47.7 US MPG). Using a blend, leaning towards real-world.
-*   **CO2_g_km:** 148-197 g/km (NEDC/WLTP). Using 156 g/km (NEDC).
-*   **Electrification:** Diesel with Mild Hybrid (EQ Boost) on some C257 variants, but 350d is typically just diesel. - Confirming 350d is just diesel. - Yes, it's just diesel.
-*   **Electric Range/Charge Speed:** N/A.
-*   **Price (New):** 2023 CLS starts around $76,500 (for CLS 450, 350d not always available in US). UK price for 350d 4MATIC was around £55k-£60k+ when new (~$70k-$75k+). Score based on new price range.
-*   **Total Cost Estimate 5yr:** Edmunds estimates ~$99k over 5 years for CLS 450. Maintenance/repairs ~$11.7k over 10 years, higher than average. Score based on luxury car costs.
-*   **Insurance Group (UK):** Group 44E. High.
-*   **Maintenance/Repair Risk:** Mercedes maintenance is higher than average. Reliability is average for luxury large cars (7.9/10). Some reports of issues like Airmatic (if equipped), camshaft, door freezing. Score based on average reliability but higher cost/risk than average car.
-*   **ADAS:** Standard and optional advanced ADAS available.
-*   **Interior/Tech:** Dual 12.3-inch screens, MBUX, Apple CarPlay/Android Auto, high-quality materials, comfort features.
-*   **Prestige:** High brand, mid-high model, mid-range trim.
-
-**Scoring:**
-*   `price_usd`: ~$70k-$75k+ new -> Score around -0.50.
-*   `total_cost_estimate_5yr_usd`: ~$99k over 5 years is high. Score -0.30.
-*   `insurance_usd_yr`: Group 44E is very high. Score -0.70.
-*   `maint_usd_yr`: Higher than average. Score -0.30.
-*   `repair_risk_score`: Average reliability for segment, but higher risk/cost than average car. Score -0.20.
-*   `hp`: 282-286 HP is above average. Score 0.30.
-*   `torque`: 443 lb-ft is good. Score 0.60.
-*   `cylinder_count`: 6 is above average. Score 0.20.
-*   `engine_displacement`: 2.9L is average/above average. Score 0.00.
-*   `accel_0_60_sec`: ~5.4-5.5s is good. Score 0.80.
-*   `top_speed`: 155 mph is average/above average. Score 0.10.
-*   `drive_type`: AWD is better than FWD/RWD for general use. Score 0.00.
-*   `transmission_type`: 9-speed Automatic is modern and smooth. Score 1.00.
-*   `driving_track_vs_gt`: GT car. Score 1.00.
-*   `offroad_ability`: Very poor. Score 1.00.
-*   `braking_dist_ft`: No specific data found, assume average for its class. Score 0.00.
-*   `size`: ~4.99m is large. Score 0.60.
-*   `wheelbase`: ~2.94m is long. Score 0.60.
-*   `body_style`: 4-door coupe is less practical than a sedan/wagon/van. Score 0.00.
-*   `seats`: 5 seats is average. Score 0.00.
-*   `cargo_space`: ~17.3 cu ft is average for a sedan, maybe slightly below average for its size. Score 0.00.
-*   `rear_space`: Limited rear space due to coupe roofline. Score -0.20.
-*   `ground_clearance_in`: ~5 inches is low. Score -0.70.
-*   `turn_radius_ft`: ~38 ft is average/slightly large. Score -0.10.
-*   `mpg`: ~40-48 US MPG equivalent is very good for its size/performance, especially being diesel. Score 0.70.
-*   `co2_g_km`: 156-197 g/km is average/slightly above average for its size/performance. Score 0.00.
-*   `electrification`: Diesel. Score -0.50.
-*   `electric_range_mi`: N/A. Score -1.00.
-*   `charge_speed_kw`: N/A. Score -1.00.
-*   `style_sleek_vs_boxy`: Very sleek. Score 1.00.
-*   `style_aggression_rating`: Moderate aggression. Score 0.50.
-*   `style_modernity_rating`: Modern design. Score 0.70.
-*   `handling_rating`: Comfortable GT, not sporty. Score 0.20.
-*   `ride_comfort_rating`: Known for high ride comfort. Score 1.00.
-*   `cabin_noise_rating`: Excellent isolation. Score 1.00.
-*   `shift_smooth_rating`: 9G-Tronic is very smooth. Score 1.00.
-*   `steering_feel_rating`: Comfortable, not sporty. Score 0.00.
-*   `adas_score`: Modern, comprehensive ADAS available. Score 0.80.
-*   `visibility_rating`: Compromised by coupe shape. Score -0.50.
-*   `headlight_rating`: Modern LED/Matrix LED. Score 0.80.
-*   `security_rating`: High. Score 0.80.
-*   `screen_in`: Dual 12.3-inch screens are large. Score 0.90.
-*   `infotainment_ux_rating`: MBUX is good. Score 0.70.
-*   `smartphone_connect_rating`: CarPlay/Android Auto standard. Score 0.80.
-*   `audio_rating`: Premium options available. Score 0.80.
-*   `usb_ports`: Multiple ports. Score 0.30.
-*   `comfort_feature_score`: High level of luxury features. Score 0.90.
-*   `convenience_feature_score`: High level of convenience features. Score 0.90.
-*   `brand_prestige_rating`: High. Score 0.80.
-*   `model_prestige_rating`: Mid-high range model. Score 0.00.
-*   `trim_prestige_rating`: Mid-range engine/trim for the model. Score 0.00.
-*   `interior_luxury_rating`: High quality materials and design. Score 0.90.
-*   `interior_tech_focus_rating`: High tech integration (screens, MBUX). Score 0.90.```json
+```json
 {
-  "price_usd": -0.50,
-  "total_cost_estimate_5yr_usd": -0.30,
-  "insurance_usd_yr": -0.70,
-  "maint_usd_yr": -0.30,
-  "repair_risk_score": -0.20,
-  "hp": 0.30,
-  "torque": 0.60,
-  "cylinder_count": 0.20,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.80,
+  "price_usd": -0.60,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.40,
+  "torque": 0.70,
+  "cylinder_count": 0.25,
+  "engine_displacement": 0.25,
+  "accel_0_60_sec": 0.75,
   "top_speed": 0.10,
-  "drive_type": 0.00,
+  "drive_type": 0.50,
   "transmission_type": 1.00,
   "driving_track_vs_gt": 1.00,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.60,
-  "wheelbase": 0.60,
+  "size": 0.50,
+  "wheelbase": 0.50,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.00,
-  "rear_space": -0.20,
-  "ground_clearance_in": -0.70,
+  "cargo_space": 0.25,
+  "rear_space": 0.00,
+  "ground_clearance_in": -1.00,
   "turn_radius_ft": -0.10,
-  "mpg": 0.70,
-  "co2_g_km": 0.00,
-  "electrification": -0.50,
+  "mpg": 0.50,
+  "co2_g_km": 0.25,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 1.00,
-  "style_aggression_rating": 0.50,
-  "style_modernity_rating": 0.70,
-  "handling_rating": 0.20,
+  "style_aggression_rating": 0.25,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.25,
   "ride_comfort_rating": 1.00,
-  "cabin_noise_rating": 1.00,
+  "cabin_noise_rating": 0.75,
   "shift_smooth_rating": 1.00,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.80,
+  "steering_feel_rating": 0.50,
+  "adas_score": 0.75,
   "visibility_rating": -0.50,
-  "headlight_rating": 0.80,
-  "security_rating": 0.80,
-  "screen_in": 0.90,
-  "infotainment_ux_rating": 0.70,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.80,
-  "usb_ports": 0.30,
-  "comfort_feature_score": 0.90,
-  "convenience_feature_score": 0.90,
-  "brand_prestige_rating": 0.80,
-  "model_prestige_rating": 0.00,
+  "headlight_rating": 0.75,
+  "security_rating": 0.50,
+  "screen_in": 0.75,
+  "infotainment_ux_rating": 0.75,
+  "smartphone_connect_rating": 0.75,
+  "audio_rating": 0.75,
+  "usb_ports": 0.50,
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": -0.50,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.90,
-  "interior_tech_focus_rating": 0.90
+  "interior_luxury_rating": 1.00,
+  "interior_tech_focus_rating": 1.00
 }
 ```

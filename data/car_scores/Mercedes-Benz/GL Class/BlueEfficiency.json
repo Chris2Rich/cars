@@ -1,57 +1,270 @@
-```json
+The most recent GL Class with the "BlueEfficiency" designation appears to be the GL 350 BlueTEC (which replaced the CDI BlueEfficiency) from the 2013-2015 model years (X166 generation). Some sources still refer to the 2013 GL 350 BlueTEC as having BlueEfficiency features or being a successor. I will use the specs for the 2013 GL 350 BlueTEC where possible, and supplement with data for the earlier GL 350 CDI BlueEfficiency (X164 facelift, 2009-2012) if needed, noting the differences.
+
+Here's the data gathered and the corresponding scores:
+
+**Model:** Mercedes-Benz GL 350 BlueTEC (2013)
+
+*   **price_usd:** Used prices for 2013 GL350 BlueTEC are around $21,700 - $35,000 in 2024. This is well below the new car average of $52,000. Score: +0.50.
+*   **total_cost_estimate_5yr_usd:** Luxury SUVs, especially older ones, tend to have higher ownership costs due to depreciation, maintenance, and potential repairs. While specific 5-year cost data isn't readily available, it's expected to be higher than average. Score: -0.50.
+*   **insurance_usd_yr:** Luxury SUVs typically have high insurance costs. While UK insurance group data isn't explicitly found for this specific model year/trim, Mercedes-Benz GL models generally fall into high insurance groups. Score: -0.75.
+*   **maint_usd_yr:** Mercedes-Benz maintenance is generally expensive, especially for older models. Score: -0.75.
+*   **repair_risk_score:** Mercedes-Benz has an average reliability reputation, not as high as Japanese brands but not as low as some others. Score: 0.00.
+*   **hp:** 2013 GL 350 BlueTEC has 240 hp. This is above the average of 200 hp. Score: 0.25. (Earlier 2010-2012 GL 350 CDI BlueEfficiency had 265 hp or 224 hp). Using the more recent 2013 figure.
+*   **torque:** 2013 GL 350 BlueTEC has 455 lb-ft. This is significantly above the average of 190 lb-ft. Score: 0.75. (Earlier 2010-2012 GL 350 CDI BlueEfficiency had 376 lb-ft or 457 lb-ft or 510 Nm (376 lb-ft) or 400 lb-ft). Using the more recent 2013 figure.
+*   **cylinder_count:** V6 engine. Score: 0.00.
+*   **engine_displacement:** 2987 cc (3.0L) V6 diesel. Score: 0.00.
+*   **accel_0_60_sec:** 2013 GL 350 BlueTEC is around 8.3 seconds. Earlier 2011 GL350 BlueTEC is 9.5 seconds. 2010 GL 350 CDI BlueEfficiency is 7.5-8.1 seconds. 2009 GL 350 CDI BlueEfficiency is 9-9.3 seconds. 8.3 seconds is slightly below average (7.5s). Score: -0.25.
+*   **top_speed:** 2011 GL 350 CDI BlueEfficiency is 130 mph. 2010 GL 350 CDI BlueEfficiency is 139.81 mph (225 km/h). 2013 GL Class range goes up to 250 kmph (GL63 AMG). For the GL350, 130-140 mph is around average. Score: 0.00.
+*   **drive_type:** 4MATIC (AWD) is standard. Score: 0.00.
+*   **transmission_type:** 7-speed Automatic (7G-TRONIC PLUS). Score: 1.00.
+*   **driving_track_vs_gt:** Large, comfortable luxury SUV designed for long drives. Score: 1.00.
+*   **offroad_ability:** Offers an optional On/Off-Road Package with increased ride height, skid plate, and low-range gearbox. Standard ground clearance is substantial. Score: -0.25 (Good for an SUV, but not a dedicated off-roader like a G-Class).
+*   **braking_dist_ft:** Not explicitly found, but large, heavy SUVs generally have longer braking distances than smaller cars or sports cars. Score: -0.25.
+*   **size:** Length around 5120 mm. This is very large. Score: 1.00.
+*   **wheelbase:** 3075 mm (121 inches). This is a long wheelbase. Score: 0.75.
+*   **body_style:** 5-door SUV. Score: 0.00.
+*   **seats:** 7 seats standard. Score: 1.00.
+*   **cargo_space:** 16.0 cu ft (453 L) with all seats up. 620-680 L minimum. 2300 L maximum with rear seats folded. 93.8 cu ft (2656 L) max. 95 cu ft max. Score: 1.00.
+*   **rear_space:** Rear legroom 39.5 inches or 38.5 inches. Rear headroom 40.6 inches. This is very generous. Score: 1.00.
+*   **ground_clearance_in:** 10.9 inches or 276 mm (10.8 inches) or 307 mm (12.1 inches) or 198 mm (7.8 inches) or 7.9 inches. The X166 (2013+) has adaptive air suspension allowing up to 11.2 inches (285 mm). Score: 0.75 (High for an SUV).
+*   **turn_radius_ft:** 39.7 ft or 40.7 ft or 12.1 m (39.7 ft) or 6.02 meters (19.75 ft). The 6.02m seems unusually small for a vehicle this size, likely a typo or different measurement. Using the 39.7-40.7 ft range. This is larger than average. Score: -0.25.
+*   **mpg:** 2013 GL 350 BlueTEC is 19 city / 26 hwy / 22 combined (US). Earlier 2010-2012 GL 350 CDI BlueEfficiency is 29.4 combined UK mpg (24.5 US mpg) or 26.43 US mpg (31.74 UK mpg) combined or 30.4 mpg (imp). Diesel efficiency is better than petrol equivalents, but for a large SUV, these figures are average to slightly above average for its class, but below the overall market average. Score: -0.25.
+*   **co2_g_km:** 2011 GL 350 CDI BlueEfficiency is 260 g/km. This is high compared to the market average. Score: -0.75.
+*   **electrification:** Petrol/Diesel engine. Score: -0.50.
+*   **electric_range_mi:** Not electric. Score: -1.00.
+*   **charge_speed_kw:** Not electric. Score: -1.00.
+*   **style_sleek_vs_boxy:** Large, upright SUV. More boxy than sleek. Score: -0.25.
+*   **style_aggression_rating:** Not particularly aggressive, more stately. Score: 0.00.
+*   **style_modernity_rating:** 2013 model had updated styling. Looks reasonably modern for its era. Score: 0.00.
+*   **handling_rating:** Equipped with AIRMATIC air suspension and electromechanical steering. Offers comfortable ride but handling is competent for its size, not sporty. Score: 0.00.
+*   **ride_comfort_rating:** Known for a very comfortable ride thanks to air suspension. Score: 1.00.
+*   **cabin_noise_rating:** Luxury SUV, expected to have a quiet cabin. Score: 0.75.
+*   **shift_smooth_rating:** 7G-TRONIC PLUS automatic transmission is known for smooth shifts. Score: 1.00.
+*   **steering_feel_rating:** Electromechanical steering. Described as speed-sensitive. Competent but not particularly engaging. Score: 0.00.
+*   **adas_score:** 2013 model introduced COLLISION PREVENTION ASSIST standard. Optional features included ATTENTION ASSIST, Crosswind Stabilization, Active Parking Assist, Active Lane Keeping Assist, Blind Spot Assist, Surround View camera, Adaptive Highbeam Assist. Good for its era. Score: 0.50.
+*   **visibility_rating:** Large windows and upright seating position generally provide good visibility. Score: 0.75.
+*   **headlight_rating:** Bi-Xenon headlamps with Active Curve Illumination and Corner Illuminating Lamps available. LED daytime running lights and taillights. Good for its era. Score: 0.50.
+*   **security_rating:** Standard security features for a luxury vehicle of its time. Alarm, immobilizer, mbrace2 telematics. Score: 0.50.
+*   **screen_in:** COMAND system with a 5.8-inch display standard. Larger screens likely available on higher trims or options. 5.8 inches is small by today's standards. Score: -0.50.
+*   **infotainment_ux_rating:** COMAND system with central controller. Functional but not as intuitive as modern systems. Score: 0.00.
+*   **smartphone_connect_rating:** Bluetooth standard. mbrace2 telematics links smartphones. Lacks modern features like Apple CarPlay/Android Auto. Score: -0.50.
+*   **audio_rating:** Standard audio system. Optional Harman/Kardon or Bang & Olufsen systems available. Score: 0.00 (for standard).
+*   **usb_ports:** 115V AC Power Outlet standard. USB ports were less common as standard features in this era. Score: -0.50.
+*   **comfort_feature_score:** Heated power front seats standard. Optional features included ventilated and massaging front seats, heated rear seats, multi-zone climate control. High level of comfort features available. Score: 0.75.
+*   **convenience_feature_score:** Power liftgate standard. Power folding third row seats standard. Optional features included Active Parking Assist, Surround View camera, power EASY-ENTRY for third row. High level of convenience features available. Score: 0.75.
+*   **brand_prestige_rating:** Mercedes-Benz is a high-prestige brand. Score: 0.75.
+*   **model_prestige_rating:** GL Class was the top-tier SUV for Mercedes-Benz at the time (before GLS). Score: -0.75.
+*   **trim_prestige_rating:** BlueEfficiency was an efficiency designation, not a high-performance or luxury trim level. It was often associated with the base diesel model. Score: 1.00.
+*   **interior_luxury_rating:** Premium materials, wood trim, optional leather and upgraded trims available. High level of interior luxury for its time. Score: 0.75.
+*   **interior_tech_focus_rating:** COMAND system, color instrument cluster display. Good tech for its era, but not screen-dominated like modern vehicles. Score: 0.00.
+
+Refining scores based on the guide and comparisons:
+- Price: Used price is significantly lower than new car average. +0.50 seems appropriate.
+- Total Cost: Luxury + older = high costs. -0.75 seems reasonable.
+- Insurance/Maintenance: Luxury brand, older model = high costs. -0.75 to -1.00. Let's go with -0.75 for maintenance and -1.00 for insurance as large luxury SUVs are often in the highest groups.
+- Performance (HP, Torque, 0-60): 240hp/455lb-ft is good but not outstanding by today's standards, especially for a large SUV. 0-60 in 8.3s is slow today. HP 0.25, Torque 0.75, 0-60 -0.25.
+- Size/Space: Very large, 7 seats, huge cargo, great rear space. Size 1.00, Wheelbase 0.75, Seats 1.00, Cargo 1.00, Rear Space 1.00.
+- Ground Clearance: High for an SUV. 0.75.
+- Turn Radius: Large. -0.25.
+- MPG/CO2: Diesel is better than petrol equivalent but poor compared to overall market average or modern hybrids/EVs. MPG -0.25, CO2 -0.75.
+- Electrification: Diesel. -0.50.
+- Dynamics: Ride comfort is a highlight (1.00). Handling/Steering are average for a large SUV (0.00). Shift smooth is excellent (1.00). Cabin noise likely very low (1.00).
+- Safety/ADAS: Good for its era, but lacks the sophistication of modern systems. ADAS 0.50. Visibility 0.75. Headlights 0.50. Security 0.50.
+- Tech/Infotainment: Screen size is small (-0.50). UX is average (0.00). Connectivity lacks modern features (-0.50). Audio is average standard (0.00), but optional upgrades were excellent (let's stick to standard/typical). USB ports likely minimal (-0.50).
+- Features: High level of comfort and convenience features available, even if some were optional. Comfort 0.75, Convenience 0.75.
+- Prestige: Brand high (0.75). Model was top SUV (-0.75). Trim is base/efficiency focused (1.00).
+- Interior: Luxury is high for its time (0.75). Tech focus is average (0.00).
+- Style: Boxy (-0.25). Aggression average (0.00). Modernity average for its era (0.00).
+
+Let's re-evaluate some scores based on the benchmarks and the specific model year (2013).
+- Price: Used price range is quite low compared to the new car average. $21k-$35k is significantly less than $52k. Score +0.50 seems fair.
+- Total Cost: High maintenance/insurance/depreciation for a luxury SUV. -0.75 is appropriate.
+- Insurance: Large luxury SUVs are consistently in the highest insurance groups. -1.00 is appropriate.
+- Maintenance: Mercedes maintenance is expensive. -0.75 is appropriate.
+- Repair Risk: Average. 0.00.
+- HP: 240hp is slightly above average but not high performance. 0.25.
+- Torque: 455 lb-ft is high. 0.75.
+- 0-60: 8.3s is slow today. -0.50.
+- Top Speed: 130-140mph is average. 0.00.
+- Drive Type: AWD is average. 0.00.
+- Transmission: Automatic is best score. 1.00.
+- Driving Track vs GT: Clearly GT. 1.00.
+- Offroad: Capable for an SUV, especially with the package, but not a dedicated off-roader. 0.00.
+- Braking: Large/heavy vehicle. -0.25.
+- Size: Very large. 1.00.
+- Wheelbase: Long. 0.75.
+- Body Style: SUV is average practicality. 0.00.
+- Seats: 7 seats is high. 1.00.
+- Cargo: Very large. 1.00.
+- Rear Space: Very generous. 1.00.
+- Ground Clearance: High. 0.75.
+- Turn Radius: Large. -0.25.
+- MPG: Poor compared to overall market, average for its class. -0.50.
+- CO2: High. -0.75.
+- Electrification: Petrol/Diesel. -0.50.
+- Electric Range: N/A. -1.00.
+- Charge Speed: N/A. -1.00.
+- Style Sleek/Boxy: Boxy SUV. -0.25.
+- Style Aggression: Not aggressive. 0.00.
+- Style Modernity: Dated design now. -0.50.
+- Handling: Competent but not sporty. 0.00.
+- Ride Comfort: Excellent. 1.00.
+- Cabin Noise: Very quiet. 1.00.
+- Shift Smoothness: Excellent automatic. 1.00.
+- Steering Feel: Numb/average. 0.00.
+- ADAS: Good for its era, but basic by modern standards. 0.00.
+- Visibility: Good. 0.75.
+- Headlights: Good for its era. 0.50.
+- Security: Standard for luxury. 0.50.
+- Screen Size: Small. -0.50.
+- Infotainment UX: Dated but functional. -0.25.
+- Smartphone Connect: Basic Bluetooth. -0.50.
+- Audio: Average standard. 0.00.
+- USB Ports: Likely minimal. -0.50.
+- Comfort Features: Many available, but some optional. 0.50.
+- Convenience Features: Many available, but some optional. 0.50.
+- Brand Prestige: High. 0.75.
+- Model Prestige: Top SUV at the time. -0.75.
+- Trim Prestige: Base/efficiency trim. 1.00.
+- Interior Luxury: High for its time. 0.75.
+- Interior Tech Focus: Average for its time. 0.00.
+
+Let's refine again, considering the age (2013 model evaluated in 2024).
+- Style Modernity: Definitely dated now. -0.50.
+- ADAS: While good for 2013, it's far behind modern systems. 0.00 is more appropriate compared to today's market.
+- Infotainment UX: Dated interface. -0.25.
+- Smartphone Connect: Lack of CarPlay/AA is a significant negative today. -0.50.
+- Audio: Standard audio is average. 0.00.
+- USB Ports: Likely 1 or 2. -0.50.
+- Comfort/Convenience Features: While many were *available*, the base BlueEfficiency might not have had all of them standard. Let's slightly reduce the score to reflect this uncertainty and comparison to *today's* average features. Comfort 0.50, Convenience 0.50.
+- Interior Luxury: Still feels luxurious compared to average, but maybe not top-tier by today's standards. 0.50.
+- Interior Tech Focus: Definitely not tech-focused by today's standards. -0.50.
+- Offroad Ability: Standard AWD and adjustable air suspension give it some capability beyond average SUVs. 0.00 seems fair.
+
+Final check on scores based on the -1 to +1 scale relative to *today's* market.
+
+- Price: Used price is low. +0.50.
+- Total Cost: High. -0.75.
+- Insurance: Very high. -1.00.
+- Maint: High. -0.75.
+- Repair Risk: Average. 0.00.
+- HP: Below average today. -0.25. (240hp is below the 300-400hp common in many SUVs/trucks today).
+- Torque: Good for a diesel, above average. 0.50.
+- Cylinders: V6 is average. 0.00.
+- Displacement: 3.0L is average. 0.00.
+- 0-60: Slow. -0.50.
+- Top Speed: Average. 0.00.
+- Drive Type: AWD is average. 0.00.
+- Transmission: Automatic is best. 1.00.
+- Driving Track vs GT: GT. 1.00.
+- Offroad: Average for an SUV. 0.00.
+- Braking: Below average. -0.25.
+- Size: Very large. 1.00.
+- Wheelbase: Long. 0.75.
+- Body Style: SUV is average. 0.00.
+- Seats: 7 seats is high. 1.00.
+- Cargo: Very large. 1.00.
+- Rear Space: Very generous. 1.00.
+- Ground Clearance: High. 0.75.
+- Turn Radius: Large. -0.25.
+- MPG: Poor. -0.75. (22 combined US mpg is significantly below the 30 mpg average).
+- CO2: Very high. -1.00.
+- Electrification: Petrol/Diesel. -0.50.
+- Electric Range: N/A. -1.00.
+- Charge Speed: N/A. -1.00.
+- Style Sleek/Boxy: Boxy. -0.25.
+- Style Aggression: Average. 0.00.
+- Style Modernity: Dated. -0.50.
+- Handling: Average. 0.00.
+- Ride Comfort: Excellent. 1.00.
+- Cabin Noise: Very quiet. 1.00.
+- Shift Smoothness: Excellent. 1.00.
+- Steering Feel: Average. 0.00.
+- ADAS: Basic by modern standards. 0.00.
+- Visibility: Good. 0.75.
+- Headlights: Average by modern standards. 0.00.
+- Security: Average. 0.00.
+- Screen Size: Small. -0.50.
+- Infotainment UX: Dated. -0.50.
+- Smartphone Connect: Basic. -0.50.
+- Audio: Average standard. 0.00.
+- USB Ports: Minimal. -0.50.
+- Comfort Features: Average compared to today's market. 0.00. (Heated seats are common now).
+- Convenience Features: Average compared to today's market. 0.00. (Power liftgate, backup camera are common now).
+- Brand Prestige: High. 0.75.
+- Model Prestige: Was top SUV, but now older. -0.50.
+- Trim Prestige: Base/efficiency. 1.00.
+- Interior Luxury: Above average. 0.50.
+- Interior Tech Focus: Low. -0.50.
+
+Let's adjust a few more based on the benchmarks.
+- HP: 240hp is closer to the 200hp average than 700hp+. 0.00.
+- Torque: 455 lb-ft is well above 190 lb-ft. 0.75.
+- MPG: 22 mpg is significantly below 30 mpg. -0.75.
+- CO2: 260 g/km is well above 175 g/km. -1.00.
+- ADAS: Collision Prevention Assist and Attention Assist were standard, plus optional advanced features. This is better than minimal tech (-1.00) and better than just average (0.00) for its time, but not superb today. 0.25.
+- Visibility: Large windows are a plus. 0.75.
+- Headlights: Bi-Xenon was good, but not matrix LED. 0.50.
+- Security: Standard alarm/immobilizer is average. 0.00.
+- Comfort Features: Heated power seats are standard, which is average today. Optional features push it slightly above average. 0.25.
+- Convenience Features: Power liftgate, power third row, backup camera were standard/common options, which is average today. 0.25.
+- Interior Luxury: Mercedes quality is high, even if older. 0.75.
+- Interior Tech Focus: Minimal screens/analog gauges compared to modern cars. -0.75.
+
+Okay, final pass with refined scores.```json
 {
-  "price_usd": -0.40,
-  "total_cost_estimate_5yr_usd": -0.20,
-  "insurance_usd_yr": -0.20,
-  "maint_usd_yr": -0.20,
-  "repair_risk_score": -0.20,
-  "hp": 0.20,
-  "torque": 0.20,
+  "price_usd": 0.50,
+  "total_cost_estimate_5yr_usd": -0.75,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -0.75,
+  "repair_risk_score": 0.00,
+  "hp": 0.00,
+  "torque": 0.75,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.00,
+  "accel_0_60_sec": -0.50,
   "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "driving_track_vs_gt": 0.60,
+  "driving_track_vs_gt": 1.00,
   "offroad_ability": 0.00,
-  "braking_dist_ft": 0.00,
-  "size": 0.80,
-  "wheelbase": 0.80,
+  "braking_dist_ft": -0.25,
+  "size": 1.00,
+  "wheelbase": 0.75,
   "body_style": 0.00,
-  "seats": 0.00,
-  "cargo_space": 0.60,
-  "rear_space": 0.60,
-  "ground_clearance_in": 0.40,
-  "turn_radius_ft": 0.00,
-  "mpg": 0.40,
-  "co2_g_km": 0.40,
-  "electrification": -1.00,
+  "seats": 1.00,
+  "cargo_space": 1.00,
+  "rear_space": 1.00,
+  "ground_clearance_in": 0.75,
+  "turn_radius_ft": -0.25,
+  "mpg": -0.75,
+  "co2_g_km": -1.00,
+  "electrification": -0.50,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.00,
+  "style_sleek_vs_boxy": -0.25,
   "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.40,
+  "style_modernity_rating": -0.50,
   "handling_rating": 0.00,
-  "ride_comfort_rating": 0.80,
-  "cabin_noise_rating": 0.80,
+  "ride_comfort_rating": 1.00,
+  "cabin_noise_rating": 1.00,
   "shift_smooth_rating": 1.00,
   "steering_feel_rating": 0.00,
-  "adas_score": 0.80,
-  "visibility_rating": 0.60,
-  "headlight_rating": 1.00,
-  "security_rating": 1.00,
-  "screen_in": 0.80,
-  "infotainment_ux_rating": 0.80,
-  "smartphone_connect_rating": 1.00,
-  "audio_rating": 0.80,
-  "usb_ports": 0.60,
-  "comfort_feature_score": 0.80,
-  "convenience_feature_score": 0.80,
-  "brand_prestige_rating": 1.00,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.60,
-  "interior_tech_focus_rating": 0.40
+  "adas_score": 0.25,
+  "visibility_rating": 0.75,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": -0.50,
+  "infotainment_ux_rating": -0.50,
+  "smartphone_connect_rating": -0.50,
+  "audio_rating": 0.00,
+  "usb_ports": -0.50,
+  "comfort_feature_score": 0.25,
+  "convenience_feature_score": 0.25,
+  "brand_prestige_rating": 0.75,
+  "model_prestige_rating": -0.50,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": -0.75
 }
 ```

@@ -1,55 +1,128 @@
-```json
+Here's the evaluation of the Vauxhall Astra Electric GS based on the search results:
+
+**Cost & Risk:**
+- **price_usd:** GS trim is around £37,240 - £37,250 in the UK. Converting £37,250 to USD (using a rough exchange rate of 1.25 USD/GBP) is approximately $46,562.5. This is below the market average of $52,000, so a positive score. (Score: 0.25)
+- **total_cost_estimate_5yr_usd:** Search results mention relatively low service, maintenance, and repair costs and strong residual value retention contributing to overall value proposition. However, one source states it has the highest running cost compared to rivals over 4 years/80k miles, mainly due to depreciation. Another mentions a 4-year/80k mile running cost of £11,225. Converting £11,225 to USD is approximately $14,031.25. This seems low for a 4-year cost, and the 5-year cost is not explicitly stated. Given the conflicting info and lack of a clear 5-year total, defaulting to average. (Score: 0.00)
+- **insurance_usd_yr:** Insurance group is 26-27. This is slightly above average for the UK market (average is around group 16-17), suggesting slightly higher insurance costs. (Score: 0.00)
+- **maint_usd_yr:** Mentioned as having relatively low service, maintenance, and repair costs. (Score: 0.50)
+- **repair_risk_score:** Vauxhall reliability is generally considered average. No specific major repair issues mentioned for the Astra Electric. (Score: 0.25)
+
+**Power & Performance:**
+- **hp:** 156 PS (154 hp). This is below the average for new cars. (Score: -0.50)
+- **torque:** 270 Nm (199 lb-ft). This is around the average for new cars. (Score: 0.00)
+- **cylinder_count:** 0 (EV). (Score: 0.00)
+- **engine_displacement:** 0 (EV). (Score: 0.00)
+- **accel_0_60_sec:** 9.2 seconds, some sources say 8.9 seconds. This is slower than the average for new cars and notably slower than many EVs. (Score: -0.50)
+- **top_speed:** 105-106 mph. This is below the average top speed. (Score: -0.50)
+- **drive_type:** Front-wheel drive (FWD). (Score: -1.00)
+- **transmission_type:** Automatic (single-speed for EV). (Score: 1.00)
+- **driving_track_vs_gt:** Described as comfortable and composed, easy to drive, not particularly sporty or engaging. More of a comfortable daily driver/GT. (Score: 0.50)
+- **offroad_ability:** Not designed for off-road use. Low ground clearance expected for a hatchback. (Score: 1.00)
+- **braking_dist_ft:** No specific data found. Defaulting to average. (Score: 0.00)
+
+**Space & Practicality:**
+- **size:** Length 4374 mm. This is around the average size for a hatchback. (Score: 0.00)
+- **wheelbase:** 2675 mm. This is around the average wheelbase for a hatchback. (Score: 0.00)
+- **body_style:** 5-door Hatchback. (Score: 0.00)
+- **seats:** 5 seats. (Score: 0.00)
+- **cargo_space:** 352 litres. Converting 352 litres to cu ft (1 litre = 0.0353147 cu ft) is approximately 12.4 cu ft. This is below average. (Score: -0.25)
+- **rear_space:** Rear space is adequate for two passengers, but a transmission tunnel hump impacts the middle seat. Rear legroom is not outstanding. (Score: -0.25)
+- **ground_clearance_in:** Not explicitly stated, but expected to be low for a hatchback. Defaulting to average for a non-sports car. (Score: 0.00)
+- **turn_radius_ft:** Light steering makes manoeuvres simple. Turning circle not explicitly stated. Defaulting to average. (Score: 0.00)
+
+**Efficiency & Electrification:**
+- **mpg:** N/A (EV). CO2 emissions are 0 g/km. (Score: 0.00)
+- **co2_g_km:** 0 g/km. (Score: 1.00)
+- **electrification:** Full Electric (BEV). (Score: 1.00)
+- **electric_range_mi:** WLTP range is 258 miles. Real-world range is estimated around 195-220 miles. 258 miles is above average for current EVs. (Score: 0.50)
+- **charge_speed_kw:** Max DC rapid charge is 100 kW. AC charging is 11 kW standard. 100 kW DC is around average for rapid charging. (Score: 0.00)
+
+**Ride & Dynamics:**
+- **handling_rating:** Described as calm, unremarkable, lacks dynamic clarity. Agile and direct on bends, but not as nimble or engaging as rivals. Steering is light. Body control is impressive. Overall, average handling. (Score: 0.00)
+- **ride_comfort_rating:** Comfortable and composed. Soaks up bumpy roads well, but weight of batteries can be felt on uneven tarmac. Low-speed ride is a little harsh. Standard AGR-approved front seats are comfortable. Slightly above average comfort. (Score: 0.25)
+- **cabin_noise_rating:** Electric motor means it's pretty quiet in the cabin. Road and wind noise is well muffled. Can hear a thump from suspension over harsher bumps. Road noise is created by 18-inch wheels. Generally quiet, but some road/suspension noise. Above average. (Score: 0.50)
+- **shift_smooth_rating:** Single-speed automatic transmission in EVs is inherently smooth. (Score: 1.00)
+- **steering_feel_rating:** Light steering. Steering is pretty decent. Not particularly engaging. Slightly above average feel. (Score: 0.25)
+
+**Safety & Visibility:**
+- **adas_score:** Comes with a good amount of standard safety equipment including adaptive cruise control, automatic emergency braking, lane assist, traffic sign recognition. GS trim gets Intelli-Drive 2.0 features like automatic emergency braking with pedestrian detection, lane change assist with blind spot alert, forward collision alert, rear cross traffic alert. Ultimate adds more. GS has a good level of ADAS. (Score: 0.25)
+- **visibility_rating:** Good forward visibility. Rear view is hampered by a small back screen and thick pillars. Average visibility overall. (Score: 0.00)
+- **headlight_rating:** LED headlights with high beam assist are standard on GS. Ultimate gets adaptive pixel LEDs. Standard LEDs are good. (Score: 0.25)
+- **security_rating:** Ultrasonic alarm system mentioned. No specific details on advanced security features. Defaulting to average. (Score: 0.00)
+
+**Infotainment & Connectivity:**
+- **screen_in:** Dual 10-inch screens (instrument cluster and central screen). Pure Panel Pro system. Total screen real estate is 20 inches, but split. This is good, but not best-in-class large single screen. (Score: 0.00)
+- **infotainment_ux_rating:** Pure Panel Pro infotainment with integrated navigation. Some physical buttons for climate control. Can be accessed via touch or voice. Generally positive reviews, but not outstanding. (Score: 0.00)
+- **smartphone_connect_rating:** Wireless Apple CarPlay and Android Auto standard on all models. (Score: 1.00)
+- **audio_rating:** Six speakers mentioned. No specific details on audio quality or premium options for GS. Defaulting to average. (Score: 0.00)
+- **usb_ports:** Twin USB C inputs and a 12v socket in front, single USB C in rear. Total 3 USB-C ports and 1 12V socket. (Score: 0.00)
+
+**Comfort & Convenience:**
+- **comfort_feature_score:** GS trim includes heated seats and steering wheel. AGR-approved front seats. Dual-zone climate control. Good level of comfort features for the trim. (Score: 0.25)
+- **convenience_feature_score:** GS includes front and rear parking sensors and a rear-view camera. 360-degree parking camera standard on GS. Keyless start and entry. Good convenience features. (Score: 0.00)
+
+**Style, Brand & Interior Character:**
+- **interior_luxury_rating:** Interior quality is so-so, some plush finishes but also hard plastics. Uniformly dark and uninteresting compared to rivals. Below average luxury feel. (Score: -0.25)
+- **interior_tech_focus_rating:** Dual 10-inch screens dominate the dash. Pure Panel Pro system. Good tech integration, but not as minimalist/screen-focused as some EVs. (Score: 0.25)
+- **brand_prestige_rating:** Vauxhall is a mainstream brand, not considered premium or luxury. (Score: -0.50)
+- **model_prestige_rating:** The Astra is a long-running, mainstream family car model. (Score: 0.00)
+- **trim_prestige_rating:** GS is the mid-level trim, above Design but below Ultimate and GSe. It's a good trim, but not the top. (Score: 0.00)
+- **style_sleek_vs_boxy:** Sharp, distinctive look, muscular style. More stylish than predecessor, but still a conventional hatchback. Not particularly sleek or boxy. (Score: 0.25)
+- **style_aggression_rating:** Sharp lines, sporty-looking front bumper on GS. Black Vizor frame and detailing, black roof and mirrors on GS. Some aggressive styling cues. (Score: 0.25)
+- **style_modernity_rating:** Features latest interior technologies and driver aids. Modern design. Looks like the combustion versions. Modern, but not avant-garde. (Score: 0.00)```json
 {
-  "price_usd": 0.15,
+  "price_usd": 0.25,
   "total_cost_estimate_5yr_usd": 0.00,
   "insurance_usd_yr": 0.00,
   "maint_usd_yr": 0.50,
-  "repair_risk_score": 0.00,
+  "repair_risk_score": 0.25,
   "hp": -0.50,
   "torque": 0.00,
-  "cylinder_count": -1.00,
-  "engine_displacement": -1.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
   "accel_0_60_sec": -0.50,
-  "top_speed": -0.60,
+  "top_speed": -0.50,
   "drive_type": -1.00,
   "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.50,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": -0.20,
+  "size": 0.00,
   "wheelbase": 0.00,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.20,
-  "rear_space": -0.40,
+  "cargo_space": -0.25,
+  "rear_space": -0.25,
   "ground_clearance_in": 0.00,
-  "turn_radius_ft": 0.10,
+  "turn_radius_ft": 0.00,
   "mpg": 0.00,
   "co2_g_km": 1.00,
-  "electric_range_mi": 0.60,
-  "charge_speed_kw": 0.40,
-  "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.30,
-  "style_modernity_rating": 0.50,
+  "electrification": 1.00,
+  "electric_range_mi": 0.50,
+  "charge_speed_kw": 0.00,
+  "style_sleek_vs_boxy": 0.25,
+  "style_aggression_rating": 0.25,
+  "style_modernity_rating": 0.00,
   "handling_rating": 0.00,
-  "ride_comfort_rating": -0.10,
-  "cabin_noise_rating": 0.60,
+  "ride_comfort_rating": 0.25,
+  "cabin_noise_rating": 0.50,
   "shift_smooth_rating": 1.00,
-  "steering_feel_rating": 0.10,
-  "adas_score": 0.60,
-  "visibility_rating": -0.30,
-  "headlight_rating": 0.30,
+  "steering_feel_rating": 0.25,
+  "adas_score": 0.25,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.25,
   "security_rating": 0.00,
-  "screen_in": 0.30,
+  "screen_in": 0.00,
   "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.50,
+  "smartphone_connect_rating": 1.00,
   "audio_rating": 0.00,
   "usb_ports": 0.00,
-  "comfort_feature_score": 0.50,
-  "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.00,
+  "comfort_feature_score": 0.25,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": -0.50,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": -0.20,
-  "interior_tech_focus_rating": 0.50
+  "interior_luxury_rating": -0.25,
+  "interior_tech_focus_rating": 0.25
 }
 ```

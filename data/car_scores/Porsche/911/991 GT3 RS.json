@@ -1,21 +1,107 @@
-```json
+The Porsche 911 991.2 GT3 RS was produced from 2018-2019. I will use data from this period.
+
+- **Price:** Base MSRP around $187,500 - $188,550. Used prices are significantly higher (e.g., EUR 249,950, EUR 327,250). This is well above the market average. Score: -1.00.
+- **Total Cost Estimate 5yr:** Very high purchase price, insurance, and maintenance costs for a track-focused Porsche. Likely well over $80,000. Score: -1.00.
+- **Insurance USD/yr:** High performance, high value, track-focused Porsche. Likely in the highest insurance groups. Score: -1.00.
+- **Maint USD/yr:** Porsche GT car maintenance is very expensive, especially if used on track. Score: -1.00.
+- **Repair Risk Score:** While the 4.0L engine is considered stout, high-performance components and track use increase the risk and cost of potential repairs. Not the absolute worst, but higher risk than average. Score: -0.50.
+- **HP:** 520 hp. 521 hp. 513 bhp. Well above 200 hp, below 700 hp. Score: 0.90.
+- **Torque:** 347 lb-ft. 346 lb-ft. 465 Nm. 470 Nm. Well above 190 lb-ft, below 1000 lb-ft. Score: 0.60.
+- **Cylinder Count:** Flat-6. Score: 0.00.
+- **Engine Displacement:** 4.0L (3996 cc). Around 3.0L is 0.00, >6.0L is +1.00. 4.0L is above average. Score: 0.20.
+- **Accel 0-60 sec:** 3.0s. 3.1s. 3.2s (0-100 km/h). <2.5s is +1.00, ~7.5s is 0.00. 3.0-3.2s is exceptionally fast, very close to best-in-class. Score: 0.90.
+- **Top Speed:** 194 mph. 193 mph. 296 km/h. 312 km/h. 184 mph (992 GT3 RS). >222mph is +1.00, 150mph is 0.00. 193-194 mph is well above 0.00. Score: 0.80.
+- **Drive Type:** RWD. Score: 1.00.
+- **Transmission Type:** 7-speed PDK (dual-clutch) only. Dual-Clutch is 0.00. Score: 0.00.
+- **Driving Track vs GT:** Designed for the race-track, track-focused. Score: -1.00.
+- **Offroad Ability:** Not designed for off-road. Low ground clearance. Score: 1.00.
+- **Braking Dist ft:** Excellent brakes (standard compound or optional PCCB). Likely <110 ft. Score: 0.90.
+- **Size:** Length ~179.4-180.0 in (4557-4572 mm). ~4600mm (~181in) is 0.00. Slightly smaller than average. Score: -0.20.
+- **Wheelbase:** ~96.6-96.7 in (2454-2457 mm). ~2700mm is 0.00, <2300mm is -1.00. Closer to -1.00. Score: -0.50.
+- **Body Style:** 2-door coupe. Score: -1.00.
+- **Seats:** 2 seats (rear seats removed). Score: -1.00.
+- **Cargo Space:** Front luggage compartment 4.4-4.8 cu ft (125-132 L). <5 cu ft is -1.00, ~15 cu ft is 0.00. Score: -1.00.
+- **Rear Space:** No rear seats. Score: -1.00.
+- **Ground Clearance in:** Height ~51.1-52.0 in. Ground clearance is very low. Score: -1.00.
+- **Turn Radius ft:** 36.4 ft. 10.5 m (~34.4 ft). ~36 ft is 0.00. Score: 0.00.
+- **MPG:** EPA combined 17 mpg. NEDC combined 18.4-22.1 mpg. WLTP combined 20.5-20.7 mpg (GT3). ~30 mpg is 0.00, ~12 mpg is -1.00. 17-22 mpg is below average. Score: -0.50.
+- **CO2 g/km:** 291 g/km. 299 g/km (WLTP). >300 g/km is -1.00, ~175 g/km is 0.00. 291-299 g/km is very high, close to -1.00. Score: -0.80.
+- **Electrification:** Petrol engine only. Score: -1.00.
+- **Electric Range mi:** Not electric. Score: -1.00.
+- **Charge Speed kW:** Not electric. Score: -1.00.
+- **Style Sleek vs Boxy:** Sleek sports car profile. Score: 0.80.
+- **Style Aggression Rating:** Very aggressive, with large wing and aero. Score: 1.00.
+- **Style Modernity Rating:** Modern classic design with aggressive aero. Score: 0.20.
+- **Handling Rating:** Exceptional, track-focused, immense precision, massive grip. Score: 1.00.
+- **Ride Comfort Rating:** Stiff, track-focused suspension. Score: -1.00.
+- **Cabin Noise Rating:** Loud, reduced sound insulation, induction noise. Score: -1.00.
+- **Shift Smooth Rating:** Excellent PDK. Score: 0.80.
+- **Steering Feel Rating:** Excellent, precise, terrific feel and feedback. Score: 1.00.
+- **ADAS Score:** Minimal features, focus on driving. Cruise control available. Rearview camera optional. Score: -0.80.
+- **Visibility Rating:** Limited visibility typical of sports coupes, large wing can impede rear visibility. Score: -0.50.
+- **Headlight Rating:** LED Headlights with PDLS available. Good, but not top-tier matrix beam standard. Score: 0.50.
+- **Security Rating:** High value car, likely good security (VTS security package mentioned). Score: 0.80.
+- **Screen in:** Infotainment screen size ~7 inches. ~8 inches is 0.00. Score: -0.20.
+- **Infotainment UX Rating:** PCM system. Functional but not cutting edge compared to newest systems. Score: 0.00.
+- **Smartphone Connect Rating:** Android Auto and Apple CarPlay mentioned. Score: 0.80.
+- **Audio Rating:** Sound Package 1 available. Bose available on other 991.2 trims, likely optional here. Good quality available. Score: 0.50.
+- **USB Ports:** 2 USB/IPOD connections mentioned. Score: 0.00.
+- **Comfort Feature Score:** Minimal, focus on performance. Automatic climate control. Heated seats likely optional. Score: -0.80.
+- **Convenience Feature Score:** Minimal. Cruise control, front axle lift (optional), parking aids (optional). Score: -0.50.
+- **Brand Prestige Rating:** Porsche is high prestige. Score: 1.00.
+- **Model Prestige Rating:** 911 is halo model. Score: -1.00.
+- **Trim Prestige Rating:** GT3 RS is a top-tier, track-focused trim. Score: -1.00.
+- **Interior Luxury Rating:** High-quality materials (Alcantara, carbon fiber). Luxurious for a track car, but stripped down compared to a standard 911. Score: 0.20.
+- **Interior Tech Focus Rating:** Driver-focused cockpit, blend of digital/analog. Not screen-forward. Score: -0.50.
+
+Final review of scores:
+- Price, Total Cost, Insurance, Maint: -1.00 seems correct for a high-end, track-focused Porsche.
+- Repair Risk: -0.50 seems fair, acknowledging high cost of components and potential track use.
+- Performance (HP, Torque, Accel, Top Speed, Braking): High scores are appropriate for a GT3 RS.
+- Engine Details (Cylinders, Displacement): 0.00/0.20 seem correct.
+- Drive Type: RWD is +1.00. Correct.
+- Transmission: 0.00 for PDK only. Correct.
+- Driving Track vs GT: -1.00 for track focus. Correct.
+- Offroad Ability: 1.00 for none. Correct.
+- Size, Wheelbase: Smaller than average. -0.20/-0.50 seem reasonable.
+- Body Style: -1.00 for 2-door coupe. Correct.
+- Seats: -1.00 for 2 seats. Correct.
+- Cargo Space: -1.00 for small frunk. Correct.
+- Rear Space: -1.00 for none. Correct.
+- Ground Clearance: -1.00 for very low. Correct.
+- Turn Radius: 0.00 for average. Correct.
+- Efficiency (MPG, CO2): Below average/high emissions. -0.50/-0.80 seem correct.
+- Electrification: -1.00 for petrol. Correct.
+- Electric Range/Charge Speed: -1.00 for N/A. Correct.
+- Style: High scores for sleek, very aggressive, modern classic. 0.80/1.00/0.20 seem reasonable.
+- Dynamics (Handling, Steering): 1.00 for exceptional. Correct.
+- Ride Comfort, Cabin Noise: -1.00 for stiff/loud. Correct for a track car.
+- Shift Smooth: 0.80 for excellent PDK. Correct.
+- Safety/Visibility (ADAS, Visibility, Headlights, Security): Lower scores for ADAS/Visibility, higher for Security/Headlights. -0.80/-0.50/0.50/0.80 seem reasonable.
+- Infotainment/Connectivity (Screen, UX, Smartphone, Audio, USB): Mixed scores. -0.20/0.00/0.80/0.50/0.00 seem reasonable for the era and focus.
+- Features (Comfort, Convenience): Lower scores due to track focus. -0.80/-0.50 seem reasonable.
+- Prestige (Brand, Model, Trim): High scores for Brand/Model, highest for Trim. 1.00/-1.00/-1.00 seem correct.
+- Interior Character (Luxury, Tech Focus): 0.20/-0.50 seem reasonable for high quality but stripped down and not overly tech-focused interior.
+
+Looks good. Proceed with JSON output.```json
 {
   "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
   "maint_usd_yr": -1.00,
-  "repair_risk_score": 0.50,
+  "repair_risk_score": -0.50,
   "hp": 0.90,
-  "torque": 0.75,
+  "torque": 0.60,
   "cylinder_count": 0.00,
-  "engine_displacement": 0.50,
-  "accel_0_60_sec": 0.95,
-  "top_speed": 0.95,
+  "engine_displacement": 0.20,
+  "accel_0_60_sec": 0.90,
+  "top_speed": 0.80,
   "drive_type": 1.00,
   "transmission_type": 0.00,
+  "driving_track_vs_gt": -1.00,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 1.00,
-  "size": -0.25,
+  "braking_dist_ft": 0.90,
+  "size": -0.20,
   "wheelbase": -0.50,
   "body_style": -1.00,
   "seats": -1.00,
@@ -23,33 +109,34 @@
   "rear_space": -1.00,
   "ground_clearance_in": -1.00,
   "turn_radius_ft": 0.00,
-  "mpg": -0.75,
-  "co2_g_km": -0.75,
+  "mpg": -0.50,
+  "co2_g_km": -0.80,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.75,
+  "style_sleek_vs_boxy": 0.80,
   "style_aggression_rating": 1.00,
-  "style_modernity_rating": 0.50,
+  "style_modernity_rating": 0.20,
   "handling_rating": 1.00,
-  "ride_comfort_rating": -0.75,
-  "cabin_noise_rating": -0.75,
-  "shift_smooth_rating": 0.75,
+  "ride_comfort_rating": -1.00,
+  "cabin_noise_rating": -1.00,
+  "shift_smooth_rating": 0.80,
   "steering_feel_rating": 1.00,
-  "adas_score": -0.75,
-  "visibility_rating": 0.00,
+  "adas_score": -0.80,
+  "visibility_rating": -0.50,
   "headlight_rating": 0.50,
-  "security_rating": 0.75,
-  "screen_in": -0.25,
+  "security_rating": 0.80,
+  "screen_in": -0.20,
   "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.00,
+  "smartphone_connect_rating": 0.80,
   "audio_rating": 0.50,
   "usb_ports": 0.00,
-  "comfort_feature_score": -0.75,
+  "comfort_feature_score": -0.80,
   "convenience_feature_score": -0.50,
   "brand_prestige_rating": 1.00,
   "model_prestige_rating": -1.00,
   "trim_prestige_rating": -1.00,
-  "interior_luxury_rating": 0.50,
-  "interior_tech_focus_rating": 0.00
+  "interior_luxury_rating": 0.20,
+  "interior_tech_focus_rating": -0.50
 }
 ```

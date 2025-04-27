@@ -1,111 +1,57 @@
-The BMW i5 Sport Edition is based on the eDrive40 powertrain. I will use the specs for the eDrive40 Sport Edition where available, and general i5 specs where the trim doesn't significantly change the attribute.
-
-*   **price\_usd**: The i5 eDrive40 starts around $66,800 - $67,795 in the US. A UK price for the Sport Edition is listed at £69,890. Converting £69,890 to USD (approx 1.27 USD/GBP) is around $88,760. This is well above the market average ($52,000) but not in the ultra-luxury >$120k range. Score: -0.60.
-*   **total\_cost\_estimate\_5yr\_usd**: No specific 5-year cost estimate found for the Sport Edition. EVs can have high depreciation but lower maintenance. Default to average. Score: 0.00.
-*   **insurance\_usd\_yr**: No specific insurance group/cost found for the Sport Edition. BMWs are generally higher than average. Default to average for this specific trim without data. Score: 0.00.
-*   **maint\_usd\_yr**: EVs generally have lower maintenance costs than ICE cars. BMW maintenance can be higher than average, but for an EV, it's likely closer to average or slightly better. Default to average without specific data. Score: 0.00.
-*   **repair\_risk\_score**: BMW's general reliability is average to slightly below average compared to top Japanese brands. Default to average. Score: 0.00.
-*   **hp**: The i5 eDrive40 Sport Edition has 340 hp (250 kW). This is well above the 200 hp average. Score: 0.50.
-*   **torque**: The i5 eDrive40 Sport Edition has 400 Nm (430 Nm in Sport Boost). 400 Nm is approximately 295 lb-ft. This is well above the 190 lb-ft average. Score: 0.50.
-*   **cylinder\_count**: Electric vehicle, so 0 cylinders. Score: -1.00.
-*   **engine\_displacement**: Electric vehicle, so 0 displacement. Score: -1.00.
-*   **accel\_0\_60\_sec**: 0-60 mph in 5.6-6.0 seconds. This is faster than the 7.5 sec average. Score: 0.50.
-*   **top\_speed**: 120 mph. This is below the 150 mph average for a luxury sedan. Score: -0.50.
-*   **drive\_type**: The eDrive40 Sport Edition is Rear-Wheel Drive (RWD). Score: 1.00.
-*   **transmission\_type**: Automatic (single-speed for EV). Score: 1.00.
-*   **driving\_track\_vs\_gt**: The i5 is described as blending comfort and sport, with a refined ride and engaging dynamics, suitable for long drives. It leans towards Grand Touring. Score: 0.70.
-*   **offroad\_ability**: It's a luxury sedan, low to the ground, not designed for off-road. Score: 1.00.
-*   **braking\_dist\_ft**: One source mentions 60-0 mph in 98 feet for the M60, and another says both i5 variants stopped from 70 mph in 158 feet. 158 ft from 70 mph is not great compared to the 125 ft from 60 mph benchmark. Let's use the 70mph data point relative to the 60mph benchmark, suggesting it's below average. Score: -0.50.
-*   **size**: Length is 5060mm (199.2 inches). This is larger than the 4600mm average. Score: 0.50.
-*   **wheelbase**: 2995mm (117.9 inches). This is longer than the 2700mm average. Score: 0.50.
-*   **body\_style**: 4-door Sedan. Score: 0.00.
-*   **seats**: 5 seats. Score: 0.00.
-*   **cargo\_space**: 490 litres (approx 17.3 cu ft). Some sources say 17 cu ft, others 17.3 cu ft, and one says 520 litres (approx 18.4 cu ft). 490L is about 17.3 cu ft. This is slightly above the 15 cu ft average. Score: 0.10.
-*   **rear\_space**: Rear legroom is 36.5 inches. This is slightly above the 35" average. Score: 0.50.
-*   **ground\_clearance\_in**: 146mm (5.7 inches). One source says 137mm (5 inches) for M60. 5.7 inches is slightly below the 6.5" average for crossovers, but average for a large sedan. Score: -0.20.
-*   **turn\_radius\_ft**: 11.7 - 12.3 meters. 11.7m is approx 38.4 ft, 12.3m is approx 40.4 ft. 38.4-40.4 ft is slightly larger than the 36 ft average. Score: -0.30.
-*   **mpg**: Electric vehicle, so equivalent MPG is very high. Score: 1.00.
-*   **co2\_g\_km**: Electric vehicle, 0 g/km. Score: 1.00.
-*   **electrification**: Fully electric (EV). Score: 1.00.
-*   **electric\_range\_mi**: WLTP range is 356-382 miles. EPA range for eDrive40 is 270-295 miles. Real-world range is cited around 260-304 miles. Using the EPA/real-world figures, this is good but not class-leading (>375 miles). Score: 0.70.
-*   **charge\_speed\_kw**: Max DC charging is 205-206 kW. This is high-speed DC fast charging. Score: 0.70.
-*   **style\_sleek\_vs\_boxy**: Sedan body style, described as sleek and aerodynamic. Not particularly boxy or ultra-sleek. Score: 0.00.
-*   **style\_aggression\_rating**: Sport Edition and M Sport packages add sporty touches. It has an athletic exterior design. Score: 0.50.
-*   **style\_modernity\_rating**: All-new generation, modern design, large curved display interior. Score: 0.70.
-*   **handling\_rating**: Blends comfort and sport adroitly, engaging dynamics, precise steering. BMW's trademark athleticism. Score: 0.60.
-*   **ride\_comfort\_rating**: Refined ride, extremely comfortable, best in class ride comfort. Posh interior. Score: 0.90.
-*   **cabin\_noise\_rating**: Very quiet operation. Near silent for an EV. Score: 0.90.
-*   **shift\_smooth\_rating**: Single-speed automatic transmission in EVs is inherently smooth. Score: 1.00.
-*   **steering\_feel\_rating**: Precise steering. However, one review found the steering "purely artificial and disappointing" with "not a lot of feedback". Score: 0.20.
-*   **adas\_score**: Suite of driver aids standard, including parking assist, blind spot monitoring, adaptive cruise control, lane keeping assist, etc.. Optional advanced features like 360 camera and Highway Assistant available. Good level of standard kit, but some advanced features are optional. Score: 0.80.
-*   **visibility\_rating**: No specific reviews on visibility found. Assume average for a modern sedan. Score: 0.50.
-*   **headlight\_rating**: LED headlights standard. Assume average for a luxury car. Score: 0.50.
-*   **security\_rating**: BMW generally has good security features. Assume above average. Score: 0.70.
-*   **screen\_in**: 12.3-inch digital gauge display and 14.9-inch infotainment touchscreen. Total curved display size is large. Score: 1.00.
-*   **infotainment\_ux\_rating**: iDrive 8.5 interface, generally easy to use but some find it borderline complicated or prefer more physical buttons. Score: 0.60.
-*   **smartphone\_connect\_rating**: Apple CarPlay, Android Auto, wireless charging standard. Score: 1.00.
-*   **audio\_rating**: Harman/Kardon stereo system standard. Optional Bowers & Wilkins system available. Standard system is good. Score: 0.70.
-*   **usb\_ports**: USB ports front and rear. Assume multiple ports. Score: 0.50.
-*   **comfort\_feature\_score**: Climate control standard. Sport seats standard. Electric seats with lumbar standard. Heated front seats optional on eDrive40. Ventilated front seats optional. 4-zone climate control optional/available. Good standard features, excellent optional features. Score: 0.70.
-*   **convenience\_feature\_score**: Keyless entry, power tailgate, parking sensors, rear camera standard. Wireless charging standard. Advanced parking assist features available. Score: 0.80.
-*   **brand\_prestige\_rating**: BMW is a high-prestige brand. Score: 1.00.
-*   **model\_prestige\_rating**: The 5 Series is a core, mid-range model for BMW. Score: 0.00.
-*   **trim\_prestige\_rating**: Sport Edition is an entry-level trim. Score: 1.00.
-*   **interior\_luxury\_rating**: Posh interior, high-quality materials, Veganza faux leather standard, optional leather/glass controls. Score: 0.80.
-*   **interior\_tech\_focus\_rating**: Dominated by large curved screens, digital dashboard, iDrive 8.5, Interaction Bar. Very tech-focused. Score: 1.00.```json
+```json
 {
-  "price_usd": -0.60,
+  "price_usd": -0.50,
   "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
+  "insurance_usd_yr": -0.60,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.20,
   "hp": 0.50,
-  "torque": 0.50,
+  "torque": 0.40,
   "cylinder_count": -1.00,
   "engine_displacement": -1.00,
-  "accel_0_60_sec": 0.50,
-  "top_speed": -0.50,
+  "accel_0_60_sec": 0.60,
+  "top_speed": -0.30,
   "drive_type": 1.00,
   "transmission_type": 1.00,
-  "driving_track_vs_gt": 0.70,
+  "driving_track_vs_gt": 0.30,
   "offroad_ability": 1.00,
-  "braking_dist_ft": -0.50,
-  "size": 0.50,
-  "wheelbase": 0.50,
+  "braking_dist_ft": 0.20,
+  "size": 0.90,
+  "wheelbase": 0.70,
   "body_style": 0.00,
   "seats": 0.00,
   "cargo_space": 0.10,
-  "rear_space": 0.50,
+  "rear_space": 0.10,
   "ground_clearance_in": -0.20,
-  "turn_radius_ft": -0.30,
+  "turn_radius_ft": -0.20,
   "mpg": 1.00,
   "co2_g_km": 1.00,
   "electrification": 1.00,
-  "electric_range_mi": 0.70,
+  "electric_range_mi": 0.80,
   "charge_speed_kw": 0.70,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.50,
-  "style_modernity_rating": 0.70,
-  "handling_rating": 0.60,
-  "ride_comfort_rating": 0.90,
+  "style_aggression_rating": 0.30,
+  "style_modernity_rating": 0.80,
+  "handling_rating": 0.70,
+  "ride_comfort_rating": 0.80,
   "cabin_noise_rating": 0.90,
   "shift_smooth_rating": 1.00,
-  "steering_feel_rating": 0.20,
+  "steering_feel_rating": 0.40,
   "adas_score": 0.80,
-  "visibility_rating": 0.50,
-  "headlight_rating": 0.50,
+  "visibility_rating": 0.20,
+  "headlight_rating": 0.60,
   "security_rating": 0.70,
-  "screen_in": 1.00,
-  "infotainment_ux_rating": 0.60,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.50,
   "smartphone_connect_rating": 1.00,
-  "audio_rating": 0.70,
-  "usb_ports": 0.50,
-  "comfort_feature_score": 0.70,
+  "audio_rating": 0.80,
+  "usb_ports": 0.20,
+  "comfort_feature_score": 0.80,
   "convenience_feature_score": 0.80,
-  "brand_prestige_rating": 1.00,
+  "brand_prestige_rating": 0.80,
   "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 1.00,
+  "trim_prestige_rating": 0.00,
   "interior_luxury_rating": 0.80,
-  "interior_tech_focus_rating": 1.00
+  "interior_tech_focus_rating": 0.80
 }
 ```

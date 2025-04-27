@@ -1,0 +1,111 @@
+Based on the search results, here's the evaluation for the BMW Alpina D3 S:
+
+- **price_usd**: New price around £55,950 - £90,000+ depending on options and body style (Touring often more expensive). Used prices from £55,000. This is well above the market average of ~$52,000. Score: -1.00.
+- **total_cost_estimate_5yr_usd**: Expensive new and used, high quality components but potentially higher maintenance than a standard BMW. Rarity keeps used values high, suggesting lower depreciation than some luxury cars. Likely above average 5-year cost, but maybe not the absolute highest. Score: -0.50.
+- **insurance_usd_yr**: Alpina D3 is mentioned with a standard UK car tax rate of £195, but insurance group is not explicitly stated for the D3 S. Performance and price suggest a higher insurance group. Score: -0.50.
+- **maint_usd_yr**: Alpina uses BMW components but with bespoke tuning and some unique parts. Maintenance is likely higher than a standard 3-series but perhaps not as high as some exotic performance cars. Score: -0.50.
+- **repair_risk_score**: Reviews mention no widespread drivetrain issues for the D3 S, though some M340d (base car) issues are noted. Alpina generally has a good reputation for build quality. Score: 0.25.
+- **hp**: 350-355 hp. This is significantly above the average (~200 hp). Score: 0.50.
+- **torque**: 538 lb-ft (730 Nm). This is very high torque, especially for a diesel. Score: 0.75.
+- **cylinder_count**: 6 in-line. Average for a performance-oriented car. Score: 0.00.
+- **engine_displacement**: 2993cc (3.0L). Above average displacement. Score: 0.25.
+- **accel_0_60_sec**: 4.6-4.8 seconds (Saloon/Touring). This is very fast. Score: 0.75.
+- **top_speed**: 168-170 mph (Touring/Saloon). Well above average. Score: 0.50.
+- **drive_type**: All-wheel drive (xDrive based, rear-biased). Average for performance/all-weather capability. Score: 0.00.
+- **transmission_type**: 8-speed Sport-Automatic ZF 8HP76 SWITCH-TRONIC. Modern, high-performance automatic. Score: 1.00.
+- **driving_track_vs_gt**: Described as a "peerless mile-eating" car with excellent ride comfort and high-speed stability. Clearly focused on Grand Touring. Score: 1.00.
+- **offroad_ability**: Based on a performance sedan/wagon platform, low ground clearance. Score: 1.00 (poor off-road ability).
+- **braking_dist_ft**: Features upgraded performance brakes (395mm front, 345mm rear). Expected to have good braking performance, but no specific distance found. Score: 0.25 (assuming better than average).
+- **size**: Length 4723mm. Similar to a BMW 3-series, which is average size. Score: 0.00.
+- **wheelbase**: 2851mm. Similar to a BMW 3-series, which is average wheelbase. Score: 0.00.
+- **body_style**: Available as Saloon (4-door sedan) or Touring (5-door wagon/estate). Sedan is average, wagon adds practicality. Score: 0.00.
+- **seats**: Typically 5 seats. Score: 0.00.
+- **cargo_space**: Touring has 500-1510 litres (17.66 - 53.33 cu ft). Saloon has 480 litres (16.95 cu ft). Touring is excellent, Saloon is good. Averaging for the model range. Score: 0.50.
+- **rear_space**: Based on BMW 3-series, which is average. Score: 0.00.
+- **ground_clearance_in**: Not explicitly stated, but performance suspension and low-profile tires suggest low ground clearance. Score: -1.00.
+- **turn_radius_ft**: Not explicitly stated, but based on 3-series platform, likely average. Score: 0.00.
+- **mpg**: WLTP combined 37.2 - 39.2 mpg UK (around 31-32 mpg US). Good for a performance car, but average compared to all cars. Score: 0.00.
+- **co2_g_km**: WLTP combined 182-198 g/km. Above the average for new cars (around 149 g/km in 2022). Score: -0.25.
+- **electrification**: Mild Hybrid Electric Vehicle (MHEV). Score: 0.00.
+- **electric_range_mi**: N/A for MHEV. Score: -1.00.
+- **charge_speed_kw**: N/A for MHEV. Score: -1.00.
+- **style_sleek_vs_boxy**: Based on BMW 3-series, which is a sleek sedan/wagon. Score: 1.00.
+- **style_aggression_rating**: Sporty but not overly aggressive compared to M cars. Score: 0.00.
+- **style_modernity_rating**: Based on the recent BMW 3-series facelift. Score: 0.00.
+- **handling_rating**: Described as having superb handling, precise, dynamic, and agile despite weight. Score: 1.00.
+- **ride_comfort_rating**: Alpina is known for excellent ride comfort, even with sporty suspension. Score: 1.00.
+- **cabin_noise_rating**: Described as having superb refinement. Score: 1.00.
+- **shift_smooth_rating**: 8-speed ZF automatic is known for smooth shifts, Alpina tuning enhances this. Score: 1.00.
+- **steering_feel_rating**: Described as having a lovely balance, accuracy, and precise steering. Score: 1.00.
+- **adas_score**: Based on BMW 3-series, which offers a range of ADAS features (Driving Assistant mentioned). Score: 0.50 (above average).
+- **visibility_rating**: Based on 3-series sedan/wagon, generally good visibility. Score: 0.00.
+- **headlight_rating**: BMW typically has good headlights. Score: 0.50.
+- **security_rating**: Based on BMW 3-series security features. Score: 0.00.
+- **screen_in**: Facelifted model gets BMW Curved Display (12.3" instrument cluster + 14.9" central touchscreen). Total screen real estate is large. Score: 1.00.
+- **infotainment_ux_rating**: Uses BMW iDrive, which is generally well-regarded. Facelifted version has the latest iDrive. Score: 1.00.
+- **smartphone_connect_rating**: Includes Apple CarPlay (and likely Android Auto). Score: 1.00.
+- **audio_rating**: Harman Kardon system is optional. Standard system is likely good, optional is excellent. Score: 0.50.
+- **usb_ports**: Not specified, but modern BMWs typically have multiple ports. Score: 0.00.
+- **comfort_feature_score**: Offers luxury features like branded leather, heated seats, three-zone climate control, HUD, etc. Optional high-end leather available. Score: 1.00.
+- **convenience_feature_score**: Features like front/rear parking assistance with cameras, heads-up display, high-beam assist, electric tailgate. Score: 0.50.
+- **brand_prestige_rating**: Alpina is a high-prestige brand, associated with BMW but more exclusive. Score: 1.00.
+- **model_prestige_rating**: The D3 S is a core, high-performance model within the Alpina range. Score: -0.50 (not entry-level, not halo like B7/B8).
+- **trim_prestige_rating**: The D3 S is a specific high-performance model, not a base trim. Score: -1.00.
+- **interior_luxury_rating**: High-quality materials, optional high-end leather, Alpina specific touches. Score: 1.00.
+- **interior_tech_focus_rating**: Features the latest BMW Curved Display and iDrive. Score: 1.00.```json
+{
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": -0.50,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": 0.25,
+  "hp": 0.50,
+  "torque": 0.75,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.25,
+  "accel_0_60_sec": 0.75,
+  "top_speed": 0.50,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.25,
+  "size": 0.00,
+  "wheelbase": 0.00,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.50,
+  "rear_space": 0.00,
+  "ground_clearance_in": -1.00,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.00,
+  "co2_g_km": -0.25,
+  "electrification": 0.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 1.00,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 1.00,
+  "ride_comfort_rating": 1.00,
+  "cabin_noise_rating": 1.00,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 1.00,
+  "adas_score": 0.50,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": 1.00,
+  "infotainment_ux_rating": 1.00,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.50,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 1.00,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": -0.50,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 1.00,
+  "interior_tech_focus_rating": 1.00
+}
+```

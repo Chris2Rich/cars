@@ -1,0 +1,108 @@
+The Vauxhall Vivaro BiTurbo ecoTEC refers to models from the 2014-2019 generation, specifically those equipped with the 1.6L BiTurbo diesel engine with Start/Stop technology. The "ecoTEC" designation highlights its efficiency focus. Common power outputs are 125PS (123 hp) and 145PS (143 hp). I will primarily use data for the 145PS variant where available, as it represents the higher performance ecoTEC option.
+
+- **price_usd:** Used prices for 2019 models are around £8,000 - £15,000 + VAT, which is significantly below the $52,000 average for a new car. Score: +1.00.
+- **total_cost_estimate_5yr_usd:** As a used commercial vehicle, costs will vary, but the low purchase price suggests a lower total cost compared to a new average car. Score: 0.50.
+- **insurance_usd_yr:** Insurance group is typically 40A. This is in the higher range for passenger cars but average for a commercial vehicle. Score: 0.00.
+- **maint_usd_yr:** Diesel vans used commercially may have higher maintenance needs than average passenger cars. Score: -0.20.
+- **repair_risk_score:** Vauxhall/Opel reliability is generally considered average. Score: 0.00.
+- **hp:** The 145PS engine produces 143 hp. This is well below the 200 hp average. Score: -1.00.
+- **torque:** The 145PS engine produces 340 Nm (251 lb-ft). This is decent torque for a diesel engine, above the average car benchmark. Score: 0.30.
+- **cylinder_count:** 4 cylinders. Score: -0.50.
+- **engine_displacement:** 1.6L. Below the 3.0L benchmark. Score: -0.20.
+- **accel_0_60_sec:** Around 11.3 - 13 seconds for the 125PS/145PS variants. This is slow compared to average passenger cars. Score: -0.80.
+- **top_speed:** Around 107 mph. Well below the 150 mph benchmark. Score: -1.00.
+- **drive_type:** FWD. Score: -1.00.
+- **transmission_type:** Manual is standard/common. Score: -1.00.
+- **driving_track_vs_gt:** Commercial van, utility focus. Score: 0.00.
+- **offroad_ability:** Poor. FWD, road tires, not designed for off-road. Score: +1.00.
+- **braking_dist_ft:** No specific data found, but vans generally have longer braking distances than cars. Score: -0.10.
+- **size:** Available in L1 and L2 lengths (approx 4.9m - 5.4m) and H1 and H2 heights. This is a large vehicle. Score: 0.80.
+- **wheelbase:** L1 wheelbase is around 3098mm, L2 is around 3275mm. These are long wheelbases. Score: 0.80.
+- **body_style:** Panel Van is common. Score: +1.00.
+- **seats:** Typically 3 in the front for panel vans. Crew cab versions have more. Assuming panel van: 3 seats. Score: -0.50.
+- **cargo_space:** Excellent cargo space is a primary feature. Load volume up to 6.0 cu m (approx 212 cu ft). Score: +1.00.
+- **rear_space:** N/A for panel van. Score: 0.00.
+- **ground_clearance_in:** No specific data found, likely average for a van. Score: 0.00.
+- **turn_radius_ft:** No specific data found, likely wider than average car. Score: -0.50.
+- **mpg:** Combined MPG is around 40.9 - 47.0 mpg for the 125PS/145PS variants. This is good for a vehicle of this size and capability, above the average car benchmark. Score: 0.40.
+- **co2_g_km:** Around 155 - 164 g/km for the 125PS/145PS variants. This is around the average for a non-electrified vehicle. Score: 0.00.
+- **electrification:** Petrol/Diesel. Score: -1.00.
+- **electric_range_mi:** N/A. Score: -1.00.
+- **charge_speed_kw:** N/A. Score: -1.00.
+- **handling_rating:** Described as comfortable and car-like to drive. Score: 0.50.
+- **ride_comfort_rating:** Enhanced cab design for comfort. Score: 0.40.
+- **cabin_noise_rating:** Engines are described as refined and quiet. Acoustic windscreen and thickened side glass on Sportive. Score: 0.60.
+- **shift_smooth_rating:** Manual transmission. Score: -0.20.
+- **steering_feel_rating:** No specific data found, likely functional. Score: 0.00.
+- **adas_score:** Features like ABS, ESP, Hill Start Assist, Emergency Brake Assist are standard. Parking sensors available. Limited compared to modern passenger cars. Score: -0.50.
+- **visibility_rating:** Good forward visibility, potentially poor rear/side in panel van. Score: 0.00.
+- **headlight_rating:** Front fog lights available. LED daytime running lights on Sportive. Score: 0.00.
+- **security_rating:** Remote central locking, immobiliser, alarm pre-installation kit. Score: 0.40.
+- **screen_in:** Sportive and Limited Edition Nav trims have a 7-inch touchscreen. Score: 0.30.
+- **infotainment_ux_rating:** Multimedia system with touchscreen available. Score: 0.40.
+- **smartphone_connect_rating:** Bluetooth, Apple CarPlay, Android Auto available on higher trims. Score: 0.70.
+- **audio_rating:** Basic audio system standard, 7 speakers on Design trim. Score: 0.20.
+- **usb_ports:** USB connectivity available. Number not specified, likely few. Score: -0.20.
+- **comfort_feature_score:** Air conditioning available. Height-adjustable driver's seat with armrest. Dual passenger seat with storage. Score: 0.20.
+- **convenience_feature_score:** Cruise control with speed limiter available. Electric windows. Electrically adjustable/heated door mirrors. Parking sensors available. Score: 0.50.
+- **brand_prestige_rating:** Vauxhall is a mainstream brand. Score: 0.00.
+- **model_prestige_rating:** Vivaro is a workhorse van. Score: +1.00.
+- **trim_prestige_rating:** BiTurbo ecoTEC is an engine variant, often found on Sportive or Limited Edition Nav trims. Sportive/Limited Edition Nav are higher trims than base, but not top luxury. Score: 0.00.
+- **interior_luxury_rating:** Utilitarian, hard-wearing materials. Score: -1.00.
+- **interior_tech_focus_rating:** Cab designed as a mobile office with some tech features. Score: 0.40.```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.50,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": 0.00,
+  "hp": -1.00,
+  "torque": 0.30,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": -0.80,
+  "top_speed": -1.00,
+  "drive_type": -1.00,
+  "transmission_type": -1.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -0.10,
+  "size": 0.80,
+  "wheelbase": 0.80,
+  "body_style": 1.00,
+  "seats": -0.50,
+  "cargo_space": 1.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": -0.50,
+  "mpg": 0.40,
+  "co2_g_km": 0.00,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": -0.80,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": -0.20,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 0.40,
+  "cabin_noise_rating": 0.60,
+  "shift_smooth_rating": -0.20,
+  "steering_feel_rating": 0.00,
+  "adas_score": -0.50,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.00,
+  "security_rating": 0.40,
+  "screen_in": 0.30,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 0.70,
+  "audio_rating": 0.20,
+  "usb_ports": -0.20,
+  "comfort_feature_score": 0.20,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 1.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": -1.00,
+  "interior_tech_focus_rating": 0.40
+}
+```

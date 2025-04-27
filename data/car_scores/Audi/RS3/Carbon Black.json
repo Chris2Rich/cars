@@ -1,113 +1,57 @@
-The user wants an evaluation of the 2024 Audi RS3 Carbon Black trim. I will use the search results to find the relevant data points and score them according to the provided guide. The Carbon Black trim is a specific package, so I will prioritize finding information related to it, but use general RS3 data where trim-specific details are not available, as core performance and dimensions are usually consistent.
-
-- **price_usd**: Search results show the 2024 RS3 starts around $62,300 - $63,395. The Carbon Black trim is a higher trim. Audi UK lists the Carbon Black Sportback from OTR £66,435. Converting £66,435 to USD (using a rough exchange rate, e.g., 1.25 USD/GBP) is around $83,000. This is significantly above the $52,000 average but below $120,000. Score: -0.25.
-- **total_cost_estimate_5yr_usd**: Edmunds estimates $69,070 over 5 years for the standard RS3. The Carbon Black trim's higher initial price might slightly increase this due to depreciation, but the maintenance/repair costs are likely similar. This is well above the $40,000 average. Score: -0.20.
-- **insurance_usd_yr**: Performance cars like the RS3 have high insurance costs. Score: -0.50. (No specific USD figure found, but performance + price indicates high cost). UK insurance group is high.
-- **maint_usd_yr**: CarEdge estimates $3,237 for maintenance and repairs over 5 years for the standard RS3, which is about $647/year. This is below the $1000 average. Score: 0.30.
-- **repair_risk_score**: Edmunds gives the 2024 RS3 an 8/10 for reliability. Audi is generally average to good. Score: 0.20.
-- **hp**: 401 hp.. Well above the 200 hp average. Score: 0.70.
-- **torque**: 369 lb-ft.. Well above the 190 lb-ft average. Score: 0.60.
-- **cylinder_count**: 5 cylinders.. Above average (most cars are 4 or 6). Score: 0.20.
-- **engine_displacement**: 2.5L.. Above average for a compact car. Score: 0.30.
-- **accel_0_60_sec**: 3.3 - 3.6 seconds.. Well below the 7.5 sec average. Score: 0.80.
-- **top_speed**: 155 mph (governed), optional 174 mph or 180 mph.. Above the 150 mph average. Score: 0.50.
-- **drive_type**: All-Wheel Drive (Quattro).. Average (0.00).
-- **transmission_type**: 7-speed dual-clutch automatic (S tronic).. Average (0.00).
-- **driving_track_vs_gt**: Capable on track with specific modes (RS Performance, RS Torque Rear), but also offers a composed ride in Comfort mode for daily driving. Leans towards performance/track focus. Score: -0.20.
-- **offroad_ability**: Low ground clearance, performance focus. Poor offroad. Score: 1.00.
-- **braking_dist_ft**: Performance brakes. Likely good braking. Score: 0.50 (assuming good performance, no specific ft found).
-- **size**: Length around 178.5 - 178.8 inches (4534 - 4542mm) for the sedan. Hatchback is shorter (4389mm). Sedan length is close to Civic (4600mm). Score: 0.00.
-- **wheelbase**: 103.6 inches (2631mm).. Below the 2700mm average. Score: -0.20.
-- **body_style**: Sedan (4-door) or Sportback (5-door hatchback).. Sedan/Coupe is 0.00. 5-door hatch is closer to sedan than van. Score: 0.00.
-- **seats**: 5 seats.. Average (0.00). Rear space can be tight.
-- **cargo_space**: 8.3 cu ft (sedan). 11.3 cu ft (Sportback). Below the 15 cu ft average. Score: -0.30.
-- **rear_space**: Around 35.1 - 35.2 inches. Can be tight for taller passengers. Around the 35" average. Score: 0.00.
-- **ground_clearance_in**: Around 4.7 - 5 inches (121mm). Below the 6.5" average. Score: -0.20.
-- **turn_radius_ft**: 40.4 ft.. Above the 36 ft average (meaning worse turning circle). Score: -0.20.
-- **mpg**: 23 combined EPA.. Below the 30 mpg average. Score: -0.30.
-- **co2_g_km**: 6.3 tons/year (US EPA). Converting this to g/km is complex and depends on mileage. Using a typical conversion factor for gasoline cars (around 2.35 kg CO2/liter fuel, and average speed), 23 mpg is roughly 10.2 L/100km. 10.2 L * 2350 g/L / 100 km = 239.7 g/km. This is well above the 175 g/km average. Score: -0.40.
-- **electrification**: Petrol. Score: -1.00.
-- **electric_range_mi**: N/A. Score: -1.00.
-- **charge_speed_kw**: N/A. Score: -1.00.
-- **style_sleek_vs_boxy**: Sedan/Sportback shape. Score: 0.00.
-- **style_aggression_rating**: Aggressive RS styling, flared fenders, large grille, RS exhaust. Score: 0.50.
-- **style_modernity_rating**: Updated design for 2025 model year. Score: 0.20.
-- **handling_rating**: Excellent handling, agile, reduced understeer, torque vectoring. Score: 0.60.
-- **ride_comfort_rating**: Can be composed in Comfort mode with adaptive dampers, but performance suspension is stiff. Score: 0.20.
-- **cabin_noise_rating**: Engine sound is prominent, road noise from tires. Not as quiet as a luxury car. Score: 0.20.
-- **shift_smooth_rating**: 7-speed dual-clutch, quick shifts, can be less smooth at low speeds or on downshifts. Score: 0.40.
-- **steering_feel_rating**: Progressive steering, accurate, some reviews mention needing more feel. Score: 0.20.
-- **adas_score**: Available ADAS features like adaptive cruise control, lane departure warning, park assist, rear view camera, pre sense. Above average. Score: 0.40.
-- **visibility_rating**: Average for a compact car. Score: 0.00. (No specific reviews found, defaulting to average). Let's use 0.30 as it's a modern car with cameras/sensors.
-- **headlight_rating**: Standard Matrix-design LED headlights. Above average. Score: 0.50.
-- **security_rating**: Audi connect services include security features. Premium brand, likely good security. Score: 0.30.
-- **screen_in**: 10.1" touchscreen and 12.3" virtual cockpit. Above average screen size. Score: 0.30.
-- **infotainment_ux_rating**: Audi MMI is generally good, intuitive, touch and physical controls. Score: 0.50.
-- **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto standard. Score: 0.50.
-- **audio_rating**: Standard Sonos Premium sound system (680-watt, 15 speakers). Available Bang & Olufsen. Above average. Score: 0.50.
-- **usb_ports**: Standard USB ports. Likely multiple. Score: 0.20.
-- **comfort_feature_score**: Heated front seats, fine Nappa leather sport seats with honeycomb stitching, triple-zone climate control standard. Above average but not top luxury (no ventilated/massaging seats mentioned). Score: 0.40.
-- **convenience_feature_score**: Park assist, rear view camera, keyless entry, push-button start standard. Head-up display available. Above average. Score: 0.40.
-- **brand_prestige_rating**: Audi is a premium brand. Score: 0.60.
-- **model_prestige_rating**: RS3 is a high-performance model within the A3 range. Score: 0.00.
-- **trim_prestige_rating**: Carbon Black is a higher trim level. Score: -0.50. (Adjusting from -1.00 for top trims like AMG 63, M, RS. Carbon Black is a specific package/trim, not the absolute highest performance tier, but still above base). Let's use -0.50 for a mid-high trim.
-- **interior_luxury_rating**: High-quality interior materials, fine Nappa leather, carbon fiber trim available. Premium feel but not ultra-luxury. Score: 0.40.
-- **interior_tech_focus_rating**: Digital cockpit, large screens, HUD available. High tech focus. Score: 0.40.
-
-Refining scores based on search results and guide examples. The Carbon Black trim specifically adds cosmetic carbon fiber elements and is a higher price point. This reinforces the price and trim prestige scores. Other specs are generally consistent with the standard RS3.```json
+```json
 {
   "price_usd": -0.25,
-  "total_cost_estimate_5yr_usd": -0.20,
-  "insurance_usd_yr": -0.50,
-  "maint_usd_yr": 0.30,
-  "repair_risk_score": 0.20,
-  "hp": 0.70,
-  "torque": 0.60,
-  "cylinder_count": 0.20,
-  "engine_displacement": 0.30,
-  "accel_0_60_sec": 0.80,
+  "total_cost_estimate_5yr_usd": -0.25,
+  "insurance_usd_yr": -0.75,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": 0.25,
+  "hp": 0.75,
+  "torque": 0.50,
+  "cylinder_count": 0.25,
+  "engine_displacement": 0.25,
+  "accel_0_60_sec": 0.85,
   "top_speed": 0.50,
   "drive_type": 0.00,
   "transmission_type": 0.00,
-  "driving_track_vs_gt": -0.20,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.50,
-  "size": 0.00,
-  "wheelbase": -0.20,
+  "driving_track_vs_gt": -0.25,
+  "offroad_ability": 0.75,
+  "braking_dist_ft": 0.25,
+  "size": -0.25,
+  "wheelbase": -0.25,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.30,
+  "cargo_space": -0.50,
   "rear_space": 0.00,
-  "ground_clearance_in": -0.20,
-  "turn_radius_ft": -0.20,
-  "mpg": -0.30,
-  "co2_g_km": -0.40,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.25,
+  "co2_g_km": -0.50,
   "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.50,
-  "style_modernity_rating": 0.20,
-  "handling_rating": 0.60,
-  "ride_comfort_rating": 0.20,
-  "cabin_noise_rating": 0.20,
-  "shift_smooth_rating": 0.40,
-  "steering_feel_rating": 0.20,
-  "adas_score": 0.40,
-  "visibility_rating": 0.30,
+  "style_aggression_rating": 0.75,
+  "style_modernity_rating": 0.25,
+  "handling_rating": 0.75,
+  "ride_comfort_rating": 0.25,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.25,
+  "steering_feel_rating": 0.25,
+  "adas_score": 0.50,
+  "visibility_rating": 0.25,
   "headlight_rating": 0.50,
-  "security_rating": 0.30,
-  "screen_in": 0.30,
+  "security_rating": 0.25,
+  "screen_in": 0.25,
   "infotainment_ux_rating": 0.50,
   "smartphone_connect_rating": 0.50,
   "audio_rating": 0.50,
-  "usb_ports": 0.20,
-  "comfort_feature_score": 0.40,
-  "convenience_feature_score": 0.40,
-  "brand_prestige_rating": 0.60,
-  "model_prestige_rating": 0.00,
+  "usb_ports": 0.25,
+  "comfort_feature_score": 0.25,
+  "convenience_feature_score": 0.25,
+  "brand_prestige_rating": 0.50,
+  "model_prestige_rating": -0.50,
   "trim_prestige_rating": -0.50,
-  "interior_luxury_rating": 0.40,
-  "interior_tech_focus_rating": 0.40
+  "interior_luxury_rating": 0.25,
+  "interior_tech_focus_rating": 0.50
 }
 ```

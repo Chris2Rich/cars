@@ -1,0 +1,111 @@
+The most recent generation of the Audi A4 is the B9 (2016-present), which includes a facelifted version from 2019 onwards. The TFSI engines available in the B9 A4 range from a 1.4 TFSI (early models) to 2.0 TFSI engines with various power outputs (e.g., 35 TFSI, 40 TFSI, 45 TFSI) and a 3.0 TFSI in the S4 variant (though the user specified A4). I will focus on the common 2.0 TFSI variants (150 HP to 261 HP) found in the A4.
+
+- **price_usd**: A new Audi A4 starts around $40,000-$45,000, which is close to the market average of $52,000. Score: 0.00.
+- **total_cost_estimate_5yr_usd**: As a premium brand, the 5-year cost of ownership is likely above average due to depreciation, maintenance, and insurance. Score: -0.15.
+- **insurance_usd_yr**: Insurance costs for a premium sedan are typically around the national average or slightly higher depending on the engine and trim. Score: 0.00.
+- **maint_usd_yr**: Audi maintenance costs are generally higher than average. Score: -0.20.
+- **repair_risk_score**: The B9 A4 is generally considered reliable, but some common issues like thermostat failures, water pump leaks, and potential carbon buildup exist. Score: -0.10.
+- **hp**: TFSI engines range from 150 HP to 261 HP. The average is around 200 HP, which is the market average. Score: 0.00.
+- **torque**: Torque ranges from 250 Nm (184 lb-ft) to 370 Nm (273 lb-ft). The average is around 228 lb-ft, which is above the market average of 190 lb-ft. Score: 0.30.
+- **cylinder_count**: Most TFSI engines in the A4 are 4-cylinder. This is below the 6-cylinder average. Score: -0.20.
+- **engine_displacement**: Most TFSI engines are 2.0L (1984 cm³) or 1.4L (1395 cm³). This is below the 3.0L average. Score: -0.20.
+- **accel_0_60_sec**: Ranges from 5.2 seconds (252 HP Quattro) to 8.9 seconds (150 HP FWD). The average is around 7.0 seconds, which is faster than the market average of 7.5 seconds. Score: 0.20.
+- **top_speed**: Ranges from 130 mph (210 km/h) to 155 mph (250 km/h). The average is around 145 mph, slightly below the 150 mph average. Score: -0.10.
+- **drive_type**: Available in Front-Wheel Drive and Quattro All-Wheel Drive. AWD is average. Score: 0.00.
+- **transmission_type**: Primarily uses a 7-speed S tronic dual-clutch automatic. This is a modern automatic transmission. Score: 1.00.
+- **driving_track_vs_gt**: A comfortable and capable daily driver, suitable for Grand Touring. Score: 0.20.
+- **offroad_ability**: Low sedan, not designed for off-road. Score: 1.00.
+- **braking_dist_ft**: No specific data found, assume average for its class. Score: 0.00.
+- **size**: Length is around 4726-4762 mm (186-187 in). Slightly larger than the 4600mm average. Score: 0.10.
+- **wheelbase**: Around 2819-2820 mm (111 in). Slightly longer than the 2700mm average. Score: 0.10.
+- **body_style**: Sedan or Avant (wagon). Sedan is average. Score: 0.00.
+- **seats**: 5 seats. Score: 0.00.
+- **cargo_space**: Sedan is around 460-480 liters (16.24-16.95 cu ft). This is around the 15 cu ft average. Score: 0.00.
+- **rear_space**: Rear legroom is decent for the class. Assume average. Score: 0.00.
+- **ground_clearance_in**: Around 13.7-14 cm (5.4-5.5 inches). Below the 6.5 inches average. Score: -0.20.
+- **turn_radius_ft**: Around 11.5-11.7 m (37.7-38.4 ft). Slightly above the 36 ft average. Score: -0.10.
+- **mpg**: Combined fuel economy ranges from around 30-39 mpg US (WLTP/NEDC converted). This is around the 30 mpg average. Score: 0.00.
+- **co2_g_km**: Ranges from around 114-170 g/km (NEDC/WLTP). This is around the 175 g/km average. Score: 0.00.
+- **electrification**: Primarily gasoline engines, some with mild-hybrid technology in later B9.5 models. Score: -0.20.
+- **electric_range_mi**: Not a PHEV or EV. Score: -1.00.
+- **charge_speed_kw**: Not an EV. Score: -1.00.
+- **style_sleek_vs_boxy**: Sleek sedan design. Score: 0.20.
+- **style_aggression_rating**: Moderate, S line trims add some aggression. Score: 0.00.
+- **style_modernity_rating**: Modern design for its time, facelift keeps it relatively current. Score: 0.00.
+- **handling_rating**: Precise steering and good roadholding. Score: 0.20.
+- **ride_comfort_rating**: Manages to soak up bumpy roads well. Score: 0.50.
+- **cabin_noise_rating**: Low noise levels. Score: 0.50.
+- **shift_smooth_rating**: Smooth automatic transmissions. Score: 0.50.
+- **steering_feel_rating**: Steering feel is subdued at lower speeds but communicative when pushed. Score: -0.20.
+- **adas_score**: Available with a range of ADAS features. Score: 0.40.
+- **visibility_rating**: Average for a sedan. Score: 0.00.
+- **headlight_rating**: Available with LED and Matrix LED headlights. Score: 0.50.
+- **security_rating**: Standard premium security features. Score: 0.00.
+- **screen_in**: MMI screen sizes up to 10.1 inches, plus optional Virtual Cockpit (12.3 inches). Above average. Score: 0.50.
+- **infotainment_ux_rating**: MMI system is generally user-friendly. Score: 0.30.
+- **smartphone_connect_rating**: Supports Apple CarPlay and Android Auto (wired). Score: 0.30.
+- **audio_rating**: Optional Bang & Olufsen system available. Score: 0.50.
+- **usb_ports**: Includes USB ports, some models have multiple. Score: 0.00.
+- **comfort_feature_score**: Available with many comfort features (heated seats, multi-zone climate). Score: 0.40.
+- **convenience_feature_score**: Available with many convenience features (keyless entry, parking aids, remote features via app). Score: 0.40.
+- **brand_prestige_rating**: Audi is a premium brand. Score: 0.50.
+- **model_prestige_rating**: A4 is a mid-range model. Score: 0.00.
+- **trim_prestige_rating**: TFSI covers various engine outputs, from base to higher power. Score: 0.00.
+- **interior_luxury_rating**: High-quality interior materials and design. Score: 0.50.
+- **interior_tech_focus_rating**: Good integration of technology, especially with Virtual Cockpit. Score: 0.50.```json
+{
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": -0.15,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": -0.10,
+  "hp": 0.00,
+  "torque": 0.30,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": 0.20,
+  "top_speed": -0.10,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.20,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.10,
+  "wheelbase": 0.10,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.20,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.00,
+  "co2_g_km": 0.00,
+  "electrification": -0.20,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.20,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.20,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": -0.20,
+  "adas_score": 0.40,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": 0.50,
+  "infotainment_ux_rating": 0.30,
+  "smartphone_connect_rating": 0.30,
+  "audio_rating": 0.50,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.40,
+  "convenience_feature_score": 0.40,
+  "brand_prestige_rating": 0.50,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.50
+}
+```

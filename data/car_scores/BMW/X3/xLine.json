@@ -1,55 +1,122 @@
-```json
+Evaluating the most recent BMW X3 xLine (primarily G01 LCI and G45 data, using 30i or 20d specs where xLine specific data isn't available):
+
+*   `price_usd`: The new G45 X3 20 xDrive xLine starts from £48,375 OTR. This is approximately $61,400 USD (using ~1.27 USD/GBP). This is above the $52,000 average. Score: -0.10.
+*   `total_cost_estimate_5yr_usd`: High purchase price, premium brand maintenance/insurance. Score: -0.50.
+*   `insurance_usd_yr`: No specific insurance group found for recent xLine. BMWs generally have higher insurance. Assume slightly lower than M Sport/M40i. Score: -0.50.
+*   `maint_usd_yr`: BMW maintenance is generally above average. Score: -0.10.
+*   `repair_risk_score`: BMW reliability is average or slightly below average. Score: -0.20.
+*   `hp`: G45 X3 20 xDrive (petrol) is 208 hp. G01 LCI 30i is 248 hp. G01 LCI 20d is 190 hp. G45 20d is 197 hp. Using the G45 20 xDrive (petrol) as a common xLine engine, 208 hp is around the 200 hp average. Score: 0.00.
+*   `torque`: G45 X3 20 xDrive (petrol) is 310 Nm (229 lb-ft). G01 LCI 30i is 258 lb-ft. G01 LCI 20d is 400 Nm (295 lb-ft). G45 20d is 400 Nm (295 lb-ft). Using the G45 20 xDrive (petrol), 229 lb-ft is above the 190 lb-ft average. Score: 0.20.
+*   `cylinder_count`: 4-cylinder for 20i/30i/20d. Below the 6-cylinder benchmark for 0.00. Score: -0.50.
+*   `engine_displacement`: 2.0L (1998 cc or 1995 cc) for 20i/30i/20d. Below the 3.0L benchmark for 0.00. Score: -0.50.
+*   `accel_0_60_sec`: G45 X3 20 xDrive (0-62 mph) is 7.8 seconds. G01 LCI 30i xDrive (0-60 mph) is 6.2 seconds. G01 LCI 20d (0-60 mph) is 8.0-8.1 seconds. G45 20d (0-62 mph) is 7.7 seconds. Using the G45 20 xDrive petrol (7.8s), this is around the 7.5 sec average. Score: 0.00.
+*   `top_speed`: G45 X3 20 xDrive is 215 km/h (134 mph). G01 LCI 20d is 132 mph. Around the 150 mph average. Score: -0.20.
+*   `drive_type`: xDrive (AWD) is common for xLine. AWD is the 0.00 benchmark. Score: 0.00.
+*   `transmission_type`: 8-speed automatic. Automatic is the +1.00 benchmark. Score: 1.00.
+*   `driving_track_vs_gt`: Comfortable daily driver/GT focus for xLine. Score: 0.50.
+*   `offroad_ability`: SUV, decent ground clearance, AWD, but not a dedicated off-roader. Score: -0.50.
+*   `braking_dist_ft`: No specific ft data found. Assume average. Score: 0.00.
+*   `size`: G45 Length 4755 mm. G01 Length 4708 mm. Both are above the 4600mm average. Score: 0.10.
+*   `wheelbase`: G45/G01 Wheelbase 2864 mm. Above the 2700mm average. Score: 0.20.
+*   `body_style`: 5-door SUV. Score: 0.50.
+*   `seats`: 5 seats. Score: 0.00.
+*   `cargo_space`: G45 570 litres (20.1 cu ft). G01 550 litres (19.4 cu ft). Both are above the 15 cu ft average. Score: 0.40.
+*   `rear_space`: Plenty of space in the back. Score: 0.30.
+*   `ground_clearance_in`: G01 204 mm (8.03 inches). Older model 210 mm (8.3 inches). Around 8 inches is well above 6.5" average. Score: 0.70.
+*   `turn_radius_ft`: 6 metres (19.7 ft). This is very tight, better than the 22 ft benchmark for +1.00. Score: +1.00.
+*   `mpg`: G45 20 xDrive (petrol) 37.2–40.9 mpg (WLTP). G01 30i xDrive EPA 25 mpg combined, real-world 31 mpg highway. G01 20d 43.5–48.7 mpg (WLTP), real-world low 40s. G01 28i real-world 24.5-26 mpg. Using G45 20 xDrive petrol (37-40 mpg), this is above the 30 mpg average. Score: 0.30.
+*   `co2_g_km`: G45 20 xDrive (petrol) 156-172 g/km. G01 20d 149 g/km. G01 30i 163-168 g/km. Around the 175 g/km average or better. Score: 0.10.
+*   `electrification`: Typically Petrol/Diesel with Mild Hybrid (MHEV). Score: -0.50.
+*   `electric_range_mi`: N/A for MHEV. Score: -1.00.
+*   `charge_speed_kw`: N/A for MHEV. Score: -1.00.
+*   `style_sleek_vs_boxy`: SUV shape, balanced. Score: 0.00.
+*   `style_aggression_rating`: xLine is less aggressive than M Sport. Score: 0.00.
+*   `style_modernity_rating`: Recent updates keep it modern. Score: 0.50.
+*   `handling_rating`: Praised for handling for an SUV, less agile than Macan/F-Pace but still good. Score: 0.60.
+*   `ride_comfort_rating`: Comfortable ride, especially with adaptive suspension. xLine is generally more comfort-focused than M Sport. Score: 0.50.
+*   `cabin_noise_rating`: Quiet cabin, well-insulated. Score: 0.50.
+*   `shift_smooth_rating`: 8-speed automatic is smooth. Score: 0.80.
+*   `steering_feel_rating`: Electric power steering is somewhat vague, lacks feedback compared to older BMWs, but predictable. Score: 0.00.
+*   `adas_score`: Offers a good suite of standard and optional ADAS features (Driving Assistant Plus, Parking Assistant, etc.). Score: 0.60.
+*   `visibility_rating`: SUV ride height helps, but standard SUV limitations. Score: 0.00.
+*   `headlight_rating`: LED headlights standard, optional adaptive/Icon Adaptive LED. Score: 0.50.
+*   `security_rating`: Premium brand, good security features (alarm, immobiliser). Score: 0.50.
+*   `screen_in`: G45 has 14.9" Curved Display. G01 LCI has 10.25" or 12.3" standard. Older G01 had 10.3" standard. Older F25 had 6.5" or 8.8". Using the G45's 14.9", this is large. Score: 1.00.
+*   `infotainment_ux_rating`: iDrive is generally well-regarded, intuitive, touch/rotary control. G45 uses iDrive 9 with QuickSelect. Score: 0.70.
+*   `smartphone_connect_rating`: Apple CarPlay and Android Auto standard, often wireless. Score: 0.70.
+*   `audio_rating`: Standard system is okay, optional Harman Kardon available. Score: 0.50.
+*   `usb_ports`: USB ports available, including USB-C in rear. Assume average number. Score: 0.00.
+*   `comfort_feature_score`: Offers many comfort features (electric seats, heated seats, 3-zone climate control, ambient lighting). Score: 0.60.
+*   `convenience_feature_score`: Offers many convenience features (electric tailgate, keyless entry, parking sensors, rear camera, optional 360 cam, HUD). Score: 0.60.
+*   `brand_prestige_rating`: BMW is a high-prestige brand. Score: 0.80.
+*   `model_prestige_rating`: X3 is a core, mid-range model. Score: 0.00.
+*   `trim_prestige_rating`: xLine is a mid-range trim, above base SE but below M Sport/M Performance. Score: 0.50.
+*   `interior_luxury_rating`: Premium interior materials and finishes, though some reviews note recent models feel less premium than before. Score: 0.60.
+*   `interior_tech_focus_rating`: High tech focus with large screens, digital cockpit, advanced infotainment. Score: 0.80.
+
+Refining scores:
+Turn Radius: 6m (19.7 ft) is excellent, better than the 22ft benchmark. Score +1.00 is correct.
+Screen Size: G45 14.9" is very large. Score +1.00 is correct.
+Steering Feel: Reviews consistently mention lack of feel. 0.00 is fair.
+Ride Comfort: xLine is more comfort-focused than M Sport, reviews mention good comfort. 0.50 seems appropriate.
+Handling: Still good for an SUV, but not top-tier sports car. 0.60 is fair.
+Trim Prestige: Mid-range trim. 0.50 is fair.
+Interior Luxury: Premium but some recent criticism. 0.60 is fair.
+
+All scores seem consistent with the data and guide.```json
 {
-  "price_usd": -0.50,
-  "total_cost_estimate_5yr_usd": -0.80,
-  "insurance_usd_yr": -0.80,
-  "maint_usd_yr": -0.40,
-  "repair_risk_score": +0.20,
-  "hp": 0.00,
-  "torque": +0.50,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": -0.10,
-  "top_speed": -0.30,
-  "drive_type": 0.00,
-  "transmission_type": +1.00,
-  "offroad_ability": -0.20,
-  "braking_dist_ft": +0.20,
-  "size": +0.10,
-  "wheelbase": +0.20,
-  "body_style": +0.50,
-  "seats": 0.00,
-  "cargo_space": +0.70,
-  "rear_space": +0.50,
-  "ground_clearance_in": +0.40,
-  "turn_radius_ft": +0.30,
-  "mpg": +0.30,
-  "co2_g_km": +0.30,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": +0.30,
-  "style_modernity_rating": +0.70,
-  "handling_rating": +0.70,
-  "ride_comfort_rating": +0.60,
-  "cabin_noise_rating": +0.70,
-  "shift_smooth_rating": +0.80,
-  "steering_feel_rating": +0.50,
-  "adas_score": +0.80,
-  "visibility_rating": +0.80,
-  "headlight_rating": +0.60,
-  "security_rating": +0.40,
-  "screen_in": +0.90,
-  "infotainment_ux_rating": +0.70,
-  "smartphone_connect_rating": +1.00,
-  "audio_rating": +0.40,
-  "usb_ports": +0.60,
-  "comfort_feature_score": +0.80,
-  "convenience_feature_score": +0.90,
-  "brand_prestige_rating": +0.80,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": +0.20,
-  "interior_luxury_rating": +0.50,
-  "interior_tech_focus_rating": +0.90
+ "price_usd": -0.10,
+ "total_cost_estimate_5yr_usd": -0.50,
+ "insurance_usd_yr": -0.50,
+ "maint_usd_yr": -0.10,
+ "repair_risk_score": -0.20,
+ "hp": 0.00,
+ "torque": 0.20,
+ "cylinder_count": -0.50,
+ "engine_displacement": -0.50,
+ "accel_0_60_sec": 0.00,
+ "top_speed": -0.20,
+ "drive_type": 0.00,
+ "transmission_type": 1.00,
+ "driving_track_vs_gt": 0.50,
+ "offroad_ability": -0.50,
+ "braking_dist_ft": 0.00,
+ "size": 0.10,
+ "wheelbase": 0.20,
+ "body_style": 0.50,
+ "seats": 0.00,
+ "cargo_space": 0.40,
+ "rear_space": 0.30,
+ "ground_clearance_in": 0.70,
+ "turn_radius_ft": 1.00,
+ "mpg": 0.30,
+ "co2_g_km": 0.10,
+ "electrification": -0.50,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": 0.00,
+ "style_aggression_rating": 0.00,
+ "style_modernity_rating": 0.50,
+ "handling_rating": 0.60,
+ "ride_comfort_rating": 0.50,
+ "cabin_noise_rating": 0.50,
+ "shift_smooth_rating": 0.80,
+ "steering_feel_rating": 0.00,
+ "adas_score": 0.60,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.50,
+ "security_rating": 0.50,
+ "screen_in": 1.00,
+ "infotainment_ux_rating": 0.70,
+ "smartphone_connect_rating": 0.70,
+ "audio_rating": 0.50,
+ "usb_ports": 0.00,
+ "comfort_feature_score": 0.60,
+ "convenience_feature_score": 0.60,
+ "brand_prestige_rating": 0.80,
+ "model_prestige_rating": 0.00,
+ "trim_prestige_rating": 0.50,
+ "interior_luxury_rating": 0.60,
+ "interior_tech_focus_rating": 0.80
 }
 ```

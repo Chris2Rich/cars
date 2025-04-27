@@ -1,55 +1,186 @@
+The Volkswagen Scirocco GT was available with several engine options in its later years (around 2017), including a 1.4L TSI (125 PS) and a 2.0L TSI (180 PS or 220 PS), and 2.0L TDI (150 PS or 184 PS). The GT trim was a popular choice. I will base the evaluation on the 2.0L TSI 180 PS engine with DSG transmission, as it represents a common and capable GT variant.
+
+- **price_usd**: Used prices for a 2017 Scirocco GT vary, but are significantly lower than the average new car price today. Prices around £10,000 - £15,000 are common for models with average mileage. £12,000 is roughly $15,000 USD. This is well below the $52,000 average. Score: +1.00.
+- **total_cost_estimate_5yr_usd**: VWs generally have average ownership costs. While the purchase price is low, older cars can incur unexpected repairs. Score: 0.00.
+- **insurance_usd_yr**: The Scirocco GT falls into insurance groups ranging from 26 to 31 depending on the exact engine and year. This is around the average range (1-50 scale). Score: 0.00. (Adjusted from -0.10 to 0.00 as group 26-31 is closer to the middle of the 1-50 scale).
+- **maint_usd_yr**: Maintenance costs for a VW are generally average. Score: 0.00.
+- **repair_risk_score**: VW reliability is generally considered average, though some older TSI engines had timing chain tensioner issues, which might slightly increase risk on older models. Score: -0.10.
+- **hp**: The 2.0 TSI 180 PS engine produces 180 PS (~178 hp). This is slightly below the 200 hp average. Score: -0.10.
+- **torque**: The 2.0 TSI 180 PS engine produces 280 Nm (~207 lb-ft). This is slightly above the 190 lb-ft average. Score: 0.10.
+- **cylinder_count**: 4 cylinders. This is the most common cylinder count. Score: 0.00.
+- **engine_displacement**: 2.0 litres. This is around the average displacement. Score: 0.00.
+- **accel_0_60_sec**: 0-62 mph for the 2.0 TSI 180 PS DSG is 7.4 seconds. This is slightly faster than the 7.5 seconds average. Score: 0.10.
+- **top_speed**: Top speed for the 2.0 TSI 180 PS DSG is 140 mph. This is slightly below the 150 mph average. Score: -0.10.
+- **drive_type**: Front-Wheel Drive (FWD). Score: -1.00.
+- **transmission_type**: Available with DSG (Automatic). Score: 1.00.
+- **driving_track_vs_gt**: Sporty coupe, suitable for spirited driving and comfortable enough for longer trips. Leans slightly towards GT. Score: 0.10.
+- **offroad_ability**: Low ground clearance and FWD make it poor for off-road use. Score: 1.00.
+- **braking_dist_ft**: No specific data found, but generally expected to be average or slightly better for a sporty car. Score: 0.10.
+- **size**: Length is 4256mm. This is smaller than the 4600mm average. Score: -0.50.
+- **wheelbase**: Wheelbase is 2578mm. This is smaller than the 2700mm average. Score: -0.30.
+- **body_style**: 2-Door Coupe. Score: -1.00.
+- **seats**: 4 seats. Score: -0.50.
+- **cargo_space**: Boot space is 312 litres. This is approximately 11 cu ft (312 L / 28.317 = 11.02 cu ft). This is below the 15 cu ft average. Score: -0.30.
+- **rear_space**: Rear legroom is limited in a coupe, though some sources say it's surprisingly decent for two rear passengers. Score: -0.30. (Adjusted from -0.50 to -0.30 based on reviews mentioning decent space for a coupe).
+- **ground_clearance_in**: Ground clearance is around 130mm (5.1 inches). This is below the 6.5 inches average for crossovers, but not extremely low like a sports car. Score: -0.30.
+- **turn_radius_ft**: Turning circle is 11 metres. This is approximately 36.1 ft (11m * 3.28084). This is around the 36 ft average. Score: 0.00.
+- **mpg**: The 2.0 TSI 180 PS DSG has a combined economy of 44.1 mpg (UK). This is good for a petrol engine. Score: 0.30.
+- **co2_g_km**: CO2 emissions for the 2.0 TSI 180 PS DSG are 148 g/km. This is better than the 175 g/km average. Score: 0.30.
+- **electrification**: Petrol engine. Score: -1.00.
+- **electric_range_mi**: Not electric. Score: -1.00.
+- **charge_speed_kw**: Not electric. Score: -1.00.
+- **style_sleek_vs_boxy**: Sleek coupe design. Score: 0.50.
+- **style_aggression_rating**: Sporty design with some aggressive elements. Score: 0.20.
+- **style_modernity_rating**: The design dates back to 2008, facelifted in 2014. It looks somewhat dated by modern standards. Score: -0.50.
+- **handling_rating**: Generally praised for agile handling. Score: 0.30.
+- **ride_comfort_rating**: Sporty suspension can be firm. Score: -0.20.
+- **cabin_noise_rating**: Average for a coupe. Score: 0.00.
+- **shift_smooth_rating**: DSG transmission is generally smooth. Score: 0.30.
+- **steering_feel_rating**: Steering is competent but not always praised for feel. Score: 0.00.
+- **adas_score**: Limited advanced safety features compared to modern cars. Score: -0.50.
+- **visibility_rating**: Coupe shape often results in restricted rear visibility. Score: -0.50.
+- **headlight_rating**: GT trim likely had projector headlights, possibly Bi-xenon as an option. Average for its time. Score: 0.00.
+- **security_rating**: Standard VW security features like alarm and immobiliser. Score: 0.00.
+- **screen_in**: Later GT models had a 6.5-inch touchscreen infotainment system. This is below the 8" average. Score: -0.20.
+- **infotainment_ux_rating**: Older VW system, functional but not cutting-edge by modern standards. Score: -0.10.
+- **smartphone_connect_rating**: Later models had Bluetooth and USB, but Apple CarPlay/Android Auto was not available. Score: -0.50. (Adjusted from 0.30 as CarPlay/Android Auto was not available).
+- **audio_rating**: Standard VW audio system, optional Dynaudio was available. Score: 0.00.
+- **usb_ports**: Likely 1 or 2 ports. Score: 0.00.
+- **comfort_feature_score**: Standard features for a sporty coupe (e.g., climate control, sports seats). Score: 0.00.
+- **convenience_feature_score**: Features like parking sensors were standard or optional on GT. Score: 0.00.
+- **brand_prestige_rating**: Volkswagen is a mainstream brand. Score: 0.00.
+- **model_prestige_rating**: Scirocco is a well-known sporty model, but not a halo car. Score: 0.00.
+- **trim_prestige_rating**: GT is a mid-to-high trim, but not the top R trim. Score: 0.00.
+- **interior_luxury_rating**: Standard VW interior quality, not luxury. Score: 0.00.
+- **interior_tech_focus_rating**: Interior tech was average for its era, not screen-forward like modern cars. Score: 0.00.
+
+Refining scores based on benchmarks and search results:
+- price_usd: Used price around $15k is significantly lower than $52k average. +1.00 is appropriate.
+- insurance_usd_yr: Group 26-31 is mid-range on a 1-50 scale. 0.00 is appropriate.
+- repair_risk_score: Some known engine issues, slightly below average reliability. -0.10 is appropriate.
+- hp: 178 hp vs 200 hp average. -0.10 is appropriate.
+- torque: 207 lb-ft vs 190 lb-ft average. 0.10 is appropriate.
+- accel_0_60_sec: 7.4 sec vs 7.5 sec average. 0.10 is appropriate.
+- top_speed: 140 mph vs 150 mph average. -0.10 is appropriate.
+- cylinder_count: 4 is average. 0.00.
+- engine_displacement: 2.0L is average. 0.00.
+- rear_space: Reviews mention it's decent for a coupe, but still limited compared to a sedan/hatchback. -0.30 seems fair.
+- ground_clearance_in: 5.1 inches is below average (6.5 inches) but not extremely low. -0.30 seems fair.
+- screen_in: 6.5 inches is below 8 inches average. -0.20 is appropriate.
+- smartphone_connect_rating: No CarPlay/Android Auto. -0.50 is appropriate.
+
+All other scores seem consistent with the benchmarks and the car's characteristics.
+
 ```json
 {
   "price_usd": 1.00,
   "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": -0.10,
+  "insurance_usd_yr": 0.00,
   "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": 0.10,
-  "torque": 0.20,
+  "repair_risk_score": -0.10,
+  "hp": -0.10,
+  "torque": 0.10,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
   "accel_0_60_sec": 0.10,
-  "top_speed": 0.00,
+  "top_speed": -0.10,
   "drive_type": -1.00,
-  "transmission_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.10,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
+  "braking_dist_ft": 0.10,
   "size": -0.50,
   "wheelbase": -0.30,
   "body_style": -1.00,
   "seats": -0.50,
   "cargo_space": -0.30,
-  "rear_space": -0.80,
-  "ground_clearance_in": -0.50,
+  "rear_space": -0.30,
+  "ground_clearance_in": -0.30,
   "turn_radius_ft": 0.00,
-  "mpg": 0.20,
-  "co2_g_km": 0.10,
+  "mpg": 0.30,
+  "co2_g_km": 0.30,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.80,
-  "style_aggression_rating": 0.50,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.20,
   "style_modernity_rating": -0.50,
-  "handling_rating": 0.50,
+  "handling_rating": 0.30,
   "ride_comfort_rating": -0.20,
-  "cabin_noise_rating": -0.20,
-  "shift_smooth_rating": 0.50,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.30,
   "steering_feel_rating": 0.00,
-  "adas_score": -0.70,
-  "visibility_rating": -1.00,
+  "adas_score": -0.50,
+  "visibility_rating": -0.50,
   "headlight_rating": 0.00,
   "security_rating": 0.00,
-  "screen_in": -0.50,
-  "infotainment_ux_rating": -0.50,
-  "smartphone_connect_rating": 0.00,
+  "screen_in": -0.20,
+  "infotainment_ux_rating": -0.10,
+  "smartphone_connect_rating": -0.50,
   "audio_rating": 0.00,
-  "usb_ports": -0.50,
+  "usb_ports": 0.00,
   "comfort_feature_score": 0.00,
-  "convenience_feature_score": -0.50,
+  "convenience_feature_score": 0.00,
   "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.20,
+  "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": -0.20,
-  "interior_tech_focus_rating": -0.50
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": 0.00
+}
+``````json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": -0.10,
+  "hp": -0.10,
+  "torque": 0.10,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.10,
+  "top_speed": -0.10,
+  "drive_type": -1.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.10,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.10,
+  "size": -0.50,
+  "wheelbase": -0.30,
+  "body_style": -1.00,
+  "seats": -0.50,
+  "cargo_space": -0.30,
+  "rear_space": -0.30,
+  "ground_clearance_in": -0.30,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.30,
+  "co2_g_km": 0.30,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.20,
+  "style_modernity_rating": -0.50,
+  "handling_rating": 0.30,
+  "ride_comfort_rating": -0.20,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.30,
+  "steering_feel_rating": 0.00,
+  "adas_score": -0.50,
+  "visibility_rating": -0.50,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": -0.20,
+  "infotainment_ux_rating": -0.10,
+  "smartphone_connect_rating": -0.50,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": 0.00
 }
 ```

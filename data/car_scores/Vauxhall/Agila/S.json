@@ -1,107 +1,57 @@
-Based on the search results for the Vauxhall Agila (specifically the 2008-2014 generation, which includes the 'S' trim):
-
-*   **Price:** The 1.0i ecoFLEX S manual had an RRP of £10635.00 in 2014 [6]. This is well below the $35,000 market average, scoring 1.00.
-*   **Total Cost Estimate 5yr:** As a cheap, reliable city car with good MPG and low insurance, the 5-year cost will be well below average. Scoring 1.00.
-*   **Insurance USD/yr:** Insurance groups for the Agila range from 4 to 12 [20, 21, 24, 25]. The 1.0 S ecoFLEX is group 6 [24, 25], and the 1.2 S is group 9 [24, 25]. These are very low groups, indicating cheap insurance, scoring 1.00.
-*   **Maint USD/yr:** Maintenance is generally reported as reasonable [2]. Some reports of specific part failures (ABS pump, transmission) but overall reliability is good [2, 5, 23]. Scoring 0.75.
-*   **Repair Risk Score:** The Agila is based on the Suzuki Splash and is reported as being very reliable, even named Europe's most reliable car in one survey [2, 5, 23]. Scoring 1.00.
-*   **HP:** 1.0L engine is 64-68 hp [3, 11, 14, 19, 26], 1.2L is 85-93 hp [12, 19]. Both are well below the 200 hp average. Scoring -1.00.
-*   **Torque:** 1.0L is 66-67 lb-ft [11, 14, 19], 1.2L is 84-87 lb-ft [12, 19]. Well below the 190 lb-ft average. Scoring -1.00.
-*   **Cylinder Count:** 1.0L is 3-cylinder [7, 11, 14, 19], 1.2L is 4-cylinder [7, 19]. Average is around 4-6. 3-cylinder is below average. Scoring 0.00 (as 4-cyl is also available).
-*   **Engine Displacement:** 1.0L (996cc) or 1.2L (1199cc) [11, 14, 19, 26]. Well below the 3.0L average. Scoring -1.00.
-*   **Accel 0-60 sec:** 1.0L is 13.6-14.7 seconds [3, 7, 11, 13, 14, 26, 29], 1.2L is 11.6-12.3 seconds [7, 12, 19]. All are well above the 7.5 sec average. Scoring -1.00.
-*   **Top Speed:** 1.0L is 99 mph [3, 11, 13, 14, 29], 1.2L is 109 mph [5, 12]. Well below the 150 mph average. Scoring -1.00.
-*   **Drive Type:** Front Wheel Drive (FWD) [7, 14, 29]. Scoring -1.00.
-*   **Transmission Type:** Available with 5-speed manual or 4-speed automatic [5, 12, 19, 29]. Manual is -1.00, Automatic is +1.00. Since both are available, and the auto is a basic 4-speed, average is 0.00.
-*   **Offroad Ability:** Low ground clearance, FWD city car. Very poor offroad ability. Scoring +1.00 based on the inverse scale.
-*   **Braking Dist ft:** No specific data found, but typical for a small, light car with basic brakes. Defaulting to 0.00.
-*   **Size:** Length is around 3.7m (3700mm) [5, 14, 28, 29]. Well below the 4600mm average. Scoring -1.00.
-*   **Wheelbase:** 2360mm [8, 9, 19]. Well below the 2700mm average. Scoring -1.00.
-*   **Body Style:** 5-door hatchback/mini-MPV [12, 14, 19, 28]. Closer to a sedan/coupe than a van. Scoring 0.00.
-*   **Seats:** 5 seats [12, 14, 16]. Scoring 0.00.
-*   **Cargo Space:** 225L (seats up) [8, 9], 1050L (seats folded) [5, 16, 17, 26]. 225L is about 8 cu ft. This is low compared to a Civic (15 cu ft) but better than a Miata (5 cu ft). Scoring -0.75.
-*   **Rear Space:** Rear legroom ~630mm (24.8 inches) [14]. This is quite tight. Scoring -0.75.
-*   **Ground Clearance in:** No specific data found, but visually low for a city car. Estimating around 5-6 inches. Scoring -0.25.
-*   **Turn Radius ft:** 9m turn circle [14], which is about 29.5 ft. This is better than the 36 ft average. Scoring 0.75.
-*   **MPG:** Combined MPG ranges from 47-62 mpg (NEDC) [4], 51.4-60.1 mpg (combined) [5, 10, 11, 12, 14, 26]. Real MPG reported between 33-67 mpg [5]. These are good figures compared to the 30 mpg average. Scoring 0.75.
-*   **CO2 g/km:** Ranges from 109-131 g/km [5, 11, 14, 19, 26, 27]. Lower than the 175 g/km average. Scoring 0.50.
-*   **Electric Range mi:** Not electric. Scoring -1.00.
-*   **Charge Speed kw:** Not electric. Scoring -1.00.
-*   **Style Sleek vs Boxy:** Described as having a tall shape [2, 5], better looking than the old boxy model [5, 19], but still a mini-MPV design [19, 28]. Not sleek. Scoring -0.75.
-*   **Style Aggression Rating:** Soft, non-aggressive design. Scoring -1.00.
-*   **Style Modernity Rating:** Design is from 2008-2014. Looks dated compared to modern cars. Scoring -0.75.
-*   **Handling Rating:** Described as having secure roadholding [16], leans in corners but not too much [2], steering has reassuring weight [2]. Not a sports car, but competent for a city car. Scoring 0.00.
-*   **Ride Comfort Rating:** No specific reviews found on ride comfort, but city cars are typically average. Defaulting to 0.00.
-*   **Cabin Noise Rating:** No specific reviews found on cabin noise, but budget city cars are often not well insulated. Scoring -0.75.
-*   **Shift Smooth Rating:** Manual gearbox described as pleasant with robust, positive action [2]. Automatic is a basic 4-speed, likely not very smooth. Averaging manual and auto experience. Scoring 0.00.
-*   **Steering Feel Rating:** Steering has reassuring weight [2], power assisted steering is lovely for parking [5]. Good for city driving, but likely not engaging. Scoring 0.25.
-*   **ADAS Score:** Minimal tech, likely only basic ABS and airbags [6, 16]. No modern ADAS features. Scoring -1.00.
-*   **Visibility Rating:** Good visibility, flat rear helps with parking [2]. Tall shape helps. Scoring 0.75.
-*   **Headlight Rating:** Likely basic halogen or projector headlights for the era/price point. Scoring -0.50.
-*   **Security Rating:** Basic security features like central locking [16]. No advanced systems mentioned. Scoring 0.00.
-*   **Screen in:** Likely a very small basic display for the radio/CD player [16, 28, 29]. Scoring -1.00.
-*   **Infotainment UX Rating:** Basic CD player interface [16, 28, 29]. Not a modern infotainment system. Scoring -1.00.
-*   **Smartphone Connect Rating:** No modern smartphone connectivity like CarPlay/Android Auto. Scoring -1.00.
-*   **Audio Rating:** 4 speakers mentioned [16]. Basic audio system. Scoring -0.75.
-*   **USB Ports:** Not mentioned, likely 0 or 1. Scoring -1.00.
-*   **Comfort Feature Score:** Basic features, air conditioning optional on S [16, 17]. Manual seats. Scoring -0.75.
-*   **Convenience Feature Score:** Basic features, power steering standard [16]. No advanced parking aids or cameras mentioned for the S trim. Scoring -0.75.
-*   **Brand Prestige Rating:** Vauxhall is a mainstream brand. Scoring 0.00.
-*   **Model Prestige Rating:** Agila is an entry-level city car model. Scoring 1.00.
-*   **Trim Prestige Rating:** "S" is typically a base or lower-mid trim level. Scoring 1.00.
-*   **Interior Luxury Rating:** Hardgrained plastics, simple controls [2, 5, 16]. Not luxurious. Scoring -1.00.
-*   **Interior Tech Focus Rating:** Minimal screens, basic controls. Not tech-focused. Scoring -1.00.```json
+```json
 {
-  "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": 1.00,
-  "insurance_usd_yr": 1.00,
-  "maint_usd_yr": 0.75,
-  "repair_risk_score": 1.00,
-  "hp": -1.00,
-  "torque": -1.00,
-  "cylinder_count": 0.00,
-  "engine_displacement": -1.00,
-  "accel_0_60_sec": -1.00,
-  "top_speed": -1.00,
-  "drive_type": -1.00,
-  "transmission_type": 0.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
-  "size": -1.00,
-  "wheelbase": -1.00,
-  "body_style": 0.00,
-  "seats": 0.00,
-  "cargo_space": -0.75,
-  "rear_space": -0.75,
-  "ground_clearance_in": -0.25,
-  "turn_radius_ft": 0.75,
-  "mpg": 0.75,
-  "co2_g_km": 0.50,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": -0.75,
-  "style_aggression_rating": -1.00,
-  "style_modernity_rating": -0.75,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": -0.75,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": 0.25,
-  "adas_score": -1.00,
-  "visibility_rating": 0.75,
-  "headlight_rating": -0.50,
-  "security_rating": 0.00,
-  "screen_in": -1.00,
-  "infotainment_ux_rating": -1.00,
-  "smartphone_connect_rating": -1.00,
-  "audio_rating": -0.75,
-  "usb_ports": -1.00,
-  "comfort_feature_score": -0.75,
-  "convenience_feature_score": -0.75,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 1.00,
-  "trim_prestige_rating": 1.00,
-  "interior_luxury_rating": -1.00,
-  "interior_tech_focus_rating": -1.00
+ "price_usd": 1.00,
+ "total_cost_estimate_5yr_usd": 0.50,
+ "insurance_usd_yr": 1.00,
+ "maint_usd_yr": 0.00,
+ "repair_risk_score": 0.50,
+ "hp": -1.00,
+ "torque": -1.00,
+ "cylinder_count": 0.00,
+ "engine_displacement": -1.00,
+ "accel_0_60_sec": -1.00,
+ "top_speed": -1.00,
+ "drive_type": -1.00,
+ "transmission_type": 0.00,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.00,
+ "size": -1.00,
+ "wheelbase": -1.00,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": -1.00,
+ "rear_space": -1.00,
+ "ground_clearance_in": 0.00,
+ "turn_radius_ft": 1.00,
+ "mpg": 1.00,
+ "co2_g_km": 0.00,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": -1.00,
+ "style_aggression_rating": -1.00,
+ "style_modernity_rating": -1.00,
+ "handling_rating": 0.00,
+ "ride_comfort_rating": 0.00,
+ "cabin_noise_rating": -0.50,
+ "shift_smooth_rating": 0.00,
+ "steering_feel_rating": 0.00,
+ "adas_score": -1.00,
+ "visibility_rating": 0.50,
+ "headlight_rating": -1.00,
+ "security_rating": 0.00,
+ "screen_in": -1.00,
+ "infotainment_ux_rating": -1.00,
+ "smartphone_connect_rating": -1.00,
+ "audio_rating": -1.00,
+ "usb_ports": -1.00,
+ "comfort_feature_score": -1.00,
+ "convenience_feature_score": -1.00,
+ "brand_prestige_rating": 0.00,
+ "model_prestige_rating": 1.00,
+ "trim_prestige_rating": 1.00,
+ "interior_luxury_rating": -1.00,
+ "interior_tech_focus_rating": -1.00
 }
 ```

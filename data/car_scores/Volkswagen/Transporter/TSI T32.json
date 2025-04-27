@@ -1,0 +1,113 @@
+The search results confirm that the T6.1 is the most recent version of the Transporter. While T32 payload is primarily associated with diesel engines, some sources mention TSI engines in the T6 range, and T32 refers to payload capacity rather than a specific trim level like Startline, Trendline, or Highline. Given the request for 'TSI T32', I will evaluate based on a T6.1 with a TSI engine (likely 150PS or 204PS) and the T32 payload capacity, assuming a standard or mid-range trim level as T32 isn't a trim itself. I will use specs for a 150PS or 204PS TSI where available, and T32 characteristics (like payload, which impacts ride/handling) where relevant.
+
+-   **price_usd**: Prices for T6.1 vans vary significantly by configuration and trim. A T32 with a higher payload and potentially a more powerful engine (like the 204PS TSI) would be above the base models. Prices for T6.1 vans range widely, but a T32 variant would likely be above the market average car price. Score: -0.10.
+-   **total_cost_estimate_5yr_usd**: Vans generally have decent resale value but can have higher running costs (fuel for TSI, maintenance). Score: -0.10.
+-   **insurance_usd_yr**: Transporters fall into insurance groups 25-43. A T32 with a more powerful TSI engine would likely be in a higher group. This is high compared to average cars. Score: -0.20.
+-   **maint_usd_yr**: VW commercial vehicle maintenance is generally average. Score: 0.00.
+-   **repair_risk_score**: VW Transporter reliability is considered average. Score: 0.00.
+-   **hp**: TSI engines are available in 150PS (~148 HP) and 204PS (~201 HP). 150PS is below average, 204PS is around average. Assuming either is possible for a T32 TSI, let's take the average performance impact. Score: -0.20.
+-   **torque**: 150PS TSI has 280Nm (~207 lb-ft), 204PS TSI has 350Nm (~258 lb-ft). Both are around or above the average car torque. Score: 0.20.
+-   **cylinder_count**: 4-cylinder. Below average compared to the 6-cylinder benchmark. Score: -0.20.
+-   **engine_displacement**: 2.0L. Below average compared to the 3.0L benchmark. Score: -0.20.
+-   **accel_0_60_sec**: 150PS TSI T30 is around 11.0-11.5s. 204PS TSI T6 is around 8.4-8.6s. A T32 might be slightly slower due to payload capacity. This ranges from very slow to slightly below average. Score: -0.70.
+-   **top_speed**: 150PS TSI is around 110-115 mph. 204PS TSI T6 is around 121 mph. Below average. Score: -0.40.
+-   **drive_type**: FWD is standard, 4MOTION AWD is optional. Default to FWD. Score: -1.00.
+-   **transmission_type**: 6-speed manual or 7-speed DSG automatic. Assume Manual is standard for a non-specific trim. Score: -1.00.
+-   **driving_track_vs_gt**: Utility/daily driver. Score: 0.00.
+-   **offroad_ability**: Higher ground clearance than cars, 4MOTION available. Score: 0.50.
+-   **braking_dist_ft**: Heavier vehicle, likely longer braking distance than average car. Score: -0.20.
+-   **size**: Large van (SWB ~4.9m, LWB ~5.3m). Above average. Score: 0.50.
+-   **wheelbase**: SWB ~3000mm, LWB ~3400mm. Above average. Score: 0.50.
+-   **body_style**: Van/Kombi. Excellent utility. Score: 1.00.
+-   **seats**: T32 payload is often associated with panel vans (2-3 seats) or Kombi (5-6 seats). Assume panel van for payload focus. Score: -0.50.
+-   **cargo_space**: Excellent load volume (5.8m³+ / ~200+ cu ft). Superb. Score: 1.00.
+-   **rear_space**: Panel van has no rear space. Score: -1.00.
+-   **ground_clearance_in**: Decent for a van, not an SUV. Score: 0.00.
+-   **turn_radius_ft**: Turning circle 11.9m (~39 ft) for SWB. Slightly below average. Score: -0.10.
+-   **mpg**: 150PS TSI is around 25-31 mpg. 204PS TSI is around 24.5-31.7 mpg. Average compared to the 30 mpg benchmark. Score: 0.00.
+-   **co2_g_km**: 150PS TSI is around 208 g/km. 204PS TSI is around 203-217 g/km. Below average compared to modern cars. Score: -0.20.
+-   **electrification**: Petrol. Score: -1.00.
+-   **electric_range_mi**: N/A. Score: -1.00.
+-   **charge_speed_kw**: N/A. Score: -1.00.
+-   **style_sleek_vs_boxy**: Very boxy. Score: -1.00.
+-   **style_aggression_rating**: Not aggressive. Score: -1.00.
+-   **style_modernity_rating**: Updated design, but fundamentally a van shape. Score: 0.00.
+-   **handling_rating**: Van handling is not sporty. Score: -0.30.
+-   **ride_comfort_rating**: Can be firm, especially T32 with higher payload. Score: -0.10.
+-   **cabin_noise_rating**: Can be noisy, especially with TSI engine and cargo area. Score: -0.40.
+-   **shift_smooth_rating**: Manual is average. Score: 0.00.
+-   **steering_feel_rating**: Numb, utility focused. Score: -0.30.
+-   **adas_score**: T6.1 has more ADAS than T6, including Crosswind Assist, Front Assist standard. Lane Assist, Park Assist, Blind Spot Monitoring are available. Assume basic standard ADAS for a non-specific trim. Score: 0.00.
+-   **visibility_rating**: Good forward/side visibility due to large windows, rear visibility poor in panel van. Assume panel van for T32. Score: 0.00.
+-   **headlight_rating**: Likely halogen or basic LED on lower trims. Score: -0.20.
+-   **security_rating**: Standard van security, immobiliser. Score: 0.00.
+-   **screen_in**: T6.1 has 6.5" Composition Colour standard, 8" Discover Media and 9.2" Discover Pro optional. Assume 6.5" standard. Score: -0.10.
+-   **infotainment_ux_rating**: VW system is generally decent, T6.1 updated. Score: 0.20.
+-   **smartphone_connect_rating**: Apple CarPlay/Android Auto (App-Connect) is standard on T6.1. Score: 0.00.
+-   **audio_rating**: Basic system on lower trims. Score: -0.50.
+-   **usb_ports**: Two USB-C ports standard. Score: 0.00.
+-   **comfort_feature_score**: Basic comfort (manual seats, basic climate). Score: -0.80.
+-   **convenience_feature_score**: Basic convenience (maybe rear parking sensors standard). Score: -0.50.
+-   **brand_prestige_rating**: Volkswagen is mainstream. Score: 0.10.
+-   **model_prestige_rating**: Transporter is iconic but not high prestige. Score: 0.50.
+-   **trim_prestige_rating**: T32 is a payload variant, not a trim level. Score 0.00 seems appropriate as it's not a base trim but also not a luxury/sport trim. Score: 0.00.
+-   **interior_luxury_rating**: Basic, durable materials. Score: -1.00.
+-   **interior_tech_focus_rating**: Functional, not tech-focused, though Digital Cockpit is optional. Score: -0.50.
+
+```json
+{
+  "price_usd": -0.10,
+  "total_cost_estimate_5yr_usd": -0.10,
+  "insurance_usd_yr": -0.20,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -0.20,
+  "torque": 0.20,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": -0.70,
+  "top_speed": -0.40,
+  "drive_type": -1.00,
+  "transmission_type": -1.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 0.50,
+  "braking_dist_ft": -0.20,
+  "size": 0.50,
+  "wheelbase": 0.50,
+  "body_style": 1.00,
+  "seats": -0.50,
+  "cargo_space": 1.00,
+  "rear_space": -1.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.00,
+  "co2_g_km": -0.20,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": -1.00,
+  "style_aggression_rating": -1.00,
+  "style_modernity_rating": 0.00,
+  "handling_rating": -0.30,
+  "ride_comfort_rating": -0.10,
+  "cabin_noise_rating": -0.40,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": -0.30,
+  "adas_score": 0.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": -0.20,
+  "security_rating": 0.00,
+  "screen_in": -0.10,
+  "infotainment_ux_rating": 0.20,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": -0.50,
+  "usb_ports": 0.00,
+  "comfort_feature_score": -0.80,
+  "convenience_feature_score": -0.50,
+  "brand_prestige_rating": 0.10,
+  "model_prestige_rating": 0.50,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": -1.00,
+  "interior_tech_focus_rating": -0.50
+}
+```

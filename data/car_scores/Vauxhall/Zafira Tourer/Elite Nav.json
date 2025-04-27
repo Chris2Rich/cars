@@ -1,0 +1,109 @@
+- **price_usd**: Used prices for 2017-2018 Vauxhall Zafira Tourer Elite Nav models in the UK range from around £9,500 to £14,000. Converting £10,000 to USD (approx 1.2 USD/GBP) is $12,000. This is well below the market average of $52,000. Score: +1.00.
+- **total_cost_estimate_5yr_usd**: Running costs are generally considered reasonable for its class. Reliability is mixed but average repair costs are good (less than £350). Depreciation is a factor for MPVs. Compared to the $40,000 average, it's likely lower due to the low purchase price and reasonable running costs, but not extremely low. Score: 0.50.
+- **insurance_usd_yr**: Insurance groups for the Zafira Tourer Elite Nav range from 17E to 22A depending on the engine. These are around or slightly above the middle of the Zafira Tourer range (11-22) but still likely below the national average cost for a new car. Score: 0.25.
+- **maint_usd_yr**: Average repair cost is less than £350. This suggests lower than average annual maintenance costs. Score: 0.50.
+- **repair_risk_score**: Reliability reviews are mixed, with reported issues including engine, electrical, suspension, gearbox, and fuel system problems. While average repair costs are good, the frequency of potential issues places it below average for reliability. Score: -0.25.
+- **hp**: Elite Nav trim offered engines like the 1.4T (138-140 hp) and 2.0 CDTi (170 hp). The 1.4T is well below the 200 hp average, while the 2.0 CDTi is closer but still below. Score: -0.50.
+- **torque**: 1.4T has 200 Nm (147 lb-ft) or 1850 Nm (likely a typo, should be around 185 Nm / 136 lb-ft or 185 lb-ft). 2.0 CDTi has 400 Nm (295 lb-ft). The 2.0 CDTi torque is above the 190 lb-ft average. Averaging across common Elite Nav engines, it's around average. Score: 0.00.
+- **cylinder_count**: Engines are typically 4-cylinder. This is the market average. Score: 0.00.
+- **engine_displacement**: Common engines are 1.4L, 1.6L, and 2.0L. These are around or slightly below the market average of 3.0L. Score: -0.25.
+- **accel_0_60_sec**: 0-60 mph times range from 9.1s (2.0 CDTi 165PS) to 10.2s (1.4T auto) or 9.9s (1.4T manual). These times are slower than the market average of 7.5s. Score: -0.50.
+- **top_speed**: Top speeds range from 122 mph (1.4T) to 129 mph (2.0 CDTi). This is below the market average of 150 mph. Score: -0.50.
+- **drive_type**: Front-wheel drive (FWD). Score: -1.00.
+- **transmission_type**: Offered with manual and automatic transmissions. Automatic is available. Score: 1.00.
+- **driving_track_vs_gt**: MPV designed for family transport and comfort. Score: 1.00.
+- **offroad_ability**: Low ground clearance MPV, not designed for off-road. Score: 1.00.
+- **braking_dist_ft**: Brakes are described as strong and responsive in one review, but lacking bite in another. No specific distance found, assume average. Score: 0.00.
+- **size**: Length is around 4656-4666 mm (183.4-183.7 inches). This is slightly larger than a typical sedan/hatchback but smaller than large SUVs/vans. Score: 0.10.
+- **wheelbase**: Wheelbase is 2760 mm (108.66 inches). This is around the average for a modern vehicle. Score: 0.00.
+- **body_style**: 5-door MPV (van-like). Score: 0.75.
+- **seats**: 7 seats standard. Score: 1.00.
+- **cargo_space**: 152 litres (5.37 cu ft) with 7 seats up, 710 litres (25.07 cu ft) with 3rd row folded, 1860 litres (65.69 cu ft) with 2nd and 3rd rows folded. Excellent cargo space with seats folded. Score: 1.00.
+- **rear_space**: Second row seats slide and recline for comfort. Third row is cramped, best for children. Score: 0.25.
+- **ground_clearance_in**: Around 123 mm (5 inches). This is below the average for crossovers/SUVs but typical for a car-based MPV. Score: -0.25.
+- **turn_radius_ft**: Turning circle is around 11.4m (37.4 ft). This is around the market average. Score: 0.00.
+- **mpg**: Combined MPG varies by engine, e.g., 1.4T petrol 41.5-42.2 mpg, 1.6 CDTi diesel 68.9 mpg, 2.0 CDTi 54.3-57.7 mpg. Diesel engines offer very good MPG for the size. Score: 0.75.
+- **co2_g_km**: CO2 emissions vary by engine, e.g., 1.6 CDTi 109 g/km, 1.4T 156 g/km, 2.0 CDTi 129-137 g/km. Diesel engines have relatively low CO2 for their time. Score: 0.50.
+- **electrification**: Petrol/Diesel engines only. Score: -1.00.
+- **electric_range_mi**: N/A. Score: -1.00.
+- **charge_speed_kw**: N/A. Score: -1.00.
+- **style_sleek_vs_boxy**: MPV shape, more streamlined than older vans but still fundamentally a box for practicality. Score: -0.25.
+- **style_aggression_rating**: Not an aggressive design. Score: -0.75.
+- **style_modernity_rating**: Facelifted model (post-2016) updated the styling to be more modern, but the underlying design is from 2011. It's average compared to today's market. Score: 0.00.
+- **handling_rating**: Praised for being surprisingly agile for an MPV, with decent handling and road-holding. Score: 0.25.
+- **ride_comfort_rating**: Generally considered comfortable, though some found the ride a little firm. Elite Nav could have optional FlexRide adaptive damping. Score: 0.25.
+- **cabin_noise_rating**: 1.6 CDTi "Whisper diesel" was quiet, but 2.0 diesel can be noisy. Score: 0.25.
+- **shift_smooth_rating**: Depends on transmission. Manuals are likely average, automatics were offered. No specific reviews on smoothness found, assume average. Score: 0.00.
+- **steering_feel_rating**: MPV steering is typically not engaging. No specific reviews found, assume average/numb. Score: 0.00.
+- **adas_score**: Elite Nav trim could be equipped with advanced driver assistance systems including Adaptive Cruise Control, Forward Collision Alert, Lane Departure Warning, Traffic Sign Recognition, Advanced Parking Assistant, and Side Blind Spot Alert. OnStar includes automatic crash response. Score: 0.75.
+- **visibility_rating**: Praised for outstanding visibility, especially with the panoramic windscreen. Score: 1.00.
+- **headlight_rating**: Facelifted models offered Adaptive Forward Lighting LED headlamps. Elite Nav trim likely had these available. Score: 0.75.
+- **security_rating**: Elite Nav trim includes remote control security alarm system. OnStar includes stolen vehicle assistance. Score: 0.75.
+- **screen_in**: Facelifted models (post-2016) got a 7-inch touchscreen. This is below the current market average screen size. Score: -0.25.
+- **infotainment_ux_rating**: Infotainment system was updated in the facelift, described as improved and easier to use, but some reviews found the newer system hasn't aged well. Score: 0.00.
+- **smartphone_connect_rating**: Facelifted models (post-2016) with R4.0 IntelliLink or Navi 950 IntelliLink systems offered Apple CarPlay and Android Auto compatibility. Note that the Navi 950 system initially did *not* support CarPlay/Android Auto, but R4.0 did. Assuming R4.0 or later Navi versions with compatibility are common on Elite Nav post-facelift. Score: 0.75.
+- **audio_rating**: Standard audio system with DAB radio and 6 speakers. No specific premium audio mentioned for Elite Nav trim. Score: 0.00.
+- **usb_ports**: USB connection mentioned as standard. USB power socket for rear seat passengers mentioned. Likely 1 or 2 ports in the front, possibly one in the rear. Score: -0.25.
+- **comfort_feature_score**: Elite Nav is the top trim. Includes leather upholstery (front and second row), heated front seats, electronic climate control, cruise control, ergonomic front seats, extendable front seat cushions, power lumbar adjustment. Optional Lounge Seating for second row. Score: 0.75.
+- **convenience_feature_score**: Elite Nav includes front/rear parking sensors. OnStar includes Wi-Fi hotspot, stolen vehicle assistance, vehicle diagnostics. Score: 0.75.
+- **brand_prestige_rating**: Vauxhall is a mainstream brand. Score: 0.00.
+- **model_prestige_rating**: Zafira Tourer is a family MPV. Score: 0.00.
+- **trim_prestige_rating**: 'Elite Nav' is the top trim level. Score: -1.00.
+- **interior_luxury_rating**: Elite Nav trim has leather upholstery and premium materials, but the overall cabin design is described as a tad clinical or not quite luxury. Score: 0.25.
+- **interior_tech_focus_rating**: Facelift brought updated infotainment, OnStar, and available ADAS. Score: 0.50.```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.50,
+  "insurance_usd_yr": 0.25,
+  "maint_usd_yr": 0.50,
+  "repair_risk_score": -0.25,
+  "hp": -0.50,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": -0.25,
+  "accel_0_60_sec": -0.50,
+  "top_speed": -0.50,
+  "drive_type": -1.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.10,
+  "wheelbase": 0.00,
+  "body_style": 0.75,
+  "seats": 1.00,
+  "cargo_space": 1.00,
+  "rear_space": 0.25,
+  "ground_clearance_in": -0.25,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.75,
+  "co2_g_km": 0.50,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": -0.25,
+  "style_aggression_rating": -0.75,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.25,
+  "ride_comfort_rating": 0.25,
+  "cabin_noise_rating": 0.25,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.75,
+  "visibility_rating": 1.00,
+  "headlight_rating": 0.75,
+  "security_rating": 0.75,
+  "screen_in": -0.25,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.75,
+  "audio_rating": 0.00,
+  "usb_ports": -0.25,
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 0.25,
+  "interior_tech_focus_rating": 0.50
+}
+```

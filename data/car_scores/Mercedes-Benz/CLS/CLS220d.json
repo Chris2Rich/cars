@@ -1,0 +1,111 @@
+Based on the search results, the Mercedes-Benz CLS 220d was available in the C257 generation (2018-2021, with a facelift in 2021) and also in the earlier C218 generation (2011-2018). The most recent version would be from the C257 generation, specifically the facelifted model from 2021-2023. Specs vary slightly by year and market, but the core CLS 220d (194 HP) seems consistent for the C257. I will use data primarily from the 2019-2021 C257 CLS 220d and the facelifted 2021-2023 CLS 220d where available.
+
+- **price\_usd**: Used prices for 2016-2018 CLS220d AMG Line in the UK are around £11,000 - £15,000. A 2019 CLS220d AMG Line is listed at £15,650. A new price for a 2021 model was around 73,568 euros (~$80,000 USD). This is significantly above the market average. Score: -0.50.
+- **total\_cost\_estimate\_5yr\_usd**: No specific 5-year cost estimate found. Default to 0.00.
+- **insurance\_usd\_yr**: UK Insurance Group is around 37-40. This is high, suggesting higher than average insurance costs. Score: -0.50.
+- **maint\_usd\_yr**: No specific maintenance cost found. Mercedes-Benz maintenance is generally higher than average. Default to 0.00.
+- **repair\_risk\_score**: No specific reliability rating found for the CLS220d. Mercedes-Benz generally has average to slightly below-average reliability. The OM654 engine is generally considered reliable but can have issues. Default to 0.00.
+- **hp**: The CLS 220d (C257) has 194 HP. The earlier C218 had 170-177 HP. Using the more recent 194 HP. This is around the market average of ~200 hp. Score: 0.00.
+- **torque**: The CLS 220d (C257) has 400 Nm (295 lb-ft). The earlier C218 also had 400 Nm. 295 lb-ft is well above the average of ~190 lb-ft. Score: 0.50.
+- **cylinder\_count**: The CLS 220d has a 4-cylinder engine. This is below the average for performance-oriented cars but common in the general market. Score: -0.25.
+- **engine\_displacement**: The CLS 220d (C257) has a 2.0L (1950 cm3) engine. The earlier C218 had a 2.1L (2143 cm3) engine. Using the more recent 2.0L. This is around the average engine displacement. Score: 0.00.
+- **accel\_0\_60\_sec**: The CLS 220d (C257) does 0-100 km/h in 7.5 seconds. This is approximately 7.1 seconds 0-60 mph. The earlier C218 was 8.1-8.5 seconds. Using the more recent 7.1-7.5 seconds. This is around the market average of ~7.5 seconds. Score: 0.00.
+- **top\_speed**: The CLS 220d (C257) has a top speed of 235-237 km/h (146-147 mph). The earlier C218 was 138 mph. Using the more recent 146-147 mph. This is slightly below the average of 150 mph. Score: -0.10.
+- **drive\_type**: The CLS 220d (C257) is Rear-Wheel Drive (RWD). RWD is rated +1.00. Score: 1.00.
+- **transmission\_type**: The CLS 220d (C257) has a 9-speed automatic transmission (9G-TRONIC). The earlier C218 had a 7-speed automatic (7G-Tronic). Automatic transmission is rated +1.00. Score: 1.00.
+- **driving\_track\_vs\_gt**: Reviews describe the CLS as a comfortable GT car. Score: +1.00.
+- **offroad\_ability**: The CLS is a low-slung sedan, not designed for off-road use. Score: +1.00 (poor off-road ability).
+- **braking\_dist\_ft**: No specific braking distance found. Default to 0.00.
+- **size**: The CLS (C257) is around 4988-5010 mm long. This is larger than a Honda Civic (~4600mm) but not as large as a Hummer EV (>5100mm). Score: 0.50.
+- **wheelbase**: The CLS (C257) has a wheelbase of 2939 mm (115.7 inches). The earlier C218 had 2874mm. Using the more recent 2939mm. This is longer than a Skoda Octavia (~2700mm) but shorter than an S-Class (>3200mm). Score: 0.50.
+- **body\_style**: The CLS is described as a "four-door coupe" or "4-door fastback sedan". Score: 0.00.
+- **seats**: The CLS (C257) has seating for 5. Some earlier models or configurations might have had 4 seats. Using 5 seats as the more recent standard. This is the market average. Score: 0.00.
+- **cargo\_space**: The CLS (C257) has 520 litres (18.36 cu ft) of cargo space. Earlier C218 had 475 litres. Using the more recent 520 litres (18.36 cu ft). This is slightly above a Honda Civic (~15 cu ft). Score: 0.25.
+- **rear\_space**: Rear access is easier than the front, but the middle seat is temporary, and it's better thought of as a four-seater. Rear headroom is noted as tight for taller passengers. Rear legroom is around 34.96 inches (888 mm). This is around the average for a compact crossover (~35"). Score: 0.00.
+- **ground\_clearance\_in**: Ground clearance is around 93 mm (3.66 inches) for the C257. An earlier model is listed at 120mm. Using the C257 data, 3.66 inches is very low. Score: -1.00.
+- **turn\_radius\_ft**: Turning circle is 11.6-11.9 meters (38.06-39 feet) for the C257. Earlier C218 was 11.18m (36.68 ft). Using the C257 data, 38-39 ft is slightly above the Camry's 36 ft, meaning a slightly larger turning circle (worse). Score: -0.10.
+- **mpg**: The CLS 220d (C257) has a combined WLTP of 43-51 MPG UK (36-43 US MPG). NEDC combined is 49-59 MPG UK (41-49 US MPG). Real-world MPG is around 45-50 MPG UK (37-42 US MPG). Using a range of 37-43 US MPG. This is above the average of ~30 mpg. Score: 0.50.
+- **co2\_g\_km**: The CLS 220d (C257) has CO2 emissions of 129-143 g/km (NEDC/WLTP). This is significantly lower than the average of ~175 g/km. Score: 0.50.
+- **electrification**: The CLS 220d is a diesel engine. Score: -1.00.
+- **electric\_range\_mi**: Not electric. Score: -1.00.
+- **charge\_speed\_kw**: Not electric. Score: -1.00.
+- **style\_sleek\_vs\_boxy**: The CLS is known for its sleek, coupe-like profile. Score: +1.00.
+- **style\_aggression\_rating**: The design is elegant and stylish, with AMG Line trim adding some sportiness. Not overly aggressive. Score: 0.25.
+- **style\_modernity\_rating**: The C257 design is modern and contemporary. Score: 0.50.
+- **handling\_rating**: Reviews mention comfortable handling, tuned for comfort over sportiness. Score: 0.25.
+- **ride\_comfort\_rating**: Reviews praise the comfortable ride, excelling as a cruiser. Score: +1.00.
+- **cabin\_noise\_rating**: Reviews note good isolation and a quiet cabin, filtering out most annoying sounds. Score: 0.75.
+- **shift\_smooth\_rating**: The 9-speed automatic transmission is described as silky-smooth. Score: +1.00.
+- **steering\_feel\_rating**: No specific detailed reviews on steering feel found for the 220d. Default to 0.00.
+- **adas\_score**: The CLS (C257) comes with a suite of driver assistance systems. Standard features include Blind Spot Alert, Brake Assist, Lane Keeping Assist, Parking Assist, and optional advanced systems. Score: 0.75.
+- **visibility\_rating**: Rear visibility is noted as limited due to the sloping roofline. Score: -0.50.
+- **headlight\_rating**: Standard equipment includes LED headlights, with optional Multibeam LED Intelligent Light System. Score: 0.75.
+- **security\_rating**: Standard features include alarm system, immobilizer, and SOS button. Mercedes vehicles typically have good security features. Score: 0.50.
+- **screen\_in**: The C257 CLS features dual 12.3-inch screens. Score: 0.75.
+- **infotainment\_ux\_rating**: Features the MBUX system with touchscreen, touchpad, voice control, etc. Reviews find it intuitive despite complexity. Score: 0.75.
+- **smartphone\_connect\_rating**: Standard features include Apple CarPlay and Android Auto. Wireless charging is available. Score: 0.75.
+- **audio\_rating**: Optional Burmester sound system is available. Standard system is likely good. Score: 0.75.
+- **usb\_ports**: Features two USB ports in the front. More ports are available. Score: 0.50.
+- **comfort\_feature\_score**: Standard features include heated front seats, dual-zone climate control, partial electric seats. Optional features include cooled seats, memory seats. Score: 0.75.
+- **convenience\_feature\_score**: Standard features include keyless start, parking sensors, rearview camera, 360-degree camera, active parking assist. Score: 0.75.
+- **brand\_prestige\_rating**: Mercedes-Benz is a high-prestige brand. Score: +1.00.
+- **model\_prestige\_rating**: The CLS slots between the E-Class and S-Class, positioned as a stylish, more exclusive alternative to the E-Class. It's upper-middle/high within the brand. Score: -0.50.
+- **trim\_prestige\_rating**: The CLS220d is typically an entry-level engine for the CLS, often paired with AMG Line trim which is a good trim but not the top AMG models. Score: 0.00.
+- **interior\_luxury\_rating**: The interior is described as refined, with quality materials like leather and wood trim. Score: 0.75.
+- **interior\_tech\_focus\_rating**: Features large digital screens, MBUX, advanced ADAS, and connectivity. The interior is screen-forward and modern. Score: +1.00.```json
+{
+  "price_usd": -0.50,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.00,
+  "torque": 0.50,
+  "cylinder_count": -0.25,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.00,
+  "top_speed": -0.10,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.50,
+  "wheelbase": 0.50,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.25,
+  "rear_space": 0.00,
+  "ground_clearance_in": -1.00,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.50,
+  "co2_g_km": 0.50,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 1.00,
+  "style_aggression_rating": 0.25,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.25,
+  "ride_comfort_rating": 1.00,
+  "cabin_noise_rating": 0.75,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.75,
+  "visibility_rating": -0.50,
+  "headlight_rating": 0.75,
+  "security_rating": 0.50,
+  "screen_in": 0.75,
+  "infotainment_ux_rating": 0.75,
+  "smartphone_connect_rating": 0.75,
+  "audio_rating": 0.75,
+  "usb_ports": 0.50,
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": -0.50,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": 1.00
+}
+```

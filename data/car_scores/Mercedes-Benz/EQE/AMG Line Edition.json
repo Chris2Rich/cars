@@ -1,57 +1,132 @@
-```json
+Based on the search results, I can evaluate the Mercedes-Benz EQE AMG Line Edition. It seems the "AMG Line Edition" is often associated with the EQE 350+ or EQE 350 4Matic models, sometimes with additional packages like "Night Edition" or "Premium Plus". I will use data primarily from the EQE 350+ AMG Line Edition Saloon where available, and supplement with general EQE AMG Line or EQE 350/500 data where the "Edition" specific data is missing, noting that performance/range can vary by motor configuration (350+, 350 4Matic, 500 4Matic).
+
+*   **price_usd**: The EQE 350+ starts around $74,900. The AMG EQE starts at $106,900. The AMG Line Edition sits between these. A UK listing for EQE 350+ AMG Line Edition shows a price, but converting GBP to USD is less reliable than finding a US price. US MSRP for EQE 350 4MATIC is $77,900, EQE 500 4MATIC is $85,900. An EQE 500 with AMG Line Exterior/Interior packages was listed at $98,350. Let's estimate the AMG Line Edition around $80,000 - $90,000 USD. This is well above the $52,000 average. Score: -0.50.
+*   **total_cost_estimate_5yr_usd**: Luxury EV, likely higher than average due to depreciation and potential repair costs, but lower fuel costs. Default to 0.00 as specific data is hard to find.
+*   **insurance_usd_yr**: UK Insurance Group 50E is high. This suggests high insurance costs. Score: -1.00.
+*   **maint_usd_yr**: Luxury EV maintenance can be higher than average, though less frequent than ICE. Default to 0.00.
+*   **repair_risk_score**: Mercedes-Benz generally has average reliability, though complex EVs can have issues. Default to 0.00.
+*   **hp**: EQE 350+ AMG Line Edition is listed at 288 bhp. This is above the 200 hp average. Score: 0.25. (Note: AMG EQE is much higher, but AMG Line Edition is not the full AMG).
+*   **torque**: EQE 350+ AMG Line Edition is listed at 565 Nm (417 lb-ft). This is significantly above the 190 lb-ft average. Score: 0.50.
+*   **cylinder_count**: 0 (EV). Score: 0.00.
+*   **engine_displacement**: 0 (EV). Score: 0.00.
+*   **accel_0_60_sec**: EQE 350+ AMG Line Edition is listed at 6.5 seconds. Parkers lists 6.3 seconds for EQE 350+ AMG Line Premium. Car and Driver tested EQE 350 4Matic at 5.3 seconds. 6.5s is slightly faster than the 7.5s average. Score: 0.25.
+*   **top_speed**: EQE 350+ AMG Line Edition is listed at 130 mph. This is below the 150 mph average for many sedans. Score: -0.25.
+*   **drive_type**: EQE 350+ is RWD. EQE 350 4Matic is AWD. AMG Line Edition can be RWD or AWD depending on the specific model. Let's assume RWD for the 350+ variant found. Score: +1.00 (RWD is +1.00 in the guide).
+*   **transmission_type**: Single-speed automatic (EV). Smooth. Score: 1.00.
+*   **driving_track_vs_gt**: Luxury sedan, designed for comfortable long drives. Score: 1.00.
+*   **offroad_ability**: Low-slung luxury sedan. Poor off-road. Score: -1.00.
+*   **braking_dist_ft**: No specific data found for AMG Line Edition. Default to 0.00.
+*   **size**: Length is 4946 mm, which is larger than the 4600mm average. Score: 0.75.
+*   **wheelbase**: Wheelbase is 3120 mm. This is significantly longer than the 2700mm average. Score: 0.75.
+*   **body_style**: 4-door Saloon/Sedan. Score: 0.00.
+*   **seats**: 5 seats. Score: 0.00.
+*   **cargo_space**: 430 litres (15.2 cu ft). This is around the 15 cu ft average. Score: 0.00. (Previous EQE eval had -0.25, let's stick closer to the data found).
+*   **rear_space**: Rear legroom is generous, described as "almost feel limo-like" and 38.2 inches. Score: 0.50.
+*   **ground_clearance_in**: Listed as 132 mm (5.2 inches). This is below the 6.5" average for crossovers, but typical for a sedan. Score: 0.00. (Note: EQE SUV is higher).
+*   **turn_radius_ft**: Turning circle is 12.5m (41 ft) or 12.3m (40.4 ft) for Estate. AMG EQE Sedan is 40.7 ft. This is slightly larger than the 36 ft average. Score: -0.25.
+*   **mpg**: EV, high efficiency. Score: 1.00.
+*   **co2_g_km**: EV, 0 g/km. Score: 1.00.
+*   **electrification**: EV. Score: 1.00.
+*   **electric_range_mi**: EQE 350+ AMG Line Edition is listed with a WLTP range of 428 miles. EPA range for EQE 350+ is 308 miles. Let's use the EPA estimate as it's more comparable across models. 308 miles is well above the 100-mile average for early EVs, but not top-tier like Lucid Air. Score: 0.75.
+*   **charge_speed_kw**: DC fast charging up to 170 kW. AC charging 9.6 kW. 170 kW DC is good, above average but not the fastest available (250-350+ kW). Score: 0.50.
+*   **style_sleek_vs_boxy**: Very sleek, "one bow" design. Score: 1.00.
+*   **style_aggression_rating**: AMG Line adds some sporty cues, but it's still a sleek luxury car, not overtly aggressive. Score: 0.25.
+*   **style_modernity_rating**: Very modern EV design. Score: 1.00.
+*   **handling_rating**: Described as having "good handling" and "precise and virtually without roll" with rear-wheel steer, but also "heavy and wafty" and "light on driver involvement". Score: 0.00 (Average for a large luxury sedan, not a sports car).
+*   **ride_comfort_rating**: Excellent ride comfort, "super-supple air suspension makes light work of bumps", "excellent", "comfortable and composed". Score: 1.00.
+*   **cabin_noise_rating**: Very quiet, "silent refinement". Score: 1.00.
+*   **shift_smooth_rating**: EV, single speed, inherently smooth. Score: 1.00.
+*   **steering_feel_rating**: Electromechanical power assist. Rear-axle steering helps agility. Likely comfortable but not highly communicative. Score: 0.00.
+*   **adas_score**: Mercedes is known for advanced ADAS, standard features include parking assist with surround view, active lane keeping assist, blind spot assist. High score. Score: 1.00.
+*   **visibility_rating**: Rear window is "notably small", windscreen "curiously tiny". Score: -0.75.
+*   **headlight_rating**: Digital Light headlamps available. Mercedes typically has excellent headlights. Score: 1.00.
+*   **security_rating**: Luxury car, Guard 360 degree vehicle protection, tracking, speedfencing, valet protect. High score. Score: 1.00.
+*   **screen_in**: Standard is 12.3" instrument cluster and 12.8" central display. Hyperscreen (17.7" central, 12.3" passenger) is optional. Using the standard screens. 12.8" is large. Score: 0.75.
+*   **infotainment_ux_rating**: MBUX system is "fantastic" and "super responsive" with a "genuinely decent voice assistant". Score: 0.75.
+*   **smartphone_connect_rating**: Wireless smartphone integration (Apple CarPlay/Android Auto) is standard. Score: 1.00.
+*   **audio_rating**: Burmester surround sound system is standard on some trims and described as "fabulous". Score: 1.00.
+*   **usb_ports**: Not specified, but typically multiple in a modern luxury car. Default to 0.00.
+*   **comfort_feature_score**: Heated power front seats with memory standard. AMG sport seats. Heated front seats. Dual-zone climate control. Air Balance Package, HEPA filter available. High level of features. Score: 1.00.
+*   **convenience_feature_score**: Parking assist with surround view (360 camera) standard. KEYLESS-GO, HANDS-FREE ACCESS. Power trunk. High level of features. Score: 1.00.
+*   **brand_prestige_rating**: Mercedes-Benz. High prestige. Score: 1.00.
+*   **model_prestige_rating**: EQE is a high-end EV sedan, below EQS but above entry-level. Score: 0.50.
+*   **trim_prestige_rating**: AMG Line Edition is a sporty/upgraded trim, above base but below full AMG. Score: 0.00.
+*   **interior_luxury_rating**: Luxurious and well-finished, high-quality fit and finish. Leather upholstery available. Score: 1.00.
+*   **interior_tech_focus_rating**: Very tech-focused interior with large screens and MBUX. Score: 1.00.
+
+Double check scores against guide and examples. Adjust if necessary.
+*   Price: ~$80k-$90k is closer to -$0.50 than -$0.75.
+*   Insurance: Group 50E is the highest, -1.00 is appropriate.
+*   0-60: 6.5s is faster than 7.5s (0.00) but not close to 2.5s (+1.00). 0.25 seems right.
+*   Top Speed: 130 mph is below 150 mph (0.00). -0.25 seems right.
+*   Drive Type: RWD is +1.00.
+*   Cargo Space: 15.2 cu ft is very close to 15 cu ft (0.00). Let's change from -0.25 to 0.00.
+*   Ground Clearance: 5.2 inches is below 6.5 inches (0.00). -0.75 seems too low compared to sports cars (<4" = -1.00). Let's try -0.25.
+*   Turn Radius: 41 ft is larger than 36 ft (0.00) but not >45 ft (-1.00). -0.25 seems right.
+*   Range: 308 miles is well above 100 miles (0.00) but not >375 miles (+1.00). 0.75 seems right.
+*   Charge Speed: 170 kW is above 11-50 kW (0.00) but not 250-350+ kW (+1.00). 0.50 seems right.
+*   Handling: Reviews are mixed, leaning towards comfortable GT rather than sporty. 0.00 seems appropriate for average handling *for its class* (luxury sedan), but compared to the *overall market*, it's likely better than average. Let's reconsider. It has air suspension and rear steering, which aids handling. Reviews mention good grip and precise direction changes. Let's rate it slightly above average for the general market. 0.25.
+*   Visibility: Poor rear visibility is noted. -0.75 seems appropriate.
+*   Screen Size: 12.8" is large, but not the largest available (17"+). 0.75 seems right.
+*   Infotainment UX: MBUX is generally praised. 0.75 seems appropriate.
+*   Smartphone Connect: Wireless is +1.00.
+*   USB Ports: No specific data, default 0.00.
+*   Trim Prestige: AMG Line is a step up, but not the top AMG. 0.00 seems right.
+
+Final check on values and scoring. Looks reasonable based on the search results and scoring guide.```json
 {
-  "price_usd": -0.10,
-  "total_cost_estimate_5yr_usd": -0.10,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": -0.20,
+  "price_usd": -0.50,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": 0.00,
   "repair_risk_score": 0.00,
-  "hp": 0.75,
-  "torque": 0.75,
+  "hp": 0.25,
+  "torque": 0.50,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.50,
-  "top_speed": 0.25,
-  "drive_type": 0.00,
+  "accel_0_60_sec": 0.25,
+  "top_speed": -0.25,
+  "drive_type": 1.00,
   "transmission_type": 1.00,
-  "driving_track_vs_gt": 0.00,
+  "driving_track_vs_gt": 1.00,
   "offroad_ability": -1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.00,
+  "size": 0.75,
+  "wheelbase": 0.75,
   "body_style": 0.00,
   "seats": 0.00,
   "cargo_space": 0.00,
-  "rear_space": 0.25,
-  "ground_clearance_in": 0.00,
-  "turn_radius_ft": 0.00,
-  "mpg": 0.75,
+  "rear_space": 0.50,
+  "ground_clearance_in": -0.25,
+  "turn_radius_ft": -0.25,
+  "mpg": 1.00,
   "co2_g_km": 1.00,
   "electrification": 1.00,
   "electric_range_mi": 0.75,
-  "charge_speed_kw": 0.75,
-  "style_sleek_vs_boxy": 0.75,
-  "style_aggression_rating": 0.50,
-  "style_modernity_rating": 0.75,
-  "handling_rating": 0.75,
-  "ride_comfort_rating": 0.50,
-  "cabin_noise_rating": 0.75,
-  "shift_smooth_rating": 0.75,
-  "steering_feel_rating": 0.25,
-  "adas_score": 0.75,
-  "visibility_rating": 0.00,
+  "charge_speed_kw": 0.50,
+  "style_sleek_vs_boxy": 1.00,
+  "style_aggression_rating": 0.25,
+  "style_modernity_rating": 1.00,
+  "handling_rating": 0.25,
+  "ride_comfort_rating": 1.00,
+  "cabin_noise_rating": 1.00,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 1.00,
+  "visibility_rating": -0.75,
   "headlight_rating": 1.00,
-  "security_rating": 0.75,
+  "security_rating": 1.00,
   "screen_in": 0.75,
   "infotainment_ux_rating": 0.75,
   "smartphone_connect_rating": 1.00,
-  "audio_rating": 0.75,
-  "usb_ports": 0.50,
-  "comfort_feature_score": 0.75,
-  "convenience_feature_score": 0.75,
+  "audio_rating": 1.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 1.00,
+  "convenience_feature_score": 1.00,
   "brand_prestige_rating": 1.00,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": -0.25,
-  "interior_luxury_rating": 0.75,
-  "interior_tech_focus_rating": 0.75
+  "model_prestige_rating": 0.50,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 1.00,
+  "interior_tech_focus_rating": 1.00
 }
 ```

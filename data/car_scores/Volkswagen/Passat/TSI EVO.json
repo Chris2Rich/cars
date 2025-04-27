@@ -1,111 +1,57 @@
-The user is asking for an evaluation of the most recent Volkswagen Passat with the "TSI EVO" engine. Based on the search results, "TSI EVO" refers to the latest generation of Volkswagen's petrol engines, often with mild-hybrid technology (eTSI), available in the B9 Passat, which was introduced in 2023 and is primarily sold as an Estate/Variant in Europe. I will evaluate based on the B9 Passat Variant 1.5 eTSI 150 PS (110 kW) FWD with 7-speed DSG, as this is a common configuration for the TSI EVO engine in the latest generation.
-
-Here is the evaluation of the B9 Passat Variant 1.5 eTSI 150 PS FWD:
-
-*   **price_usd**: Starts around €39,995 - €44,995 in Europe (Source 2, 10, 14, 28, 30), which is approximately $43,000 - $48,000 USD. This is above the $35,000 market average. Score: -0.20.
-*   **total_cost_estimate_5yr_usd**: No specific data found for the B9. Default to 0.00.
-*   **insurance_usd_yr**: No specific data found for the B9. Default to 0.00.
-*   **maint_usd_yr**: No specific data found for the B9. Default to 0.00.
-*   **repair_risk_score**: Volkswagen reliability is generally considered average (based on B8 data and general perception). Default to 0.00.
-*   **hp**: 110 kW = 148 hp (Source 4, 5, 15, 22, 27, 31, 34, 35, 38). This is below the 200 hp average. Score: -0.60.
-*   **torque**: 250 Nm = 184 lb-ft (Source 4, 5, 15, 22, 31, 35). This is around the 190 lb-ft average. Score: 0.00.
-*   **cylinder_count**: 4 cylinders (Source 4, 9, 14, 17, 18, 19). Score: 0.00.
-*   **engine_displacement**: 1.5L (Source 4, 5, 15, 22, 27, 31, 35, 38). This is below the 3.0L average. Score: -0.70.
-*   **accel_0_60_sec**: 0-100 km/h is 9.2-9.3 seconds (Source 4, 6, 10, 14, 15, 31, 34). 0-60 mph is around 8.7-8.9 seconds (Source 4, 15, 31). This is slower than the 7.5 sec average. Score: -0.50.
-*   **top_speed**: Around 222-223 km/h (138 mph) (Source 4, 6, 10, 15, 19, 31, 34). Around 150 mph is average. Score: -0.20.
-*   **drive_type**: Front-Wheel Drive (FWD) (Source 4, 5, 15, 18, 31, 34). Score: -1.00.
-*   **transmission_type**: 7-speed DSG automatic (Source 4, 5, 6, 10, 15, 16, 18, 27, 31, 34). Dual-Clutch Transmission (DCT) is 0.00.
-*   **offroad_ability**: Estate body style, not designed for off-road. Score: 1.00 (following the guide's example).
-*   **braking_dist_ft**: No specific data found. Default to 0.00.
-*   **size**: Length is 4917 mm (Source 1, 2, 4, 5, 6, 9, 11, 12, 14, 17, 19, 20, 24, 25, 27, 28, 33, 37, 38). This is larger than the 4600mm average. Score: 0.30.
-*   **wheelbase**: 2837 mm or 2841 mm (Source 1, 2, 4, 5, 6, 9, 11, 12, 14, 25, 28, 33, 34). This is above the 2700mm average. Score: 0.20.
-*   **body_style**: 5-door Estate/Wagon (Source 1, 2, 9, 11, 14, 20, 25, 27, 29, 31, 32, 35). Score: 0.20 (between Sedan and Van).
-*   **seats**: 5 seats (Source 4, 6, 9, 14, 25, 27, 34). Score: 0.00.
-*   **cargo_space**: 690 liters (24.37 cu ft) with seats up, 1920 liters (67.8 cu ft) with seats down (Source 1, 2, 3, 4, 5, 6, 9, 11, 12, 13, 14, 24, 25, 27, 28, 32, 33, 35, 39). Very large cargo space. Score: 0.80.
-*   **rear_space**: Generous rear legroom (947 mm / 37.3 inches) (Source 1, 2, 3, 4, 5, 13, 24). Positive score. Score: 0.70.
-*   **ground_clearance_in**: No specific data found (Source 2, 11, 32, 39). One source mentions 142mm (~5.6 inches) for a 2024 Passat, but this might be a different variant (Source 42). Default to 0.00.
-*   **turn_radius_ft**: 12 meters = 39.37 ft (Source 4, 5, 6, 9, 14, 22, 37, 40). This is slightly above the 36 ft average. Score: -0.10.
-*   **mpg**: Combined WLTP is around 5.4 L/100km (Source 4, 5, 10, 14, 15, 23, 26, 31, 38). 5.4 L/100km is approximately 43.5 US mpg (Source 4, 5). This is well above the 30 mpg average. Score: 0.80.
-*   **co2_g_km**: Around 122-128 g/km (Source 4, 5, 10, 15, 21, 23, 26). 175 g/km is average. This is below average. Score: 0.60.
-*   **electric_range_mi**: Mild Hybrid, very limited or no pure electric range. Score: -1.00.
-*   **charge_speed_kw**: Mild Hybrid, not applicable for charging speed. Score: -1.00.
-*   **style_sleek_vs_boxy**: Modern wagon shape, not particularly sleek or boxy. Score: 0.00.
-*   **style_aggression_rating**: Styling is generally conservative and understated (Source 1, 2, 3, 4, 5, 18, 25). Not aggressive. Score: -0.50.
-*   **style_modernity_rating**: B9 is a new generation with a modern design (Source 1, 2, 3, 4, 5, 25, 35). Score: 0.50.
-*   **handling_rating**: Described as comfortable and stable, not sporty, improved with optional DCC Pro (Source 1, 2, 3, 4, 5, 11, 13, 24, 25, 37). Score: 0.00.
-*   **ride_comfort_rating**: Praised for excellent ride comfort, almost limo-like with DCC Pro (Source 1, 2, 3, 4, 5, 13, 24, 25, 26, 35, 37, 38). Positive score. Score: 0.80.
-*   **cabin_noise_rating**: Known for a quiet cabin, improved noise insulation (Source 1, 2, 3, 4, 5, 13, 35, 38). Positive score. Score: 0.80.
-*   **shift_smooth_rating**: 7-speed DSG automatic. Generally smooth but can have low-speed hesitation. Score: 0.00.
-*   **steering_feel_rating**: Steering is typically light and precise but lacks significant feedback (Source 1, 2, 3, 4, 5). Score: 0.00.
-*   **adas_score**: Comprehensive suite of ADAS features available, including advanced Park Assist, Travel Assist, Euro NCAP 5-star rating (Source 1, 2, 3, 4, 5, 7, 9, 10, 11, 15, 16, 17, 18, 19, 20, 21, 23, 24, 31, 33, 35, 40). High score. Score: 0.90.
-*   **visibility_rating**: Wagon body style generally offers good visibility. Score: 0.50.
-*   **headlight_rating**: Available with advanced IQ. LIGHT LED matrix headlights (Source 2, 3, 5, 14, 17, 18, 25, 31, 33). High score. Score: 0.90.
-*   **security_rating**: Standard security features expected (Source 24). Default: 0.00.
-*   **screen_in**: Available with large infotainment screens (up to 15 inches) and 10.25-inch digital cockpit standard (Source 2, 3, 5, 13, 14, 15, 26, 33, 34, 40). High score. Score: 0.90.
-*   **infotainment_ux_rating**: Newest VW infotainment system (MIB4), generally improved but can still have some complexity (Source 1, 2, 3, 4, 5, 13, 24, 26). Score: 0.50.
-*   **smartphone_connect_rating**: Standard Apple CarPlay and Android Auto, likely wireless (Source 1, 2, 3, 4, 5, 13, 24). High score. Score: 0.80.
-*   **audio_rating**: Available with premium sound systems (e.g., Harman Kardon) (Source 1, 2, 3, 4, 5, 38). Score: 0.50.
-*   **usb_ports**: Multiple USB-C ports expected (Source 1, 2, 3, 4, 5, 22). Score: 0.30.
-*   **comfort_feature_score**: Available with extensive comfort features like heated/ventilated/massaging ergoActive seats, multi-zone climate control (Source 1, 2, 3, 4, 5, 11, 13, 15, 22, 26, 33, 35). High score. Score: 0.90.
-*   **convenience_feature_score**: Available with extensive convenience features like power tailgate, keyless entry, parking assist, remote parking, steering column gear selector (Source 1, 2, 3, 4, 5, 11, 13, 15, 22, 26, 33, 35, 40). High score. Score: 0.90.
-*   **brand_prestige_rating**: Volkswagen is mainstream. Score: 0.00.
-*   **model_prestige_rating**: Passat is a core model. Score: 0.00.
-*   **trim_prestige_rating**: TSI EVO is an engine variant, not a specific trim. Assuming a mid-range trim level for the evaluation. Score: 0.00.
-*   **interior_luxury_rating**: Interior quality is good, modern design, premium materials on higher trims, but not luxury class (Source 1, 2, 3, 4, 5, 23, 33, 35, 38). Score: 0.20.
-*   **interior_tech_focus_rating**: High focus on screens and digital features, standard digital cockpit (Source 1, 2, 3, 4, 5, 13, 15, 26, 33, 34, 40). High score. Score: 0.80.
-
 ```json
 {
-  "price_usd": -0.20,
+  "price_usd": 0.00,
   "total_cost_estimate_5yr_usd": 0.00,
   "insurance_usd_yr": 0.00,
   "maint_usd_yr": 0.00,
   "repair_risk_score": 0.00,
-  "hp": -0.60,
+  "hp": -0.50,
   "torque": 0.00,
-  "cylinder_count": 0.00,
-  "engine_displacement": -0.70,
-  "accel_0_60_sec": -0.50,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": -0.20,
   "top_speed": -0.20,
   "drive_type": -1.00,
-  "transmission_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 1.00,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.30,
+  "size": 0.20,
   "wheelbase": 0.20,
-  "body_style": 0.20,
+  "body_style": 0.50,
   "seats": 0.00,
-  "cargo_space": 0.80,
-  "rear_space": 0.70,
-  "ground_clearance_in": 0.00,
+  "cargo_space": 1.00,
+  "rear_space": 0.20,
+  "ground_clearance_in": -0.20,
   "turn_radius_ft": -0.10,
   "mpg": 0.80,
-  "co2_g_km": 0.60,
+  "co2_g_km": 0.50,
+  "electrification": 0.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": -0.50,
+  "style_aggression_rating": -0.20,
   "style_modernity_rating": 0.50,
   "handling_rating": 0.00,
   "ride_comfort_rating": 0.80,
   "cabin_noise_rating": 0.80,
-  "shift_smooth_rating": 0.00,
+  "shift_smooth_rating": 0.50,
   "steering_feel_rating": 0.00,
-  "adas_score": 0.90,
-  "visibility_rating": 0.50,
-  "headlight_rating": 0.90,
+  "adas_score": 0.80,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.80,
   "security_rating": 0.00,
-  "screen_in": 0.90,
+  "screen_in": 0.80,
   "infotainment_ux_rating": 0.50,
   "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.50,
-  "usb_ports": 0.30,
-  "comfort_feature_score": 0.90,
-  "convenience_feature_score": 0.90,
+  "audio_rating": 0.00,
+  "usb_ports": 0.50,
+  "comfort_feature_score": 0.80,
+  "convenience_feature_score": 0.80,
   "brand_prestige_rating": 0.00,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.20,
+  "interior_luxury_rating": 0.50,
   "interior_tech_focus_rating": 0.80
 }
 ```

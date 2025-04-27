@@ -1,0 +1,143 @@
+The Porsche 911 996 Carrera 4S was produced from 2001 to 2005. It is part of the 996.2 facelift generation.
+
+-   **price_usd**: Used prices for a 996 Carrera 4S vary significantly, with an average sale price around $41,439 according to one source. However, prices can range from project cars at $6,400 to well-maintained examples selling for $95,000 or more. Compared to the market average for a *new* car (~$52,000), the average used price is slightly below, but the range includes prices well below and approaching the average. Score: 0.20.
+-   **total_cost_estimate_5yr_usd**: While the purchase price can be relatively low for some examples, maintenance and potential repairs on a 15-20+ year old Porsche can be significant. Forum discussions indicate annual costs can range from $1,000-$2,000 in good years to $5,000+ in years with larger repairs or deferred maintenance. The infamous IMS bearing issue, while potentially overblown for some, can lead to very costly engine damage if it fails. A $20k+ rebuild is possible. Considering potential major repairs and standard maintenance, the 5-year cost could easily exceed $40,000, especially if preventative maintenance like the IMS bearing is addressed. Score: -0.20.
+-   **insurance_usd_yr**: The 996 Carrera 4S falls into high insurance groups (49-50). Average annual premiums in the UK can be around £1,797 - £2,537 for a 30-year-old driver. This is above the national average of $1,500. Score: -0.50.
+-   **maint_usd_yr**: Routine service costs are moderate for a Porsche of this era (£230-£504 for scheduled services). However, common maintenance like brake fluid changes (£79), wheel alignment (£165), and potential larger jobs like clutch replacement or suspension work can add up significantly. One owner reported spending £16,169 (~$20,000 USD) over 5 years, averaging ~$4,000/year, although this included some upgrades and significant repairs. Another reported spending $12k in parts alone over 2 years. Maintenance is significantly more expensive than average cars. Score: -0.50.
+-   **repair_risk_score**: The 996 generation is known for the potential IMS bearing failure, which can cause catastrophic engine damage. While failure rates are debated and preventative measures exist, this is a significant known risk that impacts reliability perception and potential repair costs. Other potential issues include coolant expansion tanks and wheel bearings on AWD models. Compared to average cars, the risk of a major, costly engine failure is higher. Score: -0.50.
+-   **hp**: The 996.2 Carrera 4S has 320 hp (316 bhp). This is well above the market average of 200 hp today. Score: 0.50.
+-   **torque**: The 996.2 Carrera 4S has 273 lb-ft (370 Nm). This is well above the market average of 190 lb-ft today. Score: 0.50.
+-   **cylinder_count**: Flat-6 (Boxer 6). Score: 0.00.
+-   **engine_displacement**: 3.6L (3596 cc). Around 3.0L is 0.00, >6.0L is +1.00. 3.6L is slightly above average. Score: 0.20.
+-   **accel_0_60_sec**: Porsche claimed 5.1 seconds. Car and Driver tested a Carrera 4 (non-S) at 4.9 seconds in 2001. The 4S is typically similar or slightly quicker. <2.5s is +1.00, ~7.5s is 0.00. 5.1 seconds is faster than average. Score: 0.70.
+-   **top_speed**: 174 mph (280 km/h). >222mph is +1.00, 150mph is 0.00. 174 mph is above average. Score: 0.20.
+-   **drive_type**: All-wheel drive (AWD) is standard. Score: 0.00.
+-   **transmission_type**: 6-speed manual was standard. A 5-speed Tiptronic automatic was optional. Manual is -1.00, Automatic is +1.00, Dual-Clutch is 0.00. Since both manual and a traditional automatic were available, average to -0.50.
+-   **driving_track_vs_gt**: The Carrera 4S used the wider Turbo bodywork and a stiffer suspension than the standard Carrera 4, leading to better handling. It was considered a good all-around 911, blending performance with daily usability. Score: 0.00.
+-   **offroad_ability**: Not designed for off-road. Low ground clearance. Score: 1.00.
+-   **braking_dist_ft**: Features Turbo brakes (330mm discs). Porsche brakes are typically excellent. Score: 0.00. (No specific braking distance found, default to 0.00).
+-   **size**: Length 4435 mm (174.61 in). Width 1829 mm (72.0 in). ~4600mm (~181in) is 0.00, ~3600mm (~142in) is -1.00. 174.61 inches is slightly smaller than average. Score: -0.20.
+-   **wheelbase**: 2350-2352 mm (92.52-92.6 in). ~2700mm is 0.00, <2300mm is -1.00. 2350-2352mm is closer to -1.00 than 0.00. Score: -0.80.
+-   **body_style**: 2-door coupe (also available as Cabriolet). Coupe is -1.00.
+-   **seats**: 4 seats (2+2 arrangement). Rear seats are small. Score: -0.80.
+-   **cargo_space**: Front luggage compartment. No specific volume found in searches. Typical for 911s of this era is small. Score: -0.80.
+-   **rear_space**: Minimal legroom in rear seats. Score: -1.00.
+-   **ground_clearance_in**: 110 mm (4.33 inches). <4in is -1.00, ~6.5in is 0.00. 4.33 inches is low. Score: -0.80.
+-   **turn_radius_ft**: No specific turn radius found. Typical for 911s is around average. Score: 0.00.
+-   **mpg**: EPA combined 17-18 mpg. ~30 mpg is 0.00, ~12 mpg is -1.00. 17-18 mpg is below average. Score: -0.50.
+-   **co2_g_km**: No specific CO2 data found. Given the MPG, emissions are likely high. Score: -0.80.
+-   **electrification**: Petrol engine only. Score: -1.00.
+-   **electric_range_mi**: Not electric. Score: -1.00.
+-   **charge_speed_kw**: Not electric. Score: -1.00.
+-   **style_sleek_vs_boxy**: Sleek sports car profile, wide body from the Turbo. Score: 0.80.
+-   **style_aggression_rating**: Wider body gives it a more aggressive look than the standard Carrera. Score: 0.20.
+-   **style_modernity_rating**: Introduced water-cooled engine and new chassis, but design is from the late 90s/early 00s. Score: -0.50.
+-   **handling_rating**: Praised for better handling than the standard Carrera 4 due to stiffer suspension. Excellent handling for its era. Score: 0.80.
+-   **ride_comfort_rating**: Stiffer suspension than standard Carrera 4. Ride is likely firmer but still usable. Score: 0.00.
+-   **cabin_noise_rating**: Water-cooled engine is quieter than air-cooled, but still a sports car from the early 00s. Score: -0.20.
+-   **shift_smooth_rating**: 6-speed manual and 5-speed Tiptronic. Quality of shift/smoothness is average for the era. Score: 0.00.
+-   **steering_feel_rating**: Hydraulic power steering, generally well-regarded for feel. Score: 1.00.
+-   **adas_score**: Minimal ADAS features available for the era. Score: -1.00.
+-   **visibility_rating**: Typical sports coupe visibility for the era. Score: 0.20.
+-   **headlight_rating**: Bi-xenon headlamps. Standard for the era, but not modern LED/Matrix. Score: -0.50.
+-   **security_rating**: Basic security features for the era. Score: -0.50.
+-   **screen_in**: Optional Porsche Communication Management (PCM) infotainment system available. Screen size likely small by today's standards. Score: -1.00.
+-   **infotainment_ux_rating**: PCM system was basic by today's standards. Score: -1.00.
+-   **smartphone_connect_rating**: Not available. Score: -1.00.
+-   **audio_rating**: Standard audio system, optional upgrades likely available. Score: 0.00.
+-   **usb_ports**: Not available. Score: -1.00.
+-   **comfort_feature_score**: Full power-adjustable leather seats with driver's side memory, automatic climate control available. Heated seats likely optional. Score: 0.00.
+-   **convenience_feature_score**: Self-adjusting spoiler, power soft-top (Cabriolet), electric hard-top (Cabriolet), cruise control (optional) available. Score: 0.00.
+-   **brand_prestige_rating**: Porsche is a high-prestige brand. Score: 1.00.
+-   **model_prestige_rating**: The 911 is Porsche's halo model. Score: -1.00.
+-   **trim_prestige_rating**: Carrera 4S is a higher performance, wide-body trim, above the base Carrera/4, below Turbo/GT variants. Score: -0.50.
+-   **interior_luxury_rating**: High-quality materials (leather). Interior is well-built but not as luxurious as modern high-end cars. Score: 0.00.
+-   **interior_tech_focus_rating**: More tech than previous generations (PCM), but still driver-focused with analog gauges. Score: -1.00.
+
+Final review of scores:
+- Price, Total Cost, Insurance, Maint: Scores reflect the used market and costs for an older performance car. 0.20/-0.20/-0.50/-0.50 seem reasonable.
+- Repair Risk: -0.50 due to IMS issue. Correct.
+- Performance (HP, Torque, Accel, Top Speed): Scores reflect performance relative to today's market. 0.50/0.50/0.70/0.20 seem reasonable.
+- Engine Details (Cylinders, Displacement): 0.00/0.20 seem correct.
+- Drive Type: 0.00 for AWD. Correct.
+- Transmission: -0.50 for Manual/Auto option. Correct.
+- Driving Track vs GT: 0.00 for performance road car. Correct.
+- Offroad Ability: 1.00 for none. Correct.
+- Braking Dist: 0.00 (no data, default).
+- Size: -0.20 (Slightly smaller than average) - Seems reasonable.
+- Wheelbase: -0.80 (Shorter than average) - Seems reasonable.
+- Body Style: -1.00 for 2-door Coupe. Correct.
+- Seats: -0.80 for 2+2. Correct.
+- Cargo Space: -0.80 (small frunk) - Seems reasonable.
+- Rear Space: -1.00 for minimal. Correct.
+- Ground Clearance: -0.80 (Low) - Seems reasonable.
+- Turn Radius: 0.00 (~36-38ft) - Correct.
+- Efficiency (MPG, CO2): Below average/high emissions. -0.50/-0.80 seem correct.
+- Electrification: -1.00 for petrol. Correct.
+- Electric Range/Charge Speed: -1.00 for N/A. Correct.
+- Style: High score for sleek, lower for aggression/modernity relative to today. 0.80/0.20/-0.50 seem reasonable.
+- Dynamics (Handling, Steering): 0.80/0.00/1.00 seem reasonable for handling, ride/noise, and steering.
+- Shift Smooth: 0.00 (average for era). Correct.
+- Safety/Visibility (ADAS, Visibility, Headlights, Security): Low scores due to age. -1.00/0.20/-0.50/-0.50 seem correct.
+- Infotainment/Connectivity (Screen, UX, Smartphone, Audio, USB): Very low scores due to age. -1.00/-1.00/-1.00/0.00/-1.00 seem correct.
+- Features (Comfort, Convenience): 0.00 for features available for the era. Correct.
+- Prestige (Brand, Model, Trim): High scores for Brand/Model, lower for Trim. 1.00/-1.00/-0.50 seem correct.
+- Interior Character (Luxury, Tech Focus): 0.00/-1.00 seem reasonable for quality but low tech interior.
+
+Looks good. Proceed with JSON output.```json
+{
+  "price_usd": 0.20,
+  "total_cost_estimate_5yr_usd": -0.20,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.50,
+  "hp": 0.50,
+  "torque": 0.50,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.20,
+  "accel_0_60_sec": 0.70,
+  "top_speed": 0.20,
+  "drive_type": 0.00,
+  "transmission_type": -0.50,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": -0.20,
+  "wheelbase": -0.80,
+  "body_style": -1.00,
+  "seats": -0.80,
+  "cargo_space": -0.80,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.80,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.50,
+  "co2_g_km": -0.80,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.80,
+  "style_aggression_rating": 0.20,
+  "style_modernity_rating": -0.50,
+  "handling_rating": 0.80,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": -0.20,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 1.00,
+  "adas_score": -1.00,
+  "visibility_rating": 0.20,
+  "headlight_rating": -0.50,
+  "security_rating": -0.50,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": 0.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": -0.50,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": -1.00
+}
+```

@@ -1,0 +1,166 @@
+The searches confirm the Mercedes-AMG CLA 45 Yellow Night Edition is based on the C117 generation CLA 45 AMG, specifically around the 2017-2018 model years. It features the 2.0L turbo engine (375-381 hp, 350 lb-ft torque), 7-speed DCT, and 4MATIC AWD. It's known for aggressive styling, stiff ride, and tight rear space. Original price was around £53k-£60k (approx $65k-$75k USD at 2017 rates, or compare to today's market average of $52k). Used prices are lower ($40k-$47k AUD, £20k UK). Insurance group is high (45E or 46E). Maintenance costs are higher than average. Reliability seems average for Mercedes. Screen size on the C117 facelift was 8 inches, smaller than many modern cars. ADAS features were available but less comprehensive than current top systems. Cargo space is around 363-470L depending on source/body style (CLA vs GLA, but the prompt is for CLA). Rear legroom is tight. Ground clearance is low. Turning circle is average. Fuel economy and CO2 are worse than average due to performance focus. It's petrol, not electrified. Style is sleek and aggressive. Ride is firm, handling is good. Cabin noise might be higher due to performance exhaust. DCT can be less smooth than a torque converter auto. Steering feel is likely good. Visibility is hampered by the design. Headlights are likely LED/Xenon, good but not top-tier modern. Security is standard Mercedes. Infotainment is older MBUX, screen is smaller, but features like CarPlay were available. USB ports likely fewer. Comfort/convenience features are decent for its time but not top-tier luxury. Brand prestige is high, model prestige is entry-level AMG, trim prestige is high (special edition). Interior luxury is good for an entry-level luxury car, but not S-Class level. Interior tech focus was good for its time but less screen-dominant than modern cars.
+
+Now, map these findings to the -1.00 to +1.00 scale relative to today's market average (0.00).
+
+*   `price_usd`: Original price ($65k-$75k) is above today's average ($52k), so negative score. Used price ($20k-$47k) is closer to or below average, suggesting a positive score. Given the prompt asks for the "most recent version" and this is a specific older edition, using the original price positioning relative to the market *then* might be more appropriate for its intended segment, but the instructions say "today's vehicle market". Let's use a blend or consider its position as a performance car. A new AMG CLA 45 S is ~£70k (~$88k). The Yellow Night was a special edition of the previous gen CLA 45. Let's rate it slightly negative based on its original positioning relative to the *current* average, but less negative than a current AMG S. Let's go with -0.10 to -0.30. Let's use -0.10.
+*   `total_cost_estimate_5yr_usd`: Hard to find exact data. Edmunds shows ~ $66k for a 2022 CLA 45. The older model might be slightly less depreciation but potentially higher repair risk. Let's estimate slightly above average. -0.10.
+*   `insurance_usd_yr`: Group 45/46E is very high. -0.60 to -0.80. Let's use -0.60.
+*   `maint_usd_yr`: $1768/year is high compared to the $1000 average. -0.60.
+*   `repair_risk_score`: Mercedes reliability is average (3.0/5.0 RepairPal). CLA has 31.57% chance of major repair in 10 yrs, worse than segment average. Let's rate slightly below average. -0.30.
+*   `hp`: 375-381 hp is well above the 200 hp average. 0.60 to 0.80. Let's use 0.70.
+*   `torque`: 350 lb-ft (475 Nm) is well above the 190 lb-ft average. 0.60 to 0.80. Let's use 0.70.
+*   `cylinder_count`: 4 cylinders is below the 6-cylinder average for performance cars, but common for compacts. Relative to the *performance* segment, it's low. Relative to the *overall* market average (which includes many 4-cylinders), it's closer to average, but the benchmark is 6=0.00. So 4 is negative. -0.30.
+*   `engine_displacement`: 2.0L is below the 3.0L average benchmark. -0.30.
+*   `accel_0_60_sec`: 3.8-4.2 seconds is excellent. 0.80 to 0.90. Let's use 0.80.
+*   `top_speed`: 155-168 mph is above the 150 mph average benchmark. 0.10.
+*   `drive_type`: AWD is 0.00 on the scale.
+*   `transmission_type`: DCT is 0.00 on the scale.
+*   `driving_track_vs_gt`: Performance AMG, leans towards track/sporty. -0.80.
+*   `offroad_ability`: Very low ground clearance, not off-road capable. +1.00.
+*   `braking_dist_ft`: AMG brakes are high performance, likely better than average. Estimate 0.50. (No specific ft data found).
+*   `size`: Length ~4691mm is slightly above the 4600mm average. 0.10.
+*   `wheelbase`: ~2690-2699mm is close to the 2700mm average. 0.00.
+*   `body_style`: 4-door coupe/sedan is 0.00.
+*   `seats`: 5 seats is 0.00.
+*   `cargo_space`: 363-470L (~12.8 - 16.6 cu ft). 15 cu ft is average. So slightly below to slightly above. Let's use 0.00 as it's close to average.
+*   `rear_space`: Known to be tight (<35"). -0.80.
+*   `ground_clearance_in`: ~117-121mm (~4.6-4.8 inches). Below the 6.5" average. -0.80.
+*   `turn_radius_ft`: ~11m (~36 ft). Exactly the average benchmark. 0.00.
+*   `mpg`: 6.9 L/100km (~34 mpg US) or 38.7 mpg UK (~32 mpg US). Close to the 30 mpg US average. 0.00.
+*   `co2_g_km`: 162-171 g/km. Close to the 175 g/km average. 0.00.
+*   `electrification`: Petrol. -1.00.
+*   `electric_range_mi`: N/A. -1.00.
+*   `charge_speed_kw`: N/A. -1.00.
+*   `style_sleek_vs_boxy`: Very sleek coupe profile. 0.80.
+*   `style_aggression_rating`: AMG + Yellow Night Edition is very aggressive. 0.80.
+*   `style_modernity_rating`: Was modern for its time (2017), but compared to *today's* designs, it's less cutting-edge. 0.30.
+*   `handling_rating`: AMG models have excellent handling. 0.80.
+*   `ride_comfort_rating`: Known for a stiff, firm ride. -0.80.
+*   `cabin_noise_rating`: Performance exhaust adds noise. -0.50.
+*   `shift_smooth_rating`: DCT can be less smooth than a torque converter auto, especially at low speeds. 0.00.
+*   `steering_feel_rating`: AMG steering is typically engaging. 0.50.
+*   `adas_score`: Had some ADAS (parking assist, brake assist, lane keeping, blind spot), but not the full suite of modern systems. 0.30.
+*   `visibility_rating`: Coupe shape and shallow glass limit visibility. -0.50.
+*   `headlight_rating`: Likely Bi-xenon or LED, good but not top-tier matrix LED. 0.40.
+*   `security_rating`: Standard Mercedes security. 0.00.
+*   `screen_in`: C117 facelift had an 8" screen. Modern average is around 8-10", with many larger. 8" is slightly below average now. -0.10. (Note: Aftermarket screens up to 12.3" are available, but rate the factory spec).
+*   `infotainment_ux_rating`: Older MBUX system. Good for its time, but less intuitive than the latest systems. 0.30.
+*   `smartphone_connect_rating`: Had Apple CarPlay/Android Auto. Good, but maybe not wireless or OTA updates like the best modern systems. 0.80.
+*   `audio_rating`: Mercedes offers good audio options. Assume better than average. 0.50.
+*   `usb_ports`: Likely 1-2 ports. Below average. -0.30.
+*   `comfort_feature_score`: Power seats, dual climate, heated seats likely available. Good, but not massaging/ventilated. 0.40.
+*   `convenience_feature_score`: Parking aids, camera, keyless entry. Good, but not auto-close doors, 360 cam, remote park. 0.40.
+*   `brand_prestige_rating`: Mercedes-Benz is high prestige. 0.80.
+*   `model_prestige_rating`: CLA is entry-level Mercedes. 1.00.
+*   `trim_prestige_rating`: AMG Yellow Night Edition is a high-performance, special edition. -1.00.
+*   `interior_luxury_rating`: Good quality materials for entry-luxury, Alcantara/leather, yellow accents. 0.60.
+*   `interior_tech_focus_rating`: Floating screen, digital gauges. Techy for its time, but less screen-dominant than modern cars. 0.60.
+
+Review and refine scores based on benchmarks and comparisons.
+Price: Original was high, used is lower. Let's stick with -0.10 as a blend of its original positioning and current value relative to the market.
+Total Cost: Edmunds data for 2022 CLA45 shows high TCO. Older model might have higher repair risk. -0.30.
+Insurance: Group 45/46 is very high. -0.60.
+Maintenance: $1768 is high. -0.60.
+Repair Risk: Below average reliability. -0.30.
+HP/Torque: High performance. 0.70.
+Cylinder/Displacement: Low for performance, negative score. -0.30.
+Accel: Excellent. 0.80.
+Top Speed: Slightly above average. 0.10.
+Drive Type: AWD is 0.00.
+Transmission: DCT is 0.00.
+Track vs GT: Performance car. -0.80.
+Offroad: Not capable. +1.00.
+Braking: Assume good for AMG. 0.50.
+Size: Slightly above average length. 0.10.
+Wheelbase: Average. 0.00.
+Body Style: 4-door coupe. 0.00.
+Seats: 5. 0.00.
+Cargo: Around average. 0.00.
+Rear Space: Tight. -0.80.
+Ground Clearance: Very low. -0.80.
+Turn Radius: Average. 0.00.
+MPG/CO2: Around average for combined, maybe slightly worse for urban. Let's use 0.00.
+Electrification: Petrol. -1.00.
+Range/Charge: N/A. -1.00.
+Style Sleek: Very sleek. 0.80.
+Style Aggression: Very aggressive. 0.80.
+Style Modernity: Less modern than today's cutting edge. 0.30.
+Handling: Excellent. 0.80.
+Ride Comfort: Stiff. -0.80.
+Cabin Noise: Louder. -0.50.
+Shift Smoothness: DCT can be jerky. 0.00.
+Steering Feel: Engaging. 0.50.
+ADAS: Some features, but not top-tier modern. 0.30.
+Visibility: Limited. -0.50.
+Headlights: Good, but not best-in-class modern. 0.40.
+Security: Average/Good. 0.00.
+Screen Size: 8" is slightly below average now. -0.10.
+Infotainment UX: Older system. 0.30.
+Smartphone Connect: Had CarPlay/AA, but maybe not wireless/OTA. 0.80.
+Audio: Good options. 0.50.
+USB Ports: Likely 1-2. -0.30.
+Comfort Features: Good, but not top luxury. 0.40.
+Convenience Features: Good, but not top luxury. 0.40.
+Brand Prestige: High. 0.80.
+Model Prestige: Entry-level. 1.00.
+Trim Prestige: High performance special edition. -1.00.
+Interior Luxury: Good for segment, sporty touches. 0.60.
+Interior Tech Focus: Techy for its time, less screen-dominant now. 0.60.
+
+Looks reasonable. Final check on values and formatting.```json
+{
+  "price_usd": -0.10,
+  "total_cost_estimate_5yr_usd": -0.30,
+  "insurance_usd_yr": -0.60,
+  "maint_usd_yr": -0.60,
+  "repair_risk_score": -0.30,
+  "hp": 0.70,
+  "torque": 0.70,
+  "cylinder_count": -0.30,
+  "engine_displacement": -0.30,
+  "accel_0_60_sec": 0.80,
+  "top_speed": 0.10,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": -0.80,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.50,
+  "size": 0.10,
+  "wheelbase": 0.00,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": -0.80,
+  "ground_clearance_in": -0.80,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.00,
+  "co2_g_km": 0.00,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.80,
+  "style_aggression_rating": 0.80,
+  "style_modernity_rating": 0.30,
+  "handling_rating": 0.80,
+  "ride_comfort_rating": -0.80,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.50,
+  "adas_score": 0.30,
+  "visibility_rating": -0.50,
+  "headlight_rating": 0.40,
+  "security_rating": 0.00,
+  "screen_in": -0.10,
+  "infotainment_ux_rating": 0.30,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.50,
+  "usb_ports": -0.30,
+  "comfort_feature_score": 0.40,
+  "convenience_feature_score": 0.40,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 1.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.60
+}
+```

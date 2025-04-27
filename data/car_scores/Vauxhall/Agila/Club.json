@@ -1,40 +1,115 @@
-```json
+The Vauxhall Agila Club was part of the second generation (2008-2014). It was available with 1.0L petrol, 1.2L petrol, and 1.3L CDTi diesel engines. The Club trim was a mid-range option.
+
+Here's an evaluation based on the search results:
+
+**Cost & Risk:**
+- **price_usd:** The Agila is a discontinued city car. New prices were around £9,395 - £10,360 in 2008-2010. Used prices today would be very low, likely well under $10,000. Score: +1.00.
+- **total_cost_estimate_5yr_usd:** Low purchase price, good fuel economy, and relatively simple mechanics suggest lower-than-average ownership costs, though maintenance and potential repairs on an older car need consideration. Score: 0.50.
+- **insurance_usd_yr:** Insurance groups for the Agila Club range from 4 to 11 (out of 50), indicating relatively cheap insurance.. Score: +1.00.
+- **maint_usd_yr:** Maintenance costs for a small, older Vauxhall are generally reasonable, but not as cheap as the absolute cheapest models. Score: 0.00.
+- **repair_risk_score:** Suzuki-based design suggests decent reliability. Owner reviews mention some minor issues but generally positive reliability. Score: 0.50.
+
+**Power & Performance:**
+- **hp:** Engine options range from 64-86 hp. This is well below average for today's market. Score: -1.00.
+- **torque:** Torque figures are around 89-114 Nm (66-84 lb-ft). This is very low compared to modern cars. Score: -1.00.
+- **cylinder_count:** Available with 3-cylinder (1.0L) and 4-cylinder (1.2L, 1.3L) engines. 3-cylinder is below average, 4-cylinder is average. Score: 0.00 (averaging the options).
+- **engine_displacement:** Engines are 1.0L, 1.2L, or 1.3L. These are small displacements. Score: -1.00.
+- **accel_0_60_sec:** 0-60 mph times range from 12.0 to 14.7 seconds depending on engine and transmission. This is slow by modern standards. Score: -1.00.
+- **top_speed:** Top speeds range from 99 mph to 109 mph. This is low. Score: -1.00.
+- **drive_type:** Front-wheel drive (FWD). Score: -1.00.
+- **transmission_type:** Available with 5-speed manual or 4-speed automatic. Manual is -1.00, Automatic is +1.00. Averaging these options gives 0.00.
+- **driving_track_vs_gt:** Designed as a city car and daily driver. Score: 0.00.
+- **offroad_ability:** Low ground clearance and FWD mean no off-road capability. Score: 1.00.
+- **braking_dist_ft:** No specific braking distance found, but likely average for its class and era. Score: 0.00.
+
+**Space & Practicality:**
+- **size:** Length is 3740mm. This is a small city car size. Score: -1.00.
+- **wheelbase:** Wheelbase is 2360mm. This is short. Score: -1.00.
+- **body_style:** 5-door hatchback. Score: 0.00.
+- **seats:** 5 seats. Score: 0.00.
+- **cargo_space:** Boot space is 225 litres (seats up) and 1050 litres (seats folded). 225L is small. Score: -1.00.
+- **rear_space:** Rear legroom is 630mm (approx 24.8 inches). This is tight. Score: -1.00.
+- **ground_clearance_in:** No specific figure found, but city cars are generally low. Score: 0.00 (default).
+- **turn_radius_ft:** Turning circle is 9-10m (approx 29.5-32.8 ft). This is good for a city car. Score: 1.00.
+
+**Efficiency & Electrification:**
+- **mpg:** Combined MPG ranges from 47.9 to 62.8 mpg (NEDC) depending on engine. This is good efficiency, especially the diesel. Score: 1.00.
+- **co2_g_km:** CO2 emissions range from 119 g/km to 142 g/km. This was good for its time, but average compared to modern hybrids/EVs. Score: 0.00.
+- **electrification:** Petrol/Diesel engines. Score: -1.00.
+- **electric_range_mi:** N/A. Score: -1.00.
+- **charge_speed_kw:** N/A. Score: -1.00.
+
+**Ride & Dynamics:**
+- **handling_rating:** Reviews mention light steering and decent handling for a tall car, but not sporty. Score: 0.00.
+- **ride_comfort_rating:** Reviews mention good ride comfort, though some note it can be bouncy around town. Score: 0.00.
+- **cabin_noise_rating:** Reviews mention it's quiet inside at speed, but the 1.0L engine can be noisy when pushed. Score: -0.50 (leaning towards noisy under load).
+- **shift_smooth_rating:** Manual gearbox is described as having a "pleasantly positive gear change". Automatic is a basic 4-speed. Score: 0.00 (average).
+- **steering_feel_rating:** Steering is light and well-defined. Score: 0.00.
+
+**Safety & Visibility:**
+- **adas_score:** Very minimal ADAS features, likely only ABS and optional ESP/traction control. Score: -1.00.
+- **visibility_rating:** High driving position and large windows provide good visibility, though thick rear pillars are noted. Score: 0.50.
+- **headlight_rating:** Likely basic halogen headlights for the era and trim. Score: -1.00.
+- **security_rating:** Features engine immobiliser and remote central deadlocking on Club trim. Basic security. Score: 0.00.
+
+**Infotainment & Connectivity:**
+- **screen_in:** Likely no central screen, just a basic radio display. Score: -1.00.
+- **infotainment_ux_rating:** Basic CD player/radio with steering wheel controls. Simple but very limited functionality by modern standards. Score: -1.00.
+- **smartphone_connect_rating:** No smartphone connectivity features like CarPlay or Android Auto. Score: -1.00.
+- **audio_rating:** 4 speakers. Basic audio system. Score: -1.00.
+- **usb_ports:** Unlikely to have USB ports, maybe an aux-in if lucky. Score: -1.00.
+
+**Comfort & Convenience:**
+- **comfort_feature_score:** Club trim has height-adjustable driver/passenger seats, tiltable steering column, optional AC. Basic comfort features. Score: -1.00.
+- **convenience_feature_score:** Features include remote central locking, electric front windows, 60/40 split rear seat, underfloor storage. Optional ESP. Lacks modern convenience like parking sensors/cameras. Score: -1.00.
+
+**Style, Brand & Interior Character:**
+- **interior_luxury_rating:** Basic interior materials, functional design. Score: -1.00.
+- **interior_tech_focus_rating:** Minimal tech focus, basic controls. Score: -1.00.
+- **brand_prestige_rating:** Vauxhall is a mainstream brand. Score: 0.00.
+- **model_prestige_rating:** Agila is an entry-level city car, not a halo model. Score: 1.00.
+- **trim_prestige_rating:** Club is a mid-range trim, not base or top-tier performance. Score: 0.00.
+- **style_sleek_vs_boxy:** Described as tall and boxy, though less so than the first generation. Score: -1.00.
+- **style_aggression_rating:** Soft, friendly styling. Score: -1.00.
+- **style_modernity_rating:** Design is from 2008-2014, looks dated compared to modern cars. Score: -1.00.```json
 {
  "price_usd": 1.00,
- "total_cost_estimate_5yr_usd": 0.80,
+ "total_cost_estimate_5yr_usd": 0.50,
  "insurance_usd_yr": 1.00,
- "maint_usd_yr": 0.50,
+ "maint_usd_yr": 0.00,
  "repair_risk_score": 0.50,
  "hp": -1.00,
  "torque": -1.00,
- "cylinder_count": -1.00,
+ "cylinder_count": 0.00,
  "engine_displacement": -1.00,
  "accel_0_60_sec": -1.00,
  "top_speed": -1.00,
  "drive_type": -1.00,
- "transmission_type": -1.00,
+ "transmission_type": 0.00,
+ "driving_track_vs_gt": 0.00,
  "offroad_ability": 1.00,
  "braking_dist_ft": 0.00,
- "size": -0.80,
+ "size": -1.00,
  "wheelbase": -1.00,
  "body_style": 0.00,
  "seats": 0.00,
- "cargo_space": -0.80,
- "rear_space": -0.50,
- "ground_clearance_in": -0.50,
- "turn_radius_ft": 0.50,
- "mpg": 0.80,
- "co2_g_km": 0.50,
+ "cargo_space": -1.00,
+ "rear_space": -1.00,
+ "ground_clearance_in": 0.00,
+ "turn_radius_ft": 1.00,
+ "mpg": 1.00,
+ "co2_g_km": 0.00,
+ "electrification": -1.00,
  "electric_range_mi": -1.00,
  "charge_speed_kw": -1.00,
- "style_sleek_vs_boxy": -0.80,
+ "style_sleek_vs_boxy": -1.00,
  "style_aggression_rating": -1.00,
  "style_modernity_rating": -1.00,
- "handling_rating": -0.50,
+ "handling_rating": 0.00,
  "ride_comfort_rating": 0.00,
  "cabin_noise_rating": -0.50,
  "shift_smooth_rating": 0.00,
- "steering_feel_rating": -1.00,
+ "steering_feel_rating": 0.00,
  "adas_score": -1.00,
  "visibility_rating": 0.50,
  "headlight_rating": -1.00,

@@ -1,57 +1,134 @@
+The 'Sport' trim was available on the first generation (F39) BMW X2, produced from 2017 to 2022. The current generation (U10) does not offer a 'Sport' trim, using 'M Sport' and 'M35i' instead. I will evaluate the F39 X2 Sport based on today's market benchmarks.
+
+Data points for F39 X2 Sport (using sDrive20i as a common example where engine specs are needed):
+*   **Price (used)**: Used F39 X2 prices in the UK range from £9,544 to £49,950. Average price is around £18,923.63. A 2020 sDrive20i Sport is listed around £19,495 (~$24,700 USD). Compared to the current new car market average of $52,000, this is significantly cheaper.
+*   **Reliability**: 2018 and 2019 F39 models are recommended to be avoided due to common issues like infotainment problems, faulty coolant systems, transmission failure, suspension noise, rough idle, and broken timing chains. Newer F39 years (2020-2023) are considered more reliable. Overall, reliability is mixed, with early models having notable issues.
+*   **Engine (sDrive20i)**: 2.0L 4-cylinder turbo, 141 kW / 192 hp, 280 Nm / 207 lb-ft.
+*   **Performance (sDrive20i)**: 0-100 km/h in 7.7 seconds. Top speed up to 144 mph.
+*   **Drivetrain**: sDrive (Front-Wheel Drive) or xDrive (All-Wheel Drive) depending on the specific model. Sport trim was available with both.
+*   **Transmission**: 7-speed DCT or 8-speed Automatic depending on the engine. sDrive20i Sport used 7-speed DCT.
+*   **Driving Dynamics**: Sport suspension was standard on Sport, M Sport, and M Sport X models, lowered by 10mm compared to SE. Ride is firm. Handling is praised as sporty and agile, like a hot hatch. Steering feel is precise.
+*   **Offroad ability**: Ground clearance around 182mm (7.17 inches) or 172mm (6.77 inches). Sport trim has lowered suspension compared to SE. Not designed for off-road.
+*   **Size/Space**: Length 4360mm (171.7 inches), Wheelbase 2670mm (105.1 inches). Cargo space 470 liters (16.6 cu ft) seats up, 1355 liters (47.8 cu ft) seats folded. Rear space is adequate but headroom limited by roofline. 5 seats. Turn radius 11.3 m (37.07 ft).
+*   **Efficiency (sDrive20i)**: 6.0 L/100km (39.2 US mpg) combined WLTP. CO2 138 g/km.
+*   **Electrification**: Available with Petrol, Diesel, or PHEV (xDrive25e).
+*   **Safety (ADAS)**: Driving Assistant package available (cruise control, lane departure warning, speed limit info). Front/rear parking sensors standard. Forward automatic emergency braking standard. Less comprehensive than current models.
+*   **Visibility**: Poor rearward visibility noted.
+*   **Headlights**: LED headlights standard. Adaptive optional.
+*   **Security**: Standard alarm, immobilizer.
+*   **Interior/Tech**: iDrive 6.0 with 6.5-inch screen standard, optional 8.8-inch or 10.25-inch with touch. Apple CarPlay available (sometimes with fee), Android Auto not offered on early models. Standard audio system (10 speakers on 2023 model). USB ports available. Sport seats standard. Dual-zone climate control. Power tailgate. Less modern interior tech than current models.
+*   **Style/Prestige**: BMW brand. X2 model. Sport trim is above SE, below M Sport/M Sport X/M35i. Sport trim adds specific styling elements and black cladding. Design is less modern than the current U10.
+
+Now, score the F39 X2 Sport based on today's market benchmarks:
+
+*   **price_usd**: Used price (~$25k) is significantly below the $52k average. +0.75.
+*   **total_cost_estimate_5yr_usd**: Older car, potential for higher repair costs. 0.00.
+*   **insurance_usd_yr**: Insurance group was slightly above average when new. As a used car, it might be less expensive than a new luxury car. 0.00.
+*   **maint_usd_yr**: Older BMW, likely out of complimentary maintenance. Maintenance costs can be higher than average. -0.25.
+*   **repair_risk_score**: Reliability concerns mentioned for early F39 models. -0.50.
+*   **hp**: ~192 hp (sDrive20i) vs 200 hp average. Slightly negative. -0.10.
+*   **torque**: ~207 lb-ft (sDrive20i) vs 190 lb-ft average. Slightly positive. +0.10.
+*   **cylinder_count**: 4-cylinder (sDrive20i) vs 6 average. Negative. -0.25.
+*   **engine_displacement**: 2.0L vs 3.0L average. Negative. -0.25.
+*   **accel_0_60_sec**: ~7.7s vs 7.5s average. Slightly negative. -0.10.
+*   **top_speed**: ~144 mph vs 150 mph average. Negative. -0.10.
+*   **drive_type**: Varies (sDrive/xDrive). 0.00.
+*   **transmission_type**: DCT/Auto. 0.00.
+*   **driving_track_vs_gt**: Sport suspension, firm ride, sporty handling. Leans towards track/sporty feel. -0.50.
+*   **offroad_ability**: Limited clearance, sporty suspension. +0.50.
+*   **braking_dist_ft**: 0.00 (No specific data for Sport trim).
+*   **size**: 171.7 inches vs ~181 inches average. Smaller. -0.25.
+*   **wheelbase**: 105.1 inches vs ~106 inches average. 0.00.
+*   **body_style**: Coupe-like crossover. 0.25.
+*   **seats**: 5 seats. 0.00.
+*   **cargo_space**: 16.6 cu ft vs 15 cu ft sedan average, <35 cu ft SUV benchmark. Around average for a sedan, but less than modern crossovers. 0.00.
+*   **rear_space**: Adequate, but limited headroom. 0.00.
+*   **ground_clearance_in**: ~7.1 inches vs 6.5 inches average. Slightly positive. +0.10.
+*   **turn_radius_ft**: ~37 ft vs 36 ft average. 0.00.
+*   **mpg**: ~39 US mpg (sDrive20i) vs 30 mpg average. Positive. +0.50.
+*   **co2_g_km**: ~138 g/km (sDrive20i) vs 175 g/km average. Positive. +0.50.
+*   **electrification**: Varies (Petrol/Diesel/PHEV). 0.00.
+*   **electric_range_mi**: Varies (N/A or ~30 miles). 0.00.
+*   **charge_speed_kw**: Varies (N/A or standard PHEV). 0.00.
+*   **style_sleek_vs_boxy**: Coupe-like with Sport cladding. Leans sleek. +0.50.
+*   **style_aggression_rating**: Sport trim adds some aggressive styling over SE. +0.25.
+*   **style_modernity_rating**: F39 design is older than current models. -0.25.
+*   **handling_rating**: Praised for sporty handling. +0.75.
+*   **ride_comfort_rating**: Noted as firm/stiff. -0.50.
+*   **cabin_noise_rating**: Road/wind noise mentioned. 0.00.
+*   **shift_smooth_rating**: DCT/Auto. 0.00.
+*   **steering_feel_rating**: Praised for good feel. +0.75.
+*   **adas_score**: Less advanced than current models. -0.25.
+*   **visibility_rating**: Poor rearward visibility noted. -0.75.
+*   **headlight_rating**: Standard LED. 0.00.
+*   **security_rating**: Standard alarm, immobilizer. 0.00.
+*   **screen_in**: Older screen sizes (6.5", 8.8", 10.25"). -0.25.
+*   **infotainment_ux_rating**: Older iDrive 6.0. -0.50.
+*   **smartphone_connect_rating**: CarPlay available, no Android Auto on early models. -0.50.
+*   **audio_rating**: Standard system. 0.00.
+*   **usb_ports**: Multiple ports. 0.00.
+*   **comfort_feature_score**: Sport seats, dual-zone climate. 0.00.
+*   **convenience_feature_score**: Power tailgate, parking sensors. 0.00.
+*   **brand_prestige_rating**: BMW. +0.75.
+*   **model_prestige_rating**: X2. 0.50.
+*   **trim_prestige_rating**: Sport is above base SE, below M Sport/M Sport X. Score slightly negative. -0.10.
+*   **interior_luxury_rating**: Quality materials for its time. 0.00.
+*   **interior_tech_focus_rating**: Older iDrive, less screen-focused than modern cars. -0.50.
+
 ```json
 {
-  "price_usd": 0.15,
+  "price_usd": 0.75,
   "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": -0.10,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": -0.10,
-  "hp": -0.30,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.25,
+  "repair_risk_score": -0.50,
+  "hp": -0.10,
   "torque": 0.10,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.10,
+  "cylinder_count": -0.25,
+  "engine_displacement": -0.25,
   "accel_0_60_sec": -0.10,
-  "top_speed": -0.20,
-  "drive_type": -1.00,
+  "top_speed": -0.10,
+  "drive_type": 0.00,
   "transmission_type": 0.00,
-  "driving_track_vs_gt": 0.10,
-  "offroad_ability": 0.40,
-  "braking_dist_ft": 0.80,
-  "size": 0.10,
+  "driving_track_vs_gt": -0.50,
+  "offroad_ability": 0.50,
+  "braking_dist_ft": 0.00,
+  "size": -0.25,
   "wheelbase": 0.00,
-  "body_style": 0.00,
+  "body_style": 0.25,
   "seats": 0.00,
-  "cargo_space": 0.20,
-  "rear_space": 0.10,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
   "ground_clearance_in": 0.10,
-  "turn_radius_ft": -0.05,
-  "mpg": 0.40,
-  "co2_g_km": 0.40,
-  "electrification": -0.50,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.30,
-  "style_aggression_rating": 0.40,
-  "style_modernity_rating": 0.40,
-  "handling_rating": 0.30,
-  "ride_comfort_rating": -0.30,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.50,
+  "co2_g_km": 0.50,
+  "electrification": 0.00,
+  "electric_range_mi": 0.00,
+  "charge_speed_kw": 0.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.25,
+  "style_modernity_rating": -0.25,
+  "handling_rating": 0.75,
+  "ride_comfort_rating": -0.50,
   "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": -0.10,
-  "steering_feel_rating": 0.10,
-  "adas_score": 0.40,
-  "visibility_rating": -0.20,
-  "headlight_rating": 0.20,
-  "security_rating": 0.30,
-  "screen_in": 0.40,
-  "infotainment_ux_rating": 0.10,
-  "smartphone_connect_rating": 0.80,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.75,
+  "adas_score": -0.25,
+  "visibility_rating": -0.75,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": -0.25,
+  "infotainment_ux_rating": -0.50,
+  "smartphone_connect_rating": -0.50,
   "audio_rating": 0.00,
   "usb_ports": 0.00,
-  "comfort_feature_score": 0.30,
-  "convenience_feature_score": 0.40,
-  "brand_prestige_rating": 0.60,
-  "model_prestige_rating": 0.10,
-  "trim_prestige_rating": 1.00,
-  "interior_luxury_rating": 0.40,
-  "interior_tech_focus_rating": 0.60
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.75,
+  "model_prestige_rating": 0.50,
+  "trim_prestige_rating": -0.10,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": -0.50
 }
 ```

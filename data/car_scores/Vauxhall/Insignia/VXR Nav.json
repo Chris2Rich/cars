@@ -1,0 +1,163 @@
+The Vauxhall Insignia VXR Nav is part of the first generation Insignia (2008-2017), specifically the facelifted "Supersport" model produced from 2013 to 2017. It features a 2.8-litre turbocharged V6 engine, AWD, and the Navi 900 IntelliLink infotainment system.
+
+-   **price_usd**: Used prices in the UK for 2013-2017 Insignia VXR Supersport Nav models range from around £4,495 to £11,000+. Converting this to USD (approx 1.27 USD to 1 GBP), this is roughly $5,700 to $14,000+. This is well below the market average of $52,000. Score: +1.00.
+-   **total_cost_estimate_5yr_usd**: The low purchase price is a major factor. However, running costs (fuel, insurance) are significantly higher than average, and maintenance/repair for a performance V6 AWD can be above average. Score: -0.50.
+-   **insurance_usd_yr**: The Insignia VXR is in insurance group 36E. This is significantly above the average insurance group (around 20). Score: -1.00.
+-   **maint_usd_yr**: Maintenance costs for a performance V6 with AWD and adaptive suspension are likely above average. Score: -0.50.
+-   **repair_risk_score**: While the V6 engine is generally reliable, issues with the timing chain (pre-2011), clutch/flywheel, coolant reservoir, oil temperature sensors, rear differential, and steering system have been reported. Overall reliability is mixed. Score: -0.20.
+-   **hp**: The 2.8 V6 Turbo produces 325 PS (321 bhp). This is significantly above the market average of 200 hp. Score: 0.50.
+-   **torque**: The 2.8 V6 Turbo produces 435 Nm (321 lb-ft). This is significantly above the market average of 190 lb-ft. Score: 0.50.
+-   **cylinder_count**: The engine is a V6. This is above the market average which includes many 4-cylinders. Score: 0.50.
+-   **engine_displacement**: The engine displacement is 2.8L (2792cc). This is above the market average (e.g., 2.0L). Score: 0.30.
+-   **accel_0_60_sec**: 0-60 mph is 5.6-5.8 seconds (manual). This is significantly faster than the market average of 7.5 seconds. Score: 0.50.
+-   **top_speed**: Top speed is electronically limited to 155 mph, or 170 mph for the Supersport with the limiter removed. This is around or above the market average of 150 mph. Score: 0.30.
+-   **drive_type**: All-Wheel Drive (AWD) with torque vectoring and eLSD. Score: 0.00.
+-   **transmission_type**: Available with 6-speed Manual and 6-speed Automatic transmissions. The automatic was added later. Scoring for the availability of a modern automatic. Score: 0.50.
+-   **driving_track_vs_gt**: Developed at the Nürburgring, but reviews describe it as a fast GT and comfortable cruiser rather than a track car. Score: 0.70.
+-   **offroad_ability**: Standard passenger car with no off-road capability. Score: 1.00.
+-   **braking_dist_ft**: Features large Brembo four-piston brakes. Reviews praise the braking power. Score: 0.70.
+-   **size**: Length is around 4829-4908mm (Sedan/Hatchback) or 4986-4998mm (Sports Tourer). This is larger than the average Civic (4600mm). Score: 0.30.
+-   **wheelbase**: Wheelbase is 2736-2737mm. Around the average Octavia (2700mm). Score: 0.00.
+-   **body_style**: Available as a 4-door saloon, 5-door hatchback, or Sports Tourer (estate). Score: 0.00 (average practicality).
+-   **seats**: 5 seats. Score: 0.00.
+-   **cargo_space**: Hatchback boot space is 498-520 litres (17.6-18.4 cu ft). Sports Tourer is 540-560 litres (19.1-19.8 cu ft). This is around or slightly above the average Civic (15 cu ft). Score: 0.10 (Hatchback) to 0.30 (Estate). Averaging to 0.20.
+-   **rear_space**: Described as having good legroom, but headroom can be tight due to the sloping roofline, especially for taller passengers. The middle rear seat is narrow. Score: 0.00.
+-   **ground_clearance_in**: The VXR rides 10mm (0.4 inches) lower than the standard Insignia. Standard Insignia ground clearance is around 4.7 inches. So the VXR is likely around 4.3 inches. This is below average. Score: -0.70.
+-   **turn_radius_ft**: Turning circle is 11.4m (37.4ft) or 10m (32.8ft) or 11m (36.1ft). Around the average Camry (36 ft). Score: 0.00.
+-   **mpg**: Official combined NEDC MPG is 24.2-26.7 mpg (UK). Real-world is often in the teens. This is significantly below the market average of 30 mpg. Score: -0.70.
+-   **co2_g_km**: CO2 emissions are 251-274 g/km. This is significantly above the market average of 175 g/km. Score: -1.00.
+-   **electrification**: Petrol engine. Score: -1.00.
+-   **electric_range_mi**: N/A. Score: -1.00.
+-   **charge_speed_kw**: N/A. Score: -1.00.
+-   **style_sleek_vs_boxy**: Sleek, fastback profile (Hatchback/Saloon). Score: 0.50.
+-   **style_aggression_rating**: VXR adds aggressive styling elements like large front air intakes, rear diffuser, and integrated tailpipes. Score: 0.50.
+-   **style_modernity_rating**: Exterior styling was updated in the facelift, but the overall design is from 2008. Interior design feels dated. Score: -0.70.
+-   **handling_rating**: Features adaptive dampers, torque vectoring AWD, HiPerStrut suspension. Handles power well with no torque steer and good grip. However, steering lacks feel and it can be unsettled by mid-corner bumps. Not as engaging as some rivals. Score: 0.30.
+-   **ride_comfort_rating**: Praised for its comfortable ride, even on large wheels, especially in Normal mode. Excellent ride quality for a performance car. Score: 0.70.
+-   **cabin_noise_rating**: Can have road noise, especially from large tyres. Engine can have an annoying boom at certain RPMs. Score: -0.20.
+-   **shift_smooth_rating**: The 6-speed automatic is generally smooth. The manual is described as having a nice action. Score: 0.50.
+-   **steering_feel_rating**: Consistently described as lacking feel, numb, or over-assisted. Score: -0.70.
+-   **adas_score**: Features included traffic sign recognition (early use of front camera), cruise control. More advanced ADAS features common today (adaptive cruise control, blind spot monitoring, AEB) were optional or not available on this generation. Score: -0.70.
+-   **visibility_rating**: Rear visibility is poor due to the sloping roofline and narrow rear window. Thick A-pillars can obstruct cornering visibility. Score: -0.20.
+-   **headlight_rating**: Standard headlights were likely Xenon or Halogen initially, with adaptive Xenons available. Not modern LED Matrix. Score: -0.20.
+-   **security_rating**: Standard features. Score: 0.00.
+-   **screen_in**: The Navi 900 IntelliLink system had an 8-inch screen. This is the market average. Score: 0.00.
+-   **infotainment_ux_rating**: The IntelliLink system was functional but reviews mention it was slow-zooming (Navi), fiddly controls, and occasionally turned itself off. A touchpad was introduced later but reviews were mixed. Score: -0.50.
+-   **smartphone_connect_rating**: Bluetooth and USB connectivity were available. Apple CarPlay/Android Auto were not standard on this generation. Score: -1.00.
+-   **audio_rating**: Standard audio system. Optional Bose system available on some Insignias, but not explicitly mentioned as standard on VXR. Assume average standard system. Score: 0.00.
+-   **usb_ports**: USB connectivity was available. Likely one port standard. Below average. Score: -0.50.
+-   **comfort_feature_score**: Features Recaro sports seats (heated available with Leather Pack), dual-zone climate control (with Leather Pack). Recaro seats are praised for comfort and support. Score: 0.50.
+-   **convenience_feature_score**: Features cruise control, electric windows, electric/power-fold mirrors (with Leather Pack). Parking sensors were likely standard or common. Keyless start was not standard. Score: 0.00.
+-   **brand_prestige_rating**: Vauxhall is a mainstream brand. Score: 0.00.
+-   **model_prestige_rating**: The Insignia is a large family car, positioned in the middle of the market segment. Score: 0.00.
+-   **trim_prestige_rating**: VXR Nav is the top performance trim with navigation. Score: -1.00 (Top Trims are -1.00 according to the guide).
+-   **interior_luxury_rating**: Interior materials were better than average for a Vauxhall, with leather/Alcantara on VXR, but not considered premium or luxury compared to rivals like the Audi S4. Score: -0.50.
+-   **interior_tech_focus_rating**: Interior design is button-heavy and feels dated. Infotainment screen is average size but system is clunky. Not tech-focused. Score: -0.70.
+-   **style_sleek_vs_boxy**: Sleek profile. 0.50.
+-   **style_aggression_rating**: Aggressive VXR styling. 0.50.
+-   **style_modernity_rating**: Exterior updated, but interior tech is dated. -0.70.
+
+Final review of scores against benchmarks:
+- price_usd: Well below $10k threshold for +1.00. +1.00.
+- total_cost_estimate_5yr_usd: High running costs offset low purchase price. -0.50 seems fair.
+- insurance_usd_yr: Group 36 is very high. -1.00 is appropriate.
+- maint_usd_yr: Above average due to performance components. -0.50 seems fair.
+- repair_risk_score: Mixed reliability, some known issues. -0.20 seems fair.
+- hp: Above average. 0.50.
+- torque: Well above average. 0.50.
+- cylinder_count: V6 is above average. 0.50.
+- engine_displacement: Above average. 0.30.
+- accel_0_60_sec: Significantly faster than average. 0.50.
+- top_speed: Around or above average. 0.30.
+- drive_type: AWD is 0.00.
+- transmission_type: Automatic is +1.00. Availability of auto justifies a positive score. 0.50 seems fair.
+- driving_track_vs_gt: GT is +1.00. Cruiser focus is towards GT. 0.70.
+- offroad_ability: Low to ground is +1.00.
+- braking_dist_ft: Better than average. 0.70.
+- size: Larger than average. 0.30.
+- wheelbase: Around average. 0.00.
+- cargo_space: Around average. 0.20.
+- rear_space: Average (good legroom, tight headroom). 0.00.
+- ground_clearance_in: Below average. -0.70.
+- mpg: Significantly below average. -0.70.
+- co2_g_km: Significantly above average. -1.00.
+- electrification: Petrol is -1.00.
+- handling_rating: Good grip, but numb steering and can be unsettled. 0.30 seems fair.
+- ride_comfort_rating: Praised for a performance car. 0.70.
+- cabin_noise_rating: Can be noisy. -0.20.
+- shift_smooth_rating: Generally smooth. 0.50.
+- steering_feel_rating: Numb. -0.70.
+- adas_score: Limited features for modern standards. -0.70.
+- visibility_rating: Poor rear visibility. -0.20.
+- headlight_rating: Not modern Matrix LED. -0.20.
+- screen_in: 8-inch is average. 0.00.
+- infotainment_ux_rating: Not great. -0.50.
+- smartphone_connect_rating: No CarPlay/AA. -1.00.
+- audio_rating: Standard system. 0.00.
+- usb_ports: Likely one port. -0.50.
+- comfort_feature_score: Good features available (Recaro, heated/vent/massage seats). 0.50 seems fair.
+- convenience_feature_score: Basic features. 0.00.
+- trim_prestige_rating: Top trim is -1.00.
+- interior_luxury_rating: Not luxury. -0.50.
+- interior_tech_focus_rating: Dated tech. -0.70.
+- style_sleek_vs_boxy: Sleek. 0.50.
+- style_aggression_rating: Aggressive styling. 0.50.
+- style_modernity_rating: Dated interior tech. -0.70.
+
+Looks consistent.```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": -0.50,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.20,
+  "hp": 0.50,
+  "torque": 0.50,
+  "cylinder_count": 0.50,
+  "engine_displacement": 0.30,
+  "accel_0_60_sec": 0.50,
+  "top_speed": 0.30,
+  "drive_type": 0.00,
+  "transmission_type": 0.50,
+  "driving_track_vs_gt": 0.70,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.70,
+  "size": 0.30,
+  "wheelbase": 0.00,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.20,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.70,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.70,
+  "co2_g_km": -1.00,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": -0.70,
+  "handling_rating": 0.30,
+  "ride_comfort_rating": 0.70,
+  "cabin_noise_rating": -0.20,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": -0.70,
+  "adas_score": -0.70,
+  "visibility_rating": -0.20,
+  "headlight_rating": -0.20,
+  "security_rating": 0.00,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": -0.50,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": 0.00,
+  "usb_ports": -0.50,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": -0.50,
+  "interior_tech_focus_rating": -0.70
+}
+```

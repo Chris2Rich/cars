@@ -1,0 +1,113 @@
+The Audi Q7 Vorsprung is a high-level trim, typically near or at the top of the Q7 range, especially in markets like the UK. It includes many of the optional features as standard. I will evaluate based on the most recent information available for the Q7 (2024/2025 model year), assuming the Vorsprung trim includes the higher-output engine and most luxury/tech options.
+
+- **price_usd**: The 2025 Audi Q7 Prestige (a comparable high trim in the US) has an MSRP starting around $79,195, and can go up to nearly $89,000 with options. UK prices for a new Q7 Vorsprung are significantly higher, often starting well over £80,000 (>$100,000 USD). This is well above the market average.
+- **total_cost_estimate_5yr_usd**: High purchase price, luxury vehicle depreciation, and expensive maintenance/insurance for a top trim will result in high ownership costs.
+- **insurance_usd_yr**: High-end luxury SUVs like the Q7 Vorsprung fall into the highest insurance groups.
+- **maint_usd_yr**: Audi maintenance is expensive, and a top-trim model with more complex features will likely have higher maintenance costs.
+- **repair_risk_score**: The Audi Q7 has a history of reliability issues, particularly with the engine and suspension, leading to a negative repair risk score.
+- **hp**: The Vorsprung trim is typically associated with the higher-output engine, which is the 335 hp (340 PS) 3.0L V6 TFSI. This is significantly above average.
+- **torque**: The 3.0L V6 TFSI produces 369 lb-ft (500 Nm) of torque. This is well above average.
+- **cylinder_count**: The engine is a V6, which has 6 cylinders. This is around the average.
+- **engine_displacement**: The engine displacement is 3.0L. This is around the average.
+- **accel_0_60_sec**: The 0-60 mph time for the 3.0L V6 is around 5.0-5.9 seconds. This is significantly faster than average.
+- **top_speed**: The top speed is electronically limited to 155 mph (250 km/h). This is around the average.
+- **drive_type**: The Q7 comes standard with Quattro all-wheel drive.
+- **transmission_type**: It uses an 8-speed automatic transmission (Tiptronic). This is the preferred type according to the guide.
+- **driving_track_vs_gt**: The Q7 is known for its comfortable and refined ride, making it well-suited for Grand Touring.
+- **offroad_ability**: With Quattro AWD and adaptive air suspension, it has some capability, but it's not a dedicated off-roader.
+- **braking_dist_ft**: No specific braking distance data was found. Default to average.
+- **size**: The Q7 is a large SUV, with a length around 5067-5072 mm. This is significantly larger than average.
+- **wheelbase**: The wheelbase is around 117.9 inches (2999-3000 mm). This is larger than average.
+- **body_style**: It's a 4-door SUV.
+- **seats**: The Q7 offers seating for up to seven passengers. This is above average.
+- **cargo_space**: Cargo space ranges from 14.2 cu ft (behind 3rd row) to 69.6 cu ft (all seats folded). The maximum is excellent, but the third row space is limited.
+- **rear_space**: Rear legroom in the third row is tight, while the second row is spacious. Default to average.
+- **ground_clearance_in**: Ground clearance is around 6.4-10 inches with air suspension. This is above average.
+- **turn_radius_ft**: Turning circle is around 40.68 ft. This is larger than average.
+- **mpg**: Combined EPA MPG for the 3.0L V6 is around 20-22 mpg. This is below average.
+- **co2_g_km**: CO2 emissions for the 3.0L V6 are around 219-228 g/km. This is higher than average.
+- **electrification**: The 3.0L V6 TFSI includes a 48-volt mild-hybrid system. This is a degree of electrification.
+- **electric_range_mi**: As a mild-hybrid, it has no significant electric range. -1.00.
+- **charge_speed_kw**: Not applicable for a mild-hybrid. -1.00.
+- **style_sleek_vs_boxy**: The Q7 has a standard SUV shape.
+- **style_aggression_rating**: The Q7 has a refined, understated design.
+- **style_modernity_rating**: The 2025 facelift updated the design, keeping it modern.
+- **handling_rating**: The Q7 is praised for its handling for a large SUV, especially with optional all-wheel steering and adaptive air suspension.
+- **ride_comfort_rating**: The Q7 is known for its comfortable and refined ride, particularly with air suspension.
+- **cabin_noise_rating**: The cabin is well-insulated and quiet.
+- **shift_smooth_rating**: The 8-speed automatic transmission provides smooth shifts.
+- **steering_feel_rating**: The steering is described as light but can lack feel.
+- **adas_score**: The Q7 comes with a comprehensive suite of standard and available ADAS features, including adaptive cruise control, lane keeping assist, and parking assist.
+- **visibility_rating**: No specific rating found. Default to average.
+- **headlight_rating**: The Vorsprung trim includes advanced Matrix LED headlights, often with Laser light.
+- **security_rating**: Features like remote anti-theft alarm and Audi connect security features are available. Default to average.
+- **screen_in**: Features a dual-screen MMI touch system (10.1" and 8.6") and a 12.3" Virtual Cockpit. These sizes are larger than average.
+- **infotainment_ux_rating**: The MMI touch system looks good but can be distracting to use while driving.
+- **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto are standard.
+- **audio_rating**: The Vorsprung trim typically includes the premium Bang & Olufsen sound system.
+- **usb_ports**: Multiple USB-C ports are available. Default to average.
+- **comfort_feature_score**: The Vorsprung trim includes extensive comfort features like heated/ventilated/massage seats, four-zone climate control, and power rear sunshades.
+- **convenience_feature_score**: Includes features like power tailgate with hands-free release, power-folding third row, remote park assist, and 360 cameras.
+- **brand_prestige_rating**: Audi is a well-regarded luxury brand.
+- **model_prestige_rating**: The Q7 is a large, established luxury SUV model.
+- **trim_prestige_rating**: Vorsprung is a top-tier trim level.
+- **interior_luxury_rating**: The interior features high-quality materials like Valcona leather and wood inlays.
+- **interior_tech_focus_rating**: The interior is dominated by screens and digital displays, indicating a strong tech focus.
+
+```json
+{
+  "price_usd": -0.90,
+  "total_cost_estimate_5yr_usd": -0.80,
+  "insurance_usd_yr": -0.80,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.80,
+  "hp": 0.60,
+  "torque": 0.60,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.70,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.80,
+  "offroad_ability": 0.20,
+  "braking_dist_ft": 0.00,
+  "size": 0.80,
+  "wheelbase": 0.80,
+  "body_style": 0.00,
+  "seats": 0.50,
+  "cargo_space": 0.80,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.20,
+  "turn_radius_ft": -0.20,
+  "mpg": -0.40,
+  "co2_g_km": -0.40,
+  "electrification": -0.20,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.40,
+  "handling_rating": 0.60,
+  "ride_comfort_rating": 0.90,
+  "cabin_noise_rating": 0.90,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": -0.40,
+  "adas_score": 0.80,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.90,
+  "security_rating": 0.00,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.90,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.90,
+  "convenience_feature_score": 0.90,
+  "brand_prestige_rating": 0.70,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": -0.80,
+  "interior_luxury_rating": 0.90,
+  "interior_tech_focus_rating": 0.80
+}
+```

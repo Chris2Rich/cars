@@ -1,55 +1,111 @@
-```json
+Based on the search results for the 2024 Porsche 718 Boxster S:
+
+*   **price_usd:** Starting MSRP around $82,400 - $86,900. This is significantly above the market average of $52,000. Score: -0.60.
+*   **total_cost_estimate_5yr_usd:** No specific 5-year cost estimate found. As a higher-performance Porsche, it will likely be higher than the base model due to price, insurance, and potential maintenance/repair costs. Score: -0.60 (estimated higher than base).
+*   **insurance_usd_yr:** No specific annual insurance cost found. High performance Porsches are in high insurance groups. Score: -0.70 (estimated higher than base).
+*   **maint_usd_yr:** No specific annual maintenance cost found. Porsche maintenance is generally expensive, and a higher-performance variant may incur higher costs. Score: -0.70 (estimated higher than base).
+*   **repair_risk_score:** Porsche generally has a good reputation for reliability, though not top-tier like Toyota/Lexus. Score: +0.50.
+*   **hp:** 350 hp. This is significantly above the average car (around 200 hp) and well into performance territory. Score: +0.60.
+*   **torque:** 309 lb-ft. This is well above the average car (around 190 lb-ft). Score: +0.60.
+*   **cylinder_count:** Turbocharged 2.5-liter flat-four (4 cylinders). Average is typically 4 or 6. Score: 0.00.
+*   **engine_displacement:** 2.5L (2497 cc). This is around the average for modern engines, though performance cars often have larger displacement. Score: 0.00.
+*   **accel_0_60_sec:** 4.2 seconds (PDK), 4.4 seconds (manual), 4.0 seconds (PDK with Sport Chrono). Using the quickest time. This is very fast. Score: +0.80.
+*   **top_speed:** 177 mph. This is significantly higher than average. Score: +0.60.
+*   **drive_type:** Rear-Wheel Drive (RWD). Score: +1.00.
+*   **transmission_type:** Offers both 6-speed manual and 7-speed PDK dual-clutch automatic. PDK is a DCT. Score: 0.00.
+*   **driving_track_vs_gt:** Praised for handling and track capability, but also comfortable enough for daily driving and touring. Score: 0.00.
+*   **offroad_ability:** Very low ground clearance (around 4.3-4.4 inches), RWD, designed for pavement. Score: +1.00.
+*   **braking_dist_ft:** Described as having powerful brakes. No specific distance found. Sports cars typically have excellent braking. Score: +0.70 (estimated based on performance focus).
+*   **size:** Length 172.4 inches (4379mm). Smaller than a Honda Civic (~4600mm). Score: -0.50.
+*   **wheelbase:** 97.4-97.5 inches (2474-2475mm). Smaller than a Skoda Octavia (~2700mm). Score: -0.50.
+*   **body_style:** 2-door convertible/roadster. Score: -1.00.
+*   **seats:** 2 seats. Score: -1.00.
+*   **cargo_space:** Front trunk 5.3 cu ft, rear trunk 4.4 cu ft, total 9.7 cu ft (or 9.6 cu ft). Low compared to average. Score: -0.70.
+*   **rear_space:** N/A (2-seater). Score: -1.00.
+*   **ground_clearance_in:** Around 4.3-4.4 inches. Very low. Score: -0.80.
+*   **turn_radius_ft:** Turning circle 36.1 ft (11.0m). Around the average. Score: 0.00.
+*   **mpg:** EPA combined 19-21 mpg. Below the average (30 mpg). Score: -0.50.
+*   **co2_g_km:** 169-186 g/km (manual/PDK). Also 220-212 g/km (WLTP combined). Using the higher WLTP figure as it's more recent/standardized. Score: -0.50.
+*   **electrification:** Petrol engine only. Score: -1.00.
+*   **electric_range_mi:** Not electric. Score: -1.00.
+*   **charge_speed_kw:** Not electric. Score: -1.00.
+*   **style_sleek_vs_boxy:** Sleek sports car design. Score: +0.70.
+*   **style_aggression_rating:** Sporty and aggressive styling cues (larger intakes, red calipers). Score: +0.60.
+*   **style_modernity_rating:** Design is aging but still looks modern. Score: 0.00.
+*   **handling_rating:** Universally praised as superb, among the best. Score: +1.00.
+*   **ride_comfort_rating:** Comfortable enough for long trips despite excellent handling. Score: +0.60.
+*   **cabin_noise_rating:** Can be loud, especially with the top down. Engine noise is present. Score: -0.50.
+*   **shift_smooth_rating:** Manual is precise, PDK is smooth and quick. Score: +0.70.
+*   **steering_feel_rating:** Brilliantly communicative, precise, excellent response, well-weighted. Score: +1.00.
+*   **adas_score:** Limited ADAS features standard (rearview camera, parking sensors), some optional (ACC, blind-spot monitoring, AEB mentioned as available in one source, but unavailable in others). Score: -0.50.
+*   **visibility_rating:** Good visibility for a sports car. Rear visibility might be limited with the top up. Score: 0.00.
+*   **headlight_rating:** Bi-Xenon or LED headlights with PDLS available. Score: +0.80.
+*   **security_rating:** Includes immobilizer, alarm, central locking. Score: 0.00 (average features).
+*   **screen_in:** 7-inch central touchscreen (PCM). Small by modern standards. Score: -0.50.
+*   **infotainment_ux_rating:** Infotainment system is functional but considered less modern or intuitive than some rivals. Score: -0.30.
+*   **smartphone_connect_rating:** Apple CarPlay standard, but Android Auto is not offered. Score: 0.00 (partial connectivity).
+*   **audio_rating:** Standard system, optional Bose or Burmester. Score: -0.30 (based on standard system).
+*   **usb_ports:** Two USB ports mentioned. Score: -0.50.
+*   **comfort_feature_score:** Offers dual-zone climate control, heated seats (standard/optional), power seat adjustments (optional), ventilated seats optional. Score: +0.70.
+*   **convenience_feature_score:** Offers parking sensors, rearview camera, auto-dimming mirrors, rain-sensing wipers, optional adaptive cruise control, blind-spot monitoring. Score: +0.60.
+*   **brand_prestige_rating:** Porsche is a highly prestigious brand. Score: +1.00.
+*   **model_prestige_rating:** The 718 Boxster is an entry-level/mid-range Porsche sports car, below the 911. Score: 0.00.
+*   **trim_prestige_rating:** S is a mid-range performance trim. Score: 0.00.
+*   **interior_luxury_rating:** Premium materials like leather and Race-Tex available, well-crafted cabin. Score: +0.80.
+*   **interior_tech_focus_rating:** Balances tech with physical controls, not screen-dominated. Score: 0.00.```json
 {
-  "price_usd": -0.50,
-  "total_cost_estimate_5yr_usd": -1.00,
-  "insurance_usd_yr": -1.00,
-  "maint_usd_yr": -0.50,
+  "price_usd": -0.60,
+  "total_cost_estimate_5yr_usd": -0.60,
+  "insurance_usd_yr": -0.70,
+  "maint_usd_yr": -0.70,
   "repair_risk_score": 0.50,
-  "hp": 0.50,
-  "torque": 0.50,
-  "cylinder_count": -0.25,
-  "engine_displacement": -0.25,
-  "accel_0_60_sec": 0.75,
-  "top_speed": 0.50,
+  "hp": 0.60,
+  "torque": 0.60,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.80,
+  "top_speed": 0.60,
   "drive_type": 1.00,
   "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 1.00,
-  "size": -0.25,
-  "wheelbase": -0.25,
+  "braking_dist_ft": 0.70,
+  "size": -0.50,
+  "wheelbase": -0.50,
   "body_style": -1.00,
   "seats": -1.00,
-  "cargo_space": -0.50,
+  "cargo_space": -0.70,
   "rear_space": -1.00,
-  "ground_clearance_in": -1.00,
+  "ground_clearance_in": -0.80,
   "turn_radius_ft": 0.00,
-  "mpg": -0.25,
-  "co2_g_km": -0.25,
+  "mpg": -0.50,
+  "co2_g_km": -0.50,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.50,
-  "style_aggression_rating": 0.25,
-  "style_modernity_rating": 0.50,
+  "style_sleek_vs_boxy": 0.70,
+  "style_aggression_rating": 0.60,
+  "style_modernity_rating": 0.00,
   "handling_rating": 1.00,
-  "ride_comfort_rating": 0.25,
-  "cabin_noise_rating": -0.25,
-  "shift_smooth_rating": 0.50,
+  "ride_comfort_rating": 0.60,
+  "cabin_noise_rating": -0.50,
+  "shift_smooth_rating": 0.70,
   "steering_feel_rating": 1.00,
-  "adas_score": 0.25,
+  "adas_score": -0.50,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.50,
+  "headlight_rating": 0.80,
   "security_rating": 0.00,
-  "screen_in": -0.25,
-  "infotainment_ux_rating": 0.00,
+  "screen_in": -0.50,
+  "infotainment_ux_rating": -0.30,
   "smartphone_connect_rating": 0.00,
-  "audio_rating": 0.00,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.25,
-  "convenience_feature_score": 0.25,
+  "audio_rating": -0.30,
+  "usb_ports": -0.50,
+  "comfort_feature_score": 0.70,
+  "convenience_feature_score": 0.60,
   "brand_prestige_rating": 1.00,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.25,
+  "interior_luxury_rating": 0.80,
   "interior_tech_focus_rating": 0.00
 }
 ```

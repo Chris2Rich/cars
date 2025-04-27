@@ -1,109 +1,57 @@
-The Mercedes-Benz S Class S63L V8 refers to the AMG S63 long-wheelbase variant of the W222 generation (2014-2020). This model was available with either a 5.5L V8 (early W222) or a 4.0L V8 (facelift W222 from 2018), both twin-turbocharged. The "L" signifies the long wheelbase. Based on the provided scoring guide and search results for the W222 AMG S63 LWB, here is the evaluation:
-
-*   **price\_usd**: -1.00 - The AMG S63 LWB was a high-performance luxury sedan with a price well over $100,000 (Source: [4, 21, 35]).
-*   **total\_cost\_estimate\_5yr\_usd**: -1.00 - High purchase price, insurance, and maintenance costs associated with an AMG vehicle result in a 5-year cost well above $60,000.
-*   **insurance\_usd\_yr**: -1.00 - As a high-value, high-performance AMG model, insurance costs are in the highest brackets (UK Insurance Group 50E) (Source: [4]).
-*   **maint\_usd\_yr**: -1.00 - Maintenance for an AMG vehicle, especially a complex luxury sedan, is significantly more expensive than average, easily exceeding $1,200 per year (Source: [12]).
-*   **repair\_risk\_score**: -0.25 - While the S-Class is generally well-built, the complexity of the AMG powertrain and advanced systems introduces a slightly higher risk of costly repairs compared to simpler, average vehicles (Source: [12]).
-*   **hp**: 1.00 - The W222 S63 had power outputs ranging from 577 hp (5.5L) to 603 hp (4.0L facelift) (Source: [2, 3, 4, 6, 7, 10, 17, 18, 21, 22, 24, 29, 34, 35]). While the guide's +1.00 benchmark is >700 hp, these figures are significantly above the average (200 hp) and represent very high performance for a luxury sedan, warranting a high score. Let's use 1.00 as it's closer to the top benchmark than the average.
-*   **torque**: 1.00 - Torque figures were 664 lb-ft for both engine variants (Source: [2, 3, 6, 7, 10, 17, 18, 21, 22, 24, 34, 35]). This is well above the average (190 lb-ft) and closer to the +1.00 benchmark (>1000 lb-ft), warranting a high score. Let's use 1.00.
-*   **cylinder\_count**: 0.25 - It features a V8 engine (Source: [2, 3, 7, 10, 11, 18, 34, 35]), which is above the average (V6) but below the highest (V12).
-*   **engine\_displacement**: 0.50 - Engine displacements were 5.5L or 4.0L (Source: [3, 6, 7, 10, 11, 18, 34, 35]), which are larger than the average (3.0L) but not the largest available (6.0L+).
-*   **accel\_0\_60\_sec**: 1.00 - 0-60 mph times were as low as 3.8-3.9 seconds for the 5.5L 4Matic and 3.4 seconds for the 4.0L facelift (Source: [3, 9, 14, 16, 17, 21, 22, 24, 25]). These times are significantly faster than the average (7.5 sec) and approach the best-in-class (<2.5 sec), warranting a superb score.
-*   **top\_speed**: 0.50 - Top speed is electronically limited to 155 mph (250 km/h) but can be increased to 186 mph (300 km/h) with the AMG Driver's Package (Source: [4, 7, 8, 14, 17, 22, 24, 31, 34]). 155 mph is average, 186 mph is above average. Let's use 0.50 for the potential higher speed.
-*   **drive\_type**: 0.00 - Available with both RWD and AWD (4Matic/4Matic+) (Source: [2, 3, 5, 6, 7, 9, 10, 11, 14, 16, 17, 18, 19, 21, 24, 27, 28, 29, 31, 35]). The guide scores AWD as 0.00.
-*   **transmission\_type**: 1.00 - Uses AMG SPEEDSHIFT MCT 7-speed or 9-speed automatic transmissions (Source: [2, 3, 5, 6, 7, 9, 10, 11, 14, 16, 17, 18, 21, 22, 24, 28, 29, 31, 34, 35]). Automatic transmissions score +1.00.
-*   **offroad\_ability**: -1.00 - This vehicle is a high-performance luxury sedan not designed for off-road use.
-*   **braking\_dist\_ft**: 0.25 - Equipped with high-performance AMG brakes (Source: [2, 21]), likely resulting in better-than-average braking distance, but specific data is not consistently available. A score of 0.25 reflects this expected performance.
-*   **size**: 1.00 - The "L" indicates long wheelbase, with a length well over 5100mm (5246-5302mm) (Source: [2, 3, 11, 15, 17, 21, 31, 32, 34, 35]), scoring superb.
-*   **wheelbase**: 1.00 - The long wheelbase is 3165mm (Source: [2, 3, 11, 21, 31, 35]), well over the 3200mm threshold for superb.
-*   **body\_style**: 0.00 - It is a 4-door sedan, which is the market average.
-*   **seats**: 0.00 - It typically seats 5 people (Source: [10, 11, 19, 35]), which is the market average.
-*   **cargo\_space**: -0.25 - Trunk space is around 18 cu ft (510-530 liters) (Source: [5, 6, 10, 11, 15, 19, 31]), which is slightly below the average for a large sedan (Civic ~15, but S-Class is larger). Let's use -0.25 as it's below the 15 cu ft average for a smaller car. Some sources list slightly higher (18.9 cu ft [13]), which would be closer to average. Let's default to 0.00 based on conflicting data and the size of the car. Re-evaluating: 18 cu ft is average for a *sedan*, but the guide's average is based on a Civic (15 cu ft). A large luxury sedan *should* have more. Compared to the overall market including SUVs/wagons (>35 cu ft for +1), 18 cu ft is below average. Let's use -0.25.
-*   **rear\_space**: 1.00 - The long-wheelbase S-Class is known for exceptional rear legroom, well over 40 inches (Source: [10, 19]), scoring superb.
-*   **ground\_clearance\_in**: -0.50 - Ground clearance is relatively low (around 5-5.1 inches / 122-130mm) due to its sedan body style and performance tuning (Source: [5, 10, 18, 30, 32, 41]), below the average for the overall market including crossovers.
-*   **turn\_radius\_ft**: -0.50 - The turning circle is around 12-12.3 meters (39.4 - 41.0 ft) (Source: [6, 10, 11, 15, 19, 28, 30, 31]), which is larger than the average sedan (36 ft) due to its size.
-*   **mpg**: -0.75 - Fuel economy is low, typically in the 15-18 mpg range combined (Source: [5, 7, 17, 19, 21, 22, 24, 31, 34, 35, 37, 38]), well below the market average (30 mpg).
-*   **co2\_g\_km**: -0.75 - CO2 emissions are high (200-270 g/km) (Source: [4, 7, 11, 22, 24, 34, 35]), well above the market average (175 g/km).
-*   **electric\_range\_mi**: -1.00 - This is a gasoline-powered vehicle with no electric range.
-*   **charge\_speed\_kw**: -1.00 - This is a gasoline-powered vehicle with no charging capability.
-*   **style\_sleek\_vs\_boxy**: 0.00 - The W222 S-Class has an elegant sedan shape, neither particularly sleek nor boxy compared to the extremes.
-*   **style\_aggression\_rating**: 0.25 - AMG styling adds some aggressive elements compared to the standard S-Class (Source: [3, 14]).
-*   **style\_modernity\_rating**: -0.50 - While modern for its release (2014/2018 facelift), the W222 design is now a generation old compared to the latest vehicles.
-*   **handling\_rating**: 0.50 - Handling is significantly improved over the standard S-Class due to AMG tuning and features like AMG Ride Control and available 4Matic+, but it's still a large, heavy car (Source: [3, 5, 12, 14, 19, 23]). It's sportier than average but not a pure sports car.
-*   **ride\_comfort\_rating**: 1.00 - Despite being an AMG, the S-Class prioritizes ride comfort, and the W222 is renowned for its plush ride, especially with features like Magic Body Control (RWD models) (Source: [2, 3, 5, 8, 12, 14, 16, 23]).
-*   **cabin\_noise\_rating**: 1.00 - The S-Class is exceptionally quiet inside, even the AMG variant, though the engine is audible when pushed (Source: [2, 16, 23, 38]).
-*   **shift\_smooth\_rating**: 0.75 - The AMG SPEEDSHIFT MCT transmission is fast and responsive, but can sometimes be less smooth than a traditional torque converter automatic at low speeds compared to the absolute best (Source: [3, 14, 21]).
-*   **steering\_feel\_rating**: 0.00 - Steering is precise and weighted better than the standard S-Class, but still lacks the direct feedback of a true sports car (Source: [14, 21]).
-*   **adas\_score**: 1.00 - The W222 S-Class was a technological leader in ADAS features for its time (Source: [2, 3, 11, 16, 23]).
-*   **visibility\_rating**: 0.00 - Visibility is typical for a large sedan.
-*   **headlight\_rating**: 1.00 - Mercedes-Benz is known for excellent headlight technology, and the W222 featured advanced LED systems (Source: [2, 3, 4, 8, 23, 40]).
-*   **security\_rating**: 1.00 - As a high-end luxury vehicle, it comes with comprehensive security features (Source: [23]).
-*   **screen\_in**: 0.75 - Featured dual 12.3-inch displays (Source: [3, 4, 8, 14, 20, 24, 25]), large and impressive for its generation.
-*   **infotainment\_ux\_rating**: 0.00 - The COMAND infotainment system was functional but could be complex compared to newer interfaces (Source: [3, 4, 5, 12, 39]). Later models received MBUX (Source: [3]), which would rate higher, but the core W222 system is average by today's standards. Default to 0.00.
-*   **smartphone\_connect\_rating**: 0.50 - Supported standard smartphone integration like Apple CarPlay/Android Auto, especially in later models, though wireless might require aftermarket solutions for earlier years (Source: [12, 18, 33, 36]). A score of 0.50 reflects standard wired connectivity being available.
-*   **audio\_rating**: 1.00 - Available high-end audio systems like the Burmester 3D surround sound are superb (Source: [2, 5, 8, 29]).
-*   **usb\_ports**: 0.00 - The number of USB ports was likely average for its time.
-*   **comfort\_feature\_score**: 1.00 - The S-Class is packed with high-end comfort features, including extensive seat adjustments, heating, ventilation, and massage functions (Source: [2, 5, 8, 18, 23, 35, 40]).
-*   **convenience\_feature\_score**: 1.00 - Features like soft-close doors, advanced parking aids, head-up display, and other luxury amenities contribute to a superb convenience score (Source: [2, 5, 8, 16, 23]).
-*   **brand\_prestige\_rating**: 1.00 - Mercedes-Benz is a globally recognized top-tier luxury brand.
-*   **model\_prestige\_rating**: -1.00 - The S-Class is the flagship model, representing the pinnacle of the Mercedes-Benz sedan lineup.
-*   **trim\_prestige\_rating**: -1.00 - The AMG S63 is a top-tier performance trim within the S-Class lineup (Source: [28]).
-*   **interior\_luxury\_rating**: 1.00 - The interior uses exquisite materials and craftsmanship, setting a high standard for luxury (Source: [3, 18, 23]).
-*   **interior\_tech\_focus\_rating**: 0.75 - The interior was very technologically advanced for its time, with large screens and numerous electronic features, though the design is less minimalist than the latest tech-focused interiors (Source: [3, 4, 8, 14, 20, 24, 25]).
-
 ```json
 {
   "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
   "maint_usd_yr": -1.00,
-  "repair_risk_score": -0.25,
+  "repair_risk_score": -0.60,
   "hp": 1.00,
   "torque": 1.00,
-  "cylinder_count": 0.25,
-  "engine_displacement": 0.50,
+  "cylinder_count": 0.20,
+  "engine_displacement": 0.20,
   "accel_0_60_sec": 1.00,
-  "top_speed": 0.50,
+  "top_speed": 0.40,
   "drive_type": 0.00,
-  "transmission_type": 1.00,
-  "offroad_ability": -1.00,
-  "braking_dist_ft": 0.25,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.40,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.80,
   "size": 1.00,
-  "wheelbase": 1.00,
+  "wheelbase": 0.80,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.25,
+  "cargo_space": -0.20,
   "rear_space": 1.00,
-  "ground_clearance_in": -0.50,
-  "turn_radius_ft": -0.50,
-  "mpg": -0.75,
-  "co2_g_km": -0.75,
+  "ground_clearance_in": -0.60,
+  "turn_radius_ft": -0.40,
+  "mpg": -0.80,
+  "co2_g_km": -0.80,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.25,
-  "style_modernity_rating": -0.50,
-  "handling_rating": 0.50,
-  "ride_comfort_rating": 1.00,
+  "style_sleek_vs_boxy": 0.40,
+  "style_aggression_rating": 0.60,
+  "style_modernity_rating": 0.60,
+  "handling_rating": 0.60,
+  "ride_comfort_rating": 0.60,
   "cabin_noise_rating": 1.00,
-  "shift_smooth_rating": 0.75,
-  "steering_feel_rating": 0.00,
-  "adas_score": 1.00,
-  "visibility_rating": 0.00,
+  "shift_smooth_rating": 0.40,
+  "steering_feel_rating": 0.20,
+  "adas_score": 0.80,
+  "visibility_rating": 0.20,
   "headlight_rating": 1.00,
-  "security_rating": 1.00,
-  "screen_in": 0.75,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.50,
+  "security_rating": 0.80,
+  "screen_in": 1.00,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 1.00,
   "audio_rating": 1.00,
-  "usb_ports": 0.00,
+  "usb_ports": 0.80,
   "comfort_feature_score": 1.00,
   "convenience_feature_score": 1.00,
-  "brand_prestige_rating": 1.00,
+  "brand_prestige_rating": 0.80,
   "model_prestige_rating": -1.00,
   "trim_prestige_rating": -1.00,
   "interior_luxury_rating": 1.00,
-  "interior_tech_focus_rating": 0.75
+  "interior_tech_focus_rating": 0.80
 }
 ```

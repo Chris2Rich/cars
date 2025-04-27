@@ -1,0 +1,169 @@
+The searches indicate that the MHT (Mild Hybrid Technology) is available on both the 840i (petrol) and 840d (diesel) Gran Coupe models. The user specified 'MHT' without the engine type in the last request, but the previous requests were for specific engines (840d, 840i, M850i). The search results for "BMW 8 Series Gran Coupe MHT" often show results for both 840i MHT and 840d MHT. To provide the most accurate evaluation for "MHT" without a specific engine, I will use the data for the 840i MHT as it's a common configuration and the previous request was for the 840i. If the user intended a different MHT variant, they should specify the engine (e.g., 840d MHT).
+
+Based on the search results for BMW 840i Gran Coupe MHT (or similar recent 840i Gran Coupe specs which include MHT):
+
+*   **price_usd**: Around £77,185 (2022 840i M Sport), £84,530 OTR. This is well above the $52,000 average. Score: -0.50 to -0.60. Let's use -0.50 as a general high-end price.
+*   **total_cost_estimate_5yr_usd**: High purchase price, likely higher maintenance/insurance. Score: -0.50 to -1.00. Let's use -0.50 as it's not the absolute highest cost vehicle.
+*   **insurance_usd_yr**: Insurance group 45E, 47. High insurance group. Score: -0.50 to -0.70. Let's use -0.50.
+*   **maint_usd_yr**: BMW maintenance is generally higher than average. Score: -0.30.
+*   **repair_risk_score**: BMW is generally average for reliability. Score: 0.00.
+*   **hp**: 333-335 hp. Well above average (200 hp). Score: 0.70.
+*   **torque**: 500 Nm (369 lb-ft). Well above average (190 lb-ft). Score: 0.70.
+*   **cylinder_count**: 6. Above average (many cars are 4-cylinder). Score: 0.30.
+*   **engine_displacement**: 2998-3000 cc (3.0L). Above average. Score: 0.30.
+*   **accel_0_60_sec**: 0-62 mph in 5.0-5.4 seconds. 0-60 mph in 4.7 seconds. This is fast. Score: 0.80.
+*   **top_speed**: 155 mph (250 km/h). Above average (150 mph). Score: 0.70.
+*   **drive_type**: RWD or AWD (xDrive). The 840i is available in RWD or xDrive. Let's assume RWD for the base 840i MHT unless specified otherwise, which scores 1.00. If it's xDrive, it's 0.00. Given the previous 840i request was RWD (score 0.50), let's stick with that assumption for consistency unless MHT implies xDrive. Search results show both RWD and xDrive MHT variants. Let's default to AWD (0.00) as it's common with MHT in some markets, or use 0.50 for RWD availability. Let's use 0.50 for RWD availability.
+*   **transmission_type**: 8-speed automatic. Smooth automatic. Score: 1.00.
+*   **driving_track_vs_gt**: Gran Coupe is a Grand Tourer. Score: 1.00.
+*   **offroad_ability**: Low ground clearance, not designed for offroad. Score: 1.00.
+*   **braking_dist_ft**: Reviews mention good brakes. Score: 0.50.
+*   **size**: Length 5082 mm (200.1 inches). Large car. Score: 0.80.
+*   **wheelbase**: 3023 mm (119.0 inches). Long wheelbase. Score: 0.70.
+*   **body_style**: 4-door coupe/saloon. Score: 0.00.
+*   **seats**: 4+1 or 5 seats. Score: 0.00.
+*   **cargo_space**: 440 litres (15.5 cu ft). Average for a sedan, but maybe slightly below average for its exterior size. Score: 0.00.
+*   **rear_space**: Good legroom, but limited headroom for taller passengers. Score: -0.30.
+*   **ground_clearance_in**: Not explicitly stated, but low for a coupe/sedan. Score: -0.30.
+*   **turn_radius_ft**: Not explicitly stated, but large car implies larger turn radius. Score: -0.30.
+*   **mpg**: 33.2-33.7 mpg (WLTP Combined) for 840i MHT. 42.8 mpg for 840d MHT. 22-29 mpg (EPA) for 840i Gran Coupe. This is below average compared to the overall market. Score: -0.70.
+*   **co2_g_km**: 194-197 g/km (WLTP Combined) for 840i MHT. 173 g/km for 840d MHT. 195 g/km. This is high. Score: -0.50.
+*   **electrification**: Mild Hybrid. Score: -1.00 (as it's not PHEV or EV).
+*   **electric_range_mi**: Mild Hybrid has no significant electric range. Score: -1.00.
+*   **charge_speed_kw**: Mild Hybrid is not charged externally. Score: -1.00.
+*   **style_sleek_vs_boxy**: Sleek coupe-like profile. Score: 1.00.
+*   **style_aggression_rating**: Aggressive styling. Score: 0.50.
+*   **style_modernity_rating**: Modern design. Score: 0.50.
+*   **handling_rating**: Praised for handling and agility despite size. Score: 0.70.
+*   **ride_comfort_rating**: Generally comfortable ride, especially with adaptive suspension. Score: 0.80.
+*   **cabin_noise_rating**: Luxury car, expected to be quiet. Score: 0.80.
+*   **shift_smooth_rating**: 8-speed ZF automatic is praised as smooth and quick. Score: 0.80.
+*   **steering_feel_rating**: Reviews are mixed, some say great feel, others say just about perfect weight. Let's average to 0.30.
+*   **adas_score**: Available ADAS features like Parking Assistant, Reversing Assistant, Head-Up Display, Lane Departure Warning, Blind Spot Detection, Forward Collision Warning. Score: 0.70.
+*   **visibility_rating**: Limited rear visibility due to coupe shape. Score: 0.00.
+*   **headlight_rating**: Adaptive LED or Laserlight available. Score: 0.80.
+*   **security_rating**: Standard security features expected for a luxury car. Score: 0.50.
+*   **screen_in**: 10.3-inch infotainment touchscreen, 12.3-inch digital instrument cluster. Score: 0.70.
+*   **infotainment_ux_rating**: BMW iDrive is generally well-regarded. Score: 0.70.
+*   **smartphone_connect_rating**: Apple CarPlay and Android Auto available, wireless charging. Score: 0.80.
+*   **audio_rating**: Harman Kardon 16-speaker system available. Score: 0.80.
+*   **usb_ports**: Multiple USB ports mentioned. Score: 0.00.
+*   **comfort_feature_score**: Heated front seats, 4-zone climate control, power seats, panoramic sunroof, comfortable seats. Score: 0.80.
+*   **convenience_feature_score**: Electric bootlid, Comfort Access, Parking Assistant, Rear View Camera, Head-Up Display. Score: 0.80.
+*   **brand_prestige_rating**: BMW is a high-prestige brand. Score: 0.70.
+*   **model_prestige_rating**: 8 Series is near the top of BMW's range. Score: -1.00.
+*   **trim_prestige_rating**: MHT is a powertrain option, not a top performance trim like M8. It's available on 840i/840d which are base/mid-range engines for the 8 Series. Score: 1.00 (base/standard powertrain).
+*   **interior_luxury_rating**: High-quality materials, leather upholstery, elegant cabin. Score: 0.80.
+*   **interior_tech_focus_rating**: Digital screens, head-up display, advanced infotainment. Score: 0.70.
+
+Double-check values and scores against the guide. Adjust where necessary based on the specific MHT context if different from standard 840i. The MHT primarily impacts efficiency, which is already reflected. The performance figures seem consistent with the standard 840i.
+
+Final check on scores:
+Price: High, -0.50 seems appropriate.
+Costs: High, -0.50 seems appropriate.
+Insurance: High group, -0.50 seems appropriate.
+Maint: BMW is higher, -0.30.
+Repair: Average, 0.00.
+HP/Torque: High, 0.70.
+Cyl/Disp: Above average, 0.30.
+0-60: Fast, 0.80.
+Top Speed: Above average, 0.70.
+Drive Type: RWD/AWD availability, 0.50.
+Transmission: Excellent Auto, 1.00.
+Track vs GT: GT, 1.00.
+Offroad: Poor, 1.00.
+Braking: Good, 0.50.
+Size: Large, 0.80.
+Wheelbase: Long, 0.70.
+Body Style: 4-door coupe, 0.00.
+Seats: 4/5, 0.00.
+Cargo: Average for sedan, 0.00.
+Rear Space: Limited headroom, -0.30.
+Ground Clearance: Low, -0.30.
+Turn Radius: Large car, -0.30.
+MPG: Below average, -0.70.
+CO2: High, -0.50.
+Electrification: Mild Hybrid (-1.00).
+Range/Charge: N/A for MHEV (-1.00).
+Style Sleek: Very sleek, 1.00.
+Style Aggression: Moderate, 0.50.
+Style Modernity: Modern, 0.50.
+Handling: Good for size, 0.70.
+Ride Comfort: Comfortable, 0.80.
+Cabin Noise: Quiet, 0.80.
+Shift Smooth: Excellent, 0.80.
+Steering Feel: Mixed reviews, 0.30.
+ADAS: Good features available, 0.70.
+Visibility: Limited rear, 0.00.
+Headlight: Good options, 0.80.
+Security: Standard luxury, 0.50.
+Screen: Good size, 0.70.
+Infotainment UX: Good, 0.70.
+Smartphone Connect: Good, 0.80.
+Audio: Premium option, 0.80.
+USB Ports: Average, 0.00.
+Comfort Features: High level, 0.80.
+Convenience Features: High level, 0.80.
+Brand Prestige: High, 0.70.
+Model Prestige: High end of range, -1.00.
+Trim Prestige: Base/Standard powertrain, 1.00.
+Interior Luxury: High quality, 0.80.
+Interior Tech Focus: Modern tech, 0.70.
+
+Looks consistent with the data found and the scoring guide.```json
+{
+  "price_usd": -0.50,
+  "total_cost_estimate_5yr_usd": -0.50,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.30,
+  "repair_risk_score": 0.00,
+  "hp": 0.70,
+  "torque": 0.70,
+  "cylinder_count": 0.30,
+  "engine_displacement": 0.30,
+  "accel_0_60_sec": 0.80,
+  "top_speed": 0.70,
+  "drive_type": 0.50,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.50,
+  "size": 0.80,
+  "wheelbase": 0.70,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": -0.30,
+  "ground_clearance_in": -0.30,
+  "turn_radius_ft": -0.30,
+  "mpg": -0.70,
+  "co2_g_km": -0.50,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 1.00,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.70,
+  "ride_comfort_rating": 0.80,
+  "cabin_noise_rating": 0.80,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.30,
+  "adas_score": 0.70,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.80,
+  "security_rating": 0.50,
+  "screen_in": 0.70,
+  "infotainment_ux_rating": 0.70,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.80,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.80,
+  "convenience_feature_score": 0.80,
+  "brand_prestige_rating": 0.70,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": 0.80,
+  "interior_tech_focus_rating": 0.70
+}
+```

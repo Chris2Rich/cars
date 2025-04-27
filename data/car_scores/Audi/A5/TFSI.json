@@ -1,133 +1,57 @@
-The most recent Audi A5 TFSI is part of the 2025 model lineup, which replaces the A4. It is available with a 2.0L turbocharged 4-cylinder engine, offered in two outputs: 40 TFSI (201 hp, 236 lb-ft) and 45 TFSI (261 hp, 273 lb-ft). It comes with a 7-speed S tronic dual-clutch automatic transmission and is available with FWD (on some 40 TFSI models) or Quattro AWD (standard on 45 TFSI and available on 40 TFSI). The TFSI engines feature a 48-volt mild-hybrid system. The body styles are Sedan (Sportback) and Avant (Estate), with the Coupe and Cabriolet discontinued for this generation.
-
-Here is the evaluation based on the available data for the 2025 Audi A5 TFSI:
-
-*   **price_usd**: New prices for the 2025 Audi A5 TFSI range from around $47,595 (40 TFSI Premium) to $58,245 (45 TFSI Prestige). The market average for a new car is ~$52,000. This places the A5 TFSI range around or slightly above the market average. Score: `-0.10`.
-*   **total_cost_estimate_5yr_usd**: As a new premium Audi, costs for maintenance, insurance, and depreciation will be above average. Edmunds estimates a 5-year total ownership cost for a 45 TFSI Prestige at over $80,000, with depreciation being the largest factor. CarEdge estimates 5-year maintenance/repair costs for a B9 A5 Sportback at $2,867, which is below the luxury hatchback average, but their 10-year estimate is $9,017, slightly above average for luxury hatchbacks. Overall cost is likely above average. Score: `-0.30`.
-*   **insurance_usd_yr**: Insurance groups for the A5 range from 23E to 37E. The 2025 model's insurance groups are likely in a similar range, which is above the national average (around group 20). Score: `-0.20`.
-*   **maint_usd_yr**: Audi maintenance is generally more expensive than average. Score: `-0.20`.
-*   **repair_risk_score**: The new generation is too new for long-term reliability data. The previous B9 generation had improved reliability. Audi's brand average for frequency of repairs is higher than the industry average. Score: `0.00`. (Defaulting to average due to lack of specific data for the new generation, balancing brand average with potential improvements).
-*   **hp**: The 2.0 TFSI engine produces 201 hp (40 TFSI) or 261 hp (45 TFSI). The average car has ~200 hp. Score: `0.10` (averaging across the two engine options).
-*   **torque**: Torque is 236 lb-ft (340 Nm) for the 40 TFSI and 273 lb-ft (370 Nm) for the 45 TFSI. The average car has ~190 lb-ft. This is above average. Score: `0.30` (averaging across the two engine options).
-*   **cylinder_count**: It has a 4-cylinder engine. The average car has 6 cylinders. Score: `-0.20`.
-*   **engine_displacement**: The displacement is 2.0L. The average car is around 3.0L. Score: `-0.20`.
-*   **accel_0_60_sec**: 0-60 mph is 5.4s for the 45 TFSI and 7.8s (0-100 km/h in 7.8s) for the 40 TFSI Quattro. 0-60 mph for the 40 TFSI FWD is 9.8s (0-100 km/h in 9.8s). Average is 7.5s. Score: `0.20` (averaging across common variants).
-*   **top_speed**: Top speed is 152 mph (245 km/h) for the 40 TFSI and 130 mph or 155 mph (governed) for the 45 TFSI depending on source/market. Average is 150 mph. Score: `0.00`.
-*   **drive_type**: Available with FWD (on some 40 TFSI) or Quattro AWD (standard on 45 TFSI, available on 40 TFSI). Score: `0.00`.
-*   **transmission_type**: 7-speed S tronic dual-clutch automatic. DCT is 0.00. Score: `0.00`.
-*   **driving_track_vs_gt**: The A5 is positioned as a comfortable GT car with sporty capability. Score: `0.30`.
-*   **offroad_ability**: Low ground clearance, not designed for off-road use. Score: `1.00`.
-*   **braking_dist_ft**: No specific data found. Default: `0.00`.
-*   **size**: Length is 4829-4835mm. Average is 4600mm. This is significantly longer than average. Score: `0.30`.
-*   **wheelbase**: Wheelbase is 111.2 inches (2825mm) or 113.86 inches (2892mm). Average is 2.7m (2700mm). Above average. Score: `0.10`.
-*   **body_style**: Available as Sedan (Sportback) or Avant (Estate). Sedan/Sportback is a 5-door liftback. Score: `0.20`.
-*   **seats**: 5 seats. Average is 5 seats. Score: `0.00`.
-*   **cargo_space**: Boot space is 417-445 litres (14.7-15.7 cu ft) for the Sedan/Sportback, 476 litres (16.8 cu ft) for the Avant, or 22 cu ft (623 L) in some US specs. Average is 15 cu ft. Score: `0.30` (using the higher US spec as it's listed for the TFSI).
-*   **rear_space**: Wheelbase is stretched for good rear-seat space. Score: `0.10`.
-*   **ground_clearance_in**: Height is 1444-1461mm (56.9-57.5 inches). This implies a low ground clearance, especially with sport suspension options. Score: `-0.50`.
-*   **turn_radius_ft**: No specific data found for the new generation. Default: `0.00`.
-*   **mpg**: Combined EPA is 26-29 MPG for the TFSI. Combined WLTP is 34-42 MPG (UK). Average is 30 mpg. Score: `0.00`.
-*   **co2_g_km**: Combined WLTP is 151-179 g/km. Average is 175 g/km. Score: `0.00`.
-*   **electrification**: Mild Hybrid (MHEV) system. This is a step towards electrification but not PHEV or EV. Score: `-0.50`.
-*   **electric_range_mi**: Mild Hybrid has no significant electric range. Score: `-1.00`.
-*   **charge_speed_kw**: Mild Hybrid does not charge externally. Score: `-1.00`.
-*   **handling_rating**: New A5 has reportedly stiffer chassis and suspension mounts. Adaptive dampers available. Handling is competent and precise, but some reviews note it lacks the verve of rivals like the 3 Series or Giulia. Score: `0.20`.
-*   **ride_comfort_rating**: Expected to be comfortable, able to handle rough roads, especially with adaptive dampers. Score: `0.30`.
-*   **cabin_noise_rating**: Praised for brilliant isolation of the passenger compartment from outside noise. Score: `0.50`.
-*   **shift_smooth_rating**: S Tronic (DCT) transmission. Generally smooth. Score: `0.40`.
-*   **steering_feel_rating**: Electromechanical power steering. Accurate and precise, but some reviews note it's a bit lifeless. Score: `0.10`.
-*   **adas_score**: Includes Adaptive cruise assist plus with steering intervention, advanced driver attention and fatigue monitor, Park Assistance Plus with rear-view camera, adaptive cruise control, front emergency brake assist, lane-departure warning, blind-spot monitoring, rear cross-traffic alert. Head-up display available. Comprehensive suite. Score: `0.60`.
-*   **visibility_rating**: Sportback body style can compromise rear visibility. Rear view camera and Area View (360 camera) available. Score: `0.00`.
-*   **headlight_rating**: Matrix LED headlights. Digital OLED tail lights. Excellent lighting technology. Score: `0.80`.
-*   **security_rating**: Anti theft alarm, anti-theft wheel bolts, convenience key with safelock. Standard for premium cars. Score: `0.20`.
-*   **screen_in**: 11.9-inch digital instrument cluster and a 14.5-inch MMI touchscreen. Optional 10.9-inch passenger display. Very large screens. Score: `0.80`.
-*   **infotainment_ux_rating**: New MMI system with large touchscreens, runs Android Automotive, described as having quick responses and intuitive menu structure. Audi's MMI is generally well-regarded. Score: `0.70`.
-*   **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto. Wireless phone charger. Excellent connectivity. Score: `0.80`.
-*   **audio_rating**: Audi sound system standard, Bang & Olufsen premium sound system with 3D sound available. Excellent audio option. Score: `0.70`.
-*   **usb_ports**: 2 USB-C ports in both front and rear. Good number and type. Score: `0.40`.
-*   **comfort_feature_score**: Heated front seats standard, heated rear seats available. 3-zone automatic climate control. Electrically adjustable front seats (driver with memory). Heated steering wheel available. Panoramic glass roof available. Ventilated and massage front seats available. Very high level of comfort features. Score: `0.70`.
-*   **convenience_feature_score**: Power tailgate. Park Assistance Plus with rear-view camera. Adaptive cruise assist. Keyless entry/go. 360-degree camera available. High level of convenience features. Score: `0.60`.
-*   **brand_prestige_rating**: Audi is a premium German brand. Score: `0.40`.
-*   **model_prestige_rating**: A5 is a stylish sedan/sportback/avant, mid-range for the brand. Score: `0.00`.
-*   **trim_prestige_rating**: TFSI engine is available across various trims (Premium, Premium Plus, Prestige, Sport, S Line, Edition 1). Score: `0.00`.
-*   **interior_luxury_rating**: High-quality materials, leather/Dinamica, premium feel. Score: `0.60`.
-*   **interior_tech_focus_rating**: Large screens, Virtual Cockpit, passenger display, advanced ADAS, connectivity features. Very strong tech focus. Score: `0.80`.
-*   **style_sleek_vs_boxy**: Retains the sleek, fastback Sportback/Avant profile. Score: `0.50`.
-*   **style_aggression_rating**: Sporty design, S line styling available. Score: `0.20`.
-*   **style_modernity_rating**: All-new generation, updated design, latest tech. Looks very modern. Score: `0.60`.
-
-Refining scores:
-*   Price: Around or slightly above average. -0.10 is fair.
-*   Total Cost: Above average. -0.30 is fair.
-*   Insurance: Above average. -0.20 is fair.
-*   Maintenance: Above average. -0.20 is fair.
-*   Repair Risk: Defaulting to average for new generation. 0.00.
-*   Performance: Above average torque, average HP/0-60/Top Speed. 0.10, 0.30, 0.20, 0.00.
-*   MPG/CO2: Around average. 0.00/0.00.
-*   Electrification: MHEV is a step. -0.50 is fair.
-*   Cargo Space: Above average (using US spec). 0.30 is fair.
-*   Rear Space: Claimed improved space. 0.10 is fair.
-*   Ground Clearance: Low. -0.50 is fair.
-*   Infotainment/Tech: Large screens, good UX, excellent connectivity, premium audio. 0.80, 0.70, 0.80, 0.70, 0.40 (USB).
-*   ADAS: Comprehensive suite. 0.60 is fair.
-*   Comfort/Convenience: High level of features. 0.70/0.60.
-*   Interior Luxury/Tech Focus: Premium materials, very tech-focused interior. 0.60/0.80.
-*   Style: Sleek, sporty, modern. 0.50, 0.20, 0.60.
-
-Looks consistent with the data found for the 2025 Audi A5 TFSI.```json
+```json
 {
- "price_usd": -0.10,
- "total_cost_estimate_5yr_usd": -0.30,
- "insurance_usd_yr": -0.20,
- "maint_usd_yr": -0.20,
- "repair_risk_score": 0.00,
- "hp": 0.10,
- "torque": 0.30,
- "cylinder_count": -0.20,
- "engine_displacement": -0.20,
- "accel_0_60_sec": 0.20,
- "top_speed": 0.00,
- "drive_type": 0.00,
- "transmission_type": 0.00,
- "driving_track_vs_gt": 0.30,
- "offroad_ability": 1.00,
- "braking_dist_ft": 0.00,
- "size": 0.30,
- "wheelbase": 0.10,
- "body_style": 0.20,
- "seats": 0.00,
- "cargo_space": 0.30,
- "rear_space": 0.10,
- "ground_clearance_in": -0.50,
- "turn_radius_ft": 0.00,
- "mpg": 0.00,
- "co2_g_km": 0.00,
- "electrification": -0.50,
- "electric_range_mi": -1.00,
- "charge_speed_kw": -1.00,
- "style_sleek_vs_boxy": 0.50,
- "style_aggression_rating": 0.20,
- "style_modernity_rating": 0.60,
- "handling_rating": 0.20,
- "ride_comfort_rating": 0.30,
- "cabin_noise_rating": 0.50,
- "shift_smooth_rating": 0.40,
- "steering_feel_rating": 0.10,
- "adas_score": 0.60,
- "visibility_rating": 0.00,
- "headlight_rating": 0.80,
- "security_rating": 0.20,
- "screen_in": 0.80,
- "infotainment_ux_rating": 0.70,
- "smartphone_connect_rating": 0.80,
- "audio_rating": 0.70,
- "usb_ports": 0.40,
- "comfort_feature_score": 0.70,
- "convenience_feature_score": 0.60,
- "brand_prestige_rating": 0.40,
- "model_prestige_rating": 0.00,
- "trim_prestige_rating": 0.00,
- "interior_luxury_rating": 0.60,
- "interior_tech_focus_rating": 0.80
+  "price_usd": -0.05,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.00,
+  "torque": 0.20,
+  "cylinder_count": -0.20,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": 0.30,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.10,
+  "size": 0.10,
+  "wheelbase": 0.10,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": -0.20,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.10,
+  "co2_g_km": 0.10,
+  "electrification": -0.50,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.20,
+  "style_modernity_rating": 0.20,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": -0.50,
+  "adas_score": 0.50,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.50,
+  "security_rating": 0.00,
+  "screen_in": 0.50,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 0.50,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.50
 }
 ```

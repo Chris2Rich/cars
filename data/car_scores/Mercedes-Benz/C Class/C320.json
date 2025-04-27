@@ -1,0 +1,150 @@
+The most recent Mercedes-Benz C-Class C320 was part of the W203 generation, produced from 2000 to 2005. It was powered by a 3.2L V6 engine.
+
+-   **price_usd**: Used prices for the W203 C320 range from around $3,400 to $16,000, with an average around $8,575. Other listings show prices from £2,395 to £4,187 (approx $3,000 - $5,200 USD). This is well below the $10,000 threshold for a +1.00 score. Score: 1.00.
+-   **total_cost_estimate_5yr_usd**: As an older luxury car, maintenance and potential repair costs are higher than average. While depreciation from new is minimal, these factors push the 5-year cost above average for a typical used car. Score: -0.25.
+-   **insurance_usd_yr**: The C320 Elegance 4d Auto is in UK insurance group 37. While not directly convertible to USD without more context, this is a moderately high insurance group, suggesting above-average costs compared to the general market. Score: -0.50.
+-   **maint_usd_yr**: Mercedes maintenance is generally more expensive than average. Score: -0.50.
+-   **repair_risk_score**: The W203 has known issues including rust, electrical problems (SAM module), and front suspension bushes. While the V6 engine itself is generally reliable, these common problems increase the repair risk compared to average. Score: -0.25.
+-   **hp**: 215 HP. This is around the market average of ~200 HP. Score: 0.00.
+-   **torque**: 308 Nm (227.17 lb-ft). This is above the market average of ~190 lb-ft. Score: 0.50.
+-   **cylinder_count**: V6 engine. The market average is around 4 or 6. Score: 0.00.
+-   **engine_displacement**: 3.2L (3199 cm³). This is around the market average (3.0L is 0.00). Score: 0.00.
+-   **accel_0_60_sec**: No specific 0-60 mph time found in the search results. Default to 0.00.
+-   **top_speed**: 152 mph (245 km/h). This is around the market average of 150 mph. Score: 0.00.
+-   **drive_type**: Available in Rear Wheel Drive (RWD) and All-Wheel Drive (4MATIC). AWD scores 0.00, RWD scores 1.00. Since both were common, use 0.50 as a blend.
+-   **transmission_type**: Available with a 5-speed automatic or manual transmission. The 5-speed automatic was standard on the C320 and AMG versions. Older automatics are generally less smooth than modern ones. Manual is -1.00, modern Auto is +1.00. A 5-speed auto from this era is likely around 0.00 or -0.25. Let's use -0.25.
+-   **driving_track_vs_gt**: The C-Class is a luxury sedan designed for comfortable daily driving and longer journeys (GT). Score: 0.50.
+-   **offroad_ability**: This is a low-riding sedan with minimal offroad capability. Score: 1.00 based on the inverse scale.
+-   **braking_dist_ft**: No specific braking distance data found. Default to 0.00.
+-   **size**: Length is 4526 mm (178.19 in). This is slightly smaller than the market average of ~4600mm. Score: -0.25.
+-   **wheelbase**: 2715 mm (106.89 in). This is around the market average of ~2700mm. Score: 0.00.
+-   **body_style**: Available in Sedan, Estate, and Sportcoupe. Assuming the most common Sedan body style. 4-door Sedan scores 0.00.
+-   **seats**: 5 seats. Score: 0.00.
+-   **cargo_space**: Trunk space is 455 liters (16.07 cu ft). Another source mentions 434 L. Both are around the market average of ~15 cu ft. Score: 0.00.
+-   **rear_space**: Rear legroom is 755 mm (29.72 in). This is below the average of ~35 inches. Score: -0.50.
+-   **ground_clearance_in**: No specific ground clearance data found. Assume low for a sedan of this era, similar to other C-Class models. Score: -0.75.
+-   **turn_radius_ft**: Turning circle is 10.76 m (35.3 ft). This is right around the market average of ~36 ft. Score: 0.00.
+-   **mpg**: Fuel consumption is listed as 12.3 L/100km City and 8.6 L/100km Highway (Automatic). This translates to roughly 19.1 US mpg City and 27.4 US mpg Highway. Combined is likely around 22-24 US mpg. This is below the market average of ~30 mpg. Score: -0.50.
+-   **co2_g_km**: No specific CO2 data found. Based on the MPG, it's likely above the average of ~175 g/km. Score: -0.75.
+-   **electrification**: Petrol engine, no electrification. Score: -1.00.
+-   **electric_range_mi**: Not electric. Score: -1.00.
+-   **charge_speed_kw**: Not electric. Score: -1.00.
+-   **style_sleek_vs_boxy**: The W203 C-Class has a classic sedan shape, neither particularly sleek nor boxy by modern standards. Score: 0.00.
+-   **style_aggression_rating**: The W203 C-Class has a stylish but not overly aggressive design. Score: 0.00.
+-   **style_modernity_rating**: As a car from the early 2000s, its style is dated compared to modern vehicles. Score: -0.75.
+-   **handling_rating**: Reviews mention agile handling for its time. Compared to modern cars, it's likely around average or slightly better. Score: 0.00.
+-   **ride_comfort_rating**: Reviews mention comfortable ride. Score: 0.75.
+-   **cabin_noise_rating**: Reviews mention refinement. Score: 0.50.
+-   **shift_smooth_rating**: The 5-speed automatic was standard on the C320. Older automatics are generally less smooth than modern ones. Score: -0.50.
+-   **steering_feel_rating**: Reviews mention crisp, sharp steering for its time. Compared to modern cars, feel might be less engaging. Score: 0.00.
+-   **adas_score**: Available features included Brake Assist, ESP, parking sensors. Lacks many modern ADAS features. Score: -1.00.
+-   **visibility_rating**: Assume average visibility for a sedan. 0.00.
+-   **headlight_rating**: Likely halogen or basic Xenon. Score: -0.50.
+-   **security_rating**: Standard security features for its time (alarm system, airbags, ESP). Below modern standards. Score: 0.00.
+-   **screen_in**: Likely very small or no central screen by modern standards. Score: -1.00.
+-   **infotainment_ux_rating**: Basic system for its time. Well below modern infotainment systems. Score: -1.00.
+-   **smartphone_connect_rating**: No smartphone connectivity features. Score: -1.00.
+-   **audio_rating**: Standard audio system for its time. Below modern premium systems. Score: 0.00.
+-   **usb_ports**: No USB ports. Score: -1.00.
+-   **comfort_feature_score**: Available features included leather seats, electric adjustments, heated seats, climate control. Lacks many modern comfort features. Score: 0.00.
+-   **convenience_feature_score**: Available features included cruise control, parking sensors. Lacks many modern convenience features. Score: 0.00.
+-   **brand_prestige_rating**: Mercedes-Benz is a high-prestige brand. Score: 0.75.
+-   **model_prestige_rating**: The C-Class is a core, mid-range model for Mercedes-Benz. Score: 0.00.
+-   **trim_prestige_rating**: C320 was a higher-end engine option for the standard C-Class, below the AMG models. Score: 0.00.
+-   **interior_luxury_rating**: The W203 interior was considered luxurious for its time, but materials and design are dated compared to modern luxury cars. Score: 0.25.
+-   **interior_tech_focus_rating**: Minimal tech focus compared to modern cars. Score: -1.00.
+
+Refining scores based on benchmarks and comparisons:
+- price_usd: Average price is well below $10k. 1.00 is appropriate.
+- total_cost_estimate_5yr_usd: -0.25 is reasonable.
+- insurance_usd_yr: Group 37 is high. -0.50 is reasonable.
+- repair_risk_score: Known issues. -0.25 is reasonable.
+- hp: 0.00 is appropriate.
+- torque: 0.50 is appropriate.
+- accel_0_60_sec: No data, default 0.00.
+- top_speed: 0.00 is appropriate.
+- drive_type: 0.50 is reasonable.
+- transmission_type: -0.25 is reasonable for the 5-speed auto.
+- size: -0.25 is reasonable.
+- wheelbase: 0.00 is appropriate.
+- cargo_space: 0.00 is appropriate.
+- rear_space: -0.50 is appropriate.
+- ground_clearance_in: -0.75 is reasonable.
+- turn_radius_ft: 0.00 is appropriate.
+- mpg: -0.50 is appropriate.
+- co2_g_km: -0.75 is reasonable based on MPG.
+- style_modernity_rating: -0.75 is appropriate.
+- handling_rating: 0.00 is appropriate.
+- ride_comfort_rating: 0.75 is appropriate.
+- cabin_noise_rating: 0.50 is appropriate.
+- shift_smooth_rating: -0.50 is appropriate.
+- steering_feel_rating: 0.00 is appropriate.
+- adas_score: -1.00 is appropriate.
+- headlight_rating: -0.50 is appropriate.
+- security_rating: 0.00 is appropriate.
+- screen_in: -1.00 is appropriate.
+- infotainment_ux_rating: -1.00 is appropriate.
+- smartphone_connect_rating: -1.00 is appropriate.
+- usb_ports: -1.00 is appropriate.
+- comfort_feature_score: 0.00 is appropriate.
+- convenience_feature_score: 0.00 is appropriate.
+- interior_luxury_rating: 0.25 is appropriate.
+- interior_tech_focus_rating: -1.00 is appropriate.
+
+All scores seem consistent with the data and benchmarks.```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": -0.25,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.25,
+  "hp": 0.00,
+  "torque": 0.50,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.00,
+  "top_speed": 0.00,
+  "drive_type": 0.50,
+  "transmission_type": -0.25,
+  "driving_track_vs_gt": 0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": -0.25,
+  "wheelbase": 0.00,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": -0.50,
+  "ground_clearance_in": -0.75,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.50,
+  "co2_g_km": -0.75,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": -0.75,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.75,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": -0.50,
+  "steering_feel_rating": 0.00,
+  "adas_score": -1.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": -0.50,
+  "security_rating": 0.00,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": 0.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.75,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.25,
+  "interior_tech_focus_rating": -1.00
+}
+```

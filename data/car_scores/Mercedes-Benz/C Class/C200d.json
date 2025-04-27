@@ -1,113 +1,57 @@
-Based on the search results for the 2024 Mercedes-Benz C200d (W206 generation), here is the data and the corresponding scores:
-
-*   **price\_usd**: Pricing varies by region. Irish pricing starts at €56,425 (~$60,000 USD). South African pricing for a C220d starts around R1,008,749 (~$55,000 USD). Thai pricing for a C220d is around 2.73 million THB (~$74,000 USD). The C200d is an entry-level diesel variant in some markets. Using the Irish price as a representative figure, $60,000 is above the market average of $52,000. Score: -0.20.
-*   **total\_cost\_estimate\_5yr\_usd**: Mercedes-Benz maintenance and insurance costs are higher than average. Total ownership cost will likely be above the $40,000 average. Score: -0.30.
-*   **insurance\_usd\_yr**: The C-Class Saloon (2021 onwards) falls into UK insurance groups 33-45. This is above the national average. Score: -0.30.
-*   **maint\_usd\_yr**: Average annual Mercedes-Benz maintenance is around $1,250. This is around the $1000 average benchmark, perhaps slightly higher depending on region. Score: -0.10.
-*   **repair\_risk\_score**: Reliability for the 2024 C-Class is mixed in consumer reviews, with some reporting electrical and battery issues. J.D. Power indicates problems in the first 90 days. CarEdge estimates a 31.57% chance of a major repair over 10 years for the C300, which is worse than average for the segment. Score: -0.20.
-*   **hp**: 161 hp (163 PS/120 kW) plus 15 kW (20 hp) mild hybrid boost. Total system output is around 161 hp (engine) + 20 hp (boost) = 181 hp. Benchmark average is ~200 hp. This is below average. Score: -0.10.
-*   **torque**: 380 Nm (~280 lb-ft). Benchmark average is ~190 lb-ft. This is significantly above average. Score: +0.50.
-*   **cylinder\_count**: 4 cylinders. Benchmark average is 6. Score: -0.20.
-*   **engine\_displacement**: 2.0L (1993 cm3). Benchmark average is 3.0L. Score: -0.20.
-*   **accel\_0\_60\_sec**: Estimated 8.2 - 8.7 seconds (0-100 km/h). Benchmark average is ~7.5 sec. This is below average. Score: -0.20.
-*   **top\_speed**: 230 km/h (~143 mph). Benchmark average is 150 mph. Slightly below average. Score: -0.10.
-*   **drive\_type**: RWD. Benchmark: RWD = +1.00. Score: +1.00.
-*   **transmission\_type**: 9-speed automatic (9G-Tronic). Benchmark: Automatic = +1.00. Score: +1.00.
-*   **driving\_track\_vs\_gt**: Tuned for comfort and relaxed driving. Score: +0.50.
-*   **offroad\_ability**: Low ground clearance sedan. Score: 1.00.
-*   **braking\_dist\_ft**: No specific data found for C200d. C300 stops from 70 mph in 154 ft. Default to average C-Class which is generally good. Score: 0.30.
-*   **size**: Length 4751 mm (187 inches). Benchmark average is ~4600mm (181 inches). Slightly larger than average. Score: +0.10.
-*   **wheelbase**: 2865 mm (112.8 inches). Benchmark average is ~2700mm (106 inches). Significantly longer than average. Score: +0.30.
-*   **body\_style**: 4-door sedan. Score: 0.00.
-*   **seats**: 5 seats. Score: 0.00.
-*   **cargo\_space**: 455 litres (~16 cu ft). Benchmark average is ~15 cu ft. Slightly above average. Score: +0.10.
-*   **rear\_space**: Rear legroom 36.0 inches. Benchmark average is ~35 inches. Slightly above average. Score: +0.10.
-*   **ground\_clearance\_in**: 1440 mm (~56.7 inches) height. Ground clearance not explicitly stated, but ride height is typical sedan. Score: 0.00.
-*   **turn\_radius\_ft**: 10.64 m (~34.9 ft) with rear-wheel steering, 11.07m (~36.3 ft) or 11.2m (~36.7 ft) without. Using the range, it's around the 36 ft average. Score: 0.00.
-*   **mpg**: Claimed 4.2-5.6 L/100km combined (~42-56 MPG US). WLTP combined 4.5 L/100 km (~52 MPG US). Real-world will be lower but still very efficient for a non-hybrid. Score: +0.80.
-*   **co2\_g\_km**: 111 g/km or 111-147 g/km. Benchmark average is ~175 g/km. Excellent CO2 emissions for a non-EV. Score: 0.80.
-*   **electrification**: Mild Hybrid (48-volt system). Score: -0.50.
-*   **electric\_range\_mi**: Not a PHEV/EV. Score: -1.00.
-*   **charge\_speed\_kw**: Not a PHEV/EV. Score: -1.00.
-*   **style\_sleek\_vs\_boxy**: Modern sedan, sleek profile. Score: +0.30.
-*   **style\_aggression\_rating**: Standard C-Class styling, not aggressive. Score: 0.00.
-*   **style\_modernity\_rating**: Very modern interior and exterior design. Score: 0.80.
-*   **handling\_rating**: Comfortable, soft suspension, not driver-focused, struggles on twisty roads. Score: -0.20.
-*   **ride\_comfort\_rating**: Excellent ride comfort, manages bumps well, comfortable. Score: 0.80.
-*   **cabin\_noise\_rating**: Quiet and composed, engine noise subdued, very quiet. Score: 0.80.
-*   **shift\_smooth\_rating**: 9-speed automatic is typically smooth, keeps revs low. Score: 0.80.
-*   **steering\_feel\_rating**: Light, less feedback, geared for relaxed driving. Score: -0.20.
-*   **adas\_score**: Standard safety features like Active Brake Assist, Blind Spot Assist, Adaptive Highbeam Assist, Active Parking Assist, Rearview Camera. High level of standard ADAS. Score: 0.70.
-*   **visibility\_rating**: Standard sedan visibility. Score: 0.00.
-*   **headlight\_rating**: LED High-Performance Lighting System standard, Adaptive Highbeam Assist available. Score: 0.50.
-*   **security\_rating**: Mercedes standard security features. Score: 0.50.
-*   **screen\_in**: 11.9-inch central touchscreen. 12.3-inch digital instrument cluster. Score: 0.70.
-*   **infotainment\_ux\_rating**: Latest MBUX, generally well-regarded, can be complex initially. Score: 0.50.
-*   **smartphone\_connect\_rating**: Wireless Apple CarPlay and Android Auto standard. Wireless charging pad standard. Score: 0.90.
-*   **audio\_rating**: Standard system. Burmester available. Score based on standard: 0.20.
-*   **usb\_ports**: USB-C charging ports mentioned. Number not specified. Default to average. Score: 0.00.
-*   **comfort\_feature\_score**: Heated front seats with memory, power front seats, dual-zone climate control, ambient lighting, sunroof available. High level of comfort features. Score: 0.70.
-*   **convenience\_feature\_score**: Electronic trunk closer, keyless start, rearview camera, parking sensors, auto park available. Good level of convenience features. Score: 0.60.
-*   **brand\_prestige\_rating**: Mercedes-Benz. Score: 0.90.
-*   **model\_prestige\_rating**: C-Class is a core model, middle of the range. Score: 0.00.
-*   **trim\_prestige\_rating**: C200d is an entry-level diesel variant in markets where it's offered. Score: 1.00.
-*   **interior\_luxury\_rating**: High-quality materials, feels luxurious. Score: 0.80.
-*   **interior\_tech\_focus\_rating**: High-tech cabin with large screens, digital cluster, MBUX. Score: 0.90.
-
 ```json
 {
-  "price_usd": -0.20,
-  "total_cost_estimate_5yr_usd": -0.30,
-  "insurance_usd_yr": -0.30,
-  "maint_usd_yr": -0.10,
-  "repair_risk_score": -0.20,
-  "hp": -0.10,
-  "torque": 0.50,
-  "cylinder_count": -0.20,
-  "engine_displacement": -0.20,
-  "accel_0_60_sec": -0.20,
-  "top_speed": -0.10,
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": -0.25,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.25,
+  "hp": -0.50,
+  "torque": 0.25,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.00,
+  "top_speed": 0.00,
   "drive_type": 1.00,
   "transmission_type": 1.00,
   "driving_track_vs_gt": 0.50,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.30,
-  "size": 0.10,
-  "wheelbase": 0.30,
+  "braking_dist_ft": 0.25,
+  "size": 0.00,
+  "wheelbase": 0.00,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.10,
-  "rear_space": 0.10,
-  "ground_clearance_in": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.25,
   "turn_radius_ft": 0.00,
-  "mpg": 0.80,
-  "co2_g_km": 0.80,
-  "electrification": -0.50,
+  "mpg": 0.75,
+  "co2_g_km": 0.50,
+  "electrification": -0.75,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.30,
+  "style_sleek_vs_boxy": 0.25,
   "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.80,
-  "handling_rating": -0.20,
-  "ride_comfort_rating": 0.80,
-  "cabin_noise_rating": 0.80,
-  "shift_smooth_rating": 0.80,
-  "steering_feel_rating": -0.20,
-  "adas_score": 0.70,
+  "style_modernity_rating": 0.75,
+  "handling_rating": 0.25,
+  "ride_comfort_rating": 0.75,
+  "cabin_noise_rating": 0.75,
+  "shift_smooth_rating": 0.75,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.75,
   "visibility_rating": 0.00,
   "headlight_rating": 0.50,
   "security_rating": 0.50,
-  "screen_in": 0.70,
-  "infotainment_ux_rating": 0.50,
-  "smartphone_connect_rating": 0.90,
-  "audio_rating": 0.20,
+  "screen_in": 0.75,
+  "infotainment_ux_rating": 0.75,
+  "smartphone_connect_rating": 0.75,
+  "audio_rating": 0.50,
   "usb_ports": 0.00,
-  "comfort_feature_score": 0.70,
-  "convenience_feature_score": 0.60,
-  "brand_prestige_rating": 0.90,
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 0.75,
   "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 1.00,
-  "interior_luxury_rating": 0.80,
-  "interior_tech_focus_rating": 0.90
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": 0.75
 }
 ```

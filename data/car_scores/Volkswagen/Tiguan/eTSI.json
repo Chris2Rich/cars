@@ -1,0 +1,115 @@
+Based on the search results, the most recent Volkswagen Tiguan eTSI is part of the third generation (Mk3), available from late 2023/early 2024. It features a 1.5-litre turbocharged four-cylinder mild-hybrid petrol engine, available in 130 PS (128 HP) and 150 PS (148 HP) outputs. It is paired with a 7-speed DSG automatic transmission and is front-wheel drive.
+
+Here's the evaluation based on the gathered data for the most recent Volkswagen Tiguan eTSI:
+
+*   **price_usd:** Prices start from £34,075 (approx $43,000 USD) for the basic 1.5 eTSI 130 PS model in the UK. A 1.5 eTSI 150 PS Elegance was £42,770 as tested (approx $54,000 USD). A 2025 1.5 eTSI 150 Life is listed at £32,600 (approx $41,000 USD). Prices range from below to slightly above the $52,000 market average for a new car. Score: 0.00.
+*   **total_cost_estimate_5yr_usd:** No specific 5-year cost estimate found. Maintenance costs are generally considered average. Average annual repair cost for Tiguan is $730. Reliability is rated as average to good overall, but some sources note higher frequency of repairs. Default to 0.00.
+*   **insurance_usd_yr:** Insurance groups are around 21E for a 2025 1.5 eTSI 150 Life. Group 21 is around the average for insurance. Score: 0.00.
+*   **maint_usd_yr:** Average annual repair/maintenance cost is $730. This is below the $1000 benchmark. Score: +0.20.
+*   **repair_risk_score:** Reliability ratings are mixed, with some sources noting higher frequency of repairs than average. The 1.5 eTSI engine is newer, with fewer reported problems compared to older TSI generations. Overall Tiguan reliability is rated poorly by some sources. Default to 0.00, acknowledging mixed data but leaning towards average for the specific powertrain.
+*   **hp:** Available with 128 HP (130 PS) and 148 HP (150 PS). These are below the 200 HP average. Score: -0.30.
+*   **torque:** 1.5 eTSI 130 HP has 220 Nm (162 lb-ft). 1.5 eTSI 150 HP has 250 Nm (184 lb-ft). Average is ~190 lb-ft. Torque is around or slightly below average. Score: 0.00.
+*   **cylinder_count:** 4 cylinders. Average. Score: 0.00.
+*   **engine_displacement:** 1.5L (1498 cm³). Below average (3.0L). Score: -0.20.
+*   **accel_0_60_sec:** 0-60 mph in 10.6 seconds (130 HP) and 9.1 seconds (150 HP). Average is ~7.5 sec. These are slower than average. Score: -0.30.
+*   **top_speed:** 123 mph (130 HP) and 130-131 mph (150 HP). Average is 150 mph. Score: -0.10.
+*   **drive_type:** Front-wheel drive (FWD) only. Score: -1.00.
+*   **transmission_type:** 7-speed DSG automatic transmission standard. Automatic transmission. Score: +1.00.
+*   **driving_track_vs_gt:** Family SUV, comfortable for daily driving and trips. The eTSI engine is focused on efficiency rather than performance. Score: +0.20.
+*   **offroad_ability:** SUV body style, but FWD only. Ground clearance around 1660mm height. No specific ground clearance in inches found, but FWD limits off-road ability. Score: 0.00.
+*   **braking_dist_ft:** Front and rear disc brakes. No specific distance data found. Default 0.00.
+*   **size:** Length ~4539mm (178.7 inches). Width ~1842-1859mm (72.52-73.19 inches). Height ~1658-1660mm (65.28-65.35 inches). Typical compact SUV dimensions. Score: 0.00.
+*   **wheelbase:** ~2676-2677mm (105.35-105.47 inches). Typical compact SUV. Score: 0.00.
+*   **body_style:** 5-door SUV. Score: +0.50.
+*   **seats:** 5 seats. Average. Score: 0.00.
+*   **cargo_space:** 652 litres (23.03 cu ft) with seats up. 1650-1650 litres (58.27 cu ft) with seats down. 652L is very good (benchmark 15 cu ft = ~425L). Score: +0.50.
+*   **rear_space:** "Plenty of leg- and headroom", "rear cabin space is also perfectly adequate". Rear bench seat is longitudinally movable and folding. Good rear space. Score: +0.50.
+*   **ground_clearance_in:** Height is ~1660mm. No specific ground clearance in inches found. Default to 0.00.
+*   **turn_radius_ft:** 11.7m (38.39 ft). Around the 36 ft average, slightly higher. Score: -0.10.
+*   **mpg:** WLTP combined: 44.1-46.3 mpg (130 HP), 42.8-45.6 mpg (150 HP). Real-world can exceed 50 mpg. Average is 30 mpg. These figures are very good. Score: +0.60.
+*   **co2_g_km:** WLTP combined: 139-141 g/km (130 HP), 142-149 g/km (150 HP). Average is 175 g/km. These figures are good. Score: +0.30.
+*   **electrification:** Mild Hybrid Electric Vehicle (MHEV). Score: 0.00.
+*   **electric_range_mi:** N/A for MHEV. Score: -1.00.
+*   **charge_speed_kw:** N/A for MHEV. Score: -1.00.
+*   **style_sleek_vs_boxy:** Mk3 has a "curvy design", "softer and more rounded". Not particularly sleek or boxy. Score: 0.00.
+*   **style_aggression_rating:** Standard eTSI models are not aggressive. R-Line adds sporty styling. Score: 0.00 (representing the range from standard to R-Line).
+*   **style_modernity_rating:** New Mk3 design is "significantly different", "new-look", "completely new", "modern". Score: +0.50.
+*   **handling_rating:** Described as "nimble", "agile", "sharper handlers in its class", "composed". Score: +0.50.
+*   **ride_comfort_rating:** Described as "comfortable", "suspension is well-judged", "soaks up big bumps". Can feel "boisterous over bumps and ruts" at low speeds, "slightly firm edge" over sharper edges. Score: 0.00 (mixed reviews, depends on road surface).
+*   **cabin_noise_rating:** Described as "quiet and smooth", "quiet". Score: +0.50.
+*   **shift_smooth_rating:** 7-speed DSG automatic. Described as performing "admirably", "delivers power smoothly". Can be "lethargic" or "hesitant" when moving off-the-line. Score: 0.00 (mixed reviews).
+*   **steering_feel_rating:** Steering is "light", "enough precision", "accurate and nicely weighted", "responsive steering". Score: +0.30.
+*   **adas_score:** Comprehensive standard ADAS. Includes Adaptive Cruise Control (ACC), Front Assist (AEB with pedestrian and cyclist monitoring), Lane Keeping System (Lane Assist), Lane Change System (Side Assist) + Rear Traffic Alert (RTA) + Exit Warning System (EWS), Advanced driver attention and drowsiness monitor, Dynamic Road Sign Display. Rear View Camera, Parking sensors front and rear. Park Assist Plus, Park Assist Pro (Remote park assist) available. High level of ADAS. Score: +0.80.
+*   **visibility_rating:** "Visibility is pretty good", "sit high for a commanding view". Score: +0.50.
+*   **headlight_rating:** LED headlights standard. Automatic headlight control system. High Beam Assist. IQ. LIGHT HD matrix headlights available. Score: +0.80 (Matrix available).
+*   **security_rating:** Alarm with interior protection, Central locking system keyless entry, Keyless-Advanced with safe lock available. Immobiliser. Score: +0.30.
+*   **screen_in:** 12.9-inch infotainment display standard. 10.25-inch Digital Cockpit Pro (instrument display). 15.0 inch infotainment display available. Large screens. Score: +0.80.
+*   **infotainment_ux_rating:** "Huge touchscreen", "latest-generation technology", "intuitive layout", "menus are set up well". "Generally operates without fuss". Touch-sensitive sliders for temperature/volume are questionable/fiddly. Score: +0.50.
+*   **smartphone_connect_rating:** Wireless App-Connect (Apple CarPlay and Android Auto) standard or available. Inductive smartphone charging available. Excellent connectivity. Score: +1.00.
+*   **audio_rating:** Digital radio reception (DAB). Harman Kardon sound system with 11 speakers, 480W output, digital 16 channel amplifier and subwoofer available. Standard system likely average. Score: +0.50 (premium option available).
+*   **usb_ports:** 2 USB-C ports in the front standard. 2 USB-C charging sockets on the centre console in rear available. Charging capacity up to 45 W. Above average (3 ports benchmark). Score: +0.20.
+*   **comfort_feature_score:** Air care climatronic 3 zone air conditioning system with rear air conditioning control panel available. Heated front seats available. Heated steering wheel available. Massage and ventilation function for front seats available. Sliding/reclining rear seats. High level of comfort features available. Score: +0.80.
+*   **convenience_feature_score:** Rear View Camera, Parking sensors front and rear, Park Assist Plus, Park Assist Pro (Remote park assist) available. Electric tail gate incl. easy open and close available. Keyless-Advanced available. Rain sensor windscreen wipers. Auto dimming interior rear view mirror. High level of convenience features available. Score: +0.80.
+*   **brand_prestige_rating:** Volkswagen is a mainstream brand. Score: 0.00.
+*   **model_prestige_rating:** Tiguan is a popular compact/mid-size SUV model. Score: 0.00.
+*   **trim_prestige_rating:** eTSI refers to the powertrain, available across various trims from base to Elegance/Match/R-Line. Score: 0.00.
+*   **interior_luxury_rating:** Mk3 has "completely overhauled cabin", "improved interior design and material choices", "more refined, high-quality interior", "premium interior finishes". Quality is "generally pretty good", "plenty of soft-touch materials". Some plastics feel "a little on the cheap side in places". Leather upholstery available. Good for a mainstream brand. Score: +0.50.
+*   **interior_tech_focus_rating:** Large digital instrument cluster, large touchscreen options, comprehensive ADAS, wireless charging/connectivity, Head-Up Display available. Very tech-focused. Score: +0.80.
+
+Final scores based on the analysis of the most recent Tiguan eTSI data.```json
+{
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.20,
+  "repair_risk_score": 0.00,
+  "hp": -0.30,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": -0.30,
+  "top_speed": -0.10,
+  "drive_type": -1.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.20,
+  "offroad_ability": 0.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.00,
+  "wheelbase": 0.00,
+  "body_style": 0.50,
+  "seats": 0.00,
+  "cargo_space": 0.50,
+  "rear_space": 0.50,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.60,
+  "co2_g_km": 0.30,
+  "electrification": 0.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.30,
+  "adas_score": 0.80,
+  "visibility_rating": 0.50,
+  "headlight_rating": 0.80,
+  "security_rating": 0.30,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.50,
+  "usb_ports": 0.20,
+  "comfort_feature_score": 0.80,
+  "convenience_feature_score": 0.80,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": 0.80
+}
+```

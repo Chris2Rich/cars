@@ -1,55 +1,113 @@
-```json
+Here is the evaluation of the Porsche Boxster 981 Black Edition based on the provided guidelines and search results:
+
+- `price_usd`: Used prices vary, but search results show ranges like $49k-$57k AUD (approx $32k-$38k USD) and a UK example for £29,995 (approx $38k USD). These are well below the new car average of $52k, placing it closer to the +1.00 end of the scale for used price. Let's score it at 0.60.
+- `total_cost_estimate_5yr_usd`: Porsche ownership costs are generally high due to maintenance and potential repairs, even if reliability is decent. Depreciation on a used car is less than new, but still a factor. No specific 5-year cost found, but given maintenance/insurance, it will be higher than average. Score -0.50.
+- `insurance_usd_yr`: UK insurance groups are 43-48 for Boxsters, which is very high (50 is max). This translates to high insurance costs. Score -0.80.
+- `maint_usd_yr`: Porsche maintenance is expensive. Search results mention full service history and major services. Score -0.70.
+- `repair_risk_score`: Porsche generally has good reliability for a sports car, but repairs can be costly when they occur. Score 0.70.
+- `hp`: 261-265 hp. This is above the average car (200 hp) but not in the high-performance range (>700 hp). Score 0.40.
+- `torque`: 280-281 Nm (206-207 lb-ft). Above average (190 lb-ft) but not high. Score 0.20.
+- `cylinder_count`: 6 cylinders. Average is often 4 or 6. Score 0.30.
+- `engine_displacement`: 2.7L (2706 cm³). This is around the average benchmark (3.0L). Score 0.00.
+- `accel_0_60_sec`: 5.2-5.7 seconds depending on transmission (PDK is faster). This is significantly faster than the average (7.5 sec). Score 0.70.
+- `top_speed`: 162-164 mph (262-264 km/h). Well above average (150 mph). Score 0.50.
+- `drive_type`: RWD. Score 1.00.
+- `transmission_type`: Available with 6-speed Manual or 7-speed PDK (Automatic Dual Clutch). PDK is a DCT, which is 0.00 on the scale. Manual is -1.00. Since PDK is common and performance-oriented, and the scale puts DCT at 0.00, let's use 0.00.
+- `driving_track_vs_gt`: A sports car known for handling, but comfortable enough for touring. Leans towards track/sport. Score -0.50.
+- `offroad_ability`: Low ground clearance, RWD sports car. Score 1.00.
+- `braking_dist_ft`: Search results mention good brakes (4-piston calipers, vented/drilled discs) but no specific distance found. Porsche sports cars typically have excellent braking. Estimate based on performance segment. Score 0.80.
+- `size`: Length 4374mm. This is smaller than the average Civic (4600mm). Score -0.50.
+- `wheelbase`: 2475mm. Smaller than the average Octavia (2700mm). Score -0.50.
+- `body_style`: 2-door convertible/roadster. Score -0.50.
+- `seats`: 2 seats. Score -1.00.
+- `cargo_space`: 130L (front) + 150L (rear) = 280L total. 280L is approx 9.9 cu ft. This is low. Score -0.80.
+- `rear_space`: 2-seater, no rear space. Score -1.00.
+- `ground_clearance_in`: 111mm (4.37 inches) or 120mm (4.7 inches). This is low. Score -0.80.
+- `turn_radius_ft`: 10.98m (36 ft) or 11m (36.1 ft). This is average. Score 0.00.
+- `mpg`: Combined 35.8 mpg (UK), 35 mpg, 30 MPG (US), 28 MPG (US), 7.7 L/100km (30.6 mpg US). Real-world average around 20.21 mpg. Using the combined official figures (around 30-35 mpg UK/US) is slightly above average (30 mpg). Score 0.20.
+- `co2_g_km`: 183 g/km or 195 g/km. This is above average (175 g/km). Score -0.20.
+- `electrification`: Petrol. Score -1.00.
+- `electric_range_mi`: Not electric. Score -1.00.
+- `charge_speed_kw`: Not electric. Score -1.00.
+- `style_sleek_vs_boxy`: Sleek sports car design. Score 0.50.
+- `style_aggression_rating`: Sporty, moderately aggressive design. Score 0.50.
+- `style_modernity_rating`: Design from the early 2010s. Looks good but not cutting edge modern. Score 0.00.
+- `handling_rating`: Renowned for excellent handling. Score 1.00.
+- `ride_comfort_rating`: Sporty ride, but often praised for being comfortable for a sports car. Score 0.50.
+- `cabin_noise_rating`: Convertible sports car, some noise expected, but likely decent for the type. Score 0.00.
+- `shift_smooth_rating`: PDK transmission is very smooth. Score 0.80.
+- `steering_feel_rating`: Porsche steering is typically excellent. Score 1.00.
+- `adas_score`: Limited ADAS features for its era. Park Assist (front and rear) and cruise control mentioned. No advanced features like adaptive cruise, lane keeping, etc. Score -0.50.
+- `visibility_rating`: Good forward visibility, rear visibility might be limited with the top up. Score 0.00.
+- `headlight_rating`: Bi-Xenon with PDLS (Porsche Dynamic Light System) mentioned. This was good for its time, better than standard halogens/projector LEDs, but not modern matrix. Score 0.50.
+- `security_rating`: Standard anti-theft system, optional tracking system. Decent for its time. Score 0.50.
+- `screen_in`: PCM system with navigation. Screen size is typically around 7 inches. Score 0.00.
+- `infotainment_ux_rating`: Functional but dated compared to modern systems. Score -0.20.
+- `smartphone_connect_rating`: Bluetooth mentioned, but no standard Apple CarPlay/Android Auto. Score -0.80.
+- `audio_rating`: Sound Package Plus or optional Bose Surround Sound System available. Standard is likely average, optional is good. Score 0.50.
+- `usb_ports`: Likely limited, maybe one or two. Score -0.50.
+- `comfort_feature_score`: Heated seats standard, two-zone climate control, power seats available. Good features for a sports car, but not full luxury level. Score 0.50.
+- `convenience_feature_score`: Park Assist (front and rear), cruise control, auto-dimming mirrors, rain sensor. Lacks modern automated parking, 360 cameras, etc. Score -0.20.
+- `brand_prestige_rating`: Porsche is a high-prestige brand. Score 0.80.
+- `model_prestige_rating`: Boxster is a well-regarded Porsche sports car, but not the top-tier 911. Score 0.00.
+- `trim_prestige_rating`: Black Edition is a special edition with enhanced standard equipment, making it more desirable than a base model, but not a top performance trim like GTS or Spyder. Score 0.50.
+- `interior_luxury_rating`: Premium materials (leather), but focused on sportiness. Score 0.50.
+- `interior_tech_focus_rating`: Driver-focused, with a central screen, but not dominated by screens like modern cars. Score -0.50.
+
+Final check of scores and JSON format.```json
 {
-  "price_usd": -0.40,
-  "total_cost_estimate_5yr_usd": -0.40,
-  "insurance_usd_yr": -0.60,
-  "maint_usd_yr": -0.60,
-  "repair_risk_score": 0.40,
-  "hp": 0.40,
-  "torque": 0.40,
-  "cylinder_count": 0.20,
-  "engine_displacement": 0.20,
-  "accel_0_60_sec": 0.80,
-  "top_speed": 0.60,
-  "drive_type": 1.00,
-  "transmission_type": 0.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.80,
-  "size": -0.20,
-  "wheelbase": -0.20,
-  "body_style": -1.00,
-  "seats": -1.00,
-  "cargo_space": -0.60,
-  "rear_space": -1.00,
-  "ground_clearance_in": -0.80,
-  "turn_radius_ft": 0.00,
-  "mpg": -0.40,
-  "co2_g_km": -0.40,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.80,
-  "style_aggression_rating": 0.40,
-  "style_modernity_rating": 0.20,
-  "handling_rating": 1.00,
-  "ride_comfort_rating": 0.20,
-  "cabin_noise_rating": -0.40,
-  "shift_smooth_rating": 0.80,
-  "steering_feel_rating": 1.00,
-  "adas_score": -0.40,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.40,
-  "security_rating": 0.40,
-  "screen_in": -0.20,
-  "infotainment_ux_rating": 0.20,
-  "smartphone_connect_rating": -0.40,
-  "audio_rating": 0.20,
-  "usb_ports": -0.20,
-  "comfort_feature_score": 0.40,
-  "convenience_feature_score": 0.40,
-  "brand_prestige_rating": 1.00,
-  "model_prestige_rating": 1.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.40,
-  "interior_tech_focus_rating": 0.00
+ "price_usd": 0.60,
+ "total_cost_estimate_5yr_usd": -0.50,
+ "insurance_usd_yr": -0.80,
+ "maint_usd_yr": -0.70,
+ "repair_risk_score": 0.70,
+ "hp": 0.40,
+ "torque": 0.20,
+ "cylinder_count": 0.30,
+ "engine_displacement": 0.00,
+ "accel_0_60_sec": 0.70,
+ "top_speed": 0.50,
+ "drive_type": 1.00,
+ "transmission_type": 0.00,
+ "driving_track_vs_gt": -0.50,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.80,
+ "size": -0.50,
+ "wheelbase": -0.50,
+ "body_style": -0.50,
+ "seats": -1.00,
+ "cargo_space": -0.80,
+ "rear_space": -1.00,
+ "ground_clearance_in": -0.80,
+ "turn_radius_ft": 0.00,
+ "mpg": 0.20,
+ "co2_g_km": -0.20,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": 0.50,
+ "style_aggression_rating": 0.50,
+ "style_modernity_rating": 0.00,
+ "handling_rating": 1.00,
+ "ride_comfort_rating": 0.50,
+ "cabin_noise_rating": 0.00,
+ "shift_smooth_rating": 0.80,
+ "steering_feel_rating": 1.00,
+ "adas_score": -0.50,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.50,
+ "security_rating": 0.50,
+ "screen_in": 0.00,
+ "infotainment_ux_rating": -0.20,
+ "smartphone_connect_rating": -0.80,
+ "audio_rating": 0.50,
+ "usb_ports": -0.50,
+ "comfort_feature_score": 0.50,
+ "convenience_feature_score": -0.20,
+ "brand_prestige_rating": 0.80,
+ "model_prestige_rating": 0.00,
+ "trim_prestige_rating": 0.50,
+ "interior_luxury_rating": 0.50,
+ "interior_tech_focus_rating": -0.50
 }
 ```

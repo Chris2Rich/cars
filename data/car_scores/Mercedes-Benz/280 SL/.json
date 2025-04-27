@@ -1,0 +1,113 @@
+Based on the search results for the Mercedes-Benz 280 SL (W113, 1967-1971), here is the evaluation against today's market benchmarks:
+
+*   **Price:** Classic car prices vary significantly, but the average sale price for a 280 SL is around $97,159, with some examples selling for much more. This is well above the market average of $52,000 and often exceeds $120,000. Score: -1.00.
+*   **Total Cost Estimate 5yr:** Difficult to estimate precisely for a classic. Maintenance and potential repairs on a 50+ year old car can be very high, even if insurance is classic car rates. Depreciation is unlikely, but restoration costs can be substantial. Defaulting to slightly negative or average due to ambiguity. Let's use 0.00 as a neutral point given the variability.
+*   **Insurance:** Classic car insurance can be relatively low compared to market value, but high value still means significant cost. Defaulting to 0.00.
+*   **Maintenance:** High for a classic car requiring specialist knowledge and parts. Score: -1.00.
+*   **Repair Risk:** High due to age and complexity of systems for the era (like mechanical fuel injection). Score: -1.00.
+*   **HP:** 168-170 hp. Below the modern average of ~200 hp. Score: -0.50.
+*   **Torque:** 177-195 lb-ft. Around the modern average of ~190 lb-ft. Score: 0.00.
+*   **Cylinder Count:** 6. Average. Score: 0.00.
+*   **Engine Displacement:** 2.8L (2778 cc). Around the modern average of ~3.0L. Score: 0.00.
+*   **Accel 0-60 mph:** ~8.5-11 seconds depending on transmission. Poor by modern standards (>10 sec is -1.00). Score: -1.00.
+*   **Top Speed:** ~121-124 mph. Below the modern average of ~150 mph. Score: -0.50.
+*   **Drive Type:** RWD. Score: +1.00.
+*   **Transmission Type:** Available with 4-speed manual, 5-speed manual, or 4-speed automatic. Manual/Sequential is -1.00, Automatic is +1.00. Since multiple were common, and the guide scores by type, let's average or default. Defaulting to 0.00 seems appropriate as both manual and automatic were offered and common.
+*   **Driving Track vs GT:** Grand Touring. Score: +1.00.
+*   **Offroad Ability:** Poor (low ground clearance, RWD, not designed for it). Score: +1.00.
+*   **Braking Dist ft:** Equipped with 4-wheel disc brakes on 250/280 SL, which was advanced for its time. However, by modern standards, braking distance will be significantly longer than <105 ft (+1.00) or ~125 ft (0.00). Likely >150 ft (-1.00). Score: -1.00.
+*   **Size:** Length ~4285mm (168.7 in). Smaller than modern average (~4600mm). Score: -0.50.
+*   **Wheelbase:** ~2400mm (94.5 in). Below modern average (~2700mm). Score: -0.50.
+*   **Body Style:** 2-door convertible/roadster/coupe. Score: -1.00.
+*   **Seats:** 2. Score: -1.00. (Note: California Coupe had a small rear bench, but the standard was 2 seats).
+*   **Cargo Space:** ~12 cu ft (340 L). Below modern average (~15 cu ft). Score: -0.50.
+*   **Rear Space:** N/A (2-seater). Score: -1.00.
+*   **Ground Clearance in:** ~4.9-6.3 inches (125-160mm). Around the compact crossover average (~6.5"). Score: 0.00.
+*   **Turn Radius ft:** ~34-36 ft (10.4-11m). Around the modern average (~36 ft). Score: 0.00.
+*   **MPG:** ~16-21 US mpg. Well below modern average (~30 mpg). Score: -1.00.
+*   **CO2 g/km:** High for a 1960s petrol engine. Score: -1.00.
+*   **Electrification:** Petrol. Score: -1.00.
+*   **Electric Range mi:** N/A. Score: -1.00.
+*   **Charge Speed kW:** N/A. Score: -1.00.
+*   **Handling Rating:** Good for its era, but not modern sports car handling. Likely average or slightly below by modern standards. Score: 0.00.
+*   **Ride Comfort Rating:** Known for comfortable ride for its time. Likely still comfortable compared to many modern cars. Score: +0.50.
+*   **Cabin Noise Rating:** Convertible, older insulation. Likely high noise by modern standards. Score: -1.00.
+*   **Shift Smooth Rating:** Depends on transmission. Automatic was fluid-coupled (not torque converter), manual was standard. Defaulting to 0.00.
+*   **Steering Feel Rating:** Recirculating ball, power-assisted available. Likely good feel compared to modern numb electric systems. Score: +0.50.
+*   **ADAS Score:** None. Score: -1.00.
+*   **Visibility Rating:** Large windows, thin pillars. Likely good visibility. Score: +0.50.
+*   **Headlight Rating:** Old technology (likely sealed beam or early halogen). Poor by modern standards. Score: -1.00.
+*   **Security Rating:** Minimal by modern standards. Score: -1.00.
+*   **Screen in:** 0. Score: -1.00.
+*   **Infotainment UX Rating:** None. Score: -1.00.
+*   **Smartphone Connect Rating:** None. Score: -1.00.
+*   **Audio Rating:** Basic radio. Score: -1.00.
+*   **USB Ports:** 0. Score: -1.00.
+*   **Comfort Feature Score:** Minimal (maybe AC, power steering optional). Score: -1.00.
+*   **Convenience Feature Score:** Minimal (no sensors, cameras, etc.). Score: -1.00.
+*   **Brand Prestige Rating:** Mercedes-Benz. High. Score: +1.00.
+*   **Model Prestige Rating:** SL (W113 "Pagoda"). Iconic, top of the line for its era. Score: -1.00 (based on guide: Top of brand/halo cars are -1.00).
+*   **Trim Prestige Rating:** 280 SL was the top engine/trim for the W113. Score: -1.00 (based on guide: Top Trims are -1.00).
+*   **Interior Luxury Rating:** Luxurious for its time (leather available). Not modern luxury standards. Score: +0.50.
+*   **Interior Tech Focus Rating:** Minimal tech. Score: -1.00.
+*   **Style Sleek vs Boxy:** Sleek/Classic. Score: +0.50.
+*   **Style Aggression Rating:** Low. Score: -0.50.
+*   **Style Modernity Rating:** Low (classic design). Score: -1.00.
+
+Double-check all scores against the guide and ensure they are floats with two decimal places.```json
+{
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -1.00,
+  "hp": -0.50,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -1.00,
+  "top_speed": -0.50,
+  "drive_type": 1.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -1.00,
+  "size": -0.50,
+  "wheelbase": -0.50,
+  "body_style": -1.00,
+  "seats": -1.00,
+  "cargo_space": -0.50,
+  "rear_space": -1.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": -1.00,
+  "co2_g_km": -1.00,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": -0.50,
+  "style_modernity_rating": -1.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": -1.00,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.50,
+  "adas_score": -1.00,
+  "visibility_rating": 0.50,
+  "headlight_rating": -1.00,
+  "security_rating": -1.00,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": -1.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": -1.00,
+  "convenience_feature_score": -1.00,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 0.50,
+  "interior_tech_focus_rating": -1.00
+}
+```

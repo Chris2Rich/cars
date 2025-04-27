@@ -1,55 +1,114 @@
-```json
+Based on the search results, the Audi A4 Avant ultra (specifically the B9 generation, 2015-2019, seems most relevant for "recent" ultra) typically features a 2.0 TDI engine (150 PS/148 HP or 190 PS/187 HP). It's efficiency-focused, often FWD, and available with manual or S tronic auto transmission. Reliability for the B9 generation is considered good. It has decent cargo space (505L). Insurance groups are relatively low for a premium car (Group 19-20 for 150ps ultra). Interior is high quality and quiet. It offers features like Virtual Cockpit (optional) and good infotainment.
+
+Let's refine the scores:
+*   **price_usd:** Used prices for 2016-2017 models are around £9k-£15k. New price was around £30k-£40k. Compared to a $52k average new car, a used one is much cheaper. Score 0.80 (leaning towards used market price impact).
+*   **total_cost_estimate_5yr_usd:** Premium brand, but efficient engine and decent reliability for B9. Likely average to slightly below average cost. Score 0.20.
+*   **insurance_usd_yr:** Group 19-20 is low for a premium car. Score 0.50.
+*   **maint_usd_yr:** Audi maintenance is generally average for premium, maybe slightly higher than mainstream. Score 0.00.
+*   **repair_risk_score:** B9 generation is rated well for reliability. Score 0.60.
+*   **hp:** 148-187 HP. Below average for the overall market. Score -0.20.
+*   **torque:** 320-400 Nm (236-295 lb-ft). Decent for a diesel, around average for overall market. Score 0.00.
+*   **cylinder_count:** Inline 4. Score -0.50.
+*   **engine_displacement:** 2.0L. Score 0.00.
+*   **accel_0_60_sec:** Around 8-9 seconds. Below average. Score -0.20.
+*   **top_speed:** Around 130 mph. Average. Score 0.00.
+*   **drive_type:** Often FWD (-1.00), but Quattro ultra exists. Let's assume FWD is more common for the "ultra" efficiency focus. Score -1.00.
+*   **transmission_type:** Available with Manual or S tronic (Auto). Auto is common. Score 1.00.
+*   **driving_track_vs_gt:** Comfortable cruiser, not a track car. Score 0.50.
+*   **offroad_ability:** Low ground clearance wagon. Score 1.00.
+*   **braking_dist_ft:** No specific data, assume average for segment. Score 0.00.
+*   **size:** 4725mm length. Above average. Score 0.20.
+*   **wheelbase:** 2820mm. Above average. Score 0.20.
+*   **body_style:** 5-door Estate/Wagon. Score 0.50.
+*   **seats:** 5. Score 0.00.
+*   **cargo_space:** 505L (17.8 cu ft). Good for a sedan, average for a wagon. Score 0.10.
+*   **rear_space:** Good headroom due to wagon shape, decent legroom. Score 0.20.
+*   **ground_clearance_in:** Not specified, but wagons are lower than SUVs. Estimate around 5-6 inches. Score -0.20.
+*   **turn_radius_ft:** 11.6m (38.1 ft). Average. Score 0.00.
+*   **mpg:** High for ICE, 55-70+ MPG reported. Score 0.70.
+*   **co2_g_km:** Low for ICE, 99-114 g/km. Score 0.50.
+*   **electrification:** Diesel/Petrol. Score -0.50.
+*   **electric_range_mi:** -1.00.
+*   **charge_speed_kw:** -1.00.
+*   **style_sleek_vs_boxy:** Wagon shape is less sleek than sedan, but A4 is generally sleek. Score 0.00.
+*   **style_aggression_rating:** Standard A4 is not aggressive. Score -0.20.
+*   **style_modernity_rating:** B9 design is modern for its era, but not avant-garde. Score 0.00.
+*   **handling_rating:** Competent but not exciting. Score 0.00.
+*   **ride_comfort_rating:** Comfortable and composed. Score 0.50.
+*   **cabin_noise_rating:** Impressively quiet. Score 0.70.
+*   **shift_smooth_rating:** S tronic is generally smooth (0.50), manual is average (0.00). Let's average or lean towards auto. Score 0.30.
+*   **steering_feel_rating:** Often described as numb. Score -0.20.
+*   **adas_score:** Available ADAS features. Score 0.50.
+*   **visibility_rating:** Wagon shape helps rear visibility. Score 0.20.
+*   **headlight_rating:** Available Matrix LEDs are excellent. Standard LEDs are good. Score 0.70.
+*   **security_rating:** Standard for premium car. Score 0.20.
+*   **screen_in:** Standard 7-inch, optional Virtual Cockpit (12.3-inch). Average to good depending on option. Score 0.30.
+*   **infotainment_ux_rating:** MMI system is generally intuitive. Score 0.50.
+*   **smartphone_connect_rating:** Standard CarPlay/AA for B9 era. Score 0.50.
+*   **audio_rating:** Standard system is average. Score 0.00.
+*   **usb_ports:** Standard number. Score 0.00.
+*   **comfort_feature_score:** Three-zone climate, keyless go standard on SE/Ultra. Power seats available. Good features for the segment. Score 0.50.
+*   **convenience_feature_score:** Auto boot opening, sensor control available. Score 0.50.
+*   **brand_prestige_rating:** Audi. Score 0.70.
+*   **model_prestige_rating:** A4. Score 0.00.
+*   **trim_prestige_rating:** "ultra" is efficiency focused, often similar to SE trim. Lower prestige than Sport/S line/Black Edition. Score 0.00.
+*   **interior_luxury_rating:** High quality materials, well-built. Score 0.70.
+*   **interior_tech_focus_rating:** Optional Virtual Cockpit is a highlight. Standard tech is good. Score 0.60.
+
+Final check on scores based on the guide and search results. Looks reasonable.```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
+  "price_usd": 0.80,
+  "total_cost_estimate_5yr_usd": 0.20,
+  "insurance_usd_yr": 0.50,
   "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.20,
-  "hp": 0.00,
+  "repair_risk_score": 0.60,
+  "hp": -0.20,
   "torque": 0.00,
-  "cylinder_count": -0.20,
-  "engine_displacement": -0.20,
-  "accel_0_60_sec": 0.00,
+  "cylinder_count": -0.50,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.20,
   "top_speed": 0.00,
-  "drive_type": 0.00,
-  "transmission_type": 0.00,
+  "drive_type": -1.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.50,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.10,
-  "wheelbase": 0.10,
-  "body_style": 0.20,
+  "size": 0.20,
+  "wheelbase": 0.20,
+  "body_style": 0.50,
   "seats": 0.00,
   "cargo_space": 0.10,
-  "rear_space": 0.05,
+  "rear_space": 0.20,
   "ground_clearance_in": -0.20,
-  "turn_radius_ft": -0.05,
-  "mpg": 0.00,
-  "co2_g_km": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.70,
+  "co2_g_km": 0.50,
+  "electrification": -0.50,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": -0.10,
-  "style_modernity_rating": -0.10,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": 0.00,
   "handling_rating": 0.00,
-  "ride_comfort_rating": 0.20,
-  "cabin_noise_rating": 0.30,
-  "shift_smooth_rating": 0.20,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.20,
-  "visibility_rating": 0.10,
-  "headlight_rating": 0.30,
-  "security_rating": 0.00,
-  "screen_in": 0.20,
-  "infotainment_ux_rating": 0.30,
-  "smartphone_connect_rating": 0.30,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.70,
+  "shift_smooth_rating": 0.30,
+  "steering_feel_rating": -0.20,
+  "adas_score": 0.50,
+  "visibility_rating": 0.20,
+  "headlight_rating": 0.70,
+  "security_rating": 0.20,
+  "screen_in": 0.30,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.50,
   "audio_rating": 0.00,
-  "usb_ports": -0.10,
-  "comfort_feature_score": 0.00,
-  "convenience_feature_score": 0.00,
-  "brand_prestige_rating": 0.50,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.50,
+  "brand_prestige_rating": 0.70,
   "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.50,
-  "interior_luxury_rating": 0.20,
-  "interior_tech_focus_rating": 0.30
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": 0.60
 }
 ```

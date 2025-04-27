@@ -1,0 +1,113 @@
+The Audi Q7 TDI V8 refers to the SQ7 TDI model, which featured a V8 diesel engine. This engine was primarily available in the SQ7 in Europe until around 2020/2021, when some markets switched to a V8 TFSI petrol engine or a V6 TDI. I will evaluate based on the specifications of the 2019-2020 Audi SQ7 4.0 TDI V8, as this is the most recent version applicable with this engine.
+
+- **price_usd**: The Audi SQ7 was a high-performance luxury SUV with a price significantly above the market average. Prices when new were around £70,000 - £100,000+ depending on the year and trim. This places it well into the negative range.
+- **total_cost_estimate_5yr_usd**: High purchase price, coupled with potentially high maintenance, insurance, and depreciation for a performance luxury vehicle, suggests a high 5-year ownership cost. This results in a negative score.
+- **insurance_usd_yr**: High-performance luxury SUVs typically fall into high insurance groups, leading to high insurance costs. This results in a negative score.
+- **maint_usd_yr**: Maintenance for a performance V8 diesel Audi is expected to be expensive. This results in a negative score.
+- **repair_risk_score**: While the 4.0L V8 engine is used in other high-performance vehicles, the SQ7 has reported issues with oil leaks, turbocharger failures, and air suspension problems, contributing to a higher repair risk. This warrants a negative score.
+- **hp**: The 4.0 TDI V8 engine produced 429 hp (320 kW). This is significantly above the market average of 200 hp.
+- **torque**: The 4.0 TDI V8 engine produced 900 Nm (664 lb-ft) of torque. This is exceptionally high torque, especially for a diesel.
+- **cylinder_count**: The engine is a V8, which has 8 cylinders. This is above the average of 6.
+- **engine_displacement**: The engine displacement is 4.0L (3956 cm³). This is above the average of 3.0L.
+- **accel_0_60_sec**: The 0-60 mph time was officially around 4.6-4.8 seconds. This is much faster than the average of 7.5 seconds.
+- **top_speed**: The top speed is electronically limited to 155 mph (250 km/h). This is around the average top speed.
+- **drive_type**: The SQ7 comes standard with Quattro all-wheel drive. This is a capable drivetrain.
+- **transmission_type**: It uses an 8-speed automatic transmission (Tiptronic). This is the preferred type according to the guide.
+- **driving_track_vs_gt**: The SQ7 is a performance SUV that is also comfortable for long distances, leaning towards Grand Touring capabilities despite its performance.
+- **offroad_ability**: With Quattro AWD and adaptive air suspension, it has some off-road capability, but it's not a dedicated off-road vehicle.
+- **braking_dist_ft**: No specific braking distance data was found. Default to average.
+- **size**: The SQ7 is a large SUV, with a length around 5066-5069 mm. This is significantly larger than the average 4600mm.
+- **wheelbase**: The wheelbase is around 2996-3003 mm (117.9-118.2 inches). This is larger than the average 2700mm.
+- **body_style**: It is a 4-door SUV/wagon. This is a common body style.
+- **seats**: The SQ7 TDI V8 was available with 7 seats. This is above the average of 5.
+- **cargo_space**: Cargo space ranges from around 293-300L (7-seat mode) to 704-805L (5-seat mode) and up to 1921-2050L (seats down). The maximum space is excellent.
+- **rear_space**: Rear space in the third row is cramped, while the second row is spacious. Compared to the average, this is mixed. Default to average.
+- **ground_clearance_in**: Ground clearance is around 163-254mm (6.4-10 inches) depending on suspension setting. This is around or above the compact crossover average.
+- **turn_radius_ft**: Turning circle is around 12.4 meters (40.68 ft). This is larger than the average 36 ft.
+- **mpg**: Official combined MPG figures for the SQ7 TDI V8 were around 33.6-39.2 mpg (Imperial), which translates to roughly 28-33 mpg (US). Real-world figures were often lower but still relatively good for a performance V8 SUV, especially compared to the petrol SQ7. This is around or slightly above the average 30 mpg.
+- **co2_g_km**: CO2 emissions were around 190-255 g/km depending on the year and test cycle (NEDC/WLTP). This is higher than the average 175 g/km.
+- **electrification**: The 2019-2020 SQ7 TDI V8 included a 48-volt mild-hybrid system (MHEV). This is a degree of electrification.
+- **electric_range_mi**: As a mild-hybrid, it does not have a significant electric range. -1.00.
+- **charge_speed_kw**: Not applicable for a mild-hybrid. -1.00.
+- **style_sleek_vs_boxy**: The Q7/SQ7 has a standard SUV shape, neither particularly sleek nor overly boxy.
+- **style_aggression_rating**: The SQ7 has sportier styling cues than the standard Q7, but is still relatively understated compared to some performance SUVs.
+- **style_modernity_rating**: The design from 2019-2020 is relatively modern but not cutting-edge compared to the newest vehicles.
+- **handling_rating**: The SQ7 is praised for its handling for a large SUV, especially with optional features like active roll stabilization and all-wheel steering.
+- **ride_comfort_rating**: The SQ7 offers a comfortable ride, particularly with air suspension, though it's firmer than the standard Q7.
+- **cabin_noise_rating**: The cabin is well-insulated and quiet.
+- **shift_smooth_rating**: The 8-speed automatic transmission provides smooth shifts.
+- **steering_feel_rating**: No specific data on steering feel was found. Default to average.
+- **adas_score**: The SQ7 was available with a comprehensive suite of ADAS features.
+- **visibility_rating**: No specific rating found. Default to average.
+- **headlight_rating**: Matrix LED headlights were available.
+- **security_rating**: No specific security rating found. Default to average.
+- **screen_in**: Features a dual-screen MMI touch system and Virtual Cockpit, with screen sizes larger than average.
+- **infotainment_ux_rating**: The MMI touch system can be distracting to use while driving.
+- **smartphone_connect_rating**: Apple CarPlay and Android Auto were available, including wireless.
+- **audio_rating**: Premium audio systems like Bose were available.
+- **usb_ports**: Likely multiple ports. Default to average.
+- **comfort_feature_score**: High level of luxury comfort features were available (heated/ventilated/massage seats, multi-zone climate).
+- **convenience_feature_score**: High level of convenience features were available (power tailgate, soft-close doors, 360 cameras, parking assist).
+- **brand_prestige_rating**: Audi is a luxury brand.
+- **model_prestige_rating**: The Q7 is a large luxury SUV. The SQ7 is a high-performance variant, placing it higher than the base model but not a brand halo car.
+- **trim_prestige_rating**: SQ7 is a top performance trim level.
+- **interior_luxury_rating**: The interior features high-quality materials and design.
+- **interior_tech_focus_rating**: The interior features multiple screens and digital displays, indicating a strong tech focus.
+
+```json
+{
+  "price_usd": -0.90,
+  "total_cost_estimate_5yr_usd": -0.80,
+  "insurance_usd_yr": -0.80,
+  "maint_usd_yr": -0.80,
+  "repair_risk_score": -0.50,
+  "hp": 0.80,
+  "torque": 0.90,
+  "cylinder_count": 0.50,
+  "engine_displacement": 0.50,
+  "accel_0_60_sec": 0.80,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.60,
+  "offroad_ability": 0.20,
+  "braking_dist_ft": 0.00,
+  "size": 0.80,
+  "wheelbase": 0.80,
+  "body_style": 0.00,
+  "seats": 0.50,
+  "cargo_space": 0.80,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.20,
+  "turn_radius_ft": -0.20,
+  "mpg": 0.10,
+  "co2_g_km": -0.60,
+  "electrification": -0.20,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.30,
+  "style_modernity_rating": 0.30,
+  "handling_rating": 0.60,
+  "ride_comfort_rating": 0.60,
+  "cabin_noise_rating": 0.90,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.80,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.80,
+  "security_rating": 0.00,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.90,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.90,
+  "convenience_feature_score": 0.90,
+  "brand_prestige_rating": 0.70,
+  "model_prestige_rating": -0.20,
+  "trim_prestige_rating": -0.80,
+  "interior_luxury_rating": 0.90,
+  "interior_tech_focus_rating": 0.80
+}
+```

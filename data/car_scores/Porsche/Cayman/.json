@@ -1,55 +1,113 @@
-```json
+The most recent version of the Porsche Cayman is the 718 Cayman. I will use the specifications and reviews for the 2025 model year where available, and supplement with data from recent prior years (like 2024, 2022, 2020, 2018, 2016) as the 718 generation has been consistent.
+
+Here's the breakdown of the data found and the corresponding scores:
+
+*   **price_usd**: Starts around $72,800 - $74,795 for the base model, going up significantly for higher trims. This is well above the market average of $52,000. Score: -0.50.
+*   **total_cost_estimate_5yr_usd**: Porsche ownership costs are generally high due to maintenance, insurance, and potential depreciation, although sports cars can hold value. No specific 5-year cost found, but given the price and brand, it will be above average. Default to 0.00, but leaning negative. Let's estimate it's above average but not extreme. Score: -0.25.
+*   **insurance_usd_yr**: Sports cars typically have high insurance costs. No specific USD figure found, but UK insurance groups for performance cars are high. Score: -0.50.
+*   **maint_usd_yr**: Porsche maintenance is known to be expensive. Score: -0.75.
+*   **repair_risk_score**: Porsche generally has good reliability, but complex sports cars can have issues. Reviews suggest some potential interior issues. Score: 0.25.
+*   **hp**: Base is 300 hp, S is 350 hp, GTS 4.0 is 394-400 hp, GT4 RS is 493-500 hp. The base 300 hp is above the 200 hp average. Score: 0.50.
+*   **torque**: Base is 280 lb-ft, S is 309 lb-ft, GTS 4.0 is 310-317 lb-ft. Base 280 lb-ft is above the 190 lb-ft average. Score: 0.50.
+*   **cylinder_count**: Base/S have 4 cylinders, GTS/GT4 RS have 6 cylinders. Score: 0.00 (mix of 4 and 6, 6 is average for performance cars, 4 is below average). Let's average it out.
+*   **engine_displacement**: Base is 2.0L, S is 2.5L, GTS/GT4 RS are 4.0L. Score: 0.00 (mix of below and above average).
+*   **accel_0_60_sec**: Base is 4.7-5.1s, S is 4.2-4.6s, GTS 4.0 is 3.8-4.5s, GT4 RS is 3.2-3.4s. Base 4.7-5.1s is significantly faster than the 7.5s average. Score: 0.75.
+*   **top_speed**: Base is 170-171 mph, S is 177 mph, GTS 4.0 is 182-188 mph, GT4 RS is 196 mph. Base 171 mph is well above the 150 mph average. Score: 0.50.
+*   **drive_type**: Rear-Wheel Drive (RWD). Score: +1.00.
+*   **transmission_type**: Offers both 6-speed manual and 7-speed PDK (dual-clutch automatic). PDK is dual-clutch, manual is manual. Score: 0.00 (offers both, PDK is 0.00, Manual is -1.00, average is somewhere in between, but PDK is standard on some trims). Let's lean towards 0.00 as PDK is common.
+*   **driving_track_vs_gt**: Praised for both track capability and comfortable road tripping. Score: 0.00 (balanced).
+*   **offroad_ability**: Low ground clearance, RWD, sports car. Score: +1.00.
+*   **braking_dist_ft**: Praised for powerful brakes. No specific distance found, but reviews indicate excellent braking. Score: 0.75.
+*   **size**: Length around 4379mm (172.4 in). This is smaller than the 4600mm average. Score: 0.25.
+*   **wheelbase**: Around 2475mm (97.4 in). This is shorter than the 2700mm average. Score: 0.25.
+*   **body_style**: 2-door coupe. Score: -1.00.
+*   **seats**: 2 seats. Score: -1.00.
+*   **cargo_space**: Front trunk 5.3 cu ft, rear 9.7 cu ft, total 15 cu ft. This is around the 15 cu ft average. Score: 0.00.
+*   **rear_space**: 2-seater, no rear space. Score: -1.00.
+*   **ground_clearance_in**: Around 5.0 inches (128mm). This is lower than the 6.5 inches average. Score: -0.50.
+*   **turn_radius_ft**: Around 36.1 ft. This is around the 36 ft average. Score: 0.00.
+*   **mpg**: Base is around 21-24 combined. This is below the 30 mpg average. Score: -0.25.
+*   **co2_g_km**: Base is around 201-220 g/km. This is above the 175 g/km average. Score: -0.25.
+*   **electrification**: Petrol engine only. Score: -1.00.
+*   **electric_range_mi**: Not electric. Score: -1.00.
+*   **charge_speed_kw**: Not electric. Score: -1.00.
+*   **style_sleek_vs_boxy**: Sleek sports car design. Score: 0.75.
+*   **style_aggression_rating**: Aggressive sports car styling. Score: 0.75.
+*   **style_modernity_rating**: Modern sports car design. Score: 0.50.
+*   **handling_rating**: Universally praised for telepathic steering and exceptional handling. Score: +1.00.
+*   **ride_comfort_rating**: Surprisingly comfortable for a sports car, even on longer trips, though can be stiff on bad roads. Score: 0.25.
+*   **cabin_noise_rating**: Engine noise is present, especially the 4-cylinder, but overall cabin noise seems acceptable for a sports car. Score: 0.00.
+*   **shift_smooth_rating**: Manual is slick, PDK is quick and telepathic. Score: 0.75.
+*   **steering_feel_rating**: Telepathic and excellent feel, though some compare it differently to older hydraulic systems. Score: 0.75.
+*   **adas_score**: Offers some ADAS like Lane Change Assist and Adaptive Cruise Control, but not a full suite like Tesla. Score: 0.25.
+*   **visibility_rating**: Reviews suggest good visibility for a sports car. Score: 0.25.
+*   **headlight_rating**: Offers Bi-Xenon or LED headlights. Score: 0.25.
+*   **security_rating**: Standard security features like immobilizer. Score: 0.00.
+*   **screen_in**: Standard 7-inch touchscreen. Score: -0.25.
+*   **infotainment_ux_rating**: User-friendly touchscreen interface (PCM), though some features are optional. Score: 0.50.
+*   **smartphone_connect_rating**: Apple CarPlay standard, Android Auto not available. Score: 0.00.
+*   **audio_rating**: Standard 8-speaker system, optional Bose or Burmester. Score: 0.50.
+*   **usb_ports**: At least 2 USB ports mentioned. Score: 0.00.
+*   **comfort_feature_score**: Heated seats standard, power/adaptive/ventilated seats optional. Dual-zone climate control. Score: 0.50.
+*   **convenience_feature_score**: Rearview camera, parking sensors standard. Optional features like hands-free liftgate, adaptive cruise control. Score: 0.50.
+*   **brand_prestige_rating**: Porsche is a high-prestige brand. Score: +1.00.
+*   **model_prestige_rating**: Cayman is a core Porsche sports car model, positioned below the 911. Score: 0.00.
+*   **trim_prestige_rating**: Evaluating the base model. Score: +1.00.
+*   **interior_luxury_rating**: High-quality materials, optional leather. Score: 0.75.
+*   **interior_tech_focus_rating**: Has a touchscreen and digital display, but retains physical buttons and analog gauges. Score: 0.00.```json
 {
-  "price_usd": -0.40,
-  "total_cost_estimate_5yr_usd": -0.50,
-  "insurance_usd_yr": -0.60,
-  "maint_usd_yr": -0.70,
-  "repair_risk_score": 0.40,
-  "hp": 0.20,
-  "torque": 0.10,
-  "cylinder_count": -0.30,
-  "engine_displacement": -0.30,
-  "accel_0_60_sec": 0.50,
-  "top_speed": 0.30,
+  "price_usd": -0.50,
+  "total_cost_estimate_5yr_usd": -0.25,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.75,
+  "repair_risk_score": 0.25,
+  "hp": 0.50,
+  "torque": 0.50,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.75,
+  "top_speed": 0.50,
   "drive_type": 1.00,
-  "transmission_type": 1.00,
-  "offroad_ability": -1.00,
-  "braking_dist_ft": 0.70,
-  "size": -0.80,
-  "wheelbase": -0.40,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.75,
+  "size": 0.25,
+  "wheelbase": 0.25,
   "body_style": -1.00,
   "seats": -1.00,
   "cargo_space": 0.00,
   "rear_space": -1.00,
-  "ground_clearance_in": -0.80,
+  "ground_clearance_in": -0.50,
   "turn_radius_ft": 0.00,
-  "mpg": -0.70,
-  "co2_g_km": -0.20,
+  "mpg": -0.25,
+  "co2_g_km": -0.25,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.80,
-  "style_aggression_rating": 0.60,
-  "style_modernity_rating": 0.30,
+  "style_sleek_vs_boxy": 0.75,
+  "style_aggression_rating": 0.75,
+  "style_modernity_rating": 0.50,
   "handling_rating": 1.00,
-  "ride_comfort_rating": 0.40,
-  "cabin_noise_rating": -0.30,
-  "shift_smooth_rating": 0.80,
-  "steering_feel_rating": 1.00,
-  "adas_score": 0.20,
-  "visibility_rating": 0.20,
-  "headlight_rating": 0.50,
+  "ride_comfort_rating": 0.25,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.75,
+  "steering_feel_rating": 0.75,
+  "adas_score": 0.25,
+  "visibility_rating": 0.25,
+  "headlight_rating": 0.25,
   "security_rating": 0.00,
-  "screen_in": -0.70,
-  "infotainment_ux_rating": 0.20,
-  "smartphone_connect_rating": -0.20,
-  "audio_rating": 0.00,
-  "usb_ports": -0.50,
-  "comfort_feature_score": 0.40,
-  "convenience_feature_score": 0.30,
+  "screen_in": -0.25,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": 0.50,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.50,
   "brand_prestige_rating": 1.00,
-  "model_prestige_rating": 1.00,
+  "model_prestige_rating": 0.00,
   "trim_prestige_rating": 1.00,
-  "interior_luxury_rating": 0.40,
-  "interior_tech_focus_rating": -0.50
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": 0.00
 }
 ```

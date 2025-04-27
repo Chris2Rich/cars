@@ -1,0 +1,111 @@
+Here's the evaluation of the most recent BMW X4 M (primarily using 2024/2025 data where available, otherwise 2022/2021 data as the model is largely unchanged).
+
+*   **price_usd**: 2025 BMW X4 M starts at $80,275. This is well above the market average of $52,000. Score: -0.70.
+*   **total_cost_estimate_5yr_usd**: No direct 5-year cost found. BMW offers 3 years/36,000 miles complimentary maintenance. High purchase price, potential for higher maintenance/insurance costs for an M model suggest above average ownership cost. Default to 0.00, but acknowledge it's likely negative.
+*   **insurance_usd_yr**: No specific USD figure found. Performance M models typically have high insurance groups. Default to 0.00, likely negative.
+*   **maint_usd_yr**: No specific USD figure found. BMW M maintenance is generally higher than average, but 3 years complimentary helps. Default to 0.00, likely negative long-term.
+*   **repair_risk_score**: BMW reliability is generally average to slightly above average, but M models can have higher repair costs when issues occur. Reviews don't highlight major reliability issues, but it's not a Toyota/Lexus. Score: 0.00.
+*   **hp**: Standard 473 hp, Competition 503 hp. This is very high performance. Score: +0.90.
+*   **torque**: Standard 457 lb-ft, Competition 479 lb-ft (some sources say 443 or 600 Nm / 443 lb-ft or 650 Nm / 479 lb-ft). Using 479 lb-ft for Competition. This is very high. Score: +0.80.
+*   **cylinder_count**: Inline 6-cylinder. Score: 0.00 (average for performance engines, but not V8/V12).
+*   **engine_displacement**: 3.0L (2993 cm³). Score: 0.00 (average for performance 6-cyl).
+*   **accel_0_60_sec**: 3.2 seconds (Competition). This is extremely fast. Score: +0.95.
+*   **top_speed**: 155 mph (limited), 177 mph with M Driver's package. Very high. Score: +0.80.
+*   **drive_type**: All-Wheel Drive (M xDrive). Score: 0.00.
+*   **transmission_type**: 8-speed Automatic (M Steptronic). Score: +1.00.
+*   **driving_track_vs_gt**: Described as having sports car handling but with a stiff ride, capable on track but also usable on road. Leans towards track/performance focus, but still a daily driver SUV. Score: -0.50.
+*   **offroad_ability**: Low ground clearance for an SUV (8.0-8.1 inches), performance focus, not designed for off-road. Score: +1.00.
+*   **braking_dist_ft**: 147 ft from 70 mph (2020 model). Converting 70-0 to 60-0 is difficult, but 147 ft from 70 is good. Estimate 60-0 would be excellent. Score: +0.80.
+*   **size**: Length 187.5 inches (4754 mm). This is slightly larger than a typical sedan/compact SUV, but not large SUV size. Score: 0.10.
+*   **wheelbase**: 112.8 inches (2864 mm). Slightly longer than average. Score: 0.10.
+*   **body_style**: 5-door Coupe SUV. Coupe SUV styling sacrifices practicality for style. Score: -0.50.
+*   **seats**: 5 seats. Average. Score: 0.00.
+*   **cargo_space**: 18.5 cu ft (seats up). Some sources say 24 cu ft or 525 L (~18.5 cu ft). This is below average for an SUV of its size due to the sloping roofline. Score: -0.50.
+*   **rear_space**: Rear headroom is reduced compared to X3 M, legroom is decent (37.2 inches). Score: 0.00.
+*   **ground_clearance_in**: 8.0-8.1 inches (204-206 mm). This is higher than a car but lower than many traditional SUVs. Score: 0.20.
+*   **turn_radius_ft**: 41.4 ft turning diameter (approx 20.7 ft radius). Some sources say 12.6m (approx 41.3 ft) turning circle. This is larger than average. Score: -0.30.
+*   **mpg**: 17 mpg combined (EPA). Very low. Score: -0.80.
+*   **co2_g_km**: 244-247 g/km (WLTP). Very high. Score: -0.80.
+*   **electrification**: Petrol. Score: -1.00.
+*   **electric_range_mi**: IF NOT ELECTRIC. Score: -1.00.
+*   **charge_speed_kw**: IF NOT ELECTRIC. Score: -1.00.
+*   **style_sleek_vs_boxy**: Coupe SUV design is sleek compared to traditional boxy SUVs. Score: +0.50.
+*   **style_aggression_rating**: M styling, aggressive front fascia, quad pipes. Score: +0.70.
+*   **style_modernity_rating**: Updated design, but based on an existing platform. Score: 0.30.
+*   **handling_rating**: Praised for sports car handling and grip. Score: +0.90.
+*   **ride_comfort_rating**: Frequently described as stiff, especially Competition trim. Score: -0.80.
+*   **cabin_noise_rating**: Reviews mention wind noise from mirrors, but generally a luxury cabin. Score: 0.00.
+*   **shift_smooth_rating**: 8-speed automatic is generally smooth, especially in comfort modes. Score: +0.70.
+*   **steering_feel_rating**: Quick and accurate, but some reviews mention it can feel artificial or mute. Score: 0.00.
+*   **adas_score**: Standard ADAS includes blind spot, lane departure, frontal collision warning. Adaptive cruise control and more advanced features are optional. Score: 0.30.
+*   **visibility_rating**: Rear visibility is compromised by the sloping roofline. Score: -0.50.
+*   **headlight_rating**: Adaptive LED headlights are standard. Score: +0.50.
+*   **security_rating**: Standard security features like central locking, alarm, immobilizer, tracker system available. Score: 0.50.
+*   **screen_in**: 12.3-inch infotainment touchscreen and 12.3-inch digital gauge cluster. Large screens. Score: +0.70.
+*   **infotainment_ux_rating**: iDrive 7 (some sources say iDrive 7, others latest iDrive, but iDrive 7 is confirmed for 2024). Generally praised for usability via touchscreen, controller, voice, and optional gesture control. Score: +0.70.
+*   **smartphone_connect_rating**: Standard Apple CarPlay and Android Auto (wireless CarPlay, wired Android Auto on 2024). Score: +0.80.
+*   **audio_rating**: Standard Harman/Kardon 16-speaker system. High quality standard system. Score: +0.80.
+*   **usb_ports**: USB-A and USB-C ports available in front and rear. Count is not specified, but presence in both rows suggests at least 3-4. Score: 0.30.
+*   **comfort_feature_score**: Heated front seats standard, heated rear seats, heated steering wheel, ventilated front seats optional. Multi-zone climate control. Good range of features, but some key ones are optional. Score: 0.50.
+*   **convenience_feature_score**: Keyless entry, power liftgate, parking sensors, rear camera standard. Optional features include 360 camera, self-parking, remote start, wireless charging, head-up display. Good range of features, many advanced ones optional. Score: 0.60.
+*   **brand_prestige_rating**: BMW is a high-prestige brand. Score: +0.80.
+*   **model_prestige_rating**: X4 M is a high-performance variant of the X4, sitting below halo M cars like M3/M4/M5/M8/X5M/X6M. Score: 0.50.
+*   **trim_prestige_rating**: M (or Competition) is the top performance trim. Score: -1.00.
+*   **interior_luxury_rating**: High-quality materials like Merino leather available, premium feel. Score: +0.70.
+*   **interior_tech_focus_rating**: Large screens, digital cluster, advanced infotainment, optional tech features. Score: +0.70.```json
+{
+  "price_usd": -0.70,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.90,
+  "torque": 0.80,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.95,
+  "top_speed": 0.80,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": -0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.80,
+  "size": 0.10,
+  "wheelbase": 0.10,
+  "body_style": -0.50,
+  "seats": 0.00,
+  "cargo_space": -0.50,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.20,
+  "turn_radius_ft": -0.30,
+  "mpg": -0.80,
+  "co2_g_km": -0.80,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.70,
+  "style_modernity_rating": 0.30,
+  "handling_rating": 0.90,
+  "ride_comfort_rating": -0.80,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.70,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.30,
+  "visibility_rating": -0.50,
+  "headlight_rating": 0.50,
+  "security_rating": 0.50,
+  "screen_in": 0.70,
+  "infotainment_ux_rating": 0.70,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.80,
+  "usb_ports": 0.30,
+  "comfort_feature_score": 0.50,
+  "convenience_feature_score": 0.60,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 0.50,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": 0.70
+}
+```

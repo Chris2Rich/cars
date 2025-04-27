@@ -1,57 +1,136 @@
-```json
+Here's the evaluation of the most recent Audi Q4 e-tron based on the search results and the scoring guide:
+
+*   **price\_usd**: Starts around $50,995 - $55,200 for the base 45 trim, up to $63,395 for the Prestige 55 trim. The market average is ~$52,000. This is slightly above average for the base model, and moves towards the higher end for the top trims. Let's average the base and top trims (~$57k) and score it slightly below 0.00, maybe -0.10 to -0.20. Let's use -0.15.
+*   **total\_cost\_estimate\_5yr\_usd**: No specific 5-year cost estimate found. Default to 0.00.
+*   **insurance\_usd\_yr**: No specific insurance cost found. Default to 0.00.
+*   **maint\_usd\_yr**: No specific maintenance cost found. Default to 0.00.
+*   **repair\_risk\_score**: No specific reliability rating found. Edmunds rates it as "Good" overall but doesn't give a specific risk score. Default to 0.00.
+*   **hp**: Ranges from 282 hp (45 RWD) to 335 hp (55 Quattro). Market average is ~200 hp. This is well above average. Score: +0.50 to +0.75. Let's use +0.60 for the range.
+*   **torque**: 402 lb-ft (45) to 501 lb-ft (55 Quattro). Market average is ~190 lb-ft. This is significantly above average. Score: +0.70 to +0.90. Let's use +0.80.
+*   **cylinder\_count**: 0 (EV). Default to 0.00.
+*   **engine\_displacement**: 0 (EV). Default to 0.00.
+*   **accel\_0\_60\_sec**: 5.0 sec (55 Quattro) to 6.2-6.7 sec (45). Market average is ~7.5 sec. 5.0 sec is quite quick, 6.7 is above average. Score: +0.50 to +0.80. Let's use +0.65.
+*   **top\_speed**: 99-112 mph. Market average is ~150 mph. This is below average, likely electronically limited. Score: -0.50.
+*   **drive\_type**: Available in RWD (45) and AWD (Quattro 55). AWD is 0.00, RWD is +1.00. Since AWD is common and RWD is available, let's score it slightly positive for offering RWD, but mostly neutral as AWD is also prominent. Score: +0.20.
+*   **transmission\_type**: Single-speed automatic (EV). Score: +1.00.
+*   **driving\_track\_vs\_gt**: Daily driver/comfortable SUV. Score: 0.00.
+*   **offroad\_ability**: SUV with available AWD, but not a dedicated off-roader. Average for an SUV. Score: 0.00.
+*   **braking\_dist\_ft**: 177 ft (60-0 mph). Market average is ~125 ft. This is significantly worse than average. Score: -0.80.
+*   **size**: Length is around 4588-4591 mm (180.6-180.7 inches). Honda Civic is ~4600mm (0.00). This is slightly smaller than average. Score: +0.10.
+*   **wheelbase**: 108.7 inches (2764 mm). Skoda Octavia is ~2700mm (0.00). This is slightly longer than average. Score: +0.10.
+*   **body\_style**: 4-door SUV/Crossover. Score: 0.00.
+*   **seats**: 5 seats. Score: 0.00.
+*   **cargo\_space**: 24.8 cu ft (rear seats up), 53.1-54.4 cu ft (rear seats folded). Honda Civic is ~15 cu ft (0.00), Subaru Outback >35 cu ft (+1.00). 24.8 is above average for a sedan, but average for an SUV. 53.1 is very good when seats are folded. Let's score based on seats up as that's the usable space with passengers. Score: +0.30.
+*   **rear\_space**: Rear legroom is 37.2-38.3 inches. Hyundai Tucson is ~35" (0.00), BMW 7 Series >40" (+1.00). This is above average. Score: +0.40.
+*   **ground\_clearance\_in**: 180 mm (7.1 inches). Compact crossovers ~6.5" (0.00). This is slightly above average. Score: +0.10.
+*   **turn\_radius\_ft**: 10.2 m (33.5 ft) for 45, 11.5m (37.7 ft) for 55. Toyota Camry ~36 ft (0.00). The 45 is better than average, the 55 is average. Let's average them or lean towards the more common 55 Quattro. Let's use 0.00.
+*   **mpg**: 95-100 MPGe observed/EPA. EVs are +1.00. Score: +1.00.
+*   **co2\_g\_km**: 0 g/km (EV). Score: +1.00.
+*   **electrification**: EV. Score: +1.00.
+*   **electric\_range\_mi**: EPA 258 miles (55 Quattro), up to 329 miles (45 RWD WLTP). Mazda MX-30 ~100 mi (0.00), Lucid Air >375 mi (+1.00). 258-329 miles is good, but not class-leading compared to some competitors like Model Y or Ioniq 6. Score: +0.50 to +0.70. Let's use +0.60.
+*   **charge\_speed\_kw**: Max 175 kW DC fast charging. Typical public ~11-50 kW (0.00), High-speed DC Fast ~250-350+ kW (+1.00). 175 kW is good, faster than average, but not top-tier like 250kW+ EVs. Score: +0.60.
+*   **style\_sleek\_vs\_boxy**: Modern crossover, not particularly sleek or boxy. Score: 0.00.
+*   **style\_aggression\_rating**: Modern Audi design, somewhat aggressive front. Score: 0.00.
+*   **style\_modernity\_rating**: Modern EV design, but not avant-garde. Score: 0.00.
+*   **handling\_rating**: Described as comfortable and easy to drive, with improved steering accuracy, but not particularly sporty or fun on twisty roads. Average. Score: 0.00.
+*   **ride\_comfort\_rating**: Described as comfortable and smooth ride. Above average. Score: +0.50.
+*   **cabin\_noise\_rating**: EVs are generally quiet, Audi focuses on refinement. Described as quiet. Above average. Score: +0.50.
+*   **shift\_smooth\_rating**: EV single-speed is inherently smooth. Score: +1.00.
+*   **steering\_feel\_rating**: Improved steering accuracy, but may lack feel. Average. Score: 0.00.
+*   **adas\_score**: Stocked with plenty of driver-assistance features, including adaptive cruise control, lane-keeping assist, automated emergency braking, and augmented reality HUD. Good suite, above average. Score: +0.60.
+*   **visibility\_rating**: Crossover body style generally offers good visibility. No specific rating found, but body style suggests good visibility. Above average. Score: +0.50.
+*   **headlight\_rating**: Offers LED and optional Matrix-design LED headlights. Audi is known for good lighting. Above average. Score: +0.60.
+*   **security\_rating**: Luxury brand, likely good security features. Above average. Score: +0.50.
+*   **screen\_in**: 10.25-inch digital gauge cluster, 11.6-inch infotainment touchscreen. Toyota Camry ~8" (0.00), Tesla Model S 17" (+1.00). 11.6" is above average. Score: +0.40.
+*   **infotainment\_ux\_rating**: Latest Audi MMI system, angled towards driver, customizable. Generally well-regarded. Above average. Score: +0.50.
+*   **smartphone\_connect\_rating**: Wireless Apple CarPlay and Android Auto. Good. Above average. Score: +0.60.
+*   **audio\_rating**: Optional Sonos system available. Base system likely average, premium is good. Score: +0.25 (considering the optional upgrade potential).
+*   **usb\_ports**: No specific number found. Default to 0.00.
+*   **comfort\_feature\_score**: Power seats, multi-zone climate, heated seats, comfortable seats. Good features for a luxury vehicle. Above average. Score: +0.60.
+*   **convenience\_feature\_score**: Power tailgate, parking aids, cameras, augmented reality HUD. Good features. Above average. Score: +0.60.
+*   **brand\_prestige\_rating**: Audi is a premium/luxury brand. Score: +0.75.
+*   **model\_prestige\_rating**: Q4 is an entry-level/mid-range SUV in Audi's lineup. Score: +0.50.
+*   **trim\_prestige\_rating**: Assuming base model unless specified. Score: +1.00.
+*   **interior\_luxury\_rating**: High-quality interior, leather/Alcantara options, good fit and finish. Above average for the market, but not top-tier luxury. Score: +0.60.
+*   **interior\_tech\_focus\_rating**: Digital cockpit, large touchscreen, augmented reality HUD. Good tech focus, but still has physical buttons. Above average. Score: +0.60.
+
+Final check on values and scoring against the guide. Adjusting slightly where needed for consistency. Braking distance is notably poor. Top speed is low. Otherwise, it scores well in EV metrics, interior tech/comfort, and brand/model prestige for its segment. Performance is good for an SUV, but not outstanding compared to some EV competitors.
+
+Let's refine the scores:
+*   price\_usd: Base is slightly above average, top trims higher. -0.15 seems reasonable.
+*   hp: 282-335 hp is solid, but not extreme. +0.60 is good.
+*   torque: 402-501 lb-ft is strong, especially for an EV. +0.80 is good.
+*   accel\_0\_60\_sec: 5.0-6.7 sec. 5.0 is quick, 6.7 is decent. +0.65 is fair.
+*   top\_speed: 99-112 mph is low. -0.50 is appropriate.
+*   braking\_dist\_ft: 177 ft is poor. -0.80 is appropriate.
+*   cargo\_space: 24.8 cu ft seats up. Average for SUV. 0.00 might be more accurate than +0.30. Let's use 0.00.
+*   rear\_space: 37.2-38.3 inches is good. +0.40 is fair.
+*   electric\_range\_mi: 258-329 miles. Good, but not class-leading. +0.60 is fair.
+*   charge\_speed\_kw: 175 kW. Good, but not top-tier. +0.60 is fair.
+*   adas\_score: Good suite, AR HUD is a plus. +0.60 is fair.
+*   screen\_in: 11.6" is above average. +0.40 is fair.
+*   infotainment\_ux\_rating: Well-regarded MMI. +0.50 is fair.
+*   smartphone\_connect\_rating: Wireless CP/AA. +0.60 is fair.
+*   interior\_luxury\_rating: High quality, but not S-Class. +0.60 is fair.
+*   interior\_tech\_focus\_rating: Digital cockpit, screens, AR HUD. +0.60 is fair.
+*   brand\_prestige\_rating: Audi. +0.75 is fair.
+*   model\_prestige\_rating: Q4 is entry/mid. +0.50 is fair.
+*   trim\_prestige\_rating: Base. +1.00 is fair.
+
+Looks good. Ready to format as JSON.```json
 {
-  "price_usd": 0.00,
+  "price_usd": -0.15,
   "total_cost_estimate_5yr_usd": 0.00,
   "insurance_usd_yr": 0.00,
   "maint_usd_yr": 0.00,
   "repair_risk_score": 0.00,
-  "hp": 0.25,
-  "torque": 0.50,
+  "hp": 0.60,
+  "torque": 0.80,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.50,
+  "accel_0_60_sec": 0.65,
   "top_speed": -0.50,
-  "drive_type": 0.00,
+  "drive_type": 0.20,
   "transmission_type": 1.00,
   "driving_track_vs_gt": 0.00,
   "offroad_ability": 0.00,
-  "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.00,
+  "braking_dist_ft": -0.80,
+  "size": 0.10,
+  "wheelbase": 0.10,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.50,
-  "rear_space": 0.25,
-  "ground_clearance_in": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.40,
+  "ground_clearance_in": 0.10,
   "turn_radius_ft": 0.00,
   "mpg": 1.00,
   "co2_g_km": 1.00,
   "electrification": 1.00,
-  "electric_range_mi": 0.50,
-  "charge_speed_kw": 0.50,
+  "electric_range_mi": 0.60,
+  "charge_speed_kw": 0.60,
   "style_sleek_vs_boxy": 0.00,
   "style_aggression_rating": 0.00,
   "style_modernity_rating": 0.00,
-  "handling_rating": 0.25,
+  "handling_rating": 0.00,
   "ride_comfort_rating": 0.50,
   "cabin_noise_rating": 0.50,
   "shift_smooth_rating": 1.00,
   "steering_feel_rating": 0.00,
-  "adas_score": 0.50,
+  "adas_score": 0.60,
   "visibility_rating": 0.50,
-  "headlight_rating": 0.50,
+  "headlight_rating": 0.60,
   "security_rating": 0.50,
-  "screen_in": 0.25,
+  "screen_in": 0.40,
   "infotainment_ux_rating": 0.50,
-  "smartphone_connect_rating": 1.00,
-  "audio_rating": 0.00,
+  "smartphone_connect_rating": 0.60,
+  "audio_rating": 0.25,
   "usb_ports": 0.00,
-  "comfort_feature_score": 0.50,
-  "convenience_feature_score": 0.50,
+  "comfort_feature_score": 0.60,
+  "convenience_feature_score": 0.60,
   "brand_prestige_rating": 0.75,
   "model_prestige_rating": 0.50,
   "trim_prestige_rating": 1.00,
-  "interior_luxury_rating": 0.50,
-  "interior_tech_focus_rating": 0.50
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.60
 }
 ```

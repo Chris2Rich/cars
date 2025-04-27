@@ -1,115 +1,57 @@
-Based on the search results, here's the refined evaluation for the 2024 Audi RS3 (considering the Audi Sport Edition is a high trim, the core specs like engine, performance, and dimensions are consistent across trims unless noted):
-
-- price_usd: Starts around $62,300 - $63,395. This is above the market average ($52k), but not in the >$120k range. Score: -0.25.
-- total_cost_estimate_5yr_usd: Around $69,070 over 5 years. This is significantly above the $40k average. Score: -0.20. (Edmunds shows $69,070, CarEdge shows $69,070).
-- insurance_usd_yr: Around $3,017 per year. This is well above the $1,500 average. Score: -0.50.
-- maint_usd_yr: Around $3,237 after 5 years, which is about $647/year. This is below the $1000 average. Score: 0.20. (Edmunds shows $2,129 for repairs over 5 years, CarEdge shows $3,237 for maintenance and repairs over 5 years. Let's use the CarEdge combined number and divide by 5 for a yearly estimate, which is still below $1000). Let's re-evaluate based on the guide's examples. $647/year is closer to the <$500/year range than $1000. Let's adjust to 0.30.
-- repair_risk_score: Audi reliability is generally average to good. Performance models can have higher repair costs, but not necessarily higher risk than average. Edmunds gives it an 8/10 for reliability. Score: 0.20.
-- hp: 401 hp. Well above the 200 hp average. Score: 0.70.
-- torque: 369 lb-ft. Well above the 190 lb-ft average. Score: 0.60.
-- cylinder_count: 5 cylinders. Above average (most cars are 4 or 6). Score: 0.20.
-- engine_displacement: 2.5L. Above average for a compact car. Score: 0.30.
-- accel_0_60_sec: 3.3 - 3.6 seconds. Well below the 7.5 sec average. Score: 0.80.
-- top_speed: 155 mph (governed), optional 174 mph or 180 mph. Above the 150 mph average. Score: 0.50.
-- drive_type: All-Wheel Drive (Quattro). Average (0.00).
-- transmission_type: 7-speed dual-clutch automatic (S tronic). Average (0.00).
-- driving_track_vs_gt: Designed for performance and track use, but also usable daily. Closer to track focus. Score: -0.20.
-- offroad_ability: Low ground clearance, performance focus. Poor offroad. Score: 1.00. (Correction: My initial thought was reversed based on the guide. Low ability = +1.00).
-- braking_dist_ft: Performance brakes (14.8" front rotors). Likely good braking. Score: 0.50 (assuming good performance, no specific ft found).
-- size: Length around 4524mm - 4542mm (Sedan). Hatchback is shorter (4389mm). Sedan length is close to Civic (4600mm). Score: 0.00.
-- wheelbase: 103.6 inches (2631mm). Below the 2700mm average. Score: -0.20.
-- body_style: Sedan (4-door) or Sportback (5-door hatchback). Sedan/Coupe is 0.00. 5-door hatch is closer to sedan than van. Score: 0.00.
-- seats: 5 seats. Average (0.00).
-- cargo_space: 8.3 - 11.3 cu ft. Below the 15 cu ft average. Score: -0.30.
-- rear_space: Around 35.1 - 35.2 inches. Around the 35" average. Score: 0.00. (Some sources say it's tight for taller passengers). Let's keep it at 0.00 as the measurement is average.
-- ground_clearance_in: Around 5 inches (121mm). Below the 6.5" average. Score: -0.20. (Reddit suggests 4.7" ballpark or 6" measured). Let's use the official 121mm (4.76 inches). This is below average. Score: -0.20.
-- turn_radius_ft: 39.4 ft. Above the 36 ft average (meaning worse turning circle). Score: -0.20.
-- mpg: 23 combined EPA. Real-world highway 33.5 mpg. Below the 30 mpg average. Score: -0.30.
-- co2_g_km: 190 - 217 g/km. Above the 175 g/km average. Score: -0.40.
-- electrification: Petrol. Score: -1.00.
-- electric_range_mi: N/A. Score: -1.00.
-- charge_speed_kw: N/A. Score: -1.00.
-- style_sleek_vs_boxy: Sedan/Sportback shape. Score: 0.00.
-- style_aggression_rating: Aggressive RS styling. Score: 0.50.
-- style_modernity_rating: Modern Audi design. Score: 0.20.
-- handling_rating: Excellent handling, track capable. Score: 0.60.
-- ride_comfort_rating: Can be composed but performance suspension is stiff. Score: 0.20.
-- cabin_noise_rating: Well-insulated for daily driving, but engine sound is prominent. Score: 0.20.
-- shift_smooth_rating: 7-speed dual-clutch, quick shifts, can be less smooth at low speeds. Score: 0.40.
-- steering_feel_rating: Progressive steering, some reviews mention needing more feel. Score: 0.20.
-- adas_score: Available ADAS features like adaptive cruise control, lane departure warning, park assist. Above average. Score: 0.40.
-- visibility_rating: Average for a compact car. Score: 0.00. (No specific reviews found, defaulting to average). Let's use 0.30 as it's a modern car with cameras/sensors.
-- headlight_rating: Available Matrix LED headlights. Above average. Score: 0.50.
-- security_rating: Premium brand, likely good security. Score: 0.30.
-- screen_in: 10.1" touchscreen and 12.3" virtual cockpit. Above average screen size. Score: 0.30.
-- infotainment_ux_rating: Audi MMI is generally good, touch and physical controls. Score: 0.50.
-- smartphone_connect_rating: Wireless Apple CarPlay and Android Auto standard. Score: 0.50.
-- audio_rating: Available Bang & Olufsen 3D sound system. Above average. Score: 0.50.
-- usb_ports: Standard USB ports. Likely multiple. Score: 0.20.
-- comfort_feature_score: Heated front seats, triple-zone climate control standard, but no ventilated seats. Above average but not top luxury. Score: 0.40.
-- convenience_feature_score: Park assist, rear view camera, keyless entry, push-button start standard. Above average. Score: 0.40.
-- brand_prestige_rating: Audi is a premium brand. Score: 0.60.
-- model_prestige_rating: RS3 is a high-performance model within the A3 range. Score: 0.00.
-- trim_prestige_rating: Audi Sport Edition is a top trim for the RS3. Score: -1.00.
-- interior_luxury_rating: High-quality interior materials, sports seats. Premium feel but not ultra-luxury. Score: 0.40.
-- interior_tech_focus_rating: Digital cockpit, large screens, HUD available. High tech focus. Score: 0.40.
-
-Final check of scores against benchmarks and consistency. Looks reasonable.
-
-Construct the JSON output.```json
+```json
 {
   "price_usd": -0.25,
-  "total_cost_estimate_5yr_usd": -0.20,
-  "insurance_usd_yr": -0.50,
-  "maint_usd_yr": 0.30,
-  "repair_risk_score": 0.20,
-  "hp": 0.70,
-  "torque": 0.60,
-  "cylinder_count": 0.20,
-  "engine_displacement": 0.30,
-  "accel_0_60_sec": 0.80,
+  "total_cost_estimate_5yr_usd": -0.25,
+  "insurance_usd_yr": -0.75,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": 0.25,
+  "hp": 0.75,
+  "torque": 0.50,
+  "cylinder_count": 0.25,
+  "engine_displacement": 0.25,
+  "accel_0_60_sec": 0.85,
   "top_speed": 0.50,
   "drive_type": 0.00,
   "transmission_type": 0.00,
-  "driving_track_vs_gt": -0.20,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.50,
-  "size": 0.00,
-  "wheelbase": -0.20,
+  "driving_track_vs_gt": -0.25,
+  "offroad_ability": 0.75,
+  "braking_dist_ft": 0.25,
+  "size": -0.25,
+  "wheelbase": -0.25,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.30,
-  "rear_space": 0.00,
-  "ground_clearance_in": -0.20,
-  "turn_radius_ft": -0.20,
-  "mpg": -0.30,
-  "co2_g_km": -0.40,
+  "cargo_space": -0.50,
+  "rear_space": -0.25,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.25,
+  "co2_g_km": -0.50,
   "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.50,
-  "style_modernity_rating": 0.20,
-  "handling_rating": 0.60,
-  "ride_comfort_rating": 0.20,
-  "cabin_noise_rating": 0.20,
-  "shift_smooth_rating": 0.40,
-  "steering_feel_rating": 0.20,
-  "adas_score": 0.40,
-  "visibility_rating": 0.30,
+  "style_aggression_rating": 0.75,
+  "style_modernity_rating": 0.25,
+  "handling_rating": 0.75,
+  "ride_comfort_rating": 0.25,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.25,
+  "steering_feel_rating": 0.25,
+  "adas_score": 0.50,
+  "visibility_rating": 0.25,
   "headlight_rating": 0.50,
-  "security_rating": 0.30,
-  "screen_in": 0.30,
+  "security_rating": 0.25,
+  "screen_in": 0.25,
   "infotainment_ux_rating": 0.50,
   "smartphone_connect_rating": 0.50,
   "audio_rating": 0.50,
-  "usb_ports": 0.20,
-  "comfort_feature_score": 0.40,
-  "convenience_feature_score": 0.40,
-  "brand_prestige_rating": 0.60,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": -1.00,
-  "interior_luxury_rating": 0.40,
-  "interior_tech_focus_rating": 0.40
+  "usb_ports": 0.25,
+  "comfort_feature_score": 0.25,
+  "convenience_feature_score": 0.25,
+  "brand_prestige_rating": 0.50,
+  "model_prestige_rating": -0.50,
+  "trim_prestige_rating": -0.50,
+  "interior_luxury_rating": 0.25,
+  "interior_tech_focus_rating": 0.50
 }
 ```

@@ -1,111 +1,61 @@
-Based on the search results, the BMW E39 540i V8 was produced from 1995-2003. I will use specs from the later models (post-1998 update) as they are more representative of the "most recent version" within that generation.
+Based on the search results, the latest generation of the BMW 5 Series (G60) does not offer a "540i V8" model. The G60 540i is equipped with a 3.0L turbocharged inline-6 engine. The only V8 engine mentioned in the context of the G60 is in the M Performance model (M60i xDrive) or the upcoming M5, neither of which is designated as "540i V8".
 
-- **price_usd**: Used prices vary widely, from ~$5k to over $20k depending on condition and mileage. The average sale price is around $24k according to one source, but many listings are below $15k. Relative to a new car average of $52k, a used E39 540i is significantly cheaper. Score: +1.00.
-- **total_cost_estimate_5yr_usd**: Older luxury cars, especially BMW V8s, can have high maintenance and repair costs. While the purchase price is low, ownership costs will be higher than average. Score: 0.00 (balancing low purchase price with high running costs).
-- **insurance_usd_yr**: Older performance/luxury cars can have moderate to high insurance costs. No specific group found, but likely higher than average. Score: 0.00.
-- **maint_usd_yr**: Known issues like cooling system, timing chain guides, and leaks mean potentially high maintenance costs, easily exceeding $1000/year, potentially $2500-$3000 for bigger repairs. Score: -0.30.
-- **repair_risk_score**: The E39 is generally considered solid, but the V8 engine has known failure points like timing chain guides and cooling system issues, making it less reliable than some other cars. Score: -0.30.
-- **hp**: Around 282-290 hp. This was good for its time but is average compared to today's market (average ~200hp, but many cars exceed 300hp). Score: 0.30.
-- **torque**: Around 310-324 lb-ft. Good for its time, slightly above average today. Score: 0.30.
-- **cylinder_count**: 8. Above average. Score: 0.50.
-- **engine_displacement**: 4.4L. Above average. Score: 0.50.
-- **accel_0_60_sec**: Around 5.3-6.5 seconds depending on year and transmission. This was fast for its era, but is now average to slightly above average compared to modern cars. Score: 0.30.
-- **top_speed**: Around 155 mph (often electronically limited). Average compared to modern cars. Score: 0.00.
-- **drive_type**: RWD. Score: +1.00.
-- **transmission_type**: Available with 6-speed manual or 5-speed automatic. The automatic was common. Scoring for Automatic: +1.00.
-- **driving_track_vs_gt**: Primarily a comfortable, capable daily driver/GT car. Score: +1.00.
-- **offroad_ability**: Low ground clearance, RWD, not designed for off-road. Score: +1.00.
-- **braking_dist_ft**: No specific data found, but E39s generally had good brakes for their time. Assume average relative to modern cars. Score: 0.00.
-- **size**: Length around 188 inches (4775mm). This is slightly larger than a modern Honda Civic (~4600mm) but smaller than large SUVs/trucks. Score: 0.30.
-- **wheelbase**: Around 111.4 inches (2830mm). Longer than average (~2700mm), contributing to ride comfort. Score: 0.30.
-- **body_style**: 4-door Sedan. Score: 0.00.
-- **seats**: 5 seats. Score: 0.00.
-- **cargo_space**: Around 16.24 cu ft. Average for a sedan. Score: 0.00.
-- **rear_space**: Rear legroom around 34.2 inches. Below average compared to modern sedans/SUVs. Score: -0.30.
-- **ground_clearance_in**: Around 4.72 inches (120mm). Below average. Score: -0.50.
-- **turn_radius_ft**: No specific data found. Assume average for a RWD sedan of its size. Score: 0.00.
-- **mpg**: Combined average around 18-20 mpg. Poor compared to today's market average (~30 mpg). Score: -0.70.
-- **co2_g_km**: High due to V8 engine and lower MPG. Score: -0.70.
-- **electrification**: Petrol. Score: -1.00.
-- **electric_range_mi**: N/A. Score: -1.00.
-- **charge_speed_kw**: N/A. Score: -1.00.
-- **style_sleek_vs_boxy**: Classic sedan shape, neither particularly sleek nor boxy by modern standards. Score: 0.00.
-- **style_aggression_rating**: Moderate, understated design. Score: 0.00.
-- **style_modernity_rating**: Clearly dated design compared to modern cars. Score: -0.70.
-- **handling_rating**: Highly praised for its handling in its era. Still good, but modern cars have advanced. Score: 0.50.
-- **ride_comfort_rating**: Known for a comfortable ride. Score: 0.70.
-- **cabin_noise_rating**: Good for its time, likely still decent but not best-in-class today. Score: 0.50.
-- **shift_smooth_rating**: BMW automatics were generally smooth. Score: 0.70.
-- **steering_feel_rating**: Praised for its steering feel (though the V8 used a steering box, not rack and pinion like I6 models). Score: 0.70.
-- **adas_score**: Minimal to no modern ADAS features. Score: -1.00.
-- **visibility_rating**: Average for a sedan. Score: 0.00.
-- **headlight_rating**: Older halogen or early Xenon technology. Score: -0.50.
-- **security_rating**: Standard security for its era. Score: 0.00.
-- **screen_in**: Small, low-resolution screen if equipped. Score: -0.70.
-- **infotainment_ux_rating**: Dated interface. Score: -0.70.
-- **smartphone_connect_rating**: No standard smartphone connectivity. Score: -1.00.
-- **audio_rating**: Decent for its time, but not modern premium audio. Score: 0.00.
-- **usb_ports**: None. Score: -1.00.
-- **comfort_feature_score**: Available features like leather, power seats were good for its time, but lacks modern amenities. Score: 0.00.
-- **convenience_feature_score**: Lacks modern features like backup cameras, parking sensors (standard now). Score: -0.70.
-- **brand_prestige_rating**: BMW has high brand prestige. Score: 0.80.
-- **model_prestige_rating**: 5 Series is a core, well-regarded model for BMW. Score: 0.00.
-- **trim_prestige_rating**: 540i V8 was a high trim, below the M5. Score: 0.00.
-- **interior_luxury_rating**: Good materials and build quality for its time, but dated design and features. Score: 0.30.
-- **interior_tech_focus_rating**: Minimal tech focus compared to modern cars. Score: -1.00.```json
+Since the specific model and engine configuration requested ("latest BMW 5 Series 540i V8") does not exist in the current generation, I cannot provide specific data for its attributes. According to the instructions, if data is ambiguous or unclear, I must default to 0.00 for all scores.
+
+```json
 {
-  "price_usd": 1.00,
+  "price_usd": 0.00,
   "total_cost_estimate_5yr_usd": 0.00,
   "insurance_usd_yr": 0.00,
-  "maint_usd_yr": -0.30,
-  "repair_risk_score": -0.30,
-  "hp": 0.30,
-  "torque": 0.30,
-  "cylinder_count": 0.50,
-  "engine_displacement": 0.50,
-  "accel_0_60_sec": 0.30,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.00,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.00,
   "top_speed": 0.00,
-  "drive_type": 1.00,
-  "transmission_type": 1.00,
-  "driving_track_vs_gt": 1.00,
-  "offroad_ability": 1.00,
+  "drive_type": 0.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 0.00,
   "braking_dist_ft": 0.00,
-  "size": 0.30,
-  "wheelbase": 0.30,
+  "size": 0.00,
+  "wheelbase": 0.00,
   "body_style": 0.00,
   "seats": 0.00,
   "cargo_space": 0.00,
-  "rear_space": -0.30,
-  "ground_clearance_in": -0.50,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
   "turn_radius_ft": 0.00,
-  "mpg": -0.70,
-  "co2_g_km": -0.70,
-  "electrification": -1.00,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
+  "mpg": 0.00,
+  "co2_g_km": 0.00,
+  "electrification": 0.00,
+  "electric_range_mi": 0.00,
+  "charge_speed_kw": 0.00,
   "style_sleek_vs_boxy": 0.00,
   "style_aggression_rating": 0.00,
-  "style_modernity_rating": -0.70,
-  "handling_rating": 0.50,
-  "ride_comfort_rating": 0.70,
-  "cabin_noise_rating": 0.50,
-  "shift_smooth_rating": 0.70,
-  "steering_feel_rating": 0.70,
-  "adas_score": -1.00,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.00,
   "visibility_rating": 0.00,
-  "headlight_rating": -0.50,
+  "headlight_rating": 0.00,
   "security_rating": 0.00,
-  "screen_in": -0.70,
-  "infotainment_ux_rating": -0.70,
-  "smartphone_connect_rating": -1.00,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.00,
   "audio_rating": 0.00,
-  "usb_ports": -1.00,
+  "usb_ports": 0.00,
   "comfort_feature_score": 0.00,
-  "convenience_feature_score": -0.70,
-  "brand_prestige_rating": 0.80,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.00,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.30,
-  "interior_tech_focus_rating": -1.00
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": 0.00
 }
 ```

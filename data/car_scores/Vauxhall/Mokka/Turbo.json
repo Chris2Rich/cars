@@ -1,0 +1,111 @@
+The Vauxhall Mokka 'Turbo' refers to the petrol engine options in the current generation Mokka (launched 2020/2021, updated for 2025). These are the 1.2-litre turbocharged three-cylinder engines, available in different power outputs (100PS, 130PS, 136PS) depending on the model year and transmission. I will evaluate based on the general characteristics of these petrol variants in the most recent Mokka.
+
+-   **price_usd**: The 2025 Mokka petrol starts from £24,995 (Griffin) or £25,105 (Design 136PS). Using a conversion rate of 1.25 USD/GBP, this is approximately $31,244 - $31,381. This is significantly below the market average of $52,000. Score: 0.50.
+-   **total_cost_estimate_5yr_usd**: No specific 5-year cost data found for the petrol Turbo models. Default to 0.00.
+-   **insurance_usd_yr**: Insurance groups for the Mokka petrol range from 13 to 19. This is below the average group (around 25-30), suggesting lower insurance costs. Score: 0.50.
+-   **maint_usd_yr**: Service interval is 20,000 miles or 1 year. No specific cost data found. Default to 0.00.
+-   **repair_risk_score**: Reliability ratings for the current generation Mokka are mixed, but it's on a newer platform. Default to 0.00.
+-   **hp**: Petrol engines are 1.2L Turbo with 100PS (99hp), 130PS (128hp), or 136PS (134hp). These figures are below the 200hp market average. Score: -0.50.
+-   **torque**: Petrol 100PS: 205 Nm (151 lb-ft). Petrol 130/136PS: 230 Nm (170 lb-ft). These are around the 190 lb-ft market average. Score: 0.00.
+-   **cylinder_count**: The petrol engine is a 1.2-litre three-cylinder turbocharged engine. This is below average. Score: -1.00.
+-   **engine_displacement**: 1.2L (1199cc) for petrol. This is below average. Score: -1.00.
+-   **accel_0_60_sec**: 1.2 Turbo 100PS: 10.6-11.0s. 1.2 Turbo 130PS auto: 9.2s. 1.2 Turbo 136PS manual: 8.9s. These figures are slower than the 7.5s average. Score: -0.30.
+-   **top_speed**: 1.2 Turbo 100PS: 115-116 mph. 1.2 Turbo 130PS: 124-126 mph. 1.2 Turbo 136PS: 129 mph. These figures are below the 150mph average. Score: -0.50.
+-   **drive_type**: Front-wheel drive (FWD) only. Score: -1.00.
+-   **transmission_type**: Available with 6-speed manual or 8-speed automatic. The availability of a modern 8-speed automatic is a positive. Score: 1.00.
+-   **driving_track_vs_gt**: Described as comfortable and easy for daily driving and town use. Not focused on track performance or grand touring luxury. Score: 0.00.
+-   **offroad_ability**: Compact SUV with FWD. Minimal off-road ability. Score: 1.00.
+-   **braking_dist_ft**: No specific data found. Default to 0.00.
+-   **size**: Length 4150-4151mm. On the smaller side for a compact SUV. Score: -0.50.
+-   **wheelbase**: 2557-2561mm. Below the 2700mm average. Score: -0.30.
+-   **body_style**: 5-door SUV/crossover. Common body style. Score: 0.00.
+-   **seats**: 5 seats. Score: 0.00.
+-   **cargo_space**: 350 litres (12.36 cu ft) with seats up, 1105 litres (39.02 cu ft) with seats folded. Below the 15 cu ft average. Score: -0.30.
+-   **rear_space**: Rear space is described as cramped for tall adults. Score: -0.30.
+-   **ground_clearance_in**: 160mm (6.3 inches) at max load or 19cm (7.48 inches) unladen. Around the 6.5" average. Score: 0.00.
+-   **turn_radius_ft**: Turning circle is 11.08m (36.35 ft) or 11.080mm (36.4 ft) wall to wall. Around the 36 ft average. Score: 0.00.
+-   **mpg**: 1.2 Turbo 100PS: up to 51.4 mpg (WLTP). 1.2 Turbo 130PS auto: 45.6-47.9 mpg. 1.2 Turbo 136PS manual: 49.6-51.3 mpg. These figures are around the 30 mpg average (converted from UK mpg). Score: 0.00.
+-   **co2_g_km**: 1.2 Turbo 100PS: 124-128 g/km. 1.2 Turbo 130PS auto: 135-139 g/km. 1.2 Turbo 136PS manual: 129 g/km. These figures are below the 175 g/km average. Score: 0.50.
+-   **electrification**: Petrol engine only (in this specific evaluation). Score: -1.00.
+-   **electric_range_mi**: Not an electric vehicle. Score: -1.00.
+-   **charge_speed_kw**: Not an electric vehicle. Score: -1.00.
+-   **style_sleek_vs_boxy**: Modern, sharp design, distinctive Vizor front, less boxy than traditional SUVs. Score: 0.10.
+-   **style_aggression_rating**: Bold and modern design, but not overly aggressive. Score: 0.00.
+-   **style_modernity_rating**: Distinctive, modern design language, updated interior tech. Score: 0.30.
+-   **handling_rating**: Balanced handling, comfortable ride, not particularly sporty or agile compared to some rivals. Score: 0.00.
+-   **ride_comfort_rating**: Comfortable ride, especially at lower speeds. Score: 0.10.
+-   **cabin_noise_rating**: Engine can be noisy under acceleration. Fairly quiet at motorway speeds. Score: 0.00.
+-   **shift_smooth_rating**: 8-speed automatic transmission is smooth. Score: 1.00.
+-   **steering_feel_rating**: Light and easy for town, direct and sharp but lacks feel compared to some rivals. Score: -0.30.
+-   **adas_score**: Standard features include AEB with pedestrian detection, Lane Keep Assist, Speed Sign Recognition, Driver Drowsiness Alert, Cruise Control with intelligent speed limiter, Automatic High Beam Assist, Rear Parking Sensors, Panoramic Rear View Camera (on most trims). Good level of standard kit. Score: 0.30.
+-   **visibility_rating**: Good forward visibility due to raised driving position, but rear view is compromised by thick pillars and small rear window. Score: 0.00.
+-   **headlight_rating**: Intelli-LED headlights standard on Design and higher trims. This is better than standard LEDs. Score: 0.30.
+-   **security_rating**: Remote control central locking, engine immobiliser, locking wheel nuts, ultrasonic security alarm system standard on some trims. Standard features. Score: 0.00.
+-   **screen_in**: 2025 models get a 10-inch colour touchscreen and 10-inch digital instrument cluster as standard. Older models had 7-inch screens on lower trims. The 10-inch screens are around the market average. Score: 0.00.
+-   **infotainment_ux_rating**: Multimedia Pure Panel system, generally easy to use, responsive, physical controls for climate. Uses PSA software which has been criticised, but seems improved. Score: 0.00.
+-   **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto standard on 2025 models. This is better than wired only. Score: 0.50.
+-   **audio_rating**: Six speakers standard. Standard. Score: 0.00.
+-   **usb_ports**: Front USB connection standard. Two rear USB sockets on some trims (GS, Ultimate). Score: 0.00 (assuming 1-2 standard).
+-   **comfort_feature_score**: Electronic climate control standard. Heated front seats and heated steering wheel available on some trims (Griffin, Elegance, GS, Ultimate). Decent comfort features available. Score: 0.30.
+-   **convenience_feature_score**: Rear parking sensors and panoramic rear view camera standard on many trims (Design, GS, Griffin, Elegance). Keyless entry and start available on higher trims. Good level of convenience features. Score: 0.30.
+-   **brand_prestige_rating**: Vauxhall is a mainstream brand. Score: 0.00.
+-   **model_prestige_rating**: Mokka is a popular compact SUV model in the range. Score: 0.00.
+-   **trim_prestige_rating**: "Turbo" refers to the engine, not a specific trim. Score: 0.00.
+-   **interior_luxury_rating**: Quality materials for the class, synthetic suede and synthetic leather upholstery available. Not luxury class. Score: 0.00.
+-   **interior_tech_focus_rating**: Pure Panel cockpit with dual screens. Screen-focused design. Score: 0.30.```json
+{
+ "price_usd": 0.50,
+ "total_cost_estimate_5yr_usd": 0.00,
+ "insurance_usd_yr": 0.50,
+ "maint_usd_yr": 0.00,
+ "repair_risk_score": 0.00,
+ "hp": -0.50,
+ "torque": 0.00,
+ "cylinder_count": -1.00,
+ "engine_displacement": -1.00,
+ "accel_0_60_sec": -0.30,
+ "top_speed": -0.50,
+ "drive_type": -1.00,
+ "transmission_type": 1.00,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.00,
+ "size": -0.50,
+ "wheelbase": -0.30,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": -0.30,
+ "rear_space": -0.30,
+ "ground_clearance_in": 0.00,
+ "turn_radius_ft": 0.00,
+ "mpg": 0.00,
+ "co2_g_km": 0.50,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": 0.10,
+ "style_aggression_rating": 0.00,
+ "style_modernity_rating": 0.30,
+ "handling_rating": 0.00,
+ "ride_comfort_rating": 0.10,
+ "cabin_noise_rating": 0.00,
+ "shift_smooth_rating": 1.00,
+ "steering_feel_rating": -0.30,
+ "adas_score": 0.30,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.30,
+ "security_rating": 0.00,
+ "screen_in": 0.00,
+ "infotainment_ux_rating": 0.00,
+ "smartphone_connect_rating": 0.50,
+ "audio_rating": 0.00,
+ "usb_ports": 0.00,
+ "comfort_feature_score": 0.30,
+ "convenience_feature_score": 0.30,
+ "brand_prestige_rating": 0.00,
+ "model_prestige_rating": 0.00,
+ "trim_prestige_rating": 0.00,
+ "interior_luxury_rating": 0.00,
+ "interior_tech_focus_rating": 0.30
+}
+```

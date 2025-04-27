@@ -1,6 +1,6 @@
-Based on the search results, 'T' is not a current trim level for the most recent Vauxhall Astra (L generation, 2021-present). The current trims are Design, GS, Ultimate, Griffin, and GSe. While 'T' is used in engine designations like '1.2 Turbo', it does not represent a specific trim level on its own for the current model.
+Based on the search results, "T" is not a current or recent trim level for the Vauxhall Astra. The search results indicate that the most recent Astra models (from 2021/2022 onwards) offer trims such as Design, GS Line (or GS), Ultimate, Griffin, and GSe. Older models had different trim designations. The search results mentioning "T" in relation to Astra seem to refer to engine types (like 1.4T or 1.6T for turbocharged petrol engines) or potentially older, less common trim variations not part of the main lineup.
 
-Since the user requested the "most recent version" with a designation ('T') that does not correspond to a current trim level for that version, the request is ambiguous. According to the instructions, in cases of ambiguity or unclear data, I must default to `0.00` for all attributes. The only exceptions are `electric_range_mi` and `charge_speed_kw`, which should be `-1.00` as 'T' refers to a combustion engine type (Turbo).
+Since "T" is not a specific, recent trim level, I will default most scores to 0.00 as per the instructions for ambiguous or unclear data. I will use general Vauxhall/Astra information where applicable to the brand/model overall, but specific performance, cost, and feature data tied to a non-existent recent "T" trim cannot be accurately determined for a recent model evaluation. The electrification metrics will reflect the likely engine types associated with "T" (petrol).
 
 ```json
 {
@@ -15,9 +15,10 @@ Since the user requested the "most recent version" with a designation ('T') that
   "engine_displacement": 0.00,
   "accel_0_60_sec": 0.00,
   "top_speed": 0.00,
-  "drive_type": 0.00,
+  "drive_type": -1.00,
   "transmission_type": 0.00,
-  "offroad_ability": 0.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
   "size": 0.00,
   "wheelbase": 0.00,
@@ -29,6 +30,7 @@ Since the user requested the "most recent version" with a designation ('T') that
   "turn_radius_ft": 0.00,
   "mpg": 0.00,
   "co2_g_km": 0.00,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
@@ -50,7 +52,7 @@ Since the user requested the "most recent version" with a designation ('T') that
   "usb_ports": 0.00,
   "comfort_feature_score": 0.00,
   "convenience_feature_score": 0.00,
-  "brand_prestige_rating": 0.00,
+  "brand_prestige_rating": -0.20,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
   "interior_luxury_rating": 0.00,

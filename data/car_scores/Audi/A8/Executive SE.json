@@ -1,15 +1,69 @@
-```json
+Based on the search results, the Audi A8 Executive SE refers to a trim level available on the D4 generation (roughly 2010-2018) and potentially earlier/later models in some markets like the UK. The specs vary depending on the engine (3.0 TDI, 3.0 TFSI, 4.2 TDI, etc.) and whether it's the standard or long wheelbase. I will use the most commonly cited specs for the 3.0 TDI Quattro SE Executive from the search results, as this appears to be a prevalent configuration.
+
+- **Price:** New price around £56k-£65k (2010-2014 era). This is significantly above the market average for a new car today (~$52k or ~£40k). Used prices are much lower. Focusing on its position when new relative to the market then, and its luxury positioning now, it's high. Score: -0.75.
+- **Total Cost Estimate 5yr:** Luxury car, high depreciation (especially as a used car now), maintenance, and insurance. Likely very high. Score: -1.00.
+- **Insurance USD/yr:** Insurance group 40-47 in the UK. This is very high (out of 50). Average cost for group 40 is ~£1985/year. This is well above the average. Score: -1.00.
+- **Maintenance USD/yr:** German luxury car, likely high maintenance costs. Estimates around £4k over 3 years/60k miles. Score: -1.00.
+- **Repair Risk Score:** Audi is generally average, but complex luxury cars can have issues. KBB owners rate reliability positively (4.5/5 for 2012), but some forum posts mention potential issues. Score: -0.25.
+- **HP:** 3.0 TDI Quattro SE Executive is around 250-262 bhp. 4.2 TDI is around 350 bhp. 3.0 TFSI is around 290 bhp. 250-350 bhp is above average but not top-tier performance today. Score: 0.25 (for 3.0 TDI/TFSI) to 0.50 (for 4.2 TDI). Let's average to 0.25-0.50 depending on engine. Using 3.0 TDI (250-262hp): 0.25.
+- **Torque:** 3.0 TDI is around 550 Nm (406 lb-ft). 4.2 TDI is around 800 Nm (590 lb-ft). 3.0 TFSI is around 420 Nm (310 lb-ft). 400-800 Nm is good to excellent. Score: 0.50 (3.0 TDI/TFSI) to 0.75 (4.2 TDI). Using 3.0 TDI: 0.50.
+- **Cylinder Count:** V6 (3.0 TDI/TFSI) or V8 (4.2 TDI). V6 is average, V8 is above average. Score: 0.00 (V6) or 0.25 (V8). Using V6: 0.00.
+- **Engine Displacement:** 3.0L (V6) or 4.1/4.2L (V8). 3.0L is average, 4.1/4.2L is above average. Score: 0.00 (3.0L) or 0.25 (4.1/4.2L). Using 3.0L: 0.00.
+- **Accel 0-60 mph:** 3.0 TDI is around 6.1-7.6 seconds. 3.0 TFSI is around 6.0-6.1 seconds. 4.2 TDI is around 5.0-5.6 seconds. 5-7.6 seconds is average to good. Score: 0.25 to 0.50 depending on engine. Using 3.0 TDI: 0.25.
+- **Top Speed:** Electronically limited to 155 mph. This is above average. Score: 0.00 (relative to the guide, 150mph is 0.00).
+- **Drive Type:** Quattro AWD is standard on most SE Executive models. Score: 0.00.
+- **Transmission Type:** 8-speed automatic (Tiptronic). Score: 1.00.
+- **Driving Track vs GT:** Designed as a comfortable luxury cruiser. Score: 1.00.
+- **Offroad Ability:** Low ground clearance, not designed for off-road. Score: 1.00.
+- **Braking Dist ft:** No specific data found, but luxury sedans typically have good braking. Estimate slightly above average. Score: 0.25.
+- **Size:** Length around 5137mm (standard) or 5267mm (LWB). Width around 1949mm (body) / 2111mm (with mirrors). This is a large car. Score: 1.00.
+- **Wheelbase:** Around 2992mm (standard) or longer for LWB. This is a long wheelbase. Score: 1.00.
+- **Body Style:** 4-door Saloon/Sedan. Score: 0.00.
+- **Seats:** 5 seats standard. Score: 0.00.
+- **Cargo Space:** 510 litres (around 18 cu ft). This is decent for a sedan but not exceptional compared to SUVs/hatches. Score: -0.25.
+- **Rear Space:** Excellent, especially in LWB models. Score: 1.00.
+- **Ground Clearance in:** No specific number found, but luxury sedans are typically low. Score: -0.25.
+- **Turn Radius ft:** Around 12m (39.4 ft). This is larger than average. Score: -0.25.
+- **MPG:** 3.0 TDI combined is around 37-49 mpg (NEDC/WLTP). 3.0 TFSI is around 30-34 mpg. 4.2 TDI is around 37 mpg. These figures are average to slightly above average for a large luxury car, but below average compared to the overall market including smaller/hybrid cars. Score: -0.25.
+- **CO2 g/km:** 3.0 TDI is around 155-174 g/km. 3.0 TFSI is around 199-217 g/km. 4.2 TDI is around 198-199 g/km. These are high compared to the market average. Score: -0.50.
+- **Electrification:** Mild-hybrid system on newer models, PHEV option exists but SE Executive trim often refers to older models. Assuming the D4 era SE Executive, it's primarily internal combustion. Score: -1.00.
+- **Electric Range mi:** Not applicable for non-EV/PHEV. Score: -1.00.
+- **Charge Speed kW:** Not applicable for non-EV/PHEV. Score: -1.00.
+- **Style Sleek vs Boxy:** Sleek sedan profile. Score: 0.50.
+- **Style Aggression Rating:** Understated elegance, not aggressive. Score: 0.00.
+- **Style Modernity Rating:** Modern for its era, but the D4 design is now dated compared to the latest cars. Score: 0.00.
+- **Handling Rating:** Good for a large car, poised and composed, but not sporty like smaller cars. Score: 0.25.
+- **Ride Comfort Rating:** Excellent, supremely comfortable. Score: 1.00.
+- **Cabin Noise Rating:** Extremely quiet. Score: 1.00.
+- **Shift Smooth Rating:** Smooth 8-speed automatic. Score: 1.00.
+- **Steering Feel Rating:** Decent feel for a luxury car, but not sporty. Score: 0.00.
+- **ADAS Score:** High level of available ADAS, including adaptive cruise control, lane assist, parking systems. Score: 0.75.
+- **Visibility Rating:** Good for a sedan. Score: 0.00.
+- **Headlight Rating:** Excellent LED/Matrix LED options available. Score: 1.00.
+- **Security Rating:** High level of security features (alarm, immobiliser, break-in protection glass). Score: 1.00.
+- **Screen in:** Multiple screens, large for its era. Score: 0.75.
+- **Infotainment UX Rating:** MMI system, generally good but can be complex. Score: 0.50.
+- **Smartphone Connect Rating:** Standard Apple CarPlay/Android Auto on newer models, older models may have less. Assuming a recent-enough version for standard connectivity. Score: 0.50.
+- **Audio Rating:** Excellent optional audio systems (e.g., BOSE). Score: 1.00.
+- **USB Ports:** Multiple ports. Score: 0.50.
+- **Comfort Feature Score:** Abundant luxury features (heated seats, electric adjust, memory, climate control). Score: 1.00.
+- **Convenience Feature Score:** Abundant convenience features (parking sensors, camera, keyless entry, electric tailgate). Score: 1.00.
+- **Brand Prestige Rating:** High (Audi). Score: 0.75.
+- **Model Prestige Rating:** High (A8 is flagship). Score: -1.00.
+- **Trim Prestige Rating:** Executive SE is a high trim, but not the absolute top performance trim (like S8) or the absolute highest luxury trim. Score: 0.00.
+- **Interior Luxury Rating:** Very high quality materials and finish. Score: 1.00.
+- **Interior Tech Focus Rating:** High tech for its era with multiple screens and digital elements. Score: 0.75.```json
 {
   "price_usd": -0.75,
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
   "maint_usd_yr": -1.00,
   "repair_risk_score": -0.25,
-  "hp": 0.50,
-  "torque": 0.75,
-  "cylinder_count": 0.25,
-  "engine_displacement": 0.25,
-  "accel_0_60_sec": 0.75,
+  "hp": 0.25,
+  "torque": 0.50,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.25,
   "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 1.00,
@@ -20,11 +74,11 @@
   "wheelbase": 1.00,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.00,
+  "cargo_space": -0.25,
   "rear_space": 1.00,
-  "ground_clearance_in": -0.50,
-  "turn_radius_ft": -0.50,
-  "mpg": 0.00,
+  "ground_clearance_in": -0.25,
+  "turn_radius_ft": -0.25,
+  "mpg": -0.25,
   "co2_g_km": -0.50,
   "electrification": -1.00,
   "electric_range_mi": -1.00,
@@ -36,22 +90,22 @@
   "ride_comfort_rating": 1.00,
   "cabin_noise_rating": 1.00,
   "shift_smooth_rating": 1.00,
-  "steering_feel_rating": 0.50,
-  "adas_score": 0.50,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.75,
   "visibility_rating": 0.00,
   "headlight_rating": 1.00,
   "security_rating": 1.00,
-  "screen_in": 0.25,
-  "infotainment_ux_rating": 0.25,
-  "smartphone_connect_rating": -0.50,
+  "screen_in": 0.75,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.50,
   "audio_rating": 1.00,
-  "usb_ports": 0.00,
+  "usb_ports": 0.50,
   "comfort_feature_score": 1.00,
   "convenience_feature_score": 1.00,
   "brand_prestige_rating": 0.75,
   "model_prestige_rating": -1.00,
   "trim_prestige_rating": 0.00,
   "interior_luxury_rating": 1.00,
-  "interior_tech_focus_rating": 0.50
+  "interior_tech_focus_rating": 0.75
 }
 ```

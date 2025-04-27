@@ -1,57 +1,113 @@
-```json
+Refining scores based on search results:
+
+- `price_usd`: Starts around $204,650 and goes up to $340,150+. This is well above the >$120,000 threshold. Score: -1.00.
+- `total_cost_estimate_5yr_usd`: S-Class average is $144,327. Maybach will be higher due to price and potentially higher maintenance/insurance. Well above >$80,000. Score: -1.00.
+- `insurance_usd_yr`: S-Class average is ~$4,935/year. Maybach will be higher. Well above >$3,500. Score: -1.00.
+- `maint_usd_yr`: S-Class average is ~$853/year for first 5 years, but a mechanic notes premium prices for parts and labor on Maybach. Older Maybach S-Class maintenance is cited around $1,200-$1,500/year. Given the complexity and V12 engine on the S680, it's likely higher than average. Score: -1.00 (leaning towards high end).
+- `repair_risk_score`: No specific Maybach reliability rating found. Mercedes-Benz is generally average. Default: 0.00.
+- `hp`: S680 has 621 hp. S580 has 496 hp. Both are high. S680 is >700 hp threshold? No, 621 hp is high but not Hellcat level. Score: 1.00 (relative to market average).
+- `torque`: S680 has 664 lb-ft. S580 has 516 lb-ft. Both are high. Score: 1.00.
+- `cylinder_count`: S680 has V12. S580 has V8. V12 is >12. Score: 1.00.
+- `engine_displacement`: S680 has 6.0L (5980 cm³). S580 has 4.0L (3982 cm³). 6.0L is >6.0L threshold? No, it's 6.0L. Score: 1.00.
+- `accel_0_60_sec`: S680 is 3.7-4.5 sec. S580 is 4.7-4.8 sec. Both are very fast, well below 7.5 sec. Score: 1.00.
+- `top_speed`: Electronically limited to 155 mph (250 km/h). Average is 150 mph. Score: 0.00 (limited, not exceptional).
+- `drive_type`: AWD (4MATIC) is standard. Score: 0.00.
+- `transmission_type`: 9-speed automatic. Score: 1.00.
+- `driving_track_vs_gt`: Designed for chauffeured driving and comfort. Grand Touring. Score: 1.00.
+- `offroad_ability`: Low ground clearance. Not designed for off-road. Score: 1.00.
+- `braking_dist_ft`: No specific data found. Default: 0.00.
+- `size`: Length is 215.3 inches (5469 mm). This is >5100mm. Score: 1.00.
+- `wheelbase`: 133.7 inches (3396 mm). This is >3200mm. Score: 1.00.
+- `body_style`: 4-door sedan. Score: 0.00.
+- `seats`: 5 seats standard, 4 optional (First Class). First Class trim is explicitly mentioned as 4 seats. Score: -1.00 (for 4 seats).
+- `cargo_space`: 12.3-12.9 cu ft (495-505 litres). This is around the 15 cu ft average. Score: 0.00.
+- `rear_space`: Exceptional rear legroom (49.1 inches). Score: 1.00.
+- `ground_clearance_in`: 130 mm (5.1 inches). Average is 6.5". Score: 0.00.
+- `turn_radius_ft`: 43.0 ft (6.7 metres). This is >36 ft average. Score: -1.00.
+- `mpg`: S680 is 12 city / 20-21 highway / 14-15 combined. S580 is 15-18 city / 24-27 highway / 18-21 combined. Both are well below 30 mpg. Score: -1.00.
+- `co2_g_km`: S680 is 302-325 g/km. S580 is 236-267 g/km. Both are well above 175 g/km. Score: -1.00.
+- `electrification`: S580 has mild hybrid (EQ Boost). S680 is V12 petrol. There is a PHEV S580e variant. The prompt is for the "most recent version" of the Maybach S Class, and the S680 V12 is the top model and widely available. The S580e PHEV exists but might not be the primary "First Class" offering globally or the most recent *top* version. Given the S680 is the pinnacle, rate based on it. Score: -1.00 (Petrol).
+- `electric_range_mi`: Not applicable for S680. Score: -1.00.
+- `charge_speed_kw`: Not applicable for S680. Score: -1.00.
+- `style_sleek_vs_boxy`: Classic sedan shape, not particularly sleek or boxy. Score: 0.00.
+- `style_aggression_rating`: Stately, not aggressive. Score: -1.00.
+- `style_modernity_rating`: Very modern design. Score: 1.00.
+- `handling_rating`: Focused on comfort, not sporty handling. Score: 0.00.
+- `ride_comfort_rating`: Exceptional ride comfort. Score: 1.00.
+- `cabin_noise_rating`: Extremely quiet cabin. Score: 1.00.
+- `shift_smooth_rating`: Very smooth 9-speed automatic. Score: 1.00.
+- `steering_feel_rating`: Electric power steering, likely comfortable but not engaging. Rear-axle steering improves maneuverability. Score: 0.00.
+- `adas_score`: Top-tier ADAS suite (Distronic, Blind Spot Monitor, Lane Departure Warning, etc.). Score: 1.00.
+- `visibility_rating`: No specific data found. Default: 0.00.
+- `headlight_rating`: DIGITAL LIGHT headlights are standard. Score: 1.00.
+- `security_rating`: High security features (Tracker System). Score: 1.00.
+- `screen_in`: Large screens, 12.8-inch OLED central display. Score: 1.00.
+- `infotainment_ux_rating`: MBUX system, generally well-regarded. Score: 1.00.
+- `smartphone_connect_rating`: Apple CarPlay, Android Auto, WiFi Hotspot. Full connectivity. Score: 1.00.
+- `audio_rating`: Burmester High-End 4D Sound System standard. Score: 1.00.
+- `usb_ports`: Likely multiple ports, but no specific count found. Default: 0.00.
+- `comfort_feature_score`: Extremely high level (massage seats, heated/ventilated seats, rear fridge, folding tables, etc.). Score: 1.00.
+- `convenience_feature_score`: Extremely high level (auto-close doors, 360 cameras, rear-axle steering, etc.). Score: 1.00.
+- `brand_prestige_rating`: Mercedes-Maybach is top-tier luxury. Score: 1.00.
+- `model_prestige_rating`: S Class is flagship, Maybach S Class is the pinnacle. Score: -1.00.
+- `trim_prestige_rating`: "First Class" is the top trim. Score: -1.00.
+- `interior_luxury_rating`: Pinnacle of luxury, exquisite materials. Score: 1.00.
+- `interior_tech_focus_rating`: High tech integration (MBUX, screens, ADAS) but balanced with traditional luxury. Score: 1.00.
+
+Final check on scores and formatting. All scores are between -1.00 and +1.00 with two decimal places. All attributes are present.```json
 {
-  "price_usd": -0.90,
-  "total_cost_estimate_5yr_usd": -0.80,
-  "insurance_usd_yr": -0.80,
-  "maint_usd_yr": -0.90,
-  "repair_risk_score": -0.60,
-  "hp": 0.80,
-  "torque": 0.80,
-  "cylinder_count": 0.80,
-  "engine_displacement": 0.90,
-  "accel_0_60_sec": 0.60,
-  "top_speed": 0.70,
-  "drive_type": 1.00,
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": 0.00,
+  "hp": 1.00,
+  "torque": 1.00,
+  "cylinder_count": 1.00,
+  "engine_displacement": 1.00,
+  "accel_0_60_sec": 1.00,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
   "transmission_type": 1.00,
   "driving_track_vs_gt": 1.00,
-  "offroad_ability": -1.00,
+  "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
-  "size": 0.90,
+  "size": 1.00,
   "wheelbase": 1.00,
   "body_style": 0.00,
   "seats": -1.00,
-  "cargo_space": -0.80,
+  "cargo_space": 0.00,
   "rear_space": 1.00,
-  "ground_clearance_in": -0.80,
-  "turn_radius_ft": 0.00,
-  "mpg": -0.50,
-  "co2_g_km": -0.50,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": -1.00,
+  "mpg": -1.00,
+  "co2_g_km": -1.00,
   "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.80,
-  "handling_rating": 0.70,
+  "style_aggression_rating": -1.00,
+  "style_modernity_rating": 1.00,
+  "handling_rating": 0.00,
   "ride_comfort_rating": 1.00,
   "cabin_noise_rating": 1.00,
   "shift_smooth_rating": 1.00,
   "steering_feel_rating": 0.00,
-  "adas_score": 0.80,
-  "visibility_rating": 0.80,
+  "adas_score": 1.00,
+  "visibility_rating": 0.00,
   "headlight_rating": 1.00,
   "security_rating": 1.00,
-  "screen_in": 0.90,
-  "infotainment_ux_rating": 0.80,
+  "screen_in": 1.00,
+  "infotainment_ux_rating": 1.00,
   "smartphone_connect_rating": 1.00,
   "audio_rating": 1.00,
-  "usb_ports": 0.80,
+  "usb_ports": 0.00,
   "comfort_feature_score": 1.00,
   "convenience_feature_score": 1.00,
   "brand_prestige_rating": 1.00,
-  "model_prestige_rating": 1.00,
-  "trim_prestige_rating": 1.00,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": -1.00,
   "interior_luxury_rating": 1.00,
-  "interior_tech_focus_rating": 0.80
+  "interior_tech_focus_rating": 1.00
 }
 ```

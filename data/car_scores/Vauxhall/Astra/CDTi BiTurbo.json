@@ -1,6 +1,6 @@
-Based on the search results, the 'CDTi BiTurbo' engine was available in previous generations of the Vauxhall Astra, specifically the Astra J (2009-2015) and Astra K (2015-2021) (Source 3, 10, 12, 15, 16, 17, 19, 20, 21). It is not offered in the most recent Vauxhall Astra L generation (2021-present), which focuses on petrol, plug-in hybrid, and electric powertrains in the UK market, with a single 1.5 diesel option in some markets, but no BiTurbo diesel (Source 2, 4, 5, 6, 8, 11, 13, 14, 18).
+Based on the search results, "CDTi BiTurbo" refers to a specific twin-turbo diesel engine variant that was available in previous generations of the Vauxhall Astra (such as the K generation). It is not a current trim level or engine option for the most recent generation of the Vauxhall Astra (from 2021/2022 onwards), which offers petrol, plug-in hybrid, and electric powertrains.
 
-Since the user specifically requested the "most recent version" with the "CDTi BiTurbo" engine, and this combination does not exist in the current generation, the data for this specific request is ambiguous. According to the instructions, when data is ambiguous or unclear, I must default to `0.00` for each attribute. The only exceptions are `electric_range_mi` and `charge_speed_kw`, which should be `-1.00` as this is a combustion engine.
+Since "CDTi BiTurbo" is not a recent trim/engine combination, specific data for a "most recent version" Vauxhall Astra with this configuration is not available. As per the instructions, I will default most scores to 0.00 when data is unclear or unavailable for the specified non-existent recent model and engine. I will use general Vauxhall/Astra information where applicable to the brand/model overall, but specific performance, cost, and feature data tied to an older "CDTi BiTurbo" cannot be accurately determined for a recent model evaluation. The electrification metrics will reflect that this is a diesel engine.
 
 ```json
 {
@@ -15,9 +15,10 @@ Since the user specifically requested the "most recent version" with the "CDTi B
   "engine_displacement": 0.00,
   "accel_0_60_sec": 0.00,
   "top_speed": 0.00,
-  "drive_type": 0.00,
+  "drive_type": -1.00,
   "transmission_type": 0.00,
-  "offroad_ability": 0.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
   "size": 0.00,
   "wheelbase": 0.00,
@@ -29,6 +30,7 @@ Since the user specifically requested the "most recent version" with the "CDTi B
   "turn_radius_ft": 0.00,
   "mpg": 0.00,
   "co2_g_km": 0.00,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
@@ -50,7 +52,7 @@ Since the user specifically requested the "most recent version" with the "CDTi B
   "usb_ports": 0.00,
   "comfort_feature_score": 0.00,
   "convenience_feature_score": 0.00,
-  "brand_prestige_rating": 0.00,
+  "brand_prestige_rating": -0.20,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
   "interior_luxury_rating": 0.00,

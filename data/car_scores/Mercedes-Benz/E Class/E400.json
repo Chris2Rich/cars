@@ -1,134 +1,57 @@
-The search results indicate that the "E400" designation for the most recent Mercedes-Benz E-Class (W214, 2024+) is specifically used for the E 400 e 4MATIC Plug-in Hybrid variant in some markets. Previous generations (W212, W213) had non-PHEV E400 variants.
-
-Therefore, the "most recent version of this" ['Mercedes-Benz', 'E Class', 'E400'] refers to the E 400 e 4MATIC Plug-in Hybrid. I will evaluate based on the data found for this specific model.
-
-Here's an evaluation based on the search results for the Mercedes-Benz E 400 e 4MATIC (W214):
-
-**Cost & Risk:**
-- **price_usd:** Price of a presented model at Auto Zürich was 114,920 CHF (approx $127,000 USD). This is significantly above the market average of $52,000 and falls into the >$120,000 range. Score: -1.00.
-- **total_cost_estimate_5yr_usd:** No direct 5-year cost estimate found. Luxury PHEVs typically have high ownership costs due to price, depreciation, insurance, and maintenance. Likely well above the $80,000 range over 5 years. Score: -1.00.
-- **insurance_usd_yr:** No specific US or UK insurance cost found. High-performance luxury PHEVs are likely expensive to insure. Score: -0.50.
-- **maint_usd_yr:** No specific annual maintenance cost found. Mercedes-Benz maintenance is generally expensive, and PHEV systems add complexity. Score: -0.50.
-- **repair_risk_score:** JD Power gives the 2024 E-Class an 83/100 for Quality & Reliability, which is very good. However, the added complexity of the PHEV system could introduce potential issues. Balancing the good initial quality rating with complexity, a slightly above-average score seems appropriate. Score: 0.20.
-
-**Power & Performance:**
-- **hp:** Combined system output is 381 PS (376 hp / 280 kW). This is well above average. Score: 0.60.
-- **torque:** Combined system torque is 650 Nm (479 lb-ft). This is well above average. Score: 0.80.
-- **cylinder_count:** 4 cylinders (inline-4) for the petrol engine. Average for new cars. Score: 0.00.
-- **engine_displacement:** 2.0L (1999 cm³) for the petrol engine. Average for new cars. Score: 0.00.
-- **accel_0_60_sec:** 5.0-5.3 seconds (0-60 mph) or 5.3 seconds (0-100 km/h). This is fast. Score: 0.60.
-- **top_speed:** 155 mph (250 km/h). Above average. Score: 0.20.
-- **drive_type:** All-wheel drive (4MATIC) is standard. Score: 0.00.
-- **transmission_type:** 9-speed automatic (9G-TRONIC). Modern, smooth automatic. Score: 1.00.
-- **driving_track_vs_gt:** Praised for comfort, refinement, and long-distance cruising, with the ability to cover everyday trips on electric power. Clearly a Grand Tourer. Score: 0.80.
-- **offroad_ability:** Low to the ground sedan. Score: 1.00.
-- **braking_dist_ft:** No specific braking distance found. Default to average. Score: 0.00.
-
-**Space & Practicality:**
-- **size:** Length is 4949 mm (194.84 inches). This is larger than a typical sedan. Score: 0.20.
-- **wheelbase:** 2961 mm (116.57 inches). Longer than average. Score: 0.40.
-- **body_style:** 4-door sedan (Saloon). Score: 0.00.
-- **seats:** 5-passenger. Average. Score: 0.00.
-- **cargo_space:** 370 litres (13.07 cu ft) for the sedan due to the battery. This is below average for a sedan of this size. Score: -0.40.
-- **rear_space:** Generous space inside, comfortable for four occupants. Seems good for a sedan. Score: 0.20.
-- **ground_clearance_in:** Height is 1480 mm (58.27 inches). Ground clearance is not explicitly stated in inches, but it's a standard sedan height. Score: 0.00.
-- **turn_radius_ft:** 12 m (39.37 ft). This is around average to slightly wide. Score: 0.00.
-
-**Efficiency & Electrification:**
-- **mpg:** Official WLTP combined fuel consumption is very high (e.g., 0.6 L/100 km or 392 US mpg, 471 UK mpg). Real-world figures vary greatly depending on electric usage. Excellent potential fuel economy when utilizing the electric range. Score: 0.90.
-- **co2_g_km:** 12-18 g/km (WLTP combined). This is extremely low. Score: 0.90.
-- **electrification:** Plug-in Hybrid (PHEV) with a petrol engine. Score: 0.00.
-- **electric_range_mi:** Official WLTP electric range is up to 115 km (around 71 miles). This is a very good electric range for a PHEV. Score: 0.80.
-- **charge_speed_kw:** Supports AC charging (power not explicitly stated, but likely 11 kW based on other E-Class PHEVs) and DC fast charging up to 55 kW. 55 kW DC charging is very good for a PHEV. Score: 0.80.
-
-**Ride & Dynamics:**
-- **handling_rating:** Described as composed, confident, agile and effortless, but not sporty or encouraging of hard driving. The weight of the PHEV system is noticeable. Focus is on comfort over sportiness. Score: 0.20.
-- **ride_comfort_rating:** Incredibly comfortable, supremely comfortable, excellent ride quality, floats along beautifully. Excellent ride comfort, especially with optional air suspension. Score: 0.90.
-- **cabin_noise_rating:** Whisper-quiet inside, impressively low cabin noise, road and wind noise hushed, silent on the inside, especially in electric mode. Very quiet cabin. Score: 0.80.
-- **shift_smooth_rating:** Nine-speed automatic shifts are nearly imperceptible, slick in auto mode, smooth power delivery. Score: 0.80.
-- **steering_feel_rating:** Fluent steering, precise, natural steering feel, but lacking a bit of feel. Score: 0.40.
-
-**Safety & Visibility:**
-- **adas_score:** Comprehensive list of standard and optional safety features and driver assistance systems. High level of ADAS available. Score: 0.80.
-- **visibility_rating:** Good visibility mentioned. Score: 0.00.
-- **headlight_rating:** High-performance LED headlamps standard, Digital Light LED headlights with adaptive high-beam available/standard on some trims. High-quality headlights. Score: 0.80.
-- **security_rating:** Mercedes vehicles typically have good security features. Score: 0.80.
-
-**Infotainment & Connectivity:**
-- **screen_in:** 12.3-inch digital instrument cluster, 14.4-inch center touchscreen standard. Optional MBUX Superscreen with 12.3-inch passenger display. Large screens. Score: 0.80.
-- **infotainment_ux_rating:** Latest MBUX system, intuitive, high resolution, quick response, supports third-party apps, but touch-sensitive steering wheel buttons are annoying, can be complex/overwhelming. Score: 0.40.
-- **smartphone_connect_rating:** Wireless Apple CarPlay and Android Auto standard. Score: 1.00.
-- **audio_rating:** Optional Burmester 4D Surround Sound System with Dolby Atmos. Top-notch audio. Score: 1.00.
-- **usb_ports:** Multiple USB-C ports mentioned. Score: 0.80.
-
-**Comfort & Convenience:**
-- **comfort_feature_score:** Luxurious interior, high-quality materials, heated front seats standard, power seats with memory, multi-zone climate control available, plush seats. High level of comfort features. Score: 0.80.
-- **convenience_feature_score:** Active Parking Assist, rear-view camera, 360-degree camera system available, wireless charging available, Keyless Entry, Push Start Stop Button, Paddle Shift, Automatic Headlamps, Rain Sensing Wipers. High level of convenience features. Score: 0.80.
-
-**Style, Brand & Interior Character:**
-- **interior_luxury_rating:** Classy interior, high quality materials, ambient lighting. High luxury. Score: 0.80.
-- **interior_tech_focus_rating:** Tech-forward cabin, MBUX Superscreen option, multiple large displays, digital features, third-party apps, selfie camera. Very tech-focused. Score: 0.90.
-- **brand_prestige_rating:** Mercedes-Benz is a high-prestige brand. Score: 0.80.
-- **model_prestige_rating:** E-Class is a core executive sedan model, not entry-level or halo. Score: 0.00.
-- **trim_prestige_rating:** E400e is a specific engine/powertrain variant, available across different trim lines (e.g., AMG Line). Score: 0.00.
-- **style_sleek_vs_boxy:** Sedan shape, sleek design, flowing shapes, coupe-esque side profile. Score: 0.20.
-- **style_aggression_rating:** Standard E-Class styling is elegant, not aggressive. AMG Line adds aggression. Score: 0.00.
-- **style_modernity_rating:** Latest generation design, modern styling cues. Score: 0.60.
-
 ```json
 {
- "price_usd": -1.00,
- "total_cost_estimate_5yr_usd": -1.00,
- "insurance_usd_yr": -0.50,
- "maint_usd_yr": -0.50,
- "repair_risk_score": 0.20,
- "hp": 0.60,
- "torque": 0.80,
- "cylinder_count": 0.00,
- "engine_displacement": 0.00,
- "accel_0_60_sec": 0.60,
- "top_speed": 0.20,
- "drive_type": 0.00,
- "transmission_type": 1.00,
- "driving_track_vs_gt": 0.80,
- "offroad_ability": 1.00,
- "braking_dist_ft": 0.00,
- "size": 0.20,
- "wheelbase": 0.40,
- "body_style": 0.00,
- "seats": 0.00,
- "cargo_space": -0.40,
- "rear_space": 0.20,
- "ground_clearance_in": 0.00,
- "turn_radius_ft": 0.00,
- "mpg": 0.90,
- "co2_g_km": 0.90,
- "electrification": 0.00,
- "electric_range_mi": 0.80,
- "charge_speed_kw": 0.80,
- "style_sleek_vs_boxy": 0.20,
- "style_aggression_rating": 0.00,
- "style_modernity_rating": 0.60,
- "handling_rating": 0.20,
- "ride_comfort_rating": 0.90,
- "cabin_noise_rating": 0.80,
- "shift_smooth_rating": 0.80,
- "steering_feel_rating": 0.40,
- "adas_score": 0.80,
- "visibility_rating": 0.00,
- "headlight_rating": 0.80,
- "security_rating": 0.80,
- "screen_in": 0.80,
- "infotainment_ux_rating": 0.40,
- "smartphone_connect_rating": 1.00,
- "audio_rating": 1.00,
- "usb_ports": 0.80,
- "comfort_feature_score": 0.80,
- "convenience_feature_score": 0.80,
- "brand_prestige_rating": 0.80,
- "model_prestige_rating": 0.00,
- "trim_prestige_rating": 0.00,
- "interior_luxury_rating": 0.80,
- "interior_tech_focus_rating": 0.90
+  "price_usd": 0.50,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -0.30,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": 0.30,
+  "hp": 0.60,
+  "torque": 0.60,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.80,
+  "top_speed": 0.00,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": -1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.20,
+  "wheelbase": 0.30,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.10,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.20,
+  "co2_g_km": 0.00,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.20,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": -0.20,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.80,
+  "cabin_noise_rating": 0.80,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.70,
+  "visibility_rating": 0.30,
+  "headlight_rating": 0.50,
+  "security_rating": 0.70,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.70,
+  "usb_ports": 0.40,
+  "comfort_feature_score": 0.70,
+  "convenience_feature_score": 0.70,
+  "brand_prestige_rating": 0.80,
+  "model_prestige_rating": 0.70,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": 0.50
 }
 ```

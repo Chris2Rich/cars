@@ -1,8 +1,8 @@
-Based on the search results, the most recent version of the Mercedes-Benz GLC does not include a model specifically named "GLC 300h". The current hybrid variants in the latest generation (X254, 2023-present) are the GLC 300e (petrol plug-in hybrid) and the GLC 300de (diesel plug-in hybrid). The standard GLC 300 is a mild-hybrid (MHEV) petrol model.
+The search results indicate that the current generation (X254) Mercedes-Benz GLC models include the GLC 300 (mild hybrid petrol), GLC 220d (mild hybrid diesel), GLC 300d (mild hybrid diesel), GLC 300e (petrol PHEV), GLC 300de (diesel PHEV), and AMG variants (GLC 43, GLC 63 S E Performance). There is no mention of a "GLC 300h" as a distinct model in the current or recent previous generation in major markets.
 
-Since the requested model name "GLC300h" does not correspond to a currently produced vehicle in the most recent GLC lineup, I cannot provide specific data for it. According to the instructions, if data is ambiguous or unclear, I should default to 0.00. As the model itself is not found in the current lineup, I will populate the JSON with default values.
+The GLC 300 *is* a mild hybrid, but it is named "GLC 300", not "GLC 300h". The "h" designation is typically used for full hybrids or PHEVs by Mercedes, but the current PHEVs are named "e" or "de".
 
-```json
+Therefore, the model "Mercedes-Benz GLC 300h" is not identifiable as a specific recent version based on the available data. As per instructions, I will return default scores (0.00) for all attributes.```json
 {
   "price_usd": 0.00,
   "total_cost_estimate_5yr_usd": 0.00,

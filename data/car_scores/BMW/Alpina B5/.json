@@ -1,57 +1,171 @@
+The most recent model is the BMW Alpina B5 GT, based on the G30/G31 5 Series, released in 2023. It's a limited edition model.
+
+Here's the data gathered and the corresponding scores:
+
+*   **price_usd**: Price in Germany is €145,500 (saloon) / €148,500 (Touring). Car and Driver estimates ~$137,500 (Sedan) / $140,000 (Wagon). These are well above the $120,000 threshold for -1.00. Score: -1.00.
+*   **total_cost_estimate_5yr_usd**: Difficult to find an exact 5-year cost estimate. Given the high purchase price, performance nature, and likely depreciation of a limited edition model, it will be well above the $80,000 threshold for -1.00. Score: -1.00.
+*   **insurance_usd_yr**: UK insurance group is N. This is a high-performance, high-value car, likely resulting in high insurance costs, well above the $3,500/year threshold for -1.00. Score: -1.00.
+*   **maint_usd_yr**: High-performance BMW/Alpina maintenance is expensive, likely well above the $3,500/year threshold for -1.00. Score: -1.00.
+*   **repair_risk_score**: BMW/Alpina reliability is generally considered average to slightly below average compared to brands like Toyota/Lexus. Score: -0.25.
+*   **hp**: 634 hp (625 bhp). This is very high, well above 700 hp for +1.00, but significantly above average. Score: +0.75.
+*   **torque**: 850 Nm (627 lb-ft). This is very high, well above 1000 lb-ft for +1.00, but significantly above average. Score: +0.75.
+*   **cylinder_count**: V8. Score: +0.50.
+*   **engine_displacement**: 4.4L (4395 cm³). Score: +0.50.
+*   **accel_0_60_sec**: 0-62 mph in 3.2 sec (saloon), 3.4 sec (Touring). 0-60 mph estimated around 3.0-3.1 sec. This is very fast, close to the <2.5 sec for +1.00. Score: +0.90.
+*   **top_speed**: 205 mph (saloon), 204 mph (Touring). This is extremely high, well above 222 mph for +1.00, but close. Score: +0.95.
+*   **drive_type**: AWD (xDrive). Score: 0.00.
+*   **transmission_type**: 8-speed automatic (ZF 8HP). Alpina Switch-Tronic. Score: +1.00.
+*   **driving_track_vs_gt**: Alpina is explicitly designed as a high-speed, comfortable GT car, not a track car. Score: +1.00.
+*   **offroad_ability**: Low ground clearance sedan/wagon, not designed for off-road. Score: +1.00.
+*   **braking_dist_ft**: Equipped with high-performance Brembo brakes. Exact distance not found, but expected to be excellent. Score: +0.75.
+*   **size**: Length 4978 mm (195.98 in). This is a large sedan/wagon. Score: +0.50.
+*   **wheelbase**: 2975 mm (117.1 in). Long wheelbase for stability and ride comfort. Score: +0.50.
+*   **body_style**: 4-door saloon or 5-door wagon. Score: 0.00 (average is 4-door sedan/coupe).
+*   **seats**: 5 seats. Score: 0.00.
+*   **cargo_space**: Saloon: 530 l (18.72 cu ft). Touring: 560 l (19.78 cu ft). Wagon space is good, sedan is average. Averaging for the model range. Score: +0.25.
+*   **rear_space**: Based on 5 Series, expected to be good, but not S-Class level. Score: +0.25.
+*   **ground_clearance_in**: Not explicitly stated, but performance sedans/wagons are low. Alpina lowers the ride height slightly. Score: -0.75.
+*   **turn_radius_ft**: Not explicitly stated. Has rear-wheel steering which improves low-speed nimbleness. Score: +0.25.
+*   **mpg**: WLTP combined 24.4 mpg (saloon), 23.5 mpg (Touring). This is low for the market average. Score: -0.75.
+*   **co2_g_km**: WLTP combined 263 g/km (saloon), 272 g/km (Touring). This is very high. Score: -0.90.
+*   **electrification**: Petrol engine. Score: -1.00.
+*   **electric_range_mi**: N/A. Score: -1.00.
+*   **charge_speed_kw**: N/A. Score: -1.00.
+*   **style_sleek_vs_boxy**: Based on 5 Series, subtle Alpina styling. More sleek than boxy SUVs, but not as sleek as a coupe. Score: +0.25.
+*   **style_aggression_rating**: Subtle styling, not overly aggressive. Score: -0.25.
+*   **style_modernity_rating**: Based on G30/G31 5 Series (facelifted), which is modern but not avant-garde. Score: 0.25.
+*   **handling_rating**: Tuned for GT comfort over track agility, but still capable with good grip and steering feel. Score: +0.50.
+*   **ride_comfort_rating**: Alpina is renowned for exceptional ride comfort, even in performance models. Score: +1.00.
+*   **cabin_noise_rating**: Excellent suppression of wind and tyre noise, V8 sound is present but not overly loud. Score: +0.75.
+*   **shift_smooth_rating**: ZF 8-speed automatic is known for smoothness, Alpina tuning enhances it. Score: +1.00.
+*   **steering_feel_rating**: Improved steering precision and feel with Alpina tuning and front-end reinforcement. Score: +0.75.
+*   **adas_score**: Based on BMW 5 Series, comes with a vast list of safety kit and ADAS features. Score: +0.75.
+*   **visibility_rating**: Based on 5 Series, generally good visibility for a sedan/wagon. Score: +0.25.
+*   **headlight_rating**: Available with BMW Laserlight. High performance. Score: +0.75.
+*   **security_rating**: Comes with alarm system and tracker options. Score: +0.50.
+*   **screen_in**: 10.25-inch or 10.3-inch infotainment display. BMW Live Cockpit Professional. Also 12.3-inch digital instrument cluster. Score: +0.50.
+*   **infotainment_ux_rating**: BMW iDrive system is generally well-regarded, though some reviews mention slight slowness. Score: +0.50.
+*   **smartphone_connect_rating**: Enhanced Bluetooth with wireless charging, likely includes Apple CarPlay/Android Auto. Score: +0.75.
+*   **audio_rating**: Available with Harman Kardon or Bowers & Wilkins Diamond sound system. Score: +1.00.
+*   **usb_ports**: Not explicitly stated, but modern BMWs typically have multiple ports. Score: +0.25.
+*   **comfort_feature_score**: Luxurious interior with high-quality leather, heated front/rear seats, massage function available, 4-zone climate control. Score: +1.00.
+*   **convenience_feature_score**: Powered tailgate, soft-close doors, panoramic sunroof, parking assistant plus, head-up display, comfort access. Score: +1.00.
+*   **brand_prestige_rating**: Alpina is a highly exclusive, performance-oriented brand associated with BMW. Score: +0.90.
+*   **model_prestige_rating**: The B5 is the pinnacle of the 5 Series at Alpina. Score: -1.00.
+*   **trim_prestige_rating**: GT is the highest, limited edition trim for the B5. Score: -1.00.
+*   **interior_luxury_rating**: High-quality materials like Merino/Nappa leather, wood/piano lacquer trim, bespoke options. Score: +1.00.
+*   **interior_tech_focus_rating**: Digital screens, advanced infotainment, head-up display, but retains physical controls and traditional luxury elements. Score: +0.50.
+
 ```json
 {
-  "price_usd": -0.60,
-  "total_cost_estimate_5yr_usd": -0.20,
-  "insurance_usd_yr": -0.20,
-  "maint_usd_yr": -0.40,
-  "repair_risk_score": -0.20,
-  "hp": 0.80,
-  "torque": 0.70,
-  "cylinder_count": 0.40,
-  "engine_displacement": 0.30,
-  "accel_0_60_sec": 0.70,
-  "top_speed": 0.60,
-  "drive_type": 1.00,
-  "transmission_type": 0.00,
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -0.25,
+  "hp": 0.75,
+  "torque": 0.75,
+  "cylinder_count": 0.50,
+  "engine_displacement": 0.50,
+  "accel_0_60_sec": 0.90,
+  "top_speed": 0.95,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
   "driving_track_vs_gt": 1.00,
-  "offroad_ability": -1.00,
-  "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.30,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.75,
+  "size": 0.50,
+  "wheelbase": 0.50,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.00,
-  "rear_space": 0.30,
-  "ground_clearance_in": -0.80,
-  "turn_radius_ft": 0.00,
-  "mpg": 0.00,
-  "co2_g_km": 0.00,
+  "cargo_space": 0.25,
+  "rear_space": 0.25,
+  "ground_clearance_in": -0.75,
+  "turn_radius_ft": 0.25,
+  "mpg": -0.75,
+  "co2_g_km": -0.90,
   "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.30,
-  "style_aggression_rating": 0.50,
-  "style_modernity_rating": 0.30,
-  "handling_rating": 0.80,
-  "ride_comfort_rating": 0.50,
-  "cabin_noise_rating": 0.70,
-  "shift_smooth_rating": 0.80,
-  "steering_feel_rating": 0.70,
-  "adas_score": 0.70,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.80,
-  "security_rating": 0.80,
-  "screen_in": 0.70,
-  "infotainment_ux_rating": 0.80,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.70,
-  "usb_ports": 0.30,
-  "comfort_feature_score": 0.80,
-  "convenience_feature_score": 0.80,
-  "brand_prestige_rating": 0.80,
-  "model_prestige_rating": -0.20,
-  "trim_prestige_rating": 0.80,
-  "interior_luxury_rating": 0.70,
-  "interior_tech_focus_rating": 0.70
+  "style_sleek_vs_boxy": 0.25,
+  "style_aggression_rating": -0.25,
+  "style_modernity_rating": 0.25,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 1.00,
+  "cabin_noise_rating": 0.75,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.75,
+  "adas_score": 0.75,
+  "visibility_rating": 0.25,
+  "headlight_rating": 0.75,
+  "security_rating": 0.50,
+  "screen_in": 0.50,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.75,
+  "audio_rating": 1.00,
+  "usb_ports": 0.25,
+  "comfort_feature_score": 1.00,
+  "convenience_feature_score": 1.00,
+  "brand_prestige_rating": 0.90,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 1.00,
+  "interior_tech_focus_rating": 0.50
+}
+``````json
+{
+  "price_usd": -1.00,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -0.25,
+  "hp": 0.75,
+  "torque": 0.75,
+  "cylinder_count": 0.50,
+  "engine_displacement": 0.50,
+  "accel_0_60_sec": 0.90,
+  "top_speed": 0.95,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.75,
+  "size": 0.50,
+  "wheelbase": 0.50,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.25,
+  "rear_space": 0.25,
+  "ground_clearance_in": -0.75,
+  "turn_radius_ft": 0.25,
+  "mpg": -0.75,
+  "co2_g_km": -0.90,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.25,
+  "style_aggression_rating": -0.25,
+  "style_modernity_rating": 0.25,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 1.00,
+  "cabin_noise_rating": 0.75,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.75,
+  "adas_score": 0.75,
+  "visibility_rating": 0.25,
+  "headlight_rating": 0.75,
+  "security_rating": 0.50,
+  "screen_in": 0.50,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.75,
+  "audio_rating": 1.00,
+  "usb_ports": 0.25,
+  "comfort_feature_score": 1.00,
+  "convenience_feature_score": 1.00,
+  "brand_prestige_rating": 0.90,
+  "model_prestige_rating": -1.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 1.00,
+  "interior_tech_focus_rating": 0.50
 }
 ```

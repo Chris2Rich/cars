@@ -1,115 +1,111 @@
-The Mercedes-Benz G-Class GE300 (or 300GE) is a model from the W460 and W463 generations, produced primarily in the late 1980s and early 1990s. It is not the most recent version of the G-Class. Evaluating it against benchmarks for today's vehicles will highlight its age.
+The Mercedes-Benz GE300 refers to a variant of the W463 G-Class produced from 1990 to 1994, later renamed G300. It is powered by a 3.0L inline-six petrol engine. This is not the most recent version of the G-Class. I will evaluate based on the characteristics of the 1990-1994 GE300/G300.
 
-Here is the evaluation based on the search results for the Mercedes-Benz G-Class GE300 (W460/W463 era):
-
-*   **price_usd**: Used prices vary significantly, but typical market values are well below the average price of a new car today ($52,000). Some examples are listed between €24,800 and €34,990, or around $35,276 average sale price. Compared to a new car average, this is significantly lower. +0.50.
-*   **total_cost_estimate_5yr_usd**: While the purchase price is lower than a new car, fuel economy is poor, and maintenance/repair costs for an older, potentially rare vehicle can be high due to parts availability and specialist labor. Ambiguous compared to a modern average. 0.00.
-*   **insurance_usd_yr**: Older vehicle, potentially lower value than new, but desirability and parts cost might prevent it from being very cheap to insure. Assume average. 0.00.
-*   **maint_usd_yr**: Parts can be expensive and hard to find for older Mercedes models. Maintenance is likely above average compared to a typical modern car. -0.50.
-*   **repair_risk_score**: The M103 engine is considered reliable, and the mechanics are simpler than modern cars. However, age-related issues and potential difficulty finding parts contribute to risk. Average risk compared to the whole market. 0.00.
-*   **hp**: Around 168-170 hp. This is below the market average (200 hp). -0.50.
-*   **torque**: Around 140-177 lb-ft (235-240 Nm). This is below the market average (190 lb-ft). -0.20.
-*   **cylinder_count**: Inline-6 (6 cylinders). Above average. 0.50.
-*   **engine_displacement**: 3.0L (2960-2962 cm³). Above average. 0.50.
-*   **accel_0_60_sec**: Around 11.9 - 13.5 seconds. This is significantly slower than the market average (7.5 sec) and falls into the slowest category. -1.00.
-*   **top_speed**: Around 100-102.5 mph (160-165 km/h). This is well below the market average (150 mph). -1.00.
-*   **drive_type**: 4MATIC (Permanent AWD) or 4x4. 0.00.
-*   **transmission_type**: 4-speed automatic or 5-speed manual. Using Automatic for the scale. 1.00.
-*   **driving_track_vs_gt**: Utilitarian off-roader, not designed for track or grand touring. 0.00.
-*   **offroad_ability**: Excellent off-road capability with differential locks. -1.00 (inverted scale).
-*   **braking_dist_ft**: No specific data found. Given its age and weight, braking performance is likely below modern standards. -0.50.
-*   **size**: Length around 4185mm (SWB) or 4662mm (LWB). Width around 1690mm. Average to slightly larger depending on wheelbase. 0.00.
-*   **wheelbase**: 2400mm (SWB) or 2850mm (LWB). Average to longer depending on wheelbase. 0.00.
-*   **body_style**: 3-door or 5-door wagon/SUV, also convertible. 0.00.
-*   **seats**: 4 or 5 seats. 0.00.
-*   **cargo_space**: Up to 2250 litres (79.46 cu ft) with rear seats folded. Excellent maximum space. 0.80.
-*   **rear_space**: Relatively spacious for two adults in the back seat. Assume average. 0.00.
-*   **ground_clearance_in**: High ground clearance. Around 8 inches (estimated based on W460/W461 data). 0.80.
-*   **turn_radius_ft**: Likely large due to off-road focus and older steering design. -0.50.
-*   **mpg**: Poor fuel economy, around 16.3-21.7 mpg Imperial (13.6-18.1 US mpg). Very inefficient by modern standards. -1.00.
-*   **co2_g_km**: Very high emissions for a petrol engine of that era. -1.00.
-*   **electrification**: Petrol. -0.50.
-*   **electric_range_mi**: Not electric. -1.00.
-*   **charge_speed_kw**: Not electric. -1.00.
-*   **style_sleek_vs_boxy**: Very boxy. -1.00.
-*   **style_aggression_rating**: Utilitarian, not aggressive. -1.00.
-*   **style_modernity_rating**: Very dated design and interior. -1.00.
-*   **handling_rating**: Reviews mention vague body control and poor handling compared to modern SUVs. -0.80.
-*   **ride_comfort_rating**: Reviews mention a utilitarian or hard ride. -0.80.
-*   **cabin_noise_rating**: Wind noise from large mirrors mentioned. Likely loud cabin. -0.80.
-*   **shift_smooth_rating**: Older automatic transmission. 0.00.
-*   **steering_feel_rating**: Slow, vague steering. Poor. -0.80.
-*   **adas_score**: None available for this era. -1.00.
-*   **visibility_rating**: Excellent all-round visibility due to boxy shape and large windows. 1.00.
-*   **headlight_rating**: Likely basic halogen headlights. Poor compared to modern systems. -1.00.
-*   **security_rating**: Basic security features for the era (immobiliser and tracking system mentioned on one modified example). Basic by modern standards. -0.80.
-*   **screen_in**: No integrated screen, aftermarket units might be fitted. -1.00.
-*   **infotainment_ux_rating**: Basic radio/cassette player originally, aftermarket head units possible. No integrated infotainment system. -1.00.
-*   **smartphone_connect_rating**: None originally. -1.00.
-*   **audio_rating**: Basic audio system originally, aftermarket upgrades possible. Basic by modern standards. -1.00.
-*   **usb_ports**: None originally. -1.00.
-*   **comfort_feature_score**: Basic features, aircon and automatic gearbox were options on earlier models. Leather and wood trim available on W463. Basic compared to modern luxury. -1.00.
-*   **convenience_feature_score**: Basic features, power windows, central locking might be available. No modern convenience features like sensors, cameras, keyless entry standard. -1.00.
-*   **brand_prestige_rating**: Mercedes-Benz. 0.90.
-*   **model_prestige_rating**: G-Class (Iconic, but this is an older, less luxurious version than modern ones). 0.00.
-*   **trim_prestige_rating**: GE300 was a standard engine option, not a top performance or luxury trim. +0.50.
-*   **interior_luxury_rating**: Utilitarian with some luxury touches on W463 models. Basic compared to modern luxury. -1.00.
-*   **interior_tech_focus_rating**: No tech focus. -1.00.
-
-```json
+- price_usd: The average sale price for a used Mercedes-Benz 300GE/G300 (W463) is around $35,276, with prices ranging from $18,750 to $63,000. This is close to the market average for a new car (~$52,000), so the score is 0.00.
+- total_cost_estimate_5yr_usd: Older luxury vehicles, especially those with complex systems and potentially harder-to-find parts, typically have higher ownership costs over 5 years compared to the average car. -1.00.
+- insurance_usd_yr: Insurance costs for a G-Class, even an older model, are likely to be higher than average due to its value, desirability, and potential repair costs. -1.00.
+- maint_usd_yr: Maintenance for a 1990s Mercedes-Benz can be expensive. -1.00.
+- repair_risk_score: While the G-Class is known for durability, older models will require repairs, and parts and specialized labor can be costly. 0.00.
+- hp: The 300 GE/G300 has 168 hp or 170 hp. This is below the average horsepower for modern cars (~200 hp). -0.50.
+- torque: The 300 GE/G300 has 140 lb-ft or 173.33 lb-ft of torque. This is below the average torque for modern cars (~190 lb-ft). -0.50.
+- cylinder_count: It has an inline 6-cylinder engine. This is below the average cylinder count which includes many 4-cylinder engines but also V6s and V8s. -0.50.
+- engine_displacement: The engine displacement is 3.0L (2960 cm³ or 2962 cm³). This is around the average engine displacement in today's market. 0.00.
+- accel_0_60_sec: The 0-60 mph acceleration is estimated at 11.9 to 13.5 seconds. This is significantly slower than the average car (~7.5 seconds). -1.00.
+- top_speed: The top speed is around 102.53 mph (165 km/h) or 104 mph (168 km/h). This is well below the average top speed of modern cars (~150 mph). -1.00.
+- drive_type: It has permanent four-wheel drive (4MATIC). This is rated as 0.00.
+- transmission_type: It was offered with a 5-speed manual or 4-speed automatic transmission. Automatic transmission is rated as 1.00.
+- driving_track_vs_gt: The G-Class is designed as a capable off-roader and a comfortable daily driver/GT vehicle. 0.00.
+- offroad_ability: The G-Class is renowned for its excellent off-road capability, featuring three electrically locking differentials. According to the guide, high off-road ability scores -1.00.
+- braking_dist_ft: Information on specific braking distance for this model is not readily available in the search results. Older vehicles generally have longer braking distances than modern ones. Default to 0.00.
+- size: The short wheelbase version is around 164.76 inches (4185 mm) long, and the long wheelbase is around 182.48 inches (4635 mm). Width is around 66.54 inches (1690 mm). This ranges from smaller than average to around average size for a modern SUV. 0.00.
+- wheelbase: The short wheelbase is around 94.49 inches (2400 mm), and the long wheelbase is around 112.2 inches (2850 mm). This ranges from below average to around average compared to modern vehicles. 0.00.
+- body_style: Available in 3-door and 5-door station wagon body styles, as well as a convertible. 5-door wagon is 0.00.
+- seats: Typically has 5 seats. 0.00.
+- cargo_space: The 3-door version has 800 liters (around 28 cu ft) of cargo space. This is above average. 0.50.
+- rear_space: Specific rear legroom data is not available. Given the boxy shape, rear space is likely decent for the era, around average. 0.00.
+- ground_clearance_in: The G-Class has high ground clearance due to its off-road design. 1.00.
+- turn_radius_ft: Due to its solid axles and off-road focus, the turning radius is likely larger than average. -0.50.
+- mpg: Fuel consumption is listed as 12.58 US mpg (urban) and 17.55 US mpg (extra urban). This is very poor fuel economy by modern standards. -1.00.
+- co2_g_km: High fuel consumption correlates to high CO2 emissions. -1.00.
+- electrification: It has a petrol internal combustion engine. -1.00.
+- electric_range_mi: Not an electric vehicle. -1.00.
+- charge_speed_kw: Not an electric vehicle. -1.00.
+- style_sleek_vs_boxy: The G-Class has a very distinct, extremely boxy design. -1.00.
+- style_aggression_rating: The G-Class has a rugged and aggressive appearance. 0.80.
+- style_modernity_rating: The design is clearly from the 1990s and is dated compared to modern vehicles. -1.00.
+- handling_rating: On-road handling is not its strong suit compared to modern SUVs. -0.80.
+- ride_comfort_rating: While the W463 improved comfort over previous generations, it's still an off-road focused vehicle with a solid axle suspension. Ride comfort is likely average compared to modern vehicles. 0.00.
+- cabin_noise_rating: Older vehicles generally have less sound insulation than modern ones, and the boxy shape can contribute to wind noise. Engine noise might also be noticeable. -0.50.
+- shift_smooth_rating: The 4-speed automatic transmission is older technology compared to modern multi-speed automatics. 0.50.
+- steering_feel_rating: Older recirculating ball steering system, likely less precise and communicative than modern rack-and-pinion systems. -0.80.
+- adas_score: Minimal or no advanced driver-assistance systems were available in the early 1990s. -1.00.
+- visibility_rating: The boxy shape and large windows provide excellent visibility. 0.80.
+- headlight_rating: Older headlight technology (likely halogen). 0.00.
+- security_rating: Basic security features for the era. 0.00.
+- screen_in: No large infotainment screen in the dashboard. -1.00.
+- infotainment_ux_rating: Basic radio and controls, no modern infotainment user experience. -1.00.
+- smartphone_connect_rating: No smartphone connectivity features. -1.00.
+- audio_rating: Basic audio system for the era. -0.80.
+- usb_ports: Few or no USB ports. -1.00.
+- comfort_feature_score: Features like heated seats were available, but overall comfort features are basic compared to modern luxury vehicles. 0.00.
+- convenience_feature_score: Basic convenience features for the era. 0.00.
+- brand_prestige_rating: Mercedes-Benz is a high-prestige brand. 1.00.
+- model_prestige_rating: The G-Class is a highly desirable and iconic model. -1.00.
+- trim_prestige_rating: GE300/G300 was a standard petrol engine option, not a top-tier performance or luxury trim. 0.00.
+- interior_luxury_rating: The W463 introduced more luxury compared to previous generations, with options like leather. However, the design and materials are dated compared to modern luxury interiors. 0.00.
+- interior_tech_focus_rating: The interior design is functional and not focused on modern technology. -1.00.```json
 {
- "price_usd": 0.50,
- "total_cost_estimate_5yr_usd": 0.00,
- "insurance_usd_yr": 0.00,
- "maint_usd_yr": -0.50,
+ "price_usd": 0.00,
+ "total_cost_estimate_5yr_usd": -1.00,
+ "insurance_usd_yr": -1.00,
+ "maint_usd_yr": -1.00,
  "repair_risk_score": 0.00,
  "hp": -0.50,
- "torque": -0.20,
- "cylinder_count": 0.50,
- "engine_displacement": 0.50,
+ "torque": -0.50,
+ "cylinder_count": -0.50,
+ "engine_displacement": 0.00,
  "accel_0_60_sec": -1.00,
  "top_speed": -1.00,
  "drive_type": 0.00,
  "transmission_type": 1.00,
  "driving_track_vs_gt": 0.00,
  "offroad_ability": -1.00,
- "braking_dist_ft": -0.50,
+ "braking_dist_ft": 0.00,
  "size": 0.00,
  "wheelbase": 0.00,
  "body_style": 0.00,
  "seats": 0.00,
- "cargo_space": 0.80,
+ "cargo_space": 0.50,
  "rear_space": 0.00,
- "ground_clearance_in": 0.80,
+ "ground_clearance_in": 1.00,
  "turn_radius_ft": -0.50,
  "mpg": -1.00,
  "co2_g_km": -1.00,
- "electrification": -0.50,
+ "electrification": -1.00,
  "electric_range_mi": -1.00,
  "charge_speed_kw": -1.00,
  "style_sleek_vs_boxy": -1.00,
- "style_aggression_rating": -1.00,
+ "style_aggression_rating": 0.80,
  "style_modernity_rating": -1.00,
  "handling_rating": -0.80,
- "ride_comfort_rating": -0.80,
- "cabin_noise_rating": -0.80,
- "shift_smooth_rating": 0.00,
+ "ride_comfort_rating": 0.00,
+ "cabin_noise_rating": -0.50,
+ "shift_smooth_rating": 0.50,
  "steering_feel_rating": -0.80,
  "adas_score": -1.00,
- "visibility_rating": 1.00,
- "headlight_rating": -1.00,
- "security_rating": -0.80,
+ "visibility_rating": 0.80,
+ "headlight_rating": 0.00,
+ "security_rating": 0.00,
  "screen_in": -1.00,
  "infotainment_ux_rating": -1.00,
  "smartphone_connect_rating": -1.00,
- "audio_rating": -1.00,
+ "audio_rating": -0.80,
  "usb_ports": -1.00,
- "comfort_feature_score": -1.00,
- "convenience_feature_score": -1.00,
- "brand_prestige_rating": 0.90,
- "model_prestige_rating": 0.00,
- "trim_prestige_rating": 0.50,
- "interior_luxury_rating": -1.00,
+ "comfort_feature_score": 0.00,
+ "convenience_feature_score": 0.00,
+ "brand_prestige_rating": 1.00,
+ "model_prestige_rating": -1.00,
+ "trim_prestige_rating": 0.00,
+ "interior_luxury_rating": 0.00,
  "interior_tech_focus_rating": -1.00
 }
 ```

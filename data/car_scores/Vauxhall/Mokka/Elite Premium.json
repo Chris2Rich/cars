@@ -1,111 +1,57 @@
-The user is asking for an evaluation of the most recent version of the Vauxhall Mokka with the "Elite Premium" trim. This refers to the current generation Mokka (launched 2020/2021). I will evaluate based on the specifications and reviews for this model and trim, focusing on the 1.2 Turbo petrol engine as it's a common option for this trim.
-
-Here is the evaluation based on the gathered data for the Vauxhall Mokka 1.2 Turbo Elite Premium (current generation):
-
-*   **price_usd**: New prices for the Mokka Elite Premium were around £24,000 - £27,100 (Source [7], [9], [14], [23]), which is roughly $30,000 - $34,000 USD. This is close to the market average of $35,000. Score: 0.00.
-*   **total_cost_estimate_5yr_usd**: Vauxhall/Opel generally have average ownership costs for mainstream brands. Score: 0.00.
-*   **insurance_usd_yr**: Insurance groups for the Mokka Elite Premium are typically in the mid-teens, around group 14E or 19E (Source [9], [15], [17], [21], [24], [26]). This is around the national average. Score: 0.00.
-*   **maint_usd_yr**: Maintenance costs are generally average for a mainstream brand like Vauxhall. Score: 0.00.
-*   **repair_risk_score**: The current generation Mokka is based on a shared Stellantis platform. Reliability is generally considered average for this platform, though some sources rate it slightly above average (Source [22], [23]). Score: 0.00.
-*   **hp**: The 1.2 Turbo engine available in this trim produces 100 PS (99 hp) or 130 PS (128 hp) (Source [4], [7], [9], [11], [27], [39]). Both are well below the 200 hp average benchmark. Score: -0.90.
-*   **torque**: The 1.2 Turbo 130 PS engine has 230 Nm (170 lb-ft) of torque (Source [4], [7], [9], [27]). The 100 PS version has 205 Nm (151 lb-ft) (Source [11]). These figures are close to or slightly below the 190 lb-ft average. Score: 0.00.
-*   **cylinder_count**: The 1.2 Turbo petrol engine is a 3-cylinder (Source [9], [11], [26], [39]). This is below the 6-cylinder average benchmark. Score: -1.00.
-*   **engine_displacement**: The petrol engine is 1.2L (1199 cc) (Source [4], [9], [11], [26], [39]). This is closer to the 1.2L benchmark (-1.00) than the 3.0L benchmark (0.00). Score: -1.00.
-*   **accel_0_60_sec**: 0-60 mph is around 9.1-10.6 seconds for the petrol engines in this trim (Source [4], [9], [10], [11], [18], [29], [30], [35]). This is slower than the 7.5 sec average. Score: -0.50.
-*   **top_speed**: Top speed is around 116-125 mph (Source [4], [9], [11], [27], [30]). Below the 150 mph average. Score: -0.50.
-*   **drive_type**: FWD only (Source [2], [25], [26]). Score: -1.00.
-*   **transmission_type**: Available with manual (6-speed) or automatic (8-speed) transmissions (Source [2], [4], [7], [9], [11], [26], [35], [39]). A traditional automatic is rated +1.00 in the guide. Score: 1.00.
-*   **offroad_ability**: FWD compact crossover with limited ground clearance. Low offroad ability. Score: 1.00 (based on guide's inverted scale).
-*   **braking_dist_ft**: No specific data found, assume average. Score: 0.00.
-*   **size**: Length is 4151mm (Source [6], [25], [26]). Smaller than the 4600mm average. Score: -0.70.
-*   **wheelbase**: 2557mm or 2561mm (Source [25], [28]). Below the 2700mm average. Score: -0.50.
-*   **body_style**: 5-door SUV/crossover (Source [11], [39]). Closer to 4-door sedan (0.00) than 2-door coupe (-1.00) or 5-door van (+1.00). Score: 0.10.
-*   **seats**: 5 seats (Source [11], [26], [38]). Average. Score: 0.00.
-*   **cargo_space**: 350 litres (12.4 cu ft) with seats up (Source [2], [3], [6], [11], [17], [19], [20], [25], [26], [37]). Below the 15 cu ft average. Score: -0.30.
-*   **rear_space**: Reviews mention rear space is tight for adults (Source [3], [6], [9], [10], [11], [17], [19], [20], [25], [26]). Below average. Score: -0.50.
-*   **ground_clearance_in**: Around 160mm (6.3 inches) (Source [25]). Slightly below the 6.5" average. Score: -0.10.
-*   **turn_radius_ft**: Turning circle around 10.5m (34.4 ft) (Source [25]). Better than the 36 ft average. Score: 0.30.
-*   **mpg**: Petrol engines get around 47-51 mpg (UK) (Source [7], [9], [11], [17], [26], [27], [30], [39]). This is good compared to the 30 mpg average. Score: 0.60.
-*   **co2_g_km**: CO2 emissions are around 123-137 g/km for the petrol engines (Source [4], [9], [17], [18], [26], [27], [30], [39]). Below the 175 g/km average. Score: 0.40.
-*   **electric_range_mi**: Not an electric vehicle (for petrol/diesel versions). Score: -1.00.
-*   **charge_speed_kw**: Not an electric vehicle. Score: -1.00.
-*   **style_sleek_vs_boxy**: Modern design with a distinctive Vizor front and a slightly coupe-like roofline. More sleek than boxy (Source [2], [5], [7], [25]). Score: 0.70.
-*   **style_aggression_rating**: Bold front end and sharp lines give it a more aggressive look than average (Source [2], [4], [5], [6], [7], [22], [30]). Score: 0.50.
-*   **style_modernity_rating**: Distinctive, modern design language (Source [2], [5], [6], [7], [22], [30], [25]). Score: 0.80.
-*   **handling_rating**: Handling is described as safe and competent, but not particularly engaging (Source [10], [12], [20], [25], [26]). Score: 0.00.
-*   **ride_comfort_rating**: Ride can be firm, especially on larger wheels (Source [12], [15], [19], [20], [25], [26]). Average overall. Score: 0.00.
-*   **cabin_noise_rating**: Generally well-insulated for the class, though the 3-cylinder engine can be audible under acceleration (Source [15], [19], [25]). Above average. Score: 0.30.
-*   **shift_smooth_rating**: The 8-speed automatic transmission is generally smooth (Source [7], [10], [12], [35]). Score: 0.50.
-*   **steering_feel_rating**: Steering is described as light and lacking feel (Source [9], [10], [12], [24], [25]). Below average. Score: -0.70.
-*   **adas_score**: Elite Premium included adaptive cruise control, lane positioning assist, blind spot monitoring, front/rear parking sensors, 180-degree camera, speed sign recognition, automatic emergency braking (Source [12], [13], [16], [19], [25], [28], [35], [37], [39]). Good suite of features for the segment. Score: 0.60.
-*   **visibility_rating**: Good forward visibility, but thick rear pillars can impede rear view (Source [3], [5], [10], [11], [17], [19], [24], [25]). Average overall. Score: 0.00.
-*   **headlight_rating**: LED headlights standard, adaptive matrix LEDs available on higher trims (Ultimate) (Source [13], [19], [36]). Elite Premium likely had good standard LEDs. Score: 0.30.
-*   **security_rating**: Standard security alarm system, remote central locking, Vauxhall Connect with e-Call (Source [16], [19], [35], [41]). Score: 0.00.
-*   **screen_in**: Elite Premium came with the 10-inch central touchscreen and 12-inch digital instrument cluster (Source [2], [4], [7], [9], [12], [13], [16], [19], [20], [23], [25], [30], [37], [39]). Above average screen size. Score: 0.20.
-*   **infotainment_ux_rating**: The system is generally easy to use, but some reviews mention it can be sluggish (Source [2], [11], [12], [19], [25], [26]). Average. Score: 0.00.
-*   **smartphone_connect_rating**: Apple CarPlay and Android Auto standard, often wireless (Source [2], [4], [5], [6], [7], [11], [13], [16], [19], [20], [30], [31], [32]). Above average. Score: 0.50.
-*   **audio_rating**: Standard audio system, typically 6 speakers (Source [7], [16]). Score: 0.00.
-*   **usb_ports**: Typically 2 front, some models/trims had rear USB ports (Source [20], [39]). Average. Score: 0.00.
-*   **comfort_feature_score**: Elite Premium included heated front seats, heated steering wheel, automatic climate control, part-leather effect trim (Source [4], [12], [13], [16], [19], [22], [31], [39]). Good features for the segment. Score: 0.60.
-*   **convenience_feature_score**: Elite Premium included keyless entry/start, electric parking brake, auto lights/wipers, front/rear parking sensors, rear camera (Source [4], [12], [13], [16], [19], [25], [37], [39]). Good features available. Score: 0.50.
-*   **brand_prestige_rating**: Vauxhall is a mainstream brand. Score: 0.00.
-*   **model_prestige_rating**: Mokka is a popular, mid-range model for Vauxhall. Score: 0.00.
-*   **trim_prestige_rating**: Elite Premium was a high trim level, offering significant features over lower trims, just below the top Ultimate/GS Line (Source [19], [23], [37]). Score: 0.70.
-*   **interior_luxury_rating**: Interior design is modern, but materials are mostly hard plastics with some softer touches (Source [2], [6], [11], [26], [29]). Average for the segment, not luxurious. Score: 0.00.
-*   **interior_tech_focus_rating**: Features a large central screen and digital driver display ("Pure Panel"), giving it a modern, tech-focused feel (Source [6], [7], [9], [12], [13], [19], [20], [26], [29], [30]). Above average. Score: 0.70.
-
 ```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": -0.90,
-  "torque": 0.00,
-  "cylinder_count": -1.00,
-  "engine_displacement": -1.00,
-  "accel_0_60_sec": -0.50,
-  "top_speed": -0.50,
-  "drive_type": -1.00,
-  "transmission_type": 1.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
-  "size": -0.70,
-  "wheelbase": -0.50,
-  "body_style": 0.10,
-  "seats": 0.00,
-  "cargo_space": -0.30,
-  "rear_space": -0.50,
-  "ground_clearance_in": -0.10,
-  "turn_radius_ft": 0.30,
-  "mpg": 0.60,
-  "co2_g_km": 0.40,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.70,
-  "style_aggression_rating": 0.50,
-  "style_modernity_rating": 0.80,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": 0.30,
-  "shift_smooth_rating": 0.50,
-  "steering_feel_rating": -0.70,
-  "adas_score": 0.60,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.30,
-  "security_rating": 0.00,
-  "screen_in": 0.20,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.50,
-  "audio_rating": 0.00,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.60,
-  "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.70,
-  "interior_luxury_rating": 0.00,
-  "interior_tech_focus_rating": 0.70
+ "price_usd": 0.50,
+ "total_cost_estimate_5yr_usd": 0.00,
+ "insurance_usd_yr": 0.50,
+ "maint_usd_yr": 0.00,
+ "repair_risk_score": 0.00,
+ "hp": -0.50,
+ "torque": 0.00,
+ "cylinder_count": -1.00,
+ "engine_displacement": -1.00,
+ "accel_0_60_sec": -0.30,
+ "top_speed": -0.50,
+ "drive_type": -1.00,
+ "transmission_type": 1.00,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.00,
+ "size": -0.50,
+ "wheelbase": -0.30,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": -0.30,
+ "rear_space": -0.30,
+ "ground_clearance_in": 0.00,
+ "turn_radius_ft": 0.00,
+ "mpg": 0.00,
+ "co2_g_km": 0.50,
+ "electrification": 1.00,
+ "electric_range_mi": 0.50,
+ "charge_speed_kw": 0.00,
+ "style_sleek_vs_boxy": 0.10,
+ "style_aggression_rating": 0.00,
+ "style_modernity_rating": 0.30,
+ "handling_rating": 0.00,
+ "ride_comfort_rating": 0.10,
+ "cabin_noise_rating": 0.50,
+ "shift_smooth_rating": 1.00,
+ "steering_feel_rating": -0.30,
+ "adas_score": 0.50,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.30,
+ "security_rating": 0.00,
+ "screen_in": 0.30,
+ "infotainment_ux_rating": 0.00,
+ "smartphone_connect_rating": 0.00,
+ "audio_rating": 0.00,
+ "usb_ports": 0.00,
+ "comfort_feature_score": 0.50,
+ "convenience_feature_score": 0.30,
+ "brand_prestige_rating": 0.00,
+ "model_prestige_rating": 0.00,
+ "trim_prestige_rating": 0.00,
+ "interior_luxury_rating": 0.00,
+ "interior_tech_focus_rating": 0.30
 }
 ```

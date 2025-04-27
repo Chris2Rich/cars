@@ -1,55 +1,139 @@
-```json
+The most recent version of the BMW 3 Series 330e is part of the G20/G21 generation, which received a facelift (LCI) for the 2023 model year. An update in mid-2024 further increased the electric range. This evaluation is based on the data found for the most recent 330e models.
+
+Here's an evaluation based on the available data for the most recent 330e:
+
+*   **price\_usd**: The 2024 BMW 330e starts around $45,600 - $46,595 in the US. The xDrive version starts around $47,600 - $48,595. A 2024 330e xDrive M Sport is listed at $63,988 in Canada. The average new car price is around $52,000. The US pricing is below average, while the Canadian M Sport price is above average. Averaging these suggests a price close to the market average. Score: 0.00.
+*   **total\_cost\_estimate\_5yr\_usd**: BMW maintenance costs are generally higher than average. As a PHEV, there might be additional long-term battery considerations, although the warranty covers this for a period. Score: -0.10.
+*   **insurance\_usd\_yr**: UK insurance groups for the 3 Series range from 18 to 43. While a specific group for the latest 330e wasn't found, PHEVs can sometimes have higher insurance due to complexity or repair costs. However, the 3 Series range is broad. Assume around the middle of the range for a performance-oriented trim. Score: 0.00.
+*   **maint\_usd\_yr**: BMW maintenance costs can be high. Score: -0.20.
+*   **repair\_risk\_score**: The G20 3 Series is generally considered reliable. PHEV systems add complexity, but BMW's integration is generally good. Score: 0.30.
+*   **hp**: The most recent 330e has a combined output of 288-292 hp (with XtraBoost). This is significantly above the market average of 200 hp. Score: 0.30.
+*   **torque**: The most recent 330e has a combined torque of 310 lb-ft (420 Nm with XtraBoost). This is significantly above the market average of 190 lb-ft. Score: 0.50.
+*   **cylinder\_count**: The petrol engine is a 4-cylinder. This is the market average. Score: 0.00.
+*   **engine\_displacement**: The petrol engine is 2.0L (1998 cm³). This is around the market average. Score: 0.00.
+*   **accel\_0\_60\_sec**: 0-60 mph is claimed at 5.6 seconds (RWD) or 5.0 seconds (MotorTrend test). 0-100 km/h is 5.8-5.9 seconds. This is significantly faster than the market average of 7.5 seconds. Score: 0.60.
+*   **top\_speed**: Top speed is around 143 mph (230 km/h) or 155 mph (250 km/h) depending on source/spec. This is around the 150 mph average. Score: 0.00.
+*   **drive\_type**: Rear-wheel drive is standard, xDrive (AWD) is optional. Score: 1.00 (for RWD).
+*   **transmission\_type**: 8-speed automatic transmission is standard. Score: 1.00.
+*   **driving\_track\_vs\_gt**: Balances daily driving comfort with engaging dynamics, though the added weight impacts agility slightly compared to non-hybrid models. Still a capable driver's car. Score: 0.40.
+*   **offroad\_ability**: Low ground clearance sedan. Score: 1.00.
+*   **braking\_dist\_ft**: Brakes are described as strong and consistent, with subtle regenerative braking. No specific distance found. Assume better than average. Score: 0.20.
+*   **size**: Length is around 185.7-185.9 inches (4717-4722 mm). This is slightly larger than the 4600mm average. Score: 0.10.
+*   **wheelbase**: 112.2 inches (2850 mm). This is longer than the 2700mm average. Score: 0.20.
+*   **body\_style**: 4-door Sedan (Saloon) or Touring (Estate). Score: 0.00 (for Sedan).
+*   **seats**: 5 seats. Score: 0.00.
+*   **cargo\_space**: 13.2 cubic feet (375 litres) for the sedan, reduced from 16.9 cu ft in non-hybrid models due to the battery. This is below the 15 cu ft average. Score: -0.20.
+*   **rear\_space**: Rear legroom is 35.2 inches. This is the market average. Score: 0.00.
+*   **ground\_clearance\_in**: Around 5.35-5.6 inches (13.6-14.1 cm). This is below the 6.5" average for crossovers, typical for a sedan. Score: -0.30.
+*   **turn\_radius\_ft**: No specific data found. Estimate based on size and RWD layout. Score: 0.00.
+*   **mpg**: Combined WLTP is 256.8-353.1 mpg (unrealistic). Real-world hybrid efficiency varies greatly depending on charging frequency. Once the battery is depleted, it gets around 40 mpg. This is significantly better than the 30 mpg average when utilizing the hybrid system. Score: 0.70.
+*   **co2\_g\_km**: Combined WLTP is 19-38 g/km. This is significantly better than the 175 g/km average. Score: 0.90.
+*   **electrification**: Plug-in Hybrid Electric Vehicle (PHEV). Score: 0.00.
+*   **electric\_range\_mi**: Updated range is up to 63 miles (WLTP). EPA estimate was 20-22 miles for the previous battery, real-world closer to 27-36 miles. The new larger battery should provide significantly more. 63 miles is excellent for a PHEV. Score: 0.80.
+*   **charge\_speed\_kw**: Updated with an 11kW on-board charger. This is good for a PHEV, allowing faster AC charging. Score: 0.50.
+*   **style\_sleek\_vs\_boxy**: Modern BMW sedan styling, leaning towards sleek. Score: 0.30.
+*   **style\_aggression\_rating**: Standard 3 Series styling is moderately aggressive. M Sport trim adds more aggression. Score: 0.20.
+*   **style\_modernity\_rating**: Facelift updated styling to be more modern. Score: 0.60.
+*   **handling\_rating**: BMW 3 Series is known for superb handling, though the added weight of the hybrid system slightly impacts agility compared to non-hybrid models. Still very capable. Score: 0.80.
+*   **ride\_comfort\_rating**: Described as having high ride comfort, though slightly stiffer than non-hybrid models due to battery weight. Score: 0.50.
+*   **cabin\_noise\_rating**: Cabin is well insulated, very quiet in EV mode. Score: 0.70.
+*   **shift\_smooth\_rating**: 8-speed automatic is described as "exceptionally smooth". Score: 1.00.
+*   **steering\_feel\_rating**: Well-weighted steering, good feel, though some reviews mention it feels slightly light or artificial compared to older BMWs. Score: 0.60.
+*   **adas\_score**: Standard features include automated emergency braking, lane departure warning, front collision warning. Available features include adaptive cruise control with lane centering, blind spot detection, parking assistant, 360 cameras, Traffic Jam Assist (partial hands-free). Offers Level 2 partial automation. High score for available tech. Score: 0.80.
+*   **visibility\_rating**: Visibility is described as "pretty good", though thick rear pillars can hinder it slightly. Score: 0.00.
+*   **headlight\_rating**: Full LED headlights are standard, Adaptive LED Headlights or Laserlight are optional. Score: 0.60.
+*   **security\_rating**: Offers standard security features like alarm and immobilizer. BMWs generally have good security. Score: 0.60.
+*   **screen\_in**: Curved display combines 12.3" instrument cluster and 14.9" central display. The central screen is 14.9 inches. Score: 0.90.
+*   **infotainment\_ux\_rating**: Runs on latest iDrive OS (8 or 8.5). Described as snappy, easy to navigate, intuitive, high resolution. Score: 0.90.
+*   **smartphone\_connect\_rating**: Wireless Apple CarPlay and Android Auto compatibility is standard. Score: 1.00.
+*   **audio\_rating**: Standard system is likely above average. Optional Harman Kardon system available. Score: 0.50.
+*   **usb\_ports**: USB connection mentioned, Enhanced USB & Bluetooth Plus Smartphone Integration available. Assume at least 2-3 ports. Score: 0.00.
+*   **comfort\_feature\_score**: Offers features like automatic 3-zone climate control, heated front seats (standard/optional), power front sport seats, ambient lighting, heated steering wheel (optional), panoramic sunroof (optional). Good level of features. Score: 0.60.
+*   **convenience\_feature\_score**: Parking Assistant with Rear View Camera is standard. Parking sensors, reversing camera, automatic cruise control, rain-sensing wipers, digital key, remote software update, power bootlid (optional), Comfort Access (optional), 360 cameras (Parking Assistant Plus optional). Good level of convenience features, especially with options. Score: 0.70.
+*   **brand\_prestige\_rating**: BMW is a high-prestige brand. Score: 0.80.
+*   **model\_prestige\_rating**: 3 Series is a core, well-regarded model. Score: 0.00.
+*   **trim\_prestige\_rating**: 330e is a significant powertrain variant, offering advanced hybrid technology and strong performance, placing its prestige above base ICE engines but below M Performance models. Score: 0.00.
+*   **interior\_luxury\_rating**: Modern design, excellent materials, impressive build quality. Score: 0.70.
+*   **interior\_tech\_focus\_rating**: Large curved display, iDrive 8/8.5, digital instrument panel, advanced connectivity, head-up display (optional). Very tech-focused interior. Score: 0.90.
+
+Refining scores based on the guide and gathered data:
+- Price: Around market average. Score 0.00.
+- Total Cost: Higher maintenance, potential battery costs long term. Score -0.10.
+- HP: Significantly above average. Score 0.30.
+- Torque: Significantly above average. Score 0.50.
+- Accel 0-60: Significantly faster than average. Score 0.60.
+- Top Speed: Around average. Score 0.00.
+- Cargo Space: Below average due to battery. Score -0.20.
+- MPG/CO2: Excellent when utilizing electric range. Score 0.70 for MPG (real-world hybrid), 0.90 for CO2 (very low).
+- Electrification: PHEV. Score 0.00.
+- Electric Range: Excellent for a PHEV (63 miles WLTP). Score 0.80.
+- Charge Speed: Good for a PHEV (11kW AC). Score 0.50.
+- Handling: Very good, but slightly impacted by weight. Score 0.80.
+- Ride Comfort: Good, but slightly stiffer than non-hybrid. Score 0.50.
+- Cabin Noise: Excellent, especially in EV mode. Score 0.70.
+- Steering Feel: Good, but some reviews note a slight artificiality. Score 0.60.
+- ADAS: Excellent available features, including Level 2. Score 0.80.
+- Screen Size: 14.9" central screen is large. Score 0.90.
+- Infotainment UX: Highly rated iDrive 8/8.5. Score 0.90.
+- Smartphone Connect: Wireless is best-in-class. Score 1.00.
+- Audio: Standard 10 speakers is above average. Score 0.50.
+- Trim Prestige: Significant powertrain variant, but not the top performance model. Score 0.00.
+- Interior Tech Focus: High tech focus. Score 0.90.
+
+Looks consistent.```json
 {
-  "price_usd": -0.50,
-  "total_cost_estimate_5yr_usd": -0.80,
-  "insurance_usd_yr": -0.80,
-  "maint_usd_yr": -0.50,
-  "repair_risk_score": -0.10,
-  "hp": 0.40,
-  "torque": 0.70,
+  "price_usd": 0.00,
+  "total_cost_estimate_5yr_usd": -0.10,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": -0.20,
+  "repair_risk_score": 0.30,
+  "hp": 0.30,
+  "torque": 0.50,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.50,
+  "accel_0_60_sec": 0.60,
   "top_speed": 0.00,
-  "drive_type": 0.50,
+  "drive_type": 1.00,
   "transmission_type": 1.00,
-  "offroad_ability": -1.00,
-  "braking_dist_ft": 0.30,
+  "driving_track_vs_gt": 0.40,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.20,
   "size": 0.10,
-  "wheelbase": 0.10,
+  "wheelbase": 0.20,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.30,
-  "rear_space": 0.10,
+  "cargo_space": -0.20,
+  "rear_space": 0.00,
   "ground_clearance_in": -0.30,
   "turn_radius_ft": 0.00,
-  "mpg": 1.00,
-  "co2_g_km": 1.00,
-  "electric_range_mi": 0.50,
+  "mpg": 0.70,
+  "co2_g_km": 0.90,
+  "electrification": 0.00,
+  "electric_range_mi": 0.80,
   "charge_speed_kw": 0.50,
-  "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.10,
-  "style_modernity_rating": 0.50,
+  "style_sleek_vs_boxy": 0.30,
+  "style_aggression_rating": 0.20,
+  "style_modernity_rating": 0.60,
   "handling_rating": 0.80,
-  "ride_comfort_rating": 0.10,
-  "cabin_noise_rating": 0.30,
-  "shift_smooth_rating": 0.80,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.70,
+  "shift_smooth_rating": 1.00,
   "steering_feel_rating": 0.60,
   "adas_score": 0.80,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.80,
-  "security_rating": 0.30,
-  "screen_in": 0.80,
-  "infotainment_ux_rating": 0.80,
-  "smartphone_connect_rating": 0.80,
-  "audio_rating": 0.00,
-  "usb_ports": 0.10,
-  "comfort_feature_score": 0.50,
-  "convenience_feature_score": 0.50,
+  "headlight_rating": 0.60,
+  "security_rating": 0.60,
+  "screen_in": 0.90,
+  "infotainment_ux_rating": 0.90,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.50,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.60,
+  "convenience_feature_score": 0.70,
   "brand_prestige_rating": 0.80,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.50,
-  "interior_tech_focus_rating": 0.80
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": 0.90
 }
 ```

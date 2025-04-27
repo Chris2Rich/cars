@@ -1,113 +1,57 @@
-The user is asking for an evaluation of the 'Mercedes-Benz', 'G Class', 'G580'. Based on the search results, the most recent version of this is the Mercedes-Benz G 580 with EQ Technology, which is a fully electric vehicle.
-
-Here is the evaluation based on the search results for the Mercedes-Benz G 580 with EQ Technology:
-
-*   **price_usd**: Base price starts around $161,500 - $162,650 USD. This is significantly above the market average ($52,000). -1.00.
-*   **total_cost_estimate_5yr_usd**: High purchase price, high insurance, and potential maintenance costs for a high-end electric vehicle. -1.00.
-*   **insurance_usd_yr**: Insurance group 48 or very high. This is very high. -1.00.
-*   **maint_usd_yr**: Electric vehicles generally have lower maintenance than ICE, but this is a complex, high-end luxury vehicle. Maintenance is likely above average for the market, but potentially lower than AMG ICE variants. -0.50.
-*   **repair_risk_score**: It's a new model with complex electric and off-road technology. Reliability is unproven, but Mercedes-Benz generally has average reliability. 0.00.
-*   **hp**: 579 hp (combined). Very high. 0.80.
-*   **torque**: 859 lb-ft (combined) or 1164 Nm. Very high. 0.90.
-*   **cylinder_count**: 0 (Electric). -1.00.
-*   **engine_displacement**: 0.0L (Electric). -1.00.
-*   **accel_0_60_sec**: 4.1 - 4.7 seconds. Very fast. 0.90.
-*   **top_speed**: 112 mph (electronically limited) or 180 km/h. Below average (150 mph). -1.00.
-*   **drive_type**: All-Wheel Drive (Quad-motor). 0.00.
-*   **transmission_type**: 2-speed automatic at each wheel motor. Automatic. 1.00.
-*   **driving_track_vs_gt**: Luxury SUV with extreme off-road focus. Not a track car or a sleek GT. 0.00.
-*   **offroad_ability**: Exceptional off-road capability with virtual differential locks, G-TURN, G-STEERING, Offroad Crawl, high ground clearance, and wading depth. -1.00 (inverted scale).
-*   **braking_dist_ft**: 162-foot stop from 70 mph. This is around average for an SUV, but good for its weight. 0.00.
-*   **size**: Length around 4624-4863mm, width around 1931-2187mm, height around 1983-1986mm. Larger than average. 0.80.
-*   **wheelbase**: 2890mm or 113.8 inches. Longer than average. 0.70.
-*   **body_style**: 5-door SUV/wagon. 0.00.
-*   **seats**: 5 seats. 0.00.
-*   **cargo_space**: 34.8 - 70.3 cu ft (seats up/down) or 555/1990 litres. Excellent maximum space. 0.80.
-*   **rear_space**: Rear legroom around 39.5 inches. Above average (35"). 0.80.
-*   **ground_clearance_in**: 9.8 inches or 250mm. High. 0.80.
-*   **turn_radius_ft**: 13.6 metres (44.6 ft). Large. -0.80.
-*   **mpg**: EPA rated 62 MPGe combined. This is good for an SUV, but lower than many smaller EVs. 0.50.
-*   **co2_g_km**: 0 g/km. Excellent. +1.00.
-*   **electrification**: EV (Electric Vehicle). +1.00.
-*   **electric_range_mi**: EPA rated 239 miles or WLTP up to 473 km (294 miles). Average for a modern EV. 0.00.
-*   **charge_speed_kw**: DC fast charging up to 200 kW. Good, but not the fastest available. 0.70.
-*   **style_sleek_vs_boxy**: Boxy. -1.00.
-*   **style_aggression_rating**: Imposing, but not overtly aggressive. 0.50.
-*   **style_modernity_rating**: Classic shape with modern electric details. 0.50.
-*   **handling_rating**: Improved over ICE G-Class due to lower center of gravity, but still a heavy SUV. 0.00.
-*   **ride_comfort_rating**: Much improved ride comfort over the old generation. Good. 0.70.
-*   **cabin_noise_rating**: Very quiet due to electric powertrain, but some wind noise possible due to shape. 0.80.
-*   **shift_smooth_rating**: Electric powertrain with 2-speed gearboxes is inherently smooth. 1.00.
-*   **steering_feel_rating**: Improved electric power steering. 0.00.
-*   **adas_score**: Comprehensive suite available, including adaptive cruise control, blind spot assist, active lane keeping assist, parking assist, 360 camera. 0.80.
-*   **visibility_rating**: Good due to boxy shape and commanding position. 0.70.
-*   **headlight_rating**: Modern LED/Multibeam headlights. 0.80.
-*   **security_rating**: High-end luxury vehicle with standard security features. 0.80.
-*   **screen_in**: Dual 12.3-inch screens standard. Very large. 0.90.
-*   **infotainment_ux_rating**: MBUX system, generally well-regarded, supports voice control, augmented reality navigation. 0.70.
-*   **smartphone_connect_rating**: Apple CarPlay and Android Auto standard, wireless charging. 0.80.
-*   **audio_rating**: Burmester 3D surround sound system available (optional/standard on Edition One). 0.90.
-*   **usb_ports**: Two USB-C ports in the rear, multiple ports expected. 0.50.
-*   **comfort_feature_score**: High level of luxury features standard and optional (heated/ventilated/massage seats, 3-zone climate control, heated steering wheel). 0.90.
-*   **convenience_feature_score**: High level of convenience features (Keyless-Go, parking assist, 360 camera, remote park, unique off-road tech like G-TURN/G-STEERING/Crawl). 0.90.
-*   **brand_prestige_rating**: Mercedes-Benz. 0.90.
-*   **model_prestige_rating**: G-Class (Halo model). -1.00.
-*   **trim_prestige_rating**: G580 with EQ Technology (High-end, below AMG G63, but the only electric variant). -0.50.
-*   **interior_luxury_rating**: Very high quality materials and design, Nappa leather available. 0.90.
-*   **interior_tech_focus_rating**: High tech focus with large screens and advanced features. 0.80.```json
+```json
 {
  "price_usd": -1.00,
  "total_cost_estimate_5yr_usd": -1.00,
  "insurance_usd_yr": -1.00,
- "maint_usd_yr": -0.50,
+ "maint_usd_yr": 0.00,
  "repair_risk_score": 0.00,
- "hp": 0.80,
+ "hp": 0.90,
  "torque": 0.90,
  "cylinder_count": -1.00,
  "engine_displacement": -1.00,
  "accel_0_60_sec": 0.90,
- "top_speed": -1.00,
+ "top_speed": 0.00,
  "drive_type": 0.00,
  "transmission_type": 1.00,
  "driving_track_vs_gt": 0.00,
  "offroad_ability": -1.00,
- "braking_dist_ft": 0.00,
+ "braking_dist_ft": -0.80,
  "size": 0.80,
- "wheelbase": 0.70,
+ "wheelbase": 0.80,
  "body_style": 0.00,
  "seats": 0.00,
- "cargo_space": 0.80,
+ "cargo_space": 0.00,
  "rear_space": 0.80,
- "ground_clearance_in": 0.80,
+ "ground_clearance_in": 1.00,
  "turn_radius_ft": -0.80,
- "mpg": 0.50,
+ "mpg": -1.00,
  "co2_g_km": 1.00,
  "electrification": 1.00,
  "electric_range_mi": 0.00,
- "charge_speed_kw": 0.70,
+ "charge_speed_kw": 0.50,
  "style_sleek_vs_boxy": -1.00,
- "style_aggression_rating": 0.50,
- "style_modernity_rating": 0.50,
- "handling_rating": 0.00,
- "ride_comfort_rating": 0.70,
+ "style_aggression_rating": 0.80,
+ "style_modernity_rating": 0.80,
+ "handling_rating": -0.80,
+ "ride_comfort_rating": 0.80,
  "cabin_noise_rating": 0.80,
  "shift_smooth_rating": 1.00,
- "steering_feel_rating": 0.00,
+ "steering_feel_rating": -0.80,
  "adas_score": 0.80,
- "visibility_rating": 0.70,
+ "visibility_rating": 0.80,
  "headlight_rating": 0.80,
  "security_rating": 0.80,
- "screen_in": 0.90,
- "infotainment_ux_rating": 0.70,
- "smartphone_connect_rating": 0.80,
- "audio_rating": 0.90,
- "usb_ports": 0.50,
- "comfort_feature_score": 0.90,
- "convenience_feature_score": 0.90,
- "brand_prestige_rating": 0.90,
+ "screen_in": 0.80,
+ "infotainment_ux_rating": 0.80,
+ "smartphone_connect_rating": 1.00,
+ "audio_rating": 1.00,
+ "usb_ports": 0.00,
+ "comfort_feature_score": 1.00,
+ "convenience_feature_score": 1.00,
+ "brand_prestige_rating": 1.00,
  "model_prestige_rating": -1.00,
- "trim_prestige_rating": -0.50,
- "interior_luxury_rating": 0.90,
+ "trim_prestige_rating": -1.00,
+ "interior_luxury_rating": 1.00,
  "interior_tech_focus_rating": 0.80
 }
 ```

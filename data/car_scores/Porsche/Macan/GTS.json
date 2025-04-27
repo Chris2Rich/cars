@@ -1,55 +1,113 @@
-```json
+The most recent gasoline Macan GTS is the 2024 model year. The Macan EV is also available for 2024/2025, but the GTS trim is specifically associated with the performance gasoline variant in the search results. I will evaluate the 2024 Porsche Macan GTS gasoline model.
+
+Here's the data extracted and the corresponding scores based on the guide:
+
+- **price_usd:** Starts at $88,450. This is significantly above the market average ($52,000) but not in the ultra-luxury range. Score: -0.60.
+- **total_cost_estimate_5yr_usd:** No specific 5-year cost found. Porsche maintenance and potential repairs are high. Score: -0.60 (estimate based on brand/maintenance/price).
+- **insurance_usd_yr:** No specific UK insurance group found. High performance Porsche will be very high. Score: -0.70 (estimate).
+- **maint_usd_yr:** No specific annual cost found, but Porsche maintenance is known to be expensive, especially for performance trims. Score: -0.70 (estimate based on brand/trim).
+- **repair_risk_score:** Porsche generally has decent reliability for a performance brand, but not top-tier like Toyota/Lexus. Score: 0.00 (estimate).
+- **hp:** 434 hp. This is well above the average (~200 hp). Score: 0.60.
+- **torque:** 405 lb-ft. This is well above the average (~190 lb-ft). Score: 0.70.
+- **cylinder_count:** 6-cylinder (V6). Above average (4 or 6). Score: 0.00.
+- **engine_displacement:** 2.9L. Around the average for performance engines. Score: 0.00.
+- **accel_0_60_sec:** 4.3 seconds (4.1 with Sport Chrono). Some sources say 3.5 seconds. Using the more conservative and frequently cited 4.3s. This is significantly faster than average (~7.5 sec). Score: 0.60.
+- **top_speed:** 169 mph. Above average (150 mph is 0.00). Score: 0.10.
+- **drive_type:** All-Wheel Drive (AWD). Score: 0.00.
+- **transmission_type:** 7-speed PDK (Dual-Clutch Automatic). The guide lists Automatic as +1.00 and Dual-Clutch as 0.00. Score: 0.00.
+- **driving_track_vs_gt:** Described as a sports car of compact SUVs, excellent handling, engaging to drive, but also comfortable for daily duties. Leans towards performance/track but retains GT capability. Score: -0.30.
+- **offroad_ability:** Limited off-road ability for a performance SUV, focused on road performance. Score: 0.20 (closer to sports car than G-Class).
+- **braking_dist_ft:** Described as having "great feel" and "always there as in normal Porsche fashion". Porsche generally has excellent brakes. Score: 0.70 (estimate).
+- **size:** Length 186.1 inches (4726 mm). Around the size of a Honda Civic (~4600mm). Score: 0.00.
+- **wheelbase:** 110.5 inches (2807 mm). Around the size of a Skoda Octavia (~2700mm). Score: 0.00.
+- **body_style:** 5-door SUV/Wagon. Score: 0.50.
+- **seats:** 5 seats. Score: 0.00.
+- **cargo_space:** 17.2 cu ft with seats up, 53 cu ft with seats folded. 17.2 is slightly above average (15 cu ft). Score: 0.20.
+- **rear_space:** Described as having "less space for back-seat passengers than in most competitors". Score: -0.10.
+- **ground_clearance_in:** 190mm (7.48 inches). Some sources say 177mm (6.97 inches) in normal setting. Max ground clearance with steel suspension is 8.0 inches, air suspension normal is 7.4 inches. Compact crossovers are ~6.5". Score: 0.30.
+- **turn_radius_ft:** Turning circle diameter 39.4 feet. Average is ~36 ft. Score: 0.00.
+- **mpg:** EPA combined 19 MPG. Australian combined 10.3L/100km (approx 22.8 MPG). Average is ~30 mpg. Score: -0.60.
+- **co2_g_km:** Australian 234 g/km. Average is ~175 g/km. Score: -0.60.
+- **electrification:** Petrol/Gasoline. Score: -1.00.
+- **electric_range_mi:** N/A. Score: -1.00.
+- **charge_speed_kw:** N/A. Score: -1.00.
+- **style_sleek_vs_boxy:** Described as having a "sleek, sloping silhouette", "athletic stance". Score: 0.60.
+- **style_aggression_rating:** Described as having an "athletic stance", "boldly sculpted exterior", "distinct fenders and a low hood". GTS trim adds specific styling. Moderately aggressive. Score: 0.40.
+- **style_modernity_rating:** Updated design, but the platform is older. The EV is the major modern update. Score: 0.30.
+- **handling_rating:** Described as "agile handling", "so well-balanced", "unmatched in terms of driving feel", "sharp handling", "brilliant chassis tuning", "confidence-inspiring". Score: 0.90.
+- **ride_comfort_rating:** Described as "wonderfully smooth and carefully controlled", "comfortable ride", "more comfortable than many more softly suspended cars". Standard air suspension helps. Score: 0.80.
+- **cabin_noise_rating:** No specific rating found, but luxury/performance vehicles are typically well-insulated, though engine/exhaust noise is part of the GTS character. Score: 0.60 (estimate).
+- **shift_smooth_rating:** 7-speed PDK is known for being smooth and fast. Score: 0.80.
+- **steering_feel_rating:** Described as "micrometer-accurate and pleasantly tactile", "direct steering", "engaging", "accurate and tight steering", "good steering precision". Score: 0.90.
+- **adas_score:** Includes standard features like ParkAssist, adaptive cruise control, lane departure warnings, collision mitigation with emergency brake assist, back-up camera. Available automated emergency braking and adaptive cruise control. Score: 0.60.
+- **visibility_rating:** Good outward visibility mentioned. Back-up camera helps. Score: 0.00 (estimate).
+- **headlight_rating:** Standard LED headlights, dynamic cornering lights. Described as "wonderful headlight design". Score: 0.50.
+- **security_rating:** Includes stolen vehicle tracking/assistance. Porsche is a high-value target, likely has good security features like immobilizer. Score: 0.70 (estimate).
+- **screen_in:** 10.9-inch touchscreen infotainment system. Above average (8"). Score: 0.40.
+- **infotainment_ux_rating:** Described as "state-of-the-art and easy to control", "intuitive". Some sources say it "might feel dated". Score: 0.20.
+- **smartphone_connect_rating:** Wireless Apple CarPlay standard. Android Auto mentioned as standard in some sources, but Car and Driver says no Android Auto. Wireless charging standard. Score: 0.80 (leaning towards standard wireless CarPlay/Android Auto).
+- **audio_rating:** Standard 10-speaker Sound Package Plus. Optional Bose 12-speaker or Burmester 16-speaker. Score: 0.70.
+- **usb_ports:** USB ports and 12-volt outlets sprinkled throughout. Two USB-C chargers standard. Score: 0.40 (estimate, specific count not consistently found).
+- **comfort_feature_score:** Standard heated front seats, three-zone climate control, power front seats. GTS Sport Seats standard. Options for ventilated front, heated rear, 14/18-way power seats. Heated steering wheel available. Score: 0.70.
+- **convenience_feature_score:** Standard ParkAssist (front and rear), adaptive cruise control, lane departure warning, back-up camera, power liftgate, keyless entry, push-button start, wireless charging, navigation. Score: 0.70.
+- **brand_prestige_rating:** Porsche is a high-prestige brand. Score: 0.90.
+- **model_prestige_rating:** Macan is the best-selling Porsche model globally, but it's the entry-level SUV. Score: 0.20.
+- **trim_prestige_rating:** GTS is a high-performance trim, second only to the now-discontinued Turbo (in gasoline models). Score: 0.00.
+- **interior_luxury_rating:** Premium materials, leather upholstery standard/available, aluminum trim, customizable options. Described as "sophisticated and modern", "opulent experience". Score: 0.70.
+- **interior_tech_focus_rating:** 10.9" screen, digital instrument cluster available (Macan EV has curved cluster), wireless charging, navigation, voice control. Modern but not as screen-dominant as some EVs. Score: 0.40.```json
 {
-  "price_usd": -0.50,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
+  "price_usd": -0.60,
+  "total_cost_estimate_5yr_usd": -0.60,
+  "insurance_usd_yr": -0.70,
+  "maint_usd_yr": -0.70,
   "repair_risk_score": 0.00,
-  "hp": 0.80,
-  "torque": 0.80,
+  "hp": 0.60,
+  "torque": 0.70,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.90,
-  "top_speed": 0.25,
+  "accel_0_60_sec": 0.60,
+  "top_speed": 0.10,
   "drive_type": 0.00,
-  "transmission_type": 0.50,
-  "offroad_ability": 0.25,
-  "braking_dist_ft": 0.00,
-  "size": 0.50,
-  "wheelbase": 0.75,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": -0.30,
+  "offroad_ability": 0.20,
+  "braking_dist_ft": 0.70,
+  "size": 0.00,
+  "wheelbase": 0.00,
   "body_style": 0.50,
   "seats": 0.00,
-  "cargo_space": 0.25,
-  "rear_space": 0.00,
-  "ground_clearance_in": 0.00,
+  "cargo_space": 0.20,
+  "rear_space": -0.10,
+  "ground_clearance_in": 0.30,
   "turn_radius_ft": 0.00,
-  "mpg": -1.00,
-  "co2_g_km": -1.00,
+  "mpg": -0.60,
+  "co2_g_km": -0.60,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.75,
-  "style_aggression_rating": 0.75,
-  "style_modernity_rating": 0.00,
-  "handling_rating": 0.95,
-  "ride_comfort_rating": 0.85,
-  "cabin_noise_rating": 0.85,
-  "shift_smooth_rating": 0.50,
-  "steering_feel_rating": 0.95,
-  "adas_score": 0.50,
+  "style_sleek_vs_boxy": 0.60,
+  "style_aggression_rating": 0.40,
+  "style_modernity_rating": 0.30,
+  "handling_rating": 0.90,
+  "ride_comfort_rating": 0.80,
+  "cabin_noise_rating": 0.60,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.90,
+  "adas_score": 0.60,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.85,
-  "security_rating": 0.25,
-  "screen_in": 0.85,
-  "infotainment_ux_rating": 0.90,
-  "smartphone_connect_rating": 0.50,
-  "audio_rating": 0.75,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.90,
-  "convenience_feature_score": 0.90,
-  "brand_prestige_rating": 1.00,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": -0.50,
-  "interior_luxury_rating": 0.75,
-  "interior_tech_focus_rating": 0.75
+  "headlight_rating": 0.50,
+  "security_rating": 0.70,
+  "screen_in": 0.40,
+  "infotainment_ux_rating": 0.20,
+  "smartphone_connect_rating": 0.80,
+  "audio_rating": 0.70,
+  "usb_ports": 0.40,
+  "comfort_feature_score": 0.70,
+  "convenience_feature_score": 0.70,
+  "brand_prestige_rating": 0.90,
+  "model_prestige_rating": 0.20,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.70,
+  "interior_tech_focus_rating": 0.40
 }
 ```

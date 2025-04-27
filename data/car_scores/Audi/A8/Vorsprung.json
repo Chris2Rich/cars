@@ -1,111 +1,57 @@
-Here's the evaluation based on the search results and the scoring guide:
-
-*   **price_usd**: Search results show prices around £110,000 - £120,000 for a new A8 Vorsprung. This is well over $100,000 USD. Score: -0.90 (closer to -1.00 than 0.00).
-*   **total_cost_estimate_5yr_usd**: Edmunds estimates ~$97,141 over 5 years for a 2025 A8. This is significantly higher than the $60,000 threshold for -1.00. Score: -1.00.
-*   **insurance_usd_yr**: UK insurance group is 50 (highest). CarEdge estimates ~$4,660/year. This is well over $2,500. Score: -1.00.
-*   **maint_usd_yr**: RepairPal estimates ~$1,298/year average repair cost. MoneyMow estimates ~$1,200/year maintenance. CarEdge estimates $3,536 over 5 years for maintenance and repairs (~$700/year). Let's take an average or slightly higher due to complexity. ~$1000-1200/year is high. Score: -0.90.
-*   **repair_risk_score**: RepairPal gives a 1.5/5.0 reliability rating, ranking 28th out of 30 luxury fullsize cars, indicating poor reliability. CoPilot says it's not a reliable luxury car option overall, though some years are better. This points towards below average reliability. Score: -0.70 (closer to -1.00 than 0.00).
-*   **hp**: The 50 TDI Vorsprung has 286 bhp (Source [20], [21], [30], [32]). The 55 TFSI has 340 hp (Source [3]). The 60 TFSIe has 462 PS (455 bhp) (Source [27], [29]). The S8 Vorsprung has 571 bhp (Source [16], [23]). The Vorsprung trim is available with multiple engines. The prompt just says "Vorsprung". I will take the most common non-S8 engine for the standard A8 Vorsprung, which is likely the 50 TDI or 55 TFSI. Let's use the 55 TFSI's 340 hp as a representative "Vorsprung" engine power for the standard A8. This is well above the 200 hp average but not 700+. Score: 0.40.
-*   **torque**: 55 TFSI has 369 lb-ft (Source [11], [18]). This is well above the 190 lb-ft average. Score: 0.40.
-*   **cylinder_count**: 55 TFSI is a V6 (Source [3], [11]). Score: 0.00 (average is around 6).
-*   **engine_displacement**: 55 TFSI is 3.0L (Source [3], [11]). Score: 0.00 (average is around 3.0L).
-*   **accel_0_60_sec**: 55 TFSI is 5.5-5.6 secs (Source [18], [25]). 50 TDI is 5.9 secs (Source [2], [20], [21], [30]). 60 TFSIe is 4.7-4.9 secs (Source [27], [29]). S8 is 3.8 secs (Source [16], [23]). Using the 55 TFSI's ~5.5s. This is significantly faster than the 7.5s average. Score: 0.60.
-*   **top_speed**: 155 mph (electronically limited) (Source [2], [16], [18], [20], [21], [23], [30]). This is above the 150 mph average. Score: 0.10.
-*   **drive_type**: Quattro (AWD) is standard (Source [4], [27], [35]). Score: 0.00.
-*   **transmission_type**: 8-speed Tiptronic automatic (Source [2], [16], [18], [20], [27]). Score: 1.00.
-*   **offroad_ability**: Very low. Score: -1.00.
-*   **braking_dist_ft**: No specific data found, but large luxury cars with good brakes are likely average or slightly better. Default to 0.00.
-*   **size**: A8 L is 5320mm long (Source [2], [5], [18], [29], [32]). This is >5100mm. Score: 1.00.
-*   **wheelbase**: A8 L is 3128mm (Source [2], [5], [18], [24], [29], [32]). This is >3200mm for the L version, but the guide says >3200mm for +1.00. 3128mm is very long, close to the threshold. Score: 0.90.
-*   **body_style**: 4-door sedan. Score: 0.00.
-*   **seats**: 5 seats standard (Source [5], [24], [34]). Score: 0.00.
-*   **cargo_space**: 505 litres / 17.8 cu ft (Source [5], [9], [24], [34], [35]). PHEV is 391 litres / 13.8 cu ft (Source [26]). Using the standard 505L (~17.8 cu ft). This is slightly above the 15 cu ft average, but not >35 cu ft. Score: 0.10. (Correction: 17.8 cu ft is closer to average than high. Let's re-evaluate. 15 cu ft is average. 35+ is high. 17.8 is slightly above average. Score: 0.10 seems reasonable).
-*   **rear_space**: A8 L has significantly more rear legroom (Source [9], [24], [35]). 1125mm / 44.3 inches (Source [9]). This is >40". Score: 1.00.
-*   **ground_clearance_in**: No specific data found for inches. Large luxury sedans are typically low. Score: -0.60 (estimate based on vehicle type).
-*   **turn_radius_ft**: 12m turning circle (Source [29]). 12 meters is ~39.4 ft. Dynamic all-wheel steering can reduce it to 38.7 ft (Source [25]). This is slightly above the 36 ft average. Score: -0.10. (Correction: 38.7-39.4 ft is closer to average than poor. Let's re-evaluate. 36 ft is average. >45 ft is poor. This is slightly above average, so maybe -0.10 or 0.00. Let's go with 0.00).
-*   **mpg**: 50 TDI is 37.2-38.2 mpg (Source [2], [20], [21], [32]). 55 TFSI is low 30s (Source [33]). 60 TFSIe PHEV has higher combined but lower without battery (Source [29]). S8 is 24.6 mpg (Source [16], [23]). Using the 50 TDI/55 TFSI range, it's around 30-38 mpg. 30 mpg is average. This is around average or slightly above for the diesel, below for petrol. Let's average it out or lean slightly below average for the range of engines. Score: -0.10. (Correction: 30 mpg is average. 30-38 mpg is around average. Let's stick with 0.00).
-*   **co2_g_km**: 50 TDI is 196 g/km (Source [2], [20], [21], [32]). 55 TFSI is 171-178 g/km (Source [3]). 60 TFSIe is 42 g/km (Source [29]). S8 is 261 g/km (Source [16], [23]). Non-PHEV versions are well above 175 g/km average. Score: -0.30.
-*   **electric_range_mi**: Not an EV. Score: -1.00.
-*   **charge_speed_kw**: Not an EV. Score: -1.00.
-*   **handling_rating**: Reviews mention competent but comfort-focused handling (Source [4], [25]). Score: 0.10.
-*   **ride_comfort_rating**: Reviews highlight excellent ride comfort (Source [4], [25], [33]). Score: 0.90.
-*   **cabin_noise_rating**: Reviews mention a quiet cabin (Source [25], [35]). Score: 0.90.
-*   **shift_smooth_rating**: 8-speed Tiptronic is described as smooth (Source [25]). Score: 0.90.
-*   **steering_feel_rating**: Luxury sedans often have lighter, less communicative steering. Dynamic all-wheel steering helps agility but feel might be numb. Score: -0.20.
-*   **adas_score**: A8 is a flagship with extensive ADAS features (adaptive cruise control, lane assist, parking aids, 360 camera, etc.) (Source [3], [5], [24], [35], [38], [40]). Score: 0.90.
-*   **visibility_rating**: No specific data found, but large sedans are generally decent, not exceptional like an SUV or wagon. Score: 0.20.
-*   **headlight_rating**: HD Matrix LED headlights with dynamic indicators are standard/available (Source [3], [24], [37]). Audi is known for excellent lighting. Score: 0.90.
-*   **security_rating**: Luxury cars have advanced security. Score: 0.70.
-*   **screen_in**: Multiple large screens (MMI touch displays, Virtual Cockpit) (Source [3], [33], [34], [37]). Score: 0.80 (Correction: Guide says 17" is +1.00, 8" is 0.00. A8 has ~10.1" and 8.6" central screens plus 12.3" Virtual Cockpit. This is well above average but not 17". Score: 0.30 seems low for multiple large screens. Let's re-evaluate. Maybe 0.60-0.70). Let's stick with 0.30 based on the guide's scale relative to the largest screens available.
-*   **infotainment_ux_rating**: Audi's MMI Touch Response is generally good but can be complex (Source [33]). Score: 0.10.
-*   **smartphone_connect_rating**: Standard Apple CarPlay/Android Auto, USB ports in rear (Source [5], [26], [34]). Likely wireless on top trim. Score: 0.90.
-*   **audio_rating**: Bang & Olufsen Premium/Advanced Sound System available (Source [26], [37]). Score: 0.90.
-*   **usb_ports**: USB ports with charging function in the rear (Source [26], [34]). Likely multiple ports. Score: 0.00 (Guide says 3 is average, 6+ is high. Unsure of exact count, default to 0.00).
-*   **comfort_feature_score**: Heated, ventilated, massaging seats, 4-zone climate, comfort headrests, electric adjustable rear seats available (Source [5], [24], [33], [34], [36]). Score: 0.90.
-*   **convenience_feature_score**: 360 camera, parking assist, remote park assist, convenience key, power trunk, soft-close doors (common on luxury cars), rear central control unit (Source [5], [24], [34], [35], [36]). Score: 0.90.
-*   **brand_prestige_rating**: Audi is a premium/luxury brand. Score: 0.70.
-*   **model_prestige_rating**: A8 is the flagship sedan. Score: -1.00.
-*   **trim_prestige_rating**: Vorsprung is a top trim level for the standard A8 (below the S8 Vorsprung). Score: 0.00 (Guide says S Line/AMG Line is 0.00, Top Trims are -1.00, Base is +1.00. Vorsprung is a high trim, but not the absolute top performance trim (S8). It's above S Line. Let's rate it as a good/high trim, but not the ultimate top performance trim. Score: 0.00 seems appropriate based on the guide's examples).
-*   **interior_luxury_rating**: High quality Valcona leather, wood accents, plush materials (Source [24], [25], [33], [37]). Score: 0.90.
-*   **interior_tech_focus_rating**: Multiple screens, digital cockpit, touch controls (Source [3], [33], [34], [37]). Score: 0.70.
-*   **style_sleek_vs_boxy**: Large sedan, generally sleek but not extreme. Score: 0.10.
-*   **style_aggression_rating**: Elegant, not aggressive (Source [33]). Score: -0.50.
-*   **style_modernity_rating**: Modern design, updated in 2022 (Source [33]). Score: 0.20.
-
-Double-check all scores against the guide and ensure they are within -1.00 to +1.00 with two decimal places. Ensure only JSON is outputted.
-
-Looks good. Proceed with JSON output.```json
+```json
 {
-  "price_usd": -0.90,
+  "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
-  "maint_usd_yr": -0.90,
-  "repair_risk_score": -0.70,
-  "hp": 0.40,
-  "torque": 0.40,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.60,
-  "top_speed": 0.10,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -0.25,
+  "hp": 0.75,
+  "torque": 0.75,
+  "cylinder_count": 0.25,
+  "engine_displacement": 0.25,
+  "accel_0_60_sec": 0.75,
+  "top_speed": 0.00,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "offroad_ability": -1.00,
-  "braking_dist_ft": 0.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.25,
   "size": 1.00,
-  "wheelbase": 0.90,
+  "wheelbase": 1.00,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.10,
+  "cargo_space": -0.25,
   "rear_space": 1.00,
-  "ground_clearance_in": -0.60,
-  "turn_radius_ft": 0.00,
-  "mpg": 0.00,
-  "co2_g_km": -0.30,
+  "ground_clearance_in": -0.25,
+  "turn_radius_ft": -0.50,
+  "mpg": -0.75,
+  "co2_g_km": -0.75,
+  "electrification": -0.50,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.10,
-  "style_aggression_rating": -0.50,
-  "style_modernity_rating": 0.20,
-  "handling_rating": 0.10,
-  "ride_comfort_rating": 0.90,
-  "cabin_noise_rating": 0.90,
-  "shift_smooth_rating": 0.90,
-  "steering_feel_rating": -0.20,
-  "adas_score": 0.90,
-  "visibility_rating": 0.20,
-  "headlight_rating": 0.90,
-  "security_rating": 0.70,
-  "screen_in": 0.30,
-  "infotainment_ux_rating": 0.10,
-  "smartphone_connect_rating": 0.90,
-  "audio_rating": 0.90,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.90,
-  "convenience_feature_score": 0.90,
-  "brand_prestige_rating": 0.70,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.25,
+  "ride_comfort_rating": 1.00,
+  "cabin_noise_rating": 1.00,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 1.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": 1.00,
+  "security_rating": 1.00,
+  "screen_in": 0.75,
+  "infotainment_ux_rating": 0.50,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 1.00,
+  "usb_ports": 0.50,
+  "comfort_feature_score": 1.00,
+  "convenience_feature_score": 1.00,
+  "brand_prestige_rating": 0.75,
   "model_prestige_rating": -1.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.90,
-  "interior_tech_focus_rating": 0.70
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": 1.00,
+  "interior_tech_focus_rating": 1.00
 }
 ```

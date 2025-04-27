@@ -1,0 +1,111 @@
+The Vauxhall Vivaro GS is a sporty trim level available on the current generation Vivaro van and Vivaro Electric. It features cosmetic upgrades and is available with the most powerful diesel engine or the standard electric powertrain.
+
+-   **price_usd:** New prices for the Vivaro GS diesel start from £39,990 + VAT, and the Vivaro Electric GS starts from £52,890 + VAT (after PiVG). Used prices for 2023 models are around £26,495 - £29,995 + VAT. These prices are around or below the $52,000 average for a new car, especially the diesel and used variants. Score: 0.10.
+-   **total_cost_estimate_5yr_usd:** While the purchase price can be higher than lower trims, running costs for the diesel are reasonable (up to 51.3mpg). The electric version has lower running costs but a higher initial price. Maintenance is likely average for a van. Overall cost is probably around the market average. Score: 0.00.
+-   **insurance_usd_yr:** No specific insurance group found for the GS trim, but higher trims and more powerful engines can increase insurance costs. Vans generally have moderate insurance. Score: 0.00.
+-   **maint_usd_yr:** Service intervals are decent (up to 30,000 miles or 2 years for the 2.0L diesel). Maintenance costs are reported as moderate. Score: 0.00.
+-   **repair_risk_score:** Based on the shared Stellantis platform, reliability is generally good, though some issues have been noted for the Vivaro range. Score: 0.00.
+-   **hp:** The diesel GS comes with a 2.0L engine producing 180PS (178 hp). The electric GS has 136PS (134 hp). The 178 hp diesel is close to the 200 hp average, but the electric is well below. Averaging across the available powertrains for the trim. Score: -0.30.
+-   **torque:** The 2.0L diesel 180PS engine produces 400 Nm (295 lb-ft). The electric motor produces 260 Nm (192 lb-ft). This is good torque for a van. Score: 0.30.
+-   **cylinder_count:** Diesel engine is 4-cylinder. Electric has no cylinders. Score: -0.50 (considering the diesel option).
+-   **engine_displacement:** Diesel is 2.0L. Below the 3.0L benchmark. Score: -0.20.
+-   **accel_0_60_sec:** No specific 0-60 time found for the diesel GS. The Vivaro Electric GS is listed at 14.3 seconds. Vans are generally slow. Score: -0.80.
+-   **top_speed:** Around 106 mph for the 145PS diesel (180PS likely similar or slightly higher). Vivaro Electric GS is 81 mph. Well below the 150 mph benchmark. Score: -1.00.
+-   **drive_type:** FWD. Score: -1.00.
+-   **transmission_type:** Diesel 180PS is paired with an 8-speed automatic. Diesel 145PS has a 6-speed manual. Electric is automatic. Score: 0.50 (due to the availability of the 8-speed auto).
+-   **driving_track_vs_gt:** Commercial van with sporty styling. Still primarily a utility vehicle. Score: 0.00.
+-   **offroad_ability:** Poor. FWD, road tires, not designed for off-road. Score: +1.00.
+-   **braking_dist_ft:** No specific data found, but vans generally have longer braking distances. Score: -0.10.
+-   **size:** Available in L1 (4.95m) length only for GS. Width around 1.9-2.2m. Height around 1.9m. Large vehicle. Score: 0.80.
+-   **wheelbase:** L1 wheelbase is 3275mm. Long wheelbase. Score: 0.80.
+-   **body_style:** Panel Van and Doublecab available. Score: 1.00.
+-   **seats:** Panel van typically 3. Doublecab has more. Assuming panel van: 3 seats. Score: -0.50.
+-   **cargo_space:** Load volume up to 5.3m3 (L1) or 5.8m3 (Electric GS). FlexCargo load-through allows longer items (up to 3.674m for L1). Excellent cargo space for its size. Score: 1.00.
+-   **rear_space:** N/A for panel van. Doublecab has rear seats. Score: 0.00.
+-   **ground_clearance_in:** No specific data found, likely average for a van. Score: 0.00.
+-   **turn_radius_ft:** Turning circle around 12.4m (40.7 ft). Wider than average car. Score: -0.50.
+-   **mpg:** Diesel 180PS achieves up to 51.3mpg (WLTP). Diesel 145PS achieves up to 51.3mpg. 1.5L engines (not typically GS) get higher. Good for a van. Score: 0.40.
+-   **co2_g_km:** Diesel 180PS produces 145g/km. Diesel 145PS produces N/A g/km. Electric is 0 g/km. Averaging across powertrains. Score: 0.20.
+-   **electrification:** Available with Diesel or EV powertrain. Score: 0.50.
+-   **electric_range_mi:** Vivaro Electric GS has a range of up to 189-209 miles (75kWh battery). This is around the average for current EVs. Score: 0.00.
+-   **charge_speed_kw:** Vivaro Electric GS supports up to 100kW DC rapid charging. This is a good speed. Score: 0.50.
+-   **style_sleek_vs_boxy:** It's a van, inherently boxy, but the GS bodykit adds some styling elements. Score: -0.80.
+-   **style_aggression_rating:** The GS trim adds a sporty bodykit, spoilers, and wheels, giving it a more aggressive look than a standard van. Score: 0.50.
+-   **style_modernity_rating:** Current generation Vivaro has modern styling, enhanced by the GS kit. Score: 0.20.
+-   **handling_rating:** Described as car-like and easy to drive, with decent handling for a van. No chassis upgrades for GS. Score: 0.50.
+-   **ride_comfort_rating:** Generally comfortable, though can be jumpy when empty. Score: 0.00.
+-   **cabin_noise_rating:** Engines are reasonably quiet inside, especially the electric. Score: 0.20.
+-   **shift_smooth_rating:** 8-speed automatic is described as smooth. Manual is also available. Score: 0.50.
+-   **steering_feel_rating:** Steering feels a tad vague or weighty but reassuring. Score: 0.00.
+-   **adas_score:** GS trim includes enhanced safety kit over lower trims. Includes Lane departure warning, Blindspot detection, Semi-adaptive cruise control, Forward collision alert with automatic emergency braking, Panoramic rear-view camera, Driver drowsiness alert, Front and rear parking sensors, ECO LED headlamps. This is a good level of ADAS for a van. Score: 0.70.
+-   **visibility_rating:** High driving position provides good forward visibility. Rear/side visibility in panel van is limited, but rear camera helps. Score: 0.00.
+-   **headlight_rating:** ECO LED headlamps and LED daytime running lights included. Score: 0.20.
+-   **security_rating:** Remote control central dead locking, selective door locking, electronic engine deadlock immobiliser, remote control security alarm system, Keyless open and start. Score: 0.50.
+-   **screen_in:** 10-inch HD touchscreen with Multimedia Pro Navi system is standard on GS. Score: 0.50.
+-   **infotainment_ux_rating:** Multimedia Pro Navi system with touchscreen, navigation, voice control. Described as clear and reasonably easy to use, though some find it slow or complicated. Score: 0.40.
+-   **smartphone_connect_rating:** Wireless Apple CarPlay/Android Auto, Bluetooth, USB connection. Score: 1.00.
+-   **audio_rating:** Multimedia Pro Navi system with four speakers. Basic audio quality expected for a van. Score: -0.20.
+-   **usb_ports:** USB connection and a second USB charging connection mentioned. Score: 0.00.
+-   **comfort_feature_score:** Includes Comfort Pack and Winter Pack. Dual-zone electronic climate control, heated leather steering wheel, heated driver's seat, eco-leather seats with red stitching. Score: 0.70.
+-   **convenience_feature_score:** Includes Comfort Pack and Winter Pack. Keyless entry & start, wireless smartphone charging, front and rear parking sensors, rearview camera, electrically folding door mirrors. Score: 0.80.
+-   **brand_prestige_rating:** Vauxhall is a mainstream brand. Score: 0.00.
+-   **model_prestige_rating:** Vivaro is a workhorse van. Score: 1.00.
+-   **trim_prestige_rating:** GS is the top, sporty trim level. Score: -1.00.
+-   **interior_luxury_rating:** Eco-leather seats with red stitching add a touch of sportiness, but the overall interior is still utilitarian van design. Score: -0.20.
+-   **interior_tech_focus_rating:** Includes a larger touchscreen, navigation, wireless charging, and enhanced ADAS. Good tech for a van. Score: 0.70.```json
+{
+  "price_usd": 0.10,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -0.30,
+  "torque": 0.30,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": -0.80,
+  "top_speed": -1.00,
+  "drive_type": -1.00,
+  "transmission_type": 0.50,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -0.10,
+  "size": 0.80,
+  "wheelbase": 0.80,
+  "body_style": 1.00,
+  "seats": -0.50,
+  "cargo_space": 1.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": -0.50,
+  "mpg": 0.40,
+  "co2_g_km": 0.20,
+  "electrification": 0.50,
+  "electric_range_mi": 0.00,
+  "charge_speed_kw": 0.50,
+  "style_sleek_vs_boxy": -0.80,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.20,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 0.00,
+  "cabin_noise_rating": 0.20,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.70,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.20,
+  "security_rating": 0.50,
+  "screen_in": 0.50,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": -0.20,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.70,
+  "convenience_feature_score": 0.80,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 1.00,
+  "trim_prestige_rating": -1.00,
+  "interior_luxury_rating": -0.20,
+  "interior_tech_focus_rating": 0.70
+}
+```

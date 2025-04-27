@@ -1,0 +1,163 @@
+The most recent version of the Vauxhall Vectra that was available with the 'GLS' trim is the Vectra B, produced from 1995 to 2002. The Vectra C (2002-2008) did not offer a 'GLS' trim. This evaluation is based on the specifications and characteristics of the Vauxhall Vectra B GLS.
+
+**price_usd**: Used Vauxhall Vectra B GLS models are very inexpensive in the UK, often listed for under £1,000. This translates to a very low USD price compared to the market average for a new car. Score: 1.00.
+
+**total_cost_estimate_5yr_usd**: The low purchase price is a significant factor. Maintenance and potential repairs on an older car will add to the cost, and while reliability is generally considered average for its age, common issues like rust, suspension, and electrical problems can occur. Score: 0.50.
+
+**insurance_usd_yr**: The Vauxhall Vectra B GLS typically falls into lower insurance groups (e.g., Group 21 for a 1.8 GLS Estate). This means lower insurance costs compared to the national average. Score: 0.50.
+
+**maint_usd_yr**: Maintenance costs are average for a car of this age and segment. Score: 0.00.
+
+**repair_risk_score**: Reliability is generally described as average for its age, with proven mechanicals, but some common issues are noted. Score: 0.00.
+
+**hp**: The 'GLS' trim was available with various engines, including the 1.6L (75-100 hp), 1.8L (115 hp), and 2.0L (136 hp). These horsepower figures are well below the modern average of 200 hp. Score: -1.00.
+
+**torque**: Common engines in the GLS trim like the 1.8L produced around 114 lb-ft (155 Nm) and the 2.0L produced around 138 lb-ft (188 Nm). These figures are below the modern average of 190 lb-ft. Score: -0.80.
+
+**cylinder_count**: Most engines available in the GLS trim were 4-cylinder. Score: -0.50.
+
+**engine_displacement**: Common engines include 1.6L, 1.8L, and 2.0L. These are below the 3.0L average benchmark. Score: -0.50.
+
+**accel_0_60_sec**: 0-60 mph times for common GLS engines like the 1.8L (11.5-12.1 seconds) and 2.0L (9.2-10 seconds) are slower than the 7.5 sec benchmark. Score: -1.00.
+
+**top_speed**: Top speeds for common GLS engines range from around 111 mph to 132 mph. This is below the 150 mph benchmark. Score: -0.50.
+
+**drive_type**: Front-wheel drive. Score: -1.00.
+
+**transmission_type**: Available with both manual and automatic transmissions. Score: 0.00.
+
+**driving_track_vs_gt**: Designed as a comfortable daily driver. Score: 0.00.
+
+**offroad_ability**: Low ground clearance (around 140mm, approx 5.5 inches for the Estate) and FWD limit off-road capability. Score: 1.00.
+
+**braking_dist_ft**: No specific data found for braking distance. Assume average for its era, which is likely worse than modern cars. Score: -0.20.
+
+**size**: Length is around 4.43-4.49m (Sedan/Hatchback) or 4.49m (Estate), and width is around 1.7-1.8m. This is slightly smaller than the modern average of 4.6m. Score: -0.20.
+
+**wheelbase**: Wheelbase is around 2.6-2.64m. This is smaller than the modern average of 2.7m. Score: -0.20.
+
+**body_style**: Available as Sedan, Hatchback, or Estate. Score: 0.00.
+
+**seats**: 5 seats. Score: 0.00.
+
+**cargo_space**: Hatchback boot space is around 460-550L (approx 16.2-19.4 cu ft), and the Estate is larger (460-1490L). This is around or slightly above the Civic benchmark (15 cu ft). Score: 0.00.
+
+**rear_space**: Described as having increased roominess compared to the Cavalier. Assume average for its size. Score: 0.00.
+
+**ground_clearance_in**: Around 140mm (approx 5.5 inches) for the Estate. Typical for a sedan/hatchback, likely around 5-6 inches. This is low compared to the average benchmark (6.5"). Score: -0.80.
+
+**turn_radius_ft**: No specific data found. Assume average for its size. Score: 0.00.
+
+**mpg**: Combined fuel consumption for common GLS engines ranges from around 25-37 mpg (US). This is around or below the 30 mpg benchmark. Score: -0.20.
+
+**co2_g_km**: No specific data found for CO2 emissions for the GLS trim. Emissions standards were lower in this era. Likely higher than the modern average. Score: -0.20.
+
+**electrification**: Petrol or Diesel engines. Score: -1.00.
+
+**electric_range_mi**: Not electric. Score: -1.00.
+
+**charge_speed_kw**: Not electric. Score: -1.00.
+
+**style_sleek_vs_boxy**: Typical 90s sedan/hatchback/estate design, neither particularly sleek nor boxy. Score: 0.00.
+
+**style_aggression_rating**: Not aggressive styling. Score: -0.20.
+
+**style_modernity_rating**: Very dated design by modern standards. Score: -1.00.
+
+**handling_rating**: Described as comfortable but not sporty, lacking excitement and finesse. Score: -0.50.
+
+**ride_comfort_rating**: Known for a comfortable ride, especially on motorways. Score: 0.50.
+
+**cabin_noise_rating**: Described as remarkably refined, especially later models. Assume average for its time, possibly slightly better. Score: 0.00.
+
+**shift_smooth_rating**: Automatic transmission was available and generally smooth. Manual transmission is also available. Score: 0.00.
+
+**steering_feel_rating**: Steering lacked adjustment on early models and was described as uninspiring and tending towards understeer. Likely numb by modern standards. Score: -0.20.
+
+**adas_score**: Minimal or no advanced ADAS features were standard. ABS was available. Score: -1.00.
+
+**visibility_rating**: One review mentions the stylish door mirrors hid rearward traffic. Assume average otherwise. Score: 0.00.
+
+**headlight_rating**: Likely standard halogen headlights. Score: -0.50.
+
+**security_rating**: Basic security features for its time. Score: 0.00.
+
+**screen_in**: Standard models likely had a small basic display for clock/radio. Score: -1.00.
+
+**infotainment_ux_rating**: Very basic, button-based infotainment system. Score: -1.00.
+
+**smartphone_connect_rating**: No standard smartphone connectivity. Score: -1.00.
+
+**audio_rating**: Basic audio system likely standard. Score: 0.00.
+
+**usb_ports**: Unlikely to have USB ports as standard in this era. Score: -1.00.
+
+**comfort_feature_score**: GLS was a mid-range trim, likely included features like electric windows and central locking. Air conditioning was available. Score: 0.00.
+
+**convenience_feature_score**: Basic convenience features for its time. Score: 0.00.
+
+**brand_prestige_rating**: Vauxhall is a mainstream brand. Score: 0.00.
+
+**model_prestige_rating**: Vectra was a mainstream family car. Score: 0.00.
+
+**trim_prestige_rating**: GLS was a mid-range trim level. Score: 0.00.
+
+**interior_luxury_rating**: Interior quality was average for a mainstream car of its time, described as having mediocre plastics. Score: -0.50.
+
+**interior_tech_focus_rating**: Minimal tech focus compared to modern cars. Score: -1.00.```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.50,
+  "insurance_usd_yr": 0.50,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -1.00,
+  "torque": -0.80,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": -1.00,
+  "top_speed": -0.50,
+  "drive_type": -1.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -0.20,
+  "size": -0.20,
+  "wheelbase": -0.20,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.80,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.20,
+  "co2_g_km": -0.20,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": -1.00,
+  "handling_rating": -0.50,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": -0.20,
+  "adas_score": -1.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": -0.50,
+  "security_rating": 0.00,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": 0.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": -0.50,
+  "interior_tech_focus_rating": -1.00
+}
+```

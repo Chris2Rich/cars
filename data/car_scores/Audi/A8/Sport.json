@@ -1,6 +1,6 @@
 ```json
 {
-  "price_usd": -0.75,
+  "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
   "maint_usd_yr": -1.00,
@@ -37,7 +37,7 @@
   "cabin_noise_rating": 1.00,
   "shift_smooth_rating": 1.00,
   "steering_feel_rating": 0.00,
-  "adas_score": 0.75,
+  "adas_score": 1.00,
   "visibility_rating": 0.00,
   "headlight_rating": 1.00,
   "security_rating": 1.00,
@@ -52,6 +52,6 @@
   "model_prestige_rating": -1.00,
   "trim_prestige_rating": 0.00,
   "interior_luxury_rating": 1.00,
-  "interior_tech_focus_rating": 0.75
+  "interior_tech_focus_rating": 1.00
 }
 ```

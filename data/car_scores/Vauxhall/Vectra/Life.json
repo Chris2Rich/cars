@@ -1,55 +1,163 @@
-```json
+The most recent version of the Vauxhall Vectra with the 'Life' trim is part of the Vectra C generation (2002-2008), specifically the facelifted models from 2005 onwards. The 'Life' trim was positioned above the entry-level 'Exclusiv' (Source 17, 28). Common engine options for the Life trim included the 1.8i VVT petrol and the 1.9 CDTi diesel (Source 17, 20, 26).
+
+**price_usd**: Used Vauxhall Vectra Life models from this era are very inexpensive in the UK, often listed for under £2,000, and sometimes up to around £2,500 (Source 5, 12, 25, 30, 39). This translates to a very low USD price compared to the market average for a new car. Score: 1.00.
+
+**total_cost_estimate_5yr_usd**: The low purchase price is a significant factor. Maintenance and potential repairs on an older car will add to the cost, but reliability is generally considered average for its age with proven mechanicals, and no significant faults reported for the Vectra C generation overall (Source 2, 6, 8, 11). Score: 0.50.
+
+**insurance_usd_yr**: The Vauxhall Vectra Life typically falls into lower to mid-range insurance groups (Group 18 for 1.8i Life, Group 22 for 1.9 CDTi Life) (Source 14, 20, 26). This means lower insurance costs compared to the national average. Score: 0.50.
+
+**maint_usd_yr**: Maintenance costs are average for a car of this age and segment. Score: 0.00.
+
+**repair_risk_score**: Reliability is generally described as dependable for its age, with few significant faults reported for the Vectra C (Source 2, 6, 8, 11). Some owner reviews mention issues like fuel pump failures on the 2.2L engine or clutch/DMF issues on diesels, but overall it's considered average reliability (Source 8, 11, 31). Score: 0.00.
+
+**hp**: The 'Life' trim was commonly available with the 1.8i VVT petrol engine (138 hp) and the 1.9 CDTi diesel engine (120 hp or 150 hp) (Source 13, 17, 20, 26, 28, 42). Taking the range of common engines for this trim (120-150 hp), the horsepower is below the modern average of 200 hp. Score: -0.80.
+
+**torque**: The 1.8i VVT petrol engine produces 175 Nm (129 lb-ft) (Source 16). The 1.9 CDTi 120ps engine produces 280 Nm (207 lb-ft) (Source 13, 15). The 1.9 CDTi 150ps engine produces 320 Nm (236 lb-ft). The average benchmark is 190 lb-ft. The torque range for common Life engines is around or above the average. Score: 0.00.
+
+**cylinder_count**: Most engines available in the Life trim were 4-cylinder (Source 13, 15, 16, 42). Score: -0.50.
+
+**engine_displacement**: Common engines include 1.8L and 1.9L (Source 13, 15, 16, 17, 20, 26, 28, 42). These are below the 3.0L average benchmark. Score: -0.20.
+
+**accel_0_60_sec**: 0-60 mph times for common Life engines are around 10.5 seconds for the 1.8 VVT (Source 16) and 9.3-10.5 seconds for the 1.9 CDTi (Source 26, 40). These times are slower than the 7.5 sec benchmark. Score: -0.80.
+
+**top_speed**: Top speeds for common Life engines are around 124-131 mph (Source 16). This is below the 150 mph benchmark. Score: -0.50.
+
+**drive_type**: Front-wheel drive (Source 3, 4, 7, 25, 29). Score: -1.00.
+
+**transmission_type**: Available with both manual and automatic transmissions (Source 14, 20, 26). Score: 0.00.
+
+**driving_track_vs_gt**: Designed as a comfortable daily driver and capable of Grand Touring (Source 34, 43). Score: 0.00.
+
+**offroad_ability**: Low ground clearance (around 130-140mm, approx 5.1-5.5 inches) (Source 3, 4, 23, 29) and FWD limit off-road capability. Score: 1.00.
+
+**braking_dist_ft**: No specific data found for braking distance for the Life trim. Assume average for its era, which is likely worse than modern cars. Score: -0.20.
+
+**size**: Length is around 4.611m (Hatchback/Saloon) or 4.822m (Estate) (Source 3, 4, 7, 15, 16, 29, 38, 40, 42, 43), and width is around 1.798m (Source 3, 4, 7, 15, 16, 29, 38, 40, 43). This is average for a D-segment car, aligning with the Civic benchmark. Score: 0.00.
+
+**wheelbase**: Wheelbase is around 2.7m (Hatchback/Saloon) or 2.83m (Estate) (Source 3, 4, 7, 16, 29, 38, 40, 43). This is around the average benchmark. Score: 0.00.
+
+**body_style**: Available as Hatchback, Sedan, or Estate (Source 17, 24). Score: 0.00.
+
+**seats**: 5 seats (Source 16, 21, 22, 23, 43). Score: 0.00.
+
+**cargo_space**: Hatchback/Sedan boot space is around 500L (approx 17.7 cu ft) (Source 9, 16, 29, 34), and the Estate is larger (530-1850L) (Source 3, 7, 22, 27, 28). 500L is slightly above the Civic benchmark (15 cu ft). Score: 0.20.
+
+**rear_space**: Described as having ample headroom and legroom (Source 43), though one review mentions limited rear legroom (Source 34). Assume average for its class. Score: 0.00.
+
+**ground_clearance_in**: Around 130-140mm (approx 5.1-5.5 inches) (Source 3, 4, 23, 29). This is low compared to the average benchmark (6.5"). Score: -0.80.
+
+**turn_radius_ft**: Turning circle is around 11.25m (approx 36.9 ft) for Life/Exclusiv/Design/Elite Hatchback/Saloon (Source 28). This is around the average benchmark (36 ft). Score: 0.00.
+
+**mpg**: Combined fuel consumption for common Life engines ranges from around 39.2 mpg (UK, US approx 32.6) for the 1.8 VVT (Source 33, 41) to 49.6 mpg (UK, US approx 41.3) for the 1.9 CDTi (Source 11). Real-world reports vary (Source 31, 34, 43). This is around or above the 30 mpg benchmark. Score: 0.20.
+
+**co2_g_km**: CO2 emissions for common Life engines are around 173 g/km for the 1.8 VVT (Source 43) and 154-159 g/km for the 1.9 CDTi (Source 42). This is around or below the 175 g/km benchmark. Score: 0.00.
+
+**electrification**: Petrol or Diesel engines. Score: -1.00.
+
+**electric_range_mi**: Not electric. Score: -1.00.
+
+**charge_speed_kw**: Not electric. Score: -1.00.
+
+**style_sleek_vs_boxy**: Mainstream sedan/hatchback/estate design, neither particularly sleek nor boxy. Score: 0.00.
+
+**style_aggression_rating**: Not particularly aggressive styling. Score: -0.20.
+
+**style_modernity_rating**: Dated design by modern standards (Source 43). Score: -0.50.
+
+**handling_rating**: Handling was generally considered uninspiring compared to rivals like the Mondeo, though the facelift improved it (Source 2, 32, 34). Score: -0.50.
+
+**ride_comfort_rating**: Known for comfort and refinement (Source 2, 8, 31, 32, 34, 43). Score: 0.50.
+
+**cabin_noise_rating**: Described as refined and whisper-quiet at motorway speeds (Source 2, 34). Score: 0.20.
+
+**shift_smooth_rating**: Automatic transmission was available and generally smooth. Manual transmission is also available. Score: 0.00.
+
+**steering_feel_rating**: Steering is positive (Source 8), but handling and steering lack finesse (Source 2). Likely numb compared to modern standards. Score: -0.20.
+
+**adas_score**: Minimal or no advanced ADAS features were standard. Basic systems like ABS, EBD, CBC, EBA were standard (Source 17). Aftermarket systems with basic ADAS features like lane departure warning and front collision warning were available (Source 18, 19). Score: -1.00.
+
+**visibility_rating**: No specific reviews found. Assume average for a sedan/hatchback/estate of its era. Score: 0.00.
+
+**headlight_rating**: Likely standard halogen or basic projector headlights. Score: 0.00.
+
+**security_rating**: Basic security features like remote control security alarm and central deadlocking were standard on Life trim (Source 28). Score: 0.00.
+
+**screen_in**: Standard models likely had a small central information display (five-inch monochromatic) (Source 28). Score: -1.00.
+
+**infotainment_ux_rating**: Basic, dated infotainment system with buttons (Source 28). Score: -1.00.
+
+**smartphone_connect_rating**: No standard smartphone connectivity like CarPlay or Android Auto. Bluetooth connectivity was available on higher trims or with specific infotainment units (Source 24, 28). Life trim likely had a basic CD player (Source 28). Score: -1.00.
+
+**audio_rating**: Basic audio system likely standard, with a CD player (Source 28). Score: 0.00.
+
+**usb_ports**: Unlikely to have USB ports as standard in this era. Score: -1.00.
+
+**comfort_feature_score**: Standard features on Life trim included air conditioning, electrically operated front windows, and electrically adjustable/heated door mirrors (Source 17, 28). Cruise control was standard on some Life models (Source 35). Score: 0.00.
+
+**convenience_feature_score**: Features like cruise control were standard on some Life models (Source 35). Basic convenience features likely standard. Score: 0.00.
+
+**brand_prestige_rating**: Vauxhall is a mainstream brand. Score: 0.00.
+
+**model_prestige_rating**: Vectra was a mainstream family car. Score: 0.00.
+
+**trim_prestige_rating**: Life was positioned above the entry-level Exclusiv, making it a lower to mid-range trim level (Source 17, 28). Score: 0.00.
+
+**interior_luxury_rating**: Interior quality was average for a mainstream car of its time, described as plain and drab by some (Source 32, 43). Score: 0.00.
+
+**interior_tech_focus_rating**: Minimal tech focus compared to modern cars. Score: -1.00.```json
 {
   "price_usd": 1.00,
-  "total_cost_estimate_5yr_usd": 0.00,
+  "total_cost_estimate_5yr_usd": 0.50,
   "insurance_usd_yr": 0.50,
-  "maint_usd_yr": -0.50,
-  "repair_risk_score": -0.50,
-  "hp": -0.75,
-  "torque": -0.75,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": -0.75,
-  "top_speed": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -0.80,
+  "torque": 0.00,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": -0.80,
+  "top_speed": -0.50,
   "drive_type": -1.00,
-  "transmission_type": -0.75,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
+  "braking_dist_ft": -0.20,
   "size": 0.00,
   "wheelbase": 0.00,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": 0.00,
+  "cargo_space": 0.20,
   "rear_space": 0.00,
-  "ground_clearance_in": 0.00,
+  "ground_clearance_in": -0.80,
   "turn_radius_ft": 0.00,
-  "mpg": -0.50,
-  "co2_g_km": -0.50,
+  "mpg": 0.20,
+  "co2_g_km": 0.00,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": -0.75,
-  "style_modernity_rating": -1.00,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": -0.50,
   "handling_rating": -0.50,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": -0.50,
-  "shift_smooth_rating": -0.50,
-  "steering_feel_rating": -0.50,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.20,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": -0.20,
   "adas_score": -1.00,
   "visibility_rating": 0.00,
-  "headlight_rating": -1.00,
-  "security_rating": -0.50,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
   "screen_in": -1.00,
   "infotainment_ux_rating": -1.00,
   "smartphone_connect_rating": -1.00,
-  "audio_rating": -1.00,
+  "audio_rating": 0.00,
   "usb_ports": -1.00,
-  "comfort_feature_score": -0.75,
-  "convenience_feature_score": -1.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
   "brand_prestige_rating": 0.00,
   "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.50,
-  "interior_luxury_rating": -1.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.00,
   "interior_tech_focus_rating": -1.00
 }
 ```

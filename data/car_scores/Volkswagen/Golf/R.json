@@ -1,109 +1,57 @@
-Based on the search results for the most recent Volkswagen Golf R (Mk8 and updated Mk8.5):
-
-*   **price_usd**: New RRP in the UK is around £43,895 - £46,910 (Sources [2], [4], [31]). This is roughly $55,000 - $59,000 USD. This is significantly above the $35,000 average but not >$100k. Score: -0.25.
-*   **total_cost_estimate_5yr_usd**: No specific 5-year cost data found. Performance cars generally have higher ownership costs due to fuel, insurance, and potentially maintenance/tires. Default to 0.00.
-*   **insurance_usd_yr**: UK Insurance Group is 33 or 34 (Sources [2], [4]). Group 15 is average (Source [37]). This is significantly above average. Score: -0.50.
-*   **maint_usd_yr**: Two years of scheduled maintenance included in the US (Source [10]). No specific annual cost data found. Performance models can have higher maintenance costs. Default to 0.00.
-*   **repair_risk_score**: The Volkswagen Golf generally has average reliability (Sources [14]). Score: 0.00.
-*   **hp**: Mk8 Golf R has 315 hp (Sources [7], [8], [10], [13], [14], [30]). Updated Mk8.5 Golf R has 328 hp (US) or 333 PS (328 hp) (Sources [2], [3], [5], [23]). Using the higher figure for the most recent version. 328 hp is well above the 200 hp average. Score: 0.50.
-*   **torque**: Mk8 Golf R has 280 lb-ft (manual) or 295 lb-ft (automatic) (Sources [10], [13]). Updated Mk8.5 Golf R has 295 lb-ft (Sources [3], [23]) or 420 Nm (310 lb-ft) (Source [5]). Using the higher figure for the most recent version. 310 lb-ft is well above the 190 lb-ft average. Score: 0.50.
-*   **cylinder_count**: 4-cylinder (Sources [3], [5], [6], [7], [8], [10], [13], [14], [19], [20], [30]). Score: -0.25.
-*   **engine_displacement**: 2.0L TSI (Sources [3], [5], [6], [7], [8], [10], [13], [14], [19], [20], [30]). Below the 3.0L average. Score: -0.25.
-*   **accel_0_60_sec**: Volkswagen claims 4.6 seconds for the 2025 model (Source [3]). Previous testing showed 4.1 seconds for the automatic (Sources [3], [13]). Parkers lists 4.5 - 4.7 seconds (Source [21]). Using the faster tested figure. 4.1 seconds is significantly faster than the 7.5 sec average. Score: 0.75.
-*   **top_speed**: Electronically limited to 155 mph, increased to 166-167 mph with the R Performance Pack (Sources [2], [3], [9], [19], [20]). Using the higher figure with the common performance pack. 167 mph is above the 150 mph average. Score: 0.25.
-*   **drive_type**: 4MOTION All-wheel drive (AWD) with torque vectoring (Sources [3], [5], [6], [7], [8], [10], [13], [14], [19], [20], [23], [30], [34], [36]). Score: 0.00.
-*   **transmission_type**: 7-speed DSG (Dual-Clutch Transmission) is the sole option for 2025 (Sources [3], [5], [6], [7], [9], [10], [11], [13], [17], [23]). Score: 0.00.
-*   **offroad_ability**: Low ground clearance, performance-focused AWD system not designed for off-road. Score: 1.00.
-*   **braking_dist_ft**: Performance brakes fitted and praised (Sources [3], [5], [7], [13]). Likely better than average. Score: 0.25.
-*   **size**: Length is around 4290 - 4296 mm (Sources [2], [5]). Shorter than 4600mm average. Score: -0.25.
-*   **wheelbase**: No specific data found for the R. Standard Golf wheelbase is around 2620-2636mm (Sources [12], [16], [27], [32], [37]). Shorter than 2700mm average. Score: -0.25.
-*   **body_style**: 5-door hatchback (Sources [2], [3], [5], [7], [8], [9], [10], [13], [14], [21], [23], [30]). Score: 0.00.
-*   **seats**: 5 seats (Sources [2], [3], [7], [10]). Score: 0.00.
-*   **cargo_space**: Around 341 litres (12.0 cu ft) (Sources [2], [7], [10]). This is below the 15 cu ft average. Score: -0.25.
-*   **rear_space**: Rear seats have decent space for a small hatch, though some reviews note less legroom than rivals (Source [33]). Score: 0.00.
-*   **ground_clearance_in**: Around 4.7 inches (Source [10]). This is below the 6.5" average. Score: -0.25.
-*   **turn_radius_ft**: No specific data found. Default to 0.00.
-*   **mpg**: EPA estimates 22 city / 31 highway / 25 combined for 2025 automatic (Source [3]). Real-world testing showed 34 mpg highway (Source [3]). Older models around 23-26 combined (Sources [10], [16], [18]). Using the 25-34 mpg range. Close to 30 mpg average, but can drop significantly with performance driving. Score: 0.00.
-*   **co2_g_km**: Around 184 - 193 g/km (WLTP) (Sources [2], [11], [17], [26]). This is above the 175 g/km average. Score: -0.25.
-*   **electric_range_mi**: Not applicable (ICE vehicle). Score: -1.00.
-*   **charge_speed_kw**: Not applicable (ICE vehicle). Score: -1.00.
-*   **style_sleek_vs_boxy**: Hatchback shape, not particularly sleek or boxy. Score: 0.00.
-*   **style_aggression_rating**: More aggressive styling than standard Golf, with R-specific bumpers, spoiler, and exhaust (Sources [2], [3], [5], [6], [8], [9], [20]). Score: 0.50.
-*   **style_modernity_rating**: Mk8/Mk8.5 styling is modern (Sources [2], [3], [5]). Score: 0.50.
-*   **handling_rating**: Highly praised for its capable and engaging handling, grip, and the effectiveness of the torque vectoring AWD system (Sources [2], [3], [5], [6], [7], [8], [13], [23], [27], [34], [36]). Score: 0.75.
-*   **ride_comfort_rating**: Stiffer than a standard Golf, can feel bumps, especially with optional adaptive suspension in sportier modes, but generally acceptable for a performance car (Sources [2], [33]). Score: 0.00.
-*   **cabin_noise_rating**: More road/engine noise than standard Golf due to performance focus, but generally refined for a hot hatch (Sources [7], [33]). Score: 0.00.
-*   **shift_smooth_rating**: 7-speed DSG is generally smooth and quick (Sources [3], [5], [6], [7], [9], [10], [11], [13], [17], [23]). Score: 0.50.
-*   **steering_feel_rating**: Precise and accurate steering, though some reviews note a lack of ultimate feel compared to rivals (Sources [7], [33], [34]). Score: 0.50.
-*   **adas_score**: Comes with a comprehensive suite of standard ADAS features, including ACC, Lane Assist, Blind Spot Monitor, Rear Traffic Alert, AEB, Park Assist (Sources [7], [14], [15], [22], [23], [24]). Earned a Top Safety Pick+ award (Source [14]). Score: 0.75.
-*   **visibility_rating**: Hatchback shape generally offers good visibility (Source [2]). Score: 0.50.
-*   **headlight_rating**: LED headlights standard, IQ.LIGHT LED Matrix headlights available/standard on higher specs (Sources [2], [3], [9], [14], [17], [23]). Score: 0.75.
-*   **security_rating**: Standard VW security, includes features like Intelligent Crash Response System (Sources [14], [15], [22]). Score: 0.00.
-*   **screen_in**: 12.9-inch central touchscreen standard on Mk8.5 (Sources [3], [5], [9], [17], [23], [29]). Well above the 8" average. Score: 0.75.
-*   **infotainment_ux_rating**: Mk8 infotainment system received mixed to negative reviews for usability due to touch controls (Sources [2], [7], [10], [27], [33]). Mk8.5 system is improved with a larger screen, better menu structure, and illuminated sliders, but still relies heavily on touch (Sources [2], [3], [5], [9], [17], [23], [27]). Score: -0.25 (Improved but still a point of criticism).
-*   **smartphone_connect_rating**: Apple CarPlay and Android Auto standard, often wireless (Sources [7], [9]). Score: 0.75.
-*   **audio_rating**: 9-speaker Harman/Kardon premium audio system standard in the US (Source [7]). Score: 0.50.
-*   **usb_ports**: Typically multiple USB-C ports (Source [7]). Score: 0.00.
-*   **comfort_feature_score**: Sport seats (leather or ArtVelours), heated front seats, three-zone climate control standard (Sources [2], [7], [9], [33]). Score: 0.50.
-*   **convenience_feature_score**: Keyless entry and start, front/rear parking sensors, rear-view camera, Park Assist standard/available (Sources [9], [14], [15], [22], [23], [24]). Score: 0.75.
-*   **brand_prestige_rating**: Volkswagen is a mainstream brand. Score: 0.00.
-*   **model_prestige_rating**: Golf is an iconic model, not a halo car or entry-level. Score: 0.00.
-*   **trim_prestige_rating**: R is the top-performance, halo trim of the Golf range (Sources [3], [8], [10], [12], [19], [20], [30], [31], [34], [36]). Score: -0.50.
-*   **interior_luxury_rating**: Interior quality is good for a hot hatch, with sporty accents and decent materials, but not luxury level compared to premium rivals (Sources [2], [7]). Score: 0.00.
-*   **interior_tech_focus_rating**: Mk8/Mk8.5 interior has a strong focus on digital displays and touch controls (Sources [3], [5], [7], [9], [17], [23], [27], [29], [33]). Score: 0.75.
-
 ```json
 {
-  "price_usd": -0.25,
+  "price_usd": 0.00,
   "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": -0.50,
+  "insurance_usd_yr": -0.25,
   "maint_usd_yr": 0.00,
   "repair_risk_score": 0.00,
   "hp": 0.50,
   "torque": 0.50,
-  "cylinder_count": -0.25,
-  "engine_displacement": -0.25,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.50,
   "accel_0_60_sec": 0.75,
   "top_speed": 0.25,
   "drive_type": 0.00,
   "transmission_type": 0.00,
+  "driving_track_vs_gt": -0.25,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.25,
+  "braking_dist_ft": 0.75,
   "size": -0.25,
-  "wheelbase": -0.25,
+  "wheelbase": 0.00,
   "body_style": 0.00,
   "seats": 0.00,
-  "cargo_space": -0.25,
+  "cargo_space": 0.00,
   "rear_space": 0.00,
-  "ground_clearance_in": -0.25,
+  "ground_clearance_in": -0.50,
   "turn_radius_ft": 0.00,
-  "mpg": 0.00,
-  "co2_g_km": -0.25,
+  "mpg": -0.50,
+  "co2_g_km": -0.50,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
   "style_aggression_rating": 0.50,
   "style_modernity_rating": 0.50,
   "handling_rating": 0.75,
-  "ride_comfort_rating": 0.00,
+  "ride_comfort_rating": -0.25,
   "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": 0.50,
-  "steering_feel_rating": 0.50,
-  "adas_score": 0.75,
-  "visibility_rating": 0.50,
-  "headlight_rating": 0.75,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.25,
+  "adas_score": 0.50,
+  "visibility_rating": 0.25,
+  "headlight_rating": 0.50,
   "security_rating": 0.00,
   "screen_in": 0.75,
   "infotainment_ux_rating": -0.25,
-  "smartphone_connect_rating": 0.75,
-  "audio_rating": 0.50,
+  "smartphone_connect_rating": 0.50,
+  "audio_rating": 0.00,
   "usb_ports": 0.00,
-  "comfort_feature_score": 0.50,
-  "convenience_feature_score": 0.75,
+  "comfort_feature_score": 0.25,
+  "convenience_feature_score": 0.50,
   "brand_prestige_rating": 0.00,
   "model_prestige_rating": 0.00,
-  "trim_prestige_rating": -0.50,
+  "trim_prestige_rating": -1.00,
   "interior_luxury_rating": 0.00,
-  "interior_tech_focus_rating": 0.75
+  "interior_tech_focus_rating": 1.00
 }
 ```

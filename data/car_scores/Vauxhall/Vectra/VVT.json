@@ -1,0 +1,163 @@
+The most recent version of the Vauxhall Vectra with the 1.8 VVT engine is the Vectra C (2005-2008 facelift). This engine produced 138-140 hp and 129 lb-ft of torque.
+
+**price_usd**: Used Vauxhall Vectra 1.8 VVT models from this era are very inexpensive in the UK, often listed for under £2,000 (Source 4, 20, 23, 28, 29). This translates to a very low USD price compared to the market average for a new car. Score: 1.00.
+
+**total_cost_estimate_5yr_usd**: The low purchase price is a significant factor. Maintenance and potential repairs on an older car will add to the cost, but reliability is generally considered average for its age with proven mechanicals (Source 14). Some owner reviews mention clutch judder and occasional issues like coil packs or gearbox problems, but the 1.8 VVT engine itself is often considered reliable (Source 13, 15, 17). Score: 0.50.
+
+**insurance_usd_yr**: The Vauxhall Vectra 1.8 VVT typically falls into lower to mid-range insurance groups (Group 18-19) (Source 19, 24). This means lower insurance costs compared to the national average. Score: 0.50.
+
+**maint_usd_yr**: Maintenance costs are average for a car of this age and segment. Score: 0.00.
+
+**repair_risk_score**: Reliability is generally described as dependable for its age, with few significant faults reported for the Vectra C overall (Source 14). The 1.8 VVT engine is often seen as reliable, though some specific issues like clutch judder have been noted (Source 13, 15, 17). Score: 0.00.
+
+**hp**: The 1.8i VVT engine produced 138-140 hp (Source 1, 6, 11). This is below the modern average of 200 hp. Score: -1.00.
+
+**torque**: The 1.8i VVT engine produced 129 lb-ft (175 Nm) (Source 1, 6). This is below the modern average of 190 lb-ft. Score: -0.80.
+
+**cylinder_count**: 4-cylinder (Source 1, 3, 5, 6, 7). Score: -0.50.
+
+**engine_displacement**: 1.8L (1796 cm³) (Source 1, 3, 5, 6, 7). This is below the 3.0L average benchmark. Score: -0.20.
+
+**accel_0_60_sec**: 0-60 mph times are listed as 10.2-10.5 seconds (Source 6, 9). This is slower than the 7.5 sec benchmark. Score: -1.00.
+
+**top_speed**: Top speeds are listed as 127-130 mph (Source 6, 9, 12). This is below the 150 mph benchmark. Score: -0.50.
+
+**drive_type**: Front-wheel drive (Source 1, 2, 3, 5, 6, 7). Score: -1.00.
+
+**transmission_type**: Primarily available with a 5-speed manual transmission (Source 1, 6, 11). Some models had a 6-speed manual or automatic with other engines, but the 1.8 VVT is specifically listed with a 5-speed manual (Source 11). Manual is -1.00 on the scale. Score: -1.00.
+
+**driving_track_vs_gt**: Designed as a comfortable daily driver and capable of Grand Touring (Source 14). Score: 0.00.
+
+**offroad_ability**: Low ground clearance (around 130-140mm, approx 5.1-5.5 inches) (Source 11) and FWD limit off-road capability. Score: 1.00.
+
+**braking_dist_ft**: The Vectra C had disc brakes (Source 11). No specific data found for braking distance for the 1.8 VVT. Assume average for its era, which is likely worse than modern cars. Score: -0.20.
+
+**size**: Length is around 4.6-4.8m depending on body style (Source 1, 2, 6, 11, 27, 29), and width is around 1.8-2.0m (including mirrors) (Source 6, 11). This is average for a D-segment car, aligning with the Civic benchmark. Score: 0.00.
+
+**wheelbase**: Wheelbase is around 2.7-2.83m depending on body style (Source 6, 11, 27, 29). This is around the average benchmark. Score: 0.00.
+
+**body_style**: Available as Hatchback, Sedan, or Estate (Source 1, 2). Score: 0.00.
+
+**seats**: 5 seats (Source 3, 5, 6, 7). Score: 0.00.
+
+**cargo_space**: Hatchback/Sedan boot space is around 500L (approx 17.7 cu ft) (Source 11), and the Estate is larger (up to 1850L / 65.3 cu ft) (Source 1, 11). 500L is slightly above the Civic benchmark (15 cu ft). Score: 0.20.
+
+**rear_space**: Described as having ample headroom and legroom (Source 1). Assume average for its class. Score: 0.00.
+
+**ground_clearance_in**: Around 130-140mm (approx 5.1-5.5 inches) (Source 11). This is low compared to the average benchmark (6.5"). Score: -0.80.
+
+**turn_radius_ft**: No specific data found. Assume average for its size. Score: 0.00.
+
+**mpg**: Combined fuel consumption is listed around 38.7-39.2 mpg (UK) (Source 6, 9), which is around 32.2-32.6 mpg (US). Real-world reports vary, some getting around 30-32 mpg, others up to 38 mpg or even 42 mpg on a long trip (Source 8, 9, 16). This is around or above the 30 mpg benchmark. Score: 0.20.
+
+**co2_g_km**: CO2 emissions are listed around 173 g/km (Source 6). This is around the 175 g/km benchmark. Score: 0.00.
+
+**electrification**: Petrol engine. Score: -1.00.
+
+**electric_range_mi**: Not electric. Score: -1.00.
+
+**charge_speed_kw**: Not electric. Score: -1.00.
+
+**style_sleek_vs_boxy**: Mainstream sedan/hatchback/estate design, neither particularly sleek nor boxy. Score: 0.00.
+
+**style_aggression_rating**: Not particularly aggressive styling, though SRi trim added some sporty elements (Source 11). Score: -0.20.
+
+**style_modernity_rating**: Dated design by modern standards (Source 14, 30). Score: -0.50.
+
+**handling_rating**: Handling was generally considered uninspiring compared to rivals like the Mondeo, though the facelift improved it (Source 14, 30). Score: -0.50.
+
+**ride_comfort_rating**: Known for comfort and refinement (Source 14, 30). Score: 0.50.
+
+**cabin_noise_rating**: Described as refined and quiet once up to speed, though the engine can be noisy under acceleration (Source 15). Score: 0.00.
+
+**shift_smooth_rating**: Manual transmission gear change can be jerky from 1st to 2nd (Source 15). Automatic transmission was available with other engines but not typically the 1.8 VVT. Score: -0.20.
+
+**steering_feel_rating**: Steering is positive (Source 11), but handling and steering lack finesse (Source 14). Likely numb compared to modern standards. Score: -0.20.
+
+**adas_score**: Minimal or no advanced ADAS features were standard. Basic systems like ABS and airbags were standard (Source 11, 15). Score: -1.00.
+
+**visibility_rating**: No specific reviews found. Assume average for a sedan/hatchback/estate of its era. Score: 0.00.
+
+**headlight_rating**: Facelifted models had redesigned headlights (Source 1, 2). Likely standard halogen or basic projector headlights. Score: 0.00.
+
+**security_rating**: Basic security features like remote central locking and airbags were standard (Source 15). Score: 0.00.
+
+**screen_in**: Standard models likely had a small central information display (five-inch monochromatic) (Source 11). Score: -1.00.
+
+**infotainment_ux_rating**: Basic, dated infotainment system with buttons (Source 11). Score: -1.00.
+
+**smartphone_connect_rating**: No standard smartphone connectivity like CarPlay or Android Auto. Bluetooth was available on higher trims (Source 2). Score: -1.00.
+
+**audio_rating**: Basic audio system likely standard, with CD player and auxiliary-in socket available (Source 11). Score: 0.00.
+
+**usb_ports**: Unlikely to have USB ports as standard in this era. Score: -1.00.
+
+**comfort_feature_score**: Features like adjustable steering column, multi-adjustable seats, and cruise control were standard on all models (Source 11, 15). Score: 0.00.
+
+**convenience_feature_score**: Features like electric windows, heated door mirrors, and cruise control were standard (Source 11, 15). Score: 0.00.
+
+**brand_prestige_rating**: Vauxhall is a mainstream brand. Score: 0.00.
+
+**model_prestige_rating**: Vectra was a mainstream family car. Score: 0.00.
+
+**trim_prestige_rating**: The 1.8 VVT engine was available on various trims from lower to mid-range (Exclusiv, Life, Design, SRi) (Source 19, 20, 26, 27, 29). Score: 0.00.
+
+**interior_luxury_rating**: Interior quality was average for a mainstream car of its time, described as plain and lacking style (Source 30). Score: 0.00.
+
+**interior_tech_focus_rating**: Minimal tech focus compared to modern cars. Score: -1.00.```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.50,
+  "insurance_usd_yr": 0.50,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -1.00,
+  "torque": -0.80,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.20,
+  "accel_0_60_sec": -1.00,
+  "top_speed": -0.50,
+  "drive_type": -1.00,
+  "transmission_type": -1.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -0.20,
+  "size": 0.00,
+  "wheelbase": 0.00,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.20,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.80,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.20,
+  "co2_g_km": 0.00,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": -0.50,
+  "handling_rating": -0.50,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": -0.20,
+  "steering_feel_rating": -0.20,
+  "adas_score": -1.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.00,
+  "security_rating": 0.00,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": 0.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": -1.00
+}
+```

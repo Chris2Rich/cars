@@ -1,61 +1,115 @@
-The search results clearly indicate that the "AMG Yellow Night Edition" was a special edition available on the *previous* generation Mercedes-AMG A45 (W176 chassis), primarily around the 2017-2019 model years (Results 1, 2, 3, 5, 7, 8, 9, 12, 13, 14).
+The Mercedes-Benz A Class AMG Yellow Night Edition is a special edition of the W176 facelift A45 AMG, produced around 2017-2018. It is based on the 381 hp version of the A45. It features cosmetic enhancements like yellow accents and decals, an aero package, and often includes the Premium Pack and Driving Assistance Pack.
 
-The most recent version of the Mercedes-Benz A-Class is the W177 generation, which received a facelift in 2023 (Results 10, 11). The current AMG performance models are the A35 and A45 S (Result 11). The "Yellow Night Edition" is not listed as an available trim or special edition for the current W177 generation in any of the authoritative sources on the current lineup.
+Evaluating this model against today's market benchmarks:
 
-Therefore, the requested model ['Mercedes-Benz', 'A Class', 'AMG Yellow Night Edition'] does not correspond to the "most recent version". As the data for the specific, most recent model requested is unclear or non-existent based on standard naming conventions, I must default to 0.00 for all attributes as per the instructions for ambiguous data.```json
+*   **Price:** As a used, limited edition performance car from 2017-2018, prices vary but are generally below the average new car price today. Used prices in the UK are around £24,500 - £27,290 (~$30k-$35k USD). This is well below the average new car price. Score: 0.50.
+*   **Total Cost Estimate 5yr:** Lower purchase price than new, but maintenance, insurance, and potential repairs for an older AMG are high. Score: -1.00.
+*   **Insurance USD/yr:** The W176 A45 AMG Yellow Night Edition is in a high insurance group (UK Group 36E). Score: -1.00.
+*   **Maint USD/yr:** AMG maintenance is significantly more expensive than average. Service interval is 12 months or 12,500 miles. Score: -1.00.
+*   **Repair Risk Score:** The W176 A45 has known potential issues, including DCT gearbox concerns, turbo issues, and general wear and tear on high-performance components. Score: -0.50.
+*   **HP:** 376-381 hp from a 2.0L engine was class-leading for its time and is still very high today. Score: 0.60.
+*   **Torque:** 475 Nm (350-350.29 lb-ft) is also very high for a 2.0L engine. Score: 0.50.
+*   **Cylinder Count:** 4 cylinders is average. Score: 0.00.
+*   **Engine Displacement:** 2.0L (1991 cc) is average. Score: 0.00.
+*   **Accel 0-60 sec:** 4.1 - 4.2 seconds is excellent performance. Score: 0.85.
+*   **Top Speed:** 155 mph (electronically limited) or 168 mph with AMG Driver's package. Score: 0.00 (using 155 mph as standard).
+*   **Drive Type:** All-wheel drive (4MATIC). Average. Score: 0.00.
+*   **Transmission Type:** 7-speed Dual-Clutch Automatic (SpdS DCT). Common for performance cars, but automatic is +1.00. Score: 0.00 (leaning towards performance benchmark).
+*   **Driving Track vs GT:** Designed as a high-performance hot hatch, capable on track but firm for daily driving. Score: -0.50.
+*   **Offroad Ability:** Low ground clearance, performance focus. Score: -1.00.
+*   **Braking Dist ft:** AMG high-performance braking system (350mm front discs). Likely excellent for its time. Score: 1.00.
+*   **Size:** W176 A-Class dimensions (~4367 mm length, ~1780 mm width, ~1417 mm height). Compact hatchback, average size. Score: 0.00.
+*   **Wheelbase:** 2699 mm (106.26 inches). Average. Score: 0.05.
+*   **Body Style:** 5-door Hatchback. Average. Score: 0.00.
+*   **Seats:** 5 seats. Average. Score: 0.00.
+*   **Cargo Space:** 341 liters (12.04 cu ft) with seats up. Below average for a hatchback today. Score: -0.20.
+*   **Rear Space:** Can be cramped for taller adults due to low roofline and limited legroom. Score: -0.50.
+*   **Ground Clearance in:** Around 3.15 - 4.7 inches (80 mm - 120 mm). Very low. Score: -1.00.
+*   **Turn Radius ft:** 11.04 meters (36.22 ft) or 11m (36.09 ft). Average. Score: 0.00.
+*   **MPG:** Official combined ~40.9 mpg UK (~34 US mpg), real-world lower (e.g., 38 mpg UK ~31.6 US mpg, 7.3 l/100km ~32.2 US mpg). Below average for a compact car, but good for its performance. Score: -0.50.
+*   **CO2 g/km:** 162 - 171 g/km. Well above average. Score: -0.50.
+*   **Electrification:** Petrol only. Score: -1.00.
+*   **Electric Range mi:** N/A. Score: -1.00.
+*   **Charge Speed kW:** N/A. Score: -1.00.
+*   **Style Sleek vs Boxy:** Sleek hatchback profile. Score: 0.20.
+*   **Style Aggression Rating:** High aggression with AMG styling, aero kit, and yellow accents. Score: 0.80.
+*   **Style Modernity Rating:** Design is from 2012 (facelift 2015), dated compared to current models. Score: -0.50.
+*   **Handling Rating:** Praised for handling and grip, especially with the Dynamic Plus package. Score: 0.90.
+*   **Ride Comfort Rating:** Firm ride, especially with sport suspension/adaptive damping, can be harsh over bumps. Score: -0.80.
+*   **Cabin Noise Rating:** Engine/exhaust noise prominent, can be loud, road noise noticeable. Score: -0.50.
+*   **Shift Smooth Rating:** 7-speed DCT is generally good, but can be hesitant at low speeds. Score: 0.00.
+*   **Steering Feel Rating:** Direct and responsive. Score: 0.80.
+*   **ADAS Score:** Includes Driving Assistance Pack (Blind Spot Assist, Lane Tracking, Traffic Sign Assist). Limited compared to modern cars, but good for its time. 5-star safety rating. Score: -0.50.
+*   **Visibility Rating:** Average [Search needed, inferred from body style/reviews]. Score: 0.00.
+*   **Headlight Rating:** LED Headlights with High Beam Assist. Good for its time. Score: 0.00.
+*   **Security Rating:** Standard Mercedes security features, Ghost immobiliser mentioned on one example. Score: 0.10.
+*   **Screen in:** COMMAND Online Navigation system. W176 facelift had up to 8-inch screen. Smaller than modern standards. Score: -0.50.
+*   **Infotainment UX Rating:** COMMAND Online system is dated compared to MBUX. Score: -0.50.
+*   **Smartphone Connect Rating:** Bluetooth with Streaming, MB Connect. Apple CarPlay/MirrorLink added later or available via aftermarket. Not standard modern integration. Score: -1.00.
+*   **Audio Rating:** Harman Kardon surround sound system available/standard on Premium Pack. Good for its time, rated as sensational by one review. Score: 0.50.
+*   **USB Ports:** USB ports present, but likely older types and fewer than modern cars. Score: -1.00.
+*   **Comfort Feature Score:** Electrically Adjustable AMG Performance Seats with Memory and Lumbar, Heated Front Seats, Ambient Light Package. Good features for its time, but ride is firm. Score: 0.00.
+*   **Convenience Feature Score:** Front & Rear Park Assist with Reverse Camera, Cruise Control, Comfort Access. Good for its time. Score: 0.00.
+*   **Brand Prestige Rating:** Mercedes-AMG is very high prestige. Score: 1.00.
+*   **Model Prestige Rating:** A-Class is entry-level for the brand, but A45 is the halo performance model within the range. Scoring based on its position as the top A-Class. Score: 0.00.
+*   **Trim Prestige Rating:** Yellow Night Edition is a limited, top trim of the W176 A45. Score: -1.00.
+*   **Interior Luxury Rating:** Sporty interior with good materials for its time, Alcantara, yellow accents, but not current luxury standards. Score: 0.00.
+*   **Interior Tech Focus Rating:** Lower tech focus compared to modern cars due to older infotainment and limited ADAS. Score: -1.00.
+
+```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": 0.00,
-  "torque": 0.00,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.00,
-  "top_speed": 0.00,
-  "drive_type": 0.00,
-  "transmission_type": 0.00,
-  "driving_track_vs_gt": 0.00,
-  "offroad_ability": 0.00,
-  "braking_dist_ft": 0.00,
-  "size": 0.00,
-  "wheelbase": 0.00,
-  "body_style": 0.00,
-  "seats": 0.00,
-  "cargo_space": 0.00,
-  "rear_space": 0.00,
-  "ground_clearance_in": 0.00,
-  "turn_radius_ft": 0.00,
-  "mpg": 0.00,
-  "co2_g_km": 0.00,
-  "electrification": 0.00,
-  "electric_range_mi": 0.00,
-  "charge_speed_kw": 0.00,
-  "style_sleek_vs_boxy": 0.00,
-  "style_aggression_rating": 0.00,
-  "style_modernity_rating": 0.00,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": 0.00,
-  "shift_smooth_rating": 0.00,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.00,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.00,
-  "security_rating": 0.00,
-  "screen_in": 0.00,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.00,
-  "audio_rating": 0.00,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.00,
-  "convenience_feature_score": 0.00,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.00,
-  "interior_tech_focus_rating": 0.00
+ "price_usd": 0.50,
+ "total_cost_estimate_5yr_usd": -1.00,
+ "insurance_usd_yr": -1.00,
+ "maint_usd_yr": -1.00,
+ "repair_risk_score": -0.50,
+ "hp": 0.60,
+ "torque": 0.50,
+ "cylinder_count": 0.00,
+ "engine_displacement": 0.00,
+ "accel_0_60_sec": 0.85,
+ "top_speed": 0.00,
+ "drive_type": 0.00,
+ "transmission_type": 0.00,
+ "driving_track_vs_gt": -0.50,
+ "offroad_ability": -1.00,
+ "braking_dist_ft": 1.00,
+ "size": 0.00,
+ "wheelbase": 0.05,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": -0.20,
+ "rear_space": -0.50,
+ "ground_clearance_in": -1.00,
+ "turn_radius_ft": 0.00,
+ "mpg": -0.50,
+ "co2_g_km": -0.50,
+ "electrification": -1.00,
+ "electric_range_mi": -1.00,
+ "charge_speed_kw": -1.00,
+ "style_sleek_vs_boxy": 0.20,
+ "style_aggression_rating": 0.80,
+ "style_modernity_rating": -0.50,
+ "handling_rating": 0.90,
+ "ride_comfort_rating": -0.80,
+ "cabin_noise_rating": -0.50,
+ "shift_smooth_rating": 0.00,
+ "steering_feel_rating": 0.80,
+ "adas_score": -0.50,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.00,
+ "security_rating": 0.10,
+ "screen_in": -0.50,
+ "infotainment_ux_rating": -0.50,
+ "smartphone_connect_rating": -1.00,
+ "audio_rating": 0.50,
+ "usb_ports": -1.00,
+ "comfort_feature_score": 0.00,
+ "convenience_feature_score": 0.00,
+ "brand_prestige_rating": 1.00,
+ "model_prestige_rating": 0.00,
+ "trim_prestige_rating": -1.00,
+ "interior_luxury_rating": 0.00,
+ "interior_tech_focus_rating": -1.00
 }
 ```

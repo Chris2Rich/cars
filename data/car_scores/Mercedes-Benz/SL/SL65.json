@@ -1,111 +1,57 @@
-The most recent Mercedes-Benz SL with the 'SL65' designation is the Mercedes-AMG SL65 (R231 generation), produced until 2018 [1, 9]. It is powered by a 6.0L twin-turbo V12 engine [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]. I will use the specifications for the facelifted 2016-2018 model.
-
-Here is the evaluation based on the 2016-2018 Mercedes-AMG R231 SL65, compared to today's market average:
-
-*   **price_usd:** The R231 AMG SL65 had a new price well over $200,000 USD [1, 2, 5, 7, 19]. This is well above the $100,000 threshold for the lowest score. Score: -1.00.
-*   **total_cost_estimate_5yr_usd:** As a high-end luxury performance car with a V12 engine and complex systems, the 5-year ownership cost is significantly higher than the market average due to depreciation, insurance, maintenance, and potential costly repairs [20, 34]. Score: -1.00.
-*   **insurance_usd_yr:** High-performance luxury vehicles like the SL65 fall into the highest insurance groups [34]. Score: -1.00.
-*   **maint_usd_yr:** Maintenance on a V12 AMG is extremely expensive [20, 34]. Score: -1.00.
-*   **repair_risk_score:** While the R231 generation is generally considered more reliable than the R230, the V12 engine and complex systems like the retractable hardtop and Active Body Control (ABC) (optional on R231 SL65 [3, 4, 13]) still pose significant, expensive repair risks [20, 34]. Score: -0.80.
-*   **hp:** 621-630 hp [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]. Today's average is ~200 hp. This is extremely high. Score: 1.00.
-*   **torque:** 738 lb-ft (1000 Nm) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]. Today's average is ~190 lb-ft. This is extremely high. Score: 1.00.
-*   **cylinder_count:** V12 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]. Today's average is 4 or 6. Score: 1.00.
-*   **engine_displacement:** 6.0L (5980 cc) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]. Today's average is around 2.0-3.0L. This is significantly larger. Score: 0.50.
-*   **accel_0_60_sec:** Official 4.0 seconds [2, 3, 5, 8, 11, 12, 15, 16]. Road tests show around 3.7-3.8 seconds [8, 19]. Using the road test figure as it's more representative of performance potential. This is very fast. Score: 0.95.
-*   **top_speed:** 155 mph (electronically limited) [2, 3, 5, 6, 8, 11, 12, 15, 16]. With AMG Driver's Package, 186 mph [4, 16, 19]. Using the higher figure. Score: 0.90.
-*   **drive_type:** RWD [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]. Score: +1.00.
-*   **transmission_type:** 7-speed Automatic (AMG SPEEDSHIFT PLUS 7G-TRONIC) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]. Score: +1.00 (following guide).
-*   **offroad_ability:** Very poor. Score: +1.00 (following guide).
-*   **braking_dist_ft:** AMG High-performance Composite Braking System standard, Ceramic Composite available [2, 3, 7]. Excellent braking [19]. Score: 0.90.
-*   **size:** Length ~4631-4633 mm (182.3-182.4 in) [3, 6, 7, 8, 12]. Today's average sedan/crossover is ~4600mm. Score: 0.00.
-*   **wheelbase:** ~2585 mm (101.8 in) [4, 6, 8, 12]. Today's average is ~2700mm. Score: -0.20.
-*   **body_style:** 2-door retractable hardtop convertible [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]. Score: -1.00.
-*   **seats:** 2 seats [4, 7, 12]. Score: -1.00.
-*   **cargo_space:** 345 L (12.2 cu ft) with roof up, 241 L (8.5 cu ft) with roof down [3, 8]. Using roof-down figure. Score: -0.80.
-*   **rear_space:** N/A (2-seater). Score: -1.00.
-*   **ground_clearance_in:** 107 mm (4.2 in) [3]. Low for a general market car. Score: -0.80.
-*   **turn_radius_ft:** Not readily available, but typically not a strength for RWD performance cars of this size. Estimate around 38-40 ft. Score: -0.20.
-*   **mpg:** EPA combined 14 mpg [1, 19]. NEDC combined 19.8-23.7 mpg (US/UK) [3, 5, 6, 8, 11, 12]. Real-world likely lower [19]. Today's average ~30 mpg. This is poor. Score: -1.00.
-*   **co2_g_km:** 270-279 g/km [3, 5, 6, 11, 12]. Today's average ~175 g/km. This is very high. Score: -1.00.
-*   **electric_range_mi:** Not electric. Score: -1.00.
-*   **charge_speed_kw:** Not electric. Score: -1.00.
-*   **style_sleek_vs_boxy:** Sleek roadster design [2, 35]. Score: 0.80.
-*   **style_aggression_rating:** Aggressive AMG styling [2, 35]. Score: 0.80.
-*   **style_modernity_rating:** Modern for its era (2016-2018), but design is now a bit dated [35]. Score: 0.00.
-*   **handling_rating:** Capable handler for a heavy GT, especially with ABC, but not a lightweight sports car [35]. Score: 0.60.
-*   **ride_comfort_rating:** Excellent ride comfort, especially with ABC [35]. Score: 0.80.
-*   **cabin_noise_rating:** Convertible with retractable hardtop, good for its time [35]. Score: 0.40.
-*   **shift_smooth_rating:** 7-speed AMG Speedshift is generally smooth but can be aggressive in sport modes [35]. Score: 0.60.
-*   **steering_feel_rating:** Electric power steering, comfortable but maybe lacking ultimate feel [35]. Score: 0.00.
-*   **adas_score:** Available features included DISTRONIC PLUS, Active Blind Spot Assist, Active Lane Keeping Assist, Parking Pilot [35]. Good for its time. Score: 0.70.
-*   **visibility_rating:** Good with roof down, limited rear visibility with roof up [35]. Score: 0.00.
-*   **headlight_rating:** Adaptive LED headlights [3, 35]. Good for its time. Score: 0.70.
-*   **security_rating:** Standard luxury car security features for its era. Score: 0.50.
-*   **screen_in:** Featured COMAND Online infotainment. Screen size around 7-8 inches [35]. Score: 0.00.
-*   **infotainment_ux_rating:** COMAND system of that era was functional but could be complex [35]. Score: 0.00.
-*   **smartphone_connect_rating:** Apple CarPlay and Android Auto available on later models [35]. Score: 0.50.
-*   **audio_rating:** Available premium sound systems like Bang & Olufsen [4, 14, 35]. Score: 0.90.
-*   **usb_ports:** Likely 1 or 2 ports. Score: 0.00.
-*   **comfort_feature_score:** Heated/ventilated/massage seats, AIRSCARF, power seats with memory, dual-zone climate control [4, 13, 35]. High level of comfort features. Score: 0.90.
-*   **convenience_feature_score:** Power retractable hardtop (operable up to 40 km/h [3]), keyless entry/start, parking assist, power boot closing aid [35]. Good convenience features. Score: 0.70.
-*   **brand_prestige_rating:** Mercedes-Benz is high. AMG adds to this. Score: 0.90.
-*   **model_prestige_rating:** SL is an iconic model, a halo car [34]. Score: -1.00 (following guide).
-*   **trim_prestige_rating:** SL65 was the top-tier V12 AMG trim [34]. Score: -1.00 (following guide).
-*   **interior_luxury_rating:** High quality materials (leather, carbon fiber, metal) [2, 35]. Luxurious interior. Score: 0.90.
-*   **interior_tech_focus_rating:** Decent tech for its time, but not as screen-dominated as modern cars [35]. Score: 0.00.
-
 ```json
 {
   "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
   "insurance_usd_yr": -1.00,
   "maint_usd_yr": -1.00,
-  "repair_risk_score": -0.80,
-  "hp": 1.00,
-  "torque": 1.00,
+  "repair_risk_score": -0.90,
+  "hp": 0.85,
+  "torque": 0.90,
   "cylinder_count": 1.00,
-  "engine_displacement": 0.50,
-  "accel_0_60_sec": 0.95,
-  "top_speed": 0.90,
+  "engine_displacement": 0.90,
+  "accel_0_60_sec": 0.90,
+  "top_speed": 0.50,
   "drive_type": 1.00,
   "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.80,
   "offroad_ability": 1.00,
-  "braking_dist_ft": 0.90,
+  "braking_dist_ft": 0.50,
   "size": 0.00,
-  "wheelbase": -0.20,
-  "body_style": -1.00,
+  "wheelbase": -0.30,
+  "body_style": -0.50,
   "seats": -1.00,
-  "cargo_space": -0.80,
+  "cargo_space": -0.60,
   "rear_space": -1.00,
-  "ground_clearance_in": -0.80,
-  "turn_radius_ft": -0.20,
+  "ground_clearance_in": -0.60,
+  "turn_radius_ft": 0.00,
   "mpg": -1.00,
   "co2_g_km": -1.00,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.80,
-  "style_aggression_rating": 0.80,
-  "style_modernity_rating": 0.00,
-  "handling_rating": 0.60,
-  "ride_comfort_rating": 0.80,
-  "cabin_noise_rating": 0.40,
-  "shift_smooth_rating": 0.60,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.70,
+  "style_sleek_vs_boxy": 0.70,
+  "style_aggression_rating": 0.70,
+  "style_modernity_rating": -0.50,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 0.90,
+  "cabin_noise_rating": 0.60,
+  "shift_smooth_rating": 0.70,
+  "steering_feel_rating": 0.50,
+  "adas_score": -0.50,
   "visibility_rating": 0.00,
-  "headlight_rating": 0.70,
-  "security_rating": 0.50,
-  "screen_in": 0.00,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.50,
+  "headlight_rating": 0.30,
+  "security_rating": 0.70,
+  "screen_in": -0.70,
+  "infotainment_ux_rating": -0.70,
+  "smartphone_connect_rating": 0.00,
   "audio_rating": 0.90,
-  "usb_ports": 0.00,
+  "usb_ports": -0.80,
   "comfort_feature_score": 0.90,
-  "convenience_feature_score": 0.70,
+  "convenience_feature_score": 0.80,
   "brand_prestige_rating": 0.90,
   "model_prestige_rating": -1.00,
   "trim_prestige_rating": -1.00,
   "interior_luxury_rating": 0.90,
-  "interior_tech_focus_rating": 0.00
+  "interior_tech_focus_rating": -0.50
 }
 ```

@@ -1,0 +1,113 @@
+The Audi S5 Vorsprung is a high-specification trim level. Information primarily points to the Sportback body style for the most recent models in the UK, although Coupe and Cabriolet versions have also been offered in Vorsprung trim in the past. The engine is typically the 3.0 TFSI V6 petrol or 3.0 TDI V6 diesel, depending on the market and model year. For the most recent context (2024/2025), the new A5/S5 range is being introduced, with the S5 Saloon and Avant initially offered exclusively in Edition 1 form in the UK, featuring a new 3.0 TFSI V6. However, the Vorsprung trim is still listed for previous model years and is a key high-end offering. I will base the evaluation on the characteristics of a high-spec S5, incorporating details found for the Vorsprung trim on recent models (like the inclusion of panoramic sunroof, head-up display, 360 camera, B&O sound system, advanced ADAS).
+
+*   **price_usd**: The Vorsprung trim is significantly more expensive than the base S5. Used 2023 S5 Vorsprung models are listed around £50k (~$63k USD), and new prices would be considerably higher, likely pushing towards or over $70k depending on body style and options. This is well above the $52k average. Score: -0.25.
+*   **total_cost_estimate_5yr_usd**: Higher purchase price, insurance, maintenance, and fuel costs for a premium performance car in a top trim. Score: -0.30.
+*   **insurance_usd_yr**: UK insurance group 47E is listed for the S5 Vorsprung TDI, which is very high. This translates to high insurance costs. Score: -0.40.
+*   **maint_usd_yr**: Maintenance for a high-spec Audi is above average. Score: -0.30.
+*   **repair_risk_score**: Audi generally has average to slightly above-average reliability. Score: 0.05.
+*   **hp**: 341 PS (TDI) or 347 PS (TDI) or 354 hp (TFSI) or 367 PS (new TFSI). All are significantly above the 200 hp average. Score: 0.50.
+*   **torque**: 700 Nm (TDI) or 500 Nm (TFSI) or 550 Nm (new TFSI). 700 Nm is very high (approx 516 lb-ft), 500 Nm is high (approx 369 lb-ft), 550 Nm is high (approx 406 lb-ft). Score: 0.60.
+*   **cylinder_count**: V6 (6 cylinders). Above the common 4-cylinder. Score: 0.20.
+*   **engine_displacement**: 3.0L. Above average. Score: 0.10.
+*   **accel_0_60_sec**: 0-62 mph in 4.5-4.6 seconds (TDI/TFSI). 0-60 mph would be slightly faster. This is significantly faster than the 7.5 sec average. Score: 0.75.
+*   **top_speed**: 155 mph (electronically limited). Above the 150 mph average, but limited. Score: 0.10.
+*   **drive_type**: All-Wheel Drive (Quattro). This is the average/benchmark for AWD. Score: 0.00.
+*   **transmission_type**: 8-speed Tiptronic automatic. This is the benchmark for automatic transmissions. Score: 1.00.
+*   **driving_track_vs_gt**: Described as comfortable for long distances with sporty handling. Leans towards GT/sporty daily. Score: 0.50.
+*   **offroad_ability**: Low ground clearance, performance-oriented. Poor off-road ability. Score: 1.00.
+*   **braking_dist_ft**: No specific data found for Vorsprung, assume similar to standard S5 which is around average or slightly better. Score: 0.30.
+*   **size**: Length around 4765mm (Sportback/Avant) or 4705mm (Coupe). Slightly larger than a Civic (4600mm). Score: 0.10.
+*   **wheelbase**: Around 2825mm (Sportback/Avant) or 2765mm (Coupe). Longer than Octavia (2700mm), shorter than S-Class (3200+mm). Score: 0.20.
+*   **body_style**: Vorsprung is available on Sportback (4-door hatchback/coupe), Coupe (2-door), and Avant (5-door wagon). Sportback/Avant are more practical than a 2-door coupe. Score based on the availability of more practical body styles. Score: 0.20.
+*   **seats**: 5 seats (Sportback/Avant) or 4 seats (Coupe/Cabriolet). Score based on the availability of 5 seats. Score: 0.00.
+*   **cargo_space**: 430 litres (Sportback/Avant) or 410 litres (Coupe). 430 litres is approx 15.2 cu ft, 410 litres is approx 14.5 cu ft. This is around the average for a sedan/coupe. Score: 0.00.
+*   **rear_space**: Rear legroom around 35 inches (Sportback). This is around the average for a compact crossover, but less than larger sedans. Score: -0.10.
+*   **ground_clearance_in**: Not explicitly stated, but performance cars are low. Estimate based on class. Score: -0.20.
+*   **turn_radius_ft**: Not explicitly stated, assume similar to standard S5. Score: -0.10.
+*   **mpg**: 36-39 mpg (TDI) or around 23 mpg (TFSI). Score based on the availability of the more efficient TDI engine in some markets. Score: 0.20.
+*   **co2_g_km**: 161-188 g/km depending on engine and body style. This is around or slightly higher than the 175 g/km average. Score: -0.10.
+*   **electrification**: Mild-Hybrid (MHEV) system on some engines (TDI and new TFSI). This is a step towards electrification but not a PHEV or EV. Score: -0.50.
+*   **electric_range_mi**: N/A. Score: -1.00.
+*   **charge_speed_kw**: N/A. Score: -1.00.
+*   **style_sleek_vs_boxy**: Sportback/Coupe have sleek, coupe-like profiles. Avant is a sleek wagon. Score: 0.50.
+*   **style_aggression_rating**: Sporty styling with S-specific elements, but not overly aggressive. Score: 0.30.
+*   **style_modernity_rating**: Modern Audi design, updated with latest lighting and styling cues. Score: 0.40.
+*   **handling_rating**: Capable handling, enhanced by Quattro with sports differential on Vorsprung. Score: 0.70.
+*   **ride_comfort_rating**: Generally comfortable for a sporty car, often includes adaptive suspension on high trims. Score: 0.70.
+*   **cabin_noise_rating**: Good cabin insulation, minimal noise. Score: 0.60.
+*   **shift_smooth_rating**: 8-speed Tiptronic is smooth. Score: 0.80.
+*   **steering_feel_rating**: Electromechanical steering. Score: 0.50.
+*   **adas_score**: Vorsprung trim includes a comprehensive suite of ADAS features like adaptive cruise control, active lane assist, park assist, and 360-degree camera. Score: 0.90.
+*   **visibility_rating**: Sportback/Coupe styling can compromise rear visibility slightly. 360 camera helps. Score: 0.00.
+*   **headlight_rating**: Matrix LED headlights with Audi laser lights standard on Vorsprung. Excellent lighting. Score: 0.90.
+*   **security_rating**: Premium car with advanced security features. Score: 0.60.
+*   **screen_in**: 10.1-inch MMI touch display standard, available 12.3-inch Virtual Cockpit. New models feature larger screens (11.9" VC + 14.5" MMI). Score based on the larger screens available on the latest models. Score: 0.80.
+*   **infotainment_ux_rating**: Audi MMI touch system is generally intuitive. Score: 0.70.
+*   **smartphone_connect_rating**: Standard Apple CarPlay and Android Auto, wireless CarPlay available. Score: 0.90.
+*   **audio_rating**: Bang & Olufsen premium sound system is standard on Vorsprung. Excellent audio quality. Score: 1.00.
+*   **usb_ports**: USB inputs available. Likely 2-4 total. Score: 0.00.
+*   **comfort_feature_score**: Vorsprung includes panoramic sunroof, heated front seats, power seats with memory and massage function, heated rear seats, tri-zone climate control. Very high level of comfort features. Score: 0.90.
+*   **convenience_feature_score**: Vorsprung includes head-up display, 360-degree camera, park assist, keyless entry, electric tailgate (Sportback/Avant). Very high level of convenience features. Score: 0.90.
+*   **brand_prestige_rating**: Audi is a well-established premium German brand. Score: 0.70.
+*   **model_prestige_rating**: S5 is a performance variant, positioned above the A5 but below the RS5. Mid-high in the range. Score: -0.20.
+*   **trim_prestige_rating**: Vorsprung is a top-tier trim level, representing the highest specification. Score: -0.20.
+*   **interior_luxury_rating**: High-quality materials, fine Nappa leather, carbon inlays, premium sound system. Score: 0.90.
+*   **interior_tech_focus_rating**: Modern interior with large screens, digital cockpit, head-up display, and advanced features. High tech focus. Score: 0.90.
+
+```json
+{
+  "price_usd": -0.25,
+  "total_cost_estimate_5yr_usd": -0.30,
+  "insurance_usd_yr": -0.40,
+  "maint_usd_yr": -0.30,
+  "repair_risk_score": 0.05,
+  "hp": 0.50,
+  "torque": 0.60,
+  "cylinder_count": 0.20,
+  "engine_displacement": 0.10,
+  "accel_0_60_sec": 0.75,
+  "top_speed": 0.10,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.30,
+  "size": 0.10,
+  "wheelbase": 0.20,
+  "body_style": 0.20,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": -0.10,
+  "ground_clearance_in": -0.20,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.20,
+  "co2_g_km": -0.10,
+  "electrification": -0.50,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.50,
+  "style_aggression_rating": 0.30,
+  "style_modernity_rating": 0.40,
+  "handling_rating": 0.70,
+  "ride_comfort_rating": 0.70,
+  "cabin_noise_rating": 0.60,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.50,
+  "adas_score": 0.90,
+  "visibility_rating": 0.00,
+  "headlight_rating": 0.90,
+  "security_rating": 0.60,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.70,
+  "smartphone_connect_rating": 0.90,
+  "audio_rating": 1.00,
+  "usb_ports": 0.00,
+  "comfort_feature_score": 0.90,
+  "convenience_feature_score": 0.90,
+  "brand_prestige_rating": 0.70,
+  "model_prestige_rating": -0.20,
+  "trim_prestige_rating": -0.20,
+  "interior_luxury_rating": 0.90,
+  "interior_tech_focus_rating": 0.90
+}
+```

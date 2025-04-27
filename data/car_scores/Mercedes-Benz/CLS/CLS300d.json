@@ -1,0 +1,115 @@
+The most recent version of the Mercedes-Benz CLS 300d is part of the C257 generation, specifically the facelifted model produced from 2021 to 2023. This version features a mild-hybrid system (EQ Boost).
+
+Here's the evaluation based on the search results:
+
+*   **price\_usd**: A new price for a 2021 CLS 300d AMG Line Premium Plus was around £60,000+. A 2018 CLS 300d was priced at Rs 84.7 Lakh in India (~$115,000 USD at the time). A 2021 model was listed around 73,568 euros (~$80,000 USD). Used prices for a 2022 model are around €42,875. Given the range, the new price is significantly above the market average of ~$52,000. Score: -0.60.
+*   **total\_cost\_estimate\_5yr\_usd**: No specific 5-year cost estimate found. Default to 0.00.
+*   **insurance\_usd\_yr**: No specific insurance cost found. Mercedes-Benz is a luxury brand, suggesting higher insurance. Default to 0.00.
+*   **maint\_usd\_yr**: No specific maintenance cost found. Mercedes-Benz maintenance is generally higher than average. Default to 0.00.
+*   **repair\_risk\_score**: No specific reliability rating found for the CLS 300d. Mercedes-Benz generally has average to slightly below-average reliability compared to brands like Toyota or Lexus. Default to 0.00.
+*   **hp**: The facelifted CLS 300d (C257) has 265 PS (261 hp) from the engine, supplemented by 20 PS (19 hp) from the ISG. Using the engine power of 261 hp. This is above the average of ~200 hp. Score: 0.35.
+*   **torque**: The facelifted CLS 300d (C257) has 550 Nm (406 lb-ft). This is well above the average of ~190 lb-ft. Score: 0.60.
+*   **cylinder\_count**: The CLS 300d has a 4-cylinder engine. This is below the average for performance-oriented cars but common in the general market. Score: -0.25.
+*   **engine\_displacement**: The CLS 300d (C257) has a 2.0L (1993 cm3 or 1950 cm3) engine. This is around the average engine displacement. Score: 0.00.
+*   **accel\_0\_60\_sec**: The facelifted CLS 300d 4MATIC does 0-60 mph in 5.9-6.1 seconds. The earlier 245hp version did it in 6.1-6.4 seconds. Using the facelifted time of 5.9-6.1 seconds. This is significantly faster than the average of ~7.5 seconds. Score: 0.60.
+*   **top\_speed**: The top speed is electronically limited to 250 km/h (155 mph). This is around the average of 150 mph. Score: 0.10.
+*   **drive\_type**: The facelifted CLS 300d is available with 4MATIC (All-Wheel Drive). Some earlier C257 300d models were RWD. The facelifted model is commonly listed as 4MATIC. AWD is considered average. Score: 0.00.
+*   **transmission\_type**: The CLS 300d has a 9-speed automatic transmission (9G-TRONIC). Automatic transmission is rated +1.00. Score: 1.00.
+*   **driving\_track\_vs\_gt**: Reviews describe the CLS as a comfortable, high-speed cruiser and Grand Tourer. Score: +1.00.
+*   **offroad\_ability**: The CLS is a low-slung sedan, not designed for off-road use. Score: +1.00 (poor off-road ability).
+*   **braking\_dist\_ft**: No specific braking distance found. Default to 0.00.
+*   **size**: The C257 CLS is around 4988-5001 mm long. This is larger than a Honda Civic (~4600mm) but not as large as a Hummer EV (>5100mm). Score: 0.50.
+*   **wheelbase**: The C257 CLS has a wheelbase of 2939 mm (115.7 inches). This is longer than a Skoda Octavia (~2700mm) but shorter than an S-Class (>3200mm). Score: 0.50.
+*   **body\_style**: The CLS is described as a "four-door coupe" or "4-door fastback sedan". Score: 0.00.
+*   **seats**: The C257 CLS has seating for 5. This is the market average. Score: 0.00.
+*   **cargo\_space**: The C257 CLS has 520 litres (18.36 cu ft) of cargo space. This is slightly above a Honda Civic (~15 cu ft). Score: 0.25.
+*   **rear\_space**: Rear headroom is noted as limited. Rear legroom is described as decent or plenty, around 888 mm (34.96 inches). This is around the average for a compact crossover (~35"). Score: 0.00.
+*   **ground\_clearance\_in**: Ground clearance is listed as 93 mm (3.66 inches) or 94 mm (3.7 inches). This is very low. Score: -1.00.
+*   **turn\_radius\_ft**: Turning circle is 11.6-11.9 meters (38.06-39.04 ft). This is slightly above the Camry's 36 ft, meaning a slightly larger turning circle (worse). Score: -0.10.
+*   **mpg**: The facelifted CLS 300d 4MATIC has a combined WLTP of 5.5-5.8 l/100km (40.5-42.8 US MPG). The earlier 245hp version had a combined WLTP of 5.2-5.4 l/100km (43.6-45.2 US MPG). Real-world MPG is around 37.9 mpg (UK owner review) or 34 US MPG (estimated real consumption). Using a range around 34-45 US MPG. This is above the average of ~30 mpg. Score: 0.50.
+*   **co2\_g\_km**: The facelifted CLS 300d 4MATIC has CO2 emissions of 139-153 g/km (WLTP). The earlier 245hp version had 137-143 g/km. This is significantly lower than the average of ~175 g/km. Score: 0.25.
+*   **electrification**: The facelifted CLS 300d features a mild-hybrid system (EQ Boost). Score: 0.25.
+*   **electric\_range\_mi**: As a mild-hybrid, it has no significant electric range. Score: -1.00.
+*   **charge\_speed\_kw**: As a mild-hybrid, it does not have external charging. Score: -1.00.
+*   **style\_sleek\_vs\_boxy**: The CLS is known for its sleek, coupe-like profile. Score: +1.00.
+*   **style\_aggression\_rating**: The design is elegant and stylish, with AMG styling standard on the facelifted model, adding some sportiness. Not overly aggressive like a sports car. Score: 0.50.
+*   **style\_modernity\_rating**: The C257 design is modern and contemporary. The facelift brought minor updates. Score: 0.50.
+*   **handling\_rating**: Reviews mention comfortable handling, stable, but tuned for comfort over aggression. Score: 0.25.
+*   **ride\_comfort\_rating**: Reviews consistently praise the plush and comfortable ride, especially with optional air suspension. Score: +1.00.
+*   **cabin\_noise\_rating**: Reviews note the cabin is quiet, especially at speed, though some tire/wind noise is present compared to quieter rivals like the A7. Score: 0.75.
+*   **shift\_smooth\_rating**: The 9-speed automatic transmission is described as smooth and responsive. Score: +1.00.
+*   **steering\_feel\_rating**: Reviews mention precise steering and feeling what the front wheels are doing. Score: 0.50.
+*   **adas\_score**: The CLS comes with a suite of driver assistance systems, including Blind Spot Monitoring, Lane Keeping Assist, Parking Assist, and optional advanced systems. Score: 0.75.
+*   **visibility\_rating**: Rear visibility is noted as limited due to the sloping roofline. Score: -0.50.
+*   **headlight\_rating**: Standard equipment includes LED headlights, with optional Multibeam LED Intelligent Light System. Score: 0.75.
+*   **security\_rating**: Standard features include alarm, immobilizer, keyless entry/start, and active bonnet for pedestrian protection. Score: 0.75.
+*   **screen\_in**: The C257 CLS features dual 12.3-inch screens for the instrument cluster and infotainment. 12.3 inches is significantly larger than the average 8 inches. Score: 0.75.
+*   **infotainment\_ux\_rating**: Features the MBUX system with touchscreen, touchpad, steering wheel controls, and voice activation ("Hey Mercedes"). Reviews find it intuitive and well-organized despite complexity. Score: 0.75.
+*   **smartphone\_connect\_rating**: Standard features include Apple CarPlay and Android Auto. Wireless charging is available. Score: 0.75.
+*   **audio\_rating**: Optional Burmester sound system is available. Standard system is likely good as well. Score: 0.75.
+*   **usb\_ports**: Features multiple USB ports. Score: 0.50.
+*   **comfort\_feature\_score**: Standard features include heated front seats, power-adjustable seats, and dual-zone climate control. Optional features include ventilated, massaging, and memory seats, heated rear seats, heated steering wheel, and Air Balance system. Score: 0.75.
+*   **convenience\_feature\_score**: Standard features include keyless entry/start, parking sensors, rearview camera, 360-degree camera, and active parking assist. Remote park via app was mentioned for an earlier model. Score: 0.75.
+*   **brand\_prestige\_rating**: Mercedes-Benz is a high-prestige brand. Score: +1.00.
+*   **model\_prestige\_rating**: The CLS slots between the E-Class and S-Class, positioned as a stylish, more exclusive alternative to the E-Class. It's upper-middle/high within the brand. Score: -0.50.
+*   **trim\_prestige\_rating**: The 300d is a mid-range diesel engine for the CLS. It is often paired with AMG Line trim. Score: 0.00.
+*   **interior\_luxury\_rating**: The interior is described as lavish, premium, quality-rich, with leather upholstery, wood trim, and ambient lighting. Score: 1.00.
+*   **interior\_tech\_focus\_rating**: Features large digital screens, MBUX, advanced ADAS, and connectivity. The interior is screen-forward and modern. Score: 1.00.
+
+```json
+{
+  "price_usd": -0.60,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.35,
+  "torque": 0.60,
+  "cylinder_count": -0.25,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": 0.60,
+  "top_speed": 0.10,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.50,
+  "wheelbase": 0.50,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.25,
+  "rear_space": 0.00,
+  "ground_clearance_in": -1.00,
+  "turn_radius_ft": -0.10,
+  "mpg": 0.50,
+  "co2_g_km": 0.25,
+  "electrification": 0.25,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 1.00,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.25,
+  "ride_comfort_rating": 1.00,
+  "cabin_noise_rating": 0.75,
+  "shift_smooth_rating": 1.00,
+  "steering_feel_rating": 0.50,
+  "adas_score": 0.75,
+  "visibility_rating": -0.50,
+  "headlight_rating": 0.75,
+  "security_rating": 0.75,
+  "screen_in": 0.75,
+  "infotainment_ux_rating": 0.75,
+  "smartphone_connect_rating": 0.75,
+  "audio_rating": 0.75,
+  "usb_ports": 0.50,
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": -0.50,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 1.00,
+  "interior_tech_focus_rating": 1.00
+}
+```

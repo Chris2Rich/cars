@@ -1,18 +1,87 @@
-```json
+Here is the evaluation of the Vauxhall Vivaro-e Life Elite based on the provided data and scoring guide:
+
+*   **price_usd**: The Elite trim starts from £49,465 (2021 data) or £49,105 (2022 data). Converting £49,465 to USD (using a rough exchange rate of 1.25 USD/GBP) is approximately $61,831. This is above the market average of $52,000 but well below $120,000. Score: 0.00.
+*   **total_cost_estimate_5yr_usd**: No specific 5-year cost estimate found. Default to 0.00.
+*   **insurance_usd_yr**: Insurance group 36E. This is on the higher side of the 1-50 scale, suggesting higher-than-average insurance costs. Score: 0.00.
+*   **maint_usd_yr**: EVs generally have lower maintenance costs (30% less mentioned). Service intervals are 2 years or 25,000 miles. This suggests lower than average maintenance costs. Score: 0.50.
+*   **repair_risk_score**: Vauxhall ranks highly in JD Power dependability studies. No specific reliability issues mentioned for the EV version. Score: 0.00.
+*   **hp**: 136 PS (100kW). This is approximately 134 hp. This is well below the average of 200 hp. Score: -0.80.
+*   **torque**: 260 Nm. This is approximately 192 lb-ft. This is close to the average of 190 lb-ft. Score: 0.00.
+*   **cylinder_count**: Electric vehicle, so 0 cylinders. Score: -1.00 (as per guide, <3 is -1.00).
+*   **engine_displacement**: Electric vehicle, so 0 displacement. Score: -1.00 (as per guide, <1.2L is -1.00).
+*   **accel_0_60_sec**: 0-62 mph in 13.1 seconds or 14.3 seconds. This is significantly slower than the average of 7.5 seconds. Score: -1.00.
+*   **top_speed**: 81 mph. This is well below the average of 150 mph. Score: -0.80.
+*   **drive_type**: Front-wheel drive (FWD). Score: -1.00.
+*   **transmission_type**: Automatic (single-speed for EV). Score: 1.00.
+*   **driving_track_vs_gt**: Designed as a people carrier/lounge on wheels. Clearly a Grand Tourer/daily driver focus, not track. Score: 0.50 (leaning towards GT due to comfort focus).
+*   **offroad_ability**: Van-based MPV, low ground clearance (implied by body style), FWD. Not designed for off-road. Score: 1.00.
+*   **braking_dist_ft**: No specific data found. Default to 0.00.
+*   **size**: Available in Medium (M) and Long (L) wheelbase. Long wheelbase is 5306mm or 5331mm. This is significantly larger than the average 4600mm. Score: 1.00.
+*   **wheelbase**: 3275mm or 3.28m. This is significantly longer than the average 2700mm. Score: 1.00.
+*   **body_style**: 5-door MPV/people carrier. Score: 1.00.
+*   **seats**: Elite trim is typically 8-seater. Can be configured for 7 or 9 in other layouts/trims. 8 seats is well above average. Score: 1.00.
+*   **cargo_space**: Cargo volume max 4500 L or 4554 litres (approx 159-161 cu ft). This is significantly larger than the average 15 cu ft. Score: 1.00.
+*   **rear_space**: Described as incredibly spacious with generous head and legroom in every seat. Score: 1.00.
+*   **ground_clearance_in**: No specific data found. Van-based suggests average or slightly lower than average for an SUV, but higher than a car. Default to 0.00.
+*   **turn_radius_ft**: Turning circle 12.4m. This is approximately 40.7 ft. This is higher than the average 36 ft. Score: -0.50.
+*   **mpg**: Electric vehicle, MPG is not applicable. Score: 0.00.
+*   **co2_g_km**: 0 g/km. Score: 1.00.
+*   **electrification**: Fully electric (EV). Score: 1.00.
+*   **electric_range_mi**: Elite trim with 50kWh battery has a range of 128 miles or 143 miles. The 75kWh battery offers 205 miles. The Elite is available with both. Let's consider the 75kWh option for the Elite trim as it's the higher range option often associated with top trims. 205 miles is below the best-in-class (>375 mi) but better than the average EV (around 100 mi). Score: 0.50.
+*   **charge_speed_kw**: Supports up to 100kW rapid charging. 80% charge in 30-45 mins. Onboard charger is 7.4kW standard, 11kW optional. 100kW is good, but not the fastest available (250-350+ kW). Score: 0.50.
+*   **style_sleek_vs_boxy**: Van-based MPV, inherently boxy shape. Score: -1.00.
+*   **style_aggression_rating**: Smooth, sculpted lines, practical people carrier. Not aggressive. Score: -1.00.
+*   **style_modernity_rating**: Based on a van platform, interior can feel dated. Exterior is modern but functional. Score: 0.00.
+*   **handling_rating**: Described as not well planted, bouncy ride, leans a lot in corners. Steering is unresponsive and heavy. Score: -1.00.
+*   **ride_comfort_rating**: Smooth, quiet ride due to EV powertrain. Suspension can have a van-like rattle. Unsettled over ruts/bumps. Bouncy ride without load. Score: 0.00 (EV smoothness offsets van characteristics).
+*   **cabin_noise_rating**: Quiet and refined due to electric motor. Much quieter than diesel version. Score: 0.50.
+*   **shift_smooth_rating**: Automatic transmission (single-speed EV). Smooth operation. Score: 1.00.
+*   **steering_feel_rating**: Steering is slow, unresponsive, heavy. Score: -1.00.
+*   **adas_score**: Elite trim gets additional driver assistance and safety packs, blind-spot assist, panoramic rear-view camera, front/rear parking sensors, lane departure system, speed sign recognition, driver drowsiness system, forward collision alert with automatic emergency braking, pedestrian detection, high-beam assist. This is a good suite of features, above average. Score: 0.50.
+*   **visibility_rating**: High driving position gives a great view. Airy cabin. Panoramic roof on Elite helps. Score: 0.50.
+*   **headlight_rating**: Elite includes xenon headlights. Xenon is better than halogen but not top-tier LED matrix. Score: 0.00.
+*   **security_rating**: Remote control central deadlocking, selective door locking, electronic engine deadlock immobiliser, remote control security alarm system standard. Elite adds keyless open and start. Score: 0.00.
+*   **screen_in**: 7-inch colour touchscreen. Some sources mention a 10-inch screen. Given the prevalence of 7-inch mentions and older reviews, 7-inch seems more likely for the core infotainment screen, with potentially a larger driver display or later model update having 10-inch. 7-inch is below average. Score: -0.50.
+*   **infotainment_ux_rating**: Multimedia Navi Pro system. Described as laggy. Score: -0.20.
+*   **smartphone_connect_rating**: Apple CarPlay and Android Auto included. Wireless mirror screen mentioned with 10-inch screen. Standard 7-inch likely wired. Score: 0.00.
+*   **audio_rating**: Elite has 10 speakers. This is above average. Score: 0.50.
+*   **usb_ports**: Elite version included four 12V sockets but just one USB input. Some sources mention two USB connections with Navi Pro. Score: 0.00 (assuming 1-2 USB ports).
+*   **comfort_feature_score**: Elite trim includes heated power driver's seat, heated front passenger's seat with massage facility, electric sliding side doors, dual-zone electronic climate control with rear air conditioning, rear seat back tables, rear side window blinds, panoramic glass roof. This is a very good suite of comfort features. Score: 0.50.
+*   **convenience_feature_score**: Elite includes electric sliding side doors (hands-free access), panoramic rear-view camera, front and rear parking sensors, split tailgate with opening rear window, keyless open and start. This is a good set of convenience features. Score: 0.50.
+*   **brand_prestige_rating**: Vauxhall is a mainstream brand. Score: 0.00.
+*   **model_prestige_rating**: Vivaro-e Life is a van-based MPV, practical but not a halo model. Score: 0.00.
+*   **trim_prestige_rating**: Elite is the top trim level. Score: -1.00.
+*   **interior_luxury_rating**: Elite has leather seat trim, well-appointed interior, comfortable, fairly luxurious compared to some rivals. Can feel a little basic in places due to van origins. Leather can feel plasticky. Score: 0.00.
+*   **interior_tech_focus_rating**: Has a touchscreen, digital display, head-up display. Not as screen-focused as some modern EVs, but has decent tech for its class. Score: 0.00.
+
+Refining scores based on benchmarks and comparisons:
+- Price: £49k is high for a Vauxhall, but competitive for a large electric MPV. Score 0.00 seems fair.
+- Range: 205 miles (75kWh) is better than 100mi average EV, but far from 375+ mi. 0.50 seems right.
+- 0-60: 13.1-14.3s is very slow. -1.00 is appropriate.
+- Top Speed: 81mph is very low. -0.80 is appropriate.
+- Turning Radius: 40.7ft is large. -0.50 is appropriate.
+- Screen size: 7-inch is small. -0.50 is appropriate.
+- Audio: 10 speakers is good. 0.50 is appropriate.
+- Comfort/Convenience: Elite adds significant features. 0.50 seems appropriate.
+- Interior Luxury: Leather is a plus, but van origins limit it. 0.00 seems fair.
+- Trim Prestige: Elite is the top trim, so -1.00 according to the guide.
+
+Final check of all scores against the guide.```json
 {
-  "price_usd": -0.20,
+  "price_usd": 0.00,
   "total_cost_estimate_5yr_usd": 0.00,
   "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.10,
+  "maint_usd_yr": 0.50,
   "repair_risk_score": 0.00,
-  "hp": -0.70,
+  "hp": -0.80,
   "torque": 0.00,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": -0.80,
+  "cylinder_count": -1.00,
+  "engine_displacement": -1.00,
+  "accel_0_60_sec": -1.00,
   "top_speed": -0.80,
   "drive_type": -1.00,
   "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.50,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
   "size": 1.00,
@@ -22,34 +91,35 @@
   "cargo_space": 1.00,
   "rear_space": 1.00,
   "ground_clearance_in": 0.00,
-  "turn_radius_ft": -1.00,
+  "turn_radius_ft": -0.50,
   "mpg": 0.00,
   "co2_g_km": 1.00,
-  "electric_range_mi": 0.20,
+  "electrification": 1.00,
+  "electric_range_mi": 0.50,
   "charge_speed_kw": 0.50,
   "style_sleek_vs_boxy": -1.00,
   "style_aggression_rating": -1.00,
   "style_modernity_rating": 0.00,
   "handling_rating": -1.00,
-  "ride_comfort_rating": 0.50,
+  "ride_comfort_rating": 0.00,
   "cabin_noise_rating": 0.50,
   "shift_smooth_rating": 1.00,
   "steering_feel_rating": -1.00,
   "adas_score": 0.50,
   "visibility_rating": 0.50,
-  "headlight_rating": 0.50,
+  "headlight_rating": 0.00,
   "security_rating": 0.00,
-  "screen_in": 0.20,
+  "screen_in": -0.50,
   "infotainment_ux_rating": -0.20,
-  "smartphone_connect_rating": 0.50,
-  "audio_rating": 0.00,
-  "usb_ports": -1.00,
+  "smartphone_connect_rating": 0.00,
+  "audio_rating": 0.50,
+  "usb_ports": 0.00,
   "comfort_feature_score": 0.50,
   "convenience_feature_score": 0.50,
   "brand_prestige_rating": 0.00,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": -1.00,
-  "interior_luxury_rating": -0.50,
+  "interior_luxury_rating": 0.00,
   "interior_tech_focus_rating": 0.00
 }
 ```

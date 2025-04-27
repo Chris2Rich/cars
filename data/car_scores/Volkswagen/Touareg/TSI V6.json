@@ -1,0 +1,111 @@
+The 2024 Volkswagen Touareg is available with a 3.0L V6 TFSI engine. This engine is offered in a standard petrol version and as part of a plug-in hybrid system (eHybrid and R eHybrid). The standard 3.0L V6 TFSI produces 340 hp and 450 Nm (331.9 lb-ft) of torque. The eHybrid version combines this engine with an electric motor for higher system outputs. This evaluation focuses on the standard 3.0L V6 TFSI petrol engine.
+
+-   **price_usd**: UK prices for the 2024 Touareg range from around £54,000 to £82,950. The 3.0 TSI V6 Black Edition is listed around £29,000 - £38,991 used on AutoTrader UK, but new prices for the 3.0 TSI V6 start around £71,390. A used 2020 3.0 V6 TFSI Elegance is listed at €39,990 (approx $43,000 USD). A new 2022 3.0 TFSI starts around SAR 184,733 (approx $49,000 USD) in KSA. Considering new prices, £71,390 is roughly $90,000 USD. This is significantly above the market average ($52,000). Score: -0.60.
+-   **total_cost_estimate_5yr_usd**: No specific 5-year cost estimate found. It's a large premium SUV with a petrol V6, likely to have above-average costs. Default to 0.00.
+-   **insurance_usd_yr**: UK insurance groups for the Touareg are high. Score: -0.70.
+-   **maint_usd_yr**: It's not cheap to service or maintain. A 5-year service plan in NZ costs $3,195. This suggests maintenance costs are likely above average. Score: -0.30.
+-   **repair_risk_score**: No specific reliability rating found for the 2024 model with this engine. Volkswagen generally has average reliability, but complex systems could increase risk. Score: 0.00.
+-   **hp**: 340 hp (250 kW). This is well above the 200 hp market average. Score: 0.50.
+-   **torque**: 450 Nm (331.9 lb-ft). This is significantly above the 190 lb-ft market average. Score: 0.50.
+-   **cylinder_count**: V6 (6 cylinders). Above the average (often 4-cylinder). Score: 0.30.
+-   **engine_displacement**: 3.0L (2995 cm³). Above the average (often 1.5L-2.5L). Score: 0.40.
+-   **accel_0_60_sec**: 0-60 mph in 5.8 seconds. 0-62 mph in 5.9 seconds. This is significantly faster than the 7.5-second market average. Score: 0.60.
+-   **top_speed**: 250 km/h (155.34 mph). This is around the 150 mph benchmark. Score: 0.10.
+-   **drive_type**: 4MOTION all-wheel drive is standard. Score: 0.00 (AWD is average).
+-   **transmission_type**: 8-speed automatic transmission (Tiptronic) is standard. This is a modern automatic. Score: 1.00.
+-   **driving_track_vs_gt**: Focused on relaxed high-speed cruising and comfort. Score: 1.00 (Grand Touring).
+-   **offroad_ability**: Has 4MOTION AWD and decent ground clearance. Capable for an SUV, but not a dedicated off-roader. Score: 0.00.
+-   **braking_dist_ft**: No specific braking distance found. Default to 0.00.
+-   **size**: Length 4878 mm (192.05 in), Width 1984 mm (78.11 in). This is a large SUV. Score: 0.70.
+-   **wheelbase**: 2904 mm (114.33 in). A long wheelbase. Score: 0.60.
+-   **body_style**: SUV. Score: 0.00.
+-   **seats**: 5 seats. Score: 0.00.
+-   **cargo_space**: 810 l (28.6 cu ft) with seats up, 1800 l (63.57 cu ft) with seats folded. Excellent for a 5-seater SUV. Score: 0.80.
+-   **rear_space**: Ample interior space. Score: 0.70.
+-   **ground_clearance_in**: No specific ground clearance found for the petrol V6. Default to 0.00.
+-   **turn_radius_ft**: 12.2 m (40.03 ft). Above average (36 ft). Score: -0.30.
+-   **mpg**: Claimed combined economy is 25.7 mpg. NEDC combined is 26.43 US mpg / 31.74 UK mpg. Real-world will be lower. This is below the 30 mpg market average. Score: -0.40.
+-   **co2_g_km**: 251 g/km. This is well above the 175 g/km market average. Score: -0.80.
+-   **electrification**: Petrol engine only. Score: -1.00.
+-   **electric_range_mi**: N/A. Score: -1.00.
+-   **charge_speed_kw**: N/A. Score: -1.00.
+-   **style_sleek_vs_boxy**: Understated, less ostentatious than rivals. Score: 0.00.
+-   **style_aggression_rating**: Updated styling is handsome but not overly aggressive. Score: 0.20.
+-   **style_modernity_rating**: Facelift brings updated lighting and interior tech. Looks modern. Score: 0.50.
+-   **handling_rating**: Handles well for its size, less sporting than a Cayenne. Score: 0.30.
+-   **ride_comfort_rating**: Comfortable and capable steer. Sublime ride quality, soaks up bumps. Air suspension provides excellent comfort. Score: 0.90.
+-   **cabin_noise_rating**: No specific rating found, but reviews mention refinement. Likely quiet. Score: 0.50.
+-   **shift_smooth_rating**: 8-speed automatic transmission shifts smoothly. Score: 0.80.
+-   **steering_feel_rating**: No specific strong praise or criticism of steering feel in the petrol V6 reviews. Default to 0.00.
+-   **adas_score**: Full suite of safety systems available. High level of tech. Score: 0.80.
+-   **visibility_rating**: Tall driving position provides good visibility. Score: 0.70.
+-   **headlight_rating**: IQ. Light HD matrix LED headlights available/standard on most trims. Excellent performance. Score: 0.90.
+-   **security_rating**: No specific security features mentioned beyond standard. Default to 0.00.
+-   **screen_in**: Innovision Cockpit with 15-inch central infotainment screen and 12.3-inch digital driver's display is standard on most trims. Large screens. Score: 0.90.
+-   **infotainment_ux_rating**: Infotainment system is large, high-resolution, and generally impressive, but uses touch-sensitive steering wheel buttons and lacks physical climate controls which can be annoying. Score: 0.40.
+-   **smartphone_connect_rating**: Wireless Apple CarPlay and Android Auto are standard. Score: 1.00.
+-   **audio_rating**: Optional 730-watt Dynaudio sound system available. Standard system is likely average. Score: 0.70 (factoring in the excellent optional system).
+-   **usb_ports**: 5 x USB-C ports. Score: 0.90.
+-   **comfort_feature_score**: Heated, electrically adjustable front seats standard/available, optional ventilation, massage, 4-zone climate control, panoramic sunroof, ambient lighting. High level of comfort features. Score: 0.80.
+-   **convenience_feature_score**: Power tailgate, keyless entry/start, parking sensors, rear view camera, 360 camera (Area View), park assist, remote park capability, wireless phone charging, power latching doors. High level of convenience features. Score: 0.80.
+-   **brand_prestige_rating**: Volkswagen is a mainstream brand. Score: 0.00.
+-   **model_prestige_rating**: Touareg is the flagship SUV for Volkswagen, positioned at the higher end and sharing a platform with premium SUVs. Score: -0.50 (Top of brand/halo car).
+-   **trim_prestige_rating**: TSI V6 refers to the engine, available across multiple trims (Elegance, Black Edition, R-Line). Score: 0.00 (Considering the range of trims).
+-   **interior_luxury_rating**: Plush interior, premium materials, leather seats standard/available, updated trims. Not quite at the level of higher-end premium rivals like Audi Q7 or BMW X5, but high quality for VW. Score: 0.60.
+-   **interior_tech_focus_rating**: Large integrated screens (Innovision Cockpit), digital cockpit, head-up display, extensive ADAS features. Very tech-focused interior. Score: 0.90.```json
+{
+  "price_usd": -0.60,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -0.70,
+  "maint_usd_yr": -0.30,
+  "repair_risk_score": 0.00,
+  "hp": 0.50,
+  "torque": 0.50,
+  "cylinder_count": 0.30,
+  "engine_displacement": 0.40,
+  "accel_0_60_sec": 0.60,
+  "top_speed": 0.10,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 0.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.70,
+  "wheelbase": 0.60,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.80,
+  "rear_space": 0.70,
+  "ground_clearance_in": 0.00,
+  "turn_radius_ft": -0.30,
+  "mpg": -0.40,
+  "co2_g_km": -0.80,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.20,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.30,
+  "ride_comfort_rating": 0.90,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.80,
+  "visibility_rating": 0.70,
+  "headlight_rating": 0.90,
+  "security_rating": 0.00,
+  "screen_in": 0.90,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.70,
+  "usb_ports": 0.90,
+  "comfort_feature_score": 0.80,
+  "convenience_feature_score": 0.80,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": -0.50,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.60,
+  "interior_tech_focus_rating": 0.90
+}
+```

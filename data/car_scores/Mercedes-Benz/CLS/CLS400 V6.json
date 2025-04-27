@@ -1,57 +1,115 @@
+The most recent Mercedes-Benz CLS 400 with a V6 engine is from the C218 generation (2014-2018 facelift).
+
+Here's the evaluation based on the search results for the C218 CLS 400 (V6 petrol):
+
+*   **price\_usd**: The CLS 400 V6 is from an older generation (C218, 2014-2018). Used prices are significantly lower than the average new car price. Used examples from 2015 are listed around $158 - $161 AUD (likely a typo, should be thousands). A 2015 CLS400 was listed at $139,941 AUD in 2020. Used prices in the UAE for the C218 CLS range from AED 240,000 - 300,000 (~$65,000 - $81,000 USD). Given it's a used model from an older generation, the price is well below the market average for a *new* car. Score: +0.80.
+*   **total\_cost\_estimate\_5yr\_usd**: No specific 5-year cost estimate found. As an older luxury car, maintenance and potential repairs could be higher than average, but depreciation is lower than a new car. Default to 0.00.
+*   **insurance\_usd\_yr**: No specific insurance cost found. Luxury cars typically have higher insurance costs. Default to 0.00.
+*   **maint\_usd\_yr**: Mercedes-Benz maintenance is generally higher than average. Service intervals are typically 12 months or 25,000 km (15,500 miles). While specific annual costs aren't clear, it's likely above average. Default to 0.00.
+*   **repair\_risk\_score**: The C218 CLS is generally considered reliable, but electronic equipment failures and transmission issues (7G-Tronic) have been reported. The M276 V6 engine is generally reliable but can have issues like timing chain tensioners or oil leaks in higher mileage examples. Reliability is considered good for its age if well-maintained. Score: 0.00.
+*   **hp**: The CLS 400 V6 has 333 PS (328-329 hp). Some sources list 245 kW (329 hp). This is well above the market average of ~200 hp. Score: 0.50.
+*   **torque**: The CLS 400 V6 has 480 Nm (354 lb-ft). This is well above the average of ~190 lb-ft. Score: 0.60.
+*   **cylinder\_count**: The CLS 400 V6 has a V6 engine. A V6 is around the average for performance-oriented cars, but above the general market average which includes many 4-cylinders. Score: 0.25.
+*   **engine\_displacement**: The CLS 400 V6 has a 3.0L (2996 cm3) or 3.5L (3498 cm3) engine. The 3.0L is twin-turbocharged, while the 3.5L is also listed with 333hp and 480Nm. Using the 3.0L or 3.5L, this is above the general market average. Score: 0.25.
+*   **accel\_0\_60\_sec**: 0-100 km/h is 5.3-5.4 seconds. This is approximately 5.0-5.1 seconds 0-60 mph. This is significantly faster than the market average of ~7.5 seconds. Score: 0.75.
+*   **top\_speed**: The top speed is electronically limited to 250 km/h (155 mph). This is around the average of 150 mph. Score: 0.10.
+*   **drive\_type**: The CLS 400 V6 (C218) was available in both Rear-Wheel Drive (RWD) and 4MATIC (All-Wheel Drive). RWD is rated +1.00, AWD is 0.00. Since both were available, average the score. Score: 0.50.
+*   **transmission\_type**: The CLS 400 V6 (C218) primarily used the 7-speed automatic transmission (7G-TRONIC PLUS). Some sources mention the 9G-TRONIC was introduced on all models *except* the CLS 400 initially, while others list the 9G-TRONIC for the CLS 400. Given the conflicting data and prevalence of 7G-TRONIC in specs, use 7-speed automatic. Automatic transmission is rated +1.00. Score: 1.00.
+*   **driving\_track\_vs\_gt**: The CLS is designed as a comfortable Grand Tourer. Score: +1.00.
+*   **offroad\_ability**: The CLS is a low-slung sedan, not designed for off-road use. Score: +1.00 (poor off-road ability).
+*   **braking\_dist\_ft**: No specific braking distance found. Default to 0.00.
+*   **size**: The C218 CLS is around 4937-4940 mm long (194.37-194.4 inches). The Shooting Brake is slightly longer (4953 mm). Using the sedan length, this is larger than a Honda Civic (~4600mm) but not as large as a Hummer EV (>5100mm). Score: 0.50.
+*   **wheelbase**: The C218 CLS has a wheelbase of 2874 mm (113.1 inches). This is longer than a Skoda Octavia (~2700mm) but shorter than an S-Class (>3200mm). Score: 0.25.
+*   **body\_style**: The CLS is described as a "four-door coupe" or "4-door fastback sedan". Score: 0.00.
+*   **seats**: The C218 CLS typically has seating for 4. Some sources mention 4-5 seats. Using 4 seats as the standard configuration for the coupe body. 4 seats is below the market average of 5. Score: -0.50.
+*   **cargo\_space**: The C218 CLS coupe has 475-520 litres (16.77-18.36 cu ft) of cargo space. The Shooting Brake has more (520-590 litres). Using the coupe volume, this is slightly above a Honda Civic (~15 cu ft). Score: 0.10.
+*   **rear\_space**: Rear headroom is noted as limited (927mm / 36.5 inches). Rear legroom is around 35.47 inches (901mm). Rear space is compromised compared to a traditional sedan. Score: 0.00.
+*   **ground\_clearance\_in**: Ground clearance is listed as 118mm (4.65 inches) or 95mm (3.74 inches). Using the range, it's below the average of ~6.5 inches. Score: -0.75.
+*   **turn\_radius\_ft**: Turning circle is 11.18m (36.68 ft) or 11.5m (37.7 ft). This is around the average of ~36 ft. Score: 0.00.
+*   **mpg**: Combined fuel consumption is listed as 7.1-8.4 l/100km (28-33 US mpg or 33.6-39.2 UK mpg). Real-world fuel consumption is estimated to be significantly higher (e.g., 13.6 l/100km or 18 US MPG). Using a range around 28-33 US MPG based on official figures. This is around the average of ~30 mpg. Score: 0.00.
+*   **co2\_g\_km**: CO2 emissions are listed as 169-195 g/km. This is around or higher than the average of ~175 g/km. Score: -0.10.
+*   **electrification**: Petrol engine. Score: -1.00.
+*   **electric\_range\_mi**: Not electric. Score: -1.00.
+*   **charge\_speed\_kw**: Not electric. Score: -1.00.
+*   **style\_sleek\_vs\_boxy**: The CLS is known for its sleek, coupe-like profile. Score: +1.00.
+*   **style\_aggression\_rating**: Elegant design, with AMG Sport trim adding some sportiness. Score: 0.25.
+*   **style\_modernity\_rating**: C218 facelift design is older now compared to current models. Score: -0.50.
+*   **handling\_rating**: Described as having pleasant handling, poised handling, and corners well at speed. Score: 0.50.
+*   **ride\_comfort\_rating**: Reviews praise the comfortable ride, especially with optional AIRMATIC air suspension. Score: 0.75.
+*   **cabin\_noise\_rating**: No specific detailed reviews on cabin noise found. Default to 0.00.
+*   **shift\_smooth\_rating**: The 7-speed automatic transmission is generally smooth, though some reviews mention it can be slow compared to a DCT. Score: 0.75.
+*   **steering\_feel\_rating**: Steering is described as light but accurate, accurate and responsive, well-weighted and precise. Score: 0.50.
+*   **adas\_score**: The C218 facelift had ADAS available, including Active Blind Spot Assist, Active Lane Keeping Assist, BAS Plus with Cross Traffic Assist, Pre-Safe Plus, driver fatigue detection, lane departure warning, blind spot monitoring, and adaptive cruise control. Score: 0.50.
+*   **visibility\_rating**: Rear visibility is noted as limited due to the sloping roofline. Score: -0.50.
+*   **headlight\_rating**: Facelift models had Multibeam LED headlights available. This was advanced for its time. Score: 0.75.
+*   **security\_rating**: Standard Mercedes security features like alarm and immobilizer. Score: 0.50.
+*   **screen\_in**: C218 facelift infotainment screens were larger (8 inches or 20.3 cm). Smaller than modern large screens. Score: 0.00.
+*   **infotainment\_ux\_rating**: Features the COMAND system, which was improved with the facelift, but less intuitive than modern MBUX. Score: -0.25.
+*   **smartphone\_connect\_rating**: Bluetooth audio/phone was available, but Apple CarPlay/Android Auto were not standard on this generation. Score: -0.75.
+*   **audio\_rating**: Optional Harman Kardon Logic7 sound system was available. Standard system likely decent. Score: 0.50.
+*   **usb\_ports**: Likely fewer ports than modern cars. Score: -0.50.
+*   **comfort\_feature\_score**: Standard features include Thermatic automatic climate control, heated front seats, leather upholstery, electric front seats. Optional features include Multicontour seat package, ventilated front seats, heated rear seats. Score: 0.75.
+*   **convenience\_feature\_score**: Standard features include Active Parking Assist including Parktronic, rearview camera, 360 degree camera, keyless start. Optional features like automatic parallel parking were available. Score: 0.75.
+*   **brand\_prestige\_rating**: Mercedes-Benz is a high-prestige brand. Score: +1.00.
+*   **model\_prestige\_rating**: The CLS is upper-middle/high within the brand. Score: -0.50.
+*   **trim\_prestige\_rating**: 400 is a mid-range petrol engine for the CLS. Score: 0.00.
+*   **interior\_luxury\_rating**: Luxury interior for its time with high-quality materials, hand-polished wood, and hand-fitted leather. Score: 0.75.
+*   **interior\_tech\_focus\_rating**: Less screen-focused and tech-integrated than modern cars, although the facelift improved the screen size and added ADAS. Score: -0.50.
+
 ```json
 {
-  "price_usd": 0.50,
+  "price_usd": 0.80,
   "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": -0.70,
-  "maint_usd_yr": -0.30,
-  "repair_risk_score": -0.20,
-  "hp": 0.40,
-  "torque": 0.30,
-  "cylinder_count": 0.20,
-  "engine_displacement": 0.20,
-  "accel_0_60_sec": 0.80,
+  "insurance_usd_yr": 0.00,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": 0.50,
+  "torque": 0.60,
+  "cylinder_count": 0.25,
+  "engine_displacement": 0.25,
+  "accel_0_60_sec": 0.75,
   "top_speed": 0.10,
-  "drive_type": 0.30,
+  "drive_type": 0.50,
   "transmission_type": 1.00,
   "driving_track_vs_gt": 1.00,
   "offroad_ability": 1.00,
   "braking_dist_ft": 0.00,
   "size": 0.50,
-  "wheelbase": 0.50,
+  "wheelbase": 0.25,
   "body_style": 0.00,
   "seats": -0.50,
-  "cargo_space": 0.00,
-  "rear_space": -0.50,
-  "ground_clearance_in": -0.70,
+  "cargo_space": 0.10,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.75,
   "turn_radius_ft": 0.00,
-  "mpg": -0.30,
-  "co2_g_km": -0.30,
-  "electrification": -0.50,
+  "mpg": 0.00,
+  "co2_g_km": -0.10,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 1.00,
-  "style_aggression_rating": 0.50,
+  "style_aggression_rating": 0.25,
   "style_modernity_rating": -0.50,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 1.00,
-  "cabin_noise_rating": 0.80,
-  "shift_smooth_rating": 1.00,
-  "steering_feel_rating": 0.00,
-  "adas_score": 0.30,
+  "handling_rating": 0.50,
+  "ride_comfort_rating": 0.75,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.75,
+  "steering_feel_rating": 0.50,
+  "adas_score": 0.50,
   "visibility_rating": -0.50,
-  "headlight_rating": 0.30,
-  "security_rating": 0.30,
-  "screen_in": -0.30,
-  "infotainment_ux_rating": -0.50,
-  "smartphone_connect_rating": -0.70,
-  "audio_rating": 0.70,
+  "headlight_rating": 0.75,
+  "security_rating": 0.50,
+  "screen_in": 0.00,
+  "infotainment_ux_rating": -0.25,
+  "smartphone_connect_rating": -0.75,
+  "audio_rating": 0.50,
   "usb_ports": -0.50,
-  "comfort_feature_score": 0.80,
-  "convenience_feature_score": 0.80,
-  "brand_prestige_rating": 0.80,
-  "model_prestige_rating": 0.00,
+  "comfort_feature_score": 0.75,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": -0.50,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.80,
-  "interior_tech_focus_rating": -0.30
+  "interior_luxury_rating": 0.75,
+  "interior_tech_focus_rating": -0.50
 }
 ```

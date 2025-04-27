@@ -1,0 +1,126 @@
+The Mercedes-AMG CLE 53 4MATIC+ Coupe is a high-performance variant of the new CLE lineup.
+
+**Cost & Risk:**
+*   **price_usd:** The 2025 Mercedes-AMG CLE 53 Coupe starts around $75,450 - $85,800 in the US. This is significantly above the market average of $52,000. Score: -0.50.
+*   **total_cost_estimate_5yr_usd:** AMG models typically have high ownership costs due to depreciation, maintenance, and insurance. While no specific 5-year estimate was found, it will be well above the $40,000 average, likely exceeding $80,000. Score: -1.00.
+*   **insurance_usd_yr:** The AMG CLE 53 is in UK insurance group 44E. This is very high, indicating costs well above the $1,500 average. Score: -1.00.
+*   **maint_usd_yr:** AMG maintenance is significantly more expensive than standard models. Well above the $1000 average, likely over $3,500. Score: -1.00.
+*   **repair_risk_score:** Mercedes-Benz reliability is generally considered average to slightly below average, and AMG components can be more expensive to repair. Score: -0.20.
+
+**Power & Performance (AMG CLE 53 4Matic+):**
+*   **hp:** 443 hp (plus 23 hp from mild hybrid). This is significantly above the 200 hp average and well into performance territory. Score: 0.70.
+*   **torque:** 413 lb-ft (plus 151 lb-ft from mild hybrid, 443 lb-ft with overboost). This is very high torque. Score: 0.70.
+*   **cylinder_count:** 6-cylinder inline engine. Above average. Score: 0.20.
+*   **engine_displacement:** 3.0L (2999 cm³). Above average. Score: 0.20.
+*   **accel_0_60_sec:** Mercedes-AMG claims 4.0 seconds, Car and Driver estimates 3.8 seconds, and other reviews state 4.2 seconds. Using the manufacturer's claim of 4.0 seconds. This is very fast, well below the 7.5-second average. Score: 0.80.
+*   **top_speed:** 155 mph (electronically limited), with an optional 168 mph. Above the 150 mph average. Score: 0.20.
+*   **drive_type:** AMG Performance 4MATIC+ all-wheel drive is standard. Score: 0.00.
+*   **transmission_type:** AMG SPEEDSHIFT TCT 9-speed automatic. A performance-tuned automatic. Score: 1.00.
+*   **driving_track_vs_gt:** Reviews indicate it straddles the line between sport and luxury, capable on twisty roads but also comfortable for cruising. It's a performance GT rather than a dedicated track car, though optional packages enhance track capability. Score: -0.50.
+*   **offroad_ability:** Low ground clearance, performance focus. No off-road capability. Score: 1.00.
+*   **braking_dist_ft:** Features AMG High-performance Braking System (370mm front, 360mm rear discs). Edmunds measured 60-0 mph at 114 feet. This is better than the 125 ft average, but not best-in-class (<105 ft). Score: 0.20.
+*   **size:** Length is 191.0 inches (4853-4873mm). Larger than average. Score: 0.30.
+*   **wheelbase:** Wheelbase is 113.2 inches (2875mm). Longer than average. Score: 0.30.
+*   **body_style:** 2-door coupe. Score: -1.00.
+*   **seats:** 4 seats. Score: -0.50.
+*   **cargo_space:** Trunk volume is 9.8 cu ft or 410 L (14.5 cu ft). Car and Driver lists 14.8 cu ft for the coupe. Using the higher figure. This is around the 15 cu ft average for a sedan, but below average overall. Score: -0.20.
+*   **rear_space:** Rear legroom is listed as TBA or "less spacious" than the front. Reviews mention "reasonable amount of space" for average-height adults but limited headroom. Score: -0.20.
+*   **ground_clearance_in:** Height is 56.5 inches. Ground clearance is not explicitly stated but is low for a performance coupe. Score: 0.50.
+*   **turn_radius_ft:** Turning circle is listed as TBA or 12.3m (40.35 ft). Slightly larger than the 36 ft average. Score: -0.20.
+
+**Efficiency & Electrification:**
+*   **mpg:** EPA estimated combined MPG is 22-23. City is 20 mpg, Highway is 27-28 mpg. This is below the 30 mpg average. Score: -0.70.
+*   **co2_g_km:** CO2 emissions are listed as 217-206 g/km or 243 g/km. This is well above the 175 g/km average. Score: -0.70.
+*   **electrification:** Mild hybrid system (MHEV) with Integrated Starter-Generator. Score: -0.50.
+*   **electric_range_mi:** Not a full EV or PHEV. Score: -1.00.
+*   **charge_speed_kw:** Not a full EV or PHEV. Score: -1.00.
+
+**Ride & Dynamics:**
+*   **handling_rating:** Features AMG RIDE CONTROL adaptive suspension, rear-wheel steering, and AMG Performance 4MATIC+. Reviews praise its agility, grip, responsive steering, and sharp handling, though some rivals offer sharper handling. Score: 0.80.
+*   **ride_comfort_rating:** Ride is firmer than the standard CLE due to AMG tuning, but adaptive dampers allow for a comfortable mode. Score: -0.20.
+*   **cabin_noise_rating:** Cabin is generally quiet, but engine/exhaust noise is prominent in sport modes, and tire noise can be present. Score: 0.20.
+*   **shift_smooth_rating:** The AMG SPEEDSHIFT transmission is described as smooth in Comfort but quick and crisp in sport modes. Score: 0.80.
+*   **steering_feel_rating:** Steering is responsive, precise, and has more feedback than standard CLE, aided by rear-wheel steering, but some reviews note a lack of ultimate feedback or effort buildup. Score: 0.40.
+
+**Safety & Visibility:**
+*   **adas_score:** Comes standard with automated emergency braking, lane-keeping assist, driver-attention monitor, blind-spot assist, and parking package with rearview camera/360 camera. Available adaptive cruise control and more advanced features. Score: 0.80.
+*   **visibility_rating:** Similar to the standard CLE coupe, rear visibility is somewhat limited. Score: -0.20.
+*   **headlight_rating:** Features LED Headlamps with Adaptive Highbeam Assist standard, with optional DIGITAL LIGHT with Projections. Excellent headlights. Score: 0.80.
+*   **security_rating:** Features anti-theft alarm system. GUARD 360 Vehicle Protection Plus is available. Score: 0.80.
+
+**Infotainment & Connectivity:**
+*   **screen_in:** Features a 12.3-inch digital gauge display and an 11.9-inch central touchscreen. Large screens. Score: 0.80.
+*   **infotainment_ux_rating:** Uses the latest MBUX system, described as high-tech, responsive, and featuring AMG-branded menus, but touch-sensitive steering wheel controls can be frustrating, and the system requires learning. Score: 0.70.
+*   **smartphone_connect_rating:** Standard wireless Apple CarPlay and Android Auto. Score: 1.00.
+*   **audio_rating:** Standard audio system, with standard Burmester 3D Surround Sound System on some trims (e.g., Night Edition Premium Plus). Excellent audio is standard on some versions. Score: 1.00.
+*   **usb_ports:** Features front USB ports standard, rear USB ports optional. Multiple USB-C ports are included in the USB package Plus. Score: 0.50.
+
+**Comfort & Convenience:**
+*   **comfort_feature_score:** Features heated front seats with memory, dual-zone climate control, power seats, ambient lighting standard. Available ventilated and massaging AMG Performance seats, neck warmers (Cabriolet). High level of comfort features. Score: 0.80.
+*   **convenience_feature_score:** Features Parking Package with rearview camera/360° camera standard. Keyless entry/go, hands-free trunk access available. Score: 0.80.
+
+**Style, Brand & Interior Character:**
+*   **interior_luxury_rating:** Interior uses high-end materials like Nappa leather, carbon-fiber trim, microfiber upholstery, described as upscale and luxurious. Score: 0.80.
+*   **interior_tech_focus_rating:** Features large digital screens, MBUX, voice control, ambient lighting, AMG-specific displays. Very tech-focused. Score: 0.90.
+*   **brand_prestige_rating:** Mercedes-AMG is a very high-prestige performance brand. Score: 0.90.
+*   **model_prestige_rating:** The CLE 53 is a high-performance variant, positioned below the potential top-tier AMG 63 model. It's a significant step up from the standard CLE. Score: 0.50.
+*   **trim_prestige_rating:** CLE 53 is the primary AMG performance model currently available, above the standard CLE trims but below a potential 63. Score: 0.00.
+*   **style_sleek_vs_boxy:** Maintains the CLE coupe's sleek profile but adds muscular AMG styling. Score: 0.80.
+*   **style_aggression_rating:** AMG styling, specific grille, flared arches, aggressive bumpers, spoiler lip. More aggressive than standard CLE, described as "muscular" and "urgent looking". Score: 0.70.
+*   **style_modernity_rating:** All-new model with modern design language and AMG-specific enhancements. Score: 0.80.```json
+{
+  "price_usd": -0.50,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
+  "maint_usd_yr": -1.00,
+  "repair_risk_score": -0.20,
+  "hp": 0.70,
+  "torque": 0.70,
+  "cylinder_count": 0.20,
+  "engine_displacement": 0.20,
+  "accel_0_60_sec": 0.80,
+  "top_speed": 0.20,
+  "drive_type": 0.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": -0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.20,
+  "size": 0.30,
+  "wheelbase": 0.30,
+  "body_style": -1.00,
+  "seats": -0.50,
+  "cargo_space": -0.20,
+  "rear_space": -0.20,
+  "ground_clearance_in": 0.50,
+  "turn_radius_ft": -0.20,
+  "mpg": -0.70,
+  "co2_g_km": -0.70,
+  "electrification": -0.50,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.80,
+  "style_aggression_rating": 0.70,
+  "style_modernity_rating": 0.80,
+  "handling_rating": 0.80,
+  "ride_comfort_rating": -0.20,
+  "cabin_noise_rating": 0.20,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.40,
+  "adas_score": 0.80,
+  "visibility_rating": -0.20,
+  "headlight_rating": 0.80,
+  "security_rating": 0.80,
+  "screen_in": 0.80,
+  "infotainment_ux_rating": 0.70,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 1.00,
+  "usb_ports": 0.50,
+  "comfort_feature_score": 0.80,
+  "convenience_feature_score": 0.80,
+  "brand_prestige_rating": 0.90,
+  "model_prestige_rating": 0.50,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.80,
+  "interior_tech_focus_rating": 0.90
+}
+```

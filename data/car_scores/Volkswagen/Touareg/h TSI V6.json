@@ -1,111 +1,57 @@
-The search results confirm that the most recent Volkswagen Touareg offers a V6 TSI eHybrid powertrain. There are two versions: the standard eHybrid (381 PS / 376 HP) and the R eHybrid (462 PS / 456 HP) [5, 9, 11, 12, 14, 21, 24, 25, 28, 30]. The user specified 'h TSI V6', which most closely aligns with the standard 'V6 TSI eHybrid'. I will evaluate based on the standard 381 PS eHybrid.
-
-Here's the evaluation based on the search results for the most recent Volkswagen Touareg V6 TSI eHybrid (381 PS):
-
-*   **price\_usd**: UK OTR price starts around £71,390 [21], which is well above the $35,000 average and falls into the >$100,000 territory when converted and compared to the benchmark scale. Score -0.80 (slightly less than -1.00 as it's not the absolute top-tier luxury price).
-*   **total\_cost\_estimate\_5yr\_usd**: High purchase price, complex hybrid system, and likely higher maintenance/insurance costs for a premium SUV suggest high ownership costs, though potentially offset slightly by better fuel economy if plugged in regularly. Score -0.70.
-*   **insurance\_usd\_yr**: Insurance group is high (47E) [13]. This indicates higher-than-average insurance costs. Score -0.40.
-*   **maint\_usd\_yr**: No specific data found for the eHybrid, but complex powertrains can lead to higher maintenance. Default to 0.00, as VW maintenance isn't typically as high as some pure luxury brands.
-*   **repair\_risk\_score**: Reliability ratings for the Touareg are mixed but generally below average (RepairPal 3.0/5.0, MotorEasy 29%). Hybrid systems can add complexity. Score -0.60 (slightly worse than non-hybrid due to added complexity).
-*   **hp**: System output is 381 PS (376 HP) [5, 9, 21]. This is significantly above the 200hp average. Score 0.60.
-*   **torque**: System torque is 600 Nm (442.54 lb-ft) [5, 8, 9]. This is well above the 190 lb-ft average. Score 0.70.
-*   **cylinder\_count**: V6 engine. Score 0.00.
-*   **engine\_displacement**: 3.0L. Score 0.00.
-*   **accel\_0\_60\_sec**: 0-62 mph in 5.9 seconds [4, 21]. This is significantly quicker than the 7.5s average. Score 0.40.
-*   **top\_speed**: 155 mph [4, 9, 17, 21]. Around today's average for higher-powered vehicles. Score 0.00.
-*   **drive\_type**: 4MOTION AWD is standard [4, 5, 8, 9, 21]. Score 0.00.
-*   **transmission\_type**: 8-speed automatic (Tiptronic) is standard [4, 5, 9, 16, 17, 21]. Score 1.00.
-*   **offroad\_ability**: Standard 4MOTION is capable. Optional air suspension and off-road package enhance capability [25]. Score 0.50.
-*   **braking\_dist\_ft**: No specific recent data found. Default to 0.00.
-*   **size**: Length is around 4902mm [2, 16, 19]. This is larger than the 4600mm average. Score 0.50.
-*   **wheelbase**: Wheelbase is around 2899mm - 290.4 cm [9, 16, 19]. This is longer than the 2700mm average. Score 0.40.
-*   **body\_style**: 5-door SUV. Using 0.50 as an interpretation between 4-door sedan (0.00) and 5-door van (1.00).
-*   **seats**: 5 seats [2, 15, 17, 19, 33]. Score 0.00.
-*   **cargo\_space**: 665 litres (23.48 cu ft) with seats up [4, 5, 8, 29, 32]. This is significantly more than the 15 cu ft average. Score 0.50 (lower than non-hybrid Touareg due to battery).
-*   **rear\_space**: Reviews mention generous rear legroom [4, 32]. Score 0.50.
-*   **ground\_clearance\_in**: Standard is good, air suspension increases it. Score 0.60.
-*   **turn\_radius\_ft**: Turning circle is 12.2m (40.03 ft) [8, 16]. This is larger than the 36 ft average. Score -0.40.
-*   **mpg**: Official WLTP combined is very high (108.6 - 127.5 mpg UK) [2, 8, 9, 11, 13, 18]. Real-world is much lower (around 30 mpg when battery is depleted) [11, 18]. The high official figure due to PHEV nature warrants a high score, but real-world variability pulls it down slightly from perfect. Score 0.80.
-*   **co2\_g\_km**: Official WLTP is low (47-52 g/km) [14, 21], though some sources list slightly higher (51-56 g/km) [2, 11, 13, 15, 17, 24, 28]. This is significantly lower than the 175 g/km average. Score 0.80.
-*   **electric\_range\_mi**: Official WLTP range is 31-32 miles (47-53 km) [4, 9, 11, 13, 18, 25, 27]. Real-world is closer to 22-25 miles [2, 11, 35]. This is around the average for current PHEVs, but not class-leading. Score -0.20.
-*   **charge\_speed\_kw**: AC charging up to 7.2 kW [24, 27]. No DC rapid charging [35]. 7.2 kW is better than typical home charging but not high-speed public charging. Score 0.00.
-*   **style\_sleek\_vs\_boxy**: Modern SUV, not particularly sleek or boxy. Score 0.20.
-*   **style\_aggression\_rating**: Standard eHybrid is less aggressive than the R, but still a large SUV. Score 0.10.
-*   **style\_modernity\_rating**: Facelifted design is modern with updated lighting. Score 0.50.
-*   **handling\_rating**: Geared towards comfort, feels heavy, not particularly agile [4, 11, 35]. Score 0.30.
-*   **ride\_comfort\_rating**: Known for excellent ride comfort, especially with air suspension (standard on some eHybrid trims like R, optional on Elegance) [4, 11, 35]. Score 0.80.
-*   **cabin\_noise\_rating**: Very quiet and refined cabin, especially in electric mode [4, 11]. Score 0.80.
-*   **shift\_smooth\_rating**: 8-speed automatic is generally smooth [4]. Score 0.60.
-*   **steering\_feel\_rating**: Steering is comfortable but lacks feel [4, 35]. Score 0.00.
-*   **adas\_score**: Equipped with a comprehensive suite of modern ADAS features [17, 24]. Score 0.80.
-*   **visibility\_rating**: Good visibility for an SUV. Score 0.60.
-*   **headlight\_rating**: IQ.LIGHT HD Matrix LED headlights are available and highly rated. Score 0.80.
-*   **security\_rating**: No specific data found. Default to 0.00.
-*   **screen\_in**: Features a 15-inch central touchscreen and 12-inch digital cockpit (Innovision Cockpit) [4, 17, 32]. Large screens. Score 0.80.
-*   **infotainment\_ux\_rating**: Innovision Cockpit is high-tech but some reviews mention fiddly touch controls and reliance on the touchscreen [4, 32]. Score 0.50.
-*   **smartphone\_connect\_rating**: Wireless Apple CarPlay and Android Auto are available [17]. Score 0.80.
-*   **audio\_rating**: Premium audio options (Dynaudio) are available and well-regarded [6]. Score 0.70.
-*   **usb\_ports**: Likely has multiple USB-C ports. Score 0.70.
-*   **comfort\_feature\_score**: Offers many comfort features including heated/ventilated/massaging seats, multi-zone climate control [6, 10]. Score 0.80.
-*   **convenience\_feature\_score**: Offers many convenience features like power liftgate, 360 cameras, park assist, keyless entry [17]. Score 0.80.
-*   **brand\_prestige\_rating**: Volkswagen is a mainstream brand, but the Touareg is its flagship, competing in a near-premium segment. Score 0.30.
-*   **model\_prestige\_rating**: The Touareg is the top model in the VW lineup. Score -0.80 (based on the inverted scale).
-*   **trim\_prestige\_rating**: The standard eHybrid is a high trim level, below the top R but above base models. Score -0.50 (based on the inverted scale).
-*   **interior\_luxury\_rating**: Interior uses premium materials and has a luxurious feel [4, 32]. Score 0.60.
-*   **interior\_tech\_focus\_rating**: Innovision Cockpit and extensive digital displays give it a strong tech focus [4, 32]. Score 0.80.
-
-Confidence Score: 5/5 - Data for the V6 TSI eHybrid (381 PS) is readily available from multiple recent sources covering specs, performance, efficiency, and interior features.```json
+```json
 {
-  "price_usd": -0.80,
-  "total_cost_estimate_5yr_usd": -0.70,
-  "insurance_usd_yr": -0.40,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": -0.60,
+  "price_usd": -0.60,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": -0.70,
+  "maint_usd_yr": -0.30,
+  "repair_risk_score": 0.00,
   "hp": 0.60,
   "torque": 0.70,
-  "cylinder_count": 0.00,
-  "engine_displacement": 0.00,
-  "accel_0_60_sec": 0.40,
-  "top_speed": 0.00,
+  "cylinder_count": 0.30,
+  "engine_displacement": 0.40,
+  "accel_0_60_sec": 0.60,
+  "top_speed": 0.10,
   "drive_type": 0.00,
   "transmission_type": 1.00,
-  "offroad_ability": 0.50,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 0.00,
   "braking_dist_ft": 0.00,
-  "size": 0.50,
-  "wheelbase": 0.40,
-  "body_style": 0.50,
+  "size": 0.70,
+  "wheelbase": 0.60,
+  "body_style": 0.00,
   "seats": 0.00,
   "cargo_space": 0.50,
-  "rear_space": 0.50,
-  "ground_clearance_in": 0.60,
-  "turn_radius_ft": -0.40,
+  "rear_space": 0.70,
+  "ground_clearance_in": 0.50,
+  "turn_radius_ft": -0.30,
   "mpg": 0.80,
   "co2_g_km": 0.80,
-  "electric_range_mi": -0.20,
+  "electrification": 0.00,
+  "electric_range_mi": 0.00,
   "charge_speed_kw": 0.00,
-  "style_sleek_vs_boxy": 0.20,
-  "style_aggression_rating": 0.10,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.40,
   "style_modernity_rating": 0.50,
   "handling_rating": 0.30,
-  "ride_comfort_rating": 0.80,
+  "ride_comfort_rating": 0.90,
   "cabin_noise_rating": 0.80,
-  "shift_smooth_rating": 0.60,
-  "steering_feel_rating": 0.00,
+  "shift_smooth_rating": 0.80,
+  "steering_feel_rating": 0.20,
   "adas_score": 0.80,
-  "visibility_rating": 0.60,
-  "headlight_rating": 0.80,
+  "visibility_rating": 0.70,
+  "headlight_rating": 0.90,
   "security_rating": 0.00,
-  "screen_in": 0.80,
-  "infotainment_ux_rating": 0.50,
-  "smartphone_connect_rating": 0.80,
+  "screen_in": 0.90,
+  "infotainment_ux_rating": 0.40,
+  "smartphone_connect_rating": 1.00,
   "audio_rating": 0.70,
-  "usb_ports": 0.70,
+  "usb_ports": 0.90,
   "comfort_feature_score": 0.80,
   "convenience_feature_score": 0.80,
-  "brand_prestige_rating": 0.30,
-  "model_prestige_rating": -0.80,
-  "trim_prestige_rating": -0.50,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": -0.50,
+  "trim_prestige_rating": 0.00,
   "interior_luxury_rating": 0.60,
-  "interior_tech_focus_rating": 0.80
+  "interior_tech_focus_rating": 0.90
 }
 ```

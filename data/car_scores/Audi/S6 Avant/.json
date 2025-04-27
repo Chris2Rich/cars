@@ -1,66 +1,69 @@
-Based on the search results, there are two main versions of the latest Audi S6 Avant: the TDI (diesel with mild hybrid) and the upcoming e-tron (fully electric). The user did not specify, but the TDI has been the standard S6 Avant for a while, while the e-tron is brand new for 2025. Given the prompt asks for the "most recent version (when applicable)", and both are current/upcoming, I will prioritize the electric version as it represents the newest technology for the S6 nameplate, and the search results provide more comprehensive data for the e-tron. If the user meant the internal combustion version, the TDI data is also available in the results. I will proceed with the S6 Avant e-tron.
+Based on the search results, there are two main versions of the latest Audi S6 Avant being discussed: the TDI (diesel) and the upcoming e-tron (electric). The user asked for the "most recent version," which could refer to either the latest model year available now (TDI) or the soon-to-be-released electric version. Given the search results heavily feature the e-tron and its specs are more forward-looking, I will prioritize the S6 Avant e-tron for the evaluation, as it represents the newest technology and direction for the model. I will use data primarily from results discussing the 2024/2025 S6 Avant e-tron.
 
-Here's the data extracted and scored:
+Here's the data extracted and the corresponding scores based on the guide:
 
-- **price_usd**: UK price starts from £99,300 (for Edition 1 trim). This is significantly above the $52,000 average. Score: -1.00.
-- **total_cost_estimate_5yr_usd**: No specific 5-year cost estimate found. High purchase price and potential EV maintenance/repair costs (though potentially lower than complex ICE) suggest above average cost. Default to 0.00, but leaning negative. Let's stick to 0.00 as no concrete data.
-- **insurance_usd_yr**: No specific insurance group or cost found. High performance and price suggest high insurance. Default to 0.00.
-- **maint_usd_yr**: No specific annual maintenance cost found. EVs generally have lower routine maintenance, but performance variants can be more expensive. Default to 0.00.
-- **repair_risk_score**: No specific reliability rating for the S6 e-tron. Audi's general reputation is average to good, but new EV platforms can have initial issues. Previous S6 generations had some reported issues (e.g., transmission, engine solenoids). Default to 0.00.
-- **hp**: 550 hp (with launch control). This is well above the 200 hp average. Score: +0.70 (Below 700hp, but significantly above average).
-- **torque**: 620 lb-ft combined. This is significantly above the 190 lb-ft average. Score: +0.70 (Below 1000+ lb-ft, but very high).
-- **cylinder_count**: N/A (Electric). Score: 0.00.
-- **engine_displacement**: N/A (Electric). Score: 0.00.
-- **accel_0_60_sec**: 3.9 seconds (with launch control). This is very fast, well below the 7.5 sec average. Score: +0.80 (Below 2.5 sec, but very quick).
-- **top_speed**: 149 mph (limited). This is around the 150 mph average for performance cars, but below the top tier. Score: 0.00.
-- **drive_type**: AWD (Quattro). Score: 0.00.
-- **transmission_type**: Single-speed (EV). Score: +1.00 (Automatic/EV equivalent).
-- **driving_track_vs_gt**: Reviews emphasize comfort and long-distance cruising. Score: +1.00 (Grand Touring).
-- **offroad_ability**: Low ground clearance, performance focus. Score: +1.00 (Poor off-road).
-- **braking_dist_ft**: No specific braking distance found for the e-tron. The ICE S6 sedan was 153 ft from 70 mph. Default to 0.00.
-- **size**: Length 4928 mm (194.0 in). This is larger than the 4600mm average. Score: +0.50.
-- **wheelbase**: 2946 mm (116.0 in). This is larger than the 2700mm average. Score: +0.50.
-- **body_style**: 5-door estate (wagon). Score: 0.00.
+- **price_usd**: UK RRP range £95,040 to £99,340. £99,300. This is well above the $120,000 threshold for -1.00. Converting £99,300 to USD (approx 1.27 USD/GBP) is ~$126,111. This is just over the -1.00 threshold. Score: -1.00.
+- **total_cost_estimate_5yr_usd**: No specific 5-year cost found. High purchase price, potential for high insurance/maintenance on a performance EV. Likely >$80,000. Score: -1.00.
+- **insurance_usd_yr**: UK insurance group 45E, 49E for the TDI. EVs can sometimes be higher. Assuming similar high group for e-tron. >$3,500/year. Score: -1.00.
+- **maint_usd_yr**: EVs generally have lower maintenance than ICE, but performance models can still be costly. No specific data found. Default to average for now, but likely better than performance ICE. Score: 0.00.
+- **repair_risk_score**: No specific reliability rating found for the e-tron. Audi is generally average. Default to average. Score: 0.00.
+- **hp**: 503 hp (551 hp with launch control). This is significantly above the 200 hp average and well into the high-performance range, but not 700+ hp. Score: +0.70.
+- **torque**: 620 lb-ft combined. 955 Nm / 704 lb-ft. Using 620 lb-ft as a conservative figure. Well above the 190 lb-ft average, but not 1000+ lb-ft. Score: +0.70.
+- **cylinder_count**: Electric. Score: 0.00 (N/A for cylinders).
+- **engine_displacement**: Electric. Score: 0.00 (N/A for displacement).
+- **accel_0_60_sec**: 3.9 seconds (0-62 mph). This is very fast, well below the 7.5 sec average and approaching the <2.5 sec best-in-class. Score: +0.80.
+- **top_speed**: 149 mph (governed). 240 km/h. This is above the 150 mph average, but not significantly higher. Score: +0.10.
+- **drive_type**: All-wheel drive (Quattro). Score: 0.00.
+- **transmission_type**: 1-speed transmission (EV). Score: +1.00 (Automatic/EV equivalent).
+- **driving_track_vs_gt**: Described as comfortable and good for long distances. More GT focused. Score: +1.00.
+- **offroad_ability**: Low ground clearance (assuming similar to ICE S6 sedan 5 in / 123mm), not designed for off-road. Score: +1.00.
+- **braking_dist_ft**: No specific braking distance found for the e-tron. ICE S6 sedan is 153 ft (70-0 mph). Assuming the heavier EV might have a longer distance than the ICE, but likely still good performance brakes. Default to average. Score: 0.00.
+- **size**: Length 4928 mm (194 inches). 4954 mm (195.43 in) for TDI. Width 1923 mm (75.7 inches). This is larger than the 4600mm average. Score: +0.50.
+- **wheelbase**: 2950 mm (116.1 inches). 2928 mm (115.28 in) for TDI. Larger than the 2700mm average. Score: +0.50.
+- **body_style**: 5-door estate/station wagon. Score: 0.00.
 - **seats**: 5 seats. Score: 0.00.
-- **cargo_space**: 502 litres (17.7 cu ft) with seats up, 1422 litres (50.2 cu ft) max. 17.7 cu ft is slightly above the 15 cu ft average. Score: +0.10.
-- **rear_space**: Reviews mention ample leg and headroom for tall passengers. Score: +0.50.
-- **ground_clearance_in**: No specific ground clearance found for the e-tron. The ICE S6 sedan is 5 inches (123 mm). Score: -0.50 (Below 6.5 inches).
-- **turn_radius_ft**: Turning circle 11.90 m (39 ft 1 in) for the ICE S6. This is slightly above the 36 ft average. Score: -0.10.
-- **mpg**: N/A (Electric). Score: 0.00.
+- **cargo_space**: 502 litres (17.7 cu ft) seats up, 1422 litres (50.2 cu ft) max for e-tron. 550 litres (19.4 cu ft) for TDI. Using e-tron figure. 17.7 cu ft is slightly above the 15 cu ft average. Score: +0.10.
+- **rear_space**: Described as ample leg and headroom. Likely above average. Score: +0.50.
+- **ground_clearance_in**: 123 mm (5 inches) for ICE S6 sedan. Assuming similar for e-tron Avant, which is low for a wagon. Below the 6.5" average. Score: -0.50.
+- **turn_radius_ft**: 11.90 m (39 ft 1 in) for ICE S6 sedan. Slightly above the 36 ft average. Score: -0.10.
+- **mpg**: Electric vehicle. Score: +1.00.
 - **co2_g_km**: 0 g/km. Score: +1.00.
-- **electrification**: Full Electric Vehicle (BEV). Score: +1.00.
-- **electric_range_mi**: 325 miles (Real Range). WLTP is higher (384-402 miles). 325 miles is well above the 100 mi average. Score: +0.80.
-- **charge_speed_kw**: Max 270 kW DC. This is high-speed DC fast charging. Score: +1.00.
-- **style_sleek_vs_boxy**: Sleek, aerodynamic design (0.24 Cd for Avant). Less boxy than an SUV, more sleek than a traditional wagon. Score: +0.20.
-- **style_aggression_rating**: Sporty details, pronounced haunches, S-specific bumpers. Above average aggression. Score: +0.40.
-- **style_modernity_rating**: Futuristic design, cutting-edge technology. Score: +0.80.
-- **handling_rating**: Described as sporty and capable, disguises its size, but less sharp than some rivals. Above average. Score: +0.40.
-- **ride_comfort_rating**: Described as incredibly comfortable, serene, soaks up poor surfaces. Excellent comfort. Score: +0.90.
-- **cabin_noise_rating**: Quiet cabin, road and wind noise almost nonexistent. Excellent. Score: +0.90.
-- **shift_smooth_rating**: N/A (Single-speed EV). Score: +1.00.
-- **steering_feel_rating**: Nice weight, quick to respond, but maybe less engaging than pure sports cars. Above average. Score: +0.40.
-- **adas_score**: Host of standard and available high-tech driver-assistance features, including 360 camera, park assist, adaptive cruise control available. Above average. Score: +0.70.
-- **visibility_rating**: No specific rating found, but wagon body style and reviews mentioning ample interior space suggest good visibility. Default to 0.00, but leaning positive. Let's stick to 0.00.
-- **headlight_rating**: Matrix LED headlights available. Above average. Score: +0.70.
-- **security_rating**: No specific security rating found. Audi is a premium brand, likely has good security features. Default to 0.00.
-- **screen_in**: 10.1-inch upper, 8.6-inch lower touchscreens, 12-inch digital driver display (Virtual Cockpit), optional 10.9" passenger display. Large screens. Score: +0.80.
-- **infotainment_ux_rating**: MMI touch system, generally easy to use but touch climate controls can be fiddly. Overall good. Score: +0.50.
-- **smartphone_connect_rating**: Wireless Apple CarPlay/Android Auto included. Excellent. Score: +1.00.
-- **audio_rating**: Bang & Olufsen sound system available/standard on higher trims. Above average. Score: +0.70.
-- **usb_ports**: No specific number found. Modern Audi likely has multiple ports. Default to 0.00.
-- **comfort_feature_score**: Four-zone climate control, supportive leather sports seats, heated front seats standard, heated rear seats, massaging seats, ventilated seats available. High level of comfort features. Score: +0.80.
-- **convenience_feature_score**: Power operated tailgate, 360 camera, park assist plus, Keyless Go, Head-up display, remote park assist plus available. High level of convenience features. Score: +0.80.
-- **brand_prestige_rating**: Audi is a premium German brand. Score: +0.70.
-- **model_prestige_rating**: S6 is a performance variant, below RS models. Score: 0.00.
-- **trim_prestige_rating**: S6 e-tron variants available exclusively with enhanced Edition 1 trim. This is a high trim level. Score: 0.00.
-- **interior_luxury_rating**: Luxury-car rich, high-end features, fine materials, impeccable fit and finish, leather, aluminium trims. High luxury. Score: +0.80.
-- **interior_tech_focus_rating**: Dashboard dominated by digital displays, multiple screens, Virtual Cockpit, head-up display. High tech focus. Score: +0.90.
+- **electrification**: Full electric vehicle (BEV). Score: +1.00.
+- **electric_range_mi**: Up to 388 miles (WLTP). Real range estimate 325 mi. Real range between 235 - 465 mi. Using 388 miles WLTP. Well above the 100 mi average and approaching the >375 mi best-in-class. Score: +0.90.
+- **charge_speed_kw**: Up to 270 kW DC. High-speed DC fast charging. Score: +1.00.
+- **style_sleek_vs_boxy**: Described as having a typical Avant silhouette, sporty proportions, and clear lines. Less sleek than a Sportback, but not boxy. Score: 0.00.
+- **style_aggression_rating**: Sporty details, pronounced haunches, S-specific features. More aggressive than a standard A6. Score: +0.50.
+- **style_modernity_rating**: Represents the next evolutionary stage of e-tron design, futuristic design, cutting-edge technology. Modern design. Score: +0.70.
+- **handling_rating**: Described as agile and sporty, disguises its size, handles corners with confidence, but also a bit of a "two-tonne pudding" compared to sharper rivals. Good for its size, but not a pure sports car. Score: +0.50.
+- **ride_comfort_rating**: Supremely comfortable, standard-fit air suspension does a phenomenal job, serene ride quality, smooth as butter. Excellent comfort. Score: +0.90.
+- **cabin_noise_rating**: Road and wind noise almost nonexistent. Quiet cabin. Score: +0.90.
+- **shift_smooth_rating**: 1-speed EV transmission is inherently smooth. Score: +1.00.
+- **steering_feel_rating**: Steering has a nice weight and is quick to respond. Likely good, but maybe not as engaging as a pure sports car. Score: +0.50.
+- **adas_score**: Huge amount of driver-assistance tech available, camera based traffic sign recognition, lane departure warning, park assist plus, 360 camera, remote park assist plus. Audi is strong in ADAS. Score: +0.80.
+- **visibility_rating**: No specific rating found, but wagon body style and likely large windows suggest good visibility. Score: +0.50.
+- **headlight_rating**: Matrix LED headlights available. High-quality lighting. Score: +0.80.
+- **security_rating**: No specific security rating found. Premium car likely has good security features. Default to average. Score: 0.00.
+- **screen_in**: Main 10.1-inch infotainment touchscreen, secondary 8.6-inch display, 12-inch digital driver's display (Virtual Cockpit). 14.5-inch central display, 11.9-inch driver's, 10.9-inch passenger display. Using the larger e-tron screens. Large screens. Score: +0.80.
+- **infotainment_ux_rating**: MMI navigation plus with touch screens. Mostly easy to use, but touch-sensitive climate controls a bit fiddly. Audi's cabin tech game is strong. Generally good, but some touch controls can be less intuitive. Score: +0.70.
+- **smartphone_connect_rating**: Audi smartphone interface includes wireless Apple carplay/Android Auto. Standard and wireless. Score: +1.00.
+- **audio_rating**: Bang & Olufsen stereo system available. Premium audio options. Score: +0.80.
+- **usb_ports**: No specific number found. Likely sufficient in a modern premium car. Default to average. Score: 0.00.
+- **comfort_feature_score**: Four-zone climate control, supportive leather sports seats, heated front seats standard, heated rear seats available, massaging seats available. High level of comfort features. Score: +0.90.
+- **convenience_feature_score**: Power operated tailgate, 360 degree camera, remote park assist plus, soft-close doors available. High level of convenience features. Score: +0.90.
+- **brand_prestige_rating**: Audi is a premium German brand. Score: +0.80.
+- **model_prestige_rating**: S6 is a performance variant of the A6, above the standard model but below RS models. Score: 0.00.
+- **trim_prestige_rating**: S6 is a high-performance trim. Score: 0.00.
+- **interior_luxury_rating**: Sumptuous leather sports seats, premium switchgear and trim, fine leather, open-pore wood and aluminum trim available. High quality interior. Score: +0.90.
+- **interior_tech_focus_rating**: Dominated by digital displays, three different screens, Virtual Cockpit. Screen-forward, tech-focused interior. Score: +1.00.
+- **style_sleek_vs_boxy**: Wagon shape is not as sleek as a coupe, but not boxy like an SUV. Score: 0.00. (Re-evaluating based on guide examples).
+- **style_aggression_rating**: S-specific features, aggressive body. More aggressive than average. Score: +0.50. (Re-evaluating based on guide examples).
+- **style_modernity_rating**: Represents the next evolutionary stage of e-tron design, futuristic design. Modern design. Score: +0.70. (Re-evaluating based on guide examples).
 
-Double check all scores against the benchmarks and ensure they are within the -1.00 to +1.00 range with two decimal places. Ensure only JSON is returned.```json
+Double-check all scores against the guide and ensure they are within the -1.00 to +1.00 range with two decimal places. Ensure only JSON is outputted.```json
 {
   "price_usd": -1.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
+  "total_cost_estimate_5yr_usd": -1.00,
+  "insurance_usd_yr": -1.00,
   "maint_usd_yr": 0.00,
   "repair_risk_score": 0.00,
   "hp": 0.70,
@@ -68,7 +71,7 @@ Double check all scores against the benchmarks and ensure they are within the -1
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
   "accel_0_60_sec": 0.80,
-  "top_speed": 0.00,
+  "top_speed": 0.10,
   "drive_type": 0.00,
   "transmission_type": 1.00,
   "driving_track_vs_gt": 1.00,
@@ -82,34 +85,34 @@ Double check all scores against the benchmarks and ensure they are within the -1
   "rear_space": 0.50,
   "ground_clearance_in": -0.50,
   "turn_radius_ft": -0.10,
-  "mpg": 0.00,
+  "mpg": 1.00,
   "co2_g_km": 1.00,
   "electrification": 1.00,
-  "electric_range_mi": 0.80,
+  "electric_range_mi": 0.90,
   "charge_speed_kw": 1.00,
-  "style_sleek_vs_boxy": 0.20,
-  "style_aggression_rating": 0.40,
-  "style_modernity_rating": 0.80,
-  "handling_rating": 0.40,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": 0.50,
+  "style_modernity_rating": 0.70,
+  "handling_rating": 0.50,
   "ride_comfort_rating": 0.90,
   "cabin_noise_rating": 0.90,
   "shift_smooth_rating": 1.00,
-  "steering_feel_rating": 0.40,
-  "adas_score": 0.70,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.70,
+  "steering_feel_rating": 0.50,
+  "adas_score": 0.80,
+  "visibility_rating": 0.50,
+  "headlight_rating": 0.80,
   "security_rating": 0.00,
   "screen_in": 0.80,
-  "infotainment_ux_rating": 0.50,
+  "infotainment_ux_rating": 0.70,
   "smartphone_connect_rating": 1.00,
-  "audio_rating": 0.70,
+  "audio_rating": 0.80,
   "usb_ports": 0.00,
-  "comfort_feature_score": 0.80,
-  "convenience_feature_score": 0.80,
-  "brand_prestige_rating": 0.70,
+  "comfort_feature_score": 0.90,
+  "convenience_feature_score": 0.90,
+  "brand_prestige_rating": 0.80,
   "model_prestige_rating": 0.00,
   "trim_prestige_rating": 0.00,
-  "interior_luxury_rating": 0.80,
-  "interior_tech_focus_rating": 0.90
+  "interior_luxury_rating": 0.90,
+  "interior_tech_focus_rating": 1.00
 }
 ```

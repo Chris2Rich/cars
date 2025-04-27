@@ -1,55 +1,113 @@
-```json
+Search results confirm that a Volkswagen Beetle was indeed offered with a 2.3L VR5 (V5) engine. This was part of the *New Beetle* generation (Typ 9C), specifically from 2001 to 2005. The engine produced 170 PS (168 hp) and 220 Nm (162 lb-ft) of torque. It had a top speed of 131 mph and a 0-62 mph time of 8.7 seconds. It was available with manual and automatic transmissions.
+
+The most recent version of the Beetle with a V5 engine would be from around 2005. I will evaluate based on the specs of the 2005 New Beetle 2.3 V5 relative to today's market.
+
+*   **Price:** A 2005 New Beetle V5 would be a used car, likely selling for well under $10,000. Score +1.00.
+*   **Total Cost Estimate (5yr):** Low purchase price is a major factor. Maintenance and repair costs for a 20-year-old car, especially with a less common engine like the VR5, could be higher than average. Insurance group is likely moderate. Score 0.00.
+*   **Insurance USD/yr:** Insurance group is not specified, but for a 2005 model with 170hp, it's likely moderate, below the average for a new car. Score 0.25.
+*   **Maint USD/yr:** Maintenance on a 20-year-old VW can be average to high depending on condition and engine complexity (VR5 is less common than I4). Score 0.00.
+*   **Repair Risk Score:** Older VWs are generally average for reliability, but a less common engine like the VR5 might pose higher repair risks or costs if issues arise. Score -0.25.
+*   **HP:** 168 hp. This was decent for 2005 but is below the modern average (~200 hp). Score -0.25.
+*   **Torque:** 162 lb-ft. This is below the modern average (~190 lb-ft). Score -0.25.
+*   **Cylinder Count:** 5 (VR5). This is unusual; 4 or 6 are more common. Score 0.00.
+*   **Engine Displacement:** 2.3L. This is around the modern average (2.0-3.0L). Score 0.00.
+*   **Accel 0-60 sec:** Around 8.7 seconds (0-62 mph). This was average for 2005 but is slow by modern standards (~7.5s average). Score -0.25.
+*   **Top Speed:** 131 mph. This was average for 2005 but is below average now (~150 mph). Score -0.50.
+*   **Drive Type:** FWD. Score -1.00.
+*   **Transmission Type:** Available with 5-speed manual or automatic. Manual is less common/preferred now. Score 0.00 (averaging manual and auto availability).
+*   **Driving Track vs GT:** Daily driver. Score 0.00.
+*   **Offroad Ability:** Very poor. Score 1.00.
+*   **Braking Dist ft:** Not specified, but had disc brakes with ABS. Likely average for its era, below average now. Score -0.50.
+*   **Size:** Length ~4.1m, Wheelbase ~2.5m. Compact size. Score -0.50.
+*   **Wheelbase:** 2515 mm (99.0 in). Compact wheelbase. Score -0.50.
+*   **Body Style:** 2-door hatchback/coupe or convertible. Less practical than a 4-door sedan/hatchback or SUV. Score -1.00.
+*   **Seats:** 4. Below average (5 is typical). Score -0.50.
+*   **Cargo Space:** 12 cu ft (340 L). Small. Score -0.50.
+*   **Rear Space:** Reviews mention limited rear space. Score -0.75.
+*   **Ground Clearance in:** Not specified, but typical for a compact car. Score -0.50.
+*   **Turn Radius ft:** Not specified. Assume average for a compact car. Score 0.00.
+*   **MPG:** 31.7 mpg (UK combined). This is roughly equivalent to ~26 mpg US combined. Below average for a petrol car today. Score -0.25.
+*   **CO2 g/km:** 214 g/km. High by modern standards. Score -0.50.
+*   **Electrification:** Petrol. Score -1.00.
+*   **Electric Range mi:** N/A. Score -1.00.
+*   **Charge Speed kW:** N/A. Score -1.00.
+*   **Handling Rating:** Reviews often mention comfortable ride, not sporty handling. Score 0.00.
+*   **Ride Comfort Rating:** Generally considered comfortable. Score 0.50.
+*   **Cabin Noise Rating:** Likely average for its era, maybe higher than modern cars. Score 0.00.
+*   **Shift Smooth Rating:** Depends on transmission. Automatic was likely average for 2005. Score 0.00.
+*   **Steering Feel Rating:** Likely light and easy for city driving. Score 0.00.
+*   **ADAS Score:** ABS, ESP standard. No modern ADAS. Score -1.00.
+*   **Visibility Rating:** Good forward visibility, potentially limited rear in hatchback. Score 0.00.
+*   **Headlight Rating:** Likely halogen or optional Xenon. Average for its era, below average now. Score -0.50.
+*   **Security Rating:** Remote central locking with alarm and immobiliser standard. Average for its era. Score 0.00.
+*   **Screen in:** Likely basic radio/CD player standard. Some might have had small optional screens. Score -1.00.
+*   **Infotainment UX Rating:** Basic radio/CD. Score -1.00.
+*   **Smartphone Connect Rating:** Not available originally. Aftermarket exists. Score -1.00.
+*   **Audio Rating:** Standard system. Score -1.00.
+*   **USB Ports:** Not standard. Score -1.00.
+*   **Comfort Feature Score:** Air conditioning, heated leather seats available. Manual seats standard. Average for its era, below average now. Score -0.50.
+*   **Convenience Feature Score:** Electric windows/mirrors, remote locking standard. Parking sensors optional. Average for its era, below average now. Score -0.50.
+*   **Brand Prestige Rating:** Volkswagen is a mainstream brand. Score 0.00.
+*   **Model Prestige Rating:** Iconic status, but this is an older generation. Score 0.50.
+*   **Trim Prestige Rating:** V5 was a higher-performance engine option for the New Beetle. Score 0.00.
+*   **Interior Luxury Rating:** Materials were decent for its era, but not luxury. Leather seats available. Score -0.50.
+*   **Interior Tech Focus Rating:** Minimal tech compared to modern cars. Score -1.00.
+*   **Style Sleek vs Boxy:** Unique, rounded shape, not sleek or boxy. Score 0.00.
+*   **Style Aggression Rating:** Not aggressive, even with the V5 engine. Score -1.00.
+*   **Style Modernity Rating:** Retro design, dated by modern standards. Score -1.00.```json
 {
- "price_usd": 0.10,
- "total_cost_estimate_5yr_usd": 0.10,
- "insurance_usd_yr": -0.10,
- "maint_usd_yr": 0.10,
- "repair_risk_score": 0.10,
- "hp": -0.10,
- "torque": -0.10,
- "cylinder_count": -0.10,
- "engine_displacement": -0.10,
- "accel_0_60_sec": -0.10,
- "top_speed": -0.10,
- "drive_type": -1.00,
- "transmission_type": -1.00,
- "offroad_ability": 1.00,
- "braking_dist_ft": 0.00,
- "size": -0.50,
- "wheelbase": -0.50,
- "body_style": -1.00,
- "seats": -0.10,
- "cargo_space": -0.10,
- "rear_space": -0.50,
- "ground_clearance_in": -0.50,
- "turn_radius_ft": 0.00,
- "mpg": -0.10,
- "co2_g_km": -0.50,
- "electric_range_mi": -1.00,
- "charge_speed_kw": -1.00,
- "style_sleek_vs_boxy": 0.00,
- "style_aggression_rating": -0.50,
- "style_modernity_rating": -0.50,
- "handling_rating": 0.00,
- "ride_comfort_rating": 0.10,
- "cabin_noise_rating": 0.00,
- "shift_smooth_rating": 0.00,
- "steering_feel_rating": 0.00,
- "adas_score": -1.00,
- "visibility_rating": 0.10,
- "headlight_rating": -0.50,
- "security_rating": 0.00,
- "screen_in": -0.50,
- "infotainment_ux_rating": -0.50,
- "smartphone_connect_rating": -1.00,
- "audio_rating": 0.00,
- "usb_ports": -1.00,
- "comfort_feature_score": 0.00,
- "convenience_feature_score": 0.00,
- "brand_prestige_rating": 0.00,
- "model_prestige_rating": 0.00,
- "trim_prestige_rating": -0.10,
- "interior_luxury_rating": 0.00,
- "interior_tech_focus_rating": -0.50
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.00,
+  "insurance_usd_yr": 0.25,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": -0.25,
+  "hp": -0.25,
+  "torque": -0.25,
+  "cylinder_count": 0.00,
+  "engine_displacement": 0.00,
+  "accel_0_60_sec": -0.25,
+  "top_speed": -0.50,
+  "drive_type": -1.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -0.50,
+  "size": -0.50,
+  "wheelbase": -0.50,
+  "body_style": -1.00,
+  "seats": -0.50,
+  "cargo_space": -0.50,
+  "rear_space": -0.75,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.25,
+  "co2_g_km": -0.50,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -1.00,
+  "style_modernity_rating": -1.00,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": -1.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": -0.50,
+  "security_rating": 0.00,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": -1.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": -0.50,
+  "convenience_feature_score": -0.50,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.50,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": -0.50,
+  "interior_tech_focus_rating": -1.00
 }
 ```

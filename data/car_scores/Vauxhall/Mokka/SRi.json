@@ -1,111 +1,111 @@
-The user is asking for an evaluation of the most recent version of the Vauxhall Mokka with the "SRi" trim. The SRi trim was available on the current generation Vauxhall Mokka (launched 2020/2021). I will evaluate based on the specifications and reviews for this model and trim, focusing on the 1.2 Turbo 130PS petrol engine with automatic transmission, as this was a common and higher-powered option for the SRi trim (Source [4], [10], [15], [29], [40], [41]).
+The Vauxhall Mokka SRi trim was available on the first generation of the current Mokka (2021-2023 model years) and was positioned as a sportier trim level. It has since been largely replaced by the GS trim. I will evaluate based on the specifications commonly found for the 2021-2023 Mokka SRi and SRi Nav Premium trims.
 
-Here is the evaluation based on the gathered data for the current generation Vauxhall Mokka 1.2 Turbo 130PS SRi (or SRi Premium/Nav Premium, as specs are similar):
-
-*   **price_usd**: New prices for the Mokka SRi/SRi Premium were around £24,455 - £27,775 (Source [3], [4], [8], [9], [18], [34]), which is roughly $30,000 - $35,000 USD. This is around the market average of $35,000. Score: 0.00.
-*   **total_cost_estimate_5yr_usd**: Vauxhall/Opel generally have average ownership costs for mainstream brands. Score: 0.00.
-*   **insurance_usd_yr**: Insurance groups for the Mokka SRi/SRi Premium are typically in the mid-to-high teens, around group 18E or 19E (Source [10], [11], [14], [15], [19], [20], [29]). This is around the national average. Score: 0.00.
-*   **maint_usd_yr**: Maintenance costs are generally average for a mainstream brand like Vauxhall. Score: 0.00.
-*   **repair_risk_score**: The current generation Mokka is based on a shared Stellantis platform. Reliability is generally considered average for this platform (Source [21], [23], [30]), though some sources rate it slightly above average (Source [22], [23], [30]). Score: 0.00.
-*   **hp**: The 1.2 Turbo 130PS engine produces 130 PS (128 hp) (Source [4], [15], [26], [29], [40]). This is significantly below the 200 hp average benchmark. Score: -0.90.
-*   **torque**: The 1.2 Turbo 130PS engine has 230 Nm (170 lb-ft) of torque (Source [15], [29], [40]). This is close to or slightly below the 190 lb-ft average. Score: 0.00.
-*   **cylinder_count**: The 1.2 Turbo petrol engine is a 3-cylinder (Source [4], [15], [25], [26], [41]). This is below the 6-cylinder average benchmark. Score: -1.00.
-*   **engine_displacement**: The petrol engine is 1.2L (1199 cc) (Source [4], [15], [26], [41]). This is closer to the 1.2L benchmark (-1.00) than the 3.0L benchmark (0.00). Score: -1.00.
-*   **accel_0_60_sec**: 0-60 mph is around 9.1-9.2 seconds for the 130PS auto (Source [4], [15], [26]). This is slower than the 7.5 sec average. Score: -0.50.
-*   **top_speed**: Top speed is around 124-125 mph (Source [4], [15], [26], [29]). Below the 150 mph average. Score: -0.50.
-*   **drive_type**: FWD only (Source [25], [26], [29], [41]). Score: -1.00.
-*   **transmission_type**: Available with an 8-speed automatic transmission (Source [4], [10], [15], [26], [29], [40], [41]). A traditional automatic is rated +1.00 in the guide. Score: 1.00.
-*   **offroad_ability**: FWD compact crossover with limited ground clearance. Low offroad ability. Score: 1.00 (based on guide's inverted scale).
-*   **braking_dist_ft**: No specific data found, assume average. Score: 0.00.
-*   **size**: Length is 4151mm (Source [7], [12], [38], [39], [43]). Smaller than the 4600mm average. Score: -0.70.
-*   **wheelbase**: Around 2557mm or 2561mm (Source [29], [38], [43]). Below the 2700mm average. Score: -0.50.
-*   **body_style**: 5-door SUV/crossover (Source [7], [12], [21], [25], [39], [43]). Closer to 4-door sedan (0.00) than 2-door coupe (-1.00) or 5-door van (+1.00). Score: 0.10.
-*   **seats**: 5 seats (Source [12], [24], [36], [38], [43]). Average. Score: 0.00.
-*   **cargo_space**: 350 litres (12.4 cu ft) with seats up (Source [7], [12], [15], [24], [31], [33], [36], [38]). Below the 15 cu ft average. Score: -0.30.
-*   **rear_space**: Reviews mention rear space is tight for adults (Source [15], [24], [30], [33]). Below average. Score: -0.50.
-*   **ground_clearance_in**: Around 160mm (6.3 inches) (Source [43]). Slightly below the 6.5" average. Score: -0.10.
-*   **turn_radius_ft**: Turning circle around 10.5-11.08m (34.4-36.4 ft) (Source [44]). Close to the 36 ft average. Score: 0.00.
-*   **mpg**: The 1.2 Turbo 130PS auto gets around 47.1-47.9 mpg (UK) (Source [4], [10], [15], [25], [26]). This is good compared to the 30 mpg average. Score: 0.50.
-*   **co2_g_km**: CO2 emissions are around 132-137 g/km (Source [4], [15], [26]). Below the 175 g/km average. Score: 0.30.
-*   **electric_range_mi**: Not an electric vehicle (for petrol/diesel versions). Score: -1.00.
-*   **charge_speed_kw**: Not an electric vehicle. Score: -1.00.
-*   **style_sleek_vs_boxy**: Modern design with a distinctive Vizor front and a slightly coupe-like roofline. More sleek than boxy (Source [3], [7], [21], [39], [40]). Score: 0.70.
-*   **style_aggression_rating**: Bold front end and sharp lines give it a more aggressive look than average, especially with SRi styling elements like red accents (Source [7], [15], [24], [29], [40]). Score: 0.50.
-*   **style_modernity_rating**: Distinctive, modern design language (Source [3], [7], [21], [39], [40]). Score: 0.80.
-*   **handling_rating**: Handling is described as safe and competent, but not particularly engaging (Source [3], [15], [25], [41]). Score: 0.00.
-*   **ride_comfort_rating**: Ride can be firm, especially on larger wheels (Source [15], [25]). Average overall. Score: 0.00.
-*   **cabin_noise_rating**: Generally well-insulated for the class, though the 3-cylinder engine can be audible under acceleration (Source [15]). Above average. Score: 0.30.
-*   **shift_smooth_rating**: The 8-speed automatic transmission is generally smooth (Source [40], [41]). Score: 0.50.
-*   **steering_feel_rating**: Steering is described as light and lacking feel, especially at speed (Source [15], [25], [41]). Below average. Score: -0.70.
-*   **adas_score**: SRi/SRi Premium included features like Lane Departure Warning with Lane Keep Assist, Traffic Sign Recognition, Driver Drowsiness Alert, Automatic Emergency Braking with Pedestrian Detection, Cruise Control, Rear Parking Sensors, and often a Panoramic Rear View Camera and Adaptive Cruise Control on higher SRi variants (Source [2], [7], [17], [22], [24], [29], [32], [34], [40], [41]). Good suite of features for the segment. Score: 0.60.
-*   **visibility_rating**: Good forward visibility, but thick rear pillars can impede rear view (Source [15], [24], [33]). Average overall. Score: 0.00.
-*   **headlight_rating**: LED headlights standard, adaptive matrix LEDs available on higher trims (Ultimate) (Source [7], [16], [22], [32], [34], [40]). Likely good standard LEDs. Score: 0.30.
-*   **security_rating**: Standard security alarm system, remote central locking, Vauxhall Connect with e-Call (Source [7], [16], [22], [32], [34]). Score: 0.00.
-*   **screen_in**: SRi Premium/Nav Premium came with the 10-inch central touchscreen and 12-inch digital instrument cluster (Source [2], [7], [17], [24], [33], [37]). Above average screen size. Score: 0.20. Standard SRi had 7-inch screens (Source [2], [17]). Averaging these for the SRi line. Score: 0.10.
-*   **infotainment_ux_rating**: The system is generally easy to use, but some reviews mention it can be sluggish (Source [24]). Average. Score: 0.00.
-*   **smartphone_connect_rating**: Apple CarPlay and Android Auto standard, often wireless on higher SRi variants (Source [7], [16], [24], [34], [40]). Above average. Score: 0.50.
-*   **audio_rating**: Standard audio system, typically 6 speakers (Source [2], [17], [34]). Score: 0.00.
-*   **usb_ports**: Typically 1 front, SRi Premium/Nav Premium had 2 rear USB ports (Source [2], [17], [24], [40]). Average across the SRi line. Score: 0.00.
-*   **comfort_feature_score**: SRi/SRi Premium included heated front seats, heated steering wheel, automatic climate control, sports seats with cloth and leather-effect trim (Source [2], [7], [17], [22], [24], [32], [40], [41]). Good features for the segment. Score: 0.60.
-*   **convenience_feature_score**: SRi/SRi Premium included cruise control, front/rear parking sensors, rear camera, auto lights/wipers, keyless entry/start on higher SRi variants (Source [2], [7], [17], [22], [24], [29], [32], [34], [40], [41]). Good features available. Score: 0.50.
-*   **brand_prestige_rating**: Vauxhall is a mainstream brand. Score: 0.00.
-*   **model_prestige_rating**: Mokka is a popular, mid-range model for Vauxhall. Score: 0.00.
-*   **trim_prestige_rating**: SRi was a mid-to-high trim level, positioned as the sporty option, offering significant features over lower trims (Source [17], [24], [30]). Score: 0.50.
-*   **interior_luxury_rating**: Interior design is modern, but materials are mostly hard plastics with some softer touches and sporty accents (Source [24], [41]). Average for the segment, not luxurious. Score: 0.00.
-*   **interior_tech_focus_rating**: Features a central screen and digital driver display ("Pure Panel"), giving it a modern, tech-focused feel, especially with the larger screens on higher SRi variants (Source [7], [17], [24], [33], [37], [39]). Above average. Score: 0.70.
-
-```json
+-   **price_usd**: The 2021 Mokka SRi Nav Premium 1.2 130PS Auto was priced from £27,455. Used prices for 2021 SRi Nav Premium models range from around £13,995 to £16,767. Using a conversion rate of 1.25 USD/GBP, the original price is approximately $34,319, and used prices are around $17,500 - $21,000. These prices are significantly below the market average of $52,000, scoring positively. Score: 0.50.
+-   **total_cost_estimate_5yr_usd**: No specific 5-year cost data found for the SRi trim. Default to 0.00.
+-   **insurance_usd_yr**: Insurance groups for the Mokka SRi range from 14E to 19E. This is below the average group (around 25-30), suggesting lower insurance costs. Score: 0.50.
+-   **maint_usd_yr**: No specific data found. Default to 0.00.
+-   **repair_risk_score**: Reliability ratings for the current generation Mokka are mixed, but it's on a newer platform. Default to 0.00.
+-   **hp**: Petrol engines available in SRi trim included the 1.2 Turbo 100PS (99hp) and 130PS (128hp). The Mokka-e SRi Nav Premium has 134hp. These figures are below the 200hp market average. Score: -0.50.
+-   **torque**: The 1.2 Turbo 130PS engine has 230 Nm (170 lb-ft). The Mokka-e has 260 Nm (192 lb-ft). These are around the 190 lb-ft market average. Score: 0.00.
+-   **cylinder_count**: The petrol engine is a 1.2L Turbo, which is typically a 3-cylinder engine. This is below average. Score: -1.00.
+-   **engine_displacement**: 1.2L for petrol. This is below average. Score: -1.00.
+-   **accel_0_60_sec**: 1.2 Turbo 100PS: 10.6s. 1.2 Turbo 130PS auto: 9.2s. 1.2 Turbo 130PS manual: 9.1s. Mokka-e: 9.2s. These figures are slower than the 7.5s average. Score: -0.30.
+-   **top_speed**: 1.2 Turbo 100PS: 116 mph. 1.2 Turbo 130PS: 124-125 mph. Mokka-e: 93 mph. Petrol figures are below the 150mph average. Score: -0.50.
+-   **drive_type**: Front-wheel drive (FWD) only. Score: -1.00.
+-   **transmission_type**: Available with 6-speed manual or 8-speed automatic (with 130PS engine), or single-speed auto (EV). The availability of a modern 8-speed automatic is a positive. Score: 1.00.
+-   **driving_track_vs_gt**: Sporty styling but focused on daily driving comfort and ease. Score: 0.00.
+-   **offroad_ability**: Compact SUV with FWD. Minimal off-road ability. Score: 1.00.
+-   **braking_dist_ft**: No specific data found. Default to 0.00.
+-   **size**: Length 4151mm. On the smaller side for a compact SUV. Score: -0.50.
+-   **wheelbase**: 2561mm. Below the 2700mm average. Score: -0.30.
+-   **body_style**: 5-door SUV/crossover. Common body style. Score: 0.00.
+-   **seats**: 5 seats. Score: 0.00.
+-   **cargo_space**: 350 litres (12.36 cu ft) petrol, 310 litres (10.95 cu ft) electric. Below the 15 cu ft average. Score: -0.30.
+-   **rear_space**: Rear space is described as cramped for tall adults. Score: -0.30.
+-   **ground_clearance_in**: No specific figure found. Default to 0.00.
+-   **turn_radius_ft**: No specific data found. Default to 0.00.
+-   **mpg**: 1.2 Turbo 100PS: 51.4 mpg. 1.2 Turbo 130PS auto: 47.1-47.9 mpg. 1.2 Turbo 130PS manual: 50.4 mpg. Mokka-e: 4.0-4.1 miles/kWh (equivalent to high mpg). Petrol figures are around the 30 mpg average (converted from UK mpg). Score: 0.00.
+-   **co2_g_km**: 1.2 Turbo 100PS: 124 g/km. 1.2 Turbo 130PS auto: 133-137 g/km. 1.2 Turbo 130PS manual: 127 g/km. Mokka-e: 0 g/km. Petrol figures are below the 175 g/km average. Score: 0.50.
+-   **electrification**: Available with petrol or as a full EV (Mokka-e). Score: 1.00.
+-   **electric_range_mi**: Mokka-e SRi Nav Premium has a range of up to 201 miles (WLTP), later updated to 209 miles. This is around the 200-mile average for smaller EVs. Score: 0.50.
+-   **charge_speed_kw**: Mokka-e supports up to 100kW DC rapid charging. This is around the 50-100kW average for non-premium EVs. Score: 0.00.
+-   **style_sleek_vs_boxy**: Modern, sharp design, distinctive Vizor front, less boxy than traditional SUVs. Score: 0.10.
+-   **style_aggression_rating**: Sporty styling cues (black roof, red accents, 18-inch wheels), but not overly aggressive. Score: 0.00.
+-   **style_modernity_rating**: Distinctive, modern design language, updated interior tech. Score: 0.30.
+-   **handling_rating**: Balanced handling, comfortable ride, not particularly sporty or agile compared to some rivals. Score: 0.00.
+-   **ride_comfort_rating**: Comfortable ride, smoother than some rivals. Score: 0.10.
+-   **cabin_noise_rating**: Relative lack of wind noise, engine can be noisy under acceleration. Electric is quieter. Score: 0.50.
+-   **shift_smooth_rating**: 8-speed automatic transmission is smooth. Score: 1.00.
+-   **steering_feel_rating**: Light and easy for town, direct and sharp but lacks feel compared to some rivals. Score: -0.30.
+-   **adas_score**: Standard features on SRi included Forward Collision Alert (all speed), Adaptive Cruise Control, Lane Positioning Assistant, Heated front seats, Electronic climate control, Rear parking sensors, Panoramic rear-view camera, Side blind spot alert and flank guard, Front and rear parking distance sensors, Keyless entry and start, Heated steering wheel. Excellent level of standard kit for the trim level. Score: 0.50.
+-   **visibility_rating**: Good forward visibility due to raised driving position, but rear view is compromised by thick pillars and small rear window. Score: 0.00.
+-   **headlight_rating**: LED headlights standard. LED front fog lights standard on SRi. IntelliLux Matrix LED headlights available as an option. LED standard is good. Score: 0.30.
+-   **security_rating**: Remote control ultrasonic security alarm system, engine immobiliser, locking wheel nuts standard. Standard features. Score: 0.00.
+-   **screen_in**: SRi Nav Premium models get a 10-inch colour touchscreen and 12-inch digital instrument cluster. SRi models (non-Nav Premium) had 7-inch screens. The 10/12-inch setup is better than average. Score: 0.30.
+-   **infotainment_ux_rating**: Multimedia Navi Pro system (on Nav Premium) with integrated navigation, DAB radio, Bluetooth, USB, Apple CarPlay/Android Auto. Generally easy to use, responsive, physical controls for climate. Uses PSA software which has been criticised, but seems improved. Score: 0.00.
+-   **smartphone_connect_rating**: Apple CarPlay and Android Auto standard. Wired connection. Score: 0.00.
+-   **audio_rating**: Six speakers standard. Standard. Score: 0.00.
+-   **usb_ports**: Front USB connection standard. Two rear USB connections on SRi Nav Premium. Score: 0.30.
+-   **comfort_feature_score**: Heated front seats and heated steering wheel standard on SRi. Electronic climate control standard. Excellent comfort features for the trim level. Score: 0.50.
+-   **convenience_feature_score**: Rear parking sensors and panoramic rear view camera standard on SRi. Front parking sensors, Side blind spot alert and flank guard, Keyless entry and start standard on SRi Nav Premium. Good level of convenience features. Score: 0.30.
+-   **brand_prestige_rating**: Vauxhall is a mainstream brand. Score: 0.00.
+-   **model_prestige_rating**: Mokka is a popular compact SUV model in the range. Score: 0.00.
+-   **trim_prestige_rating**: SRi was a mid-range to higher-mid-range trim with sporty styling. Score: 0.00.
+-   **interior_luxury_rating**: Quality materials for the class, sporty Alcantara or cloth upholstery available. Not luxury class. Score: 0.00.
+-   **interior_tech_focus_rating**: Pure Panel cockpit with dual screens (10/12-inch on Nav Premium). Screen-focused design. Score: 0.30.```json
 {
-  "price_usd": 0.00,
-  "total_cost_estimate_5yr_usd": 0.00,
-  "insurance_usd_yr": 0.00,
-  "maint_usd_yr": 0.00,
-  "repair_risk_score": 0.00,
-  "hp": -0.90,
-  "torque": 0.00,
-  "cylinder_count": -1.00,
-  "engine_displacement": -1.00,
-  "accel_0_60_sec": -0.50,
-  "top_speed": -0.50,
-  "drive_type": -1.00,
-  "transmission_type": 1.00,
-  "offroad_ability": 1.00,
-  "braking_dist_ft": 0.00,
-  "size": -0.70,
-  "wheelbase": -0.50,
-  "body_style": 0.10,
-  "seats": 0.00,
-  "cargo_space": -0.30,
-  "rear_space": -0.50,
-  "ground_clearance_in": -0.10,
-  "turn_radius_ft": 0.00,
-  "mpg": 0.50,
-  "co2_g_km": 0.30,
-  "electric_range_mi": -1.00,
-  "charge_speed_kw": -1.00,
-  "style_sleek_vs_boxy": 0.70,
-  "style_aggression_rating": 0.50,
-  "style_modernity_rating": 0.80,
-  "handling_rating": 0.00,
-  "ride_comfort_rating": 0.00,
-  "cabin_noise_rating": 0.30,
-  "shift_smooth_rating": 0.50,
-  "steering_feel_rating": -0.70,
-  "adas_score": 0.60,
-  "visibility_rating": 0.00,
-  "headlight_rating": 0.30,
-  "security_rating": 0.00,
-  "screen_in": 0.10,
-  "infotainment_ux_rating": 0.00,
-  "smartphone_connect_rating": 0.50,
-  "audio_rating": 0.00,
-  "usb_ports": 0.00,
-  "comfort_feature_score": 0.60,
-  "convenience_feature_score": 0.50,
-  "brand_prestige_rating": 0.00,
-  "model_prestige_rating": 0.00,
-  "trim_prestige_rating": 0.50,
-  "interior_luxury_rating": 0.00,
-  "interior_tech_focus_rating": 0.70
+ "price_usd": 0.50,
+ "total_cost_estimate_5yr_usd": 0.00,
+ "insurance_usd_yr": 0.50,
+ "maint_usd_yr": 0.00,
+ "repair_risk_score": 0.00,
+ "hp": -0.50,
+ "torque": 0.00,
+ "cylinder_count": -1.00,
+ "engine_displacement": -1.00,
+ "accel_0_60_sec": -0.30,
+ "top_speed": -0.50,
+ "drive_type": -1.00,
+ "transmission_type": 1.00,
+ "driving_track_vs_gt": 0.00,
+ "offroad_ability": 1.00,
+ "braking_dist_ft": 0.00,
+ "size": -0.50,
+ "wheelbase": -0.30,
+ "body_style": 0.00,
+ "seats": 0.00,
+ "cargo_space": -0.30,
+ "rear_space": -0.30,
+ "ground_clearance_in": 0.00,
+ "turn_radius_ft": 0.00,
+ "mpg": 0.00,
+ "co2_g_km": 0.50,
+ "electrification": 1.00,
+ "electric_range_mi": 0.50,
+ "charge_speed_kw": 0.00,
+ "style_sleek_vs_boxy": 0.10,
+ "style_aggression_rating": 0.00,
+ "style_modernity_rating": 0.30,
+ "handling_rating": 0.00,
+ "ride_comfort_rating": 0.10,
+ "cabin_noise_rating": 0.50,
+ "shift_smooth_rating": 1.00,
+ "steering_feel_rating": -0.30,
+ "adas_score": 0.50,
+ "visibility_rating": 0.00,
+ "headlight_rating": 0.30,
+ "security_rating": 0.00,
+ "screen_in": 0.30,
+ "infotainment_ux_rating": 0.00,
+ "smartphone_connect_rating": 0.00,
+ "audio_rating": 0.00,
+ "usb_ports": 0.30,
+ "comfort_feature_score": 0.50,
+ "convenience_feature_score": 0.30,
+ "brand_prestige_rating": 0.00,
+ "model_prestige_rating": 0.00,
+ "trim_prestige_rating": 0.00,
+ "interior_luxury_rating": 0.00,
+ "interior_tech_focus_rating": 0.30
 }
 ```

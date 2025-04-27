@@ -1,70 +1,12 @@
-The most recent BMW 7 Series 740d is part of the G70 generation, introduced in 2022. It features a 3.0L inline-six turbo-diesel engine with a 48V mild-hybrid system.
-
-Here's the evaluation based on the search results and the scoring guide:
-
-*   **price\_usd**: The G70 7 Series is a new luxury sedan. Prices for the 740d are not explicitly stated in USD for the US market (as it's primarily a European model), but the G70 starts around $93,300 USD in the US for other trims. European prices are around €116,000. This is well above the market average. Score: -1.00.
-*   **total\_cost\_estimate\_5yr\_usd**: As a new luxury vehicle, the 740d will have high depreciation, maintenance, and insurance costs, placing it well above the average 5-year cost. Score: -1.00.
-*   **insurance\_usd\_yr**: Luxury sedans like the 7 Series are typically in high insurance groups. Score: -1.00.
-*   **maint\_usd\_yr**: BMW maintenance, especially for a flagship model, is expensive. Score: -1.00.
-*   **repair\_risk\_score**: The G70 is a new generation, so long-term reliability data is limited. BMW's historical reliability is generally average to slightly below average. Score: -0.20.
-*   **hp**: The 740d produces 286-296 hp (210-221 kW) from its diesel engine plus 13-18 hp (13 kW) from the mild-hybrid system, for a total system output of around 300 hp (221 kW). This is significantly above the 200 hp average. Score: 0.50.
-*   **torque**: The 740d produces 650-670 Nm (479-494 lb-ft) of torque. This is well above the 190 lb-ft average. Score: 0.80.
-*   **cylinder\_count**: It has a 6-cylinder engine. This is average for a car, but for a luxury sedan, V8 or V12 would be higher. Score: 0.00.
-*   **engine\_displacement**: It has a 3.0L engine (2993 cm³). This is around the 3.0L average. Score: 0.00.
-*   **accel\_0\_60\_sec**: 0-60 mph is around 5.5-6.4 seconds. This is faster than the 7.5 sec average. Score: 0.50.
-*   **top\_speed**: Top speed is limited to 250 km/h (155 mph). This is around the 150 mph average. Score: 0.00.
-*   **drive\_type**: The 740d comes standard with xDrive (all-wheel drive). AWD is 0.00. Score: 0.00.
-*   **transmission\_type**: 8-speed automatic transmission. Automatic is +1.00. Score: 1.00.
-*   **driving\_track\_vs\_gt**: Designed as a comfortable luxury sedan for long drives. Score: 1.00.
-*   **offroad\_ability**: Low ground clearance and not designed for off-road. Score: 1.00.
-*   **braking\_dist\_ft**: No specific data found. Default to average. Score: 0.00.
-*   **size**: The G70 is a large car, 5391 mm (212.24 in) long. Well over 5100mm. Score: 1.00.
-*   **wheelbase**: The wheelbase is 3215 mm (126.57 in). Well over 3200mm. Score: 1.00.
-*   **body\_style**: 4-door sedan. Average. Score: 0.00.
-*   **seats**: 5 seats. Average. Score: 0.00.
-*   **cargo\_space**: 540 litres (19 cu ft). Around the 15 cu ft average, slightly above. Score: 0.20.
-*   **rear\_space**: Excellent rear legroom due to the long wheelbase. Well over 40". Score: 1.00.
-*   **ground\_clearance\_in**: 136-147 mm (5.35-5.79 inches). Below the 6.5" average for crossovers, but not extremely low like a sports car. Score: -0.20.
-*   **turn\_radius\_ft**: Turning circle is 12.1-13.1 meters (39.7-43 ft). Larger than the 36 ft average. Score: -0.20.
-*   **mpg**: Manufacturer combined is around 6.1-6.8 L/100km (34.6-38.5 US mpg). Real-world tests show around 5.63 L/100km (41.78 US mpg) at 130 km/h and 3.83 L/100km (61.41 US mpg) at 80 km/h. Even city driving is around 6.7 L/100km (35.1 mpg US). This is significantly above the 30 mpg average, especially for a large car. Score: 0.80.
-*   **co2\_g\_km**: CO2 emissions are around 160-182 g/km. This is around or below the 175 g/km average. Score: 0.20.
-*   **electrification**: Mild Hybrid Diesel. Score: -0.50.
-*   **electric\_range\_mi**: N/A (Mild Hybrid). Score: -1.00.
-*   **charge\_speed\_kw**: N/A (Mild Hybrid). Score: -1.00.
-*   **style\_sleek\_vs\_boxy**: The G70 has a bold, monolithic design, not particularly sleek or boxy compared to the extremes. Score: 0.00.
-*   **style\_aggression\_rating**: The large illuminated grille and split headlights give it a commanding and somewhat aggressive presence. Score: 0.50.
-*   **style\_modernity\_rating**: The G70 features a bold, modern design that is polarizing but clearly contemporary. Score: 0.80.
-*   **handling\_rating**: Despite its size, it handles well for a luxury sedan, feeling smaller than it is due to rear-wheel steering and adaptive suspension. Score: 0.50.
-*   **ride\_comfort\_rating**: Known for excellent ride comfort due to air suspension and focus on luxury. Score: 1.00.
-*   **cabin\_noise\_rating**: Excellent cabin insulation, very quiet. Score: 1.00.
-*   **shift\_smooth\_rating**: Smooth 8-speed automatic transmission. Score: 1.00.
-*   **steering\_feel\_rating**: Steering feel is comfortable and agile for its size, enhanced by rear-wheel steering. Score: 0.50.
-*   **adas\_score**: Equipped with advanced ADAS features as standard or available, including hands-free driving assist. Score: 1.00.
-*   **visibility\_rating**: Standard visibility for a large sedan. Score: 0.00.
-*   **headlight\_rating**: Features Crystal headlights and advanced LED technology. Score: 1.00.
-*   **security\_rating**: High-end security features expected for a luxury car. Score: 0.80.
-*   **screen\_in**: Features a 12.3" digital instrument cluster and a 14.9" central infotainment screen, combined in a curved display. Optional 31.3" 8K rear theatre screen. Score: 1.00.
-*   **infotainment\_ux\_rating**: Runs BMW iDrive 8/8.5, which is advanced but can be complex. Score: 0.80.
-*   **smartphone\_connect\_rating**: Supports wireless Apple CarPlay and Android Auto. Score: 1.00.
-*   **audio\_rating**: Available with high-end audio systems like Bowers & Wilkins (18-speaker standard, 35-speaker optional). Score: 1.00.
-*   **usb\_ports**: Features six USB-C sockets. Above average. Score: 0.50.
-*   **comfort\_feature\_score**: Extensive comfort features like multi-function seats with heating, ventilation, massage, quad-zone climate control, heated steering wheel, heated surfaces, Executive Lounge seating options. Score: 1.00.
-*   **convenience\_feature\_score**: High level of convenience features like automatic doors, welcome lights, BMW Interaction Bar, parking cameras/sensors, auto high-beam, rain sensing wipers, remote software updates. Score: 1.00.
-*   **brand\_prestige\_rating**: BMW is a high-prestige brand. Score: 0.80.
-*   **model\_prestige\_rating**: The 7 Series is the flagship luxury sedan. Score: -1.00.
-*   **trim\_prestige\_rating**: 740d is a mid-range diesel trim within the 7 Series lineup. Score: 0.00.
-*   **interior\_luxury\_rating**: Adorned with premium materials like leather, wood, metal, crystal accents, Alcantara headliner options. Score: 1.00.
-*   **interior\_tech\_focus\_rating**: Very high level of interior tech with large screens, Interaction Bar, rear theatre screen, advanced infotainment. Score: 1.00.
-
 ```json
 {
   "price_usd": -1.00,
   "total_cost_estimate_5yr_usd": -1.00,
-  "insurance_usd_yr": -1.00,
-  "maint_usd_yr": -1.00,
-  "repair_risk_score": -0.20,
-  "hp": 0.50,
-  "torque": 0.80,
+  "insurance_usd_yr": -0.50,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": 0.00,
+  "hp": 0.20,
+  "torque": 1.00,
   "cylinder_count": 0.00,
   "engine_displacement": 0.00,
   "accel_0_60_sec": 0.50,
@@ -80,33 +22,33 @@ Here's the evaluation based on the search results and the scoring guide:
   "seats": 0.00,
   "cargo_space": 0.20,
   "rear_space": 1.00,
-  "ground_clearance_in": -0.20,
-  "turn_radius_ft": -0.20,
-  "mpg": 0.80,
-  "co2_g_km": 0.20,
-  "electrification": -0.50,
+  "ground_clearance_in": -0.50,
+  "turn_radius_ft": -0.50,
+  "mpg": 0.50,
+  "co2_g_km": 0.00,
+  "electrification": -1.00,
   "electric_range_mi": -1.00,
   "charge_speed_kw": -1.00,
   "style_sleek_vs_boxy": 0.00,
   "style_aggression_rating": 0.50,
-  "style_modernity_rating": 0.80,
-  "handling_rating": 0.50,
+  "style_modernity_rating": 0.50,
+  "handling_rating": 0.00,
   "ride_comfort_rating": 1.00,
   "cabin_noise_rating": 1.00,
   "shift_smooth_rating": 1.00,
-  "steering_feel_rating": 0.50,
-  "adas_score": 1.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.50,
   "visibility_rating": 0.00,
-  "headlight_rating": 1.00,
-  "security_rating": 0.80,
+  "headlight_rating": 0.50,
+  "security_rating": 0.50,
   "screen_in": 1.00,
-  "infotainment_ux_rating": 0.80,
+  "infotainment_ux_rating": 0.50,
   "smartphone_connect_rating": 1.00,
   "audio_rating": 1.00,
   "usb_ports": 0.50,
   "comfort_feature_score": 1.00,
   "convenience_feature_score": 1.00,
-  "brand_prestige_rating": 0.80,
+  "brand_prestige_rating": 0.50,
   "model_prestige_rating": -1.00,
   "trim_prestige_rating": 0.00,
   "interior_luxury_rating": 1.00,

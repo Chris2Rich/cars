@@ -1,55 +1,57 @@
-The Vauxhall Vectra LS was available across multiple generations, with the last generation (Vectra C) being produced until 2008 [2, 5, 8]. The 'LS' trim was typically a lower-to-mid-range specification [20]. Evaluating this model against today's market standards means comparing a car designed and built in the early to mid-2000s to vehicles available in 2025. This results in significantly lower scores across most metrics, particularly technology, safety, and efficiency, while its low current market value results in a high score for price.
-
-Here's the evaluation based on typical specs for a Vauxhall Vectra LS from the last generation (Vectra C, 2002-2008), referencing the provided search results:
-
-*   **price_usd**: +1.00 - As a discontinued model from over 15 years ago, a used Vauxhall Vectra LS would be significantly below the $15,000 threshold for a new car in today's market.
-*   **total_cost_estimate_5yr_usd**: 0.00 - While the purchase price is low, older cars typically incur higher maintenance and potential repair costs, balancing out the low initial cost compared to the average 5-year cost of a new vehicle.
-*   **insurance_usd_yr**: 0.50 - Search results indicate Vectra models, including LS trims, often fall into lower-to-mid insurance groups (e.g., Group 7 or similar on the old scale, which translates to lower groups on the new 1-50 scale) [12, 13, 18, 19]. This is below the national average for a new car today.
-*   **maint_usd_yr**: -0.50 - Older vehicles generally require more frequent and potentially more expensive maintenance than modern cars.
-*   **repair_risk_score**: -0.50 - While not notoriously unreliable, older mass-market cars typically have a higher risk of needing repairs compared to the most reliable modern vehicles.
-*   **hp**: -0.75 - A 1.8L LS from 2002-2005 had around 120-123 bhp [2, 3]. A 2.2L from 2001 had 145 bhp [9]. A 2005 1.8 16v LS had 144.8 bhp [5]. These figures are well below the average horsepower of cars sold today (~200 hp).
-*   **torque**: -0.75 - Torque figures like 167 Nm (123 lb-ft) [2] or 170 Nm (125 lb-ft) [3] or 203 Nm (150 lb-ft) [5, 9] are significantly lower than the average torque in modern vehicles.
-*   **cylinder_count**: 0.00 - Typically equipped with 4-cylinder engines [3, 7, 9], which is common in today's market.
-*   **engine_displacement**: 0.00 - Common engine sizes like 1.8L, 2.0L, or 2.2L [3, 7, 9] are around the average displacement seen in a wide range of modern vehicles.
-*   **accel_0_60_sec**: -0.75 - 0-60 mph times around 9.5 to 12 seconds [2, 3, 6, 7, 9] are considerably slower than the average modern car (~7.5 seconds).
-*   **top_speed**: 0.00 - Top speeds around 121-135 mph [2, 3, 7, 9] are around the average top speed for non-performance modern cars.
-*   **drive_type**: -1.00 - Front-wheel drive (FWD) was standard [3, 7], scoring -1.00.
-*   **transmission_type**: -0.75 - Available with 5-speed manual or older automatic transmissions [3, 7, 9, 24], which are less advanced than modern dual-clutch or smooth automatics.
-*   **offroad_ability**: 1.00 - A standard FWD sedan/hatchback has no offroad capability, scoring +1.00 on this inverse scale.
-*   **braking_dist_ft**: 0.00 - No specific data found, default to average.
-*   **size**: 0.00 - Lengths around 4.5-4.8 meters [3, 6, 8, 9, 10] and wheelbases around 2.6-2.8 meters [8, 10, 23] place it in the mid-size category, comparable to average modern sedans/hatchbacks.
-*   **wheelbase**: 0.00 - Wheelbase around 2.7-2.8 meters [8, 10] is average for a modern mid-size car.
-*   **body_style**: 0.00 - Available as a 4-door saloon or 5-door hatchback/estate [3, 7, 8, 9, 10, 23], which are common body styles.
-*   **seats**: 0.00 - Standard 5-seater configuration [3, 7, 8, 9, 10], which is the market average.
-*   **cargo_space**: 0.00 - Luggage capacity around 500-530 liters (approx 17.7-18.7 cu ft) [8, 10] is around the average for a modern sedan/hatchback.
-*   **rear_space**: 0.00 - No specific data found, default to average. Reviews mention it feels spacious for its time [12, 24], but compared to modern large sedans, it's likely average.
-*   **ground_clearance_in**: 0.00 - Standard sedan/hatchback ground clearance, likely around the average for compact crossovers (6.5 inches) or slightly lower. Default to 0.00.
-*   **turn_radius_ft**: 0.00 - No specific data found, default to average for its size.
-*   **mpg**: -0.50 - Combined MPG figures around 30-40 mpg [4, 12, 15, 16, 17] are below the average for the most efficient modern cars, though some diesel versions were better [4, 7]. Petrol versions were often lower [17, 22]. Score reflects the range, leaning slightly negative compared to modern averages.
-*   **co2_g_km**: -0.50 - CO2 emissions around 154-202 g/km [3, 7, 9] are higher than the average modern car, especially considering the prevalence of more efficient engines and EVs today.
-*   **electric_range_mi**: -1.00 - Not an electric vehicle.
-*   **charge_speed_kw**: -1.00 - Not an electric vehicle.
-*   **style_sleek_vs_boxy**: 0.00 - The design was considered clean and modern for its time [20], but is a standard sedan/hatchback shape, neither particularly sleek nor boxy by today's diverse standards.
-*   **style_aggression_rating**: -0.75 - The design was generally considered plain or not head-turning [12, 20], lacking aggressive styling cues common in some modern vehicles.
-*   **style_modernity_rating**: -1.00 - The design is clearly dated compared to modern automotive styling trends.
-*   **handling_rating**: -0.50 - Reviews from its era sometimes noted it wasn't as engaging to drive as rivals [12, 20]. Compared to modern cars, handling is likely below average.
-*   **ride_comfort_rating**: 0.00 - Often described as comfortable for its time [20, 24], likely around average compared to the wide range of modern vehicles.
-*   **cabin_noise_rating**: -0.50 - Older mass-market cars typically have less sound insulation than modern ones, leading to higher cabin noise.
-*   **shift_smooth_rating**: -0.75 - Older manual and automatic transmissions are generally less smooth than modern counterparts.
-*   **steering_feel_rating**: -0.50 - Steering feel was often described as adequate but not particularly engaging [12, 20], likely below average compared to modern cars.
-*   **adas_score**: -1.00 - Minimal to no advanced driver-assistance systems were available.
-*   **visibility_rating**: 0.00 - No specific issues noted, likely average for its body style.
-*   **headlight_rating**: -1.00 - Likely equipped with halogen headlights [11], which perform poorly compared to modern LED or Matrix LED systems.
-*   **security_rating**: -0.50 - Basic security features like central locking and an alarm system were available [11, 24], but lack the advanced tracking and immobilizer systems of high-security modern cars.
-*   **screen_in**: -1.00 - Featured a small monochromatic display for basic info [14, 24], not a modern infotainment touchscreen.
-*   **infotainment_ux_rating**: -1.00 - Very basic audio system with limited functionality compared to modern infotainment systems [11, 14, 24].
-*   **smartphone_connect_rating**: -1.00 - No smartphone connectivity features like Apple CarPlay or Android Auto.
-*   **audio_rating**: -1.00 - Basic audio system [11, 14, 24], far below the quality of premium modern audio systems.
-*   **usb_ports**: -1.00 - No USB ports for charging or data.
-*   **comfort_feature_score**: -0.75 - LS models had features like electric front windows, adjustable steering column, and multi-adjustable seats [11, 14, 24], but lacked many comfort features common today (e.g., heated/ventilated seats, multi-zone climate control).
-*   **convenience_feature_score**: -1.00 - Lacked modern convenience features like parking sensors (though rear sensors were a dealer option [11]), backup cameras, keyless entry/start, etc.
-*   **brand_prestige_rating**: 0.00 - Vauxhall is a mainstream brand.
-*   **model_prestige_rating**: 0.00 - The Vectra was a mass-market family car, not a halo model.
-*   **trim_prestige_rating**: 1.00 - LS was a lower-to-mid-range trim [20], scoring high on this inverse scale.
-*   **interior_luxury_rating**: -1.00 - Interior materials and design were functional and durable rather than luxurious [11, 20].
-*   **interior_tech_focus_rating**: -1.00 - The interior design and features had minimal focus on integrated technology compared to modern vehicles.
+```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.50,
+  "insurance_usd_yr": 0.50,
+  "maint_usd_yr": 0.00,
+  "repair_risk_score": 0.00,
+  "hp": -1.00,
+  "torque": -0.80,
+  "cylinder_count": -0.50,
+  "engine_displacement": -0.50,
+  "accel_0_60_sec": -1.00,
+  "top_speed": -0.50,
+  "drive_type": -1.00,
+  "transmission_type": 0.00,
+  "driving_track_vs_gt": 0.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": -0.20,
+  "size": -0.20,
+  "wheelbase": -0.20,
+  "body_style": 0.00,
+  "seats": 0.00,
+  "cargo_space": 0.00,
+  "rear_space": 0.00,
+  "ground_clearance_in": -0.80,
+  "turn_radius_ft": 0.00,
+  "mpg": -0.20,
+  "co2_g_km": -0.20,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.00,
+  "style_aggression_rating": -0.20,
+  "style_modernity_rating": -1.00,
+  "handling_rating": -0.50,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": -0.20,
+  "adas_score": -1.00,
+  "visibility_rating": 0.00,
+  "headlight_rating": -0.50,
+  "security_rating": 0.00,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": 0.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": -0.50,
+  "convenience_feature_score": 0.00,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 1.00,
+  "interior_luxury_rating": -0.50,
+  "interior_tech_focus_rating": -1.00
+}
+```

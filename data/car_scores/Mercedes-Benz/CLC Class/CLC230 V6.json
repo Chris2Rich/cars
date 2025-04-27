@@ -1,0 +1,131 @@
+Based on the search results:
+- **HP**: 204 PS (201 hp). Score: 0.00.
+- **Torque**: 245 Nm (181 lb-ft). Score: -0.25.
+- **Engine_displacement**: 2496 cm³ (2.5L). Score: -0.25.
+- **Accel_0_60_sec**: 8.1 - 8.4 seconds (0-100 km/h is 8.4s, 0-60 mph is 8.1s or 8s). Score: -0.50.
+- **Top_speed**: 240 km/h (149-150 mph). Score: -0.25.
+- **Transmission_type**: 6-speed manual or 7-speed automatic (7G-Tronic) for V6 models. Since the V6 could have the 7G-Tronic, the automatic score is appropriate. Score: 1.00.
+- **Size (Length)**: 4448 mm - 4452 mm (175.1 - 175.3 in). Score: -0.25.
+- **Wheelbase**: 2715 mm (106.9 in). Score: 0.00.
+- **Cargo_space**: 310 - 1100 liters (10.95 - 38.85 cu ft). The minimum is 10.95 cu ft. Score: -0.50.
+- **Rear_space**: Reviews mention limited rear legroom. Score: -1.00.
+- **Ground_clearance_in**: Not explicitly found in inches, but described as a low coupe. Score: -0.75.
+- **Turn_radius_ft**: 10.8 m (35.43 ft) or 10.77 m (35.33 ft). Score: 0.00.
+- **MPG**: Combined NEDC 9.1-9.2 L/100km (25.57 - 31 UK mpg, 25.02 - 25.57 US mpg). Around 25-31 mpg. Score: 0.00.
+- **CO2_g_km**: 217 - 225 g/km. Also 351 g/mile (which is ~218 g/km). Score: -0.50.
+- **Insurance_usd_yr**: UK Insurance Group 29-42. This is mid-to-high. Score: -0.25.
+
+Refined scores based on search results:
+- price_usd: 1.00
+- total_cost_estimate_5yr_usd: 0.50
+- insurance_usd_yr: -0.25
+- maint_usd_yr: -0.50
+- repair_risk_score: -0.25
+- hp: 0.00
+- torque: -0.25
+- cylinder_count: 0.00
+- engine_displacement: -0.25
+- accel_0_60_sec: -0.50
+- top_speed: -0.25
+- drive_type: 1.00
+- transmission_type: 1.00
+- driving_track_vs_gt: 0.50
+- offroad_ability: 1.00
+- braking_dist_ft: 0.00 (No specific data found, assume average)
+- size: -0.25
+- wheelbase: 0.00
+- body_style: -1.00
+- seats: -0.50
+- cargo_space: -0.50
+- rear_space: -1.00
+- ground_clearance_in: -0.75
+- turn_radius_ft: 0.00
+- mpg: 0.00
+- co2_g_km: -0.50
+- electrification: -1.00
+- electric_range_mi: -1.00
+- charge_speed_kw: -1.00
+- style_sleek_vs_boxy: 0.25
+- style_aggression_rating: 0.00
+- style_modernity_rating: -0.75
+- handling_rating: 0.00
+- ride_comfort_rating: 0.50
+- cabin_noise_rating: 0.00
+- shift_smooth_rating: 0.50
+- steering_feel_rating: -0.50
+- adas_score: -1.00
+- visibility_rating: -0.50 (Reviews mention limited rear visibility)
+- headlight_rating: -0.50
+- security_rating: 0.00
+- screen_in: -1.00
+- infotainment_ux_rating: -1.00
+- smartphone_connect_rating: -1.00
+- audio_rating: 0.00
+- usb_ports: -1.00
+- comfort_feature_score: 0.00
+- convenience_feature_score: -0.50 (Parking sensors mentioned, but not advanced features)
+- brand_prestige_rating: 1.00
+- model_prestige_rating: 1.00
+- trim_prestige_rating: 0.00
+- interior_luxury_rating: -0.25
+- interior_tech_focus_rating: -1.00
+
+All attributes have been evaluated and scores assigned based on search results or defaults where data was unavailable. The JSON can now be generated.
+
+```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.50,
+  "insurance_usd_yr": -0.25,
+  "maint_usd_yr": -0.50,
+  "repair_risk_score": -0.25,
+  "hp": 0.00,
+  "torque": -0.25,
+  "cylinder_count": 0.00,
+  "engine_displacement": -0.25,
+  "accel_0_60_sec": -0.50,
+  "top_speed": -0.25,
+  "drive_type": 1.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 0.50,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": -0.25,
+  "wheelbase": 0.00,
+  "body_style": -1.00,
+  "seats": -0.50,
+  "cargo_space": -0.50,
+  "rear_space": -1.00,
+  "ground_clearance_in": -0.75,
+  "turn_radius_ft": 0.00,
+  "mpg": 0.00,
+  "co2_g_km": -0.50,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": 0.25,
+  "style_aggression_rating": 0.00,
+  "style_modernity_rating": -0.75,
+  "handling_rating": 0.00,
+  "ride_comfort_rating": 0.50,
+  "cabin_noise_rating": 0.00,
+  "shift_smooth_rating": 0.50,
+  "steering_feel_rating": -0.50,
+  "adas_score": -1.00,
+  "visibility_rating": -0.50,
+  "headlight_rating": -0.50,
+  "security_rating": 0.00,
+  "screen_in": -1.00,
+  "infotainment_ux_rating": -1.00,
+  "smartphone_connect_rating": -1.00,
+  "audio_rating": 0.00,
+  "usb_ports": -1.00,
+  "comfort_feature_score": 0.00,
+  "convenience_feature_score": -0.50,
+  "brand_prestige_rating": 1.00,
+  "model_prestige_rating": 1.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": -0.25,
+  "interior_tech_focus_rating": -1.00
+}
+```

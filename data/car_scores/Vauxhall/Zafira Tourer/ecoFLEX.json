@@ -1,0 +1,113 @@
+The user provided 'ecoFLEX' as the trim, which is an engine variant focused on efficiency rather than a specific trim level. ecoFLEX engines were available on various trims of the Vauxhall Zafira Tourer, including facelifted models (2016-2019). I will evaluate the Zafira Tourer equipped with a typical ecoFLEX engine (like the 1.6 CDTi or 2.0 CDTi ecoFLEX) and use data from the facelifted model where possible, assuming a mid-range trim level for features where not specified by the engine variant itself.
+
+- **price_usd**: Used prices for Zafira Tourer ecoFLEX models are low, ranging from £1,990 to £13,295. Converting a mid-range price like £6,000 to USD (approx 1.2 USD/GBP) is $7,200, well below the market average of $52,000. Score: +1.00.
+- **total_cost_estimate_5yr_usd**: Running costs are reasonable, with average repair costs less than £350. Good fuel economy contributes to lower running costs. Given the low purchase price and reasonable running costs, the 5-year cost is likely significantly below the $40,000 average. Score: 0.75.
+- **insurance_usd_yr**: Insurance groups for Zafira Tourer ecoFLEX variants are relatively low, such as group 15A or 17A for the 1.6 CDTi ecoFLEX. These are below the national average cost. Score: 0.50.
+- **maint_usd_yr**: Average repair cost for a Zafira Tourer is less than £350. Service intervals can be up to 20,000 miles. This suggests lower than average annual maintenance costs. Score: 0.50.
+- **repair_risk_score**: The Zafira Tourer has an average reliability score of 69%. Common faults relate to suspension and engine, though repair costs are comparable to rivals. Some owner reviews mention mechanical issues. Compared to highly reliable models, it's below average. Score: -0.25.
+- **hp**: ecoFLEX engines like the 1.6 CDTi produce 136 PS (134 hp) or the 2.0 CDTi produces 130 PS (129 hp) or 170 PS (168 hp). These figures are below the market average of 200 hp. Score: -0.75.
+- **torque**: The 1.6 CDTi ecoFLEX has 320 Nm (236 lb-ft). The 2.0 CDTi 130PS ecoFLEX has 300 Nm (221 lb-ft). The 2.0 CDTi 170PS ecoFLEX has 400 Nm (295 lb-ft). The diesel torque figures are around or above the 190 lb-ft average. Averaging across common ecoFLEX engines, it's around average. Score: 0.00.
+- **cylinder_count**: Engines are typically 4-cylinder. This is the market average. Score: 0.00.
+- **engine_displacement**: Common ecoFLEX engines are 1.6L and 2.0L. These are around or slightly below the market average of 3.0L. Score: -0.25.
+- **accel_0_60_sec**: 0-60 mph times for ecoFLEX models are around 10.2s (1.6 CDTi 136PS), 10.4s (1.6 CDTi 134hp), 12.2s (2.0 CDTi 131hp auto), or 9.3s (2.0 CDTi 170hp). These times are slower than the market average of 7.5s. Score: -0.75.
+- **top_speed**: Top speeds for ecoFLEX models are around 125 mph (1.6 CDTi 134hp), 120 mph (2.0 CDTi 130hp), or 129 mph (2.0 CDTi 170hp). These are below the market average of 150 mph. Score: -0.50.
+- **drive_type**: Front-wheel drive (FWD). Score: -1.00.
+- **transmission_type**: Offered with manual and automatic transmissions. Automatic is available. Score: 1.00.
+- **driving_track_vs_gt**: MPV designed for family transport and comfort. Score: 1.00.
+- **offroad_ability**: Low ground clearance MPV, not designed for off-road. Score: 1.00.
+- **braking_dist_ft**: No specific distance found, assume average. Score: 0.00.
+- **size**: Length is around 4656-4658 mm (183.3-183.4 inches). This is slightly larger than a typical sedan/hatchback but smaller than large SUVs/vans. Score: 0.10.
+- **wheelbase**: Wheelbase is 2760 mm (108.66 inches). This is around the average for a modern vehicle. Score: 0.00.
+- **body_style**: 5-door MPV (people carrier/van). Score: 0.75.
+- **seats**: 7 seats standard (Flex7® seating system). Score: 1.00.
+- **cargo_space**: 152 litres (5.37 cu ft) with 7 seats up, 710 litres with 3rd row folded, 1860 litres (65.69 cu ft) with 2nd and 3rd rows folded. Excellent cargo space with seats folded. Score: 1.00.
+- **rear_space**: Second row seats slide and recline for comfort. Third row is cramped, best for children or occasional use. Score: 0.25.
+- **ground_clearance_in**: No specific figure found, but typical for an MPV, likely around 5-6 inches. Score: -0.25.
+- **turn_radius_ft**: Turning circle is 11.4m (37.4 ft) to 11.9m (39.04 ft). This is around the market average. Score: 0.00.
+- **mpg**: ecoFLEX models are designed for high MPG. 1.6 CDTi ecoFLEX achieves 68.9 mpg (official NEDC), real-world around 50 mpg. 2.0 CDTi 130PS ecoFLEX achieves 62.8 mpg (official NEDC). 2.0 CDTi 170PS ecoFLEX achieves 55.39 - 57.65 UK mpg (WLTP). These are very good figures. Score: 1.00.
+- **co2_g_km**: ecoFLEX models have low CO2 emissions. 1.6 CDTi ecoFLEX is 109 g/km. 2.0 CDTi 130PS ecoFLEX is 119 g/km. 2.0 CDTi 170PS ecoFLEX is 129 g/km. These are very low figures. Score: 1.00.
+- **electrification**: Petrol/Diesel engines only. Score: -1.00.
+- **electric_range_mi**: N/A. Score: -1.00.
+- **charge_speed_kw**: N/A. Score: -1.00.
+- **style_sleek_vs_boxy**: MPV shape, more streamlined than older vans but still fundamentally a box for practicality. Facelifted model has a more modern front end. Score: -0.25.
+- **style_aggression_rating**: Not an aggressive design. Score: -0.75.
+- **style_modernity_rating**: Facelifted model (post-2016) updated the styling to be more modern, but the underlying design is from 2011. It's average compared to today's market. Score: 0.00.
+- **handling_rating**: Praised for being surprisingly agile for an MPV, with decent handling and road-holding. Score: 0.25.
+- **ride_comfort_rating**: Generally considered comfortable, though some found the ride a little firm. Score: 0.25.
+- **cabin_noise_rating**: The 1.6 CDTi is described as a "Whisper" Diesel, noted for noise reduction. Diesel engines can be noisy at speed. Score: 0.50.
+- **shift_smooth_rating**: Manual gearbox is described as reasonably slick-shifting or short and positive, but can feel rubbery. Automatics were offered. Assume average. Score: 0.00.
+- **steering_feel_rating**: Steering is light and easy to manoeuvre, which helps with parking, but lacks feel. UK cars had sharpened steering. Score: 0.00.
+- **adas_score**: Features like Start/Stop are standard on ecoFLEX. Cruise control, Hill Start Assist, ESP, ABS, and Tyre Pressure Monitoring System are standard on trims ecoFLEX was available on (like Tech Line, SE). Optional front camera system (Traffic Sign Recognition, Lane Departure Warning, Forward Collision Alert) and Side Blind Spot Alert were available [RAC review, not in snippets]. OnStar includes automatic crash response. Score: 0.50.
+- **visibility_rating**: Praised for outstanding visibility, especially with the super-slim A-pillars and optional panoramic windscreen. Score: 1.00.
+- **headlight_rating**: LED daytime running lights and front fog lights were standard on trims like Tech Line. Optional Adaptive Forward Lighting LED headlamps were available on higher trims. Likely projector halogens or basic LEDs as standard on ecoFLEX trims. Score: 0.50.
+- **security_rating**: Remote control central deadlocking and electronic engine deadlock immobiliser were standard on trims like Tech Line. Remote ultrasonic alarm system was standard on Tech Line. OnStar includes vehicle tracking system in case of theft and stolen vehicle assistance. Score: 0.75.
+- **screen_in**: Facelifted models (post-2016) got a 7-inch touchscreen. This is below the current market average screen size. Score: -0.25.
+- **infotainment_ux_rating**: Infotainment system was updated in the facelift (R4.0, Navi 4.0/950 IntelliLink), described as improved and easier to use, but some reviews found the newer system hasn't aged well. Score: 0.00.
+- **smartphone_connect_rating**: Facelifted models (post-2016) with IntelliLink systems offered Apple CarPlay and Android Auto compatibility [RAC review, not in snippets]. Bluetooth and USB connection were standard on trims like Tech Line. Score: 1.00.
+- **audio_rating**: Standard audio system with DAB radio and 6 or 7 speakers. Score: 0.00.
+- **usb_ports**: USB connection is standard on trims like Tech Line. Likely 1 or 2 ports. Score: -0.25.
+- **comfort_feature_score**: Features like air conditioning, cruise control, electric front/rear windows, front centre armrest were standard on trims like Tech Line. Score: 0.25.
+- **convenience_feature_score**: Front and rear parking sensors were standard on trims like Tech Line. OnStar includes Wi-Fi hotspot and vehicle diagnostics. Score: 0.75.
+- **brand_prestige_rating**: Vauxhall is a mainstream brand. Score: 0.00.
+- **model_prestige_rating**: Zafira Tourer is a family MPV. Score: 0.00.
+- **trim_prestige_rating**: ecoFLEX is an efficiency variant, not a prestige trim. Score: 0.00.
+- **interior_luxury_rating**: Interior quality improved with the facelift, using softer materials, but not considered luxury. Some interior plastics are not very hardwearing. Score: 0.00.
+- **interior_tech_focus_rating**: Facelift brought updated infotainment (7" touchscreen, CarPlay/Android Auto, Navigation) and OnStar, and available ADAS. Score: 0.50.
+
+```json
+{
+  "price_usd": 1.00,
+  "total_cost_estimate_5yr_usd": 0.75,
+  "insurance_usd_yr": 0.50,
+  "maint_usd_yr": 0.50,
+  "repair_risk_score": -0.25,
+  "hp": -0.75,
+  "torque": 0.00,
+  "cylinder_count": 0.00,
+  "engine_displacement": -0.25,
+  "accel_0_60_sec": -0.75,
+  "top_speed": -0.50,
+  "drive_type": -1.00,
+  "transmission_type": 1.00,
+  "driving_track_vs_gt": 1.00,
+  "offroad_ability": 1.00,
+  "braking_dist_ft": 0.00,
+  "size": 0.10,
+  "wheelbase": 0.00,
+  "body_style": 0.75,
+  "seats": 1.00,
+  "cargo_space": 1.00,
+  "rear_space": 0.25,
+  "ground_clearance_in": -0.25,
+  "turn_radius_ft": 0.00,
+  "mpg": 1.00,
+  "co2_g_km": 1.00,
+  "electrification": -1.00,
+  "electric_range_mi": -1.00,
+  "charge_speed_kw": -1.00,
+  "style_sleek_vs_boxy": -0.25,
+  "style_aggression_rating": -0.75,
+  "style_modernity_rating": 0.00,
+  "handling_rating": 0.25,
+  "ride_comfort_rating": 0.25,
+  "cabin_noise_rating": 0.50,
+  "shift_smooth_rating": 0.00,
+  "steering_feel_rating": 0.00,
+  "adas_score": 0.50,
+  "visibility_rating": 1.00,
+  "headlight_rating": 0.50,
+  "security_rating": 0.75,
+  "screen_in": -0.25,
+  "infotainment_ux_rating": 0.00,
+  "smartphone_connect_rating": 1.00,
+  "audio_rating": 0.00,
+  "usb_ports": -0.25,
+  "comfort_feature_score": 0.25,
+  "convenience_feature_score": 0.75,
+  "brand_prestige_rating": 0.00,
+  "model_prestige_rating": 0.00,
+  "trim_prestige_rating": 0.00,
+  "interior_luxury_rating": 0.00,
+  "interior_tech_focus_rating": 0.50
+}
+```
