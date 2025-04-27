@@ -2,10 +2,11 @@ import json
 import ast
 import re 
 
+data_dim = 53
 res = []
 
 try:
-    with open("data/logs/empty_cars.txt", "w") as logs:
+    with open("data/logs/failed_dataclean.txt", "w") as logs:
         for i in ["data/car_models/Mercedes-Benz.json", "data/car_models/BMW.json", "data/car_models/Audi.json", "data/car_models/Volkswagen.json", "data/car_models/Porsche.json", "data/car_models/Vauxhall.json"]:
             with open(i, "r") as file:
                     for brand, models in json.load(file).items():
@@ -25,7 +26,7 @@ try:
                                         data = data.replace("[", "").replace("]", "")
                                         try:
                                             tmp = list(ast.literal_eval(data).values())
-                                            if len(tmp) == 51 and (False not in list(map(lambda x: abs(x) <= 1, tmp))):
+                                            if len(tmp) == data_dim and (False not in list(map(lambda x: abs(x) <= 1, tmp))):
                                                 res.append(tmp)
                                             else:
                                                 logs.write(f"{[brand, model_name, version]}\n")

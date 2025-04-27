@@ -13,16 +13,22 @@ import numpy as np
 import ast
 import traceback
 import json
+import os
 
 data_dim = 53
 latent_dim = 16
-epochs = 50
-free_bits = 0.5
-max_beta = 0.2
-learning_rate = 1e-3
+epochs = 200
+learning_rate = 1e-2
 
-dataset = "data/training_data2.txt"
+free_bits = 0.01
+max_beta = 1.5
+beta_warmup = 0.65
+
 version = 1
+dataset = "data/training_data2.txt"
+models_used = ["data/car_models/Mercedes-Benz.json", "data/car_models/BMW.json", "data/car_models/Audi.json", "data/car_models/Volkswagen.json", "data/car_models/Porsche.json", "data/car_models/Vauxhall.json"]
+
+cluster_output = "data/logs/clusters.txt"
 
 class KLAnnealingCallback(keras.callbacks.Callback):
     def __init__(self, vae_loss_layer, target_beta, total_epochs, start_epoch=0, warmup_epochs=50):
@@ -42,10 +48,8 @@ class KLAnnealingCallback(keras.callbacks.Callback):
         else:
             current_beta = self.target_beta
 
-        # Assuming your VAELossLayer stores beta as an attribute or you can set it
-        # This requires modifying VAELossLayer slightly
-        self.vae_loss_layer.beta.assign(current_beta) # Use tf.Variable for beta
-        if epoch % 10 == 0: # Print occasionally
+        self.vae_loss_layer.beta.assign(current_beta)
+        if epoch % 10 == 0:
            print(f"\nEpoch {epoch+1}: Setting KL beta to {current_beta:.4f}")
 
 @tf.keras.utils.register_keras_serializable(package="Custom")
@@ -105,17 +109,17 @@ def encoder_architecture(inputs):
     x = layers.Activation("mish")(x)
     x = layers.GaussianDropout(0.2)(x)
 
-    x = layers.Dense(data_dim)(x)
+    x = layers.Dense(128)(x)
     x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
     x = layers.Activation("mish")(x)
     x = layers.GaussianDropout(0.2)(x)
 
-    x = layers.Dense(75)(x)
+    x = layers.Dense(64)(x)
     x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
     x = layers.Activation("mish")(x)
     x = layers.GaussianDropout(0.2)(x)
 
-    x = layers.Dense(75)(x)
+    x = layers.Dense(32)(x)
     x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
     x = layers.Activation("mish")(x)
     x = layers.GaussianDropout(0.2)(x)
@@ -129,17 +133,17 @@ def encoder_architecture(inputs):
 
 def decoder_architecture():
     latent_inputs = keras.Input(shape=(latent_dim,))
-    x = layers.Dense(75)(latent_inputs)
+    x = layers.Dense(32)(latent_inputs)
     x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
     x = layers.Activation("mish")(x)
     x = layers.GaussianDropout(0.2)(x)
 
-    x = layers.Dense(75)(x)
+    x = layers.Dense(64)(x)
     x = layers.BatchNormalization(axis=1, momentum=0.99)(x)
     x = layers.Activation("mish")(x)
     x = layers.GaussianDropout(0.2)(x)
 
-    x = layers.Dense(data_dim)(x)
+    x = layers.Dense(128)(x)
     x = layers.Activation("mish")(x)
 
     x = layers.Dense(data_dim)(x)
@@ -170,11 +174,11 @@ def train_model():
     vae = keras.Model(inputs, outputs, name="vae")
     vae.compile(optimizer=keras.optimizers.Adam(learning_rate=learning_rate))
 
-    kl_annealing_callback = KLAnnealingCallback(vae_loss_layer, target_beta=max_beta, total_epochs=epochs, warmup_epochs=(round(epochs * 0.85)))
+    kl_annealing_callback = KLAnnealingCallback(vae_loss_layer, target_beta=max_beta, total_epochs=epochs, warmup_epochs=(round(epochs * beta_warmup)))
 
     early_stopper = EarlyStopping(
         monitor="val_loss",
-        patience=150,
+        patience=min(epochs/3, 50),
         verbose=1,
         restore_best_weights=True
     )
@@ -182,13 +186,14 @@ def train_model():
     lr_scheduler = ReduceLROnPlateau(
         monitor="val_loss",
         factor=0.5,
-        patience=50,
+        patience=min(epochs/3, 50),
         min_lr=1e-6,
         verbose=1
     )
 
     vae.fit(train_data, epochs=epochs, batch_size=64, shuffle=True, validation_data=(val_data, val_data), callbacks=[kl_annealing_callback, early_stopper, lr_scheduler])
 
+    os.makedirs(os.path.dirname(f"models/{version}"), exist_ok=True)
     encoder.save_weights(f"models/{version}/encoder.weights.h5", overwrite=True)
     decoder.save_weights(f"models/{version}/decoder.weights.h5", overwrite=True)
     vae.save_weights(f"models/{version}/vae.weights.h5", overwrite=True)
@@ -220,7 +225,7 @@ def load_vae():
     vae.load_weights(f"models/{version}/vae.weights.h5")
     return vae
 
-def visualize_latent_space(encoder, data, labels, fig):
+def evaluate_encoder(encoder, data, labels, fig):
     z_mean, _, _ = encoder.predict(data, batch_size=64)
     labels = labels[:len(data)]
 
@@ -229,8 +234,9 @@ def visualize_latent_space(encoder, data, labels, fig):
     printlist = [[] for i in range(round(np.sqrt(len(data)/2)))]
     for i in range(len(labels)):
         printlist[cluster_labels[i]].append(labels[i])
-    for i in printlist:
-        print(i)
+    with open(cluster_output, "w") as file:
+        for i in printlist:
+            file.write(f"{str(i)}\n")
 
     reducer = PCA(n_components=3)
     z_3d_pca = reducer.fit_transform(z_mean)
@@ -239,7 +245,7 @@ def visualize_latent_space(encoder, data, labels, fig):
     z_3d_tsne = reducer.fit_transform(z_mean)
 
     ax = fig.add_subplot(221, projection="3d")
-    ax.scatter(z_3d_pca[:, 0], z_3d_pca[:, 1], z_3d_pca[:, 2], s=3, alpha=0.6, c=cluster_labels, cmap="tab10")
+    ax.scatter(z_3d_pca[:, 0], z_3d_pca[:, 1], z_3d_pca[:, 2], s=3, alpha=0.6, c=cluster_labels, cmap="tab20")
     for i, label in enumerate(labels):
         if i % 75 == 0:
             ax.text(z_3d_pca[i, 0], z_3d_pca[i, 1], z_3d_pca[i, 2], str(label), fontsize=6, alpha=0.7)
@@ -249,7 +255,7 @@ def visualize_latent_space(encoder, data, labels, fig):
     ax.set_zlabel("Component 3")
 
     ax = fig.add_subplot(222, projection="3d")
-    ax.scatter(z_3d_tsne[:, 0], z_3d_tsne[:, 1], z_3d_tsne[:, 2], s=3, alpha=0.6, c=cluster_labels, cmap="tab10")
+    ax.scatter(z_3d_tsne[:, 0], z_3d_tsne[:, 1], z_3d_tsne[:, 2], s=3, alpha=0.6, c=cluster_labels, cmap="tab20")
     for i, label in enumerate(labels):
         if i % 75 == 0:
             ax.text(z_3d_tsne[i, 0], z_3d_tsne[i, 1], z_3d_tsne[i, 2], str(label), fontsize=6, alpha=0.7)
@@ -290,9 +296,9 @@ def load_model():
     return load_vae(), load_encoder(), load_decoder()
 
 def get_trims():
-    avoid = [i.strip() for i in open("data/logs/empty_cars.txt").readlines()]
+    avoid = [i.strip() for i in open("data/logs/failed_dataclean.txt").readlines()]
     res = []
-    for i in ["data/car_models/Mercedes-Benz.json", "data/car_models/BMW.json", "data/car_models/Audi.json", "data/car_models/Volkswagen.json", "data/car_models/Porsche.json", "data/car_models/Vauxhall.json"]: #glob.glob("data/car_models/**.json", recursive=True):
+    for i in models_used:
         with open(i, "r") as file:
             for brand, models in json.load(file).items():
                 for model in models:
@@ -303,14 +309,14 @@ def get_trims():
     return res
 
 try:
-    # train_model()
+    train_model()
 
     vae, encoder, decoder = load_model()
     raw_data = np.array(ast.literal_eval(open(dataset).readline()))
     
     fig = plt.figure(figsize=(8,8))
 
-    visualize_latent_space(encoder, raw_data, get_trims(), fig)
+    evaluate_encoder(encoder, raw_data, get_trims(), fig)
     analyze_latent_dimensions(encoder, raw_data, fig)
 
     plt.tight_layout()
