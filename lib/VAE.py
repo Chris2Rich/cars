@@ -15,7 +15,7 @@ import traceback
 import json
 import os
 
-data_dim = 53
+data_dim = 55
 latent_dim = 16
 epochs = 200
 learning_rate = 1e-2

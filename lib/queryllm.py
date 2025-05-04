@@ -22,6 +22,8 @@ system_prompt_spec_score = ""
 with open("lib/prompt.txt", "r", encoding="utf-8") as file:
     system_prompt_spec_score = "".join(file.readlines())
 
+data_source = ["data/car_models/Mercedes-Benz.json", "data/car_models/BMW.json", "data/car_models/Audi.json", "data/car_models/Volkswagen.json", "data/car_models/Porsche.json", "data/car_models/Vauxhall.json"]
+
 execution_enabled = threading.Event()
 execution_enabled.set()
 
@@ -102,7 +104,7 @@ with open("data/logs/failed_queryllm.txt", "w") as fail_log:
     with concurrent.futures.ThreadPoolExecutor(max_workers=64) as executor:
         futures = []
 
-        for i in ["data/car_models/Mercedes-Benz.json", "data/car_models/BMW.json", "data/car_models/Audi.json", "data/car_models/Volkswagen.json", "data/car_models/Porsche.json", "data/car_models/Vauxhall.json"]: #glob.glob("data/car_models/**.json", recursive=True):
+        for i in data_source: #glob.glob("data/car_models/**.json", recursive=True):
             with open(i, "r") as file:
                 for brand, models in json.load(file).items():
                     for model in models:

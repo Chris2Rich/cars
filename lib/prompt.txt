@@ -15,6 +15,7 @@ class data(BaseModel):
     top_speed: float
     drive_type: float
     transmission_type: float
+    tuneability: float
     driving_track_vs_gt: float
     offroad_ability: float
     braking_dist_ft: float
@@ -138,6 +139,11 @@ All outputs must be **scored** on the -1.00 to +1.00 scale, using 2 decimal plac
       -1.00: Manual / Sequential Transmission
       0.00: Dual-Clutch Transmission
       +1.00: Automatic Transmission
+
+  tuneability
+      -1.00: Very tuneable (Mk 4 Toyota Supra, very strong engine that can take a lot of power)
+      0.00: Average tuneability (Nissan 350Z, good aftermarket support)
+      +1.00: Not tuneable (Mitsubishi Mirage small, weak engine, naturally aspirated)
 
   driving_track_vs_gt
       -1.00: Track (Ultra high performance)
