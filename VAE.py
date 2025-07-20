@@ -15,7 +15,7 @@ import traceback
 import json
 import os
 
-data_dim = 55
+data_dim = 20
 latent_dim = 16
 epochs = 200
 learning_rate = 1e-2
@@ -26,9 +26,41 @@ beta_warmup = 0.65
 
 version = 1
 dataset = "data/training_data2.txt"
-models_used = ["data/car_models/Mercedes-Benz.json", "data/car_models/BMW.json", "data/car_models/Audi.json", "data/car_models/Volkswagen.json", "data/car_models/Porsche.json", "data/car_models/Vauxhall.json"]
+models_used = ["data/car_models/Mercedes-Benz.json"]
 
 cluster_output = "data/logs/clusters.txt"
+
+class StochasticWeightAveragingCallback(tf.keras.callbacks.Callback):
+    def __init__(self, start_epoch=100):
+        super().__init__()
+        self.start_epoch = start_epoch
+        self.averaged_weights = None
+        self.num_models = 0
+
+    def on_epoch_end(self, epoch, logs=None):
+        if epoch < self.start_epoch:
+            return
+
+        current_weights = self.model.get_weights()
+
+        if self.averaged_weights is None:
+            # Initialize with current weights
+            self.averaged_weights = [np.copy(w) for w in current_weights]
+        else:
+            # Update simple average
+            for i in range(len(self.averaged_weights)):
+                self.averaged_weights[i] = (
+                    self.averaged_weights[i] * self.num_models + current_weights[i]
+                ) / (self.num_models + 1)
+
+        self.num_models += 1
+
+    def on_train_end(self, logs=None):
+        if self.averaged_weights is not None:
+            print(f"✅ Applying SMA weights from {self.num_models} epochs.")
+            self.model.set_weights(self.averaged_weights)
+        else:
+            print("⚠️ No SMA applied — training ended before start_epoch.")
 
 class KLAnnealingCallback(keras.callbacks.Callback):
     def __init__(self, vae_loss_layer, target_beta, total_epochs, start_epoch=0, warmup_epochs=50):
@@ -174,13 +206,14 @@ def train_model():
     vae = keras.Model(inputs, outputs, name="vae")
     vae.compile(optimizer=keras.optimizers.Adam(learning_rate=learning_rate))
 
+    sma_callback = StochasticWeightAveragingCallback(start_epoch=int(epochs * 0.5))
     kl_annealing_callback = KLAnnealingCallback(vae_loss_layer, target_beta=max_beta, total_epochs=epochs, warmup_epochs=(round(epochs * beta_warmup)))
 
     early_stopper = EarlyStopping(
         monitor="val_loss",
-        patience=min(epochs/3, 50),
+        patience=min(epochs/3, 75),
         verbose=1,
-        restore_best_weights=True
+        restore_best_weights=False
     )
 
     lr_scheduler = ReduceLROnPlateau(
@@ -191,7 +224,7 @@ def train_model():
         verbose=1
     )
 
-    vae.fit(train_data, epochs=epochs, batch_size=64, shuffle=True, validation_data=(val_data, val_data), callbacks=[kl_annealing_callback, early_stopper, lr_scheduler])
+    vae.fit(train_data, epochs=epochs, batch_size=64, shuffle=True, validation_data=(val_data, val_data), callbacks=[sma_callback, kl_annealing_callback, early_stopper, lr_scheduler])
 
     os.makedirs(os.path.dirname(f"models/{version}"), exist_ok=True)
     encoder.save_weights(f"models/{version}/encoder.weights.h5", overwrite=True)
