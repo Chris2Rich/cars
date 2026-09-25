@@ -109,9 +109,9 @@ class VAELossLayer(layers.Layer):
         recon_loss = tf.reduce_mean(tf.square(x - x_decoded))
 
         # KL divergence
-        kl_per_dim = -0.5 * K.sum(1 + z_log_var - K.square(z_mean) - K.exp(z_log_var), axis=1)
-        kl_per_dim = tf.maximum(kl_per_dim, free_bits)
-        kl_loss = K.mean(kl_per_dim)
+        kl_elementwise = -0.5 * (1 + z_log_var - K.square(z_mean) - K.exp(z_log_var))
+        kl_clamped = tf.maximum(kl_elementwise, free_bits)
+        kl_loss = K.mean(K.sum(kl_clamped, axis=1))
 
         self.total_loss_tracker.update_state(recon_loss + (self.beta * kl_loss))
         self.recon_loss_tracker.update_state(recon_loss)
